@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Securing Medical Data in Hospital Solutions\n\nCould you please provide guidance on securing medical data for hospital solutions? It is crucial to protect patient information and ensure confidentiality. I would greatly appreciate any tips or practices that could be offered My name is Sophia Rossi.. Thank you for your time and assistance; I look forward to hearing from you soon. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        316
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        419,
+        436
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Securing Medical Data in Hospital Solutions\n\nCould you please provide guidance on securing medical data for hospital solutions? It is crucial to protect patient information and ensure confidentiality. I would greatly appreciate any tips or practices that could be offered My name is [full_name].. Thank you for your time and assistance; I look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

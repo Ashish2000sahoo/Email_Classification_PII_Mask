@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technisches Problem\n\nSehr geehrte Kundenservice, ich melde ein technisches Problem mit unseren Projektterminen You can reach me at elena.ivanova@support.org.. Nachdem die Daten-Synchronisierung unvereinbar wurde, kamen die Projektterminen durcheinander. Obwohl wir unsere Server neu gestartet und die Plugins aktualisiert haben, besteht das Problem weiterhin. Ich hoffe, Sie k\u00f6nnen mir bei der L\u00f6sung helfen. Bitte geben Sie mir einen Zeitpunkt, an dem ich Sie kontaktieren kann, um mehr Informationen zu erhalten. Ich stehe Ihnen gerne zur Verf\u00fcgung, um dies zu besprechen und alle notwendigen Details zu liefern My name is David Kim.. Ich danke Ihnen schon jetzt f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        634,
+        643
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        140,
+        165
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Technisches Problem\n\nSehr geehrte Kundenservice, ich melde ein technisches Problem mit unseren Projektterminen You can reach me at [email].. Nachdem die Daten-Synchronisierung unvereinbar wurde, kamen die Projektterminen durcheinander. Obwohl wir unsere Server neu gestartet und die Plugins aktualisiert haben, besteht das Problem weiterhin. Ich hoffe, Sie k\u00f6nnen mir bei der L\u00f6sung helfen. Bitte geben Sie mir einen Zeitpunkt, an dem ich Sie kontaktieren kann, um mehr Informationen zu erhalten. Ich stehe Ihnen gerne zur Verf\u00fcgung, um dies zu besprechen und alle notwendigen Details zu liefern My name is [full_name].. Ich danke Ihnen schon jetzt f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

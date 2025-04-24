@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with optimizing cloud infrastructure costs\n\nDear IT Services support team, \n\nI am writing to request your assistance with optimizing our cloud infrastructure costs and enabling efficient cloud service management in our AWS account My name is Elena Ivanova.. We have been analyzing our expenses and noticed a need for better cost management You can reach me at fatima.farsi@help.com.. The product we are using is AWS Management Service. Could you please provide guidance or resources to help us achieve this? We are eager to implement strategies that will enhance our operational efficiency and reduce unnecessary costs.\n\nThank you for your support. We look forward to your prompt response.\n\nBest regards, \n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        378,
+        399
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with optimizing cloud infrastructure costs\n\nDear IT Services support team, \n\nI am writing to request your assistance with optimizing our cloud infrastructure costs and enabling efficient cloud service management in our AWS account My name is [full_name].. We have been analyzing our expenses and noticed a need for better cost management You can reach me at [email].. The product we are using is AWS Management Service. Could you please provide guidance or resources to help us achieve this? We are eager to implement strategies that will enhance our operational efficiency and reduce unnecessary costs.\n\nThank you for your support. We look forward to your prompt response.\n\nBest regards, \n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Request"
+}

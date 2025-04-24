@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mehrerer Guthabenabrechnungen\n\nSehr geehrte Kundenservice-, ich m\u00f6chte Ihnen das Problem mit den letzten Rechnungen melden. Es wurde unerwartet mehrere Softwareprodukte abgerechnet, darunter Sophos Home und Microsoft Teams. Diese Abrechnungen k\u00f6nnten Abrechnungsfehler oder doppelte Guthaben sein You can reach me at carlosm@gmail.com.. Sie haben bereits die Kundenservice kontaktiert und die Rechnungen \u00fcberpr\u00fcft, jedoch blieb das Problem ungel\u00f6st My name is Carlos Mendoza.. Ich sch\u00e4tze, Sie w\u00fcrden sich beeilen, um die Abrechnungsfehler zu korrigieren. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Ich stehe Ihnen gerne zur Verf\u00fcgung, um diese Angelegenheit zu besprechen. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        478,
+        492
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        335,
+        352
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mehrerer Guthabenabrechnungen\n\nSehr geehrte Kundenservice-, ich m\u00f6chte Ihnen das Problem mit den letzten Rechnungen melden. Es wurde unerwartet mehrere Softwareprodukte abgerechnet, darunter Sophos Home und Microsoft Teams. Diese Abrechnungen k\u00f6nnten Abrechnungsfehler oder doppelte Guthaben sein You can reach me at [email].. Sie haben bereits die Kundenservice kontaktiert und die Rechnungen \u00fcberpr\u00fcft, jedoch blieb das Problem ungel\u00f6st My name is [full_name].. Ich sch\u00e4tze, Sie w\u00fcrden sich beeilen, um die Abrechnungsfehler zu korrigieren. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Ich stehe Ihnen gerne zur Verf\u00fcgung, um diese Angelegenheit zu besprechen. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

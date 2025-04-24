@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Issue with Data Analytics Platform During Investment Optimization\n\nDear Customer Support,\\n\\nI am writing to report an issue with the data analytics platform that occurred during investment optimization. The platform froze, and I was unable to continue my work.\\n\\nThe issue might have occurred due to insufficient computational resources allocated to the platform. I have tried restarting the system and checking for updates, but the problem persists.\\n\\nHere are the details of the issue:\\n\\n* What happened: Data analytics platform froze during investment optimization.\\n* Why it might have occurred: Insufficient computational resources allocated.\\n* What was tried so far: Restarted system, checked for updates.\\n\\nI would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is Sophia Rossi.. Please let me know if there is any additional information you need from me to resolve this issue.\\n\\nThank you for your time and assistance.\\n\\nSincerely,\\n[Your Name] You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        858,
+        870
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1060,
+        1081
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Issue with Data Analytics Platform During Investment Optimization\n\nDear Customer Support,\\n\\nI am writing to report an issue with the data analytics platform that occurred during investment optimization. The platform froze, and I was unable to continue my work.\\n\\nThe issue might have occurred due to insufficient computational resources allocated to the platform. I have tried restarting the system and checking for updates, but the problem persists.\\n\\nHere are the details of the issue:\\n\\n* What happened: Data analytics platform froze during investment optimization.\\n* Why it might have occurred: Insufficient computational resources allocated.\\n* What was tried so far: Restarted system, checked for updates.\\n\\nI would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is [full_name].. Please let me know if there is any additional information you need from me to resolve this issue.\\n\\nThank you for your time and assistance.\\n\\nSincerely,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

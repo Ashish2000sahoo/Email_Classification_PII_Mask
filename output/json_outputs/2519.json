@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Attention Required for Medical Data Security\n\nCustomer Support, please address the urgent need to implement enhanced security measures for medical data protection in hospital systems You can reach me at carlosm@gmail.com.. Recent service outages across multiple products have compromised the integrity of sensitive medical information, posing a risk to patient safety. We request immediate action to rectify the situation and ensure the security of medical data My name is John Doe.. This includes conducting a thorough investigation into the cause of outages and implementing robust security measures.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        489,
+        497
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        219,
+        236
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Attention Required for Medical Data Security\n\nCustomer Support, please address the urgent need to implement enhanced security measures for medical data protection in hospital systems You can reach me at [email].. Recent service outages across multiple products have compromised the integrity of sensitive medical information, posing a risk to patient safety. We request immediate action to rectify the situation and ensure the security of medical data My name is [full_name].. This includes conducting a thorough investigation into the cause of outages and implementing robust security measures.",
+  "category_of_the_email": "Incident"
+}

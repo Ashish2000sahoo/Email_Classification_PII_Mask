@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent: Unauthorized Access Attempt on Hospital IT Network Identified\n\nAn unauthorized access attempt on the hospital's IT network has been detected, which elevates the risk to medical data security. The antivirus software has been updated, and a network vulnerability assessment has been carried out.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        333,
+        348
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Unauthorized Access Attempt on Hospital IT Network Identified\n\nAn unauthorized access attempt on the hospital's IT network has been detected, which elevates the risk to medical data security. The antivirus software has been updated, and a network vulnerability assessment has been carried out.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

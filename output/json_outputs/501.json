@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Securing Medical Data\n\nCustomer Support, we have an inquiry regarding the securing of medical data for our Smart-H\u00f6rger\u00e4t products. Could you provide some guidance on best practices for protecting sensitive medical information? We would greatly appreciate any recommendations or resources that can help ensure the confidentiality and integrity of the data. Specifically, we are interested in learning about encryption methods, access controls, and data storage solutions. Please let us know about your expertise and experience in this area You can reach me at fatima.farsi@help.com.. Thank you for your time and assistance. We look forward to hearing from you. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        693,
+        707
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        581,
+        602
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Securing Medical Data\n\nCustomer Support, we have an inquiry regarding the securing of medical data for our Smart-H\u00f6rger\u00e4t products. Could you provide some guidance on best practices for protecting sensitive medical information? We would greatly appreciate any recommendations or resources that can help ensure the confidentiality and integrity of the data. Specifically, we are interested in learning about encryption methods, access controls, and data storage solutions. Please let us know about your expertise and experience in this area You can reach me at [email].. Thank you for your time and assistance. We look forward to hearing from you. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

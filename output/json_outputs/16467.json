@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Missing Project Information in OneNote\n\nHello customer support, I am encountering a problem where my project information is gone from OneNote You can reach me at johndoe@email.com.. I believe it could be due to an integration problem between JIRA and Zapier. I have already tried rebooting the Intel Optane and verifying the Microsoft Teams synchronization, yet the issue remains unresolved My name is Omar Hassan.. I would greatly appreciate any help in resolving this. Kindly let me know if you need more details from me to look into this further.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        411,
+        422
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        171,
+        188
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Missing Project Information in OneNote\n\nHello customer support, I am encountering a problem where my project information is gone from OneNote You can reach me at [email].. I believe it could be due to an integration problem between JIRA and Zapier. I have already tried rebooting the Intel Optane and verifying the Microsoft Teams synchronization, yet the issue remains unresolved My name is [full_name].. I would greatly appreciate any help in resolving this. Kindly let me know if you need more details from me to look into this further.",
+  "category_of_the_email": "Incident"
+}

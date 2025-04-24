@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Beschwerde \u00fcber gravierende St\u00f6rungen der digitalen Marketingstrategie aufgrund von Kompatibilit\u00e4tsproblemen mit der Software\n\nIch melde eine gravierende St\u00f6rung meiner digitalen Marketingstrategie aufgrund von Kompatibilit\u00e4tsproblemen mit der Software. Es k\u00f6nnte sein, dass die neuesten Updates wichtiger Anwendungen die Ursache sind You can reach me at janesmith@company.com.. Ich habe versucht, die betroffene Software zu deinstallieren und die Treiber f\u00fcr mein Ger\u00e4t zu aktualisieren, aber das Problem beharrt trotzdem My name is Sophia Rossi.. Ich sch\u00e4tze Ihre Hilfe bei der L\u00f6sung dieses Problems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        543,
+        555
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        364,
+        385
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Beschwerde \u00fcber gravierende St\u00f6rungen der digitalen Marketingstrategie aufgrund von Kompatibilit\u00e4tsproblemen mit der Software\n\nIch melde eine gravierende St\u00f6rung meiner digitalen Marketingstrategie aufgrund von Kompatibilit\u00e4tsproblemen mit der Software. Es k\u00f6nnte sein, dass die neuesten Updates wichtiger Anwendungen die Ursache sind You can reach me at [email].. Ich habe versucht, die betroffene Software zu deinstallieren und die Treiber f\u00fcr mein Ger\u00e4t zu aktualisieren, aber das Problem beharrt trotzdem My name is [full_name].. Ich sch\u00e4tze Ihre Hilfe bei der L\u00f6sung dieses Problems.",
+  "category_of_the_email": "Incident"
+}

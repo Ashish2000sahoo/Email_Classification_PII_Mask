@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with WhatsApp Desktop\n\nExperienced technical difficulties during the WhatsApp Desktop marketing campaign coordination call My name is Elena Ivanova.. The issue might have arisen from software updates You can reach me at david.kim@corp.kr.. I have tried reinstalling the application and rebooting my system, but the problem still persists. Please assist in resolving this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        164
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        235,
+        252
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with WhatsApp Desktop\n\nExperienced technical difficulties during the WhatsApp Desktop marketing campaign coordination call My name is [full_name].. The issue might have arisen from software updates You can reach me at [email].. I have tried reinstalling the application and rebooting my system, but the problem still persists. Please assist in resolving this matter.",
+  "category_of_the_email": "Incident"
+}

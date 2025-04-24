@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Marketing Campaigns Have Halted\n\nA brief description of the situation: Marketing campaigns are halted due to technical difficulties. The campaign data vanished abruptly. It could be due to a software malfunction or incompatibility You can reach me at sophia.rossi@service.it.. Steps taken include restarting the systems and verifying for recent updates. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        374,
+        388
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        260,
+        283
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Marketing Campaigns Have Halted\n\nA brief description of the situation: Marketing campaigns are halted due to technical difficulties. The campaign data vanished abruptly. It could be due to a software malfunction or incompatibility You can reach me at [email].. Steps taken include restarting the systems and verifying for recent updates. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

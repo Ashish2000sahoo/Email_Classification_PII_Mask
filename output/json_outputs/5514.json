@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Benutzeroberfl\u00e4che\n\nSehr geehrte Kundensupport, ich m\u00f6chte eine Erweiterung der Benutzeroberfl\u00e4che f\u00fcr unser Projektmanagement-Software-System bitten. Obwohl das aktuelle Design funktional ist, ist es f\u00fcr neue Nutzer extrem schwierig zu navigieren. Um die Benutzerfreundlichkeit und die Zug\u00e4nglichkeit zu verbessern, schlage ich vor, eine intuitivere Layoutstruktur, klar und pr\u00e4gnante Bezeichnungen sowie die Implementierung von Funktionen wie Tooltips und interaktive Leitf\u00e4den vor. Dar\u00fcber hinaus w\u00e4re die Einf\u00fchrung eines Hign-Contrast-Modus und der Kompatibilit\u00e4t mit Screen Readers f\u00fcr Nutzer mit Behinderungen von gro\u00dfer Nutzen You can reach me at janesmith@company.com.. Diese Verbesserungen w\u00fcrden die Gesamtnutzererfahrung verbessern und Produktivit\u00e4t f\u00f6rdern. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        808,
+        818
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        681,
+        702
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Benutzeroberfl\u00e4che\n\nSehr geehrte Kundensupport, ich m\u00f6chte eine Erweiterung der Benutzeroberfl\u00e4che f\u00fcr unser Projektmanagement-Software-System bitten. Obwohl das aktuelle Design funktional ist, ist es f\u00fcr neue Nutzer extrem schwierig zu navigieren. Um die Benutzerfreundlichkeit und die Zug\u00e4nglichkeit zu verbessern, schlage ich vor, eine intuitivere Layoutstruktur, klar und pr\u00e4gnante Bezeichnungen sowie die Implementierung von Funktionen wie Tooltips und interaktive Leitf\u00e4den vor. Dar\u00fcber hinaus w\u00e4re die Einf\u00fchrung eines Hign-Contrast-Modus und der Kompatibilit\u00e4t mit Screen Readers f\u00fcr Nutzer mit Behinderungen von gro\u00dfer Nutzen You can reach me at [email].. Diese Verbesserungen w\u00fcrden die Gesamtnutzererfahrung verbessern und Produktivit\u00e4t f\u00f6rdern. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

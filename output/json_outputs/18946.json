@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reporting Technical Issue with Applications\n\nFacing crashes during multiple application uploads.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Reporting Technical Issue with Applications\n\nFacing crashes during multiple application uploads.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Project Support\n\nMultiple users are experiencing difficulties accessing the project management tools following recent service outages and infrastructure updates.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        220
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for Project Support\n\nMultiple users are experiencing difficulties accessing the project management tools following recent service outages and infrastructure updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Integrating DataRobot with SaaS Project Management Platform\n\nHello Customer Support, we are inquiring about the process of integrating the DataRobot SaaS project management platform My name is Carlos Mendoza.. Our goal is to leverage DataRobot's capabilities to enhance our project management You can reach me at janesmith@company.com.. Could you provide detailed information on the integration process, including necessary documentation, APIs, and developer resources? We would greatly appreciate any guidance on how to start and any potential challenges we may face. Additionally, could you provide details on how integrating the DataRobot platform could benefit us and improve our operations?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        339,
+        360
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Integrating DataRobot with SaaS Project Management Platform\n\nHello Customer Support, we are inquiring about the process of integrating the DataRobot SaaS project management platform My name is [full_name].. Our goal is to leverage DataRobot's capabilities to enhance our project management You can reach me at [email].. Could you provide detailed information on the integration process, including necessary documentation, APIs, and developer resources? We would greatly appreciate any guidance on how to start and any potential challenges we may face. Additionally, could you provide details on how integrating the DataRobot platform could benefit us and improve our operations?",
+  "category_of_the_email": "Request"
+}

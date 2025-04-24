@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Demande d'\u00e9change en raison de probl\u00e8mes de connectivit\u00e9\n\nCher support du magasin en ligne Tech,\n\nJ'esp\u00e8re que ce message vous trouve bien. J'ai r\u00e9cemment achet\u00e9 une imprimante Epson EcoTank ET-4760 dans votre magasin sous le num\u00e9ro de compte <acc_num> My name is John Doe.. Malheureusement, j'ai rencontr\u00e9 des probl\u00e8mes de compatibilit\u00e9 avec mon r\u00e9seau sans fil, rendant impossible la connexion de l'imprimante. Ce probl\u00e8me a rendu l'imprimante inutilisable pour ma configuration actuelle.\n\nEn tant que client fid\u00e8le, je demande respectueusement un \u00e9change contre un mod\u00e8le d'imprimante compatible ou des conseils sur des solutions alternatives You can reach me at johndoe@email.com.. Veuillez me faire savoir les prochaines \u00e9tapes concernant le processus d'\u00e9change, ainsi que les instructions d'exp\u00e9dition.\n\nMerci de votre compr\u00e9hension et de votre attention rapide \u00e0 ma demande.\n\nCordialement,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        281
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        678,
+        695
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        203,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Demande d'\u00e9change en raison de probl\u00e8mes de connectivit\u00e9\n\nCher support du magasin en ligne Tech,\n\nJ'esp\u00e8re que ce message vous trouve bien. J'ai r\u00e9cemment achet\u00e9 une imprimante Epson EcoTank ET-[phone_number] dans votre magasin sous le num\u00e9ro de compte <acc_num> My name is [full_name].. Malheureusement, j'ai rencontr\u00e9 des probl\u00e8mes de compatibilit\u00e9 avec mon r\u00e9seau sans fil, rendant impossible la connexion de l'imprimante. Ce probl\u00e8me a rendu l'imprimante inutilisable pour ma configuration actuelle.\n\nEn tant que client fid\u00e8le, je demande respectueusement un \u00e9change contre un mod\u00e8le d'imprimante compatible ou des conseils sur des solutions alternatives You can reach me at [email].. Veuillez me faire savoir les prochaines \u00e9tapes concernant le processus d'\u00e9change, ainsi que les instructions d'exp\u00e9dition.\n\nMerci de votre compr\u00e9hension et de votre attention rapide \u00e0 ma demande.\n\nCordialement,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

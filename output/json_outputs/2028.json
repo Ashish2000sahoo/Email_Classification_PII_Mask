@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Informationen zur Sicherheit medizinischer Daten\n\nSehr geehrte Kundenservice, es w\u00e4re mir sehr important, Informationen zu erhalten \u00fcber die verf\u00fcgbaren Sicherheitsma\u00dfnahmen in Bezug auf die Speicherung medizinischer Daten und die Schutzma\u00dfnahmen f\u00fcr die IT-Infrastruktur der Krankenh\u00e4user. Medizinische Daten sind sehr sensible und starke Sicherheitsma\u00dfnahmen sind notwendig, um unautorisierten Zugriff und Datenverluste zu verhindern You can reach me at omar.hassan@secure.net.. Ich m\u00f6chte gerne erfahren, welche Ma\u00dfnahmen in Kraft sind, um diese Daten zu sch\u00fctzen. Sind Verschl\u00fcsselungsverfahren eingesetzt? Welche Feuerw\u00e4nde und Eindringlingsalarmanlagen sind vorhanden? Welche Zugriffskontrollen und Authentifizierungsprotokolle verf\u00fcgen wir? Ich m\u00f6chte auch erfahren, welche physischen Sicherheitsma\u00dfnahmen in den Datenzentren, in denen die medizinischen Daten gespeichert werden, in Kraft sind. Sind die Server und Speicherger\u00e4te vor physischen Manipulationen und unerlaubtem Zugriff gesch\u00fctzt? Ich w\u00fcrde mich sehr freuen, wenn Sie mir detaillierte Informationen \u00fcber die Sicherheitsma\u00dfnahmen zur Verf\u00fcgung stellen k\u00f6nnten. Ich freue mich auf Ihre R\u00fcckmeldung My name is Liu Wei.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1187,
+        1194
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        465,
+        487
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Informationen zur Sicherheit medizinischer Daten\n\nSehr geehrte Kundenservice, es w\u00e4re mir sehr important, Informationen zu erhalten \u00fcber die verf\u00fcgbaren Sicherheitsma\u00dfnahmen in Bezug auf die Speicherung medizinischer Daten und die Schutzma\u00dfnahmen f\u00fcr die IT-Infrastruktur der Krankenh\u00e4user. Medizinische Daten sind sehr sensible und starke Sicherheitsma\u00dfnahmen sind notwendig, um unautorisierten Zugriff und Datenverluste zu verhindern You can reach me at [email].. Ich m\u00f6chte gerne erfahren, welche Ma\u00dfnahmen in Kraft sind, um diese Daten zu sch\u00fctzen. Sind Verschl\u00fcsselungsverfahren eingesetzt? Welche Feuerw\u00e4nde und Eindringlingsalarmanlagen sind vorhanden? Welche Zugriffskontrollen und Authentifizierungsprotokolle verf\u00fcgen wir? Ich m\u00f6chte auch erfahren, welche physischen Sicherheitsma\u00dfnahmen in den Datenzentren, in denen die medizinischen Daten gespeichert werden, in Kraft sind. Sind die Server und Speicherger\u00e4te vor physischen Manipulationen und unerlaubtem Zugriff gesch\u00fctzt? Ich w\u00fcrde mich sehr freuen, wenn Sie mir detaillierte Informationen \u00fcber die Sicherheitsma\u00dfnahmen zur Verf\u00fcgung stellen k\u00f6nnten. Ich freue mich auf Ihre R\u00fcckmeldung My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

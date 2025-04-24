@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Encryption Faced Unexpected Issues\n\nThe security software experienced a glitch during the most recent update You can reach me at sophia.rossi@service.it.. It might be due to outdated dependencies or an incorrect configuration My name is Liu Wei.. Steps taken so far include restarting the systems, reviewing the logs, and validating the settings.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        259,
+        266
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        151,
+        174
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Encryption Faced Unexpected Issues\n\nThe security software experienced a glitch during the most recent update You can reach me at [email].. It might be due to outdated dependencies or an incorrect configuration My name is [full_name].. Steps taken so far include restarting the systems, reviewing the logs, and validating the settings.",
+  "category_of_the_email": "Incident"
+}

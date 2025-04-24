@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt f\u00fcr die Einrichtung des HP DeskJet 3755\n\nSehr geehrter Kundenservice,\n\nich habe k\u00fcrzlich den HP DeskJet 3755 in Ihrem Gesch\u00e4ft gekauft und ben\u00f6tige Unterst\u00fctzung bei der Einrichtung der drahtlosen Druckfunktion in meinem Homeoffice. Obwohl ich die anf\u00e4ngliche Anleitung befolgt habe, habe ich Schwierigkeiten, den Drucker mit meinem Wi-Fi-Netzwerk zu verbinden You can reach me at janesmith@company.com.. Ihr schnelles Feedback zur korrekten Konfiguration der drahtlosen Einstellungen oder jegliche verf\u00fcgbaren Unterst\u00fctzungsressourcen w\u00e4re sehr willkommen. Bitte lassen Sie mich wissen, wie ich bei der Fehlersuche fortfahren kann. Z\u00f6gern Sie nicht, mich f\u00fcr weitere Details zu kontaktieren.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        798,
+        807
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        405,
+        426
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        59,
+        63
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        128,
+        132
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt f\u00fcr die Einrichtung des HP DeskJet [phone_number]\n\nSehr geehrter Kundenservice,\n\nich habe k\u00fcrzlich den HP DeskJet [phone_number] in Ihrem Gesch\u00e4ft gekauft und ben\u00f6tige Unterst\u00fctzung bei der Einrichtung der drahtlosen Druckfunktion in meinem Homeoffice. Obwohl ich die anf\u00e4ngliche Anleitung befolgt habe, habe ich Schwierigkeiten, den Drucker mit meinem Wi-Fi-Netzwerk zu verbinden You can reach me at [email].. Ihr schnelles Feedback zur korrekten Konfiguration der drahtlosen Einstellungen oder jegliche verf\u00fcgbaren Unterst\u00fctzungsressourcen w\u00e4re sehr willkommen. Bitte lassen Sie mich wissen, wie ich bei der Fehlersuche fortfahren kann. Z\u00f6gern Sie nicht, mich f\u00fcr weitere Details zu kontaktieren.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

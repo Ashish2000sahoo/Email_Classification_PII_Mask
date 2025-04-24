@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Sage Accounting Integration Details\n\nInquiring about integrating Sage Accounting into our project management SaaS. Could you provide detailed information on the integration process, its benefits, the setup procedure, and potential costs? I would greatly appreciate any information that could help us streamline our accounting and project management processes My name is Maria Gonzalez.. Specifically, I am interested in learning about the available APIs and plugins for integration, as well as any tutorials or guides that could assist us. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        391,
+        405
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        578,
+        600
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Sage Accounting Integration Details\n\nInquiring about integrating Sage Accounting into our project management SaaS. Could you provide detailed information on the integration process, its benefits, the setup procedure, and potential costs? I would greatly appreciate any information that could help us streamline our accounting and project management processes My name is [full_name].. Specifically, I am interested in learning about the available APIs and plugins for integration, as well as any tutorials or guides that could assist us. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Login Issues with Office 365\n\nDear Tech Online Store Customer Support,\n\nI am writing to report a login issue with my Microsoft Office 365 account You can reach me at elena.ivanova@support.org.. I am unable to access my emails and cloud services due to this issue, which has been affecting my work. I have verified my credentials, and they are correct. Despite this, the problem persists.\n\nCould you please assist me in resolving this matter urgently? My account username is <name>, and my account number is <acc_num>. Additionally, if necessary, feel free to reach me at <tel_num>.\n\nThank you for your prompt attention to this problem.\n\nKind regards,\n<name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        678,
+        688
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        175,
+        200
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        34,
+        37
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        143,
+        146
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Login Issues with Office [cvv_no]\n\nDear Tech Online Store Customer Support,\n\nI am writing to report a login issue with my Microsoft Office [cvv_no] account You can reach me at [email].. I am unable to access my emails and cloud services due to this issue, which has been affecting my work. I have verified my credentials, and they are correct. Despite this, the problem persists.\n\nCould you please assist me in resolving this matter urgently? My account username is <name>, and my account number is <acc_num>. Additionally, if necessary, feel free to reach me at <tel_num>.\n\nThank you for your prompt attention to this problem.\n\nKind regards,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

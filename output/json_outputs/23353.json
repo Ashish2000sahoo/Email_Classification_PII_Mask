@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de alta prioridade com a atualiza\u00e7\u00e3o do Jira\n\nCaro Equipe de Suporte ao Cliente,\n\nEstou escrevendo para expressar nossa necessidade urgente de assist\u00eancia em rela\u00e7\u00e3o a um problema cr\u00edtico que estamos enfrentando com o Jira Software 8.20. Nossa equipe de projeto inteira n\u00e3o consegue atualizar os status dos tickets, o que est\u00e1 perturbando significativamente nosso fluxo de trabalho. Este problema tornou imposs\u00edvel para n\u00f3s gerenciar tarefas, prioridades e prazos de forma eficaz. \u00c9 imperativo que resolvamos esta quest\u00e3o rapidamente para garantir que nossa equipe possa continuar seu trabalho sem atrasos adicionais.\n\nO problema come\u00e7ou em 10 de outubro de 2023, e apesar de v\u00e1rias tentativas de solucionar o problema da nossa parte, n\u00e3o conseguimos resolv\u00ea-lo. Alterar permiss\u00f5es de usu\u00e1rio e limpar caches foram testados sem resultados positivos. A constante incapacidade de transitar os problemas pelo nosso fluxo de trabalho causou crescente frustra\u00e7\u00e3o e atrasos nos prazos de entrega do projeto.\n\nConsiderando a import\u00e2ncia desta ferramenta para nossas opera\u00e7\u00f5es di\u00e1rias e seu papel central em nossas estrat\u00e9gias de gerenciamento de projetos, agradecer\u00edamos se sua equipe t\u00e9cnica pudesse priorizar esta solicita\u00e7\u00e3o My name is John Doe.. Esperamos obter insights ou encontrar uma solu\u00e7\u00e3o de sua parte o mais r\u00e1pido poss\u00edvel. Fico \u00e0 disposi\u00e7\u00e3o para fornecer quaisquer outras informa\u00e7\u00f5es que voc\u00ea possa precisar.\n\nNosso gerente de projeto, <name>, est\u00e1 dispon\u00edvel em <email> ou <tel_num> caso voc\u00ea precise de registros t\u00e9cnicos detalhados ou de uma sess\u00e3o remota. Por favor, aconselhe sobre os pr\u00f3ximos passos para facilitar uma resolu\u00e7\u00e3o r\u00e1pida e eficiente para esta quest\u00e3o. Esperamos receber sua resposta positiva em breve.\n\nObrigado pela sua compreens\u00e3o e aten\u00e7\u00e3o urgente a este assunto urgente.\n\nAtenciosamente,\n\n<name>\nN\u00famero da Conta: <acc_num>\n<Company Name>\n<email>\n<tel_num> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1250,
+        1258
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1929,
+        1947
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        676,
+        680
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    }
+  ],
+  "masked_email": "Subject: Problema de alta prioridade com a atualiza\u00e7\u00e3o do Jira\n\nCaro Equipe de Suporte ao Cliente,\n\nEstou escrevendo para expressar nossa necessidade urgente de assist\u00eancia em rela\u00e7\u00e3o a um problema cr\u00edtico que estamos enfrentando com o Jira Software 8.20. Nossa equipe de projeto inteira n\u00e3o consegue atualizar os status dos tickets, o que est\u00e1 perturbando significativamente nosso fluxo de trabalho. Este problema tornou imposs\u00edvel para n\u00f3s gerenciar tarefas, prioridades e prazos de forma eficaz. \u00c9 imperativo que resolvamos esta quest\u00e3o rapidamente para garantir que nossa equipe possa continuar seu trabalho sem atrasos adicionais.\n\nO problema come\u00e7ou em 10 de outubro de [phone_number], e apesar de v\u00e1rias tentativas de solucionar o problema da nossa parte, n\u00e3o conseguimos resolv\u00ea-lo. Alterar permiss\u00f5es de usu\u00e1rio e limpar caches foram testados sem resultados positivos. A constante incapacidade de transitar os problemas pelo nosso fluxo de trabalho causou crescente frustra\u00e7\u00e3o e atrasos nos prazos de entrega do projeto.\n\nConsiderando a import\u00e2ncia desta ferramenta para nossas opera\u00e7\u00f5es di\u00e1rias e seu papel central em nossas estrat\u00e9gias de gerenciamento de projetos, agradecer\u00edamos se sua equipe t\u00e9cnica pudesse priorizar esta solicita\u00e7\u00e3o My name is [full_name].. Esperamos obter insights ou encontrar uma solu\u00e7\u00e3o de sua parte o mais r\u00e1pido poss\u00edvel. Fico \u00e0 disposi\u00e7\u00e3o para fornecer quaisquer outras informa\u00e7\u00f5es que voc\u00ea possa precisar.\n\nNosso gerente de projeto, <name>, est\u00e1 dispon\u00edvel em <email> ou <tel_num> caso voc\u00ea precise de registros t\u00e9cnicos detalhados ou de uma sess\u00e3o remota. Por favor, aconselhe sobre os pr\u00f3ximos passos para facilitar uma resolu\u00e7\u00e3o r\u00e1pida e eficiente para esta quest\u00e3o. Esperamos receber sua resposta positiva em breve.\n\nObrigado pela sua compreens\u00e3o e aten\u00e7\u00e3o urgente a este assunto urgente.\n\nAtenciosamente,\n\n<name>\nN\u00famero da Conta: <acc_num>\n<Company Name>\n<email>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

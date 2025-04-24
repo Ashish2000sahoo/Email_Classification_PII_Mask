@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Urgent: Cisco Router ISR4331 Network Connectivity Issues\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to formally bring to your attention an issue regarding the network connectivity of my Cisco Router ISR4331. My name is <name>, and I have been consistently experiencing problems for the past couple of weeks. The device, which was recommended to me for its reputed high performance, is unfortunately not delivering as expected.\n\nThe primary issue is that the router fails to maintain a consistent network speed, and frequently drops the connection. This has significantly disrupted my work from home arrangements, where reliable internet connectivity is crucial. Initially, I thought this might be related to my internet service provider, but after several checks and consultations with them, it has been confirmed that the problem is not on their end.\n\nTo provide more specifics, the connection seems to drop unpredictably, sometimes even multiple times within the same hour, and during these times, no particular activity is being performed that could overwhelm the network My name is Carlos Mendoza.. I have already tried basic troubleshooting steps such as restarting the router, resetting it to factory settings, and updating the firmware. None of these measures have yielded any positive outcome.\n\nGiven these circumstances, I kindly request your assistance to resolve this situation at your earliest convenience You can reach me at maria.gonzalez@shop.es.. Perhaps there might be an advanced setting or configuration change that could stabilize the network performance of the ISR4331. Your expert guidance and support in resolving this matter would be invaluable.\n\nThank you for your attention to this issue. Please let me know if you require any additional information or if there are specific details about the setup you need to assist further.\n\nKind regards,\n\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1131,
+        1145
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1480,
+        1502
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        33,
+        37
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        247,
+        251
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        1612,
+        1616
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Cisco Router ISR[phone_number] Network Connectivity Issues\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to formally bring to your attention an issue regarding the network connectivity of my Cisco Router ISR[phone_number]. My name is <name>, and I have been consistently experiencing problems for the past couple of weeks. The device, which was recommended to me for its reputed high performance, is unfortunately not delivering as expected.\n\nThe primary issue is that the router fails to maintain a consistent network speed, and frequently drops the connection. This has significantly disrupted my work from home arrangements, where reliable internet connectivity is crucial. Initially, I thought this might be related to my internet service provider, but after several checks and consultations with them, it has been confirmed that the problem is not on their end.\n\nTo provide more specifics, the connection seems to drop unpredictably, sometimes even multiple times within the same hour, and during these times, no particular activity is being performed that could overwhelm the network My name is [full_name].. I have already tried basic troubleshooting steps such as restarting the router, resetting it to factory settings, and updating the firmware. None of these measures have yielded any positive outcome.\n\nGiven these circumstances, I kindly request your assistance to resolve this situation at your earliest convenience You can reach me at [email].. Perhaps there might be an advanced setting or configuration change that could stabilize the network performance of the ISR[phone_number]. Your expert guidance and support in resolving this matter would be invaluable.\n\nThank you for your attention to this issue. Please let me know if you require any additional information or if there are specific details about the setup you need to assist further.\n\nKind regards,\n\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

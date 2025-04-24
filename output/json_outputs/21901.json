@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance Needed for Google Chrome Issue\n\nDear Customer Support, I am experiencing an issue with Google Chrome version 102.0 on my device. The browser intermittently freezes, disrupting my workflow. I kindly request guidance on resolving this matter You can reach me at fatima.farsi@help.com.. Thank you for your assistance My name is Maria Gonzalez.. Best regards, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        359
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        280,
+        301
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        129,
+        132
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed for Google Chrome Issue\n\nDear Customer Support, I am experiencing an issue with Google Chrome version [cvv_no].0 on my device. The browser intermittently freezes, disrupting my workflow. I kindly request guidance on resolving this matter You can reach me at [email].. Thank you for your assistance My name is [full_name].. Best regards, <name>.",
+  "category_of_the_email": "Incident"
+}

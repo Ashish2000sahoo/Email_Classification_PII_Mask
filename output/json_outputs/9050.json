@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sudden Vanishing of Project Data Today\n\nThe project data vanished possibly due to a database connectivity problem. After attempting to restart the system and reviewing backups, the issue still exists.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        247
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sudden Vanishing of Project Data Today\n\nThe project data vanished possibly due to a database connectivity problem. After attempting to restart the system and reviewing backups, the issue still exists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

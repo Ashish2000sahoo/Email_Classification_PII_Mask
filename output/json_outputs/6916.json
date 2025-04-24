@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Service Outage Issue Noted\n\nThere was a service outage impacting several applications, such as CCleaner and Symantec Endpoint Protection You can reach me at liuwei@business.cn.. The outage might have been caused by server overload or scheduled maintenance. We attempted to reboot the affected systems and perform basic troubleshooting, but the issue was not resolved. Our team is currently investigating the cause and working on a solution to restore services as soon as possible My name is Maria Gonzalez.. We apologize for any inconvenience this may have caused and appreciate your patience. If you have any questions or concerns, please do not hesitate to contact us.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        166,
+        184
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Service Outage Issue Noted\n\nThere was a service outage impacting several applications, such as CCleaner and Symantec Endpoint Protection You can reach me at [email].. The outage might have been caused by server overload or scheduled maintenance. We attempted to reboot the affected systems and perform basic troubleshooting, but the issue was not resolved. Our team is currently investigating the cause and working on a solution to restore services as soon as possible My name is [full_name].. We apologize for any inconvenience this may have caused and appreciate your patience. If you have any questions or concerns, please do not hesitate to contact us.",
+  "category_of_the_email": "Incident"
+}

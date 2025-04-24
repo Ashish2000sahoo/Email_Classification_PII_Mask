@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Data Analytics for Better Insights\n\nHello Customer Support, I hope this message finds you well. I am reaching out to seek assistance in optimizing our data analytics tools for better investment insights and performance. The current system is lacking in providing the necessary detail and accuracy for making informed decisions You can reach me at elena.ivanova@support.org.. Could you provide more information on the options available to improve our platform and the steps we can take to increase its effectiveness? I would greatly appreciate any advice or suggestions you could offer My name is John Doe.. Thank you for your time and assistance, and I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        613,
+        621
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        364,
+        389
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Enhance Data Analytics for Better Insights\n\nHello Customer Support, I hope this message finds you well. I am reaching out to seek assistance in optimizing our data analytics tools for better investment insights and performance. The current system is lacking in providing the necessary detail and accuracy for making informed decisions You can reach me at [email].. Could you provide more information on the options available to improve our platform and the steps we can take to increase its effectiveness? I would greatly appreciate any advice or suggestions you could offer My name is [full_name].. Thank you for your time and assistance, and I look forward to your response.",
+  "category_of_the_email": "Request"
+}

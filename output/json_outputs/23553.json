@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Received Damaged MacBook Air M1 Delivery Issue\n\nHello Customer Support,\n\nI recently purchased a MacBook Air M1 from your online store, but unfortunately received a MacBook with visible screen damage You can reach me at carlosm@gmail.com.. This issue must have occurred during transit. I am seriously concerned and seek a resolution promptly. My order number is <acc_num> My name is Sophia Rossi.. Could you kindly assist with a replacement or a refund? Please let me know the next steps.\n\nThank you,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        236,
+        253
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Received Damaged MacBook Air M1 Delivery Issue\n\nHello Customer Support,\n\nI recently purchased a MacBook Air M1 from your online store, but unfortunately received a MacBook with visible screen damage You can reach me at [email].. This issue must have occurred during transit. I am seriously concerned and seek a resolution promptly. My order number is <acc_num> My name is [full_name].. Could you kindly assist with a replacement or a refund? Please let me know the next steps.\n\nThank you,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

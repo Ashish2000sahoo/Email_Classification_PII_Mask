@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: NZXT Hardware Problem\n\nI'm encountering a hardware issue with my NZXT Kraken Z63 You can reach me at johndoe@email.com.. The problem could be due to overheating My name is Omar Hassan.. I've already rebooted and updated the drivers, but the issue still occurs. I would greatly appreciate any support in resolving this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        110,
+        127
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: NZXT Hardware Problem\n\nI'm encountering a hardware issue with my NZXT Kraken Z63 You can reach me at [email].. The problem could be due to overheating My name is [full_name].. I've already rebooted and updated the drivers, but the issue still occurs. I would greatly appreciate any support in resolving this.",
+  "category_of_the_email": "Incident"
+}

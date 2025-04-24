@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Security Breach Support\n\nA security breach has been detected in the medical data management system, which may have occurred due to outdated software vulnerabilities My name is Carlos Mendoza.. To address this, we need to update the system, change passwords, and increase monitoring You can reach me at liuwei@business.cn.. We require your team's expertise in identifying the root cause and providing recommendations to prevent similar incidents in the future. Please let us know the next steps to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        211
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        320,
+        338
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Request for Security Breach Support\n\nA security breach has been detected in the medical data management system, which may have occurred due to outdated software vulnerabilities My name is [full_name].. To address this, we need to update the system, change passwords, and increase monitoring You can reach me at [email].. We require your team's expertise in identifying the root cause and providing recommendations to prevent similar incidents in the future. Please let us know the next steps to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Campaigns\n\nThere is a decrease in online engagement and lead generation due to algorithm changes on social media platforms.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        182
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support for Campaigns\n\nThere is a decrease in online engagement and lead generation due to algorithm changes on social media platforms.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

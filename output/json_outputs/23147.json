@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringende Unterst\u00fctzung erforderlich: Photoshop-Absturzproblem\n\nHallo <name>,\n\nich hoffe, diese Nachricht trifft Sie wohl My name is Jane Smith.. Ich wende mich wegen dringender technischer Unterst\u00fctzung zu Adobe Photoshop 2024 an Sie You can reach me at elena.ivanova@support.org.. In letzter Zeit st\u00fcrzt die Software konsequent ab, wenn gro\u00dfe PSD-Dateien geladen werden, was unseren Arbeitsablauf erheblich st\u00f6rt. Wir haben verschiedene Fehlerbehebungsma\u00dfnahmen ausprobiert, aber das Problem besteht weiterhin. Der reibungslose Betrieb von Photoshop ist entscheidend f\u00fcr unsere Projekte, und wir ben\u00f6tigen eine schnelle L\u00f6sung. K\u00f6nnte Ihr Team bitte dieses Anliegen so schnell wie m\u00f6glich bearbeiten? Falls erforderlich, kann ich zus\u00e4tzliche Details oder Protokolle zur Unterst\u00fctzung bei der Diagnose des Problems bereitstellen. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        152
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        265,
+        290
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        233,
+        237
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Dringende Unterst\u00fctzung erforderlich: Photoshop-Absturzproblem\n\nHallo <name>,\n\nich hoffe, diese Nachricht trifft Sie wohl My name is [full_name].. Ich wende mich wegen dringender technischer Unterst\u00fctzung zu Adobe Photoshop [phone_number] an Sie You can reach me at [email].. In letzter Zeit st\u00fcrzt die Software konsequent ab, wenn gro\u00dfe PSD-Dateien geladen werden, was unseren Arbeitsablauf erheblich st\u00f6rt. Wir haben verschiedene Fehlerbehebungsma\u00dfnahmen ausprobiert, aber das Problem besteht weiterhin. Der reibungslose Betrieb von Photoshop ist entscheidend f\u00fcr unsere Projekte, und wir ben\u00f6tigen eine schnelle L\u00f6sung. K\u00f6nnte Ihr Team bitte dieses Anliegen so schnell wie m\u00f6glich bearbeiten? Falls erforderlich, kann ich zus\u00e4tzliche Details oder Protokolle zur Unterst\u00fctzung bei der Diagnose des Problems bereitstellen. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

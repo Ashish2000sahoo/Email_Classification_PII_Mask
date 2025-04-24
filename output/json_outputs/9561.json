@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Customization Options for User Roles and Permissions\n\nI am writing to seek information regarding the customization capabilities for user roles and permissions within your project management tool. As a prospective user, I am keen to understand how the tool can be adapted to align with the unique requirements of my organization. Could you please provide details on how to create custom user roles and assign specific permissions to each one? Additionally, I am interested in learning if there are any constraints on the number of custom roles that can be established. Furthermore, could you elaborate on how your tool manages permission inheritance and whether it allows for the assignment of permissions at the project, task, or team level? I am in search of a tool that offers a high degree of flexibility and customization to meet the intricate needs of my organization You can reach me at johndoe@email.com.. I would greatly appreciate any information or support you can offer in this regard. Thank you for your time and assistance My name is Sophia Rossi.. I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1067,
+        1079
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        913,
+        930
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Customization Options for User Roles and Permissions\n\nI am writing to seek information regarding the customization capabilities for user roles and permissions within your project management tool. As a prospective user, I am keen to understand how the tool can be adapted to align with the unique requirements of my organization. Could you please provide details on how to create custom user roles and assign specific permissions to each one? Additionally, I am interested in learning if there are any constraints on the number of custom roles that can be established. Furthermore, could you elaborate on how your tool manages permission inheritance and whether it allows for the assignment of permissions at the project, task, or team level? I am in search of a tool that offers a high degree of flexibility and customization to meet the intricate needs of my organization You can reach me at [email].. I would greatly appreciate any information or support you can offer in this regard. Thank you for your time and assistance My name is [full_name].. I eagerly await your response.",
+  "category_of_the_email": "Request"
+}

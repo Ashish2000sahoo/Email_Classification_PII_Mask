@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support,\\n\\nI hope this message finds you well You can reach me at liuwei@business.cn.. I am writing to inform you about a problem I encountered with our project sync, leading to the loss of critical data. This issue emerged following the most recent software updates, which might have caused compatibility problems.\\n\\nBefore reaching out to you, our team attempted to resolve the issue by restarting the systems and reviewing the firewall settings, but to no avail. The updates were applied recently, and the sync failure happened very soon after.\\n\\nI would be very grateful if you could look into this matter and offer a solution to fix the sync issue and recover the lost data. Please let me know if there is any additional information or logs you require from our side.\\n\\nThank you for your prompt attention to this matter.\\n\\nBest regards,\\n[Your Name] My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        897,
+        905
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        92,
+        110
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support,\\n\\nI hope this message finds you well You can reach me at [email].. I am writing to inform you about a problem I encountered with our project sync, leading to the loss of critical data. This issue emerged following the most recent software updates, which might have caused compatibility problems.\\n\\nBefore reaching out to you, our team attempted to resolve the issue by restarting the systems and reviewing the firewall settings, but to no avail. The updates were applied recently, and the sync failure happened very soon after.\\n\\nI would be very grateful if you could look into this matter and offer a solution to fix the sync issue and recover the lost data. Please let me know if there is any additional information or logs you require from our side.\\n\\nThank you for your prompt attention to this matter.\\n\\nBest regards,\\n[Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Beistandsanfrage\n\nIch habe Probleme dabei, die Crucial MX500 SaaS-Projektmanagement-Tools zu integrieren. K\u00f6nnten Sie mehr Informationen zu diesem Thema geben, beispielsweise Schritt-f\u00fcr-Schritt-Anweisungen oder einen Link zu einem Tutorial? Das w\u00fcrde mir helfen, den Integrationsprozess zu starten und sicherzustellen, dass alles korrekt eingerichtet ist.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        388,
+        403
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Beistandsanfrage\n\nIch habe Probleme dabei, die Crucial MX500 SaaS-Projektmanagement-Tools zu integrieren. K\u00f6nnten Sie mehr Informationen zu diesem Thema geben, beispielsweise Schritt-f\u00fcr-Schritt-Anweisungen oder einen Link zu einem Tutorial? Das w\u00fcrde mir helfen, den Integrationsprozess zu starten und sicherzustellen, dass alles korrekt eingerichtet ist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Mesh Network Connection\n\nFacing connectivity challenges with the Mesh Network, which is impacting digital marketing efforts My name is Jane Smith.. The issue might be due to outdated firmware. I've already attempted to reboot and check the device connections, but the problem still exists. I would greatly appreciate your help in resolving this matter at your earliest convenience. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        157,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        425,
+        450
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Mesh Network Connection\n\nFacing connectivity challenges with the Mesh Network, which is impacting digital marketing efforts My name is [full_name].. The issue might be due to outdated firmware. I've already attempted to reboot and check the device connections, but the problem still exists. I would greatly appreciate your help in resolving this matter at your earliest convenience. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

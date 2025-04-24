@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHallo,\n\nich habe Schwankungen in meiner AWS-Rechnung und ben\u00f6tige Klarheit zu diesem Thema My name is John Doe.. Es scheint, dass dies durch sich \u00e4ndernde Service-Nutzung und Updates zur automatischen Skalierung im Zusammenhang mit dem AWS Management Service beeinflusst wird. K\u00f6nnen Sie mir helfen, diese \u00c4nderungen zu verstehen?\n\nDanke,\n<name> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        113,
+        121
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        380,
+        397
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHallo,\n\nich habe Schwankungen in meiner AWS-Rechnung und ben\u00f6tige Klarheit zu diesem Thema My name is [full_name].. Es scheint, dass dies durch sich \u00e4ndernde Service-Nutzung und Updates zur automatischen Skalierung im Zusammenhang mit dem AWS Management Service beeinflusst wird. K\u00f6nnen Sie mir helfen, diese \u00c4nderungen zu verstehen?\n\nDanke,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

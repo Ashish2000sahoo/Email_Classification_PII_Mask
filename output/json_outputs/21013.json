@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt: Fehler 504 beim Erstellen von Tickets\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl You can reach me at sophia.rossi@service.it.. Ich habe Schwierigkeiten, w\u00e4hrend ich versuche, neue Tickets in Jira Software 8.20 zu erstellen My name is Elena Ivanova.. Ich sto\u00dfe konstant auf den Fehlercode 504, der meine F\u00e4higkeit behindert, wichtige Aufgaben zu erledigen. Ich habe mehrere Schritte zur Fehlersuche unternommen, war jedoch erfolglos bei der L\u00f6sung dieses Problems. K\u00f6nnten Sie bitte Anleitung oder Unterst\u00fctzung zur Behebung dieses Fehlers so schnell wie m\u00f6glich bereitstellen? Ihre Hilfe in dieser Angelegenheit w\u00e4re sehr gesch\u00e4tzt.\n\nVielen Dank,\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        292,
+        305
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        159,
+        182
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        32,
+        35
+      ],
+      "classification": "cvv_no",
+      "entity": "504"
+    },
+    {
+      "position": [
+        328,
+        331
+      ],
+      "classification": "cvv_no",
+      "entity": "504"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt: Fehler [cvv_no] beim Erstellen von Tickets\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl You can reach me at [email].. Ich habe Schwierigkeiten, w\u00e4hrend ich versuche, neue Tickets in Jira Software 8.20 zu erstellen My name is [full_name].. Ich sto\u00dfe konstant auf den Fehlercode [cvv_no], der meine F\u00e4higkeit behindert, wichtige Aufgaben zu erledigen. Ich habe mehrere Schritte zur Fehlersuche unternommen, war jedoch erfolglos bei der L\u00f6sung dieses Problems. K\u00f6nnten Sie bitte Anleitung oder Unterst\u00fctzung zur Behebung dieses Fehlers so schnell wie m\u00f6glich bereitstellen? Ihre Hilfe in dieser Angelegenheit w\u00e4re sehr gesch\u00e4tzt.\n\nVielen Dank,\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

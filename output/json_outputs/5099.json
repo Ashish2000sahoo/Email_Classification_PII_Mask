@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Investment Optimization Through Enhanced Data Analytics Tools\n\nI am submitting a request to enhance our data analytics tools to improve our investment optimization decision-making processes. This would involve advancements in data visualization, predictive modeling, and machine learning capabilities to provide accurate insights and recommendations My name is Fatima Al-Farsi.. I believe this would greatly benefit the organization and improve overall performance. I would appreciate a prompt review and a discussion on the matter as soon as possible. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        378,
+        387
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        592,
+        613
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Improve Investment Optimization Through Enhanced Data Analytics Tools\n\nI am submitting a request to enhance our data analytics tools to improve our investment optimization decision-making processes. This would involve advancements in data visualization, predictive modeling, and machine learning capabilities to provide accurate insights and recommendations My name is [full_name]-Farsi.. I believe this would greatly benefit the organization and improve overall performance. I would appreciate a prompt review and a discussion on the matter as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

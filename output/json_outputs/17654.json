@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Unauthorized Access to Health IT System Confirmed Today\n\nAn unauthorized access to the health IT system was detected due to outdated security protocols on Ubuntu 20.04 LTS, revealing vulnerabilities. Immediate support is required to ensure the security of sensitive medical data.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        184
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        319,
+        334
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Unauthorized Access to Health IT System Confirmed Today\n\nAn unauthorized access to the health IT system was detected due to outdated security protocols on Ubuntu [phone_number] LTS, revealing vulnerabilities. Immediate support is required to ensure the security of sensitive medical data.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

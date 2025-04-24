@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Security Measures for MongoDB 4.4 in a Hospital Setting\n\nDear Customer Support, we require detailed information on securing medical data using MongoDB 4.4 in a hospital environment You can reach me at sophia.rossi@service.it.. It is essential to ensure the confidentiality and integrity of patient data. Please provide us with information on data encryption, access control, and auditing My name is John Doe.. Additionally, we need to ensure compliance with regulatory requirements, such as HIPAA.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        428
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        222,
+        245
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Security Measures for MongoDB 4.4 in a Hospital Setting\n\nDear Customer Support, we require detailed information on securing medical data using MongoDB 4.4 in a hospital environment You can reach me at [email].. It is essential to ensure the confidentiality and integrity of patient data. Please provide us with information on data encryption, access control, and auditing My name is [full_name].. Additionally, we need to ensure compliance with regulatory requirements, such as HIPAA.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Needed for Cisco Router ISR4331\n\nDear IT Services Customer Support,\n\nI am experiencing ongoing issues with my Cisco Router ISR4331 My name is David Kim.. Specifically, the router constantly disconnects from the internet, significantly affecting my work tasks. This matter is urgent, and I am requesting that the router be checked or replaced at the soonest possible opportunity.\n\nHaving reliable internet connectivity is crucial, and any further disruptions could impact my productivity severely You can reach me at elena.ivanova@support.org.. I trust in your prompt attention to resolve this issue swiftly.\n\nThank you for your urgent support in addressing this matter.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        545,
+        570
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        54,
+        58
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        153,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Needed for Cisco Router ISR[phone_number]\n\nDear IT Services Customer Support,\n\nI am experiencing ongoing issues with my Cisco Router ISR[phone_number] My name is [full_name].. Specifically, the router constantly disconnects from the internet, significantly affecting my work tasks. This matter is urgent, and I am requesting that the router be checked or replaced at the soonest possible opportunity.\n\nHaving reliable internet connectivity is crucial, and any further disruptions could impact my productivity severely You can reach me at [email].. I trust in your prompt attention to resolve this issue swiftly.\n\nThank you for your urgent support in addressing this matter.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzungsfirma\n\nIch leide unter unterperformierenden Kampagnen trotz erh\u00f6hter Werbungsaufwendungen You can reach me at carlosm@gmail.com.. Das k\u00f6nnte darauf hindeuten, dass das Zielpublikum oder die Botschaft falsch ausgerichtet ist My name is Liu Wei.. Ich habe bereits Analysen durchgef\u00fchrt, Werbekreative angepasst und die Zielgruppensegmentierung \u00fcberpr\u00fcft, aber das Problem ist weiterhin bestehen geblieben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        265
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        133,
+        150
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzungsfirma\n\nIch leide unter unterperformierenden Kampagnen trotz erh\u00f6hter Werbungsaufwendungen You can reach me at [email].. Das k\u00f6nnte darauf hindeuten, dass das Zielpublikum oder die Botschaft falsch ausgerichtet ist My name is [full_name].. Ich habe bereits Analysen durchgef\u00fchrt, Werbekreative angepasst und die Zielgruppensegmentierung \u00fcberpr\u00fcft, aber das Problem ist weiterhin bestehen geblieben.",
+  "category_of_the_email": "Incident"
+}

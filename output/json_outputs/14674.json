@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with SaaS Project\n\nWe are reaching out to the customer support team to request enhancements in integration capabilities for supported products within the SaaS project management platform. These improvements would significantly enhance the user experience by enabling seamless interactions between various tools and services My name is Sophia Rossi.. We believe this would be a valuable addition to the platform and would greatly appreciate it if you could consider our request. Thank you for your time and assistance. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        367
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        557,
+        578
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with SaaS Project\n\nWe are reaching out to the customer support team to request enhancements in integration capabilities for supported products within the SaaS project management platform. These improvements would significantly enhance the user experience by enabling seamless interactions between various tools and services My name is [full_name].. We believe this would be a valuable addition to the platform and would greatly appreciate it if you could consider our request. Thank you for your time and assistance. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

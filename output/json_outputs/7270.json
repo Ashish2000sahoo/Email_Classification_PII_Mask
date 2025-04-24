@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme in der Teamkommunikation\n\nSehr geehrte Kundenservice-Team, <br><br>Ich melde ein Problem, das die Produktivit\u00e4t und die Moral des Teams negativ beeintr\u00e4chtigt You can reach me at johndoe@email.com.. Die Mitarbeiter f\u00fchlen sich ausgeschlossen in der Teamkommunikation und es k\u00f6nnte ein unklarer Informationsaustausch entstanden sein. <br><br>Um das Problem anzugehen, w\u00fcrde ich vorschlagen, die Nachrichtenprotokolle zu \u00fcberpr\u00fcfen, um m\u00f6gliche Kommunikationsl\u00fccken zu identifizieren My name is Omar Hassan.. Dar\u00fcber hinaus ist es wichtig, sicherzustellen, dass die betroffenen Mitarbeiter relevanten Teamkan\u00e4len einbezogen sind. Allerdings besteht das Problem weiterhin und wir ben\u00f6tigen Ihre Unterst\u00fctzung, um es zu l\u00f6sen. <br><br>Wir glauben, dass das aktuelle Kommunikationsproblem noch nicht vollst\u00e4ndig gel\u00f6st ist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        511,
+        522
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        197,
+        214
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme in der Teamkommunikation\n\nSehr geehrte Kundenservice-Team, <br><br>Ich melde ein Problem, das die Produktivit\u00e4t und die Moral des Teams negativ beeintr\u00e4chtigt You can reach me at [email].. Die Mitarbeiter f\u00fchlen sich ausgeschlossen in der Teamkommunikation und es k\u00f6nnte ein unklarer Informationsaustausch entstanden sein. <br><br>Um das Problem anzugehen, w\u00fcrde ich vorschlagen, die Nachrichtenprotokolle zu \u00fcberpr\u00fcfen, um m\u00f6gliche Kommunikationsl\u00fccken zu identifizieren My name is [full_name].. Dar\u00fcber hinaus ist es wichtig, sicherzustellen, dass die betroffenen Mitarbeiter relevanten Teamkan\u00e4len einbezogen sind. Allerdings besteht das Problem weiterhin und wir ben\u00f6tigen Ihre Unterst\u00fctzung, um es zu l\u00f6sen. <br><br>Wir glauben, dass das aktuelle Kommunikationsproblem noch nicht vollst\u00e4ndig gel\u00f6st ist.",
+  "category_of_the_email": "Incident"
+}

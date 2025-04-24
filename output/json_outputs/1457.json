@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Significant Decline in Engagement Metrics for Digital Campaigns Lately\n\nWe have noticed a decrease in engagement metrics My name is Fatima Al-Farsi.. We have made some adjustments to ad placements and refreshed creative assets, but the improvements have been minimal. We need assistance to resolve this issue. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        150
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        341,
+        366
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Significant Decline in Engagement Metrics for Digital Campaigns Lately\n\nWe have noticed a decrease in engagement metrics My name is [full_name]-Farsi.. We have made some adjustments to ad placements and refreshed creative assets, but the improvements have been minimal. We need assistance to resolve this issue. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

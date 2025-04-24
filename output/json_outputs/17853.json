@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sucht nach L\u00f6sungen zur Sicherung medizinischer Daten\n\nSehr geehrte Kundensupport, ich bitte um Informationen zu L\u00f6sungen zur Sicherung medizinischer Daten in IT-Umgebungen von Krankenh\u00e4usern You can reach me at johndoe@email.com.. K\u00f6nnten Sie mir mehr Details zu den Sicherheitsma\u00dfnahmen geben, insbesondere zu Verschl\u00fcsselungen und Zugriffssteuerungen? Es w\u00fcrde mich freuen, wenn Sie mir Zugriff auf Case Studies und Whitepapers zu diesem Thema geben k\u00f6nnten. Dar\u00fcber hinaus w\u00e4re ich interessiert, zu erfahren, welche Compliance-Zertifizierungen die L\u00f6sungen erf\u00fcllen, z.B. HIPAA. Bitte informieren Sie mich dar\u00fcber, ob Sie Webinare oder Demos anbieten, um mehr \u00fcber die L\u00f6sungen zu erfahren. Ich freue mich auf Ihre R\u00fcckmeldung My name is Maria Gonzalez.. Sie k\u00f6nnen mich gerne unter <tel_num> erreichen, um nachgestellte Informationen zu besprechen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        751,
+        765
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        221,
+        238
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Sucht nach L\u00f6sungen zur Sicherung medizinischer Daten\n\nSehr geehrte Kundensupport, ich bitte um Informationen zu L\u00f6sungen zur Sicherung medizinischer Daten in IT-Umgebungen von Krankenh\u00e4usern You can reach me at [email].. K\u00f6nnten Sie mir mehr Details zu den Sicherheitsma\u00dfnahmen geben, insbesondere zu Verschl\u00fcsselungen und Zugriffssteuerungen? Es w\u00fcrde mich freuen, wenn Sie mir Zugriff auf Case Studies und Whitepapers zu diesem Thema geben k\u00f6nnten. Dar\u00fcber hinaus w\u00e4re ich interessiert, zu erfahren, welche Compliance-Zertifizierungen die L\u00f6sungen erf\u00fcllen, z.B. HIPAA. Bitte informieren Sie mich dar\u00fcber, ob Sie Webinare oder Demos anbieten, um mehr \u00fcber die L\u00f6sungen zu erfahren. Ich freue mich auf Ihre R\u00fcckmeldung My name is [full_name].. Sie k\u00f6nnen mich gerne unter <tel_num> erreichen, um nachgestellte Informationen zu besprechen.",
+  "category_of_the_email": "Request"
+}

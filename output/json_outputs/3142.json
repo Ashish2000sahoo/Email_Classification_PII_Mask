@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Misstrauenerregender Datenmissbrauch im Bereich der Medizin\n\nEs wird vermutet, dass ein Datenmissbrauch im medizinischen Bereich aufgetreten ist, da der Zugriff auf ungesch\u00fctzte Ger\u00e4te nicht sicher war My name is Jane Smith.. Obwohl ein grundlegender Antivirus-Scan durchgef\u00fchrt wurde, bestand der Problemfall weiter. Es ist unbedingt erforderlich, weitere Ermittlungen und unverz\u00fcgliche Ma\u00dfnahmen zu ergreifen, um jeglichen m\u00f6glichen Schaden oder Datenverlust zu vermeiden. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        232
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        505,
+        526
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Misstrauenerregender Datenmissbrauch im Bereich der Medizin\n\nEs wird vermutet, dass ein Datenmissbrauch im medizinischen Bereich aufgetreten ist, da der Zugriff auf ungesch\u00fctzte Ger\u00e4te nicht sicher war My name is [full_name].. Obwohl ein grundlegender Antivirus-Scan durchgef\u00fchrt wurde, bestand der Problemfall weiter. Es ist unbedingt erforderlich, weitere Ermittlungen und unverz\u00fcgliche Ma\u00dfnahmen zu ergreifen, um jeglichen m\u00f6glichen Schaden oder Datenverlust zu vermeiden. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

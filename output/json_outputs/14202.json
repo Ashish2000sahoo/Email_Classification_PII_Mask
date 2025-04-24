@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frequent Application Crashes Problem\n\nThe application keeps crashing after project updates.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        123,
+        138
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Frequent Application Crashes Problem\n\nThe application keeps crashing after project updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

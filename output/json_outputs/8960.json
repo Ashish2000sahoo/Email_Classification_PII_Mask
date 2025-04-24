@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating Digital Strategy Templates\n\nDear customer support, I am writing to request an update on the digital strategy templates used in our client campaigns. The current templates are outdated and do not effectively promote our brand's growth. I believe an update would enhance the overall effectiveness of our campaigns. The new templates will include the latest trends and practices in digital marketing, allowing us to better serve our clients and improve our services. I would greatly appreciate it if you could look into this matter and provide an update at your earliest convenience My name is Jane Smith.. Thank you for your time. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        621,
+        631
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        680,
+        697
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating Digital Strategy Templates\n\nDear customer support, I am writing to request an update on the digital strategy templates used in our client campaigns. The current templates are outdated and do not effectively promote our brand's growth. I believe an update would enhance the overall effectiveness of our campaigns. The new templates will include the latest trends and practices in digital marketing, allowing us to better serve our clients and improve our services. I would greatly appreciate it if you could look into this matter and provide an update at your earliest convenience My name is [full_name].. Thank you for your time. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

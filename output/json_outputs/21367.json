@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia Necess\u00e1ria para Ativa\u00e7\u00e3o do MacBook Air\n\nOl\u00e1 Suporte da Loja Online Tech,\n\nEspero que esta mensagem o encontre bem. Recentemente, comprei um MacBook Air M1 na sua loja e estou enfrentando dificuldades com o processo de ativa\u00e7\u00e3o My name is Elena Ivanova.. Apesar de seguir as instru\u00e7\u00f5es fornecidas, n\u00e3o consigo ativar o dispositivo com sucesso. Certifiquei-me de que o dispositivo est\u00e1 conectado \u00e0 internet e verifiquei novamente as credenciais do Apple ID, mas, infelizmente, ainda estou enfrentando problemas.\n\nVoc\u00ea poderia, por favor, fornecer orienta\u00e7\u00f5es ou dicas de solu\u00e7\u00e3o de problemas que possam ajudar a resolver essa quest\u00e3o? Se necess\u00e1rio, estou dispon\u00edvel para uma liga\u00e7\u00e3o em <tel_num> para percorrer os passos You can reach me at fatima.farsi@help.com.. Al\u00e9m disso, por favor, me avise se houver atualiza\u00e7\u00f5es ou downloads de software necess\u00e1rios para uma ativa\u00e7\u00e3o adequada.\n\nObrigado pela sua assist\u00eancia e r\u00e1pida resposta a essa quest\u00e3o. Estou ansioso para usar meu novo MacBook Air M1 e espero ter isso resolvido de forma eficiente.\n\nAtenciosamente,\n\n<name>\n<address>\n<city>, <state> <zip_code>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        760,
+        781
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia Necess\u00e1ria para Ativa\u00e7\u00e3o do MacBook Air\n\nOl\u00e1 Suporte da Loja Online Tech,\n\nEspero que esta mensagem o encontre bem. Recentemente, comprei um MacBook Air M1 na sua loja e estou enfrentando dificuldades com o processo de ativa\u00e7\u00e3o My name is [full_name].. Apesar de seguir as instru\u00e7\u00f5es fornecidas, n\u00e3o consigo ativar o dispositivo com sucesso. Certifiquei-me de que o dispositivo est\u00e1 conectado \u00e0 internet e verifiquei novamente as credenciais do Apple ID, mas, infelizmente, ainda estou enfrentando problemas.\n\nVoc\u00ea poderia, por favor, fornecer orienta\u00e7\u00f5es ou dicas de solu\u00e7\u00e3o de problemas que possam ajudar a resolver essa quest\u00e3o? Se necess\u00e1rio, estou dispon\u00edvel para uma liga\u00e7\u00e3o em <tel_num> para percorrer os passos You can reach me at [email].. Al\u00e9m disso, por favor, me avise se houver atualiza\u00e7\u00f5es ou downloads de software necess\u00e1rios para uma ativa\u00e7\u00e3o adequada.\n\nObrigado pela sua assist\u00eancia e r\u00e1pida resposta a essa quest\u00e3o. Estou ansioso para usar meu novo MacBook Air M1 e espero ter isso resolvido de forma eficiente.\n\nAtenciosamente,\n\n<name>\n<address>\n<city>, <state> <zip_code>",
+  "category_of_the_email": "Problem"
+}

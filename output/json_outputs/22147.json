@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for VS Code Debugging\n\nDear Customer Support Team,\n\nI hope this email finds you well My name is Omar Hassan.. I am reaching out to request assistance with a technical issue I am experiencing while integrating extensions for debugging in Visual Studio Code. Specifically, the challenge pertains to the setup of Visual Studio Code version 1.70. Despite numerous attempts following the available guidelines and community forums, the problem persists, impacting my ability to effectively debug and test code.\n\nTo provide a brief overview, the extensions meant to enhance the debugging process have not integrated as seamlessly as anticipated You can reach me at omar.hassan@secure.net.. They either fail to load or do not respond once they appear installed. The regular debugging functions also appear compromised, necessitating repeated restarts of Visual Studio Code, further stalling workflow and affecting productivity.\n\nI have ensured that all extensions are up-to-date and have tried reinstalling Visual Studio Code entirely, but these actions have not resolved the issues. I am uncertain about any additional configurations that might be required to facilitate smooth integration and uninterrupted functioning of these extensions.\n\nCould you please advise on any specific troubleshooting steps or configurations that could aid in resolving this issue? Alternatively, if you could provide direct support or adjustments tailored to my current setup, I would highly appreciate it.\n\nLooking forward to your guidance and support to swiftly overcome this technical roadblock.\n\nThank you in advance for your attention to this matter.\n\nBest regards,\n\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        125,
+        136
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        687,
+        709
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for VS Code Debugging\n\nDear Customer Support Team,\n\nI hope this email finds you well My name is [full_name].. I am reaching out to request assistance with a technical issue I am experiencing while integrating extensions for debugging in Visual Studio Code. Specifically, the challenge pertains to the setup of Visual Studio Code version 1.70. Despite numerous attempts following the available guidelines and community forums, the problem persists, impacting my ability to effectively debug and test code.\n\nTo provide a brief overview, the extensions meant to enhance the debugging process have not integrated as seamlessly as anticipated You can reach me at [email].. They either fail to load or do not respond once they appear installed. The regular debugging functions also appear compromised, necessitating repeated restarts of Visual Studio Code, further stalling workflow and affecting productivity.\n\nI have ensured that all extensions are up-to-date and have tried reinstalling Visual Studio Code entirely, but these actions have not resolved the issues. I am uncertain about any additional configurations that might be required to facilitate smooth integration and uninterrupted functioning of these extensions.\n\nCould you please advise on any specific troubleshooting steps or configurations that could aid in resolving this issue? Alternatively, if you could provide direct support or adjustments tailored to my current setup, I would highly appreciate it.\n\nLooking forward to your guidance and support to swiftly overcome this technical roadblock.\n\nThank you in advance for your attention to this matter.\n\nBest regards,\n\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

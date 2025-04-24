@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Crash During Presentation\n\nDuring a presentation, my system crashed. The probable reason is incompatible software updates You can reach me at carlosm@gmail.com.. I've already attempted to restart the system and verify updates, but the problem still exists. I would greatly appreciate your assistance in resolving this issue promptly to avoid future disruptions. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        389,
+        403
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        158,
+        175
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: System Crash During Presentation\n\nDuring a presentation, my system crashed. The probable reason is incompatible software updates You can reach me at [email].. I've already attempted to restart the system and verify updates, but the problem still exists. I would greatly appreciate your assistance in resolving this issue promptly to avoid future disruptions. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

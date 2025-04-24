@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unverified Access Attempts on Sensitive Medical Data\n\nOur system has faced unauthorized access attempts on sensitive medical data, which might be due to outdated security measures. We have already reviewed access logs and updated passwords, but the issues continue My name is Liu Wei.. We kindly request your assistance in investigating and resolving this matter to prevent future breaches and ensure the security of our medical data. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        292
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        468,
+        489
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unverified Access Attempts on Sensitive Medical Data\n\nOur system has faced unauthorized access attempts on sensitive medical data, which might be due to outdated security measures. We have already reviewed access logs and updated passwords, but the issues continue My name is [full_name].. We kindly request your assistance in investigating and resolving this matter to prevent future breaches and ensure the security of our medical data. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

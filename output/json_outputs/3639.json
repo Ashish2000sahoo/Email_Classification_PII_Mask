@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschiedene Softwaretools kollabieren unerwartet\n\nSehr geehrte Kundensupport, ich m\u00f6chte mich an Sie wenden, da ich ein Problem mit mehreren gleichzeitig abst\u00fcrzenden Softwaretools habe. Das Problem ist pl\u00f6tzlich aufgetreten und ich glaube, dass es auf einen potenziellen Konflikt oder Kompatibilit\u00e4tsproblem zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at carlosm@gmail.com.. Ich habe bereits versucht, das System neu zu starten, nach Updates zu suchen und die Konfiguration zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt seinen Ursprung. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich um diese Angelegenheit k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten My name is Liu Wei.. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        688,
+        695
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        366,
+        383
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Verschiedene Softwaretools kollabieren unerwartet\n\nSehr geehrte Kundensupport, ich m\u00f6chte mich an Sie wenden, da ich ein Problem mit mehreren gleichzeitig abst\u00fcrzenden Softwaretools habe. Das Problem ist pl\u00f6tzlich aufgetreten und ich glaube, dass es auf einen potenziellen Konflikt oder Kompatibilit\u00e4tsproblem zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Ich habe bereits versucht, das System neu zu starten, nach Updates zu suchen und die Konfiguration zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt seinen Ursprung. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich um diese Angelegenheit k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten My name is [full_name].. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

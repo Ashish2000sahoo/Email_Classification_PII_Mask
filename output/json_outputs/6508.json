@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for QuickBooks Analytics Tools\n\nGreetings from customer support. I am writing to inquire about analytics tools that can be integrated with QuickBooks Online to aid in investment optimization My name is Sophia Rossi.. I am seeking options that can assist me in making data-driven decisions and enhancing my business's financial performance. Specifically, I am interested in tools that offer insights into cash flow, revenue, and expense management. Could you provide a list of compatible analytics tools along with their features? I would greatly appreciate any guidance or recommendations you can offer. Thank you for your time and support You can reach me at carlosm@gmail.com.. I look forward to your reply.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        219,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        676,
+        693
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support for QuickBooks Analytics Tools\n\nGreetings from customer support. I am writing to inquire about analytics tools that can be integrated with QuickBooks Online to aid in investment optimization My name is [full_name].. I am seeking options that can assist me in making data-driven decisions and enhancing my business's financial performance. Specifically, I am interested in tools that offer insights into cash flow, revenue, and expense management. Could you provide a list of compatible analytics tools along with their features? I would greatly appreciate any guidance or recommendations you can offer. Thank you for your time and support You can reach me at [email].. I look forward to your reply.",
+  "category_of_the_email": "Request"
+}

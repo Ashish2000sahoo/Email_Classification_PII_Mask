@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Today's Uploads in PDFfiller\n\nWe are facing difficulties in uploading project files to PDFfiller, which might be related to incompatibility with Oracle Database 19c My name is Omar Hassan.. We have already tried clearing the cache, restarting applications, and reviewing server logs, but the issue still exists. We would greatly appreciate your help in resolving this matter. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        418,
+        443
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Today's Uploads in PDFfiller\n\nWe are facing difficulties in uploading project files to PDFfiller, which might be related to incompatibility with Oracle Database 19c My name is [full_name].. We have already tried clearing the cache, restarting applications, and reviewing server logs, but the issue still exists. We would greatly appreciate your help in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

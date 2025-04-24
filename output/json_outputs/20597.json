@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS Service Modification\n\nDear Customer Support,\n\nI am writing to request changes to our current AWS Management Service configuration My name is David Kim.. Our client, <name>, is seeking improvements for better deployment efficiency and cost-effectiveness. It appears that the default setup is not meeting their needs, and they believe specific adjustments could greatly enhance performance.\n\nPlease advise on how we might proceed with these changes You can reach me at maria.gonzalez@shop.es.. You can contact me at <tel_num> or reach the client's representative directly at <mail>.\n\nThank you for your assistance.\n\nBest regards,\n\n<name>\nIT Consulting Firm",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        482,
+        504
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: AWS Service Modification\n\nDear Customer Support,\n\nI am writing to request changes to our current AWS Management Service configuration My name is [full_name].. Our client, <name>, is seeking improvements for better deployment efficiency and cost-effectiveness. It appears that the default setup is not meeting their needs, and they believe specific adjustments could greatly enhance performance.\n\nPlease advise on how we might proceed with these changes You can reach me at [email].. You can contact me at <tel_num> or reach the client's representative directly at <mail>.\n\nThank you for your assistance.\n\nBest regards,\n\n<name>\nIT Consulting Firm",
+  "category_of_the_email": "Change"
+}

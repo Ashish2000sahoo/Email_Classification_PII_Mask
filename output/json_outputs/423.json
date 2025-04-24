@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Project Management Software\n\nAn error has been encountered with the project management software, which is impacting the integration across multiple products You can reach me at omar.hassan@secure.net.. This might be due to recent updates. Steps such as restarting the application and clearing the cache were taken to resolve connectivity issues, but the problem still persists. Assistance in resolving this issue soon would be greatly appreciated. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        479,
+        488
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        197,
+        219
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Project Management Software\n\nAn error has been encountered with the project management software, which is impacting the integration across multiple products You can reach me at [email].. This might be due to recent updates. Steps such as restarting the application and clearing the cache were taken to resolve connectivity issues, but the problem still persists. Assistance in resolving this issue soon would be greatly appreciated. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinisches Systemfehler\n\nSehr geehrte Kundenservice, ich schreibe, um einen unerwarteten Versagensfall unseres medizinischen Datensicherungssystems zu melden. Das Problem trat nach einem neuesten Software-Update im Betrieb auf und k\u00f6nnte Kompatibilit\u00e4tsprobleme verursacht haben. Trotz unserer Bem\u00fchungen, das System neu zu starten und die Firewall-Einstellungen zu \u00fcberpr\u00fcfen, bleibt es weiterhin bestehen. Wir sind besorgt \u00fcber die m\u00f6glichen Auswirkungen dieses Versagens und m\u00f6chten Ihre Unterst\u00fctzung bei der L\u00f6sung des Problems in Anspruch nehmen My name is Elena Ivanova.. K\u00f6nnten Sie uns bitte Rat geben, wie wir das Debugging fortsetzen und m\u00f6gliche L\u00f6sungen finden k\u00f6nnen? Wir danken Ihnen im Voraus f\u00fcr Ihre schnelle Bearbeitung dieses Problems und freuen uns darauf, von Ihnen bald zu h\u00f6ren. Der Versagensfall des Verschl\u00fcsselungsverfahrens hat erhebliche Unterbrechungen unserer Betriebsabl\u00e4ufe verursacht, und wir sind eifrig darauf bedacht, eine L\u00f6sung zu finden You can reach me at carlosm@gmail.com.. Bitte informieren Sie uns, ob es weitere Schritte f\u00fcr uns gibt, um dieses Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        575,
+        588
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1007,
+        1024
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medizinisches Systemfehler\n\nSehr geehrte Kundenservice, ich schreibe, um einen unerwarteten Versagensfall unseres medizinischen Datensicherungssystems zu melden. Das Problem trat nach einem neuesten Software-Update im Betrieb auf und k\u00f6nnte Kompatibilit\u00e4tsprobleme verursacht haben. Trotz unserer Bem\u00fchungen, das System neu zu starten und die Firewall-Einstellungen zu \u00fcberpr\u00fcfen, bleibt es weiterhin bestehen. Wir sind besorgt \u00fcber die m\u00f6glichen Auswirkungen dieses Versagens und m\u00f6chten Ihre Unterst\u00fctzung bei der L\u00f6sung des Problems in Anspruch nehmen My name is [full_name].. K\u00f6nnten Sie uns bitte Rat geben, wie wir das Debugging fortsetzen und m\u00f6gliche L\u00f6sungen finden k\u00f6nnen? Wir danken Ihnen im Voraus f\u00fcr Ihre schnelle Bearbeitung dieses Problems und freuen uns darauf, von Ihnen bald zu h\u00f6ren. Der Versagensfall des Verschl\u00fcsselungsverfahrens hat erhebliche Unterbrechungen unserer Betriebsabl\u00e4ufe verursacht, und wir sind eifrig darauf bedacht, eine L\u00f6sung zu finden You can reach me at [email].. Bitte informieren Sie uns, ob es weitere Schritte f\u00fcr uns gibt, um dieses Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

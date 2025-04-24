@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reported Issue with Slow Dashboard Loading\n\nThe dashboard is loading slowly, which might be due to server overload or a coding problem. I have restarted my browser and verified my internet connection.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        248
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue with Slow Dashboard Loading\n\nThe dashboard is loading slowly, which might be due to server overload or a coding problem. I have restarted my browser and verified my internet connection.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

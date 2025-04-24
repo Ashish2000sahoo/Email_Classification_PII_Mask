@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'am\u00e9lioration et de corrections\n\nCher service client, nous rencontrons des probl\u00e8mes techniques et avons besoin d'am\u00e9liorations avec Slack 4.23.0 You can reach me at fatima.farsi@help.com.. Veuillez am\u00e9liorer les fonctionnalit\u00e9s de messagerie et de collaboration pour garantir des fonctionnalit\u00e9s \u00e9tendues My name is John Doe.. Votre attention imm\u00e9diate sera appr\u00e9ci\u00e9e. Cordialement,<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        335,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        184,
+        205
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Demande d'am\u00e9lioration et de corrections\n\nCher service client, nous rencontrons des probl\u00e8mes techniques et avons besoin d'am\u00e9liorations avec Slack 4.23.0 You can reach me at [email].. Veuillez am\u00e9liorer les fonctionnalit\u00e9s de messagerie et de collaboration pour garantir des fonctionnalit\u00e9s \u00e9tendues My name is [full_name].. Votre attention imm\u00e9diate sera appr\u00e9ci\u00e9e. Cordialement,<name>",
+  "category_of_the_email": "Request"
+}

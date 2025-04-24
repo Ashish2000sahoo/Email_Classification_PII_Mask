@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Analytics Report Generation\n\nHello Customer Support, I am encountering an issue with generating the data analytics report for investment optimization. The report failed to generate, which might be due to software compatibility issues. I have already tried reinstalling Microsoft Office and Norton Antivirus, but the problem persists. I would greatly appreciate your assistance in troubleshooting and resolving this issue as soon as possible My name is Carlos Mendoza.. Thank you for your support. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        479,
+        493
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        541,
+        564
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Analytics Report Generation\n\nHello Customer Support, I am encountering an issue with generating the data analytics report for investment optimization. The report failed to generate, which might be due to software compatibility issues. I have already tried reinstalling Microsoft Office and Norton Antivirus, but the problem persists. I would greatly appreciate your assistance in troubleshooting and resolving this issue as soon as possible My name is [full_name].. Thank you for your support. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

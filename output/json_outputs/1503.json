@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Compromised Security of Medical Data\n\nWe have detected unauthorized access to our secure medical information. This issue was recently brought to our attention, and we suspect it might be due to insufficient firewall protection and outdated software. We have attempted to address the problem by restarting our servers and reviewing our logs, but the issue remains unresolved My name is Sophia Rossi.. We are worried about the potential repercussions of this breach and would appreciate your prompt assistance in resolving the matter. Could you provide us with more information on our current security measures and specific details about the unauthorized access? Additionally, please share any log check results and error messages we may have overlooked. I will contact you at <tel_num> to discuss additional steps for securing your data and preventing future occurrences. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        394,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        899,
+        916
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Compromised Security of Medical Data\n\nWe have detected unauthorized access to our secure medical information. This issue was recently brought to our attention, and we suspect it might be due to insufficient firewall protection and outdated software. We have attempted to address the problem by restarting our servers and reviewing our logs, but the issue remains unresolved My name is [full_name].. We are worried about the potential repercussions of this breach and would appreciate your prompt assistance in resolving the matter. Could you provide us with more information on our current security measures and specific details about the unauthorized access? Additionally, please share any log check results and error messages we may have overlooked. I will contact you at <tel_num> to discuss additional steps for securing your data and preventing future occurrences. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

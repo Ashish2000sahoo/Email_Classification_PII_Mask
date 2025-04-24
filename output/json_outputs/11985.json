@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Meldung \u00fcber unerwarteten Crash im Projektmanagement SaaS\n\nSehr geehrte Kundensupport, ich m\u00f6chte euch informieren, dass ich einen unerwarteten Crash des Projektmanagement-SaaS-Programms gemeldet habe, was zu Verlust von Benutzerdaten gef\u00fchrt hat. Dies k\u00f6nnte auf eine unkompatible Softwareaktualisierung der Keras-Library zur\u00fcckzuf\u00fchren sein, die w\u00e4hrend der Integration herbeigef\u00fchrt hat. Ich habe bereits meinen HyperX Fury 32GB DDR4 neu gestartet und meine McAfee Total Protection 2021 aktualisiert, aber das Problem besteht noch immer. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn ihr euch daf\u00fcr einsetzen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nntet My name is Maria Gonzalez.. Gibt es bitte weitere Informationen, die ihr ben\u00f6tigt, um das Problem zu l\u00f6sen? You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        675,
+        689
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        789,
+        806
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        494,
+        498
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Meldung \u00fcber unerwarteten Crash im Projektmanagement SaaS\n\nSehr geehrte Kundensupport, ich m\u00f6chte euch informieren, dass ich einen unerwarteten Crash des Projektmanagement-SaaS-Programms gemeldet habe, was zu Verlust von Benutzerdaten gef\u00fchrt hat. Dies k\u00f6nnte auf eine unkompatible Softwareaktualisierung der Keras-Library zur\u00fcckzuf\u00fchren sein, die w\u00e4hrend der Integration herbeigef\u00fchrt hat. Ich habe bereits meinen HyperX Fury 32GB DDR4 neu gestartet und meine McAfee Total Protection [phone_number] aktualisiert, aber das Problem besteht noch immer. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn ihr euch daf\u00fcr einsetzen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nntet My name is [full_name].. Gibt es bitte weitere Informationen, die ihr ben\u00f6tigt, um das Problem zu l\u00f6sen? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

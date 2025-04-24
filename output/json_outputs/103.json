@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required\n\nAn unexpected service outage has impacted several systems, causing disruptions to access medical data for hospital services. The issue might be due to misconfiguration in the Kubernetes deployment or a potential software vulnerability My name is David Kim.. We have rebooted the affected servers and checked for configuration errors, but the issue still persists. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        292
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        423,
+        440
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required\n\nAn unexpected service outage has impacted several systems, causing disruptions to access medical data for hospital services. The issue might be due to misconfiguration in the Kubernetes deployment or a potential software vulnerability My name is [full_name].. We have rebooted the affected servers and checked for configuration errors, but the issue still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

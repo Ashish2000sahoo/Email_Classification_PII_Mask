@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de consultation\n\nCher service client, \n\nLe d\u00e9partement des ressources humaines recherche des services de conseil pour l'am\u00e9lioration de l'administration des serveurs et la mise en \u0153uvre de solutions informatiques. Nous sommes particuli\u00e8rement int\u00e9ress\u00e9s par votre service de conseil informatique pour r\u00e9pondre \u00e0 nos besoins. Veuillez fournir des d\u00e9tails sur vos offres, votre disponibilit\u00e9 et toutes exigences pr\u00e9alables \u00e0 l'engagement My name is Fatima Al-Farsi.. Contactez-nous au <tel_num> ou par email \u00e0 <name>@company.com pour plus d'informations.\n\nMerci pour votre assistance You can reach me at sophia.rossi@service.it.. \n\nCordialement, \n\n<name>, D\u00e9partement des ressources humaines",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        464,
+        473
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        621,
+        644
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Demande de consultation\n\nCher service client, \n\nLe d\u00e9partement des ressources humaines recherche des services de conseil pour l'am\u00e9lioration de l'administration des serveurs et la mise en \u0153uvre de solutions informatiques. Nous sommes particuli\u00e8rement int\u00e9ress\u00e9s par votre service de conseil informatique pour r\u00e9pondre \u00e0 nos besoins. Veuillez fournir des d\u00e9tails sur vos offres, votre disponibilit\u00e9 et toutes exigences pr\u00e9alables \u00e0 l'engagement My name is [full_name]-Farsi.. Contactez-nous au <tel_num> ou par email \u00e0 <name>@company.com pour plus d'informations.\n\nMerci pour votre assistance You can reach me at [email].. \n\nCordialement, \n\n<name>, D\u00e9partement des ressources humaines",
+  "category_of_the_email": "Request"
+}

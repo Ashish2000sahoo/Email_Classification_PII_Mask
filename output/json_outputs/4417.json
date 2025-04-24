@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Investment Software Malfunction\n\nThe investment software has encountered a crash during data analysis, which might be due to server overload or bugs. Restarting the server and reinstalling the database could potentially resolve the issue.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        298
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Software Malfunction\n\nThe investment software has encountered a crash during data analysis, which might be due to server overload or bugs. Restarting the server and reinstalling the database could potentially resolve the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

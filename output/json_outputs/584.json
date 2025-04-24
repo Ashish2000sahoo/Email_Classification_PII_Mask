@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Campaign Metrics\n\nThere has been a decline in marketing campaign metrics following recent algorithm updates My name is Omar Hassan.. Despite reviewing and modifying the targeting settings and message content, there has been no improvement. Assistance is required to address this issue and enhance the campaign's performance. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        157
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        372,
+        389
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Campaign Metrics\n\nThere has been a decline in marketing campaign metrics following recent algorithm updates My name is [full_name].. Despite reviewing and modifying the targeting settings and message content, there has been no improvement. Assistance is required to address this issue and enhance the campaign's performance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Periodic Connection Problems on Our SaaS Tool\n\nCurrently facing periodic connection problems with our project management SaaS, which is disrupting the functionality of several integrated tools. These issues might be due to recent system updates or network configuration changes My name is David Kim.. Steps taken include resetting devices, clearing caches, and reviewing usage logs for any insights, but the problem still persists and is hindering our productivity. Could you please assist us in resolving this issue as soon as possible? Any guidance or support you can provide would be greatly appreciated. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        320
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        652,
+        669
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Periodic Connection Problems on Our SaaS Tool\n\nCurrently facing periodic connection problems with our project management SaaS, which is disrupting the functionality of several integrated tools. These issues might be due to recent system updates or network configuration changes My name is [full_name].. Steps taken include resetting devices, clearing caches, and reviewing usage logs for any insights, but the problem still persists and is hindering our productivity. Could you please assist us in resolving this issue as soon as possible? Any guidance or support you can provide would be greatly appreciated. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

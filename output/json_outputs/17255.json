@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Significant Integration Issues with Project Management SaaS Platform\n\nExperiencing substantial integration challenges with various connected devices linked to the project management SaaS platform My name is David Kim.. These issues are attributed to compatibility errors arising from outdated drivers. Despite attempts to resolve the problem by updating related software, success was not achieved You can reach me at elena.ivanova@support.org.. This ongoing issue is hindering productivity. I am pleased to assist in finding a solution to this matter and would appreciate any additional details or error messages related to the affected devices. I look forward to discussing further and assisting with a swift resolution over a phone call at your convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        225
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        428,
+        453
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Significant Integration Issues with Project Management SaaS Platform\n\nExperiencing substantial integration challenges with various connected devices linked to the project management SaaS platform My name is [full_name].. These issues are attributed to compatibility errors arising from outdated drivers. Despite attempts to resolve the problem by updating related software, success was not achieved You can reach me at [email].. This ongoing issue is hindering productivity. I am pleased to assist in finding a solution to this matter and would appreciate any additional details or error messages related to the affected devices. I look forward to discussing further and assisting with a swift resolution over a phone call at your convenience.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Processing Tool\n\nDear Customer Support,<br><br>I am writing to report a problem with our data processing tool. The tool has encountered a hang-up, which has hindered the optimization of our investments. We have restarted the system and checked for updates, but the issue persists.<br><br>Possible causes could be insufficient GPU resources or software conflicts My name is Sophia Rossi.. We have not been able to identify the root cause of the problem, and we need your assistance to resolve this issue. Could you please investigate and provide a solution at your earliest convenience? We would appreciate any guidance on how to troubleshoot or resolve the issue. If there are any additional steps we need to take or information we need to provide, please let us know.<br><br>Thank you for your time and support You can reach me at janesmith@company.com.. We look forward to your response.<br><br>Sincerely,<br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        410
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        856,
+        877
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Processing Tool\n\nDear Customer Support,<br><br>I am writing to report a problem with our data processing tool. The tool has encountered a hang-up, which has hindered the optimization of our investments. We have restarted the system and checked for updates, but the issue persists.<br><br>Possible causes could be insufficient GPU resources or software conflicts My name is [full_name].. We have not been able to identify the root cause of the problem, and we need your assistance to resolve this issue. Could you please investigate and provide a solution at your earliest convenience? We would appreciate any guidance on how to troubleshoot or resolve the issue. If there are any additional steps we need to take or information we need to provide, please let us know.<br><br>Thank you for your time and support You can reach me at [email].. We look forward to your response.<br><br>Sincerely,<br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

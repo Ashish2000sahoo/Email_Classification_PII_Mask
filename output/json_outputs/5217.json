@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Ubiquiti UniFi Dream Machine\n\nCustomer Support, <br>A data access issue has been detected on the Ubiquiti UniFi Dream Machine, which is impacting medical hospital systems. This may have occurred due to software misconfiguration following recent updates. Attempts to reboot the device and check network settings have been unsuccessful, and the issue is causing significant disruptions to operations My name is Elena Ivanova.. Urgent assistance is needed to resolve it You can reach me at fatima.farsi@help.com.. Please advise on the next steps to take. Your prompt attention to this matter is greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        431,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        507,
+        528
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Ubiquiti UniFi Dream Machine\n\nCustomer Support, <br>A data access issue has been detected on the Ubiquiti UniFi Dream Machine, which is impacting medical hospital systems. This may have occurred due to software misconfiguration following recent updates. Attempts to reboot the device and check network settings have been unsuccessful, and the issue is causing significant disruptions to operations My name is [full_name].. Urgent assistance is needed to resolve it You can reach me at [email].. Please advise on the next steps to take. Your prompt attention to this matter is greatly appreciated.",
+  "category_of_the_email": "Incident"
+}

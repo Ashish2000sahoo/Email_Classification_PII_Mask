@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Netzwerkoptimierung ben\u00f6tigt\n\nSehr geehrtes IT-Beratungsunternehmen Support-Team,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf. Mein Name ist <name>, und ich kontaktiere Sie, um Unterst\u00fctzung bei der Optimierung der Netzwerkleistung zu bitten. Derzeit haben wir in diesem Bereich Herausforderungen und glauben, dass eine Beratung zur Serveradministration und Softwarel\u00f6sungen uns sehr zugutekommen k\u00f6nnte.\n\nWir nutzen Ihren IT-Beratungsdienst und w\u00fcrden jede Expertise, die Sie anbieten k\u00f6nnen, zur Behebung dieser Probleme sehr sch\u00e4tzen My name is John Doe.. Bitte lassen Sie uns die n\u00e4chsten Schritte oder verf\u00fcgbare Zeiten f\u00fcr eine Beratung wissen You can reach me at omar.hassan@secure.net.. Sie k\u00f6nnen mich unter <tel_num> oder per E-Mail unter <email> erreichen.\n\nIch freue mich auf Ihre zeitnahe Antwort und eine erfolgreiche Zusammenarbeit.\n\nVielen Dank und mit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<position>\n<company name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        576,
+        584
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        701,
+        723
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Netzwerkoptimierung ben\u00f6tigt\n\nSehr geehrtes IT-Beratungsunternehmen Support-Team,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf. Mein Name ist <name>, und ich kontaktiere Sie, um Unterst\u00fctzung bei der Optimierung der Netzwerkleistung zu bitten. Derzeit haben wir in diesem Bereich Herausforderungen und glauben, dass eine Beratung zur Serveradministration und Softwarel\u00f6sungen uns sehr zugutekommen k\u00f6nnte.\n\nWir nutzen Ihren IT-Beratungsdienst und w\u00fcrden jede Expertise, die Sie anbieten k\u00f6nnen, zur Behebung dieser Probleme sehr sch\u00e4tzen My name is [full_name].. Bitte lassen Sie uns die n\u00e4chsten Schritte oder verf\u00fcgbare Zeiten f\u00fcr eine Beratung wissen You can reach me at [email].. Sie k\u00f6nnen mich unter <tel_num> oder per E-Mail unter <email> erreichen.\n\nIch freue mich auf Ihre zeitnahe Antwort und eine erfolgreiche Zusammenarbeit.\n\nVielen Dank und mit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<position>\n<company name>",
+  "category_of_the_email": "Request"
+}

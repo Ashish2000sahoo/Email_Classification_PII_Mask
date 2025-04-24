@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der AWS-Konfiguration und -Leistung\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um Sie \u00fcber mehrere Probleme zu informieren, mit denen wir beim AWS-Management-Service konfrontiert sind. Unser Kunde, <name>, hat k\u00fcrzlich \u00c4nderungen an der Konfiguration ihres AWS-Setups angefordert. Trotz unserer sorgf\u00e4ltigen Bem\u00fchungen sto\u00dfen wir auf erhebliche Herausforderungen bei der effektiven Umsetzung von Kostenoptimierungsstrategien. Diese Probleme f\u00fchren zu unerwarteten Kosten, die \u00fcber unserem prognostizierten Budget liegen.\n\nZus\u00e4tzlich erleben wir Verz\u00f6gerungen beim Start einiger der wesentlichen Dienstleistungen, was sich kritisch auf unsere Projektzeitpl\u00e4ne und die Kundenzufriedenheit auswirkt You can reach me at fatima.farsi@help.com.. Der Kunde, <name>, ist verst\u00e4ndlicherweise besorgt \u00fcber die finanziellen Auswirkungen und den Einfluss auf ihre Betriebsleistung.\n\nAngesichts der Dringlichkeit der Situation w\u00fcrden wir es begr\u00fc\u00dfen, wenn Ihr Team uns Orientierung zu bew\u00e4hrten Verfahren zur Kostenoptimierung geben und bei der Fehlersuche der Verz\u00f6gerungen bei der Dienstbereitstellung unterst\u00fctzen k\u00f6nnte. Wir m\u00f6chten diese Probleme umgehend l\u00f6sen, um eine unterbrechungsfreie und kosteneffektive Servicebereitstellung f\u00fcr unseren Kunden sicherzustellen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Wir freuen uns auf Ihre umgehende Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1449,
+        1463
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        744,
+        765
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der AWS-Konfiguration und -Leistung\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um Sie \u00fcber mehrere Probleme zu informieren, mit denen wir beim AWS-Management-Service konfrontiert sind. Unser Kunde, <name>, hat k\u00fcrzlich \u00c4nderungen an der Konfiguration ihres AWS-Setups angefordert. Trotz unserer sorgf\u00e4ltigen Bem\u00fchungen sto\u00dfen wir auf erhebliche Herausforderungen bei der effektiven Umsetzung von Kostenoptimierungsstrategien. Diese Probleme f\u00fchren zu unerwarteten Kosten, die \u00fcber unserem prognostizierten Budget liegen.\n\nZus\u00e4tzlich erleben wir Verz\u00f6gerungen beim Start einiger der wesentlichen Dienstleistungen, was sich kritisch auf unsere Projektzeitpl\u00e4ne und die Kundenzufriedenheit auswirkt You can reach me at [email].. Der Kunde, <name>, ist verst\u00e4ndlicherweise besorgt \u00fcber die finanziellen Auswirkungen und den Einfluss auf ihre Betriebsleistung.\n\nAngesichts der Dringlichkeit der Situation w\u00fcrden wir es begr\u00fc\u00dfen, wenn Ihr Team uns Orientierung zu bew\u00e4hrten Verfahren zur Kostenoptimierung geben und bei der Fehlersuche der Verz\u00f6gerungen bei der Dienstbereitstellung unterst\u00fctzen k\u00f6nnte. Wir m\u00f6chten diese Probleme umgehend l\u00f6sen, um eine unterbrechungsfreie und kosteneffektive Servicebereitstellung f\u00fcr unseren Kunden sicherzustellen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Wir freuen uns auf Ihre umgehende Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

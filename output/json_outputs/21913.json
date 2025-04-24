@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Mudan\u00e7a de Faturamento para o Google Workspace\n\nOl\u00e1 Atendimento ao Cliente da Tech Online Store,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar uma mudan\u00e7a de faturamento relacionada \u00e0 minha assinatura do Google Workspace Business Standard, associada ao n\u00famero da conta <acc_num>. Gostaria de explorar op\u00e7\u00f5es para atualizar meu plano atual My name is Maria Gonzalez.. Voc\u00ea poderia, por favor, fornecer informa\u00e7\u00f5es detalhadas sobre os planos dispon\u00edveis, especialmente focando nas melhorias em recursos e detalhes de pre\u00e7os? Al\u00e9m disso, estou interessado em entender quaisquer descontos ou promo\u00e7\u00f5es potenciais que possam se aplicar caso eu escolha um n\u00edvel diferente.\n\nPara sua refer\u00eancia, meu nome completo \u00e9 <name> e voc\u00ea pode me contatar pelo <tel_num> caso precise de alguma verifica\u00e7\u00e3o adicional ou mais informa\u00e7\u00f5es You can reach me at carlosm@gmail.com.. Garantir que haja uma interrup\u00e7\u00e3o m\u00ednima durante essa transi\u00e7\u00e3o \u00e9 importante, ent\u00e3o sua assist\u00eancia r\u00e1pida seria apreciada.\n\nMuito obrigado pela sua ajuda nesta quest\u00e3o. Aguardo sua resposta com as informa\u00e7\u00f5es necess\u00e1rias para tomar uma decis\u00e3o informada.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        402,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        889,
+        906
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Mudan\u00e7a de Faturamento para o Google Workspace\n\nOl\u00e1 Atendimento ao Cliente da Tech Online Store,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar uma mudan\u00e7a de faturamento relacionada \u00e0 minha assinatura do Google Workspace Business Standard, associada ao n\u00famero da conta <acc_num>. Gostaria de explorar op\u00e7\u00f5es para atualizar meu plano atual My name is [full_name].. Voc\u00ea poderia, por favor, fornecer informa\u00e7\u00f5es detalhadas sobre os planos dispon\u00edveis, especialmente focando nas melhorias em recursos e detalhes de pre\u00e7os? Al\u00e9m disso, estou interessado em entender quaisquer descontos ou promo\u00e7\u00f5es potenciais que possam se aplicar caso eu escolha um n\u00edvel diferente.\n\nPara sua refer\u00eancia, meu nome completo \u00e9 <name> e voc\u00ea pode me contatar pelo <tel_num> caso precise de alguma verifica\u00e7\u00e3o adicional ou mais informa\u00e7\u00f5es You can reach me at [email].. Garantir que haja uma interrup\u00e7\u00e3o m\u00ednima durante essa transi\u00e7\u00e3o \u00e9 importante, ent\u00e3o sua assist\u00eancia r\u00e1pida seria apreciada.\n\nMuito obrigado pela sua ajuda nesta quest\u00e3o. Aguardo sua resposta com as informa\u00e7\u00f5es necess\u00e1rias para tomar uma decis\u00e3o informada.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Change"
+}

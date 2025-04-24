@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit Investment-Prognosen aufgrund potentieller Dateneingangst\u00f6rungen\n\nDie Investment-Prognosen weisen eine Ungenauigkeit auf, die durch potenzielle St\u00f6rungen im Dateneingang verursacht wurde. Obwohl die Analyse-Engine neu gestartet und die Datens\u00e4tze \u00fcberpr\u00fcft wurden, beh\u00e4lt sich das Problem unver\u00e4ndert bestanden.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        372
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Investment-Prognosen aufgrund potentieller Dateneingangst\u00f6rungen\n\nDie Investment-Prognosen weisen eine Ungenauigkeit auf, die durch potenzielle St\u00f6rungen im Dateneingang verursacht wurde. Obwohl die Analyse-Engine neu gestartet und die Datens\u00e4tze \u00fcberpr\u00fcft wurden, beh\u00e4lt sich das Problem unver\u00e4ndert bestanden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

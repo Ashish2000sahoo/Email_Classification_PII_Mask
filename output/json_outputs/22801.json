@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Access Control Issues in Jira Software\n\nHello Customer Support Team,\n\nI hope this message finds you well You can reach me at janesmith@company.com.. I am reaching out to report a significant issue concerning user permissions on the Jira Software platform, specifically version 8.20. Unfortunately, this issue is affecting our ability to effectively manage access control within the project management tool.\n\nSeveral team members have reported problems where certain user permissions are either not being granted or are revoked unexpectedly. This inconsistency has impeded our workflow and caused disruptions in project completion timelines. We have attempted to manually reset the permissions to their appropriate levels; however, these changes are not reflected on the platform.\n\nGiven the nature of our business, the necessity for efficient and accurate access control to manage ongoing projects is critical My name is Liu Wei.. We kindly request your immediate attention in investigating this problem and providing a solution that will restore proper permissions and functional integrity without compromising the security and operational efficiency of our projects.\n\nCould you please guide us on any potential troubleshooting steps that could be taken on our end while awaiting your technical assessment? Your prompt assistance in rectifying this issue would be greatly appreciated.\n\nThank you in advance for your support and understanding.\n\nBest regards,\n\n<name>\n<company>\n<tel_num>\n<email_address>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        938,
+        945
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        142,
+        163
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Access Control Issues in Jira Software\n\nHello Customer Support Team,\n\nI hope this message finds you well You can reach me at [email].. I am reaching out to report a significant issue concerning user permissions on the Jira Software platform, specifically version 8.20. Unfortunately, this issue is affecting our ability to effectively manage access control within the project management tool.\n\nSeveral team members have reported problems where certain user permissions are either not being granted or are revoked unexpectedly. This inconsistency has impeded our workflow and caused disruptions in project completion timelines. We have attempted to manually reset the permissions to their appropriate levels; however, these changes are not reflected on the platform.\n\nGiven the nature of our business, the necessity for efficient and accurate access control to manage ongoing projects is critical My name is [full_name].. We kindly request your immediate attention in investigating this problem and providing a solution that will restore proper permissions and functional integrity without compromising the security and operational efficiency of our projects.\n\nCould you please guide us on any potential troubleshooting steps that could be taken on our end while awaiting your technical assessment? Your prompt assistance in rectifying this issue would be greatly appreciated.\n\nThank you in advance for your support and understanding.\n\nBest regards,\n\n<name>\n<company>\n<tel_num>\n<email_address>",
+  "category_of_the_email": "Incident"
+}

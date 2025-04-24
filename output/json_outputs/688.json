@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Traffic Support Inquiry\n\nNoticed a decline in web traffic and engagement metrics My name is David Kim.. This could be due to an algorithm change or a technical glitch You can reach me at fatima.farsi@help.com.. Steps taken include clearing the cache and updating the content.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        101,
+        110
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        198,
+        219
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Traffic Support Inquiry\n\nNoticed a decline in web traffic and engagement metrics My name is [full_name].. This could be due to an algorithm change or a technical glitch You can reach me at [email].. Steps taken include clearing the cache and updating the content.",
+  "category_of_the_email": "Incident"
+}

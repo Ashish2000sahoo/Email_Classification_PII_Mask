@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Anfrage zur Aktualisierung der Zahlungsdetails f\u00fcr die Epson EcoTank ET-4760 Bestellung\n\nHallo Kundenservice,\n\nIch hoffe, diese E-Mail erreicht Sie wohl My name is Carlos Mendoza.. Ich schreibe, um eine Aktualisierung meiner Zahlungsdetails f\u00fcr meine k\u00fcrzliche Bestellung der Epson EcoTank ET-4760 zu beantragen You can reach me at janesmith@company.com.. Bitte aktualisieren Sie Ihr Abrechnungssystem mit den neuen Zahlungsinformationen, die mit der Kontonummer <acc_num> verkn\u00fcpft sind. Wenn Sie weitere Informationen ben\u00f6tigen, k\u00f6nnen Sie mich unter <tel_num> erreichen oder mir eine E-Mail senden. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nBeste,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        173,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        338,
+        359
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        81,
+        85
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        299,
+        303
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Aktualisierung der Zahlungsdetails f\u00fcr die Epson EcoTank ET-[phone_number] Bestellung\n\nHallo Kundenservice,\n\nIch hoffe, diese E-Mail erreicht Sie wohl My name is [full_name].. Ich schreibe, um eine Aktualisierung meiner Zahlungsdetails f\u00fcr meine k\u00fcrzliche Bestellung der Epson EcoTank ET-[phone_number] zu beantragen You can reach me at [email].. Bitte aktualisieren Sie Ihr Abrechnungssystem mit den neuen Zahlungsinformationen, die mit der Kontonummer <acc_num> verkn\u00fcpft sind. Wenn Sie weitere Informationen ben\u00f6tigen, k\u00f6nnen Sie mich unter <tel_num> erreichen oder mir eine E-Mail senden. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nBeste,\n<name>",
+  "category_of_the_email": "Change"
+}

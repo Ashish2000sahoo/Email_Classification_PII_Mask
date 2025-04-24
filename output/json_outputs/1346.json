@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problems with System Weakness in Data Processing\n\nDear Customer Support Team,<br>I am reporting an unexpected System Weakness phenomenon related to data processing.<br>The weakness phenomenon is attributed to inadequate resource allocation and software conflicts.<br>We have attempted to resolve the issue by restarting affected applications and checking updates, but unfortunately, the problem persists.<br>We estimate that any guidance or instructions you could provide to help identify the source of the problem and find a solution would be greatly appreciated, as this could help us prevent such weakness phenomena in the future.<br>Please provide any necessary information that would assist in resolving the issue.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        751,
+        768
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problems with System Weakness in Data Processing\n\nDear Customer Support Team,<br>I am reporting an unexpected System Weakness phenomenon related to data processing.<br>The weakness phenomenon is attributed to inadequate resource allocation and software conflicts.<br>We have attempted to resolve the issue by restarting affected applications and checking updates, but unfortunately, the problem persists.<br>We estimate that any guidance or instructions you could provide to help identify the source of the problem and find a solution would be greatly appreciated, as this could help us prevent such weakness phenomena in the future.<br>Please provide any necessary information that would assist in resolving the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

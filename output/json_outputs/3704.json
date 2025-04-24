@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Conflict in Data Access Information Security for Medical Information Systems\n\nThe incident occurred due to conflicts in data access information security for medical data My name is Jane Smith.. Possible causes include version mismatches of software, changes in user rights You can reach me at sophia.rossi@service.it.. Attempts to resolve the issue included reconfiguring access settings and updating software components. Assistance is needed to identify the original cause, implement the solution, and prevent future occurrences.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        190,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        303,
+        326
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Conflict in Data Access Information Security for Medical Information Systems\n\nThe incident occurred due to conflicts in data access information security for medical data My name is [full_name].. Possible causes include version mismatches of software, changes in user rights You can reach me at [email].. Attempts to resolve the issue included reconfiguring access settings and updating software components. Assistance is needed to identify the original cause, implement the solution, and prevent future occurrences.",
+  "category_of_the_email": "Incident"
+}

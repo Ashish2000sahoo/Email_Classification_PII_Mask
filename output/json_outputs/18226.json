@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Recent Digital Marketing Campaign\n\nDear Customer Support,\\n\\nWe are writing to draw your attention to the challenges faced with our recent digital marketing campaign. Despite our efforts, the campaign fell short of the expected outcomes, evidenced by low engagement levels as indicated by the performance metrics. A deeper investigation revealed that the targeting and budget allocation were insufficient, significantly impacting the campaign's efficacy.\\n\\nWe have made adjustments to the target audience and increased the budget in an attempt to address these issues. Nevertheless, we strongly believe that it is crucial to consult with your professional team to gain a comprehensive understanding of the problems and devise strategies for future improvement.\\n\\nWe would greatly appreciate any advice or recommendations you can offer to help us refine our digital marketing approach My name is John Doe.. Your expertise would be highly beneficial in ensuring the successful execution of our upcoming campaigns. Please let us know if you require any further details from us to aid in this discussion.\\n\\nThank you for your time and cooperation. We look forward to your prompt response.\\n\\nBest regards, You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        921,
+        929
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1252,
+        1269
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Recent Digital Marketing Campaign\n\nDear Customer Support,\\n\\nWe are writing to draw your attention to the challenges faced with our recent digital marketing campaign. Despite our efforts, the campaign fell short of the expected outcomes, evidenced by low engagement levels as indicated by the performance metrics. A deeper investigation revealed that the targeting and budget allocation were insufficient, significantly impacting the campaign's efficacy.\\n\\nWe have made adjustments to the target audience and increased the budget in an attempt to address these issues. Nevertheless, we strongly believe that it is crucial to consult with your professional team to gain a comprehensive understanding of the problems and devise strategies for future improvement.\\n\\nWe would greatly appreciate any advice or recommendations you can offer to help us refine our digital marketing approach My name is [full_name].. Your expertise would be highly beneficial in ensuring the successful execution of our upcoming campaigns. Please let us know if you require any further details from us to aid in this discussion.\\n\\nThank you for your time and cooperation. We look forward to your prompt response.\\n\\nBest regards, You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

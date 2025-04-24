@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgente: Interrupci\u00f3n de Red por el Router ISR4331\n\nEstimado equipo de soporte, estamos experimentando una interrupci\u00f3n de red causada por un router Cisco ISR4331 defectuoso You can reach me at maria.gonzalez@shop.es.. Esto requiere una intervenci\u00f3n t\u00e9cnica de alta prioridad. Por favor, aborden este problema lo antes posible. Gracias por su asistencia. Atentamente, <name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        395,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        203,
+        225
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        55,
+        59
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        167,
+        171
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Interrupci\u00f3n de Red por el Router ISR[phone_number]\n\nEstimado equipo de soporte, estamos experimentando una interrupci\u00f3n de red causada por un router Cisco ISR[phone_number] defectuoso You can reach me at [email].. Esto requiere una intervenci\u00f3n t\u00e9cnica de alta prioridad. Por favor, aborden este problema lo antes posible. Gracias por su asistencia. Atentamente, <name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

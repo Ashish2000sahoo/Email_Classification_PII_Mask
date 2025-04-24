@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Refresh Digital Marketing Strategies\n\nCustomer Support, requesting an update to our digital marketing strategies to enhance brand growth and customer engagement across various platforms. Our current strategies are yielding the desired results, but we need to adapt to changing market trends My name is Carlos Mendoza.. We would greatly appreciate a comprehensive plan to improve our online presence and reach a wider audience You can reach me at maria.gonzalez@shop.es.. This should include social media, email marketing, and search engine optimization. We look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        325
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        452,
+        474
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Refresh Digital Marketing Strategies\n\nCustomer Support, requesting an update to our digital marketing strategies to enhance brand growth and customer engagement across various platforms. Our current strategies are yielding the desired results, but we need to adapt to changing market trends My name is [full_name].. We would greatly appreciate a comprehensive plan to improve our online presence and reach a wider audience You can reach me at [email].. This should include social media, email marketing, and search engine optimization. We look forward to your response.",
+  "category_of_the_email": "Change"
+}

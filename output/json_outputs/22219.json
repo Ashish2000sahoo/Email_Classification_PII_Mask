@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de compatibilit\u00e9 du MacBook\n\nBonjour, j'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 You can reach me at omar.hassan@secure.net.. Je voudrais confirmer si le MacBook Air M1 est compatible avec le moniteur d'affichage <monitor_brand> My name is Elena Ivanova.. Je vous remercie de votre aide \u00e0 ce sujet. Merci, <name>. Cordialement, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        278
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        126,
+        148
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Demande de compatibilit\u00e9 du MacBook\n\nBonjour, j'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 You can reach me at [email].. Je voudrais confirmer si le MacBook Air M1 est compatible avec le moniteur d'affichage <monitor_brand> My name is [full_name].. Je vous remercie de votre aide \u00e0 ce sujet. Merci, <name>. Cordialement, <name>.",
+  "category_of_the_email": "Request"
+}

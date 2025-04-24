@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Accessing Medical Data\n\nFacing difficulties in accessing secure medical data due to incompatible software integrations.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        177
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Accessing Medical Data\n\nFacing difficulties in accessing secure medical data due to incompatible software integrations.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

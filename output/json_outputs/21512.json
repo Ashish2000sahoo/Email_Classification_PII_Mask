@@ -1,0 +1,55 @@
+{
+  "input_email_body": "Subject: Problema de desconexiones frecuentes con el router Cisco ISR4331\n\nEstimado cliente del soporte t\u00e9cnico de la tienda en l\u00ednea,\n\nEspero que este mensaje le encuentre bien. Le escribo para expresar algunas preocupaciones respecto al router Cisco ISR4331, un producto suyo que compr\u00e9 con grandes expectativas My name is John Doe.. Lamentablemente, he estado experimentando desconexiones frecuentes mientras utilizo el router, lo cual ha estado creando interrupciones sustanciales durante mis reuniones en l\u00ednea programadas, algo que est\u00e1 resultando bastante disruptivo para mis compromisos profesionales.\n\nEl problema principal se refiere a ca\u00eddas inesperadas que ocurren espor\u00e1dicamente, independientemente de la hora del d\u00eda o del nivel de uso You can reach me at sophia.rossi@service.it.. Intent\u00e9 procedimientos rutinarios de resoluci\u00f3n de problemas como reiniciar el dispositivo, verificar la configuraci\u00f3n de conectividad y confirmar que el firmware estaba actualizado, pero sin ninguna mejora en este problema persistente. Adem\u00e1s, he verificado que el problema no est\u00e1 relacionado con mi proveedor de servicios de Internet al llevar a cabo controles detallados.\n\nAdem\u00e1s, es imperativo tener una conectividad a Internet estable para mi trabajo, y estas interrupciones recurrentes no solo han obstaculizado la productividad, sino que tambi\u00e9n han generado preocupaciones sobre la fiabilidad. Conf\u00edo mucho en el rendimiento constante de productos de redes de alta calidad, que fue la raz\u00f3n por la que el router Cisco ISR4331 parec\u00eda ser la opci\u00f3n ideal en el momento de la compra. En este punto, estoy interesado en resolver este asunto r\u00e1pidamente ya que est\u00e1 impactando significativamente mi trabajo.\n\nPor favor, recomiende cualquier otro paso de soluci\u00f3n de problemas que pueda haber pasado por alto o si hay configuraciones particulares para el router Cisco ISR4331 que requieran ajuste. Adem\u00e1s, agradecer\u00eda cualquier orientaci\u00f3n sobre un posible reemplazo o reparaci\u00f3n del dispositivo, en caso de que mi modelo est\u00e9 defectuoso.\n\nGracias por su atenci\u00f3n inmediata a este asunto. Espero su pronta respuesta.\n\nAtentamente,\n\n<name>\n<email_address>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        333
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        774,
+        797
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        69,
+        73
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        255,
+        259
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        1514,
+        1518
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        1859,
+        1863
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Problema de desconexiones frecuentes con el router Cisco ISR[phone_number]\n\nEstimado cliente del soporte t\u00e9cnico de la tienda en l\u00ednea,\n\nEspero que este mensaje le encuentre bien. Le escribo para expresar algunas preocupaciones respecto al router Cisco ISR[phone_number], un producto suyo que compr\u00e9 con grandes expectativas My name is [full_name].. Lamentablemente, he estado experimentando desconexiones frecuentes mientras utilizo el router, lo cual ha estado creando interrupciones sustanciales durante mis reuniones en l\u00ednea programadas, algo que est\u00e1 resultando bastante disruptivo para mis compromisos profesionales.\n\nEl problema principal se refiere a ca\u00eddas inesperadas que ocurren espor\u00e1dicamente, independientemente de la hora del d\u00eda o del nivel de uso You can reach me at [email].. Intent\u00e9 procedimientos rutinarios de resoluci\u00f3n de problemas como reiniciar el dispositivo, verificar la configuraci\u00f3n de conectividad y confirmar que el firmware estaba actualizado, pero sin ninguna mejora en este problema persistente. Adem\u00e1s, he verificado que el problema no est\u00e1 relacionado con mi proveedor de servicios de Internet al llevar a cabo controles detallados.\n\nAdem\u00e1s, es imperativo tener una conectividad a Internet estable para mi trabajo, y estas interrupciones recurrentes no solo han obstaculizado la productividad, sino que tambi\u00e9n han generado preocupaciones sobre la fiabilidad. Conf\u00edo mucho en el rendimiento constante de productos de redes de alta calidad, que fue la raz\u00f3n por la que el router Cisco ISR[phone_number] parec\u00eda ser la opci\u00f3n ideal en el momento de la compra. En este punto, estoy interesado en resolver este asunto r\u00e1pidamente ya que est\u00e1 impactando significativamente mi trabajo.\n\nPor favor, recomiende cualquier otro paso de soluci\u00f3n de problemas que pueda haber pasado por alto o si hay configuraciones particulares para el router Cisco ISR[phone_number] que requieran ajuste. Adem\u00e1s, agradecer\u00eda cualquier orientaci\u00f3n sobre un posible reemplazo o reparaci\u00f3n del dispositivo, en caso de que mi modelo est\u00e9 defectuoso.\n\nGracias por su atenci\u00f3n inmediata a este asunto. Espero su pronta respuesta.\n\nAtentamente,\n\n<name>\n<email_address>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

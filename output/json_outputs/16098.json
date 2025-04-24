@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Breach Investigation Request\n\nGreetings from the customer support team, we have identified a potential data breach involving medical information with indications of unauthorized access. This may be due to inadequate encryption and older software issues My name is Omar Hassan.. Measures already implemented include network isolation and passwords reset, but the situation still demands urgent resolution. We request a thorough investigation and a prompt corrective action to safeguard the medical data from future breaches. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        566,
+        591
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Breach Investigation Request\n\nGreetings from the customer support team, we have identified a potential data breach involving medical information with indications of unauthorized access. This may be due to inadequate encryption and older software issues My name is [full_name].. Measures already implemented include network isolation and passwords reset, but the situation still demands urgent resolution. We request a thorough investigation and a prompt corrective action to safeguard the medical data from future breaches. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

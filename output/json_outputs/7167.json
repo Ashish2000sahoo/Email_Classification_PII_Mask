@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Dienstleistungen - Datenanalyse\n\nK\u00f6nnen Sie uns mehr Informationen zu den Dienstleistungen der Datenanalyse, Optimierung und Investitionsstrategien bereitstellen?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        209
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Dienstleistungen - Datenanalyse\n\nK\u00f6nnen Sie uns mehr Informationen zu den Dienstleistungen der Datenanalyse, Optimierung und Investitionsstrategien bereitstellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

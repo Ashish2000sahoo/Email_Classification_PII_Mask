@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Failure in Medical Data Transfer\n\nThe medical data transfer has encountered a problem, which might be related to incompatible device settings.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        189
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Failure in Medical Data Transfer\n\nThe medical data transfer has encountered a problem, which might be related to incompatible device settings.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

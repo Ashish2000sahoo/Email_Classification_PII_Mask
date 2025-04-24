@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEs wurde ein unautorisierter Zugriffversuch auf die IT-Systeme des Krankenhauses erkannt You can reach me at omar.hassan@secure.net.. M\u00f6gliche Ursachen k\u00f6nnten eine Verwendung veralteter Antivirus-Signaturdateien oder Software-Verletzungen sein. Es wurden Ma\u00dfnahmen wie Systemneustart und Softwareaktualisierung implementiert, dennoch beh\u00e4lt sich der Problembereich bestehen My name is Sophia Rossi.. Bitte helfen Sie bei der L\u00f6sung des Problems, um die Sicherheit medizinischer Daten zu gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        397,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        120,
+        142
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nEs wurde ein unautorisierter Zugriffversuch auf die IT-Systeme des Krankenhauses erkannt You can reach me at [email].. M\u00f6gliche Ursachen k\u00f6nnten eine Verwendung veralteter Antivirus-Signaturdateien oder Software-Verletzungen sein. Es wurden Ma\u00dfnahmen wie Systemneustart und Softwareaktualisierung implementiert, dennoch beh\u00e4lt sich der Problembereich bestehen My name is [full_name].. Bitte helfen Sie bei der L\u00f6sung des Problems, um die Sicherheit medizinischer Daten zu gew\u00e4hrleisten.",
+  "category_of_the_email": "Incident"
+}

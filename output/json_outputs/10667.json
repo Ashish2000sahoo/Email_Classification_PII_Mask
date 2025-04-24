@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Systemrequirements f\u00fcr optimale Performance\n\nWelche Systemanforderungen m\u00fcssen erf\u00fcllt werden, um unsere Software-as-a-Service-Projektmanagement-Plattform optimal zu nutzen?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        220
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Systemrequirements f\u00fcr optimale Performance\n\nWelche Systemanforderungen m\u00fcssen erf\u00fcllt werden, um unsere Software-as-a-Service-Projektmanagement-Plattform optimal zu nutzen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

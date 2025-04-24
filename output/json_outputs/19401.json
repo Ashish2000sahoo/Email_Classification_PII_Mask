@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query for Billing Integration Options on SaaS Platform\n\nI am writing to inquire about the billing integration options available on your SaaS platform. Could you provide details on the various plans and pricing models? I would appreciate it if you could also inform me about any discounts or promotions that may be available You can reach me at sophia.rossi@service.it.. Additionally, could you let me know about the security measures that are in place to protect customer data? Thank you for your time and assistance My name is Elena Ivanova.. I look forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        537,
+        550
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        353,
+        376
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Query for Billing Integration Options on SaaS Platform\n\nI am writing to inquire about the billing integration options available on your SaaS platform. Could you provide details on the various plans and pricing models? I would appreciate it if you could also inform me about any discounts or promotions that may be available You can reach me at [email].. Additionally, could you let me know about the security measures that are in place to protect customer data? Thank you for your time and assistance My name is [full_name].. I look forward to hearing back from you soon.",
+  "category_of_the_email": "Request"
+}

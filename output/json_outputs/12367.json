@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Suspected Medical Data Breach Due to Unsecured Device Access\n\nThere is a concern that a medical data breach might have occurred because of unsecured device access. Despite conducting basic antivirus scans, the problem continues You can reach me at david.kim@corp.kr.. It is essential to perform a deeper investigation and take prompt action to avoid any potential damage or data loss. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        257,
+        274
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Suspected Medical Data Breach Due to Unsecured Device Access\n\nThere is a concern that a medical data breach might have occurred because of unsecured device access. Despite conducting basic antivirus scans, the problem continues You can reach me at [email].. It is essential to perform a deeper investigation and take prompt action to avoid any potential damage or data loss. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

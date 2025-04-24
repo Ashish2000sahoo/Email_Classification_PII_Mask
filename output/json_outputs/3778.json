@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance for System Crash\n\nDuring peak times of the Data Analysis Platform due to server overload, user requests have caused a system crash My name is Maria Gonzalez.. After restarting the system and reducing user requests, the issue persists. We require support to resolve the problem, prevent future crashes, and ensure continuous optimization You can reach me at carlosm@gmail.com.. Please arrange a meeting to discuss the issue and find a suitable solution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        374,
+        391
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance for System Crash\n\nDuring peak times of the Data Analysis Platform due to server overload, user requests have caused a system crash My name is [full_name].. After restarting the system and reducing user requests, the issue persists. We require support to resolve the problem, prevent future crashes, and ensure continuous optimization You can reach me at [email].. Please arrange a meeting to discuss the issue and find a suitable solution.",
+  "category_of_the_email": "Incident"
+}

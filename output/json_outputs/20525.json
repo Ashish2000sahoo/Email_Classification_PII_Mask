@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consulta sobre paquetes de consultor\u00eda y precios\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEspero que este correo electr\u00f3nico lo encuentre bien. Me pongo en contacto para preguntar sobre los diferentes paquetes de consultor\u00eda y opciones de precios que ofrece su empresa My name is John Doe.. Estamos considerando mejorar nuestra infraestructura de TI y requerimos ayuda profesional para mantener nuestros servidores de manera eficiente. \u00bfPodr\u00eda proporcionar informaci\u00f3n detallada sobre lo que abarcan sus Servicios de Consultor\u00eda de TI, incluyendo cualquier plan disponible que est\u00e9 dise\u00f1ado para el mantenimiento de servidores y mejoras en la infraestructura de TI? Adem\u00e1s, estamos interesados en comprender los costos asociados o descuentos disponibles.\n\nGracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta, ya que nos ayudar\u00e1 enormemente a tomar una decisi\u00f3n informada You can reach me at fatima.farsi@help.com.. No dude en ponerse en contacto conmigo si necesita m\u00e1s informaci\u00f3n.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        292,
+        300
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        920,
+        941
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Consulta sobre paquetes de consultor\u00eda y precios\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEspero que este correo electr\u00f3nico lo encuentre bien. Me pongo en contacto para preguntar sobre los diferentes paquetes de consultor\u00eda y opciones de precios que ofrece su empresa My name is [full_name].. Estamos considerando mejorar nuestra infraestructura de TI y requerimos ayuda profesional para mantener nuestros servidores de manera eficiente. \u00bfPodr\u00eda proporcionar informaci\u00f3n detallada sobre lo que abarcan sus Servicios de Consultor\u00eda de TI, incluyendo cualquier plan disponible que est\u00e9 dise\u00f1ado para el mantenimiento de servidores y mejoras en la infraestructura de TI? Adem\u00e1s, estamos interesados en comprender los costos asociados o descuentos disponibles.\n\nGracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta, ya que nos ayudar\u00e1 enormemente a tomar una decisi\u00f3n informada You can reach me at [email].. No dude en ponerse en contacto conmigo si necesita m\u00e1s informaci\u00f3n.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Request"
+}

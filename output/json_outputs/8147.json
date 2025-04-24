@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Breach Happened Because of Lack of Encryption\n\nInsufficient encryption led to the data breach problem. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        153
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data Breach Happened Because of Lack of Encryption\n\nInsufficient encryption led to the data breach problem. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Performance Drop in Dashboard Following Latest Update\n\nI am encountering difficulties with the dashboard taking a long time to load after the most recent update. I believe the issue could be due to caching problems My name is Liu Wei.. I have already checked and cleared the cache on my browser, but the problem still exists. Could you please assist in resolving this? It would be very helpful if you could suggest ways to troubleshoot or fix the issue You can reach me at janesmith@company.com.. Please inform me if you require any additional details from me to help with this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        242
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        486,
+        507
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Performance Drop in Dashboard Following Latest Update\n\nI am encountering difficulties with the dashboard taking a long time to load after the most recent update. I believe the issue could be due to caching problems My name is [full_name].. I have already checked and cleared the cache on my browser, but the problem still exists. Could you please assist in resolving this? It would be very helpful if you could suggest ways to troubleshoot or fix the issue You can reach me at [email].. Please inform me if you require any additional details from me to help with this problem.",
+  "category_of_the_email": "Incident"
+}

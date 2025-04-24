@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Integrierungsfehler bei unseren Diensten melden\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen Vorfall zu melden, der sich auf die Integrierungsfehler unserer Dienste bezieht. Ungew\u00f6hnliche Fehler traten auf, und ich vermute, dass dies durch einen Fehler in der neuesten Aktualisierung verursacht wurde My name is Jane Smith.. Ich habe versucht, die Dienste neu zu starten und die Konfigurationen zu \u00fcberpr\u00fcfen, aber der Fehler beh\u00e4lt sich bestanden. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dies dringend untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um den L\u00f6sungsprozess zu unterst\u00fctzen. Die Details des Vorfalls lauten wie folgt: Vorfall: Integrierungsfehler, unerwartete Fehler traten auf. Warum: Fehler in der neuesten Aktualisierung wahrscheinlich verursacht. Versucht: Dienste neu gestartet, Konfigurationen \u00fcberpr\u00fcft You can reach me at janesmith@company.com.. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        344
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        960,
+        981
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Integrierungsfehler bei unseren Diensten melden\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen Vorfall zu melden, der sich auf die Integrierungsfehler unserer Dienste bezieht. Ungew\u00f6hnliche Fehler traten auf, und ich vermute, dass dies durch einen Fehler in der neuesten Aktualisierung verursacht wurde My name is [full_name].. Ich habe versucht, die Dienste neu zu starten und die Konfigurationen zu \u00fcberpr\u00fcfen, aber der Fehler beh\u00e4lt sich bestanden. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dies dringend untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um den L\u00f6sungsprozess zu unterst\u00fctzen. Die Details des Vorfalls lauten wie folgt: Vorfall: Integrierungsfehler, unerwartete Fehler traten auf. Warum: Fehler in der neuesten Aktualisierung wahrscheinlich verursacht. Versucht: Dienste neu gestartet, Konfigurationen \u00fcberpr\u00fcft You can reach me at [email].. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

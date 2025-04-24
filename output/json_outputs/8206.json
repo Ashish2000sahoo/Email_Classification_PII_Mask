@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent Attention Required: Severe Outage Impacting Data Analytics Systems\n\nA critical outage has impacted our data analytics systems, likely due to recent software updates and network disruptions.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        243
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Urgent Attention Required: Severe Outage Impacting Data Analytics Systems\n\nA critical outage has impacted our data analytics systems, likely due to recent software updates and network disruptions.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

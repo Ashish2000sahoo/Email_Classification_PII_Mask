@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Major Concern\n\nHello Support Team, we are presently encountering a major problem with server management, which is obstructing our ticketing system and software development efforts You can reach me at elena.ivanova@support.org.. Prompt assistance is vital to resolve this matter and mitigate its effects on our operations My name is Sophia Rossi.. Sincerely, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        353
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        209,
+        234
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Major Concern\n\nHello Support Team, we are presently encountering a major problem with server management, which is obstructing our ticketing system and software development efforts You can reach me at [email].. Prompt assistance is vital to resolve this matter and mitigate its effects on our operations My name is [full_name].. Sincerely, <name>.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Encryption Problem\n\nThe data encryption process has suddenly stopped working You can reach me at maria.gonzalez@shop.es.. It might be due to a software anomaly or a configuration mistake. We have already rebooted the servers, reviewed the logs, and applied the latest updates. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        313
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        111,
+        133
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Data Encryption Problem\n\nThe data encryption process has suddenly stopped working You can reach me at [email].. It might be due to a software anomaly or a configuration mistake. We have already rebooted the servers, reviewed the logs, and applied the latest updates. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

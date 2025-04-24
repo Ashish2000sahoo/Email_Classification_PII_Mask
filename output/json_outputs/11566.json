@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Incident Report: Unauthorized Access Identified\n\nunauthorized access incident identified in hospital's systems, possibly endangering medical data.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        194
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Incident Report: Unauthorized Access Identified\n\nunauthorized access incident identified in hospital's systems, possibly endangering medical data.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

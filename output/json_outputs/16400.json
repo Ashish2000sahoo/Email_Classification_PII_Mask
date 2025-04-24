@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nThere has been an error during login which has restricted access. This might be due to recent system updates My name is Carlos Mendoza.. Despite clearing the cache and trying password resets, the problem still persists. Please assist in resolving the login issue. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        292,
+        309
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nThere has been an error during login which has restricted access. This might be due to recent system updates My name is [full_name].. Despite clearing the cache and trying password resets, the problem still persists. Please assist in resolving the login issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

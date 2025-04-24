@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Project Management Features\n\nEncountered an unexpected service disruption impacting project management functions due to server overload. After restarting services and clearing caches, the issue still persists.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        276
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Project Management Features\n\nEncountered an unexpected service disruption impacting project management functions due to server overload. After restarting services and clearing caches, the issue still persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung bei einem PyCharm 2024.2 Problem\n\nLiebes Kundenserviceteam, \n\nich hoffe, diese Nachricht erreicht Sie wohl You can reach me at janesmith@company.com.. Ich wende mich an Sie, um Unterst\u00fctzung bei einem Problem zu bitten, das ich mit der erweiterten Codeanalyse-Funktion des Debuggings in der Python IDE PyCharm 2024.2 habe. Mein Name ist <name> und meine Kontonummer lautet <acc_num>. Ich arbeite derzeit an einem kritischen Projekt, das stark auf diese Funktion angewiesen ist, und es scheint nicht wie erwartet zu funktionieren. Jedes Mal, wenn ich versuche zu debuggen, friert die Anwendung ein, was zu erheblichen Verz\u00f6gerungen f\u00fchrt. Ich habe versucht, die Software neu zu installieren, aber das Problem besteht weiterhin. Dar\u00fcber hinaus habe ich nach Patches oder Updates gesucht, aber alles scheint auf dem neuesten Stand zu sein My name is Sophia Rossi.. K\u00f6nnten Sie mir gegebenenfalls Ratschl\u00e4ge oder m\u00f6gliche L\u00f6sungen anbieten, die helfen k\u00f6nnten, dieses Problem zu l\u00f6sen? Es ist wichtig f\u00fcr meinen Arbeitsablauf, dass dies umgehend gekl\u00e4rt wird. Ich hoffe auf Ihre Expertise und eine schnelle L\u00f6sung dieses Anliegens. Sie k\u00f6nnen mich w\u00e4hrend der normalen Gesch\u00e4ftszeiten unter <tel_num> erreichen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung in dieser Angelegenheit. Ich freue mich auf Ihre R\u00fcckmeldung.\n\nMit besten Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        882,
+        894
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        162,
+        183
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        53,
+        57
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        331,
+        335
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung bei einem PyCharm [phone_number].2 Problem\n\nLiebes Kundenserviceteam, \n\nich hoffe, diese Nachricht erreicht Sie wohl You can reach me at [email].. Ich wende mich an Sie, um Unterst\u00fctzung bei einem Problem zu bitten, das ich mit der erweiterten Codeanalyse-Funktion des Debuggings in der Python IDE PyCharm [phone_number].2 habe. Mein Name ist <name> und meine Kontonummer lautet <acc_num>. Ich arbeite derzeit an einem kritischen Projekt, das stark auf diese Funktion angewiesen ist, und es scheint nicht wie erwartet zu funktionieren. Jedes Mal, wenn ich versuche zu debuggen, friert die Anwendung ein, was zu erheblichen Verz\u00f6gerungen f\u00fchrt. Ich habe versucht, die Software neu zu installieren, aber das Problem besteht weiterhin. Dar\u00fcber hinaus habe ich nach Patches oder Updates gesucht, aber alles scheint auf dem neuesten Stand zu sein My name is [full_name].. K\u00f6nnten Sie mir gegebenenfalls Ratschl\u00e4ge oder m\u00f6gliche L\u00f6sungen anbieten, die helfen k\u00f6nnten, dieses Problem zu l\u00f6sen? Es ist wichtig f\u00fcr meinen Arbeitsablauf, dass dies umgehend gekl\u00e4rt wird. Ich hoffe auf Ihre Expertise und eine schnelle L\u00f6sung dieses Anliegens. Sie k\u00f6nnen mich w\u00e4hrend der normalen Gesch\u00e4ftszeiten unter <tel_num> erreichen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung in dieser Angelegenheit. Ich freue mich auf Ihre R\u00fcckmeldung.\n\nMit besten Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Incident"
+}

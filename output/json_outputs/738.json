@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Login Problem\n\nDear Support Team, I am experiencing a login problem that started this morning My name is Liu Wei.. Login failed without any clear reason, and I suspect it might be related to server maintenance You can reach me at fatima.farsi@help.com.. I have already tried restarting my browser and clearing the cache, but the issue remains unresolved. Please review the situation and provide a solution at your earliest convenience. If there are any further steps I need to take, please inform me. Thank you for your help. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        121
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        243,
+        264
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Login Problem\n\nDear Support Team, I am experiencing a login problem that started this morning My name is [full_name].. Login failed without any clear reason, and I suspect it might be related to server maintenance You can reach me at [email].. I have already tried restarting my browser and clearing the cache, but the issue remains unresolved. Please review the situation and provide a solution at your earliest convenience. If there are any further steps I need to take, please inform me. Thank you for your help. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

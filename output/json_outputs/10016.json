@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance with Data Mismatches Problem\n\nFacing data mismatches in investment analytics owing to old software integrations.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        170
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Data Mismatches Problem\n\nFacing data mismatches in investment analytics owing to old software integrations.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

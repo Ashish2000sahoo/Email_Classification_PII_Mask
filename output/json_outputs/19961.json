@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEin kritischer Fehler ist w\u00e4hrend der Projektmanagement SaaS-Integration aufgetreten, was St\u00f6rungen verursacht hat My name is John Doe.. Neue API-Aktualisierungen k\u00f6nnten der Grund sein You can reach me at omar.hassan@secure.net.. Ich habe versucht, die Integrierungen zur\u00fcckzusetzen und die API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich trotzdem bestehen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        220,
+        242
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nEin kritischer Fehler ist w\u00e4hrend der Projektmanagement SaaS-Integration aufgetreten, was St\u00f6rungen verursacht hat My name is [full_name].. Neue API-Aktualisierungen k\u00f6nnten der Grund sein You can reach me at [email].. Ich habe versucht, die Integrierungen zur\u00fcckzusetzen und die API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich trotzdem bestehen.",
+  "category_of_the_email": "Incident"
+}

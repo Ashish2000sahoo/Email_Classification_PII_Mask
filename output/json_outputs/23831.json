@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consulta sobre el rendimiento del MacBook Air M1\n\nEstimado equipo de soporte de Tech Online Store, \n\nEstoy considerando comprar el MacBook Air M1 y me gustar\u00eda saber m\u00e1s sobre su duraci\u00f3n de bater\u00eda y rendimiento. \u00bfPodr\u00edan proporcionar informaci\u00f3n detallada sobre su resistencia y cualquier revisi\u00f3n de rendimiento de clientes disponible? \n\nGracias por su asistencia You can reach me at omar.hassan@secure.net.. Espero su pronta respuesta.\n\nAtentamente,\n\n<name> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        482,
+        495
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        396,
+        418
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Consulta sobre el rendimiento del MacBook Air M1\n\nEstimado equipo de soporte de Tech Online Store, \n\nEstoy considerando comprar el MacBook Air M1 y me gustar\u00eda saber m\u00e1s sobre su duraci\u00f3n de bater\u00eda y rendimiento. \u00bfPodr\u00edan proporcionar informaci\u00f3n detallada sobre su resistencia y cualquier revisi\u00f3n de rendimiento de clientes disponible? \n\nGracias por su asistencia You can reach me at [email].. Espero su pronta respuesta.\n\nAtentamente,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

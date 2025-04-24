@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSeeking detailed information on the features of the SaaS project management platform, particularly task management, team collaboration, and reporting capabilities My name is Liu Wei.. Also, interested in knowing the integration options with various tools and services You can reach me at fatima.farsi@help.com.. This information will assist in determining if the platform is a good fit for our needs.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        303,
+        324
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSeeking detailed information on the features of the SaaS project management platform, particularly task management, team collaboration, and reporting capabilities My name is [full_name].. Also, interested in knowing the integration options with various tools and services You can reach me at [email].. This information will assist in determining if the platform is a good fit for our needs.",
+  "category_of_the_email": "Request"
+}

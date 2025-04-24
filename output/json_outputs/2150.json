@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Aussetzung\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um eine Aussetzung w\u00e4hrend der Datenanalyse zu melden. Das System hat sich blockiert, was zu einem Verlust von Daten gef\u00fchrt hat. Ich habe versucht, das System zu starten, die Aktualisierung r\u00fcckg\u00e4ngig zu machen und das Debugging durchzuf\u00fchren, aber keines dieser Versuche hat das Problem gel\u00f6st. Ich w\u00fcrde Ihnen sehr danken, wenn Sie mir bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. Bitte teilen Sie mich mit, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie weitere Informationen von mir ben\u00f6tigen. Ich stehe Ihnen gerne zur Verf\u00fcgung, um alle erforderlichen Details zu bereitstellen oder in irgendeiner Weise mit der L\u00f6sung dieses Problems zusammenzuarbeiten You can reach me at johndoe@email.com.. Ich bedanke mich f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich auf Ihre baldige R\u00fcckmeldung. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        891,
+        904
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        766,
+        783
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Aussetzung\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um eine Aussetzung w\u00e4hrend der Datenanalyse zu melden. Das System hat sich blockiert, was zu einem Verlust von Daten gef\u00fchrt hat. Ich habe versucht, das System zu starten, die Aktualisierung r\u00fcckg\u00e4ngig zu machen und das Debugging durchzuf\u00fchren, aber keines dieser Versuche hat das Problem gel\u00f6st. Ich w\u00fcrde Ihnen sehr danken, wenn Sie mir bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. Bitte teilen Sie mich mit, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie weitere Informationen von mir ben\u00f6tigen. Ich stehe Ihnen gerne zur Verf\u00fcgung, um alle erforderlichen Details zu bereitstellen oder in irgendeiner Weise mit der L\u00f6sung dieses Problems zusammenzuarbeiten You can reach me at [email].. Ich bedanke mich f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich auf Ihre baldige R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

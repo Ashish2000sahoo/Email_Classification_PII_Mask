@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Patient Medical Records Security Incident in Healthcare Provider\n\nA healthcare provider encountered a data breach impacting patient medical records due to insufficient encryption measures. They have since updated their security software and enhanced staff training in data protection to address the issue.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        353
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Patient Medical Records Security Incident in Healthcare Provider\n\nA healthcare provider encountered a data breach impacting patient medical records due to insufficient encryption measures. They have since updated their security software and enhanced staff training in data protection to address the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me d'acc\u00e8s r\u00e9solu\n\nCher \u00e9quipe de support des services informatiques, Je vous contacte pour signaler une complication r\u00e9cente que nous avons rencontr\u00e9e avec notre Jira Software 8.20. Un utilisateur, reconnu comme <name>, a rencontr\u00e9 des difficult\u00e9s \u00e0 acc\u00e9der au syst\u00e8me de tickets en raison de probl\u00e8mes de connectivit\u00e9 persistants. Dans un premier temps, tous les efforts de d\u00e9pannage concernant l'application elle-m\u00eame semblaient inefficaces. Apr\u00e8s un examen plus approfondi, nous avons revu les configurations du navigateur et identifi\u00e9 certains dysfonctionnements qui perturbaient la fonction de chargement de l'application. La modification de ces param\u00e8tres a permis une r\u00e9solution partielle, mais le probl\u00e8me persistait de mani\u00e8re intermittente. En cons\u00e9quence, nous avons enqu\u00eat\u00e9 sur d'\u00e9ventuels blocages r\u00e9seau. Nous avons d\u00e9couvert que les r\u00e8gles de pare-feu au sein de notre structure de s\u00e9curit\u00e9 emp\u00eachaient l'acc\u00e8s \u00e0 des ports essentiels au bon fonctionnement de la connectivit\u00e9 de Jira. Une fois que nous avons ajust\u00e9 ces r\u00e8gles pour permettre le trafic n\u00e9cessaire, le probl\u00e8me a \u00e9t\u00e9 compl\u00e8tement r\u00e9solu. L'utilisateur, ainsi que notre \u00e9quipe, peut d\u00e9sormais acc\u00e9der sans effort et utiliser Jira Software sans aucun probl\u00e8me de connectivit\u00e9. Nous appr\u00e9cions vraiment le soutien et les ressources que votre \u00e9quipe fournit. Veuillez nous informer s'il existe des meilleures pratiques pour \u00e9viter de tels probl\u00e8mes \u00e0 l'avenir. Merci pour votre soutien continu My name is David Kim.. Cordialement, <name> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1496,
+        1505
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1551,
+        1568
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me d'acc\u00e8s r\u00e9solu\n\nCher \u00e9quipe de support des services informatiques, Je vous contacte pour signaler une complication r\u00e9cente que nous avons rencontr\u00e9e avec notre Jira Software 8.20. Un utilisateur, reconnu comme <name>, a rencontr\u00e9 des difficult\u00e9s \u00e0 acc\u00e9der au syst\u00e8me de tickets en raison de probl\u00e8mes de connectivit\u00e9 persistants. Dans un premier temps, tous les efforts de d\u00e9pannage concernant l'application elle-m\u00eame semblaient inefficaces. Apr\u00e8s un examen plus approfondi, nous avons revu les configurations du navigateur et identifi\u00e9 certains dysfonctionnements qui perturbaient la fonction de chargement de l'application. La modification de ces param\u00e8tres a permis une r\u00e9solution partielle, mais le probl\u00e8me persistait de mani\u00e8re intermittente. En cons\u00e9quence, nous avons enqu\u00eat\u00e9 sur d'\u00e9ventuels blocages r\u00e9seau. Nous avons d\u00e9couvert que les r\u00e8gles de pare-feu au sein de notre structure de s\u00e9curit\u00e9 emp\u00eachaient l'acc\u00e8s \u00e0 des ports essentiels au bon fonctionnement de la connectivit\u00e9 de Jira. Une fois que nous avons ajust\u00e9 ces r\u00e8gles pour permettre le trafic n\u00e9cessaire, le probl\u00e8me a \u00e9t\u00e9 compl\u00e8tement r\u00e9solu. L'utilisateur, ainsi que notre \u00e9quipe, peut d\u00e9sormais acc\u00e9der sans effort et utiliser Jira Software sans aucun probl\u00e8me de connectivit\u00e9. Nous appr\u00e9cions vraiment le soutien et les ressources que votre \u00e9quipe fournit. Veuillez nous informer s'il existe des meilleures pratiques pour \u00e9viter de tels probl\u00e8mes \u00e0 l'avenir. Merci pour votre soutien continu My name is [full_name].. Cordialement, <name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

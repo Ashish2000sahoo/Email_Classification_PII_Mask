@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Integration Software\n\nHello customer support, I am contacting you to report issues with the integration tools that have appeared recently. These errors could be due to the latest software updates that were incompatible You can reach me at fatima.farsi@help.com.. Despite efforts to fix it by restarting, reviewing logs, and updating plugins, the problem remains unresolved. Kindly investigate and propose a solution at your earliest convenience. If you require further information from me, please let me know My name is Fatima Al-Farsi.. I appreciate your prompt attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        540,
+        549
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        259,
+        280
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Integration Software\n\nHello customer support, I am contacting you to report issues with the integration tools that have appeared recently. These errors could be due to the latest software updates that were incompatible You can reach me at [email].. Despite efforts to fix it by restarting, reviewing logs, and updating plugins, the problem remains unresolved. Kindly investigate and propose a solution at your earliest convenience. If you require further information from me, please let me know My name is [full_name]-Farsi.. I appreciate your prompt attention to this matter.",
+  "category_of_the_email": "Incident"
+}

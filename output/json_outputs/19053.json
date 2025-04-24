@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Detected Compatibility Issues with Software\n\nThe financial firm is experiencing compatibility issues with their applications.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        157,
+        173
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Detected Compatibility Issues with Software\n\nThe financial firm is experiencing compatibility issues with their applications.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

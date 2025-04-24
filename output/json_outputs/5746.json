@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinischer Support\n\nGeachte Kundenservice, ich m\u00f6chte mich \u00fcber den Zusammenhang mit der Sicherstellung von medizinischen Daten in IT-Umgebungen von Krankenh\u00e4usern erkundigen. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Ma\u00dfnahmen geben, die umgesetzt werden, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler Patientendaten zu gew\u00e4hrleisten? Zudem w\u00e4re ich dankbar, wenn Sie Informationen zu L\u00f6sungen und Compliance-Zertifikaten wie z.B You can reach me at david.kim@corp.kr.. HIPAA bereitstellen k\u00f6nnten. Dar\u00fcber hinaus interessiere ich mich f\u00fcr Sicherheitsfunktionen wie Verschl\u00fcsselung und Zugriffssteuerung, die umgesetzt werden k\u00f6nnen, um medizinische Daten zu sch\u00fctzen. Vielen Dank und ich freue mich auf Ihre R\u00fcckmeldung. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        775,
+        789
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        492,
+        509
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Medizinischer Support\n\nGeachte Kundenservice, ich m\u00f6chte mich \u00fcber den Zusammenhang mit der Sicherstellung von medizinischen Daten in IT-Umgebungen von Krankenh\u00e4usern erkundigen. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Ma\u00dfnahmen geben, die umgesetzt werden, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler Patientendaten zu gew\u00e4hrleisten? Zudem w\u00e4re ich dankbar, wenn Sie Informationen zu L\u00f6sungen und Compliance-Zertifikaten wie z.B You can reach me at [email].. HIPAA bereitstellen k\u00f6nnten. Dar\u00fcber hinaus interessiere ich mich f\u00fcr Sicherheitsfunktionen wie Verschl\u00fcsselung und Zugriffssteuerung, die umgesetzt werden k\u00f6nnen, um medizinische Daten zu sch\u00fctzen. Vielen Dank und ich freue mich auf Ihre R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

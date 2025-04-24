@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Security Incident Involving Medical Data Exposure\n\nA security breach was identified, which might have exposed medical data due to a software vulnerability in Express.js. Steps have been taken to apply patches and strengthen user authentication methods to prevent future breaches.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        338
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support for Security Incident Involving Medical Data Exposure\n\nA security breach was identified, which might have exposed medical data due to a software vulnerability in Express.js. Steps have been taken to apply patches and strengthen user authentication methods to prevent future breaches.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

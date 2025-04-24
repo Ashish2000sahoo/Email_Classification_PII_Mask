@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Detected Unauthorized Access to Medical Data System Due to Phishing Email\n\nInitial security protocols were activated following an unauthorized access attempt via a phishing email.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        226
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Detected Unauthorized Access to Medical Data System Due to Phishing Email\n\nInitial security protocols were activated following an unauthorized access attempt via a phishing email.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Accessible Payment Choices for Digital Services\n\nI am keen to gain more insight into the payment options for digital strategy services. Could you please furnish me with details on the payment methods you accept? It would also be helpful to know if you provide flexible payment plans and if there are any discounts for long-term agreements My name is Sophia Rossi.. I look forward to your response and the opportunity to proceed with your services. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        371
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        476,
+        497
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Accessible Payment Choices for Digital Services\n\nI am keen to gain more insight into the payment options for digital strategy services. Could you please furnish me with details on the payment methods you accept? It would also be helpful to know if you provide flexible payment plans and if there are any discounts for long-term agreements My name is [full_name].. I look forward to your response and the opportunity to proceed with your services. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

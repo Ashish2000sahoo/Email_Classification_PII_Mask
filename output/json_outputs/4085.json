@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Leistung der Kampagne\n\nUnsere digitale Kampagne hat unterperformiert, wodurch die Teilnahme und Umsetzung niedrig waren. Ursache war haupts\u00e4chlich falsch definierte Zielgruppen und unklare Werbung You can reach me at carlosm@gmail.com.. Ich habe die Werbemeldung und das Budget angepasst, ben\u00f6tige aber zus\u00e4tzliche Unterst\u00fctzung. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        377
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        243,
+        260
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Leistung der Kampagne\n\nUnsere digitale Kampagne hat unterperformiert, wodurch die Teilnahme und Umsetzung niedrig waren. Ursache war haupts\u00e4chlich falsch definierte Zielgruppen und unklare Werbung You can reach me at [email].. Ich habe die Werbemeldung und das Budget angepasst, ben\u00f6tige aber zus\u00e4tzliche Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

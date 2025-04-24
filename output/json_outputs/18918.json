@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, es gibt einen unerwarteten Dienstunterbreichungsproblem, viele Systeme sind betroffen, insbesondere die Sicherung medizinischer Daten. Das Problem scheint mit der Kompatibilit\u00e4t Node.js 14.17 und Ubuntu 20.04 LTS zusammenzuh\u00e4ngen. Die betroffenen Systeme wurden neu gestartet und Aktualisierungen \u00fcberpr\u00fcft, aber das Problem bestand weiterhin. Die F\u00e4higkeit, kritische Daten zuzugreifen, wurde beeintr\u00e4chtigt My name is Jane Smith.. Wir bitten h\u00f6flich um Hilfe, um das Problem schnell zu beheben und weitere St\u00f6rungen zu vermeiden You can reach me at carlosm@gmail.com.. Bitte teilen Sie uns die n\u00e4chsten Schritte zur L\u00f6sung des Problems mit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        454,
+        464
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        586,
+        603
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        220,
+        225
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    },
+    {
+      "position": [
+        237,
+        242
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, es gibt einen unerwarteten Dienstunterbreichungsproblem, viele Systeme sind betroffen, insbesondere die Sicherung medizinischer Daten. Das Problem scheint mit der Kompatibilit\u00e4t Node.js [phone_number] und Ubuntu [phone_number] LTS zusammenzuh\u00e4ngen. Die betroffenen Systeme wurden neu gestartet und Aktualisierungen \u00fcberpr\u00fcft, aber das Problem bestand weiterhin. Die F\u00e4higkeit, kritische Daten zuzugreifen, wurde beeintr\u00e4chtigt My name is [full_name].. Wir bitten h\u00f6flich um Hilfe, um das Problem schnell zu beheben und weitere St\u00f6rungen zu vermeiden You can reach me at [email].. Bitte teilen Sie uns die n\u00e4chsten Schritte zur L\u00f6sung des Problems mit.",
+  "category_of_the_email": "Incident"
+}

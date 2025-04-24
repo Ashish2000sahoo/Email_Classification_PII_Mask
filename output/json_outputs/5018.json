@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Online Publication\n\nDear Customer Support, we are encountering issues with the online publication of our marketing materials. Despite restarting the system and re-uploading the files, the problem persists. It is possible that the issue is due to the GL\u00dcHSTEIN software. We would appreciate your assistance in resolving this problem as soon as possible You can reach me at david.kim@corp.kr.. If you could provide more detailed information, such as your account number and the error message text, it would be greatly helpful in addressing the issue. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        583,
+        593
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        395,
+        412
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problems with Online Publication\n\nDear Customer Support, we are encountering issues with the online publication of our marketing materials. Despite restarting the system and re-uploading the files, the problem persists. It is possible that the issue is due to the GL\u00dcHSTEIN software. We would appreciate your assistance in resolving this problem as soon as possible You can reach me at [email].. If you could provide more detailed information, such as your account number and the error message text, it would be greatly helpful in addressing the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

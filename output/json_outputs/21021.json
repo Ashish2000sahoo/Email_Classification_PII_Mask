@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent: Connectivity Issues with Cisco Router ISR4331\n\nDear IT Services Support Team,\n\nI am writing to report an issue with the Cisco Router ISR4331 that is experiencing sudden connectivity disruptions My name is Maria Gonzalez.. The issue began affecting network performance across various departments, causing significant operational challenges. We rely on this router for critical communications, and this downtime impacts our productivity. Please prioritize this matter and advise on any troubleshooting steps or if requiring immediate attention from your team You can reach me at johndoe@email.com.. Your prompt response will be greatly appreciated as we work towards resolving this problem. Looking forward to your guidance.\n\nThank you,\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        591,
+        608
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        58,
+        62
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        153,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Connectivity Issues with Cisco Router ISR[phone_number]\n\nDear IT Services Support Team,\n\nI am writing to report an issue with the Cisco Router ISR[phone_number] that is experiencing sudden connectivity disruptions My name is [full_name].. The issue began affecting network performance across various departments, causing significant operational challenges. We rely on this router for critical communications, and this downtime impacts our productivity. Please prioritize this matter and advise on any troubleshooting steps or if requiring immediate attention from your team You can reach me at [email].. Your prompt response will be greatly appreciated as we work towards resolving this problem. Looking forward to your guidance.\n\nThank you,\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

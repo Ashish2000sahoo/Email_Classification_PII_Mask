@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Over Brand Growth\n\nCustomer Support, our marketing agency is experiencing a slowdown in brand growth across various digital strategies My name is David Kim.. This may be due to outdated tools and ineffective campaigns. So far, we have analyzed current strategies, sought team feedback, and reviewed competitor activities. However, we need expert assistance to identify the root cause and implement corrective measures. We would appreciate guidance on the latest tools and trends in digital marketing You can reach me at janesmith@company.com.. Additionally, we need help in creating",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        173
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        540,
+        561
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Brand Growth\n\nCustomer Support, our marketing agency is experiencing a slowdown in brand growth across various digital strategies My name is [full_name].. This may be due to outdated tools and ineffective campaigns. So far, we have analyzed current strategies, sought team feedback, and reviewed competitor activities. However, we need expert assistance to identify the root cause and implement corrective measures. We would appreciate guidance on the latest tools and trends in digital marketing You can reach me at [email].. Additionally, we need help in creating",
+  "category_of_the_email": "Incident"
+}

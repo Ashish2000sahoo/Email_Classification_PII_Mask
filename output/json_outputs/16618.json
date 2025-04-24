@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About System Performance Today\n\nHello, our financial firm is experiencing system crashes and slow performance while using analytics software. We suspect this might be due to compatibility issues with recent software updates or drivers. We have tried reinstalling applications, updating drivers, and checking system integrity, but the issue still persists My name is Liu Wei.. We need your help to resolve it You can reach me at david.kim@corp.kr.. Your guidance would be greatly appreciated to get our systems running smoothly again.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        450,
+        467
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concerns About System Performance Today\n\nHello, our financial firm is experiencing system crashes and slow performance while using analytics software. We suspect this might be due to compatibility issues with recent software updates or drivers. We have tried reinstalling applications, updating drivers, and checking system integrity, but the issue still persists My name is [full_name].. We need your help to resolve it You can reach me at [email].. Your guidance would be greatly appreciated to get our systems running smoothly again.",
+  "category_of_the_email": "Incident"
+}

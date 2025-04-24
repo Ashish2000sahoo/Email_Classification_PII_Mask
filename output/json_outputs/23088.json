@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance requise : probl\u00e8me de configuration sans fil\n\nCher client du Tech Online Store, je demande de l'aide pour configurer la connexion sans fil de mon imprimante tout-en-un couleur Compact, l'HP DeskJet 3755 My name is Elena Ivanova.. Je ne peux pas poursuivre avec les instructions actuelles fournies You can reach me at elena.ivanova@support.org.. Pourriez-vous me guider \u00e0 travers les \u00e9tapes n\u00e9cessaires ? Merci pour votre aide. Cordialement, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        335,
+        360
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        218,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assistance requise : probl\u00e8me de configuration sans fil\n\nCher client du Tech Online Store, je demande de l'aide pour configurer la connexion sans fil de mon imprimante tout-en-un couleur Compact, l'HP DeskJet [phone_number] My name is [full_name].. Je ne peux pas poursuivre avec les instructions actuelles fournies You can reach me at [email].. Pourriez-vous me guider \u00e0 travers les \u00e9tapes n\u00e9cessaires ? Merci pour votre aide. Cordialement, <name>.",
+  "category_of_the_email": "Problem"
+}

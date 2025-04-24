@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenschutzl\u00fccken im Krankenhaus-IT-System\n\nEs wurden Datenschutzl\u00fccken in den IT-Systemen des Krankenhauses festgestellt, die sensible medizinische Daten gef\u00e4hrden k\u00f6nnten My name is Carlos Mendoza.. Aufgrund von Software-Integrationsschwerpunkten und veralteten Sicherheitsprotokollen sind diese Probleme entstanden. Bislang wurden Feuerwal-Einstellungen aktualisiert, Softwareaudits durchgef\u00fchrt und Zugriffsprotokolle \u00fcberpr\u00fcft, um die Ursache zu identifizieren You can reach me at carlosm@gmail.com.. Bitte engagieren Sie sich, um die Angelegenheit baldigst zu l\u00f6sen und die Integrit\u00e4t unserer medizinischen Daten zu gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        492,
+        509
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Datenschutzl\u00fccken im Krankenhaus-IT-System\n\nEs wurden Datenschutzl\u00fccken in den IT-Systemen des Krankenhauses festgestellt, die sensible medizinische Daten gef\u00e4hrden k\u00f6nnten My name is [full_name].. Aufgrund von Software-Integrationsschwerpunkten und veralteten Sicherheitsprotokollen sind diese Probleme entstanden. Bislang wurden Feuerwal-Einstellungen aktualisiert, Softwareaudits durchgef\u00fchrt und Zugriffsprotokolle \u00fcberpr\u00fcft, um die Ursache zu identifizieren You can reach me at [email].. Bitte engagieren Sie sich, um die Angelegenheit baldigst zu l\u00f6sen und die Integrit\u00e4t unserer medizinischen Daten zu gew\u00e4hrleisten.",
+  "category_of_the_email": "Incident"
+}

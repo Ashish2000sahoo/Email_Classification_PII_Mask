@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am contacting you to address a problem with my digital campaigns. The campaigns have come to a halt, and my metrics are not updating You can reach me at carlosm@gmail.com.. I believe this could be due to a configuration issue with my VPN-Router or a clash with my macOS environment. I have attempted to restart my system, update my software, and follow troubleshooting steps from Lynda.com, yet the issue remains unresolved My name is David Kim.. I would be very grateful if you could assist me in resolving this issue promptly. Kindly notify me if you require further details. I await your response. Thanks for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        472,
+        481
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        190,
+        207
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am contacting you to address a problem with my digital campaigns. The campaigns have come to a halt, and my metrics are not updating You can reach me at [email].. I believe this could be due to a configuration issue with my VPN-Router or a clash with my macOS environment. I have attempted to restart my system, update my software, and follow troubleshooting steps from Lynda.com, yet the issue remains unresolved My name is [full_name].. I would be very grateful if you could assist me in resolving this issue promptly. Kindly notify me if you require further details. I await your response. Thanks for your attention and support.",
+  "category_of_the_email": "Incident"
+}

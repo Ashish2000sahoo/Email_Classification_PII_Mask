@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Devolu\u00e7\u00e3o de Produto - Canon PIXMA MG3620\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar a devolu\u00e7\u00e3o de um produto comprado na sua Loja Online Tech, que atualmente est\u00e1 enfrentando problemas de conectividade. O item em quest\u00e3o \u00e9 a impressora Canon PIXMA MG3620, que comprei em <purchase_date> usando meu n\u00famero de conta <acc_num>.\n\nDesde a configura\u00e7\u00e3o da impressora, enfrentei interrup\u00e7\u00f5es repetidas durante a impress\u00e3o sem fio, o que prejudicou minha capacidade de concluir efetivamente as tarefas de impress\u00e3o. Apesar de seguir todos os passos de solu\u00e7\u00e3o de problemas descritos no manual e no seu site de suporte, os problemas de conectividade persistem You can reach me at sophia.rossi@service.it.. Tentei v\u00e1rias solu\u00e7\u00f5es, incluindo reinicializa\u00e7\u00f5es de rede e atualiza\u00e7\u00f5es de firmware, mas o problema continua sem solu\u00e7\u00e3o.\n\nDiante disso, eu apreciaria se voc\u00ea pudesse autorizar uma devolu\u00e7\u00e3o deste produto, uma vez que est\u00e1 dentro do per\u00edodo de garantia. Por favor, me avise sobre o procedimento que preciso seguir, incluindo quaisquer documentos ou informa\u00e7\u00f5es que voc\u00ea precise da minha parte.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto My name is Maria Gonzalez.. Aguardo sua resposta r\u00e1pida para arranjar a devolu\u00e7\u00e3o e reembolso da impressora. Se precisar entrar em contato comigo, por favor, fale pelo meu n\u00famero de telefone registrado, <tel_num>.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1229,
+        1243
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        754,
+        777
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        61,
+        65
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        333,
+        337
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Devolu\u00e7\u00e3o de Produto - Canon PIXMA MG[phone_number]\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar a devolu\u00e7\u00e3o de um produto comprado na sua Loja Online Tech, que atualmente est\u00e1 enfrentando problemas de conectividade. O item em quest\u00e3o \u00e9 a impressora Canon PIXMA MG[phone_number], que comprei em <purchase_date> usando meu n\u00famero de conta <acc_num>.\n\nDesde a configura\u00e7\u00e3o da impressora, enfrentei interrup\u00e7\u00f5es repetidas durante a impress\u00e3o sem fio, o que prejudicou minha capacidade de concluir efetivamente as tarefas de impress\u00e3o. Apesar de seguir todos os passos de solu\u00e7\u00e3o de problemas descritos no manual e no seu site de suporte, os problemas de conectividade persistem You can reach me at [email].. Tentei v\u00e1rias solu\u00e7\u00f5es, incluindo reinicializa\u00e7\u00f5es de rede e atualiza\u00e7\u00f5es de firmware, mas o problema continua sem solu\u00e7\u00e3o.\n\nDiante disso, eu apreciaria se voc\u00ea pudesse autorizar uma devolu\u00e7\u00e3o deste produto, uma vez que est\u00e1 dentro do per\u00edodo de garantia. Por favor, me avise sobre o procedimento que preciso seguir, incluindo quaisquer documentos ou informa\u00e7\u00f5es que voc\u00ea precise da minha parte.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto My name is [full_name].. Aguardo sua resposta r\u00e1pida para arranjar a devolu\u00e7\u00e3o e reembolso da impressora. Se precisar entrar em contato comigo, por favor, fale pelo meu n\u00famero de telefone registrado, <tel_num>.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

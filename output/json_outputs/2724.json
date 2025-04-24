@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Campaign Metrics\n\nThere is a discrepancy in the campaign metrics reported due to an integration problem.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Campaign Metrics\n\nThere is a discrepancy in the campaign metrics reported due to an integration problem.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

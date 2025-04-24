@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Importance of Medical Data Security\n\nCustomer Support, please draw attention to the critical importance of implementing enhanced security protocols to safeguard medical data, given the increasing number of cyber attacks on healthcare institutions My name is Jane Smith.. It is crucial to take proactive measures to protect sensitive patient information You can reach me at janesmith@company.com.. This can be achieved by implementing robust firewalls, encrypting data, and conducting regular security audits. Additionally, training hospital staff in data security practices is essential to help prevent breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        277
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        383,
+        404
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Importance of Medical Data Security\n\nCustomer Support, please draw attention to the critical importance of implementing enhanced security protocols to safeguard medical data, given the increasing number of cyber attacks on healthcare institutions My name is [full_name].. It is crucial to take proactive measures to protect sensitive patient information You can reach me at [email].. This can be achieved by implementing robust firewalls, encrypting data, and conducting regular security audits. Additionally, training hospital staff in data security practices is essential to help prevent breaches.",
+  "category_of_the_email": "Change"
+}

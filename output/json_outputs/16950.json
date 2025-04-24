@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Regarding Issues with Data Processing Concept\n\nI am writing to report a problem with our data processing concept You can reach me at elena.ivanova@support.org.. The concept has stopped functioning, and we suspect that this could be due to insufficient RAM allocation. We have already attempted to restart the server and examine the logs, but the issue persists. We would greatly appreciate it if you could investigate this problem and provide a solution as soon as possible. Please inform us if any additional information is required to resolve the issue My name is Omar Hassan.. The concept is currently unavailable and needs to be back online as quickly as possible. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        575,
+        586
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        142,
+        167
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Regarding Issues with Data Processing Concept\n\nI am writing to report a problem with our data processing concept You can reach me at [email].. The concept has stopped functioning, and we suspect that this could be due to insufficient RAM allocation. We have already attempted to restart the server and examine the logs, but the issue persists. We would greatly appreciate it if you could investigate this problem and provide a solution as soon as possible. Please inform us if any additional information is required to resolve the issue My name is [full_name].. The concept is currently unavailable and needs to be back online as quickly as possible. Thank you for your time and support.",
+  "category_of_the_email": "Incident"
+}

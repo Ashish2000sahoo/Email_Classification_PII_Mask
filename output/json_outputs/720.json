@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Project Management Integration\n\nRequest for integrating project management SaaS tools like Zoho CRM, Outlook 2021, and Notion to enhance user productivity. The integration is aimed at allowing teams to access and manage projects seamlessly across various platforms, thereby saving time and increasing efficiency.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        134
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        356,
+        371
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support for Project Management Integration\n\nRequest for integrating project management SaaS tools like Zoho CRM, Outlook [phone_number], and Notion to enhance user productivity. The integration is aimed at allowing teams to access and manage projects seamlessly across various platforms, thereby saving time and increasing efficiency.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

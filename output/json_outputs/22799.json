@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de reemplazo de teclado\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEspero que este mensaje los encuentre bien. Estoy escribiendo para expresar mi preocupaci\u00f3n con respecto a una compra reciente realizada en su Tienda Online de Tecnolog\u00eda. Ped\u00ed un teclado Logitech MX Keys, que lamentablemente se ha vuelto inoperativo My name is Jane Smith.. Dada la prominencia de su tienda en la provisi\u00f3n de productos tecnol\u00f3gicos de calidad, estoy bastante sorprendido por este acontecimiento.\n\nEl teclado fue pedido bajo mi n\u00famero de cuenta <acc_num> y fue entregado el <date_of_delivery>. A pesar de haber intentado varios pasos de soluci\u00f3n de problemas recomendados para tales dispositivos, incluyendo la verificaci\u00f3n de las conexiones, el reemplazo de bater\u00edas y la actualizaci\u00f3n de controladores, el problema persiste. Creo que el producto puede haber sido defectuoso desde el principio.\n\nDe acuerdo con su pol\u00edtica de satisfacci\u00f3n del cliente, solicito amablemente un reemplazo para el producto no funcional. Entiendo que pueden surgir problemas ocasionalmente con productos tecnol\u00f3gicos, y conf\u00edo en que su empresa valora el servicio al cliente y abordar\u00e1 esta preocupaci\u00f3n r\u00e1pidamente.\n\n\u00bfPodr\u00edan guiarme a trav\u00e9s de los pasos necesarios o la documentaci\u00f3n requerida para el procesamiento de este reemplazo? Adem\u00e1s, si es necesario, mi informaci\u00f3n de contacto es la siguiente: n\u00famero de tel\u00e9fono <tel_num>; correo electr\u00f3nico <email_address>.\n\nGracias por su pronta atenci\u00f3n a este asunto You can reach me at johndoe@email.com.. Espero resolver este problema de manera oportuna y recibir un reemplazo que cumpla con los altos est\u00e1ndares esperados de un producto tan reputable.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        359
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1524,
+        1541
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de reemplazo de teclado\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEspero que este mensaje los encuentre bien. Estoy escribiendo para expresar mi preocupaci\u00f3n con respecto a una compra reciente realizada en su Tienda Online de Tecnolog\u00eda. Ped\u00ed un teclado Logitech MX Keys, que lamentablemente se ha vuelto inoperativo My name is [full_name].. Dada la prominencia de su tienda en la provisi\u00f3n de productos tecnol\u00f3gicos de calidad, estoy bastante sorprendido por este acontecimiento.\n\nEl teclado fue pedido bajo mi n\u00famero de cuenta <acc_num> y fue entregado el <date_of_delivery>. A pesar de haber intentado varios pasos de soluci\u00f3n de problemas recomendados para tales dispositivos, incluyendo la verificaci\u00f3n de las conexiones, el reemplazo de bater\u00edas y la actualizaci\u00f3n de controladores, el problema persiste. Creo que el producto puede haber sido defectuoso desde el principio.\n\nDe acuerdo con su pol\u00edtica de satisfacci\u00f3n del cliente, solicito amablemente un reemplazo para el producto no funcional. Entiendo que pueden surgir problemas ocasionalmente con productos tecnol\u00f3gicos, y conf\u00edo en que su empresa valora el servicio al cliente y abordar\u00e1 esta preocupaci\u00f3n r\u00e1pidamente.\n\n\u00bfPodr\u00edan guiarme a trav\u00e9s de los pasos necesarios o la documentaci\u00f3n requerida para el procesamiento de este reemplazo? Adem\u00e1s, si es necesario, mi informaci\u00f3n de contacto es la siguiente: n\u00famero de tel\u00e9fono <tel_num>; correo electr\u00f3nico <email_address>.\n\nGracias por su pronta atenci\u00f3n a este asunto You can reach me at [email].. Espero resolver este problema de manera oportuna y recibir un reemplazo que cumpla con los altos est\u00e1ndares esperados de un producto tan reputable.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

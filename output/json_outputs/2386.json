@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unauthorised Data Breach\n\nAn unexpected data breach was detected in Oracle Database 19c, potentially exposing sensitive medical data My name is Liu Wei.. The team has immediately implemented security patches and initiated a comprehensive integrity check process to evaluate the situation. The breach is attributed to outdated security protocols and vulnerabilities in the associated systems. We take this incident seriously and are working to resolve the situation as quickly as possible. Further updates will be communicated as more information becomes available. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        160
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        598,
+        615
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unauthorised Data Breach\n\nAn unexpected data breach was detected in Oracle Database 19c, potentially exposing sensitive medical data My name is [full_name].. The team has immediately implemented security patches and initiated a comprehensive integrity check process to evaluate the situation. The breach is attributed to outdated security protocols and vulnerabilities in the associated systems. We take this incident seriously and are working to resolve the situation as quickly as possible. Further updates will be communicated as more information becomes available. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Integration zwischen Monday.com und Google Cloud\n\nEs wurden Probleme bei der Integration zwischen Monday.com und Google Cloud beobachtet My name is Maria Gonzalez.. M\u00f6gliche Ursachen k\u00f6nnten eine API-Umstellung oder veraltete Plugins sein. Verschiedene Ma\u00dfnahmen wurden bereits unternommen, darunter das Neustarten der Dienste, die Pr\u00fcfung der Logdateien und die Aktualisierung von Abh\u00e4ngigkeiten. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        441,
+        458
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Integration zwischen Monday.com und Google Cloud\n\nEs wurden Probleme bei der Integration zwischen Monday.com und Google Cloud beobachtet My name is [full_name].. M\u00f6gliche Ursachen k\u00f6nnten eine API-Umstellung oder veraltete Plugins sein. Verschiedene Ma\u00dfnahmen wurden bereits unternommen, darunter das Neustarten der Dienste, die Pr\u00fcfung der Logdateien und die Aktualisierung von Abh\u00e4ngigkeiten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Billing Discrepancies\n\nEncountering unexpected billing inconsistencies across various services, which is affecting our digital strategy initiatives. It seems there might be a synchronization error causing duplicate charges on subscriptions You can reach me at carlosm@gmail.com.. Despite reviewing the billing statements and seeking clarification from the provider, the issues still persist My name is Carlos Mendoza.. I kindly request your assistance in resolving this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        431,
+        445
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        289,
+        306
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Billing Discrepancies\n\nEncountering unexpected billing inconsistencies across various services, which is affecting our digital strategy initiatives. It seems there might be a synchronization error causing duplicate charges on subscriptions You can reach me at [email].. Despite reviewing the billing statements and seeking clarification from the provider, the issues still persist My name is [full_name].. I kindly request your assistance in resolving this matter.",
+  "category_of_the_email": "Problem"
+}

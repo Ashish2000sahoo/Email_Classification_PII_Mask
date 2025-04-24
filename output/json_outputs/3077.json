@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Security on Windows and Skype\n\nI am contacting you to request information on the necessary security measures for safeguarding medical information on Windows and Skype. Given the high sensitivity of medical data, it is essential to maintain its confidentiality, integrity, and accessibility. I would greatly appreciate any advice on the most effective practices for securing medical data on these platforms My name is David Kim.. This should include suggestions for encryption, control of access, and methods of secure communication You can reach me at carlosm@gmail.com.. Moreover, I am interested in knowing whether there are any specific security protocols that are required for compliance with regulations such as HIPAA. Thank you for your attention and assistance; I am looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        448
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        576,
+        593
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Security on Windows and Skype\n\nI am contacting you to request information on the necessary security measures for safeguarding medical information on Windows and Skype. Given the high sensitivity of medical data, it is essential to maintain its confidentiality, integrity, and accessibility. I would greatly appreciate any advice on the most effective practices for securing medical data on these platforms My name is [full_name].. This should include suggestions for encryption, control of access, and methods of secure communication You can reach me at [email].. Moreover, I am interested in knowing whether there are any specific security protocols that are required for compliance with regulations such as HIPAA. Thank you for your attention and assistance; I am looking forward to your response.",
+  "category_of_the_email": "Request"
+}

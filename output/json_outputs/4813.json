@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Datenanalyse-Support f\u00fcr die Integration mit Investmentsoptimierungswerkzeugen unter Ubuntu 22.04 LTS\n\nSehr geehrte Kundensupport, ich schreibe, um nach den verf\u00fcgbaren Dokumentationen und Ressourcen f\u00fcr die Integration von Datenanalyse mit Investmentsoptimierungswerkzeugen unter Ubuntu 22.04 LTS zu fragen. Ich arbeite momentan an einem Projekt, bei dem das Verwenden dieser Werkzeuge erforderlich ist, und w\u00fcrde gerne wissen, welche Ressourcen zur Verf\u00fcgung stehen, um mich zu starten zu helfen You can reach me at fatima.farsi@help.com.. Insbesondere suche ich nach Dokumentationen zur Installation und Konfiguration der notwendigen Software sowie nach tutorials oder guias, die verf\u00fcgbar sind My name is Jane Smith.. Ich w\u00fcrde mich sehr freuen, wenn Sie mir Informationen zu diesem Thema bereitstellen k\u00f6nnten. Ich bedanke mich f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich darauf, Ihre Nachricht bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        732,
+        742
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        541,
+        562
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        115,
+        120
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    },
+    {
+      "position": [
+        311,
+        316
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Datenanalyse-Support f\u00fcr die Integration mit Investmentsoptimierungswerkzeugen unter Ubuntu [phone_number] LTS\n\nSehr geehrte Kundensupport, ich schreibe, um nach den verf\u00fcgbaren Dokumentationen und Ressourcen f\u00fcr die Integration von Datenanalyse mit Investmentsoptimierungswerkzeugen unter Ubuntu [phone_number] LTS zu fragen. Ich arbeite momentan an einem Projekt, bei dem das Verwenden dieser Werkzeuge erforderlich ist, und w\u00fcrde gerne wissen, welche Ressourcen zur Verf\u00fcgung stehen, um mich zu starten zu helfen You can reach me at [email].. Insbesondere suche ich nach Dokumentationen zur Installation und Konfiguration der notwendigen Software sowie nach tutorials oder guias, die verf\u00fcgbar sind My name is [full_name].. Ich w\u00fcrde mich sehr freuen, wenn Sie mir Informationen zu diesem Thema bereitstellen k\u00f6nnten. Ich bedanke mich f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich darauf, Ihre Nachricht bald zu erhalten.",
+  "category_of_the_email": "Request"
+}

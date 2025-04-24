@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Issue with LG OLED TV\n\nDear Customer Support Team,\n\nI hope this message finds you well You can reach me at omar.hassan@secure.net.. I am writing to bring to your attention an issue I am experiencing with a new purchase from your store. I recently bought an LG OLED C1 television, and upon setting it up, I noticed significant screen distortion accompanied by flickering colors My name is David Kim.. This problem was evident from the initial setup and persisted despite following all recommended troubleshooting steps in the manual.\n\nI have ensured that all cables are connected properly, and I tried adjusting the display settings, but the issue remains unsolved. As the LG OLED C1 is known for its superior image quality, this distortion and flickering greatly impact the viewing experience and does not reflect the high standards expected from such an advanced piece of technology.\n\nThe product was purchased by using account number <acc_num>, and I made the transaction on October 10th, 2023. Given that this is a newly purchased item, I would appreciate your assistance in resolving this issue. Whether it involves a replacement part, exchanging the unit, or any further troubleshooting recommendations, your guidance would be invaluable.\n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        397,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        116,
+        138
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        987,
+        991
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    }
+  ],
+  "masked_email": "Subject: Issue with LG OLED TV\n\nDear Customer Support Team,\n\nI hope this message finds you well You can reach me at [email].. I am writing to bring to your attention an issue I am experiencing with a new purchase from your store. I recently bought an LG OLED C1 television, and upon setting it up, I noticed significant screen distortion accompanied by flickering colors My name is [full_name].. This problem was evident from the initial setup and persisted despite following all recommended troubleshooting steps in the manual.\n\nI have ensured that all cables are connected properly, and I tried adjusting the display settings, but the issue remains unsolved. As the LG OLED C1 is known for its superior image quality, this distortion and flickering greatly impact the viewing experience and does not reflect the high standards expected from such an advanced piece of technology.\n\nThe product was purchased by using account number <acc_num>, and I made the transaction on October 10th, [phone_number]. Given that this is a newly purchased item, I would appreciate your assistance in resolving this issue. Whether it involves a replacement part, exchanging the unit, or any further troubleshooting recommendations, your guidance would be invaluable.\n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

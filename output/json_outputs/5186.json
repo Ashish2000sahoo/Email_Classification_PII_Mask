@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Security Breach of Medical Information\n\nDear Customer Support, I am encountering a security issue with the access to my medical data following a routine system update My name is Fatima Al-Farsi.. Despite confirming that the firewall settings are correct through system scans, the issue remains unresolved You can reach me at liuwei@business.cn.. Possible causes could be software conflicts or outdated security protocols. I am very concerned about the security of my data and would appreciate your assistance in resolving this matter. Please let me know the appropriate next steps and how I can be contacted at your convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        214
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        354,
+        372
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Security Breach of Medical Information\n\nDear Customer Support, I am encountering a security issue with the access to my medical data following a routine system update My name is [full_name]-Farsi.. Despite confirming that the firewall settings are correct through system scans, the issue remains unresolved You can reach me at [email].. Possible causes could be software conflicts or outdated security protocols. I am very concerned about the security of my data and would appreciate your assistance in resolving this matter. Please let me know the appropriate next steps and how I can be contacted at your convenience.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kritisches Integrationsschleife-Problem melden\n\nSehr geehrte Kundensupport,\\n\\nich schreibe Ihnen, um einen kritischen Fehler zu melden, der unsere Projektverz\u00f6gerungen erheblich beeintr\u00e4chtigt hat You can reach me at elena.ivanova@support.org.. Bei mehreren Integrationsversuchen sind sie gleichzeitig fehlgeschlagen, und wir konnten das Problem nicht beheben, trotz aller Bem\u00fchungen.\\n\\nDas Problem begann nach einer neuerlichen Aktualisierung, was uns vermuten l\u00e4sst, dass es m\u00f6glicherweise Konflikte oder \u00c4nderungen an den APIs gibt, die die Integrationsversuche behindern. Wir haben versucht, die betroffenen Dienste neu zu starten, die Logs zu \u00fcberpr\u00fcfen und die Einstellungen zu \u00fcberpr\u00fcfen, aber ohne Erfolg.\\n\\nWir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie uns schnellstm\u00f6glich umsehen und uns eine L\u00f6sung oder Anleitung geben k\u00f6nnten, wie wir das Problem beheben k\u00f6nnen My name is Sophia Rossi.. Bitte teilen Sie uns mit, ob es weitere Schritte f\u00fcr uns gibt, die wir unternehmen k\u00f6nnen oder ob es weitere Informationen von Ihnen gibt, die wir ben\u00f6tigen.\\n\\nVielen Dank f\u00fcr Ihre Aufmerksamkeit an dieser Angelegenheit und wir freuen uns darauf, bald von Ihnen zu h\u00f6ren.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        891,
+        903
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        227,
+        252
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Kritisches Integrationsschleife-Problem melden\n\nSehr geehrte Kundensupport,\\n\\nich schreibe Ihnen, um einen kritischen Fehler zu melden, der unsere Projektverz\u00f6gerungen erheblich beeintr\u00e4chtigt hat You can reach me at [email].. Bei mehreren Integrationsversuchen sind sie gleichzeitig fehlgeschlagen, und wir konnten das Problem nicht beheben, trotz aller Bem\u00fchungen.\\n\\nDas Problem begann nach einer neuerlichen Aktualisierung, was uns vermuten l\u00e4sst, dass es m\u00f6glicherweise Konflikte oder \u00c4nderungen an den APIs gibt, die die Integrationsversuche behindern. Wir haben versucht, die betroffenen Dienste neu zu starten, die Logs zu \u00fcberpr\u00fcfen und die Einstellungen zu \u00fcberpr\u00fcfen, aber ohne Erfolg.\\n\\nWir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie uns schnellstm\u00f6glich umsehen und uns eine L\u00f6sung oder Anleitung geben k\u00f6nnten, wie wir das Problem beheben k\u00f6nnen My name is [full_name].. Bitte teilen Sie uns mit, ob es weitere Schritte f\u00fcr uns gibt, die wir unternehmen k\u00f6nnen oder ob es weitere Informationen von Ihnen gibt, die wir ben\u00f6tigen.\\n\\nVielen Dank f\u00fcr Ihre Aufmerksamkeit an dieser Angelegenheit und wir freuen uns darauf, bald von Ihnen zu h\u00f6ren.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name]",
+  "category_of_the_email": "Incident"
+}

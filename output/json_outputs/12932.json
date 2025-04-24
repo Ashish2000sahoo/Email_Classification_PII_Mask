@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support team, we are facing recurring issues with the project management software resulting in frequent downtime, which is affecting our workflow and deadlines My name is Sophia Rossi.. The problem might be related to server load and configuration. Despite attempts to optimize the current server settings and monitor usage patterns, we haven't seen any improvement You can reach me at janesmith@company.com.. We would greatly appreciate it if you could investigate the matter and provide a solution to minimize downtime and ensure a smooth workflow.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        203
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        405,
+        426
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support team, we are facing recurring issues with the project management software resulting in frequent downtime, which is affecting our workflow and deadlines My name is [full_name].. The problem might be related to server load and configuration. Despite attempts to optimize the current server settings and monitor usage patterns, we haven't seen any improvement You can reach me at [email].. We would greatly appreciate it if you could investigate the matter and provide a solution to minimize downtime and ensure a smooth workflow.",
+  "category_of_the_email": "Incident"
+}

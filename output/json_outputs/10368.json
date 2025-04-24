@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Marketing Firm Noticing Reduction in Engagement Measures Lately\n\nengagement measures have been decreasing in digital campaigns.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Marketing Firm Noticing Reduction in Engagement Measures Lately\n\nengagement measures have been decreasing in digital campaigns.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

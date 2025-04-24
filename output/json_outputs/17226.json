@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versp\u00fcrtes Versagen der medizinischen Daten-Sicherheit\n\nUnser Team hat den unerlaubten Zugang zu unseren gesch\u00fctzten medizinischen Daten entdeckt. Wir gehen davon aus, dass das Problem durch mangelnde Firewalls und \u00fcberf\u00e4llige Software Versionen entstanden ist. Wir probierten bereits den Wiederstart der Server und die Inspektion unserer Logdateien aus, aber das Problem beh\u00e4lt sich hartn\u00e4ckig You can reach me at janesmith@company.com.. Wir sind voll in Sorge \u00fcber die m\u00f6glichen Auswirkungen und w\u00fcrden uns sehr \u00fcber Ihre Unterst\u00fctzung bei der Aufl\u00f6sung des Problems freuen, so schnell wie m\u00f6glich My name is John Doe.. K\u00f6nnten Sie uns bitte sagen, welche Schritte wir unternehmen k\u00f6nnten, um unser Daten-Netzwerk sicher zu stellen und zuk\u00fcnftige VorEVENT zu vermeiden?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        620,
+        628
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        424,
+        445
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Versp\u00fcrtes Versagen der medizinischen Daten-Sicherheit\n\nUnser Team hat den unerlaubten Zugang zu unseren gesch\u00fctzten medizinischen Daten entdeckt. Wir gehen davon aus, dass das Problem durch mangelnde Firewalls und \u00fcberf\u00e4llige Software Versionen entstanden ist. Wir probierten bereits den Wiederstart der Server und die Inspektion unserer Logdateien aus, aber das Problem beh\u00e4lt sich hartn\u00e4ckig You can reach me at [email].. Wir sind voll in Sorge \u00fcber die m\u00f6glichen Auswirkungen und w\u00fcrden uns sehr \u00fcber Ihre Unterst\u00fctzung bei der Aufl\u00f6sung des Problems freuen, so schnell wie m\u00f6glich My name is [full_name].. K\u00f6nnten Sie uns bitte sagen, welche Schritte wir unternehmen k\u00f6nnten, um unser Daten-Netzwerk sicher zu stellen und zuk\u00fcnftige VorEVENT zu vermeiden?",
+  "category_of_the_email": "Incident"
+}

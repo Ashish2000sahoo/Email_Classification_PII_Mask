@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detaillierte Informationen zu digitalen Markenwachstumsleistungen\n\nK\u00f6nnten detaillierte Informationen \u00fcber digitale Strategieleistungen zur Markenentwicklung liefern? Diese Informationen helfen, die Vorteile unserer Leistungen besser zu verstehen und ihnen zugutekommen zu kommen. Zus\u00e4tzliche Ressourcen wie Fallstudien k\u00f6nnen geteilt und sch\u00e4tzen My name is Jane Smith.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Zeit. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        368,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        447,
+        465
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Detaillierte Informationen zu digitalen Markenwachstumsleistungen\n\nK\u00f6nnten detaillierte Informationen \u00fcber digitale Strategieleistungen zur Markenentwicklung liefern? Diese Informationen helfen, die Vorteile unserer Leistungen besser zu verstehen und ihnen zugutekommen zu kommen. Zus\u00e4tzliche Ressourcen wie Fallstudien k\u00f6nnen geteilt und sch\u00e4tzen My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Zeit. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Information Regarding Data Breach in Secure Medical Systems\n\nThere was an incident of data breach affecting secure medical data systems due to unauthorized access through a system vulnerability. We have temporarily halted the affected systems and initiated a security review.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        319,
+        335
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for Information Regarding Data Breach in Secure Medical Systems\n\nThere was an incident of data breach affecting secure medical data systems due to unauthorized access through a system vulnerability. We have temporarily halted the affected systems and initiated a security review.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

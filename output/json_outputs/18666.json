@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Incident: Data Compromise\n\nDear Customer Support, we are reporting a serious incident involving the compromise of medical data security within our hospital's systems. The breach may have been caused by vulnerabilities from outdated software access. We have taken steps to resolve the issue by updating the software and enhancing firewall settings. Despite these efforts, we have not been able to fully recover from the breach You can reach me at johndoe@email.com.. This incident has significant implications for patient confidentiality and trust. We urge you to treat this matter with the utmost priority and seek immediate assistance. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        666,
+        677
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        464,
+        481
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Security Incident: Data Compromise\n\nDear Customer Support, we are reporting a serious incident involving the compromise of medical data security within our hospital's systems. The breach may have been caused by vulnerabilities from outdated software access. We have taken steps to resolve the issue by updating the software and enhancing firewall settings. Despite these efforts, we have not been able to fully recover from the breach You can reach me at [email].. This incident has significant implications for patient confidentiality and trust. We urge you to treat this matter with the utmost priority and seek immediate assistance. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

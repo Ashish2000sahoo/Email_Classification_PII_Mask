@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SaaS-Projektmanagement-Funktionen\n\ngeehrte Kundensupport, ich w\u00fcrde gerne mehr \u00fcber die Integrationseigenschaften von SaaS-Projektmanagement-Funktionen erfahren. K\u00f6nnten Sie mir zus\u00e4tzliche Informationen zu Art der Task-Zuweisung, Fortschritts\u00fcberwachung und Teamkollaboration geben? Ich bin auch an verschiedenen Integrationsm\u00f6glichkeiten interessiert, insbesondere mit Google Drive und Trello You can reach me at janesmith@company.com.. Zus\u00e4tzlich w\u00fcrde ich gerne mehr \u00fcber die Preisanbietungen und m\u00f6gliche Rabatte erfahren, die bei langfristigen Engagements gelten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich auf Ihre R\u00fcckmeldung. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        666,
+        680
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        424,
+        445
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: SaaS-Projektmanagement-Funktionen\n\ngeehrte Kundensupport, ich w\u00fcrde gerne mehr \u00fcber die Integrationseigenschaften von SaaS-Projektmanagement-Funktionen erfahren. K\u00f6nnten Sie mir zus\u00e4tzliche Informationen zu Art der Task-Zuweisung, Fortschritts\u00fcberwachung und Teamkollaboration geben? Ich bin auch an verschiedenen Integrationsm\u00f6glichkeiten interessiert, insbesondere mit Google Drive und Trello You can reach me at [email].. Zus\u00e4tzlich w\u00fcrde ich gerne mehr \u00fcber die Preisanbietungen und m\u00f6gliche Rabatte erfahren, die bei langfristigen Engagements gelten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich auf Ihre R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

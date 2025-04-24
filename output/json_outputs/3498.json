@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for System Outage\n\nCustomer Support, we are currently experiencing a system outage that is impacting our project management tools My name is Carlos Mendoza.. The issue might be related to the recent MongoDB 4.4 updates You can reach me at omar.hassan@secure.net.. Our team has tried restarting the services and clearing the cache, but the problem still persists. We are concerned that this outage could be affecting our productivity and deadlines. Could you please assist us in resolving this issue as soon as possible? We would greatly appreciate any guidance or support you can provide to help us get our systems back up and running.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        260,
+        282
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for System Outage\n\nCustomer Support, we are currently experiencing a system outage that is impacting our project management tools My name is [full_name].. The issue might be related to the recent MongoDB 4.4 updates You can reach me at [email].. Our team has tried restarting the services and clearing the cache, but the problem still persists. We are concerned that this outage could be affecting our productivity and deadlines. Could you please assist us in resolving this issue as soon as possible? We would greatly appreciate any guidance or support you can provide to help us get our systems back up and running.",
+  "category_of_the_email": "Incident"
+}

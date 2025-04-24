@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with the Data Analytics Dashboard\n\nThe data analytics dashboard has encountered a crash My name is John Doe.. It froze while performing investment optimization tasks, which might be related to an outdated GIMP plugin You can reach me at david.kim@corp.kr.. After restarting the system and updating Adobe Premiere Pro, the problem still exists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        122
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        255,
+        272
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with the Data Analytics Dashboard\n\nThe data analytics dashboard has encountered a crash My name is [full_name].. It froze while performing investment optimization tasks, which might be related to an outdated GIMP plugin You can reach me at [email].. After restarting the system and updating Adobe Premiere Pro, the problem still exists.",
+  "category_of_the_email": "Incident"
+}

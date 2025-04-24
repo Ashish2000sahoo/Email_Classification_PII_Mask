@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consulta de Servi\u00e7o\n\nOl\u00e1,\n\nEspero que esta mensagem o encontre bem. Estou entrando em contato para solicitar mais informa\u00e7\u00f5es sobre os seus Servi\u00e7os de Consultoria em TI, especificamente em rela\u00e7\u00e3o \u00e0 administra\u00e7\u00e3o de servidores e implementa\u00e7\u00e3o de sistemas de tickets You can reach me at janesmith@company.com.. Estamos considerando esses servi\u00e7os para otimizar nossas opera\u00e7\u00f5es de TI e melhorar nosso sistema de suporte. Voc\u00ea poderia, por favor, fornecer detalhes sobre seus servi\u00e7os, pre\u00e7os e qualquer op\u00e7\u00e3o de personaliza\u00e7\u00e3o dispon\u00edvel?\n\nAguardamos sua resposta r\u00e1pida.\n\nObrigado e melhores cumprimentos,\n\n<name>\n\n<name> Empresa\n<email>\n<tel_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        669,
+        678
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        296,
+        317
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Consulta de Servi\u00e7o\n\nOl\u00e1,\n\nEspero que esta mensagem o encontre bem. Estou entrando em contato para solicitar mais informa\u00e7\u00f5es sobre os seus Servi\u00e7os de Consultoria em TI, especificamente em rela\u00e7\u00e3o \u00e0 administra\u00e7\u00e3o de servidores e implementa\u00e7\u00e3o de sistemas de tickets You can reach me at [email].. Estamos considerando esses servi\u00e7os para otimizar nossas opera\u00e7\u00f5es de TI e melhorar nosso sistema de suporte. Voc\u00ea poderia, por favor, fornecer detalhes sobre seus servi\u00e7os, pre\u00e7os e qualquer op\u00e7\u00e3o de personaliza\u00e7\u00e3o dispon\u00edvel?\n\nAguardamos sua resposta r\u00e1pida.\n\nObrigado e melhores cumprimentos,\n\n<name>\n\n<name> Empresa\n<email>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

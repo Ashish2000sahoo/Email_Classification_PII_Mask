@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported charging problem with iPhone\n\nDear Customer Service Team,\n\nI am encountering a charging problem with my recently acquired iPhone 13 Pro bought from your online store You can reach me at janesmith@company.com.. The phone does not charge reliably, even when I have used different chargers and power sources My name is Elena Ivanova.. I would appreciate your guidance on how to resolve this matter.\n\nThank you,\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        204,
+        225
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Reported charging problem with iPhone\n\nDear Customer Service Team,\n\nI am encountering a charging problem with my recently acquired iPhone 13 Pro bought from your online store You can reach me at [email].. The phone does not charge reliably, even when I have used different chargers and power sources My name is [full_name].. I would appreciate your guidance on how to resolve this matter.\n\nThank you,\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

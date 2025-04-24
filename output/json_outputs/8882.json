@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Nachfrage nach Werkzeugen und Dienstleistungen f\u00fcr Optimalisierung des Workflows\n\nSehr geehrte Kundenservice,\\n\\nich schreibe Ihnen, um Informationen \u00fcber die Werkzeuge und Dienstleistungen Ihres Unternehmens zu erhalten, die den Workflow f\u00fcr eine optimierte Durchf\u00fchrung einer digitalen Marketingstrategie und die Beschleunigung des Markenwachstums f\u00f6rdern.\\nAls Unternehmer bin ich stets in der Suche, wie ich meine Online-Pr\u00e4senz verbessern und eine breitere Zielgruppe erreichen kann You can reach me at omar.hassan@secure.net.. Besonders interessiert bin ich an den Details, wie Ihre Werkzeuge meine Marketingbem\u00fchungen streamen, die Effizienz erh\u00f6hen und die Verkaufszahlen steigern k\u00f6nnen. Ich sch\u00e4tze jede verf\u00fcgbare Information zu Ihren Dienstleistungen, einschlie\u00dflich Fallstudien, Empfehlungen und Preispl\u00e4ne.\\nDar\u00fcber hinaus m\u00f6chte ich wissen, ob Ihr Unternehmen individuelle L\u00f6sungen anbietet, um die spezifischen Bed\u00fcrfnisse meines Unternehmens zu ber\u00fccksichtigen. Ich bin der Meinung, dass eine angepasste Herangehensweise effektiver f\u00fcr die Erreichung meiner Marketingziele ist.\\nIch freue mich darauf, bald von Ihnen zu h\u00f6ren My name is Maria Gonzalez.. Bitte kontaktieren Sie mich, falls Sie weitere Informationen von mir ben\u00f6tigen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1163,
+        1177
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        517,
+        539
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Nachfrage nach Werkzeugen und Dienstleistungen f\u00fcr Optimalisierung des Workflows\n\nSehr geehrte Kundenservice,\\n\\nich schreibe Ihnen, um Informationen \u00fcber die Werkzeuge und Dienstleistungen Ihres Unternehmens zu erhalten, die den Workflow f\u00fcr eine optimierte Durchf\u00fchrung einer digitalen Marketingstrategie und die Beschleunigung des Markenwachstums f\u00f6rdern.\\nAls Unternehmer bin ich stets in der Suche, wie ich meine Online-Pr\u00e4senz verbessern und eine breitere Zielgruppe erreichen kann You can reach me at [email].. Besonders interessiert bin ich an den Details, wie Ihre Werkzeuge meine Marketingbem\u00fchungen streamen, die Effizienz erh\u00f6hen und die Verkaufszahlen steigern k\u00f6nnen. Ich sch\u00e4tze jede verf\u00fcgbare Information zu Ihren Dienstleistungen, einschlie\u00dflich Fallstudien, Empfehlungen und Preispl\u00e4ne.\\nDar\u00fcber hinaus m\u00f6chte ich wissen, ob Ihr Unternehmen individuelle L\u00f6sungen anbietet, um die spezifischen Bed\u00fcrfnisse meines Unternehmens zu ber\u00fccksichtigen. Ich bin der Meinung, dass eine angepasste Herangehensweise effektiver f\u00fcr die Erreichung meiner Marketingziele ist.\\nIch freue mich darauf, bald von Ihnen zu h\u00f6ren My name is [full_name].. Bitte kontaktieren Sie mich, falls Sie weitere Informationen von mir ben\u00f6tigen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Name]",
+  "category_of_the_email": "Request"
+}

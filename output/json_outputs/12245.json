@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Incident Report\n\nCustomer Support, encountered an incident that may involve unauthorized access to medical data. This could have occurred due to a security vulnerability in our systems You can reach me at carlosm@gmail.com.. So far, we have conducted preliminary assessments and implemented immediate security measures to safeguard access. Our team is working diligently to investigate the matter and ensure the integrity of our systems. We appreciate your attention to this matter and look forward to your assistance in resolving it My name is Jane Smith.. Please let us know the next steps. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        563,
+        573
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        223,
+        240
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Security Incident Report\n\nCustomer Support, encountered an incident that may involve unauthorized access to medical data. This could have occurred due to a security vulnerability in our systems You can reach me at [email].. So far, we have conducted preliminary assessments and implemented immediate security measures to safeguard access. Our team is working diligently to investigate the matter and ensure the integrity of our systems. We appreciate your attention to this matter and look forward to your assistance in resolving it My name is [full_name].. Please let us know the next steps. Thank you.",
+  "category_of_the_email": "Incident"
+}

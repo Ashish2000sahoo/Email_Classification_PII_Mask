@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Delay\n\nDear support team, users have reported delays in accessing project dashboards over the past few days. These delays are believed to be due to increased user traffic. Backend calls have been optimized, and a server performance test has been conducted, but the issue persists. These delays are causing disruptions to our workflow You can reach me at janesmith@company.com.. We believe the matter requires immediate attention to resolve this issue. Please provide us with additional information to investigate the matter further My name is Liu Wei.. We are available at any time to assist with this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        552,
+        559
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        363,
+        384
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Delay\n\nDear support team, users have reported delays in accessing project dashboards over the past few days. These delays are believed to be due to increased user traffic. Backend calls have been optimized, and a server performance test has been conducted, but the issue persists. These delays are causing disruptions to our workflow You can reach me at [email].. We believe the matter requires immediate attention to resolve this issue. Please provide us with additional information to investigate the matter further My name is [full_name].. We are available at any time to assist with this.",
+  "category_of_the_email": "Incident"
+}

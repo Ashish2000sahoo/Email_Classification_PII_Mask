@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Billing Problem\n\nI am contacting you to address an issue with my billing. There are some unanticipated charges on my account, and I suspect they might be due to incorrect payment configurations. After reviewing my invoices and settings, I am still uncertain about the root cause of the problem. I kindly request that you examine this issue and provide a resolution at your earliest convenience. Please inform me if you need additional information from me to resolve this matter. I look forward to your prompt response My name is Elena Ivanova.. Thank you for your time and help. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        538,
+        551
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        606,
+        623
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Billing Problem\n\nI am contacting you to address an issue with my billing. There are some unanticipated charges on my account, and I suspect they might be due to incorrect payment configurations. After reviewing my invoices and settings, I am still uncertain about the root cause of the problem. I kindly request that you examine this issue and provide a resolution at your earliest convenience. Please inform me if you need additional information from me to resolve this matter. I look forward to your prompt response My name is [full_name].. Thank you for your time and help. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

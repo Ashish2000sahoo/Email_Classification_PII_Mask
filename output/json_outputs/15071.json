@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Investment Strategy with Advanced Data Analytics\n\nHello Customer Support, I am reaching out to inquire about the data analytics services you offer to enhance investment strategies My name is Maria Gonzalez.. Could you provide details on the types of data analytics you use to inform investment decisions? I would appreciate information on the benefits of using data analytics for investment strategies, which include improved risk management and increased returns. Additionally, could you provide examples of how data analytics have helped clients achieve their investment goals? Your assistance is greatly appreciated You can reach me at elena.ivanova@support.org.. Thank you for your time.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        208,
+        222
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        653,
+        678
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Improve Investment Strategy with Advanced Data Analytics\n\nHello Customer Support, I am reaching out to inquire about the data analytics services you offer to enhance investment strategies My name is [full_name].. Could you provide details on the types of data analytics you use to inform investment decisions? I would appreciate information on the benefits of using data analytics for investment strategies, which include improved risk management and increased returns. Additionally, could you provide examples of how data analytics have helped clients achieve their investment goals? Your assistance is greatly appreciated You can reach me at [email].. Thank you for your time.",
+  "category_of_the_email": "Request"
+}

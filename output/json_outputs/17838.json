@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with project timeline sync\n\nTo the customer support team. Here is a brief description of the problem: The project timeline sync has failed unexpectedly You can reach me at sophia.rossi@service.it.. This could potentially be due to a Node.js compatibility problem My name is Jane Smith.. Despite restarting UniFi and reviewing WordPress settings, the issue remains unresolved.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        187,
+        210
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with project timeline sync\n\nTo the customer support team. Here is a brief description of the problem: The project timeline sync has failed unexpectedly You can reach me at [email].. This could potentially be due to a Node.js compatibility problem My name is [full_name].. Despite restarting UniFi and reviewing WordPress settings, the issue remains unresolved.",
+  "category_of_the_email": "Incident"
+}

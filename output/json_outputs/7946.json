@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Anmeldung bei verschiedenen Produkten\n\nGehrte Kundenservice-Abteilung, wir begegnen derzeit Anmeldeprobleme bei verschiedenen Produkten. Diese scheinen auf erh\u00f6hte Serverbelastung und Authentifizierungsfehler zur\u00fcckzuf\u00fchren sein. Verschiedene Ma\u00dfnahmen zur Problembehebung wurden unternommen, einschlie\u00dflich das Versuch, das Passwort zu \u00e4ndern und den Cache zu leeren. Allerdings bestehen die Probleme weiterhin You can reach me at david.kim@corp.kr.. Wir sch\u00e4tzen, dass Sie das Problem bald l\u00f6sen k\u00f6nnen. Falls zus\u00e4tzliche Informationen ben\u00f6tigt werden, um das Problem zu beheben, bitten wir um die Mitteilung derselben. Wir freuen uns auf Ihre baldige R\u00fcckmeldung. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        704,
+        713
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        458,
+        475
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Anmeldung bei verschiedenen Produkten\n\nGehrte Kundenservice-Abteilung, wir begegnen derzeit Anmeldeprobleme bei verschiedenen Produkten. Diese scheinen auf erh\u00f6hte Serverbelastung und Authentifizierungsfehler zur\u00fcckzuf\u00fchren sein. Verschiedene Ma\u00dfnahmen zur Problembehebung wurden unternommen, einschlie\u00dflich das Versuch, das Passwort zu \u00e4ndern und den Cache zu leeren. Allerdings bestehen die Probleme weiterhin You can reach me at [email].. Wir sch\u00e4tzen, dass Sie das Problem bald l\u00f6sen k\u00f6nnen. Falls zus\u00e4tzliche Informationen ben\u00f6tigt werden, um das Problem zu beheben, bitten wir um die Mitteilung derselben. Wir freuen uns auf Ihre baldige R\u00fcckmeldung. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

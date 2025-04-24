@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Integration of Project Management Features\n\nCould you please integrate project management features into the affected products to enhance collaboration? We believe this would greatly benefit our team You can reach me at janesmith@company.com.. We would like to discuss this further and would appreciate your feedback on the matter. Could you let us know if this has been considered? My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        414,
+        424
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        240,
+        261
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Integration of Project Management Features\n\nCould you please integrate project management features into the affected products to enhance collaboration? We believe this would greatly benefit our team You can reach me at [email].. We would like to discuss this further and would appreciate your feedback on the matter. Could you let us know if this has been considered? My name is [full_name].",
+  "category_of_the_email": "Request"
+}

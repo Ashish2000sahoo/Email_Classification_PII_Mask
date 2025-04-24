@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Customer Support Billing Inquiry\n\nRespected Customer Support Team, I am contacting you to seek clarification regarding my billing details and payment options. Could you kindly update me on my current billing status and the various payment methods available? It would be helpful to know about any relevant deadlines or late payment fees My name is Elena Ivanova.. Furthermore, I am interested in knowing if there are any discounts or promotions for long-term payments You can reach me at fatima.farsi@help.com.. Please inform me if you require any additional information from me to process this request. I appreciate your time and assistance and look forward to your response. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        369
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        494,
+        515
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Customer Support Billing Inquiry\n\nRespected Customer Support Team, I am contacting you to seek clarification regarding my billing details and payment options. Could you kindly update me on my current billing status and the various payment methods available? It would be helpful to know about any relevant deadlines or late payment fees My name is [full_name].. Furthermore, I am interested in knowing if there are any discounts or promotions for long-term payments You can reach me at [email].. Please inform me if you require any additional information from me to process this request. I appreciate your time and assistance and look forward to your response. Thank you.",
+  "category_of_the_email": "Request"
+}

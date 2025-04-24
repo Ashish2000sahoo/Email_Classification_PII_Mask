@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Query Regarding Project\n\nWe are encountering performance lags with third-party software integrations. Could you please provide more details on the integrations and the specific lags experienced? Additionally, it would be helpful to know the steps you have taken so far to resolve the issue My name is Sophia Rossi.. If needed, we can schedule a call at a convenient time to discuss this further. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        432,
+        449
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Query Regarding Project\n\nWe are encountering performance lags with third-party software integrations. Could you please provide more details on the integrations and the specific lags experienced? Additionally, it would be helpful to know the steps you have taken so far to resolve the issue My name is [full_name].. If needed, we can schedule a call at a convenient time to discuss this further. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

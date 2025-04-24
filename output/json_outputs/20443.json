@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Dringend: Konnektivit\u00e4tsprobleme mit Cisco Router ISR4331\n\nSehr geehrtes IT-Serviceteam,\n\nich schreibe, um ein Problem mit dem Cisco Router ISR4331 zu melden, das pl\u00f6tzliche Konnektivit\u00e4tsunterbrechungen aufweist. Das Problem beeintr\u00e4chtigt die Netzwerkleistung in verschiedenen Abteilungen erheblich und verursacht erhebliche betriebliche Herausforderungen My name is Omar Hassan.. Wir sind auf diesen Router f\u00fcr kritische Kommunikationen angewiesen, und diese Ausfallzeit wirkt sich negativ auf unsere Produktivit\u00e4t aus. Bitte priorisieren Sie dieses Anliegen und informieren Sie uns \u00fcber m\u00f6gliche Fehlersuche oder ob sofortige Aufmerksamkeit Ihres Teams erforderlich ist You can reach me at janesmith@company.com.. Ihre schnelle Antwort wird sehr gesch\u00e4tzt, w\u00e4hrend wir daran arbeiten, dieses Problem zu l\u00f6sen. Ich freue mich auf Ihre Anleitung.\n\nDanke,\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        378,
+        389
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        703,
+        724
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        62,
+        66
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        152,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Dringend: Konnektivit\u00e4tsprobleme mit Cisco Router ISR[phone_number]\n\nSehr geehrtes IT-Serviceteam,\n\nich schreibe, um ein Problem mit dem Cisco Router ISR[phone_number] zu melden, das pl\u00f6tzliche Konnektivit\u00e4tsunterbrechungen aufweist. Das Problem beeintr\u00e4chtigt die Netzwerkleistung in verschiedenen Abteilungen erheblich und verursacht erhebliche betriebliche Herausforderungen My name is [full_name].. Wir sind auf diesen Router f\u00fcr kritische Kommunikationen angewiesen, und diese Ausfallzeit wirkt sich negativ auf unsere Produktivit\u00e4t aus. Bitte priorisieren Sie dieses Anliegen und informieren Sie uns \u00fcber m\u00f6gliche Fehlersuche oder ob sofortige Aufmerksamkeit Ihres Teams erforderlich ist You can reach me at [email].. Ihre schnelle Antwort wird sehr gesch\u00e4tzt, w\u00e4hrend wir daran arbeiten, dieses Problem zu l\u00f6sen. Ich freue mich auf Ihre Anleitung.\n\nDanke,\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer support, a critical application error occurred in the Project Management Software-as-a-Service (SaaS), affecting multiple customers. The issue is due to incompatibility with the latest MySQL updates and its integration with Shopware My name is Maria Gonzalez.. Despite rolling back the MySQL updates and reconfiguring Shopware settings, the problem persists. Urgent additional assistance is required to resolve the issue and prevent potential further disruptions to our services. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        278
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        517,
+        534
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer support, a critical application error occurred in the Project Management Software-as-a-Service (SaaS), affecting multiple customers. The issue is due to incompatibility with the latest MySQL updates and its integration with Shopware My name is [full_name].. Despite rolling back the MySQL updates and reconfiguring Shopware settings, the problem persists. Urgent additional assistance is required to resolve the issue and prevent potential further disruptions to our services. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

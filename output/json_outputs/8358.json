@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Sudden Drop in Website Traffic\n\nCustomer Support, we are writing to report an unexplained drop in website traffic and engagement rates. Despite our efforts to identify the cause, we have been unable to determine the source of the issue. We have cleared our cache, optimized our SEO settings, and analyzed recent campaigns, but none of these efforts have been successful in resolving the problem You can reach me at liuwei@business.cn.. We are concerned that this may be related to recent algorithm changes or technical issues My name is Omar Hassan.. We would greatly appreciate any assistance or guidance you can provide to help us resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        560,
+        571
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        438,
+        456
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern about Sudden Drop in Website Traffic\n\nCustomer Support, we are writing to report an unexplained drop in website traffic and engagement rates. Despite our efforts to identify the cause, we have been unable to determine the source of the issue. We have cleared our cache, optimized our SEO settings, and analyzed recent campaigns, but none of these efforts have been successful in resolving the problem You can reach me at [email].. We are concerned that this may be related to recent algorithm changes or technical issues My name is [full_name].. We would greatly appreciate any assistance or guidance you can provide to help us resolve this issue.",
+  "category_of_the_email": "Incident"
+}

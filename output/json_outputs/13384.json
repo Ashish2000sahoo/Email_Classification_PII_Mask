@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Help with Sluggish Data Analytics Tools\n\nThe financial firm's data analytics tools experience slow performance during peak hours. Possible causes include insufficient system resources or software conflicts My name is Jane Smith.. Improving settings or restarting applications might enhance performance. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        333,
+        354
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Help with Sluggish Data Analytics Tools\n\nThe financial firm's data analytics tools experience slow performance during peak hours. Possible causes include insufficient system resources or software conflicts My name is [full_name].. Improving settings or restarting applications might enhance performance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

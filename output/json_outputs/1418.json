@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Support Inquiry\n\nSeeking clarification on the process for securing medical data related to the products mentioned My name is David Kim.. Would it be possible to receive detailed information on the practices for handling sensitive medical information and ensuring compliance with relevant regulations? Your guidance and any available resources would be greatly appreciated. Thank you for your time and assistance. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        452,
+        469
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Medical Support Inquiry\n\nSeeking clarification on the process for securing medical data related to the products mentioned My name is [full_name].. Would it be possible to receive detailed information on the practices for handling sensitive medical information and ensuring compliance with relevant regulations? Your guidance and any available resources would be greatly appreciated. Thank you for your time and assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

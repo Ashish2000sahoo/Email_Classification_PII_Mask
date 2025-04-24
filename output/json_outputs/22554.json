@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I recently acquired an iPad Pro 2021 from your online store and have run into a problem. The device is not operating as I expected. I would appreciate your assistance in addressing this issue at your earliest convenience My name is Maria Gonzalez.. My order number is <acc_num> You can reach me at carlosm@gmail.com.. Thank you, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        281
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        330,
+        347
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        67,
+        71
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I recently acquired an iPad Pro [phone_number] from your online store and have run into a problem. The device is not operating as I expected. I would appreciate your assistance in addressing this issue at your earliest convenience My name is [full_name].. My order number is <acc_num> You can reach me at [email].. Thank you, <name>",
+  "category_of_the_email": "Incident"
+}

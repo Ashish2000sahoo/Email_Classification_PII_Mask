@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Decline in Social Media Engagement Noted\n\nnoticed a notable decline in engagement across social media platforms. this could be due to recent algorithm changes. efforts to enhance posts and adjust our content strategy have not yet yielded satisfactory results. our team has tried various methods to improve engagement and has observed some significant improvement You can reach me at elena.ivanova@support.org.. we would appreciate your guidance and support to help us better understand and address this issue. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        530,
+        544
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        392,
+        417
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Decline in Social Media Engagement Noted\n\nnoticed a notable decline in engagement across social media platforms. this could be due to recent algorithm changes. efforts to enhance posts and adjust our content strategy have not yet yielded satisfactory results. our team has tried various methods to improve engagement and has observed some significant improvement You can reach me at [email].. we would appreciate your guidance and support to help us better understand and address this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

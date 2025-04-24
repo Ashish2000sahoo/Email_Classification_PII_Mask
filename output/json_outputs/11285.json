@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheits Verbesserung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen um Unterst\u00fctzung bei der Verbesserung unseres Verschl\u00fcsselungsprotokolls f\u00fcr sicherer medizinische Daten\u00fcbertragung und -Speicherung. Unsere aktuelle Version ist veraltet und ein Upgrade ist notwendig, um die Konfidenzialit\u00e4t und Integrit\u00e4t der Patientendaten zu gew\u00e4hrleisten. Wir suchen nach einer L\u00f6sung, die den Branchenstandards und -vorschriften entspricht. K\u00f6nnten Sie uns Empfehlungen und Anleitungen zu einem sicheren Verschl\u00fcsselungsprotokoll geben und uns dabei helfen, ein einfaches Verschl\u00fcsselungsprotokoll einzurichten? Wir w\u00fcrden jede bereitzustellende Information oder Ressource sehr sch\u00e4tzen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung You can reach me at janesmith@company.com.. Wir freuen uns auf Ihre R\u00fcckmeldung. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        840,
+        854
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        768,
+        789
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheits Verbesserung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen um Unterst\u00fctzung bei der Verbesserung unseres Verschl\u00fcsselungsprotokolls f\u00fcr sicherer medizinische Daten\u00fcbertragung und -Speicherung. Unsere aktuelle Version ist veraltet und ein Upgrade ist notwendig, um die Konfidenzialit\u00e4t und Integrit\u00e4t der Patientendaten zu gew\u00e4hrleisten. Wir suchen nach einer L\u00f6sung, die den Branchenstandards und -vorschriften entspricht. K\u00f6nnten Sie uns Empfehlungen und Anleitungen zu einem sicheren Verschl\u00fcsselungsprotokoll geben und uns dabei helfen, ein einfaches Verschl\u00fcsselungsprotokoll einzurichten? Wir w\u00fcrden jede bereitzustellende Information oder Ressource sehr sch\u00e4tzen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung You can reach me at [email].. Wir freuen uns auf Ihre R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

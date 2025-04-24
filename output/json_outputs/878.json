@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Management Platform\n\nThe project management platform has encountered a crash My name is Carlos Mendoza.. There might be an incompatibility issue with the integrations of WeChat and Microsoft Teams. Steps already taken include restarting the server and reviewing Azure logs. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        132
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        321,
+        342
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Management Platform\n\nThe project management platform has encountered a crash My name is [full_name].. There might be an incompatibility issue with the integrations of WeChat and Microsoft Teams. Steps already taken include restarting the server and reviewing Azure logs. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

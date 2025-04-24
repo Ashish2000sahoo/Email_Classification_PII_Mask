@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical: Significant AWS Service Disruption\n\nDear IT Services Customer Support Team, I am reaching out to highlight a significant AWS service disruption that is severely impacting our cloud infrastructure. Our business activities greatly rely on the AWS Management Service, and this unexpected outage is hindering our ability to serve our clients properly. We respectfully ask for urgent assistance and resolution to alleviate downtime and avert any further complications My name is John Doe.. The situation is pressing, and a rapid response would be sincerely valued. Please keep us updated on the measures you are implementing to address this outage as soon as you can. We appreciate your assistance and look forward to your rapid support. For any additional information or coordination needed, feel free to reach out to me at <tel_num> or reply to this email You can reach me at johndoe@email.com.. Thank you for your prompt attention to this crucial matter. Kind regards, <name> <Position> <Company Name> <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        493,
+        501
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        895,
+        912
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Critical: Significant AWS Service Disruption\n\nDear IT Services Customer Support Team, I am reaching out to highlight a significant AWS service disruption that is severely impacting our cloud infrastructure. Our business activities greatly rely on the AWS Management Service, and this unexpected outage is hindering our ability to serve our clients properly. We respectfully ask for urgent assistance and resolution to alleviate downtime and avert any further complications My name is [full_name].. The situation is pressing, and a rapid response would be sincerely valued. Please keep us updated on the measures you are implementing to address this outage as soon as you can. We appreciate your assistance and look forward to your rapid support. For any additional information or coordination needed, feel free to reach out to me at <tel_num> or reply to this email You can reach me at [email].. Thank you for your prompt attention to this crucial matter. Kind regards, <name> <Position> <Company Name> <tel_num>",
+  "category_of_the_email": "Incident"
+}

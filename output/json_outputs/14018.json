@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Analytics Tools Compatible with IBM SPSS Statistics 28 for Investment Optimization\n\nDear Customer Support Team, I hope this message finds you well. I am inquiring about analytics tools that are compatible with IBM SPSS Statistics 28, specifically for the purpose of investment optimization My name is John Doe.. I am already utilizing this software for my data analysis needs and am keen on exploring supplementary tools to further enhance my investment strategies You can reach me at janesmith@company.com.. Could you kindly provide a list of tools that integrate well with IBM SPSS Statistics 28, along with their features, pricing, and user reviews? I am particularly interested in tools that offer predictive analytics, data visualization, and machine learning functionalities. Additionally, I would appreciate any information on available tutorials or training resources to help me get started with these tools. Your assistance in this matter would be greatly appreciated. I look forward to your response. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        509,
+        530
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Analytics Tools Compatible with IBM SPSS Statistics 28 for Investment Optimization\n\nDear Customer Support Team, I hope this message finds you well. I am inquiring about analytics tools that are compatible with IBM SPSS Statistics 28, specifically for the purpose of investment optimization My name is [full_name].. I am already utilizing this software for my data analysis needs and am keen on exploring supplementary tools to further enhance my investment strategies You can reach me at [email].. Could you kindly provide a list of tools that integrate well with IBM SPSS Statistics 28, along with their features, pricing, and user reviews? I am particularly interested in tools that offer predictive analytics, data visualization, and machine learning functionalities. Additionally, I would appreciate any information on available tutorials or training resources to help me get started with these tools. Your assistance in this matter would be greatly appreciated. I look forward to your response. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

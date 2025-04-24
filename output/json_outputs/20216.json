@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent: Dell XPS 13 overheating and battery drain issue\n\nDear Customer Support, I am writing to report that my Dell XPS 13 9310 is overheating after a few hours of use, and the battery seems to drain unusually fast You can reach me at liuwei@business.cn.. I would appreciate if you could provide assistance or a resolution as soon as possible. Looking forward to your prompt reply My name is Fatima Al-Farsi.. Thank you, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        410
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        244,
+        262
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        129,
+        136
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Dell XPS 13 overheating and battery drain issue\n\nDear Customer Support, I am writing to report that my Dell XPS [phone_number] is overheating after a few hours of use, and the battery seems to drain unusually fast You can reach me at [email].. I would appreciate if you could provide assistance or a resolution as soon as possible. Looking forward to your prompt reply My name is [full_name]-Farsi.. Thank you, <name>",
+  "category_of_the_email": "Incident"
+}

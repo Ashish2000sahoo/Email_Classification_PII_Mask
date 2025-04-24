@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Security Protocols for Patient Information\n\nI would like to know about the security measures in place to protect patient data within the hospital's IT systems. Could you outline the recommended practices to maintain the confidentiality and integrity of patient information?. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        305,
+        322
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Patient Information\n\nI would like to know about the security measures in place to protect patient data within the hospital's IT systems. Could you outline the recommended practices to maintain the confidentiality and integrity of patient information?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

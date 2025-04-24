@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Security Enhancements\n\nRequest improvements to data security protocols for efficient management of medical data across impacted software services You can reach me at maria.gonzalez@shop.es.. It is crucial to ensure the confidentiality, integrity, and availability of sensitive medical information. Appreciate your review and implementation of necessary measures to protect the data. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        408,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        180,
+        202
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Data Security Enhancements\n\nRequest improvements to data security protocols for efficient management of medical data across impacted software services You can reach me at [email].. It is crucial to ensure the confidentiality, integrity, and availability of sensitive medical information. Appreciate your review and implementation of necessary measures to protect the data. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

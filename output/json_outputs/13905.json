@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Inquiry About ClickUp Integration Information\n\nIs it possible to provide detailed information on integrating ClickUp for our scalable SaaS project management? This would be immensely helpful in streamlining our workflow and enhancing productivity. We look forward to your timely assistance and are eager to hear back soon.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        354,
+        369
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About ClickUp Integration Information\n\nIs it possible to provide detailed information on integrating ClickUp for our scalable SaaS project management? This would be immensely helpful in streamlining our workflow and enhancing productivity. We look forward to your timely assistance and are eager to hear back soon.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDie Tools zur Datenanalyse sind nicht verf\u00fcgbar, was die Optimierung der Investitionen behindert My name is David Kim.. M\u00f6glicherweise sind es ungueltige Software-Updates oder Konfigurationsprobleme. Obwohl die Systeme neu gestartet und nach Updates gesucht wurden, und die Lizenzierung \u00fcberpr\u00fcft wurde, beh\u00e4lt sich das Problem bestandhaft bei. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        119,
+        128
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        378,
+        399
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDie Tools zur Datenanalyse sind nicht verf\u00fcgbar, was die Optimierung der Investitionen behindert My name is [full_name].. M\u00f6glicherweise sind es ungueltige Software-Updates oder Konfigurationsprobleme. Obwohl die Systeme neu gestartet und nach Updates gesucht wurden, und die Lizenzierung \u00fcberpr\u00fcft wurde, beh\u00e4lt sich das Problem bestandhaft bei. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Unterst\u00fctzung anfragen\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um dringend Hilfe bei meinem Problem mit der Projektmanagement-SaaS-Plattform zu erhalten My name is Liu Wei.. Benutzer berichten regelm\u00e4\u00dfig \u00fcber h\u00e4ufige Systemausf\u00e4lle und schlechte Leistung, was wahrscheinlich auf erh\u00f6hten Datenverkehr und Konflikten mit integrierten Produkten zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at fatima.farsi@help.com.. Trotz Neustarts, Caches bereinigen und Skalierung der Serverressourcen, bestehen die Probleme weiterhin. Bitte geben Sie Unterst\u00fctzung bei der L\u00f6sung des Problems, um die Abst\u00fcrze und die Betriebsstabilit\u00e4t zu minimieren. K\u00f6nnten Sie einen Termin vereinbaren, um die Angelegenheit zu besprechen?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        423,
+        444
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Technische Unterst\u00fctzung anfragen\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um dringend Hilfe bei meinem Problem mit der Projektmanagement-SaaS-Plattform zu erhalten My name is [full_name].. Benutzer berichten regelm\u00e4\u00dfig \u00fcber h\u00e4ufige Systemausf\u00e4lle und schlechte Leistung, was wahrscheinlich auf erh\u00f6hten Datenverkehr und Konflikten mit integrierten Produkten zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Trotz Neustarts, Caches bereinigen und Skalierung der Serverressourcen, bestehen die Probleme weiterhin. Bitte geben Sie Unterst\u00fctzung bei der L\u00f6sung des Problems, um die Abst\u00fcrze und die Betriebsstabilit\u00e4t zu minimieren. K\u00f6nnten Sie einen Termin vereinbaren, um die Angelegenheit zu besprechen?",
+  "category_of_the_email": "Incident"
+}

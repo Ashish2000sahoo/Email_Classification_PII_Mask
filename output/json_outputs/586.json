@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry into Pricing for Blackboard Learn Integration\n\nRespected Customer Support, I am writing to ask about the pricing for integrating Blackboard Learn into your SaaS project management solution. Could you kindly give me a detailed outline of the associated costs? Additionally, it would be helpful to know if there are extra services or features included in the integration deal My name is Fatima Al-Farsi.. Moreover, I am interested in learning about any discounts provided for long-term deals or bulk purchases. I look forward to your response. Thank you for your support and time. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        402,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        618,
+        635
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Inquiry into Pricing for Blackboard Learn Integration\n\nRespected Customer Support, I am writing to ask about the pricing for integrating Blackboard Learn into your SaaS project management solution. Could you kindly give me a detailed outline of the associated costs? Additionally, it would be helpful to know if there are extra services or features included in the integration deal My name is [full_name]-Farsi.. Moreover, I am interested in learning about any discounts provided for long-term deals or bulk purchases. I look forward to your response. Thank you for your support and time. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

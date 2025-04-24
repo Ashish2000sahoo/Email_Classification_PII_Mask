@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required with Medical Data Accessibility Issue\n\nThere has been an incident where the accessibility of medical data was compromised. This might have occurred due to misconfiguration of the WLAN-Router or software incompatibility with macOS Monterey My name is Maria Gonzalez.. We have already reset the WLAN-Router and updated the devices, but the issue still persists You can reach me at david.kim@corp.kr.. Please help us resolve this issue as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        279,
+        293
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        405,
+        422
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required with Medical Data Accessibility Issue\n\nThere has been an incident where the accessibility of medical data was compromised. This might have occurred due to misconfiguration of the WLAN-Router or software incompatibility with macOS Monterey My name is [full_name].. We have already reset the WLAN-Router and updated the devices, but the issue still persists You can reach me at [email].. Please help us resolve this issue as soon as possible.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical Issue with Medical Data Server\n\nRespected customer support team, we are currently dealing with a significant problem concerning our medical data server. The data appears to have vanished, and we suspect it could be due to human error or a software malfunction. We have tried to restart the server and examine our backups, but so far, we have not been able to retrieve the missing data You can reach me at johndoe@email.com.. We would be highly grateful for your prompt help in addressing this issue My name is Elena Ivanova.. Kindly inform us of the steps we can take to resolve this matter as quickly as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        528,
+        541
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        423,
+        440
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Critical Issue with Medical Data Server\n\nRespected customer support team, we are currently dealing with a significant problem concerning our medical data server. The data appears to have vanished, and we suspect it could be due to human error or a software malfunction. We have tried to restart the server and examine our backups, but so far, we have not been able to retrieve the missing data You can reach me at [email].. We would be highly grateful for your prompt help in addressing this issue My name is [full_name].. Kindly inform us of the steps we can take to resolve this matter as quickly as possible.",
+  "category_of_the_email": "Incident"
+}

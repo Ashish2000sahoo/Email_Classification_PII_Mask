@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Recent Tracking Error in Campaign Data\n\nRecently encountered issues with tracking campaign data are affecting digital marketing efforts. Discrepancies in data integration across various platforms might be the cause. Despite attempts to align and refresh data sources, the problem persists My name is David Kim.. Assistance is needed to resolve the issue and correct marketing efforts. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        428,
+        450
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Recent Tracking Error in Campaign Data\n\nRecently encountered issues with tracking campaign data are affecting digital marketing efforts. Discrepancies in data integration across various platforms might be the cause. Despite attempts to align and refresh data sources, the problem persists My name is [full_name].. Assistance is needed to resolve the issue and correct marketing efforts. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

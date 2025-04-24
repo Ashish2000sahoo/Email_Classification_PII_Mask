@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Investment Predictions Issue\n\nHello Customer Support, I am reaching out to share an issue I encountered. The investment predictions did not perform as expected. The root cause is believed to be insufficient data analytics training. Several attempts have been made, including reviewing algorithms and re-running models My name is Maria Gonzalez.. I hope you can assist in resolving this matter. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        348,
+        362
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        430,
+        453
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Report on Investment Predictions Issue\n\nHello Customer Support, I am reaching out to share an issue I encountered. The investment predictions did not perform as expected. The root cause is believed to be insufficient data analytics training. Several attempts have been made, including reviewing algorithms and re-running models My name is [full_name].. I hope you can assist in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

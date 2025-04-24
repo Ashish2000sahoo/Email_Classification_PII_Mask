@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance imm\u00e9diate requise pour des probl\u00e8mes de connexion\n\nCher support client,\n\nJe prends contact avec vous pour demander d'urgence de l'aide afin de r\u00e9soudre des probl\u00e8mes de connexion avec Microsoft Office 365, en particulier avec Excel My name is Elena Ivanova.. Ce probl\u00e8me impacte gravement notre capacit\u00e9 \u00e0 acc\u00e9der aux donn\u00e9es d'\u00e9valuation des performances, qui sont cruciales pour nos \u00e9valuations \u00e0 venir.\n\nNotre \u00e9quipe n'a pas pu acc\u00e9der \u00e0 Excel, ce qui risque de retarder consid\u00e9rablement nos projets en cours. Nous avons tent\u00e9 de r\u00e9initialiser les mots de passe, de vider notre cache, et m\u00eame de r\u00e9installer les programmes, mais rien n'a corrig\u00e9 le probl\u00e8me.\n\nNous soup\u00e7onnons qu'il pourrait y avoir un probl\u00e8me avec l'authentification de l'utilisateur li\u00e9e \u00e0 notre <acc_num>. Il est imp\u00e9ratif que ce probl\u00e8me soit trait\u00e9 de toute urgence pour \u00e9viter d'autres interruptions de notre flux de travail.\n\nVeuillez traiter cette demande avec une haute priorit\u00e9 et nous orienter sur la mani\u00e8re de restaurer rapidement l'acc\u00e8s \u00e0 Excel. Si n\u00e9cessaire, je suis disponible pour un appel ou pour fournir toute information suppl\u00e9mentaire requise. Faites-nous savoir si des journaux ou des d\u00e9tails sp\u00e9cifiques de notre part seront n\u00e9cessaires.\n\nMerci pour votre attention rapide \u00e0 cette situation. Vous pouvez me contacter au <tel_num>.\n\nDans l'attente de votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        263,
+        276
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1429,
+        1446
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        221,
+        224
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Assistance imm\u00e9diate requise pour des probl\u00e8mes de connexion\n\nCher support client,\n\nJe prends contact avec vous pour demander d'urgence de l'aide afin de r\u00e9soudre des probl\u00e8mes de connexion avec Microsoft Office [cvv_no], en particulier avec Excel My name is [full_name].. Ce probl\u00e8me impacte gravement notre capacit\u00e9 \u00e0 acc\u00e9der aux donn\u00e9es d'\u00e9valuation des performances, qui sont cruciales pour nos \u00e9valuations \u00e0 venir.\n\nNotre \u00e9quipe n'a pas pu acc\u00e9der \u00e0 Excel, ce qui risque de retarder consid\u00e9rablement nos projets en cours. Nous avons tent\u00e9 de r\u00e9initialiser les mots de passe, de vider notre cache, et m\u00eame de r\u00e9installer les programmes, mais rien n'a corrig\u00e9 le probl\u00e8me.\n\nNous soup\u00e7onnons qu'il pourrait y avoir un probl\u00e8me avec l'authentification de l'utilisateur li\u00e9e \u00e0 notre <acc_num>. Il est imp\u00e9ratif que ce probl\u00e8me soit trait\u00e9 de toute urgence pour \u00e9viter d'autres interruptions de notre flux de travail.\n\nVeuillez traiter cette demande avec une haute priorit\u00e9 et nous orienter sur la mani\u00e8re de restaurer rapidement l'acc\u00e8s \u00e0 Excel. Si n\u00e9cessaire, je suis disponible pour un appel ou pour fournir toute information suppl\u00e9mentaire requise. Faites-nous savoir si des journaux ou des d\u00e9tails sp\u00e9cifiques de notre part seront n\u00e9cessaires.\n\nMerci pour votre attention rapide \u00e0 cette situation. Vous pouvez me contacter au <tel_num>.\n\nDans l'attente de votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

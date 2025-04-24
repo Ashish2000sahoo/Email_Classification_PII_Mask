@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Access to Medical Records System\n\nDear Customer Support, we are writing to report a problem with our medical records access system. The system unexpectedly slowed down during the night, and we are unsure of the cause. We suspect it may be due to outdated software or server overload. Our team has attempted to restart the systems, check for updates, and contact IT staff, but the issue persists. We would be very grateful if you could assist us in resolving this matter. Please let us know if there are any further steps we can take to troubleshoot the issue or if you require additional information You can reach me at david.kim@corp.kr.. We thank you in advance for your patience and support. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        727,
+        735
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        641,
+        658
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issues with Access to Medical Records System\n\nDear Customer Support, we are writing to report a problem with our medical records access system. The system unexpectedly slowed down during the night, and we are unsure of the cause. We suspect it may be due to outdated software or server overload. Our team has attempted to restart the systems, check for updates, and contact IT staff, but the issue persists. We would be very grateful if you could assist us in resolving this matter. Please let us know if there are any further steps we can take to troubleshoot the issue or if you require additional information You can reach me at [email].. We thank you in advance for your patience and support. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

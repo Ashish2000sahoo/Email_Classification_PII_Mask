@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Dell XPS 13 9310: Problemas con el touchpad y sobrecalentamiento\n\nEstimado Servicio al Cliente, soy propietario de un Dell XPS 13 9310 y he estado experimentando problemas con el touchpad y sobrecalentamiento desde una reciente actualizaci\u00f3n del sistema. Estos problemas impactan significativamente mi flujo de trabajo. \u00bfPodr\u00edan proporcionarme orientaci\u00f3n o una soluci\u00f3n? Agradecer\u00eda mucho su ayuda para resolver este asunto My name is Maria Gonzalez.. Gracias. Atentamente, <name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        459
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        508,
+        531
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        18,
+        25
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        136,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Dell XPS [phone_number]: Problemas con el touchpad y sobrecalentamiento\n\nEstimado Servicio al Cliente, soy propietario de un Dell XPS [phone_number] y he estado experimentando problemas con el touchpad y sobrecalentamiento desde una reciente actualizaci\u00f3n del sistema. Estos problemas impactan significativamente mi flujo de trabajo. \u00bfPodr\u00edan proporcionarme orientaci\u00f3n o una soluci\u00f3n? Agradecer\u00eda mucho su ayuda para resolver este asunto My name is [full_name].. Gracias. Atentamente, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

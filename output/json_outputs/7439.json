@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Betreff: Meldung zum Sicherungsschutz medizinischer Daten und m\u00f6gliche Ursachen des Problems\n\nSehr geehrte Kundenservice-, ich melde eine Problem mit der Sicherung medizinischer Daten, die sich nicht mit den \u00fcblichen IT-Betriebsabl\u00e4ufen einstellen l\u00e4sst. M\u00f6gliche Ursache: Integrationskonflikte zwischen mehreren Softwareanwendungen My name is Fatima Al-Farsi.. Ich habe versucht, Norton 360 zu aktualisieren, den Mac Mini neu zu starten und die Einstellungen des Barcode-Scanners zu neu zu konfigurieren, aber das Problem beh\u00e4lt sich bestehen. Ich freue mich, wenn Sie mir bei der L\u00f6sung des Problems helfen k\u00f6nnen. Bitte geben Sie Bescheid, falls weitere Informationen ben\u00f6tigt werden. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        353,
+        362
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        779,
+        796
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        399,
+        402
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Betreff: Meldung zum Sicherungsschutz medizinischer Daten und m\u00f6gliche Ursachen des Problems\n\nSehr geehrte Kundenservice-, ich melde eine Problem mit der Sicherung medizinischer Daten, die sich nicht mit den \u00fcblichen IT-Betriebsabl\u00e4ufen einstellen l\u00e4sst. M\u00f6gliche Ursache: Integrationskonflikte zwischen mehreren Softwareanwendungen My name is [full_name]-Farsi.. Ich habe versucht, Norton [cvv_no] zu aktualisieren, den Mac Mini neu zu starten und die Einstellungen des Barcode-Scanners zu neu zu konfigurieren, aber das Problem beh\u00e4lt sich bestehen. Ich freue mich, wenn Sie mir bei der L\u00f6sung des Problems helfen k\u00f6nnen. Bitte geben Sie Bescheid, falls weitere Informationen ben\u00f6tigt werden. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Request for Technical Assistance\n\nDear Customer Support Team at Tech Online Store,\n\nI hope this note finds you in good health. I am reaching out to request help regarding a Dell XPS 13 9310 laptop that I bought from your store You can reach me at omar.hassan@secure.net.. Lately, I have been facing a continual problem with the laptop's sound system, which is affecting both the internal speakers and any external audio devices connected to it.\n\nI have tried numerous troubleshooting methods and made adjustments to various settings I found online, yet the issue remains unresolved. The audio output appears to be distorted, and occasionally it stops completely. This problem is hindering my ability to effectively use the laptop for both personal and work-related tasks.\n\nCould you kindly instruct me on the next steps for further troubleshooting or, if needed, help me initiate a service request for technical support? If you need additional information, such as the purchase receipt or service tag numbers, I am willing to provide those details.\n\nI would greatly appreciate your assistance in addressing this matter.\n\nThank you for your help.\n\nBest regards,\n\n<name>\n\n<acc_num> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1200,
+        1207
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        256,
+        278
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        191,
+        198
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Request for Technical Assistance\n\nDear Customer Support Team at Tech Online Store,\n\nI hope this note finds you in good health. I am reaching out to request help regarding a Dell XPS [phone_number] laptop that I bought from your store You can reach me at [email].. Lately, I have been facing a continual problem with the laptop's sound system, which is affecting both the internal speakers and any external audio devices connected to it.\n\nI have tried numerous troubleshooting methods and made adjustments to various settings I found online, yet the issue remains unresolved. The audio output appears to be distorted, and occasionally it stops completely. This problem is hindering my ability to effectively use the laptop for both personal and work-related tasks.\n\nCould you kindly instruct me on the next steps for further troubleshooting or, if needed, help me initiate a service request for technical support? If you need additional information, such as the purchase receipt or service tag numbers, I am willing to provide those details.\n\nI would greatly appreciate your assistance in addressing this matter.\n\nThank you for your help.\n\nBest regards,\n\n<name>\n\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

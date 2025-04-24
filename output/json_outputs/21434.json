@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for billing method change discussion\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to request a review and possible alteration of the billing method currently being used for our invoices related to the IT Consulting Service. With increasing demand for better cost management and financial transparency, we believe that transitioning to a more detailed billing structure might be beneficial.\n\nWe feel that the current billing method lacks the granularity needed for effective financial oversight, and a change would assist us in tracking expenses more accurately and optimizing our budgeting strategies My name is Carlos Mendoza.. This request aims to enhance our collaborative relationship with your firm and ensure that our partnership remains productive.\n\nPlease let me know the process for initiating this change and any documents needed for the transition. I look forward to your prompt response.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name>\n<position>\n<IT Consulting Firm> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        663,
+        677
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1069,
+        1091
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for billing method change discussion\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to request a review and possible alteration of the billing method currently being used for our invoices related to the IT Consulting Service. With increasing demand for better cost management and financial transparency, we believe that transitioning to a more detailed billing structure might be beneficial.\n\nWe feel that the current billing method lacks the granularity needed for effective financial oversight, and a change would assist us in tracking expenses more accurately and optimizing our budgeting strategies My name is [full_name].. This request aims to enhance our collaborative relationship with your firm and ensure that our partnership remains productive.\n\nPlease let me know the process for initiating this change and any documents needed for the transition. I look forward to your prompt response.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name>\n<position>\n<IT Consulting Firm> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

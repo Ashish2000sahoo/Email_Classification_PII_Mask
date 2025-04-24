@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sichere Speicherung und \u00dcbertragung von Daten\n\nEs ist mir ein Anliegen, Informationen zu den verf\u00fcgbaren Optionen f\u00fcr die sichere DatenSpeicherung und -\u00fcbertragung zu erhalten You can reach me at david.kim@corp.kr.. Ich suche eine zuverl\u00e4ssige und effiziente M\u00f6glichkeit, sensible Daten sicher zu speichern und zu \u00fcbertragen My name is Jane Smith.. K\u00f6nnten Sie mir bitte verschiedene Protokolle und Methoden zur Verf\u00fcgung stellen und Ressourcen oder Dokumentationen empfehlen, die ich zur Pr\u00fcfung nutzen kann? Ich bin insbesondere an Verschl\u00fcsselungsverfahren und sichere \u00dcbertragungsprotokolle interessiert. Ich freue mich auf Ihre R\u00fcckmeldung und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        205,
+        222
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Sichere Speicherung und \u00dcbertragung von Daten\n\nEs ist mir ein Anliegen, Informationen zu den verf\u00fcgbaren Optionen f\u00fcr die sichere DatenSpeicherung und -\u00fcbertragung zu erhalten You can reach me at [email].. Ich suche eine zuverl\u00e4ssige und effiziente M\u00f6glichkeit, sensible Daten sicher zu speichern und zu \u00fcbertragen My name is [full_name].. K\u00f6nnten Sie mir bitte verschiedene Protokolle und Methoden zur Verf\u00fcgung stellen und Ressourcen oder Dokumentationen empfehlen, die ich zur Pr\u00fcfung nutzen kann? Ich bin insbesondere an Verschl\u00fcsselungsverfahren und sichere \u00dcbertragungsprotokolle interessiert. Ich freue mich auf Ihre R\u00fcckmeldung und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

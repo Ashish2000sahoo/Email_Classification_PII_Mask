@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHola soporte al cliente,\n\nEstoy experimentando problemas con mi MacBook Air M1 My name is Omar Hassan.. Se bloquea y se apaga aleatoriamente, interrumpiendo mis tareas laborales You can reach me at liuwei@business.cn.. Por favor, aconsejen sobre los pasos de soluci\u00f3n de problemas o posibles soluciones. Mi n\u00famero de cuenta es <acc_num>.\n\nSaludos,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        101,
+        112
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        209,
+        227
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nHola soporte al cliente,\n\nEstoy experimentando problemas con mi MacBook Air M1 My name is [full_name].. Se bloquea y se apaga aleatoriamente, interrumpiendo mis tareas laborales You can reach me at [email].. Por favor, aconsejen sobre los pasos de soluci\u00f3n de problemas o posibles soluciones. Mi n\u00famero de cuenta es <acc_num>.\n\nSaludos,\n<name>",
+  "category_of_the_email": "Incident"
+}

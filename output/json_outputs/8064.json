@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am experiencing a billing error that has halted the processing of payments for multiple software products. This issue might be due to a system glitch in the billing integration. Despite attempting to resolve the issue by refreshing payment information and contacting support, I have not been successful My name is Jane Smith.. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible You can reach me at maria.gonzalez@shop.es.. Please let me know if any additional information is needed to facilitate the resolution of this issue. I am available to discuss further.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        350,
+        360
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        492,
+        514
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am experiencing a billing error that has halted the processing of payments for multiple software products. This issue might be due to a system glitch in the billing integration. Despite attempting to resolve the issue by refreshing payment information and contacting support, I have not been successful My name is [full_name].. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible You can reach me at [email].. Please let me know if any additional information is needed to facilitate the resolution of this issue. I am available to discuss further.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Invoice Details\n\nI am interested in more detailed information about the invoicing for the Airtable Integration. Could you please provide detailed information on the available plans and their respective costs? It would be great if you could explain how the invoicing period works and discuss possible discounts for long-term contracts and large-scale implementations.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        413
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Invoice Details\n\nI am interested in more detailed information about the invoicing for the Airtable Integration. Could you please provide detailed information on the available plans and their respective costs? It would be great if you could explain how the invoicing period works and discuss possible discounts for long-term contracts and large-scale implementations.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

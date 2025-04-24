@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Updating Digital Marketing Tools\n\nHello Customer Support, I am reaching out for an update on the request to update our digital marketing tools. Our current tools are outdated and are hindering our ability to effectively implement brand growth strategies. Additionally, the lack of integration across platforms is causing inefficiencies and making it difficult to track performance My name is Elena Ivanova.. I believe that updating our digital marketing tools would greatly enhance our online presence and improve our overall marketing efforts You can reach me at omar.hassan@secure.net.. I would greatly appreciate it if you could look into this matter and provide an update.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        421,
+        434
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        591,
+        613
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Updating Digital Marketing Tools\n\nHello Customer Support, I am reaching out for an update on the request to update our digital marketing tools. Our current tools are outdated and are hindering our ability to effectively implement brand growth strategies. Additionally, the lack of integration across platforms is causing inefficiencies and making it difficult to track performance My name is [full_name].. I believe that updating our digital marketing tools would greatly enhance our online presence and improve our overall marketing efforts You can reach me at [email].. I would greatly appreciate it if you could look into this matter and provide an update.",
+  "category_of_the_email": "Change"
+}

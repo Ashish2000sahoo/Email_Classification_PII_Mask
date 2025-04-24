@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reported Problem with Network Connection\n\nExperienced connectivity problems with a TP-Link 16-Port Switch, which is affecting access to various SaaS tools due to possible network configuration conflicts. Restarted the switch and checked cable connections, but the issue still persists and assistance is needed to resolve it.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        371
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem with Network Connection\n\nExperienced connectivity problems with a TP-Link 16-Port Switch, which is affecting access to various SaaS tools due to possible network configuration conflicts. Restarted the switch and checked cable connections, but the issue still persists and assistance is needed to resolve it.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

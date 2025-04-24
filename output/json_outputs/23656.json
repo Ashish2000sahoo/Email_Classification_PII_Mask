@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team,\n\nI am writing to express an urgent issue we encountered with the AWS instance provided by your AWS Management Service. During routine maintenance, our AWS instances shut down unexpectedly, severely affecting several of our hosted applications. This incident has disrupted our business operations, causing significant inconvenience and potential financial setbacks.\n\nIt is critical to have these AWS instances operational as soon as possible. Our team relies heavily on your services for our daily functions, and any downtime compromises the efficiency of our business processes. Additionally, it is crucial to address the underlying problem to prevent future occurrences of this nature.\n\nPlease prioritize this issue and advise on the immediate steps we should take to restore normal operations. We appreciate your prompt action and support in resolving this matter My name is Fatima Al-Farsi.. Feel free to reach me directly at <tel_num> for any further discussion or clarification required. Our account number is <acc_num>.\n\nThank you for your immediate attention to this pressing issue.\n\nSincerely,\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        916,
+        925
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1170,
+        1193
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team,\n\nI am writing to express an urgent issue we encountered with the AWS instance provided by your AWS Management Service. During routine maintenance, our AWS instances shut down unexpectedly, severely affecting several of our hosted applications. This incident has disrupted our business operations, causing significant inconvenience and potential financial setbacks.\n\nIt is critical to have these AWS instances operational as soon as possible. Our team relies heavily on your services for our daily functions, and any downtime compromises the efficiency of our business processes. Additionally, it is crucial to address the underlying problem to prevent future occurrences of this nature.\n\nPlease prioritize this issue and advise on the immediate steps we should take to restore normal operations. We appreciate your prompt action and support in resolving this matter My name is [full_name]-Farsi.. Feel free to reach me directly at <tel_num> for any further discussion or clarification required. Our account number is <acc_num>.\n\nThank you for your immediate attention to this pressing issue.\n\nSincerely,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

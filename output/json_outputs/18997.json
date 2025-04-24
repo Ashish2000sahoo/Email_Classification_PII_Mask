@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Emergency Support Request\n\nA system outage has occurred, impeding our data analysis and investment optimization processes You can reach me at janesmith@company.com.. Initial steps such as restarting the server and checking for software updates have been taken, but the issue persists My name is Carlos Mendoza.. Could you please assist us in resolving this matter as soon as possible?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        151,
+        172
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Emergency Support Request\n\nA system outage has occurred, impeding our data analysis and investment optimization processes You can reach me at [email].. Initial steps such as restarting the server and checking for software updates have been taken, but the issue persists My name is [full_name].. Could you please assist us in resolving this matter as soon as possible?",
+  "category_of_the_email": "Incident"
+}

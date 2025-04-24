@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Integration\n\nRequest for integration between Microsoft Teams and Google Cloud Platform to enhance collaboration and project management within a SaaS application You can reach me at liuwei@business.cn.. This integration aims to enable seamless communication and information sharing, thereby improving productivity and efficiency. I would greatly appreciate it if you could provide the necessary information to proceed with the integration. Please inform me of any additional steps or requirements needed to complete this process. I look forward to your response and to working together to enhance the application. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        633,
+        646
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        190,
+        208
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Integration\n\nRequest for integration between Microsoft Teams and Google Cloud Platform to enhance collaboration and project management within a SaaS application You can reach me at [email].. This integration aims to enable seamless communication and information sharing, thereby improving productivity and efficiency. I would greatly appreciate it if you could provide the necessary information to proceed with the integration. Please inform me of any additional steps or requirements needed to complete this process. I look forward to your response and to working together to enhance the application. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

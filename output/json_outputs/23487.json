@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit der Ticket-Erstellung\n\nSehr geehrter Kundenservice,\n\nich wende mich an Sie, um zu berichten, dass <name> Probleme hat, wenn versucht wird, Tickets in Jira Software 8.20 zu erstellen. Wir vermuten, dass dies an falschen Benutzerberechtigungen liegt My name is David Kim.. K\u00f6nnten Sie bitte helfen, dieses Problem zu l\u00f6sen?\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        280,
+        289
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        398,
+        416
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Ticket-Erstellung\n\nSehr geehrter Kundenservice,\n\nich wende mich an Sie, um zu berichten, dass <name> Probleme hat, wenn versucht wird, Tickets in Jira Software 8.20 zu erstellen. Wir vermuten, dass dies an falschen Benutzerberechtigungen liegt My name is [full_name].. K\u00f6nnten Sie bitte helfen, dieses Problem zu l\u00f6sen?\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

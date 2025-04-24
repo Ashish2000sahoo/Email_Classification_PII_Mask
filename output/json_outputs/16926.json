@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am encountering an issue with the data analytics tools that we use for investment optimization You can reach me at sophia.rossi@service.it.. These tools have been giving us inaccurate insights, which may be due to recent software updates that are conflicting with our existing integrations My name is Omar Hassan.. I have already tried restarting the systems, checking for updates, and reviewing the configuration settings, but the issue still persists. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible. The inaccurate insights are causing difficulties with our investment decisions, and we need this issue resolved promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        348
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        151,
+        174
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am encountering an issue with the data analytics tools that we use for investment optimization You can reach me at [email].. These tools have been giving us inaccurate insights, which may be due to recent software updates that are conflicting with our existing integrations My name is [full_name].. I have already tried restarting the systems, checking for updates, and reviewing the configuration settings, but the issue still persists. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible. The inaccurate insights are causing difficulties with our investment decisions, and we need this issue resolved promptly.",
+  "category_of_the_email": "Incident"
+}

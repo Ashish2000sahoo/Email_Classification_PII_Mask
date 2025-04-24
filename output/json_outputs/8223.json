@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Error Notification\n\nAn unexpected system error has disrupted access to hospital application data My name is Fatima Al-Farsi.. This may be due to recent software updates causing network instability. Despite attempts to resolve the issue by restarting the system and re-establishing network connections, the problem persists. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        124,
+        133
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        362,
+        379
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: System Error Notification\n\nAn unexpected system error has disrupted access to hospital application data My name is [full_name]-Farsi.. This may be due to recent software updates causing network instability. Despite attempts to resolve the issue by restarting the system and re-establishing network connections, the problem persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

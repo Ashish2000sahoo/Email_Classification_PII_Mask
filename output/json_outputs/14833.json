@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr Unterst\u00fctzung bei Investitionsprognosen\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um ein Problem mit den Investitionsprognosen zu melden My name is Maria Gonzalez.. Es gibt ungenaue Marktreihen in den Prognosen, was ich auf die Mangelhaftigkeit der Datenqualit\u00e4t oder die Unzureichendkeit des Modelltrainings zur\u00fcckf\u00fchren kann. Ich habe versucht, den Analyse-Engine zu neustarten und die Datenquellen zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit diesem Problem befassen und so bald wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten. Bitte geben Sie mir Bescheid, wenn Sie zus\u00e4tzliche Informationen von mir ben\u00f6tigen, um dieses Problem zu l\u00f6sen. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        201
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        752,
+        773
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr Unterst\u00fctzung bei Investitionsprognosen\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um ein Problem mit den Investitionsprognosen zu melden My name is [full_name].. Es gibt ungenaue Marktreihen in den Prognosen, was ich auf die Mangelhaftigkeit der Datenqualit\u00e4t oder die Unzureichendkeit des Modelltrainings zur\u00fcckf\u00fchren kann. Ich habe versucht, den Analyse-Engine zu neustarten und die Datenquellen zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit diesem Problem befassen und so bald wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten. Bitte geben Sie mir Bescheid, wenn Sie zus\u00e4tzliche Informationen von mir ben\u00f6tigen, um dieses Problem zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

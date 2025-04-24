@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Technical Issues\n\nThe data analytics tools for investment optimization are not functioning correctly, leading to delays in processing financial models My name is Maria Gonzalez.. This could be due to compatibility issues with software versions or limitations in hardware performance You can reach me at omar.hassan@secure.net.. After attempting to reboot the systems and reinstall the affected software, the issues still persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        193
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        317,
+        339
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Technical Issues\n\nThe data analytics tools for investment optimization are not functioning correctly, leading to delays in processing financial models My name is [full_name].. This could be due to compatibility issues with software versions or limitations in hardware performance You can reach me at [email].. After attempting to reboot the systems and reinstall the affected software, the issues still persist.",
+  "category_of_the_email": "Incident"
+}

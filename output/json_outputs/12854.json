@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the Update of Project Timelines\n\nThe project timelines failed to update automatically last night My name is David Kim.. This might be due to a server synchronization problem or a database malfunction You can reach me at maria.gonzalez@shop.es.. I have attempted to restart the server, reviewed the logs, and confirmed the user permissions, yet the issue still exists. I kindly request you to investigate this issue and provide a solution as quickly as possible. Please inform me if there is any additional information you need from me to address this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        139
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        244,
+        266
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with the Update of Project Timelines\n\nThe project timelines failed to update automatically last night My name is [full_name].. This might be due to a server synchronization problem or a database malfunction You can reach me at [email].. I have attempted to restart the server, reviewed the logs, and confirmed the user permissions, yet the issue still exists. I kindly request you to investigate this issue and provide a solution as quickly as possible. Please inform me if there is any additional information you need from me to address this problem.",
+  "category_of_the_email": "Incident"
+}

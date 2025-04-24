@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Encryption Security of Medical Data\n\nHello Customer Support, I hope this message finds you well. I am contacting you to seek help in improving the data encryption security for medical records across all hospital devices and platforms. The existing encryption method is insufficient, and we must ensure the privacy and security of patient data. Could you please inform me about the upgrade options for our encryption system and the associated costs? Moreover, I would be grateful for guidance on the implementation procedure and staff training requirements You can reach me at carlosm@gmail.com.. If possible, let us arrange a meeting to delve into these matters. Thanks in advance for your help and I am eagerly awaiting your response. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        764,
+        776
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        593,
+        610
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Improve Encryption Security of Medical Data\n\nHello Customer Support, I hope this message finds you well. I am contacting you to seek help in improving the data encryption security for medical records across all hospital devices and platforms. The existing encryption method is insufficient, and we must ensure the privacy and security of patient data. Could you please inform me about the upgrade options for our encryption system and the associated costs? Moreover, I would be grateful for guidance on the implementation procedure and staff training requirements You can reach me at [email].. If possible, let us arrange a meeting to delve into these matters. Thanks in advance for your help and I am eagerly awaiting your response. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

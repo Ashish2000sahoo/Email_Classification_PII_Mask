@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Website Analytics Dashboard Not Updating\n\nRespected Customer Support, I am encountering a problem where my website analytics dashboard is not updating You can reach me at janesmith@company.com.. I believe there might be an issue with the API connection. Despite restarting the dashboard and verifying my credentials, the problem continues. Could you please look into this and offer a resolution at the earliest? Kindly inform me if any further information is needed from my end. Thank you for your help and I await a response at your earliest convenience. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        587,
+        597
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        191,
+        212
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Website Analytics Dashboard Not Updating\n\nRespected Customer Support, I am encountering a problem where my website analytics dashboard is not updating You can reach me at [email].. I believe there might be an issue with the API connection. Despite restarting the dashboard and verifying my credentials, the problem continues. Could you please look into this and offer a resolution at the earliest? Kindly inform me if any further information is needed from my end. Thank you for your help and I await a response at your earliest convenience. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

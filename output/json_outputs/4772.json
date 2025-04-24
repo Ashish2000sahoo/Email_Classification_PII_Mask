@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry on SAP ERP Central Component 6.0 Pricing\n\nRespected Customer Support, I am writing to request detailed pricing information for the SAP ERP Central Component 6.0 licensing. I would be grateful if you could furnish me with the latest pricing details, including any applicable discounts or promotional offers My name is Fatima Al-Farsi.. Could you also elucidate what the licensing fee encompasses, such as support and maintenance expenses? Furthermore, are there any extra charges related to implementation, customizations, or integration with other systems? I am eagerly waiting for your prompt reply with the requested details. Thank you for your assistance. Kind regards, [Your Name] You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        724,
+        742
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on SAP ERP Central Component 6.0 Pricing\n\nRespected Customer Support, I am writing to request detailed pricing information for the SAP ERP Central Component 6.0 licensing. I would be grateful if you could furnish me with the latest pricing details, including any applicable discounts or promotional offers My name is [full_name]-Farsi.. Could you also elucidate what the licensing fee encompasses, such as support and maintenance expenses? Furthermore, are there any extra charges related to implementation, customizations, or integration with other systems? I am eagerly waiting for your prompt reply with the requested details. Thank you for your assistance. Kind regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

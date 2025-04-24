@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Severe System Failure Impacting Several Products\n\nA severe system failure has impacted multiple products, disrupting efforts to optimize data analytics investments. The issue may be related to recent updates or network configuration changes. Attempts to resolve the problem by restarting affected devices and reverting updates were unsuccessful My name is Liu Wei.. Please assist in resolving this issue promptly to minimize operational impact. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        372
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        478,
+        499
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Severe System Failure Impacting Several Products\n\nA severe system failure has impacted multiple products, disrupting efforts to optimize data analytics investments. The issue may be related to recent updates or network configuration changes. Attempts to resolve the problem by restarting affected devices and reverting updates were unsuccessful My name is [full_name].. Please assist in resolving this issue promptly to minimize operational impact. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

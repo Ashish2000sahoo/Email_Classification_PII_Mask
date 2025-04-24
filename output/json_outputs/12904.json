@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am reporting a critical issue with the recent data analytics tool that we are using for our investment analysis My name is Jane Smith.. The tool has malfunctioned, which is crucial for our analysis, and it might be due to a server overload or disruption in the data source. Despite attempting to restart the tool and verifying the data source, the issue still persists You can reach me at johndoe@email.com.. I would greatly appreciate it if you could look into this matter urgently and provide a solution as soon as possible. The malfunction has caused significant delays in our analysis, and these delays may impact our results.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        169
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        426,
+        443
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am reporting a critical issue with the recent data analytics tool that we are using for our investment analysis My name is [full_name].. The tool has malfunctioned, which is crucial for our analysis, and it might be due to a server overload or disruption in the data source. Despite attempting to restart the tool and verifying the data source, the issue still persists You can reach me at [email].. I would greatly appreciate it if you could look into this matter urgently and provide a solution as soon as possible. The malfunction has caused significant delays in our analysis, and these delays may impact our results.",
+  "category_of_the_email": "Incident"
+}

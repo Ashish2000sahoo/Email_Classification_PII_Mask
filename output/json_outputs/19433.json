@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Technical Assistance for CorelDRAW Graphics Suite 2021\n\nFacing frequent crashes while using CorelDRAW Graphics Suite 2021 for creating marketing materials. The crashes might be due to compatibility issues with the latest system updates You can reach me at liuwei@business.cn.. Have already tried reinstalling the software and updating drivers, but the crashes still persist. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        395,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        265,
+        283
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        59,
+        63
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        126,
+        130
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Technical Assistance for CorelDRAW Graphics Suite [phone_number]\n\nFacing frequent crashes while using CorelDRAW Graphics Suite [phone_number] for creating marketing materials. The crashes might be due to compatibility issues with the latest system updates You can reach me at [email].. Have already tried reinstalling the software and updating drivers, but the crashes still persist. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

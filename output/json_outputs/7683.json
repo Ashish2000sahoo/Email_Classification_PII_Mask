@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verf\u00fcgbare Tools f\u00fcr Datenanalyse im Rahmen von Mitarbeiter-Training\n\nWelche Arten von Trainings stehen unseren Mitarbeitern zur Verf\u00fcgung?. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        187
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Verf\u00fcgbare Tools f\u00fcr Datenanalyse im Rahmen von Mitarbeiter-Training\n\nWelche Arten von Trainings stehen unseren Mitarbeitern zur Verf\u00fcgung?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

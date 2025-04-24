@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDie Marketing-Abteilung k\u00e4mpft mit den Bem\u00fchungen, digitale Strategien f\u00fcr das Markenwachstum zu nutzen. K\u00fcrzliche \u00c4nderungen an den Algorithmen haben die Sichtbarkeit beeintr\u00e4chtigt. Versucht, Kampagnen zu optimieren, um die Ziele zu verbessern, hat jedoch keine signifikanten Ergebnisse gebracht You can reach me at janesmith@company.com.. Unterst\u00fctzung ben\u00f6tigt, um die Online-Presenz zu verbessern und das Zielpublikum effektiver zu erreichen. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        470,
+        484
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        329,
+        350
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDie Marketing-Abteilung k\u00e4mpft mit den Bem\u00fchungen, digitale Strategien f\u00fcr das Markenwachstum zu nutzen. K\u00fcrzliche \u00c4nderungen an den Algorithmen haben die Sichtbarkeit beeintr\u00e4chtigt. Versucht, Kampagnen zu optimieren, um die Ziele zu verbessern, hat jedoch keine signifikanten Ergebnisse gebracht You can reach me at [email].. Unterst\u00fctzung ben\u00f6tigt, um die Online-Presenz zu verbessern und das Zielpublikum effektiver zu erreichen. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry Regarding Payment Methods for Medical Data Services\n\nI am reaching out to inquire about the payment methods for obtaining medical data services. Could you please provide me with information on the various payment plans and methods that are accepted? It would also be greatly appreciated if you could inform me about any current discounts or promotional offers My name is John Doe.. Additionally, I would like to know if there are any additional fees associated with specific payment methods. I look forward to hearing from you soon. Please let me know if you require any further details. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        388,
+        396
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        628,
+        649
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Enquiry Regarding Payment Methods for Medical Data Services\n\nI am reaching out to inquire about the payment methods for obtaining medical data services. Could you please provide me with information on the various payment plans and methods that are accepted? It would also be greatly appreciated if you could inform me about any current discounts or promotional offers My name is [full_name].. Additionally, I would like to know if there are any additional fees associated with specific payment methods. I look forward to hearing from you soon. Please let me know if you require any further details. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

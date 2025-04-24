@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unforeseen Decline in Social Media Engagement Demands Support\n\nHi Customer Support, I've encountered an unforeseen decline in social media engagement You can reach me at elena.ivanova@support.org.. After analyzing the data and modifying our posts, the problem continues My name is Sophia Rossi.. Potential reasons might be algorithm updates or content-related problems. I have already examined the analytics to pinpoint the issue, but I require additional support to address it. Could you assist me in investigating and offering advice on enhancing our social media engagement? I would be grateful for a quick response and anticipate your reply soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        302
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        179,
+        204
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unforeseen Decline in Social Media Engagement Demands Support\n\nHi Customer Support, I've encountered an unforeseen decline in social media engagement You can reach me at [email].. After analyzing the data and modifying our posts, the problem continues My name is [full_name].. Potential reasons might be algorithm updates or content-related problems. I have already examined the analytics to pinpoint the issue, but I require additional support to address it. Could you assist me in investigating and offering advice on enhancing our social media engagement? I would be grateful for a quick response and anticipate your reply soon.",
+  "category_of_the_email": "Incident"
+}

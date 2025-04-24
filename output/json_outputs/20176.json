@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Assistance Needed\n\nDear Customer Support Team,\n\nI hope this message finds you in good spirits. I am reaching out to seek urgent technical assistance regarding a critical issue with our AWS infrastructure. We are facing unanticipated downtime that has profoundly affected our business operations, and we have yet to determine the cause of these disruptions.\n\nThe service in question is our AWS Management Service, and this interruption has posed significant hindrances to several essential business processes that depend on it You can reach me at carlosm@gmail.com.. In light of the pressing nature of the situation, we are looking for a rapid response and resolution to avert further operational delays.\n\nMy team has performed initial troubleshooting without favorable results, and we fear that the underlying cause may be more intricate than we initially thought. As such, we are reaching out to leverage your expertise in resolving these technical challenges. Could you please expedite this request, as any hold-up could further aggravate the situation?\n\nFor your reference, the ticket number for this issue is <acc_num>. Please contact me at <tel_num> if you require any additional information from our side.\n\nAwaiting your urgent attention and response.\n\nBest Regards,\n\n<name>\nIT Services Manager My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1331,
+        1342
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        565,
+        582
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Immediate Assistance Needed\n\nDear Customer Support Team,\n\nI hope this message finds you in good spirits. I am reaching out to seek urgent technical assistance regarding a critical issue with our AWS infrastructure. We are facing unanticipated downtime that has profoundly affected our business operations, and we have yet to determine the cause of these disruptions.\n\nThe service in question is our AWS Management Service, and this interruption has posed significant hindrances to several essential business processes that depend on it You can reach me at [email].. In light of the pressing nature of the situation, we are looking for a rapid response and resolution to avert further operational delays.\n\nMy team has performed initial troubleshooting without favorable results, and we fear that the underlying cause may be more intricate than we initially thought. As such, we are reaching out to leverage your expertise in resolving these technical challenges. Could you please expedite this request, as any hold-up could further aggravate the situation?\n\nFor your reference, the ticket number for this issue is <acc_num>. Please contact me at <tel_num> if you require any additional information from our side.\n\nAwaiting your urgent attention and response.\n\nBest Regards,\n\n<name>\nIT Services Manager My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Digital Tools\n\nA marketing agency is encountering disruptions with various digital tools that are vital for brand growth My name is Omar Hassan.. The issue might be due to recent software updates or server configuration errors You can reach me at fatima.farsi@help.com.. Steps taken include restarting affected applications and verifying network connections, but the problem still persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        275,
+        296
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Digital Tools\n\nA marketing agency is encountering disruptions with various digital tools that are vital for brand growth My name is [full_name].. The issue might be due to recent software updates or server configuration errors You can reach me at [email].. Steps taken include restarting affected applications and verifying network connections, but the problem still persists.",
+  "category_of_the_email": "Incident"
+}

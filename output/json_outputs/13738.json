@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: -issue regarding frozen project overview-\n\nAn issue occurred: The project overview froze. There was a compatibility issue with the Redis 6.2 update.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        195
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: -issue regarding frozen project overview-\n\nAn issue occurred: The project overview froze. There was a compatibility issue with the Redis 6.2 update.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

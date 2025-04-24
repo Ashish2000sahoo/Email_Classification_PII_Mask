@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Problem with SaaS Service and Data Loss\n\nOur SaaS service crashed, leading to a loss of project data. This could be related to a conflict with the recent UniFi update or a problem with the HDMI cable You can reach me at johndoe@email.com.. Despite trying to restart devices, check network connections, and clear the browser cache, the issue remains unresolved. I would greatly appreciate any help in addressing this problem and recovering the lost data. Could you advise on the next steps to be taken? My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        532,
+        544
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        239,
+        256
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Problem with SaaS Service and Data Loss\n\nOur SaaS service crashed, leading to a loss of project data. This could be related to a conflict with the recent UniFi update or a problem with the HDMI cable You can reach me at [email].. Despite trying to restart devices, check network connections, and clear the browser cache, the issue remains unresolved. I would greatly appreciate any help in addressing this problem and recovering the lost data. Could you advise on the next steps to be taken? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

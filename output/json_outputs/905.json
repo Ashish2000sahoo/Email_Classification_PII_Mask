@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Breach\n\nA data breach has been detected during the transmission of medical data via devices. It might have resulted from outdated security protocols. Despite attempting to update the software and review network configurations, the issue persists. An abnormal spike in network activity was noted during the initial investigation, suggesting that sensitive patient information may have been compromised. Concerned about the potential consequences, we are seeking immediate assistance to resolve the issue and prevent future occurrences You can reach me at fatima.farsi@help.com.. Could you please provide guidance on this matter? My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        673,
+        687
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        588,
+        609
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Breach\n\nA data breach has been detected during the transmission of medical data via devices. It might have resulted from outdated security protocols. Despite attempting to update the software and review network configurations, the issue persists. An abnormal spike in network activity was noted during the initial investigation, suggesting that sensitive patient information may have been compromised. Concerned about the potential consequences, we are seeking immediate assistance to resolve the issue and prevent future occurrences You can reach me at [email].. Could you please provide guidance on this matter? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

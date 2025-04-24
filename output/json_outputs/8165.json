@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mitteilung \u00fcber Verschl\u00fcsselungsfehler\n\nDie Verschl\u00fcsselung der Daten hat auf einmal versagt. Es k\u00f6nnte dabei ein veralteter Software- oder Konfigurationsstatus vorliegen You can reach me at carlosm@gmail.com.. Wir haben die Server neu gestartet und die Logs \u00fcberpr\u00fcft. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        200,
+        217
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung \u00fcber Verschl\u00fcsselungsfehler\n\nDie Verschl\u00fcsselung der Daten hat auf einmal versagt. Es k\u00f6nnte dabei ein veralteter Software- oder Konfigurationsstatus vorliegen You can reach me at [email].. Wir haben die Server neu gestartet und die Logs \u00fcberpr\u00fcft. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

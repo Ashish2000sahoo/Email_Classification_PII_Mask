@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Aktualisierung der Zahlungsplattform f\u00fcr HIPAA-Konformit\u00e4t und Datensicherheit\n\nSehr geehrte Kundensupport, ich wende mich an Sie, um eine Neuerstellung unserer Zahlungsplattform zu beantragen, um sicherzustellen, dass die Patientendaten korrekt verarbeitet und alle HIPAA-Vorschriften eingehalten werden. Unsere derzeitige Zahlungsplattform ist veraltet und entspricht nicht den notwendigen Sicherheitsstandards. Ich bitte Sie, eine neue Zahlungsplattform einzurichten, die HIPAA-konform ist und die neuesten Sicherheitsstandards einh\u00e4lt, um sensible Patientendaten zu sch\u00fctzen. Diese Aktualisierung ist notwendig, um die Vertrauensw\u00fcrdigkeit unserer Patienten zu erhalten und potenzielle Datensicherheitsrisiken zu reduzieren My name is David Kim.. Bitte teilen Sie mir die erforderlichen Schritte zur Umsetzung dieser Aktualisierung mit und geben Sie alle weiteren Informationen, die Sie ben\u00f6tigen. Ich freue mich auf Ihre rasche R\u00fcckmeldung und darauf, bald wieder von Ihnen zu h\u00f6ren. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        748,
+        757
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1020,
+        1037
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Aktualisierung der Zahlungsplattform f\u00fcr HIPAA-Konformit\u00e4t und Datensicherheit\n\nSehr geehrte Kundensupport, ich wende mich an Sie, um eine Neuerstellung unserer Zahlungsplattform zu beantragen, um sicherzustellen, dass die Patientendaten korrekt verarbeitet und alle HIPAA-Vorschriften eingehalten werden. Unsere derzeitige Zahlungsplattform ist veraltet und entspricht nicht den notwendigen Sicherheitsstandards. Ich bitte Sie, eine neue Zahlungsplattform einzurichten, die HIPAA-konform ist und die neuesten Sicherheitsstandards einh\u00e4lt, um sensible Patientendaten zu sch\u00fctzen. Diese Aktualisierung ist notwendig, um die Vertrauensw\u00fcrdigkeit unserer Patienten zu erhalten und potenzielle Datensicherheitsrisiken zu reduzieren My name is [full_name].. Bitte teilen Sie mir die erforderlichen Schritte zur Umsetzung dieser Aktualisierung mit und geben Sie alle weiteren Informationen, die Sie ben\u00f6tigen. Ich freue mich auf Ihre rasche R\u00fcckmeldung und darauf, bald wieder von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

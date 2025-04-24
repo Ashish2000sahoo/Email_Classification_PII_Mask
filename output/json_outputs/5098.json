@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Incident: Potential Breach of Medical Information\n\nThere was a security event where there might have been an unauthorized leak of medical data You can reach me at omar.hassan@secure.net.. The initial analysis suggests that inadequate access controls could have contributed to the vulnerability My name is Sophia Rossi.. Initial evaluations have been carried out.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        335
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        181,
+        203
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Security Incident: Potential Breach of Medical Information\n\nThere was a security event where there might have been an unauthorized leak of medical data You can reach me at [email].. The initial analysis suggests that inadequate access controls could have contributed to the vulnerability My name is [full_name].. Initial evaluations have been carried out.",
+  "category_of_the_email": "Incident"
+}

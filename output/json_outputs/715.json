@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Microsoft Teams Support\n\nSeeking detailed guidance on integrating the Microsoft Teams SaaS project management solution My name is David Kim.. Would appreciate step-by-step instructions, documentation, and any help with the process. Could you provide additional resources and support to ensure a successful integration? You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        139,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        350,
+        372
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Microsoft Teams Support\n\nSeeking detailed guidance on integrating the Microsoft Teams SaaS project management solution My name is [full_name].. Would appreciate step-by-step instructions, documentation, and any help with the process. Could you provide additional resources and support to ensure a successful integration? You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

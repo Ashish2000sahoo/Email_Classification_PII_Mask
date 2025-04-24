@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDer Datenverlust tritt aufgrund von mangelnder Verschl\u00fcsselung auf. Ich habe meine Passw\u00f6rter ge\u00e4ndert und Sicherheitspr\u00fcfungen durchgef\u00fchrt.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        191
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: \n\nDer Datenverlust tritt aufgrund von mangelnder Verschl\u00fcsselung auf. Ich habe meine Passw\u00f6rter ge\u00e4ndert und Sicherheitspr\u00fcfungen durchgef\u00fchrt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

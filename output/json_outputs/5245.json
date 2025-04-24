@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Medical Data MongoDB\n\nCould you provide guidance on securing medical data in MongoDB 4.4 for a hospital IT system? This would help us understand best practices to ensure compliance with regulations You can reach me at carlosm@gmail.com.. Your guidance in implementing a secure system would be greatly appreciated My name is Omar Hassan.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        340,
+        351
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        234,
+        251
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Secure Medical Data MongoDB\n\nCould you provide guidance on securing medical data in MongoDB 4.4 for a hospital IT system? This would help us understand best practices to ensure compliance with regulations You can reach me at [email].. Your guidance in implementing a secure system would be greatly appreciated My name is [full_name].. Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

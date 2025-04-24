@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Modification Request: AWS Cost Optimization Strategy\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to request a modification to our current AWS cost optimization strategy to include additional budget forecasting tools You can reach me at david.kim@corp.kr.. As a valuable component of our IT Services, we need to ensure that our budget forecasting capabilities are robust enough to meet our organization's financial planning needs.\n\nCurrently, the AWS Management Service we utilize provides basic cost monitoring and optimization features My name is Jane Smith.. However, with the upcoming fiscal year, our planning and budget meetings have highlighted the need for more advanced forecasting tools. These tools will assist in better aligning our IT expenditure with projected budgets and help us prepare for any potential financial shifts.\n\nPlease let us know the available options or additional services that might accommodate this requirement. Furthermore, if there's any necessary process to amend our subscription plan, kindly guide us through it. Thank you for your attention to this request, and I look forward to your prompt response.\n\nWarm regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        592,
+        602
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        280,
+        297
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Modification Request: AWS Cost Optimization Strategy\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to request a modification to our current AWS cost optimization strategy to include additional budget forecasting tools You can reach me at [email].. As a valuable component of our IT Services, we need to ensure that our budget forecasting capabilities are robust enough to meet our organization's financial planning needs.\n\nCurrently, the AWS Management Service we utilize provides basic cost monitoring and optimization features My name is [full_name].. However, with the upcoming fiscal year, our planning and budget meetings have highlighted the need for more advanced forecasting tools. These tools will assist in better aligning our IT expenditure with projected budgets and help us prepare for any potential financial shifts.\n\nPlease let us know the available options or additional services that might accommodate this requirement. Furthermore, if there's any necessary process to amend our subscription plan, kindly guide us through it. Thank you for your attention to this request, and I look forward to your prompt response.\n\nWarm regards,\n\n<name>",
+  "category_of_the_email": "Change"
+}

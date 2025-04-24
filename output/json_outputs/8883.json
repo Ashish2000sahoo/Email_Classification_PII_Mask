@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request Regarding Temporary Connection Issues with Project Management Descriptor\n\nA user is experiencing temporary connection problems while accessing the project management descriptor. These issues seem to be related to increased server load. The server has already been restarted, and server performance has been monitored, but the problems persist You can reach me at sophia.rossi@service.it.. Please investigate the case and provide a solution to the problem. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        492,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        388,
+        411
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Request Regarding Temporary Connection Issues with Project Management Descriptor\n\nA user is experiencing temporary connection problems while accessing the project management descriptor. These issues seem to be related to increased server load. The server has already been restarted, and server performance has been monitored, but the problems persist You can reach me at [email].. Please investigate the case and provide a solution to the problem. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

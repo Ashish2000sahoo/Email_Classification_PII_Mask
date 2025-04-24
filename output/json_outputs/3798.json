@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security of Medical Data in Hospital Settings\n\nCustomer Support, seeking guidance on securing medical data infrastructure within hospitals. Could you provide details on the practices and measures that ensure the confidentiality, integrity, and availability of sensitive medical information? Your assistance in providing relevant resources would be greatly appreciated My name is Maria Gonzalez.. Thank you for your timely help. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        412
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        464,
+        486
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security of Medical Data in Hospital Settings\n\nCustomer Support, seeking guidance on securing medical data infrastructure within hospitals. Could you provide details on the practices and measures that ensure the confidentiality, integrity, and availability of sensitive medical information? Your assistance in providing relevant resources would be greatly appreciated My name is [full_name].. Thank you for your timely help. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Access to Medical Records\n\nHello Customer Support, I am contacting you to address an issue I am experiencing with accessing my medical records. This access was denied without prior notice, and I suspect it might be a result of a software malfunction or a configuration mistake My name is Elena Ivanova.. I've already restarted the servers and verified my user permissions, yet the issue remains unresolved. Could you please look into this and provide a resolution as soon as possible? If there is any other information you need from me to solve this, please inform me. Thank you for your attention and help You can reach me at omar.hassan@secure.net.. I await your response soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        647,
+        669
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Access to Medical Records\n\nHello Customer Support, I am contacting you to address an issue I am experiencing with accessing my medical records. This access was denied without prior notice, and I suspect it might be a result of a software malfunction or a configuration mistake My name is [full_name].. I've already restarted the servers and verified my user permissions, yet the issue remains unresolved. Could you please look into this and provide a resolution as soon as possible? If there is any other information you need from me to solve this, please inform me. Thank you for your attention and help You can reach me at [email].. I await your response soon.",
+  "category_of_the_email": "Incident"
+}

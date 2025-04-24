@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Smart-Waage's Data Analytics Capabilities\n\nHello Customer Support, I am writing to inquire about the data analytics tools provided by Smart-Waage. I am keen to know more about the platform's data analysis and visualization features, along with its machine learning functionalities You can reach me at david.kim@corp.kr.. Could you give me detailed information on these aspects? Additionally, I would be grateful if you could share any instances or examples of companies that have effectively utilized Smart-Waage for data analytics My name is David Kim.. I am looking forward to your response and appreciate your time.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        561,
+        570
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        319,
+        336
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Query on Smart-Waage's Data Analytics Capabilities\n\nHello Customer Support, I am writing to inquire about the data analytics tools provided by Smart-Waage. I am keen to know more about the platform's data analysis and visualization features, along with its machine learning functionalities You can reach me at [email].. Could you give me detailed information on these aspects? Additionally, I would be grateful if you could share any instances or examples of companies that have effectively utilized Smart-Waage for data analytics My name is [full_name].. I am looking forward to your response and appreciate your time.",
+  "category_of_the_email": "Request"
+}

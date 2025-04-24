@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Digital Campaign Data\n\nHello customer support, I am contacting you to report an issue with our campaign data which has disappeared unexpectedly My name is Carlos Mendoza.. We believe it may be due to a malfunction in the Cassandra 4.0 database. We have already tried restarting JIRA and verifying the Airtable sync, but the problem continues. Please assist us in resolving this and let us know if you need any more details from us You can reach me at david.kim@corp.kr.. We are eager to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        470,
+        487
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Digital Campaign Data\n\nHello customer support, I am contacting you to report an issue with our campaign data which has disappeared unexpectedly My name is [full_name].. We believe it may be due to a malfunction in the Cassandra 4.0 database. We have already tried restarting JIRA and verifying the Airtable sync, but the problem continues. Please assist us in resolving this and let us know if you need any more details from us You can reach me at [email].. We are eager to hear from you soon.",
+  "category_of_the_email": "Incident"
+}

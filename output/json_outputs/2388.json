@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Required Assistance for Campaign Support\n\nOur digital campaigns have unexpectedly crashed because of incompatible software updates You can reach me at elena.ivanova@support.org.. After restarting the systems and checking for updates, the problem still exists. I require help to fix this issue. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        160,
+        185
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Required Assistance for Campaign Support\n\nOur digital campaigns have unexpectedly crashed because of incompatible software updates You can reach me at [email].. After restarting the systems and checking for updates, the problem still exists. I require help to fix this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

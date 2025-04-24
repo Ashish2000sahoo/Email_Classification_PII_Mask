@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Angemeldeter Datenversto\u00df an Kundenbasis\n\nSehr geehrte Kundensupport-Gruppe, wir setzen unseren Kontakt her, um einen m\u00f6glichen Datenversto\u00df bez\u00fcglich unserer medizinischen Informationen zu melden. Unser Antivirus-System hat eine Warnung ausgel\u00f6st, was die Netzwerksicherheit in Frage stellt You can reach me at david.kim@corp.kr.. Wir haben einen Serverneustart durchgef\u00fchrt, einen Antiviren-Scan vollzogen und Notfall-Einstellungen der Firewall \u00fcberpr\u00fcft, aber die Problematik bleibt bestehen My name is Sophia Rossi.. Wir vermuten, dass das Problem auf \u00fcberholte Norton Antivirus-Software und eine unzul\u00e4ngliche Netzwerkkonfiguration zur\u00fcckzuf\u00fchren ist. Wir w\u00fcrden eine schnelle Unterst\u00fctzung von Ihnen sehr gesch\u00e4tzt haben. Bitte teilen Sie uns mit, welche Schritte wir als N\u00e4chste unternehmen k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        515,
+        527
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        321,
+        338
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Angemeldeter Datenversto\u00df an Kundenbasis\n\nSehr geehrte Kundensupport-Gruppe, wir setzen unseren Kontakt her, um einen m\u00f6glichen Datenversto\u00df bez\u00fcglich unserer medizinischen Informationen zu melden. Unser Antivirus-System hat eine Warnung ausgel\u00f6st, was die Netzwerksicherheit in Frage stellt You can reach me at [email].. Wir haben einen Serverneustart durchgef\u00fchrt, einen Antiviren-Scan vollzogen und Notfall-Einstellungen der Firewall \u00fcberpr\u00fcft, aber die Problematik bleibt bestehen My name is [full_name].. Wir vermuten, dass das Problem auf \u00fcberholte Norton Antivirus-Software und eine unzul\u00e4ngliche Netzwerkkonfiguration zur\u00fcckzuf\u00fchren ist. Wir w\u00fcrden eine schnelle Unterst\u00fctzung von Ihnen sehr gesch\u00e4tzt haben. Bitte teilen Sie uns mit, welche Schritte wir als N\u00e4chste unternehmen k\u00f6nnen.",
+  "category_of_the_email": "Incident"
+}

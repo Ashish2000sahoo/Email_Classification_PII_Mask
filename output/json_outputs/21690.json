@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Alta Prioridade: Falha no Servi\u00e7o do Zoom\n\nCaro Suporte ao Cliente da Tech Online Store,\n\nEstou escrevendo para informar sobre um incidente de alta prioridade que est\u00e1 afetando atualmente o aplicativo Zoom, vers\u00e3o 5.11.0. No momento, os usu\u00e1rios est\u00e3o enfrentando uma falha cr\u00edtica no servi\u00e7o, particularmente impactando os recursos de videoconfer\u00eancia que s\u00e3o amplamente utilizados para reuni\u00f5es essenciais e comunica\u00e7\u00f5es. Essa interrup\u00e7\u00e3o est\u00e1 causando grande inconveniente e afetando nosso fluxo de trabalho.\n\nComo o Zoom \u00e9 uma parte crucial das nossas opera\u00e7\u00f5es comerciais, \u00e9 imperativo receber assist\u00eancia r\u00e1pida e uma atualiza\u00e7\u00e3o sobre este problema. Dependemos bastante do seu funcionamento confi\u00e1vel e apreciar\u00edamos qualquer informa\u00e7\u00e3o sobre quando o servi\u00e7o deve retornar ao normal.\n\nPor favor, escalone este problema para a equipe apropriada para uma resolu\u00e7\u00e3o r\u00e1pida My name is Maria Gonzalez.. Estou dispon\u00edvel para qualquer informa\u00e7\u00e3o adicional que voc\u00ea possa precisar para acelerar este processo. Para correspond\u00eancia imediata, posso ser contatado pelo <tel_num> ou atrav\u00e9s deste endere\u00e7o de e-mail. Aguardando uma resposta r\u00e1pida.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto urgente.\n\nAtenciosamente,\n\n<name>\n<acc_num> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        898,
+        912
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1258,
+        1280
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Alta Prioridade: Falha no Servi\u00e7o do Zoom\n\nCaro Suporte ao Cliente da Tech Online Store,\n\nEstou escrevendo para informar sobre um incidente de alta prioridade que est\u00e1 afetando atualmente o aplicativo Zoom, vers\u00e3o 5.11.0. No momento, os usu\u00e1rios est\u00e3o enfrentando uma falha cr\u00edtica no servi\u00e7o, particularmente impactando os recursos de videoconfer\u00eancia que s\u00e3o amplamente utilizados para reuni\u00f5es essenciais e comunica\u00e7\u00f5es. Essa interrup\u00e7\u00e3o est\u00e1 causando grande inconveniente e afetando nosso fluxo de trabalho.\n\nComo o Zoom \u00e9 uma parte crucial das nossas opera\u00e7\u00f5es comerciais, \u00e9 imperativo receber assist\u00eancia r\u00e1pida e uma atualiza\u00e7\u00e3o sobre este problema. Dependemos bastante do seu funcionamento confi\u00e1vel e apreciar\u00edamos qualquer informa\u00e7\u00e3o sobre quando o servi\u00e7o deve retornar ao normal.\n\nPor favor, escalone este problema para a equipe apropriada para uma resolu\u00e7\u00e3o r\u00e1pida My name is [full_name].. Estou dispon\u00edvel para qualquer informa\u00e7\u00e3o adicional que voc\u00ea possa precisar para acelerar este processo. Para correspond\u00eancia imediata, posso ser contatado pelo <tel_num> ou atrav\u00e9s deste endere\u00e7o de e-mail. Aguardando uma resposta r\u00e1pida.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto urgente.\n\nAtenciosamente,\n\n<name>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

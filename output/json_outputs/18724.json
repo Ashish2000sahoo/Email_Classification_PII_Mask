@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating Billing Details\n\nDear Customer Support Team, I am writing to request an update on the billing details for several of our products, including Chromebook, Elasticsearch, and Logitech K780. Due to recent company changes, our billing information has been updated, and we need to ensure that our accounts are accurately reflecting these changes You can reach me at johndoe@email.com.. Could you please assist us in updating the billing details as soon as possible? We would greatly appreciate it if you could confirm that the updates have been made. Please let us know if any additional information is required. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        648,
+        660
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        390,
+        407
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating Billing Details\n\nDear Customer Support Team, I am writing to request an update on the billing details for several of our products, including Chromebook, Elasticsearch, and Logitech K780. Due to recent company changes, our billing information has been updated, and we need to ensure that our accounts are accurately reflecting these changes You can reach me at [email].. Could you please assist us in updating the billing details as soon as possible? We would greatly appreciate it if you could confirm that the updates have been made. Please let us know if any additional information is required. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

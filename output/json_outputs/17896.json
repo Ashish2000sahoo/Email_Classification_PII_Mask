@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Betreff: Markenentwicklung stellt aktuell Herausforderungen dar\n\nSehr geehrte Kundenservice,\\n\\naktuell stellen Markenentwicklungsprozesse einige Schwierigkeiten dar. Trotz der Umsetzung digitaler Strategien sind die Ergebnisse unzufriedenstellend. E-Mail-Kampagnen wurden optimiert, Social-Media-Strategien \u00fcberarbeitet, jedoch stagniert das Wachstum You can reach me at carlosm@gmail.com.. Ungeeignete Werkzeuge und unzureichende Ziele k\u00f6nnten m\u00f6gliche Ursachen sein My name is Elena Ivanova.. Nach der Analyse von Leistungsdaten bleibt jedoch keine L\u00f6sung in Sicht. Unterst\u00fctzung wird ben\u00f6tigt, um die Grundursache zu identifizieren und effektive Strategien f\u00fcr das Wachstum umzusetzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        489,
+        502
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        381,
+        398
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Betreff: Markenentwicklung stellt aktuell Herausforderungen dar\n\nSehr geehrte Kundenservice,\\n\\naktuell stellen Markenentwicklungsprozesse einige Schwierigkeiten dar. Trotz der Umsetzung digitaler Strategien sind die Ergebnisse unzufriedenstellend. E-Mail-Kampagnen wurden optimiert, Social-Media-Strategien \u00fcberarbeitet, jedoch stagniert das Wachstum You can reach me at [email].. Ungeeignete Werkzeuge und unzureichende Ziele k\u00f6nnten m\u00f6gliche Ursachen sein My name is [full_name].. Nach der Analyse von Leistungsdaten bleibt jedoch keine L\u00f6sung in Sicht. Unterst\u00fctzung wird ben\u00f6tigt, um die Grundursache zu identifizieren und effektive Strategien f\u00fcr das Wachstum umzusetzen.",
+  "category_of_the_email": "Problem"
+}

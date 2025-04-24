@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Datenanalyse-Software\n\nSehr geehrte Kundenservice, k\u00fcrzlich ist die Datenanalyse-Software w\u00e4hrend einer kritischen Investment-Analyse-Sitzung zusammengebrochen und kann aufgrund mangelnder Speichermittel zur\u00fcckgef\u00fchrt werden. Nachdem wir die betroffenen Systeme neu gestartet und die Software-Updates \u00fcberpr\u00fcft haben, h\u00e4lt das Problem leider an You can reach me at elena.ivanova@support.org.. Das Team ist sich bewusst, dass eine Unterbrechung der t\u00e4glichen Operationen erhebliche Verz\u00f6gerungen verursacht My name is Omar Hassan.. Wir sch\u00e4tzen Ihre Unterst\u00fctzung und w\u00fcrden es sch\u00e4tzen, wenn Sie uns Anleitungen zur L\u00f6sung des Problems bereitstellen k\u00f6nnten. Bitte geben Sie uns weitere Informationen, falls sie f\u00fcr ein Debugging erforderlich sind. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        543,
+        554
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        391,
+        416
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Datenanalyse-Software\n\nSehr geehrte Kundenservice, k\u00fcrzlich ist die Datenanalyse-Software w\u00e4hrend einer kritischen Investment-Analyse-Sitzung zusammengebrochen und kann aufgrund mangelnder Speichermittel zur\u00fcckgef\u00fchrt werden. Nachdem wir die betroffenen Systeme neu gestartet und die Software-Updates \u00fcberpr\u00fcft haben, h\u00e4lt das Problem leider an You can reach me at [email].. Das Team ist sich bewusst, dass eine Unterbrechung der t\u00e4glichen Operationen erhebliche Verz\u00f6gerungen verursacht My name is [full_name].. Wir sch\u00e4tzen Ihre Unterst\u00fctzung und w\u00fcrden es sch\u00e4tzen, wenn Sie uns Anleitungen zur L\u00f6sung des Problems bereitstellen k\u00f6nnten. Bitte geben Sie uns weitere Informationen, falls sie f\u00fcr ein Debugging erforderlich sind. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

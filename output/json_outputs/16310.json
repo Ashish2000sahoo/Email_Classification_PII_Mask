@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Xcode-Build-Fehler\n\nIch leiste mich mit einem Xcode-Build-Fehler, der auf eine Kompatibilit\u00e4t mit meinem CPU-K\u00fchler zur\u00fcckzuf\u00fchren sein k\u00f6nnte My name is Sophia Rossi.. Ich habe mein Arbeitsplatz neu gestartet und GitLab geupdated, aber das Problem beh\u00e4lt sich trotzdem bestehen You can reach me at maria.gonzalez@shop.es.. Ich w\u00fcrde mich sehr freuen, wenn Sie mich bei der L\u00f6sung dieses Problems unterst\u00fctzen k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        193
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        325,
+        347
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Xcode-Build-Fehler\n\nIch leiste mich mit einem Xcode-Build-Fehler, der auf eine Kompatibilit\u00e4t mit meinem CPU-K\u00fchler zur\u00fcckzuf\u00fchren sein k\u00f6nnte My name is [full_name].. Ich habe mein Arbeitsplatz neu gestartet und GitLab geupdated, aber das Problem beh\u00e4lt sich trotzdem bestehen You can reach me at [email].. Ich w\u00fcrde mich sehr freuen, wenn Sie mich bei der L\u00f6sung dieses Problems unterst\u00fctzen k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Pricing for Ansible Integration\n\nI am writing to seek information on the pricing for integrating Ansible into your SaaS project management platform. Could you kindly provide a detailed cost analysis? Also, please inform me if there are any discounts for long-term agreements or bulk purchases My name is Omar Hassan.. Are there any extra charges for support or maintenance? I look forward to your response with further details. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        340
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        473,
+        491
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Pricing for Ansible Integration\n\nI am writing to seek information on the pricing for integrating Ansible into your SaaS project management platform. Could you kindly provide a detailed cost analysis? Also, please inform me if there are any discounts for long-term agreements or bulk purchases My name is [full_name].. Are there any extra charges for support or maintenance? I look forward to your response with further details. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Server Downtime\n\nDear Customer Support Team,\n\nI am experiencing a server downtime issue with your AWS Management Service. My account number is <acc_num> My name is Liu Wei.. Please advise on troubleshooting steps and an estimated timeline for resolution. This is critical for our business operations.\n\nThank you,\n<name>\nContact: <tel_num> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        380,
+        397
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Server Downtime\n\nDear Customer Support Team,\n\nI am experiencing a server downtime issue with your AWS Management Service. My account number is <acc_num> My name is [full_name].. Please advise on troubleshooting steps and an estimated timeline for resolution. This is critical for our business operations.\n\nThank you,\n<name>\nContact: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

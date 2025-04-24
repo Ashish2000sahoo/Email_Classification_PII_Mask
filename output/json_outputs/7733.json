@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: API-Integration f\u00fcr Projektmanagement SaaS\n\nM\u00f6chten Sie mehr Details zu den API-Integrationsm\u00f6glichkeiten f\u00fcr Projektmanagement SaaS erhalten? Interessiert an weiteren Dienstleistungen.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        217,
+        232
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: API-Integration f\u00fcr Projektmanagement SaaS\n\nM\u00f6chten Sie mehr Details zu den API-Integrationsm\u00f6glichkeiten f\u00fcr Projektmanagement SaaS erhalten? Interessiert an weiteren Dienstleistungen.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

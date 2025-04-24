@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team, I am writing to request information on data analytics tools that can optimize investment portfolios for financial companies You can reach me at elena.ivanova@support.org.. Could you please share some details about this? I would be grateful for any advice or suggestions you can provide My name is Carlos Mendoza.. Thank you for your time and support. I am eager to hear back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        183,
+        208
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team, I am writing to request information on data analytics tools that can optimize investment portfolios for financial companies You can reach me at [email].. Could you please share some details about this? I would be grateful for any advice or suggestions you can provide My name is [full_name].. Thank you for your time and support. I am eager to hear back from you soon.",
+  "category_of_the_email": "Request"
+}

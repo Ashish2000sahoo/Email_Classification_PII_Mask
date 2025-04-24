@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich schreibe, um mehr \u00fcber digitale Strategien und Markenwachstum zu erfahren. K\u00f6nnten Sie mir zus\u00e4tzliche Informationen \u00fcber die digitalen Marketingstrategien Ihrer Firma und die Dienstleistungen, die f\u00fcr Kunden verf\u00fcgbar sind, geben? Ihre bereitgestellten Informationen sch\u00e4tze ich sehr You can reach me at liuwei@business.cn.. Vielen Dank und freue mich darauf, Ihre Antworten zu h\u00f6ren. Geduld ist mir willkommen. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        343,
+        361
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich schreibe, um mehr \u00fcber digitale Strategien und Markenwachstum zu erfahren. K\u00f6nnten Sie mir zus\u00e4tzliche Informationen \u00fcber die digitalen Marketingstrategien Ihrer Firma und die Dienstleistungen, die f\u00fcr Kunden verf\u00fcgbar sind, geben? Ihre bereitgestellten Informationen sch\u00e4tze ich sehr You can reach me at [email].. Vielen Dank und freue mich darauf, Ihre Antworten zu h\u00f6ren. Geduld ist mir willkommen. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

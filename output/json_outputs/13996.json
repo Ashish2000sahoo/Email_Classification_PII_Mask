@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem System\n\nLieber Kundenservice, unerwartet ist ein Systemcrash aufgetreten, was wahrscheinlich auf mangelnde Serverressourcen zur\u00fcckzuf\u00fchren ist My name is Maria Gonzalez.. Versuche, das System neu zu starten und nach Softwareupgrades zu suchen, haben sich nicht als effektiv erwiesen. Der Crash hat zu Verlust ungespeicherter Daten und einem betr\u00e4chtlichen Abw\u00e4rtszeitaufwand gef\u00fchrt. Bitte bieten Sie Unterst\u00fctzung bei der Behebung des Falles und helfen Sie, zuk\u00fcnftige Vorkommnisse zu vermeiden, um Unterbrechungen unserer Operationen zu minimieren You can reach me at omar.hassan@secure.net.. Teilen Sie bitte die n\u00e4chsten Schritte mit, um das Problem zu debuggen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        193
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        592,
+        614
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem System\n\nLieber Kundenservice, unerwartet ist ein Systemcrash aufgetreten, was wahrscheinlich auf mangelnde Serverressourcen zur\u00fcckzuf\u00fchren ist My name is [full_name].. Versuche, das System neu zu starten und nach Softwareupgrades zu suchen, haben sich nicht als effektiv erwiesen. Der Crash hat zu Verlust ungespeicherter Daten und einem betr\u00e4chtlichen Abw\u00e4rtszeitaufwand gef\u00fchrt. Bitte bieten Sie Unterst\u00fctzung bei der Behebung des Falles und helfen Sie, zuk\u00fcnftige Vorkommnisse zu vermeiden, um Unterbrechungen unserer Operationen zu minimieren You can reach me at [email].. Teilen Sie bitte die n\u00e4chsten Schritte mit, um das Problem zu debuggen.",
+  "category_of_the_email": "Incident"
+}

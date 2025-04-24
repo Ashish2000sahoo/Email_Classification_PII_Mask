@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verz\u00f6gerte Antwortzeiten\n\nDie Marketing-Agentur hat Schwierigkeiten mit verz\u00f6gerten Response auf einer digitalen Strategie-Plattform aufgrund hoher Server-Aufladung.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Verz\u00f6gerte Antwortzeiten\n\nDie Marketing-Agentur hat Schwierigkeiten mit verz\u00f6gerten Response auf einer digitalen Strategie-Plattform aufgrund hoher Server-Aufladung.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical Integration Problem\n\nA significant issue has emerged with project data synchronization across multiple platforms, stemming from API update incompatibilities My name is Maria Gonzalez.. Efforts to resolve the issue, including restarting services and reviewing connection logs, have been unsuccessful You can reach me at carlosm@gmail.com.. Assistance is urgently requested to address and rectify this problem so that the integration functions smoothly as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        334,
+        351
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Critical Integration Problem\n\nA significant issue has emerged with project data synchronization across multiple platforms, stemming from API update incompatibilities My name is [full_name].. Efforts to resolve the issue, including restarting services and reviewing connection logs, have been unsuccessful You can reach me at [email].. Assistance is urgently requested to address and rectify this problem so that the integration functions smoothly as soon as possible.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance with Slow Performance\n\nThe investment optimization tool is running slowly with data analysis. After checking Ruby on Rails and Kubernetes resource allocation, the issues still persist.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        227,
+        242
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Slow Performance\n\nThe investment optimization tool is running slowly with data analysis. After checking Ruby on Rails and Kubernetes resource allocation, the issues still persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

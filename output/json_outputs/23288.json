@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dificultades de inicio de sesi\u00f3n del consultor con el sistema HR\n\nEstimado equipo de soporte de IT Consulting,\n\nEspero que este mensaje les encuentre bien. Les escribo para informarles de un problema t\u00e9cnico que ocurri\u00f3 cuando nuestro consultor, <name>, intent\u00f3 acceder al sistema de HR como parte de un proceso de evaluaci\u00f3n destinado a mejorar la eficiencia de nuestro equipo en el desarrollo de software. La capacidad de acceder al sistema de HR es crucial para que nuestro consultor eval\u00fae y dise\u00f1e nuestras necesidades de desarrollo de software con precisi\u00f3n.\n\nDesafortunadamente, nuestro consultor enfrent\u00f3 desaf\u00edos significativos al intentar iniciar sesi\u00f3n. El sistema constantemente devolv\u00eda un error, impidiendo cualquier paso adicional en nuestro proceso de evaluaci\u00f3n You can reach me at carlosm@gmail.com.. Este problema ha estancado considerablemente nuestro progreso, ya que evaluar nuestra estructura de IT existente es fundamental para determinar mejoras futuras.\n\nApreciar\u00edamos su pronta asistencia para resolver este problema de inicio de sesi\u00f3n. Es vital para nosotros recuperar el acceso para asegurar que nuestra evaluaci\u00f3n pueda continuar de forma fluida y efectiva. Por favor, cont\u00e1ctenos al <tel_num> o responda a este correo electr\u00f3nico a la mayor brevedad posible. Dependemos de su experiencia para resolver este asunto r\u00e1pidamente.\n\nGracias por su atenci\u00f3n a este asunto urgente.\n\nAtentamente,\n\n<name>\nN\u00famero de cuenta: <acc_num> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1477,
+        1488
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        808,
+        825
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Dificultades de inicio de sesi\u00f3n del consultor con el sistema HR\n\nEstimado equipo de soporte de IT Consulting,\n\nEspero que este mensaje les encuentre bien. Les escribo para informarles de un problema t\u00e9cnico que ocurri\u00f3 cuando nuestro consultor, <name>, intent\u00f3 acceder al sistema de HR como parte de un proceso de evaluaci\u00f3n destinado a mejorar la eficiencia de nuestro equipo en el desarrollo de software. La capacidad de acceder al sistema de HR es crucial para que nuestro consultor eval\u00fae y dise\u00f1e nuestras necesidades de desarrollo de software con precisi\u00f3n.\n\nDesafortunadamente, nuestro consultor enfrent\u00f3 desaf\u00edos significativos al intentar iniciar sesi\u00f3n. El sistema constantemente devolv\u00eda un error, impidiendo cualquier paso adicional en nuestro proceso de evaluaci\u00f3n You can reach me at [email].. Este problema ha estancado considerablemente nuestro progreso, ya que evaluar nuestra estructura de IT existente es fundamental para determinar mejoras futuras.\n\nApreciar\u00edamos su pronta asistencia para resolver este problema de inicio de sesi\u00f3n. Es vital para nosotros recuperar el acceso para asegurar que nuestra evaluaci\u00f3n pueda continuar de forma fluida y efectiva. Por favor, cont\u00e1ctenos al <tel_num> o responda a este correo electr\u00f3nico a la mayor brevedad posible. Dependemos de su experiencia para resolver este asunto r\u00e1pidamente.\n\nGracias por su atenci\u00f3n a este asunto urgente.\n\nAtentamente,\n\n<name>\nN\u00famero de cuenta: <acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

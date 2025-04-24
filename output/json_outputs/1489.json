@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data Backup\n\nThere has been an unexpected failure with the medical data backup. It could be due to an outdated Western Digital software version You can reach me at omar.hassan@secure.net.. I have restarted the backup process and checked all connections, but the issue still occurs My name is Carlos Mendoza.. Assistance is needed to address this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        194,
+        216
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data Backup\n\nThere has been an unexpected failure with the medical data backup. It could be due to an outdated Western Digital software version You can reach me at [email].. I have restarted the backup process and checked all connections, but the issue still occurs My name is [full_name].. Assistance is needed to address this.",
+  "category_of_the_email": "Incident"
+}

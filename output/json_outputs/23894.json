@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Notification of Service Disruption\n\nHello Support Team,\n\nI am writing to inform you of a critical outage currently impacting our AWS cloud configuration that is overseen via the AWS Management Service You can reach me at david.kim@corp.kr.. This disruption is causing significant interferences with several applications, adversely affecting our day-to-day operations My name is Sophia Rossi.. Immediate intervention is crucial to address this matter. We need updates regarding the status of this incident and any anticipated timelines for its resolution. Kindly advise on any actions we should take on our end. Any extra assistance or direction provided during this outage would be greatly appreciated. Thank you for your prompt attention to this issue.\n\nSincerely,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        394,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        237,
+        254
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgent Notification of Service Disruption\n\nHello Support Team,\n\nI am writing to inform you of a critical outage currently impacting our AWS cloud configuration that is overseen via the AWS Management Service You can reach me at [email].. This disruption is causing significant interferences with several applications, adversely affecting our day-to-day operations My name is [full_name].. Immediate intervention is crucial to address this matter. We need updates regarding the status of this incident and any anticipated timelines for its resolution. Kindly advise on any actions we should take on our end. Any extra assistance or direction provided during this outage would be greatly appreciated. Thank you for your prompt attention to this issue.\n\nSincerely,\n<name>",
+  "category_of_the_email": "Incident"
+}

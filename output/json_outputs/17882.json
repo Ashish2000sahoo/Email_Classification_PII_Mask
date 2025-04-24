@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur Unterst\u00fctzung bei Plattformnebenreement\n\nDas SaaS-System ist ausgefallen, was zu einer Datenverlust gef\u00fchrt hat. Dies k\u00f6nnte auf eine unkompatible Magento 2.4 Integration zur\u00fcckzuf\u00fchren sein You can reach me at sophia.rossi@service.it.. Wir haben bereits die Server neu gestartet und die SQL-Server-Protokolle gepr\u00fcft, aber das Problem beh\u00e4lt sich trotzdem bestehen My name is Elena Ivanova.. Bitte helfen Sie uns, dieses Problem zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        396,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        230,
+        253
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Unterst\u00fctzung bei Plattformnebenreement\n\nDas SaaS-System ist ausgefallen, was zu einer Datenverlust gef\u00fchrt hat. Dies k\u00f6nnte auf eine unkompatible Magento 2.4 Integration zur\u00fcckzuf\u00fchren sein You can reach me at [email].. Wir haben bereits die Server neu gestartet und die SQL-Server-Protokolle gepr\u00fcft, aber das Problem beh\u00e4lt sich trotzdem bestehen My name is [full_name].. Bitte helfen Sie uns, dieses Problem zu beheben.",
+  "category_of_the_email": "Incident"
+}

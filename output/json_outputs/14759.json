@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Software Crashing and Errors\n\nI am reaching out to report a recurring problem with the software crashing and generating errors. This issue appeared unexpectedly and could be due to incompatible updates or conflicts with other products My name is Maria Gonzalez.. Despite attempting to restart and reinstall the software, the issue remains unresolved and I need additional support to find a permanent solution. Could you please assist in troubleshooting or suggest a fix to prevent these crashes and errors from happening again in the future? You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        266,
+        280
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        579,
+        600
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Software Crashing and Errors\n\nI am reaching out to report a recurring problem with the software crashing and generating errors. This issue appeared unexpectedly and could be due to incompatible updates or conflicts with other products My name is [full_name].. Despite attempting to restart and reinstall the software, the issue remains unresolved and I need additional support to find a permanent solution. Could you please assist in troubleshooting or suggest a fix to prevent these crashes and errors from happening again in the future? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

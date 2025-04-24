@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nBonjour <name>,\n\nJe m'adresse \u00e0 vous afin de signaler un souci avec mon chargeur Lenovo IdeaPad 5, qui semble d\u00e9faillant. Mon num\u00e9ro de t\u00e9l\u00e9phone est <tel_num> et mon identifiant de compte est <acc_num> My name is Fatima Al-Farsi.. Je vous serais reconnaissant de m'aider \u00e0 obtenir un remplacement ou une r\u00e9paration You can reach me at sophia.rossi@service.it.. Je vous remercie pour votre assistance.\n\nSinc\u00e8res salutations,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        234
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        349,
+        372
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nBonjour <name>,\n\nJe m'adresse \u00e0 vous afin de signaler un souci avec mon chargeur Lenovo IdeaPad 5, qui semble d\u00e9faillant. Mon num\u00e9ro de t\u00e9l\u00e9phone est <tel_num> et mon identifiant de compte est <acc_num> My name is [full_name]-Farsi.. Je vous serais reconnaissant de m'aider \u00e0 obtenir un remplacement ou une r\u00e9paration You can reach me at [email].. Je vous remercie pour votre assistance.\n\nSinc\u00e8res salutations,\n<name>",
+  "category_of_the_email": "Problem"
+}

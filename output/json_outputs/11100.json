@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Enhanced Mailchimp Integration\n\nDear Support Team, I hope this message finds you well My name is Omar Hassan.. I am reaching out to seek an upgrade to our current Mailchimp integration to enhance our email marketing automation and analytics tracking capabilities. The existing setup is too basic and lacks the detailed tracking we require for our campaigns You can reach me at maria.gonzalez@shop.es.. An improved integration would enable us to automate more tasks, track engagement metrics, and make informed decisions to refine our marketing strategy. Kindly consider addressing this and provide a projected timeline. Should you need more information, please do not hesitate to contact me. Thank you for your attention and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        129
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        398,
+        420
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Enhanced Mailchimp Integration\n\nDear Support Team, I hope this message finds you well My name is [full_name].. I am reaching out to seek an upgrade to our current Mailchimp integration to enhance our email marketing automation and analytics tracking capabilities. The existing setup is too basic and lacks the detailed tracking we require for our campaigns You can reach me at [email].. An improved integration would enable us to automate more tasks, track engagement metrics, and make informed decisions to refine our marketing strategy. Kindly consider addressing this and provide a projected timeline. Should you need more information, please do not hesitate to contact me. Thank you for your attention and assistance.",
+  "category_of_the_email": "Change"
+}

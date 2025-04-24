@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Update Needed for AWS Optimization\n\nDear Customer Support,\n\nI am writing to request a high-priority change in our AWS infrastructure as we've been experiencing service outages impacting application performance My name is Jane Smith.. Efficient management and prompt optimization of our AWS Management Service are crucial, considering the recurrent disruptions that currently affect our operations. Could you please prioritize this request and provide us with detail on the proposed steps that you will take to resolve these issues? We believe that a detailed review and strategic modifications to our existing setup will enhance reliability and performance You can reach me at carlosm@gmail.com.. Your prompt attention to this matter would be greatly appreciated.\n\nPlease feel free to reach out to me at <tel_num> for any further clarification.\n\nThank you,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        237,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        694,
+        711
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Update Needed for AWS Optimization\n\nDear Customer Support,\n\nI am writing to request a high-priority change in our AWS infrastructure as we've been experiencing service outages impacting application performance My name is [full_name].. Efficient management and prompt optimization of our AWS Management Service are crucial, considering the recurrent disruptions that currently affect our operations. Could you please prioritize this request and provide us with detail on the proposed steps that you will take to resolve these issues? We believe that a detailed review and strategic modifications to our existing setup will enhance reliability and performance You can reach me at [email].. Your prompt attention to this matter would be greatly appreciated.\n\nPlease feel free to reach out to me at <tel_num> for any further clarification.\n\nThank you,\n\n<name>",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschlu\u00dfsicherung medizinischer Daten\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um nach den empfohlenen Sicherheitsprotokollen f\u00fcr die Verschlu\u00dfsicherung medizinischer Daten auf unserem NAS-System zu fragen. Wie Sie wissen, sind medizinische Daten sehr sensibel und erfordern die gr\u00f6\u00dfte Sorgfalt und Schutz. Ich m\u00f6chte wissen, welche Ma\u00dfnahmen wir ergreifen k\u00f6nnen, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit dieser Daten zu gew\u00e4hrleisten. Insbesondere m\u00f6chte ich wissen, welche Verschl\u00fcsselungsmethoden empfohlen werden, welche Zugangssteuerungen wir einrichten sollten, und welche \u00dcberwachungs- und Auditing-Verfahren wir umsetzen sollten You can reach me at johndoe@email.com.. Ich w\u00fcrde auch gerne Rat zur Einhaltung relevanten Vorschriften wie HIPAA einholen My name is Maria Gonzalez.. Ich bin besorgt \u00fcber die Risiken einer Datenverletzung und unerlaubten Zugriffs und m\u00f6chte sicherstellen, dass wir alle notwendigen Schritte unternehmen, um die medizinischen Informationen unserer Patienten zu sch\u00fctzen. Ich w\u00fcrde mich freuen, wenn Sie mir in dieser Angelegenheit eine Reaktion zukommen lassen k\u00f6nnten. Bitte informieren Sie uns, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        802,
+        816
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        688,
+        705
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verschlu\u00dfsicherung medizinischer Daten\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um nach den empfohlenen Sicherheitsprotokollen f\u00fcr die Verschlu\u00dfsicherung medizinischer Daten auf unserem NAS-System zu fragen. Wie Sie wissen, sind medizinische Daten sehr sensibel und erfordern die gr\u00f6\u00dfte Sorgfalt und Schutz. Ich m\u00f6chte wissen, welche Ma\u00dfnahmen wir ergreifen k\u00f6nnen, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit dieser Daten zu gew\u00e4hrleisten. Insbesondere m\u00f6chte ich wissen, welche Verschl\u00fcsselungsmethoden empfohlen werden, welche Zugangssteuerungen wir einrichten sollten, und welche \u00dcberwachungs- und Auditing-Verfahren wir umsetzen sollten You can reach me at [email].. Ich w\u00fcrde auch gerne Rat zur Einhaltung relevanten Vorschriften wie HIPAA einholen My name is [full_name].. Ich bin besorgt \u00fcber die Risiken einer Datenverletzung und unerlaubten Zugriffs und m\u00f6chte sicherstellen, dass wir alle notwendigen Schritte unternehmen, um die medizinischen Informationen unserer Patienten zu sch\u00fctzen. Ich w\u00fcrde mich freuen, wenn Sie mir in dieser Angelegenheit eine Reaktion zukommen lassen k\u00f6nnten. Bitte informieren Sie uns, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

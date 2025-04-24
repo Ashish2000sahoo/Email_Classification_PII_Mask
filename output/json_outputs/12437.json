@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem: Desktop Crashes During Sync Process\n\nThe desktop has crashed while performing a data sync. Potential reasons could be low storage space or software conflicts You can reach me at elena.ivanova@support.org.. I have already restarted the system and verified the available storage, but the issue remains unresolved. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        354
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        196,
+        221
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem: Desktop Crashes During Sync Process\n\nThe desktop has crashed while performing a data sync. Potential reasons could be low storage space or software conflicts You can reach me at [email].. I have already restarted the system and verified the available storage, but the issue remains unresolved. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

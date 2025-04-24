@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Detailed Specifications of Project Management SaaS Platform\n\nHello, I am writing to inquire about the detailed specifications for the integration options available in the project management SaaS platform My name is Jane Smith.. Could you please provide information on the features, pricing, and the APIs and SDKs available for integration? I would also appreciate any documentation or guides to help me get started with the platform. Additionally, I would like to know about the support and training options available for users. Thank you for your time and assistance. I look forward to hearing back from you soon. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        246
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        657,
+        679
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Detailed Specifications of Project Management SaaS Platform\n\nHello, I am writing to inquire about the detailed specifications for the integration options available in the project management SaaS platform My name is [full_name].. Could you please provide information on the features, pricing, and the APIs and SDKs available for integration? I would also appreciate any documentation or guides to help me get started with the platform. Additionally, I would like to know about the support and training options available for users. Thank you for your time and assistance. I look forward to hearing back from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

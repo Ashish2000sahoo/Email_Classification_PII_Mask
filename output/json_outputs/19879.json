@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Notification of Security Incident\n\nThere was a potential security incident that may have exposed sensitive medical information. Despite efforts to improve antivirus measures and update software, the issues continue, possibly due to outdated software and insufficient firewall protection, which poses a risk to patient data.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        370
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Notification of Security Incident\n\nThere was a potential security incident that may have exposed sensitive medical information. Despite efforts to improve antivirus measures and update software, the issues continue, possibly due to outdated software and insufficient firewall protection, which poses a risk to patient data.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

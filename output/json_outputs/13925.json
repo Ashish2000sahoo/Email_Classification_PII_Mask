@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nTo Customer Support: I have encountered a problem where project timelines fail to synchronize across different devices You can reach me at maria.gonzalez@shop.es.. I believe this might be due to an API integration error. After attempting several troubleshooting steps, including device restarts, adjusting settings, and updating software, the issue continues to persist My name is Sophia Rossi.. I kindly request your assistance in examining this issue and providing a solution promptly. Additionally, if you need any further information from me to help resolve this, please let me know. I am hopeful that with your support, we can successfully synchronize project timelines across all devices. Please contact me if you require additional details or clarifications.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        392,
+        404
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        150,
+        172
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nTo Customer Support: I have encountered a problem where project timelines fail to synchronize across different devices You can reach me at [email].. I believe this might be due to an API integration error. After attempting several troubleshooting steps, including device restarts, adjusting settings, and updating software, the issue continues to persist My name is [full_name].. I kindly request your assistance in examining this issue and providing a solution promptly. Additionally, if you need any further information from me to help resolve this, please let me know. I am hopeful that with your support, we can successfully synchronize project timelines across all devices. Please contact me if you require additional details or clarifications.",
+  "category_of_the_email": "Incident"
+}

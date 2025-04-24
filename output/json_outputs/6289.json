@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required Today\n\nFacing unauthorized access attempts on our medical data systems My name is Elena Ivanova.. This may have happened due to outdated security protocol vulnerabilities. Although we have updated passwords and run security scans, the breaches are still occurring. We need immediate help to resolve this and prevent further unauthorized access. Could you please provide guidance on the next steps to take? You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        131
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        460,
+        485
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required Today\n\nFacing unauthorized access attempts on our medical data systems My name is [full_name].. This may have happened due to outdated security protocol vulnerabilities. Although we have updated passwords and run security scans, the breaches are still occurring. We need immediate help to resolve this and prevent further unauthorized access. Could you please provide guidance on the next steps to take? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

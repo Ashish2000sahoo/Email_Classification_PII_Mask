@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenges Accessing the HR System for Consultants\n\nDear IT Support Team,\n\nI hope you are doing well. I am reaching out to report a technical problem that arose when our consultant, <name>, tried to log into the HR system as part of a review process aimed at improving the efficiency of our software development team. Access to the HR system is essential for our consultant to evaluate and plan our software development requirements accurately.\n\nRegrettably, our consultant encountered considerable difficulties while attempting to log in My name is Omar Hassan.. The system repeatedly produced an error, blocking any progress in our evaluation You can reach me at maria.gonzalez@shop.es.. This predicament has significantly hindered our advancement, as reviewing our current IT setup is crucial for identifying future enhancements.\n\nWe would greatly appreciate your swift support in rectifying this login issue. Restoring access is vital to ensure that our assessment can continue smoothly and efficiently. Feel free to reach out to us at <tel_num> or reply to this email as soon as possible. We count on your expertise to resolve this concern expeditiously.\n\nThank you for your immediate attention to this pressing matter.\n\nBest regards,\n\n<name>\nAccount Number: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        559,
+        570
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        674,
+        696
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Challenges Accessing the HR System for Consultants\n\nDear IT Support Team,\n\nI hope you are doing well. I am reaching out to report a technical problem that arose when our consultant, <name>, tried to log into the HR system as part of a review process aimed at improving the efficiency of our software development team. Access to the HR system is essential for our consultant to evaluate and plan our software development requirements accurately.\n\nRegrettably, our consultant encountered considerable difficulties while attempting to log in My name is [full_name].. The system repeatedly produced an error, blocking any progress in our evaluation You can reach me at [email].. This predicament has significantly hindered our advancement, as reviewing our current IT setup is crucial for identifying future enhancements.\n\nWe would greatly appreciate your swift support in rectifying this login issue. Restoring access is vital to ensure that our assessment can continue smoothly and efficiently. Feel free to reach out to us at <tel_num> or reply to this email as soon as possible. We count on your expertise to resolve this concern expeditiously.\n\nThank you for your immediate attention to this pressing matter.\n\nBest regards,\n\n<name>\nAccount Number: <acc_num>",
+  "category_of_the_email": "Incident"
+}

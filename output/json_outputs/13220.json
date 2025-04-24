@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Information on Tools for Optimizing Investment Portfolios\n\nHello customer support, I am contacting you to seek details about data analytics tools that can aid in optimizing investment portfolios for financial firms My name is Sophia Rossi.. Could you kindly furnish me with information on the most suitable tools available? I would greatly appreciate any advice or guidance you could provide. I am particularly interested in tools that can assist with portfolio optimization, risk management, and performance analysis You can reach me at johndoe@email.com.. I thank you in advance for your assistance and look forward to your response. Kind regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        546,
+        563
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Information on Tools for Optimizing Investment Portfolios\n\nHello customer support, I am contacting you to seek details about data analytics tools that can aid in optimizing investment portfolios for financial firms My name is [full_name].. Could you kindly furnish me with information on the most suitable tools available? I would greatly appreciate any advice or guidance you could provide. I am particularly interested in tools that can assist with portfolio optimization, risk management, and performance analysis You can reach me at [email].. I thank you in advance for your assistance and look forward to your response. Kind regards.",
+  "category_of_the_email": "Request"
+}

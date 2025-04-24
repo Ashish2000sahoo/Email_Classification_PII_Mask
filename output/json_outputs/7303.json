@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Data Anomaly\n\nA data anomaly has been identified in the monthly investment analysis You can reach me at maria.gonzalez@shop.es.. This may be due to incorrect data inputs or a software malfunction My name is Fatima Al-Farsi.. Attempts to recalibrate data sources and restart the software have not resolved the issue. We kindly request your assistance in resolving this matter as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        127,
+        149
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern about Data Anomaly\n\nA data anomaly has been identified in the monthly investment analysis You can reach me at [email].. This may be due to incorrect data inputs or a software malfunction My name is [full_name]-Farsi.. Attempts to recalibrate data sources and restart the software have not resolved the issue. We kindly request your assistance in resolving this matter as soon as possible.",
+  "category_of_the_email": "Incident"
+}

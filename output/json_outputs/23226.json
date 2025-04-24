@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investigaci\u00f3n de discrepancia en la facturaci\u00f3n de AWS\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEscribo para solicitar una revisi\u00f3n detallada de una discrepancia en la facturaci\u00f3n relacionada con mi factura reciente del Servicio de Gesti\u00f3n de AWS You can reach me at maria.gonzalez@shop.es.. Mi n\u00famero de cuenta es <acc_num> My name is Liu Wei.. Not\u00e9 algunos cargos inesperados que no se alinean con mi comprensi\u00f3n o uso del servicio. Dado esto, requiero un desglose completo y una explicaci\u00f3n de los costos incurridos, especialmente en relaci\u00f3n con los nuevos cargos que han aparecido.\n\n\u00bfPodr\u00edan proporcionar un an\u00e1lisis detallado, aclarando cada elemento de la factura y elucidando estas discrepancias? Una respuesta r\u00e1pida para resaltar cualquier error de c\u00e1lculo o aclarar los cargos ser\u00eda muy apreciada, ya que ayudar\u00e1 a garantizar una facturaci\u00f3n precisa y mantener la confianza en sus servicios.\n\nPor favor, h\u00e1game saber si se requiere informaci\u00f3n adicional de mi parte para facilitar una investigaci\u00f3n exhaustiva.\n\nEspero su pronta respuesta.\n\nGracias.\n\nMejores saludos,\n<name>\nContacto: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        348,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        279,
+        301
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Investigaci\u00f3n de discrepancia en la facturaci\u00f3n de AWS\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEscribo para solicitar una revisi\u00f3n detallada de una discrepancia en la facturaci\u00f3n relacionada con mi factura reciente del Servicio de Gesti\u00f3n de AWS You can reach me at [email].. Mi n\u00famero de cuenta es <acc_num> My name is [full_name].. Not\u00e9 algunos cargos inesperados que no se alinean con mi comprensi\u00f3n o uso del servicio. Dado esto, requiero un desglose completo y una explicaci\u00f3n de los costos incurridos, especialmente en relaci\u00f3n con los nuevos cargos que han aparecido.\n\n\u00bfPodr\u00edan proporcionar un an\u00e1lisis detallado, aclarando cada elemento de la factura y elucidando estas discrepancias? Una respuesta r\u00e1pida para resaltar cualquier error de c\u00e1lculo o aclarar los cargos ser\u00eda muy apreciada, ya que ayudar\u00e1 a garantizar una facturaci\u00f3n precisa y mantener la confianza en sus servicios.\n\nPor favor, h\u00e1game saber si se requiere informaci\u00f3n adicional de mi parte para facilitar una investigaci\u00f3n exhaustiva.\n\nEspero su pronta respuesta.\n\nGracias.\n\nMejores saludos,\n<name>\nContacto: <tel_num>",
+  "category_of_the_email": "Request"
+}

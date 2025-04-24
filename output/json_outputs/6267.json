@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Information on Data Analytics Solutions\n\nCustomer Support, seeking details on data analytics solutions for optimizing investments. Could you provide information on the types of analytics tools that are available to assist in making informed investment decisions? I would greatly appreciate any information you can provide on the features and benefits of the solutions offered You can reach me at carlosm@gmail.com.. Additionally, I would like to know about the customization options and support services available to help implement these solutions effectively. Thank you for your time and assistance My name is Jane Smith.. I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        620,
+        630
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        405,
+        422
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Information on Data Analytics Solutions\n\nCustomer Support, seeking details on data analytics solutions for optimizing investments. Could you provide information on the types of analytics tools that are available to assist in making informed investment decisions? I would greatly appreciate any information you can provide on the features and benefits of the solutions offered You can reach me at [email].. Additionally, I would like to know about the customization options and support services available to help implement these solutions effectively. Thank you for your time and assistance My name is [full_name].. I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

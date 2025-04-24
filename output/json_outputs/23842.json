@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei Problemen mit Norton Antivirus Abonnement erforderlich\n\nLiebes Support-Team,\n\nich brauche Unterst\u00fctzung bez\u00fcglich meines Norton Antivirus Plus-Abonnements. Mein Account, der auf den Namen <name> und die Kontonummer <acc_num> registriert ist, weist Schwierigkeiten auf You can reach me at janesmith@company.com.. Ich w\u00fcrde Ihre rasche Hilfestellung zur Behebung dieses Problems sehr sch\u00e4tzen. Bitte erreichen Sie mich unter <tel_num> My name is David Kim.. Vielen Dank.\n\nMit besten Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        471,
+        480
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        315,
+        336
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei Problemen mit Norton Antivirus Abonnement erforderlich\n\nLiebes Support-Team,\n\nich brauche Unterst\u00fctzung bez\u00fcglich meines Norton Antivirus Plus-Abonnements. Mein Account, der auf den Namen <name> und die Kontonummer <acc_num> registriert ist, weist Schwierigkeiten auf You can reach me at [email].. Ich w\u00fcrde Ihre rasche Hilfestellung zur Behebung dieses Problems sehr sch\u00e4tzen. Bitte erreichen Sie mich unter <tel_num> My name is [full_name].. Vielen Dank.\n\nMit besten Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Problem"
+}

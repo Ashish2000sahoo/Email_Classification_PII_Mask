@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Adjusting Sales Strategies\n\nDear Customer Support Team, I am writing to request adjustments to our sales strategies. Feedback from customers regarding the user-friendliness of the project management functions needs to be addressed You can reach me at omar.hassan@secure.net.. The current approach has been criticized by our clients, and they have pointed out difficulties with the navigation system and a lack of intuitive features My name is David Kim.. To enhance customer satisfaction and boost sales, I recommend that we adjust our sales strategies to focus on improving the user-friendliness of our project management functions. Additionally, I suggest providing extra training and support for our customers, as well as highlighting the key features and their benefits.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        472,
+        481
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        280,
+        302
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Adjusting Sales Strategies\n\nDear Customer Support Team, I am writing to request adjustments to our sales strategies. Feedback from customers regarding the user-friendliness of the project management functions needs to be addressed You can reach me at [email].. The current approach has been criticized by our clients, and they have pointed out difficulties with the navigation system and a lack of intuitive features My name is [full_name].. To enhance customer satisfaction and boost sales, I recommend that we adjust our sales strategies to focus on improving the user-friendliness of our project management functions. Additionally, I suggest providing extra training and support for our customers, as well as highlighting the key features and their benefits.",
+  "category_of_the_email": "Change"
+}

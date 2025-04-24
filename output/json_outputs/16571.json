@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Datenanalyse-Dashboardschiff\n\nDas Datenanalyse-Dashboardschiff l\u00e4dt aufgrund eventueller Software-Kompatibilit\u00e4tsexkurse nicht My name is Jane Smith.. Obwohl das System neu gestartet und nach Updates gesucht wurde, besteht das Problem best\u00e4ndig You can reach me at elena.ivanova@support.org.. Ich freue mich darauf, Ihre Unterst\u00fctzung bei der Bearbeitung dieser Frage zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        292,
+        317
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Datenanalyse-Dashboardschiff\n\nDas Datenanalyse-Dashboardschiff l\u00e4dt aufgrund eventueller Software-Kompatibilit\u00e4tsexkurse nicht My name is [full_name].. Obwohl das System neu gestartet und nach Updates gesucht wurde, besteht das Problem best\u00e4ndig You can reach me at [email].. Ich freue mich darauf, Ihre Unterst\u00fctzung bei der Bearbeitung dieser Frage zu erhalten.",
+  "category_of_the_email": "Incident"
+}

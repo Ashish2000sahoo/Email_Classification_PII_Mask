@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Wichtige Verschl\u00fcsselungsumsetzung f\u00fcr medizinische Daten auf Avid Pro Tools\n\nSehr geehrte Kundenservice, es ist unerl\u00e4sslich, die aktuelle Verschl\u00fcsselungsmethodik medizinischer Daten auf Avid Pro Tools und in der IT-Infrastruktur von Krankenh\u00e4usern zu verbessern, da derzeitige Sicherheitsma\u00dfnahmen nicht ausreichen, um vertrauliche Patientendaten zu sch\u00fctzen. Eine st\u00e4rkere Verschl\u00fcsselung nicht nur erf\u00fcllt gesetzliche Anforderungen, sondern sch\u00fctzt auch gegen m\u00f6gliche Datenverletzungen. Ich empfehle, fortgeschrittene Verschl\u00fcsselungsprotokolle wie end-to-end-Verschl\u00fcsselung und sichere Datenspeicherung einzubringen. Zudem sollten regelm\u00e4\u00dfig Sicherheitspr\u00fcfungen und Penetrationstests durchgef\u00fchrt werden, um gezielte Ma\u00dfnahmen zu ergreifen My name is Fatima Al-Farsi.. Eine bessere Datenverschl\u00fcsselung k\u00f6nnte das Vertrauen der Patienten und Akteure st\u00e4rken You can reach me at omar.hassan@secure.net.. Ich freue mich darauf, mit Ihnen weiter \u00fcber dieses Thema zu sprechen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        769,
+        778
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        898,
+        920
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Wichtige Verschl\u00fcsselungsumsetzung f\u00fcr medizinische Daten auf Avid Pro Tools\n\nSehr geehrte Kundenservice, es ist unerl\u00e4sslich, die aktuelle Verschl\u00fcsselungsmethodik medizinischer Daten auf Avid Pro Tools und in der IT-Infrastruktur von Krankenh\u00e4usern zu verbessern, da derzeitige Sicherheitsma\u00dfnahmen nicht ausreichen, um vertrauliche Patientendaten zu sch\u00fctzen. Eine st\u00e4rkere Verschl\u00fcsselung nicht nur erf\u00fcllt gesetzliche Anforderungen, sondern sch\u00fctzt auch gegen m\u00f6gliche Datenverletzungen. Ich empfehle, fortgeschrittene Verschl\u00fcsselungsprotokolle wie end-to-end-Verschl\u00fcsselung und sichere Datenspeicherung einzubringen. Zudem sollten regelm\u00e4\u00dfig Sicherheitspr\u00fcfungen und Penetrationstests durchgef\u00fchrt werden, um gezielte Ma\u00dfnahmen zu ergreifen My name is [full_name]-Farsi.. Eine bessere Datenverschl\u00fcsselung k\u00f6nnte das Vertrauen der Patienten und Akteure st\u00e4rken You can reach me at [email].. Ich freue mich darauf, mit Ihnen weiter \u00fcber dieses Thema zu sprechen.",
+  "category_of_the_email": "Change"
+}

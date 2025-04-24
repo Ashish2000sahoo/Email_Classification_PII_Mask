@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Notification of Ongoing Network Disruptions\n\nDear Customer Support Team, \n\nWe have been experiencing intermittent network disruptions, potentially arising from misconfigurations in our Cisco Router ISR4331. Please investigate this issue and offer assistance on a solution at your earliest convenience You can reach me at maria.gonzalez@shop.es.. We appreciate your prompt help. \n\nBest regards, \n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        432
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        330,
+        352
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        210,
+        214
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Notification of Ongoing Network Disruptions\n\nDear Customer Support Team, \n\nWe have been experiencing intermittent network disruptions, potentially arising from misconfigurations in our Cisco Router ISR[phone_number]. Please investigate this issue and offer assistance on a solution at your earliest convenience You can reach me at [email].. We appreciate your prompt help. \n\nBest regards, \n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

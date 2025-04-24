@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident Report: Data Analytics Platform Crash\n\nDear Customer Support, I am reaching out to report an issue with our data analytics platform. The Cubase 11 application experienced a malfunction, leading to crashes in our TensorFlow models. We believe that an incompatible update of Node.js might be the cause. Despite attempts to restart Docker and update dependencies, the problem continues. We kindly request your assistance in resolving this issue promptly You can reach me at maria.gonzalez@shop.es.. Additionally, we would appreciate any advice on how to prevent similar incidents in the future. Thank you for your swift attention to this matter My name is Sophia Rossi.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        671,
+        683
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        489,
+        511
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Incident Report: Data Analytics Platform Crash\n\nDear Customer Support, I am reaching out to report an issue with our data analytics platform. The Cubase 11 application experienced a malfunction, leading to crashes in our TensorFlow models. We believe that an incompatible update of Node.js might be the cause. Despite attempts to restart Docker and update dependencies, the problem continues. We kindly request your assistance in resolving this issue promptly You can reach me at [email].. Additionally, we would appreciate any advice on how to prevent similar incidents in the future. Thank you for your swift attention to this matter My name is [full_name].. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

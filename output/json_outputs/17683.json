@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr technisches Support\n\nEs gab unerwarteten Ausf\u00e4lle, w\u00e4hrend die SaaS-Plattform intensiv genutzt wurde, was die Projektverwaltung beeintr\u00e4chtigt hat. Ich habe versucht, die Abfragen zu optimieren und den Redis-Dienst neu zu starten, aber das Problem konnte nicht gel\u00f6st werden.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        319,
+        335
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr technisches Support\n\nEs gab unerwarteten Ausf\u00e4lle, w\u00e4hrend die SaaS-Plattform intensiv genutzt wurde, was die Projektverwaltung beeintr\u00e4chtigt hat. Ich habe versucht, die Abfragen zu optimieren und den Redis-Dienst neu zu starten, aber das Problem konnte nicht gel\u00f6st werden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

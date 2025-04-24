@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unerwartete St\u00f6rung w\u00e4hrend des Medientreffs\n\nDer Medientreff wurde aufgrund von veralteter Software gest\u00f6rt.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Unerwartete St\u00f6rung w\u00e4hrend des Medientreffs\n\nDer Medientreff wurde aufgrund von veralteter Software gest\u00f6rt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

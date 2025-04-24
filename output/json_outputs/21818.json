@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Serverleistungsproblem\n\nHallo Support-Team, der Kunde hat Probleme mit der Serverleistung My name is Carlos Mendoza.. Wir suchen nach der Expertise eines IT-Beraters, um das System zu optimieren You can reach me at johndoe@email.com.. Bitte helfen Sie dringend mit L\u00f6sungen. Vielen Dank, <name> von <company>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        110,
+        124
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        221,
+        238
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Serverleistungsproblem\n\nHallo Support-Team, der Kunde hat Probleme mit der Serverleistung My name is [full_name].. Wir suchen nach der Expertise eines IT-Beraters, um das System zu optimieren You can reach me at [email].. Bitte helfen Sie dringend mit L\u00f6sungen. Vielen Dank, <name> von <company>.",
+  "category_of_the_email": "Incident"
+}

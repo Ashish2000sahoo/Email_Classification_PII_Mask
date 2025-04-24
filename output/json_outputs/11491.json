@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Glitch\n\nThe data analytics platform unexpectedly halted operations due to inadequate memory allocation My name is Omar Hassan.. I have restarted both Laravel 8 and my MacBook Pro, but the issue continues. I require help in addressing this issue. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        141
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        282,
+        299
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: System Glitch\n\nThe data analytics platform unexpectedly halted operations due to inadequate memory allocation My name is [full_name].. I have restarted both Laravel 8 and my MacBook Pro, but the issue continues. I require help in addressing this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

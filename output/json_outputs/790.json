@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding the Performance of the Investment Algorithm\n\nCustomer Support,\\n\\nI am writing to report an issue with our investment optimization algorithm You can reach me at carlosm@gmail.com.. Recent market fluctuations have led to underperformance, which may be due to outdated data inputs and model assumptions My name is Sophia Rossi.. Steps have been taken to refresh the data sources and recalibrate the model, but the issues persist.\\n\\nThe underperformance has resulted in suboptimal investment decisions and has caused concern regarding the potential impact on our portfolio. I would greatly appreciate it if you could look into this matter urgently and provide a solution or recommendation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        340,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        189,
+        206
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding the Performance of the Investment Algorithm\n\nCustomer Support,\\n\\nI am writing to report an issue with our investment optimization algorithm You can reach me at [email].. Recent market fluctuations have led to underperformance, which may be due to outdated data inputs and model assumptions My name is [full_name].. Steps have been taken to refresh the data sources and recalibrate the model, but the issues persist.\\n\\nThe underperformance has resulted in suboptimal investment decisions and has caused concern regarding the potential impact on our portfolio. I would greatly appreciate it if you could look into this matter urgently and provide a solution or recommendation.",
+  "category_of_the_email": "Incident"
+}

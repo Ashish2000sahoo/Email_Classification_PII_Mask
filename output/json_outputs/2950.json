@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with Subscription-Billing Services\n\nExperiencing Billing Discrepancies. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        109,
+        125
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issues with Subscription-Billing Services\n\nExperiencing Billing Discrepancies. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Protocols for Securing MacBook Pro in Hospital Settings\n\nHello Customer Support, I am contacting you to seek advice on the security measures that should be taken for MacBook Pro usage in hospital environments. Given the critical nature of data protection and privacy in these settings, I would greatly appreciate detailed information on the best security practices My name is Liu Wei.. This would include recommendations for software and hardware, as well as the necessary configurations. Thank you for your help. Best regards, [Your Name] You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        385,
+        392
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        573,
+        596
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Protocols for Securing MacBook Pro in Hospital Settings\n\nHello Customer Support, I am contacting you to seek advice on the security measures that should be taken for MacBook Pro usage in hospital environments. Given the critical nature of data protection and privacy in these settings, I would greatly appreciate detailed information on the best security practices My name is [full_name].. This would include recommendations for software and hardware, as well as the necessary configurations. Thank you for your help. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

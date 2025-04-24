@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance with Data Encryption Issues\n\nThe data encryption process has recently malfunctioned without warning. A software anomaly is the likely cause You can reach me at sophia.rossi@service.it.. Efforts made: servers were restarted and configurations were reviewed. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        192,
+        215
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance with Data Encryption Issues\n\nThe data encryption process has recently malfunctioned without warning. A software anomaly is the likely cause You can reach me at [email].. Efforts made: servers were restarted and configurations were reviewed. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

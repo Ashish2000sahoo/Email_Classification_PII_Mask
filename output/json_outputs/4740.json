@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Predictions Tool\n\nHello Customer Support, I am contacting you to report an issue with our investment predictions platform My name is Sophia Rossi.. Lately, the software has been experiencing technical difficulties, causing inaccurate predictions. We believe the cause might be due to recent software updates not being compatible with the system, which has not been resolved after several attempts to fix it. Could you please examine this matter and offer a solution promptly? We would also appreciate any additional details you might require from us You can reach me at janesmith@company.com.. We are eagerly waiting for your response and are hopeful that your support will help us return the predictions system to its normal functioning state.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        602,
+        623
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Predictions Tool\n\nHello Customer Support, I am contacting you to report an issue with our investment predictions platform My name is [full_name].. Lately, the software has been experiencing technical difficulties, causing inaccurate predictions. We believe the cause might be due to recent software updates not being compatible with the system, which has not been resolved after several attempts to fix it. Could you please examine this matter and offer a solution promptly? We would also appreciate any additional details you might require from us You can reach me at [email].. We are eagerly waiting for your response and are hopeful that your support will help us return the predictions system to its normal functioning state.",
+  "category_of_the_email": "Incident"
+}

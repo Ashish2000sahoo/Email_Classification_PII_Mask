@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Random Freezing of SaaS Platform\n\nThe SaaS platform randomly freezes, especially during peak usage times My name is Omar Hassan.. This might be related to server overload. Servers were restarted and log checks were conducted. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        125,
+        136
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        255,
+        272
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Random Freezing of SaaS Platform\n\nThe SaaS platform randomly freezes, especially during peak usage times My name is [full_name].. This might be related to server overload. Servers were restarted and log checks were conducted. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

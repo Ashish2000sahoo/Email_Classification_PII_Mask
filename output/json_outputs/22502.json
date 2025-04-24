@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Assistance Needed with Server Outage\n\nHello IT Services Support Team,\n\nI am writing to urgently seek assistance regarding a vital matter. We are facing a server outage that is greatly affecting our business activities You can reach me at fatima.farsi@help.com.. The service at issue is your IT Consulting Service, and it is leading to considerable disruptions. We depend extensively on this service for our daily functions and require a resolution at the earliest My name is Carlos Mendoza.. Please make this issue a priority and offer the necessary support to restore operations to normal.\n\nI appreciate your quick attention to this issue.\n\nSincerely,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        494,
+        508
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        257,
+        278
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Immediate Assistance Needed with Server Outage\n\nHello IT Services Support Team,\n\nI am writing to urgently seek assistance regarding a vital matter. We are facing a server outage that is greatly affecting our business activities You can reach me at [email].. The service at issue is your IT Consulting Service, and it is leading to considerable disruptions. We depend extensively on this service for our daily functions and require a resolution at the earliest My name is [full_name].. Please make this issue a priority and offer the necessary support to restore operations to normal.\n\nI appreciate your quick attention to this issue.\n\nSincerely,\n<name>",
+  "category_of_the_email": "Incident"
+}

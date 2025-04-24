@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: \n\nQuerido <name>,\n\nEspero que est\u00e9s bien. Hemos recibido tu reporte sobre los inconvenientes de visualizaci\u00f3n con tu iMac 2023. Nuestro equipo de soporte t\u00e9cnico est\u00e1 revisando este tema y pronto se comunicar\u00e1 contigo con una soluci\u00f3n You can reach me at sophia.rossi@service.it.. Agradecemos tu paciencia.\n\nAtentamente,\n<name>\nServicio al Cliente\n<Tienda en L\u00ednea>\n<email@example.com>\n<tel_num> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        416,
+        428
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        264,
+        287
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        376,
+        393
+      ],
+      "classification": "email",
+      "entity": "email@example.com"
+    },
+    {
+      "position": [
+        131,
+        135
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    }
+  ],
+  "masked_email": "Subject: \n\nQuerido <name>,\n\nEspero que est\u00e9s bien. Hemos recibido tu reporte sobre los inconvenientes de visualizaci\u00f3n con tu iMac [phone_number]. Nuestro equipo de soporte t\u00e9cnico est\u00e1 revisando este tema y pronto se comunicar\u00e1 contigo con una soluci\u00f3n You can reach me at [email].. Agradecemos tu paciencia.\n\nAtentamente,\n<name>\nServicio al Cliente\n<Tienda en L\u00ednea>\n<[email]>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

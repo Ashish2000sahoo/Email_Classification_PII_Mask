@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Downtime of Support Platform\n\nDuring peak trading hours, the data analytics platform faced an unexpected downtime, which obstructed our investment optimization processes My name is John Doe.. The problem may have been due to server overload or software bugs. After attempting system reboots and clearing the cache, the issue still persists. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        384,
+        401
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Downtime of Support Platform\n\nDuring peak trading hours, the data analytics platform faced an unexpected downtime, which obstructed our investment optimization processes My name is [full_name].. The problem may have been due to server overload or software bugs. After attempting system reboots and clearing the cache, the issue still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

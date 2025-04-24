@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Payment Issue Encountered\n\nI am reaching out to notify you about an unanticipated error during the payment process. This error could be a result of out-of-date software or a misconfiguration You can reach me at liuwei@business.cn.. Despite attempts to restart the system, review the logs, and contact the bank, the problem still exists My name is Omar Hassan.. I kindly ask you to investigate this and offer a resolution at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        367
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        220,
+        238
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Payment Issue Encountered\n\nI am reaching out to notify you about an unanticipated error during the payment process. This error could be a result of out-of-date software or a misconfiguration You can reach me at [email].. Despite attempts to restart the system, review the logs, and contact the bank, the problem still exists My name is [full_name].. I kindly ask you to investigate this and offer a resolution at your earliest convenience.",
+  "category_of_the_email": "Incident"
+}

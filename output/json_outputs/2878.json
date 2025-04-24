@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues during Integration of Data Analysis Tools Support\n\nDear Customer Service Team, <br> We are encountering issues during the integration of the Data Analysis Tools, which affect investment optimization My name is Elena Ivanova.. <br> The problem seems to be due to compatibility issues within the existing Software-Hardware system. <br> We have attempted to troubleshoot the connections, but the issue persists. <br> We appreciate your help in resolving the problem and look forward to a prompt solution. <br> Please share the next steps to resolve the issue You can reach me at omar.hassan@secure.net.. <br> Kind regards, <br> Your Support Team.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        590,
+        612
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issues during Integration of Data Analysis Tools Support\n\nDear Customer Service Team, <br> We are encountering issues during the integration of the Data Analysis Tools, which affect investment optimization My name is [full_name].. <br> The problem seems to be due to compatibility issues within the existing Software-Hardware system. <br> We have attempted to troubleshoot the connections, but the issue persists. <br> We appreciate your help in resolving the problem and look forward to a prompt solution. <br> Please share the next steps to resolve the issue You can reach me at [email].. <br> Kind regards, <br> Your Support Team.",
+  "category_of_the_email": "Incident"
+}

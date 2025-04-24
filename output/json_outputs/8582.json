@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Investitionsresultaten melden\n\nSehr geehrte Kundenservice-Abteilung,\\nich m\u00f6chte eine Problematik zu meinen Investitionsresultaten melden. Die tats\u00e4chlichen Ergebnisse weichen stark von den erwarteten Zahlen ab, und ich glaube, dass dies auf ungenaue Daten eingegeben wurden. Ich habe die Einstellungen meiner Analysetools \u00fcberpr\u00fcft, konnte den Fehler jedoch nicht identifizieren.\\nIch w\u00fcrde Ihnen sehr dankbar sein, wenn Sie Ratschl\u00e4ge geben k\u00f6nnten, wie ich dieses Problem l\u00f6sen kann. Informieren Sie mich bitte, falls weitere Schritte erforderlich sind oder Sie weitere Informationen ben\u00f6tigen, um die Ursache zu finden.\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at johndoe@email.com.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[ Ihr Name ] My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        820,
+        828
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        701,
+        718
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Investitionsresultaten melden\n\nSehr geehrte Kundenservice-Abteilung,\\nich m\u00f6chte eine Problematik zu meinen Investitionsresultaten melden. Die tats\u00e4chlichen Ergebnisse weichen stark von den erwarteten Zahlen ab, und ich glaube, dass dies auf ungenaue Daten eingegeben wurden. Ich habe die Einstellungen meiner Analysetools \u00fcberpr\u00fcft, konnte den Fehler jedoch nicht identifizieren.\\nIch w\u00fcrde Ihnen sehr dankbar sein, wenn Sie Ratschl\u00e4ge geben k\u00f6nnten, wie ich dieses Problem l\u00f6sen kann. Informieren Sie mich bitte, falls weitere Schritte erforderlich sind oder Sie weitere Informationen ben\u00f6tigen, um die Ursache zu finden.\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[ Ihr Name ] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

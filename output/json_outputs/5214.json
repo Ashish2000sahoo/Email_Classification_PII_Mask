@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Medical Data Leak\n\nA medical data leak occurred due to unsecured API calls My name is Jane Smith.. The problem might be linked to insufficient encryption and access controls You can reach me at omar.hassan@secure.net.. We have already restarted the servers and reviewed the firewall settings.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        105,
+        115
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        214,
+        236
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Report on Medical Data Leak\n\nA medical data leak occurred due to unsecured API calls My name is [full_name].. The problem might be linked to insufficient encryption and access controls You can reach me at [email].. We have already restarted the servers and reviewed the firewall settings.",
+  "category_of_the_email": "Incident"
+}

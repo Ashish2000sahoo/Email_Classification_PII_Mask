@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Change in AWS Configurations for Optimization\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well You can reach me at david.kim@corp.kr.. I am writing to request modifications to our current AWS instance configurations under your AWS Management Service My name is Carlos Mendoza.. Our objective is to achieve better cost optimization while enhancing the performance within our IT infrastructure. \n\nCurrently, it seems that the configurations we have in place may not be fully aligned with our evolving business requirements and budgetary constraints. Hence, we are looking for professional guidance on adjusting these settings to maximize efficiency and reduce expenses.\n\nCould we arrange a consultation to discuss this? Additionally, it would be helpful to get an analysis of our existing usage patterns coupled with recommendations tailored to our specific needs.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name>\n<name>\n<email>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        164,
+        181
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for Change in AWS Configurations for Optimization\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well You can reach me at [email].. I am writing to request modifications to our current AWS instance configurations under your AWS Management Service My name is [full_name].. Our objective is to achieve better cost optimization while enhancing the performance within our IT infrastructure. \n\nCurrently, it seems that the configurations we have in place may not be fully aligned with our evolving business requirements and budgetary constraints. Hence, we are looking for professional guidance on adjusting these settings to maximize efficiency and reduce expenses.\n\nCould we arrange a consultation to discuss this? Additionally, it would be helpful to get an analysis of our existing usage patterns coupled with recommendations tailored to our specific needs.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name>\n<name>\n<email>",
+  "category_of_the_email": "Request"
+}

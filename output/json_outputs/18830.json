@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue with Adobe Premiere Pro 2021\n\nI am writing to report an issue with Adobe Premiere Pro 2021 My name is Liu Wei.. The visual data analysis in my project are distorted, which affects the quality of the video editing. I have restarted my system and updated Adobe Premiere Pro to the latest version, but the problem persists. I suspect that the problem might be caused by an incompatible HDMI cable or outdated iOS 15 You can reach me at carlosm@gmail.com.. The distorted graphics appear during video editing, making it difficult to continue with the project. I would greatly appreciate it if you could provide a solution to this problem or assist me in further debugging.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        117,
+        124
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        452,
+        469
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        39,
+        43
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        101,
+        105
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Issue with Adobe Premiere Pro [phone_number]\n\nI am writing to report an issue with Adobe Premiere Pro [phone_number] My name is [full_name].. The visual data analysis in my project are distorted, which affects the quality of the video editing. I have restarted my system and updated Adobe Premiere Pro to the latest version, but the problem persists. I suspect that the problem might be caused by an incompatible HDMI cable or outdated iOS 15 You can reach me at [email].. The distorted graphics appear during video editing, making it difficult to continue with the project. I would greatly appreciate it if you could provide a solution to this problem or assist me in further debugging.",
+  "category_of_the_email": "Incident"
+}

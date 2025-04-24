@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me de l'\u00e9cran tactile sur Surface Pro 7\n\nBonjour, \n\nJ'ai rencontr\u00e9 une panne de l'\u00e9cran tactile avec ma nouvelle Surface Pro 7 lors d'une pr\u00e9sentation importante aupr\u00e8s d'un client, ce qui a caus\u00e9 des perturbations significatives. Une r\u00e9solution rapide est n\u00e9cessaire de toute urgence You can reach me at omar.hassan@secure.net.. Merci de vous occuper de ce probl\u00e8me d\u00e8s que possible My name is Omar Hassan.. Produit : Microsoft Surface Pro 7.\n\nMerci,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        410,
+        421
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        320,
+        342
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me de l'\u00e9cran tactile sur Surface Pro 7\n\nBonjour, \n\nJ'ai rencontr\u00e9 une panne de l'\u00e9cran tactile avec ma nouvelle Surface Pro 7 lors d'une pr\u00e9sentation importante aupr\u00e8s d'un client, ce qui a caus\u00e9 des perturbations significatives. Une r\u00e9solution rapide est n\u00e9cessaire de toute urgence You can reach me at [email].. Merci de vous occuper de ce probl\u00e8me d\u00e8s que possible My name is [full_name].. Produit : Microsoft Surface Pro 7.\n\nMerci,\n<name>",
+  "category_of_the_email": "Incident"
+}

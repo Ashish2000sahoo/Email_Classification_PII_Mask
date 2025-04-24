@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Security with Bitdefender Antivirus Plus\n\nInquiring about the capabilities of Bitdefender Antivirus Plus for securing medical data in a hospital setting. Given the highly sensitive nature of medical data, it's crucial to have the utmost protection You can reach me at johndoe@email.com.. Could you provide specific details on how Bitdefender Antivirus Plus can cater to the unique needs of a hospital environment and help protect against data breaches and cyber threats? Additionally, any information on compliance certifications would be greatly appreciated. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        593,
+        606
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        290,
+        307
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Security with Bitdefender Antivirus Plus\n\nInquiring about the capabilities of Bitdefender Antivirus Plus for securing medical data in a hospital setting. Given the highly sensitive nature of medical data, it's crucial to have the utmost protection You can reach me at [email].. Could you provide specific details on how Bitdefender Antivirus Plus can cater to the unique needs of a hospital environment and help protect against data breaches and cyber threats? Additionally, any information on compliance certifications would be greatly appreciated. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

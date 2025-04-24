@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Datenschutz im Medizintechnikbereich\n\nSehr geehrte Kundenservice, ich schreibe an Sie, um Informationen zur Sicherung medizinischer Daten in Microsoft Office 365-basierten IT-Umgebungen zu erhalten. K\u00f6nnten Sie Details zu Sicherheitsma\u00dfnahmen zur Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen bereitstellen? Ich sch\u00e4tze eine Anleitung oder Ressourcen im Bereich My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Frage. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        433
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        506,
+        528
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        167,
+        170
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Datenschutz im Medizintechnikbereich\n\nSehr geehrte Kundenservice, ich schreibe an Sie, um Informationen zur Sicherung medizinischer Daten in Microsoft Office [cvv_no]-basierten IT-Umgebungen zu erhalten. K\u00f6nnten Sie Details zu Sicherheitsma\u00dfnahmen zur Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen bereitstellen? Ich sch\u00e4tze eine Anleitung oder Ressourcen im Bereich My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Frage. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

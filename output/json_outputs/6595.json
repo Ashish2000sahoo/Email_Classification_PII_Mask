@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Vertrauliche Datenexposition bei Kundensupport\n\nSehr geehrte Abteilung Kundenservice, wir berichten \u00fcber einen ungeplanten Datenausbruch von vertraulichen medizinischen Informationen. Es k\u00f6nnte sich auf fehlende Zugriffssteuerungen beziehen. Bislang haben wir versucht, die Server neu zu starten und die Firewalls zu \u00fcberpr\u00fcfen, jedoch ohne Erfolg. Wir sind besorgt \u00fcber m\u00f6gliche Nebenwirkungen und danken Ihnen f\u00fcr schnelle Unterst\u00fctzung My name is Maria Gonzalez.. K\u00f6nnten Sie bitte Anweisungen zur Sicherheitsverbesserung unseres Systems und zur Verwaltung unserer vertraulichen Daten geben? Wir freuen uns auf Ihre schnelle R\u00fcckmeldung. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        459,
+        473
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        667,
+        688
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Vertrauliche Datenexposition bei Kundensupport\n\nSehr geehrte Abteilung Kundenservice, wir berichten \u00fcber einen ungeplanten Datenausbruch von vertraulichen medizinischen Informationen. Es k\u00f6nnte sich auf fehlende Zugriffssteuerungen beziehen. Bislang haben wir versucht, die Server neu zu starten und die Firewalls zu \u00fcberpr\u00fcfen, jedoch ohne Erfolg. Wir sind besorgt \u00fcber m\u00f6gliche Nebenwirkungen und danken Ihnen f\u00fcr schnelle Unterst\u00fctzung My name is [full_name].. K\u00f6nnten Sie bitte Anweisungen zur Sicherheitsverbesserung unseres Systems und zur Verwaltung unserer vertraulichen Daten geben? Wir freuen uns auf Ihre schnelle R\u00fcckmeldung. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

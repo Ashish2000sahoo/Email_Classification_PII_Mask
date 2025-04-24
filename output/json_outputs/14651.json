@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Incorrect Fee Applied for Subscription Renewal\n\nThere was an incorrect charge applied to the subscription renewal.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        161
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Incorrect Fee Applied for Subscription Renewal\n\nThere was an incorrect charge applied to the subscription renewal.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

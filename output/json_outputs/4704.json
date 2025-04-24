@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detected Unauthorized Access to Medical Data\n\nThere have been detected unauthorized access attempts to the hospital's medical data system You can reach me at david.kim@corp.kr.. These may have occurred due to outdated security protocols. To date, we have reinforced password policies and monitored access logs for any unusual activity. We kindly request your assistance in conducting a thorough security audit and implementing additional measures to prevent future incidents. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        496,
+        510
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        167,
+        184
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Detected Unauthorized Access to Medical Data\n\nThere have been detected unauthorized access attempts to the hospital's medical data system You can reach me at [email].. These may have occurred due to outdated security protocols. To date, we have reinforced password policies and monitored access logs for any unusual activity. We kindly request your assistance in conducting a thorough security audit and implementing additional measures to prevent future incidents. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

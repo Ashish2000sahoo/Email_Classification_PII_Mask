@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Marketinganstrengungen\n\nDie aktuellen digitalen Strategien der Marketingagentur sind gut entwickelt, aber allgemeine Markenentwicklung wurde beeintr\u00e4chtigt My name is Maria Gonzalez.. Die veralteten Taktiken und die mangelnde Datenanalyse sind die Ursachen daf\u00fcr. Wir versuchen, die Zielgruppenanpassung unserer Werbung und die Optimierung unserer Sozialmedien-Posts zu verbessern, um signifikante Verbesserungen zu erzielen You can reach me at sophia.rossi@service.it.. Wir suchen nach Rat und Vorschl\u00e4gen, um die Strategien f\u00fcr die \u00dcberarbeitung der Markenwahrnehmung und das Engagement zu verbessern. K\u00f6nnten Sie Empfehlungen und Vorschl\u00e4ge zur Verbesserung des digitalen Markenmarketing anbieten?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        469,
+        492
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Marketinganstrengungen\n\nDie aktuellen digitalen Strategien der Marketingagentur sind gut entwickelt, aber allgemeine Markenentwicklung wurde beeintr\u00e4chtigt My name is [full_name].. Die veralteten Taktiken und die mangelnde Datenanalyse sind die Ursachen daf\u00fcr. Wir versuchen, die Zielgruppenanpassung unserer Werbung und die Optimierung unserer Sozialmedien-Posts zu verbessern, um signifikante Verbesserungen zu erzielen You can reach me at [email].. Wir suchen nach Rat und Vorschl\u00e4gen, um die Strategien f\u00fcr die \u00dcberarbeitung der Markenwahrnehmung und das Engagement zu verbessern. K\u00f6nnten Sie Empfehlungen und Vorschl\u00e4ge zur Verbesserung des digitalen Markenmarketing anbieten?",
+  "category_of_the_email": "Request"
+}

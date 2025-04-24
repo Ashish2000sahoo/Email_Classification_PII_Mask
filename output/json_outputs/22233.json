@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent: Database Corruption in MySQL 8.0.30\n\nDear Support Team, \n\nWe have encountered database corruption with MySQL 8.0.30, resulting in service disruptions and affecting our business operations significantly My name is Fatima Al-Farsi.. Immediate assistance is required to resolve this issue. \n\nKindly prioritize this matter You can reach me at fatima.farsi@help.com.. \n\nBest regards, \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        358,
+        379
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        46,
+        52
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        126,
+        132
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Database Corruption in MySQL [phone_number]\n\nDear Support Team, \n\nWe have encountered database corruption with MySQL [phone_number], resulting in service disruptions and affecting our business operations significantly My name is [full_name]-Farsi.. Immediate assistance is required to resolve this issue. \n\nKindly prioritize this matter You can reach me at [email].. \n\nBest regards, \n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Billing Status with Customer Service\n\nDear Customer Service, I am writing to request information about my billing details and payment options My name is David Kim.. Could you please provide me with an overview of my current billing status and the available payment methods? It would be great if you could also include relevant deadlines or late payment penalties. Additionally, may I know if there are any current discounts or promotions for long-term payments? Please inform me if you need further information from me to process my request. Thank you for your time and support. I look forward to hearing from you soon. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        667,
+        690
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Billing Status with Customer Service\n\nDear Customer Service, I am writing to request information about my billing details and payment options My name is [full_name].. Could you please provide me with an overview of my current billing status and the available payment methods? It would be great if you could also include relevant deadlines or late payment penalties. Additionally, may I know if there are any current discounts or promotions for long-term payments? Please inform me if you need further information from me to process my request. Thank you for your time and support. I look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

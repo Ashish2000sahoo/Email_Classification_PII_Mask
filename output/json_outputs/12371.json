@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Smart Device Functionality\n\nRespected Customer Support Team, I am contacting you to address an issue with my smart devices that are not operating correctly My name is Maria Gonzalez.. Despite attempting basic troubleshooting procedures like restarting and updating, the problem continues You can reach me at carlosm@gmail.com.. I would be grateful if you could offer a resolution or instructions on what to do next. Should you require further details, I am ready to supply them when needed. Thanks for your help. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        329,
+        346
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Smart Device Functionality\n\nRespected Customer Support Team, I am contacting you to address an issue with my smart devices that are not operating correctly My name is [full_name].. Despite attempting basic troubleshooting procedures like restarting and updating, the problem continues You can reach me at [email].. I would be grateful if you could offer a resolution or instructions on what to do next. Should you require further details, I am ready to supply them when needed. Thanks for your help. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

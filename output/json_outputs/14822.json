@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsbedenken aufgrund einer m\u00f6glichen Datensperre in der medizinischen Infrastruktur\n\nEs besteht der Verdacht, dass eine Datensperre auf unserem Krankenhausnetzwerk stattgefunden haben k\u00f6nnte, was m\u00f6glicherweise auf menschliche Fehler oder veraltete Sicherheitspatches zur\u00fcckzuf\u00fchren ist.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        327,
+        342
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsbedenken aufgrund einer m\u00f6glichen Datensperre in der medizinischen Infrastruktur\n\nEs besteht der Verdacht, dass eine Datensperre auf unserem Krankenhausnetzwerk stattgefunden haben k\u00f6nnte, was m\u00f6glicherweise auf menschliche Fehler oder veraltete Sicherheitspatches zur\u00fcckzuf\u00fchren ist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

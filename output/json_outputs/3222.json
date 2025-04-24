@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verletzung der Datensicherheit\n\nEs wurde eine potenzielle Datensicherheitsverletzung in den IT-Systemen des Krankenhauses festgestellt My name is Liu Wei.. Die urspr\u00fcnglichen Schritte umfassten die Durchf\u00fchrung von Antivirus-Scans und die \u00dcberpr\u00fcfung von Zugriffsmeldungen You can reach me at david.kim@corp.kr.. Bestehende Sorgen betreffen die Integrit\u00e4t medizinischer Daten aufgrund veralteter Sicherheitsprotokolle und Phishing-Angriffsversuche.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        162
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        306,
+        323
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Verletzung der Datensicherheit\n\nEs wurde eine potenzielle Datensicherheitsverletzung in den IT-Systemen des Krankenhauses festgestellt My name is [full_name].. Die urspr\u00fcnglichen Schritte umfassten die Durchf\u00fchrung von Antivirus-Scans und die \u00dcberpr\u00fcfung von Zugriffsmeldungen You can reach me at [email].. Bestehende Sorgen betreffen die Integrit\u00e4t medizinischer Daten aufgrund veralteter Sicherheitsprotokolle und Phishing-Angriffsversuche.",
+  "category_of_the_email": "Incident"
+}

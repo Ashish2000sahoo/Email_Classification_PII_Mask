@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung erforderlich\n\nWir haben Dateninconsistenz in unserer MySQL-Datenbank festgestellt My name is Jane Smith.. Trotz der Validierung des ETL-Prozesses existieren weiterhin Probleme. OBS Studio f\u00fcgt Live-Daten ein, was m\u00f6glicherweise zu Kompatibilit\u00e4tsproblemen f\u00fchrt. Ein Neustart der Software hat das Problem vor\u00fcbergehend gel\u00f6st. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        116,
+        126
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        371,
+        392
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung erforderlich\n\nWir haben Dateninconsistenz in unserer MySQL-Datenbank festgestellt My name is [full_name].. Trotz der Validierung des ETL-Prozesses existieren weiterhin Probleme. OBS Studio f\u00fcgt Live-Daten ein, was m\u00f6glicherweise zu Kompatibilit\u00e4tsproblemen f\u00fchrt. Ein Neustart der Software hat das Problem vor\u00fcbergehend gel\u00f6st. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

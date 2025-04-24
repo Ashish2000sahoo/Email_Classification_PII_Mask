@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de pantalla t\u00e1ctil despu\u00e9s de la instalaci\u00f3n de la actualizaci\u00f3n de Windows reciente\n\nHola, Mi Microsoft Surface Pro 7 tiene una pantalla t\u00e1ctil que no responde tras una actualizaci\u00f3n reciente de Windows You can reach me at sophia.rossi@service.it.. He intentado reiniciar, pero el problema persiste My name is David Kim.. Por favor, aconsejen sobre posibles soluciones. Gracias, <name>, n\u00famero de cuenta <acc_num>, tel\u00e9fono <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        242,
+        265
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problema de pantalla t\u00e1ctil despu\u00e9s de la instalaci\u00f3n de la actualizaci\u00f3n de Windows reciente\n\nHola, Mi Microsoft Surface Pro 7 tiene una pantalla t\u00e1ctil que no responde tras una actualizaci\u00f3n reciente de Windows You can reach me at [email].. He intentado reiniciar, pero el problema persiste My name is [full_name].. Por favor, aconsejen sobre posibles soluciones. Gracias, <name>, n\u00famero de cuenta <acc_num>, tel\u00e9fono <tel_num>",
+  "category_of_the_email": "Incident"
+}

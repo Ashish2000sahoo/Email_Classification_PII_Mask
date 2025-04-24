@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Crash Issue with Project Dashboard\n\nThe project dashboard has unexpectedly crashed You can reach me at maria.gonzalez@shop.es.. It seems that incompatible integrations could be the cause. Although I've restarted the system and checked for updates, the issue still recurs My name is Jane Smith.. I would greatly appreciate your help in resolving this as it is affecting my work. Please inform me of the next steps to take.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        112,
+        134
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Crash Issue with Project Dashboard\n\nThe project dashboard has unexpectedly crashed You can reach me at [email].. It seems that incompatible integrations could be the cause. Although I've restarted the system and checked for updates, the issue still recurs My name is [full_name].. I would greatly appreciate your help in resolving this as it is affecting my work. Please inform me of the next steps to take.",
+  "category_of_the_email": "Incident"
+}

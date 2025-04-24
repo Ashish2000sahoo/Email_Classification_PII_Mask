@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Project Management Dashboard\n\nHello Customer Support, I hope this message finds you well. I would like to bring your attention to the current project management dashboard's user interface and navigation. The dashboard is currently complex and can cause confusion and frustration for users. By making some updates, we can improve the user experience and boost productivity My name is John Doe.. Potential enhancements might include streamlining the layout, adding straightforward labels, and refining the search capability. It would also be beneficial to include customizable views, real-time updates, and intuitive filtering options. These changes would not only elevate the user experience but also enhance efficiency. We would greatly appreciate it if you could consider this feedback and share a timeline for the implementation of these updates. Thank you for your time and assistance You can reach me at janesmith@company.com.. I look forward to your response and to hearing about the expected timeline for the dashboard improvements.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        400,
+        408
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        928,
+        949
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Enhance Project Management Dashboard\n\nHello Customer Support, I hope this message finds you well. I would like to bring your attention to the current project management dashboard's user interface and navigation. The dashboard is currently complex and can cause confusion and frustration for users. By making some updates, we can improve the user experience and boost productivity My name is [full_name].. Potential enhancements might include streamlining the layout, adding straightforward labels, and refining the search capability. It would also be beneficial to include customizable views, real-time updates, and intuitive filtering options. These changes would not only elevate the user experience but also enhance efficiency. We would greatly appreciate it if you could consider this feedback and share a timeline for the implementation of these updates. Thank you for your time and assistance You can reach me at [email].. I look forward to your response and to hearing about the expected timeline for the dashboard improvements.",
+  "category_of_the_email": "Change"
+}

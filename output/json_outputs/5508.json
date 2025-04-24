@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI am contacting you to report a failure in the integration between Monday.com and SAP ERP. The problem might be due to incompatible API versions. I have tried to fix it by restarting the systems, reviewing the logs, and confirming the credentials, but the issue still occurs You can reach me at fatima.farsi@help.com.. I would appreciate your help in addressing this issue promptly. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        306,
+        327
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am contacting you to report a failure in the integration between Monday.com and SAP ERP. The problem might be due to incompatible API versions. I have tried to fix it by restarting the systems, reviewing the logs, and confirming the credentials, but the issue still occurs You can reach me at [email].. I would appreciate your help in addressing this issue promptly. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

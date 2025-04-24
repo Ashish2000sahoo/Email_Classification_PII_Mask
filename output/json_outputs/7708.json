@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issues with Data Analytics Dashboard during Presentation\n\nDuring the presentation, the Data analytics Dashboard did not function correctly You can reach me at elena.ivanova@support.org.. It might be due to an outdated Microsoft Office 2021 version. However, after restarting and updating Adobe After Effects 2021, the issue still persists. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        360,
+        374
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        168,
+        193
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        226,
+        230
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        299,
+        303
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Issues with Data Analytics Dashboard during Presentation\n\nDuring the presentation, the Data analytics Dashboard did not function correctly You can reach me at [email].. It might be due to an outdated Microsoft Office [phone_number] version. However, after restarting and updating Adobe After Effects [phone_number], the issue still persists. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

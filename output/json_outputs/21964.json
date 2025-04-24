@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance requise pour la configuration sans fil\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je me tourne vers vous pour demander de l'aide pour configurer l'impression sans fil sur mon imprimante HP DeskJet 3755 You can reach me at elena.ivanova@support.org.. J'ai rencontr\u00e9 des difficult\u00e9s pour connecter l'imprimante \u00e0 mon r\u00e9seau sans fil et j'appr\u00e9cierais \u00e9norm\u00e9ment vos conseils pour r\u00e9soudre ce probl\u00e8me.\n\nJ'ai essay\u00e9 de suivre les instructions fournies dans le manuel d'utilisation, mais malheureusement, je n'ai pas eu de succ\u00e8s. Comme je d\u00e9pends beaucoup de l'impression \u00e0 des fins personnelles et professionnelles, il est crucial pour moi de faire r\u00e9soudre ce probl\u00e8me dans les meilleurs d\u00e9lais.\n\nPourriez-vous s'il vous pla\u00eet me fournir des \u00e9tapes de d\u00e9pannage ou un support \u00e0 distance pour m'aider dans le processus de configuration ? S'il y a des exigences ou des configurations sp\u00e9cifiques qui doivent \u00eatre effectu\u00e9es, veuillez \u00e9galement me conseiller \u00e0 ce sujet.\n\nMerci de votre attention rapide \u00e0 ce sujet My name is Omar Hassan.. J'attends votre r\u00e9ponse avec impatience et j'esp\u00e8re que l'impression sans fil fonctionnera bient\u00f4t sans probl\u00e8me.\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1084,
+        1095
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        284,
+        309
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        259,
+        263
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assistance requise pour la configuration sans fil\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je me tourne vers vous pour demander de l'aide pour configurer l'impression sans fil sur mon imprimante HP DeskJet [phone_number] You can reach me at [email].. J'ai rencontr\u00e9 des difficult\u00e9s pour connecter l'imprimante \u00e0 mon r\u00e9seau sans fil et j'appr\u00e9cierais \u00e9norm\u00e9ment vos conseils pour r\u00e9soudre ce probl\u00e8me.\n\nJ'ai essay\u00e9 de suivre les instructions fournies dans le manuel d'utilisation, mais malheureusement, je n'ai pas eu de succ\u00e8s. Comme je d\u00e9pends beaucoup de l'impression \u00e0 des fins personnelles et professionnelles, il est crucial pour moi de faire r\u00e9soudre ce probl\u00e8me dans les meilleurs d\u00e9lais.\n\nPourriez-vous s'il vous pla\u00eet me fournir des \u00e9tapes de d\u00e9pannage ou un support \u00e0 distance pour m'aider dans le processus de configuration ? S'il y a des exigences ou des configurations sp\u00e9cifiques qui doivent \u00eatre effectu\u00e9es, veuillez \u00e9galement me conseiller \u00e0 ce sujet.\n\nMerci de votre attention rapide \u00e0 ce sujet My name is [full_name].. J'attends votre r\u00e9ponse avec impatience et j'esp\u00e8re que l'impression sans fil fonctionnera bient\u00f4t sans probl\u00e8me.\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

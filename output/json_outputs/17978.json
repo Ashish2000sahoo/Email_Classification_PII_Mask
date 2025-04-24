@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinisches Datenleck\n\nEin Medizindatenleck wurde bisher festgestellt. Dies k\u00f6nnte auf veraltete Antivirussoftware zur\u00fcckzuf\u00fchren sein You can reach me at maria.gonzalez@shop.es.. Bis zu diesem Zeitpunkt wurden Virenscans durchgef\u00fchrt und Norton wurde aktualisiert. Es ist jedoch notwendig, weiteres Unterst\u00fctzung einzuholen, um das Problem zu l\u00f6sen. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        373,
+        387
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        166,
+        188
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Medizinisches Datenleck\n\nEin Medizindatenleck wurde bisher festgestellt. Dies k\u00f6nnte auf veraltete Antivirussoftware zur\u00fcckzuf\u00fchren sein You can reach me at [email].. Bis zu diesem Zeitpunkt wurden Virenscans durchgef\u00fchrt und Norton wurde aktualisiert. Es ist jedoch notwendig, weiteres Unterst\u00fctzung einzuholen, um das Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

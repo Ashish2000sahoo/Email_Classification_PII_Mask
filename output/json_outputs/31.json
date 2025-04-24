@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr technischen Support\n\nEs gibt pl\u00f6tzliche Verbindungsst\u00f6rungen auf mehreren Plattformen und Ger\u00e4ten. Ich habe versucht, die Ger\u00e4te neu zu starten und die Netzwerkeinstellungen zu \u00fcberpr\u00fcfen, aber das Problem tritt immer noch auf.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        286
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr technischen Support\n\nEs gibt pl\u00f6tzliche Verbindungsst\u00f6rungen auf mehreren Plattformen und Ger\u00e4ten. Ich habe versucht, die Ger\u00e4te neu zu starten und die Netzwerkeinstellungen zu \u00fcberpr\u00fcfen, aber das Problem tritt immer noch auf.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

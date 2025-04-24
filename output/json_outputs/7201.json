@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Airtable Integration\n\nDear Customer Support, I am in need of detailed guidance for integrating the Airtable SaaS platform. Could you provide me with step-by-step instructions or tutorials to successfully integrate it with another tool? I would greatly appreciate any resources or support you can offer to ensure a smooth integration process. Thank you for your time and assistance You can reach me at fatima.farsi@help.com.. I look forward to hearing from you soon. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        506,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        430,
+        451
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Airtable Integration\n\nDear Customer Support, I am in need of detailed guidance for integrating the Airtable SaaS platform. Could you provide me with step-by-step instructions or tutorials to successfully integrate it with another tool? I would greatly appreciate any resources or support you can offer to ensure a smooth integration process. Thank you for your time and assistance You can reach me at [email].. I look forward to hearing from you soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ad Campaign\n\nWerbekampagne hat aufgrund von Fehlern bei den Zieleinstellungen Missallokation Inhalts nicht optimal funktioniert. Ich m\u00f6chte gerne helfen, das Problem zu l\u00f6sen My name is Liu Wei.. Bitte teilen Sie mehr \u00fcber die Kampagne mit, einschlie\u00dflich spezifischer Fehlern bei den Zieleinstellungen und Missallokation Inhalts, die Sie erlebt haben You can reach me at fatima.farsi@help.com.. Das hilft mir, ein genaues L\u00f6sungsangebot zu erstellen. Es k\u00f6nnte n\u00f6tig sein, eine Telefonkonferenz zu vereinbaren, um das Problem zu besprechen, sobald eine geeignete Zeit verf\u00fcgbar ist. Geben Sie bitte geeignete Zeit an, falls eine Telefonkonferenz gew\u00fcnscht wird.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        385,
+        406
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Ad Campaign\n\nWerbekampagne hat aufgrund von Fehlern bei den Zieleinstellungen Missallokation Inhalts nicht optimal funktioniert. Ich m\u00f6chte gerne helfen, das Problem zu l\u00f6sen My name is [full_name].. Bitte teilen Sie mehr \u00fcber die Kampagne mit, einschlie\u00dflich spezifischer Fehlern bei den Zieleinstellungen und Missallokation Inhalts, die Sie erlebt haben You can reach me at [email].. Das hilft mir, ein genaues L\u00f6sungsangebot zu erstellen. Es k\u00f6nnte n\u00f6tig sein, eine Telefonkonferenz zu vereinbaren, um das Problem zu besprechen, sobald eine geeignete Zeit verf\u00fcgbar ist. Geben Sie bitte geeignete Zeit an, falls eine Telefonkonferenz gew\u00fcnscht wird.",
+  "category_of_the_email": "Incident"
+}

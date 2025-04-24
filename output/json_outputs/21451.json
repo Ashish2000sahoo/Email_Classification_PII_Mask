@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia para Error de Consulta\n\nEstimado equipo de soporte al cliente, espero que este mensaje los encuentre bien My name is Carlos Mendoza.. Estoy experimentando un problema al consultar la base de datos PostgreSQL 14.3. Parece que solo est\u00e1 afectando informes menores de usuarios. He intentado varios pasos de soluci\u00f3n de problemas, pero no he podido resolverlo You can reach me at fatima.farsi@help.com.. \u00bfPodr\u00edan proporcionar orientaci\u00f3n o alg\u00fan recurso adicional que pueda ayudar a aliviar este problema? Asegurar que las consultas funcionen correctamente es crucial para mantener la precisi\u00f3n de nuestros informes. Agradezco mucho su pronta asistencia para resolver este asunto. Espero su r\u00e1pida respuesta. Saludos cordiales, <name>, Cuenta <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        393,
+        414
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Asistencia para Error de Consulta\n\nEstimado equipo de soporte al cliente, espero que este mensaje los encuentre bien My name is [full_name].. Estoy experimentando un problema al consultar la base de datos PostgreSQL 14.3. Parece que solo est\u00e1 afectando informes menores de usuarios. He intentado varios pasos de soluci\u00f3n de problemas, pero no he podido resolverlo You can reach me at [email].. \u00bfPodr\u00edan proporcionar orientaci\u00f3n o alg\u00fan recurso adicional que pueda ayudar a aliviar este problema? Asegurar que las consultas funcionen correctamente es crucial para mantener la precisi\u00f3n de nuestros informes. Agradezco mucho su pronta asistencia para resolver este asunto. Espero su r\u00e1pida respuesta. Saludos cordiales, <name>, Cuenta <acc_num>.",
+  "category_of_the_email": "Request"
+}

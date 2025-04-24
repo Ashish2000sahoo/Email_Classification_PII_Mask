@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am currently facing an unanticipated integration failure. It seems the root cause might be due to incompatible driver updates. Despite trying to restart services and inspect logs, the problem continues. I would be grateful for any guidance to fix this My name is Elena Ivanova.. If you need any more details from me, please do not hesitate to ask You can reach me at elena.ivanova@support.org.. I am open to providing any further information or assistance required to resolve this issue. Thank you for your consideration and help. I hope to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        313
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        402,
+        427
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am currently facing an unanticipated integration failure. It seems the root cause might be due to incompatible driver updates. Despite trying to restart services and inspect logs, the problem continues. I would be grateful for any guidance to fix this My name is [full_name].. If you need any more details from me, please do not hesitate to ask You can reach me at [email].. I am open to providing any further information or assistance required to resolve this issue. Thank you for your consideration and help. I hope to hear from you soon.",
+  "category_of_the_email": "Incident"
+}

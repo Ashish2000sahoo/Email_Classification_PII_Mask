@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Verbindungsproblem\n\nSehr geehrtes Kundensupport-Team,\n\nich wende mich an Sie, um mein Anliegen bez\u00fcglich eines Drahtlosverbindungsproblems mit meinem HP DeskJet 3755 Drucker zu kommunizieren. Seit dem k\u00fcrzlichen Firmware-Upgrade habe ich anhaltende Schwierigkeiten, den Drucker mit meinem drahtlosen Netzwerk zu verbinden My name is Omar Hassan.. Vor der Firmware-Installation funktionierte der Drucker einwandfrei und verband sich m\u00fchelos mit dem Wi-Fi-Netzwerk. Leider erkennt er nach dem Update das Netzwerk nicht, sodass die drahtlose Funktion unbrauchbar wird.\n\nIch habe mehrere grundlegende Fehlersuche-Versuche unternommen, einschlie\u00dflich des Neustarts sowohl des Druckers als auch des Routers, der Best\u00e4tigung, dass die Wi-Fi-Netzwerkdaten unver\u00e4ndert bleiben, und der Positionierung des Druckers n\u00e4her am Router, um sicherzustellen, dass die Signalst\u00e4rke kein Problem darstellt \u2013 alles ohne Erfolg. Leider f\u00fchrt der Drucker mechanische Aufgaben ohne drahtlose Funktionalit\u00e4t aus, die f\u00fcr meine Produktivit\u00e4t entscheidend ist.\n\nAngesichts dieser Bem\u00fchungen glaube ich, dass das Problem wahrscheinlich mit dem k\u00fcrzlichen Firmware-Update zusammenh\u00e4ngt und nicht mit Problemen, die auf meiner Seite des Netzwerks liegen. Da meine Versuche keine Ergebnisse geliefert haben, bitte ich freundlich um einen detaillierteren Leitfaden zur Fehlersuche oder Ratschl\u00e4ge, die das Verbindungsproblem, mit dem ich konfrontiert bin, effektiv angehen und l\u00f6sen k\u00f6nnten.\n\nJede zus\u00e4tzliche technische Unterst\u00fctzung w\u00e4re sehr gesch\u00e4tzt, um die volle drahtlose Funktionalit\u00e4t meines Druckers wiederherzustellen. Eine effektive drahtlose Konnektivit\u00e4t ist entscheidend, um einen ununterbrochenen Druckprozess aufrechtzuerhalten. Bitte beraten Sie mich \u00fcber die besten Schritte, um dieses Problem schnell zu beheben.\n\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit zu dieser Situation. Ich erwarte Ihre schnelle und kompetente Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        342,
+        353
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1989,
+        2007
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        170,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Verbindungsproblem\n\nSehr geehrtes Kundensupport-Team,\n\nich wende mich an Sie, um mein Anliegen bez\u00fcglich eines Drahtlosverbindungsproblems mit meinem HP DeskJet [phone_number] Drucker zu kommunizieren. Seit dem k\u00fcrzlichen Firmware-Upgrade habe ich anhaltende Schwierigkeiten, den Drucker mit meinem drahtlosen Netzwerk zu verbinden My name is [full_name].. Vor der Firmware-Installation funktionierte der Drucker einwandfrei und verband sich m\u00fchelos mit dem Wi-Fi-Netzwerk. Leider erkennt er nach dem Update das Netzwerk nicht, sodass die drahtlose Funktion unbrauchbar wird.\n\nIch habe mehrere grundlegende Fehlersuche-Versuche unternommen, einschlie\u00dflich des Neustarts sowohl des Druckers als auch des Routers, der Best\u00e4tigung, dass die Wi-Fi-Netzwerkdaten unver\u00e4ndert bleiben, und der Positionierung des Druckers n\u00e4her am Router, um sicherzustellen, dass die Signalst\u00e4rke kein Problem darstellt \u2013 alles ohne Erfolg. Leider f\u00fchrt der Drucker mechanische Aufgaben ohne drahtlose Funktionalit\u00e4t aus, die f\u00fcr meine Produktivit\u00e4t entscheidend ist.\n\nAngesichts dieser Bem\u00fchungen glaube ich, dass das Problem wahrscheinlich mit dem k\u00fcrzlichen Firmware-Update zusammenh\u00e4ngt und nicht mit Problemen, die auf meiner Seite des Netzwerks liegen. Da meine Versuche keine Ergebnisse geliefert haben, bitte ich freundlich um einen detaillierteren Leitfaden zur Fehlersuche oder Ratschl\u00e4ge, die das Verbindungsproblem, mit dem ich konfrontiert bin, effektiv angehen und l\u00f6sen k\u00f6nnten.\n\nJede zus\u00e4tzliche technische Unterst\u00fctzung w\u00e4re sehr gesch\u00e4tzt, um die volle drahtlose Funktionalit\u00e4t meines Druckers wiederherzustellen. Eine effektive drahtlose Konnektivit\u00e4t ist entscheidend, um einen ununterbrochenen Druckprozess aufrechtzuerhalten. Bitte beraten Sie mich \u00fcber die besten Schritte, um dieses Problem schnell zu beheben.\n\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit zu dieser Situation. Ich erwarte Ihre schnelle und kompetente Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

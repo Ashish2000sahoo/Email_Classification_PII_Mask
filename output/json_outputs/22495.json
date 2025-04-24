@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent: Assistance Needed for MySQL 8.0.30 Data Loss Recovery\n\nHello, we encountered severe data loss in MySQL 8.0.30 My name is Liu Wei.. Immediate technical support is essential to recover the affected data promptly You can reach me at carlosm@gmail.com.. Thank you for your urgent attention.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        251,
+        268
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        45,
+        51
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        120,
+        126
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Assistance Needed for MySQL [phone_number] Data Loss Recovery\n\nHello, we encountered severe data loss in MySQL [phone_number] My name is [full_name].. Immediate technical support is essential to recover the affected data promptly You can reach me at [email].. Thank you for your urgent attention.",
+  "category_of_the_email": "Incident"
+}

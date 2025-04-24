@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verletzung der Sicherheit im Klinikrechnernetz erkannt\n\nDie Sicherheit wurde im Klinikrechnernetz festgestellt, was zu einer m\u00f6glichen Unterbrechung sensibler medizinischer Daten f\u00fchren k\u00f6nnte You can reach me at johndoe@email.com.. Der Problemkreis scheint auf unpatchete Software-Vulnerabilit\u00e4ten zu deuten My name is David Kim.. Wir haben vorl\u00e4ufig Firewalls aktualisiert und durchgef\u00fchrt eine Malware-Suchaktion.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        222,
+        239
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verletzung der Sicherheit im Klinikrechnernetz erkannt\n\nDie Sicherheit wurde im Klinikrechnernetz festgestellt, was zu einer m\u00f6glichen Unterbrechung sensibler medizinischer Daten f\u00fchren k\u00f6nnte You can reach me at [email].. Der Problemkreis scheint auf unpatchete Software-Vulnerabilit\u00e4ten zu deuten My name is [full_name].. Wir haben vorl\u00e4ufig Firewalls aktualisiert und durchgef\u00fchrt eine Malware-Suchaktion.",
+  "category_of_the_email": "Incident"
+}

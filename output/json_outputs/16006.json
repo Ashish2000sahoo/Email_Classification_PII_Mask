@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Informationen zu Datenanalysewerkzeugen in PyCharm\n\nSehr geehrter Kundensupport, ich mache mich an dieser Stelle an den Kontakt mit Ihnen im Hinblick auf die Datenanalysewerkzeuge, die mit PyCharm f\u00fcr die Optimierung von Investitionen in Einklang gebracht werden. Im Rahmen der Nutzung von PyCharm f\u00fcr meine Datenanalysetasks, bin ich sehr daran interessiert, welche Werkzeuge zur Verf\u00fcgung stehen, um mich zu helfen, umfassendere Investitionsentscheidungen zu treffen My name is David Kim.. W\u00fcrden Sie mir bitte eine Liste der in PyCharm integrierten Werkzeuge mit einer kurzen Beschreibung jedes Werkzeugs liefern? Ich w\u00fcrde auch gerne Informationen zu den Vor- und Nachteilen jedes Werkzeugs erhalten, sowie Ressourcen und Tutorials, die mir dabei helfen, mich mit den Werkzeugen vertraut zu machen You can reach me at david.kim@corp.kr.. Mein Ziel ist es, mein Investitionsportfolio zu optimieren und ich glaube, dass die richtigen Datenanalysewerkzeuge mir dabei helfen k\u00f6nnen, dieses Ziel zu erreichen. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung, und ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        489,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        833,
+        850
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Informationen zu Datenanalysewerkzeugen in PyCharm\n\nSehr geehrter Kundensupport, ich mache mich an dieser Stelle an den Kontakt mit Ihnen im Hinblick auf die Datenanalysewerkzeuge, die mit PyCharm f\u00fcr die Optimierung von Investitionen in Einklang gebracht werden. Im Rahmen der Nutzung von PyCharm f\u00fcr meine Datenanalysetasks, bin ich sehr daran interessiert, welche Werkzeuge zur Verf\u00fcgung stehen, um mich zu helfen, umfassendere Investitionsentscheidungen zu treffen My name is [full_name].. W\u00fcrden Sie mir bitte eine Liste der in PyCharm integrierten Werkzeuge mit einer kurzen Beschreibung jedes Werkzeugs liefern? Ich w\u00fcrde auch gerne Informationen zu den Vor- und Nachteilen jedes Werkzeugs erhalten, sowie Ressourcen und Tutorials, die mir dabei helfen, mich mit den Werkzeugen vertraut zu machen You can reach me at [email].. Mein Ziel ist es, mein Investitionsportfolio zu optimieren und ich glaube, dass die richtigen Datenanalysewerkzeuge mir dabei helfen k\u00f6nnen, dieses Ziel zu erreichen. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung, und ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

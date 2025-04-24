@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung bei Datenanalyse\n\nGeehrte Kundenservice-Abteilung, ich kontaktiere Sie, um Fragen zur Nutzung von Datenanalysewerkzeugen und der Optimierung von Investitionsstrategien zu kl\u00e4ren. K\u00f6nnten Sie mir Auskunft geben, ob diese Werkzeuge bei der Fertigung besseren Entscheidungshilfen f\u00fcr Investitionen helfen? Insbesondere interessiert mich die Funktionalit\u00e4t in Bezug auf Visualisierung, um Trends und Muster im Markt zu identifizieren. Dar\u00fcber hinaus w\u00fcrde ich gerne mehr \u00fcber Vorhersageanalyse-Funktionen erfahren, insbesondere in Bezug auf deren Nutzung zur Prognose zuk\u00fcnftiger B\u00f6rsenbewegungen You can reach me at omar.hassan@secure.net.. Ich freue mich, wenn Sie mir Informationen zu diesem Thema bereitstellen k\u00f6nnten, einschlie\u00dflich Fallstudien und Whitepapers, die die Effektivit\u00e4t der Werkzeuge verdeutlichen. Vielen Dank. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        873,
+        880
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        648,
+        670
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung bei Datenanalyse\n\nGeehrte Kundenservice-Abteilung, ich kontaktiere Sie, um Fragen zur Nutzung von Datenanalysewerkzeugen und der Optimierung von Investitionsstrategien zu kl\u00e4ren. K\u00f6nnten Sie mir Auskunft geben, ob diese Werkzeuge bei der Fertigung besseren Entscheidungshilfen f\u00fcr Investitionen helfen? Insbesondere interessiert mich die Funktionalit\u00e4t in Bezug auf Visualisierung, um Trends und Muster im Markt zu identifizieren. Dar\u00fcber hinaus w\u00fcrde ich gerne mehr \u00fcber Vorhersageanalyse-Funktionen erfahren, insbesondere in Bezug auf deren Nutzung zur Prognose zuk\u00fcnftiger B\u00f6rsenbewegungen You can reach me at [email].. Ich freue mich, wenn Sie mir Informationen zu diesem Thema bereitstellen k\u00f6nnten, einschlie\u00dflich Fallstudien und Whitepapers, die die Effektivit\u00e4t der Werkzeuge verdeutlichen. Vielen Dank. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

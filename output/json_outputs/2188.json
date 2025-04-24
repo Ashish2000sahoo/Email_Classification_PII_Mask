@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Potential Data Breach\n\nAn incident involving a potential data breach of medical records within the hospital's infrastructure has occurred. We have tried to enhance security protocols and update affected applications but require assistance to ensure data protection.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        297,
+        313
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Potential Data Breach\n\nAn incident involving a potential data breach of medical records within the hospital's infrastructure has occurred. We have tried to enhance security protocols and update affected applications but require assistance to ensure data protection.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

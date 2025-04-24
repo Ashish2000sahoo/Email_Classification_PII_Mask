@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problema con la funci\u00f3n inal\u00e1mbrica de Epson EcoTank ET-4760\n\nHola Equipo de Soporte,\n\nEstoy experimentando un problema con mi impresora Epson EcoTank ET-4760. La funci\u00f3n de impresi\u00f3n inal\u00e1mbrica no est\u00e1 funcionando You can reach me at david.kim@corp.kr.. He intentado todos los m\u00e9todos de soluci\u00f3n de problemas recomendados por el manual del usuario, pero sin \u00e9xito My name is Sophia Rossi.. \u00bfPodr\u00edan ofrecerme alguna orientaci\u00f3n para resolver esto? Su asistencia ser\u00eda sinceramente apreciada.\n\nGracias.\n\nAtentamente,\n\n<name>\n\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        387,
+        399
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        245,
+        262
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        65,
+        69
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        163,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Problema con la funci\u00f3n inal\u00e1mbrica de Epson EcoTank ET-[phone_number]\n\nHola Equipo de Soporte,\n\nEstoy experimentando un problema con mi impresora Epson EcoTank ET-[phone_number]. La funci\u00f3n de impresi\u00f3n inal\u00e1mbrica no est\u00e1 funcionando You can reach me at [email].. He intentado todos los m\u00e9todos de soluci\u00f3n de problemas recomendados por el manual del usuario, pero sin \u00e9xito My name is [full_name].. \u00bfPodr\u00edan ofrecerme alguna orientaci\u00f3n para resolver esto? Su asistencia ser\u00eda sinceramente apreciada.\n\nGracias.\n\nAtentamente,\n\n<name>\n\n<tel_num>",
+  "category_of_the_email": "Request"
+}

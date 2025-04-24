@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Guidance on Data Analytics Tools Integration\n\nI am reaching out to seek assistance in integrating data analytics tools for enhancing investment optimization My name is Jane Smith.. The aim is to improve process efficiency and decision-making by streamlining operations across various platforms, with a focus on real-time data analysis for better-informed investment decisions. This streamlined approach is essential for maintaining a competitive edge and increasing returns You can reach me at liuwei@business.cn.. I would greatly appreciate detailed guidance on how to proceed with this integration and recommendations for appropriate tools or services.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        199
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        516,
+        534
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Request for Guidance on Data Analytics Tools Integration\n\nI am reaching out to seek assistance in integrating data analytics tools for enhancing investment optimization My name is [full_name].. The aim is to improve process efficiency and decision-making by streamlining operations across various platforms, with a focus on real-time data analysis for better-informed investment decisions. This streamlined approach is essential for maintaining a competitive edge and increasing returns You can reach me at [email].. I would greatly appreciate detailed guidance on how to proceed with this integration and recommendations for appropriate tools or services.",
+  "category_of_the_email": "Change"
+}

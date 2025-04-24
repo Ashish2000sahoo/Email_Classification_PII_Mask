@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry into Available Data Analytics Integrations for Blackboard Learn\n\nI am writing to seek information on the integrations available between Blackboard Learn and various data analytics tools. Could you kindly share a list of compatible tools along with brief descriptions of each? My interest lies in understanding how these integrations could improve our institution's use of Blackboard Learn My name is Jane Smith.. Specifically, I am keen to know if there are any integrations that facilitate the analysis of student engagement and performance data You can reach me at omar.hassan@secure.net.. Are there any tools that offer real-time analytics or predictive insights? I would greatly appreciate any guidance or resources you could offer related to this topic. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        417,
+        427
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        585,
+        607
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Inquiry into Available Data Analytics Integrations for Blackboard Learn\n\nI am writing to seek information on the integrations available between Blackboard Learn and various data analytics tools. Could you kindly share a list of compatible tools along with brief descriptions of each? My interest lies in understanding how these integrations could improve our institution's use of Blackboard Learn My name is [full_name].. Specifically, I am keen to know if there are any integrations that facilitate the analysis of student engagement and performance data You can reach me at [email].. Are there any tools that offer real-time analytics or predictive insights? I would greatly appreciate any guidance or resources you could offer related to this topic. Thank you for your time and assistance.",
+  "category_of_the_email": "Request"
+}

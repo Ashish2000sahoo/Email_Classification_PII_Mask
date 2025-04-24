@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Marketing Campaign Tools\n\nWe are facing unexpected delays and inconsistencies in data reporting for our marketing campaigns You can reach me at janesmith@company.com.. These issues seem to be linked to recent updates in the key software tools. Despite our attempts to troubleshoot by restarting systems and checking configurations, the problem persists. We are concerned that integration issues might be affecting the accuracy of our campaign metrics and overall performance My name is Fatima Al-Farsi.. Could you please assist us in resolving this matter as soon as possible? We would greatly appreciate any guidance on how to properly configure the tools.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        509,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        167,
+        188
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Marketing Campaign Tools\n\nWe are facing unexpected delays and inconsistencies in data reporting for our marketing campaigns You can reach me at [email].. These issues seem to be linked to recent updates in the key software tools. Despite our attempts to troubleshoot by restarting systems and checking configurations, the problem persists. We are concerned that integration issues might be affecting the accuracy of our campaign metrics and overall performance My name is [full_name]-Farsi.. Could you please assist us in resolving this matter as soon as possible? We would greatly appreciate any guidance on how to properly configure the tools.",
+  "category_of_the_email": "Incident"
+}

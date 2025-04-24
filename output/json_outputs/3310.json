@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nOn October 15, the agency encountered issues with designing automation workflows due to the inaccessibility of Figma and Zapier My name is Elena Ivanova.. Despite restarting devices, verifying internet connections, and reinstalling affected applications, the problem continues You can reach me at maria.gonzalez@shop.es.. This may be due to recent software updates or misconfigurations on an Apple MacBook Air. Assistance is required to resolve the matter and restore the workflows.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        306,
+        328
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nOn October 15, the agency encountered issues with designing automation workflows due to the inaccessibility of Figma and Zapier My name is [full_name].. Despite restarting devices, verifying internet connections, and reinstalling affected applications, the problem continues You can reach me at [email].. This may be due to recent software updates or misconfigurations on an Apple MacBook Air. Assistance is required to resolve the matter and restore the workflows.",
+  "category_of_the_email": "Incident"
+}

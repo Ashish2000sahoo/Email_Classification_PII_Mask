@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unpr\u00e4zise Anlage-Projektionen heute festgestellt\n\nIch schreibe Ihnen, um Probleme mit meiner Portfolio-Optimierung zu melden. Die Anlage-Projektionen sind ungenau und m\u00f6glicherweise auf fehlerhafte Dateneingaben zur\u00fcckzuf\u00fchren. Ich habe meine Datenquellen \u00fcberpr\u00fcft und meine Modelle neu berechnet, aber das Problem bleibt bestehen. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und eine L\u00f6sung anbieten k\u00f6nnten You can reach me at omar.hassan@secure.net.. Bitte teilen Sie mich mit, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu kl\u00e4ren. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        601,
+        610
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        465,
+        487
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Unpr\u00e4zise Anlage-Projektionen heute festgestellt\n\nIch schreibe Ihnen, um Probleme mit meiner Portfolio-Optimierung zu melden. Die Anlage-Projektionen sind ungenau und m\u00f6glicherweise auf fehlerhafte Dateneingaben zur\u00fcckzuf\u00fchren. Ich habe meine Datenquellen \u00fcberpr\u00fcft und meine Modelle neu berechnet, aber das Problem bleibt bestehen. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und eine L\u00f6sung anbieten k\u00f6nnten You can reach me at [email].. Bitte teilen Sie mich mit, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu kl\u00e4ren. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

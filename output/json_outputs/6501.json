@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Data Discrepancy\n\nI have noticed some unexpected data discrepancies which could possibly stem from inadequate synchronization. Despite performing preliminary troubleshooting, the issue continues to persist You can reach me at elena.ivanova@support.org.. I require additional support to address this situation. Please assist me in pinpointing the underlying issue and offer a resolution to maintain data accuracy. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        453,
+        467
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        255,
+        280
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Data Discrepancy\n\nI have noticed some unexpected data discrepancies which could possibly stem from inadequate synchronization. Despite performing preliminary troubleshooting, the issue continues to persist You can reach me at [email].. I require additional support to address this situation. Please assist me in pinpointing the underlying issue and offer a resolution to maintain data accuracy. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

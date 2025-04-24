@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent: Excel Crashing Issue\n\nDear Customer Support Team, I am writing to bring to your immediate attention a recurring issue with Microsoft Office 365 Excel. Whenever I attempt to open large spreadsheets, the application crashes unexpectedly. This ongoing issue is impacting our team's productivity and causing significant disruptions to our daily workflow. We have encountered this problem across various computers in our office, which runs on <name> IT Services. Given the critical role Excel plays in our operations, we require an urgent fix My name is Omar Hassan.. Reinstalling the application and performing standard troubleshooting procedures, such as clearing caches and checking for updates, have not resolved the problem. We are extremely reliant on Excel for data management and reporting, thus any downtime hinders our ability to meet project deadlines and client expectations. It is imperative that a resolution is provided at the earliest possible convenience. I can provide error logs and further system details if required. Please prioritize this issue and advise us on the next steps to take You can reach me at maria.gonzalez@shop.es.. For any immediate queries, I can be reached at <tel_num>. Thank you for your prompt attention to this matter. Best regards, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        566,
+        577
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1139,
+        1161
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        157,
+        160
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Excel Crashing Issue\n\nDear Customer Support Team, I am writing to bring to your immediate attention a recurring issue with Microsoft Office [cvv_no] Excel. Whenever I attempt to open large spreadsheets, the application crashes unexpectedly. This ongoing issue is impacting our team's productivity and causing significant disruptions to our daily workflow. We have encountered this problem across various computers in our office, which runs on <name> IT Services. Given the critical role Excel plays in our operations, we require an urgent fix My name is [full_name].. Reinstalling the application and performing standard troubleshooting procedures, such as clearing caches and checking for updates, have not resolved the problem. We are extremely reliant on Excel for data management and reporting, thus any downtime hinders our ability to meet project deadlines and client expectations. It is imperative that a resolution is provided at the earliest possible convenience. I can provide error logs and further system details if required. Please prioritize this issue and advise us on the next steps to take You can reach me at [email].. For any immediate queries, I can be reached at <tel_num>. Thank you for your prompt attention to this matter. Best regards, <name>",
+  "category_of_the_email": "Incident"
+}

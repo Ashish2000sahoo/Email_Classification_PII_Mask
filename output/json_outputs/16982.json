@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with project management SaaS platform\n\nI am facing connectivity issues with the project management SaaS platform, particularly when integrating various tools My name is John Doe.. Despite restarting the application and devices, the issue continues. It could be due to incompatibility or network-related problems. I need assistance to resolve this issue and ensure seamless integration. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        194
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        426,
+        443
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with project management SaaS platform\n\nI am facing connectivity issues with the project management SaaS platform, particularly when integrating various tools My name is [full_name].. Despite restarting the application and devices, the issue continues. It could be due to incompatibility or network-related problems. I need assistance to resolve this issue and ensure seamless integration. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

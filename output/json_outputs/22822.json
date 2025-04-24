@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Surface Pro 7 verbinden\n\nSehr geehrter Kundenservice,\n\nIch habe Schwierigkeiten, meinen Microsoft Surface Pro 7 mit externen Displays f\u00fcr Pr\u00e4sentationen zu verbinden You can reach me at elena.ivanova@support.org.. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der Konfiguration der Einstellungen f\u00fcr eine optimale Konnektivit\u00e4t sehr sch\u00e4tzen. Mein Ziel ist es, es w\u00e4hrend der Pr\u00e4sentationen effizient zu nutzen My name is Fatima Al-Farsi.. Vielen Dank f\u00fcr Ihre Hilfe.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        418,
+        427
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        195,
+        220
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Surface Pro 7 verbinden\n\nSehr geehrter Kundenservice,\n\nIch habe Schwierigkeiten, meinen Microsoft Surface Pro 7 mit externen Displays f\u00fcr Pr\u00e4sentationen zu verbinden You can reach me at [email].. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der Konfiguration der Einstellungen f\u00fcr eine optimale Konnektivit\u00e4t sehr sch\u00e4tzen. Mein Ziel ist es, es w\u00e4hrend der Pr\u00e4sentationen effizient zu nutzen My name is [full_name]-Farsi.. Vielen Dank f\u00fcr Ihre Hilfe.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Request"
+}

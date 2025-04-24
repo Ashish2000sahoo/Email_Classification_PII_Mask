@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Crash Incident Report\n\nRespected Customer Support, I am contactng to report a crash that happened during my data analysis. The system experienced a freeze, leading to data loss. Upon examination, it was found that the problem stems from an incompatibility with the recent GCC update You can reach me at liuwei@business.cn.. Despite restarting the system, rolling back the update, and debugging, the issue remains unresolved. I would be most grateful for your help in addressing this. Please advise if there are any further actions I need to take or if you need additional information from me. I am ready to provide any extra details or collaborate in any way to resolve this. Thank you for your prompt attention to this matter My name is Liu Wei.. I anticipate your swift response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        747,
+        754
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        312,
+        330
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Crash Incident Report\n\nRespected Customer Support, I am contactng to report a crash that happened during my data analysis. The system experienced a freeze, leading to data loss. Upon examination, it was found that the problem stems from an incompatibility with the recent GCC update You can reach me at [email].. Despite restarting the system, rolling back the update, and debugging, the issue remains unresolved. I would be most grateful for your help in addressing this. Please advise if there are any further actions I need to take or if you need additional information from me. I am ready to provide any extra details or collaborate in any way to resolve this. Thank you for your prompt attention to this matter My name is [full_name].. I anticipate your swift response.",
+  "category_of_the_email": "Incident"
+}

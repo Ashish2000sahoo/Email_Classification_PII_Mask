@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Netzwerkprobleme mit Cisco Router\n\nSehr geehrter Kundenservice, \n\nich wende mich an Sie, um h\u00e4ufige Netzwerkunterbrechungen zu melden, die wir in unserem System erleben, m\u00f6glicherweise aufgrund entweder falsch konfigurierter Einstellungen oder eines Hardwarefehlers in unserem Cisco Router ISR4331. Wir sind stark auf stabile und kontinuierliche Konnektivit\u00e4t angewiesen, um unsere Abl\u00e4ufe effizient durchf\u00fchren zu k\u00f6nnen, und diese Unterbrechungen beeintr\u00e4chtigen erheblich unsere Produktivit\u00e4t. \n\nDiese Probleme begannen vor etwa zwei Wochen und haben sich zunehmend verschlechtert, treten in unvorhersehbaren Abst\u00e4nden auf und verursachen erhebliche St\u00f6rungen in unserem Arbeitsablauf. Wir vermuten, dass es sich entweder um eine Einstellung im Router handelt, die aktualisiert werden muss, oder um einen m\u00f6glichen Hardwaredefekt, der repariert oder ersetzt werden muss. \n\nDas betreffende Ger\u00e4t befindet sich in unserem Hauptb\u00fcro und dient als prim\u00e4rer Router in unserer Netzwerkinfrastruktur. Unsere IT-Abteilung hat bereits alle anderen Ger\u00e4te und Netzwerkeinstellungen als betriebsbereit und mit optimalen Leistungsstandards \u00fcbereinstimmend \u00fcberpr\u00fcft, was darauf hindeutet, dass das Problem auf dieses spezielle Cisco-Modell beschr\u00e4nkt ist. \n\nJede Anleitung oder Unterst\u00fctzung, die Sie uns bei der L\u00f6sung dieser Angelegenheit bieten k\u00f6nnen, w\u00e4re sehr willkommen. Falls erforderlich, lassen Sie uns bitte die fr\u00fchestm\u00f6gliche Gelegenheit wissen, um eine Servicebewertung zu planen. Wir k\u00f6nnen Untersuchungen au\u00dferhalb der regul\u00e4ren Gesch\u00e4ftszeiten durchf\u00fchren, um die L\u00f6sung zu beschleunigen. \n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit f\u00fcr dieses Problem. Sie k\u00f6nnen mich jederzeit unter <tel_num> erreichen oder auf diese E-Mail antworten, um weitere Gespr\u00e4che zu f\u00fchren My name is Fatima Al-Farsi.. Ich freue mich auf Ihre Unterst\u00fctzung, um diese Unannehmlichkeit zu beheben. \n\nMit freundlichen Gr\u00fc\u00dfen, \n\n<name>\n<acc_num> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1800,
+        1809
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1963,
+        1980
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        302,
+        306
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Netzwerkprobleme mit Cisco Router\n\nSehr geehrter Kundenservice, \n\nich wende mich an Sie, um h\u00e4ufige Netzwerkunterbrechungen zu melden, die wir in unserem System erleben, m\u00f6glicherweise aufgrund entweder falsch konfigurierter Einstellungen oder eines Hardwarefehlers in unserem Cisco Router ISR[phone_number]. Wir sind stark auf stabile und kontinuierliche Konnektivit\u00e4t angewiesen, um unsere Abl\u00e4ufe effizient durchf\u00fchren zu k\u00f6nnen, und diese Unterbrechungen beeintr\u00e4chtigen erheblich unsere Produktivit\u00e4t. \n\nDiese Probleme begannen vor etwa zwei Wochen und haben sich zunehmend verschlechtert, treten in unvorhersehbaren Abst\u00e4nden auf und verursachen erhebliche St\u00f6rungen in unserem Arbeitsablauf. Wir vermuten, dass es sich entweder um eine Einstellung im Router handelt, die aktualisiert werden muss, oder um einen m\u00f6glichen Hardwaredefekt, der repariert oder ersetzt werden muss. \n\nDas betreffende Ger\u00e4t befindet sich in unserem Hauptb\u00fcro und dient als prim\u00e4rer Router in unserer Netzwerkinfrastruktur. Unsere IT-Abteilung hat bereits alle anderen Ger\u00e4te und Netzwerkeinstellungen als betriebsbereit und mit optimalen Leistungsstandards \u00fcbereinstimmend \u00fcberpr\u00fcft, was darauf hindeutet, dass das Problem auf dieses spezielle Cisco-Modell beschr\u00e4nkt ist. \n\nJede Anleitung oder Unterst\u00fctzung, die Sie uns bei der L\u00f6sung dieser Angelegenheit bieten k\u00f6nnen, w\u00e4re sehr willkommen. Falls erforderlich, lassen Sie uns bitte die fr\u00fchestm\u00f6gliche Gelegenheit wissen, um eine Servicebewertung zu planen. Wir k\u00f6nnen Untersuchungen au\u00dferhalb der regul\u00e4ren Gesch\u00e4ftszeiten durchf\u00fchren, um die L\u00f6sung zu beschleunigen. \n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit f\u00fcr dieses Problem. Sie k\u00f6nnen mich jederzeit unter <tel_num> erreichen oder auf diese E-Mail antworten, um weitere Gespr\u00e4che zu f\u00fchren My name is [full_name]-Farsi.. Ich freue mich auf Ihre Unterst\u00fctzung, um diese Unannehmlichkeit zu beheben. \n\nMit freundlichen Gr\u00fc\u00dfen, \n\n<name>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

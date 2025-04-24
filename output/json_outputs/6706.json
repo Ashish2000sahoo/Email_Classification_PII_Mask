@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Subscription Payment Handling\n\nLately, the subscription payment has failed, likely because of outdated billing details. Despite attempts to update the payment information, errors persist, obstructing access to premium features.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        288
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Subscription Payment Handling\n\nLately, the subscription payment has failed, likely because of outdated billing details. Despite attempts to update the payment information, errors persist, obstructing access to premium features.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

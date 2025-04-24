@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Database Problems\n\nFacing technical difficulties with analytics tools due to integration errors in Microsoft SQL Server and PostgreSQL, which is impacting the performance of digital marketing campaigns.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        261
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support for Database Problems\n\nFacing technical difficulties with analytics tools due to integration errors in Microsoft SQL Server and PostgreSQL, which is impacting the performance of digital marketing campaigns.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

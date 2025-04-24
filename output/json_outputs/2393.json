@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with MacBook Air During Presentation\n\nDuring a presentation, my MacBook Air's monitor went black You can reach me at liuwei@business.cn.. It's possible that the issue is due to a overloaded RAID-Controller. Restarting the device and checking connections did not resolve the problem My name is David Kim.. I would appreciate your help in fixing this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        134,
+        152
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with MacBook Air During Presentation\n\nDuring a presentation, my MacBook Air's monitor went black You can reach me at [email].. It's possible that the issue is due to a overloaded RAID-Controller. Restarting the device and checking connections did not resolve the problem My name is [full_name].. I would appreciate your help in fixing this issue.",
+  "category_of_the_email": "Incident"
+}

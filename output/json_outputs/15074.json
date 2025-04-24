@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, inquiring about enhancing our digital marketing strategies to boost brand growth and customer engagement. Current strategies have shown success, but we believe a tailored approach could further increase our online presence and better engage our target audience You can reach me at sophia.rossi@service.it.. Specifically, we would like to explore new social media campaigns, email marketing initiatives, and search engine optimization techniques. Hoping we can work together to create effective digital marketing solutions. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        568,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        315,
+        338
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, inquiring about enhancing our digital marketing strategies to boost brand growth and customer engagement. Current strategies have shown success, but we believe a tailored approach could further increase our online presence and better engage our target audience You can reach me at [email].. Specifically, we would like to explore new social media campaigns, email marketing initiatives, and search engine optimization techniques. Hoping we can work together to create effective digital marketing solutions. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

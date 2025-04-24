@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request to Update Payment Preferences for Marketing\n\nDear customer support, I am writing to request an update to my billing information in relation to payment preferences for software and hardware products used in marketing strategies My name is Sophia Rossi.. I would appreciate your assistance in making these changes. Specifically, I would like to update my credit card information and change my billing address. Additionally, I would like to set up automatic payments for my subscription services You can reach me at carlosm@gmail.com.. Please let me know the steps I need to take to complete this process. I appreciate your help and look forward to it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        255,
+        267
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        529,
+        546
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request to Update Payment Preferences for Marketing\n\nDear customer support, I am writing to request an update to my billing information in relation to payment preferences for software and hardware products used in marketing strategies My name is [full_name].. I would appreciate your assistance in making these changes. Specifically, I would like to update my credit card information and change my billing address. Additionally, I would like to set up automatic payments for my subscription services You can reach me at [email].. Please let me know the steps I need to take to complete this process. I appreciate your help and look forward to it.",
+  "category_of_the_email": "Change"
+}

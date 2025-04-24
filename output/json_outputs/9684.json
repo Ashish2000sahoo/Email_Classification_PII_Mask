@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Das Data Analytics Dashboard funktioniert nicht richtig\n\nDer Crash des Dashboards ist auf Mangel an Node.js-Ressourcen zur\u00fcckzuf\u00fchren.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        182
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Das Data Analytics Dashboard funktioniert nicht richtig\n\nDer Crash des Dashboards ist auf Mangel an Node.js-Ressourcen zur\u00fcckzuf\u00fchren.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

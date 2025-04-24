@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Software Crash\n\nCustomer Support, <br>Our data analytics software has crashed our critical investment optimization analysis. It might have occurred due to a compatibility issue with Apache Hadoop. We have attempted to restart the software and check for updates, but the problem still persists You can reach me at sophia.rossi@service.it.. <br>The software was working fine until recently, after updating to the latest version of Apache Hadoop. <br>We would greatly appreciate it if you could provide a solution to this issue as soon as possible My name is John Doe.. <br>Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        586,
+        594
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        343,
+        366
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Software Crash\n\nCustomer Support, <br>Our data analytics software has crashed our critical investment optimization analysis. It might have occurred due to a compatibility issue with Apache Hadoop. We have attempted to restart the software and check for updates, but the problem still persists You can reach me at [email].. <br>The software was working fine until recently, after updating to the latest version of Apache Hadoop. <br>We would greatly appreciate it if you could provide a solution to this issue as soon as possible My name is [full_name].. <br>Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: SAP\n\nRequest for SAP ERP specifications integration details. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        91,
+        106
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: SAP\n\nRequest for SAP ERP specifications integration details. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

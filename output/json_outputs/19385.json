@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: h\u00e4ufige Verbindungsabbr\u00fcche bei Software-System in Spitzenzeiten\n\nBenutzer beklagen sich \u00fcber Verbindungsabbr\u00fcche w\u00e4hrend Spitzenzeiten. Obwohl optimierte Datenbankabfragen und eine gesteigerte Serverkapazit\u00e4t durchgef\u00fchrt wurden, persistieren die Probleme weiterhin.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        299,
+        314
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: h\u00e4ufige Verbindungsabbr\u00fcche bei Software-System in Spitzenzeiten\n\nBenutzer beklagen sich \u00fcber Verbindungsabbr\u00fcche w\u00e4hrend Spitzenzeiten. Obwohl optimierte Datenbankabfragen und eine gesteigerte Serverkapazit\u00e4t durchgef\u00fchrt wurden, persistieren die Probleme weiterhin.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

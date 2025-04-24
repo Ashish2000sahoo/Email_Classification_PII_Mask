@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Strategien f\u00fcr Markenentwicklung und Wachstum\n\nSehr geehrte Kundensupport, ich m\u00f6chte um Informationen zu digitale Strategien f\u00fcr die Markenentwicklung und Wachstum bitten. K\u00f6nnten Sie mir bei diesem Thema helfen? Ich w\u00fcrde mich freuen, wenn Sie mir Hinweise oder Empfehlungen geben k\u00f6nnten My name is Jane Smith.. Danke f\u00fcr Ihr Engagement. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        380,
+        402
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Digitale Strategien f\u00fcr Markenentwicklung und Wachstum\n\nSehr geehrte Kundensupport, ich m\u00f6chte um Informationen zu digitale Strategien f\u00fcr die Markenentwicklung und Wachstum bitten. K\u00f6nnten Sie mir bei diesem Thema helfen? Ich w\u00fcrde mich freuen, wenn Sie mir Hinweise oder Empfehlungen geben k\u00f6nnten My name is [full_name].. Danke f\u00fcr Ihr Engagement. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

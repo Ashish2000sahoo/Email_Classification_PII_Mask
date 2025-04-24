@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Sync\n\nI am encountering difficulties with my projects failing to sync across different tools. It is possible that the issue stems from a problem with the integration between FL Studio and Docker. Despite trying to restart the services and reviewing the configuration files, the problem continues My name is Sophia Rossi.. I would greatly appreciate any assistance you can offer to resolve this. Could you please ask for any further details that might be necessary to diagnose and fix the issue? You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        349
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        544,
+        569
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Sync\n\nI am encountering difficulties with my projects failing to sync across different tools. It is possible that the issue stems from a problem with the integration between FL Studio and Docker. Despite trying to restart the services and reviewing the configuration files, the problem continues My name is [full_name].. I would greatly appreciate any assistance you can offer to resolve this. Could you please ask for any further details that might be necessary to diagnose and fix the issue? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

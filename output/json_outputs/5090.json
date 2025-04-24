@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Botschaft \u00fcber Datenblockierung Ereignis - Heute\n\nEs kam zu einer Datenblockierung, die Patientendaten infolge schwacher Passwortsicherheitsrichtlinien und veralteter Softwareversionen gef\u00e4hrdet hat. Wir haben die Server neu eingeschaltet und die Firewallregeln aktualisiert, um weitere Datenblockierungen zu vermeiden You can reach me at johndoe@email.com.. Jedoch ben\u00f6tigen wir Unterst\u00fctzung bei der Garantie der Sicherheit unseres Systems und der Pr\u00e4vention solcher Ereignisse in der Zukunft. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        516,
+        527
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        348,
+        365
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Botschaft \u00fcber Datenblockierung Ereignis - Heute\n\nEs kam zu einer Datenblockierung, die Patientendaten infolge schwacher Passwortsicherheitsrichtlinien und veralteter Softwareversionen gef\u00e4hrdet hat. Wir haben die Server neu eingeschaltet und die Firewallregeln aktualisiert, um weitere Datenblockierungen zu vermeiden You can reach me at [email].. Jedoch ben\u00f6tigen wir Unterst\u00fctzung bei der Garantie der Sicherheit unseres Systems und der Pr\u00e4vention solcher Ereignisse in der Zukunft. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

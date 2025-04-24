@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrter Online-Shop-Kunde, ich m\u00f6chte ein defektes Ladeger\u00e4t melden, das mit meinem Lenovo IdeaPad 5 geliefert wurde My name is Omar Hassan.. Nach einer Woche Nutzung hat das Ladeger\u00e4t nicht mehr funktioniert You can reach me at johndoe@email.com.. Bitte unterst\u00fctzen Sie mich bei der Bereitstellung eines Ersatzger\u00e4ts. Kontonummer: <acc_num>. Freundliche Gr\u00fc\u00dfe, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        145,
+        156
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        246,
+        263
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrter Online-Shop-Kunde, ich m\u00f6chte ein defektes Ladeger\u00e4t melden, das mit meinem Lenovo IdeaPad 5 geliefert wurde My name is [full_name].. Nach einer Woche Nutzung hat das Ladeger\u00e4t nicht mehr funktioniert You can reach me at [email].. Bitte unterst\u00fctzen Sie mich bei der Bereitstellung eines Ersatzger\u00e4ts. Kontonummer: <acc_num>. Freundliche Gr\u00fc\u00dfe, <name>.",
+  "category_of_the_email": "Incident"
+}

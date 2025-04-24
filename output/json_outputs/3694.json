@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Billing System\n\nBilling system is giving incorrect payment confirmations for service subscriptions. Possible integration issues with data analysis platforms My name is Carlos Mendoza.. System logs have been reviewed and data synchronization attempts made, but the issue persists. Looking forward to your assistance in resolving this problem. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        203
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        380,
+        398
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issues with Billing System\n\nBilling system is giving incorrect payment confirmations for service subscriptions. Possible integration issues with data analysis platforms My name is [full_name].. System logs have been reviewed and data synchronization attempts made, but the issue persists. Looking forward to your assistance in resolving this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

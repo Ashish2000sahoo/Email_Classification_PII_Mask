@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Reported Problem: Malfunction with Acer Aspire TC-895\n\nDear Support Team,\n\nI am encountering problems with my Acer Aspire TC-895. The device is repeatedly underperforming and experiences regular crashes My name is Omar Hassan.. Could you please provide assistance in addressing these concerns?\n\nThank you,\n<name>\n<acc_num>\n<tel_num> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        234
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        362,
+        383
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        59,
+        62
+      ],
+      "classification": "cvv_no",
+      "entity": "895"
+    },
+    {
+      "position": [
+        134,
+        137
+      ],
+      "classification": "cvv_no",
+      "entity": "895"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem: Malfunction with Acer Aspire TC-[cvv_no]\n\nDear Support Team,\n\nI am encountering problems with my Acer Aspire TC-[cvv_no]. The device is repeatedly underperforming and experiences regular crashes My name is [full_name].. Could you please provide assistance in addressing these concerns?\n\nThank you,\n<name>\n<acc_num>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

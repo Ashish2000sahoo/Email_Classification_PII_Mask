@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding the Security of Medical Information\n\nTo Customer Support: I am reporting an incident of unauthorized access to medical data within our hospital's systems. A preliminary audit indicates that a security vulnerability in third-party applications may be the cause My name is Omar Hassan.. Despite updating the software, the issue continues to persist You can reach me at liuwei@business.cn.. We kindly request your assistance in investigating and resolving this matter. Please let us know the next steps to take. This issue is of utmost importance as it pertains to the protection of sensitive medical information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        394,
+        412
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding the Security of Medical Information\n\nTo Customer Support: I am reporting an incident of unauthorized access to medical data within our hospital's systems. A preliminary audit indicates that a security vulnerability in third-party applications may be the cause My name is [full_name].. Despite updating the software, the issue continues to persist You can reach me at [email].. We kindly request your assistance in investigating and resolving this matter. Please let us know the next steps to take. This issue is of utmost importance as it pertains to the protection of sensitive medical information.",
+  "category_of_the_email": "Incident"
+}

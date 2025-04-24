@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Expanding a Digital Brand\n\nIs there information on digital strategies that drive brand growth? Thank you.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support for Expanding a Digital Brand\n\nIs there information on digital strategies that drive brand growth? Thank you.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

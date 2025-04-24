@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Failed Investment Predictions\n\nInvestment predictions failed because of a malfunction in the data analytics tool.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        145,
+        161
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Failed Investment Predictions\n\nInvestment predictions failed because of a malfunction in the data analytics tool.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nGreetings <name>,\n\nWe have acknowledged your notification concerning the problem you faced while upgrading to Windows 11 Pro. Our technical team is presently examining this issue My name is Maria Gonzalez.. We will keep you informed as soon as we discover a solution.\n\nWe appreciate your understanding,\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        215
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        338,
+        361
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nGreetings <name>,\n\nWe have acknowledged your notification concerning the problem you faced while upgrading to Windows 11 Pro. Our technical team is presently examining this issue My name is [full_name].. We will keep you informed as soon as we discover a solution.\n\nWe appreciate your understanding,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sudden Decline in Employee Engagement\n\nDear Support Team, I am contacting you regarding an unexpected decrease in employee engagement. Staff morale has dramatically declined, and we are uncertain of the reasons behind this My name is Elena Ivanova.. We have conducted surveys and convened meetings to investigate, yet no solution has been found You can reach me at david.kim@corp.kr.. Poor communication might be a factor, but we require additional assistance to address this issue. Can you assist us in determining the root cause and providing advice on how to enhance employee engagement? We would greatly appreciate any recommendations or support you can provide. Thanks for your time and help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        256
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        372,
+        389
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Sudden Decline in Employee Engagement\n\nDear Support Team, I am contacting you regarding an unexpected decrease in employee engagement. Staff morale has dramatically declined, and we are uncertain of the reasons behind this My name is [full_name].. We have conducted surveys and convened meetings to investigate, yet no solution has been found You can reach me at [email].. Poor communication might be a factor, but we require additional assistance to address this issue. Can you assist us in determining the root cause and providing advice on how to enhance employee engagement? We would greatly appreciate any recommendations or support you can provide. Thanks for your time and help.",
+  "category_of_the_email": "Incident"
+}

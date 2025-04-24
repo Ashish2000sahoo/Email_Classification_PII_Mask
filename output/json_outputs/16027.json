@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Client\n\nOur marketing agency is facing low engagement in recent digital campaigns, possibly due to changes in platform algorithms My name is Carlos Mendoza.. We have analyzed campaign data, adjusted ad limitations, and tested various ad materials, but engagement remains stagnant. We need your assistance to improve engagement. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        366,
+        389
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support for Client\n\nOur marketing agency is facing low engagement in recent digital campaigns, possibly due to changes in platform algorithms My name is [full_name].. We have analyzed campaign data, adjusted ad limitations, and tested various ad materials, but engagement remains stagnant. We need your assistance to improve engagement. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

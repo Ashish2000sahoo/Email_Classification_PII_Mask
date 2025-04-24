@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Error Affecting Campaigns\n\nThere was an issue with the system that affected the campaigns You can reach me at elena.ivanova@support.org.. It seems there might have been a conflict with the recent software update on the tools. Rebooting and clearing the caches resolved the problem initially. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        319,
+        331
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        126,
+        151
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: System Error Affecting Campaigns\n\nThere was an issue with the system that affected the campaigns You can reach me at [email].. It seems there might have been a conflict with the recent software update on the tools. Rebooting and clearing the caches resolved the problem initially. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

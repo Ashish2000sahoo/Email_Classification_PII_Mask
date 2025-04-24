@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Returns Declined Unexpectedly\n\nThere was an unexpected decline in investment returns. There might be inaccuracies in the data modeling or algorithmic issues My name is Fatima Al-Farsi.. Despite reviewing data feeds and checking system updates, the problem still exists. Assistance is required to address this and avoid similar issues in the future. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        197
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        391,
+        414
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Investment Returns Declined Unexpectedly\n\nThere was an unexpected decline in investment returns. There might be inaccuracies in the data modeling or algorithmic issues My name is [full_name]-Farsi.. Despite reviewing data feeds and checking system updates, the problem still exists. Assistance is required to address this and avoid similar issues in the future. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

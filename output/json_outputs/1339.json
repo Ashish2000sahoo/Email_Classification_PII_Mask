@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reporting an Issue with the Website Analytics Dashboard\n\nHello Customer Support, I am contacting you to report a problem with our website analytics dashboard. It has ceased to function and we have been unable to determine the cause, even after restarting the dashboard and verifying the API connections My name is Omar Hassan.. The problem began when we observed that the tracking data was no longer being updated. We have gone through the code and integration, but we are unable to locate the underlying issue You can reach me at fatima.farsi@help.com.. We would greatly appreciate any assistance you can provide to resolve this matter. Please inform us if any further information from our side is required. Thank you for your attention and help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        540,
+        561
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Reporting an Issue with the Website Analytics Dashboard\n\nHello Customer Support, I am contacting you to report a problem with our website analytics dashboard. It has ceased to function and we have been unable to determine the cause, even after restarting the dashboard and verifying the API connections My name is [full_name].. The problem began when we observed that the tracking data was no longer being updated. We have gone through the code and integration, but we are unable to locate the underlying issue You can reach me at [email].. We would greatly appreciate any assistance you can provide to resolve this matter. Please inform us if any further information from our side is required. Thank you for your attention and help.",
+  "category_of_the_email": "Incident"
+}

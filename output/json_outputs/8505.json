@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kritisches Problem bei unserer Datenanalyse-Software\n\nEin kritisches Problem bei unserer Datenanalyse-Software ist aufgetreten, das die genaue Investment-Optimierung behindert My name is Sophia Rossi.. Dies wurde durch recente Updates auf Magento 2.4 verursacht You can reach me at maria.gonzalez@shop.es.. Reboot-Vorg\u00e4nge und Patches wurden bereits durchgef\u00fchrt.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        290,
+        312
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Kritisches Problem bei unserer Datenanalyse-Software\n\nEin kritisches Problem bei unserer Datenanalyse-Software ist aufgetreten, das die genaue Investment-Optimierung behindert My name is [full_name].. Dies wurde durch recente Updates auf Magento 2.4 verursacht You can reach me at [email].. Reboot-Vorg\u00e4nge und Patches wurden bereits durchgef\u00fchrt.",
+  "category_of_the_email": "Incident"
+}

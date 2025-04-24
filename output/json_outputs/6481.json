@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Hospital IT System\n\nAn unauthorized access incident occurred, compromising sensitive medical data on the hospital's IT system. It seems the staff were led by a phishing attack My name is Elena Ivanova.. We have reset user passwords and updated malware logs, but access issues persist. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        220
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        323,
+        340
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Hospital IT System\n\nAn unauthorized access incident occurred, compromising sensitive medical data on the hospital's IT system. It seems the staff were led by a phishing attack My name is [full_name].. We have reset user passwords and updated malware logs, but access issues persist. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

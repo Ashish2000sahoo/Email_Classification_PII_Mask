@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on System Requirements for DataRobot Integration with Lenovo ThinkPad X1 Carbon\n\nDear Customer Support, I am writing to seek information on the ideal system requirements for integrating DataRobot into my Lenovo ThinkPad X1 Carbon My name is Sophia Rossi.. Could you kindly provide me with the necessary specifications, especially regarding the processor, RAM, and storage? Additionally, I would greatly appreciate any extra advice to ensure a smooth integration. I look forward to your prompt response You can reach me at johndoe@email.com.. Thank you for your assistance. Best regards",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        256,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        536,
+        553
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Query on System Requirements for DataRobot Integration with Lenovo ThinkPad X1 Carbon\n\nDear Customer Support, I am writing to seek information on the ideal system requirements for integrating DataRobot into my Lenovo ThinkPad X1 Carbon My name is [full_name].. Could you kindly provide me with the necessary specifications, especially regarding the processor, RAM, and storage? Additionally, I would greatly appreciate any extra advice to ensure a smooth integration. I look forward to your prompt response You can reach me at [email].. Thank you for your assistance. Best regards",
+  "category_of_the_email": "Request"
+}

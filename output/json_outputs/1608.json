@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhancing Brand Growth in Digital Sphere\n\nInquiring about the digital strategies your company implements to boost brand growth You can reach me at david.kim@corp.kr.. Could you provide specific details on the methods and techniques used to increase brand awareness and engagement? I am particularly interested in learning about the role of social media, content marketing, and influencer partnerships in your digital strategy. Additionally, I would appreciate information on how you measure the success of your digital initiatives and the metrics you use to evaluate their effectiveness My name is Elena Ivanova.. Thank you for your assistance, and I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        619,
+        632
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        168,
+        185
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhancing Brand Growth in Digital Sphere\n\nInquiring about the digital strategies your company implements to boost brand growth You can reach me at [email].. Could you provide specific details on the methods and techniques used to increase brand awareness and engagement? I am particularly interested in learning about the role of social media, content marketing, and influencer partnerships in your digital strategy. Additionally, I would appreciate information on how you measure the success of your digital initiatives and the metrics you use to evaluate their effectiveness My name is [full_name].. Thank you for your assistance, and I look forward to your response.",
+  "category_of_the_email": "Request"
+}

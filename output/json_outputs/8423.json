@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Strengthen Data Encryption for Medical Records\n\nDear support team, it is imperative that we quickly enhance data encryption for medical records on the Smart-Licht and Plex systems You can reach me at sophia.rossi@service.it.. The current security protocols are deemed inadequate, and it is crucial to implement robust encryption techniques to protect sensitive patient information from unauthorized access. Please swiftly address this urgent matter and confirm the steps you will take to improve data security My name is John Doe.. I look forward to your prompt response and am available to discuss this further if needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        538,
+        546
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        217,
+        240
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Strengthen Data Encryption for Medical Records\n\nDear support team, it is imperative that we quickly enhance data encryption for medical records on the Smart-Licht and Plex systems You can reach me at [email].. The current security protocols are deemed inadequate, and it is crucial to implement robust encryption techniques to protect sensitive patient information from unauthorized access. Please swiftly address this urgent matter and confirm the steps you will take to improve data security My name is [full_name].. I look forward to your prompt response and am available to discuss this further if needed.",
+  "category_of_the_email": "Change"
+}

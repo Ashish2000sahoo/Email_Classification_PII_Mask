@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Investment Portfolio\n\nUnexpected fluctuations were noticed last night, which might be related to data feed problems or algorithm errors.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        196
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Portfolio\n\nUnexpected fluctuations were noticed last night, which might be related to data feed problems or algorithm errors.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

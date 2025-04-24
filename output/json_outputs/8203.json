@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Anomaly in Mehrerer Ger\u00e4te\n\nEs gab eine gleichzeitige Verbindungsunterbrechung mehrerer Ger\u00e4te. M\u00f6gliche Gr\u00fcnde sind ein \u00fcberlastetes Netzwerk oder ein Softwaredefekt My name is Jane Smith.. Die Ger\u00e4te wurden neu gestartet, die Verbindungen \u00fcberpr\u00fcft und das Software aktualisiert. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        323,
+        340
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Technische Anomaly in Mehrerer Ger\u00e4te\n\nEs gab eine gleichzeitige Verbindungsunterbrechung mehrerer Ger\u00e4te. M\u00f6gliche Gr\u00fcnde sind ein \u00fcberlastetes Netzwerk oder ein Softwaredefekt My name is [full_name].. Die Ger\u00e4te wurden neu gestartet, die Verbindungen \u00fcberpr\u00fcft und das Software aktualisiert. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Employee Turnover Concerns\n\nWe are facing significant employee turnover issues due to insufficient onboarding and limited career advancement opportunities. Despite implementing exit interviews and enhancing training materials, the results are still unsatisfactory You can reach me at maria.gonzalez@shop.es.. Please assist us in addressing this issue. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        305,
+        327
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Employee Turnover Concerns\n\nWe are facing significant employee turnover issues due to insufficient onboarding and limited career advancement opportunities. Despite implementing exit interviews and enhancing training materials, the results are still unsatisfactory You can reach me at [email].. Please assist us in addressing this issue. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Repeated Network Outages Report\n\nDear Customer Support,\n\nWe are experiencing repeated network outages which might be due to faulty settings on our Cisco Router ISR4331 My name is Maria Gonzalez.. Please investigate and advise a solution at your earliest convenience. Thank you for your prompt assistance.\n\nBest regards,\n\n<name> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        354,
+        375
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        172,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Repeated Network Outages Report\n\nDear Customer Support,\n\nWe are experiencing repeated network outages which might be due to faulty settings on our Cisco Router ISR[phone_number] My name is [full_name].. Please investigate and advise a solution at your earliest convenience. Thank you for your prompt assistance.\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

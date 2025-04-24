@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Schutz medizinischer Datensysteme\n\nLieber Kundensupport, ich m\u00f6chte mich an Sie wenden, um Ratschl\u00e4ge zur Sicherung medizinischer Daten in Hospital-IT-Systemen Alteryx Terraform zu erhalten My name is Omar Hassan.. K\u00f6nnten Sie mir Empfehlungen zu besten Praktiken und der Umsetzung robuster Sicherheitsma\u00dfnahmen geben, um sensible Patientendaten zu sch\u00fctzen und Vorschriften zu erf\u00fcllen, um Datenverletzungen zu vermeiden? Insbesondere interessiert mich, wie Zugriffskontrollen konfiguriert, Daten verschl\u00fcsselt und Systemaktivit\u00e4ten \u00fcberwacht werden k\u00f6nnen You can reach me at carlosm@gmail.com.. Bitte empfehlen Sie mir zugeh\u00f6rige Ressourcen und helfen Sie mir, dies zu erreichen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        221
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        587,
+        604
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Schutz medizinischer Datensysteme\n\nLieber Kundensupport, ich m\u00f6chte mich an Sie wenden, um Ratschl\u00e4ge zur Sicherung medizinischer Daten in Hospital-IT-Systemen Alteryx Terraform zu erhalten My name is [full_name].. K\u00f6nnten Sie mir Empfehlungen zu besten Praktiken und der Umsetzung robuster Sicherheitsma\u00dfnahmen geben, um sensible Patientendaten zu sch\u00fctzen und Vorschriften zu erf\u00fcllen, um Datenverletzungen zu vermeiden? Insbesondere interessiert mich, wie Zugriffskontrollen konfiguriert, Daten verschl\u00fcsselt und Systemaktivit\u00e4ten \u00fcberwacht werden k\u00f6nnen You can reach me at [email].. Bitte empfehlen Sie mir zugeh\u00f6rige Ressourcen und helfen Sie mir, dies zu erreichen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: MacBook Air M1 Power Problem\n\nMein MacBook Air M1 l\u00e4sst sich nicht einschalten You can reach me at maria.gonzalez@shop.es.. Ich habe das richtige Ladeger\u00e4t und den richtigen Adapter verwendet. K\u00f6nnten Sie mir Informationen zu Garantie- oder Serviceoptionen geben? My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        108,
+        130
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: MacBook Air M1 Power Problem\n\nMein MacBook Air M1 l\u00e4sst sich nicht einschalten You can reach me at [email].. Ich habe das richtige Ladeger\u00e4t und den richtigen Adapter verwendet. K\u00f6nnten Sie mir Informationen zu Garantie- oder Serviceoptionen geben? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

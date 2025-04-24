@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Project Management\n\nMultiple users have reported difficulties with project management features not syncing across platforms, which may be due to inconsistencies in API integrations. Efforts to resolve the issue, such as clearing the cache and reinstalling the software, have not been successful My name is Maria Gonzalez.. We need your assistance to identify the root cause and implement a solution. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        440,
+        461
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Project Management\n\nMultiple users have reported difficulties with project management features not syncing across platforms, which may be due to inconsistencies in API integrations. Efforts to resolve the issue, such as clearing the cache and reinstalling the software, have not been successful My name is [full_name].. We need your assistance to identify the root cause and implement a solution. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

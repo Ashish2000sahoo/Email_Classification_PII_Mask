@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o Urgente de Suporte de Faturamento para AWS\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo a respeito de uma cobran\u00e7a inesperada em nossa assinatura de Gerenciamento AWS, especificamente relacionada ao Servi\u00e7o de Otimiza\u00e7\u00e3o de Custos. Nosso n\u00famero de conta \u00e9 <acc_num> My name is Omar Hassan.. Voc\u00ea poderia, por favor, acelerar esta consulta? Sua r\u00e1pida assist\u00eancia seria muito apreciada.\n\nObrigado,\n<name>\nN\u00famero de Contato: <tel_num> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        349
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        514,
+        539
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o Urgente de Suporte de Faturamento para AWS\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo a respeito de uma cobran\u00e7a inesperada em nossa assinatura de Gerenciamento AWS, especificamente relacionada ao Servi\u00e7o de Otimiza\u00e7\u00e3o de Custos. Nosso n\u00famero de conta \u00e9 <acc_num> My name is [full_name].. Voc\u00ea poderia, por favor, acelerar esta consulta? Sua r\u00e1pida assist\u00eancia seria muito apreciada.\n\nObrigado,\n<name>\nN\u00famero de Contato: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

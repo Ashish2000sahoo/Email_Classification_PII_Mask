@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Breach in Medical System\n\nWe have identified a potential data breach in our medical records system, with the probable cause being a vulnerability in a third-party application. To date, we have conducted antivirus scans and reviewed firewall logs.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        299
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data Breach in Medical System\n\nWe have identified a potential data breach in our medical records system, with the probable cause being a vulnerability in a third-party application. To date, we have conducted antivirus scans and reviewed firewall logs.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

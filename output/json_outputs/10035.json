@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Digital Strategies\n\nLooking for information on digital strategies that drive brand growth My name is Liu Wei.. Interested in learning about the company's approaches to online marketing and advertising. Specifically, would like to know how they measure the success of their social media presence and campaigns. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        121,
+        128
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        354,
+        371
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Digital Strategies\n\nLooking for information on digital strategies that drive brand growth My name is [full_name].. Interested in learning about the company's approaches to online marketing and advertising. Specifically, would like to know how they measure the success of their social media presence and campaigns. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

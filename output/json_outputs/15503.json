@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue with Microsoft Office 2021 Integration into Laravel 8 API\n\nIncompatibility between Microsoft Office 2021 and Laravel 8 API was encountered. This could be due to software updates or configuration problems. After attempting to restart the server, verifying API credentials, and updating plugins, the problem still exists You can reach me at janesmith@company.com.. I require your assistance to troubleshoot and fix this integration issue to guarantee smooth operation. Please help me determine the underlying problem and provide a solution to fix this as quickly as possible. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        600,
+        612
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        354,
+        375
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        37,
+        41
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        115,
+        119
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Issue with Microsoft Office [phone_number] Integration into Laravel 8 API\n\nIncompatibility between Microsoft Office [phone_number] and Laravel 8 API was encountered. This could be due to software updates or configuration problems. After attempting to restart the server, verifying API credentials, and updating plugins, the problem still exists You can reach me at [email].. I require your assistance to troubleshoot and fix this integration issue to guarantee smooth operation. Please help me determine the underlying problem and provide a solution to fix this as quickly as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

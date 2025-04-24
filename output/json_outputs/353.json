@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Data Encryption Failure Following Software Update\n\nThere has been an unexpected data encryption failure, which might be due to an issue with the recent software update My name is Liu Wei.. Initially, we tried restarting the servers, but the problem still exists You can reach me at maria.gonzalez@shop.es.. Additional support is needed to address this and avoid potential data loss.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        199,
+        206
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        306,
+        328
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Data Encryption Failure Following Software Update\n\nThere has been an unexpected data encryption failure, which might be due to an issue with the recent software update My name is [full_name].. Initially, we tried restarting the servers, but the problem still exists You can reach me at [email].. Additional support is needed to address this and avoid potential data loss.",
+  "category_of_the_email": "Incident"
+}

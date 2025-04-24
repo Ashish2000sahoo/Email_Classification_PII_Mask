@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating Digital Marketing Strategies Online\n\nDear support team, I am requesting an update to our digital marketing strategies to enhance brand growth and engagement across online platforms. This will involve analyzing our current online presence, devising new plans to improve reach and customer interaction You can reach me at sophia.rossi@service.it.. I believe this would greatly benefit the company, and I look forward to hearing from you. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        477,
+        491
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        350,
+        373
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating Digital Marketing Strategies Online\n\nDear support team, I am requesting an update to our digital marketing strategies to enhance brand growth and engagement across online platforms. This will involve analyzing our current online presence, devising new plans to improve reach and customer interaction You can reach me at [email].. I believe this would greatly benefit the company, and I look forward to hearing from you. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

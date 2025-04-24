@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report of Incident to Support Department\n\nDear Support Team, <br>             An incident involving unauthorized access to unencrypted medical data has been reported You can reach me at david.kim@corp.kr.. <br>             It is suspected that misconfigured firewall settings might be the cause My name is David Kim.. <br>             We have restarted the firewall and reviewed the logs. <br>             Your help in resolving this issue and preventing future incidents is needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        315,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        195,
+        212
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Report of Incident to Support Department\n\nDear Support Team, <br>             An incident involving unauthorized access to unencrypted medical data has been reported You can reach me at [email].. <br>             It is suspected that misconfigured firewall settings might be the cause My name is [full_name].. <br>             We have restarted the firewall and reviewed the logs. <br>             Your help in resolving this issue and preventing future incidents is needed.",
+  "category_of_the_email": "Incident"
+}

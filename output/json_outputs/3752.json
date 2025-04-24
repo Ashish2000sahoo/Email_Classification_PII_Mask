@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Message Regarding Data Loss Incident\n\nData loss incident at the Health Institute You can reach me at elena.ivanova@support.org.. Security of medical data is compromised due to outdated software vulnerabilities. Despite efforts to update security protocols and clean the software, issues persist. Please assist in resolving this case. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        354,
+        361
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        110,
+        135
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Message Regarding Data Loss Incident\n\nData loss incident at the Health Institute You can reach me at [email].. Security of medical data is compromised due to outdated software vulnerabilities. Despite efforts to update security protocols and clean the software, issues persist. Please assist in resolving this case. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

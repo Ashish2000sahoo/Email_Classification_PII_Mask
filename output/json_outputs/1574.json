@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Integration of Scikit-learn with Laravel 8\n\nDear Customer Support, I am reaching out to request detailed documentation on integrating Scikit-learn with Laravel 8 for investment analysis. I am currently working on a project that involves the use of machine learning algorithms for financial forecasting, and I believe Scikit-learn would be a valuable tool You can reach me at johndoe@email.com.. However, I am encountering difficulties in finding resources on integrating it with Laravel 8. Could you please provide me with some documentation or guide me to a resource that can assist me with this? I would greatly appreciate any assistance you can offer My name is Jane Smith.. Specifically, I would like to understand the installation and configuration of Scikit-learn with Laravel 8, as well as how to utilize it for making predictions and data analysis. Thank you for your time and assistance. I look forward to your prompt response and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        695,
+        705
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        405,
+        422
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Integration of Scikit-learn with Laravel 8\n\nDear Customer Support, I am reaching out to request detailed documentation on integrating Scikit-learn with Laravel 8 for investment analysis. I am currently working on a project that involves the use of machine learning algorithms for financial forecasting, and I believe Scikit-learn would be a valuable tool You can reach me at [email].. However, I am encountering difficulties in finding resources on integrating it with Laravel 8. Could you please provide me with some documentation or guide me to a resource that can assist me with this? I would greatly appreciate any assistance you can offer My name is [full_name].. Specifically, I would like to understand the installation and configuration of Scikit-learn with Laravel 8, as well as how to utilize it for making predictions and data analysis. Thank you for your time and assistance. I look forward to your prompt response and assistance.",
+  "category_of_the_email": "Request"
+}

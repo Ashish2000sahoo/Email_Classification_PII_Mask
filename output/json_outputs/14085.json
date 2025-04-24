@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Optimierung von Datenanalyse\n\nDie finanzielle Firma hat Probleme mit Datenanalysen und versucht, Investitionen zu optimieren. Die Softwareinkompatibilit\u00e4t und Hardwarefehler sind m\u00f6gliche Ursachen You can reach me at fatima.farsi@help.com.. Nach dem Neustart der betroffenen Ger\u00e4te und dem L\u00f6schen des Systemcaches wurde der Fehler behoben. Unterst\u00fctzung wird ben\u00f6tigt, um das Problem bald zu beheben und Verluste zu minimieren. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        466,
+        476
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        243,
+        264
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Optimierung von Datenanalyse\n\nDie finanzielle Firma hat Probleme mit Datenanalysen und versucht, Investitionen zu optimieren. Die Softwareinkompatibilit\u00e4t und Hardwarefehler sind m\u00f6gliche Ursachen You can reach me at [email].. Nach dem Neustart der betroffenen Ger\u00e4te und dem L\u00f6schen des Systemcaches wurde der Fehler behoben. Unterst\u00fctzung wird ben\u00f6tigt, um das Problem bald zu beheben und Verluste zu minimieren. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

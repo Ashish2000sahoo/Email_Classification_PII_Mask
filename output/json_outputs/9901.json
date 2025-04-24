@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Security Incident\n\nAttention Customer Support, an unauthorized access attempt has been detected on our hospital's system. This may have occurred due to a potential security vulnerability My name is John Doe.. Despite conducting initial audits and updating the software, we continue to observe suspicious activities You can reach me at carlosm@gmail.com.. We kindly request your immediate assistance in investigating and resolving this matter to ensure the security integrity of our system.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        224
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        356,
+        373
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Security Incident\n\nAttention Customer Support, an unauthorized access attempt has been detected on our hospital's system. This may have occurred due to a potential security vulnerability My name is [full_name].. Despite conducting initial audits and updating the software, we continue to observe suspicious activities You can reach me at [email].. We kindly request your immediate assistance in investigating and resolving this matter to ensure the security integrity of our system.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenges in Digital Marketing Tactics\n\nWe have faced considerable difficulties with our digital marketing tactics, leading to a halt in brand growth. This might be due to the inefficient use of software tools like RapidMiner and Adobe Creative Cloud My name is Sophia Rossi.. After adjusting ad targeting, refining content strategies, and optimizing SEO efforts, we have seen minimal improvement in engagement metrics. Despite our efforts, brand growth has not improved. We are looking for assistance to identify the root cause of the problem and explore potential solutions. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        284
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        606,
+        623
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Challenges in Digital Marketing Tactics\n\nWe have faced considerable difficulties with our digital marketing tactics, leading to a halt in brand growth. This might be due to the inefficient use of software tools like RapidMiner and Adobe Creative Cloud My name is [full_name].. After adjusting ad targeting, refining content strategies, and optimizing SEO efforts, we have seen minimal improvement in engagement metrics. Despite our efforts, brand growth has not improved. We are looking for assistance to identify the root cause of the problem and explore potential solutions. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

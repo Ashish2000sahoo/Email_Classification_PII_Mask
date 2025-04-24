@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Digital Campaign Performance\n\nGreetings,\\n\\nI am reaching out to highlight the suboptimal performance of our recent digital campaigns, which have not met our expectations. Efforts made to correct this have not yet yielded the desired results, and we are seeking to understand the underlying causes.\\n\\nUpon reviewing our metrics, we have noticed potential issues with ineffective targeting and outdated strategies You can reach me at omar.hassan@secure.net.. We have made some adjustments and sought expert advice, but have not seen any notable improvements.\\n\\nI would greatly appreciate your input and assistance in addressing this matter. We aim to identify the causes of this performance decline and develop strategies to enhance the effectiveness of our campaigns.\\n\\nSpecifically, we would like to know:\\n- Are there any new targeting options or strategies that we might be missing?\\n- Could there be any issues with our ad content or messaging that are contributing to this performance?\\n- Are there any external factors affecting our campaign's success, such as changes in the market or consumer behavior?\\n\\nWe value your support and look forward to your suggestions.\\n\\nThank you for your attention.\\n\\nSincerely,\\n[Your Name] My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1272,
+        1281
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        458,
+        480
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Digital Campaign Performance\n\nGreetings,\\n\\nI am reaching out to highlight the suboptimal performance of our recent digital campaigns, which have not met our expectations. Efforts made to correct this have not yet yielded the desired results, and we are seeking to understand the underlying causes.\\n\\nUpon reviewing our metrics, we have noticed potential issues with ineffective targeting and outdated strategies You can reach me at [email].. We have made some adjustments and sought expert advice, but have not seen any notable improvements.\\n\\nI would greatly appreciate your input and assistance in addressing this matter. We aim to identify the causes of this performance decline and develop strategies to enhance the effectiveness of our campaigns.\\n\\nSpecifically, we would like to know:\\n- Are there any new targeting options or strategies that we might be missing?\\n- Could there be any issues with our ad content or messaging that are contributing to this performance?\\n- Are there any external factors affecting our campaign's success, such as changes in the market or consumer behavior?\\n\\nWe value your support and look forward to your suggestions.\\n\\nThank you for your attention.\\n\\nSincerely,\\n[Your Name] My name is [full_name]-Farsi.",
+  "category_of_the_email": "Problem"
+}

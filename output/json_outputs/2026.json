@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Data Feed\n\nI am reaching out to the support team to report an issue with the investment data feed that has been unexpectedly interrupted My name is Fatima Al-Farsi.. I suspect this might be due to a backend server overload. I have attempted to restart the feed and check the connectivity, but the issue remains unresolved You can reach me at fatima.farsi@help.com.. I would greatly appreciate your assistance in investigating and providing a solution promptly. The disruption of the data feed is causing me inconvenience, and I am eager for it to be resolved. Could you please request any additional information from me to aid in resolving this issue? I am looking forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        377,
+        398
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Data Feed\n\nI am reaching out to the support team to report an issue with the investment data feed that has been unexpectedly interrupted My name is [full_name]-Farsi.. I suspect this might be due to a backend server overload. I have attempted to restart the feed and check the connectivity, but the issue remains unresolved You can reach me at [email].. I would greatly appreciate your assistance in investigating and providing a solution promptly. The disruption of the data feed is causing me inconvenience, and I am eager for it to be resolved. Could you please request any additional information from me to aid in resolving this issue? I am looking forward to hearing from you soon.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello,\n\nI'm encountering issues with my Microsoft Surface Pro 7, where the touchscreen occasionally becomes unresponsive. I would like assistance in diagnosing the problem, and I'm interested in learning about possible repair or replacement options You can reach me at sophia.rossi@service.it.. Please let me know how we can proceed. My account number is <acc_num> My name is John Doe.. Thank you.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        387,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        280,
+        303
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello,\n\nI'm encountering issues with my Microsoft Surface Pro 7, where the touchscreen occasionally becomes unresponsive. I would like assistance in diagnosing the problem, and I'm interested in learning about possible repair or replacement options You can reach me at [email].. Please let me know how we can proceed. My account number is <acc_num> My name is [full_name].. Thank you.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

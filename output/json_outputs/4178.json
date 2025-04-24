@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cassandra 4.0 Database Crash Issue\n\nTo Whom It May Concern, I am contacting you to report an unexpected crash of our Cassandra 4.0 database. This issue arose from insufficient memory and high usage. Despite my efforts to restart the server, review the logs, and update the drivers, the problem still exists. It would be greatly appreciated if you could investigate this and offer a resolution as quickly as possible. If you require any further details or assistance, please do not hesitate to reach out You can reach me at omar.hassan@secure.net.. I am ready to provide any additional information you may need. Thank you in advance for your swift response My name is Jane Smith.. I look forward to your prompt attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        676,
+        686
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        532,
+        554
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Cassandra 4.0 Database Crash Issue\n\nTo Whom It May Concern, I am contacting you to report an unexpected crash of our Cassandra 4.0 database. This issue arose from insufficient memory and high usage. Despite my efforts to restart the server, review the logs, and update the drivers, the problem still exists. It would be greatly appreciated if you could investigate this and offer a resolution as quickly as possible. If you require any further details or assistance, please do not hesitate to reach out You can reach me at [email].. I am ready to provide any additional information you may need. Thank you in advance for your swift response My name is [full_name].. I look forward to your prompt attention to this matter.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns on Medical Data Security\n\nCustomer Support, I am writing to request the implementation of enhanced security measures for medical data access in our hospital systems to prevent potential data breaches. This is a critical issue that requires immediate attention You can reach me at johndoe@email.com.. I would greatly appreciate it if you could look into this matter and take the necessary steps to ensure the security of our medical data My name is Jane Smith.. Please let me know if there are any additional steps I need to take or any information you require from me. Thank you for your prompt attention to this matter. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        466,
+        476
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        298,
+        315
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns on Medical Data Security\n\nCustomer Support, I am writing to request the implementation of enhanced security measures for medical data access in our hospital systems to prevent potential data breaches. This is a critical issue that requires immediate attention You can reach me at [email].. I would greatly appreciate it if you could look into this matter and take the necessary steps to ensure the security of our medical data My name is [full_name].. Please let me know if there are any additional steps I need to take or any information you require from me. Thank you for your prompt attention to this matter. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

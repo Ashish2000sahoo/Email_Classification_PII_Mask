@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Support Team,\n\nI am facing difficulties while attempting to install Norton Antivirus Plus My name is Liu Wei.. Even after adhering to the provided guidelines, the installation fails to complete successfully. I would appreciate your help in resolving this matter at your earliest convenience.\n\nThank you for your assistance.\n\nSincerely,\n<name>\nAccount Number: <acc_num>\nPhone: <tel_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        117,
+        124
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        426,
+        447
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Support Team,\n\nI am facing difficulties while attempting to install Norton Antivirus Plus My name is [full_name].. Even after adhering to the provided guidelines, the installation fails to complete successfully. I would appreciate your help in resolving this matter at your earliest convenience.\n\nThank you for your assistance.\n\nSincerely,\n<name>\nAccount Number: <acc_num>\nPhone: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

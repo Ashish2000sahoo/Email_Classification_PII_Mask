@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on JIRA Compatible Data Analytics Tools\n\nHello,<br><br>I am writing to inquire about data analytics tools that can integrate with JIRA for the purpose of investment optimization. Could you provide a list of compatible tools along with their features? I am particularly interested in how these tools can assist in making data-driven decisions and enhancing my investment strategies My name is Carlos Mendoza.. Furthermore, I would appreciate information on the associated costs and the requirements for implementation.<br><br>Thank you for your time and assistance You can reach me at liuwei@business.cn.. I am looking forward to your response and hope to discuss this further at your convenience.<br><br>Best regards,<br><name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        409,
+        423
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        598,
+        616
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on JIRA Compatible Data Analytics Tools\n\nHello,<br><br>I am writing to inquire about data analytics tools that can integrate with JIRA for the purpose of investment optimization. Could you provide a list of compatible tools along with their features? I am particularly interested in how these tools can assist in making data-driven decisions and enhancing my investment strategies My name is [full_name].. Furthermore, I would appreciate information on the associated costs and the requirements for implementation.<br><br>Thank you for your time and assistance You can reach me at [email].. I am looking forward to your response and hope to discuss this further at your convenience.<br><br>Best regards,<br><name>",
+  "category_of_the_email": "Request"
+}

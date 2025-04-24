@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Mesh Network Connectivity\n\nFacing connectivity problems with the Mesh Network, which is impacting digital marketing efforts You can reach me at janesmith@company.com.. The issue might be due to outdated firmware. I've already tried rebooting and checking the device connections, but the problem still exists. I would greatly appreciate your help in resolving this matter as soon as possible. A convenient time for a call to troubleshoot could be scheduled. Please let me know a suitable time or contact me directly at <acc_num> to discuss potential solutions, such as firmware updates or device replacement. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        641,
+        650
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        166,
+        187
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Mesh Network Connectivity\n\nFacing connectivity problems with the Mesh Network, which is impacting digital marketing efforts You can reach me at [email].. The issue might be due to outdated firmware. I've already tried rebooting and checking the device connections, but the problem still exists. I would greatly appreciate your help in resolving this matter as soon as possible. A convenient time for a call to troubleshoot could be scheduled. Please let me know a suitable time or contact me directly at <acc_num> to discuss potential solutions, such as firmware updates or device replacement. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

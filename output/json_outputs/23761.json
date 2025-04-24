@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de optimizaci\u00f3n de instancias de AWS\n\nEstimado equipo de soporte de servicios de TI,\n\nEspero que este mensaje les encuentre bien You can reach me at johndoe@email.com.. Me pongo en contacto para solicitar orientaci\u00f3n y asistencia en la optimizaci\u00f3n de nuestras instancias de AWS para mejorar el rendimiento dentro de nuestra infraestructura de computaci\u00f3n en la nube. Como cliente que utiliza su Servicio de Gesti\u00f3n de AWS, hemos notado algunas \u00e1reas donde se podr\u00eda mejorar el rendimiento. Creemos que con intervenci\u00f3n experta, esto podr\u00eda llevar a una mayor eficiencia y rentabilidad.\n\nConsiderando las demandas actuales de la empresa para una mayor productividad, estamos priorizando esta tarea de modificaci\u00f3n a un nivel medio dentro de nuestros objetivos. Agradecer\u00edamos sus ideas y sugerencias sobre las mejores pr\u00e1cticas, configuraciones o cualquier herramienta y servicio necesario que puedan ofrecer para lograr estos objetivos.\n\nPor favor, h\u00e1ganos saber un momento conveniente para una discusi\u00f3n detallada con nuestro equipo t\u00e9cnico My name is Sophia Rossi.. Estamos esperando su experiencia y atenci\u00f3n r\u00e1pida a este asunto. Para cualquier pregunta inmediata, no duden en ponerse en contacto por correo electr\u00f3nico o llamando a <tel_num>.\n\nGracias por su apoyo.\n\nSaludos,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1073,
+        1085
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        168,
+        185
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de optimizaci\u00f3n de instancias de AWS\n\nEstimado equipo de soporte de servicios de TI,\n\nEspero que este mensaje les encuentre bien You can reach me at [email].. Me pongo en contacto para solicitar orientaci\u00f3n y asistencia en la optimizaci\u00f3n de nuestras instancias de AWS para mejorar el rendimiento dentro de nuestra infraestructura de computaci\u00f3n en la nube. Como cliente que utiliza su Servicio de Gesti\u00f3n de AWS, hemos notado algunas \u00e1reas donde se podr\u00eda mejorar el rendimiento. Creemos que con intervenci\u00f3n experta, esto podr\u00eda llevar a una mayor eficiencia y rentabilidad.\n\nConsiderando las demandas actuales de la empresa para una mayor productividad, estamos priorizando esta tarea de modificaci\u00f3n a un nivel medio dentro de nuestros objetivos. Agradecer\u00edamos sus ideas y sugerencias sobre las mejores pr\u00e1cticas, configuraciones o cualquier herramienta y servicio necesario que puedan ofrecer para lograr estos objetivos.\n\nPor favor, h\u00e1ganos saber un momento conveniente para una discusi\u00f3n detallada con nuestro equipo t\u00e9cnico My name is [full_name].. Estamos esperando su experiencia y atenci\u00f3n r\u00e1pida a este asunto. Para cualquier pregunta inmediata, no duden en ponerse en contacto por correo electr\u00f3nico o llamando a <tel_num>.\n\nGracias por su apoyo.\n\nSaludos,\n<name>",
+  "category_of_the_email": "Request"
+}

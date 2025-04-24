@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur Einbindung von H2O.ai in Microsoft Word f\u00fcr Investitionsanalyse\n\nIch m\u00f6chte erfahren, wie ich H2O.ai's maschinelles Lernwerkzeug in Microsoft Word einbinden kann, um Investitionsdaten zu analysieren und Berichte zu erstellen My name is Maria Gonzalez.. K\u00f6nnten Sie mir Rat geben und mir relevante Dokumente oder Ressourcen zu diesem Thema zur Verf\u00fcgung stellen? Insbesondere w\u00fcrde ich mich interessieren, wie man H2O.ai's automatisierte maschinelles Lernwerkzeuge nutzen kann, um vorhersehbare Modelle zu erstellen und die Ergebnisse in Microsoft Word visualisieren zu k\u00f6nnen You can reach me at carlosm@gmail.com.. Ich w\u00fcrde es sch\u00e4tzen, wenn wir uns telefonisch kurz besprechen k\u00f6nnten, um diese Details zu kl\u00e4ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        255,
+        269
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        612,
+        629
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Einbindung von H2O.ai in Microsoft Word f\u00fcr Investitionsanalyse\n\nIch m\u00f6chte erfahren, wie ich H2O.ai's maschinelles Lernwerkzeug in Microsoft Word einbinden kann, um Investitionsdaten zu analysieren und Berichte zu erstellen My name is [full_name].. K\u00f6nnten Sie mir Rat geben und mir relevante Dokumente oder Ressourcen zu diesem Thema zur Verf\u00fcgung stellen? Insbesondere w\u00fcrde ich mich interessieren, wie man H2O.ai's automatisierte maschinelles Lernwerkzeuge nutzen kann, um vorhersehbare Modelle zu erstellen und die Ergebnisse in Microsoft Word visualisieren zu k\u00f6nnen You can reach me at [email].. Ich w\u00fcrde es sch\u00e4tzen, wenn wir uns telefonisch kurz besprechen k\u00f6nnten, um diese Details zu kl\u00e4ren.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: MacBook Air M1 Charging Issue\n\nDear Customer Support Team,\n\nI am writing to report an issue with my new MacBook Air M1 You can reach me at sophia.rossi@service.it.. It seems that the device is experiencing problems with its battery. The laptop only operates when it is plugged into a power source and refuses to charge My name is Carlos Mendoza.. Given these symptoms, I suspect there might be a fault with the battery. \n\nI purchased this MacBook Air M1 from your store and it is still under warranty. \n\nItem Details:\n- Product Name: MacBook Air M1\n- Serial Number: <serial_num>\n\nCould you please guide me through the process for warranty service or direct me to a nearby service center? I would appreciate a quick response as I use my laptop for daily work and study routines.\n\nThank you for your assistance.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        353
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        148,
+        171
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: MacBook Air M1 Charging Issue\n\nDear Customer Support Team,\n\nI am writing to report an issue with my new MacBook Air M1 You can reach me at [email].. It seems that the device is experiencing problems with its battery. The laptop only operates when it is plugged into a power source and refuses to charge My name is [full_name].. Given these symptoms, I suspect there might be a fault with the battery. \n\nI purchased this MacBook Air M1 from your store and it is still under warranty. \n\nItem Details:\n- Product Name: MacBook Air M1\n- Serial Number: <serial_num>\n\nCould you please guide me through the process for warranty service or direct me to a nearby service center? I would appreciate a quick response as I use my laptop for daily work and study routines.\n\nThank you for your assistance.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

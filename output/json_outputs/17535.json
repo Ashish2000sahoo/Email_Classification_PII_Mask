@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Update on Data Breach Occurrence\n\nHello Customer Support, \\n\\nWe are reaching out to provide details about a recent data breach incident. Our initial findings indicate that a human error could be the cause. \\nWe have reinitiated our server operations to manage the situation and prevent additional unauthorized access. \\nHowever, we urgently need your help to ensure all required actions are implemented to safeguard customer confidential information. \\nPlease inform us of the actions needed to address this issue and prevent similar occurrences. \\nWe thank you for your quick response to this concern and look forward to your reply My name is Omar Hassan.. \\nThank you for your cooperation in resolving this matter. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        654,
+        665
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        747,
+        768
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Update on Data Breach Occurrence\n\nHello Customer Support, \\n\\nWe are reaching out to provide details about a recent data breach incident. Our initial findings indicate that a human error could be the cause. \\nWe have reinitiated our server operations to manage the situation and prevent additional unauthorized access. \\nHowever, we urgently need your help to ensure all required actions are implemented to safeguard customer confidential information. \\nPlease inform us of the actions needed to address this issue and prevent similar occurrences. \\nWe thank you for your quick response to this concern and look forward to your reply My name is [full_name].. \\nThank you for your cooperation in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

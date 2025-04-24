@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Security Breach in Medical Records System\n\nA data breach has occurred in the medical records system, possibly due to outdated security protocols. Immediate security audits have been conducted, and firewalls have been reinforced My name is Liu Wei.. We are monitoring for unauthorized access and reviewing system logs to ensure the issue is fully resolved. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        271
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        405,
+        427
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Security Breach in Medical Records System\n\nA data breach has occurred in the medical records system, possibly due to outdated security protocols. Immediate security audits have been conducted, and firewalls have been reinforced My name is [full_name].. We are monitoring for unauthorized access and reviewing system logs to ensure the issue is fully resolved. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

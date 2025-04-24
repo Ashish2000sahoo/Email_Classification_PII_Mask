@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Welche VR-Helme sind mit Ihrem Projektmanagement-Cloudservice-Konzept vereinbar?\n\nUnsere Projektmanagement-Cloudservice-Plattform ist mit einer Reihe von VR-Helmen vereinbar, darunter Oculus und Vive My name is Jane Smith.. F\u00fcr eine vollst\u00e4ndige Liste der unterst\u00fctzten Helme, besuchen Sie bitte unsere Website unter <website_url> You can reach me at johndoe@email.com.. Es ist ratsam, die Systemanforderungen jedes Helms zu \u00fcberpr\u00fcfen, um sicherzustellen, dass er mit Ihrem Computer kompatibel ist. Falls Sie weitere Fragen haben oder weitere Informationen ben\u00f6tigen, informieren Sie mich bitte dar\u00fcber, und ich freue mich, Ihnen zu helfen. Alternativ kann ich Sie um einen passenden Zeitpunkt bitten, um dieses Thema weiter zu besprechen. Geben Sie mir bitte eine geeignete Zeit f\u00fcr einen Anruf unter <tel_num> an.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        230
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        361,
+        378
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Welche VR-Helme sind mit Ihrem Projektmanagement-Cloudservice-Konzept vereinbar?\n\nUnsere Projektmanagement-Cloudservice-Plattform ist mit einer Reihe von VR-Helmen vereinbar, darunter Oculus und Vive My name is [full_name].. F\u00fcr eine vollst\u00e4ndige Liste der unterst\u00fctzten Helme, besuchen Sie bitte unsere Website unter <website_url> You can reach me at [email].. Es ist ratsam, die Systemanforderungen jedes Helms zu \u00fcberpr\u00fcfen, um sicherzustellen, dass er mit Ihrem Computer kompatibel ist. Falls Sie weitere Fragen haben oder weitere Informationen ben\u00f6tigen, informieren Sie mich bitte dar\u00fcber, und ich freue mich, Ihnen zu helfen. Alternativ kann ich Sie um einen passenden Zeitpunkt bitten, um dieses Thema weiter zu besprechen. Geben Sie mir bitte eine geeignete Zeit f\u00fcr einen Anruf unter <tel_num> an.",
+  "category_of_the_email": "Request"
+}

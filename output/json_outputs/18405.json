@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Acknowledgment of Data Breach Concern\n\nDear [Customer Name],\\n\\nThank you for reaching out to us regarding the potential data breach you experienced, possibly due to outdated software. We understand your concerns and appreciate your proactive approach in attempting to update your software, including Snagit, Ansible, and Firebase, but the issue seems to persist.\\n\\nTo better assist you, could you provide us with more details about the updates you have already applied and any error messages you have encountered? Additionally, it would be helpful for us to know which specific data you believe has been compromised You can reach me at maria.gonzalez@shop.es.. If you are more comfortable discussing this over the phone, we are available at your convenience. Please let us know a suitable time, and we will contact you then.\\n\\nIn the meantime, we have assigned a reference number [Ref Number] to your case. You can expect a follow-up from us within the next 24 hours.\\n\\nThank you for bringing this matter to our attention, and we look forward to resolving this issue for you as soon as possible. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1120,
+        1129
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        647,
+        669
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Acknowledgment of Data Breach Concern\n\nDear [Customer Name],\\n\\nThank you for reaching out to us regarding the potential data breach you experienced, possibly due to outdated software. We understand your concerns and appreciate your proactive approach in attempting to update your software, including Snagit, Ansible, and Firebase, but the issue seems to persist.\\n\\nTo better assist you, could you provide us with more details about the updates you have already applied and any error messages you have encountered? Additionally, it would be helpful for us to know which specific data you believe has been compromised You can reach me at [email].. If you are more comfortable discussing this over the phone, we are available at your convenience. Please let us know a suitable time, and we will contact you then.\\n\\nIn the meantime, we have assigned a reference number [Ref Number] to your case. You can expect a follow-up from us within the next 24 hours.\\n\\nThank you for bringing this matter to our attention, and we look forward to resolving this issue for you as soon as possible. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

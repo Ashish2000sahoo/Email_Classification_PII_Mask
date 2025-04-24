@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unmittelbare AWS-Unterst\u00fctzung Erforderlich\n\nSehr geehrter Kundenservice,\n\nUnser Kunde ben\u00f6tigt dringend Hilfe bez\u00fcglich der AWS-Kostenoptimierung und der Bereitstellungsstrategien f\u00fcr seine Webanwendung. Dies betrifft den AWS Management Service You can reach me at sophia.rossi@service.it.. Bitte geben Sie Ihre Einsichten so bald wie m\u00f6glich.\n\nVielen Dank,\n\n<name>\n\n<company> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        275,
+        298
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unmittelbare AWS-Unterst\u00fctzung Erforderlich\n\nSehr geehrter Kundenservice,\n\nUnser Kunde ben\u00f6tigt dringend Hilfe bez\u00fcglich der AWS-Kostenoptimierung und der Bereitstellungsstrategien f\u00fcr seine Webanwendung. Dies betrifft den AWS Management Service You can reach me at [email].. Bitte geben Sie Ihre Einsichten so bald wie m\u00f6glich.\n\nVielen Dank,\n\n<name>\n\n<company> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

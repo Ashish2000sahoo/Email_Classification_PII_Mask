@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required with Data Encryption Issue\n\nI am writing to report an issue with data encryption You can reach me at maria.gonzalez@shop.es.. The encryption process failed unexpectedly, and I suspect it may be due to an outdated TYPO3 plugin. I have already attempted to update the plugin and restart the system, but the problem continues My name is Sophia Rossi.. Any help you can offer would be greatly appreciated. Please let me know if there are any additional steps I should take or if you need further details from me. I am looking forward to your response. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        363,
+        375
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        130,
+        152
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required with Data Encryption Issue\n\nI am writing to report an issue with data encryption You can reach me at [email].. The encryption process failed unexpectedly, and I suspect it may be due to an outdated TYPO3 plugin. I have already attempted to update the plugin and restart the system, but the problem continues My name is [full_name].. Any help you can offer would be greatly appreciated. Please let me know if there are any additional steps I should take or if you need further details from me. I am looking forward to your response. Thank you for your time and support.",
+  "category_of_the_email": "Incident"
+}

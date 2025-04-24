@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erreur de facturation n\u00e9cessite une r\u00e9vision\n\nCher support du magasin en ligne Tech, je vous \u00e9cris pour exprimer mon inqui\u00e9tude concernant un frais inattendu qui est apparu sur mon dernier relev\u00e9 de facturation pour mon abonnement Google Workspace Business Standard sous le num\u00e9ro de compte <acc_num> You can reach me at maria.gonzalez@shop.es.. Il semble qu'il y ait une divergence, car cela ne correspond pas aux frais habituels que j'attendais. Le relev\u00e9 liste des frais que je n'ai ni autoris\u00e9s ni anticip\u00e9s. \u00c9tant donn\u00e9 l'importance de rectifier les erreurs de facturation en temps opportun, je vous prie de bien vouloir examiner cette affaire avec la plus grande priorit\u00e9. Veuillez fournir un d\u00e9tail de ces frais et toute explication suppl\u00e9mentaire qui pourrait clarifier pourquoi ces frais inattendus ont \u00e9merg\u00e9. Je demande une r\u00e9vision de cette affaire d\u00e8s que possible My name is David Kim.. De plus, pourriez-vous \u00e9galement \u00e9valuer toute r\u00e9solution ou mesure compensatoire possible appropri\u00e9e pour cet incident ? J'attends votre r\u00e9ponse rapide pour aborder et r\u00e9soudre ce probl\u00e8me d\u00e9routant avec le syst\u00e8me de facturation. Merci pour votre attention et votre assistance imm\u00e9diates. Sinc\u00e8rement, <name>, Contact : <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        898,
+        907
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        330,
+        352
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Erreur de facturation n\u00e9cessite une r\u00e9vision\n\nCher support du magasin en ligne Tech, je vous \u00e9cris pour exprimer mon inqui\u00e9tude concernant un frais inattendu qui est apparu sur mon dernier relev\u00e9 de facturation pour mon abonnement Google Workspace Business Standard sous le num\u00e9ro de compte <acc_num> You can reach me at [email].. Il semble qu'il y ait une divergence, car cela ne correspond pas aux frais habituels que j'attendais. Le relev\u00e9 liste des frais que je n'ai ni autoris\u00e9s ni anticip\u00e9s. \u00c9tant donn\u00e9 l'importance de rectifier les erreurs de facturation en temps opportun, je vous prie de bien vouloir examiner cette affaire avec la plus grande priorit\u00e9. Veuillez fournir un d\u00e9tail de ces frais et toute explication suppl\u00e9mentaire qui pourrait clarifier pourquoi ces frais inattendus ont \u00e9merg\u00e9. Je demande une r\u00e9vision de cette affaire d\u00e8s que possible My name is [full_name].. De plus, pourriez-vous \u00e9galement \u00e9valuer toute r\u00e9solution ou mesure compensatoire possible appropri\u00e9e pour cet incident ? J'attends votre r\u00e9ponse rapide pour aborder et r\u00e9soudre ce probl\u00e8me d\u00e9routant avec le syst\u00e8me de facturation. Merci pour votre attention et votre assistance imm\u00e9diates. Sinc\u00e8rement, <name>, Contact : <tel_num>",
+  "category_of_the_email": "Problem"
+}

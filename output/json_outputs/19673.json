@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschleierung von medizinischen Daten in einer Google Meet-Session\n\nSehr geehrte Kundenservice, ich habe mich entschieden, Ihnen \u00fcber eine vermeintliche Verletzung medizinischer Daten in einer Google Meet-Session zu informieren, die stattgefunden hat. Es k\u00f6nnte sich um ein Mangel an Verschl\u00fcsselung und Zugriffsregulierung handeln My name is Omar Hassan.. Trotz \u00dcberpr\u00fcfungen der Firewall-Settings und des Antivirus-Programms bleibt das Problem bestehen. Ich w\u00fcrde mich sehr freuen, wenn Sie die Situation ergr\u00fcnden und schnellstm\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Falls Sie weitere Informationen ben\u00f6tigen, stehe ich Ihnen gerne zur Verf\u00fcgung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        353,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        728,
+        751
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Verschleierung von medizinischen Daten in einer Google Meet-Session\n\nSehr geehrte Kundenservice, ich habe mich entschieden, Ihnen \u00fcber eine vermeintliche Verletzung medizinischer Daten in einer Google Meet-Session zu informieren, die stattgefunden hat. Es k\u00f6nnte sich um ein Mangel an Verschl\u00fcsselung und Zugriffsregulierung handeln My name is [full_name].. Trotz \u00dcberpr\u00fcfungen der Firewall-Settings und des Antivirus-Programms bleibt das Problem bestehen. Ich w\u00fcrde mich sehr freuen, wenn Sie die Situation ergr\u00fcnden und schnellstm\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Falls Sie weitere Informationen ben\u00f6tigen, stehe ich Ihnen gerne zur Verf\u00fcgung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

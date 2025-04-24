@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Protocols for Secure Medical Data Storage\n\nI am reaching out to seek information on the recommended security protocols for storing medical data and enhancing the security of hospital IT infrastructure You can reach me at david.kim@corp.kr.. Could you please share the best practices for safeguarding sensitive patient information? I would greatly appreciate details on encryption techniques, access control strategies, and network security measures My name is Maria Gonzalez.. Furthermore, are there any specific regulations or standards that need to be adhered to for medical data storage? I am eager to hear from you with more details on this crucial matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        469,
+        483
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        230,
+        247
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Protocols for Secure Medical Data Storage\n\nI am reaching out to seek information on the recommended security protocols for storing medical data and enhancing the security of hospital IT infrastructure You can reach me at [email].. Could you please share the best practices for safeguarding sensitive patient information? I would greatly appreciate details on encryption techniques, access control strategies, and network security measures My name is [full_name].. Furthermore, are there any specific regulations or standards that need to be adhered to for medical data storage? I am eager to hear from you with more details on this crucial matter.",
+  "category_of_the_email": "Request"
+}

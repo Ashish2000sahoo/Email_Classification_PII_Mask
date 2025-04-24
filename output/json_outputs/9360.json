@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, m\u00f6chte ich mich in Bezug auf die Zusammenhang Gesundheitsdatensicherheitsdienstleistungen deren Implementierung in Hospital-IT-Systemen erkundigen You can reach me at maria.gonzalez@shop.es.. K\u00f6nnten Sie Details zu den Ma\u00dfnahmen geben, die ergriffen werden, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler Patientendaten zu gew\u00e4hrleisten? Freue mich auf Informationen zu Verschl\u00fcsselungsverfahren, Zugriffscontrollen und Notfallpl\u00e4nen. Zudem w\u00fcrde ich gerne erfahren, welche Zertifizierungen und Einhaltungsstandards die angebotenen Dienstleistungen erf\u00fcllen My name is Liu Wei.. Bitte geben Sie eine umfassende \u00dcbersicht der Gesundheitsdatensicherheitsdienstleistungen, die zur Integration in Hospital-IT-Systeme beitragen, einschlie\u00dflich der Datensicherung von Patientendaten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        619,
+        626
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        201,
+        223
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, m\u00f6chte ich mich in Bezug auf die Zusammenhang Gesundheitsdatensicherheitsdienstleistungen deren Implementierung in Hospital-IT-Systemen erkundigen You can reach me at [email].. K\u00f6nnten Sie Details zu den Ma\u00dfnahmen geben, die ergriffen werden, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler Patientendaten zu gew\u00e4hrleisten? Freue mich auf Informationen zu Verschl\u00fcsselungsverfahren, Zugriffscontrollen und Notfallpl\u00e4nen. Zudem w\u00fcrde ich gerne erfahren, welche Zertifizierungen und Einhaltungsstandards die angebotenen Dienstleistungen erf\u00fcllen My name is [full_name].. Bitte geben Sie eine umfassende \u00dcbersicht der Gesundheitsdatensicherheitsdienstleistungen, die zur Integration in Hospital-IT-Systeme beitragen, einschlie\u00dflich der Datensicherung von Patientendaten.",
+  "category_of_the_email": "Request"
+}

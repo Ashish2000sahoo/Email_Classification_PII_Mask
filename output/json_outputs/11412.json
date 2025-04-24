@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nKundenservice, schreiben, mehrere Softwarefehler melden, verschiedene Plattformen einstellen My name is Jane Smith.. Produktivit\u00e4tsniveaus k\u00f6nnen erheblich beeintr\u00e4chtigt werden You can reach me at carlosm@gmail.com.. Probleme k\u00f6nnten letzte Updates und Integrationsma\u00dfnahmen zusammenh\u00e4ngen. Trotz mehrerer Versuche, Probleme beheben, indem man Programme neu startet, Caches leert und Anwendungen neu installiert, konnte leider keine L\u00f6sung gefunden werden. Wir freuen uns, wenn Sie uns bei der Erkennung und Behebung der Ursachen der Fehler unterst\u00fctzen k\u00f6nnen, um die vollst\u00e4ndige Funktionalit\u00e4t der Systeme wiederherzustellen. Bitte lassen Sie uns wissen, welche Schritte Sie unternehmen k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        115,
+        125
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        210,
+        227
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nKundenservice, schreiben, mehrere Softwarefehler melden, verschiedene Plattformen einstellen My name is [full_name].. Produktivit\u00e4tsniveaus k\u00f6nnen erheblich beeintr\u00e4chtigt werden You can reach me at [email].. Probleme k\u00f6nnten letzte Updates und Integrationsma\u00dfnahmen zusammenh\u00e4ngen. Trotz mehrerer Versuche, Probleme beheben, indem man Programme neu startet, Caches leert und Anwendungen neu installiert, konnte leider keine L\u00f6sung gefunden werden. Wir freuen uns, wenn Sie uns bei der Erkennung und Behebung der Ursachen der Fehler unterst\u00fctzen k\u00f6nnen, um die vollst\u00e4ndige Funktionalit\u00e4t der Systeme wiederherzustellen. Bitte lassen Sie uns wissen, welche Schritte Sie unternehmen k\u00f6nnen.",
+  "category_of_the_email": "Incident"
+}

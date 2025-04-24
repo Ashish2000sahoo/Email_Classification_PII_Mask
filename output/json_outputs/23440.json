@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Intermittent Network Issues\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to bring to your attention a critical issue we are experiencing at our enterprise. We've been encountering intermittent network connectivity problems with our Cisco Router ISR4331. These disruptions have been ongoing and are significantly impacting our productivity and overall performance. The nature of the issue seems to suggest that the router periodically fails to maintain a stable connection, which in turn limits our capacity to effectively execute important tasks that depend on consistent network access.\n\nOur network plays a crucial role in day-to-day operations, and any downtime translates directly into loss of time and resources My name is John Doe.. Given the pivotal function of the Cisco Router ISR4331 in our network architecture, resolving this problem is of paramount importance to us. We kindly request your immediate assistance to diagnose and rectify these connectivity issues. If needed, please feel free to reach out to our technical lead, <name>, at <tel_num>.\n\nWe appreciate your prompt attention to this matter and look forward to a quick resolution. Thank you for your support.\n\nKind regards,\n\n<name>\n<company-name>\n<acc_num> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        771,
+        779
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1295,
+        1313
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        291,
+        295
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        835,
+        839
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Intermittent Network Issues\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to bring to your attention a critical issue we are experiencing at our enterprise. We've been encountering intermittent network connectivity problems with our Cisco Router ISR[phone_number]. These disruptions have been ongoing and are significantly impacting our productivity and overall performance. The nature of the issue seems to suggest that the router periodically fails to maintain a stable connection, which in turn limits our capacity to effectively execute important tasks that depend on consistent network access.\n\nOur network plays a crucial role in day-to-day operations, and any downtime translates directly into loss of time and resources My name is [full_name].. Given the pivotal function of the Cisco Router ISR[phone_number] in our network architecture, resolving this problem is of paramount importance to us. We kindly request your immediate assistance to diagnose and rectify these connectivity issues. If needed, please feel free to reach out to our technical lead, <name>, at <tel_num>.\n\nWe appreciate your prompt attention to this matter and look forward to a quick resolution. Thank you for your support.\n\nKind regards,\n\n<name>\n<company-name>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

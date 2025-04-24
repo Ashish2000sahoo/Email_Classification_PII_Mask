@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Software Crash\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich hiermit an das Problem mit meiner Datenaufbereitungssoftware wenden. Diese hat unerwartet ausgeschaltet, und ich glaube, dass es m\u00f6glicherweise an unkompatiblen Bibliotheksupdates liegt My name is Fatima Al-Farsi.. Ich habe die Software bereits neu gestartet, die Treiber aktualisiert und sie neu installiert, aber das Problem besteht weiterhin. Der Unfall trat w\u00e4hrend eines wichtigen Projektes auf, und ich bef\u00fcrchte, meine Fortschritte k\u00f6nnten verloren gehen. Es w\u00e4re sehr lieb, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten You can reach me at janesmith@company.com.. Bitte nehmen Sie Kontakt mit mir auf, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu kl\u00e4ren. Ich werde an jedem von Ihnen gew\u00fcnschten Zeitpunkt bereitstehen, um zus\u00e4tzliche Details zu liefern oder Aufgaben auszuf\u00fchren, die Sie mir zuteilen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich auf eine rasche R\u00fcckmeldung von Ihnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        266,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        674,
+        695
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Software Crash\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich hiermit an das Problem mit meiner Datenaufbereitungssoftware wenden. Diese hat unerwartet ausgeschaltet, und ich glaube, dass es m\u00f6glicherweise an unkompatiblen Bibliotheksupdates liegt My name is [full_name]-Farsi.. Ich habe die Software bereits neu gestartet, die Treiber aktualisiert und sie neu installiert, aber das Problem besteht weiterhin. Der Unfall trat w\u00e4hrend eines wichtigen Projektes auf, und ich bef\u00fcrchte, meine Fortschritte k\u00f6nnten verloren gehen. Es w\u00e4re sehr lieb, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten You can reach me at [email].. Bitte nehmen Sie Kontakt mit mir auf, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu kl\u00e4ren. Ich werde an jedem von Ihnen gew\u00fcnschten Zeitpunkt bereitstehen, um zus\u00e4tzliche Details zu liefern oder Aufgaben auszuf\u00fchren, die Sie mir zuteilen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich auf eine rasche R\u00fcckmeldung von Ihnen.",
+  "category_of_the_email": "Incident"
+}

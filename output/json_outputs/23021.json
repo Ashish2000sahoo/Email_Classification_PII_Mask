@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance Needed for Wireless Setup\n\nHello to the Customer Support Team at Tech Online Store,\n\nI am reaching out to ask for assistance in setting up the wireless compatibility of my newly purchased Canon PIXMA MG3620 printer My name is Elena Ivanova.. I've been attempting to configure it for easy mobile printing, but I've faced several challenges in the process.\n\nI followed the provided setup instructions outlined in the manual; however, I'm having trouble connecting it to my home Wi-Fi network You can reach me at fatima.farsi@help.com.. This obstacle prevents me from utilizing the mobile printing capabilities, which heavily influenced my choice to buy this product. I double-checked the correctness of my router's SSID and password during setup yet the printer cannot identify the network.\n\nAdditionally, I tried using the Canon PRINT app as advised in the troubleshooting guide, but the app fails to detect the printer despite multiple efforts. I believe there may be an issue with the network settings, or I might be missing key steps due to a lack of clear guidance on the setup process.\n\nCould you please walk me through the steps for the wireless setup or inform me of common problems that may arise during installation? I would sincerely appreciate detailed instructions or any resources that could help with this issue.\n\nThanks for your assistance.\n\nBest regards,\n\n<name>\n\n<email_address>\n\n<phone_number>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        259
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        528,
+        549
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        222,
+        226
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed for Wireless Setup\n\nHello to the Customer Support Team at Tech Online Store,\n\nI am reaching out to ask for assistance in setting up the wireless compatibility of my newly purchased Canon PIXMA MG[phone_number] printer My name is [full_name].. I've been attempting to configure it for easy mobile printing, but I've faced several challenges in the process.\n\nI followed the provided setup instructions outlined in the manual; however, I'm having trouble connecting it to my home Wi-Fi network You can reach me at [email].. This obstacle prevents me from utilizing the mobile printing capabilities, which heavily influenced my choice to buy this product. I double-checked the correctness of my router's SSID and password during setup yet the printer cannot identify the network.\n\nAdditionally, I tried using the Canon PRINT app as advised in the troubleshooting guide, but the app fails to detect the printer despite multiple efforts. I believe there may be an issue with the network settings, or I might be missing key steps due to a lack of clear guidance on the setup process.\n\nCould you please walk me through the steps for the wireless setup or inform me of common problems that may arise during installation? I would sincerely appreciate detailed instructions or any resources that could help with this issue.\n\nThanks for your assistance.\n\nBest regards,\n\n<name>\n\n<email_address>\n\n<phone_number>",
+  "category_of_the_email": "Incident"
+}

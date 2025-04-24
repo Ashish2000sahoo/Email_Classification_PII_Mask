@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve SaaS Project Management Capabilities\n\nCustomer Support, seeking to request improvements in the SaaS project management features to enhance integration with IBM SPSS and Simulink. Current functionalities are insufficient for achieving smooth collaboration among team members My name is David Kim.. We would appreciate the addition of real-time updates, automated workflows, and customizable dashboards You can reach me at omar.hassan@secure.net.. Furthermore, better compatibility with third-party tools and services would be highly advantageous. We believe such enhancements would significantly boost the overall user experience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        311
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        440,
+        462
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Improve SaaS Project Management Capabilities\n\nCustomer Support, seeking to request improvements in the SaaS project management features to enhance integration with IBM SPSS and Simulink. Current functionalities are insufficient for achieving smooth collaboration among team members My name is [full_name].. We would appreciate the addition of real-time updates, automated workflows, and customizable dashboards You can reach me at [email].. Furthermore, better compatibility with third-party tools and services would be highly advantageous. We believe such enhancements would significantly boost the overall user experience.",
+  "category_of_the_email": "Change"
+}

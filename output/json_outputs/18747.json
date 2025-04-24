@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDo you require assistance in optimizing your investments through the use of data analytics tools such as Scikit-learn and Smartsheet? We can provide detailed insights but need more information about your current setup and goals.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        277
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: \n\nDo you require assistance in optimizing your investments through the use of data analytics tools such as Scikit-learn and Smartsheet? We can provide detailed insights but need more information about your current setup and goals.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

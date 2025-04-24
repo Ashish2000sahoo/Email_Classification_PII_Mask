@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundensupport, interessiere mich nach Informationen zu digitalen Strategien, insbesondere zum Markenentwicklung mit Bezug zum Smart-Home-Kamera-Produkt. K\u00f6nnten Sie spezifischere Strategien zum Einsatz im Markenauftritt und Kundenbindung sowie Marktverbesserungen im Bereich smarthome-Sicherheit erl\u00e4utern? Ich w\u00fcrde gerne verstehen, wie angenommene Vermarktungsstrategien das Markenwachstum f\u00f6rdern und die bereitgestellten Informationen in Detail betrachten My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf eine baldige R\u00fcckmeldung You can reach me at elena.ivanova@support.org.. freundliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        490,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        604,
+        629
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundensupport, interessiere mich nach Informationen zu digitalen Strategien, insbesondere zum Markenentwicklung mit Bezug zum Smart-Home-Kamera-Produkt. K\u00f6nnten Sie spezifischere Strategien zum Einsatz im Markenauftritt und Kundenbindung sowie Marktverbesserungen im Bereich smarthome-Sicherheit erl\u00e4utern? Ich w\u00fcrde gerne verstehen, wie angenommene Vermarktungsstrategien das Markenwachstum f\u00f6rdern und die bereitgestellten Informationen in Detail betrachten My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf eine baldige R\u00fcckmeldung You can reach me at [email].. freundliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem mit der drahtlosen Verbindung des HP DeskJet 3755\n\nSehr geehrter Support des Tech Online Store, mein HP DeskJet 3755 verbindet sich nicht drahtlos mit meinem Laptop My name is Carlos Mendoza.. K\u00f6nnten Sie mir bitte helfen, dieses Problem zu l\u00f6sen? Vielen Dank. Mit freundlichen Gr\u00fc\u00dfen, <name>. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        328,
+        350
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        62,
+        66
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        129,
+        133
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der drahtlosen Verbindung des HP DeskJet [phone_number]\n\nSehr geehrter Support des Tech Online Store, mein HP DeskJet [phone_number] verbindet sich nicht drahtlos mit meinem Laptop My name is [full_name].. K\u00f6nnten Sie mir bitte helfen, dieses Problem zu l\u00f6sen? Vielen Dank. Mit freundlichen Gr\u00fc\u00dfen, <name>. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

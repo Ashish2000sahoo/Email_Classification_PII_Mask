@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Campaign Metrics Discrepancy Problem\n\nI am encountering a mismatch in my campaign metrics. The analytics data is not accurate, despite my verification of the data sources You can reach me at johndoe@email.com.. I believe there might be an error in the tracking codes My name is Jane Smith.. Could you please investigate this issue and provide a solution? Please inform me if you need any further details from me to address this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        200,
+        217
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Campaign Metrics Discrepancy Problem\n\nI am encountering a mismatch in my campaign metrics. The analytics data is not accurate, despite my verification of the data sources You can reach me at [email].. I believe there might be an error in the tracking codes My name is [full_name].. Could you please investigate this issue and provide a solution? Please inform me if you need any further details from me to address this problem.",
+  "category_of_the_email": "Problem"
+}

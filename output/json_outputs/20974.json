@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Frequent Network Disconnections Issue\n\nDear Customer Support,\n\nI hope this message finds you well My name is John Doe.. I am writing to bring to your attention a persistent issue we are experiencing with frequent network disconnections. After conducting a thorough investigation, we have determined that these disruptions are caused by a configuration issue in our Cisco Router ISR4331, which is critical to our network operations.\n\nThe issue manifests as intermittent network connectivity loss, impacting both our internal and external communications severely. These disconnections are becoming increasingly disruptive to our operations, leading to a decline in productivity and possibly affecting our service delivery.\n\nWe suspect that the current Cisco Router ISR4331 configuration might not be optimized for our specific network demands or there may be an underlying firmware or compatibility issue You can reach me at david.kim@corp.kr.. As this is beyond our expertise, we kindly request your immediate assistance to diagnose and recommend a solution to this problem.\n\nPlease let us know at your earliest convenience how we can proceed to resolve this matter efficiently. Should you need to reach out for further information or remote diagnostics, you can contact me directly.\n\nThank you for your prompt attention to this important issue.\n\nBest regards,\n\n<name>\n<email_address>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        126
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        935,
+        952
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        393,
+        397
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        778,
+        782
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Frequent Network Disconnections Issue\n\nDear Customer Support,\n\nI hope this message finds you well My name is [full_name].. I am writing to bring to your attention a persistent issue we are experiencing with frequent network disconnections. After conducting a thorough investigation, we have determined that these disruptions are caused by a configuration issue in our Cisco Router ISR[phone_number], which is critical to our network operations.\n\nThe issue manifests as intermittent network connectivity loss, impacting both our internal and external communications severely. These disconnections are becoming increasingly disruptive to our operations, leading to a decline in productivity and possibly affecting our service delivery.\n\nWe suspect that the current Cisco Router ISR[phone_number] configuration might not be optimized for our specific network demands or there may be an underlying firmware or compatibility issue You can reach me at [email].. As this is beyond our expertise, we kindly request your immediate assistance to diagnose and recommend a solution to this problem.\n\nPlease let us know at your earliest convenience how we can proceed to resolve this matter efficiently. Should you need to reach out for further information or remote diagnostics, you can contact me directly.\n\nThank you for your prompt attention to this important issue.\n\nBest regards,\n\n<name>\n<email_address>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

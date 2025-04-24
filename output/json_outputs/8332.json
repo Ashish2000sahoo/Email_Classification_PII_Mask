@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, seeking to explore solutions for securing medical data to enhance hospital security. Could you provide details on the measures your company has implemented to protect sensitive patient information and prevent data breaches? I would greatly appreciate information on any compliance certifications your company holds, such as HIPAA You can reach me at elena.ivanova@support.org.. Additionally, I am interested in learning more about your security services, including network monitoring, threat detection, and incident response My name is Maria Gonzalez.. Please let me know if you have any case studies or whitepapers available.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        565,
+        579
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        379,
+        404
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, seeking to explore solutions for securing medical data to enhance hospital security. Could you provide details on the measures your company has implemented to protect sensitive patient information and prevent data breaches? I would greatly appreciate information on any compliance certifications your company holds, such as HIPAA You can reach me at [email].. Additionally, I am interested in learning more about your security services, including network monitoring, threat detection, and incident response My name is [full_name].. Please let me know if you have any case studies or whitepapers available.",
+  "category_of_the_email": "Request"
+}

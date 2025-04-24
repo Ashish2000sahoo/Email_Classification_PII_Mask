@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, I am facing connectivity issues with my Streaming-Kamera while using a WLAN-Router. The problem might be due to network configuration errors. I have already rebooted the devices and checked the network settings, but the issue still persists. I am unable to establish a stable connection. I would greatly appreciate any troubleshooting steps or guidance you could provide to help resolve this issue. I have tried restarting the devices, checking the network cables, and ensuring that the Wi-Fi network is stable, but the problem remains unresolved My name is Carlos Mendoza.. Could you assist with troubleshooting? You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        587,
+        601
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        660,
+        677
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, I am facing connectivity issues with my Streaming-Kamera while using a WLAN-Router. The problem might be due to network configuration errors. I have already rebooted the devices and checked the network settings, but the issue still persists. I am unable to establish a stable connection. I would greatly appreciate any troubleshooting steps or guidance you could provide to help resolve this issue. I have tried restarting the devices, checking the network cables, and ensuring that the Wi-Fi network is stable, but the problem remains unresolved My name is [full_name].. Could you assist with troubleshooting? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

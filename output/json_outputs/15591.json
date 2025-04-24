@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Recent Software Update\n\nProject management features have been affected by the recent update You can reach me at david.kim@corp.kr.. Compatibility problems with hardware products are suspected My name is Maria Gonzalez.. I have already checked the software settings and reinstalled the drivers, but the issue still persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        237
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        132,
+        149
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Recent Software Update\n\nProject management features have been affected by the recent update You can reach me at [email].. Compatibility problems with hardware products are suspected My name is [full_name].. I have already checked the software settings and reinstalled the drivers, but the issue still persists.",
+  "category_of_the_email": "Incident"
+}

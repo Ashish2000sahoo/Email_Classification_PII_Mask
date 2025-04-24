@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Campaign Metrics Update\n\nHere is a brief description of the issue:\\n**What happened:** Campaign metrics are not updating accurately.\\n**Possible cause:** Potential integration malfunction between Asana and Microsoft Teams.\\n**Actions taken:** Restarted the systems and verified API connections.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        355
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Campaign Metrics Update\n\nHere is a brief description of the issue:\\n**What happened:** Campaign metrics are not updating accurately.\\n**Possible cause:** Potential integration malfunction between Asana and Microsoft Teams.\\n**Actions taken:** Restarted the systems and verified API connections.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

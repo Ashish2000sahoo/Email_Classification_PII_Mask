@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: High Priority Request for Assistance\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to submit a high priority request regarding your IT Consulting Service. Our company, <name> Corporation, is seeking immediate assistance to customize and optimize our current IT software to improve efficiency and facilitate better technology integration and management within our organization.\n\nIn recent months, we have encountered several challenges while trying to integrate new technologies with our existing systems. Due to the dynamic nature of our business, it is imperative for us to ensure seamless integration of all IT systems and technologies My name is Omar Hassan.. The current setup is proving inefficient and is causing disruptions in our operations You can reach me at liuwei@business.cn.. Your expertise in IT consulting has been highly recommended by several peers, and we sincerely hope that your team can assist us in addressing these critical issues.\n\nWe are prepared to discuss this matter at your earliest convenience and provide any additional information needed for you to assist us effectively. Please contact me directly at <tel_num> or email me at <email_address> for a detailed discussion.\n\nThank you for your prompt attention to this urgent matter.\n\nBest regards,\n\n<name>\n<name> Corporation",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        691,
+        702
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        811,
+        829
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: High Priority Request for Assistance\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to submit a high priority request regarding your IT Consulting Service. Our company, <name> Corporation, is seeking immediate assistance to customize and optimize our current IT software to improve efficiency and facilitate better technology integration and management within our organization.\n\nIn recent months, we have encountered several challenges while trying to integrate new technologies with our existing systems. Due to the dynamic nature of our business, it is imperative for us to ensure seamless integration of all IT systems and technologies My name is [full_name].. The current setup is proving inefficient and is causing disruptions in our operations You can reach me at [email].. Your expertise in IT consulting has been highly recommended by several peers, and we sincerely hope that your team can assist us in addressing these critical issues.\n\nWe are prepared to discuss this matter at your earliest convenience and provide any additional information needed for you to assist us effectively. Please contact me directly at <tel_num> or email me at <email_address> for a detailed discussion.\n\nThank you for your prompt attention to this urgent matter.\n\nBest regards,\n\n<name>\n<name> Corporation",
+  "category_of_the_email": "Change"
+}

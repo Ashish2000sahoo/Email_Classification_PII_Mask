@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud urgente de servicio de consultor\u00eda de TI\n\nEstimado soporte de servicios de TI,\n\nEstoy escribiendo para expresar una solicitud de alta prioridad para la consultor\u00eda de servicios de TI relacionada con nuestro sistema de tickets y la asistencia en la administraci\u00f3n del servidor. Nuestro servicio de consultor\u00eda de TI ha encontrado m\u00faltiples problemas que necesitan atenci\u00f3n inmediata.\n\nPrimero, nuestro sistema de tickets est\u00e1 experimentando actualmente retrasos e interrupciones, lo que impacta significativamente en la productividad You can reach me at omar.hassan@secure.net.. Adem\u00e1s, hay varias preocupaciones sobre la gesti\u00f3n de servidores que nuestro equipo no puede resolver sin una orientaci\u00f3n experta.\n\nPor favor, trate esta solicitud con la urgencia que requiere My name is Jane Smith.. Esperamos una respuesta r\u00e1pida y esperamos asistencia inmediata para abordar estos problemas cr\u00edticos.\n\nGracias por su r\u00e1pida atenci\u00f3n.\n\nAtentamente,\n\n<name>\n<company>\nContacto: <tel_num>\nCuenta: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        801,
+        811
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        572,
+        594
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Solicitud urgente de servicio de consultor\u00eda de TI\n\nEstimado soporte de servicios de TI,\n\nEstoy escribiendo para expresar una solicitud de alta prioridad para la consultor\u00eda de servicios de TI relacionada con nuestro sistema de tickets y la asistencia en la administraci\u00f3n del servidor. Nuestro servicio de consultor\u00eda de TI ha encontrado m\u00faltiples problemas que necesitan atenci\u00f3n inmediata.\n\nPrimero, nuestro sistema de tickets est\u00e1 experimentando actualmente retrasos e interrupciones, lo que impacta significativamente en la productividad You can reach me at [email].. Adem\u00e1s, hay varias preocupaciones sobre la gesti\u00f3n de servidores que nuestro equipo no puede resolver sin una orientaci\u00f3n experta.\n\nPor favor, trate esta solicitud con la urgencia que requiere My name is [full_name].. Esperamos una respuesta r\u00e1pida y esperamos asistencia inmediata para abordar estos problemas cr\u00edticos.\n\nGracias por su r\u00e1pida atenci\u00f3n.\n\nAtentamente,\n\n<name>\n<company>\nContacto: <tel_num>\nCuenta: <acc_num>",
+  "category_of_the_email": "Incident"
+}

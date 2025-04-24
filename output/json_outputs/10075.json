@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Elasticsearch Integration Cost Information\n\nI am eager to integrate Elasticsearch into your cloud service. Could you provide me with the cost details and any other essential information required to begin? Additionally, please inform me if there are any ongoing offers or promotions available My name is Carlos Mendoza.. I would be grateful if you could contact me at the provided telephone number to discuss these matters at your earliest convenience. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        326
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        478,
+        503
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Elasticsearch Integration Cost Information\n\nI am eager to integrate Elasticsearch into your cloud service. Could you provide me with the cost details and any other essential information required to begin? Additionally, please inform me if there are any ongoing offers or promotions available My name is [full_name].. I would be grateful if you could contact me at the provided telephone number to discuss these matters at your earliest convenience. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

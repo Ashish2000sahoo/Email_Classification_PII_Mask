@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Unpaid Invoices for Software Licenses\n\nDear Customer Support, I am writing to report an issue with unpaid invoices for our software licenses. It seems there might have been a mistake with the billing details which led to the invoices not being paid. I have attempted to contact customer support through email, but have not received a solution yet You can reach me at liuwei@business.cn.. I would be grateful if you could investigate this matter and provide a resolution at your earliest convenience. Please inform me if you need any additional information from me to address this issue. Thank you for your attention and assistance. I am looking forward to your response. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        707,
+        716
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        392,
+        410
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Unpaid Invoices for Software Licenses\n\nDear Customer Support, I am writing to report an issue with unpaid invoices for our software licenses. It seems there might have been a mistake with the billing details which led to the invoices not being paid. I have attempted to contact customer support through email, but have not received a solution yet You can reach me at [email].. I would be grateful if you could investigate this matter and provide a resolution at your earliest convenience. Please inform me if you need any additional information from me to address this issue. Thank you for your attention and assistance. I am looking forward to your response. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

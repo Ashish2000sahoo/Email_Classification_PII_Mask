@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Software Integration Tools\n\nEncountered difficulties with the integration of project management software. Despite updates to IBM SPSS Statistics 28 and Laravel 8, integration challenges continue. After reviewing documentation and forums, no solution was found. Urgently need help to resolve this issue My name is Maria Gonzalez.. Kindly provide more details on the errors and steps taken so far. Would appreciate a call to discuss the problem at your earliest convenience You can reach me at fatima.farsi@help.com.. Please inform me of a suitable time for the call: <tel_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        351
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        513,
+        534
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Software Integration Tools\n\nEncountered difficulties with the integration of project management software. Despite updates to IBM SPSS Statistics 28 and Laravel 8, integration challenges continue. After reviewing documentation and forums, no solution was found. Urgently need help to resolve this issue My name is [full_name].. Kindly provide more details on the errors and steps taken so far. Would appreciate a call to discuss the problem at your earliest convenience You can reach me at [email].. Please inform me of a suitable time for the call: <tel_num>.",
+  "category_of_the_email": "Problem"
+}

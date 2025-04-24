@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Slow Response Issues\n\nexperienced sluggish performance in the project management SaaS application because of heightened user activity and limited resources.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        203
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Slow Response Issues\n\nexperienced sluggish performance in the project management SaaS application because of heightened user activity and limited resources.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

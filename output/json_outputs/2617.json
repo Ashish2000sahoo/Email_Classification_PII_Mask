@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Request for Software Functionality Issue\n\nMarketing Agency Experiencing Malfunctions with Digital Strategies.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Software Functionality Issue\n\nMarketing Agency Experiencing Malfunctions with Digital Strategies.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

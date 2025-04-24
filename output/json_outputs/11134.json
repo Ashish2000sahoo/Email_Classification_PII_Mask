@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Digital Brand Expansion Strategies\n\nCustomer Support, exploring digital strategies for brand growth My name is Jane Smith.. Kindly share details on the methods and techniques used to increase brand awareness and reach a wider audience. Particularly interested in learning about social media marketing efforts and how to measure the success of campaigns You can reach me at sophia.rossi@service.it.. Additionally, would like to understand the content creation process to ensure that the content is engaging and relevant to the target audience. Believing that an understanding of these digital strategies will be beneficial.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        129,
+        139
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        392,
+        415
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Query on Digital Brand Expansion Strategies\n\nCustomer Support, exploring digital strategies for brand growth My name is [full_name].. Kindly share details on the methods and techniques used to increase brand awareness and reach a wider audience. Particularly interested in learning about social media marketing efforts and how to measure the success of campaigns You can reach me at [email].. Additionally, would like to understand the content creation process to ensure that the content is engaging and relevant to the target audience. Believing that an understanding of these digital strategies will be beneficial.",
+  "category_of_the_email": "Request"
+}

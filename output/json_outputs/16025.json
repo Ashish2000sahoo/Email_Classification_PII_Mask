@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Dashboard Crashed Unpredictably Today\n\nGreetings from customer support You can reach me at johndoe@email.com.. I am currently reporting a problem with our data analytics dashboard. It suddenly malfunctioned, and we are unable to access any data at the moment. We believe this might be due to an incompatibility between the Node.js and Redis versions. We have already attempted to restart the server and reviewed our dependencies, yet the problem remains unresolved. We would be very grateful if you could examine this issue and offer a solution at the earliest convenience. If you require any additional information from us to address the situation, please let us know. We thank you for your time and assistance and eagerly await your response. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        780,
+        791
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        115,
+        132
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Dashboard Crashed Unpredictably Today\n\nGreetings from customer support You can reach me at [email].. I am currently reporting a problem with our data analytics dashboard. It suddenly malfunctioned, and we are unable to access any data at the moment. We believe this might be due to an incompatibility between the Node.js and Redis versions. We have already attempted to restart the server and reviewed our dependencies, yet the problem remains unresolved. We would be very grateful if you could examine this issue and offer a solution at the earliest convenience. If you require any additional information from us to address the situation, please let us know. We thank you for your time and assistance and eagerly await your response. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

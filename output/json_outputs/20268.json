@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes avec le MacBook Air M1 qui plante\n\nCher service client du Tech Online Store,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous contacte pour discuter d'un probl\u00e8me r\u00e9current que je rencontre avec mon MacBook Air M1, que j'ai achet\u00e9 dans votre magasin en mars de cette ann\u00e9e. Lors des appels vid\u00e9o, l'ordinateur portable plante de mani\u00e8re inattendue, en particulier lors de l'utilisation d'applications de conf\u00e9rence populaires comme Zoom, Microsoft Teams et Google Meet.\n\nCe probl\u00e8me entrave s\u00e9v\u00e8rement ma capacit\u00e9 \u00e0 mener des r\u00e9unions quotidiennes et \u00e0 collaborer efficacement dans un environnement professionnel, impactant ma productivit\u00e9 et ma performance. J'ai tent\u00e9 diverses mesures de d\u00e9pannage, y compris le r\u00e9initialisation des applications, la mise \u00e0 jour vers la derni\u00e8re version de macOS, et m\u00eame la r\u00e9installation du syst\u00e8me d'exploitation, mais le probl\u00e8me persiste.\n\n\u00c9tant donn\u00e9 qu'il s'agit d'un outil critique pour ma communication professionnelle et personnelle, je souhaite trouver une solution dans les plus brefs d\u00e9lais My name is Maria Gonzalez.. Pourriez-vous me conseiller s'il y a eu des rapports similaires et s'il existe un correctif mis \u00e0 jour ou une solution mat\u00e9rielle disponible ? De plus, une inspection de garantie ou un remplacement serait-il envisag\u00e9 dans les circonstances donn\u00e9es ?\n\nMerci pour votre attention \u00e0 ce sujet, et j'attends votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1071,
+        1085
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1453,
+        1471
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes avec le MacBook Air M1 qui plante\n\nCher service client du Tech Online Store,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous contacte pour discuter d'un probl\u00e8me r\u00e9current que je rencontre avec mon MacBook Air M1, que j'ai achet\u00e9 dans votre magasin en mars de cette ann\u00e9e. Lors des appels vid\u00e9o, l'ordinateur portable plante de mani\u00e8re inattendue, en particulier lors de l'utilisation d'applications de conf\u00e9rence populaires comme Zoom, Microsoft Teams et Google Meet.\n\nCe probl\u00e8me entrave s\u00e9v\u00e8rement ma capacit\u00e9 \u00e0 mener des r\u00e9unions quotidiennes et \u00e0 collaborer efficacement dans un environnement professionnel, impactant ma productivit\u00e9 et ma performance. J'ai tent\u00e9 diverses mesures de d\u00e9pannage, y compris le r\u00e9initialisation des applications, la mise \u00e0 jour vers la derni\u00e8re version de macOS, et m\u00eame la r\u00e9installation du syst\u00e8me d'exploitation, mais le probl\u00e8me persiste.\n\n\u00c9tant donn\u00e9 qu'il s'agit d'un outil critique pour ma communication professionnelle et personnelle, je souhaite trouver une solution dans les plus brefs d\u00e9lais My name is [full_name].. Pourriez-vous me conseiller s'il y a eu des rapports similaires et s'il existe un correctif mis \u00e0 jour ou une solution mat\u00e9rielle disponible ? De plus, une inspection de garantie ou un remplacement serait-il envisag\u00e9 dans les circonstances donn\u00e9es ?\n\nMerci pour votre attention \u00e0 ce sujet, et j'attends votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Se requiere soluci\u00f3n de problemas para problemas de conectividad intermitente\n\nEstimado Soporte al Cliente,\n\nEstoy escribiendo para solicitar ayuda con problemas de conectividad intermitente en nuestro Router Cisco ISR4331, que forma parte de nuestra red empresarial. Hemos observado interrupciones peri\u00f3dicas en la conectividad de red que afectan nuestras operaciones en general My name is Jane Smith.. Esto ha estado impactando nuestra productividad, y requerimos su apoyo experto en la soluci\u00f3n de problemas para resolver el problema de la manera m\u00e1s efectiva posible.\n\nPor favor, h\u00e1ganos saber los pr\u00f3ximos pasos para diagnosticar el problema y cualquier informaci\u00f3n adicional que pueda necesitar de nuestra parte. Esperamos su pronta asistencia en este asunto.\n\nGracias,\n<name>\n<name>@<company>.com\n You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        400,
+        410
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        835,
+        857
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        227,
+        231
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Se requiere soluci\u00f3n de problemas para problemas de conectividad intermitente\n\nEstimado Soporte al Cliente,\n\nEstoy escribiendo para solicitar ayuda con problemas de conectividad intermitente en nuestro Router Cisco ISR[phone_number], que forma parte de nuestra red empresarial. Hemos observado interrupciones peri\u00f3dicas en la conectividad de red que afectan nuestras operaciones en general My name is [full_name].. Esto ha estado impactando nuestra productividad, y requerimos su apoyo experto en la soluci\u00f3n de problemas para resolver el problema de la manera m\u00e1s efectiva posible.\n\nPor favor, h\u00e1ganos saber los pr\u00f3ximos pasos para diagnosticar el problema y cualquier informaci\u00f3n adicional que pueda necesitar de nuestra parte. Esperamos su pronta asistencia en este asunto.\n\nGracias,\n<name>\n<name>@<company>.com\n You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Data Compromise\n\nA data breach has been detected, which could potentially compromise sensitive medical data. This might have occurred due to outdated security protocols. Initial steps to secure the data included running antivirus scans and reviewing access logs for any irregular activities. Assistance is required to fully mitigate the issue and prevent future breaches My name is Sophia Rossi.. Please provide guidance on the necessary steps to take. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        411,
+        423
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        501,
+        518
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Data Compromise\n\nA data breach has been detected, which could potentially compromise sensitive medical data. This might have occurred due to outdated security protocols. Initial steps to secure the data included running antivirus scans and reviewing access logs for any irregular activities. Assistance is required to fully mitigate the issue and prevent future breaches My name is [full_name].. Please provide guidance on the necessary steps to take. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

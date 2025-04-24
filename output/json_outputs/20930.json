@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Atrasos na Resposta no Servi\u00e7o de Consultoria em TI\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para chamar sua aten\u00e7\u00e3o para um problema que estamos enfrentando atualmente com o Servi\u00e7o de Consultoria em TI fornecido por sua empresa. Tem havido atrasos percept\u00edveis nos tempos de resposta que est\u00e3o afetando significativamente nossas opera\u00e7\u00f5es My name is Omar Hassan.. Nossa equipe tem confiado nesses servi\u00e7os para uma implementa\u00e7\u00e3o eficiente de projetos, e os longos tempos de espera est\u00e3o afetando nossa produtividade e satisfa\u00e7\u00e3o do cliente.\n\nVoc\u00ea pode, por favor, iniciar uma investiga\u00e7\u00e3o para entender a causa raiz desses atrasos e nos fornecer um cronograma estimado para quando podemos esperar resolu\u00e7\u00f5es ou melhorias? Valorizamos a experi\u00eancia e o suporte de sua equipe e entendemos que atrasos ocasionais podem ocorrer, mas a comunica\u00e7\u00e3o e resolu\u00e7\u00e3o em tempo h\u00e1bil s\u00e3o cruciais para manter nossos cronogramas de projeto.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n\n<name>\n<acc_num>\n<tel_num> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        414,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1105,
+        1122
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Atrasos na Resposta no Servi\u00e7o de Consultoria em TI\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para chamar sua aten\u00e7\u00e3o para um problema que estamos enfrentando atualmente com o Servi\u00e7o de Consultoria em TI fornecido por sua empresa. Tem havido atrasos percept\u00edveis nos tempos de resposta que est\u00e3o afetando significativamente nossas opera\u00e7\u00f5es My name is [full_name].. Nossa equipe tem confiado nesses servi\u00e7os para uma implementa\u00e7\u00e3o eficiente de projetos, e os longos tempos de espera est\u00e3o afetando nossa produtividade e satisfa\u00e7\u00e3o do cliente.\n\nVoc\u00ea pode, por favor, iniciar uma investiga\u00e7\u00e3o para entender a causa raiz desses atrasos e nos fornecer um cronograma estimado para quando podemos esperar resolu\u00e7\u00f5es ou melhorias? Valorizamos a experi\u00eancia e o suporte de sua equipe e entendemos que atrasos ocasionais podem ocorrer, mas a comunica\u00e7\u00e3o e resolu\u00e7\u00e3o em tempo h\u00e1bil s\u00e3o cruciais para manter nossos cronogramas de projeto.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n\n<name>\n<acc_num>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

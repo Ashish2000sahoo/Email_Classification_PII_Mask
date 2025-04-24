@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerlaubtes Zugriffsbem\u00fchen auf medizinische Daten\n\nEs wurde ein unerlaubtes Zugriffsbem\u00fchen auf das medizinische Daten_system des Krankenhauses festgestellt My name is Maria Gonzalez.. Ein kompromittiertes Mitarbeiterkonto wurde identifiziert, und die Nutzernamen und Passw\u00f6rter wurden zur\u00fcckgesetzt. Zudem wurden die Feuerwallerinstellungen aktualisiert, um die Sicherheit zu verbessern. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        416,
+        439
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unerlaubtes Zugriffsbem\u00fchen auf medizinische Daten\n\nEs wurde ein unerlaubtes Zugriffsbem\u00fchen auf das medizinische Daten_system des Krankenhauses festgestellt My name is [full_name].. Ein kompromittiertes Mitarbeiterkonto wurde identifiziert, und die Nutzernamen und Passw\u00f6rter wurden zur\u00fcckgesetzt. Zudem wurden die Feuerwallerinstellungen aktualisiert, um die Sicherheit zu verbessern. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

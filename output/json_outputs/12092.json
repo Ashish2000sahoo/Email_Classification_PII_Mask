@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Integration in Finanzinstituts-Datenanalyseplattform\n\nThere are issues with integrating multiple software products into our Finanzinstituts-Datenanalyseplattform. These problems seem to be due to recent updates and configuration changes. We have already restarted the applications and checked network connections, but a solution has not yet been found. The issue is causing delays in daily operations and affecting our ability to make informed decisions My name is David Kim.. We would be very grateful if you could support us in quickly resolving this problem. Please inform us if you need further details or steps to take to address the issue. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        490,
+        499
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        693,
+        714
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Integration in Finanzinstituts-Datenanalyseplattform\n\nThere are issues with integrating multiple software products into our Finanzinstituts-Datenanalyseplattform. These problems seem to be due to recent updates and configuration changes. We have already restarted the applications and checked network connections, but a solution has not yet been found. The issue is causing delays in daily operations and affecting our ability to make informed decisions My name is [full_name].. We would be very grateful if you could support us in quickly resolving this problem. Please inform us if you need further details or steps to take to address the issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

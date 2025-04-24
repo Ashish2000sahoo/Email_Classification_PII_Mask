@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Optimizing Data Analytics with Adobe Illustrator CC 2021\n\nI have a query regarding the optimization of data analytics using Adobe Illustrator CC 2021 for investment strategies My name is John Doe.. Could you provide detailed guidance on how to effectively utilize the software for its intended purpose? I would greatly appreciate any tips or practices that you can share You can reach me at elena.ivanova@support.org.. Additionally, I would like to know which specific features or tools within Adobe Illustrator could be beneficial for data analysis and visualization in investment strategies.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        403,
+        428
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        61,
+        65
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        154,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Optimizing Data Analytics with Adobe Illustrator CC [phone_number]\n\nI have a query regarding the optimization of data analytics using Adobe Illustrator CC [phone_number] for investment strategies My name is [full_name].. Could you provide detailed guidance on how to effectively utilize the software for its intended purpose? I would greatly appreciate any tips or practices that you can share You can reach me at [email].. Additionally, I would like to know which specific features or tools within Adobe Illustrator could be beneficial for data analysis and visualization in investment strategies.",
+  "category_of_the_email": "Request"
+}

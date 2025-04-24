@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Scanner's Record Upload\n\nThe scanner is not functioning correctly and is unable to upload medical records. I have already restarted the scanner, updated the drivers, and checked the antivirus settings, yet the issue remains. It's possible that the driver is outdated or there is a conflict with other software My name is Omar Hassan.. I require assistance to fix this problem. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        354
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        419,
+        440
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Scanner's Record Upload\n\nThe scanner is not functioning correctly and is unable to upload medical records. I have already restarted the scanner, updated the drivers, and checked the antivirus settings, yet the issue remains. It's possible that the driver is outdated or there is a conflict with other software My name is [full_name].. I require assistance to fix this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

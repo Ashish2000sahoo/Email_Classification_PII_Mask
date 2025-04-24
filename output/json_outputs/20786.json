@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o para Alterar o Processo de Administra\u00e7\u00e3o do Servidor\n\nCaro time de Suporte de Consultoria de TI,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar uma avalia\u00e7\u00e3o e altera\u00e7\u00e3o do nosso atual processo de administra\u00e7\u00e3o do servidor. Acreditamos que melhorar esses protocolos resultar\u00e1 em opera\u00e7\u00f5es mais eficientes e solu\u00e7\u00f5es de TI aprimoradas no geral My name is Omar Hassan.. Tornar esses processos mais simples \u00e9 vital para manter servi\u00e7os de consultoria de alta qualidade e responder mais rapidamente \u00e0s necessidades dos clientes You can reach me at liuwei@business.cn.. Por favor, nos informe sobre os pr\u00f3ximos passos para iniciar essa mudan\u00e7a e aumentar nossa produtividade de forma eficaz.\n\nAguardando sua resposta r\u00e1pida.\n\nObrigado.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        402,
+        413
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        592,
+        610
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o para Alterar o Processo de Administra\u00e7\u00e3o do Servidor\n\nCaro time de Suporte de Consultoria de TI,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar uma avalia\u00e7\u00e3o e altera\u00e7\u00e3o do nosso atual processo de administra\u00e7\u00e3o do servidor. Acreditamos que melhorar esses protocolos resultar\u00e1 em opera\u00e7\u00f5es mais eficientes e solu\u00e7\u00f5es de TI aprimoradas no geral My name is [full_name].. Tornar esses processos mais simples \u00e9 vital para manter servi\u00e7os de consultoria de alta qualidade e responder mais rapidamente \u00e0s necessidades dos clientes You can reach me at [email].. Por favor, nos informe sobre os pr\u00f3ximos passos para iniciar essa mudan\u00e7a e aumentar nossa produtividade de forma eficaz.\n\nAguardando sua resposta r\u00e1pida.\n\nObrigado.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Change"
+}

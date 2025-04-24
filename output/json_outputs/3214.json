@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlerbericht zur Projektmanagement-Software\n\nDie Projektmanagement-SaaS-Software bricht pl\u00f6tzlich ab, da das inkompatible Elasticsearch 7.13-Update gewendet wird My name is Liu Wei.. Ich habe bereits mein System neu gestartet, die Logs gepr\u00fcft und Abh\u00e4ngigkeiten aktualisiert, aber das Problem blieb bestehen You can reach me at sophia.rossi@service.it.. Bitte helfen Sie mir, dieses Problem zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        343,
+        366
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Fehlerbericht zur Projektmanagement-Software\n\nDie Projektmanagement-SaaS-Software bricht pl\u00f6tzlich ab, da das inkompatible Elasticsearch 7.13-Update gewendet wird My name is [full_name].. Ich habe bereits mein System neu gestartet, die Logs gepr\u00fcft und Abh\u00e4ngigkeiten aktualisiert, aber das Problem blieb bestehen You can reach me at [email].. Bitte helfen Sie mir, dieses Problem zu beheben.",
+  "category_of_the_email": "Incident"
+}

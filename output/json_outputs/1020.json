@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Breach in Patient Records Discovered\n\nRespected Customer Support,\\n\\nA data breach has affected patient records in our system, likely due to an outdated software vulnerability. We have swiftly restarted our systems, updated patches, and reviewed our firewall settings. However, we seek your guidance to thoroughly investigate this issue and implement enhanced security measures to prevent similar occurrences My name is Sophia Rossi.. Could you provide a comprehensive plan of action and any required support to address this situation? We are concerned about the potential implications of this breach and are committed to protecting our patients' information You can reach me at sophia.rossi@service.it.. We await your prompt response and are eager to hear from you soon.\\n\\nThank you for your attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        692,
+        715
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Data Breach in Patient Records Discovered\n\nRespected Customer Support,\\n\\nA data breach has affected patient records in our system, likely due to an outdated software vulnerability. We have swiftly restarted our systems, updated patches, and reviewed our firewall settings. However, we seek your guidance to thoroughly investigate this issue and implement enhanced security measures to prevent similar occurrences My name is [full_name].. Could you provide a comprehensive plan of action and any required support to address this situation? We are concerned about the potential implications of this breach and are committed to protecting our patients' information You can reach me at [email].. We await your prompt response and are eager to hear from you soon.\\n\\nThank you for your attention to this matter.",
+  "category_of_the_email": "Incident"
+}

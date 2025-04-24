@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Laravel Application\n\nWe are facing connectivity issues with the Laravel app.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        121,
+        136
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Problem with Laravel Application\n\nWe are facing connectivity issues with the Laravel app.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

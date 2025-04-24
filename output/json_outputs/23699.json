@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the delivery of Samsung Galaxy S21 Ultra\n\nI am facing a delivery problem regarding my recent order of the Samsung Galaxy S21 Ultra. Even though the expected delivery date has passed, I still have not received my package My name is Maria Gonzalez.. My order number is <ord_num> You can reach me at janesmith@company.com.. Kindly assist me in resolving this matter at your earliest convenience. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        267
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        316,
+        337
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with the delivery of Samsung Galaxy S21 Ultra\n\nI am facing a delivery problem regarding my recent order of the Samsung Galaxy S21 Ultra. Even though the expected delivery date has passed, I still have not received my package My name is [full_name].. My order number is <ord_num> You can reach me at [email].. Kindly assist me in resolving this matter at your earliest convenience. Thank you.",
+  "category_of_the_email": "Problem"
+}

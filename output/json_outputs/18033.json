@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme bei der API-Integration: Protokolle Heute\n\nProbleme bei der Integration in die Software-as-a-Service-Plattform durch neue Authentifizierungs\u00e4nderungen. API-Integration beeintr\u00e4chtigt Google Translate, DeepL und Microsoft Office.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        269,
+        285
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der API-Integration: Protokolle Heute\n\nProbleme bei der Integration in die Software-as-a-Service-Plattform durch neue Authentifizierungs\u00e4nderungen. API-Integration beeintr\u00e4chtigt Google Translate, DeepL und Microsoft Office.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

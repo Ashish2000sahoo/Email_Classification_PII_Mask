@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consulta Sobre Consultoria de TI\n\nCaro Suporte ao Cliente de Servi\u00e7os de TI,\n\nEstou escrevendo para perguntar sobre as ofertas de Servi\u00e7os de Consultoria de TI e como elas podem beneficiar minhas necessidades gerais de neg\u00f3cios My name is Sophia Rossi.. Especificamente, gostaria de entender mais sobre a gama de servi\u00e7os que voc\u00eas oferecem na \u00e1rea de Consultoria de TI e como esses podem ser ajustados para melhorar as opera\u00e7\u00f5es da minha empresa You can reach me at carlosm@gmail.com.. Seria \u00fatil obter informa\u00e7\u00f5es detalhadas sobre sua abordagem para integrar solu\u00e7\u00f5es tecnol\u00f3gicas e qualquer caso de sucesso que demonstre melhorias tang\u00edveis nos neg\u00f3cios.\n\nAl\u00e9m disso, por favor, forne\u00e7a insights sobre as estruturas de custo e como o valor do seu servi\u00e7o justifica o investimento. Qualquer brochura ou recurso que voc\u00ea puder compartilhar seria muito apreciado.\n\nObrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        260
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        475,
+        492
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Consulta Sobre Consultoria de TI\n\nCaro Suporte ao Cliente de Servi\u00e7os de TI,\n\nEstou escrevendo para perguntar sobre as ofertas de Servi\u00e7os de Consultoria de TI e como elas podem beneficiar minhas necessidades gerais de neg\u00f3cios My name is [full_name].. Especificamente, gostaria de entender mais sobre a gama de servi\u00e7os que voc\u00eas oferecem na \u00e1rea de Consultoria de TI e como esses podem ser ajustados para melhorar as opera\u00e7\u00f5es da minha empresa You can reach me at [email].. Seria \u00fatil obter informa\u00e7\u00f5es detalhadas sobre sua abordagem para integrar solu\u00e7\u00f5es tecnol\u00f3gicas e qualquer caso de sucesso que demonstre melhorias tang\u00edveis nos neg\u00f3cios.\n\nAl\u00e9m disso, por favor, forne\u00e7a insights sobre as estruturas de custo e como o valor do seu servi\u00e7o justifica o investimento. Qualquer brochura ou recurso que voc\u00ea puder compartilhar seria muito apreciado.\n\nObrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n<name>\n<acc_num>",
+  "category_of_the_email": "Request"
+}

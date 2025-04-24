@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Nachricht an den Kundendienst\n\nDas Projektmanagement-Tool ist unerwartet aufgrund einer unkompatiblen Cisco IOS-Aktualisierung abgest\u00fcrzt. Nach dem Neustart der Server und der \u00dcberpr\u00fcfung der Chef-Konfigurationen ist das Problem jedoch weiterhin bestehen geblieben.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        297,
+        314
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Nachricht an den Kundendienst\n\nDas Projektmanagement-Tool ist unerwartet aufgrund einer unkompatiblen Cisco IOS-Aktualisierung abgest\u00fcrzt. Nach dem Neustart der Server und der \u00dcberpr\u00fcfung der Chef-Konfigurationen ist das Problem jedoch weiterhin bestehen geblieben.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

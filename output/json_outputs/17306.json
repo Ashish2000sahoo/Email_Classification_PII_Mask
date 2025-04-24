@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for Data Analytics Dashboard Issue\n\nDear Customer Support,\\n\\nI am reaching out to report a problem with our data analytics dashboard My name is David Kim.. The dashboard unexpectedly stopped working, and we discovered that the TensorFlow model failed to load You can reach me at omar.hassan@secure.net.. We believe this might be due to insufficient memory allocation. We have already tried restarting the system and checking the dependencies, but the issue still persists.\\n\\nThe dashboard is crucial for our operations, and we kindly request your help in addressing this matter as soon as possible. Could you please investigate and provide a solution or guidance on how to proceed?\\n\\nThank you for your time and support. We look forward to your response soon.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        318,
+        340
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for Data Analytics Dashboard Issue\n\nDear Customer Support,\\n\\nI am reaching out to report a problem with our data analytics dashboard My name is [full_name].. The dashboard unexpectedly stopped working, and we discovered that the TensorFlow model failed to load You can reach me at [email].. We believe this might be due to insufficient memory allocation. We have already tried restarting the system and checking the dependencies, but the issue still persists.\\n\\nThe dashboard is crucial for our operations, and we kindly request your help in addressing this matter as soon as possible. Could you please investigate and provide a solution or guidance on how to proceed?\\n\\nThank you for your time and support. We look forward to your response soon.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

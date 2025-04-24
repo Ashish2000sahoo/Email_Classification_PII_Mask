@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Update Request\n\nDear Customer Support, I am contacting you to seek an update regarding the encryption measures used for safeguarding medical data in HubSpot CRM and Ubuntu environments. Given the critical nature of medical data security, any security vulnerabilities could lead to severe repercussions You can reach me at elena.ivanova@support.org.. Could you furnish information on whether we are using encryption methods that comply with the most recent industry standards? Additionally, I am interested in learning about your plans to introduce extra security mechanisms such as multi-factor authentication, user access controls, and periodic security evaluations. Your assistance in providing a comprehensive strategy to ensure the secure handling and transmission of medical data on HubSpot CRM and Ubuntu would be greatly appreciated My name is John Doe.. I look forward to your swift response on this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        869,
+        877
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        340,
+        365
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Security Update Request\n\nDear Customer Support, I am contacting you to seek an update regarding the encryption measures used for safeguarding medical data in HubSpot CRM and Ubuntu environments. Given the critical nature of medical data security, any security vulnerabilities could lead to severe repercussions You can reach me at [email].. Could you furnish information on whether we are using encryption methods that comply with the most recent industry standards? Additionally, I am interested in learning about your plans to introduce extra security mechanisms such as multi-factor authentication, user access controls, and periodic security evaluations. Your assistance in providing a comprehensive strategy to ensure the secure handling and transmission of medical data on HubSpot CRM and Ubuntu would be greatly appreciated My name is [full_name].. I look forward to your swift response on this matter.",
+  "category_of_the_email": "Request"
+}

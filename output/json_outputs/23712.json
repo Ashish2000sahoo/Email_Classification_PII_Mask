@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Assistance Required for Server Problem\n\nDear Customer Support Team at IT Consulting Firm,\n\nI am reaching out to urgently seek your help with a major server malfunction that is presently affecting our entire organization\u2019s software development projects. We are in desperate need of professional assessment and resolution for this matter, and we would be grateful for your swift response.\n\nAlthough we have attempted to pinpoint and solve the issue internally, the intricacy of the situation requires your IT Consulting expertise My name is David Kim.. Our development operations heavily depend on this setup and have noticeably diminished due to this problem.\n\nPlease inform us at your earliest opportunity on how we might elevate this case and obtain the necessary consulting services to adequately tackle and resolve this issue.\n\nWe appreciate your quick attention to this situation You can reach me at david.kim@corp.kr.. We eagerly await your prompt reply.\n\nBest regards,\n\n<name>\n<company>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        558,
+        567
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        925,
+        942
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Immediate Assistance Required for Server Problem\n\nDear Customer Support Team at IT Consulting Firm,\n\nI am reaching out to urgently seek your help with a major server malfunction that is presently affecting our entire organization\u2019s software development projects. We are in desperate need of professional assessment and resolution for this matter, and we would be grateful for your swift response.\n\nAlthough we have attempted to pinpoint and solve the issue internally, the intricacy of the situation requires your IT Consulting expertise My name is [full_name].. Our development operations heavily depend on this setup and have noticeably diminished due to this problem.\n\nPlease inform us at your earliest opportunity on how we might elevate this case and obtain the necessary consulting services to adequately tackle and resolve this issue.\n\nWe appreciate your quick attention to this situation You can reach me at [email].. We eagerly await your prompt reply.\n\nBest regards,\n\n<name>\n<company>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

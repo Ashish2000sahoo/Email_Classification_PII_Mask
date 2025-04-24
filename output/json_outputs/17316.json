@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Exploring Billing Options for PostgreSQL and Adobe Services\n\nI am contacting you to seek information regarding the billing mechanisms for PostgreSQL and Adobe services. Could you kindly furnish me with details on the various pricing plans that are currently offered? It would be helpful to know the cost structures for each plan as well as any applicable discounts My name is David Kim.. Furthermore, I would be grateful if you could elucidate the payment conditions and any extra fees that might be involved. I am keen to make a well-informed choice and require a thorough understanding of the associated costs. Thank you for your support and time. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        385,
+        394
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        681,
+        699
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Exploring Billing Options for PostgreSQL and Adobe Services\n\nI am contacting you to seek information regarding the billing mechanisms for PostgreSQL and Adobe services. Could you kindly furnish me with details on the various pricing plans that are currently offered? It would be helpful to know the cost structures for each plan as well as any applicable discounts My name is [full_name].. Furthermore, I would be grateful if you could elucidate the payment conditions and any extra fees that might be involved. I am keen to make a well-informed choice and require a thorough understanding of the associated costs. Thank you for your support and time. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

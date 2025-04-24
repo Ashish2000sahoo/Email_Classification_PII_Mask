@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Issue: Inaccurate Campaign Metrics Due to Potentially Incorrect API Integration\n\nGreetings to the customer support team. I am reaching out to report an issue with the inaccuracy of campaign metrics You can reach me at david.kim@corp.kr.. These discrepancies have appeared suddenly and I suspect they may be due to an incorrect API integration. Despite my efforts to restart systems and check settings, the problem continues to persist. I appreciate your urgent attention to this matter and request you to provide a solution. Inaccurate metrics are impairing our ability to make informed decisions My name is Carlos Mendoza.. Please inform me if you require additional information from me to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        626,
+        640
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        236,
+        253
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue: Inaccurate Campaign Metrics Due to Potentially Incorrect API Integration\n\nGreetings to the customer support team. I am reaching out to report an issue with the inaccuracy of campaign metrics You can reach me at [email].. These discrepancies have appeared suddenly and I suspect they may be due to an incorrect API integration. Despite my efforts to restart systems and check settings, the problem continues to persist. I appreciate your urgent attention to this matter and request you to provide a solution. Inaccurate metrics are impairing our ability to make informed decisions My name is [full_name].. Please inform me if you require additional information from me to address this issue.",
+  "category_of_the_email": "Incident"
+}

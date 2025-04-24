@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: N\u00f6tige Unterst\u00fctzung bei Anwendungseinsatzproblemen\n\nGeachte Kundensupport, wir haben festgestellt, dass wir h\u00e4ufig Probleme mit der Anwendungseinsatzung w\u00e4hrend der Projektaktualisierungen erleben. J\u00fcngste Code\u00e4nderungen sollten die Datenaufarbeitung optimieren, jedoch behalten sich die Probleme bestehen. Auftragsunterbrechungen tritt zuf\u00e4llig auf, obwohl wir bereits mehrere Troubleshooting-Schritte unternommen haben You can reach me at johndoe@email.com.. Wir sch\u00e4tzen Ihre Hilfe und w\u00fcrden es sehr sch\u00e4tzen, wenn Sie das Problem innerhalb der n\u00e4chsten Zeit l\u00f6sen k\u00f6nnten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        635,
+        647
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        451,
+        468
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: N\u00f6tige Unterst\u00fctzung bei Anwendungseinsatzproblemen\n\nGeachte Kundensupport, wir haben festgestellt, dass wir h\u00e4ufig Probleme mit der Anwendungseinsatzung w\u00e4hrend der Projektaktualisierungen erleben. J\u00fcngste Code\u00e4nderungen sollten die Datenaufarbeitung optimieren, jedoch behalten sich die Probleme bestehen. Auftragsunterbrechungen tritt zuf\u00e4llig auf, obwohl wir bereits mehrere Troubleshooting-Schritte unternommen haben You can reach me at [email].. Wir sch\u00e4tzen Ihre Hilfe und w\u00fcrden es sehr sch\u00e4tzen, wenn Sie das Problem innerhalb der n\u00e4chsten Zeit l\u00f6sen k\u00f6nnten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

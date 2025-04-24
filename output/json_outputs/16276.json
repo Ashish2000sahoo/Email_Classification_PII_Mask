@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Marketing-Dashboards\n\nThe Marketing-Dashboard of the company experiences disruptions at irregular intervals, making it difficult to monitor campaign performance You can reach me at omar.hassan@secure.net.. Recently installed software updates have been performed. The cache has been cleared and the program restarted, but the issue persists My name is Maria Gonzalez.. Assistance is required to quickly resolve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        201,
+        223
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Marketing-Dashboards\n\nThe Marketing-Dashboard of the company experiences disruptions at irregular intervals, making it difficult to monitor campaign performance You can reach me at [email].. Recently installed software updates have been performed. The cache has been cleared and the program restarted, but the issue persists My name is [full_name].. Assistance is required to quickly resolve the problem.",
+  "category_of_the_email": "Incident"
+}

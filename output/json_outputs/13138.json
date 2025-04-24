@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versorgung in der Medizin\n\nSicherheitsma\u00dfnahmen f\u00fcr medizinische Daten und Ger\u00e4te, um die Einhaltung sowie den Schutz der Informationen zu gew\u00e4hrleisten. Es ist notwendig, Verschl\u00fcsselung, sichere Authentifizierung und Zugriffssteuerungen zu implementieren, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen zu sichern You can reach me at david.kim@corp.kr.. Regelm\u00e4\u00dfige Sicherheitsaudits und Updates sind erforderlich, um Datenverletzungen zu verhindern. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        517,
+        524
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        389,
+        406
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Versorgung in der Medizin\n\nSicherheitsma\u00dfnahmen f\u00fcr medizinische Daten und Ger\u00e4te, um die Einhaltung sowie den Schutz der Informationen zu gew\u00e4hrleisten. Es ist notwendig, Verschl\u00fcsselung, sichere Authentifizierung und Zugriffssteuerungen zu implementieren, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen zu sichern You can reach me at [email].. Regelm\u00e4\u00dfige Sicherheitsaudits und Updates sind erforderlich, um Datenverletzungen zu verhindern. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

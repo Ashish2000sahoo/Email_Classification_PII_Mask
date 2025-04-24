@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Integration System\n\nHad an issue with the data integration system that is impacting the performance of investment analytics. The disruption might be due to recent software updates or configuration changes. I tried restarting the affected devices and reinstalling key software components, which resolved the issue temporarily You can reach me at johndoe@email.com.. I would appreciate assistance in resolving this matter as soon as possible. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        479,
+        489
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        372,
+        389
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Integration System\n\nHad an issue with the data integration system that is impacting the performance of investment analytics. The disruption might be due to recent software updates or configuration changes. I tried restarting the affected devices and reinstalling key software components, which resolved the issue temporarily You can reach me at [email].. I would appreciate assistance in resolving this matter as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

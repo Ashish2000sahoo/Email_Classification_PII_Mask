@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance with a Data Breach\n\nDear Customer Support, I am writing to inform you of a serious data breach that has affected the security of my medical records. The breach may have occurred due to weak access controls, and I am taking immediate action to rectify the situation. I have already implemented emergency password resets and am reviewing user permissions to prevent unauthorized access My name is Fatima Al-Farsi.. I understand the severity of the issue and am working diligently to ensure the security of our systems. I would greatly appreciate any guidance or support you can provide in addressing this matter. Please. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        427,
+        436
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        673,
+        694
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance with a Data Breach\n\nDear Customer Support, I am writing to inform you of a serious data breach that has affected the security of my medical records. The breach may have occurred due to weak access controls, and I am taking immediate action to rectify the situation. I have already implemented emergency password resets and am reviewing user permissions to prevent unauthorized access My name is [full_name]-Farsi.. I understand the severity of the issue and am working diligently to ensure the security of our systems. I would greatly appreciate any guidance or support you can provide in addressing this matter. Please. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

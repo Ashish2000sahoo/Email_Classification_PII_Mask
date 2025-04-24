@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent : Probl\u00e8me de Gel de l'Interface\n\nCher \u00c9quipe de Support Client, \n\nJe vous \u00e9cris pour signaler un incident de haute priorit\u00e9 survenant dans votre Service de D\u00e9veloppement d'Application JavaScript React You can reach me at david.kim@corp.kr.. Nous avons rencontr\u00e9 un probl\u00e8me o\u00f9 l'interface de l'application se fige pendant les interactions des utilisateurs, affectant consid\u00e9rablement son utilisabilit\u00e9. Ce probl\u00e8me est devenu de plus en plus perturbateur et n\u00e9cessite une attention imm\u00e9diate pour le rectifier et am\u00e9liorer l'exp\u00e9rience utilisateur. \n\nVeuillez donner la priorit\u00e9 \u00e0 ce probl\u00e8me et apporter votre assistance pour r\u00e9soudre le d\u00e9faut technique. Nous d\u00e9pendons fortement du bon fonctionnement de l'application JavaScript React pour nos processus commerciaux My name is Omar Hassan.. Merci de me tenir inform\u00e9 de vos progr\u00e8s et de me faire savoir si vous avez besoin de plus de d\u00e9tails de notre part pour acc\u00e9l\u00e9rer le processus de d\u00e9pannage.\n\nMerci pour votre attention rapide \u00e0 ce probl\u00e8me.\n\nCordialement, \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        797,
+        808
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        238,
+        255
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Probl\u00e8me de Gel de l'Interface\n\nCher \u00c9quipe de Support Client, \n\nJe vous \u00e9cris pour signaler un incident de haute priorit\u00e9 survenant dans votre Service de D\u00e9veloppement d'Application JavaScript React You can reach me at [email].. Nous avons rencontr\u00e9 un probl\u00e8me o\u00f9 l'interface de l'application se fige pendant les interactions des utilisateurs, affectant consid\u00e9rablement son utilisabilit\u00e9. Ce probl\u00e8me est devenu de plus en plus perturbateur et n\u00e9cessite une attention imm\u00e9diate pour le rectifier et am\u00e9liorer l'exp\u00e9rience utilisateur. \n\nVeuillez donner la priorit\u00e9 \u00e0 ce probl\u00e8me et apporter votre assistance pour r\u00e9soudre le d\u00e9faut technique. Nous d\u00e9pendons fortement du bon fonctionnement de l'application JavaScript React pour nos processus commerciaux My name is [full_name].. Merci de me tenir inform\u00e9 de vos progr\u00e8s et de me faire savoir si vous avez besoin de plus de d\u00e9tails de notre part pour acc\u00e9l\u00e9rer le processus de d\u00e9pannage.\n\nMerci pour votre attention rapide \u00e0 ce probl\u00e8me.\n\nCordialement, \n<name>",
+  "category_of_the_email": "Incident"
+}

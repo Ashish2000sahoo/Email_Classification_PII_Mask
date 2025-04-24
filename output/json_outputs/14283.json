@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Message regarding Encryption Error\n\nDear Customer Support, I am writing to report an issue where our data encryption has failed, leading to unauthorized access to medical records. The problem may be related to the use of outdated software. I have attempted to restart the servers and review the configurations, but the issue persists. I would appreciate it if you could address this matter promptly and offer a solution for future occurrences. Please inform me if any additional information is required You can reach me at carlosm@gmail.com.. Thank you for your assistance. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        594,
+        607
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        532,
+        549
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Message regarding Encryption Error\n\nDear Customer Support, I am writing to report an issue where our data encryption has failed, leading to unauthorized access to medical records. The problem may be related to the use of outdated software. I have attempted to restart the servers and review the configurations, but the issue persists. I would appreciate it if you could address this matter promptly and offer a solution for future occurrences. Please inform me if any additional information is required You can reach me at [email].. Thank you for your assistance. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

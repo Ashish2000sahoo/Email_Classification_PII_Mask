@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimal Elasticsearch Setup for Investment Forecasting\n\nHello Customer Support, I am writing to seek advice on configuring Elasticsearch 7.13 for the purpose of data analytics in investment forecasting. I am interested in learning the best practices for setting up Elasticsearch to efficiently manage substantial financial data and ensure accurate forecasting My name is Maria Gonzalez.. Could you offer recommendations on the appropriate node configuration, shard distribution, and indexing methods for this scenario? Furthermore, are there any specific plugins or modules that you would suggest for investment forecasting? Your insights and any related resources would be greatly appreciated You can reach me at david.kim@corp.kr.. I look forward to your response. Best regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        380,
+        394
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        720,
+        737
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Optimal Elasticsearch Setup for Investment Forecasting\n\nHello Customer Support, I am writing to seek advice on configuring Elasticsearch 7.13 for the purpose of data analytics in investment forecasting. I am interested in learning the best practices for setting up Elasticsearch to efficiently manage substantial financial data and ensure accurate forecasting My name is [full_name].. Could you offer recommendations on the appropriate node configuration, shard distribution, and indexing methods for this scenario? Furthermore, are there any specific plugins or modules that you would suggest for investment forecasting? Your insights and any related resources would be greatly appreciated You can reach me at [email].. I look forward to your response. Best regards.",
+  "category_of_the_email": "Request"
+}

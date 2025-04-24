@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Dashboard Loading\n\nThe dashboard has suddenly stopped loading My name is Elena Ivanova.. This could be related to database connectivity issues. I have already restarted the service and reviewed the server logs. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        95,
+        108
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        251,
+        268
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Dashboard Loading\n\nThe dashboard has suddenly stopped loading My name is [full_name].. This could be related to database connectivity issues. I have already restarted the service and reviewed the server logs. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

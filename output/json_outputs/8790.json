@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Data Security Measures\n\nI am contacting you to seek advice on the appropriate security protocols for storing medical data on Dell UltraSharp U2720Q monitors. Could you provide information on the best practices to secure sensitive medical information on these monitors? Specifically, I would like to know about encryption methods, access controls, and other security measures that can be applied to protect medical data.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        172,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "2720"
+    },
+    {
+      "position": [
+        472,
+        488
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Data Security Measures\n\nI am contacting you to seek advice on the appropriate security protocols for storing medical data on Dell UltraSharp U[phone_number]Q monitors. Could you provide information on the best practices to secure sensitive medical information on these monitors? Specifically, I would like to know about encryption methods, access controls, and other security measures that can be applied to protect medical data.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

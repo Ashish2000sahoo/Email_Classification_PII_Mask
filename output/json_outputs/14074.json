@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Incident: Data breach due to weak encryption measures\n\nA data breach happened because of inadequate encryption. Passwords have been updated and security scans have been conducted.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        227
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Incident: Data breach due to weak encryption measures\n\nA data breach happened because of inadequate encryption. Passwords have been updated and security scans have been conducted.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

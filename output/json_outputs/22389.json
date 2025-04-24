@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Problema con el sistema de tickets de TI\n\nEstimado Soporte al Cliente, Espero que este mensaje le encuentre bien. Le escribo para llamar la atenci\u00f3n inmediata sobre un problema cr\u00edtico que afecta nuestro sistema de tickets de TI, el cual es parte de su servicio de consultor\u00eda de TI My name is Omar Hassan.. Este problema est\u00e1 causando una interrupci\u00f3n significativa en los flujos de trabajo de nuestros clientes y necesita una resoluci\u00f3n urgente. El problema comenz\u00f3 el 9 de octubre y ha empeorado progresivamente, lo que ha llevado a un aumento de frustraciones. \u00bfPodr\u00eda por favor priorizar este problema y proporcionar un cronograma estimado para una soluci\u00f3n? Su pronta atenci\u00f3n para resolver este asunto ser\u00eda muy apreciada You can reach me at omar.hassan@secure.net.. Gracias, <name>, N\u00famero de cuenta: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        767,
+        789
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problema con el sistema de tickets de TI\n\nEstimado Soporte al Cliente, Espero que este mensaje le encuentre bien. Le escribo para llamar la atenci\u00f3n inmediata sobre un problema cr\u00edtico que afecta nuestro sistema de tickets de TI, el cual es parte de su servicio de consultor\u00eda de TI My name is [full_name].. Este problema est\u00e1 causando una interrupci\u00f3n significativa en los flujos de trabajo de nuestros clientes y necesita una resoluci\u00f3n urgente. El problema comenz\u00f3 el 9 de octubre y ha empeorado progresivamente, lo que ha llevado a un aumento de frustraciones. \u00bfPodr\u00eda por favor priorizar este problema y proporcionar un cronograma estimado para una soluci\u00f3n? Su pronta atenci\u00f3n para resolver este asunto ser\u00eda muy apreciada You can reach me at [email].. Gracias, <name>, N\u00famero de cuenta: <acc_num>",
+  "category_of_the_email": "Incident"
+}

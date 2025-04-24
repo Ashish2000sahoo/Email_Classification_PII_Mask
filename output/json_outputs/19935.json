@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Anmeldung Benutzerkonten\n\nEin gro\u00dfes Problem bei der Anmeldung wurde festgestellt, das Benutzer davon abh\u00e4lt, ihre Konten zu nutzen My name is Jane Smith.. Es scheint, dass es durch die neuesten Serverupdates verursacht wird. Serverneustarts und Konfigurationschecks wurden bereits durchgef\u00fchrt, aber das Problem beh\u00e4lt hartn\u00e4ckig anhaltend. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        389,
+        414
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Anmeldung Benutzerkonten\n\nEin gro\u00dfes Problem bei der Anmeldung wurde festgestellt, das Benutzer davon abh\u00e4lt, ihre Konten zu nutzen My name is [full_name].. Es scheint, dass es durch die neuesten Serverupdates verursacht wird. Serverneustarts und Konfigurationschecks wurden bereits durchgef\u00fchrt, aber das Problem beh\u00e4lt hartn\u00e4ckig anhaltend. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

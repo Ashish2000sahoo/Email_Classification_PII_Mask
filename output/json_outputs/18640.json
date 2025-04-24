@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for Sudden Drop in Website Traffic\n\nHello Customer Support, I am inquiring regarding a recent decline in website traffic My name is Fatima Al-Farsi.. This could be due to outdated SEO techniques You can reach me at janesmith@company.com.. Although I have attempted to update our social media content, the issue continues. I kindly request your assistance to address this promptly and provide a resolution. Please feel free to request any additional information you may need from me. I am hopeful for a swift response. Thanks for your help. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        253,
+        274
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for Sudden Drop in Website Traffic\n\nHello Customer Support, I am inquiring regarding a recent decline in website traffic My name is [full_name]-Farsi.. This could be due to outdated SEO techniques You can reach me at [email].. Although I have attempted to update our social media content, the issue continues. I kindly request your assistance to address this promptly and provide a resolution. Please feel free to request any additional information you may need from me. I am hopeful for a swift response. Thanks for your help. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem mit Adobe Premiere Pro 2021\n\nHallo, ich m\u00f6chte \u00fcber einen Fehler mit Adobe Premiere Pro 2021 berichten. Die datenbasierten Visualisierungen in meinem Projekt sind verdreht, was zu einer schlechten Video-Rendering-G\u00fcte f\u00fchrt My name is Elena Ivanova.. Ich habe mein System neu gestartet und Adobe Premiere Pro auf die neueste Version aktualisiert, aber das Problem beh\u00e4lt sich bei. Ich vermute, dass das Problem m\u00f6glicherweise durch ein unkompatibles HDMI-Kabel oder eine veraltete iOS 15 verursacht wird You can reach me at david.kim@corp.kr.. Die verunreinigten Grafiken treten w\u00e4hrend des Video-Rendering auf, was mich daran hindert, mein Projekt korrekt abzuschlie\u00dfen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir einen L\u00f6sungsansatz oder Wege zur weiteren Problembehebung anbieten k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        265
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        539,
+        556
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        40,
+        44
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        105,
+        109
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Adobe Premiere Pro [phone_number]\n\nHallo, ich m\u00f6chte \u00fcber einen Fehler mit Adobe Premiere Pro [phone_number] berichten. Die datenbasierten Visualisierungen in meinem Projekt sind verdreht, was zu einer schlechten Video-Rendering-G\u00fcte f\u00fchrt My name is [full_name].. Ich habe mein System neu gestartet und Adobe Premiere Pro auf die neueste Version aktualisiert, aber das Problem beh\u00e4lt sich bei. Ich vermute, dass das Problem m\u00f6glicherweise durch ein unkompatibles HDMI-Kabel oder eine veraltete iOS 15 verursacht wird You can reach me at [email].. Die verunreinigten Grafiken treten w\u00e4hrend des Video-Rendering auf, was mich daran hindert, mein Projekt korrekt abzuschlie\u00dfen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir einen L\u00f6sungsansatz oder Wege zur weiteren Problembehebung anbieten k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

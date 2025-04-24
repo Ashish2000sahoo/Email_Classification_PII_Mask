@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Google Workspace Integration\n\nDear Customer Support Team, \n\nI hope this message finds you well. I am writing to request assistance in setting up Google Workspace integration with our existing business software You can reach me at janesmith@company.com.. We recently subscribed to the Google Workspace Business Standard plan and intend to leverage its capabilities to enhance our team\u2019s productivity and streamline our workflow processes.\n\nOur primary goal is to ensure that our current business applications are seamlessly integrated with Google Workspace services such as Gmail, Google Drive, Google Calendar, and Google Meet. Transitioning smoothly without disrupting ongoing operations is essential for us, and that\u2019s why we seek your expert guidance.\n\nCould you please provide us with detailed instructions on how to effectively set up this integration? Additionally, we would appreciate any resources or best practices that can help our IT team align the business software environment effectively with Google Workspace functionalities My name is Omar Hassan.. If possible, it would be beneficial to consult with a specialist who can oversee and assist in this integration project.\n\nThank you for your attention to this matter, and I look forward to your prompt response. Please do not hesitate to contact me via email or phone at your earliest convenience if further information is needed.\n\nWarm regards, \n\n<name> \n<name>'s Company \nContact Number: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1084,
+        1095
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        263,
+        284
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Google Workspace Integration\n\nDear Customer Support Team, \n\nI hope this message finds you well. I am writing to request assistance in setting up Google Workspace integration with our existing business software You can reach me at [email].. We recently subscribed to the Google Workspace Business Standard plan and intend to leverage its capabilities to enhance our team\u2019s productivity and streamline our workflow processes.\n\nOur primary goal is to ensure that our current business applications are seamlessly integrated with Google Workspace services such as Gmail, Google Drive, Google Calendar, and Google Meet. Transitioning smoothly without disrupting ongoing operations is essential for us, and that\u2019s why we seek your expert guidance.\n\nCould you please provide us with detailed instructions on how to effectively set up this integration? Additionally, we would appreciate any resources or best practices that can help our IT team align the business software environment effectively with Google Workspace functionalities My name is [full_name].. If possible, it would be beneficial to consult with a specialist who can oversee and assist in this integration project.\n\nThank you for your attention to this matter, and I look forward to your prompt response. Please do not hesitate to contact me via email or phone at your earliest convenience if further information is needed.\n\nWarm regards, \n\n<name> \n<name>'s Company \nContact Number: <tel_num>",
+  "category_of_the_email": "Request"
+}

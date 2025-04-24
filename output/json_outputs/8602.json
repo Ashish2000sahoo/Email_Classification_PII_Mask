@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Healthcare Data Encryption\n\nIncident description: The encryption of medical data stopped working abruptly You can reach me at sophia.rossi@service.it.. Possible reasons: A recent software update may be incompatible. Actions taken: System reboots and firewall checks were performed My name is Liu Wei.. A swift resolution is needed; please offer support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        321
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        148,
+        171
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Healthcare Data Encryption\n\nIncident description: The encryption of medical data stopped working abruptly You can reach me at [email].. Possible reasons: A recent software update may be incompatible. Actions taken: System reboots and firewall checks were performed My name is [full_name].. A swift resolution is needed; please offer support.",
+  "category_of_the_email": "Incident"
+}

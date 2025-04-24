@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Digital Strategy Packages Offered\n\nHello Customer Support, I am reaching out to inquire about the digital strategy packages that your company provides to support brand growth and assist businesses in expanding their online presence. I am very interested in learning more about the services these packages include and would appreciate detailed information, including pricing details. Could you please provide me with more information on the digital strategy services you offer? I am looking forward to hearing back from you soon You can reach me at sophia.rossi@service.it.. Thank you. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        614,
+        628
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        566,
+        589
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Query on Digital Strategy Packages Offered\n\nHello Customer Support, I am reaching out to inquire about the digital strategy packages that your company provides to support brand growth and assist businesses in expanding their online presence. I am very interested in learning more about the services these packages include and would appreciate detailed information, including pricing details. Could you please provide me with more information on the digital strategy services you offer? I am looking forward to hearing back from you soon You can reach me at [email].. Thank you. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

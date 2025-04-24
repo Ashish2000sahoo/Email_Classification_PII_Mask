@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Vermerk \u00fcber Datensperre in medizinischen Akten\n\nSehr geehrte Kundenservice,\\n\\nich habe ein Problem mit Datensperrung in unserem medizinischen Akten-System gemeldet. Pl\u00f6tzlich wurde die Sperrung entdeckt und es gibt einen unerlaubten Zugriff auf Patientendaten You can reach me at janesmith@company.com.. Wir vermuten einen Schwachpunkt im alten McAfee-Software.\\n\\nBislang haben wir Antivirus-Scans durchgef\u00fchrt, unser Ubuntu-System aktualisiert und Netzwerkprotokolle \u00fcberpr\u00fcft. Allerdings ben\u00f6tigen wir zus\u00e4tzliche Unterst\u00fctzung, um das Problem zu l\u00f6sen und zuk\u00fcnftige Sperrungen zu vermeiden.\\n\\nBitte geben Sie an, welche Schritte wir unternehmen m\u00fcssen, um das Problem zu l\u00f6sen My name is Elena Ivanova.. Wir danken Ihnen f\u00fcr Ihre schnelle R\u00fcckmeldung und freuen uns auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        705,
+        718
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        291,
+        312
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Vermerk \u00fcber Datensperre in medizinischen Akten\n\nSehr geehrte Kundenservice,\\n\\nich habe ein Problem mit Datensperrung in unserem medizinischen Akten-System gemeldet. Pl\u00f6tzlich wurde die Sperrung entdeckt und es gibt einen unerlaubten Zugriff auf Patientendaten You can reach me at [email].. Wir vermuten einen Schwachpunkt im alten McAfee-Software.\\n\\nBislang haben wir Antivirus-Scans durchgef\u00fchrt, unser Ubuntu-System aktualisiert und Netzwerkprotokolle \u00fcberpr\u00fcft. Allerdings ben\u00f6tigen wir zus\u00e4tzliche Unterst\u00fctzung, um das Problem zu l\u00f6sen und zuk\u00fcnftige Sperrungen zu vermeiden.\\n\\nBitte geben Sie an, welche Schritte wir unternehmen m\u00fcssen, um das Problem zu l\u00f6sen My name is [full_name].. Wir danken Ihnen f\u00fcr Ihre schnelle R\u00fcckmeldung und freuen uns auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

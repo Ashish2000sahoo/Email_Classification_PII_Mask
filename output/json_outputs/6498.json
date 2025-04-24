@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reported Data Breach\n\nDetected data breaches in the medical records system due to insufficient encryption and lack of timely patching. Virus scans and firewall checks were performed.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        230
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Reported Data Breach\n\nDetected data breaches in the medical records system due to insufficient encryption and lack of timely patching. Virus scans and firewall checks were performed.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

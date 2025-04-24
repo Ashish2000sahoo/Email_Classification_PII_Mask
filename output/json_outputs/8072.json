@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Delayed Performance on Analytics Dashboard\n\nWe are encountering delays in the response times of the analytics dashboard, which is affecting our investment decisions. The increased data volume and inefficient queries might be contributing factors You can reach me at omar.hassan@secure.net.. Despite clearing the cache and optimizing the queries, the issue still persists. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        392,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        275,
+        297
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Delayed Performance on Analytics Dashboard\n\nWe are encountering delays in the response times of the analytics dashboard, which is affecting our investment decisions. The increased data volume and inefficient queries might be contributing factors You can reach me at [email].. Despite clearing the cache and optimizing the queries, the issue still persists. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountered Issue with Payment Processing\n\nI am reaching out to inform you about an unforeseen error during the payment processing You can reach me at sophia.rossi@service.it.. This error could be related to outdated software or a configuration problem My name is David Kim.. I have already restarted the system, reviewed the logs, and contacted the bank, but the problem continues. I would greatly appreciate your investigation and prompt resolution of this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        282
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        160,
+        183
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Encountered Issue with Payment Processing\n\nI am reaching out to inform you about an unforeseen error during the payment processing You can reach me at [email].. This error could be related to outdated software or a configuration problem My name is [full_name].. I have already restarted the system, reviewed the logs, and contacted the bank, but the problem continues. I would greatly appreciate your investigation and prompt resolution of this issue.",
+  "category_of_the_email": "Incident"
+}

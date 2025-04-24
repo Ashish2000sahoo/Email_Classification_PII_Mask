@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Found Issue with Synchronization Across Several Platforms\n\nTimelines are failing to sync across various platforms My name is Sophia Rossi.. It could be due to integration issues with GitLab and macOS You can reach me at maria.gonzalez@shop.es.. I've already restarted the dashboard and verified the API connections, but the problem still exists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        134,
+        146
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        228,
+        250
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Found Issue with Synchronization Across Several Platforms\n\nTimelines are failing to sync across various platforms My name is [full_name].. It could be due to integration issues with GitLab and macOS You can reach me at [email].. I've already restarted the dashboard and verified the API connections, but the problem still exists.",
+  "category_of_the_email": "Incident"
+}

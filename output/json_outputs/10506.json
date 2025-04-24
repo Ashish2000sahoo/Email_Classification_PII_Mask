@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem im Projekt\n\nEs ist ein unerwarteter Disparit\u00e4tsfall in den Projektterminplan aufgetreten. Dies k\u00f6nnte entweder auf ein veraltetes Plugin oder auf einen Synchronisationsfehler zur\u00fcckzuf\u00fchren sein My name is Jane Smith.. Ich habe das Programm neu gestartet, die Einstellungen durchgepr\u00fcft und die Logdateien inspiziert, jedoch konnte ich den Fehler nicht beheben. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        233
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        400,
+        417
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem im Projekt\n\nEs ist ein unerwarteter Disparit\u00e4tsfall in den Projektterminplan aufgetreten. Dies k\u00f6nnte entweder auf ein veraltetes Plugin oder auf einen Synchronisationsfehler zur\u00fcckzuf\u00fchren sein My name is [full_name].. Ich habe das Programm neu gestartet, die Einstellungen durchgepr\u00fcft und die Logdateien inspiziert, jedoch konnte ich den Fehler nicht beheben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

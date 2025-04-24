@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia necesaria para configurar la impresora HP DeskJet 3755\n\nPor favor, ay\u00fadame a configurar la impresi\u00f3n inal\u00e1mbrica en mi impresora.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        70,
+        74
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        172,
+        188
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Asistencia necesaria para configurar la impresora HP DeskJet [phone_number]\n\nPor favor, ay\u00fadame a configurar la impresi\u00f3n inal\u00e1mbrica en mi impresora.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

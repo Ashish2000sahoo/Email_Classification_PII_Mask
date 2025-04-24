@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Measures for Safeguarding Patient Data\n\nOur hospital aims to implement comprehensive security protocols to protect sensitive patient data in our IT system. Could you provide recommendations on best practices and technologies to ensure the confidentiality, integrity, and availability of patient data? We would appreciate guidance on encryption, access control, and disaster scenarios.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        416,
+        432
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Measures for Safeguarding Patient Data\n\nOur hospital aims to implement comprehensive security protocols to protect sensitive patient data in our IT system. Could you provide recommendations on best practices and technologies to ensure the confidentiality, integrity, and availability of patient data? We would appreciate guidance on encryption, access control, and disaster scenarios.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

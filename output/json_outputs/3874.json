@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Performance Issues Across Digital Platform\n\nWe are encountering performance issues on the digital platform You can reach me at maria.gonzalez@shop.es.. A recent Docker update might be the cause My name is Maria Gonzalez.. Although rolling back the configuration optimizations helped temporarily, it doesn't resolve the issue permanently.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        228
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        136,
+        158
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Performance Issues Across Digital Platform\n\nWe are encountering performance issues on the digital platform You can reach me at [email].. A recent Docker update might be the cause My name is [full_name].. Although rolling back the configuration optimizations helped temporarily, it doesn't resolve the issue permanently.",
+  "category_of_the_email": "Incident"
+}

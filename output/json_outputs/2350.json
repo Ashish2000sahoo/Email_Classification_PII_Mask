@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Analysis Dashboard\n\nDear Customer Support,<br>This email concerns an issue with our data analysis dashboard. The dashboard is behaving unexpectedly and we are unsure of the cause.<br>We suspect that the problem might be due to incompatible software updates or faulty data.<br>To date, we have attempted to restart the servers and check the database connections, but the issue persists.<br>We would be grateful if you could look into this issue and provide us with a potential solution as soon as possible.<br>Please contact us if you need any additional information.<br>We appreciate your support and look forward to your response.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        674,
+        690
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Issue with Analysis Dashboard\n\nDear Customer Support,<br>This email concerns an issue with our data analysis dashboard. The dashboard is behaving unexpectedly and we are unsure of the cause.<br>We suspect that the problem might be due to incompatible software updates or faulty data.<br>To date, we have attempted to restart the servers and check the database connections, but the issue persists.<br>We would be grateful if you could look into this issue and provide us with a potential solution as soon as possible.<br>Please contact us if you need any additional information.<br>We appreciate your support and look forward to your response.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

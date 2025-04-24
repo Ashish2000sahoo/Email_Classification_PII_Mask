@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unpr\u00e4zise Investitionsprognosen gemeldet\n\nHappened: Investitionsprognosen zeigten pl\u00f6tzlich ungenaue Ergebnisse You can reach me at sophia.rossi@service.it.. Possible cause: A disturbance in the data feed might be the reason My name is Elena Ivanova.. Actions taken: Already initiated a restart of the analytics engine.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        141,
+        164
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unpr\u00e4zise Investitionsprognosen gemeldet\n\nHappened: Investitionsprognosen zeigten pl\u00f6tzlich ungenaue Ergebnisse You can reach me at [email].. Possible cause: A disturbance in the data feed might be the reason My name is [full_name].. Actions taken: Already initiated a restart of the analytics engine.",
+  "category_of_the_email": "Incident"
+}

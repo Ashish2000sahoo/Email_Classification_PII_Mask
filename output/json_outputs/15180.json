@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zu Erweiterung der Projektmanagement-Software\n\nIch m\u00f6chte eine Erweiterung der Projektmanagement-Software anfordern You can reach me at maria.gonzalez@shop.es.. Die Integration externer Ger\u00e4te und Dienste soll verbessert werden, um eine bessere Benutzererfahrung und Funktionalit\u00e4t zu gew\u00e4hrleisten My name is Carlos Mendoza.. Dies soll dazu beitragen, einen fl\u00fcssigeren Arbeitsablauf und erh\u00f6hte Produktivit\u00e4t zu erm\u00f6glichen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        327,
+        341
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        153,
+        175
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zu Erweiterung der Projektmanagement-Software\n\nIch m\u00f6chte eine Erweiterung der Projektmanagement-Software anfordern You can reach me at [email].. Die Integration externer Ger\u00e4te und Dienste soll verbessert werden, um eine bessere Benutzererfahrung und Funktionalit\u00e4t zu gew\u00e4hrleisten My name is [full_name].. Dies soll dazu beitragen, einen fl\u00fcssigeren Arbeitsablauf und erh\u00f6hte Produktivit\u00e4t zu erm\u00f6glichen.",
+  "category_of_the_email": "Change"
+}

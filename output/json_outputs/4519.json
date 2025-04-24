@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Support for Excel Analytics Tools\n\nHello Customer Support, I am contacting you to seek advice on the most suitable analytics tools that can be effectively integrated with Excel 2021 for my investment data analysis needs. As an investment analyst, I heavily depend on Excel for data analysis and visualization My name is John Doe.. In order to broaden my analytical toolkit, I am exploring options that include advanced analytics functionalities, such as add-ins or plugins that can be readily integrated with Excel 2021. Specifically, I am interested in tools that can provide data visualization, predictive modeling, and machine learning features You can reach me at liuwei@business.cn.. I would also appreciate any guidance on how to begin using these tools and any potential limitations or drawbacks. Thank you for your time and support. I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        680,
+        698
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        186,
+        190
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        527,
+        531
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Support for Excel Analytics Tools\n\nHello Customer Support, I am contacting you to seek advice on the most suitable analytics tools that can be effectively integrated with Excel [phone_number] for my investment data analysis needs. As an investment analyst, I heavily depend on Excel for data analysis and visualization My name is [full_name].. In order to broaden my analytical toolkit, I am exploring options that include advanced analytics functionalities, such as add-ins or plugins that can be readily integrated with Excel [phone_number]. Specifically, I am interested in tools that can provide data visualization, predictive modeling, and machine learning features You can reach me at [email].. I would also appreciate any guidance on how to begin using these tools and any potential limitations or drawbacks. Thank you for your time and support. I eagerly await your response.",
+  "category_of_the_email": "Request"
+}

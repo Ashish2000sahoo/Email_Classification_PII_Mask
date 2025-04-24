@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Improvement\n\nTo whom it may concern, I am contacting you to seek advice on upgrading our encryption methods for the secure transmission and storage of medical data. Our current technology is obsolete, and we urgently need to update it to protect patient data confidentiality and integrity. We are interested in solutions that meet the highest industry standards and regulations My name is Fatima Al-Farsi.. Could you kindly offer us recommendations and steps to follow for implementing a more secure encryption protocol? We would greatly appreciate any materials or support you can provide to enhance our data security. We look forward to your response. Thank you for your assistance. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        407,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        725,
+        750
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Security Improvement\n\nTo whom it may concern, I am contacting you to seek advice on upgrading our encryption methods for the secure transmission and storage of medical data. Our current technology is obsolete, and we urgently need to update it to protect patient data confidentiality and integrity. We are interested in solutions that meet the highest industry standards and regulations My name is [full_name]-Farsi.. Could you kindly offer us recommendations and steps to follow for implementing a more secure encryption protocol? We would greatly appreciate any materials or support you can provide to enhance our data security. We look forward to your response. Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

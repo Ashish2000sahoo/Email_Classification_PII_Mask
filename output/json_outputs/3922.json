@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for System Outage\n\nAn unexpected system outage has impacted key tools used for investment optimization, potentially due to a recent software update My name is Carlos Mendoza.. After attempting a reboot, the affected applications still encounter issues. This outage has caused significant disruptions to operations and requires immediate assistance to resolve. I would appreciate it if you could look into this matter urgently and provide a solution as soon as possible You can reach me at carlosm@gmail.com.. Please let us know if there is any additional information needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        198
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        511,
+        528
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for System Outage\n\nAn unexpected system outage has impacted key tools used for investment optimization, potentially due to a recent software update My name is [full_name].. After attempting a reboot, the affected applications still encounter issues. This outage has caused significant disruptions to operations and requires immediate assistance to resolve. I would appreciate it if you could look into this matter urgently and provide a solution as soon as possible You can reach me at [email].. Please let us know if there is any additional information needed.",
+  "category_of_the_email": "Incident"
+}

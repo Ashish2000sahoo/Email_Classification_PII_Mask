@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Assistance in Support\n\nThe financial firm encounters disparities in performance analysis due to outdated software and difficulties in data integration. Investments are also affected by these issues.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        258
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance in Support\n\nThe financial firm encounters disparities in performance analysis due to outdated software and difficulties in data integration. Investments are also affected by these issues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

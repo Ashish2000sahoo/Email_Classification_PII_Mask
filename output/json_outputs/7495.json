@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Beim Microsoft Surface Pro 8 bricht das Projektmanagement-Tool ab\n\nDas Projektmanagement-Tool crash't auf Ihrem Microsoft Surface Pro 8. Es k\u00f6nnte entweder eine Unkompatibilit\u00e4t mit der Firebase-Integration oder ein veralteter osCommerce-Plugin sein, die Ursache f\u00fcr den Absturz.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        326
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Beim Microsoft Surface Pro 8 bricht das Projektmanagement-Tool ab\n\nDas Projektmanagement-Tool crash't auf Ihrem Microsoft Surface Pro 8. Es k\u00f6nnte entweder eine Unkompatibilit\u00e4t mit der Firebase-Integration oder ein veralteter osCommerce-Plugin sein, die Ursache f\u00fcr den Absturz.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

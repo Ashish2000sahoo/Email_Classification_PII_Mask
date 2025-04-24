@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Incident: Data Breach\n\nCustomer Support is preparing a detailed report on a critical issue: an unsecured data breach that may have exposed sensitive medical information You can reach me at omar.hassan@secure.net.. This breach is likely due to outdated software vulnerabilities. Despite attempts to update and strengthen security protocols, the breach continues to affect multiple systems and devices. It has compromised confidential patient data and raises concerns about potential severe consequences. It is imperative to take immediate action to address this issue and prevent further breaches My name is Liu Wei.. Please investigate this matter and provide updates.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        625,
+        632
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        207,
+        229
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Security Incident: Data Breach\n\nCustomer Support is preparing a detailed report on a critical issue: an unsecured data breach that may have exposed sensitive medical information You can reach me at [email].. This breach is likely due to outdated software vulnerabilities. Despite attempts to update and strengthen security protocols, the breach continues to affect multiple systems and devices. It has compromised confidential patient data and raises concerns about potential severe consequences. It is imperative to take immediate action to address this issue and prevent further breaches My name is [full_name].. Please investigate this matter and provide updates.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten PostgreSQL\n\nLieber Kundensupport, ich bitte Sie, uns zu helfen, festzustellen, ob die Medizinischen Daten in unserem Krankenhaus-IT-System auf PostgreSQL korrekt gesichert sind. Wir suchen Rat zur Implementierung solider Sicherheitsma\u00dfnahmen, um sensible Patientendaten zu sch\u00fctzen My name is Elena Ivanova.. K\u00f6nnten Sie uns Empfehlungen zu Verschl\u00fcsselung, Zugriffssteuerung und Wiederherstellungsvorschriften geben? Wir freuen uns auf Ihre besten Praktiken You can reach me at omar.hassan@secure.net.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        345
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        516,
+        538
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten PostgreSQL\n\nLieber Kundensupport, ich bitte Sie, uns zu helfen, festzustellen, ob die Medizinischen Daten in unserem Krankenhaus-IT-System auf PostgreSQL korrekt gesichert sind. Wir suchen Rat zur Implementierung solider Sicherheitsma\u00dfnahmen, um sensible Patientendaten zu sch\u00fctzen My name is [full_name].. K\u00f6nnten Sie uns Empfehlungen zu Verschl\u00fcsselung, Zugriffssteuerung und Wiederherstellungsvorschriften geben? Wir freuen uns auf Ihre besten Praktiken You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

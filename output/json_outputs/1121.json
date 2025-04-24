@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Brand Expansion Tactics\n\nCustomer Support, aiming to enhance digital strategies for improving brand growth among our clients. Could you please furnish detailed information on the methods and techniques that could be utilized to achieve this goal? I am particularly keen on learning about strategies that can lead to increased brand awareness, enhanced customer engagement, and ultimately, revenue growth. I would greatly appreciate if you could share some case studies or success stories that demonstrate the effectiveness of these digital strategies You can reach me at janesmith@company.com.. Thank you for your assistance My name is John Doe.. I look forward to your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        655,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        590,
+        611
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Brand Expansion Tactics\n\nCustomer Support, aiming to enhance digital strategies for improving brand growth among our clients. Could you please furnish detailed information on the methods and techniques that could be utilized to achieve this goal? I am particularly keen on learning about strategies that can lead to increased brand awareness, enhanced customer engagement, and ultimately, revenue growth. I would greatly appreciate if you could share some case studies or success stories that demonstrate the effectiveness of these digital strategies You can reach me at [email].. Thank you for your assistance My name is [full_name].. I look forward to your support.",
+  "category_of_the_email": "Request"
+}

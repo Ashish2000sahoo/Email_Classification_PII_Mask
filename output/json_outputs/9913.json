@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem angebotenen Data Analytics Dashboard Beladungsbericht\n\nSehr geehrte Kundensupport, <br>Ich m\u00f6chte melden, dass sich das Data Analytics Dashboard nicht korrekt laden l\u00e4sst und ich denke, dass dies auf ein Mangel an Serverressourcen zur\u00fcckzuf\u00fchren ist My name is Omar Hassan.. Ich habe bereits versucht, den Server neu zu starten und die Netzwerkverbindung zu \u00fcberpr\u00fcfen, doch das Problem beharrt weiterhin You can reach me at david.kim@corp.kr.. <br>Ich bitte Sie, das Problem zu \u00fcberpr\u00fcfen und eine L\u00f6sung bereitzustellen. Ich w\u00fcrde jede Support-\u00dcbermittlung f\u00fcr das L\u00f6sen dieser Situation sehr sch\u00e4tze. <br>Mir f\u00fcr Ihre Zeit und Unterst\u00fctzung herzlichen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        451,
+        468
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem angebotenen Data Analytics Dashboard Beladungsbericht\n\nSehr geehrte Kundensupport, <br>Ich m\u00f6chte melden, dass sich das Data Analytics Dashboard nicht korrekt laden l\u00e4sst und ich denke, dass dies auf ein Mangel an Serverressourcen zur\u00fcckzuf\u00fchren ist My name is [full_name].. Ich habe bereits versucht, den Server neu zu starten und die Netzwerkverbindung zu \u00fcberpr\u00fcfen, doch das Problem beharrt weiterhin You can reach me at [email].. <br>Ich bitte Sie, das Problem zu \u00fcberpr\u00fcfen und eine L\u00f6sung bereitzustellen. Ich w\u00fcrde jede Support-\u00dcbermittlung f\u00fcr das L\u00f6sen dieser Situation sehr sch\u00e4tze. <br>Mir f\u00fcr Ihre Zeit und Unterst\u00fctzung herzlichen Dank.",
+  "category_of_the_email": "Incident"
+}

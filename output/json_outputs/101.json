@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nRespected customer support, I am contacting you to report a problem with our digital campaign. It unexpectedly stopped working and we're uncertain of the reason You can reach me at janesmith@company.com.. We believe it could be because of updated software that is not compatible. Despite restarting the systems and checking the configurations, the issue is still occurring. We would be grateful if you could look into this and provide a solution at the earliest My name is Omar Hassan.. Please inform us if you need more information from us to address the issue. We look forward to your response. Thank you for your time and help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        484,
+        495
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        192,
+        213
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nRespected customer support, I am contacting you to report a problem with our digital campaign. It unexpectedly stopped working and we're uncertain of the reason You can reach me at [email].. We believe it could be because of updated software that is not compatible. Despite restarting the systems and checking the configurations, the issue is still occurring. We would be grateful if you could look into this and provide a solution at the earliest My name is [full_name].. Please inform us if you need more information from us to address the issue. We look forward to your response. Thank you for your time and help.",
+  "category_of_the_email": "Incident"
+}

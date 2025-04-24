@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme bei Marketing-Agenturen zur Erh\u00f6hung von Leads\n\nBeobachtet werden einen Anstieg der Leads im Marketingbereich.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        166
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei Marketing-Agenturen zur Erh\u00f6hung von Leads\n\nBeobachtet werden einen Anstieg der Leads im Marketingbereich.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

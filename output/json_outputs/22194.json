@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicitud de proceso de intercambio de laptop Dell\n\nEstimado soporte de la tienda en l\u00ednea de tecnolog\u00eda,\n\nEscribo para informar que mi Dell XPS 13 9310 comprada bajo el n\u00famero de cuenta <acc_num> no est\u00e1 encendiendo You can reach me at carlosm@gmail.com.. Por favor, inicien el proceso de intercambio e investiguen un posible problema con la bater\u00eda. Para cualquier actualizaci\u00f3n, cont\u00e1ctenme al <tel_num>.\n\nGracias,\n\n<name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        446,
+        460
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        246,
+        263
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        154,
+        161
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de proceso de intercambio de laptop Dell\n\nEstimado soporte de la tienda en l\u00ednea de tecnolog\u00eda,\n\nEscribo para informar que mi Dell XPS [phone_number] comprada bajo el n\u00famero de cuenta <acc_num> no est\u00e1 encendiendo You can reach me at [email].. Por favor, inicien el proceso de intercambio e investiguen un posible problema con la bater\u00eda. Para cualquier actualizaci\u00f3n, cont\u00e1ctenme al <tel_num>.\n\nGracias,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

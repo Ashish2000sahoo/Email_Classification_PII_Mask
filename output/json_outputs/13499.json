@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Performance Problems with SQL Server 2019\n\nCurrently, we are facing performance challenges with SQL Server 2019, which is resulting in delays in marketing analytics. This might be due to high data traffic or configuration errors. Despite our efforts in database optimization and restarting the server, the issues still persist My name is John Doe.. We urgently require assistance to resolve this issue as soon as possible. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        455,
+        472
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        46,
+        50
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    },
+    {
+      "position": [
+        116,
+        120
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: Performance Problems with SQL Server [phone_number]\n\nCurrently, we are facing performance challenges with SQL Server [phone_number], which is resulting in delays in marketing analytics. This might be due to high data traffic or configuration errors. Despite our efforts in database optimization and restarting the server, the issues still persist My name is [full_name].. We urgently require assistance to resolve this issue as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

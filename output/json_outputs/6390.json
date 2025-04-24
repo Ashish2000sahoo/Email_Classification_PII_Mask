@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with the Marketing Campaign\n\nDear Customer Support, we are bringing to your attention a pressing concern about our current marketing campaign. Despite making adjustments to target the audience based on our analytics, the campaign has not generated the expected brand engagement My name is Maria Gonzalez.. We believe the issue might be due to ineffective targeting or outdated content You can reach me at fatima.farsi@help.com.. We would greatly appreciate your assistance in reviewing this matter and providing us with guidance to improve the campaign's performance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        417,
+        438
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with the Marketing Campaign\n\nDear Customer Support, we are bringing to your attention a pressing concern about our current marketing campaign. Despite making adjustments to target the audience based on our analytics, the campaign has not generated the expected brand engagement My name is [full_name].. We believe the issue might be due to ineffective targeting or outdated content You can reach me at [email].. We would greatly appreciate your assistance in reviewing this matter and providing us with guidance to improve the campaign's performance.",
+  "category_of_the_email": "Incident"
+}

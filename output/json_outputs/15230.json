@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Performance Problems\n\nDuring peak hours, users encounter substantial performance delays due to heightened server load. Efforts to optimize database queries and scale server capacity have been unavailing My name is Jane Smith.. Urgent assistance is needed to resolve this issue. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        249
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        324,
+        342
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Performance Problems\n\nDuring peak hours, users encounter substantial performance delays due to heightened server load. Efforts to optimize database queries and scale server capacity have been unavailing My name is [full_name].. Urgent assistance is needed to resolve this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

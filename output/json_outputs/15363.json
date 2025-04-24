@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Verbesserung der digitalen Strategien und Markensichtbarkeit\n\nSehr geehrte Kundenservice, ich kontaktiere Sie pers\u00f6nlich, um Verbesserungen in unseren digitalen Strategien und die Markensichtbarkeit zu erkunden You can reach me at janesmith@company.com.. K\u00f6nnten Sie mir Informationen zu Methoden, Techniken und Strategien zur Steigerung der Markenbekanntheit und Gesch\u00e4ftsexpansion geben? Insbesondere interessiert mich die Nutzung von Sozialmarkenmarketing, Content-Creation und Suchmaschinenoptimierung. Dar\u00fcber hinaus m\u00f6chte ich mehr \u00fcber Datenanalyse- und Leistungsverfolgungsprozesse erfahren My name is Sophia Rossi.. Wie messen wir den Erfolg unserer digitalen Strategien anhand von Daten, und wie treffen wir getroffene Entscheidungen, um sie zu verbessern? Ich freue mich darauf, mehr \u00fcber diese Themen zu erfahren. Vielen Dank",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        631,
+        643
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        252,
+        273
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Verbesserung der digitalen Strategien und Markensichtbarkeit\n\nSehr geehrte Kundenservice, ich kontaktiere Sie pers\u00f6nlich, um Verbesserungen in unseren digitalen Strategien und die Markensichtbarkeit zu erkunden You can reach me at [email].. K\u00f6nnten Sie mir Informationen zu Methoden, Techniken und Strategien zur Steigerung der Markenbekanntheit und Gesch\u00e4ftsexpansion geben? Insbesondere interessiert mich die Nutzung von Sozialmarkenmarketing, Content-Creation und Suchmaschinenoptimierung. Dar\u00fcber hinaus m\u00f6chte ich mehr \u00fcber Datenanalyse- und Leistungsverfolgungsprozesse erfahren My name is [full_name].. Wie messen wir den Erfolg unserer digitalen Strategien anhand von Daten, und wie treffen wir getroffene Entscheidungen, um sie zu verbessern? Ich freue mich darauf, mehr \u00fcber diese Themen zu erfahren. Vielen Dank",
+  "category_of_the_email": "Request"
+}

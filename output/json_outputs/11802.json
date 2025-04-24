@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Display Problem\n\ncurrently facing display problems with the SaaS platform on my Acer Predator XB273K Monitor. The issue might be related to compatibility problems with the monitor's resolution settings You can reach me at omar.hassan@secure.net.. I have already tried restarting the monitor and its software, but the problem still persists My name is Liu Wei.. I would greatly appreciate any assistance in resolving this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        360,
+        367
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        231,
+        253
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Display Problem\n\ncurrently facing display problems with the SaaS platform on my Acer Predator XB273K Monitor. The issue might be related to compatibility problems with the monitor's resolution settings You can reach me at [email].. I have already tried restarting the monitor and its software, but the problem still persists My name is [full_name].. I would greatly appreciate any assistance in resolving this issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Assistance Required for Jira Software Issues\n\nHello Support Team, Our team member <name> is experiencing issues with Jira Software 8.20\u2019s project management features You can reach me at fatima.farsi@help.com.. These malfunctions are significantly affecting our work My name is Elena Ivanova.. We need immediate technical support assistance to resolve this matter. Kindly provide guidance at your earliest convenience. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        205,
+        226
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Immediate Assistance Required for Jira Software Issues\n\nHello Support Team, Our team member <name> is experiencing issues with Jira Software 8.20\u2019s project management features You can reach me at [email].. These malfunctions are significantly affecting our work My name is [full_name].. We need immediate technical support assistance to resolve this matter. Kindly provide guidance at your earliest convenience. Thank you.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Access to Medical Records Owing to Network Outage\n\nDear Customer Support, I am writing to bring to your notice that our medical records are currently inaccessible because of a network outage. The potential cause of this problem could be due to insufficient updates in the router configuration. Steps taken so far include restarting the TP-Link switch and examining the Cisco IOS settings, but the issue remains unresolved. We are in urgent need of your assistance to resolve this and regain access to our medical records You can reach me at johndoe@email.com.. Could you please advise on the next course of action? Thank you for your timely assistance with this matter. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        702,
+        711
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        562,
+        579
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Access to Medical Records Owing to Network Outage\n\nDear Customer Support, I am writing to bring to your notice that our medical records are currently inaccessible because of a network outage. The potential cause of this problem could be due to insufficient updates in the router configuration. Steps taken so far include restarting the TP-Link switch and examining the Cisco IOS settings, but the issue remains unresolved. We are in urgent need of your assistance to resolve this and regain access to our medical records You can reach me at [email].. Could you please advise on the next course of action? Thank you for your timely assistance with this matter. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

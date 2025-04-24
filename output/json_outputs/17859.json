@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit Software-Kompatibilit\u00e4t\n\nMarketingkampagnen unterbrochen beobachtet. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        112,
+        129
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Software-Kompatibilit\u00e4t\n\nMarketingkampagnen unterbrochen beobachtet. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

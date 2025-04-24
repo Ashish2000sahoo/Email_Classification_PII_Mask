@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Documentation on MySQL Integration\n\nIs it possible to provide comprehensive documentation for integrating MySQL with SaaS project management software? This would be incredibly helpful for establishing a smooth database connection You can reach me at janesmith@company.com.. We are eagerly awaiting your necessary instructions and guidelines. Thank you for your prompt assistance, it is greatly appreciated. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        271,
+        292
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Documentation on MySQL Integration\n\nIs it possible to provide comprehensive documentation for integrating MySQL with SaaS project management software? This would be incredibly helpful for establishing a smooth database connection You can reach me at [email].. We are eagerly awaiting your necessary instructions and guidelines. Thank you for your prompt assistance, it is greatly appreciated. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

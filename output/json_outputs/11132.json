@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Unresolved Charges\n\nI am reaching out to seek help regarding unauthorized charges on my account. I have already checked my billing details and reviewed recent transactions but the problem still exists My name is John Doe.. Could you please examine this for me and provide a swift resolution? If you need further details from me, kindly let me know. I await your prompt response. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        241,
+        249
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        431,
+        448
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Unresolved Charges\n\nI am reaching out to seek help regarding unauthorized charges on my account. I have already checked my billing details and reviewed recent transactions but the problem still exists My name is [full_name].. Could you please examine this for me and provide a swift resolution? If you need further details from me, kindly let me know. I await your prompt response. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

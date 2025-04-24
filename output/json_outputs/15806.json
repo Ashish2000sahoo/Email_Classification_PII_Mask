@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr medizinische Datensicherheit\n\nIch schreibe, um R\u00fccksicht auf die Ma\u00dfnahmen zu nehmen, die Sie eingesetzt haben, um die Sicherheit medizinischer Daten auf den betroffenen Ger\u00e4ten und Software zu gew\u00e4hrleisten. K\u00f6nnten Sie mir bitte Einzelheiten zu den genommenen Schritten geben, um sensible Patientendaten zu sch\u00fctzen? Es w\u00e4re au\u00dferdem sehr hilfreich, wenn Sie mir k\u00fcnftige Sicherheitsfunktionen oder -aktualisierungen erl\u00e4utern k\u00f6nnten.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        494,
+        510
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr medizinische Datensicherheit\n\nIch schreibe, um R\u00fccksicht auf die Ma\u00dfnahmen zu nehmen, die Sie eingesetzt haben, um die Sicherheit medizinischer Daten auf den betroffenen Ger\u00e4ten und Software zu gew\u00e4hrleisten. K\u00f6nnten Sie mir bitte Einzelheiten zu den genommenen Schritten geben, um sensible Patientendaten zu sch\u00fctzen? Es w\u00e4re au\u00dferdem sehr hilfreich, wenn Sie mir k\u00fcnftige Sicherheitsfunktionen oder -aktualisierungen erl\u00e4utern k\u00f6nnten.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

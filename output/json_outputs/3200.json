@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nRequesting urgent investigation into outages impacting multiple integrated software systems that are integral to project management services. These outages are causing substantial disruptions to operations, significantly affecting productivity.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        293
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: \n\nRequesting urgent investigation into outages impacting multiple integrated software systems that are integral to project management services. These outages are causing substantial disruptions to operations, significantly affecting productivity.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

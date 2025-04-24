@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with the Website - Crashes\n\nI am experiencing issues with the website, including crashes, error messages, and data loss. I suspect this may be due to incompatible updates or security vulnerabilities. I have already tried restarting the system, using old backups, and going through troubleshooting guides, but the problem persists My name is Jane Smith.. I would greatly appreciate your help in resolving this issue as soon as possible. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        369
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        475,
+        497
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problems with the Website - Crashes\n\nI am experiencing issues with the website, including crashes, error messages, and data loss. I suspect this may be due to incompatible updates or security vulnerabilities. I have already tried restarting the system, using old backups, and going through troubleshooting guides, but the problem persists My name is [full_name].. I would greatly appreciate your help in resolving this issue as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

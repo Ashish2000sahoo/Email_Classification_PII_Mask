@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Seeking Guidance on Securing Medical Data in Notion\n\nI need guidance on securing medical data using Notion in our hospital IT practices. Could you provide some practices and let me know a suitable time to call at <tel_num> for a detailed discussion on securing sensitive information in our current setup?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        351
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Seeking Guidance on Securing Medical Data in Notion\n\nI need guidance on securing medical data using Notion in our hospital IT practices. Could you provide some practices and let me know a suitable time to call at <tel_num> for a detailed discussion on securing sensitive information in our current setup?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

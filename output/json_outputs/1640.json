@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Implementierung der optimalen Werkzeuge f\u00fcr Projektmanagement\n\nSehr geehrte Kundenservice-Team, ich m\u00f6chte mich an Sie wenden, um Informationen \u00fcber die besten Verfahren zur Implementierung Ihres Projektmanagement-Werkzeugs f\u00fcr gro\u00dfe Teams zu erhalten. Unsere Teamgr\u00f6\u00dfe hat sich k\u00fcrzlich stark erh\u00f6ht, und wir suchen nach M\u00f6glichkeiten, um unsere Arbeitsabl\u00e4ufe zu verbessern und die Zusammenarbeit zu stimulieren. Wir sind besonders an den effektiven Einsatz Ihres Tools interessiert, um unsere Ziele zu erreichen You can reach me at elena.ivanova@support.org.. K\u00f6nnten Sie uns umfangreiche Anleitungen zur Initialisierung und Nutzung Ihres Systems zur Verf\u00fcgung stellen? Zudem w\u00e4ren wir dankbar f\u00fcr Ratschl\u00e4ge oder Empfehlungen zur Anpassung des Systems an unsere spezifischen Anforderungen. Dar\u00fcber hinaus m\u00f6chten wir mehr \u00fcber die Skalierbarkeit Ihres Tools erfahren, insbesondere, wie es uns bei unserem fortlaufenden Teamwachstum unterst\u00fctzt. Wir freuen uns auf Ihre R\u00fcckmeldung My name is John Doe.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1005,
+        1013
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        544,
+        569
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Implementierung der optimalen Werkzeuge f\u00fcr Projektmanagement\n\nSehr geehrte Kundenservice-Team, ich m\u00f6chte mich an Sie wenden, um Informationen \u00fcber die besten Verfahren zur Implementierung Ihres Projektmanagement-Werkzeugs f\u00fcr gro\u00dfe Teams zu erhalten. Unsere Teamgr\u00f6\u00dfe hat sich k\u00fcrzlich stark erh\u00f6ht, und wir suchen nach M\u00f6glichkeiten, um unsere Arbeitsabl\u00e4ufe zu verbessern und die Zusammenarbeit zu stimulieren. Wir sind besonders an den effektiven Einsatz Ihres Tools interessiert, um unsere Ziele zu erreichen You can reach me at [email].. K\u00f6nnten Sie uns umfangreiche Anleitungen zur Initialisierung und Nutzung Ihres Systems zur Verf\u00fcgung stellen? Zudem w\u00e4ren wir dankbar f\u00fcr Ratschl\u00e4ge oder Empfehlungen zur Anpassung des Systems an unsere spezifischen Anforderungen. Dar\u00fcber hinaus m\u00f6chten wir mehr \u00fcber die Skalierbarkeit Ihres Tools erfahren, insbesondere, wie es uns bei unserem fortlaufenden Teamwachstum unterst\u00fctzt. Wir freuen uns auf Ihre R\u00fcckmeldung My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

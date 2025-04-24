@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten bei Gesundheitsversorger\n\nK\u00f6nnen wir Einzelheiten zu IT-L\u00f6sungen f\u00fcr die Sicherung medizinischer Daten bei Gesundheitsversorger bereitstellen?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten bei Gesundheitsversorger\n\nK\u00f6nnen wir Einzelheiten zu IT-L\u00f6sungen f\u00fcr die Sicherung medizinischer Daten bei Gesundheitsversorger bereitstellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

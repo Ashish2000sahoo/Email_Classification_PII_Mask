@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Notwendigkeit von Datenschutzunterst\u00fctzung\n\nEs wurde ein Datenschutzversto\u00df im Krankenhausauftrittssystem festgestellt, was das Risiko f\u00fcr empfindliche Patientenverschreibungsdaten darstellt. Versucht wurde, das Netzwerk zu sichern und die Software zu aktualisieren, jedoch ohne Erfolg.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        334
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Notwendigkeit von Datenschutzunterst\u00fctzung\n\nEs wurde ein Datenschutzversto\u00df im Krankenhausauftrittssystem festgestellt, was das Risiko f\u00fcr empfindliche Patientenverschreibungsdaten darstellt. Versucht wurde, das Netzwerk zu sichern und die Software zu aktualisieren, jedoch ohne Erfolg.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

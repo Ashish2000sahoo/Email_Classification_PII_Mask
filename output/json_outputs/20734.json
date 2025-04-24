@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenbankverbindungsproblem\n\nSehr geehrter Kundenservice, wir erleben derzeit Datenbankverbindungsprobleme mit PostgreSQL 14.3, was zu erheblichen Ausfallzeiten f\u00fcr unsere hochpriorisierten Anwendungen f\u00fchrt You can reach me at carlosm@gmail.com.. Sofortige Unterst\u00fctzung zur Behebung dieses Problems ist entscheidend. Bitte geben Sie Ratschl\u00e4ge zu den Fehlersuche-Schritten oder ob eine Eskalation erforderlich ist. Vielen Dank. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        450,
+        458
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        237,
+        254
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Datenbankverbindungsproblem\n\nSehr geehrter Kundenservice, wir erleben derzeit Datenbankverbindungsprobleme mit PostgreSQL 14.3, was zu erheblichen Ausfallzeiten f\u00fcr unsere hochpriorisierten Anwendungen f\u00fchrt You can reach me at [email].. Sofortige Unterst\u00fctzung zur Behebung dieses Problems ist entscheidend. Bitte geben Sie Ratschl\u00e4ge zu den Fehlersuche-Schritten oder ob eine Eskalation erforderlich ist. Vielen Dank. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

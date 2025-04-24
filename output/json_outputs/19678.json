@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: SAP Performance Problem\n\nEncountered recent performance challenges with SAP ERP during the execution of investment analytics reports. Network interruptions might be impacting data access and Hadoop ERP connectivity.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        247,
+        263
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: SAP Performance Problem\n\nEncountered recent performance challenges with SAP ERP during the execution of investment analytics reports. Network interruptions might be impacting data access and Hadoop ERP connectivity.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

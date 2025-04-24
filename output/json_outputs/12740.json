@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Deployment Issues\n\nA deployment error happened during the night You can reach me at johndoe@email.com.. It might be due to insufficient resources. Up until now, the servers have been restarted and the logs inspected. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        247,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        103,
+        120
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Deployment Issues\n\nA deployment error happened during the night You can reach me at [email].. It might be due to insufficient resources. Up until now, the servers have been restarted and the logs inspected. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

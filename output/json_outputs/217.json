@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Scalability Features in Project Management SaaS\n\nCould you provide details on the scalability features of your project management SaaS solution? I am particularly interested in learning how it supports large teams and projects You can reach me at carlosm@gmail.com.. Are these features designed to ensure seamless scalability? Thank you for your time and assistance. I look forward to hearing from you soon. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        451
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        270,
+        287
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Scalability Features in Project Management SaaS\n\nCould you provide details on the scalability features of your project management SaaS solution? I am particularly interested in learning how it supports large teams and projects You can reach me at [email].. Are these features designed to ensure seamless scalability? Thank you for your time and assistance. I look forward to hearing from you soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

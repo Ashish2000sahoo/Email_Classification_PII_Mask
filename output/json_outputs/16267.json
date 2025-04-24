@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Kampagneinteilung\n\nEs wurden unregelm\u00e4\u00dfige Leistungsindikatoren in den neuesten Kampagnen beobachtet My name is Liu Wei.. Dies k\u00f6nnte m\u00f6glicherweise auf \u00c4nderungen an den Algorithmen oder Zielgruppenproblemen zur\u00fcckzuf\u00fchren sein. Die Werbeausgaben wurden angepasst und die Zielgruppenparameter wurden \u00fcberarbeitet. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        365,
+        386
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Kampagneinteilung\n\nEs wurden unregelm\u00e4\u00dfige Leistungsindikatoren in den neuesten Kampagnen beobachtet My name is [full_name].. Dies k\u00f6nnte m\u00f6glicherweise auf \u00c4nderungen an den Algorithmen oder Zielgruppenproblemen zur\u00fcckzuf\u00fchren sein. Die Werbeausgaben wurden angepasst und die Zielgruppenparameter wurden \u00fcberarbeitet. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

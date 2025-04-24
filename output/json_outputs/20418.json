@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent Router Issue\n\nDear Customer Support,\n\nI am writing to bring to your attention a critical issue we are currently experiencing with our Cisco Router ISR4331 My name is John Doe.. Recently, it has been subject to frequent disconnections which are significantly affecting our enterprise network's performance and, consequently, our organizational productivity. The persistent interruptions in connectivity are impeding our ability to carry out daily operations smoothly.\n\nGiven the core role this router plays in our infrastructure, we kindly request an immediate resolution to prevent further disruptions to our business processes. Since seamless network functionality is critical to our operations, it is essential for us to address this problem at the earliest possible opportunity.\n\nPlease let us know the next steps we should take or any troubleshooting procedures we might attempt while awaiting further instructions from your team. Your urgent attention and prompt resolution of this matter would be greatly appreciated, as it is profoundly impacting our work.\n\nFor your reference, my full name is <name>, and I am available anytime to discuss this issue or assist with any preliminary checks. You can reach me at <tel_num>.\n\nThank you for your attention to this urgent matter.\n\nBest regards,\n\n<name> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1343,
+        1364
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        166,
+        170
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent Router Issue\n\nDear Customer Support,\n\nI am writing to bring to your attention a critical issue we are currently experiencing with our Cisco Router ISR[phone_number] My name is [full_name].. Recently, it has been subject to frequent disconnections which are significantly affecting our enterprise network's performance and, consequently, our organizational productivity. The persistent interruptions in connectivity are impeding our ability to carry out daily operations smoothly.\n\nGiven the core role this router plays in our infrastructure, we kindly request an immediate resolution to prevent further disruptions to our business processes. Since seamless network functionality is critical to our operations, it is essential for us to address this problem at the earliest possible opportunity.\n\nPlease let us know the next steps we should take or any troubleshooting procedures we might attempt while awaiting further instructions from your team. Your urgent attention and prompt resolution of this matter would be greatly appreciated, as it is profoundly impacting our work.\n\nFor your reference, my full name is <name>, and I am available anytime to discuss this issue or assist with any preliminary checks. You can reach me at <tel_num>.\n\nThank you for your attention to this urgent matter.\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

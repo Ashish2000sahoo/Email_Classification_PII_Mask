@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on DocuSign Problem\n\nA financial organization is encountering difficulties with document signing via DocuSign My name is Omar Hassan.. The problem might be due to software compatibility issues or server overload. A system reboot has already been attempted. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        293,
+        314
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Report on DocuSign Problem\n\nA financial organization is encountering difficulties with document signing via DocuSign My name is [full_name].. The problem might be due to software compatibility issues or server overload. A system reboot has already been attempted. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

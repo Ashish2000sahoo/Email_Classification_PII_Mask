@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Data Integration\n\nA financial firm is experiencing integration errors with multiple platforms, which is hindering the optimization of investments My name is Elena Ivanova.. Recent software updates might be causing compatibility issues You can reach me at fatima.farsi@help.com.. Restarting devices and clearing cache can potentially resolve the errors. Assistance is needed to solve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        274,
+        295
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Data Integration\n\nA financial firm is experiencing integration errors with multiple platforms, which is hindering the optimization of investments My name is [full_name].. Recent software updates might be causing compatibility issues You can reach me at [email].. Restarting devices and clearing cache can potentially resolve the errors. Assistance is needed to solve the problem.",
+  "category_of_the_email": "Incident"
+}

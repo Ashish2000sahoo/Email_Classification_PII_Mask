@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Schwierigkeit gemeldet\n\nDas Projektmanagement-Tool scheitert manchmal bei der Laden der Benutzer-Dashboards, was m\u00f6glicherweise auf die neuesten Server-Updates zur\u00fcckzuf\u00fchren ist. Trotz des Leeren des Browser-Caches und des Versuchs mit verschiedenen Browsern bestehen die Probleme weiterhin My name is Maria Gonzalez.. Wir ben\u00f6tigen Unterst\u00fctzung, um das Problem zu l\u00f6sen. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        411,
+        429
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Technische Schwierigkeit gemeldet\n\nDas Projektmanagement-Tool scheitert manchmal bei der Laden der Benutzer-Dashboards, was m\u00f6glicherweise auf die neuesten Server-Updates zur\u00fcckzuf\u00fchren ist. Trotz des Leeren des Browser-Caches und des Versuchs mit verschiedenen Browsern bestehen die Probleme weiterhin My name is [full_name].. Wir ben\u00f6tigen Unterst\u00fctzung, um das Problem zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

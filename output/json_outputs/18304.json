@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Momentanes Problem mit der SaaS-Plattform\n\nWir begegnen derzeit Problemen, die m\u00f6glicherweise auf Overload-Szenarien und Server-Updates zur\u00fcckzuf\u00fchren sind.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        203
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Momentanes Problem mit der SaaS-Plattform\n\nWir begegnen derzeit Problemen, die m\u00f6glicherweise auf Overload-Szenarien und Server-Updates zur\u00fcckzuf\u00fchren sind.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

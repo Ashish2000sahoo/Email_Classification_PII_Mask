@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Cisco Webex Meetings\n\nI am looking for more details on using Cisco Webex Meetings for financial data analysis presentations. This tool can enhance productivity and team collaboration. I am particularly interested in learning about the features that allow for secure and efficient sharing of confidential financial information. Thank you for your time and support in this matter My name is Jane Smith.. I look forward to your response. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        410,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        477,
+        494
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Cisco Webex Meetings\n\nI am looking for more details on using Cisco Webex Meetings for financial data analysis presentations. This tool can enhance productivity and team collaboration. I am particularly interested in learning about the features that allow for secure and efficient sharing of confidential financial information. Thank you for your time and support in this matter My name is [full_name].. I look forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Data Analytics Dashboards\n\nEncountered problems loading data analytics dashboards, suspect that the Smartsheet integration might be outdated. Have already restarted the Hub and reviewed the JIRA Software logs.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        267
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Analytics Dashboards\n\nEncountered problems loading data analytics dashboards, suspect that the Smartsheet integration might be outdated. Have already restarted the Hub and reviewed the JIRA Software logs.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

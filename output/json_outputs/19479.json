@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reported Issue of System Crash While Using Google Keep on Desktop\n\nThere was a system crash when trying to access Google Keep on desktop computers, which might be related to software compatibility issues.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        252
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue of System Crash While Using Google Keep on Desktop\n\nThere was a system crash when trying to access Google Keep on desktop computers, which might be related to software compatibility issues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

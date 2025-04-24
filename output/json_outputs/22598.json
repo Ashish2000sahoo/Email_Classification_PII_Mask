@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: MacBook Air Screen Issue\n\nHello,\n\nI am experiencing intermittent screen flickering on my MacBook Air M1 during video playback, which affects usage You can reach me at elena.ivanova@support.org.. I have not made any recent changes to the system. Could you please provide guidance on resolving this issue? Thank you.\n\nBest,\n<name> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        176,
+        201
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: MacBook Air Screen Issue\n\nHello,\n\nI am experiencing intermittent screen flickering on my MacBook Air M1 during video playback, which affects usage You can reach me at [email].. I have not made any recent changes to the system. Could you please provide guidance on resolving this issue? Thank you.\n\nBest,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerns Over Data Security Breaches in Hospital Systems\n\nOur hospital systems are facing data security breaches, likely due to outdated software and conflicting applications, even after multiple update and configuration efforts.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        277
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Data Security Breaches in Hospital Systems\n\nOur hospital systems are facing data security breaches, likely due to outdated software and conflicting applications, even after multiple update and configuration efforts.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

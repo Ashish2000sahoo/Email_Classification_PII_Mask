@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Microsoft Teams\n\nK\u00f6nnen Sie Details zur Nutzung von Microsoft Teams f\u00fcr erweiterte digitale Marketingstrategien liefern? Vielen Dank!. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        181
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Microsoft Teams\n\nK\u00f6nnen Sie Details zur Nutzung von Microsoft Teams f\u00fcr erweiterte digitale Marketingstrategien liefern? Vielen Dank!. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

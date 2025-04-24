@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Return Requirements for SaaS Project Management Tool Subscription\n\nI am writing to inquire about the requirements for returning a subscription for the SaaS project management tool My name is Sophia Rossi.. Could you please provide me with the necessary steps and all the additional information I will need? It would be greatly appreciated if you could also inform me whether there are any charges associated with the return of the subscription. Thank you for your time and assistance with this matter. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        212
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        530,
+        547
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Return Requirements for SaaS Project Management Tool Subscription\n\nI am writing to inquire about the requirements for returning a subscription for the SaaS project management tool My name is [full_name].. Could you please provide me with the necessary steps and all the additional information I will need? It would be greatly appreciated if you could also inform me whether there are any charges associated with the return of the subscription. Thank you for your time and assistance with this matter. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

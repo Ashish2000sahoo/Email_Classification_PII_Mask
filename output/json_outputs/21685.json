@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Assistance and Technical Support Inquiry\n\nDear Customer Assistance, I trust this message reaches you in good health. I am contacting you to urgently seek your expertise in software development guidance and server troubleshooting as part of our ongoing IT consulting assignment. We have run into significant issues that are negatively impacting our project schedules. Specifically, our team is struggling with the integration of the new software into our current systems, which is causing unwanted downtime and slow performance My name is Carlos Mendoza.. Additionally, we are facing ongoing server connectivity problems that we cannot solve independently, which prevents the flawless delivery of our services You can reach me at johndoe@email.com.. Your quick help in identifying and resolving these challenges would be extremely valuable. We count on your considerable knowledge and technical skills to help us navigate these hurdles promptly. Could you also facilitate a meeting with your lead developer at your earliest convenience? Our goal is to address these problems quickly to avert any additional project delays and ensure a smooth experience for our clients. Thank you for your immediate attention to this issue. I await your quick reply, Best regards, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        557,
+        571
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        745,
+        762
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Immediate Assistance and Technical Support Inquiry\n\nDear Customer Assistance, I trust this message reaches you in good health. I am contacting you to urgently seek your expertise in software development guidance and server troubleshooting as part of our ongoing IT consulting assignment. We have run into significant issues that are negatively impacting our project schedules. Specifically, our team is struggling with the integration of the new software into our current systems, which is causing unwanted downtime and slow performance My name is [full_name].. Additionally, we are facing ongoing server connectivity problems that we cannot solve independently, which prevents the flawless delivery of our services You can reach me at [email].. Your quick help in identifying and resolving these challenges would be extremely valuable. We count on your considerable knowledge and technical skills to help us navigate these hurdles promptly. Could you also facilitate a meeting with your lead developer at your earliest convenience? Our goal is to address these problems quickly to avert any additional project delays and ensure a smooth experience for our clients. Thank you for your immediate attention to this issue. I await your quick reply, Best regards, <name>",
+  "category_of_the_email": "Incident"
+}

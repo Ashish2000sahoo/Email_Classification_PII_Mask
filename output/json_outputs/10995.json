@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Securing Medical Data Transmission Through Encryption\n\nHello Customer Support, I am contacting you to seek information on how to ensure the secure transmission of medical data using WhatsApp Desktop and Cisco Webex Meetings You can reach me at janesmith@company.com.. Given the sensitive nature of medical data, it is crucial that we implement robust encryption to protect this information from unauthorized access. Could you please inform me if there are any encryption protocols already in place for these communication tools? If no such protocols are available, I would appreciate any guidance on how to implement encryption for secure data transmission. Furthermore, I would like to know if there are any regulatory requirements that must be adhered to for the secure sharing of medical data through these platforms. I look forward to your response and any recommendations you can provide My name is Liu Wei.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        913,
+        920
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        253,
+        274
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Securing Medical Data Transmission Through Encryption\n\nHello Customer Support, I am contacting you to seek information on how to ensure the secure transmission of medical data using WhatsApp Desktop and Cisco Webex Meetings You can reach me at [email].. Given the sensitive nature of medical data, it is crucial that we implement robust encryption to protect this information from unauthorized access. Could you please inform me if there are any encryption protocols already in place for these communication tools? If no such protocols are available, I would appreciate any guidance on how to implement encryption for secure data transmission. Furthermore, I would like to know if there are any regulatory requirements that must be adhered to for the secure sharing of medical data through these platforms. I look forward to your response and any recommendations you can provide My name is [full_name].. Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

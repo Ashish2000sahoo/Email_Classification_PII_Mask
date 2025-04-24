@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Connectivity Issue\n\nDear Customer Support, I am writing to submit a Connectivity Problem Report for the Project Management SaaS Platform You can reach me at david.kim@corp.kr.. Users are experiencing intermittent connection issues, possibly due to recent server updates that may have caused network instability. Despite multiple attempts to resolve the issue, including browser refresh, clearing cache, and switching networks, the connection remains irregular My name is Fatima Al-Farsi.. This problem is hindering the user's ability to manage projects, causing delays and disruptions. I appreciate any prompt resolution you can offer. Please let me know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        490,
+        499
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        176,
+        193
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Report on Connectivity Issue\n\nDear Customer Support, I am writing to submit a Connectivity Problem Report for the Project Management SaaS Platform You can reach me at [email].. Users are experiencing intermittent connection issues, possibly due to recent server updates that may have caused network instability. Despite multiple attempts to resolve the issue, including browser refresh, clearing cache, and switching networks, the connection remains irregular My name is [full_name]-Farsi.. This problem is hindering the user's ability to manage projects, causing delays and disruptions. I appreciate any prompt resolution you can offer. Please let me know.",
+  "category_of_the_email": "Incident"
+}

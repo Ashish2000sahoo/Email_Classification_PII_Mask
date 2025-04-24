@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nFacing integration problems with JIRA and QuickBooks Online for investment tracking My name is Sophia Rossi.. Recent updates to either system could be the cause. We have attempted re-linking accounts and restarting the integration process, but the issue still persists. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        106,
+        118
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        300,
+        321
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nFacing integration problems with JIRA and QuickBooks Online for investment tracking My name is [full_name].. Recent updates to either system could be the cause. We have attempted re-linking accounts and restarting the integration process, but the issue still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

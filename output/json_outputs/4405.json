@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Campagnen pausiert auf Grund von Problemen\n\nCampagnen wurden unterbrochen und der Wachstum reduziert, da die Beteiligung niedrig und die Werbeziele schlecht erf\u00fcllt sind. Das Problem entsteht durch falsche Zielgruppen-Daten und veraltete Strategien You can reach me at david.kim@corp.kr.. Trotz Anpassung der Inhalte und Steigerung des Budgets h\u00e4lt sich die Schwierigkeit hartn\u00e4ckig anhaltend. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        414,
+        423
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        278,
+        295
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Campagnen pausiert auf Grund von Problemen\n\nCampagnen wurden unterbrochen und der Wachstum reduziert, da die Beteiligung niedrig und die Werbeziele schlecht erf\u00fcllt sind. Das Problem entsteht durch falsche Zielgruppen-Daten und veraltete Strategien You can reach me at [email].. Trotz Anpassung der Inhalte und Steigerung des Budgets h\u00e4lt sich die Schwierigkeit hartn\u00e4ckig anhaltend. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

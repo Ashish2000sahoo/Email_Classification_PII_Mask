@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unterbereitete Plattformbeteiligung\n\nBetriebsaktivit\u00e4t erheblich gesunken.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        106,
+        122
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unterbereitete Plattformbeteiligung\n\nBetriebsaktivit\u00e4t erheblich gesunken.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

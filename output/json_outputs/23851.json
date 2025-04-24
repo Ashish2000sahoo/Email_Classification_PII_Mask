@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Consulta sobre Discrep\u00e2ncia de Cobran\u00e7a\n\nCaro Suporte ao Cliente, estou entrando em contato para solicitar esclarecimentos sobre uma discrep\u00e2ncia de cobran\u00e7a pela minha recente compra do Dell XPS 13 9310 em seu site You can reach me at omar.hassan@secure.net.. Minha fatura apresenta um valor diferente do que foi inicialmente mostrado no checkout. Voc\u00ea poderia, por favor, revisar os detalhes do meu pedido e fornecer uma explica\u00e7\u00e3o para essa varia\u00e7\u00e3o? Agrade\u00e7o sua pronta assist\u00eancia na resolu\u00e7\u00e3o deste assunto. Obrigado pelo seu apoio. Atenciosamente, <name>, <acc_num>. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        594,
+        601
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        245,
+        267
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        205,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Consulta sobre Discrep\u00e2ncia de Cobran\u00e7a\n\nCaro Suporte ao Cliente, estou entrando em contato para solicitar esclarecimentos sobre uma discrep\u00e2ncia de cobran\u00e7a pela minha recente compra do Dell XPS [phone_number] em seu site You can reach me at [email].. Minha fatura apresenta um valor diferente do que foi inicialmente mostrado no checkout. Voc\u00ea poderia, por favor, revisar os detalhes do meu pedido e fornecer uma explica\u00e7\u00e3o para essa varia\u00e7\u00e3o? Agrade\u00e7o sua pronta assist\u00eancia na resolu\u00e7\u00e3o deste assunto. Obrigado pelo seu apoio. Atenciosamente, <name>, <acc_num>. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

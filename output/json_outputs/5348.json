@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundensupport, <br><br>Ich schreibe im Zusammenhang mit einem technischen Problem unseres Datenanalyse-Systems You can reach me at david.kim@corp.kr.. Es erleidet unerwartete St\u00fcrze in der Nacht My name is John Doe.. M\u00f6gliche Gr\u00fcnde k\u00f6nnten eine untere Serverkapazit\u00e4t oder eine erh\u00f6hte Nutzung sein. Wir haben bereits die Server neugestartet und die Systemprotokolle gepr\u00fcft, aber das Problem blieb bestehen.<br><br>Wir bitten Sie, uns zu helfen, dieses Problem so schnell wie m\u00f6glich zu beheben. Ihre schnelle Unterst\u00fctzung w\u00fcrden wir sehr gesch\u00e4tzt haben.<br><br>Dankenswerterweise f\u00fcr Ihr Engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        155,
+        172
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundensupport, <br><br>Ich schreibe im Zusammenhang mit einem technischen Problem unseres Datenanalyse-Systems You can reach me at [email].. Es erleidet unerwartete St\u00fcrze in der Nacht My name is [full_name].. M\u00f6gliche Gr\u00fcnde k\u00f6nnten eine untere Serverkapazit\u00e4t oder eine erh\u00f6hte Nutzung sein. Wir haben bereits die Server neugestartet und die Systemprotokolle gepr\u00fcft, aber das Problem blieb bestehen.<br><br>Wir bitten Sie, uns zu helfen, dieses Problem so schnell wie m\u00f6glich zu beheben. Ihre schnelle Unterst\u00fctzung w\u00fcrden wir sehr gesch\u00e4tzt haben.<br><br>Dankenswerterweise f\u00fcr Ihr Engagement.",
+  "category_of_the_email": "Incident"
+}

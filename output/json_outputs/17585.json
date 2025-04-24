@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Data Encryption Potentially Due to Driver Error\n\nConnection secured suddenly lost You can reach me at fatima.farsi@help.com.. Might be caused by an old motherboard driver My name is John Doe.. Already tried restarting and updating the driver.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        125,
+        146
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Data Encryption Potentially Due to Driver Error\n\nConnection secured suddenly lost You can reach me at [email].. Might be caused by an old motherboard driver My name is [full_name].. Already tried restarting and updating the driver.",
+  "category_of_the_email": "Problem"
+}

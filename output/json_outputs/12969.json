@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: RapidMiner Assistance Inquiry\n\nI am contacting you to seek information about the documentation available for integrating RapidMiner with data analytics tools My name is David Kim.. Could you kindly direct me to the appropriate documentation or guides? I would greatly appreciate any help you can offer You can reach me at maria.gonzalez@shop.es.. I am anticipating your response and look forward to your prompt reply.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        333,
+        355
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: RapidMiner Assistance Inquiry\n\nI am contacting you to seek information about the documentation available for integrating RapidMiner with data analytics tools My name is [full_name].. Could you kindly direct me to the appropriate documentation or guides? I would greatly appreciate any help you can offer You can reach me at [email].. I am anticipating your response and look forward to your prompt reply.",
+  "category_of_the_email": "Request"
+}

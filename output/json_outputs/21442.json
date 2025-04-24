@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Erreur de haute priorit\u00e9 dans MySQL 8.0.30\n\nCher service client,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous \u00e9cris pour signaler un probl\u00e8me significatif que nous avons rencontr\u00e9 avec la version MySQL 8.0.30 dans notre environnement de production My name is Jane Smith.. Ce bogue de haute priorit\u00e9 affecte n\u00e9gativement les requ\u00eates de base de donn\u00e9es relationnelle, entra\u00eenant des perturbations dans nos op\u00e9rations quotidiennes. Nous d\u00e9pendons fortement de MySQL pour une gestion et un traitement efficaces de nos bases de donn\u00e9es, et ce probl\u00e8me entrave actuellement notre performance.\n\nLe probl\u00e8me persiste et compromet la fonctionnalit\u00e9 de nos applications s'appuyant sur MySQL, ce qui pourrait impacter notre livraison de service. Nous vous serions reconnaissants si votre \u00e9quipe technique pouvait enqu\u00eater d'urgence et fournir une r\u00e9solution ou une solution de contournement dans les plus brefs d\u00e9lais.\n\nNotre calendrier de production est serr\u00e9, et minimiser les temps d'arr\u00eat est crucial pour nous afin de respecter nos engagements. Merci de nous faire savoir comment nous pouvons aider votre \u00e9quipe \u00e0 acc\u00e9l\u00e9rer ce processus. J'attends votre r\u00e9ponse rapide.\n\nMerci pour votre attention rapide \u00e0 cette affaire urgente.\n\nCordialement,\n\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        274,
+        284
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1284,
+        1307
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        45,
+        51
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        217,
+        223
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Erreur de haute priorit\u00e9 dans MySQL [phone_number]\n\nCher service client,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous \u00e9cris pour signaler un probl\u00e8me significatif que nous avons rencontr\u00e9 avec la version MySQL [phone_number] dans notre environnement de production My name is [full_name].. Ce bogue de haute priorit\u00e9 affecte n\u00e9gativement les requ\u00eates de base de donn\u00e9es relationnelle, entra\u00eenant des perturbations dans nos op\u00e9rations quotidiennes. Nous d\u00e9pendons fortement de MySQL pour une gestion et un traitement efficaces de nos bases de donn\u00e9es, et ce probl\u00e8me entrave actuellement notre performance.\n\nLe probl\u00e8me persiste et compromet la fonctionnalit\u00e9 de nos applications s'appuyant sur MySQL, ce qui pourrait impacter notre livraison de service. Nous vous serions reconnaissants si votre \u00e9quipe technique pouvait enqu\u00eater d'urgence et fournir une r\u00e9solution ou une solution de contournement dans les plus brefs d\u00e9lais.\n\nNotre calendrier de production est serr\u00e9, et minimiser les temps d'arr\u00eat est crucial pour nous afin de respecter nos engagements. Merci de nous faire savoir comment nous pouvons aider votre \u00e9quipe \u00e0 acc\u00e9l\u00e9rer ce processus. J'attends votre r\u00e9ponse rapide.\n\nMerci pour votre attention rapide \u00e0 cette affaire urgente.\n\nCordialement,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

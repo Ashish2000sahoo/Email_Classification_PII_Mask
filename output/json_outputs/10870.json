@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Detected Medical Data Breach\n\nGentlemen of customer support, an unauthorised entry into patient files has been discovered today. The potential cause could be a flimsy WLAN-Router password and an outdated Norton Antivirus. We have attempted to rectify the situation by rebooting the router, updating the antivirus, and conducting a malware scan, yet the problem remains unresolved You can reach me at maria.gonzalez@shop.es.. We require your intervention to address this issue promptly to safeguard patient information. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        553,
+        566
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        423,
+        445
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern about Detected Medical Data Breach\n\nGentlemen of customer support, an unauthorised entry into patient files has been discovered today. The potential cause could be a flimsy WLAN-Router password and an outdated Norton Antivirus. We have attempted to rectify the situation by rebooting the router, updating the antivirus, and conducting a malware scan, yet the problem remains unresolved You can reach me at [email].. We require your intervention to address this issue promptly to safeguard patient information. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

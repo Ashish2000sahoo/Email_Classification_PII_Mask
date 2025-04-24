@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Strategies for Digital Marketing and Brand Growth\n\nCustomer Support, <br>I am reaching out to inquire about the digital marketing strategies your company uses to drive brand growth My name is Maria Gonzalez.. As a potential client, I am interested in learning about the methods and techniques that can help businesses expand their online presence and increase their customer base You can reach me at david.kim@corp.kr.. <br>Could you please provide details about your approach to digital marketing, including the specific services and tools you offer? I would greatly appreciate any information you can provide about your team's experience and expertise in this area. <br>Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        215
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        406,
+        423
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Strategies for Digital Marketing and Brand Growth\n\nCustomer Support, <br>I am reaching out to inquire about the digital marketing strategies your company uses to drive brand growth My name is [full_name].. As a potential client, I am interested in learning about the methods and techniques that can help businesses expand their online presence and increase their customer base You can reach me at [email].. <br>Could you please provide details about your approach to digital marketing, including the specific services and tools you offer? I would greatly appreciate any information you can provide about your team's experience and expertise in this area. <br>Thank you for your time and assistance.",
+  "category_of_the_email": "Request"
+}

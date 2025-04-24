@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Missing Project Data\n\nA brief issue description: The project data has disappeared unexpectedly. It could be a result of a misalignment between the Redis and Cassandra integrations My name is Elena Ivanova.. I attempted to restart the servers and examined the Zapier logs, yet the problem still exists. I would be grateful if you could provide support to address this as quickly as possible. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        218,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        436,
+        459
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Missing Project Data\n\nA brief issue description: The project data has disappeared unexpectedly. It could be a result of a misalignment between the Redis and Cassandra integrations My name is [full_name].. I attempted to restart the servers and examined the Zapier logs, yet the problem still exists. I would be grateful if you could provide support to address this as quickly as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

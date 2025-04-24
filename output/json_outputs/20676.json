@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringende Kundenanfrage: Jira Software 8.20 Upgrade\n\nLiebes Kundenserviceteam, unser Kunde, <name>, hat dringend angefordert, dass wir unser Projektmanagement-Tool auf Jira Software 8.20 aktualisieren My name is Jane Smith.. Sie ben\u00f6tigen dieses Upgrade, um auf die verbesserten Funktionen des Ticketsystems zuzugreifen, die in dieser Version bereitgestellt werden. Das aktuell betroffene Produkt ist Jira Software, das f\u00fcr das Projektmanagement verwendet wird. Bitte priorisieren Sie diese Anfrage und unterst\u00fctzen Sie uns bei den notwendigen Schritten f\u00fcr das Software-Update You can reach me at david.kim@corp.kr.. Wenn Sie weitere Details ben\u00f6tigen oder Fragen haben, kontaktieren Sie mich bitte direkt unter <tel_num>. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit. Mit freundlichen Gr\u00fc\u00dfen, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        221,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        608,
+        625
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Dringende Kundenanfrage: Jira Software 8.20 Upgrade\n\nLiebes Kundenserviceteam, unser Kunde, <name>, hat dringend angefordert, dass wir unser Projektmanagement-Tool auf Jira Software 8.20 aktualisieren My name is [full_name].. Sie ben\u00f6tigen dieses Upgrade, um auf die verbesserten Funktionen des Ticketsystems zuzugreifen, die in dieser Version bereitgestellt werden. Das aktuell betroffene Produkt ist Jira Software, das f\u00fcr das Projektmanagement verwendet wird. Bitte priorisieren Sie diese Anfrage und unterst\u00fctzen Sie uns bei den notwendigen Schritten f\u00fcr das Software-Update You can reach me at [email].. Wenn Sie weitere Details ben\u00f6tigen oder Fragen haben, kontaktieren Sie mich bitte direkt unter <tel_num>. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit. Mit freundlichen Gr\u00fc\u00dfen, <name>.",
+  "category_of_the_email": "Incident"
+}

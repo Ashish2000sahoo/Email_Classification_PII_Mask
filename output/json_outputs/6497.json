@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, requesting to adjust the digital strategy for the order to enhance brand visibility and client engagement. I believe that utilizing targeted online marketing techniques can improve our online presence and reach a wider audience My name is Elena Ivanova.. This could include methods such as search engine optimization, social media marketing, and email marketing. I would like to discuss these options with your team to explore the available strategies You can reach me at carlosm@gmail.com.. I am confident that the right strategy will increase our brand's visibility.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        281
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        499,
+        516
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, requesting to adjust the digital strategy for the order to enhance brand visibility and client engagement. I believe that utilizing targeted online marketing techniques can improve our online presence and reach a wider audience My name is [full_name].. This could include methods such as search engine optimization, social media marketing, and email marketing. I would like to discuss these options with your team to explore the available strategies You can reach me at [email].. I am confident that the right strategy will increase our brand's visibility.",
+  "category_of_the_email": "Change"
+}

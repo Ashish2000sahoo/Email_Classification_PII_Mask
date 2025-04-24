@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Address Drop in Brand Engagement Visibility Online\n\nFacing a decline in brand engagement visibility through digital marketing efforts. This may be due to recent algorithm changes making current campaign targeting less effective. So far, we've tried adjusting ad spend and optimizing content, which has shown some improvement You can reach me at elena.ivanova@support.org.. I would appreciate your assistance in identifying the root cause of the issue and providing recommendations for improvement My name is Maria Gonzalez.. Could you please help us analyze our current strategies and suggest changes to enhance our brand's online presence?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        517,
+        531
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        354,
+        379
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Address Drop in Brand Engagement Visibility Online\n\nFacing a decline in brand engagement visibility through digital marketing efforts. This may be due to recent algorithm changes making current campaign targeting less effective. So far, we've tried adjusting ad spend and optimizing content, which has shown some improvement You can reach me at [email].. I would appreciate your assistance in identifying the root cause of the issue and providing recommendations for improvement My name is [full_name].. Could you please help us analyze our current strategies and suggest changes to enhance our brand's online presence?",
+  "category_of_the_email": "Incident"
+}

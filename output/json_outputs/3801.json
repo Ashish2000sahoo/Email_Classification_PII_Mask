@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with SaaS Project Management Tool\n\nThe SaaS project management tool is facing lag and unresponsiveness. Despite attempting server optimization and cache clearing, the issues continue You can reach me at carlosm@gmail.com.. It is suspected that heavy data loads and inefficient resource allocation may be the cause. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        342,
+        351
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        219,
+        236
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with SaaS Project Management Tool\n\nThe SaaS project management tool is facing lag and unresponsiveness. Despite attempting server optimization and cache clearing, the issues continue You can reach me at [email].. It is suspected that heavy data loads and inefficient resource allocation may be the cause. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

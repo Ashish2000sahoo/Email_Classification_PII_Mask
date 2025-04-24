@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Umfrage zur Auswahl von Optimierungswerkzeugen f\u00fcr Investment-Portfolios\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Werkzeuge zur Datenbasierten Analyse zu erkunden, die die Optimierung von Investment-Portfolios f\u00fcr Privatinvestoren erm\u00f6glichen. Ich bin als Privatinvestor auf spezielle Werkzeuge aus, die mir dabei helfen sollen, informierte Entscheidungen zu treffen und meine R\u00fccktr\u00e4ge zu maximieren. Ich w\u00fcrde mich freuen, wenn Sie mir einige Empfehlungen oder Anleitungen geben k\u00f6nnten, wie man mit diesen Werkzeugen am besten umgeht. Insbesondere interessiere ich mich f\u00fcr Werkzeuge, die Marktentwicklungen analysieren, Portfolioleistungen \u00fcberwachen und pers\u00f6nliche Anlageberatung anbieten k\u00f6nnen My name is Maria Gonzalez.. Ich habe bereits von verschiedenen Werkzeugen wie Excel, Python-Modulen und webbasierten Plattformen geh\u00f6rt, aber ich w\u00fcrde gerne mehr \u00fcber deren Merkmale und Vorteile erfahren. K\u00f6nnten Sie bitte mehr Informationen zu diesen Werkzeugen bereitstellen oder mir auf Ressourcen weisen, die mir helfen, mehr zu ihnen zu lernen? Ich freue mich auf eine R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        736,
+        750
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1175,
+        1198
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Umfrage zur Auswahl von Optimierungswerkzeugen f\u00fcr Investment-Portfolios\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Werkzeuge zur Datenbasierten Analyse zu erkunden, die die Optimierung von Investment-Portfolios f\u00fcr Privatinvestoren erm\u00f6glichen. Ich bin als Privatinvestor auf spezielle Werkzeuge aus, die mir dabei helfen sollen, informierte Entscheidungen zu treffen und meine R\u00fccktr\u00e4ge zu maximieren. Ich w\u00fcrde mich freuen, wenn Sie mir einige Empfehlungen oder Anleitungen geben k\u00f6nnten, wie man mit diesen Werkzeugen am besten umgeht. Insbesondere interessiere ich mich f\u00fcr Werkzeuge, die Marktentwicklungen analysieren, Portfolioleistungen \u00fcberwachen und pers\u00f6nliche Anlageberatung anbieten k\u00f6nnen My name is [full_name].. Ich habe bereits von verschiedenen Werkzeugen wie Excel, Python-Modulen und webbasierten Plattformen geh\u00f6rt, aber ich w\u00fcrde gerne mehr \u00fcber deren Merkmale und Vorteile erfahren. K\u00f6nnten Sie bitte mehr Informationen zu diesen Werkzeugen bereitstellen oder mir auf Ressourcen weisen, die mir helfen, mehr zu ihnen zu lernen? Ich freue mich auf eine R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

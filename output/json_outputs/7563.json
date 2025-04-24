@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unvorhergesehene Login-Problem Heute Morgen\n\nEs ist passiert: Der Login wurde unerwartet abgelehnt My name is Carlos Mendoza.. M\u00f6glicherweise liegt dies an altem Browser-Cache. Versucht: Cache l\u00f6schen und Browser neu starten. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        119,
+        133
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        252,
+        277
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unvorhergesehene Login-Problem Heute Morgen\n\nEs ist passiert: Der Login wurde unerwartet abgelehnt My name is [full_name].. M\u00f6glicherweise liegt dies an altem Browser-Cache. Versucht: Cache l\u00f6schen und Browser neu starten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

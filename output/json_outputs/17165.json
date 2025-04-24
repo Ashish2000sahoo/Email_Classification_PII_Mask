@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Update Billing Processes Using Data Analytics\n\nCustomer Support, requesting an update on the billing processes, particularly the payment methods and the software/hardware utilized for data analytics operations. We are currently encountering issues with the payment gateway and would like to explore alternative options My name is Omar Hassan.. Could you please provide us with the available payment methods and guide us through the process of updating our billing information? We greatly appreciate your assistance in this matter and look forward to hearing from you soon. Thank you for your support. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        630,
+        655
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Update Billing Processes Using Data Analytics\n\nCustomer Support, requesting an update on the billing processes, particularly the payment methods and the software/hardware utilized for data analytics operations. We are currently encountering issues with the payment gateway and would like to explore alternative options My name is [full_name].. Could you please provide us with the available payment methods and guide us through the process of updating our billing information? We greatly appreciate your assistance in this matter and look forward to hearing from you soon. Thank you for your support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

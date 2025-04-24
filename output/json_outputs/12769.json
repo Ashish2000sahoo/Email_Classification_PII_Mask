@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Security Measures\n\nHello Customer Support, I am a potential client interested in ensuring that the company has appropriate security measures in place to protect medical data. I want to make sure that any sensitive information is handled with the utmost care. Could you provide guidance on the security services and products that your company offers to secure medical data? I would appreciate detailed information, including any relevant certifications and compliance with industry standards My name is Fatima Al-Farsi.. Thank you for your time and assistance You can reach me at carlosm@gmail.com.. I look forward to hearing from you soon. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        523,
+        532
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        602,
+        619
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Security Measures\n\nHello Customer Support, I am a potential client interested in ensuring that the company has appropriate security measures in place to protect medical data. I want to make sure that any sensitive information is handled with the utmost care. Could you provide guidance on the security services and products that your company offers to secure medical data? I would appreciate detailed information, including any relevant certifications and compliance with industry standards My name is [full_name]-Farsi.. Thank you for your time and assistance You can reach me at [email].. I look forward to hearing from you soon. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

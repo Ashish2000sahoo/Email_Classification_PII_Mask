@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische Datenschutz-Schwerpunkte\n\nDie Datensicherheit des Krankenhauses wurde durch eine ordnungsgem\u00e4\u00dfe Software-Modernisierung beeintr\u00e4chtigt. Das Team versuchte, die fr\u00fchere Systemkonfiguration zu wiederherstellen und Passw\u00f6rter zu aktualisieren, was jedoch erfolglos war.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        328
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datenschutz-Schwerpunkte\n\nDie Datensicherheit des Krankenhauses wurde durch eine ordnungsgem\u00e4\u00dfe Software-Modernisierung beeintr\u00e4chtigt. Das Team versuchte, die fr\u00fchere Systemkonfiguration zu wiederherstellen und Passw\u00f6rter zu aktualisieren, was jedoch erfolglos war.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

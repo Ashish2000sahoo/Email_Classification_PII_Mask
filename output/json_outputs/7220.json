@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei einem Sicherheitsverletzungsfall\n\nSehr geehrte Kundensupport, wir haben unautorisierte Zugangsbem\u00fchungen zu medizinischen Daten in den IT-Systemen unseres Krankenhauses registriert. Diese sind wahrscheinlich auf veraltete Software und inkorrekte Konfigurationen zur\u00fcckzuf\u00fchren. Momentan wurden die Passw\u00f6rter aktualisiert und der Zugriff auf vertrauliche Daten beschr\u00e4nkt. Die Logs werden aktiv \u00fcberwacht, um verd\u00e4chtige Aktivit\u00e4ten zu identifizieren You can reach me at david.kim@corp.kr.. Wir bitten Sie, uns bei der weiteren Untersuchung des Falles zu unterst\u00fctzen und uns mit Vorschl\u00e4gen zur Verbesserung unserer Sicherheitsma\u00dfnahmen und zur Verh\u00fctung zuk\u00fcnftiger Vorf\u00e4lle zu teilen My name is David Kim.. Bitte geben Sie uns an, welche n\u00e4chsten Schritte unternommen werden sollen, um weitere Ma\u00dfnahmen in die Tat umzusetzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        725,
+        734
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        498,
+        515
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei einem Sicherheitsverletzungsfall\n\nSehr geehrte Kundensupport, wir haben unautorisierte Zugangsbem\u00fchungen zu medizinischen Daten in den IT-Systemen unseres Krankenhauses registriert. Diese sind wahrscheinlich auf veraltete Software und inkorrekte Konfigurationen zur\u00fcckzuf\u00fchren. Momentan wurden die Passw\u00f6rter aktualisiert und der Zugriff auf vertrauliche Daten beschr\u00e4nkt. Die Logs werden aktiv \u00fcberwacht, um verd\u00e4chtige Aktivit\u00e4ten zu identifizieren You can reach me at [email].. Wir bitten Sie, uns bei der weiteren Untersuchung des Falles zu unterst\u00fctzen und uns mit Vorschl\u00e4gen zur Verbesserung unserer Sicherheitsma\u00dfnahmen und zur Verh\u00fctung zuk\u00fcnftiger Vorf\u00e4lle zu teilen My name is [full_name].. Bitte geben Sie uns an, welche n\u00e4chsten Schritte unternommen werden sollen, um weitere Ma\u00dfnahmen in die Tat umzusetzen.",
+  "category_of_the_email": "Incident"
+}

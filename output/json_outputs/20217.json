@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrter Kundenservice,\n\nich schreibe, um sofortige Anleitung zur Optimierung unserer Infrastrukturkosten im Zusammenhang mit unserem AWS-Konto zu erbitten. Wir haben einen stetigen Anstieg unserer monatlichen Ausgaben festgestellt und glauben, dass es m\u00f6glicherweise Spielraum f\u00fcr Kostensenkungen gibt, w\u00e4hrend wir die optimale Leistung unserer Dienste aufrechterhalten My name is Omar Hassan.. Derzeit verwenden wir den AWS Management Service You can reach me at johndoe@email.com.. Bitte geben Sie Strategien und Empfehlungen an, wie das Konsolidieren von Ressourcen, das Anpassen der Instanzgr\u00f6\u00dfen oder die Nutzung von reservierten Instanzen, um uns bei einer effizienteren Kostenverwaltung zu helfen. Wenn es au\u00dferdem native AWS-Tools oder L\u00f6sungen von Drittanbietern gibt, die Sie empfehlen, f\u00fcgen Sie diese bitte in Ihre Anleitung ein. Ich freue mich auf Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<name>\nKontonummer: <acc_num>\nTelefon: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        481,
+        498
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrter Kundenservice,\n\nich schreibe, um sofortige Anleitung zur Optimierung unserer Infrastrukturkosten im Zusammenhang mit unserem AWS-Konto zu erbitten. Wir haben einen stetigen Anstieg unserer monatlichen Ausgaben festgestellt und glauben, dass es m\u00f6glicherweise Spielraum f\u00fcr Kostensenkungen gibt, w\u00e4hrend wir die optimale Leistung unserer Dienste aufrechterhalten My name is [full_name].. Derzeit verwenden wir den AWS Management Service You can reach me at [email].. Bitte geben Sie Strategien und Empfehlungen an, wie das Konsolidieren von Ressourcen, das Anpassen der Instanzgr\u00f6\u00dfen oder die Nutzung von reservierten Instanzen, um uns bei einer effizienteren Kostenverwaltung zu helfen. Wenn es au\u00dferdem native AWS-Tools oder L\u00f6sungen von Drittanbietern gibt, die Sie empfehlen, f\u00fcgen Sie diese bitte in Ihre Anleitung ein. Ich freue mich auf Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<name>\nKontonummer: <acc_num>\nTelefon: <tel_num>",
+  "category_of_the_email": "Request"
+}

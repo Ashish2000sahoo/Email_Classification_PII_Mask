@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Alert on Security Breach in Medical Data Systems\n\nA security breach has been detected in the medical data systems, which may expose sensitive patient information. This could be due to outdated software and insufficient access controls You can reach me at janesmith@company.com.. We have implemented temporary access restrictions and initiated an audit of recent logins to identify the source of the breach. The audit will help us understand the extent of the breach and take necessary steps to prevent similar incidents in the future. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        555,
+        563
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        264,
+        285
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Alert on Security Breach in Medical Data Systems\n\nA security breach has been detected in the medical data systems, which may expose sensitive patient information. This could be due to outdated software and insufficient access controls You can reach me at [email].. We have implemented temporary access restrictions and initiated an audit of recent logins to identify the source of the breach. The audit will help us understand the extent of the breach and take necessary steps to prevent similar incidents in the future. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

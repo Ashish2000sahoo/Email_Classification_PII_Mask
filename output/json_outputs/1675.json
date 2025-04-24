@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error in Project Employment Process\n\nDear Customer Support, I am writing to report an unexpected error that occurred during the project employment. The error might be due to insufficient permissions or an issue with the latest update. So far, I have tried logging out, clearing the cache, and running the process again, but the problem persists. I would be grateful if you could address this issue and offer a solution as soon as possible. Please let me know if you need additional information to resolve this problem My name is Fatima Al-Farsi.. Thank you for your time and assistance. Best regards, [Your Name] You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        538,
+        547
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        644,
+        665
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Error in Project Employment Process\n\nDear Customer Support, I am writing to report an unexpected error that occurred during the project employment. The error might be due to insufficient permissions or an issue with the latest update. So far, I have tried logging out, clearing the cache, and running the process again, but the problem persists. I would be grateful if you could address this issue and offer a solution as soon as possible. Please let me know if you need additional information to resolve this problem My name is [full_name]-Farsi.. Thank you for your time and assistance. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

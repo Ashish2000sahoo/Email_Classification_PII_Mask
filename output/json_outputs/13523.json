@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Data Analytics Across Various Platforms\n\nThe company is encountering data analytics failures across several platforms, which is disrupting investment optimization You can reach me at omar.hassan@secure.net.. These issues might be due to outdated software or incompatible updates My name is Liu Wei.. Efforts to resolve the problem, such as restarting systems and updating applications, have been unsuccessful. Immediate assistance is required to resolve the issue and prevent further disruptions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        204,
+        226
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issues with Data Analytics Across Various Platforms\n\nThe company is encountering data analytics failures across several platforms, which is disrupting investment optimization You can reach me at [email].. These issues might be due to outdated software or incompatible updates My name is [full_name].. Efforts to resolve the problem, such as restarting systems and updating applications, have been unsuccessful. Immediate assistance is required to resolve the issue and prevent further disruptions.",
+  "category_of_the_email": "Incident"
+}

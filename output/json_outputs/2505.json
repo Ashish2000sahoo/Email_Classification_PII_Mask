@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Critical Error\n\nA critical error has occurred during software integration with Avast, Adobe, and Magento, likely due to compatibility conflicts. Despite updating the software and verifying connection settings, the issue still persists.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Critical Error\n\nA critical error has occurred during software integration with Avast, Adobe, and Magento, likely due to compatibility conflicts. Despite updating the software and verifying connection settings, the issue still persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

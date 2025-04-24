@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Connecting HyperX Cloud II Wireless Headset\n\nI'm having connectivity problems with my HyperX Cloud II Wireless Headset across different software like Zoom and Spotify My name is Fatima Al-Farsi.. I've tried updating drivers and reconfiguring settings, but the issues still persist You can reach me at david.kim@corp.kr.. I've followed some troubleshooting steps, but the problem remains. I suspect it might be due to outdated drivers or software conflicts. I would greatly appreciate any assistance in resolving this issue to ensure compatibility with my applications. Could you please provide additional troubleshooting steps or recommendations to resolve this issue? I look forward to your help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        325,
+        342
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Connecting HyperX Cloud II Wireless Headset\n\nI'm having connectivity problems with my HyperX Cloud II Wireless Headset across different software like Zoom and Spotify My name is [full_name]-Farsi.. I've tried updating drivers and reconfiguring settings, but the issues still persist You can reach me at [email].. I've followed some troubleshooting steps, but the problem remains. I suspect it might be due to outdated drivers or software conflicts. I would greatly appreciate any assistance in resolving this issue to ensure compatibility with my applications. Could you please provide additional troubleshooting steps or recommendations to resolve this issue? I look forward to your help.",
+  "category_of_the_email": "Incident"
+}

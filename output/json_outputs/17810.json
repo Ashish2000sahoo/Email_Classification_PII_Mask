@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Router Issues\n\nFacing connectivity problems with the Google Nest Wifi Router and D-Link DIR-895L You can reach me at johndoe@email.com.. Restarting the routers and checking settings did not resolve the issue, which seems to be due to network overload. We've already tried these steps. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        146,
+        163
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Router Issues\n\nFacing connectivity problems with the Google Nest Wifi Router and D-Link DIR-895L You can reach me at [email].. Restarting the routers and checking settings did not resolve the issue, which seems to be due to network overload. We've already tried these steps. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Kritisches Problem bez\u00fcglich Datensicherheit\n\nSehr geehrte Kundenservice, ich schreibe Ihnen mit Sorge \u00fcber einen schwerwiegenden Fehler in unserem System. Unkryptierte medizinische Daten wurden k\u00fcrzlich \u00fcber eine Streaming-Kamera \u00fcbertragen, was eine schlimme Verletzung der Datenschutzregeln ist You can reach me at fatima.farsi@help.com.. Nach unserem Ermittlungsverfahren scheint der Fehler m\u00f6glicherweise auf Konfigurationsprobleme unseres Firewalls und Elasticsearch zu beruhen My name is Maria Gonzalez.. Wir haben versucht, das Problem durch Neustart der Ger\u00e4te und \u00dcberpr\u00fcfung der Protokolle unserer Bitdefender Antivirensoftware Plus 2021 zu l\u00f6sen, aber der Fehler ist nicht beseitigt worden. Wir bef\u00fcrchten die m\u00f6glichen Folgen dieser Verletzung und m\u00f6chten Ihre Unterst\u00fctzung bei der Behebung des Problems so schnell wie m\u00f6glich in Anspruch nehmen. K\u00f6nnten Sie uns bitte Rat geben, wie wir unser Firewall und Elasticsearch richtig konfigurieren k\u00f6nnen, um zuk\u00fcnftige Fehlverhalten zu vermeiden? Wir sind dankbar f\u00fcr Ihre schnelle Aufmerksamkeit und freuen uns auf Ihre R\u00fcckmeldung. Teilen Sie uns mit, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        327,
+        348
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        636,
+        640
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Kritisches Problem bez\u00fcglich Datensicherheit\n\nSehr geehrte Kundenservice, ich schreibe Ihnen mit Sorge \u00fcber einen schwerwiegenden Fehler in unserem System. Unkryptierte medizinische Daten wurden k\u00fcrzlich \u00fcber eine Streaming-Kamera \u00fcbertragen, was eine schlimme Verletzung der Datenschutzregeln ist You can reach me at [email].. Nach unserem Ermittlungsverfahren scheint der Fehler m\u00f6glicherweise auf Konfigurationsprobleme unseres Firewalls und Elasticsearch zu beruhen My name is [full_name].. Wir haben versucht, das Problem durch Neustart der Ger\u00e4te und \u00dcberpr\u00fcfung der Protokolle unserer Bitdefender Antivirensoftware Plus [phone_number] zu l\u00f6sen, aber der Fehler ist nicht beseitigt worden. Wir bef\u00fcrchten die m\u00f6glichen Folgen dieser Verletzung und m\u00f6chten Ihre Unterst\u00fctzung bei der Behebung des Problems so schnell wie m\u00f6glich in Anspruch nehmen. K\u00f6nnten Sie uns bitte Rat geben, wie wir unser Firewall und Elasticsearch richtig konfigurieren k\u00f6nnen, um zuk\u00fcnftige Fehlverhalten zu vermeiden? Wir sind dankbar f\u00fcr Ihre schnelle Aufmerksamkeit und freuen uns auf Ihre R\u00fcckmeldung. Teilen Sie uns mit, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen.",
+  "category_of_the_email": "Incident"
+}

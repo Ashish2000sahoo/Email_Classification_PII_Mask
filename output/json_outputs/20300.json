@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage zu den Preisen des MacBook Air M1\n\nHallo Kundenservice,\n\nich m\u00f6chte mich \u00fcber die Preise und die verf\u00fcgbaren Versandoptionen f\u00fcr das MacBook Air M1 informieren, wenn es im Gesch\u00e4ft in Ihrem Tech Online Store gekauft wird. K\u00f6nnten Sie bitte detaillierte Informationen zu aktuellen Angeboten oder Rabatten sowie zu eventuellen Versandkosten bereitstellen, die f\u00fcr die Lieferung anfallen k\u00f6nnten? Dar\u00fcber hinaus interessiert es mich, ob eine Abholung m\u00f6glich ist und wie schnell ich nach dem Kauf meine Bestellung abholen kann.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        669,
+        685
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zu den Preisen des MacBook Air M1\n\nHallo Kundenservice,\n\nich m\u00f6chte mich \u00fcber die Preise und die verf\u00fcgbaren Versandoptionen f\u00fcr das MacBook Air M1 informieren, wenn es im Gesch\u00e4ft in Ihrem Tech Online Store gekauft wird. K\u00f6nnten Sie bitte detaillierte Informationen zu aktuellen Angeboten oder Rabatten sowie zu eventuellen Versandkosten bereitstellen, die f\u00fcr die Lieferung anfallen k\u00f6nnten? Dar\u00fcber hinaus interessiert es mich, ob eine Abholung m\u00f6glich ist und wie schnell ich nach dem Kauf meine Bestellung abholen kann.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

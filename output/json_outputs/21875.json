@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Difficult\u00e9s de connexion\n\nCher service client\u00e8le,\n\nJe vous contacte pour partager mes inqui\u00e9tudes concernant le Canon PIXMA MG3620 que j'ai acquis dans votre boutique en ligne Tech. Depuis l'achat de cette imprimante, j'ai continuellement rencontr\u00e9 des difficult\u00e9s de connexion lorsque j'essaie de l'utiliser via mon r\u00e9seau sans fil You can reach me at johndoe@email.com.. En cons\u00e9quence, l'appareil rencontre fr\u00e9quemment des probl\u00e8mes d'impression recto verso, une fonctionnalit\u00e9 essentielle dont j'ai besoin pour mes activit\u00e9s quotidiennes.\n\nJ'ai essay\u00e9 \u00e0 plusieurs reprises de r\u00e9soudre le probl\u00e8me par moi-m\u00eame, en confirmant que toutes les configurations r\u00e9seau sont correctes et m\u00eame en r\u00e9initialisant les param\u00e8tres du r\u00e9seau plusieurs fois. Malgr\u00e9 mes efforts, le probl\u00e8me persiste, causant une interruption consid\u00e9rable et des obstacles dans mon travail My name is Elena Ivanova.. J'esp\u00e8re que votre \u00e9quipe pourra offrir une solution ou un service de r\u00e9paration pour r\u00e9gler ces probl\u00e8mes rapidement.\n\nMerci de me conseiller sur la meilleure fa\u00e7on de proc\u00e9der, que ce soit par un guide de d\u00e9pannage complet ou en organisant une r\u00e9paration ou un remplacement sous garantie du produit. Votre r\u00e9ponse rapide concernant ce sujet sera tr\u00e8s appr\u00e9ci\u00e9e.\n\nMerci de votre attention \u00e0 ce sujet.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        882,
+        895
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        362,
+        379
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        135,
+        139
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Difficult\u00e9s de connexion\n\nCher service client\u00e8le,\n\nJe vous contacte pour partager mes inqui\u00e9tudes concernant le Canon PIXMA MG[phone_number] que j'ai acquis dans votre boutique en ligne Tech. Depuis l'achat de cette imprimante, j'ai continuellement rencontr\u00e9 des difficult\u00e9s de connexion lorsque j'essaie de l'utiliser via mon r\u00e9seau sans fil You can reach me at [email].. En cons\u00e9quence, l'appareil rencontre fr\u00e9quemment des probl\u00e8mes d'impression recto verso, une fonctionnalit\u00e9 essentielle dont j'ai besoin pour mes activit\u00e9s quotidiennes.\n\nJ'ai essay\u00e9 \u00e0 plusieurs reprises de r\u00e9soudre le probl\u00e8me par moi-m\u00eame, en confirmant que toutes les configurations r\u00e9seau sont correctes et m\u00eame en r\u00e9initialisant les param\u00e8tres du r\u00e9seau plusieurs fois. Malgr\u00e9 mes efforts, le probl\u00e8me persiste, causant une interruption consid\u00e9rable et des obstacles dans mon travail My name is [full_name].. J'esp\u00e8re que votre \u00e9quipe pourra offrir une solution ou un service de r\u00e9paration pour r\u00e9gler ces probl\u00e8mes rapidement.\n\nMerci de me conseiller sur la meilleure fa\u00e7on de proc\u00e9der, que ce soit par un guide de d\u00e9pannage complet ou en organisant une r\u00e9paration ou un remplacement sous garantie du produit. Votre r\u00e9ponse rapide concernant ce sujet sera tr\u00e8s appr\u00e9ci\u00e9e.\n\nMerci de votre attention \u00e0 ce sujet.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

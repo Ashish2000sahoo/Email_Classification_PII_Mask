@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Security Protocols for Medical Data\n\nHello Customer Support, I am writing to seek information on the proper security measures for storing and transferring medical data You can reach me at maria.gonzalez@shop.es.. Given the sensitivity and confidentiality of medical information, it is vital that we handle and protect it appropriately My name is Elena Ivanova.. Could you provide details on the best practices and protocols for securing medical data? I would greatly appreciate any advice or recommendations you can offer. Thank you for your time and support. I am looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        209,
+        231
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Security Protocols for Medical Data\n\nHello Customer Support, I am writing to seek information on the proper security measures for storing and transferring medical data You can reach me at [email].. Given the sensitivity and confidentiality of medical information, it is vital that we handle and protect it appropriately My name is [full_name].. Could you provide details on the best practices and protocols for securing medical data? I would greatly appreciate any advice or recommendations you can offer. Thank you for your time and support. I am looking forward to your response.",
+  "category_of_the_email": "Request"
+}

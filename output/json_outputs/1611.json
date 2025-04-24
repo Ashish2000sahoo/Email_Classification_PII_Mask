@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Analytics Dashboard Loading Today\n\nThe data analytics dashboard was unable to load, which might be related to a MySQL database connection problem. I attempted to restart the MySQL server and verify the network connection, yet the issue remains unresolved You can reach me at liuwei@business.cn.. I would be grateful for prompt assistance in addressing this concern. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        413
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        302,
+        320
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Analytics Dashboard Loading Today\n\nThe data analytics dashboard was unable to load, which might be related to a MySQL database connection problem. I attempted to restart the MySQL server and verify the network connection, yet the issue remains unresolved You can reach me at [email].. I would be grateful for prompt assistance in addressing this concern. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

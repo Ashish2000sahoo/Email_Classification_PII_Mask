@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problems with Dynamics 365 Synchronization\n\nDuring the usage of our SaaS project management tools, synchronization issues with Microsoft Dynamics 365 have occurred. The problem seems to be caused by outdated dependencies in the integration My name is John Doe.. I attempted to restart the application and update the connections, but the issues persist You can reach me at omar.hassan@secure.net.. I need support to resolve the problem and ensure a smooth integration.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        384,
+        406
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        32,
+        35
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        155,
+        158
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Problems with Dynamics [cvv_no] Synchronization\n\nDuring the usage of our SaaS project management tools, synchronization issues with Microsoft Dynamics [cvv_no] have occurred. The problem seems to be caused by outdated dependencies in the integration My name is [full_name].. I attempted to restart the application and update the connections, but the issues persist You can reach me at [email].. I need support to resolve the problem and ensure a smooth integration.",
+  "category_of_the_email": "Incident"
+}

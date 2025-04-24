@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Billing Issue with Visual Studio Code License\n\nHello Customer Support,\n\nI hope this message finds you well. I am reaching out to request assistance regarding a billing issue I encountered with my recent purchase of the annual license for Visual Studio Code 1.70 My name is Carlos Mendoza.. It appears that I have been billed twice for this product, and I would appreciate it if you could look into this matter.\n\nTo aid in your investigation, the purchase was made under the account linked to <acc_num>, and the transaction IDs associated with the charges are <transaction_id_1> and <transaction_id_2>. I kindly request a review of these charges and a refund for the duplicate payment.\n\nYour prompt attention to this issue would be greatly appreciated You can reach me at omar.hassan@secure.net.. Please feel free to contact me at <tel_num> for any further details needed.\n\nThank you for your assistance.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        296
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        777,
+        799
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Billing Issue with Visual Studio Code License\n\nHello Customer Support,\n\nI hope this message finds you well. I am reaching out to request assistance regarding a billing issue I encountered with my recent purchase of the annual license for Visual Studio Code 1.70 My name is [full_name].. It appears that I have been billed twice for this product, and I would appreciate it if you could look into this matter.\n\nTo aid in your investigation, the purchase was made under the account linked to <acc_num>, and the transaction IDs associated with the charges are <transaction_id_1> and <transaction_id_2>. I kindly request a review of these charges and a refund for the duplicate payment.\n\nYour prompt attention to this issue would be greatly appreciated You can reach me at [email].. Please feel free to contact me at <tel_num> for any further details needed.\n\nThank you for your assistance.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

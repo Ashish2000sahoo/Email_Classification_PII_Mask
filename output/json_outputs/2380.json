@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlerhafte Geb\u00fchren in der Rechnung\n\nSehr geehrte Kundenservice-Team, ich m\u00f6chte mir hiermit \u00fcber einen Fehlintschlag in meiner letzten Rechnung beschweren. Es wurde mir unrichtig f\u00fcr nicht benutzte Produkte berechnet. Es k\u00f6nnte sich um einen menschlichen Fehler oder ein Systemproblem handeln. Ich habe die Rechnung mehrmals gepr\u00fcft und bin mit dem Kundenservice in Kontakt getreten, aber der Fehler bleibt ungekl\u00e4rt My name is Fatima Al-Farsi.. Ich bitte Sie, sich dieser Situation zu widmen und die Fehlrechnung so schnell wie m\u00f6glich zu korrigieren. Bitte geben Sie mir Bescheid, falls Sie weitere Informationen ben\u00f6tigen. Ich danke Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        448
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        744,
+        765
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Fehlerhafte Geb\u00fchren in der Rechnung\n\nSehr geehrte Kundenservice-Team, ich m\u00f6chte mir hiermit \u00fcber einen Fehlintschlag in meiner letzten Rechnung beschweren. Es wurde mir unrichtig f\u00fcr nicht benutzte Produkte berechnet. Es k\u00f6nnte sich um einen menschlichen Fehler oder ein Systemproblem handeln. Ich habe die Rechnung mehrmals gepr\u00fcft und bin mit dem Kundenservice in Kontakt getreten, aber der Fehler bleibt ungekl\u00e4rt My name is [full_name]-Farsi.. Ich bitte Sie, sich dieser Situation zu widmen und die Fehlrechnung so schnell wie m\u00f6glich zu korrigieren. Bitte geben Sie mir Bescheid, falls Sie weitere Informationen ben\u00f6tigen. Ich danke Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Synchronization of ClickUp Data Across Platforms\n\nDear Customer Support, I am encountering difficulties with synchronizing project data across different ClickUp platforms My name is Maria Gonzalez.. The issue might be related to compatibility problems with Redis 6.2. I have already tried restarting the application and clearing the cache, but the problem still persists. Despite following the troubleshooting steps, the issue remains unresolved. Could you please assist me in resolving this issue? I would greatly appreciate your guidance and support in getting the project data to sync across platforms. Thank you for your assistance and time. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        685,
+        707
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Synchronization of ClickUp Data Across Platforms\n\nDear Customer Support, I am encountering difficulties with synchronizing project data across different ClickUp platforms My name is [full_name].. The issue might be related to compatibility problems with Redis 6.2. I have already tried restarting the application and clearing the cache, but the problem still persists. Despite following the troubleshooting steps, the issue remains unresolved. Could you please assist me in resolving this issue? I would greatly appreciate your guidance and support in getting the project data to sync across platforms. Thank you for your assistance and time. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cassandra Support\n\nIn search of customer support to gain guidance on optimizing investments using Cassandra 4.0 Wave for data analytics You can reach me at david.kim@corp.kr.. Would appreciate tips, best practices, and tools that could enhance data processing and analysis. Additionally, are there known limitations or common pitfalls to be aware of when using Cassandra 4.0 Wave? Looking forward to your assistance My name is Jane Smith.. I await your response soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        436,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        165,
+        182
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Cassandra Support\n\nIn search of customer support to gain guidance on optimizing investments using Cassandra 4.0 Wave for data analytics You can reach me at [email].. Would appreciate tips, best practices, and tools that could enhance data processing and analysis. Additionally, are there known limitations or common pitfalls to be aware of when using Cassandra 4.0 Wave? Looking forward to your assistance My name is [full_name].. I await your response soon.",
+  "category_of_the_email": "Request"
+}

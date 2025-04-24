@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem mit Dell XPS 13 9310\n\nSehr geehrter Kundenservice,\n\nich habe Leistungsprobleme und eine nicht reagierende Anwendung auf meinem neuen Dell XPS 13 9310. Bitte geben Sie mir Anweisungen zur umgehenden Behebung dieses Problems My name is Fatima Al-Farsi.. Kontaktieren Sie mich unter <tel_num>. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        251,
+        260
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        399,
+        417
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        30,
+        37
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        159,
+        166
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Dell XPS [phone_number]\n\nSehr geehrter Kundenservice,\n\nich habe Leistungsprobleme und eine nicht reagierende Anwendung auf meinem neuen Dell XPS [phone_number]. Bitte geben Sie mir Anweisungen zur umgehenden Behebung dieses Problems My name is [full_name]-Farsi.. Kontaktieren Sie mich unter <tel_num>. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

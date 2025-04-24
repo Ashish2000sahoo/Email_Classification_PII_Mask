@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringende L\u00f6sung erforderlich: Zoom 5.11.0 Abst\u00fcrze\n\nSehr geehrter Kundenservice,\n\nich erlebe st\u00e4ndig Abst\u00fcrze mit Zoom 5.11.0 w\u00e4hrend wichtiger Meetings. Dieses Problem beeintr\u00e4chtigt meine Arbeit erheblich. Bitte beschleunigen Sie die L\u00f6sung, um weitere Unterbrechungen zu vermeiden You can reach me at carlosm@gmail.com.. Ihre schnelle Bearbeitung dieser Angelegenheit w\u00e4re sehr gesch\u00e4tzt.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        447,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        314,
+        331
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Dringende L\u00f6sung erforderlich: Zoom 5.11.0 Abst\u00fcrze\n\nSehr geehrter Kundenservice,\n\nich erlebe st\u00e4ndig Abst\u00fcrze mit Zoom 5.11.0 w\u00e4hrend wichtiger Meetings. Dieses Problem beeintr\u00e4chtigt meine Arbeit erheblich. Bitte beschleunigen Sie die L\u00f6sung, um weitere Unterbrechungen zu vermeiden You can reach me at [email].. Ihre schnelle Bearbeitung dieser Angelegenheit w\u00e4re sehr gesch\u00e4tzt.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

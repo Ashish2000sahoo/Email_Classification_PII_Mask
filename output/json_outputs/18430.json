@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Optimization Software Generates Inaccurate Forecasts\n\nThe investment optimization software is producing imprecise forecasts. Recent updates and data input errors might be the cause. Resetting the system and reviewing data inputs did not resolve the discrepancies My name is Fatima Al-Farsi.. Assistance is needed to address the issue. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        303
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        377,
+        395
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Investment Optimization Software Generates Inaccurate Forecasts\n\nThe investment optimization software is producing imprecise forecasts. Recent updates and data input errors might be the cause. Resetting the system and reviewing data inputs did not resolve the discrepancies My name is [full_name]-Farsi.. Assistance is needed to address the issue. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

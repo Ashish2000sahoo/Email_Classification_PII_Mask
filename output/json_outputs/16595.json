@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Technical Issues with Marketing Software Systems\n\nHello Customer Support, I hope this message finds you well. I am writing to draw attention to the technical issues we are currently experiencing with our marketing software systems. These issues have significantly hindered our marketing agency's digital strategies, possibly due to software incompatibilities or outdated versions. We have attempted to update the software and troubleshoot configurations, but unfortunately, these efforts have not been successful. These ongoing problems are impacting our productivity My name is Sophia Rossi.. We would greatly appreciate your assistance in resolving these issues. Please let us know how we can proceed. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        607,
+        619
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        751,
+        768
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Technical Issues with Marketing Software Systems\n\nHello Customer Support, I hope this message finds you well. I am writing to draw attention to the technical issues we are currently experiencing with our marketing software systems. These issues have significantly hindered our marketing agency's digital strategies, possibly due to software incompatibilities or outdated versions. We have attempted to update the software and troubleshoot configurations, but unfortunately, these efforts have not been successful. These ongoing problems are impacting our productivity My name is [full_name].. We would greatly appreciate your assistance in resolving these issues. Please let us know how we can proceed. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

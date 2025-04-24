@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhanced Data Visualization\n\nCustomer Support, requesting implementation of advanced data visualization tools to improve investment analysis and decision-making processes. Current tools are insufficient and do not provide the necessary insights for our team to make informed decisions My name is Elena Ivanova.. Enhanced data visualization capabilities would enable us to analyze complex data sets, identify trends, and make predictions, ultimately optimizing our investment strategies and improving overall performance. We believe this implementation will have a significant impact on the business. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        305,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        627,
+        648
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Enhanced Data Visualization\n\nCustomer Support, requesting implementation of advanced data visualization tools to improve investment analysis and decision-making processes. Current tools are insufficient and do not provide the necessary insights for our team to make informed decisions My name is [full_name].. Enhanced data visualization capabilities would enable us to analyze complex data sets, identify trends, and make predictions, ultimately optimizing our investment strategies and improving overall performance. We believe this implementation will have a significant impact on the business. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

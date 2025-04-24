@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ncustomer support, a data breach has been detected in the healthcare system, likely due to outdated security protocols. After reviewing secure access logs and updating the software, the issue still persists My name is Maria Gonzalez.. Immediate assistance is required to resolve the matter and prevent further breaches. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        242
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        347,
+        372
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\ncustomer support, a data breach has been detected in the healthcare system, likely due to outdated security protocols. After reviewing secure access logs and updating the software, the issue still persists My name is [full_name].. Immediate assistance is required to resolve the matter and prevent further breaches. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

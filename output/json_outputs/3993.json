@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Message Regarding Safety Incident\n\nThere was an unauthorized access attempt to the IT systems which could potentially expose medical data due to outdated software.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        210
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Message Regarding Safety Incident\n\nThere was an unauthorized access attempt to the IT systems which could potentially expose medical data due to outdated software.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

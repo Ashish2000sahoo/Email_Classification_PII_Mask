@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: MySQL-Leistungsprobleme\n\nSehr geehrter Kundenservice, Unsere Datenbank, die MySQL 8.0.30 verwendet, l\u00e4uft ziemlich langsam You can reach me at janesmith@company.com.. Regelm\u00e4\u00dfige Datenverwaltungsaufgaben wurden verz\u00f6gert. K\u00f6nnten Sie uns bitte bei den Schritten zur Leistungsoptimierung unterst\u00fctzen, die wir unternehmen sollten, um dieses Problem zu l\u00f6sen? Ihre Unterst\u00fctzung bei der Verbesserung der Datenbankleistung wird sehr gesch\u00e4tzt. Vielen Dank, <name> <acc_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        491,
+        500
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        152,
+        173
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        91,
+        97
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: MySQL-Leistungsprobleme\n\nSehr geehrter Kundenservice, Unsere Datenbank, die MySQL [phone_number] verwendet, l\u00e4uft ziemlich langsam You can reach me at [email].. Regelm\u00e4\u00dfige Datenverwaltungsaufgaben wurden verz\u00f6gert. K\u00f6nnten Sie uns bitte bei den Schritten zur Leistungsoptimierung unterst\u00fctzen, die wir unternehmen sollten, um dieses Problem zu l\u00f6sen? Ihre Unterst\u00fctzung bei der Verbesserung der Datenbankleistung wird sehr gesch\u00e4tzt. Vielen Dank, <name> <acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

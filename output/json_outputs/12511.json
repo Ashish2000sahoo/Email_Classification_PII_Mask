@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Systemausfall bei Django SAP ERP\n\nEs tritt ein Systemausfall auf Django SAP ERP auf. Neuer Code oder Serverfehler k\u00f6nnten die Ursache sein My name is David Kim.. Durch Neustart der Dienste und Pr\u00fcfung der Logs k\u00f6nnten Probleme gel\u00f6st werden You can reach me at david.kim@corp.kr.. Es wird dringend Assistance ben\u00f6tigt, um die Funktionalit\u00e4t schnell wiederherzustellen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        272,
+        289
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Systemausfall bei Django SAP ERP\n\nEs tritt ein Systemausfall auf Django SAP ERP auf. Neuer Code oder Serverfehler k\u00f6nnten die Ursache sein My name is [full_name].. Durch Neustart der Dienste und Pr\u00fcfung der Logs k\u00f6nnten Probleme gel\u00f6st werden You can reach me at [email].. Es wird dringend Assistance ben\u00f6tigt, um die Funktionalit\u00e4t schnell wiederherzustellen.",
+  "category_of_the_email": "Incident"
+}

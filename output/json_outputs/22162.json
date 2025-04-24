@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Frequent Crashes on Dell XPS 13 9310\n\nDear Tech Online Store Support,\n\nI am experiencing frequent crashes on my Dell XPS 13 9310 when running high-performance software. This issue severely hampers my productivity. I have done basic troubleshooting but the problem persists My name is Elena Ivanova.. Please advise on the next steps I should take to resolve this issue or if a replacement is necessary.\n\nThank you,\n<name> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        448,
+        473
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        38,
+        45
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        130,
+        137
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Frequent Crashes on Dell XPS [phone_number]\n\nDear Tech Online Store Support,\n\nI am experiencing frequent crashes on my Dell XPS [phone_number] when running high-performance software. This issue severely hampers my productivity. I have done basic troubleshooting but the problem persists My name is [full_name].. Please advise on the next steps I should take to resolve this issue or if a replacement is necessary.\n\nThank you,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

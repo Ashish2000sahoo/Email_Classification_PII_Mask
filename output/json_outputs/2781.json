@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Sicherheitsunfall\n\nEs wurde ein Sicherheitsunfall gemeldet, bei dem unzul\u00e4ssiger Zugriff auf medizinische Daten erfolgte. Dies k\u00f6nnte auf fehlerhafte Firewall-Einstellungen zur\u00fcckzuf\u00fchren sein. Wir haben prompt Ma\u00dfnahmen unternommen, um die Zugriffssteuerungen zu verst\u00e4rken und Benutzerrechte zu \u00fcberpr\u00fcfen, um zuk\u00fcnftige Vorkommnisse zu vermeiden. Das Team arbeitet daran, die Berichterstattung und die Sicherung unserer Systeme zu verbessern You can reach me at elena.ivanova@support.org.. Wir bedanken uns f\u00fcr Ihre Aufmerksamkeit und freuen uns auf Ihre Unterst\u00fctzung bei der Behebung des Problems. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        636,
+        646
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        487,
+        512
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Sicherheitsunfall\n\nEs wurde ein Sicherheitsunfall gemeldet, bei dem unzul\u00e4ssiger Zugriff auf medizinische Daten erfolgte. Dies k\u00f6nnte auf fehlerhafte Firewall-Einstellungen zur\u00fcckzuf\u00fchren sein. Wir haben prompt Ma\u00dfnahmen unternommen, um die Zugriffssteuerungen zu verst\u00e4rken und Benutzerrechte zu \u00fcberpr\u00fcfen, um zuk\u00fcnftige Vorkommnisse zu vermeiden. Das Team arbeitet daran, die Berichterstattung und die Sicherung unserer Systeme zu verbessern You can reach me at [email].. Wir bedanken uns f\u00fcr Ihre Aufmerksamkeit und freuen uns auf Ihre Unterst\u00fctzung bei der Behebung des Problems. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

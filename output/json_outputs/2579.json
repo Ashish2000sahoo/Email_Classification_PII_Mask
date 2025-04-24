@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Alert on Unapproved Access to Medical Data Systems\n\nThere have been unauthorized access attempts on our medical data systems, possibly due to a recent software vulnerability You can reach me at maria.gonzalez@shop.es.. We have already reviewed the access logs and updated credentials across the affected applications My name is David Kim.. We are taking this matter very seriously and are working to ensure that our security systems are robust. We are conducting a thorough investigation and will take necessary measures to prevent such incidents in the future. Please let us know if you need any additional information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        346
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        203,
+        225
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Alert on Unapproved Access to Medical Data Systems\n\nThere have been unauthorized access attempts on our medical data systems, possibly due to a recent software vulnerability You can reach me at [email].. We have already reviewed the access logs and updated credentials across the affected applications My name is [full_name].. We are taking this matter very seriously and are working to ensure that our security systems are robust. We are conducting a thorough investigation and will take necessary measures to prevent such incidents in the future. Please let us know if you need any additional information.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detected Inconsistencies in Analytics Data Today\n\nCustomer Support,<br><br>We are encountering problems with the investment optimization tool, resulting in inconsistent analytics results My name is Liu Wei.. The issue might be related to integration problems with external data sources. Despite retrying data resynchronization and adjusting parameter settings, we have been unable to resolve the problem.<br><br>The inconsistent results are making it difficult to make informed investment decisions, and we require assistance in resolving this matter as soon as possible You can reach me at omar.hassan@secure.net.. We would appreciate any guidance on troubleshooting the integration.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        214
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        604,
+        626
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Detected Inconsistencies in Analytics Data Today\n\nCustomer Support,<br><br>We are encountering problems with the investment optimization tool, resulting in inconsistent analytics results My name is [full_name].. The issue might be related to integration problems with external data sources. Despite retrying data resynchronization and adjusting parameter settings, we have been unable to resolve the problem.<br><br>The inconsistent results are making it difficult to make informed investment decisions, and we require assistance in resolving this matter as soon as possible You can reach me at [email].. We would appreciate any guidance on troubleshooting the integration.",
+  "category_of_the_email": "Incident"
+}

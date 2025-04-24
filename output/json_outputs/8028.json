@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Einsetzen von robustem Verschl\u00fcsselungsverfahren f\u00fcr medizinische Daten im Hospital-IT-System\n\nEs wird unbedingt eine sichere Verschl\u00fcsselungsmethode f\u00fcr die medizinischen Daten implementiert, um die \u00dcbertragung und Speicherung im Hospital-IT-System zu sichern.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        309
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Einsetzen von robustem Verschl\u00fcsselungsverfahren f\u00fcr medizinische Daten im Hospital-IT-System\n\nEs wird unbedingt eine sichere Verschl\u00fcsselungsmethode f\u00fcr die medizinischen Daten implementiert, um die \u00dcbertragung und Speicherung im Hospital-IT-System zu sichern.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Unautorisierten Zugriff auf Medizinische Datenbanken\n\nW\u00e4hrend der durchgef\u00fchrten Routinepr\u00fcfung wurde ein autorisierter Zugriff auf medizinische Datenbanken festgestellt. Aufgrund einer Schwachstelle in der IT-Infrastruktur des Krankenhauses ist dieser Vorgang passiert. Bislang wurden Zugriffsprotokolle gepr\u00fcft und Software-Updates installiert. Das Krankenhaus nimmt den Vorfall ernst und f\u00fchrt eine detaillierte Untersuchung durch, um die Ursache und den Umfang des autorisierten Zugriffs zu ermitteln You can reach me at johndoe@email.com.. Wir arbeiten daran, notwendige Ma\u00dfnahmen zu ergreifen, um zuk\u00fcnftig solche Vorg\u00e4nge zu verhindern und Patientendaten zu sch\u00fctzen My name is Sophia Rossi.. Sie erhalten weitergehende Updates, sobald zus\u00e4tzliche Informationen verf\u00fcgbar sind.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        707,
+        719
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        547,
+        564
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Unautorisierten Zugriff auf Medizinische Datenbanken\n\nW\u00e4hrend der durchgef\u00fchrten Routinepr\u00fcfung wurde ein autorisierter Zugriff auf medizinische Datenbanken festgestellt. Aufgrund einer Schwachstelle in der IT-Infrastruktur des Krankenhauses ist dieser Vorgang passiert. Bislang wurden Zugriffsprotokolle gepr\u00fcft und Software-Updates installiert. Das Krankenhaus nimmt den Vorfall ernst und f\u00fchrt eine detaillierte Untersuchung durch, um die Ursache und den Umfang des autorisierten Zugriffs zu ermitteln You can reach me at [email].. Wir arbeiten daran, notwendige Ma\u00dfnahmen zu ergreifen, um zuk\u00fcnftig solche Vorg\u00e4nge zu verhindern und Patientendaten zu sch\u00fctzen My name is [full_name].. Sie erhalten weitergehende Updates, sobald zus\u00e4tzliche Informationen verf\u00fcgbar sind.",
+  "category_of_the_email": "Incident"
+}

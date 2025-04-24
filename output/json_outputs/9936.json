@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Unauthorized Access Attempt to Hospital IT Systems\n\nI have confirmed the presence of an unauthorized access attempt to the hospital's IT systems. This incident appears to be possibly related to potential misconfigurations of the security settings. Initial investigations suggest that the potential vulnerabilities in Notion and Squarespace might have been exploited. Please provide more details on the potential vulnerabilities that were identified, and also the reviewed access logs You can reach me at liuwei@business.cn.. It is crucial to involve specialists for addressing the security risks and preventing future occurrences. We will handle this matter with the utmost seriousness and help resolve the issue. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        746,
+        757
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        525,
+        543
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Support for Unauthorized Access Attempt to Hospital IT Systems\n\nI have confirmed the presence of an unauthorized access attempt to the hospital's IT systems. This incident appears to be possibly related to potential misconfigurations of the security settings. Initial investigations suggest that the potential vulnerabilities in Notion and Squarespace might have been exploited. Please provide more details on the potential vulnerabilities that were identified, and also the reviewed access logs You can reach me at [email].. It is crucial to involve specialists for addressing the security risks and preventing future occurrences. We will handle this matter with the utmost seriousness and help resolve the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

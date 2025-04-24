@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Inquiry Regarding Order Status for Dell XPS 13 9310\n\nDear Customer Support,\n\nI am reaching out to check on the status of my recent purchase of a Dell XPS 13 9310 My name is Maria Gonzalez.. Could you please give me an update on when I might anticipate its arrival? My account number is <acc_num> You can reach me at carlosm@gmail.com.. Should you require any additional details, feel free to contact me at <tel_num>.\n\nThank you,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        322,
+        339
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        53,
+        60
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        163,
+        170
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Inquiry Regarding Order Status for Dell XPS [phone_number]\n\nDear Customer Support,\n\nI am reaching out to check on the status of my recent purchase of a Dell XPS [phone_number] My name is [full_name].. Could you please give me an update on when I might anticipate its arrival? My account number is <acc_num> You can reach me at [email].. Should you require any additional details, feel free to contact me at <tel_num>.\n\nThank you,\n<name>",
+  "category_of_the_email": "Incident"
+}

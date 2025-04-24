@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt f\u00fcr Dell XPS 13 Bestellung\n\nSehr geehrtes Tech Online Store Support Team,\n\nich wende mich an Sie, um Unterst\u00fctzung bez\u00fcglich des Status und der Lieferung meiner Bestellung f\u00fcr das Dell XPS 13 9310 Laptop zu erbitten You can reach me at johndoe@email.com.. Ich habe keine aktuellen Sendungsverfolgungs-Updates erhalten My name is Liu Wei.. K\u00f6nnten Sie mir bitte das neueste Update und die voraussichtliche Lieferzeit mitteilen? Meine Kontonummer ist <acc_num> zur Referenz.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\nTelefonnummer: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        353,
+        360
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        260,
+        277
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        213,
+        220
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt f\u00fcr Dell XPS 13 Bestellung\n\nSehr geehrtes Tech Online Store Support Team,\n\nich wende mich an Sie, um Unterst\u00fctzung bez\u00fcglich des Status und der Lieferung meiner Bestellung f\u00fcr das Dell XPS [phone_number] Laptop zu erbitten You can reach me at [email].. Ich habe keine aktuellen Sendungsverfolgungs-Updates erhalten My name is [full_name].. K\u00f6nnten Sie mir bitte das neueste Update und die voraussichtliche Lieferzeit mitteilen? Meine Kontonummer ist <acc_num> zur Referenz.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\nTelefonnummer: <tel_num>",
+  "category_of_the_email": "Incident"
+}

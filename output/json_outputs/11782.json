@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erfolgreiche Digitalmarketingstrategien erreichen\n\nWir m\u00f6chten digitale Marketingstrategien umsetzen, um die Markengr\u00f6\u00dfe zu erh\u00f6hen You can reach me at omar.hassan@secure.net.. Ger\u00e4te wurden neu gestartet, Konfigurationen \u00fcberpr\u00fcft und Software aktualisiert, jedoch blieben die Probleme bestehen. Es k\u00f6nnte technische Probleme im integrierten Werkzeug oder Systemm\u00e4ngel die Ursache sein. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        408,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        161,
+        183
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Erfolgreiche Digitalmarketingstrategien erreichen\n\nWir m\u00f6chten digitale Marketingstrategien umsetzen, um die Markengr\u00f6\u00dfe zu erh\u00f6hen You can reach me at [email].. Ger\u00e4te wurden neu gestartet, Konfigurationen \u00fcberpr\u00fcft und Software aktualisiert, jedoch blieben die Probleme bestehen. Es k\u00f6nnte technische Probleme im integrierten Werkzeug oder Systemm\u00e4ngel die Ursache sein. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

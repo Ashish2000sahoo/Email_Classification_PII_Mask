@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Subscription Extension\n\nHello Service Team, I am contacting you to report an issue with my recent subscription extension My name is Liu Wei.. I was overcharged for extra charges that appeared on my bill. This might be because of an outdated pricing plan. After multiple attempts to contact support and review my bill, the problem still exists. I would be very grateful if you could look into this and provide a solution as soon as possible. Please inform me if you need more details from me to proceed. I am hopeful that we can settle this matter satisfactorily and look forward to your response You can reach me at omar.hassan@secure.net.. Thanks for your consideration and help in this situation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        161
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        642,
+        664
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Subscription Extension\n\nHello Service Team, I am contacting you to report an issue with my recent subscription extension My name is [full_name].. I was overcharged for extra charges that appeared on my bill. This might be because of an outdated pricing plan. After multiple attempts to contact support and review my bill, the problem still exists. I would be very grateful if you could look into this and provide a solution as soon as possible. Please inform me if you need more details from me to proceed. I am hopeful that we can settle this matter satisfactorily and look forward to your response You can reach me at [email].. Thanks for your consideration and help in this situation.",
+  "category_of_the_email": "Problem"
+}

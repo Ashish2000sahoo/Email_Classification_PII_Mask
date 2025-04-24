@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Projektmanagement-Plattform\n\nDie Projektmanagement-Plattform hat unvorhergesehen Betriebsst\u00f6rungen You can reach me at fatima.farsi@help.com.. Es k\u00f6nnte an zu \u00fcberlasteten Servern oder Fehlern im Code liegen My name is David Kim.. Ich habe versucht, das System neu zu starten und die Protokolle zu analysieren, doch das Problem besteht weiterhin.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        251
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        142,
+        163
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Projektmanagement-Plattform\n\nDie Projektmanagement-Plattform hat unvorhergesehen Betriebsst\u00f6rungen You can reach me at [email].. Es k\u00f6nnte an zu \u00fcberlasteten Servern oder Fehlern im Code liegen My name is [full_name].. Ich habe versucht, das System neu zu starten und die Protokolle zu analysieren, doch das Problem besteht weiterhin.",
+  "category_of_the_email": "Incident"
+}

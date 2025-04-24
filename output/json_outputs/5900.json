@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei medizinischen Datensperrern erforderlich\n\nW\u00e4hrend des Druckens und der Netzwerkverbindung trat ein medizinischer Datensperrer auf My name is Elena Ivanova.. M\u00f6gliche Ursachen sind unzuverl\u00e4ssige Druckerinstellungen und veraltete Software You can reach me at liuwei@business.cn.. Obwohl Firewall-Updates und Antiviren-Scans durchgef\u00fchrt wurden, sind diese ma\u00dfnahmen misslungen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        173
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        275,
+        293
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei medizinischen Datensperrern erforderlich\n\nW\u00e4hrend des Druckens und der Netzwerkverbindung trat ein medizinischer Datensperrer auf My name is [full_name].. M\u00f6gliche Ursachen sind unzuverl\u00e4ssige Druckerinstellungen und veraltete Software You can reach me at [email].. Obwohl Firewall-Updates und Antiviren-Scans durchgef\u00fchrt wurden, sind diese ma\u00dfnahmen misslungen.",
+  "category_of_the_email": "Incident"
+}

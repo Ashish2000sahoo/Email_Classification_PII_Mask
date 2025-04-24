@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia Urgente Requerida: Problemas de Conectividad Recurrentes con Zoom\n\nEstimado Soporte de Tech Online Store,\n\nEstoy experimentando problemas de conectividad recurrentes con la plataforma Zoom en mi computadora de escritorio. Actualmente estoy usando la versi\u00f3n 5.11.0 de Zoom My name is Maria Gonzalez.. Estos problemas han interrumpido mi capacidad para unirme a importantes conferencias en video. Por favor, asesoren sobre los pasos de soluci\u00f3n de problemas o soluciones posibles para resolver este problema You can reach me at janesmith@company.com.. Su pronta asistencia ser\u00eda muy apreciada.\n\nGracias,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        544,
+        565
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Asistencia Urgente Requerida: Problemas de Conectividad Recurrentes con Zoom\n\nEstimado Soporte de Tech Online Store,\n\nEstoy experimentando problemas de conectividad recurrentes con la plataforma Zoom en mi computadora de escritorio. Actualmente estoy usando la versi\u00f3n 5.11.0 de Zoom My name is [full_name].. Estos problemas han interrumpido mi capacidad para unirme a importantes conferencias en video. Por favor, asesoren sobre los pasos de soluci\u00f3n de problemas o soluciones posibles para resolver este problema You can reach me at [email].. Su pronta asistencia ser\u00eda muy apreciada.\n\nGracias,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

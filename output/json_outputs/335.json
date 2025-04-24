@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Data Breach\n\nPatient records were exposed due to a firewall misconfiguration You can reach me at sophia.rossi@service.it.. I've attempted to restart the server and review firewall settings, but the problem continues. Assistance is needed to address this issue. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        311
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        127,
+        150
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Data Breach\n\nPatient records were exposed due to a firewall misconfiguration You can reach me at [email].. I've attempted to restart the server and review firewall settings, but the problem continues. Assistance is needed to address this issue. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

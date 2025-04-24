@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit den Datenanalysetools\n\nDie Funktion der Datenanalysetools hat sich pl\u00f6tzlich unterbrochen und k\u00f6nnte auf veraltete Softwareupdates zur\u00fcckzuf\u00fchren sein. Nach dem Neustart der Ger\u00e4te und dem \u00dcberpr\u00fcfen der Verbindungen konnte der Fehler nicht behoben werden.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        316
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit den Datenanalysetools\n\nDie Funktion der Datenanalysetools hat sich pl\u00f6tzlich unterbrochen und k\u00f6nnte auf veraltete Softwareupdates zur\u00fcckzuf\u00fchren sein. Nach dem Neustart der Ger\u00e4te und dem \u00dcberpr\u00fcfen der Verbindungen konnte der Fehler nicht behoben werden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

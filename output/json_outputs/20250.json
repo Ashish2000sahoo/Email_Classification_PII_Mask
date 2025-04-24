@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Warranty Service Request\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to bring to your attention a concerning issue I have been experiencing with my Dell XPS 13 9310 laptop that I purchased from your store. Recently, the device display started flickering unexpectedly, and this issue has grown more frequent over the past few weeks, significantly affecting my productivity and user experience.\n\nGiven that the flickering of the display seems to suggest a potential hardware malfunction, I am hoping to leverage the warranty service for assistance. I have tried basic troubleshooting steps such as updating the display drivers and ensuring all software on my device is up to date, but unfortunately, these steps have not resolved the issue.\n\nFurthermore, this laptop is still well within the warranty period offered by Dell and your store, since it was purchased less than six months ago My name is Sophia Rossi.. Therefore, I kindly request guidance on how to process this complaint through warranty service. I am particularly interested in knowing what steps I should undertake next, and whether I would need to send the laptop to your service center, or if there could be an alternative resolution.\n\nMoreover, please let me know if additional documentation is required from my end to expedite the claim or any information concerning my purchase details. My order number is <order_num>, and I bought this laptop on <purchase_date>. The laptop\u2019s serial number is <serial_num> You can reach me at sophia.rossi@service.it.. Please contact me at your earliest convenience through my email or at <tel_num> should you need further information.\n\nThank you in advance for your prompt assistance in this matter. I look forward to resolving this issue swiftly with your help.\n\nWarm regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        954,
+        966
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1551,
+        1574
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        214,
+        221
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Warranty Service Request\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to bring to your attention a concerning issue I have been experiencing with my Dell XPS [phone_number] laptop that I purchased from your store. Recently, the device display started flickering unexpectedly, and this issue has grown more frequent over the past few weeks, significantly affecting my productivity and user experience.\n\nGiven that the flickering of the display seems to suggest a potential hardware malfunction, I am hoping to leverage the warranty service for assistance. I have tried basic troubleshooting steps such as updating the display drivers and ensuring all software on my device is up to date, but unfortunately, these steps have not resolved the issue.\n\nFurthermore, this laptop is still well within the warranty period offered by Dell and your store, since it was purchased less than six months ago My name is [full_name].. Therefore, I kindly request guidance on how to process this complaint through warranty service. I am particularly interested in knowing what steps I should undertake next, and whether I would need to send the laptop to your service center, or if there could be an alternative resolution.\n\nMoreover, please let me know if additional documentation is required from my end to expedite the claim or any information concerning my purchase details. My order number is <order_num>, and I bought this laptop on <purchase_date>. The laptop\u2019s serial number is <serial_num> You can reach me at [email].. Please contact me at your earliest convenience through my email or at <tel_num> should you need further information.\n\nThank you in advance for your prompt assistance in this matter. I look forward to resolving this issue swiftly with your help.\n\nWarm regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

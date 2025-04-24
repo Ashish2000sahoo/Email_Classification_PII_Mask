@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: ClickUp-Integration ist pl\u00f6tzlich gescheitert\n\nDie ClickUp-Integration hat aufgrund eines Synchonisierungsfehlers versagt, was m\u00f6glicherweise auf misstimmige API-Schl\u00fcssel zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich habe die Dienste bereits neustartet, aber das Problem beh\u00e4lt sich bestanden.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        327
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: ClickUp-Integration ist pl\u00f6tzlich gescheitert\n\nDie ClickUp-Integration hat aufgrund eines Synchonisierungsfehlers versagt, was m\u00f6glicherweise auf misstimmige API-Schl\u00fcssel zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich habe die Dienste bereits neustartet, aber das Problem beh\u00e4lt sich bestanden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

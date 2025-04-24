@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Security Solutions for Healthcare Providers\n\nDear Customer Service, I am seeking more information on data security solutions for healthcare providers. As a representative of a healthcare organization, the confidentiality, integrity, and availability of sensitive patient data are of utmost importance You can reach me at janesmith@company.com.. Could you provide details on the measures taken to protect against cyber threats, data loss, and unauthorized access? I would also appreciate information on encryption methods, access control mechanisms, and incident response plans. Additionally, I am interested in solutions that comply with relevant health regulations such as HIPAA My name is Carlos Mendoza.. Please share relevant documentation and case studies.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        705,
+        719
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        335,
+        356
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Data Security Solutions for Healthcare Providers\n\nDear Customer Service, I am seeking more information on data security solutions for healthcare providers. As a representative of a healthcare organization, the confidentiality, integrity, and availability of sensitive patient data are of utmost importance You can reach me at [email].. Could you provide details on the measures taken to protect against cyber threats, data loss, and unauthorized access? I would also appreciate information on encryption methods, access control mechanisms, and incident response plans. Additionally, I am interested in solutions that comply with relevant health regulations such as HIPAA My name is [full_name].. Please share relevant documentation and case studies.",
+  "category_of_the_email": "Request"
+}

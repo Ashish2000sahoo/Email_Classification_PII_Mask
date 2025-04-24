@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Customer Support, ich m\u00f6chte Verbesserungen in den Datenanalysewerkzeugen und die Optimierung des Investitionsentscheidungsprozesses vorschlagen. Derzeitige Werkzeuge bieten begrenzte Einblicke, die f\u00fcr bewusste Entscheidungsfindung unzureichend sind. Ich glaube, dass verbesserte Werkzeuge uns genaue Vorhersagen erm\u00f6glichen und Investitionen effektiver optimieren. Das Gesch\u00e4ftsbetrieb kann erheblich profitieren My name is Maria Gonzalez.. Ich hoffe, dass Sie sich dieser Angelegenheit annehmen k\u00f6nnen. Vielen Dank f\u00fcr Ihre Zeit und \u00dcberlegung. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        459
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        584,
+        605
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Customer Support, ich m\u00f6chte Verbesserungen in den Datenanalysewerkzeugen und die Optimierung des Investitionsentscheidungsprozesses vorschlagen. Derzeitige Werkzeuge bieten begrenzte Einblicke, die f\u00fcr bewusste Entscheidungsfindung unzureichend sind. Ich glaube, dass verbesserte Werkzeuge uns genaue Vorhersagen erm\u00f6glichen und Investitionen effektiver optimieren. Das Gesch\u00e4ftsbetrieb kann erheblich profitieren My name is [full_name].. Ich hoffe, dass Sie sich dieser Angelegenheit annehmen k\u00f6nnen. Vielen Dank f\u00fcr Ihre Zeit und \u00dcberlegung. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

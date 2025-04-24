@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Projektdaten fehlen nach der Aktualisierung\n\nNach der Software-aktualisierung fehlen mir die Projektdaten You can reach me at liuwei@business.cn.. Das k\u00f6nnte auf ein unkompatibles Plugin oder einen Softwarekonflikt zur\u00fcckschlagen. Ich habe das System neugestartet, nach Backups gesucht und in Online-Fora nachgeholfen, ohne Erfolg. Brauche dringend Hilfe, um meine Projektdaten wiederzufinden. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        414,
+        424
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        135,
+        153
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Projektdaten fehlen nach der Aktualisierung\n\nNach der Software-aktualisierung fehlen mir die Projektdaten You can reach me at [email].. Das k\u00f6nnte auf ein unkompatibles Plugin oder einen Softwarekonflikt zur\u00fcckschlagen. Ich habe das System neugestartet, nach Backups gesucht und in Online-Fora nachgeholfen, ohne Erfolg. Brauche dringend Hilfe, um meine Projektdaten wiederzufinden. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

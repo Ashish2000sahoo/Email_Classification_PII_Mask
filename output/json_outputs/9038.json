@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung medizinischer Datensperre\n\nSehr geehrte Kundenservice,\\n\\nim Krankenhausnetzwerk wurde eine Datensperre festgestellt. Diese k\u00f6nnte auf eine schwache Firewall-Konfiguration sowie veraltete Software zur\u00fcckzuf\u00fchren sein. Wir haben die Server neu gestartet und die Logs gepr\u00fcft, den Fehler bleibt jedoch bestehen.\\nUnser IT-Team wurde benachrichtigt, ben\u00f6tigen aber zus\u00e4tzliche Unterst\u00fctzung, um das Problem zu l\u00f6sen You can reach me at fatima.farsi@help.com.. Bitte beachten Sie die Notwendigkeit, das Problem so schnell wie m\u00f6glich zu beheben, da es eine sensible Angelegenheit ist.\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        664,
+        676
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        454,
+        475
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung medizinischer Datensperre\n\nSehr geehrte Kundenservice,\\n\\nim Krankenhausnetzwerk wurde eine Datensperre festgestellt. Diese k\u00f6nnte auf eine schwache Firewall-Konfiguration sowie veraltete Software zur\u00fcckzuf\u00fchren sein. Wir haben die Server neu gestartet und die Logs gepr\u00fcft, den Fehler bleibt jedoch bestehen.\\nUnser IT-Team wurde benachrichtigt, ben\u00f6tigen aber zus\u00e4tzliche Unterst\u00fctzung, um das Problem zu l\u00f6sen You can reach me at [email].. Bitte beachten Sie die Notwendigkeit, das Problem so schnell wie m\u00f6glich zu beheben, da es eine sensible Angelegenheit ist.\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

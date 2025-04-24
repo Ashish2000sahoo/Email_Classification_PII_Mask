@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Crash of the Data Analytics Dashboard\n\nHello customer support, I am contacting you to report a problem with the data analytics dashboard You can reach me at omar.hassan@secure.net.. It unexpectedly crashed, and we are unable to access any data. We believe the crash could be due to incompatible Node.js and Redis versions. Despite restarting the server and reviewing our code dependencies, the issue still exists. Could you please investigate and offer a solution as quickly as possible? If you require any more information from us, please let us know. Thank you for your time and help My name is Fatima Al-Farsi.. We are eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        617,
+        626
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        177,
+        199
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Crash of the Data Analytics Dashboard\n\nHello customer support, I am contacting you to report a problem with the data analytics dashboard You can reach me at [email].. It unexpectedly crashed, and we are unable to access any data. We believe the crash could be due to incompatible Node.js and Redis versions. Despite restarting the server and reviewing our code dependencies, the issue still exists. Could you please investigate and offer a solution as quickly as possible? If you require any more information from us, please let us know. Thank you for your time and help My name is [full_name]-Farsi.. We are eagerly awaiting your response.",
+  "category_of_the_email": "Incident"
+}

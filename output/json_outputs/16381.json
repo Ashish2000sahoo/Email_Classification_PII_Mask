@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Crash of data analytics platform: potential Azure integration problem\n\nThe data analytics platform suddenly stopped working. There might be an issue with the Azure integration My name is Sophia Rossi.. I have already restarted PyCharm and verified antivirus updates You can reach me at janesmith@company.com.. I require your help to resolve this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        294,
+        315
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Crash of data analytics platform: potential Azure integration problem\n\nThe data analytics platform suddenly stopped working. There might be an issue with the Azure integration My name is [full_name].. I have already restarted PyCharm and verified antivirus updates You can reach me at [email].. I require your help to resolve this problem.",
+  "category_of_the_email": "Incident"
+}

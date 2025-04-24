@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with TP-Link EAP245 Wi-Fi Issues\n\nDear Customer Support, \n\nI am writing to seek assistance regarding frequent Wi-Fi disconnections that I am experiencing with my TP-Link Access Point EAP245. The device has been intermittently disconnecting from the network, causing significant disruption to my work My name is Jane Smith.. I have attempted several troubleshooting steps, including power cycling the device and updating the firmware, but the issue persists. \n\nCould you please provide guidance on any specific troubleshooting steps I might be missing, or suggest a possible resolution to this issue? My account number is <acc_num>, and I am reachable at <tel_num> if you need any further information. \n\nThank you for your attention to this matter. \n\nSincerely, \n<name> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        331,
+        341
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        810,
+        832
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance with TP-Link EAP245 Wi-Fi Issues\n\nDear Customer Support, \n\nI am writing to seek assistance regarding frequent Wi-Fi disconnections that I am experiencing with my TP-Link Access Point EAP245. The device has been intermittently disconnecting from the network, causing significant disruption to my work My name is [full_name].. I have attempted several troubleshooting steps, including power cycling the device and updating the firmware, but the issue persists. \n\nCould you please provide guidance on any specific troubleshooting steps I might be missing, or suggest a possible resolution to this issue? My account number is <acc_num>, and I am reachable at <tel_num> if you need any further information. \n\nThank you for your attention to this matter. \n\nSincerely, \n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

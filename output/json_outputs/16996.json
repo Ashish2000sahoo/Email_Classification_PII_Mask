@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sichere Daten\u00fcbertragung\n\nSehr geehrte Kundenservice, ich m\u00f6chte Sie fragen, wie sichere Medizinische Daten\u00fcbertragung zwischen Jenkins- und Maple-Systemen mithilfe von erweiterten Verschl\u00fcsselungsprotokollen durchgef\u00fchrt werden kann My name is Sophia Rossi.. K\u00f6nnten Sie mir f\u00fcr die Implementierung dieser Methode mehr Informationen geben? Ich m\u00f6chte gerne erfahren, welche Vorteile und eventuelle Nachteile es gibt, wenn diese Methode angewendet wird, und ob Sie einige Beispiele f\u00fcr erfolgreiche Implementierungen in der Vergangenheit vorweisen k\u00f6nnen. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und mehr \u00fcber dieses Thema zu erfahren. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Zeit. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        266
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        735,
+        756
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Sichere Daten\u00fcbertragung\n\nSehr geehrte Kundenservice, ich m\u00f6chte Sie fragen, wie sichere Medizinische Daten\u00fcbertragung zwischen Jenkins- und Maple-Systemen mithilfe von erweiterten Verschl\u00fcsselungsprotokollen durchgef\u00fchrt werden kann My name is [full_name].. K\u00f6nnten Sie mir f\u00fcr die Implementierung dieser Methode mehr Informationen geben? Ich m\u00f6chte gerne erfahren, welche Vorteile und eventuelle Nachteile es gibt, wenn diese Methode angewendet wird, und ob Sie einige Beispiele f\u00fcr erfolgreiche Implementierungen in der Vergangenheit vorweisen k\u00f6nnen. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und mehr \u00fcber dieses Thema zu erfahren. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Zeit. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

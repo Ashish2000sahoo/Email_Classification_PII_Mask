@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei Investmentstools f\u00fcr Datenanalyse\n\nIch wende mich an Sie, um zu ergr\u00fcnden, welche Werkzeuge f\u00fcr die Verbesserung meiner Investitionen empfohlen werden My name is Jane Smith.. K\u00f6nnten Sie mir bitte eine Reihe von Vorschl\u00e4gen geben? Meine Suche richtet sich nach Tools, die mir helfen sollen, meine Investitionsentscheidungen auf der Grundlage ausgewogener Informationen zu treffen You can reach me at david.kim@corp.kr.. Ich bedanke mich im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        199
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        428,
+        445
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei Investmentstools f\u00fcr Datenanalyse\n\nIch wende mich an Sie, um zu ergr\u00fcnden, welche Werkzeuge f\u00fcr die Verbesserung meiner Investitionen empfohlen werden My name is [full_name].. K\u00f6nnten Sie mir bitte eine Reihe von Vorschl\u00e4gen geben? Meine Suche richtet sich nach Tools, die mir helfen sollen, meine Investitionsentscheidungen auf der Grundlage ausgewogener Informationen zu treffen You can reach me at [email].. Ich bedanke mich im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

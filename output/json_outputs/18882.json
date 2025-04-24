@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, bitten Sie um Informationen zu L\u00f6sungen zur Sicherung medizinischer Daten in IT-Systemen von Krankenh\u00e4usern. Interessiert, ob sie Hinweise zu Ma\u00dfnahmen bieten k\u00f6nnen, die zur Verhinderung von Cyberangriffen auf vertrauliche Patientendaten dienen My name is Maria Gonzalez.. Freue mich \u00fcber zus\u00e4tzliche Details zu Sicherheitsprotokollen und Technologien. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at david.kim@corp.kr.. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        305
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        440,
+        457
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, bitten Sie um Informationen zu L\u00f6sungen zur Sicherung medizinischer Daten in IT-Systemen von Krankenh\u00e4usern. Interessiert, ob sie Hinweise zu Ma\u00dfnahmen bieten k\u00f6nnen, die zur Verhinderung von Cyberangriffen auf vertrauliche Patientendaten dienen My name is [full_name].. Freue mich \u00fcber zus\u00e4tzliche Details zu Sicherheitsprotokollen und Technologien. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at [email].. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

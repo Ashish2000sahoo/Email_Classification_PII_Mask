@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of Login Challenges\n\nSeveral users are encountering login difficulties on the SaaS platform. This problem might be related to recent system updates that have impacted user authentication My name is Omar Hassan.. So far, we have tried clearing browser caches and resetting passwords, but these attempts have not been successful. We would greatly appreciate it if you could look into the matter and provide a solution as soon as possible You can reach me at elena.ivanova@support.org.. Please inform us if there is any additional information needed to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        478,
+        503
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Notification of Login Challenges\n\nSeveral users are encountering login difficulties on the SaaS platform. This problem might be related to recent system updates that have impacted user authentication My name is [full_name].. So far, we have tried clearing browser caches and resetting passwords, but these attempts have not been successful. We would greatly appreciate it if you could look into the matter and provide a solution as soon as possible You can reach me at [email].. Please inform us if there is any additional information needed to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

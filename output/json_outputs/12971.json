@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Das Kampagne-Analytik-Dashborad ist heute pl\u00f6tzlich nicht mehr funktionierend\n\nDas Kampagne-Analytik-Dashborad funktioniert pl\u00f6tzlich nicht mehr My name is Omar Hassan.. Die Darstellung der Daten ist fehlerhaft geworden, was darauf hindeutet, dass eine unkompatible Softwareaktualisierung die Ursache sein k\u00f6nnte You can reach me at carlosm@gmail.com.. Ich habe den Server neu gestartet und die Logs eingesehen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        342,
+        359
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Das Kampagne-Analytik-Dashborad ist heute pl\u00f6tzlich nicht mehr funktionierend\n\nDas Kampagne-Analytik-Dashborad funktioniert pl\u00f6tzlich nicht mehr My name is [full_name].. Die Darstellung der Daten ist fehlerhaft geworden, was darauf hindeutet, dass eine unkompatible Softwareaktualisierung die Ursache sein k\u00f6nnte You can reach me at [email].. Ich habe den Server neu gestartet und die Logs eingesehen.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datensperre in der Gesundheitsversorgung\n\nEin IT-System des Gesundheitsdienstleisters wurde gesch\u00e4digt, was zu einem unbefugten Zugriff auf medizinische Daten gef\u00fchrt hat You can reach me at fatima.farsi@help.com.. Obwohl Feuerw\u00e4nde aktualisiert wurden und Audits durchgef\u00fchrt wurden, bestehen weiter Probleme. Sofortige Ma\u00dfnahmen sind erforderlich, um weitere unbefugten Zugriffe zu verhindern und empfindliche medizinische Informationen zu sch\u00fctzen. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        472,
+        484
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        200,
+        221
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Datensperre in der Gesundheitsversorgung\n\nEin IT-System des Gesundheitsdienstleisters wurde gesch\u00e4digt, was zu einem unbefugten Zugriff auf medizinische Daten gef\u00fchrt hat You can reach me at [email].. Obwohl Feuerw\u00e4nde aktualisiert wurden und Audits durchgef\u00fchrt wurden, bestehen weiter Probleme. Sofortige Ma\u00dfnahmen sind erforderlich, um weitere unbefugten Zugriffe zu verhindern und empfindliche medizinische Informationen zu sch\u00fctzen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

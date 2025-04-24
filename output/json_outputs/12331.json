@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the Data Analytics Tool\n\nFacing difficulties while generating a report using the data analytics tool. The tool unexpectedly crashed while the user was accessing it. The crash might be due to insufficient memory, possibly related to the HyperX Fury 32GB DDR4. Attempts to restart the software and clear the cache have not resolved the issue. The tool was functioning correctly yesterday, but recent system changes might be the cause My name is Liu Wei.. I would greatly appreciate it if you could look into this matter and provide a solution at your earliest convenience You can reach me at liuwei@business.cn.. Please inform us of any additional information you may need.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        465,
+        472
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        616,
+        634
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with the Data Analytics Tool\n\nFacing difficulties while generating a report using the data analytics tool. The tool unexpectedly crashed while the user was accessing it. The crash might be due to insufficient memory, possibly related to the HyperX Fury 32GB DDR4. Attempts to restart the software and clear the cache have not resolved the issue. The tool was functioning correctly yesterday, but recent system changes might be the cause My name is [full_name].. I would greatly appreciate it if you could look into this matter and provide a solution at your earliest convenience You can reach me at [email].. Please inform us of any additional information you may need.",
+  "category_of_the_email": "Incident"
+}

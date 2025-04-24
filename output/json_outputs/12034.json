@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Enquiry on HIPAA Compliance for Hospital IT Systems and Medical Data Security\n\nLooking for insights on adhering to HIPAA regulations for hospital IT infrastructure and secure handling of medical data to maintain confidentiality and integrity.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        274,
+        289
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on HIPAA Compliance for Hospital IT Systems and Medical Data Security\n\nLooking for insights on adhering to HIPAA regulations for hospital IT infrastructure and secure handling of medical data to maintain confidentiality and integrity.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Upgraded Data Protection Measures\n\nI am contacting you to seek the activation of advanced encryption for the storage and transfer of medical data across all hospital information technology systems and devices My name is Maria Gonzalez.. This is a crucial security step to safeguard sensitive patient data and to avoid any potential breaches. Kindly inform me about the current state of encryption and the strategies in place to secure medical data You can reach me at elena.ivanova@support.org.. I would greatly appreciate a prompt update on this matter. Thank you for your attention to this significant concern, and I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        474,
+        499
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Upgraded Data Protection Measures\n\nI am contacting you to seek the activation of advanced encryption for the storage and transfer of medical data across all hospital information technology systems and devices My name is [full_name].. This is a crucial security step to safeguard sensitive patient data and to avoid any potential breaches. Kindly inform me about the current state of encryption and the strategies in place to secure medical data You can reach me at [email].. I would greatly appreciate a prompt update on this matter. Thank you for your attention to this significant concern, and I eagerly await your response.",
+  "category_of_the_email": "Change"
+}

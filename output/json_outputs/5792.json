@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: CCleaner Compatibility Problem\n\nFacing compatibility challenges with CCleaner 5.82 and Oracle Database 19c, which has raised data management worries. The issue might have arisen due to recent updates that affected system integrations My name is Carlos Mendoza.. So far, attempts to reinstall the applications and check configuration settings have not resolved the problem You can reach me at johndoe@email.com.. I would greatly appreciate guidance on how to resolve this issue as soon as possible to prevent any disruptions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        398,
+        415
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: CCleaner Compatibility Problem\n\nFacing compatibility challenges with CCleaner 5.82 and Oracle Database 19c, which has raised data management worries. The issue might have arisen due to recent updates that affected system integrations My name is [full_name].. So far, attempts to reinstall the applications and check configuration settings have not resolved the problem You can reach me at [email].. I would greatly appreciate guidance on how to resolve this issue as soon as possible to prevent any disruptions.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Security Advice\n\nI am contacting you to request advice on the strongest encryption techniques for safeguarding patient data. As a healthcare provider, it is crucial that we protect the privacy and integrity of sensitive patient information. I would greatly appreciate any advice or materials your team can share on encryption methods, such as AES or PGP, and how to implement them effectively within our organization My name is Liu Wei.. I am also interested in learning about any regulatory necessities or compliance standards we must follow You can reach me at carlosm@gmail.com.. Thank you for your assistance and I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        449
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        581,
+        598
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Data Security Advice\n\nI am contacting you to request advice on the strongest encryption techniques for safeguarding patient data. As a healthcare provider, it is crucial that we protect the privacy and integrity of sensitive patient information. I would greatly appreciate any advice or materials your team can share on encryption methods, such as AES or PGP, and how to implement them effectively within our organization My name is [full_name].. I am also interested in learning about any regulatory necessities or compliance standards we must follow You can reach me at [email].. Thank you for your assistance and I look forward to your response.",
+  "category_of_the_email": "Request"
+}

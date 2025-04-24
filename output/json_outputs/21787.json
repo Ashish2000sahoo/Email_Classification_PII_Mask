@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical Bug in React App Disrupting UI\n\nDear IT Services Support Team,\n\nI hope this message finds you well My name is Maria Gonzalez.. I am reaching out to report a critical bug within our JavaScript React App Development Service, which is significantly impacting the production environment. Our users are experiencing widespread disruption in the accessibility of the user interface, which is detrimental to our operations.\n\nThe issue emerged yesterday, and we've noticed that the problem affects the several key features of our application, disturbing the user experience drastically. We understand that this matter requires immediate attention given its severity, as it compromises not only the usability of our app but also our service quality and customer trust.\n\nCould you please prioritize this issue and provide us with an estimated timeline for resolution? Additionally, any interim measures we could implement to mitigate this disruption would be greatly appreciated. Please let me know if you require further details, logs, or access credentials to facilitate a swift analysis.\n\nThank you for your prompt attention to this urgent matter You can reach me at carlosm@gmail.com.. We look forward to your quick resolution.\n\nBest regards,\n\n<name>\nProject Manager\nCompany XY Tech Solutions\n<headquarters_address>\nEmail: <email>@xytechsolutions.com\nTel: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        142
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1175,
+        1192
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Critical Bug in React App Disrupting UI\n\nDear IT Services Support Team,\n\nI hope this message finds you well My name is [full_name].. I am reaching out to report a critical bug within our JavaScript React App Development Service, which is significantly impacting the production environment. Our users are experiencing widespread disruption in the accessibility of the user interface, which is detrimental to our operations.\n\nThe issue emerged yesterday, and we've noticed that the problem affects the several key features of our application, disturbing the user experience drastically. We understand that this matter requires immediate attention given its severity, as it compromises not only the usability of our app but also our service quality and customer trust.\n\nCould you please prioritize this issue and provide us with an estimated timeline for resolution? Additionally, any interim measures we could implement to mitigate this disruption would be greatly appreciated. Please let me know if you require further details, logs, or access credentials to facilitate a swift analysis.\n\nThank you for your prompt attention to this urgent matter You can reach me at [email].. We look forward to your quick resolution.\n\nBest regards,\n\n<name>\nProject Manager\nCompany XY Tech Solutions\n<headquarters_address>\nEmail: <email>@xytechsolutions.com\nTel: <tel_num>",
+  "category_of_the_email": "Incident"
+}

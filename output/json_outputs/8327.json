@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Failed Investment Predictions Today\n\nThe predictive models provided inaccurate forecasts My name is Liu Wei.. It is suspected that insufficient data integration is the probable cause. Hadoop was restarted and data sources were verified. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        109,
+        116
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        270,
+        295
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Failed Investment Predictions Today\n\nThe predictive models provided inaccurate forecasts My name is [full_name].. It is suspected that insufficient data integration is the probable cause. Hadoop was restarted and data sources were verified. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

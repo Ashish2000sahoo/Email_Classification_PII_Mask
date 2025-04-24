@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber den Server-Crash\n\nDer Server st\u00fcrzte letzte Nacht m\u00f6glicherweise aufgrund von \u00dcberlastung oder eines Programmierfehlers ab. Wir haben den Server neu gestartet und die Fehlerprotokolle gepr\u00fcft.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        237,
+        252
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber den Server-Crash\n\nDer Server st\u00fcrzte letzte Nacht m\u00f6glicherweise aufgrund von \u00dcberlastung oder eines Programmierfehlers ab. Wir haben den Server neu gestartet und die Fehlerprotokolle gepr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

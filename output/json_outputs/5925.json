@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Aktualisierung\n\nBereiten Sie die Marketingkampagnen unverz\u00fcglich auf den neuen Markenmessaging vor, um bessere Ergebnisse zu erzielen.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Aktualisierung\n\nBereiten Sie die Marketingkampagnen unverz\u00fcglich auf den neuen Markenmessaging vor, um bessere Ergebnisse zu erzielen.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

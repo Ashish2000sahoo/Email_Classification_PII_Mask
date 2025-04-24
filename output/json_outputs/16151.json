@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Integration des SaaS-Projekts\n\nWir haben Probleme bei der Integration unseres SaaS-Projektverwaltungssystems mit verschiedenen Werkzeugen. Eine pl\u00f6tzliche Fehlfunktion ist aufgetreten, m\u00f6glicherweise als Folge einer neuesten Software-Aktualisierung My name is Sophia Rossi.. Wir haben versucht, die Integrierungen durch das Reset relevanter Plugins zu neueren Versionen zu l\u00f6sen, aber leider ohne Erfolg. Bitte helfen Sie uns, das Problem so schnell wie m\u00f6glich zu l\u00f6sen. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        517,
+        539
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Integration des SaaS-Projekts\n\nWir haben Probleme bei der Integration unseres SaaS-Projektverwaltungssystems mit verschiedenen Werkzeugen. Eine pl\u00f6tzliche Fehlfunktion ist aufgetreten, m\u00f6glicherweise als Folge einer neuesten Software-Aktualisierung My name is [full_name].. Wir haben versucht, die Integrierungen durch das Reset relevanter Plugins zu neueren Versionen zu l\u00f6sen, aber leider ohne Erfolg. Bitte helfen Sie uns, das Problem so schnell wie m\u00f6glich zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

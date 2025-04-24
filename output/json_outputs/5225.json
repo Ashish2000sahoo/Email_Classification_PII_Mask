@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frage zur Versicherung medizinischer Daten f\u00fcr Krankenhaus-IT-Systeme\n\nK\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Dienstleistungen zur Versicherung medizinischer Daten f\u00fcr Krankenhaus-IT-Systeme geben? Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        309
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Versicherung medizinischer Daten f\u00fcr Krankenhaus-IT-Systeme\n\nK\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Dienstleistungen zur Versicherung medizinischer Daten f\u00fcr Krankenhaus-IT-Systeme geben? Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

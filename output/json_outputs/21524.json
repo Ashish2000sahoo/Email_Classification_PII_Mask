@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance urgente n\u00e9cessaire pour les probl\u00e8mes de Zoom\n\nCher \u00e9quipe de support client,<br><br>Je vous \u00e9cris pour demander une assistance technique imm\u00e9diate pour un probl\u00e8me de haute priorit\u00e9 que nous rencontrons avec l'application Zoom, version 5.11.0, lors de nos webinaires. Nous constatons une interruption significative de nos pr\u00e9sentations de webinaire en raison de glitches techniques persistants My name is David Kim.. Les participants rencontrent des d\u00e9connexions fr\u00e9quentes, des incidents de gel d'\u00e9cran et des retards audio qui nuisent gravement \u00e0 la qualit\u00e9 et \u00e0 l'efficacit\u00e9 de la session You can reach me at janesmith@company.com.. Ces interruptions provoquent de la frustration parmi nos participants et affectent directement nos m\u00e9triques d'engagement.<br><br>La nature de notre entreprise exige des outils de vid\u00e9oconf\u00e9rence fiables, et nous d\u00e9pendons fortement de Zoom pour nos op\u00e9rations. Il est donc crucial que ces probl\u00e8mes soient trait\u00e9s rapidement. Merci de prioriser cette demande et de nous conseiller sur les solutions potentielles d\u00e8s que possible.<br><br>Pour toute information suppl\u00e9mentaire dont vous pourriez avoir besoin, n'h\u00e9sitez pas \u00e0 me contacter directement au <tel_num> ou \u00e0 r\u00e9pondre \u00e0 cet e-mail.<br><br>Merci pour votre attention rapide \u00e0 ce sujet urgent.<br><br>Cordialement,<br><name><br><acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        426,
+        435
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        635,
+        656
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance urgente n\u00e9cessaire pour les probl\u00e8mes de Zoom\n\nCher \u00e9quipe de support client,<br><br>Je vous \u00e9cris pour demander une assistance technique imm\u00e9diate pour un probl\u00e8me de haute priorit\u00e9 que nous rencontrons avec l'application Zoom, version 5.11.0, lors de nos webinaires. Nous constatons une interruption significative de nos pr\u00e9sentations de webinaire en raison de glitches techniques persistants My name is [full_name].. Les participants rencontrent des d\u00e9connexions fr\u00e9quentes, des incidents de gel d'\u00e9cran et des retards audio qui nuisent gravement \u00e0 la qualit\u00e9 et \u00e0 l'efficacit\u00e9 de la session You can reach me at [email].. Ces interruptions provoquent de la frustration parmi nos participants et affectent directement nos m\u00e9triques d'engagement.<br><br>La nature de notre entreprise exige des outils de vid\u00e9oconf\u00e9rence fiables, et nous d\u00e9pendons fortement de Zoom pour nos op\u00e9rations. Il est donc crucial que ces probl\u00e8mes soient trait\u00e9s rapidement. Merci de prioriser cette demande et de nous conseiller sur les solutions potentielles d\u00e8s que possible.<br><br>Pour toute information suppl\u00e9mentaire dont vous pourriez avoir besoin, n'h\u00e9sitez pas \u00e0 me contacter directement au <tel_num> ou \u00e0 r\u00e9pondre \u00e0 cet e-mail.<br><br>Merci pour votre attention rapide \u00e0 ce sujet urgent.<br><br>Cordialement,<br><name><br><acc_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About IT Consulting\n\nDear IT Services Customer Support,\n\nI am writing to inquire about the IT Consulting Service offerings and how they can benefit my general business needs. Specifically, I would like to understand more about the range of services you offer under IT Consulting and how these can be tailored to enhance my company's operations. It would be helpful to get detailed information on your approach to integrating technology solutions and any success stories that demonstrate tangible business improvements.\n\nAdditionally, please provide insights into cost structures and how the value of your service justifies the investment My name is John Doe.. Any brochures or resources you could share would be greatly appreciated.\n\nThank you for your assistance.\n\nBest regards,\n<name>\n<acc_num> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        666,
+        674
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        837,
+        855
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About IT Consulting\n\nDear IT Services Customer Support,\n\nI am writing to inquire about the IT Consulting Service offerings and how they can benefit my general business needs. Specifically, I would like to understand more about the range of services you offer under IT Consulting and how these can be tailored to enhance my company's operations. It would be helpful to get detailed information on your approach to integrating technology solutions and any success stories that demonstrate tangible business improvements.\n\nAdditionally, please provide insights into cost structures and how the value of your service justifies the investment My name is [full_name].. Any brochures or resources you could share would be greatly appreciated.\n\nThank you for your assistance.\n\nBest regards,\n<name>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Terraform Integration\n\nA marketing agency encountered integration difficulties with Terraform and BigCommerce, which has disrupted automated procedures. The issue might have arisen due to recent software updates My name is Elena Ivanova.. The agency has attempted to reset configurations and reinstall affected applications, but the problem still persists You can reach me at fatima.farsi@help.com.. Assistance in resolving this matter as soon as possible would be greatly appreciated to minimize operational disruptions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        396,
+        417
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Terraform Integration\n\nA marketing agency encountered integration difficulties with Terraform and BigCommerce, which has disrupted automated procedures. The issue might have arisen due to recent software updates My name is [full_name].. The agency has attempted to reset configurations and reinstall affected applications, but the problem still persists You can reach me at [email].. Assistance in resolving this matter as soon as possible would be greatly appreciated to minimize operational disruptions.",
+  "category_of_the_email": "Incident"
+}

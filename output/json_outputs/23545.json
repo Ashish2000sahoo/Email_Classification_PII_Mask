@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem mit doppelter Abrechnung\n\nHallo Kundenservice,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Ihre Aufmerksamkeit auf ein Problem zu lenken, das ich bei einer k\u00fcrzlichen Transaktion hatte You can reach me at omar.hassan@secure.net.. Nachdem ich mich f\u00fcr den Microsoft Office 365 Jahresplan angemeldet habe, bemerkte ich, dass auf meinem Konto eine doppelte Abrechnung vorgenommen wurde. Die Transaktion wurde \u00fcber Ihren Tech Online Shop get\u00e4tigt, und als treuer Kunde bin ich sehr besorgt \u00fcber dieses unerwartete Problem.\n\nDas betroffene Produkt ist Microsoft Office 365. Es ist wichtig, dass diese Angelegenheit z\u00fcgig gel\u00f6st wird, da sie sich auf meinen Kontostand und mein Budget auswirkt. Ich habe eine Kopie des Rechnungsauszugs, die die doppelte Abbuchung zeigt, zu Ihrer Information beigef\u00fcgt. Meine Kontonummer ist <acc_num>.\n\nK\u00f6nnten Sie bitte diese Angelegenheit untersuchen und mir eine schnelle L\u00f6sung anbieten? Wenn Sie weitere Informationen oder Dokumentationen ben\u00f6tigen, k\u00f6nnen Sie mich gerne unter <tel_num> kontaktieren.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre z\u00fcgige Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1219,
+        1231
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        242,
+        264
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        294,
+        297
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        586,
+        589
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Problem mit doppelter Abrechnung\n\nHallo Kundenservice,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Ihre Aufmerksamkeit auf ein Problem zu lenken, das ich bei einer k\u00fcrzlichen Transaktion hatte You can reach me at [email].. Nachdem ich mich f\u00fcr den Microsoft Office [cvv_no] Jahresplan angemeldet habe, bemerkte ich, dass auf meinem Konto eine doppelte Abrechnung vorgenommen wurde. Die Transaktion wurde \u00fcber Ihren Tech Online Shop get\u00e4tigt, und als treuer Kunde bin ich sehr besorgt \u00fcber dieses unerwartete Problem.\n\nDas betroffene Produkt ist Microsoft Office [cvv_no]. Es ist wichtig, dass diese Angelegenheit z\u00fcgig gel\u00f6st wird, da sie sich auf meinen Kontostand und mein Budget auswirkt. Ich habe eine Kopie des Rechnungsauszugs, die die doppelte Abbuchung zeigt, zu Ihrer Information beigef\u00fcgt. Meine Kontonummer ist <acc_num>.\n\nK\u00f6nnten Sie bitte diese Angelegenheit untersuchen und mir eine schnelle L\u00f6sung anbieten? Wenn Sie weitere Informationen oder Dokumentationen ben\u00f6tigen, k\u00f6nnen Sie mich gerne unter <tel_num> kontaktieren.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre z\u00fcgige Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheit von Medizindatenlagern\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um zu erfahren, welche Sicherheitsprotokolle f\u00fcr die Speicherung medizinischer Daten auf Windows und AWS empfohlen werden. K\u00f6nnten Sie mir Informationen zu den besten Methoden zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit von sensiblen medizinischen Informationen liefern? Ich w\u00fcrde mich freuen, \u00fcber Verschl\u00fcsselungsverfahren, Zugriffssteuerung und Compliance mit Rechtsvorschriften wie HIPAA alle erlaubten Ratschl\u00e4ge zu erhalten You can reach me at janesmith@company.com.. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit und freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        726,
+        735
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        570,
+        591
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheit von Medizindatenlagern\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um zu erfahren, welche Sicherheitsprotokolle f\u00fcr die Speicherung medizinischer Daten auf Windows und AWS empfohlen werden. K\u00f6nnten Sie mir Informationen zu den besten Methoden zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit von sensiblen medizinischen Informationen liefern? Ich w\u00fcrde mich freuen, \u00fcber Verschl\u00fcsselungsverfahren, Zugriffssteuerung und Compliance mit Rechtsvorschriften wie HIPAA alle erlaubten Ratschl\u00e4ge zu erhalten You can reach me at [email].. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit und freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

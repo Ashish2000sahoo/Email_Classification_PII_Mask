@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Issue Regarding Connection\n\nDear Customer Support, I am writing to report an unexpected logout from Salesforce CRM and Google Cloud Platform. This issue may have arisen from a possible misconfiguration in the WLAN router settings My name is Fatima Al-Farsi.. So far, I have attempted to restart the router, verify my login credentials, and update my Ubuntu 22.04 LTS operating system. Despite these efforts, the problem still persists. I would greatly appreciate your assistance in resolving this issue. Could you please inform me if there are any additional troubleshooting steps I should follow, or if you need further information from me? Thank you for your understanding and support You can reach me at johndoe@email.com.. I look forward to hearing from you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        250,
+        259
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        718,
+        735
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        368,
+        373
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Connection\n\nDear Customer Support, I am writing to report an unexpected logout from Salesforce CRM and Google Cloud Platform. This issue may have arisen from a possible misconfiguration in the WLAN router settings My name is [full_name]-Farsi.. So far, I have attempted to restart the router, verify my login credentials, and update my Ubuntu [phone_number] LTS operating system. Despite these efforts, the problem still persists. I would greatly appreciate your assistance in resolving this issue. Could you please inform me if there are any additional troubleshooting steps I should follow, or if you need further information from me? Thank you for your understanding and support You can reach me at [email].. I look forward to hearing from you.",
+  "category_of_the_email": "Incident"
+}

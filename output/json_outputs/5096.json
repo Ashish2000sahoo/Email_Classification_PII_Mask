@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Datenanalyse-Tool - Leistungsschw\u00e4chen\n\nSehr geehrte Kundenservice-Team, <br>Das Datenanalyse-Tool hat w\u00e4hrend der letzten Analyseverarbeitung einen Absturz verursacht und scheint auf erh\u00f6hten Datenvolumen zur\u00fcckzuf\u00fchren sein. <br>Wir haben versucht, das Tool neu zu starten und den Cache zu leeren, aber das Problem beh\u00e4lt seinen Ursprung bei. <br>Bitte helfen Sie uns, das Problem so schnell wie m\u00f6glich zu l\u00f6sen My name is Maria Gonzalez.. <br>Wir freuen uns darauf, Anleitungen zur Fehlerbehebung und m\u00f6gliche L\u00f6sungen zu erhalten You can reach me at maria.gonzalez@shop.es.. <br>Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihr Zeitinvestiment.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        452,
+        466
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        578,
+        600
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Datenanalyse-Tool - Leistungsschw\u00e4chen\n\nSehr geehrte Kundenservice-Team, <br>Das Datenanalyse-Tool hat w\u00e4hrend der letzten Analyseverarbeitung einen Absturz verursacht und scheint auf erh\u00f6hten Datenvolumen zur\u00fcckzuf\u00fchren sein. <br>Wir haben versucht, das Tool neu zu starten und den Cache zu leeren, aber das Problem beh\u00e4lt seinen Ursprung bei. <br>Bitte helfen Sie uns, das Problem so schnell wie m\u00f6glich zu l\u00f6sen My name is [full_name].. <br>Wir freuen uns darauf, Anleitungen zur Fehlerbehebung und m\u00f6gliche L\u00f6sungen zu erhalten You can reach me at [email].. <br>Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihr Zeitinvestiment.",
+  "category_of_the_email": "Incident"
+}

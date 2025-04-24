@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Digital Strategies for Brand Growth\n\nHello Customer Support, I am inquiring about digital strategies that can enhance brand growth. Could you provide details on the methods we can use to increase brand awareness and customer engagement? I am particularly interested in learning about the approach to social media marketing and email campaigns My name is David Kim.. Additionally, could you inform me about the analytics tools we can use to measure the success of our digital strategies? I greatly appreciate your assistance and look forward to hearing from you soon. Regards, [Your Name] You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        372,
+        381
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        628,
+        651
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Query on Digital Strategies for Brand Growth\n\nHello Customer Support, I am inquiring about digital strategies that can enhance brand growth. Could you provide details on the methods we can use to increase brand awareness and customer engagement? I am particularly interested in learning about the approach to social media marketing and email campaigns My name is [full_name].. Additionally, could you inform me about the analytics tools we can use to measure the success of our digital strategies? I greatly appreciate your assistance and look forward to hearing from you soon. Regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

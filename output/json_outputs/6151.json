@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Seeking Information on Digital Strategies for Brand Growth\n\nCustomer Support, I am inquiring about the services offered to integrate digital strategies for effective brand growth My name is Fatima Al-Farsi.. I am interested in learning how these services can help my business expand its online presence and increase brand awareness. Could you provide insights on various digital strategies that can be implemented, such as social media marketing, email marketing, and search engine optimization? I would greatly appreciate any information on the associated costs, as well as case studies and success stories. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        199,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        640,
+        662
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Seeking Information on Digital Strategies for Brand Growth\n\nCustomer Support, I am inquiring about the services offered to integrate digital strategies for effective brand growth My name is [full_name]-Farsi.. I am interested in learning how these services can help my business expand its online presence and increase brand awareness. Could you provide insights on various digital strategies that can be implemented, such as social media marketing, email marketing, and search engine optimization? I would greatly appreciate any information on the associated costs, as well as case studies and success stories. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

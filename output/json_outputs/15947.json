@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler w\u00e4hrend Dateneingabe-Vorgang aufgetreten\n\nSehr geehrte Kundensupport, ich melde ein Problem mit dem Dateneingabeverfahren f\u00fcr Anlageanalyse. Ein Fehler trat w\u00e4hrend der Dateneingabe auf, was m\u00f6glicherweise auf fehlerhafte Dateiformatierung oder fehlende Daten zur\u00fcckzuf\u00fchren ist. Trotz mehrerer Versuche, die Datei neu hochzuladen, besteht das Problem leider weiterhin. Ich freue mich auf Ihre Hilfe, um das Problem zu l\u00f6sen, da die Analyse entscheidend ist. Bitte teilen Sie mir mit, welche Schritte ich ergreifen kann, um das Problem zu beheben, und ob Sie weitere Informationen ben\u00f6tigen You can reach me at elena.ivanova@support.org.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung im Zusammenhang mit diesem Problem. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        737,
+        746
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        627,
+        652
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fehler w\u00e4hrend Dateneingabe-Vorgang aufgetreten\n\nSehr geehrte Kundensupport, ich melde ein Problem mit dem Dateneingabeverfahren f\u00fcr Anlageanalyse. Ein Fehler trat w\u00e4hrend der Dateneingabe auf, was m\u00f6glicherweise auf fehlerhafte Dateiformatierung oder fehlende Daten zur\u00fcckzuf\u00fchren ist. Trotz mehrerer Versuche, die Datei neu hochzuladen, besteht das Problem leider weiterhin. Ich freue mich auf Ihre Hilfe, um das Problem zu l\u00f6sen, da die Analyse entscheidend ist. Bitte teilen Sie mir mit, welche Schritte ich ergreifen kann, um das Problem zu beheben, und ob Sie weitere Informationen ben\u00f6tigen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung im Zusammenhang mit diesem Problem. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

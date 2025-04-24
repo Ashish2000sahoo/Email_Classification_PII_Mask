@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zum Technischen Support\n\nDas Projektmanagement SaaS l\u00e4uft intermittierend fehlerhaft, obwohl Redis 6.2 integriert ist, was m\u00f6glicherweise auf Kompatibilit\u00e4tsprobleme hindeutet. Nach dem Neustart von Redis und dem Leeren des Caches beh\u00e4lt das Problem jedoch Bestand My name is Jane Smith.. Bitte helfen Sie bei der L\u00f6sung des Problems. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        371,
+        392
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Frage zum Technischen Support\n\nDas Projektmanagement SaaS l\u00e4uft intermittierend fehlerhaft, obwohl Redis 6.2 integriert ist, was m\u00f6glicherweise auf Kompatibilit\u00e4tsprobleme hindeutet. Nach dem Neustart von Redis und dem Leeren des Caches beh\u00e4lt das Problem jedoch Bestand My name is [full_name].. Bitte helfen Sie bei der L\u00f6sung des Problems. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

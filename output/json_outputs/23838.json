@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue with Office 365 Billing\n\nDear Customer Support, I'm facing a problem with my Office 365 subscription auto-renewal My name is Maria Gonzalez.. Despite the payment being processed, I'm receiving confirmation errors You can reach me at omar.hassan@secure.net.. Please assist in resolving this issue as soon as possible. My account number is <acc_num>. Thank you, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        154
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        245,
+        267
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        27,
+        30
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        99,
+        102
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Issue with Office [cvv_no] Billing\n\nDear Customer Support, I'm facing a problem with my Office [cvv_no] subscription auto-renewal My name is [full_name].. Despite the payment being processed, I'm receiving confirmation errors You can reach me at [email].. Please assist in resolving this issue as soon as possible. My account number is <acc_num>. Thank you, <name>.",
+  "category_of_the_email": "Problem"
+}

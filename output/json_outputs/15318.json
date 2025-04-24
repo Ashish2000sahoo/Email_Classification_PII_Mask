@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verdachtsfall auf medizinische Datensperre - sofortige Ermittlungen erforderlich\n\nEs wird vermutet, dass aufgrund von ungesch\u00fctztem Ger\u00e4tzugriff eine Datensperre im medizinischen Bereich stattgefunden hat My name is Liu Wei.. Obwohl grundlegende Antivirus-Suchaktionen durchgef\u00fchrt wurden, blieb das Problem bestehen You can reach me at janesmith@company.com.. Es ist dringend erforderlich, weitere Ermittlungen durchzuf\u00fchren, um den m\u00f6glichen Schaden oder die Datensperre zu verhindern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        232
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        350,
+        371
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Verdachtsfall auf medizinische Datensperre - sofortige Ermittlungen erforderlich\n\nEs wird vermutet, dass aufgrund von ungesch\u00fctztem Ger\u00e4tzugriff eine Datensperre im medizinischen Bereich stattgefunden hat My name is [full_name].. Obwohl grundlegende Antivirus-Suchaktionen durchgef\u00fchrt wurden, blieb das Problem bestehen You can reach me at [email].. Es ist dringend erforderlich, weitere Ermittlungen durchzuf\u00fchren, um den m\u00f6glichen Schaden oder die Datensperre zu verhindern.",
+  "category_of_the_email": "Incident"
+}

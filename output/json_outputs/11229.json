@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterschiede in den Rechnungen\n\nDie Marketing-Agentur hat unerwartete Rechnungsunterschiede bei verschiedenen digitalen Produkten festgestellt You can reach me at elena.ivanova@support.org.. Diese k\u00f6nnten aufgrund mehrerer Konto-Integrationen entstanden sein. Versuche zur L\u00f6sung umfassten die \u00dcberpr\u00fcfung der Konto-Statements und den Kontakt zum Kundensupport My name is Fatima Al-Farsi.. Die Probleml\u00f6sung wurde bisher erreicht. Bitte lassen Sie mich wissen, wie ich Ihnen weiterhin helfen kann, das Problem zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        381,
+        390
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        172,
+        197
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unterschiede in den Rechnungen\n\nDie Marketing-Agentur hat unerwartete Rechnungsunterschiede bei verschiedenen digitalen Produkten festgestellt You can reach me at [email].. Diese k\u00f6nnten aufgrund mehrerer Konto-Integrationen entstanden sein. Versuche zur L\u00f6sung umfassten die \u00dcberpr\u00fcfung der Konto-Statements und den Kontakt zum Kundensupport My name is [full_name]-Farsi.. Die Probleml\u00f6sung wurde bisher erreicht. Bitte lassen Sie mich wissen, wie ich Ihnen weiterhin helfen kann, das Problem zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

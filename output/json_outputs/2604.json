@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: IntelliJ Sync Issue with Possible Plugin Conflict\n\nDear Customer Support, I'm encountering a sync problem with IntelliJ. My project files aren't updating, and I believe there may be an issue with a plugin My name is Liu Wei.. I've restarted the IDE and reviewed the settings, but the problem continues. I have also made sure that all plugins are current. After these steps, the issue still persists You can reach me at sophia.rossi@service.it.. I would greatly appreciate any help you can offer in figuring this out. Could you guide me on how to troubleshoot or address the plugin conflict? I am eagerly awaiting your response. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        232
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        432,
+        455
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: IntelliJ Sync Issue with Possible Plugin Conflict\n\nDear Customer Support, I'm encountering a sync problem with IntelliJ. My project files aren't updating, and I believe there may be an issue with a plugin My name is [full_name].. I've restarted the IDE and reviewed the settings, but the problem continues. I have also made sure that all plugins are current. After these steps, the issue still persists You can reach me at [email].. I would greatly appreciate any help you can offer in figuring this out. Could you guide me on how to troubleshoot or address the plugin conflict? I am eagerly awaiting your response. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

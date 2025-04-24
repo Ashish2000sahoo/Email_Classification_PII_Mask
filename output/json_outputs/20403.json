@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nich m\u00f6chte Ihnen \u00fcber eine Verz\u00f6gerung beim Versand meiner letzten Bestellung f\u00fcr das iPad Pro 2021 berichten. Meine Kontonummer lautet <acc_num> You can reach me at elena.ivanova@support.org.. Es war geplant, dass die Lieferung bis zum Ende der letzten Woche erfolgt, doch leider habe ich das Produkt noch nicht erhalten. Ich bitte Sie um Informationen zur Verz\u00f6gerung und dem neuen gesch\u00e4tzten Lieferdatum.\n\nVielen Dank,\n<name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        486,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        211,
+        236
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        140,
+        144
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nich m\u00f6chte Ihnen \u00fcber eine Verz\u00f6gerung beim Versand meiner letzten Bestellung f\u00fcr das iPad Pro [phone_number] berichten. Meine Kontonummer lautet <acc_num> You can reach me at [email].. Es war geplant, dass die Lieferung bis zum Ende der letzten Woche erfolgt, doch leider habe ich das Produkt noch nicht erhalten. Ich bitte Sie um Informationen zur Verz\u00f6gerung und dem neuen gesch\u00e4tzten Lieferdatum.\n\nVielen Dank,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

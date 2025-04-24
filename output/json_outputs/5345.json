@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detected Problem with Investment Projections\n\nThe investment forecasts appear inconsistent because of a discrepancy in the disposable income data My name is Omar Hassan.. This issue may be due to the use of outdated consumer trend models You can reach me at liuwei@business.cn.. I have already attempted to update the software and recalibrate the algorithms.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        267,
+        285
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Detected Problem with Investment Projections\n\nThe investment forecasts appear inconsistent because of a discrepancy in the disposable income data My name is [full_name].. This issue may be due to the use of outdated consumer trend models You can reach me at [email].. I have already attempted to update the software and recalibrate the algorithms.",
+  "category_of_the_email": "Problem"
+}

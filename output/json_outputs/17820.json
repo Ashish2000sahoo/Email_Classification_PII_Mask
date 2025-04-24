@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am facing incorrect investment forecasts. The problem could be related to inadequate data analysis resources You can reach me at fatima.farsi@help.com.. Despite updating the software and retraining the models, the issue remains unresolved My name is John Doe.. I would be grateful if you could investigate this and offer a solution. Please inform me if you require any additional details to address this matter. Thank you for your time and support. I am looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        294
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        165,
+        186
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am facing incorrect investment forecasts. The problem could be related to inadequate data analysis resources You can reach me at [email].. Despite updating the software and retraining the models, the issue remains unresolved My name is [full_name].. I would be grateful if you could investigate this and offer a solution. Please inform me if you require any additional details to address this matter. Thank you for your time and support. I am looking forward to your response.",
+  "category_of_the_email": "Incident"
+}

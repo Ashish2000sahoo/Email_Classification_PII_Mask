@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Issue with Campaign Data After Node Update\n\nDear Customer Support, I am reaching out to report an unexpected issue with our campaign data that vanished overnight. We believe the recent Node.js 14.17 update might be the cause of software compatibility problems. Despite restarting the server and reviewing the Airtable logs, the issue still exists. We would greatly appreciate your help in resolving this matter urgently. If there are any further steps we can take to troubleshoot, please inform us My name is Carlos Mendoza.. Thank you for your time and support. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        518,
+        532
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        589,
+        614
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        202,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    }
+  ],
+  "masked_email": "Subject: Issue with Campaign Data After Node Update\n\nDear Customer Support, I am reaching out to report an unexpected issue with our campaign data that vanished overnight. We believe the recent Node.js [phone_number] update might be the cause of software compatibility problems. Despite restarting the server and reviewing the Airtable logs, the issue still exists. We would greatly appreciate your help in resolving this matter urgently. If there are any further steps we can take to troubleshoot, please inform us My name is [full_name].. Thank you for your time and support. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

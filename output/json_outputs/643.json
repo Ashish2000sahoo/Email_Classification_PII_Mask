@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Network Issues Concern\n\nDear Customer Support, we are encountering intermittent connection issues with our SaaS platform My name is Jane Smith.. The problem seems to be related to compatibility with certain network devices. Our team has attempted to reconfigure network settings and review firewall configurations, but these efforts have been unsuccessful You can reach me at maria.gonzalez@shop.es.. We are seeking your assistance in resolving this issue. Could you please provide advice or recommendations to help resolve the network connectivity problem? We look forward to your support in addressing this issue. Thank you for your understanding and assistance. We are eagerly awaiting your feedback.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        386,
+        408
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Network Issues Concern\n\nDear Customer Support, we are encountering intermittent connection issues with our SaaS platform My name is [full_name].. The problem seems to be related to compatibility with certain network devices. Our team has attempted to reconfigure network settings and review firewall configurations, but these efforts have been unsuccessful You can reach me at [email].. We are seeking your assistance in resolving this issue. Could you please provide advice or recommendations to help resolve the network connectivity problem? We look forward to your support in addressing this issue. Thank you for your understanding and assistance. We are eagerly awaiting your feedback.",
+  "category_of_the_email": "Incident"
+}

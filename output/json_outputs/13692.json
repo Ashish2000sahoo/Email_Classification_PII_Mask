@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Server Disruptions\n\nDear Customer Support, we have been experiencing frequent disruptions with the Project Management Web Service. We have identified potential causes such as server overloads and have taken steps like restarting the server, optimizing the code, and increasing allocated resources. Despite these efforts, the errors persist My name is Carlos Mendoza.. We appreciate your assistance in resolving this issue and would be grateful if you could outline the next steps You can reach me at fatima.farsi@help.com.. Looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        372,
+        386
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        518,
+        539
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Server Disruptions\n\nDear Customer Support, we have been experiencing frequent disruptions with the Project Management Web Service. We have identified potential causes such as server overloads and have taken steps like restarting the server, optimizing the code, and increasing allocated resources. Despite these efforts, the errors persist My name is [full_name].. We appreciate your assistance in resolving this issue and would be grateful if you could outline the next steps You can reach me at [email].. Looking forward to your response.",
+  "category_of_the_email": "Incident"
+}

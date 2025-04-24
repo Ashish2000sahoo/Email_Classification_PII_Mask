@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler bei Start der Kampagne\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um einen technischen Fehler mit den digitalen Kampagnen zu melden My name is John Doe.. Leider konnten die Kampagnen nicht wie geplant gestartet werden. Nachdem ich einige Vorbelegungstests durchgef\u00fchrt habe, glaube ich, dass das Problem auf Softwarekompatibilit\u00e4tsprobleme zur\u00fcckzuf\u00fchren sein k\u00f6nnte. In Versuchung gezogen, das Problem zu behoben, habe ich unsere Systeme neugestartet und alle Konfigurationen gepr\u00fcft. Trotz dieser Bem\u00fchungen scheiterten die Kampagnen weiterhin You can reach me at janesmith@company.com.. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie dieses Problem untersuchen und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Das Scheitern der Kampagnen f\u00fchrt zu signifikanten Unterbrechungen unserer Operationen und jede Verz\u00f6gerung bei der Behebung dieses Problems f\u00fchrt zu weiteren Verlusten. Vielen Dank f\u00fcr Ihre sofortige Beachtung dieses Falles. Ich freue mich auf Ihre R\u00fcckmeldung baldigst.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        176,
+        184
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        602,
+        623
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Fehler bei Start der Kampagne\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um einen technischen Fehler mit den digitalen Kampagnen zu melden My name is [full_name].. Leider konnten die Kampagnen nicht wie geplant gestartet werden. Nachdem ich einige Vorbelegungstests durchgef\u00fchrt habe, glaube ich, dass das Problem auf Softwarekompatibilit\u00e4tsprobleme zur\u00fcckzuf\u00fchren sein k\u00f6nnte. In Versuchung gezogen, das Problem zu behoben, habe ich unsere Systeme neugestartet und alle Konfigurationen gepr\u00fcft. Trotz dieser Bem\u00fchungen scheiterten die Kampagnen weiterhin You can reach me at [email].. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie dieses Problem untersuchen und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Das Scheitern der Kampagnen f\u00fchrt zu signifikanten Unterbrechungen unserer Operationen und jede Verz\u00f6gerung bei der Behebung dieses Problems f\u00fchrt zu weiteren Verlusten. Vielen Dank f\u00fcr Ihre sofortige Beachtung dieses Falles. Ich freue mich auf Ihre R\u00fcckmeldung baldigst.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Application Crashes\n\nI am currently facing several crashes with my applications on my MacBook My name is John Doe.. The crashes happened unexpectedly, and I am suspecting a software incompatibility might be the cause You can reach me at maria.gonzalez@shop.es.. I have already restarted my MacBook, updated all the applications, and reviewed my settings, but the issue still remains. I would greatly appreciate your assistance in resolving this problem. Please inform me if there are any specific steps I can take or if you require further details from me. I am looking forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        135
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        262,
+        284
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Application Crashes\n\nI am currently facing several crashes with my applications on my MacBook My name is [full_name].. The crashes happened unexpectedly, and I am suspecting a software incompatibility might be the cause You can reach me at [email].. I have already restarted my MacBook, updated all the applications, and reviewed my settings, but the issue still remains. I would greatly appreciate your assistance in resolving this problem. Please inform me if there are any specific steps I can take or if you require further details from me. I am looking forward to your prompt response.",
+  "category_of_the_email": "Incident"
+}

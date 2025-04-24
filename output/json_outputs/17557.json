@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Incident Report Issue\n\nSeveral tools malfunctioned at the same time, likely due to excessive integration. I restarted the systems, verified recent updates, and examined the log files.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        215,
+        231
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Incident Report Issue\n\nSeveral tools malfunctioned at the same time, likely due to excessive integration. I restarted the systems, verified recent updates, and examined the log files.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

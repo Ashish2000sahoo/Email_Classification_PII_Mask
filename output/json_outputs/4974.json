@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mitteilung zur Datensperre-Ereignis\n\nEs wurde eine Datensperre festgestellt, die sensible Patientendaten in Gefahr bringt My name is Sophia Rossi.. M\u00f6gliche Gr\u00fcnde umfassen veraltete Verschl\u00fcsselungsprotokolle sowie k\u00fcrzlich entdeckte Softwarevulnerabilitt\u00e4ten. Um die Datensicherheit zu gew\u00e4hrleisten, wurden Ma\u00dfnahmen ergriffen, um die Verschl\u00fcsselung zu aktualisieren, die Netzwerksicherheitsma\u00dfnahmen zu st\u00e4rken und zuk\u00fcnftige Datensperren zu vermeiden. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        154
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        486,
+        508
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung zur Datensperre-Ereignis\n\nEs wurde eine Datensperre festgestellt, die sensible Patientendaten in Gefahr bringt My name is [full_name].. M\u00f6gliche Gr\u00fcnde umfassen veraltete Verschl\u00fcsselungsprotokolle sowie k\u00fcrzlich entdeckte Softwarevulnerabilitt\u00e4ten. Um die Datensicherheit zu gew\u00e4hrleisten, wurden Ma\u00dfnahmen ergriffen, um die Verschl\u00fcsselung zu aktualisieren, die Netzwerksicherheitsma\u00dfnahmen zu st\u00e4rken und zuk\u00fcnftige Datensperren zu vermeiden. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

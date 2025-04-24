@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with project timelines and overlapping tasks\n\nThe project timelines are not functioning correctly, and tasks are frequently overlapping. There may be integration problems with SAP ERP and MATLAB You can reach me at janesmith@company.com.. Restarting the server and verifying API connections were attempted, but the issue has continued. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        363,
+        377
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        231,
+        252
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with project timelines and overlapping tasks\n\nThe project timelines are not functioning correctly, and tasks are frequently overlapping. There may be integration problems with SAP ERP and MATLAB You can reach me at [email].. Restarting the server and verifying API connections were attempted, but the issue has continued. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

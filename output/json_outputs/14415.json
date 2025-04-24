@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, we are reporting an incident related to a decrease in client engagement metrics over the past month You can reach me at david.kim@corp.kr.. It is possible that recent algorithm changes on social media platforms could be the cause. Despite efforts to improve content quality and increase ad spending, there have been no significant improvements My name is Carlos Mendoza.. We would appreciate your assistance in identifying the root cause and potential solutions to improve client engagement metrics.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        398
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        149,
+        166
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, we are reporting an incident related to a decrease in client engagement metrics over the past month You can reach me at [email].. It is possible that recent algorithm changes on social media platforms could be the cause. Despite efforts to improve content quality and increase ad spending, there have been no significant improvements My name is [full_name].. We would appreciate your assistance in identifying the root cause and potential solutions to improve client engagement metrics.",
+  "category_of_the_email": "Incident"
+}

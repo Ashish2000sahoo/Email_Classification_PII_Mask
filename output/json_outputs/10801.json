@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Performance Challenges\n\nDuring peak hours, users encounter substantial performance delays likely due to heightened server load You can reach me at maria.gonzalez@shop.es.. Efforts to optimize database queries and scale server capacity have not been successful. We require assistance to resolve this issue. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        168,
+        190
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Performance Challenges\n\nDuring peak hours, users encounter substantial performance delays likely due to heightened server load You can reach me at [email].. Efforts to optimize database queries and scale server capacity have not been successful. We require assistance to resolve this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

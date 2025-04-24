@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data System Access\n\nhaving trouble accessing the medical data system. The issue began after the recent system update, even after restarting the server and checking user permissions, the problem continues My name is Fatima Al-Farsi.. I would greatly appreciate prompt assistance to resolve this matter so that we can ensure uninterrupted access to critical medical information. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        254
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        429,
+        446
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data System Access\n\nhaving trouble accessing the medical data system. The issue began after the recent system update, even after restarting the server and checking user permissions, the problem continues My name is [full_name]-Farsi.. I would greatly appreciate prompt assistance to resolve this matter so that we can ensure uninterrupted access to critical medical information. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

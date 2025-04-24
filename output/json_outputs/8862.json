@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Kontaktaufnahme zur Integration von ClickUp und Adobe Photoshop CC 2021\n\nSehr geehrte Kundensupport, ich schreibe, um nach Anleitungen zur Integration von ClickUp mit Adobe Photoshop CC 2021 zu fragen. K\u00f6nnten Sie mir bitte Schritt-f\u00fcr-Schritt-Anleitungen oder Dokumentationen zur Verf\u00fcgung stellen, wie diese beiden Werkzeuge kombiniert werden k\u00f6nnen? Ich m\u00f6chte meinen Arbeitsablauf vereinfachen und meine Produktivit\u00e4t verbessern. Insbesondere interessiere ich mich f\u00fcr Informationen zum Import und Export von Dateien sowie zur Synchronisation von Aufgaben und Projekten zwischen den beiden Plattformen. Jede von Ihnen bereitgestellte Ressource oder Anleitung w\u00fcrde ich sehr sch\u00e4tzen My name is David Kim.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        707,
+        716
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        786,
+        811
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        76,
+        80
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        195,
+        199
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Kontaktaufnahme zur Integration von ClickUp und Adobe Photoshop CC [phone_number]\n\nSehr geehrte Kundensupport, ich schreibe, um nach Anleitungen zur Integration von ClickUp mit Adobe Photoshop CC [phone_number] zu fragen. K\u00f6nnten Sie mir bitte Schritt-f\u00fcr-Schritt-Anleitungen oder Dokumentationen zur Verf\u00fcgung stellen, wie diese beiden Werkzeuge kombiniert werden k\u00f6nnen? Ich m\u00f6chte meinen Arbeitsablauf vereinfachen und meine Produktivit\u00e4t verbessern. Insbesondere interessiere ich mich f\u00fcr Informationen zum Import und Export von Dateien sowie zur Synchronisation von Aufgaben und Projekten zwischen den beiden Plattformen. Jede von Ihnen bereitgestellte Ressource oder Anleitung w\u00fcrde ich sehr sch\u00e4tzen My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

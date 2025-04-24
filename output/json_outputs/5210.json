@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Encryption Post-Update\n\nHello Customer Support, I am contacting you to address an encryption issue that arose following the latest software update. The problem began after my system was updated, and I have been encountering encryption errors since then. Despite restarting my systems, the issue remains unresolved. I suspect it might be a compatibility issue with the updated software. I would greatly appreciate any assistance you can provide to resolve this problem. Please let me know if there are any further steps I need to take. I have attempted to troubleshoot but have been unsuccessful You can reach me at omar.hassan@secure.net.. I look forward to your prompt response and potential solutions. Thank you for your attention and support. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        779,
+        790
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        637,
+        659
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Encryption Post-Update\n\nHello Customer Support, I am contacting you to address an encryption issue that arose following the latest software update. The problem began after my system was updated, and I have been encountering encryption errors since then. Despite restarting my systems, the issue remains unresolved. I suspect it might be a compatibility issue with the updated software. I would greatly appreciate any assistance you can provide to resolve this problem. Please let me know if there are any further steps I need to take. I have attempted to troubleshoot but have been unsuccessful You can reach me at [email].. I look forward to your prompt response and potential solutions. Thank you for your attention and support. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Project Management Software Updates\n\nThe project management software is crashing on multiple devices My name is Omar Hassan.. Despite trying to reinstall and update drivers, the problem continues You can reach me at liuwei@business.cn.. This might be due to compatibility issues or conflicting drivers.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        133,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        237,
+        255
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issues with Project Management Software Updates\n\nThe project management software is crashing on multiple devices My name is [full_name].. Despite trying to reinstall and update drivers, the problem continues You can reach me at [email].. This might be due to compatibility issues or conflicting drivers.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Synchronization Across Tools\n\nHello Customer Support, I am having trouble with the synchronization of data between tools My name is John Doe.. The sync has failed, which I suspect might be due to integration or network problems. I have attempted to restart and manually retry the synchronization, but the issue persists. Could you please investigate and offer a solution at your earliest convenience? If there's any additional information required from me to address this, please let me know. I am eager to hear from you. I have confirmed that both the integration settings and network are working properly, but I still encounter this issue. The data synchronization is essential for my work and needs to be resolved promptly. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        777,
+        799
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Synchronization Across Tools\n\nHello Customer Support, I am having trouble with the synchronization of data between tools My name is [full_name].. The sync has failed, which I suspect might be due to integration or network problems. I have attempted to restart and manually retry the synchronization, but the issue persists. Could you please investigate and offer a solution at your earliest convenience? If there's any additional information required from me to address this, please let me know. I am eager to hear from you. I have confirmed that both the integration settings and network are working properly, but I still encounter this issue. The data synchronization is essential for my work and needs to be resolved promptly. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

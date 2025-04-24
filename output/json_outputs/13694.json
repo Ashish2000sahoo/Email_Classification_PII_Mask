@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Strategies for Safeguarding Hospital Patient Data\n\nHi Customer Support Team, I am writing to seek advice on the most effective methods for safeguarding patient information within our hospital's IT infrastructure and equipment. Given the critical nature of this data, we are dedicated to maintaining its confidentiality, integrity, and accessibility. Our goal is to establish stringent security protocols to prevent unauthorized access, data breaches, and other risks. Could you please offer suggestions on how to set up firewalls and intrusion detection systems, encrypt confidential data, carry out periodic security evaluations and risk analyses, educate our staff on security best practices, and ensure adherence to pertinent laws such as HIPAA? Additionally, we would greatly appreciate any suggestions for security applications and tools tailored for healthcare facilities. Moreover, could you give us details on how to secure mobile devices and laptops used by our employees? We are committed to offering the best care to our patients, and the protection of their medical records is a key concern You can reach me at maria.gonzalez@shop.es.. I look forward to your prompt response. Thanks for your consideration. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1239,
+        1251
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1132,
+        1154
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Strategies for Safeguarding Hospital Patient Data\n\nHi Customer Support Team, I am writing to seek advice on the most effective methods for safeguarding patient information within our hospital's IT infrastructure and equipment. Given the critical nature of this data, we are dedicated to maintaining its confidentiality, integrity, and accessibility. Our goal is to establish stringent security protocols to prevent unauthorized access, data breaches, and other risks. Could you please offer suggestions on how to set up firewalls and intrusion detection systems, encrypt confidential data, carry out periodic security evaluations and risk analyses, educate our staff on security best practices, and ensure adherence to pertinent laws such as HIPAA? Additionally, we would greatly appreciate any suggestions for security applications and tools tailored for healthcare facilities. Moreover, could you give us details on how to secure mobile devices and laptops used by our employees? We are committed to offering the best care to our patients, and the protection of their medical records is a key concern You can reach me at [email].. I look forward to your prompt response. Thanks for your consideration. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

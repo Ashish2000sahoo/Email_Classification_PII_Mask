@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cybersecurity Medical Support\n\nDear Customer Service, I am writing to inquire about the best practices for securing medical data in our hospital's IT system. As you are aware, medical data is highly sensitive and requires robust protection against cyber threats My name is Jane Smith.. I would like to know what measures your company recommends to ensure the confidentiality, integrity, and availability of our patients' medical information. Specifically, I am interested in the most effective deterrents, intrusion detection systems, and encryption methods that can be applied to safeguard our medical data. Additionally, I would appreciate any advice on regular security audits and risk assessments to identify potential vulnerabilities in our system. I look forward to hearing from you and learning more about how your company can assist us in protecting our patient data. Please let me know if you require any further information to provide a detailed response. Thank you for your time and support. Kind regards, [Your Name] You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        292
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1059,
+        1076
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Cybersecurity Medical Support\n\nDear Customer Service, I am writing to inquire about the best practices for securing medical data in our hospital's IT system. As you are aware, medical data is highly sensitive and requires robust protection against cyber threats My name is [full_name].. I would like to know what measures your company recommends to ensure the confidentiality, integrity, and availability of our patients' medical information. Specifically, I am interested in the most effective deterrents, intrusion detection systems, and encryption methods that can be applied to safeguard our medical data. Additionally, I would appreciate any advice on regular security audits and risk assessments to identify potential vulnerabilities in our system. I look forward to hearing from you and learning more about how your company can assist us in protecting our patient data. Please let me know if you require any further information to provide a detailed response. Thank you for your time and support. Kind regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Beschwerde \u00fcber pl\u00f6tzliche Reduzierung der Website-Nutzung\n\nSehr geehrte Kundenservice,\\n\\nIch m\u00f6chte melden, dass wir einen signifikanten R\u00fcckgang der Besucherzahl auf unserer Website bemerkt haben You can reach me at carlosm@gmail.com.. Das genaue Ursache daf\u00fcr ist unklar, aber wir bef\u00fcrchten, dass es sich um eine \u00c4nderung der Algorithmik oder einen technischen Fehler handelt.\\n\\nBislang hat unser Team versucht, das Problem durch die \u00dcberpr\u00fcfung unserer Analysedaten und der Verifizierung der Website-Links zu l\u00f6sen. Diese Ma\u00dfnahmen haben jedoch nicht zu einem Endergebnis gef\u00fchrt, und wir bef\u00fcrchten, dass das Gesch\u00e4ft und der Nutzerzufriedenheitsgrad negativ beeintr\u00e4chtigt werden k\u00f6nnten.\\n\\nWir hoffen, dass Ihr Team uns bei der L\u00f6sung dieses Problems unterst\u00fctzt. Bitte geben Sie uns an, was wir tun k\u00f6nnen oder welche Informationen wir ben\u00f6tigen, um den Fall weiter zu untersuchen.\\n\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\\nMit freundlichen Gr\u00fc\u00dfen My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        978,
+        991
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        228,
+        245
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Beschwerde \u00fcber pl\u00f6tzliche Reduzierung der Website-Nutzung\n\nSehr geehrte Kundenservice,\\n\\nIch m\u00f6chte melden, dass wir einen signifikanten R\u00fcckgang der Besucherzahl auf unserer Website bemerkt haben You can reach me at [email].. Das genaue Ursache daf\u00fcr ist unklar, aber wir bef\u00fcrchten, dass es sich um eine \u00c4nderung der Algorithmik oder einen technischen Fehler handelt.\\n\\nBislang hat unser Team versucht, das Problem durch die \u00dcberpr\u00fcfung unserer Analysedaten und der Verifizierung der Website-Links zu l\u00f6sen. Diese Ma\u00dfnahmen haben jedoch nicht zu einem Endergebnis gef\u00fchrt, und wir bef\u00fcrchten, dass das Gesch\u00e4ft und der Nutzerzufriedenheitsgrad negativ beeintr\u00e4chtigt werden k\u00f6nnten.\\n\\nWir hoffen, dass Ihr Team uns bei der L\u00f6sung dieses Problems unterst\u00fctzt. Bitte geben Sie uns an, was wir tun k\u00f6nnen oder welche Informationen wir ben\u00f6tigen, um den Fall weiter zu untersuchen.\\n\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\\nMit freundlichen Gr\u00fc\u00dfen My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

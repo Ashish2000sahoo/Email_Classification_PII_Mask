@@ -1,0 +1,55 @@
+{
+  "input_email_body": "Subject: Consulta sobre un problema de facturaci\u00f3n\n\nEstimado Servicio al Cliente,\n\nEspero que este mensaje lo encuentre bien My name is Omar Hassan.. Estoy escribiendo para expresar mi preocupaci\u00f3n acerca de un problema de facturaci\u00f3n que he encontrado con una compra reciente en su tienda. El 12 de octubre de 2023, compr\u00e9 una suscripci\u00f3n para Adobe Photoshop 2024 usando mi n\u00famero de cuenta <acc_num>. Sin embargo, he notado una discrepancia entre el monto cobrado y el precio oficial listado.\n\nEl precio publicado en su sitio web en el momento de la compra era de $49.99, pero mi tarjeta fue cobrando $59.99. Estoy seguro de que esto es un error y apreciar\u00eda ayuda para resolver este sobrecargo. He adjuntado una copia de mi recibo de facturaci\u00f3n para referencia.\n\nPor favor, h\u00e1game saber si necesita informaci\u00f3n adicional de mi parte para acelerar el proceso de revisi\u00f3n. Espero que tales problemas se traten con urgencia, y conf\u00edo en que su empresa valora la satisfacci\u00f3n del cliente You can reach me at carlosm@gmail.com.. Si debo contactar a otro departamento para una resoluci\u00f3n m\u00e1s r\u00e1pida, amablemente dir\u00edjame en consecuencia.\n\nEspero su pronta respuesta sobre este asunto. Gracias por su atenci\u00f3n a este problema.\n\nAtentamente,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1009,
+        1026
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        311,
+        315
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    },
+    {
+      "position": [
+        361,
+        365
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        568,
+        573
+      ],
+      "classification": "phone_number",
+      "entity": "49.99"
+    },
+    {
+      "position": [
+        605,
+        610
+      ],
+      "classification": "phone_number",
+      "entity": "59.99"
+    }
+  ],
+  "masked_email": "Subject: Consulta sobre un problema de facturaci\u00f3n\n\nEstimado Servicio al Cliente,\n\nEspero que este mensaje lo encuentre bien My name is [full_name].. Estoy escribiendo para expresar mi preocupaci\u00f3n acerca de un problema de facturaci\u00f3n que he encontrado con una compra reciente en su tienda. El 12 de octubre de [phone_number], compr\u00e9 una suscripci\u00f3n para Adobe Photoshop [phone_number] usando mi n\u00famero de cuenta <acc_num>. Sin embargo, he notado una discrepancia entre el monto cobrado y el precio oficial listado.\n\nEl precio publicado en su sitio web en el momento de la compra era de $[phone_number], pero mi tarjeta fue cobrando $[phone_number]. Estoy seguro de que esto es un error y apreciar\u00eda ayuda para resolver este sobrecargo. He adjuntado una copia de mi recibo de facturaci\u00f3n para referencia.\n\nPor favor, h\u00e1game saber si necesita informaci\u00f3n adicional de mi parte para acelerar el proceso de revisi\u00f3n. Espero que tales problemas se traten con urgencia, y conf\u00edo en que su empresa valora la satisfacci\u00f3n del cliente You can reach me at [email].. Si debo contactar a otro departamento para una resoluci\u00f3n m\u00e1s r\u00e1pida, amablemente dir\u00edjame en consecuencia.\n\nEspero su pronta respuesta sobre este asunto. Gracias por su atenci\u00f3n a este problema.\n\nAtentamente,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Request"
+}

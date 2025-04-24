@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unforeseen Charges in My Subscription Plan\n\nHello Customer Service, I am contacting you to address a concern regarding my subscription. I recently found charges on my account that appear unaccounted for, possibly due to a billing system glitch. I have already reviewed my account details and billing records, but the problem remains unresolved. I would be grateful if you could investigate this further and offer a solution at your earliest convenience. If you require any more details to assist me, please let me know You can reach me at fatima.farsi@help.com.. I am hopeful that with your help, we can address this quickly and effectively. Thank you for your assistance in this matter. I eagerly await your response My name is Elena Ivanova.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        738,
+        751
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        548,
+        569
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unforeseen Charges in My Subscription Plan\n\nHello Customer Service, I am contacting you to address a concern regarding my subscription. I recently found charges on my account that appear unaccounted for, possibly due to a billing system glitch. I have already reviewed my account details and billing records, but the problem remains unresolved. I would be grateful if you could investigate this further and offer a solution at your earliest convenience. If you require any more details to assist me, please let me know You can reach me at [email].. I am hopeful that with your help, we can address this quickly and effectively. Thank you for your assistance in this matter. I eagerly await your response My name is [full_name].. Best regards, [Your Name]",
+  "category_of_the_email": "Problem"
+}

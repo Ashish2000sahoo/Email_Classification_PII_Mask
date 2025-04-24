@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Laptop Overheating Issue During Video Calls Help\n\nDear Customer Support,\n\nI'm experiencing a problem with my Dell XPS 13 9310 laptop. It overheats during video calls, despite updated drivers and no background tasks You can reach me at elena.ivanova@support.org.. This overheating affects performance significantly, making meetings difficult.\n\nPlease advise on any solutions or next steps.\n\nThank you,\n<name>\n\n<tel_num> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        450
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        244,
+        269
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        127,
+        134
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Laptop Overheating Issue During Video Calls Help\n\nDear Customer Support,\n\nI'm experiencing a problem with my Dell XPS [phone_number] laptop. It overheats during video calls, despite updated drivers and no background tasks You can reach me at [email].. This overheating affects performance significantly, making meetings difficult.\n\nPlease advise on any solutions or next steps.\n\nThank you,\n<name>\n\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required with Digital Campaign Analytics\n\nI am encountering problems with the analytics of my digital campaign. The data appears to be static and there are inconsistencies You can reach me at david.kim@corp.kr.. I believe this could be due to an overloaded Kubernetes cluster or a faulty Udemy API. Despite restarting Moodle and adjusting my MATLAB settings, the problem continues. I kindly request an investigation into this issue and a prompt solution. Please inform me if any more information is needed to address this. I look forward to your response. Thanks for your time and help. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        618,
+        631
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        212,
+        229
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required with Digital Campaign Analytics\n\nI am encountering problems with the analytics of my digital campaign. The data appears to be static and there are inconsistencies You can reach me at [email].. I believe this could be due to an overloaded Kubernetes cluster or a faulty Udemy API. Despite restarting Moodle and adjusting my MATLAB settings, the problem continues. I kindly request an investigation into this issue and a prompt solution. Please inform me if any more information is needed to address this. I look forward to your response. Thanks for your time and help. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Database Report Generation\n\nI am contacting you to report an issue with the report generation process from our database My name is Elena Ivanova.. The reports are not generating as expected, and I suspect it might be due to a problem with the database query configuration You can reach me at johndoe@email.com.. I have already restarted the database service and reviewed the query logs, but the issue still exists. I would greatly appreciate your assistance in resolving this issue promptly. Please inform me if you require any further details from me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        166
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        312,
+        329
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Database Report Generation\n\nI am contacting you to report an issue with the report generation process from our database My name is [full_name].. The reports are not generating as expected, and I suspect it might be due to a problem with the database query configuration You can reach me at [email].. I have already restarted the database service and reviewed the query logs, but the issue still exists. I would greatly appreciate your assistance in resolving this issue promptly. Please inform me if you require any further details from me.",
+  "category_of_the_email": "Incident"
+}

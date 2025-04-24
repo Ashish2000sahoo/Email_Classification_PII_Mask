@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Eilige Unterst\u00fctzung f\u00fcr kritisches Systemfehlerproblem erforderlich\n\nSehr geehrte Kundensupport, ich m\u00f6chte Ihnen mitteilen, dass wir in unserem Medikamentensystem ernsthafte Datenverletzungen festgestellt haben. Diese k\u00f6nnten auf mangelnde Verschl\u00fcsselung und veraltete Sicherheitspatches zur\u00fcckzuf\u00fchren sein You can reach me at janesmith@company.com.. Wir haben bereits Virenscanner ausgef\u00fchrt und Adobe-Software aktualisiert, aber das Problem besteht weiterhin My name is Elena Ivanova.. Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um das System sicherzustellen. K\u00f6nnten Sie uns raten, was wir tun sollten? Wir sind dankbar f\u00fcr Empfehlungen zur Verbesserung unserer Sicherheitsma\u00dfnahmen und zur Vermeidung zuk\u00fcnftiger Verletzungen. Ich freue mich darauf, von Ihrem Schnellintervenieren in diesem Thema zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        485,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        340,
+        361
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Eilige Unterst\u00fctzung f\u00fcr kritisches Systemfehlerproblem erforderlich\n\nSehr geehrte Kundensupport, ich m\u00f6chte Ihnen mitteilen, dass wir in unserem Medikamentensystem ernsthafte Datenverletzungen festgestellt haben. Diese k\u00f6nnten auf mangelnde Verschl\u00fcsselung und veraltete Sicherheitspatches zur\u00fcckzuf\u00fchren sein You can reach me at [email].. Wir haben bereits Virenscanner ausgef\u00fchrt und Adobe-Software aktualisiert, aber das Problem besteht weiterhin My name is [full_name].. Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um das System sicherzustellen. K\u00f6nnten Sie uns raten, was wir tun sollten? Wir sind dankbar f\u00fcr Empfehlungen zur Verbesserung unserer Sicherheitsma\u00dfnahmen und zur Vermeidung zuk\u00fcnftiger Verletzungen. Ich freue mich darauf, von Ihrem Schnellintervenieren in diesem Thema zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

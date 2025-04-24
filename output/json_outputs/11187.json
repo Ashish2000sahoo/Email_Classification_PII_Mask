@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler melden - Kampagnen-Software-Crashes\n\nSehr geehrte Kundensupport, ich schreibe, um einen Fehler mit unseren digitalen Kampagnen zu melden. Die Kampagnen sind aufgrund h\u00e4ufiger Software-Crashes gestoppt My name is Sophia Rossi.. Das Problem begann nach dem Installieren der neuesten Software-Updates, die wir als m\u00f6glicherweise nicht kompatibel mit unserem bestehenden System ann\u00e4hern. Wir haben bereits die Systeme neugestartet und die Treiber aktualisiert, aber das Problem beh\u00e4lt sich bestehen. Trotz unserer bem\u00fchten Bem\u00fchungen konnten wir den Fehler nicht beheben und unsere Kampagnen befinden sich weiterhin in Stagnation. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dies dringend untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte kontaktieren Sie mich, wenn Sie weitere Informationen ben\u00f6tigen You can reach me at liuwei@business.cn.. Ich stehe Ihnen gerne zur Verf\u00fcgung, um dies weiter zu besprechen und die notwendigen Details zu liefern. Ich danke Ihnen f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit und freue mich auf Ihre baldige R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        852,
+        870
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Fehler melden - Kampagnen-Software-Crashes\n\nSehr geehrte Kundensupport, ich schreibe, um einen Fehler mit unseren digitalen Kampagnen zu melden. Die Kampagnen sind aufgrund h\u00e4ufiger Software-Crashes gestoppt My name is [full_name].. Das Problem begann nach dem Installieren der neuesten Software-Updates, die wir als m\u00f6glicherweise nicht kompatibel mit unserem bestehenden System ann\u00e4hern. Wir haben bereits die Systeme neugestartet und die Treiber aktualisiert, aber das Problem beh\u00e4lt sich bestehen. Trotz unserer bem\u00fchten Bem\u00fchungen konnten wir den Fehler nicht beheben und unsere Kampagnen befinden sich weiterhin in Stagnation. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dies dringend untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte kontaktieren Sie mich, wenn Sie weitere Informationen ben\u00f6tigen You can reach me at [email].. Ich stehe Ihnen gerne zur Verf\u00fcgung, um dies weiter zu besprechen und die notwendigen Details zu liefern. Ich danke Ihnen f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit und freue mich auf Ihre baldige R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

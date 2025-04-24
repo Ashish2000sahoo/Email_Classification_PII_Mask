@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Marketing Agency's Digital Strategies Impeded by Connectivity Issues Across Multiple Systems\n\nThe digital strategies of the marketing agency are being hindered due to connectivity issues affecting multiple systems. Despite attempts to reset the VPN and restart affected applications, the issues persist.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        335,
+        350
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Marketing Agency's Digital Strategies Impeded by Connectivity Issues Across Multiple Systems\n\nThe digital strategies of the marketing agency are being hindered due to connectivity issues affecting multiple systems. Despite attempts to reset the VPN and restart affected applications, the issues persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

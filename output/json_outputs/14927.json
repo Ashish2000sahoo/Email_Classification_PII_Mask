@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request: Project Synchronization Issue\n\nI am seeking help with an issue we are experiencing in project synchronization across various integrations. Our team has identified a potential incompatibility issue related to a recent update, which is leading to synchronization failures that disrupt our workflow You can reach me at janesmith@company.com.. We have attempted to resolve the issue by restarting services and verifying API connections, but the problem remains unresolved. We would be grateful for your assistance in addressing this, and we are open to further discussion or guidance on how to resolve it My name is Jane Smith.. Please provide us with any necessary information or context. Thank you for your support, and we look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        638,
+        648
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        342,
+        363
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request: Project Synchronization Issue\n\nI am seeking help with an issue we are experiencing in project synchronization across various integrations. Our team has identified a potential incompatibility issue related to a recent update, which is leading to synchronization failures that disrupt our workflow You can reach me at [email].. We have attempted to resolve the issue by restarting services and verifying API connections, but the problem remains unresolved. We would be grateful for your assistance in addressing this, and we are open to further discussion or guidance on how to resolve it My name is [full_name].. Please provide us with any necessary information or context. Thank you for your support, and we look forward to your response.",
+  "category_of_the_email": "Incident"
+}

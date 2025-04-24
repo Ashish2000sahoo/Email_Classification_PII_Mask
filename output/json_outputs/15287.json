@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThere was an unauthorized access incident that compromised medical data, which may be due to insufficient firewall protections. We have conducted scans and updated our protocols, but vulnerabilities still persist.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        247,
+        263
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nThere was an unauthorized access incident that compromised medical data, which may be due to insufficient firewall protections. We have conducted scans and updated our protocols, but vulnerabilities still persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

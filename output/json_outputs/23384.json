@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de Cobran\u00e7a Incorreta Detectado\n\nCaro Suporte ao Cliente de Servi\u00e7os de TI,\n\nEspero que esta mensagem o encontre bem My name is Omar Hassan.. Estou entrando em contato para expressar minha preocupa\u00e7\u00e3o em rela\u00e7\u00e3o a um c\u00e1lculo de cobran\u00e7a incorreto que foi detectado recentemente em minha conta. Notei discrep\u00e2ncias que afetam meu saldo e c\u00e1lculos de pagamento, especificamente para o AWS Management Service. Este problema est\u00e1 causando um desconforto significativo e pode levar a potenciais mal-entendidos financeiros.\n\nMeu n\u00famero de conta \u00e9 <acc_num>, registrado sob o nome <name> You can reach me at fatima.farsi@help.com.. Por favor, revise este problema assim que poss\u00edvel e advise sobre os passos que devemos seguir para resolver esta quest\u00e3o.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        157
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        619,
+        640
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problema de Cobran\u00e7a Incorreta Detectado\n\nCaro Suporte ao Cliente de Servi\u00e7os de TI,\n\nEspero que esta mensagem o encontre bem My name is [full_name].. Estou entrando em contato para expressar minha preocupa\u00e7\u00e3o em rela\u00e7\u00e3o a um c\u00e1lculo de cobran\u00e7a incorreto que foi detectado recentemente em minha conta. Notei discrep\u00e2ncias que afetam meu saldo e c\u00e1lculos de pagamento, especificamente para o AWS Management Service. Este problema est\u00e1 causando um desconforto significativo e pode levar a potenciais mal-entendidos financeiros.\n\nMeu n\u00famero de conta \u00e9 <acc_num>, registrado sob o nome <name> You can reach me at [email].. Por favor, revise este problema assim que poss\u00edvel e advise sobre os passos que devemos seguir para resolver esta quest\u00e3o.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Problem"
+}

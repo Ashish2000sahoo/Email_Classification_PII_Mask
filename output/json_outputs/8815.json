@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Delayed Notification System\n\nDear Customer Support, <br> We are encountering issues with delayed notifications from the project management tool. The problem might have started after the recent server updates. Our team has already checked the network settings and restarted the application, but the issue still persists. We would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is Jane Smith.. The delayed notifications are causing inconvenience for our users and affecting their productivity You can reach me at omar.hassan@secure.net.. Please let us know if we need to provide any additional information to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        472
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        595,
+        617
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Delayed Notification System\n\nDear Customer Support, <br> We are encountering issues with delayed notifications from the project management tool. The problem might have started after the recent server updates. Our team has already checked the network settings and restarted the application, but the issue still persists. We would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is [full_name].. The delayed notifications are causing inconvenience for our users and affecting their productivity You can reach me at [email].. Please let us know if we need to provide any additional information to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

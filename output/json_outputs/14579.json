@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Security precautions for patient data within healthcare IT networks\n\nCould you specify the security protocols that safeguard patient information in your medical facility's information technology infrastructure?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        258
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Security precautions for patient data within healthcare IT networks\n\nCould you specify the security protocols that safeguard patient information in your medical facility's information technology infrastructure?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

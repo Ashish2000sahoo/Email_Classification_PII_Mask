@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem mit der Datenblockade\n\nBeim Umgang mit medizinischen Daten tritt ein Datenblockade-Problem auf.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        135,
+        151
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Datenblockade\n\nBeim Umgang mit medizinischen Daten tritt ein Datenblockade-Problem auf.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

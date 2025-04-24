@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Problem with Investment Optimization Software\n\nThe investment optimization software is experiencing intermittent crashes, affecting data analysis. It might be related to compatibility issues after recent updates My name is Jane Smith.. After restarting the KVM switch and reinstalling Norton Antivirus, the crashes still persist. The software was functioning properly until recently, and I suspect the issue is related to the updates. I would appreciate if you could look into this matter and provide a solution as soon as possible. Please let us know if you need any additional information from me. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        252
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        640,
+        663
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Technical Problem with Investment Optimization Software\n\nThe investment optimization software is experiencing intermittent crashes, affecting data analysis. It might be related to compatibility issues after recent updates My name is [full_name].. After restarting the KVM switch and reinstalling Norton Antivirus, the crashes still persist. The software was functioning properly until recently, and I suspect the issue is related to the updates. I would appreciate if you could look into this matter and provide a solution as soon as possible. Please let us know if you need any additional information from me. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

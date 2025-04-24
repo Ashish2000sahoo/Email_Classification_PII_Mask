@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kombinieren Nuendo und Zoho CRM\n\nLieber Kundensupport, ich arbeite in einer Stelle, bei der es erforderlich ist, Nuendo und Zoho CRM zu integrieren, w\u00e4hrend die Sicherheit von medizinischen Daten gew\u00e4hrleistet wird My name is David Kim.. Unsere Organisation, die sich mit sensiblen medizinischen Informationen besch\u00e4ftigt, muss sicherstellen, dass das Datennutzungssystem den \u00f6rtlichen Vorschriften entspricht You can reach me at liuwei@business.cn.. Wir verwenden derzeit Nuendo f\u00fcr akustische Nachbearbeitung und Zoho CRM f\u00fcr Kundenservice-Management. Allerdings m\u00f6chten wir beide Systeme integrieren, um den Arbeitsablauf zu vereinfachen und die Datensicherheit zu verbessern. K\u00f6nnten Sie uns Rat geben, wie wir die Integration von Nuendo und Zoho CRM vornehmen k\u00f6nnen, insbesondere im Hinblick auf die Sicherheit der medizinischen Daten?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        244
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        441,
+        459
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Kombinieren Nuendo und Zoho CRM\n\nLieber Kundensupport, ich arbeite in einer Stelle, bei der es erforderlich ist, Nuendo und Zoho CRM zu integrieren, w\u00e4hrend die Sicherheit von medizinischen Daten gew\u00e4hrleistet wird My name is [full_name].. Unsere Organisation, die sich mit sensiblen medizinischen Informationen besch\u00e4ftigt, muss sicherstellen, dass das Datennutzungssystem den \u00f6rtlichen Vorschriften entspricht You can reach me at [email].. Wir verwenden derzeit Nuendo f\u00fcr akustische Nachbearbeitung und Zoho CRM f\u00fcr Kundenservice-Management. Allerdings m\u00f6chten wir beide Systeme integrieren, um den Arbeitsablauf zu vereinfachen und die Datensicherheit zu verbessern. K\u00f6nnten Sie uns Rat geben, wie wir die Integration von Nuendo und Zoho CRM vornehmen k\u00f6nnen, insbesondere im Hinblick auf die Sicherheit der medizinischen Daten?",
+  "category_of_the_email": "Request"
+}

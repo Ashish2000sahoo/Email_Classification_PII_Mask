@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Monday Integration Assistance\n\nWe seek customer support to inquire about integrating Monday.com with the GNU Compiler Collection for project tracking My name is Jane Smith.. We would appreciate detailed information on the integration's benefits and any guidance or resources that could help us implement it successfully. Thank you for your time and assistance. We look forward to hearing back soon. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        441,
+        458
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Monday Integration Assistance\n\nWe seek customer support to inquire about integrating Monday.com with the GNU Compiler Collection for project tracking My name is [full_name].. We would appreciate detailed information on the integration's benefits and any guidance or resources that could help us implement it successfully. Thank you for your time and assistance. We look forward to hearing back soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for ClickUp Integration Support\n\nPlease provide details on the ClickUp DataRobot integration to enhance project management efficiency My name is Elena Ivanova.. Could you include necessary steps and requirements for the integration? I would appreciate it if you could offer resources and guidance, which I will start to review You can reach me at david.kim@corp.kr.. Thank you in advance for your support and look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        362,
+        379
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for ClickUp Integration Support\n\nPlease provide details on the ClickUp DataRobot integration to enhance project management efficiency My name is [full_name].. Could you include necessary steps and requirements for the integration? I would appreciate it if you could offer resources and guidance, which I will start to review You can reach me at [email].. Thank you in advance for your support and look forward to your response.",
+  "category_of_the_email": "Request"
+}

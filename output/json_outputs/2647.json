@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am writing to seek information on digital strategies that enhance brand growth for marketing agency services. In the current digital era, a robust online presence is crucial for marketing agencies to attract and maintain clients. Effective digital strategies such as search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, and content marketing can significantly boost a marketing agency's visibility, generate more leads, and foster brand growth. I would be grateful for any advice or suggestions you could offer on this matter. Moreover, I am keen to learn more about the current trends and best practices in digital marketing for marketing agencies. Thank you for your time and help You can reach me at carlosm@gmail.com.. I eagerly await your response My name is Jane Smith.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        838,
+        848
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        777,
+        794
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am writing to seek information on digital strategies that enhance brand growth for marketing agency services. In the current digital era, a robust online presence is crucial for marketing agencies to attract and maintain clients. Effective digital strategies such as search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, and content marketing can significantly boost a marketing agency's visibility, generate more leads, and foster brand growth. I would be grateful for any advice or suggestions you could offer on this matter. Moreover, I am keen to learn more about the current trends and best practices in digital marketing for marketing agencies. Thank you for your time and help You can reach me at [email].. I eagerly await your response My name is [full_name].. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Synchronisierung der Projektzeitlinien identifiziert\n\nBeschreibung: Es wurde festgestellt, dass die Projektzeiten nicht korrekt \u00fcber alle Tools synchronisiert wurden You can reach me at maria.gonzalez@shop.es.. M\u00f6gliche Gr\u00fcnde: Probleme mit den Integrations-APIs oder deren Veraltetheit. Bislang getroffene Ma\u00dfnahmen: Neustart der Dienste und \u00dcberpr\u00fcfung der Verbindungseinstellungen. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem zu beheben. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        485,
+        497
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        212,
+        234
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Synchronisierung der Projektzeitlinien identifiziert\n\nBeschreibung: Es wurde festgestellt, dass die Projektzeiten nicht korrekt \u00fcber alle Tools synchronisiert wurden You can reach me at [email].. M\u00f6gliche Gr\u00fcnde: Probleme mit den Integrations-APIs oder deren Veraltetheit. Bislang getroffene Ma\u00dfnahmen: Neustart der Dienste und \u00dcberpr\u00fcfung der Verbindungseinstellungen. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

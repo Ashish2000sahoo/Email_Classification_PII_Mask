@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme bei der Verbindung zu Netzwerkger\u00e4ten\n\nEine Finanzfirma begegnet Verbindungsproblemen bei mehreren Produkten. Versuche zur L\u00f6sung umfassen das Neustart des Schalters und die \u00dcberpr\u00fcfung der Netzwerkeinstellungen.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        269
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Verbindung zu Netzwerkger\u00e4ten\n\nEine Finanzfirma begegnet Verbindungsproblemen bei mehreren Produkten. Versuche zur L\u00f6sung umfassen das Neustart des Schalters und die \u00dcberpr\u00fcfung der Netzwerkeinstellungen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

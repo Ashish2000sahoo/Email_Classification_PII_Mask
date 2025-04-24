@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nThe financial firm's data analytics tools are experiencing malfunctions, which are impacting investment strategies You can reach me at johndoe@email.com.. This may be due to software compatibility issues following a recent update. We have restarted the devices, checked for updates, and reinstalled the applications, but the issue still persists. We need assistance to resolve this problem as soon as possible to minimize its impact on our operations. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        474,
+        483
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        146,
+        163
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe financial firm's data analytics tools are experiencing malfunctions, which are impacting investment strategies You can reach me at [email].. This may be due to software compatibility issues following a recent update. We have restarted the devices, checked for updates, and reinstalled the applications, but the issue still persists. We need assistance to resolve this problem as soon as possible to minimize its impact on our operations. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

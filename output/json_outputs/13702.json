@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwartete Geb\u00fchr in der Rechnung\n\nBetreff: Unerwartete Geb\u00fchr in der letzten Rechnung\\n\\nSehr geehrte Kundenservice,\\n\\nwir haben in unserer letzten Rechnung eine unerwartete Geb\u00fchr festgestellt. Es k\u00f6nnte sich um einen Fehler im Rechnungsstellungssystem handeln My name is Elena Ivanova.. Wir haben die Vertragsbedingungen durchgesehen und warten auf Erl\u00e4uterungen von Ihrer Seite. Wir sch\u00e4tzen Ihre Hilfe und hoffen, dass Sie uns eine klare Erkl\u00e4rung der Geb\u00fchr geben k\u00f6nnen, sobald es m\u00f6glich ist You can reach me at sophia.rossi@service.it.. Bitte lassen Sie uns wissen, wenn wir weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Wir freuen uns auf Ihre baldige R\u00fcckmeldung.\\n\\nMit freundlichen Gr\u00fc\u00dfen",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        529,
+        552
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unerwartete Geb\u00fchr in der Rechnung\n\nBetreff: Unerwartete Geb\u00fchr in der letzten Rechnung\\n\\nSehr geehrte Kundenservice,\\n\\nwir haben in unserer letzten Rechnung eine unerwartete Geb\u00fchr festgestellt. Es k\u00f6nnte sich um einen Fehler im Rechnungsstellungssystem handeln My name is [full_name].. Wir haben die Vertragsbedingungen durchgesehen und warten auf Erl\u00e4uterungen von Ihrer Seite. Wir sch\u00e4tzen Ihre Hilfe und hoffen, dass Sie uns eine klare Erkl\u00e4rung der Geb\u00fchr geben k\u00f6nnen, sobald es m\u00f6glich ist You can reach me at [email].. Bitte lassen Sie uns wissen, wenn wir weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Wir freuen uns auf Ihre baldige R\u00fcckmeldung.\\n\\nMit freundlichen Gr\u00fc\u00dfen",
+  "category_of_the_email": "Incident"
+}

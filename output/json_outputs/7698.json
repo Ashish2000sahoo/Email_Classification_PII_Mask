@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Application Support Query\n\nWe have experienced a significant performance slowdown during peak hours. This might be related to the recent deployment, possibly impacting database queries and server load balancing My name is Fatima Al-Farsi.. We rolled back the deployment and optimized the queries, but the issue still persists. We need your assistance in resolving this matter. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        408,
+        430
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Application Support Query\n\nWe have experienced a significant performance slowdown during peak hours. This might be related to the recent deployment, possibly impacting database queries and server load balancing My name is [full_name]-Farsi.. We rolled back the deployment and optimized the queries, but the issue still persists. We need your assistance in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

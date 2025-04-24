@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notwendigkeit von Unterst\u00fctzung bei medizinischen Datensicherheitsverst\u00f6\u00dfen\n\nEs ist ein unautorierter Datensicherheitsversto\u00df in unserem medizinischen Datensystem aufgetreten My name is Liu Wei.. Aufgrund fehlerhafter Sicherheitsstellungen k\u00f6nnten Patientendaten ausgesetzt sein. Obwohl Sicherheitspr\u00fcfungen durchgef\u00fchrt und die Software aktualisiert wurde, bestehen immer noch Schwachstellen You can reach me at sophia.rossi@service.it.. Sofortige Hilfe ist erforderlich, um die IT-Infrastruktur sicherzustellen und sensible Patientendaten zu sch\u00fctzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        426,
+        449
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Notwendigkeit von Unterst\u00fctzung bei medizinischen Datensicherheitsverst\u00f6\u00dfen\n\nEs ist ein unautorierter Datensicherheitsversto\u00df in unserem medizinischen Datensystem aufgetreten My name is [full_name].. Aufgrund fehlerhafter Sicherheitsstellungen k\u00f6nnten Patientendaten ausgesetzt sein. Obwohl Sicherheitspr\u00fcfungen durchgef\u00fchrt und die Software aktualisiert wurde, bestehen immer noch Schwachstellen You can reach me at [email].. Sofortige Hilfe ist erforderlich, um die IT-Infrastruktur sicherzustellen und sensible Patientendaten zu sch\u00fctzen.",
+  "category_of_the_email": "Incident"
+}

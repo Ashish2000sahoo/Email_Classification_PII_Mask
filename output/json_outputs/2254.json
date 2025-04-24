@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems Encountered with Unilateral Access Prohibition\n\nIncident description: Unexpected denial of access to medical records. It might be due to a server configuration error or a security update. Tackled thus far: Servers were restarted, logs verified, and user permissions checked My name is Maria Gonzalez.. Urgent requirement for support to address and fix this matter You can reach me at janesmith@company.com.. Kindly offer a resolution or direct me to the correct troubleshooting actions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        317
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        399,
+        420
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problems Encountered with Unilateral Access Prohibition\n\nIncident description: Unexpected denial of access to medical records. It might be due to a server configuration error or a security update. Tackled thus far: Servers were restarted, logs verified, and user permissions checked My name is [full_name].. Urgent requirement for support to address and fix this matter You can reach me at [email].. Kindly offer a resolution or direct me to the correct troubleshooting actions.",
+  "category_of_the_email": "Incident"
+}

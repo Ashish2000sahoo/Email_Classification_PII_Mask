@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEncountered a service outage impacting the integration of project management tools with ActiveCampaign, Xero, and MongoDB 4.4 You can reach me at omar.hassan@secure.net.. Recent updates might be causing conflicting configurations My name is Sophia Rossi.. We have tried rolling back the updates and restarting the services, but the issue persists. We require your assistance to resolve this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        264
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        157,
+        179
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nEncountered a service outage impacting the integration of project management tools with ActiveCampaign, Xero, and MongoDB 4.4 You can reach me at [email].. Recent updates might be causing conflicting configurations My name is [full_name].. We have tried rolling back the updates and restarting the services, but the issue persists. We require your assistance to resolve this problem.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern Regarding the Data Analytics Report for Investment Optimization\n\nThe current data analytics report for investment optimization is inconclusive due to the use of outdated datasets.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        219,
+        235
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding the Data Analytics Report for Investment Optimization\n\nThe current data analytics report for investment optimization is inconclusive due to the use of outdated datasets.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

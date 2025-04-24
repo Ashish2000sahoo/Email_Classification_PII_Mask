@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Datenversychronisierung zwischen HubSpot CRM und Asana\n\nEs gab Schwierigkeiten bei der Datenversynchronisierung zwischen HubSpot CRM und Asana You can reach me at maria.gonzalez@shop.es.. HubSpot CRM wurde neu gestartet und die API-Verbindungen wurden gepr\u00fcft, aber das Problem beharrt My name is Maria Gonzalez.. API-Kompatibilit\u00e4tsprobleme k\u00f6nnten dahinter stecken.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        189,
+        211
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Datenversychronisierung zwischen HubSpot CRM und Asana\n\nEs gab Schwierigkeiten bei der Datenversynchronisierung zwischen HubSpot CRM und Asana You can reach me at [email].. HubSpot CRM wurde neu gestartet und die API-Verbindungen wurden gepr\u00fcft, aber das Problem beharrt My name is [full_name].. API-Kompatibilit\u00e4tsprobleme k\u00f6nnten dahinter stecken.",
+  "category_of_the_email": "Incident"
+}

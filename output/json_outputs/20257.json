@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cliente Precisa de Modo Escuro e Extens\u00f5es para Configura\u00e7\u00e3o do VS Code\n\nOl\u00e1 equipe de suporte,\n\nEstou escrevendo para solicitar uma altera\u00e7\u00e3o nas configura\u00e7\u00f5es do meu Visual Studio Code 1.70 My name is Omar Hassan.. Gostaria de mudar para o modo escuro e ter algumas extens\u00f5es espec\u00edficas instaladas You can reach me at fatima.farsi@help.com.. Voc\u00eas podem ajudar com essas modifica\u00e7\u00f5es?\n\nObrigado,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        330,
+        351
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Cliente Precisa de Modo Escuro e Extens\u00f5es para Configura\u00e7\u00e3o do VS Code\n\nOl\u00e1 equipe de suporte,\n\nEstou escrevendo para solicitar uma altera\u00e7\u00e3o nas configura\u00e7\u00f5es do meu Visual Studio Code 1.70 My name is [full_name].. Gostaria de mudar para o modo escuro e ter algumas extens\u00f5es espec\u00edficas instaladas You can reach me at [email].. Voc\u00eas podem ajudar com essas modifica\u00e7\u00f5es?\n\nObrigado,\n\n<name>",
+  "category_of_the_email": "Change"
+}

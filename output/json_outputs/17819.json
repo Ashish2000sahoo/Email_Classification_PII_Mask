@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserte Medizinische Datensicherheit\n\nSehr geehrte Kundensupport, ich schreibe, um mehr \u00fcber die Erweiterung der Verschl\u00fcsselung f\u00fcr medizinische Daten zu erfahren, da dies die HIPAA-Kompatibilit\u00e4t und die sichere IT-Infrastruktur unseres Krankenhauses garantiert You can reach me at johndoe@email.com.. Wie Sie wissen, sind medizinische Daten sehr sensibel und erfordern die h\u00f6chste Sicherung. Ich m\u00f6chte mehr \u00fcber die Verschl\u00fcsselungsmethoden erfahren, die Sie anbieten, und wie sie in unser bestehendes System integriert werden k\u00f6nnen. Dar\u00fcber hinaus w\u00fcrde ich gerne Informationen zu weiteren Sicherheitsma\u00dfnahmen erhalten, die genommen werden k\u00f6nnen, um unsere medizinischen Daten noch besser zu sch\u00fctzen My name is Maria Gonzalez.. Ich bin besorgt \u00fcber die m\u00f6glichen Datenverluste und Cyberangriffe und m\u00f6chte sicherstellen, dass die IT-Infrastruktur unseres Krankenhauses sicher und mit allen relevanten Vorschriften der Regelungskonformit\u00e4t entspricht. Bitte informieren Sie mich, wenn Sie L\u00f6sungen oder Vorschl\u00e4ge zur Verbesserung der Sicherheit unserer medizinischen Daten haben. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ihr habt freundliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        733,
+        747
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        297,
+        314
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verbesserte Medizinische Datensicherheit\n\nSehr geehrte Kundensupport, ich schreibe, um mehr \u00fcber die Erweiterung der Verschl\u00fcsselung f\u00fcr medizinische Daten zu erfahren, da dies die HIPAA-Kompatibilit\u00e4t und die sichere IT-Infrastruktur unseres Krankenhauses garantiert You can reach me at [email].. Wie Sie wissen, sind medizinische Daten sehr sensibel und erfordern die h\u00f6chste Sicherung. Ich m\u00f6chte mehr \u00fcber die Verschl\u00fcsselungsmethoden erfahren, die Sie anbieten, und wie sie in unser bestehendes System integriert werden k\u00f6nnen. Dar\u00fcber hinaus w\u00fcrde ich gerne Informationen zu weiteren Sicherheitsma\u00dfnahmen erhalten, die genommen werden k\u00f6nnen, um unsere medizinischen Daten noch besser zu sch\u00fctzen My name is [full_name].. Ich bin besorgt \u00fcber die m\u00f6glichen Datenverluste und Cyberangriffe und m\u00f6chte sicherstellen, dass die IT-Infrastruktur unseres Krankenhauses sicher und mit allen relevanten Vorschriften der Regelungskonformit\u00e4t entspricht. Bitte informieren Sie mich, wenn Sie L\u00f6sungen oder Vorschl\u00e4ge zur Verbesserung der Sicherheit unserer medizinischen Daten haben. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ihr habt freundliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident of Data Breach in Medical Records\n\nHello Customer Support, \\n\\nI am contacting to report an incident involving a data breach in our medical records system My name is Liu Wei.. The breach was identified recently, resulting in unauthorized access to patient information. It is suspected that the breach may have been caused by a security flaw in the legacy McAfee software You can reach me at liuwei@business.cn.. \\n\\nAs of now, we have conducted virus scans, updated our Ubuntu environment, and reviewed the network logs. Despite these actions, we still require additional support to fully resolve the issue and to ensure that no future breaches occur. \\n\\nCould you please advise on the necessary steps to address this situation? We value your swift response to this matter and are eagerly awaiting your guidance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        413,
+        431
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Incident of Data Breach in Medical Records\n\nHello Customer Support, \\n\\nI am contacting to report an incident involving a data breach in our medical records system My name is [full_name].. The breach was identified recently, resulting in unauthorized access to patient information. It is suspected that the breach may have been caused by a security flaw in the legacy McAfee software You can reach me at [email].. \\n\\nAs of now, we have conducted virus scans, updated our Ubuntu environment, and reviewed the network logs. Despite these actions, we still require additional support to fully resolve the issue and to ensure that no future breaches occur. \\n\\nCould you please advise on the necessary steps to address this situation? We value your swift response to this matter and are eagerly awaiting your guidance.",
+  "category_of_the_email": "Incident"
+}

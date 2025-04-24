@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud urgente de consultor\u00eda de TI\n\nEstimado soporte al cliente de Servicios de TI, \n\nEspero que este mensaje lo encuentre bien. Estoy escribiendo para buscar su experiencia en servicios de consultor\u00eda de TI para abordar algunas vulnerabilidades de seguridad urgentes en nuestros sistemas de servidores. Hemos identificado m\u00faltiples problemas que est\u00e1n afectando las funcionalidades de nuestros servidores existentes, y es crucial para nosotros mejorar estas \u00e1reas r\u00e1pidamente para mantener la seguridad y la integridad del rendimiento de nuestro sistema.\n\nHemos estado utilizando su servicio de consultor\u00eda de TI y siempre hemos apreciado su apoyo r\u00e1pido y confiable. Por lo tanto, conf\u00edo en su capacidad para ayudarnos de manera eficiente a identificar e implementar las mejoras necesarias My name is Sophia Rossi.. \u00bfPodr\u00eda proporcionarnos los pr\u00f3ximos pasos para abordar estas vulnerabilidades? Adem\u00e1s, si es posible, agradecer\u00edamos programar una consulta con uno de sus consultores expertos a la brevedad para discutir remedios y soluciones en detalle.\n\nGracias de antemano por su pronta atenci\u00f3n a este asunto You can reach me at fatima.farsi@help.com.. Esperamos su valioso apoyo y estamos listos para proporcionar cualquier informaci\u00f3n adicional que se necesite. No dude en contactarme directamente al <tel_num>.\n\nAtentamente,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        816,
+        828
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1147,
+        1168
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Solicitud urgente de consultor\u00eda de TI\n\nEstimado soporte al cliente de Servicios de TI, \n\nEspero que este mensaje lo encuentre bien. Estoy escribiendo para buscar su experiencia en servicios de consultor\u00eda de TI para abordar algunas vulnerabilidades de seguridad urgentes en nuestros sistemas de servidores. Hemos identificado m\u00faltiples problemas que est\u00e1n afectando las funcionalidades de nuestros servidores existentes, y es crucial para nosotros mejorar estas \u00e1reas r\u00e1pidamente para mantener la seguridad y la integridad del rendimiento de nuestro sistema.\n\nHemos estado utilizando su servicio de consultor\u00eda de TI y siempre hemos apreciado su apoyo r\u00e1pido y confiable. Por lo tanto, conf\u00edo en su capacidad para ayudarnos de manera eficiente a identificar e implementar las mejoras necesarias My name is [full_name].. \u00bfPodr\u00eda proporcionarnos los pr\u00f3ximos pasos para abordar estas vulnerabilidades? Adem\u00e1s, si es posible, agradecer\u00edamos programar una consulta con uno de sus consultores expertos a la brevedad para discutir remedios y soluciones en detalle.\n\nGracias de antemano por su pronta atenci\u00f3n a este asunto You can reach me at [email].. Esperamos su valioso apoyo y estamos listos para proporcionar cualquier informaci\u00f3n adicional que se necesite. No dude en contactarme directamente al <tel_num>.\n\nAtentamente,\n<name>\n<acc_num>",
+  "category_of_the_email": "Request"
+}

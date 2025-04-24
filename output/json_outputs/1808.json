@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Medical Data on Ubuntu\n\nI am inquiring about the recommended security measures for storing medical data on Ubuntu systems My name is Maria Gonzalez.. Given the high sensitivity of medical data, it is imperative to safeguard its confidentiality, integrity, and availability. Could you provide information on the best practices for encrypting medical data, securing access controls, and defending against unauthorized access? Moreover, I would be grateful for any advice on adhering to regulatory requirements like HIPAA You can reach me at maria.gonzalez@shop.es.. I look forward to your response and further discussion on securing medical data on Ubuntu systems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        568,
+        590
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Medical Data on Ubuntu\n\nI am inquiring about the recommended security measures for storing medical data on Ubuntu systems My name is [full_name].. Given the high sensitivity of medical data, it is imperative to safeguard its confidentiality, integrity, and availability. Could you provide information on the best practices for encrypting medical data, securing access controls, and defending against unauthorized access? Moreover, I would be grateful for any advice on adhering to regulatory requirements like HIPAA You can reach me at [email].. I look forward to your response and further discussion on securing medical data on Ubuntu systems.",
+  "category_of_the_email": "Request"
+}

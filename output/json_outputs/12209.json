@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Portfolio Optimization Strategies\n\nHello Customer Support, I am writing to seek information on data analytics instruments that can aid in the effective optimization of investment portfolios for financial organizations. Efficient portfolio administration is vital for achieving higher returns while reducing risks. I am interested in learning about tools that offer real-time data analysis, predictive modeling, and portfolio rebalancing You can reach me at sophia.rossi@service.it.. Examples of such tools include Excel, Python libraries, and specialized software such as BlackRock's Aladdin My name is Jane Smith.. However, I would greatly appreciate recommendations for the most effective solutions for financial firms. Could you provide me with some advice on this issue? I am looking forward to your response. Thank you for your consideration and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        633,
+        643
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        487,
+        510
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Portfolio Optimization Strategies\n\nHello Customer Support, I am writing to seek information on data analytics instruments that can aid in the effective optimization of investment portfolios for financial organizations. Efficient portfolio administration is vital for achieving higher returns while reducing risks. I am interested in learning about tools that offer real-time data analysis, predictive modeling, and portfolio rebalancing You can reach me at [email].. Examples of such tools include Excel, Python libraries, and specialized software such as BlackRock's Aladdin My name is [full_name].. However, I would greatly appreciate recommendations for the most effective solutions for financial firms. Could you provide me with some advice on this issue? I am looking forward to your response. Thank you for your consideration and support.",
+  "category_of_the_email": "Request"
+}

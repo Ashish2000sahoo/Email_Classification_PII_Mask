@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Customer Service Financial Inquiry Tool\n\nI am seeking information on data analytics tools to assist in optimizing financial investments You can reach me at maria.gonzalez@shop.es.. Could you provide details on the available tools and their features? I would greatly appreciate information on how these tools can aid in making investment decisions and managing a portfolio. Additionally, could you tell me if there are any tutorials or support resources available for new users in data analytics? Thank you for your assistance My name is John Doe.. I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        546,
+        554
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        165,
+        187
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Customer Service Financial Inquiry Tool\n\nI am seeking information on data analytics tools to assist in optimizing financial investments You can reach me at [email].. Could you provide details on the available tools and their features? I would greatly appreciate information on how these tools can aid in making investment decisions and managing a portfolio. Additionally, could you tell me if there are any tutorials or support resources available for new users in data analytics? Thank you for your assistance My name is [full_name].. I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

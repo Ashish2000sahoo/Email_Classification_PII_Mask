@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment-Prognosen haben sich unvermutet hinsichtlich ihres Einstellens gezeigt\n\nEs ist eingetreten: Die Investment-Prognosen haben sich unvorhergesehen und aufs Dauern vertretbar eingestellt My name is Fatima Al-Farsi.. M\u00f6gliche Ursache: m\u00f6glicherweise veraltete Modellierungsdaten You can reach me at liuwei@business.cn.. Durchgef\u00fchrte Schritte: Neustart des Analyse-Engines, \u00dcberpr\u00fcfung der Datenquellen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        316,
+        334
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Investment-Prognosen haben sich unvermutet hinsichtlich ihres Einstellens gezeigt\n\nEs ist eingetreten: Die Investment-Prognosen haben sich unvorhergesehen und aufs Dauern vertretbar eingestellt My name is [full_name]-Farsi.. M\u00f6gliche Ursache: m\u00f6glicherweise veraltete Modellierungsdaten You can reach me at [email].. Durchgef\u00fchrte Schritte: Neustart des Analyse-Engines, \u00dcberpr\u00fcfung der Datenquellen.",
+  "category_of_the_email": "Incident"
+}

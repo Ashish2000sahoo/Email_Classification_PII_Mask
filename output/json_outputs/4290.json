@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Technical Assistance Required for Software Problems\n\nFacing software crashes and data loss while using IBM SPSS Statistics 28 for analyzing investment data, which might be due to compatibility issues with CorelDRAW and VLC. Reinstalling and updating software resolved the issue temporarily.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        338
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Technical Assistance Required for Software Problems\n\nFacing software crashes and data loss while using IBM SPSS Statistics 28 for analyzing investment data, which might be due to compatibility issues with CorelDRAW and VLC. Reinstalling and updating software resolved the issue temporarily.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Cassandra 4.0 Integration\n\nSeeking assistance in optimizing the integration of Cassandra 4.0 with associated applications My name is Fatima Al-Farsi.. The current setup is causing performance issues, particularly with project management workflows, leading to delays and inefficiencies You can reach me at liuwei@business.cn.. I believe that with proper optimization, the overall performance can be improved and workflows streamlined. I would greatly appreciate your guidance and support in addressing this matter. Please let me know if there is any additional information needed to proceed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        336,
+        354
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Cassandra 4.0 Integration\n\nSeeking assistance in optimizing the integration of Cassandra 4.0 with associated applications My name is [full_name]-Farsi.. The current setup is causing performance issues, particularly with project management workflows, leading to delays and inefficiencies You can reach me at [email].. I believe that with proper optimization, the overall performance can be improved and workflows streamlined. I would greatly appreciate your guidance and support in addressing this matter. Please let me know if there is any additional information needed to proceed.",
+  "category_of_the_email": "Change"
+}

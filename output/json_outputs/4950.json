@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Performance Report\n\nHello Customer Support, I have noticed some discrepancies in the latest investment performance report My name is Elena Ivanova.. It might be due to changes in the data source integration. I have tried reverting to the previous version and validated the input data for accuracy, but the issue still persists. These discrepancies are causing inconsistencies in our financial analysis and decision-making processes. I would appreciate it if you could look into this matter urgently and provide a solution or guidance to resolve the issue You can reach me at johndoe@email.com.. Please let us know if you require any additional information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        606,
+        623
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Performance Report\n\nHello Customer Support, I have noticed some discrepancies in the latest investment performance report My name is [full_name].. It might be due to changes in the data source integration. I have tried reverting to the previous version and validated the input data for accuracy, but the issue still persists. These discrepancies are causing inconsistencies in our financial analysis and decision-making processes. I would appreciate it if you could look into this matter urgently and provide a solution or guidance to resolve the issue You can reach me at [email].. Please let us know if you require any additional information.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountered Issues with Medical Data Encryption\n\nThere has been a failure in the encryption of medical data. There may be an issue with the configuration of the Scikit-learn library My name is Liu Wei.. Steps already taken include restarting macOS and examining the IBM Cloud settings. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        202,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        319,
+        340
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Encountered Issues with Medical Data Encryption\n\nThere has been a failure in the encryption of medical data. There may be an issue with the configuration of the Scikit-learn library My name is [full_name].. Steps already taken include restarting macOS and examining the IBM Cloud settings. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

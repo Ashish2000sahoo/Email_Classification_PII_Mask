@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Needed\n\nHello, I am requesting help with configuring Zoom version 5.11.0 and enabling screen sharing for webinars You can reach me at maria.gonzalez@shop.es.. Please give me instructions on how to solve these issues at your earliest convenience My name is Liu Wei.. I appreciate it! <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        283
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        154,
+        176
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed\n\nHello, I am requesting help with configuring Zoom version 5.11.0 and enabling screen sharing for webinars You can reach me at [email].. Please give me instructions on how to solve these issues at your earliest convenience My name is [full_name].. I appreciate it! <name>.",
+  "category_of_the_email": "Request"
+}

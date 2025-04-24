@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Billing Product Integration\n\nNoticing discrepancies in billing for multiple products You can reach me at david.kim@corp.kr.. The issue might be related to the recent system update integration. Efforts to reconcile transactions have not resolved the problem. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        127,
+        144
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Billing Product Integration\n\nNoticing discrepancies in billing for multiple products You can reach me at [email].. The issue might be related to the recent system update integration. Efforts to reconcile transactions have not resolved the problem. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

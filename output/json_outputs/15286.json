@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Integration von Firebase in Kubernetes\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4\u00dflich der Frage nach den besten Praktiken f\u00fcr die Integration von Firebase in Kubernetes, um eine skalierbare digitale Kampagne zu gestalten My name is Jane Smith.. Da ich mich mit cloud-basierten Diensten in der digitalen Marketingleistung auskenne, halte ich es f\u00fcr entscheidend, eine effiziente Mischung aus diesen Technologien zu verstehen. Firebase bietet umfassende Tools f\u00fcr mobile und webbasierte Anwendungen, w\u00e4hrend Kubernetes via seine robusten Container-Orchestrierungsf\u00e4higkeiten verwendet wird. Beide Technologien bieten eine skalierbare und effiziente L\u00f6sung, aber es ist notwendig, verschiedene Faktoren, wie Datenkonsistenz, Sicherheit und Leistungsoptimierung, bei der Integration in Betracht zu ziehen. K\u00f6nnten Sie mir Ressourcen zur Verf\u00fcgung stellen, wie Tutorials, Fallstudien oder offizielle Dokumentationen, die den Schritt-f\u00fcr-Schritt-Prozess erl\u00e4utern und potenzielle Fallen hervorheben? Zudem w\u00e4ren empfehlenswerte Monitoring- und Troubleshooting-Tools, die Probleme bei der Integration helfen, von gro\u00dfem Nutzen You can reach me at fatima.farsi@help.com.. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1169,
+        1190
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Integration von Firebase in Kubernetes\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4\u00dflich der Frage nach den besten Praktiken f\u00fcr die Integration von Firebase in Kubernetes, um eine skalierbare digitale Kampagne zu gestalten My name is [full_name].. Da ich mich mit cloud-basierten Diensten in der digitalen Marketingleistung auskenne, halte ich es f\u00fcr entscheidend, eine effiziente Mischung aus diesen Technologien zu verstehen. Firebase bietet umfassende Tools f\u00fcr mobile und webbasierte Anwendungen, w\u00e4hrend Kubernetes via seine robusten Container-Orchestrierungsf\u00e4higkeiten verwendet wird. Beide Technologien bieten eine skalierbare und effiziente L\u00f6sung, aber es ist notwendig, verschiedene Faktoren, wie Datenkonsistenz, Sicherheit und Leistungsoptimierung, bei der Integration in Betracht zu ziehen. K\u00f6nnten Sie mir Ressourcen zur Verf\u00fcgung stellen, wie Tutorials, Fallstudien oder offizielle Dokumentationen, die den Schritt-f\u00fcr-Schritt-Prozess erl\u00e4utern und potenzielle Fallen hervorheben? Zudem w\u00e4ren empfehlenswerte Monitoring- und Troubleshooting-Tools, die Probleme bei der Integration helfen, von gro\u00dfem Nutzen You can reach me at [email].. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen",
+  "category_of_the_email": "Request"
+}

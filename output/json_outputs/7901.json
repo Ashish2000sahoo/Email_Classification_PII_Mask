@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung f\u00fcr Technische Unterst\u00fctzung\n\nIch kontaktiere Sie, um einen unerwarteten Fehler auf meinem Dashboard zu melden. Dieses Problem k\u00f6nnte durch eine k\u00fcrzlich durchgef\u00fchrte Aktualisierung verursacht sein. Ich habe bereits versucht, den Browser neu zu starten und das Cache zu leeren, aber das Problem beh\u00e4lt sich best\u00e4ndig bestehend. Ich hoffe, Sie k\u00f6nnen sich auf diese Angelegenheit einstellen und so schnell wie m\u00f6glich eine L\u00f6sung bereitstellen. Bitte informieren Sie mich, falls weitere Informationen ben\u00f6tigt werden My name is Carlos Mendoza.. Ich freue mich auf Ihre R\u00fcckmeldung bald. Dankesch\u00f6n f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        547,
+        561
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        678,
+        695
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Forderung f\u00fcr Technische Unterst\u00fctzung\n\nIch kontaktiere Sie, um einen unerwarteten Fehler auf meinem Dashboard zu melden. Dieses Problem k\u00f6nnte durch eine k\u00fcrzlich durchgef\u00fchrte Aktualisierung verursacht sein. Ich habe bereits versucht, den Browser neu zu starten und das Cache zu leeren, aber das Problem beh\u00e4lt sich best\u00e4ndig bestehend. Ich hoffe, Sie k\u00f6nnen sich auf diese Angelegenheit einstellen und so schnell wie m\u00f6glich eine L\u00f6sung bereitstellen. Bitte informieren Sie mich, falls weitere Informationen ben\u00f6tigt werden My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung bald. Dankesch\u00f6n f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

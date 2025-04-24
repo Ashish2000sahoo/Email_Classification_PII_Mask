@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Feed Disruption Leading to Investment Delays - Immediate Attention Required\n\nHello Customer Support, \\n\\nI am inquiring about a problem we are experiencing with the data feed that has led to delays in our investment activities. It is possible that the server overload or a network glitch is at the root of the problem. Our team attempted to address the issue by restarting the servers, troubleshooting the network connections, and examining the logs, but unfortunately, the issue still persists and we are seeking additional assistance You can reach me at sophia.rossi@service.it.. The interruption in the data feed has caused serious delays in our investment decisions, potentially resulting in financial losses. We kindly ask for your urgent attention to this matter and assistance in finding a solution. \\n\\nWe would be grateful for any advice on how to prevent server overloads and network glitches. Please inform us if there are any further actions we can take to address the issue. We are ready to provide any additional information or support needed to resolve this matter. \\n\\nThank you for your prompt action My name is David Kim.. \\n\\nBest regards, \\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1143,
+        1152
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        570,
+        593
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Data Feed Disruption Leading to Investment Delays - Immediate Attention Required\n\nHello Customer Support, \\n\\nI am inquiring about a problem we are experiencing with the data feed that has led to delays in our investment activities. It is possible that the server overload or a network glitch is at the root of the problem. Our team attempted to address the issue by restarting the servers, troubleshooting the network connections, and examining the logs, but unfortunately, the issue still persists and we are seeking additional assistance You can reach me at [email].. The interruption in the data feed has caused serious delays in our investment decisions, potentially resulting in financial losses. We kindly ask for your urgent attention to this matter and assistance in finding a solution. \\n\\nWe would be grateful for any advice on how to prevent server overloads and network glitches. Please inform us if there are any further actions we can take to address the issue. We are ready to provide any additional information or support needed to resolve this matter. \\n\\nThank you for your prompt action My name is [full_name].. \\n\\nBest regards, \\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

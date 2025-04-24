@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicitud de Intercambio\n\nHola Soporte al Cliente, estoy escribiendo para solicitar un intercambio de mi port\u00e1til Dell XPS 13 9310 debido a varios problemas de rendimiento You can reach me at janesmith@company.com.. El port\u00e1til ha estado funcionando mal y ha causado una gran inconveniencia. Por favor, h\u00e1game saber el proceso para iniciar un intercambio. Espero su pronta respuesta. Gracias My name is Elena Ivanova.. Saludos, <name> <tel_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        412,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        201,
+        222
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        132,
+        139
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de Intercambio\n\nHola Soporte al Cliente, estoy escribiendo para solicitar un intercambio de mi port\u00e1til Dell XPS [phone_number] debido a varios problemas de rendimiento You can reach me at [email].. El port\u00e1til ha estado funcionando mal y ha causado una gran inconveniencia. Por favor, h\u00e1game saber el proceso para iniciar un intercambio. Espero su pronta respuesta. Gracias My name is [full_name].. Saludos, <name> <tel_num>.",
+  "category_of_the_email": "Request"
+}

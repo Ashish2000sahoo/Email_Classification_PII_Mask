@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Detected Billing Problem\n\nAn issue with the incorrect billing on the latest invoice was encountered, and a subscription discount was applied.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        173,
+        188
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Detected Billing Problem\n\nAn issue with the incorrect billing on the latest invoice was encountered, and a subscription discount was applied.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

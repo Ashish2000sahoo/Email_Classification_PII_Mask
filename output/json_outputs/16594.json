@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Investment Data Analytics\n\nA financial company is experiencing problems with investment data analytics You can reach me at janesmith@company.com.. The results appear to be incorrect due to integration issues and software bugs My name is Sophia Rossi.. They have already tried some troubleshooting steps.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        272
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        146,
+        167
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Investment Data Analytics\n\nA financial company is experiencing problems with investment data analytics You can reach me at [email].. The results appear to be incorrect due to integration issues and software bugs My name is [full_name].. They have already tried some troubleshooting steps.",
+  "category_of_the_email": "Incident"
+}

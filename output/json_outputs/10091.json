@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, encountering difficulties generating a report on the issue of being unable to access billing features across various platforms. This problem emerged following recent system updates My name is David Kim.. Initial steps taken, such as restarting the application and reviewing account settings, resolved the issue temporarily You can reach me at maria.gonzalez@shop.es.. However, users are currently unable to access these features, which is causing disruptions. I would greatly appreciate it if you could look into this matter urgently and provide a solution or workaround as soon as possible. Please let me know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        221,
+        230
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        374,
+        396
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, encountering difficulties generating a report on the issue of being unable to access billing features across various platforms. This problem emerged following recent system updates My name is [full_name].. Initial steps taken, such as restarting the application and reviewing account settings, resolved the issue temporarily You can reach me at [email].. However, users are currently unable to access these features, which is causing disruptions. I would greatly appreciate it if you could look into this matter urgently and provide a solution or workaround as soon as possible. Please let me know.",
+  "category_of_the_email": "Incident"
+}

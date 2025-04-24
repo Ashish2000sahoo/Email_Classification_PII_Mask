@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical System Encroachment Concern\n\nHello Customer Support, I am contacting you to report a sudden malfunction in our medical data encryption system. This issue arose following a recent software update, which might have introduced compatibility issues. We have attempted to address the problem by restarting the systems and reviewing firewall configurations, but the issue remains unresolved My name is John Doe.. We are very concerned about the potential implications of this failure and would greatly appreciate your assistance in resolving it quickly You can reach me at liuwei@business.cn.. Could you provide us with advice on how to proceed with troubleshooting and any potential solutions? We value your swift response to this matter and look forward to your prompt reply. This encryption failure has disrupted our operations significantly, and we are keen to find a resolution. Please inform us if there are any further actions we can take to address this issue. We thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        413,
+        421
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        587,
+        605
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Medical System Encroachment Concern\n\nHello Customer Support, I am contacting you to report a sudden malfunction in our medical data encryption system. This issue arose following a recent software update, which might have introduced compatibility issues. We have attempted to address the problem by restarting the systems and reviewing firewall configurations, but the issue remains unresolved My name is [full_name].. We are very concerned about the potential implications of this failure and would greatly appreciate your assistance in resolving it quickly You can reach me at [email].. Could you provide us with advice on how to proceed with troubleshooting and any potential solutions? We value your swift response to this matter and look forward to your prompt reply. This encryption failure has disrupted our operations significantly, and we are keen to find a resolution. Please inform us if there are any further actions we can take to address this issue. We thank you for your time and assistance.",
+  "category_of_the_email": "Incident"
+}

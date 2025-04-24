@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Error in Billing for SaaS Subscription Fees\n\nBilling issues resulted in duplicate SaaS subscription fees, possibly due to a processing error in the payment system.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        210
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Error in Billing for SaaS Subscription Fees\n\nBilling issues resulted in duplicate SaaS subscription fees, possibly due to a processing error in the payment system.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

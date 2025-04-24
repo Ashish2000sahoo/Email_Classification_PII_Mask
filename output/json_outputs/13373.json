@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry about Training Options for New Employees Using Project Management Software\n\nHello Customer Support, I am contacting you to seek information on the training options available for new employees who will utilize our project management software. As we are in the process of onboarding new team members, it is crucial that they receive adequate training to use the software proficiently. Could you kindly provide details on the available training types, such as online tutorials, in-person training sessions, or webinars? Also, it would be helpful if you could inform me about any associated costs for these training options. Additionally, I would like to know if customized training programs are available that can be tailored to our specific requirements You can reach me at johndoe@email.com.. If possible, kindly mention if there are any training programs that can be completed at the employee's own pace or if they are arranged at specific times. I am eagerly awaiting your response with more information on the training options. Thank you for your time and assistance. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1098,
+        1105
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        789,
+        806
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry about Training Options for New Employees Using Project Management Software\n\nHello Customer Support, I am contacting you to seek information on the training options available for new employees who will utilize our project management software. As we are in the process of onboarding new team members, it is crucial that they receive adequate training to use the software proficiently. Could you kindly provide details on the available training types, such as online tutorials, in-person training sessions, or webinars? Also, it would be helpful if you could inform me about any associated costs for these training options. Additionally, I would like to know if customized training programs are available that can be tailored to our specific requirements You can reach me at [email].. If possible, kindly mention if there are any training programs that can be completed at the employee's own pace or if they are arranged at specific times. I am eagerly awaiting your response with more information on the training options. Thank you for your time and assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

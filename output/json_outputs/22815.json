@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Ayuda Necesaria: Problema de Parpadeo del Monitor\n\nEstimado Equipo de Soporte al Cliente de Tech Online Store,\n\nMe pongo en contacto con ustedes para informarles sobre un problema que estoy enfrentando con mi Dell XPS 13, modelo 9310, que compr\u00e9 hace unos meses en su establecimiento. \u00daltimamente, he observado un parpadeo en la pantalla que ocurre de manera err\u00e1tica, especialmente mientras que altero frecuentemente los ajustes de brillo durante su uso. Esto ha creado una considerable inconveniencia, interrumpiendo mi flujo de trabajo y ejerciendo presi\u00f3n sobre mi vista.\n\nHe llevado a cabo algunos pasos de soluci\u00f3n de problemas iniciales, como actualizar los controladores del dispositivo y confirmar que el sistema operativo est\u00e1 actualizado; sin embargo, estas acciones no rectificaron el problema My name is Elena Ivanova.. Tambi\u00e9n examin\u00e9 las conexiones f\u00edsicas, y todo parece estar en orden.\n\nConsiderando la naturaleza continua de este problema, estoy buscando consejo sobre los pr\u00f3ximos pasos a seguir You can reach me at omar.hassan@secure.net.. \u00bfDeber\u00eda llevar la computadora port\u00e1til a una de sus ubicaciones de servicio para una evaluaci\u00f3n, o hay alguna posibilidad de que pueda recibir asistencia de manera remota? Adem\u00e1s, me gustar\u00eda informaci\u00f3n sobre si este problema est\u00e1 dentro de las condiciones de garant\u00eda de mi compra.\n\n\u00bfPodr\u00edan informarme sobre la documentaci\u00f3n que necesitar\u00e9 presentar, junto con cualquier instrucci\u00f3n adicional? Me gustar\u00eda resolver este asunto lo antes posible para poder seguir utilizando la computadora port\u00e1til de manera efectiva para mi trabajo.\n\nGracias por su ayuda.\n\nSaludos cordiales,\n\n<name>\n<tel_num>\n<email_id>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        826,
+        839
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1042,
+        1064
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        238,
+        242
+      ],
+      "classification": "phone_number",
+      "entity": "9310"
+    }
+  ],
+  "masked_email": "Subject: Ayuda Necesaria: Problema de Parpadeo del Monitor\n\nEstimado Equipo de Soporte al Cliente de Tech Online Store,\n\nMe pongo en contacto con ustedes para informarles sobre un problema que estoy enfrentando con mi Dell XPS 13, modelo [phone_number], que compr\u00e9 hace unos meses en su establecimiento. \u00daltimamente, he observado un parpadeo en la pantalla que ocurre de manera err\u00e1tica, especialmente mientras que altero frecuentemente los ajustes de brillo durante su uso. Esto ha creado una considerable inconveniencia, interrumpiendo mi flujo de trabajo y ejerciendo presi\u00f3n sobre mi vista.\n\nHe llevado a cabo algunos pasos de soluci\u00f3n de problemas iniciales, como actualizar los controladores del dispositivo y confirmar que el sistema operativo est\u00e1 actualizado; sin embargo, estas acciones no rectificaron el problema My name is [full_name].. Tambi\u00e9n examin\u00e9 las conexiones f\u00edsicas, y todo parece estar en orden.\n\nConsiderando la naturaleza continua de este problema, estoy buscando consejo sobre los pr\u00f3ximos pasos a seguir You can reach me at [email].. \u00bfDeber\u00eda llevar la computadora port\u00e1til a una de sus ubicaciones de servicio para una evaluaci\u00f3n, o hay alguna posibilidad de que pueda recibir asistencia de manera remota? Adem\u00e1s, me gustar\u00eda informaci\u00f3n sobre si este problema est\u00e1 dentro de las condiciones de garant\u00eda de mi compra.\n\n\u00bfPodr\u00edan informarme sobre la documentaci\u00f3n que necesitar\u00e9 presentar, junto con cualquier instrucci\u00f3n adicional? Me gustar\u00eda resolver este asunto lo antes posible para poder seguir utilizando la computadora port\u00e1til de manera efectiva para mi trabajo.\n\nGracias por su ayuda.\n\nSaludos cordiales,\n\n<name>\n<tel_num>\n<email_id>",
+  "category_of_the_email": "Request"
+}

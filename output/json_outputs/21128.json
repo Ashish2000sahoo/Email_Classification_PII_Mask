@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de Cambio de Instancias de AWS\n\nEstimado Soporte al Cliente,\n\nEstoy escribiendo para solicitar cambios a nuestras instancias de computaci\u00f3n de AWS como parte de su Servicio de Gesti\u00f3n de AWS. Nuestro objetivo es optimizar el rendimiento y reducir costos para nuestra aplicaci\u00f3n de software de escala media My name is Jane Smith.. Por favor, h\u00e1ganos saber la mejor manera de avanzar a su conveniencia. Gracias por su asistencia.\n\nAtentamente,\n\n<name>\n\n<tel_num>\n\n<acc_num> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        346
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        512,
+        534
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de Cambio de Instancias de AWS\n\nEstimado Soporte al Cliente,\n\nEstoy escribiendo para solicitar cambios a nuestras instancias de computaci\u00f3n de AWS como parte de su Servicio de Gesti\u00f3n de AWS. Nuestro objetivo es optimizar el rendimiento y reducir costos para nuestra aplicaci\u00f3n de software de escala media My name is [full_name].. Por favor, h\u00e1ganos saber la mejor manera de avanzar a su conveniencia. Gracias por su asistencia.\n\nAtentamente,\n\n<name>\n\n<tel_num>\n\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

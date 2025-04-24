@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Integration of Data Analytics\n\nDear Customer Support, I am writing to report issues with the integration process, which is disrupting our data analysis workflows and affecting both USB drives and AWS functionalities. The integration conflicts appear to be related to outdated software versions You can reach me at liuwei@business.cn.. Despite updating the affected software versions, the problem still persists My name is Maria Gonzalez.. We greatly appreciate your assistance in resolving this matter and would be grateful if you could provide further guidance on the next steps. Thank you for your understanding and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        449,
+        463
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        341,
+        359
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Integration of Data Analytics\n\nDear Customer Support, I am writing to report issues with the integration process, which is disrupting our data analysis workflows and affecting both USB drives and AWS functionalities. The integration conflicts appear to be related to outdated software versions You can reach me at [email].. Despite updating the affected software versions, the problem still persists My name is [full_name].. We greatly appreciate your assistance in resolving this matter and would be grateful if you could provide further guidance on the next steps. Thank you for your understanding and support.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Flickering display issue on Dell XPS 13\n\nDear Customer Support,\n\nI am encountering a minor issue with my Dell XPS 13 9310 purchased from Tech Online Store. Occasionally, the display flickers when set to low brightness My name is Sophia Rossi.. I kindly request your assistance in resolving this matter at your earliest convenience. \n\nThank you very much!\n\nBest regards,\n\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        250
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        406,
+        424
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        123,
+        130
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Flickering display issue on Dell XPS 13\n\nDear Customer Support,\n\nI am encountering a minor issue with my Dell XPS [phone_number] purchased from Tech Online Store. Occasionally, the display flickers when set to low brightness My name is [full_name].. I kindly request your assistance in resolving this matter at your earliest convenience. \n\nThank you very much!\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

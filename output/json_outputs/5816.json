@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Kampagnen wurden unerwartet aufgrund potenzieller Kompatibilit\u00e4tsprobleme eingestellt\n\nProblembeschreibung: Digitale Kampagnen wurden unvermittelt eingestellt. Ursache vermutet: Kompatibilit\u00e4tsprobleme zwischen Software und Systemen You can reach me at carlosm@gmail.com.. Bisher getroffene Ma\u00dfnahmen: Neustart der Systeme und \u00dcberpr\u00fcfung der Netzwerkkonnektivit\u00e4t. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        395,
+        405
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        271,
+        288
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Digitale Kampagnen wurden unerwartet aufgrund potenzieller Kompatibilit\u00e4tsprobleme eingestellt\n\nProblembeschreibung: Digitale Kampagnen wurden unvermittelt eingestellt. Ursache vermutet: Kompatibilit\u00e4tsprobleme zwischen Software und Systemen You can reach me at [email].. Bisher getroffene Ma\u00dfnahmen: Neustart der Systeme und \u00dcberpr\u00fcfung der Netzwerkkonnektivit\u00e4t. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

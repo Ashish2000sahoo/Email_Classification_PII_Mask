@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Billing Discrepancy Charges\n\nThere were unexpected charges on my account due to a billing discrepancy You can reach me at liuwei@business.cn.. This might have occurred due to a system glitch following the recent upgrade. I have reviewed the billing statements and contacted support, but a resolution has not been received yet My name is John Doe.. I would appreciate it if you could look into this matter and provide a suitable solution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        367
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        144,
+        162
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Billing Discrepancy Charges\n\nThere were unexpected charges on my account due to a billing discrepancy You can reach me at [email].. This might have occurred due to a system glitch following the recent upgrade. I have reviewed the billing statements and contacted support, but a resolution has not been received yet My name is [full_name].. I would appreciate it if you could look into this matter and provide a suitable solution.",
+  "category_of_the_email": "Incident"
+}

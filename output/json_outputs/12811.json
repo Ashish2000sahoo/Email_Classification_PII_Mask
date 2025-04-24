@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Discrepancy Identified in Billing\n\nFound an unexpected billing discrepancy where charges seem higher than the agreed-upon fees. This might be due to an error in the system update or billing cycle.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        243
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Discrepancy Identified in Billing\n\nFound an unexpected billing discrepancy where charges seem higher than the agreed-upon fees. This might be due to an error in the system update or billing cycle.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

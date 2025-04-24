@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Investment Analytics Platform\n\nCustomer Support,<br>We are encountering a significant issue with our investment analytics tools My name is Elena Ivanova.. The system has crashed unexpectedly, causing downtime. The root cause is suspected to be compatibility issues with Ruby on Rails 6.1. We have attempted to restart affected devices and update the software, but the problem continues. Our team has tried to troubleshoot, and we require assistance to resolve the matter You can reach me at elena.ivanova@support.org.. The disruption is impacting our operations significantly, and we need a prompt solution to minimize potential losses. We would appreciate it if you could look into this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        512,
+        537
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern about Investment Analytics Platform\n\nCustomer Support,<br>We are encountering a significant issue with our investment analytics tools My name is [full_name].. The system has crashed unexpectedly, causing downtime. The root cause is suspected to be compatibility issues with Ruby on Rails 6.1. We have attempted to restart affected devices and update the software, but the problem continues. Our team has tried to troubleshoot, and we require assistance to resolve the matter You can reach me at [email].. The disruption is impacting our operations significantly, and we need a prompt solution to minimize potential losses. We would appreciate it if you could look into this issue.",
+  "category_of_the_email": "Incident"
+}

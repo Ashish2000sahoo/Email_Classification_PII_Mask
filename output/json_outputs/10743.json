@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Recurring Payment Issues Experienced\n\nThere have been several unsuccessful payment attempts for ordered products, which might be due to a problem with the payment processor. You have already contacted your bank and reviewed the gateway configuration.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        298
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Recurring Payment Issues Experienced\n\nThere have been several unsuccessful payment attempts for ordered products, which might be due to a problem with the payment processor. You have already contacted your bank and reviewed the gateway configuration.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

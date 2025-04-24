@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsanforderungen\n\nSehr geehrte Kundensupport, ich bitte um Verbesserungen der Sicherheitsprotokolle f\u00fcr medizinische Daten in den Software- und Hardwareprodukten unseres Krankenhauses. Da die Sicherheit medizinischer Daten \u00e4u\u00dferst wichtig ist, m\u00fcssen wir sicherstellen, dass notwendige Ma\u00dfnahmen getroffen werden, um die Daten zu sch\u00fctzen My name is Elena Ivanova.. Ich bitte um die Implementierung von Ende-zu-Ende-Verschl\u00fcsselung sowohl f\u00fcr medizinische Daten in ruhender als auch f\u00fcr die im Transito befindlichen Daten. Dar\u00fcber hinaus w\u00fcrde ich gerne regelm\u00e4\u00dfig durchgef\u00fchrte Sicherheitsaudits und Penetrationstests anfordern, um m\u00f6gliche Schwachstellen im System zu identifizieren. Ich bitte um R\u00fcckmeldung. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        747,
+        768
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsanforderungen\n\nSehr geehrte Kundensupport, ich bitte um Verbesserungen der Sicherheitsprotokolle f\u00fcr medizinische Daten in den Software- und Hardwareprodukten unseres Krankenhauses. Da die Sicherheit medizinischer Daten \u00e4u\u00dferst wichtig ist, m\u00fcssen wir sicherstellen, dass notwendige Ma\u00dfnahmen getroffen werden, um die Daten zu sch\u00fctzen My name is [full_name].. Ich bitte um die Implementierung von Ende-zu-Ende-Verschl\u00fcsselung sowohl f\u00fcr medizinische Daten in ruhender als auch f\u00fcr die im Transito befindlichen Daten. Dar\u00fcber hinaus w\u00fcrde ich gerne regelm\u00e4\u00dfig durchgef\u00fchrte Sicherheitsaudits und Penetrationstests anfordern, um m\u00f6gliche Schwachstellen im System zu identifizieren. Ich bitte um R\u00fcckmeldung. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

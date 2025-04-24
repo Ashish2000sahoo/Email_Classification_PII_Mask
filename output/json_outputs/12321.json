@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDie finanzierliche Firma nimmt an, dass technische Kompatibilit\u00e4tsprobleme, veraltete Software und mangelnde Ressourcen zu den Datenanalysewerkzeugen f\u00fchren. Diese Probleme werden berichtigt.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        240
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: \n\nDie finanzierliche Firma nimmt an, dass technische Kompatibilit\u00e4tsprobleme, veraltete Software und mangelnde Ressourcen zu den Datenanalysewerkzeugen f\u00fchren. Diese Probleme werden berichtigt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

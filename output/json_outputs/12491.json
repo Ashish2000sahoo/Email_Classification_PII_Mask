@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Login-Issues Arisen After Latest Update\n\nCache Cleared, Browser Restarted, Login Issues Persist Nevertheless. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Login-Issues Arisen After Latest Update\n\nCache Cleared, Browser Restarted, Login Issues Persist Nevertheless. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

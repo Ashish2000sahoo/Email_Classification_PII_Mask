@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notwendige Hilfe bei der Kundensupport\n\nHier ist eine kurze Beschreibung des Problems: Es ist aufgetreten: Verz\u00f6gerung bei der Datenzugriff. Ursache: Netzwerkonfigurationsprobleme. Versucht: Neustart der Server, \u00dcberpr\u00fcfung der Firewalls. Ich ben\u00f6tige Unterst\u00fctzung bei der L\u00f6sung dieses Problems, da es meinen Arbeitsablauf st\u00f6rt. Bitte helfen Sie mir bei der Troubleshooting oder stellen Sie eine L\u00f6sung f\u00fcr dieses Problem bereit You can reach me at david.kim@corp.kr.. Ich habe die Server neugestartet und die Firewalls \u00fcberpr\u00fcft, aber das Problem beharrt. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        580,
+        594
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        461,
+        478
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Notwendige Hilfe bei der Kundensupport\n\nHier ist eine kurze Beschreibung des Problems: Es ist aufgetreten: Verz\u00f6gerung bei der Datenzugriff. Ursache: Netzwerkonfigurationsprobleme. Versucht: Neustart der Server, \u00dcberpr\u00fcfung der Firewalls. Ich ben\u00f6tige Unterst\u00fctzung bei der L\u00f6sung dieses Problems, da es meinen Arbeitsablauf st\u00f6rt. Bitte helfen Sie mir bei der Troubleshooting oder stellen Sie eine L\u00f6sung f\u00fcr dieses Problem bereit You can reach me at [email].. Ich habe die Server neugestartet und die Firewalls \u00fcberpr\u00fcft, aber das Problem beharrt. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

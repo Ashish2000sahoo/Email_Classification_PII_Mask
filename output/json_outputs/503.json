@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Software-Fehlern\n\nEs werden Software-Fehler in mehreren Anwendungen beobachtet. Neueste Aktualisierungen k\u00f6nnten m\u00f6glicherweise Kompatibilit\u00e4tsprobleme verursachen My name is Elena Ivanova.. Es wurde versucht, die Software neu zu installieren, was jedoch keinen Erfolg gebracht hat. Weitere Unterst\u00fctzung ist erforderlich, um das Problem zu l\u00f6sen. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        210
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        388,
+        413
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Software-Fehlern\n\nEs werden Software-Fehler in mehreren Anwendungen beobachtet. Neueste Aktualisierungen k\u00f6nnten m\u00f6glicherweise Kompatibilit\u00e4tsprobleme verursachen My name is [full_name].. Es wurde versucht, die Software neu zu installieren, was jedoch keinen Erfolg gebracht hat. Weitere Unterst\u00fctzung ist erforderlich, um das Problem zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

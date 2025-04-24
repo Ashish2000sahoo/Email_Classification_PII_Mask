@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support\n\nIs it possible to get more information on data analytics tools for optimizing investments? Particularly, I am interested in their features and integration capabilities.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        224
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support\n\nIs it possible to get more information on data analytics tools for optimizing investments? Particularly, I am interested in their features and integration capabilities.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

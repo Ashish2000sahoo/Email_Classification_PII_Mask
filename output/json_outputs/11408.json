@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Integration Leading to Delays\n\nDear Customer Support, I am contacting you to address an integration problem we have recently encountered. This integration has failed, causing substantial delays in our campaign. It appears that the failure may be due to a recent software update, which might have introduced compatibility issues with our systems. Following our investigation, our team tried to fix the issue by restarting the relevant services and making sure all configurations were properly set My name is Sophia Rossi.. However, the problem continues to persist, and we are now seeking your advice to resolve it. We would be extremely grateful if you could provide us with any assistance or guidance to help us get our integration working again and avoid further delays You can reach me at sophia.rossi@service.it.. Please inform us if there are any additional details you need from us to help troubleshoot the issue. We appreciate your time and cooperation, and we are looking forward to your response. Thank you in advance for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        527,
+        539
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        811,
+        834
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Integration Leading to Delays\n\nDear Customer Support, I am contacting you to address an integration problem we have recently encountered. This integration has failed, causing substantial delays in our campaign. It appears that the failure may be due to a recent software update, which might have introduced compatibility issues with our systems. Following our investigation, our team tried to fix the issue by restarting the relevant services and making sure all configurations were properly set My name is [full_name].. However, the problem continues to persist, and we are now seeking your advice to resolve it. We would be extremely grateful if you could provide us with any assistance or guidance to help us get our integration working again and avoid further delays You can reach me at [email].. Please inform us if there are any additional details you need from us to help troubleshoot the issue. We appreciate your time and cooperation, and we are looking forward to your response. Thank you in advance for your support.",
+  "category_of_the_email": "Incident"
+}

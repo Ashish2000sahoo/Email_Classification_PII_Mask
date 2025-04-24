@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue with Google Chrome 102.0 Crashing\n\nHello,<br><br>I am experiencing frequent crashes in Google Chrome 102.0 when navigating high graphic-intense websites. This issue is persistent, disrupting my online activities and productivity. Could you please provide troubleshooting steps or advise on resolving this problem? Requesting guidance on any updates or settings that can prevent these crashes. Additionally, information about compatibility or known issues with this Chrome version could also be helpful My name is David Kim.. Looking forward to your support to fix this issue promptly.<br><br>Thank you,<br><name><br><email> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        528,
+        537
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        661,
+        683
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        34,
+        37
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    },
+    {
+      "position": [
+        116,
+        119
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Issue with Google Chrome [cvv_no].0 Crashing\n\nHello,<br><br>I am experiencing frequent crashes in Google Chrome [cvv_no].0 when navigating high graphic-intense websites. This issue is persistent, disrupting my online activities and productivity. Could you please provide troubleshooting steps or advise on resolving this problem? Requesting guidance on any updates or settings that can prevent these crashes. Additionally, information about compatibility or known issues with this Chrome version could also be helpful My name is [full_name].. Looking forward to your support to fix this issue promptly.<br><br>Thank you,<br><name><br><email> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

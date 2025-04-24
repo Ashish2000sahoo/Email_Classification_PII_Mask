@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Encryption Issue and Potential Causes\n\nHello Customer Support, we are experiencing an issue with the encryption of medical data, which has led to unencrypted patient information being exposed. This could be related to the use of an outdated version of Avast antivirus software or insufficient firewall settings My name is Omar Hassan.. Despite attempting a QuickBooks audit, reviewing JIRA logs, and rebooting my Acer monitor, the problem still exists. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        344,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        495,
+        517
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Encryption Issue and Potential Causes\n\nHello Customer Support, we are experiencing an issue with the encryption of medical data, which has led to unencrypted patient information being exposed. This could be related to the use of an outdated version of Avast antivirus software or insufficient firewall settings My name is [full_name].. Despite attempting a QuickBooks audit, reviewing JIRA logs, and rebooting my Acer monitor, the problem still exists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

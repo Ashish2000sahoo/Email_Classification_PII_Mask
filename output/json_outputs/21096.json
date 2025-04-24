@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: H\u00e4ufige Papierstaus bei HP Drucker\n\nSehr geehrter Kunde des Tech Online Stores,\n\nich schreibe, um Ihre Aufmerksamkeit auf ein Problem zu lenken, das ich mit dem HP DeskJet 3755 Drucker habe, den ich vor kurzem in Ihrem Online-Shop gekauft habe You can reach me at omar.hassan@secure.net.. Das Ger\u00e4t hat h\u00e4ufig Papierstaus bei drahtlosen Farbdrucken, insbesondere wenn ich meine bevorzugten Einstellungen verwende. Dieses anhaltende Problem hat meinen Arbeitsablauf erheblich gest\u00f6rt.\n\nIch habe sichergestellt, dass alle empfohlenen Wartungsschritte befolgt wurden, wie z. B. das korrekte Laden des Papiers und die Verwendung des angegebenen Papiertyps, dennoch bleibt das Problem bestehen. Au\u00dferdem habe ich es mit mehreren Ger\u00e4ten getestet, um m\u00f6gliche Verbindungsprobleme auszuschlie\u00dfen, aber das Problem besteht weiterhin.\n\nK\u00f6nnten Sie bitte beraten, wie ich dieses Problem effektiv l\u00f6sen kann, oder, falls m\u00f6glich, wie ich \u00fcber Ihren Garantieservice mit einer Reparatur oder einem Austausch fortfahren kann? Ihre Unterst\u00fctzung bei der zeitnahen L\u00f6sung dieses Anliegens w\u00e4re sehr hilfreich.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\n<acc_num> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1254,
+        1263
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        273,
+        295
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        181,
+        185
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: H\u00e4ufige Papierstaus bei HP Drucker\n\nSehr geehrter Kunde des Tech Online Stores,\n\nich schreibe, um Ihre Aufmerksamkeit auf ein Problem zu lenken, das ich mit dem HP DeskJet [phone_number] Drucker habe, den ich vor kurzem in Ihrem Online-Shop gekauft habe You can reach me at [email].. Das Ger\u00e4t hat h\u00e4ufig Papierstaus bei drahtlosen Farbdrucken, insbesondere wenn ich meine bevorzugten Einstellungen verwende. Dieses anhaltende Problem hat meinen Arbeitsablauf erheblich gest\u00f6rt.\n\nIch habe sichergestellt, dass alle empfohlenen Wartungsschritte befolgt wurden, wie z. B. das korrekte Laden des Papiers und die Verwendung des angegebenen Papiertyps, dennoch bleibt das Problem bestehen. Au\u00dferdem habe ich es mit mehreren Ger\u00e4ten getestet, um m\u00f6gliche Verbindungsprobleme auszuschlie\u00dfen, aber das Problem besteht weiterhin.\n\nK\u00f6nnten Sie bitte beraten, wie ich dieses Problem effektiv l\u00f6sen kann, oder, falls m\u00f6glich, wie ich \u00fcber Ihren Garantieservice mit einer Reparatur oder einem Austausch fortfahren kann? Ihre Unterst\u00fctzung bei der zeitnahen L\u00f6sung dieses Anliegens w\u00e4re sehr hilfreich.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\n<acc_num> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Uneinheitliche R\u00fccksetzungen von Investitionen gemeldet\n\nBeim \u00dcberpr\u00fcfen der eingegebenen Daten und Software-Updates tritt eine Uneinheitlichkeit bei den R\u00fccksetzungen von Investitionen auf.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        238
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Uneinheitliche R\u00fccksetzungen von Investitionen gemeldet\n\nBeim \u00dcberpr\u00fcfen der eingegebenen Daten und Software-Updates tritt eine Uneinheitlichkeit bei den R\u00fccksetzungen von Investitionen auf.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

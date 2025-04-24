@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Product Support Inquiry\n\nRequesting an update on the product's compatibility and integration features My name is Liu Wei.. The product currently performs well with specific software tools. We would greatly appreciate it if you could look into updating the features to improve performance, as this would significantly enhance our experience with the product. Please let us know your plans to address this issue You can reach me at omar.hassan@secure.net.. We look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        122,
+        129
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        443,
+        465
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Product Support Inquiry\n\nRequesting an update on the product's compatibility and integration features My name is [full_name].. The product currently performs well with specific software tools. We would greatly appreciate it if you could look into updating the features to improve performance, as this would significantly enhance our experience with the product. Please let us know your plans to address this issue You can reach me at [email].. We look forward to hearing from you soon.",
+  "category_of_the_email": "Change"
+}

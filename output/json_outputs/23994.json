@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia Necess\u00e1ria para Problema de Tela do Dell XPS 13\n\nCaro Time de Suporte ao Cliente, estou enfrentando um problema de cintila\u00e7\u00e3o na tela do meu Dell XPS 13 9310 ao usar aplicativos de v\u00eddeo My name is Liu Wei.. Esse problema interrompe meu uso e n\u00e3o consigo encontrar uma solu\u00e7\u00e3o. Voc\u00ea poderia fornecer orienta\u00e7\u00f5es de resolu\u00e7\u00e3o de problemas ou agendar qualquer servi\u00e7o necess\u00e1rio? Obrigado pela sua assist\u00eancia. Atenciosamente, <name> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        219,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        477,
+        494
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        171,
+        178
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia Necess\u00e1ria para Problema de Tela do Dell XPS 13\n\nCaro Time de Suporte ao Cliente, estou enfrentando um problema de cintila\u00e7\u00e3o na tela do meu Dell XPS [phone_number] ao usar aplicativos de v\u00eddeo My name is [full_name].. Esse problema interrompe meu uso e n\u00e3o consigo encontrar uma solu\u00e7\u00e3o. Voc\u00ea poderia fornecer orienta\u00e7\u00f5es de resolu\u00e7\u00e3o de problemas ou agendar qualquer servi\u00e7o necess\u00e1rio? Obrigado pela sua assist\u00eancia. Atenciosamente, <name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

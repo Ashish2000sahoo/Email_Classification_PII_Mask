@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Beratung zur Datensicherheit in der medizinischen IT\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Rat zur Sicherung medizinischer Daten in den IT-Systemen unserer Klinik zu erhalten. Sie wissen, dass medizinische Daten hoch sensibel sind und starke Sicherheitsma\u00dfnahmen erfordern, um unerlaubten Zugriff zu verhindern. Ich w\u00fcrde gerne erfahren, welche Schritte getroffen werden k\u00f6nnen, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit medizinischer Daten zu gew\u00e4hrleisten. Dies umfasst die Verschl\u00fcsselung von Daten, Zugangssteuerungen und regelm\u00e4\u00dfige Sicherheitspr\u00fcfungen. Dar\u00fcber hinaus w\u00fcrde ich mich freuen, Informationen zu gesetzlicher Abstimmung mit relevanten Vorschriften wie HIPAA zu erhalten. Ich suche nach den besten Praktiken und Branchenstandards, die in unserem Klinik-IT-System umgesetzt werden k\u00f6nnen My name is Sophia Rossi.. Ich freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        853,
+        865
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        960,
+        983
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Beratung zur Datensicherheit in der medizinischen IT\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Rat zur Sicherung medizinischer Daten in den IT-Systemen unserer Klinik zu erhalten. Sie wissen, dass medizinische Daten hoch sensibel sind und starke Sicherheitsma\u00dfnahmen erfordern, um unerlaubten Zugriff zu verhindern. Ich w\u00fcrde gerne erfahren, welche Schritte getroffen werden k\u00f6nnen, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit medizinischer Daten zu gew\u00e4hrleisten. Dies umfasst die Verschl\u00fcsselung von Daten, Zugangssteuerungen und regelm\u00e4\u00dfige Sicherheitspr\u00fcfungen. Dar\u00fcber hinaus w\u00fcrde ich mich freuen, Informationen zu gesetzlicher Abstimmung mit relevanten Vorschriften wie HIPAA zu erhalten. Ich suche nach den besten Praktiken und Branchenstandards, die in unserem Klinik-IT-System umgesetzt werden k\u00f6nnen My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

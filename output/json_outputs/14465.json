@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI am encountering a system crash while analyzing investment data, and the issue might be due to software or hardware conflicts You can reach me at fatima.farsi@help.com.. Despite rebooting the devices and reinstalling PowerDirector, the problem still persists My name is David Kim.. I would greatly appreciate your assistance in resolving this matter. Please let me know if there is any additional information needed to help troubleshoot the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        291
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        158,
+        179
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am encountering a system crash while analyzing investment data, and the issue might be due to software or hardware conflicts You can reach me at [email].. Despite rebooting the devices and reinstalling PowerDirector, the problem still persists My name is [full_name].. I would greatly appreciate your assistance in resolving this matter. Please let me know if there is any additional information needed to help troubleshoot the issue.",
+  "category_of_the_email": "Incident"
+}

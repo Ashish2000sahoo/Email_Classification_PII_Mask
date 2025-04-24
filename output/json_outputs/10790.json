@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Zahlung\n\nIch melde mich, um ein unerwartetes Zahlungsfehler w\u00e4hrend der Erneuerung meines Abonnements zu melden. Das Fehlerquertag k\u00f6nnte ein ausgelaufenes Kreditkartenkonto oder eine Mismatch in den Rechnungsdaten sein. Ich habe bereits meine Rechnungsdaten \u00fcberpr\u00fcft und eine manuelle Zahlung versucht, aber leider ohne Erfolg. Ich w\u00fcrde mich sehr freuen, wenn Sie das Problem bearbeiten und mir so schnell wie m\u00f6glich eine L\u00f6sung anbieten You can reach me at fatima.farsi@help.com.. Wenn Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen, melden Sie sich bitte bei mir. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        621,
+        630
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        488,
+        509
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Zahlung\n\nIch melde mich, um ein unerwartetes Zahlungsfehler w\u00e4hrend der Erneuerung meines Abonnements zu melden. Das Fehlerquertag k\u00f6nnte ein ausgelaufenes Kreditkartenkonto oder eine Mismatch in den Rechnungsdaten sein. Ich habe bereits meine Rechnungsdaten \u00fcberpr\u00fcft und eine manuelle Zahlung versucht, aber leider ohne Erfolg. Ich w\u00fcrde mich sehr freuen, wenn Sie das Problem bearbeiten und mir so schnell wie m\u00f6glich eine L\u00f6sung anbieten You can reach me at [email].. Wenn Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen, melden Sie sich bitte bei mir. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

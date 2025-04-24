@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Critical AWS Service Outage\n\nDear IT Services Support Team,\n\nI am writing to inform you about a high-priority ticket raised regarding a critical service outage within our AWS Management Service. Our cloud infrastructure operations are currently severely impacted, and this outage poses a significant threat to our business continuity and operational efficiency.\n\nWe encountered this issue around 3 PM today, and since then, we have been facing substantial disruptions in handling our cloud infrastructure You can reach me at elena.ivanova@support.org.. Due to this outage, crucial operations dependent on AWS services are currently non-functional, affecting numerous team workflows and client-facing applications.\n\nWe urge your immediate assistance in diagnosing this issue and providing a swift resolution to prevent any further impact on our operations. Timely intervention is essential to mitigate risks and resume normal operations promptly.\n\nPlease find all relevant details attached to the ticket number <ticket_num> My name is Maria Gonzalez.. Your prompt response to our situation would be greatly appreciated.\n\nThank you for your urgent attention to this matter.\n\nBest regards,\n\n<name>\n<company_name>\n<tel_num>\n<email_address>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1051,
+        1065
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        542,
+        567
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Critical AWS Service Outage\n\nDear IT Services Support Team,\n\nI am writing to inform you about a high-priority ticket raised regarding a critical service outage within our AWS Management Service. Our cloud infrastructure operations are currently severely impacted, and this outage poses a significant threat to our business continuity and operational efficiency.\n\nWe encountered this issue around 3 PM today, and since then, we have been facing substantial disruptions in handling our cloud infrastructure You can reach me at [email].. Due to this outage, crucial operations dependent on AWS services are currently non-functional, affecting numerous team workflows and client-facing applications.\n\nWe urge your immediate assistance in diagnosing this issue and providing a swift resolution to prevent any further impact on our operations. Timely intervention is essential to mitigate risks and resume normal operations promptly.\n\nPlease find all relevant details attached to the ticket number <ticket_num> My name is [full_name].. Your prompt response to our situation would be greatly appreciated.\n\nThank you for your urgent attention to this matter.\n\nBest regards,\n\n<name>\n<company_name>\n<tel_num>\n<email_address>",
+  "category_of_the_email": "Incident"
+}

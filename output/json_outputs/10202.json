@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Project Planning\n\nThe project plans are not updating in real-time You can reach me at maria.gonzalez@shop.es.. There might be a synchronization issue with the backend database. I have already checked the user settings, updated the browser, and logged in and out. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        308
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        106,
+        128
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Project Planning\n\nThe project plans are not updating in real-time You can reach me at [email].. There might be a synchronization issue with the backend database. I have already checked the user settings, updated the browser, and logged in and out. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Excel Integration Causing Project Data Loss\n\nHello Customer Support, I am reaching out to report an issue with the Excel integration, which has led to the loss of project data. It might be due to incompatible software updates or conflicts. I've already restarted my iMac and updated Office, but the issue still persists. Could you please help resolve this and recover my lost data? Please let me know if there are any additional actions I should take or if you require more information from me You can reach me at liuwei@business.cn.. I look forward to your response My name is Liu Wei.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        598,
+        605
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        534,
+        552
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue with Excel Integration Causing Project Data Loss\n\nHello Customer Support, I am reaching out to report an issue with the Excel integration, which has led to the loss of project data. It might be due to incompatible software updates or conflicts. I've already restarted my iMac and updated Office, but the issue still persists. Could you please help resolve this and recover my lost data? Please let me know if there are any additional actions I should take or if you require more information from me You can reach me at [email].. I look forward to your response My name is [full_name].. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

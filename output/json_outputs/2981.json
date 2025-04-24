@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance with Unauthorized Data Access Incident\n\nAn unauthorized data access incident has occurred, possibly due to malware or phishing attacks My name is Liu Wei.. Initial scans with Malwarebytes identified threats, and security protocols have been fully updated You can reach me at maria.gonzalez@shop.es.. An attempt was made to restrict access and review user permissions, but a thorough investigation is needed to ensure the security systems are robust.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        185
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        311,
+        333
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance with Unauthorized Data Access Incident\n\nAn unauthorized data access incident has occurred, possibly due to malware or phishing attacks My name is [full_name].. Initial scans with Malwarebytes identified threats, and security protocols have been fully updated You can reach me at [email].. An attempt was made to restrict access and review user permissions, but a thorough investigation is needed to ensure the security systems are robust.",
+  "category_of_the_email": "Incident"
+}

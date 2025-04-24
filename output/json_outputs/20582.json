@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, we are experiencing intermittent connectivity issues with our Cisco Router ISR4331, impacting our organization\u2019s internet and network performance. Please assist in resolving this matter promptly to ensure normal operations My name is David Kim.. Our technical team has attempted troubleshooting without success. We appreciate urgent assistance You can reach me at maria.gonzalez@shop.es.. Thank you, <name>, Account: <acc_num>, Contact: <tel_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        277
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        400,
+        422
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        112,
+        116
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, we are experiencing intermittent connectivity issues with our Cisco Router ISR[phone_number], impacting our organization\u2019s internet and network performance. Please assist in resolving this matter promptly to ensure normal operations My name is [full_name].. Our technical team has attempted troubleshooting without success. We appreciate urgent assistance You can reach me at [email].. Thank you, <name>, Account: <acc_num>, Contact: <tel_num>.",
+  "category_of_the_email": "Incident"
+}

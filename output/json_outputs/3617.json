@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Integration Tools\n\nThe financial company is facing challenges with data integration that are hindering the efficiency of investment analysis My name is Liu Wei.. The issue might be due to software compatibility conflicts among different security analytics tools. We have tried updating software, adjusting configurations, and checking for version mismatches, but the problem still persists. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        186
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        442,
+        459
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Integration Tools\n\nThe financial company is facing challenges with data integration that are hindering the efficiency of investment analysis My name is [full_name].. The issue might be due to software compatibility conflicts among different security analytics tools. We have tried updating software, adjusting configurations, and checking for version mismatches, but the problem still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

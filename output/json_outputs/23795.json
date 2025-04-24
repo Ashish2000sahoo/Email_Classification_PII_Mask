@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung erforderlich: Drucker-Verbindungsproblem\n\nHallo Kundenservice,\n\nich habe ein Problem mit meinem HP DeskJet 3755 Drucker You can reach me at omar.hassan@secure.net.. Er verbindet sich nicht mit dem WLAN, obwohl ich die Einrichtungshinweise befolge. K\u00f6nnen Sie mir bei der Fehlersuche helfen, um dieses Problem zu l\u00f6sen?\n\nVielen Dank,\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        374,
+        383
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        163,
+        185
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        130,
+        134
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung erforderlich: Drucker-Verbindungsproblem\n\nHallo Kundenservice,\n\nich habe ein Problem mit meinem HP DeskJet [phone_number] Drucker You can reach me at [email].. Er verbindet sich nicht mit dem WLAN, obwohl ich die Einrichtungshinweise befolge. K\u00f6nnen Sie mir bei der Fehlersuche helfen, um dieses Problem zu l\u00f6sen?\n\nVielen Dank,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

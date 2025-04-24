@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Slack 4.23.0 Issues\n\nDear IT Services Support,\n\nI am writing to inform you about several issues I have been experiencing with the Slack 4.23.0 application. Since updating to this version, I have encountered significant difficulties that are affecting my workflow. \n\nFirstly, sending messages has been problematic. Messages are either not going through at all or are being sent with a considerable delay, which disrupts team communications. Additionally, I am experiencing frequent disconnections from the server, which requires me to reconnect to continue using the application. This issue interrupts ongoing conversations and causes unnecessary frustration.\n\nFurthermore, there are erratic notification alerts that do not seem to correspond with actual activity My name is Omar Hassan.. Often, I receive alerts for messages that do not appear upon checking, or conversely, fail to receive alerts for new messages. This inconsistency is making it difficult to keep track of important updates in real-time.\n\nI would appreciate it if your team could look into these problems and provide a resolution or recommended steps You can reach me at liuwei@business.cn.. Please feel free to contact me at <tel_num> if you need further information regarding the issues.\n\nThank you for your attention.\n\nKind regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        783,
+        794
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1148,
+        1166
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Slack 4.23.0 Issues\n\nDear IT Services Support,\n\nI am writing to inform you about several issues I have been experiencing with the Slack 4.23.0 application. Since updating to this version, I have encountered significant difficulties that are affecting my workflow. \n\nFirstly, sending messages has been problematic. Messages are either not going through at all or are being sent with a considerable delay, which disrupts team communications. Additionally, I am experiencing frequent disconnections from the server, which requires me to reconnect to continue using the application. This issue interrupts ongoing conversations and causes unnecessary frustration.\n\nFurthermore, there are erratic notification alerts that do not seem to correspond with actual activity My name is [full_name].. Often, I receive alerts for messages that do not appear upon checking, or conversely, fail to receive alerts for new messages. This inconsistency is making it difficult to keep track of important updates in real-time.\n\nI would appreciate it if your team could look into these problems and provide a resolution or recommended steps You can reach me at [email].. Please feel free to contact me at <tel_num> if you need further information regarding the issues.\n\nThank you for your attention.\n\nKind regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

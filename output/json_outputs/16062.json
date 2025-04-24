@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Recent Software Updates\n\nCustomer Support, <br>We are reporting an issue that several users have encountered with the recent software updates. The problem involves billing discrepancies which may be due to integration issues or data migration errors My name is Jane Smith.. Our team has reviewed the transaction histories of the affected users and attempted to resync the system, but unfortunately, the issue has not been resolved. <br>We would greatly appreciate if you could look into this matter and provide a solution at your earliest convenience. Please let us know if there is any additional information needed. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        293
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        661,
+        682
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Recent Software Updates\n\nCustomer Support, <br>We are reporting an issue that several users have encountered with the recent software updates. The problem involves billing discrepancies which may be due to integration issues or data migration errors My name is [full_name].. Our team has reviewed the transaction histories of the affected users and attempted to resync the system, but unfortunately, the issue has not been resolved. <br>We would greatly appreciate if you could look into this matter and provide a solution at your earliest convenience. Please let us know if there is any additional information needed. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

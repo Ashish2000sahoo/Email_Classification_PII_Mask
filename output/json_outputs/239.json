@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Analytics Tools Integration with QuickBooks Online\n\nI am contacting you to seek information about data analytics tools that are compatible with QuickBooks Online to enhance investment optimization My name is John Doe.. I currently use QuickBooks for my business accounting and wish to elevate my investment strategy. Could you kindly provide a list of compatible tools and a brief description of each? Furthermore, I would appreciate any guidance on how to start integrating these tools and optimizing my investments You can reach me at johndoe@email.com.. Also, I would like to know about any specific system requirements or limitations associated with these tools. I am eagerly awaiting your response and am open to discussing the possibilities of investment optimization with QuickBooks Online. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        250
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        574,
+        591
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Analytics Tools Integration with QuickBooks Online\n\nI am contacting you to seek information about data analytics tools that are compatible with QuickBooks Online to enhance investment optimization My name is [full_name].. I currently use QuickBooks for my business accounting and wish to elevate my investment strategy. Could you kindly provide a list of compatible tools and a brief description of each? Furthermore, I would appreciate any guidance on how to start integrating these tools and optimizing my investments You can reach me at [email].. Also, I would like to know about any specific system requirements or limitations associated with these tools. I am eagerly awaiting your response and am open to discussing the possibilities of investment optimization with QuickBooks Online. Thank you for your support.",
+  "category_of_the_email": "Request"
+}

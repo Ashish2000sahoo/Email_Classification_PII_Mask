@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Herausforderung durch neueste Systemaktualisierung\n\nGeh\u00f6rte Kundenservice, w\u00e4hrend der letzten Systemaktualisierung wurden Zugriffsschwerpunkte unterbrochen. Trotz Neustart des Programms und \u00dcberpr\u00fcfung der Benutzerrechte bestehen die Probleme weiterhin. Die Aktualisierung scheint das Einbinden der neuen Funktionen zu beeintr\u00e4chtigen My name is Jane Smith.. Ihre Hilfe bei der Suche nach einer L\u00f6sung f\u00fcr das Problem w\u00fcrde ich sehr sch\u00e4tzen. Bitte geben Sie die n\u00e4chsten Schritte zur L\u00f6sung des Problems bekannt You can reach me at maria.gonzalez@shop.es.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        377
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        555,
+        577
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Technische Herausforderung durch neueste Systemaktualisierung\n\nGeh\u00f6rte Kundenservice, w\u00e4hrend der letzten Systemaktualisierung wurden Zugriffsschwerpunkte unterbrochen. Trotz Neustart des Programms und \u00dcberpr\u00fcfung der Benutzerrechte bestehen die Probleme weiterhin. Die Aktualisierung scheint das Einbinden der neuen Funktionen zu beeintr\u00e4chtigen My name is [full_name].. Ihre Hilfe bei der Suche nach einer L\u00f6sung f\u00fcr das Problem w\u00fcrde ich sehr sch\u00e4tzen. Bitte geben Sie die n\u00e4chsten Schritte zur L\u00f6sung des Problems bekannt You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

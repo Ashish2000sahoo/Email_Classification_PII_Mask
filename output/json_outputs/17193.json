@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Platform Crash and Integration Incompatibility\n\nThe project management tool has encountered a crash My name is Elena Ivanova.. The issue may be due to incompatible integration with WeChat and Microsoft Teams. Efforts to resolve it included restarting the server and reviewing Azure logs. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        133,
+        146
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        328,
+        350
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Platform Crash and Integration Incompatibility\n\nThe project management tool has encountered a crash My name is [full_name].. The issue may be due to incompatible integration with WeChat and Microsoft Teams. Efforts to resolve it included restarting the server and reviewing Azure logs. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

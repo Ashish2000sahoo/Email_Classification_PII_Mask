@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de conectividad de Zoom\n\nEstimado soporte al cliente,\n\nEstoy escribiendo para expresar nuestra preocupaci\u00f3n respecto a los problemas de conectividad que hemos estado experimentando con la versi\u00f3n 5.11.0 de Zoom. Durante nuestras reuniones, estamos encontrando desconexiones frecuentes, lo que est\u00e1 impactando significativamente nuestra capacidad para organizar y participar en eventos de prioridad media You can reach me at omar.hassan@secure.net.. Estas interrupciones est\u00e1n afectando nuestro flujo de trabajo y eficiencia, ya que mantener una comunicaci\u00f3n constante es crucial para nuestras operaciones. Hemos confiado en Zoom por su rendimiento estable, pero la situaci\u00f3n actual se est\u00e1 volviendo cada vez m\u00e1s desafiante. Agradecer\u00edamos mucho su pronta investigaci\u00f3n en este asunto y cualquier soluci\u00f3n potencial o actualizaci\u00f3n que pudieran proporcionar. Por favor, h\u00e1ganos saber si se necesita informaci\u00f3n adicional de nuestra parte.\n\nGracias por su atenci\u00f3n a este problema.\n\nAtentamente,\n<name>\n<acc_num> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1042,
+        1054
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        443,
+        465
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problemas de conectividad de Zoom\n\nEstimado soporte al cliente,\n\nEstoy escribiendo para expresar nuestra preocupaci\u00f3n respecto a los problemas de conectividad que hemos estado experimentando con la versi\u00f3n 5.11.0 de Zoom. Durante nuestras reuniones, estamos encontrando desconexiones frecuentes, lo que est\u00e1 impactando significativamente nuestra capacidad para organizar y participar en eventos de prioridad media You can reach me at [email].. Estas interrupciones est\u00e1n afectando nuestro flujo de trabajo y eficiencia, ya que mantener una comunicaci\u00f3n constante es crucial para nuestras operaciones. Hemos confiado en Zoom por su rendimiento estable, pero la situaci\u00f3n actual se est\u00e1 volviendo cada vez m\u00e1s desafiante. Agradecer\u00edamos mucho su pronta investigaci\u00f3n en este asunto y cualquier soluci\u00f3n potencial o actualizaci\u00f3n que pudieran proporcionar. Por favor, h\u00e1ganos saber si se necesita informaci\u00f3n adicional de nuestra parte.\n\nGracias por su atenci\u00f3n a este problema.\n\nAtentamente,\n<name>\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

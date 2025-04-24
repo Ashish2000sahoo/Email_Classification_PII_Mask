@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Systems Faced Data Breach Attempt\n\nThere was an attempt at a data breach on the systems. The issue might be due to outdated security software My name is Elena Ivanova.. Attempts to update McAfee and secure device access were unsuccessful. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        266,
+        291
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Systems Faced Data Breach Attempt\n\nThere was an attempt at a data breach on the systems. The issue might be due to outdated security software My name is [full_name].. Attempts to update McAfee and secure device access were unsuccessful. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Investment Optimization Algorithm\n\nThe investment optimization algorithm is generating inconsistent outputs, which seem to be influenced by market fluctuations You can reach me at david.kim@corp.kr.. Despite recalibrating the inputs and testing various scenarios, we have not been able to resolve the issue My name is Sophia Rossi.. We need your assistance to address this problem and ensure that the outputs are accurate.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        348,
+        360
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        210,
+        227
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Investment Optimization Algorithm\n\nThe investment optimization algorithm is generating inconsistent outputs, which seem to be influenced by market fluctuations You can reach me at [email].. Despite recalibrating the inputs and testing various scenarios, we have not been able to resolve the issue My name is [full_name].. We need your assistance to address this problem and ensure that the outputs are accurate.",
+  "category_of_the_email": "Problem"
+}

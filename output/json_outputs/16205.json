@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Breach of Data Locking\n\nA data locking breach occurred, exposing sensitive patient data and endangering the IT systems of the hospital. This breach was due to outdated security protocols and employee misconduct. Passwords of affected parties have been changed immediately, and further investigation is necessary to identify the cause and prevent future incidents You can reach me at liuwei@business.cn.. The breach has significant impacts on patient privacy and hospital operations. I suggest conducting a detailed investigation and providing recommendations for enhanced security measures. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        627,
+        636
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        408,
+        426
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Breach of Data Locking\n\nA data locking breach occurred, exposing sensitive patient data and endangering the IT systems of the hospital. This breach was due to outdated security protocols and employee misconduct. Passwords of affected parties have been changed immediately, and further investigation is necessary to identify the cause and prevent future incidents You can reach me at [email].. The breach has significant impacts on patient privacy and hospital operations. I suggest conducting a detailed investigation and providing recommendations for enhanced security measures. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

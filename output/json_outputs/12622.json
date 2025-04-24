@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Update Software Tools\n\nEnhance digital strategy. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        79,
+        94
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Update Software Tools\n\nEnhance digital strategy. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

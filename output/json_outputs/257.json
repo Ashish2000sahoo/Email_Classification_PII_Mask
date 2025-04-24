@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Skalierbare Funktionalit\u00e4ten f\u00fcr Projektmanagement\n\nBieten Sie Einblicke in die Vorteile der Skalierung. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        135,
+        150
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Skalierbare Funktionalit\u00e4ten f\u00fcr Projektmanagement\n\nBieten Sie Einblicke in die Vorteile der Skalierung. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

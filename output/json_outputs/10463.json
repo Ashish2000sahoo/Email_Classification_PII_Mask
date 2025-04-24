@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Die pl\u00f6tzliche Login-Fehler f\u00fcr alle Benutzer aufgrund der neuesten Aktualisierung oder Server-\u00dcberlastung\n\nHinweis: Login-Problem f\u00fcr alle Benutzer seit der letzten Aktualisierung oder m\u00f6glicherweise aufgrund der Server-\u00dcberlastung. Versucht, Server zu neu starten und Logs zu \u00fcberpr\u00fcfen, ohne Ergebnis.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        353
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Die pl\u00f6tzliche Login-Fehler f\u00fcr alle Benutzer aufgrund der neuesten Aktualisierung oder Server-\u00dcberlastung\n\nHinweis: Login-Problem f\u00fcr alle Benutzer seit der letzten Aktualisierung oder m\u00f6glicherweise aufgrund der Server-\u00dcberlastung. Versucht, Server zu neu starten und Logs zu \u00fcberpr\u00fcfen, ohne Ergebnis.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

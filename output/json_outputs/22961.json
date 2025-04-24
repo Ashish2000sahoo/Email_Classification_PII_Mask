@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problema de impresi\u00f3n inal\u00e1mbrica de HP DeskJet 3755 necesita resoluci\u00f3n\n\nEstimado Soporte al Cliente,\n\nEspero que este correo electr\u00f3nico le encuentre bien. Estoy escribiendo para solicitar su ayuda con un problema que estoy experimentando con mi HP DeskJet 3755. A pesar de reconocer correctamente la red e indicar una conexi\u00f3n, la impresora no responde a ninguna tarea de impresi\u00f3n inal\u00e1mbrica. He intentado m\u00faltiples pasos de soluci\u00f3n de problemas, como reiniciar tanto la impresora como mi m\u00f3dem inal\u00e1mbrico, restablecer la configuraci\u00f3n de red y asegurarme de que todos los controladores y software necesarios est\u00e9n actualizados.\n\nEste problema ha sido persistente y no puedo imprimir ning\u00fan documento o imagen desde mis dispositivos inal\u00e1mbricos, lo que es frustrante ya que necesito imprimir materiales regularmente para fines personales y laborales. \u00bfPodr\u00eda proporcionarme orientaci\u00f3n sobre los pr\u00f3ximos pasos de soluci\u00f3n de problemas o confirmar si esto podr\u00eda ser un problema relacionado con el hardware que podr\u00eda requerir reparaci\u00f3n o sustituci\u00f3n?\n\nGracias por su atenci\u00f3n a este asunto You can reach me at janesmith@company.com.. Espero su pronta respuesta para resolver este problema lo antes posible.\n\nSaludos cordiales,\n\n<name> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1265,
+        1273
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1129,
+        1150
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        57,
+        61
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        268,
+        272
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Problema de impresi\u00f3n inal\u00e1mbrica de HP DeskJet [phone_number] necesita resoluci\u00f3n\n\nEstimado Soporte al Cliente,\n\nEspero que este correo electr\u00f3nico le encuentre bien. Estoy escribiendo para solicitar su ayuda con un problema que estoy experimentando con mi HP DeskJet [phone_number]. A pesar de reconocer correctamente la red e indicar una conexi\u00f3n, la impresora no responde a ninguna tarea de impresi\u00f3n inal\u00e1mbrica. He intentado m\u00faltiples pasos de soluci\u00f3n de problemas, como reiniciar tanto la impresora como mi m\u00f3dem inal\u00e1mbrico, restablecer la configuraci\u00f3n de red y asegurarme de que todos los controladores y software necesarios est\u00e9n actualizados.\n\nEste problema ha sido persistente y no puedo imprimir ning\u00fan documento o imagen desde mis dispositivos inal\u00e1mbricos, lo que es frustrante ya que necesito imprimir materiales regularmente para fines personales y laborales. \u00bfPodr\u00eda proporcionarme orientaci\u00f3n sobre los pr\u00f3ximos pasos de soluci\u00f3n de problemas o confirmar si esto podr\u00eda ser un problema relacionado con el hardware que podr\u00eda requerir reparaci\u00f3n o sustituci\u00f3n?\n\nGracias por su atenci\u00f3n a este asunto You can reach me at [email].. Espero su pronta respuesta para resolver este problema lo antes posible.\n\nSaludos cordiales,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

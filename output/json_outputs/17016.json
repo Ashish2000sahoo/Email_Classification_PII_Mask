@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Periodische Verbindungsst\u00f6rungen in der SaaS-Plattform des Projektmanagements in den letzten Tagen\n\nWir leiden unter intermittierenden Verbindungsst\u00f6rungen in unserem Projektmanagement-SaaS-System, die verschiedene integrierte Tools beeintr\u00e4chtigen My name is Omar Hassan.. Es scheint, dass die neuesten Systemupdates und Netzwerkkonfigurations\u00e4nderungen die Ursache sein k\u00f6nnten. Wir haben bereits versucht, unsere Ger\u00e4te zur\u00fcckzusetzen, Caches zu l\u00f6schen und die Nutzungsschl\u00fcssel zu \u00fcberpr\u00fcfen, aber das Problem hat unsere Produktivit\u00e4t weiterhin beeintr\u00e4chtigt You can reach me at david.kim@corp.kr.. K\u00f6nnten Sie uns bitte bald helfen, das Problem zu beheben? Eine schnelle Unterst\u00fctzung und Anleitung w\u00fcrden uns sehr helfen, um die Normalbetriebsweise wiederherzustellen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        269,
+        280
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        594,
+        611
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Periodische Verbindungsst\u00f6rungen in der SaaS-Plattform des Projektmanagements in den letzten Tagen\n\nWir leiden unter intermittierenden Verbindungsst\u00f6rungen in unserem Projektmanagement-SaaS-System, die verschiedene integrierte Tools beeintr\u00e4chtigen My name is [full_name].. Es scheint, dass die neuesten Systemupdates und Netzwerkkonfigurations\u00e4nderungen die Ursache sein k\u00f6nnten. Wir haben bereits versucht, unsere Ger\u00e4te zur\u00fcckzusetzen, Caches zu l\u00f6schen und die Nutzungsschl\u00fcssel zu \u00fcberpr\u00fcfen, aber das Problem hat unsere Produktivit\u00e4t weiterhin beeintr\u00e4chtigt You can reach me at [email].. K\u00f6nnten Sie uns bitte bald helfen, das Problem zu beheben? Eine schnelle Unterst\u00fctzung und Anleitung w\u00fcrden uns sehr helfen, um die Normalbetriebsweise wiederherzustellen.",
+  "category_of_the_email": "Incident"
+}

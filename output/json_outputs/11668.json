@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Effiziente Sicherung medizinischer Daten bei Gesundheitsinformatikanwendungen\n\nLiebe Kundenservice, ich m\u00f6chte mehr \u00fcber Sicherheitsma\u00dfnahmen f\u00fcr medizinische Daten bei Gesundheitsinformatikanwendungen erfahren. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Art und Weise liefern, wie vertrauliche Patientendaten gesch\u00fctzt werden? Ich w\u00e4re dankbar f\u00fcr spezifische Protokolle und Technologien, die die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit medizinischer Daten gew\u00e4hrleisten My name is Liu Wei.. Dies sollte umfassen Datenverschl\u00fcsselung, Zugriffssteuerung und Sicherungsvorg\u00e4nge You can reach me at omar.hassan@secure.net.. Dar\u00fcber hinaus w\u00fcrde ich gerne wissen, ob Ihre L\u00f6sungen HIPAA-kompatibel sind. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        509,
+        516
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        627,
+        649
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Effiziente Sicherung medizinischer Daten bei Gesundheitsinformatikanwendungen\n\nLiebe Kundenservice, ich m\u00f6chte mehr \u00fcber Sicherheitsma\u00dfnahmen f\u00fcr medizinische Daten bei Gesundheitsinformatikanwendungen erfahren. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Art und Weise liefern, wie vertrauliche Patientendaten gesch\u00fctzt werden? Ich w\u00e4re dankbar f\u00fcr spezifische Protokolle und Technologien, die die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit medizinischer Daten gew\u00e4hrleisten My name is [full_name].. Dies sollte umfassen Datenverschl\u00fcsselung, Zugriffssteuerung und Sicherungsvorg\u00e4nge You can reach me at [email].. Dar\u00fcber hinaus w\u00fcrde ich gerne wissen, ob Ihre L\u00f6sungen HIPAA-kompatibel sind. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

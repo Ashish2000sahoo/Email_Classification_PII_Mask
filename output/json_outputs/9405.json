@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Loss in HR Department\n\nI am experiencing issues with data loss in the HR section You can reach me at johndoe@email.com.. Critical project files have suddenly disappeared, possibly due to synchronization or integration issues. I have already restarted the system, sought backups, and restored the systems, but the problem persists. I would be very grateful for your assistance in resolving this issue as soon as possible. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        466,
+        476
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        135,
+        152
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Loss in HR Department\n\nI am experiencing issues with data loss in the HR section You can reach me at [email].. Critical project files have suddenly disappeared, possibly due to synchronization or integration issues. I have already restarted the system, sought backups, and restored the systems, but the problem persists. I would be very grateful for your assistance in resolving this issue as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

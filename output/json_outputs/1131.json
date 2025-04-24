@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der medizinischen Datenregistrierung\n\nEin detaillierter Bericht zum Problem: Die medizinische Datenregistrierung hat unvermutet nachts fehlschlagen. M\u00f6glicherweise sind unpassende Softwareaktualisierungen die Ursache f\u00fcr Konflikte My name is Maria Gonzalez.. Wir haben die Server neu gestartet, die Firewall-Einstellungen gepr\u00fcft und McAfee Total Protection aktualisiert, aber das Problem ist weiterhin bestandene. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        278
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        454,
+        475
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der medizinischen Datenregistrierung\n\nEin detaillierter Bericht zum Problem: Die medizinische Datenregistrierung hat unvermutet nachts fehlschlagen. M\u00f6glicherweise sind unpassende Softwareaktualisierungen die Ursache f\u00fcr Konflikte My name is [full_name].. Wir haben die Server neu gestartet, die Firewall-Einstellungen gepr\u00fcft und McAfee Total Protection aktualisiert, aber das Problem ist weiterhin bestandene. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

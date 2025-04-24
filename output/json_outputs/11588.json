@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Project Dashboards\n\nCustomer Support, our users are facing slow response times while accessing project dashboards. This issue might be due to increased user traffic. Despite efforts to optimize database queries and scale server resources, the problem still persists You can reach me at fatima.farsi@help.com.. The slow response times are causing delays and impacting productivity. We would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is Fatima Al-Farsi.. If you need any additional information from us, please let us know. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        528,
+        537
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        313,
+        334
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Project Dashboards\n\nCustomer Support, our users are facing slow response times while accessing project dashboards. This issue might be due to increased user traffic. Despite efforts to optimize database queries and scale server resources, the problem still persists You can reach me at [email].. The slow response times are causing delays and impacting productivity. We would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is [full_name]-Farsi.. If you need any additional information from us, please let us know. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

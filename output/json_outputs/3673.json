@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Support for Integrating Microsoft Office 365\n\nCan you provide details on integrating Microsoft Office 365 project management software? This will help us understand your requirements and provide an accurate solution. Thank you for considering our product.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        301
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    },
+    {
+      "position": [
+        50,
+        53
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        111,
+        114
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Support for Integrating Microsoft Office [cvv_no]\n\nCan you provide details on integrating Microsoft Office [cvv_no] project management software? This will help us understand your requirements and provide an accurate solution. Thank you for considering our product.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

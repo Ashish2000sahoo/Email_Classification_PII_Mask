@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um Hilfe bei einem Problem zu suchen, das ich mit dem HP DeskJet 3755 Drucker habe, den ich k\u00fcrzlich im Tech Online Store gekauft habe. Bei der erstmaligen Einrichtung des Druckers fiel mir auf, dass die Ausdrucke konstant von schlechter Qualit\u00e4t sind, was angesichts der hohen Erwartungen an dieses Modell ziemlich entt\u00e4uschend ist.\n\nIch habe sichergestellt, dass alle vorbereitenden Schritte gem\u00e4\u00df dem Benutzerhandbuch befolgt wurden You can reach me at fatima.farsi@help.com.. Die Tintenpatronen sind neu, korrekt eingesetzt und wurden nicht nachgef\u00fcllt. Ich habe auch eine D\u00fcsenpr\u00fcfung durchgef\u00fchrt und den Druckkopf ausgerichtet, dennoch bleibt die Druckqualit\u00e4t unzureichend. Ich habe verschiedene Papiersorten ausprobiert und die Druckereinstellungen entsprechend den Empfehlungen angepasst, aber leider hat sich die Situation nicht verbessert.\n\nK\u00f6nnten Sie mir bitte durch m\u00f6gliche erweiterte Fehlersuche helfen, die dieses Problem l\u00f6sen k\u00f6nnte? Oder besteht die M\u00f6glichkeit, dass es ein defektes Bauteil im Drucker selbst gibt? Falls n\u00f6tig, bin ich offen f\u00fcr den Gedanken, die Einheit auszutauschen oder zu ersetzen, da ich stark auf qualitativ hochwertige Ausdrucke f\u00fcr meine pers\u00f6nlichen Projekte angewiesen bin My name is Liu Wei.. Ich hoffe, dieses Problem schnell zu l\u00f6sen.\n\nVielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre schnelle R\u00fcckmeldung, um das Problem zu kl\u00e4ren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1293,
+        1300
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        515,
+        536
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        124,
+        128
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um Hilfe bei einem Problem zu suchen, das ich mit dem HP DeskJet [phone_number] Drucker habe, den ich k\u00fcrzlich im Tech Online Store gekauft habe. Bei der erstmaligen Einrichtung des Druckers fiel mir auf, dass die Ausdrucke konstant von schlechter Qualit\u00e4t sind, was angesichts der hohen Erwartungen an dieses Modell ziemlich entt\u00e4uschend ist.\n\nIch habe sichergestellt, dass alle vorbereitenden Schritte gem\u00e4\u00df dem Benutzerhandbuch befolgt wurden You can reach me at [email].. Die Tintenpatronen sind neu, korrekt eingesetzt und wurden nicht nachgef\u00fcllt. Ich habe auch eine D\u00fcsenpr\u00fcfung durchgef\u00fchrt und den Druckkopf ausgerichtet, dennoch bleibt die Druckqualit\u00e4t unzureichend. Ich habe verschiedene Papiersorten ausprobiert und die Druckereinstellungen entsprechend den Empfehlungen angepasst, aber leider hat sich die Situation nicht verbessert.\n\nK\u00f6nnten Sie mir bitte durch m\u00f6gliche erweiterte Fehlersuche helfen, die dieses Problem l\u00f6sen k\u00f6nnte? Oder besteht die M\u00f6glichkeit, dass es ein defektes Bauteil im Drucker selbst gibt? Falls n\u00f6tig, bin ich offen f\u00fcr den Gedanken, die Einheit auszutauschen oder zu ersetzen, da ich stark auf qualitativ hochwertige Ausdrucke f\u00fcr meine pers\u00f6nlichen Projekte angewiesen bin My name is [full_name].. Ich hoffe, dieses Problem schnell zu l\u00f6sen.\n\nVielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre schnelle R\u00fcckmeldung, um das Problem zu kl\u00e4ren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Problem"
+}

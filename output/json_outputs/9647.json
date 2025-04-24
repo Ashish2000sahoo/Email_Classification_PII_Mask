@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, <br><br>We are preparing a report on a security incident involving our medical data systems. We detected an unauthorized access attempt which might be due to outdated software and insufficient security protocols. We have taken immediate actions by updating the antivirus definitions and changing passwords. However, despite these measures, the issues persist You can reach me at carlosm@gmail.com.. We are concerned about the potential breach of sensitive medical information and require urgent assistance to resolve this matter. Please provide guidance on the necessary steps to take. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        626,
+        634
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        408,
+        425
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, <br><br>We are preparing a report on a security incident involving our medical data systems. We detected an unauthorized access attempt which might be due to outdated software and insufficient security protocols. We have taken immediate actions by updating the antivirus definitions and changing passwords. However, despite these measures, the issues persist You can reach me at [email].. We are concerned about the potential breach of sensitive medical information and require urgent assistance to resolve this matter. Please provide guidance on the necessary steps to take. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

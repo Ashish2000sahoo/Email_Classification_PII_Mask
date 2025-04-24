@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Digital Marketing Services\n\nDear Customer Service, I am writing to inquire about the digital marketing services, particularly those related to marketing strategies and company brand development My name is Sophia Rossi.. Could you provide more details on the services offered and how they can aid in brand development? It would be helpful if you could also share information on pricing and past success stories of previous clients, as this would assist me in making an informed decision about utilizing these services. I look forward to your prompt response. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        600,
+        621
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Digital Marketing Services\n\nDear Customer Service, I am writing to inquire about the digital marketing services, particularly those related to marketing strategies and company brand development My name is [full_name].. Could you provide more details on the services offered and how they can aid in brand development? It would be helpful if you could also share information on pricing and past success stories of previous clients, as this would assist me in making an informed decision about utilizing these services. I look forward to your prompt response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

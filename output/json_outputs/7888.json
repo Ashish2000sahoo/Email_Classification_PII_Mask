@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, I am writing to report an incident of inconsistent responses from HR concerning employee benefits. This issue might be due to recent policy updates My name is Carlos Mendoza.. Despite my attempts to clarify via direct emails, I have received mixed feedback You can reach me at david.kim@corp.kr.. I would appreciate it if you could look into the matter and provide a clear explanation of the current benefits policy. Please let me know if there is any additional information needed to resolve this issue. Thank you for your assistance, and I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        303,
+        320
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, I am writing to report an incident of inconsistent responses from HR concerning employee benefits. This issue might be due to recent policy updates My name is [full_name].. Despite my attempts to clarify via direct emails, I have received mixed feedback You can reach me at [email].. I would appreciate it if you could look into the matter and provide a clear explanation of the current benefits policy. Please let me know if there is any additional information needed to resolve this issue. Thank you for your assistance, and I look forward to your response.",
+  "category_of_the_email": "Incident"
+}

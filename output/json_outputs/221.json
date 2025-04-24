@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Smart Tracker Investment Analytics\n\nIs there detailed information on the data analytics features in Smart-Tracker that could optimize investments? I am keen to learn about the tools and insights that can assist in making informed decisions My name is Fatima Al-Farsi.. Thank you for your time and assistance. I look forward to hearing back soon. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        281
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        389,
+        410
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Smart Tracker Investment Analytics\n\nIs there detailed information on the data analytics features in Smart-Tracker that could optimize investments? I am keen to learn about the tools and insights that can assist in making informed decisions My name is [full_name]-Farsi.. Thank you for your time and assistance. I look forward to hearing back soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

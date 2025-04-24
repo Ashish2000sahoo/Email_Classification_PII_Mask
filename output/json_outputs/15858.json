@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Support Due to Software Glitch\n\nOur data analytics software has malfunctioned, resulting in the loss of important investment analysis My name is Maria Gonzalez.. It could be due to an incompatibility with recent software updates or hardware conflicts. Despite restarting the system, updating it, and clearing cache, the problem still exists You can reach me at carlosm@gmail.com.. I require your support to fix this and recover the lost information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        379,
+        396
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Support Due to Software Glitch\n\nOur data analytics software has malfunctioned, resulting in the loss of important investment analysis My name is [full_name].. It could be due to an incompatibility with recent software updates or hardware conflicts. Despite restarting the system, updating it, and clearing cache, the problem still exists You can reach me at [email].. I require your support to fix this and recover the lost information.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Occasional LED Monitor Flickering Problem\n\nI am encountering random flickers on my LED monitor, which might be related to GPU overload. Despite restarting my computer and closing OBS Studio, the problem continues. The flickers occur sporadically and without pattern, which is quite disruptive for my work. My graphics drivers are currently up to date My name is Liu Wei.. Could you help me troubleshoot this issue? You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        448,
+        473
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Occasional LED Monitor Flickering Problem\n\nI am encountering random flickers on my LED monitor, which might be related to GPU overload. Despite restarting my computer and closing OBS Studio, the problem continues. The flickers occur sporadically and without pattern, which is quite disruptive for my work. My graphics drivers are currently up to date My name is [full_name].. Could you help me troubleshoot this issue? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

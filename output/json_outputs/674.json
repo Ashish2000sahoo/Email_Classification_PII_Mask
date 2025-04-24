@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Digital Strategy Services for Brand Growth\n\nHello Customer Support, we are inquiring about your digital strategy services related to brand growth My name is David Kim.. Could you provide more details on the services you offer, such as social media management, content creation, and SEO optimization? We are particularly interested in learning how these services can help our brand expand its online presence and increase engagement with our target audience. We look forward to hearing back from you at your earliest convenience and would greatly appreciate any information you can provide regarding the benefits of your services for our brand. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        189
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        689,
+        706
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Digital Strategy Services for Brand Growth\n\nHello Customer Support, we are inquiring about your digital strategy services related to brand growth My name is [full_name].. Could you provide more details on the services you offer, such as social media management, content creation, and SEO optimization? We are particularly interested in learning how these services can help our brand expand its online presence and increase engagement with our target audience. We look forward to hearing back from you at your earliest convenience and would greatly appreciate any information you can provide regarding the benefits of your services for our brand. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

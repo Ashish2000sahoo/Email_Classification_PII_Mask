@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung der API\n\nEs wurden Schwierigkeiten bei der externen API-Integration, die Projektaufgaben beeintr\u00e4chtigen. Es k\u00f6nnte sein, dass die Ratebegrenzung \u00fcberschritten wurde. Sie haben bereits versucht, den Dienst neu zu starten und den API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestanden My name is Maria Gonzalez.. Ich sch\u00e4tze es, wenn Sie das Problem schnell l\u00f6sen k\u00f6nnen und mir zus\u00e4tzliche Informationen bereitstellen w\u00fcrden. Bitte geben Sie den genauen Fehlerhinweis und den Zeitstempel der Problematik mit. Das hilft mir, das Problem zu untersuchen, und falls n\u00f6tig, k\u00f6nnten wir telefonisch dar\u00fcber diskutieren. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        679,
+        696
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung der API\n\nEs wurden Schwierigkeiten bei der externen API-Integration, die Projektaufgaben beeintr\u00e4chtigen. Es k\u00f6nnte sein, dass die Ratebegrenzung \u00fcberschritten wurde. Sie haben bereits versucht, den Dienst neu zu starten und den API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestanden My name is [full_name].. Ich sch\u00e4tze es, wenn Sie das Problem schnell l\u00f6sen k\u00f6nnen und mir zus\u00e4tzliche Informationen bereitstellen w\u00fcrden. Bitte geben Sie den genauen Fehlerhinweis und den Zeitstempel der Problematik mit. Das hilft mir, das Problem zu untersuchen, und falls n\u00f6tig, k\u00f6nnten wir telefonisch dar\u00fcber diskutieren. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

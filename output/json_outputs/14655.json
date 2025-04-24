@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Enhancement\n\nI hope this message finds you well. I am writing to suggest improvements in the integration of data analysis tools, which would significantly enhance investment optimization and support our platforms My name is Maria Gonzalez.. These enhancements would significantly boost the team and provide more detailed insights, enabling more informed decision-making. I believe that such improvements would be a valuable addition to our existing tools and would appreciate if you could consider this request. Thank you for your time and support in addressing this matter. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        262
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        616,
+        633
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Enhancement\n\nI hope this message finds you well. I am writing to suggest improvements in the integration of data analysis tools, which would significantly enhance investment optimization and support our platforms My name is [full_name].. These enhancements would significantly boost the team and provide more detailed insights, enabling more informed decision-making. I believe that such improvements would be a valuable addition to our existing tools and would appreciate if you could consider this request. Thank you for your time and support in addressing this matter. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

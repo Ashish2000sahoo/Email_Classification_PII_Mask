@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Canon PIXMA MG3620 Connectivity Issue\n\nDear Customer Support Team,<br><br>I hope this message finds you well. I'm writing to address an issue I've encountered with the Canon PIXMA MG3620 printer purchased under my account, <acc_num>. I previously called about a connectivity issue, and I would like to follow up as the problem persists. Despite my network being stable, the printer continues to show as offline You can reach me at maria.gonzalez@shop.es.. I have attempted to follow the troubleshooting steps provided, including restarting my router and printer, checking the network settings, and ensuring the correct drivers are installed, yet without success.<br><br>This ongoing issue severely affects my ability to perform daily tasks, as this printer is integral to my work. Any assistance you can provide would be greatly appreciated. I am hoping you can guide me toward a resolution at your earliest convenience.<br><br>In case you need to contact me directly, my phone number is <tel_num> My name is Liu Wei.. Thank you for your attention to this matter. Looking forward to your prompt response. <br><br>Best regards,<br><name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1018,
+        1025
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        440,
+        462
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        23,
+        27
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        191,
+        195
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Canon PIXMA MG[phone_number] Connectivity Issue\n\nDear Customer Support Team,<br><br>I hope this message finds you well. I'm writing to address an issue I've encountered with the Canon PIXMA MG[phone_number] printer purchased under my account, <acc_num>. I previously called about a connectivity issue, and I would like to follow up as the problem persists. Despite my network being stable, the printer continues to show as offline You can reach me at [email].. I have attempted to follow the troubleshooting steps provided, including restarting my router and printer, checking the network settings, and ensuring the correct drivers are installed, yet without success.<br><br>This ongoing issue severely affects my ability to perform daily tasks, as this printer is integral to my work. Any assistance you can provide would be greatly appreciated. I am hoping you can guide me toward a resolution at your earliest convenience.<br><br>In case you need to contact me directly, my phone number is <tel_num> My name is [full_name].. Thank you for your attention to this matter. Looking forward to your prompt response. <br><br>Best regards,<br><name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Security Measures on Medical Data\n\nHello Customer Support, I hope this message finds you well. I am writing to seek advice on the security measures that should be employed to safeguard medical data on our hospital's network. As we handle crucial patient information, we are committed to ensuring its protection against unauthorized access You can reach me at omar.hassan@secure.net.. Could you kindly share some best practices for securing medical data? We would greatly appreciate any recommendations you can provide. Thank you for your assistance. Sincerely, [Your Name] My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        605,
+        613
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        380,
+        402
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Request for Security Measures on Medical Data\n\nHello Customer Support, I hope this message finds you well. I am writing to seek advice on the security measures that should be employed to safeguard medical data on our hospital's network. As we handle crucial patient information, we are committed to ensuring its protection against unauthorized access You can reach me at [email].. Could you kindly share some best practices for securing medical data? We would greatly appreciate any recommendations you can provide. Thank you for your assistance. Sincerely, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Advice on Secure Medical Data Handling\n\nDear Customer Support, I am a potential client interested in ensuring that our sensitive medical data is handled with the utmost care You can reach me at david.kim@corp.kr.. Could you please guide me on the security measures and services your company offers to protect this information? Additionally, I would appreciate detailed information about the relevant certifications and compliance with industry standards. Your assistance at this time would be greatly appreciated My name is Sophia Rossi.. I look forward to hearing from you soon. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        533,
+        545
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        203,
+        220
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Advice on Secure Medical Data Handling\n\nDear Customer Support, I am a potential client interested in ensuring that our sensitive medical data is handled with the utmost care You can reach me at [email].. Could you please guide me on the security measures and services your company offers to protect this information? Additionally, I would appreciate detailed information about the relevant certifications and compliance with industry standards. Your assistance at this time would be greatly appreciated My name is [full_name].. I look forward to hearing from you soon. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

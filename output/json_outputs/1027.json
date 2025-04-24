@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Medical Data Protection\n\nHello Customer Support, I am seeking information regarding the security measures implemented for the storage and transmission of medical data You can reach me at carlosm@gmail.com.. As a client, I am keen to ensure that my private health information is safeguarded against unauthorized access. Could you please share the security protocols in place, such as encryption methods, access controls, and other protective measures? Additionally, I am interested in knowing how you adhere to regulatory standards like HIPAA. I would appreciate it if you could offer more details on these points. Thank you for your attention to this matter My name is Elena Ivanova.. I await your response. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        701,
+        714
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        219,
+        236
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Medical Data Protection\n\nHello Customer Support, I am seeking information regarding the security measures implemented for the storage and transmission of medical data You can reach me at [email].. As a client, I am keen to ensure that my private health information is safeguarded against unauthorized access. Could you please share the security protocols in place, such as encryption methods, access controls, and other protective measures? Additionally, I am interested in knowing how you adhere to regulatory standards like HIPAA. I would appreciate it if you could offer more details on these points. Thank you for your attention to this matter My name is [full_name].. I await your response. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

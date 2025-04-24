@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit unerwarteten Software-Abst\u00fcrzen bei der Projektverwaltungsoberfl\u00e4che\n\nErlebt unerwarteten Software-Absturz w\u00e4hrend der Nutzung unserer Projektverwaltungsoberfl\u00e4che My name is Elena Ivanova.. Mehrere integrierte Werkzeuge wurden benutzt You can reach me at janesmith@company.com.. Der Absturz k\u00f6nnte Kompatibilit\u00e4tsproblemen bei macOS Monterey oder anderen Softwarekomponenten zuzuordnen sein. Nach Aktualisierung der Software und \u00dcberpr\u00fcfung der Kompatibilit\u00e4tsstellungen sowie des Systems auf Fehlern beharrt das Problem weiterhin.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        275,
+        296
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit unerwarteten Software-Abst\u00fcrzen bei der Projektverwaltungsoberfl\u00e4che\n\nErlebt unerwarteten Software-Absturz w\u00e4hrend der Nutzung unserer Projektverwaltungsoberfl\u00e4che My name is [full_name].. Mehrere integrierte Werkzeuge wurden benutzt You can reach me at [email].. Der Absturz k\u00f6nnte Kompatibilit\u00e4tsproblemen bei macOS Monterey oder anderen Softwarekomponenten zuzuordnen sein. Nach Aktualisierung der Software und \u00dcberpr\u00fcfung der Kompatibilit\u00e4tsstellungen sowie des Systems auf Fehlern beharrt das Problem weiterhin.",
+  "category_of_the_email": "Incident"
+}

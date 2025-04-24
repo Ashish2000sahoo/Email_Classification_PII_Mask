@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Integration Issue\n\nProject management SaaS experiences delays in integrating with devices and applications, possibly due to compatibility issues with the hardware.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        210
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Integration Issue\n\nProject management SaaS experiences delays in integrating with devices and applications, possibly due to compatibility issues with the hardware.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

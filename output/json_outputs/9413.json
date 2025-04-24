@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Crashed SaaS Platform\n\nOur SaaS platform experienced an unexpected crash that led to data loss. Potential reasons include insufficient Kubernetes resources and Express.js compatibility problems My name is Sophia Rossi.. I have already restarted the Hub, examined Cassandra logs, and tested Netgear Wi-Fi, yet the issue remains unresolved. Your assistance in resolving this and preventing future crashes would be greatly appreciated. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        246
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        481,
+        503
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Crashed SaaS Platform\n\nOur SaaS platform experienced an unexpected crash that led to data loss. Potential reasons include insufficient Kubernetes resources and Express.js compatibility problems My name is [full_name].. I have already restarted the Hub, examined Cassandra logs, and tested Netgear Wi-Fi, yet the issue remains unresolved. Your assistance in resolving this and preventing future crashes would be greatly appreciated. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

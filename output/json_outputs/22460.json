@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Touchscreen Issue with Surface Pro 7\n\nHello Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to express my concern regarding an ongoing issue I am experiencing with a product purchased from your store My name is Elena Ivanova.. The product in question is a Microsoft Surface Pro 7, a 2-in-1 Windows 10 device with a detachable keyboard. Unfortunately, the touchscreen, a crucial feature of this device, has become unresponsive, which significantly hampers its usability.\n\nI have already attempted several basic troubleshooting steps, such as restarting the device and checking for available software updates, to no avail You can reach me at david.kim@corp.kr.. Additionally, I ensured that there were no obstructions such as dirt or damage on the screen, which could potentially cause this problem.\n\nFor verification purposes, my order number is <acc_num>, and I purchased the device on <purchase_date>. It is concerning that such an issue has arisen within a short period of ownership, and I am seeking your guidance on the possible steps to rectify this.\n\nI kindly request that you advise on whether this is a known issue and if there might be specific troubleshooting steps I could follow. Alternatively, let me know if the device can be repaired or replaced under warranty.\n\nI appreciate your prompt attention to this matter and look forward to your reply. You can reach me at <email> or <tel_num> for any further information you may require.\n\nThank you for your assistance.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        271
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        685,
+        702
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Touchscreen Issue with Surface Pro 7\n\nHello Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to express my concern regarding an ongoing issue I am experiencing with a product purchased from your store My name is [full_name].. The product in question is a Microsoft Surface Pro 7, a 2-in-1 Windows 10 device with a detachable keyboard. Unfortunately, the touchscreen, a crucial feature of this device, has become unresponsive, which significantly hampers its usability.\n\nI have already attempted several basic troubleshooting steps, such as restarting the device and checking for available software updates, to no avail You can reach me at [email].. Additionally, I ensured that there were no obstructions such as dirt or damage on the screen, which could potentially cause this problem.\n\nFor verification purposes, my order number is <acc_num>, and I purchased the device on <purchase_date>. It is concerning that such an issue has arisen within a short period of ownership, and I am seeking your guidance on the possible steps to rectify this.\n\nI kindly request that you advise on whether this is a known issue and if there might be specific troubleshooting steps I could follow. Alternatively, let me know if the device can be repaired or replaced under warranty.\n\nI appreciate your prompt attention to this matter and look forward to your reply. You can reach me at <email> or <tel_num> for any further information you may require.\n\nThank you for your assistance.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

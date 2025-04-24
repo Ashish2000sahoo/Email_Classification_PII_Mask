@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Datensperre bei Patientendaten\n\nEs gab eine Datensperre, die die Patientendaten gef\u00e4hrdet hat You can reach me at elena.ivanova@support.org.. M\u00f6glicherweise liegt der Grund im alten AWS-Sicherheitsprotokoll. Ich habe meine Eclipse-IDE und meine Einstellungen f\u00fcr Cisco Webex Meetings bereits \u00fcberpr\u00fcft, aber das Problem besteht weiterhin My name is Fatima Al-Farsi.. Ich ben\u00f6tige dringend Ihre Hilfe, um dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen, um weitere Sch\u00e4den zu vermeiden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        376,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        141,
+        166
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Datensperre bei Patientendaten\n\nEs gab eine Datensperre, die die Patientendaten gef\u00e4hrdet hat You can reach me at [email].. M\u00f6glicherweise liegt der Grund im alten AWS-Sicherheitsprotokoll. Ich habe meine Eclipse-IDE und meine Einstellungen f\u00fcr Cisco Webex Meetings bereits \u00fcberpr\u00fcft, aber das Problem besteht weiterhin My name is [full_name]-Farsi.. Ich ben\u00f6tige dringend Ihre Hilfe, um dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen, um weitere Sch\u00e4den zu vermeiden.",
+  "category_of_the_email": "Incident"
+}

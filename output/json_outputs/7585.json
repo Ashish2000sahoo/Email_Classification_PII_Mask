@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountered Unanticipated Data Analytics Issues\n\nHello Customer Support, I am currently facing unexpected data analytics errors. This problem might be due to inadequate data cleaning My name is Jane Smith.. Despite restarting FL Studio 20.8, the issue continues. I would greatly appreciate your assistance in resolving this. Could you guide me through troubleshooting steps, or do you need more information from me? Thank you for your time and help You can reach me at elena.ivanova@support.org.. I await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        479,
+        504
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Encountered Unanticipated Data Analytics Issues\n\nHello Customer Support, I am currently facing unexpected data analytics errors. This problem might be due to inadequate data cleaning My name is [full_name].. Despite restarting FL Studio 20.8, the issue continues. I would greatly appreciate your assistance in resolving this. Could you guide me through troubleshooting steps, or do you need more information from me? Thank you for your time and help You can reach me at [email].. I await your response.",
+  "category_of_the_email": "Incident"
+}

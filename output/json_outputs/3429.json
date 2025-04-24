@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Identified Problems with Secure Data Access in Hospital Systems\n\nWe have identified secure data access issues within the hospital systems My name is Liu Wei.. These issues might be due to recent updates in the TYPO3 network configurations. We have attempted to resolve the problem by rebooting the WLAN-Router and documenting the configurations, but the issues still persist. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        165
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        409,
+        426
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Identified Problems with Secure Data Access in Hospital Systems\n\nWe have identified secure data access issues within the hospital systems My name is [full_name].. These issues might be due to recent updates in the TYPO3 network configurations. We have attempted to resolve the problem by rebooting the WLAN-Router and documenting the configurations, but the issues still persist. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

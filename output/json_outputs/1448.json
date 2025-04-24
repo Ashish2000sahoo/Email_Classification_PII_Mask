@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Blockade auf dem NAS-System\n\nSehr geehrte Kundensupport, ich melde mich an, um ein Problem mit einer Datensperre auf meinem NAS-System zu melden. Es ist m\u00f6glicherweise auf eine veraltete Version von Ubuntu zur\u00fcckzuf\u00fchren You can reach me at liuwei@business.cn.. Ich habe versucht, das System neu zu starten, aber das Problem blieb bestehen. Ich bin besorgt um die Sicherheit meiner Daten und ben\u00f6tige Unterst\u00fctzung, um das Problem zu l\u00f6sen My name is John Doe.. K\u00f6nnten Sie mir Anleitungen geben, wie ich mein Ubuntu-System aktualisieren und die Sicherheit meiner Daten sichern kann? Ich w\u00fcrde jede Hilfe sehr sch\u00e4tzen. Danke f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        460,
+        468
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        250,
+        268
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Blockade auf dem NAS-System\n\nSehr geehrte Kundensupport, ich melde mich an, um ein Problem mit einer Datensperre auf meinem NAS-System zu melden. Es ist m\u00f6glicherweise auf eine veraltete Version von Ubuntu zur\u00fcckzuf\u00fchren You can reach me at [email].. Ich habe versucht, das System neu zu starten, aber das Problem blieb bestehen. Ich bin besorgt um die Sicherheit meiner Daten und ben\u00f6tige Unterst\u00fctzung, um das Problem zu l\u00f6sen My name is [full_name].. K\u00f6nnten Sie mir Anleitungen geben, wie ich mein Ubuntu-System aktualisieren und die Sicherheit meiner Daten sichern kann? Ich w\u00fcrde jede Hilfe sehr sch\u00e4tzen. Danke f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "category_of_the_email": "Incident"
+}

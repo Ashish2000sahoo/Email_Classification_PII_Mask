@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes de connectivit\u00e9 avec le routeur Cisco\n\nCher support client,\n\nJ'\u00e9prouve des probl\u00e8mes de connectivit\u00e9 sporadiques avec mon routeur Cisco ISR4331 r\u00e9cemment achet\u00e9 My name is Fatima Al-Farsi.. La connexion se coupe de mani\u00e8re inattendue et je suspecte qu'il pourrait y avoir un probl\u00e8me de configuration You can reach me at david.kim@corp.kr.. J'appr\u00e9cierais toute orientation ou soutien que vous pouvez fournir pour r\u00e9soudre ce probl\u00e8me. Merci de m'assister dans les meilleurs d\u00e9lais.\n\nMerci,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        342,
+        359
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        158,
+        162
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes de connectivit\u00e9 avec le routeur Cisco\n\nCher support client,\n\nJ'\u00e9prouve des probl\u00e8mes de connectivit\u00e9 sporadiques avec mon routeur Cisco ISR[phone_number] r\u00e9cemment achet\u00e9 My name is [full_name]-Farsi.. La connexion se coupe de mani\u00e8re inattendue et je suspecte qu'il pourrait y avoir un probl\u00e8me de configuration You can reach me at [email].. J'appr\u00e9cierais toute orientation ou soutien que vous pouvez fournir pour r\u00e9soudre ce probl\u00e8me. Merci de m'assister dans les meilleurs d\u00e9lais.\n\nMerci,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Problem"
+}

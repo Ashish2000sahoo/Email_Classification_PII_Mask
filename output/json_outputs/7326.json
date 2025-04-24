@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance with Data Breach Incident\n\nA data breach has been identified, posing a risk to patient records. Despite applying patch updates and enhancing user training, there has been no improvement.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        245
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Data Breach Incident\n\nA data breach has been identified, posing a risk to patient records. Despite applying patch updates and enhancing user training, there has been no improvement.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

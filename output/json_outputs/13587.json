@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Integrating New Plugins\n\nI require assistance in integrating new plugins for seamless project management monitoring across multiple platforms and tools My name is Jane Smith.. I would like to know how to integrate these plugins and what advantages they offer for my project. Please provide more details and instructions on this topic You can reach me at fatima.farsi@help.com.. I appreciate your support and look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        201
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        383,
+        404
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Integrating New Plugins\n\nI require assistance in integrating new plugins for seamless project management monitoring across multiple platforms and tools My name is [full_name].. I would like to know how to integrate these plugins and what advantages they offer for my project. Please provide more details and instructions on this topic You can reach me at [email].. I appreciate your support and look forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

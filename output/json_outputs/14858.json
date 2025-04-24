@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber einen unerwarteten Crash des SaaS-Systems\n\nBetreff: Meldung \u00fcber Systemausfall\\nAn die Kundensupport, ich m\u00f6chte mich melden, da mein SaaS-System unerwartet abgest\u00fcrzt ist, was m\u00f6glicherweise auf mangelnde Ressourcen zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at johndoe@email.com.. Ich habe bereits das System neu gestartet, die Logs gepr\u00fcft und die Konfiguration \u00fcberpr\u00fcft, aber das Problem beharrte trotzdem My name is Liu Wei.. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie das Problem so schnell wie m\u00f6glich beheben k\u00f6nnten, um das Time-out zu minimieren und weitere St\u00f6rungen zu vermeiden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        452
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        286,
+        303
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber einen unerwarteten Crash des SaaS-Systems\n\nBetreff: Meldung \u00fcber Systemausfall\\nAn die Kundensupport, ich m\u00f6chte mich melden, da mein SaaS-System unerwartet abgest\u00fcrzt ist, was m\u00f6glicherweise auf mangelnde Ressourcen zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Ich habe bereits das System neu gestartet, die Logs gepr\u00fcft und die Konfiguration \u00fcberpr\u00fcft, aber das Problem beharrte trotzdem My name is [full_name].. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie das Problem so schnell wie m\u00f6glich beheben k\u00f6nnten, um das Time-out zu minimieren und weitere St\u00f6rungen zu vermeiden.",
+  "category_of_the_email": "Incident"
+}

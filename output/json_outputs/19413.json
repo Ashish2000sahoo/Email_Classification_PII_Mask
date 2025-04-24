@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Campaign Analytics Issues\n\nHello Customer Support, <br><br>I encountered a problem with the campaign analytics not functioning as expected. It seems there might be an issue with the integration between our system and Google Keep. <br><br>I have already attempted to resolve it by restarting Android Studio and reviewing the settings in Smartsheet, but the problem still exists. <br><br>I would be grateful if you could investigate this and supply a solution at your earliest convenience. <br><br>Thank you for your help and support My name is Omar Hassan.. <br><br>Sincerely, <br>[Your Name] You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        552,
+        563
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        621,
+        644
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Campaign Analytics Issues\n\nHello Customer Support, <br><br>I encountered a problem with the campaign analytics not functioning as expected. It seems there might be an issue with the integration between our system and Google Keep. <br><br>I have already attempted to resolve it by restarting Android Studio and reviewing the settings in Smartsheet, but the problem still exists. <br><br>I would be grateful if you could investigate this and supply a solution at your earliest convenience. <br><br>Thank you for your help and support My name is [full_name].. <br><br>Sincerely, <br>[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

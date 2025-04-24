@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Needed for Ticket System\n\nDear IT Services Support Team,\n\nMy name is <name>, and I am experiencing issues with the ticket system following recent server maintenance You can reach me at carlosm@gmail.com.. This disruption is critical and affects our IT Consulting Service My name is Maria Gonzalez.. We urgently require consulting support to resolve this problem. Please contact me at <tel_num> or email me at your earliest convenience.\n\nThank you for your immediate attention.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        309,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        212,
+        229
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Needed for Ticket System\n\nDear IT Services Support Team,\n\nMy name is <name>, and I am experiencing issues with the ticket system following recent server maintenance You can reach me at [email].. This disruption is critical and affects our IT Consulting Service My name is [full_name].. We urgently require consulting support to resolve this problem. Please contact me at <tel_num> or email me at your earliest convenience.\n\nThank you for your immediate attention.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

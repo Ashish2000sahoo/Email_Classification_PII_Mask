@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error in Data Processing\n\nOur finance company is encountering data processing errors on our Investment-Optimization-Analytics-Platform. There is an incompatibility issue between software versions and insufficient system resources You can reach me at johndoe@email.com.. Restarting affected applications and updating the software did not resolve the issue. We need assistance to quickly address this problem and prevent further disruptions. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        460,
+        470
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        259,
+        276
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Error in Data Processing\n\nOur finance company is encountering data processing errors on our Investment-Optimization-Analytics-Platform. There is an incompatibility issue between software versions and insufficient system resources You can reach me at [email].. Restarting affected applications and updating the software did not resolve the issue. We need assistance to quickly address this problem and prevent further disruptions. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

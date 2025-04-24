@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Welche Data Analytics-Tools werden f\u00fcr die Optimierung von Investment-Portfolios eingesetzt, um sie f\u00fcr individuelle Kunden zu personalisieren?\n\nWir verwenden verschiedene Data Analytics-Tools, um die Portfolios unserer Kunden zu optimieren My name is Elena Ivanova.. Zu diesen Tools geh\u00f6ren/portfolio-optimierende-Software und riskanalyse-systeme You can reach me at omar.hassan@secure.net.. Diese Systeme helfen uns, das Risikotoleranzniveau und die Anlageziele unserer Kunden zu bewerten, und personalisierte Anlageportfolios zu erstellen. Falls Sie Informationen zu unseren spezifischen Tools oder zu unserer Unterst\u00fctzung ben\u00f6tigen, stehe ich Ihnen gerne zur Verf\u00fcgung, um einen Zeitpunkt f\u00fcr einen Anruf zu vereinbaren. Bitte geben Sie mir einen geeigneten Zeitpunkt f\u00fcr einen Anruf unter <tel_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        274
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        375,
+        397
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Welche Data Analytics-Tools werden f\u00fcr die Optimierung von Investment-Portfolios eingesetzt, um sie f\u00fcr individuelle Kunden zu personalisieren?\n\nWir verwenden verschiedene Data Analytics-Tools, um die Portfolios unserer Kunden zu optimieren My name is [full_name].. Zu diesen Tools geh\u00f6ren/portfolio-optimierende-Software und riskanalyse-systeme You can reach me at [email].. Diese Systeme helfen uns, das Risikotoleranzniveau und die Anlageziele unserer Kunden zu bewerten, und personalisierte Anlageportfolios zu erstellen. Falls Sie Informationen zu unseren spezifischen Tools oder zu unserer Unterst\u00fctzung ben\u00f6tigen, stehe ich Ihnen gerne zur Verf\u00fcgung, um einen Zeitpunkt f\u00fcr einen Anruf zu vereinbaren. Bitte geben Sie mir einen geeigneten Zeitpunkt f\u00fcr einen Anruf unter <tel_num>.",
+  "category_of_the_email": "Request"
+}

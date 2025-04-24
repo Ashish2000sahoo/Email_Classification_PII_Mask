@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Data Breach Required\n\nA data loss has occurred, possibly exposing unencrypted medical records via insecure channels. This may be due to outdated software and incorrect configurations. The antivirus software has been updated, and a system check has been performed, resolving the issue. We urgently need support to address the problem and prevent further losses My name is Jane Smith.. Please provide instructions to proceed. Appreciate swift assistance with this matter. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        392,
+        402
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        512,
+        533
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Breach Required\n\nA data loss has occurred, possibly exposing unencrypted medical records via insecure channels. This may be due to outdated software and incorrect configurations. The antivirus software has been updated, and a system check has been performed, resolving the issue. We urgently need support to address the problem and prevent further losses My name is [full_name].. Please provide instructions to proceed. Appreciate swift assistance with this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

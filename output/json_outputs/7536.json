@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Istcstdlib mit Kampagnenmetriken\n\nHallo Kundensupport, ich lebe im Moment unter einem Problem mit den Metriken meiner digitalen Kampagnen. Sie verschwanden unerwartet und ich kann die Ursache nicht feststellen. Ich habe versucht, die Datenbank zu aktualisieren und die Datenquellen zu \u00fcberpr\u00fcfen, aber bislang hat sich nichts ver\u00e4ndert You can reach me at liuwei@business.cn.. Ich denke, dass das Problem m\u00f6glicherweise mit der API-Integration zusammenh\u00e4ngt. K\u00f6nnten Sie bitte helfen, dies zu kl\u00e4ren? Ich bin dankbar f\u00fcr Ihre schnelle R\u00fcckmeldung My name is Carlos Mendoza.. Danke f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        567,
+        581
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        365,
+        383
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Istcstdlib mit Kampagnenmetriken\n\nHallo Kundensupport, ich lebe im Moment unter einem Problem mit den Metriken meiner digitalen Kampagnen. Sie verschwanden unerwartet und ich kann die Ursache nicht feststellen. Ich habe versucht, die Datenbank zu aktualisieren und die Datenquellen zu \u00fcberpr\u00fcfen, aber bislang hat sich nichts ver\u00e4ndert You can reach me at [email].. Ich denke, dass das Problem m\u00f6glicherweise mit der API-Integration zusammenh\u00e4ngt. K\u00f6nnten Sie bitte helfen, dies zu kl\u00e4ren? Ich bin dankbar f\u00fcr Ihre schnelle R\u00fcckmeldung My name is [full_name].. Danke f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

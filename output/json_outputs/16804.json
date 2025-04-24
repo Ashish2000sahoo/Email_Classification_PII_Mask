@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data with SAP WooCommerce\n\nI am reaching out to inquire about securing medical data using SAP ERP WooCommerce. Could you provide detailed information on the practices and protocols that ensure the confidentiality, integrity, and availability of sensitive medical information? I would greatly appreciate your guidance on implementing robust security measures to protect patient data. Additionally, could you recommend specific configurations and plugins for WooCommerce to ensure compliance with healthcare regulations? Your assistance would be greatly appreciated, and I look forward to hearing back soon My name is John Doe.. Please provide an appropriate time to call at <tel_num> for this discussion. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        656,
+        664
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        767,
+        784
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data with SAP WooCommerce\n\nI am reaching out to inquire about securing medical data using SAP ERP WooCommerce. Could you provide detailed information on the practices and protocols that ensure the confidentiality, integrity, and availability of sensitive medical information? I would greatly appreciate your guidance on implementing robust security measures to protect patient data. Additionally, could you recommend specific configurations and plugins for WooCommerce to ensure compliance with healthcare regulations? Your assistance would be greatly appreciated, and I look forward to hearing back soon My name is [full_name].. Please provide an appropriate time to call at <tel_num> for this discussion. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

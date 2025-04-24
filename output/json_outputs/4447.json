@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Billing Payments\n\nHello Customer Support, I am encountering unexpected discrepancies in my billing payment transactions. The issue might be due to problems with data integration in the software You can reach me at omar.hassan@secure.net.. After reviewing the recent software updates and cross-referencing the transaction logs, the problem still persists My name is Elena Ivanova.. I need your help to resolve this matter as soon as possible to avoid further discrepancies. Please assist in identifying the root cause and providing a solution to rectify the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        387,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        236,
+        258
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Billing Payments\n\nHello Customer Support, I am encountering unexpected discrepancies in my billing payment transactions. The issue might be due to problems with data integration in the software You can reach me at [email].. After reviewing the recent software updates and cross-referencing the transaction logs, the problem still persists My name is [full_name].. I need your help to resolve this matter as soon as possible to avoid further discrepancies. Please assist in identifying the root cause and providing a solution to rectify the issue.",
+  "category_of_the_email": "Incident"
+}

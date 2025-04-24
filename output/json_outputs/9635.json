@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Unexpected Billing\n\nReceived an unexpected invoice for additional charges You can reach me at david.kim@corp.kr.. This error in the bill seems to be due to a misunderstanding. Up to now, the contract has requested clarification from the billing department. I value a thorough examination and would appreciate an explanation of the additional costs or a new invoice. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        408
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        115,
+        132
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support for Unexpected Billing\n\nReceived an unexpected invoice for additional charges You can reach me at [email].. This error in the bill seems to be due to a misunderstanding. Up to now, the contract has requested clarification from the billing department. I value a thorough examination and would appreciate an explanation of the additional costs or a new invoice. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

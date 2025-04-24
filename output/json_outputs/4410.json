@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Investment Analytics\n\nIs it possible to get guidance on optimizing investments?. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        123,
+        139
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Support for Investment Analytics\n\nIs it possible to get guidance on optimizing investments?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

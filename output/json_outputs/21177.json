@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Request for AWS Cost Optimization\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well. I am writing to urgently request a comprehensive cost optimization analysis for our AWS services under the AWS Management Service product that we have been utilizing. We have observed that our recent billing charges have significantly increased, and it is imperative for us to understand and mitigate these costs to align with our financial objectives effectively.\n\nDespite our efforts to monitor usage and manage expenses internally, the charges have consistently hovered above our anticipated budget. As a key component of our operations, AWS services are crucial to maintaining our business efficiency You can reach me at sophia.rossi@service.it.. Therefore, any reduction in billing without compromising service quality would be highly beneficial to us.\n\nTo facilitate this analysis, could you please review the attached account number <acc_num> and provide us with detailed insights and recommendations? We are particularly interested in understanding any unnecessarily provisioned resources, recommending alternative pricing plans that could offer cost savings, and implementing any AWS native solutions that emphasize cost efficiency.\n\nWe would appreciate your expedited support in this matter as these charges are impacting our business decisions moving forward. Additionally, if any personalized consultation sessions or workshops on cost management are available, kindly inform us. A speedy response would be greatly appreciated to allow us to take swift action My name is Sophia Rossi.. If you need to discuss this further, please feel free to reach me directly at <tel_num>.\n\nThank you for your attention to this urgent request. We look forward to your expert insight and guidance in devising a cost-effective strategy.\n\nWarm regards,\n\n<name> \n\nChief Financial Officer \n\n<Company Name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1611,
+        1623
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        753,
+        776
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Urgent Request for AWS Cost Optimization\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well. I am writing to urgently request a comprehensive cost optimization analysis for our AWS services under the AWS Management Service product that we have been utilizing. We have observed that our recent billing charges have significantly increased, and it is imperative for us to understand and mitigate these costs to align with our financial objectives effectively.\n\nDespite our efforts to monitor usage and manage expenses internally, the charges have consistently hovered above our anticipated budget. As a key component of our operations, AWS services are crucial to maintaining our business efficiency You can reach me at [email].. Therefore, any reduction in billing without compromising service quality would be highly beneficial to us.\n\nTo facilitate this analysis, could you please review the attached account number <acc_num> and provide us with detailed insights and recommendations? We are particularly interested in understanding any unnecessarily provisioned resources, recommending alternative pricing plans that could offer cost savings, and implementing any AWS native solutions that emphasize cost efficiency.\n\nWe would appreciate your expedited support in this matter as these charges are impacting our business decisions moving forward. Additionally, if any personalized consultation sessions or workshops on cost management are available, kindly inform us. A speedy response would be greatly appreciated to allow us to take swift action My name is [full_name].. If you need to discuss this further, please feel free to reach me directly at <tel_num>.\n\nThank you for your attention to this urgent request. We look forward to your expert insight and guidance in devising a cost-effective strategy.\n\nWarm regards,\n\n<name> \n\nChief Financial Officer \n\n<Company Name>",
+  "category_of_the_email": "Request"
+}

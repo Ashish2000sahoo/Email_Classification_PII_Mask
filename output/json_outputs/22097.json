@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consulta Sobre Solu\u00e7\u00f5es em Nuvem e Servi\u00e7os de Desenvolvimento de Software\n\nCaro Equipe de Suporte de Servi\u00e7os de TI, Estou escrevendo para solicitar mais informa\u00e7\u00f5es sobre suas Solu\u00e7\u00f5es em Computa\u00e7\u00e3o em Nuvem e Servi\u00e7os de Desenvolvimento de Software para otimizar as opera\u00e7\u00f5es do meu neg\u00f3cio. Por favor, inclua detalhes sobre pre\u00e7os, prazos de implementa\u00e7\u00e3o e op\u00e7\u00f5es de suporte My name is Elena Ivanova.. Obrigado, <name>. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        400,
+        413
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        452,
+        470
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Consulta Sobre Solu\u00e7\u00f5es em Nuvem e Servi\u00e7os de Desenvolvimento de Software\n\nCaro Equipe de Suporte de Servi\u00e7os de TI, Estou escrevendo para solicitar mais informa\u00e7\u00f5es sobre suas Solu\u00e7\u00f5es em Computa\u00e7\u00e3o em Nuvem e Servi\u00e7os de Desenvolvimento de Software para otimizar as opera\u00e7\u00f5es do meu neg\u00f3cio. Por favor, inclua detalhes sobre pre\u00e7os, prazos de implementa\u00e7\u00e3o e op\u00e7\u00f5es de suporte My name is [full_name].. Obrigado, <name>. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

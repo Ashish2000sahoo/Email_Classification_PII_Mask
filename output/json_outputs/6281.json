@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Downtime Report\n\nI am reporting an unexpected downtime that happened overnight My name is John Doe.. Possible causes may include server overload or maintenance issues You can reach me at fatima.farsi@help.com.. Despite my efforts to restart services and check system logs, the issue still exists. I would be grateful if you could investigate and provide a swift solution. Please inform me if any additional details are needed from me to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        110,
+        118
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        210,
+        231
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Downtime Report\n\nI am reporting an unexpected downtime that happened overnight My name is [full_name].. Possible causes may include server overload or maintenance issues You can reach me at [email].. Despite my efforts to restart services and check system logs, the issue still exists. I would be grateful if you could investigate and provide a swift solution. Please inform me if any additional details are needed from me to address this issue.",
+  "category_of_the_email": "Incident"
+}

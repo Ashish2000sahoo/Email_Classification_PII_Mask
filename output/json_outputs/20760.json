@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I recently acquired a MacBook Air M1 from your online shop. Unfortunately, the keyboard appears to be acting up, and several keys are unresponsive. Could you kindly guide me on how to obtain a replacement or request a refund? My account number is <acc_num> You can reach me at maria.gonzalez@shop.es.. I eagerly await your swift reply My name is Fatima Al-Farsi.. Thank you, <name> <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        380,
+        389
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        311,
+        333
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I recently acquired a MacBook Air M1 from your online shop. Unfortunately, the keyboard appears to be acting up, and several keys are unresponsive. Could you kindly guide me on how to obtain a replacement or request a refund? My account number is <acc_num> You can reach me at [email].. I eagerly await your swift reply My name is [full_name]-Farsi.. Thank you, <name> <tel_num>",
+  "category_of_the_email": "Problem"
+}

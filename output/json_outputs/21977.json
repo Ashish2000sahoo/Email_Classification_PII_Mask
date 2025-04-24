@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Issue with React App Service\n\nDear Customer Support, \n\nI hope this message finds you well. I am writing to bring to your attention an urgent issue we are experiencing with the UI responsiveness of the JavaScript React application development service we availed. Unfortunately, the application is currently not responding as expected, which is impacting our operations significantly.\n\nWe first noticed this issue on October 15th and have attempted several troubleshooting steps, including checking for any updates, clearing cache, and restarting the application My name is John Doe.. However, these measures have not resolved the problem.\n\nGiven that our product heavily relies on seamless UI interactions for optimal user experience, it is crucial that this issue is resolved swiftly You can reach me at omar.hassan@secure.net.. We believe this may be a performance-related bug and would appreciate your immediate attention to this matter.\n\nOur client project delivery timelines are tight, and we hope you understand the urgency of our request. Kindly provide us with an update on how soon this issue can be addressed or if any additional information is needed from our end.\n\nThank you in advance for your assistance and looking forward to your prompt response.\n\nBest regards,\n<name>\n<company>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        588,
+        596
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        823,
+        845
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgent Issue with React App Service\n\nDear Customer Support, \n\nI hope this message finds you well. I am writing to bring to your attention an urgent issue we are experiencing with the UI responsiveness of the JavaScript React application development service we availed. Unfortunately, the application is currently not responding as expected, which is impacting our operations significantly.\n\nWe first noticed this issue on October 15th and have attempted several troubleshooting steps, including checking for any updates, clearing cache, and restarting the application My name is [full_name].. However, these measures have not resolved the problem.\n\nGiven that our product heavily relies on seamless UI interactions for optimal user experience, it is crucial that this issue is resolved swiftly You can reach me at [email].. We believe this may be a performance-related bug and would appreciate your immediate attention to this matter.\n\nOur client project delivery timelines are tight, and we hope you understand the urgency of our request. Kindly provide us with an update on how soon this issue can be addressed or if any additional information is needed from our end.\n\nThank you in advance for your assistance and looking forward to your prompt response.\n\nBest regards,\n<name>\n<company>",
+  "category_of_the_email": "Incident"
+}

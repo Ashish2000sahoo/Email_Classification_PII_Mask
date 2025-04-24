@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Services in Datenanalyse\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich bei Ihnen f\u00fcr die Nachfrage nach Datenanalytischen Dienstleistungen wenden My name is Fatima Al-Farsi.. Bitte geben Sie mir mehr Informationen zu den angebotenen Dienstleistungen, insbesondere zu Beispielen wie Prognosemodelle, Portfolioanalyse und Risikomanagement. Es w\u00e4re au\u00dferdem sehr sch\u00f6n, wenn Sie mir bekannte F\u00e4lle oder Erfolgsbeispiele fr\u00fcherer Kunden vorstellen k\u00f6nnten. Dar\u00fcber hinaus w\u00fcrde ich gerne mehr \u00fcber die Preise und den Umsetzungsprozess erfahren. Vielen Dank f\u00fcr Ihre Zeit und Ihre Hilfe You can reach me at carlosm@gmail.com.. Ich freue mich darauf, bald wieder mit Ihnen zu sprechen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        612,
+        629
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Services in Datenanalyse\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich bei Ihnen f\u00fcr die Nachfrage nach Datenanalytischen Dienstleistungen wenden My name is [full_name]-Farsi.. Bitte geben Sie mir mehr Informationen zu den angebotenen Dienstleistungen, insbesondere zu Beispielen wie Prognosemodelle, Portfolioanalyse und Risikomanagement. Es w\u00e4re au\u00dferdem sehr sch\u00f6n, wenn Sie mir bekannte F\u00e4lle oder Erfolgsbeispiele fr\u00fcherer Kunden vorstellen k\u00f6nnten. Dar\u00fcber hinaus w\u00fcrde ich gerne mehr \u00fcber die Preise und den Umsetzungsprozess erfahren. Vielen Dank f\u00fcr Ihre Zeit und Ihre Hilfe You can reach me at [email].. Ich freue mich darauf, bald wieder mit Ihnen zu sprechen.",
+  "category_of_the_email": "Request"
+}

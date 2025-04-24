@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance JIRA Data Analytics Optimization\n\nCustomer Support, requesting assistance in optimizing data analytics tools within JIRA Software. The current setup is not fully utilizing the potential of the hardware and software, leading to inefficiencies in the workflow. We would like to request improvements in the integration of tools to enhance overall performance and productivity My name is Jane Smith.. Specifically, we would appreciate your assistance in streamlining data processing to reduce latency. This would greatly benefit our team's ability to make data-driven decisions. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        613,
+        635
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhance JIRA Data Analytics Optimization\n\nCustomer Support, requesting assistance in optimizing data analytics tools within JIRA Software. The current setup is not fully utilizing the potential of the hardware and software, leading to inefficiencies in the workflow. We would like to request improvements in the integration of tools to enhance overall performance and productivity My name is [full_name].. Specifically, we would appreciate your assistance in streamlining data processing to reduce latency. This would greatly benefit our team's ability to make data-driven decisions. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

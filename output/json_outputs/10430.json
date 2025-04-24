@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Daten-Synchronisierung\n\nSehr geehrte Kundenservice-Beratung, wir begegnen aktuell Problemen bei der Daten-Synchronisierung zwischen Airtable und Zapier bei unserem Finanzinstitut. Das Investitionsanalyse-System wird dadurch beeintr\u00e4chtigt. Die Probleme scheinen auf Grenzzahlen bei der API-Verbindung zur\u00fcckzuf\u00fchren You can reach me at elena.ivanova@support.org.. Wir haben bereits versucht, die Konten neu anzumelden und die Daten zu aktualisieren, jedoch ohne Erfolg. Wir w\u00fcrden Ihre Hilfe bei der Behebung des Problems sehr sch\u00e4tzen. Bitte informieren Sie uns, falls weitere Informationen ben\u00f6tigt werden. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        646,
+        658
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        362,
+        387
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Daten-Synchronisierung\n\nSehr geehrte Kundenservice-Beratung, wir begegnen aktuell Problemen bei der Daten-Synchronisierung zwischen Airtable und Zapier bei unserem Finanzinstitut. Das Investitionsanalyse-System wird dadurch beeintr\u00e4chtigt. Die Probleme scheinen auf Grenzzahlen bei der API-Verbindung zur\u00fcckzuf\u00fchren You can reach me at [email].. Wir haben bereits versucht, die Konten neu anzumelden und die Daten zu aktualisieren, jedoch ohne Erfolg. Wir w\u00fcrden Ihre Hilfe bei der Behebung des Problems sehr sch\u00e4tzen. Bitte informieren Sie uns, falls weitere Informationen ben\u00f6tigt werden. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Google Keep Sync on MacBook Pro\n\nHello customer support, I hope this message finds you well. I am encountering issues with the sync feature of Google Keep on my MacBook Pro, which started after I installed Apache Hadoop 3.2.1 My name is Elena Ivanova.. I have attempted various troubleshooting steps, including restarting my device, reinstalling Google Keep, and reviewing my Twitch Studio Beta settings, but the problem remains unresolved. I kindly request your assistance in addressing this matter. Please inform me of any further actions I can take or if you need additional details from me You can reach me at maria.gonzalez@shop.es.. I am eager to hear from you soon. Thank you for your support and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        632,
+        654
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Google Keep Sync on MacBook Pro\n\nHello customer support, I hope this message finds you well. I am encountering issues with the sync feature of Google Keep on my MacBook Pro, which started after I installed Apache Hadoop 3.2.1 My name is [full_name].. I have attempted various troubleshooting steps, including restarting my device, reinstalling Google Keep, and reviewing my Twitch Studio Beta settings, but the problem remains unresolved. I kindly request your assistance in addressing this matter. Please inform me of any further actions I can take or if you need additional details from me You can reach me at [email].. I am eager to hear from you soon. Thank you for your support and assistance.",
+  "category_of_the_email": "Incident"
+}

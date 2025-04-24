@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema urgente de escalado\n\nEstimado Servicio de Atenci\u00f3n al Cliente de IT,\n\nEstoy escribiendo para solicitar asistencia inmediata respecto a un ticket cr\u00edtico que aborda un problema urgente de escalado que estamos experimentando con nuestros servicios en la nube de AWS. Espec\u00edficamente, esto se refiere al Servicio de Gesti\u00f3n de AWS, que es integral para nuestras operaciones actuales My name is Carlos Mendoza.. Hemos observado importantes cuellos de botella en el rendimiento y se ha vuelto esencial optimizar la asignaci\u00f3n de recursos para evitar m\u00e1s interrupciones en el servicio.\n\nCreemos que es necesario un aumento en la capacidad de recursos y una alineaci\u00f3n estrat\u00e9gica para satisfacer nuestras crecientes demandas. Se apreciar\u00eda mucho la atenci\u00f3n inmediata a este asunto para mantener la eficiencia operativa y estabilizar los procesos en curso dentro de nuestro entorno en la nube.\n\nAgradecemos su pronta respuesta y manejo experto de este problema para asegurar un tiempo de inactividad minimizado y un funcionamiento \u00f3ptimo de nuestros servicios You can reach me at maria.gonzalez@shop.es.. No dude en contactarme directamente en <tel_num> o por correo electr\u00f3nico a <name>@company.com para obtener m\u00e1s detalles o aclaraciones.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nSaludos cordiales,\n\n<name>\nGerente de Cuenta\n<company_name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        409,
+        423
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1089,
+        1111
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problema urgente de escalado\n\nEstimado Servicio de Atenci\u00f3n al Cliente de IT,\n\nEstoy escribiendo para solicitar asistencia inmediata respecto a un ticket cr\u00edtico que aborda un problema urgente de escalado que estamos experimentando con nuestros servicios en la nube de AWS. Espec\u00edficamente, esto se refiere al Servicio de Gesti\u00f3n de AWS, que es integral para nuestras operaciones actuales My name is [full_name].. Hemos observado importantes cuellos de botella en el rendimiento y se ha vuelto esencial optimizar la asignaci\u00f3n de recursos para evitar m\u00e1s interrupciones en el servicio.\n\nCreemos que es necesario un aumento en la capacidad de recursos y una alineaci\u00f3n estrat\u00e9gica para satisfacer nuestras crecientes demandas. Se apreciar\u00eda mucho la atenci\u00f3n inmediata a este asunto para mantener la eficiencia operativa y estabilizar los procesos en curso dentro de nuestro entorno en la nube.\n\nAgradecemos su pronta respuesta y manejo experto de este problema para asegurar un tiempo de inactividad minimizado y un funcionamiento \u00f3ptimo de nuestros servicios You can reach me at [email].. No dude en contactarme directamente en <tel_num> o por correo electr\u00f3nico a <name>@company.com para obtener m\u00e1s detalles o aclaraciones.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nSaludos cordiales,\n\n<name>\nGerente de Cuenta\n<company_name>",
+  "category_of_the_email": "Incident"
+}

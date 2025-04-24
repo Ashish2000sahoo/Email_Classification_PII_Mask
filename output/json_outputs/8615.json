@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nAttention needed for data breach found in the hospital's system.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        98,
+        113
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: \n\nAttention needed for data breach found in the hospital's system.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

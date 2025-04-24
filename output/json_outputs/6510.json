@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Analytics Services\n\nI write to inquire about data analytics services that can improve investment decision-making. Could you provide information on various types of analyses that could help optimize investment decisions? I would be grateful if further details could be provided, including relevant case studies and references. Thank you in advance for your support and time You can reach me at david.kim@corp.kr.. I look forward to hearing from you. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        480,
+        493
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        413,
+        430
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Investment Analytics Services\n\nI write to inquire about data analytics services that can improve investment decision-making. Could you provide information on various types of analyses that could help optimize investment decisions? I would be grateful if further details could be provided, including relevant case studies and references. Thank you in advance for your support and time You can reach me at [email].. I look forward to hearing from you. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

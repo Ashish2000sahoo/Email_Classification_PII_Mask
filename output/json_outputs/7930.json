@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Query for Billing Options and Payment Integrations\n\nCould you provide details on the billing options and payment integrations available for Monday.com, specifically those related to Monday.com? I would like to understand the available plans and how to set up payments.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        317
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Query for Billing Options and Payment Integrations\n\nCould you provide details on the billing options and payment integrations available for Monday.com, specifically those related to Monday.com? I would like to understand the available plans and how to set up payments.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

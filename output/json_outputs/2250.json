@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Updates on Frequent Session Timeouts\n\nHello Customer Support, I am facing frequent session timeouts which is affecting my productivity. The issue might be related to recent server overloads post the last deployment. I have attempted to optimize database queries and scaled server capacity, but the issues still persist. I would greatly appreciate your assistance in resolving this matter as soon as possible My name is David Kim.. Please let me know if you require any additional information to troubleshoot the issue. Thank you for your prompt attention to this matter. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        437
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        602,
+        624
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Updates on Frequent Session Timeouts\n\nHello Customer Support, I am facing frequent session timeouts which is affecting my productivity. The issue might be related to recent server overloads post the last deployment. I have attempted to optimize database queries and scaled server capacity, but the issues still persist. I would greatly appreciate your assistance in resolving this matter as soon as possible My name is [full_name].. Please let me know if you require any additional information to troubleshoot the issue. Thank you for your prompt attention to this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

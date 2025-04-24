@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Problema de acceso a Google Workspace despu\u00e9s de la migraci\u00f3n\n\nEstimado equipo de soporte,\n\nDespu\u00e9s de la reciente migraci\u00f3n de la cuenta, no puedo acceder a mi correo electr\u00f3nico de Google Workspace ni a mi almacenamiento en la nube. Esto es crucial para las operaciones de mi negocio. Estoy usando el plan Business Standard My name is Maria Gonzalez.. \u00bfPodr\u00edan, por favor, priorizar este problema y resolverlo lo antes posible? Gracias por su pronta atenci\u00f3n.\n\nAtentamente,\n<name>\n<email_address>\n<tel_num> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        369
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        544,
+        566
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problema de acceso a Google Workspace despu\u00e9s de la migraci\u00f3n\n\nEstimado equipo de soporte,\n\nDespu\u00e9s de la reciente migraci\u00f3n de la cuenta, no puedo acceder a mi correo electr\u00f3nico de Google Workspace ni a mi almacenamiento en la nube. Esto es crucial para las operaciones de mi negocio. Estoy usando el plan Business Standard My name is [full_name].. \u00bfPodr\u00edan, por favor, priorizar este problema y resolverlo lo antes posible? Gracias por su pronta atenci\u00f3n.\n\nAtentamente,\n<name>\n<email_address>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

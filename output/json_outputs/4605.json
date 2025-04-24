@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Modeling Outputs Are Incorrect\n\nHere is a concise problem description: What happened: Investment modeling outputs are incorrect, leading to inaccurate predictions My name is Maria Gonzalez.. Why it might have occurred: Potential data ingestion errors or obsolete algorithms You can reach me at janesmith@company.com.. What steps were taken: Kubernetes was restarted; PostgreSQL connections were verified; antivirus scans were performed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        311,
+        332
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Investment Modeling Outputs Are Incorrect\n\nHere is a concise problem description: What happened: Investment modeling outputs are incorrect, leading to inaccurate predictions My name is [full_name].. Why it might have occurred: Potential data ingestion errors or obsolete algorithms You can reach me at [email].. What steps were taken: Kubernetes was restarted; PostgreSQL connections were verified; antivirus scans were performed.",
+  "category_of_the_email": "Problem"
+}

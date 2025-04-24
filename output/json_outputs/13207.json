@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Practices for MongoDB\n\nDear Customer Support, I am contacting you to ask about the security practices that should be adopted for MongoDB in a healthcare setting You can reach me at johndoe@email.com.. Given the sensitive nature of the patient data handled by healthcare organizations, it is essential to safeguard the confidentiality, integrity, and accessibility of this data. MongoDB, a widely used NoSQL database management system, is applied in healthcare and other sectors. Nevertheless, its security protocols and configurations must be meticulously configured to align with the rigorous security standards of healthcare sectors. Could you inform me about the security practices recommended for MongoDB in a healthcare context, such as encryption, access control, authentication, and auditing? Are there any particular configurations or settings that need to be applied to secure patient data? Are there any industry standards or regulations, such as HIPAA, that MongoDB must adhere to in healthcare settings? I would greatly appreciate any advice or recommendations you can provide My name is David Kim.. Furthermore, could you share any best practices for monitoring and maintaining MongoDB security in healthcare environments? I look forward to your response. Thanks again for your support. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1118,
+        1127
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        199,
+        216
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Security Practices for MongoDB\n\nDear Customer Support, I am contacting you to ask about the security practices that should be adopted for MongoDB in a healthcare setting You can reach me at [email].. Given the sensitive nature of the patient data handled by healthcare organizations, it is essential to safeguard the confidentiality, integrity, and accessibility of this data. MongoDB, a widely used NoSQL database management system, is applied in healthcare and other sectors. Nevertheless, its security protocols and configurations must be meticulously configured to align with the rigorous security standards of healthcare sectors. Could you inform me about the security practices recommended for MongoDB in a healthcare context, such as encryption, access control, authentication, and auditing? Are there any particular configurations or settings that need to be applied to secure patient data? Are there any industry standards or regulations, such as HIPAA, that MongoDB must adhere to in healthcare settings? I would greatly appreciate any advice or recommendations you can provide My name is [full_name].. Furthermore, could you share any best practices for monitoring and maintaining MongoDB security in healthcare environments? I look forward to your response. Thanks again for your support. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

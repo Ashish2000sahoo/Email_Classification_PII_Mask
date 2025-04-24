@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Available Payment Methods\n\nCould you kindly inform me about the payment options for the subscription plans? Any additional information would be appreciated.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        203
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Available Payment Methods\n\nCould you kindly inform me about the payment options for the subscription plans? Any additional information would be appreciated.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

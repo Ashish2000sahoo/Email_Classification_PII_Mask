@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Support for ClickUp and AutoCAD 2022 Integration\n\nI am facing difficulties in integrating ClickUp with AutoCAD 2022 and need assistance in setting up efficient project management and design collaboration workflows. Could you provide detailed steps or troubleshooting advice? Your guidance to resolve this issue and enhance my workflow would be greatly appreciated.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        41,
+        45
+      ],
+      "classification": "phone_number",
+      "entity": "2022"
+    },
+    {
+      "position": [
+        120,
+        124
+      ],
+      "classification": "phone_number",
+      "entity": "2022"
+    },
+    {
+      "position": [
+        396,
+        413
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Support for ClickUp and AutoCAD [phone_number] Integration\n\nI am facing difficulties in integrating ClickUp with AutoCAD [phone_number] and need assistance in setting up efficient project management and design collaboration workflows. Could you provide detailed steps or troubleshooting advice? Your guidance to resolve this issue and enhance my workflow would be greatly appreciated.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

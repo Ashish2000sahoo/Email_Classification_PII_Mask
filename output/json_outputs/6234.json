@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Dashboard Load Speed\n\nDear Support Team, I am encountering occasional delays in loading the dashboard My name is Carlos Mendoza.. This could be due to higher user traffic or server performance. Clearing my cache and refreshing the page hasn't resolved the issue. I would greatly appreciate your help in addressing this to maintain a smooth user experience You can reach me at carlosm@gmail.com.. Kindly provide any additional steps I can take to troubleshoot and ensure the known issue is resolved. Thank you for your support in handling this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        150
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        396,
+        413
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern about Dashboard Load Speed\n\nDear Support Team, I am encountering occasional delays in loading the dashboard My name is [full_name].. This could be due to higher user traffic or server performance. Clearing my cache and refreshing the page hasn't resolved the issue. I would greatly appreciate your help in addressing this to maintain a smooth user experience You can reach me at [email].. Kindly provide any additional steps I can take to troubleshoot and ensure the known issue is resolved. Thank you for your support in handling this matter.",
+  "category_of_the_email": "Incident"
+}

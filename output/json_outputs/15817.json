@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am writing to report a critical issue concerning the security of our medical data. Recently, I have experienced unauthorized access attempts, which I believe may be due to outdated security protocols My name is Elena Ivanova.. Despite reviewing and updating the current firewall settings and ensuring the software is up to date, the issues persist You can reach me at omar.hassan@secure.net.. I am concerned about the potential breach of sensitive information and would like immediate assistance in resolving this matter. Could you please provide guidance on how to enhance our security measures?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        247,
+        260
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        402,
+        424
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am writing to report a critical issue concerning the security of our medical data. Recently, I have experienced unauthorized access attempts, which I believe may be due to outdated security protocols My name is [full_name].. Despite reviewing and updating the current firewall settings and ensuring the software is up to date, the issues persist You can reach me at [email].. I am concerned about the potential breach of sensitive information and would like immediate assistance in resolving this matter. Could you please provide guidance on how to enhance our security measures?",
+  "category_of_the_email": "Incident"
+}

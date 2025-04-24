@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr E-Commerce\n\nLieber Kundenservice-Team, ich schreibe Ihnen, um Anregungen f\u00fcr digitale Strategien zu erhalten, die unser Wachstum als Marken auf unserer E-Commerce-Plattform f\u00f6rdern k\u00f6nnten. Uns interessiert es, neue Methoden zu entwickeln, um unser Online-Image zu verbessern und einen breiteren Publikumskreis zu erreichen. K\u00f6nnten Sie uns bitte mit Rat zur Verbesserung unseres Kundenerlebnisses, der Suchmaschinenoptimierung und des sozialen-Medien-Marketing-supported geben? Wir m\u00f6chten auch erfahren, wie wir uns im E-Commerce-Markt vor der Konkurrenz hervorheben und erfahren, mehr \u00fcber E-Mail-Marketing und Affiliate-Marketing. Zudem m\u00f6chten wir \u00fcber die neuesten Trends im E-Commerce informiert werden My name is Jane Smith.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        748,
+        758
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        902,
+        927
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr E-Commerce\n\nLieber Kundenservice-Team, ich schreibe Ihnen, um Anregungen f\u00fcr digitale Strategien zu erhalten, die unser Wachstum als Marken auf unserer E-Commerce-Plattform f\u00f6rdern k\u00f6nnten. Uns interessiert es, neue Methoden zu entwickeln, um unser Online-Image zu verbessern und einen breiteren Publikumskreis zu erreichen. K\u00f6nnten Sie uns bitte mit Rat zur Verbesserung unseres Kundenerlebnisses, der Suchmaschinenoptimierung und des sozialen-Medien-Marketing-supported geben? Wir m\u00f6chten auch erfahren, wie wir uns im E-Commerce-Markt vor der Konkurrenz hervorheben und erfahren, mehr \u00fcber E-Mail-Marketing und Affiliate-Marketing. Zudem m\u00f6chten wir \u00fcber die neuesten Trends im E-Commerce informiert werden My name is [full_name].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

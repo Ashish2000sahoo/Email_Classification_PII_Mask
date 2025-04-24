@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem mit HP DeskJet Drucker\n\nSehr geehrter Kundenservice, \n\nich schreibe, um ein Problem mit unserem HP DeskJet 3755 Drucker zu melden, der derzeit einen 'Papierstau-Fehler' anzeigt, der weitere kabellose Farbdruckvorg\u00e4nge verhindert. Trotz gr\u00fcndlicher \u00dcberpr\u00fcfung des Druckers und dem Entfernen sichtbarer Papierpartikel besteht die Fehlermeldung weiterhin My name is Jane Smith.. Dieses anhaltende Problem st\u00f6rt unsere Druckauftr\u00e4ge erheblich You can reach me at elena.ivanova@support.org.. Wir w\u00fcrden jede Unterst\u00fctzung oder Anleitung, die Sie anbieten k\u00f6nnen, um dieses Problem umgehend zu l\u00f6sen, sehr sch\u00e4tzen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit, und ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        381,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        478,
+        503
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        124,
+        128
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Problem mit HP DeskJet Drucker\n\nSehr geehrter Kundenservice, \n\nich schreibe, um ein Problem mit unserem HP DeskJet [phone_number] Drucker zu melden, der derzeit einen 'Papierstau-Fehler' anzeigt, der weitere kabellose Farbdruckvorg\u00e4nge verhindert. Trotz gr\u00fcndlicher \u00dcberpr\u00fcfung des Druckers und dem Entfernen sichtbarer Papierpartikel besteht die Fehlermeldung weiterhin My name is [full_name].. Dieses anhaltende Problem st\u00f6rt unsere Druckauftr\u00e4ge erheblich You can reach me at [email].. Wir w\u00fcrden jede Unterst\u00fctzung oder Anleitung, die Sie anbieten k\u00f6nnen, um dieses Problem umgehend zu l\u00f6sen, sehr sch\u00e4tzen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit, und ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

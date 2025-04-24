@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Campaign Engagement Issues Reported\n\nThe recent campaign did not succeed due to technical problems. Our attempts to resolve these issues have been unsuccessful.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Campaign Engagement Issues Reported\n\nThe recent campaign did not succeed due to technical problems. Our attempts to resolve these issues have been unsuccessful.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

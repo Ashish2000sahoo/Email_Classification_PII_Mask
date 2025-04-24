@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Implementing Project Management SaaS Solution\n\nDear Customer Support, I am contacting you to seek advice on the best practices for integrating your project management SaaS solution into our workflow You can reach me at johndoe@email.com.. Could you offer some guidance on how to effectively on-board our team and ensure a smooth integration? Additionally, I would value any recommendations or resources you could provide to help us maximize the utility of your platform. Specifically, I am keen to learn more about customization options, strategies for user adoption, and common troubleshooting methods. Thank you for your time and assistance. I anticipate our conversation soon. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        712,
+        719
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        240,
+        257
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Implementing Project Management SaaS Solution\n\nDear Customer Support, I am contacting you to seek advice on the best practices for integrating your project management SaaS solution into our workflow You can reach me at [email].. Could you offer some guidance on how to effectively on-board our team and ensure a smooth integration? Additionally, I would value any recommendations or resources you could provide to help us maximize the utility of your platform. Specifically, I am keen to learn more about customization options, strategies for user adoption, and common troubleshooting methods. Thank you for your time and assistance. I anticipate our conversation soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

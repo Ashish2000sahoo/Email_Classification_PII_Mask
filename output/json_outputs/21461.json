@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Solicitud de devoluci\u00f3n del Epson EcoTank ET-4760 defectuoso\n\nHola, necesito devolver mi Epson EcoTank ET-4760. Tiene atascos de papel frecuentes y muestra c\u00f3digos de error My name is Maria Gonzalez.. Por favor, ay\u00fadame con el proceso de devoluci\u00f3n. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        276,
+        301
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        54,
+        58
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        115,
+        119
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de devoluci\u00f3n del Epson EcoTank ET-[phone_number] defectuoso\n\nHola, necesito devolver mi Epson EcoTank ET-[phone_number]. Tiene atascos de papel frecuentes y muestra c\u00f3digos de error My name is [full_name].. Por favor, ay\u00fadame con el proceso de devoluci\u00f3n. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme der System-Sicherheit\n\nLieber Kundensupport, die IT-Infrastruktur des Krankenhauses hat unerlaubten Zugang versucht. Schwache Passwortsicherheitsrichtlinien und veraltete Software sind m\u00f6glicherweise die Ursache You can reach me at maria.gonzalez@shop.es.. Passworte wurden bereits aktualisiert und die Sicherheit verbessert. Der Sicherheitsdienst arbeitet derzeit an der Ermittlung der Ursache und um zuk\u00fcnftige Vorf\u00e4lle zu vermeiden. Bitte helfen Sie bei der L\u00f6sung der Angelegenheit, Ratschl\u00e4ge geben und Ma\u00dfnahmen zur Verbesserung der IT-Sicherheit ergreifen, um unerlaubten Zugang zu vermeiden My name is Elena Ivanova.. Ich freue mich, Empfehlungen zu Passwortsicherheitsrichtlinien und Software-Updates zu erhalten. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        628,
+        641
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        250,
+        272
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme der System-Sicherheit\n\nLieber Kundensupport, die IT-Infrastruktur des Krankenhauses hat unerlaubten Zugang versucht. Schwache Passwortsicherheitsrichtlinien und veraltete Software sind m\u00f6glicherweise die Ursache You can reach me at [email].. Passworte wurden bereits aktualisiert und die Sicherheit verbessert. Der Sicherheitsdienst arbeitet derzeit an der Ermittlung der Ursache und um zuk\u00fcnftige Vorf\u00e4lle zu vermeiden. Bitte helfen Sie bei der L\u00f6sung der Angelegenheit, Ratschl\u00e4ge geben und Ma\u00dfnahmen zur Verbesserung der IT-Sicherheit ergreifen, um unerlaubten Zugang zu vermeiden My name is [full_name].. Ich freue mich, Empfehlungen zu Passwortsicherheitsrichtlinien und Software-Updates zu erhalten. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

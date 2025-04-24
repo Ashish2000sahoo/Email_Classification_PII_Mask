@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Analysis Performance Issues\n\nHello, we are encountering performance issues with our data analysis processes. Initial troubleshooting steps such as restarting devices and updating software applications were unsuccessful You can reach me at carlosm@gmail.com.. Could you assist in identifying the root cause and implementing a solution to improve performance? For better understanding, please provide details on the specific hardware and software configurations. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        506,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        273,
+        290
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Analysis Performance Issues\n\nHello, we are encountering performance issues with our data analysis processes. Initial troubleshooting steps such as restarting devices and updating software applications were unsuccessful You can reach me at [email].. Could you assist in identifying the root cause and implementing a solution to improve performance? For better understanding, please provide details on the specific hardware and software configurations. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

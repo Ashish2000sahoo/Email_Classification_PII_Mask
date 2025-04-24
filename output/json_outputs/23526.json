@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Optimierung der AWS-Konfigurationen mit dem Management-Service\n\nSehr geehrtes Support-Team der IT-Consulting-Firma,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf. Ich schreibe, um Unterst\u00fctzung bei der Modifizierung unserer AWS-Konfigurationen zu suchen. Wir zielen darauf ab, die Ressourcenzuweisung zu verbessern und die Infrastrukturkosten zu senken, indem wir unser aktuelles Setup im Rahmen des Produkts AWS Management Service optimieren.\n\nWir ben\u00f6tigen eine detaillierte \u00dcberpr\u00fcfung und fachkundige Empfehlungen zu den \u00c4nderungen, die erforderlich sind, um diese Ziele effizient zu erreichen. Bitte geben Sie so schnell wie m\u00f6glich Hinweise, damit wir notwendige Anpassungen umsetzen k\u00f6nnen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit und Unterst\u00fctzung in dieser Angelegenheit You can reach me at johndoe@email.com.. Sie k\u00f6nnen mich jederzeit bequem per E-Mail oder Telefonnummer erreichen. Ich freue mich auf Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1008,
+        1021
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        821,
+        838
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Optimierung der AWS-Konfigurationen mit dem Management-Service\n\nSehr geehrtes Support-Team der IT-Consulting-Firma,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf. Ich schreibe, um Unterst\u00fctzung bei der Modifizierung unserer AWS-Konfigurationen zu suchen. Wir zielen darauf ab, die Ressourcenzuweisung zu verbessern und die Infrastrukturkosten zu senken, indem wir unser aktuelles Setup im Rahmen des Produkts AWS Management Service optimieren.\n\nWir ben\u00f6tigen eine detaillierte \u00dcberpr\u00fcfung und fachkundige Empfehlungen zu den \u00c4nderungen, die erforderlich sind, um diese Ziele effizient zu erreichen. Bitte geben Sie so schnell wie m\u00f6glich Hinweise, damit wir notwendige Anpassungen umsetzen k\u00f6nnen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit und Unterst\u00fctzung in dieser Angelegenheit You can reach me at [email].. Sie k\u00f6nnen mich jederzeit bequem per E-Mail oder Telefonnummer erreichen. Ich freue mich auf Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Pedido para Abordar Discrep\u00e2ncias na Declara\u00e7\u00e3o de Cobran\u00e7a\n\nOl\u00e1 Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar uma revis\u00e3o da minha declara\u00e7\u00e3o de cobran\u00e7a em rela\u00e7\u00e3o \u00e0 minha assinatura do Microsoft Office 365. Notei algumas discrep\u00e2ncias na \u00faltima cobran\u00e7a para o n\u00famero da conta <acc_num>. Parece que h\u00e1 taxas adicionais que n\u00e3o foram divulgadas anteriormente. Por favor, ajude a esclarecer esta quest\u00e3o e garanta que quaisquer cobran\u00e7as n\u00e3o autorizadas sejam revertidas. Al\u00e9m disso, por favor, confirme os termos atuais da assinatura e a discrimina\u00e7\u00e3o de custos You can reach me at elena.ivanova@support.org.. Voc\u00ea pode entrar em contato comigo diretamente pelo <tel_num>.\n\nObrigado pela sua assist\u00eancia r\u00e1pida.\n\nAtenciosamente,\n\n<name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        807,
+        816
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        641,
+        666
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        262,
+        265
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Pedido para Abordar Discrep\u00e2ncias na Declara\u00e7\u00e3o de Cobran\u00e7a\n\nOl\u00e1 Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar uma revis\u00e3o da minha declara\u00e7\u00e3o de cobran\u00e7a em rela\u00e7\u00e3o \u00e0 minha assinatura do Microsoft Office [cvv_no]. Notei algumas discrep\u00e2ncias na \u00faltima cobran\u00e7a para o n\u00famero da conta <acc_num>. Parece que h\u00e1 taxas adicionais que n\u00e3o foram divulgadas anteriormente. Por favor, ajude a esclarecer esta quest\u00e3o e garanta que quaisquer cobran\u00e7as n\u00e3o autorizadas sejam revertidas. Al\u00e9m disso, por favor, confirme os termos atuais da assinatura e a discrimina\u00e7\u00e3o de custos You can reach me at [email].. Voc\u00ea pode entrar em contato comigo diretamente pelo <tel_num>.\n\nObrigado pela sua assist\u00eancia r\u00e1pida.\n\nAtenciosamente,\n\n<name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Datensynchronisation gemeldet\n\nDer Benutzer meldete Probleme bei der Datensynchronisation der Ger\u00e4te You can reach me at fatima.farsi@help.com.. Diese sind wahrscheinlich auf fehlerhafte Einstellungen zur\u00fcckzuf\u00fchren. Der Benutzer hat versucht, die Ger\u00e4te neu zu starten und die Konten neu zuzuordnen, um das Problem zu beheben. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        379
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        147,
+        168
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Datensynchronisation gemeldet\n\nDer Benutzer meldete Probleme bei der Datensynchronisation der Ger\u00e4te You can reach me at [email].. Diese sind wahrscheinlich auf fehlerhafte Einstellungen zur\u00fcckzuf\u00fchren. Der Benutzer hat versucht, die Ger\u00e4te neu zu starten und die Konten neu zuzuordnen, um das Problem zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

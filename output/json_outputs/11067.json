@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Inquiry on Pricing for HubSpot CRM and Adobe After Effects 2021\n\nI am contacting customer support to seek details on the pricing structures for HubSpot CRM and Adobe After Effects 2021. It would be helpful if you could share the available plans and pricing tiers for each product You can reach me at janesmith@company.com.. Furthermore, I would like to be updated on any current discounts or promotions. If possible, I am also interested in knowing about bundle deals or special offers for buying both products together. Thank you for your support. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        569,
+        576
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        309,
+        330
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        68,
+        72
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        189,
+        193
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Pricing for HubSpot CRM and Adobe After Effects [phone_number]\n\nI am contacting customer support to seek details on the pricing structures for HubSpot CRM and Adobe After Effects [phone_number]. It would be helpful if you could share the available plans and pricing tiers for each product You can reach me at [email].. Furthermore, I would like to be updated on any current discounts or promotions. If possible, I am also interested in knowing about bundle deals or special offers for buying both products together. Thank you for your support. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

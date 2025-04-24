@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Improved Security for Medical Data Management\n\nWe need to implement improved security protocols for managing medical data in hospital systems to protect patient information and ensure confidentiality.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        248
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Improved Security for Medical Data Management\n\nWe need to implement improved security protocols for managing medical data in hospital systems to protect patient information and ensure confidentiality.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

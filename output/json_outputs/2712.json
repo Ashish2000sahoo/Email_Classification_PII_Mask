@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Details on Scalable SaaS Project Management Solutions\n\nI am keen to learn about scalable SaaS project management solutions. Could you provide information on the pricing plans? I would greatly appreciate it if you could include details on any discounts, long-term commitments, and bulk purchase options My name is Sophia Rossi.. Additionally, please let me know what customization options are available to suit our specific needs. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        458,
+        479
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Details on Scalable SaaS Project Management Solutions\n\nI am keen to learn about scalable SaaS project management solutions. Could you provide information on the pricing plans? I would greatly appreciate it if you could include details on any discounts, long-term commitments, and bulk purchase options My name is [full_name].. Additionally, please let me know what customization options are available to suit our specific needs. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

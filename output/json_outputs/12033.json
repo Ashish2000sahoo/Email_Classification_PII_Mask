@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Datenanalyse-Plattform\n\nLieber Kundenservice,\\n\\nich melde mir, um Ihnen zu berichten, dass unser Datenanalyse-System nicht korrekt funktioniert und sich nicht ladet. Es k\u00f6nnte sein, dass die Serverressourcen nicht ausreichend sind You can reach me at maria.gonzalez@shop.es.. Wir haben bereits versucht, die Server neu zu starten und die Netzwerkverbindungen zu \u00fcberpr\u00fcfen, aber das Problem beharrt unver\u00e4ndert My name is Fatima Al-Farsi.. Wir w\u00fcrden uns freuen, wenn Sie sich um dieses Problem k\u00fcmmern und uns so bald wie m\u00f6glich eine L\u00f6sung oder erg\u00e4nzende Anforderungen zur L\u00f6sung des Problems mitteilen k\u00f6nnten.\\n\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen, \\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        449,
+        458
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        278,
+        300
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Datenanalyse-Plattform\n\nLieber Kundenservice,\\n\\nich melde mir, um Ihnen zu berichten, dass unser Datenanalyse-System nicht korrekt funktioniert und sich nicht ladet. Es k\u00f6nnte sein, dass die Serverressourcen nicht ausreichend sind You can reach me at [email].. Wir haben bereits versucht, die Server neu zu starten und die Netzwerkverbindungen zu \u00fcberpr\u00fcfen, aber das Problem beharrt unver\u00e4ndert My name is [full_name]-Farsi.. Wir w\u00fcrden uns freuen, wenn Sie sich um dieses Problem k\u00fcmmern und uns so bald wie m\u00f6glich eine L\u00f6sung oder erg\u00e4nzende Anforderungen zur L\u00f6sung des Problems mitteilen k\u00f6nnten.\\n\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen, \\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

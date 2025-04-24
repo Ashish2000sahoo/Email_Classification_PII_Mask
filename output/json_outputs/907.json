@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Invoice\n\nWrite to us about a discrepancy in the invoice regarding several technical products You can reach me at david.kim@corp.kr.. The issue arose recently from expired subscriptions. Despite efforts to verify transactions and claim support, the problem remains unresolved. We look forward to addressing this soon and offering a solution. Please inform us if additional information is needed to proceed. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        437,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        133,
+        150
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Invoice\n\nWrite to us about a discrepancy in the invoice regarding several technical products You can reach me at [email].. The issue arose recently from expired subscriptions. Despite efforts to verify transactions and claim support, the problem remains unresolved. We look forward to addressing this soon and offering a solution. Please inform us if additional information is needed to proceed. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

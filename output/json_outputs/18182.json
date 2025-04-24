@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Inquiries About SaaS Billing Options\n\nCan you furnish me with information about the billing options for the SaaS project management solution? Specifically, I am interested in learning about the available subscription plans and any discounts that might be offered.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        311
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Inquiries About SaaS Billing Options\n\nCan you furnish me with information about the billing options for the SaaS project management solution? Specifically, I am interested in learning about the available subscription plans and any discounts that might be offered.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

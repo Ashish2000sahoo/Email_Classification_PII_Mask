@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Duolingo Ads Stopped Showing on Android 12 Devices\n\nAfter updating to Android 12, Duolingo ads ceased to display. There may be a problem with the recent Ruby on Rails code update My name is Fatima Al-Farsi.. I have already restarted the Aruba switch and reviewed the SQL server logs. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        199,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        315,
+        338
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Duolingo Ads Stopped Showing on Android 12 Devices\n\nAfter updating to Android 12, Duolingo ads ceased to display. There may be a problem with the recent Ruby on Rails code update My name is [full_name]-Farsi.. I have already restarted the Aruba switch and reviewed the SQL server logs. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

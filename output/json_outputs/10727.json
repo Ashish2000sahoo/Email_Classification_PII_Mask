@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Login Failures During Peak Hours\n\nHello Customer Support, we are facing sudden login failures predominantly during peak usage hours. This might be due to server overload or issues with session handling My name is Sophia Rossi.. We have attempted to restart the server and clear the cache, but the problem still persists. The issue started yesterday and recurs every hour. Our team has tried troubleshooting, but we need your assistance to resolve it You can reach me at david.kim@corp.kr.. Could you please investigate the matter and provide a solution at your earliest convenience? We appreciate prompt attention to this matter and look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        487,
+        504
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Reported Login Failures During Peak Hours\n\nHello Customer Support, we are facing sudden login failures predominantly during peak usage hours. This might be due to server overload or issues with session handling My name is [full_name].. We have attempted to restart the server and clear the cache, but the problem still persists. The issue started yesterday and recurs every hour. Our team has tried troubleshooting, but we need your assistance to resolve it You can reach me at [email].. Could you please investigate the matter and provide a solution at your earliest convenience? We appreciate prompt attention to this matter and look forward to your response.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with System Outages on Various Products\n\nFaced system outages that impacted multiple products, causing disruptions to project management tasks. These outages might be due to recent updates that could have caused compatibility issues. After attempting to rollback changes and restarting affected services, the issue still persists My name is Jane Smith.. Kindly assist in resolving this matter as soon as possible. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        357,
+        367
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        451,
+        472
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with System Outages on Various Products\n\nFaced system outages that impacted multiple products, causing disruptions to project management tasks. These outages might be due to recent updates that could have caused compatibility issues. After attempting to rollback changes and restarting affected services, the issue still persists My name is [full_name].. Kindly assist in resolving this matter as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

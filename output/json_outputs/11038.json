@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Login Process\n\nI've been facing occasional login difficulties that happened suddenly. It might be due to an old browser cache. Despite clearing the cache and rebooting the browser, the problem continues My name is Omar Hassan.. I would be grateful if you could examine this situation and offer a solution promptly You can reach me at carlosm@gmail.com.. Please inform me if there are additional measures I can take to resolve it. I am eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        356,
+        373
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Login Process\n\nI've been facing occasional login difficulties that happened suddenly. It might be due to an old browser cache. Despite clearing the cache and rebooting the browser, the problem continues My name is [full_name].. I would be grateful if you could examine this situation and offer a solution promptly You can reach me at [email].. Please inform me if there are additional measures I can take to resolve it. I am eagerly awaiting your response.",
+  "category_of_the_email": "Incident"
+}

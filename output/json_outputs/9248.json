@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with System Encryption\n\nUnexpected failure in the encryption of medical data was observed last night My name is Elena Ivanova.. It is possible that outdated dependencies from GitHub are causing conflicts You can reach me at elena.ivanova@support.org.. Despite restarting the servers and reviewing the firewall logs, the problem remains unresolved.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        140
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        237,
+        262
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with System Encryption\n\nUnexpected failure in the encryption of medical data was observed last night My name is [full_name].. It is possible that outdated dependencies from GitHub are causing conflicts You can reach me at [email].. Despite restarting the servers and reviewing the firewall logs, the problem remains unresolved.",
+  "category_of_the_email": "Incident"
+}

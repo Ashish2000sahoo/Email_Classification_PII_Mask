@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, kindly draw attention to the critical importance of implementing advanced security protocols for the protection of medical data within the hospital's infrastructure. Ensuring the security of medical data is of utmost importance, as a data breach could lead to severe consequences. We request immediate action to implement robust security measures to protect sensitive medical information You can reach me at sophia.rossi@service.it.. This includes encrypting patient data, setting up firewalls, and conducting regular security audits. Additionally, we recommend providing training. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        622,
+        631
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        437,
+        460
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, kindly draw attention to the critical importance of implementing advanced security protocols for the protection of medical data within the hospital's infrastructure. Ensuring the security of medical data is of utmost importance, as a data breach could lead to severe consequences. We request immediate action to implement robust security measures to protect sensitive medical information You can reach me at [email].. This includes encrypting patient data, setting up firewalls, and conducting regular security audits. Additionally, we recommend providing training. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Change"
+}

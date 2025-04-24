@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unanticipated Fees on My Account\n\nThere are several unanticipated fees on my multiple services.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Unanticipated Fees on My Account\n\nThere are several unanticipated fees on my multiple services.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

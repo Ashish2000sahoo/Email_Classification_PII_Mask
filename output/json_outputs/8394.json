@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Wachstum von Marken im Digitalland\n\nSehr geehrte Kundenservice, ich wende mich an Sie hinsichtlich der digitalen Strategien, die Sie zur Markenerweiterung anbieten. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen zu Ihren angebotenen Dienstleistungen geben? Ich bin am Interesse, wie Sie unser Unternehmen bei der Erkennbarkeit und Markenerweiterung unterst\u00fctzen, unser Online-Profile ausbauen und neue Kunden erreichen You can reach me at carlosm@gmail.com.. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten. Vielen Dank f\u00fcr Ihre Zeit. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        560,
+        567
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        449,
+        466
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Wachstum von Marken im Digitalland\n\nSehr geehrte Kundenservice, ich wende mich an Sie hinsichtlich der digitalen Strategien, die Sie zur Markenerweiterung anbieten. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen zu Ihren angebotenen Dienstleistungen geben? Ich bin am Interesse, wie Sie unser Unternehmen bei der Erkennbarkeit und Markenerweiterung unterst\u00fctzen, unser Online-Profile ausbauen und neue Kunden erreichen You can reach me at [email].. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten. Vielen Dank f\u00fcr Ihre Zeit. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

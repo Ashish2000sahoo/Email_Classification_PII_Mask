@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support f\u00fcr Marketingbureau\n\nIhr Marketingb\u00fcro k\u00e4mpft, um digitale Strategien f\u00fcr Markenwachstum zu nutzen. Ihr versucht, Kampagnen zu \u00fcberarbeiten, dabei minimale Verbesserungen vorzunehmen You can reach me at david.kim@corp.kr.. Veraltete Taktiken und ein Mangel an Zielgruppenanalyse k\u00f6nnten die Ursache sein My name is Omar Hassan.. Bitte ben\u00f6tigt Hilfe, um Ihre digitalen Marketingbem\u00fchungen zu verbessern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        220,
+        237
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support f\u00fcr Marketingbureau\n\nIhr Marketingb\u00fcro k\u00e4mpft, um digitale Strategien f\u00fcr Markenwachstum zu nutzen. Ihr versucht, Kampagnen zu \u00fcberarbeiten, dabei minimale Verbesserungen vorzunehmen You can reach me at [email].. Veraltete Taktiken und ein Mangel an Zielgruppenanalyse k\u00f6nnten die Ursache sein My name is [full_name].. Bitte ben\u00f6tigt Hilfe, um Ihre digitalen Marketingbem\u00fchungen zu verbessern.",
+  "category_of_the_email": "Incident"
+}

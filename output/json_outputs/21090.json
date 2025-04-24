@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de rendimiento con Dell XPS 13\n\nEstimado cliente del soporte t\u00e9cnico de la tienda en l\u00ednea,\n\nMe pongo en contacto para informar un problema de rendimiento con mi ultrabook Dell XPS 13 9310 adquirido recientemente. Desde que lo compr\u00e9, he notado que su rendimiento es significativamente m\u00e1s lento de lo esperado para una m\u00e1quina de este calibre y rango de precio. Los programas tardan mucho en cargar, y la capacidad de respuesta general del sistema es lenta, incluso al realizar tareas b\u00e1sicas.\n\nYa he intentado algunos pasos b\u00e1sicos de soluci\u00f3n de problemas, como reiniciar el dispositivo, verificar si hay actualizaciones y ejecutar un an\u00e1lisis de virus para asegurarme de que no haya malware afectando el rendimiento. A pesar de estos esfuerzos, el problema persiste.\n\nComo mi per\u00edodo de garant\u00eda a\u00fan est\u00e1 activo, agradecer\u00eda su orientaci\u00f3n sobre los pr\u00f3ximos pasos que deber\u00eda tomar para resolver este problema You can reach me at johndoe@email.com.. Si es necesario, estoy dispuesto a enviar mi dispositivo para un chequeo diagn\u00f3stico completo o reparaci\u00f3n My name is David Kim.. Adem\u00e1s, por favor h\u00e1game saber si este es un problema conocido con este modelo y si hay soluciones espec\u00edficas recomendadas.\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su r\u00e1pida respuesta.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1091,
+        1100
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        953,
+        970
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        199,
+        206
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema de rendimiento con Dell XPS 13\n\nEstimado cliente del soporte t\u00e9cnico de la tienda en l\u00ednea,\n\nMe pongo en contacto para informar un problema de rendimiento con mi ultrabook Dell XPS [phone_number] adquirido recientemente. Desde que lo compr\u00e9, he notado que su rendimiento es significativamente m\u00e1s lento de lo esperado para una m\u00e1quina de este calibre y rango de precio. Los programas tardan mucho en cargar, y la capacidad de respuesta general del sistema es lenta, incluso al realizar tareas b\u00e1sicas.\n\nYa he intentado algunos pasos b\u00e1sicos de soluci\u00f3n de problemas, como reiniciar el dispositivo, verificar si hay actualizaciones y ejecutar un an\u00e1lisis de virus para asegurarme de que no haya malware afectando el rendimiento. A pesar de estos esfuerzos, el problema persiste.\n\nComo mi per\u00edodo de garant\u00eda a\u00fan est\u00e1 activo, agradecer\u00eda su orientaci\u00f3n sobre los pr\u00f3ximos pasos que deber\u00eda tomar para resolver este problema You can reach me at [email].. Si es necesario, estoy dispuesto a enviar mi dispositivo para un chequeo diagn\u00f3stico completo o reparaci\u00f3n My name is [full_name].. Adem\u00e1s, por favor h\u00e1game saber si este es un problema conocido con este modelo y si hay soluciones espec\u00edficas recomendadas.\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su r\u00e1pida respuesta.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

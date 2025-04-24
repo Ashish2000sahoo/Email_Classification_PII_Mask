@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThe campaign metrics are not being tracked because of a problem with the API integration. I have verified the settings on the dashboard.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        170,
+        186
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe campaign metrics are not being tracked because of a problem with the API integration. I have verified the settings on the dashboard.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

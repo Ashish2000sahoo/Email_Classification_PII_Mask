@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technology Assistance\n\nFacing irregular data synchronization in project data within the SAP ERP SaaS platform My name is Sophia Rossi.. The issue might be due to compatibility issues with SAP ERP Central Component 6.0 You can reach me at elena.ivanova@support.org.. We have attempted clearing the cache, updating to iOS 15, and verifying system compatibility settings, but the problem still exists. Please assist in resolving this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        142
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        246,
+        271
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Technology Assistance\n\nFacing irregular data synchronization in project data within the SAP ERP SaaS platform My name is [full_name].. The issue might be due to compatibility issues with SAP ERP Central Component 6.0 You can reach me at [email].. We have attempted clearing the cache, updating to iOS 15, and verifying system compatibility settings, but the problem still exists. Please assist in resolving this issue.",
+  "category_of_the_email": "Incident"
+}

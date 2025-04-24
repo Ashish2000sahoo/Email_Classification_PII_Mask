@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investmentsbericht und Rechnungsprobleme\n\nEs gab Schwierigkeiten bei der Erstellung des j\u00fcngsten Investitionsberichts und es sind Rechnungsfehler aufgetreten My name is Sophia Rossi.. Diese k\u00f6nnen auf Softwarekonflikten zur\u00fcckzuf\u00fchren sein. Die Zahlungseinstellungen wurden bereits \u00fcberpr\u00fcft und die Softwareversionen wurden auf Aktualisierungen gepr\u00fcft. Das Problem wird weiterhin gel\u00f6st. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        418,
+        435
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Investmentsbericht und Rechnungsprobleme\n\nEs gab Schwierigkeiten bei der Erstellung des j\u00fcngsten Investitionsberichts und es sind Rechnungsfehler aufgetreten My name is [full_name].. Diese k\u00f6nnen auf Softwarekonflikten zur\u00fcckzuf\u00fchren sein. Die Zahlungseinstellungen wurden bereits \u00fcberpr\u00fcft und die Softwareversionen wurden auf Aktualisierungen gepr\u00fcft. Das Problem wird weiterhin gel\u00f6st. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

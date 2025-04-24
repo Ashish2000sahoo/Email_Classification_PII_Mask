@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Insights on Data Analytics\n\nHello Customer Support, I am writing to seek information on data analytics tools that can enhance investment strategies for financial firms. As data becomes more abundant, utilizing data analytics is crucial for making well-informed investment choices You can reach me at sophia.rossi@service.it.. I am particularly interested in tools that can process large datasets, uncover patterns, and forecast market trends. I have noticed tools such as Tableau, Power BI, and Python libraries like Pandas and NumPy being used, but I would appreciate insights into additional tools that can be utilized for optimizing investment strategies My name is David Kim.. Could you recommend any tools or provide resources to help me start my exploration?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        678,
+        687
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        309,
+        332
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Insights on Data Analytics\n\nHello Customer Support, I am writing to seek information on data analytics tools that can enhance investment strategies for financial firms. As data becomes more abundant, utilizing data analytics is crucial for making well-informed investment choices You can reach me at [email].. I am particularly interested in tools that can process large datasets, uncover patterns, and forecast market trends. I have noticed tools such as Tableau, Power BI, and Python libraries like Pandas and NumPy being used, but I would appreciate insights into additional tools that can be utilized for optimizing investment strategies My name is [full_name].. Could you recommend any tools or provide resources to help me start my exploration?",
+  "category_of_the_email": "Request"
+}

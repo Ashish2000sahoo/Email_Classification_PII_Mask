@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Projections Are Inexact\n\nInvestment projections are imprecise My name is Fatima Al-Farsi.. The data analytics software seems to have a glitch You can reach me at david.kim@corp.kr.. Restarted the Hub and Kubernetes.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        93,
+        102
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        184,
+        201
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Investment Projections Are Inexact\n\nInvestment projections are imprecise My name is [full_name]-Farsi.. The data analytics software seems to have a glitch You can reach me at [email].. Restarted the Hub and Kubernetes.",
+  "category_of_the_email": "Incident"
+}

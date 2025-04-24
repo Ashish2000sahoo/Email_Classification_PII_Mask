@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Server Downtime Issue\n\nCustomer Support, we are experiencing frequent downtime with our project management SaaS. Despite restarting the server, optimizing the code, and increasing allocated resources, the issue still persists You can reach me at janesmith@company.com.. We have identified a possible cause of server overload My name is Sophia Rossi.. We would greatly appreciate your assistance in resolving this matter. Please let us know the next steps to take. We look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        255,
+        276
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Server Downtime Issue\n\nCustomer Support, we are experiencing frequent downtime with our project management SaaS. Despite restarting the server, optimizing the code, and increasing allocated resources, the issue still persists You can reach me at [email].. We have identified a possible cause of server overload My name is [full_name].. We would greatly appreciate your assistance in resolving this matter. Please let us know the next steps to take. We look forward to hearing from you soon.",
+  "category_of_the_email": "Incident"
+}

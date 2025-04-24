@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme bei den Projektdaten\n\nUnvorherg\u00e4glich verschwanden die Projektdaten, wobei ein m\u00f6glicher Grund die Kubernetes-Integration sein k\u00f6nnte. Die Anwendung wurde neu gestartet, die Logs gepr\u00fcft und die Backups best\u00e4tigt.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        270
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei den Projektdaten\n\nUnvorherg\u00e4glich verschwanden die Projektdaten, wobei ein m\u00f6glicher Grund die Kubernetes-Integration sein k\u00f6nnte. Die Anwendung wurde neu gestartet, die Logs gepr\u00fcft und die Backups best\u00e4tigt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

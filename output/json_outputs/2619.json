@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Integration Inquiry\n\nHello, I am writing to seek information on the integration capabilities between Smart-Tracker and Ansible as well as SQL Server. Could you please share details on the current integrations and any associated limitations or prerequisites?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        304
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Integration Inquiry\n\nHello, I am writing to seek information on the integration capabilities between Smart-Tracker and Ansible as well as SQL Server. Could you please share details on the current integrations and any associated limitations or prerequisites?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

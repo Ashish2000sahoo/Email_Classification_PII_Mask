@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Trouble with Data Dashboard\n\nSQL queries have suddenly stopped due to overloaded servers or software conflicts.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        143,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Data Dashboard\n\nSQL queries have suddenly stopped due to overloaded servers or software conflicts.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

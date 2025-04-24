@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Technical Support Needed\n\nDear Support Team,\n\nI hope this message reaches you in excellent spirits You can reach me at david.kim@corp.kr.. I am reaching out to seek urgent assistance concerning several critical software development issues that we are currently encountering. Our organization at <name>'s company relies on your IT Consulting Services, and the prevailing problems are leading to significant disruptions in our productivity and workflow.\n\nA number of important concerns have arisen that require immediate attention to prevent any further problems. Considering the seriousness of these issues, I kindly request that you give our case top priority and provide guidance or a solution at your earliest convenience My name is Omar Hassan.. Our reliance on your services underscores the necessity of their constant functionality to ensure the seamless operation of our activities.\n\nPlease let me know the best way to proceed or if you require additional details from our end to help speed up the resolution process. You can also contact me directly at <tel_num> during business hours if there\u2019s a need for urgent conversations.\n\nThank you for your prompt attention to this matter. I eagerly await your timely response and a solution that will effectively help us overcome these challenges.\n\nSincerely,\n\n<name>\n<name>'s Company\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        751,
+        762
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        135,
+        152
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgent Technical Support Needed\n\nDear Support Team,\n\nI hope this message reaches you in excellent spirits You can reach me at [email].. I am reaching out to seek urgent assistance concerning several critical software development issues that we are currently encountering. Our organization at <name>'s company relies on your IT Consulting Services, and the prevailing problems are leading to significant disruptions in our productivity and workflow.\n\nA number of important concerns have arisen that require immediate attention to prevent any further problems. Considering the seriousness of these issues, I kindly request that you give our case top priority and provide guidance or a solution at your earliest convenience My name is [full_name].. Our reliance on your services underscores the necessity of their constant functionality to ensure the seamless operation of our activities.\n\nPlease let me know the best way to proceed or if you require additional details from our end to help speed up the resolution process. You can also contact me directly at <tel_num> during business hours if there\u2019s a need for urgent conversations.\n\nThank you for your prompt attention to this matter. I eagerly await your timely response and a solution that will effectively help us overcome these challenges.\n\nSincerely,\n\n<name>\n<name>'s Company\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

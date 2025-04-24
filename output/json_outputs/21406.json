@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud Urgente de Modificaci\u00f3n de Ticket de Jira\n\nEstimado Soporte al Cliente,\n\nEspero que este mensaje lo encuentre bien You can reach me at janesmith@company.com.. Me estoy comunicando con una solicitud urgente para modificar la configuraci\u00f3n de categorizaci\u00f3n de tickets en nuestro Jira Software 8.20 para mejorar la gesti\u00f3n del proyecto. Esta modificaci\u00f3n es de alta prioridad y mejorar\u00e1 significativamente el flujo de trabajo de nuestro equipo My name is Jane Smith.. Por favor, ind\u00edquenos c\u00f3mo pueden ayudarnos a acelerar este proceso.\n\nGracias por su atenci\u00f3n inmediata.\n\nAtentamente,\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        472,
+        482
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        154,
+        175
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Solicitud Urgente de Modificaci\u00f3n de Ticket de Jira\n\nEstimado Soporte al Cliente,\n\nEspero que este mensaje lo encuentre bien You can reach me at [email].. Me estoy comunicando con una solicitud urgente para modificar la configuraci\u00f3n de categorizaci\u00f3n de tickets en nuestro Jira Software 8.20 para mejorar la gesti\u00f3n del proyecto. Esta modificaci\u00f3n es de alta prioridad y mejorar\u00e1 significativamente el flujo de trabajo de nuestro equipo My name is [full_name].. Por favor, ind\u00edquenos c\u00f3mo pueden ayudarnos a acelerar este proceso.\n\nGracias por su atenci\u00f3n inmediata.\n\nAtentamente,\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

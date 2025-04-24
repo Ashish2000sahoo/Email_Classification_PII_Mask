@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Digital Marketing Campaign\n\nThe analytics software integration with tools failed due to version incompatibilities. After updating the software and cleaning caches, the issue still persists.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        221,
+        237
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Digital Marketing Campaign\n\nThe analytics software integration with tools failed due to version incompatibilities. After updating the software and cleaning caches, the issue still persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

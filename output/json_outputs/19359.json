@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Synchronization across Various Platforms\n\nUsers are experiencing issues with synchronization in Zoho CRM and Adobe Sign. Recent API changes and server outages might be the cause You can reach me at janesmith@company.com.. Attempts to resolve the issue include clearing caches, restarting connections, and verifying login credentials My name is Maria Gonzalez.. Despite these efforts, the problem persists. Further assistance is required to identify and resolve the cause of the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        364,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        218,
+        239
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Synchronization across Various Platforms\n\nUsers are experiencing issues with synchronization in Zoho CRM and Adobe Sign. Recent API changes and server outages might be the cause You can reach me at [email].. Attempts to resolve the issue include clearing caches, restarting connections, and verifying login credentials My name is [full_name].. Despite these efforts, the problem persists. Further assistance is required to identify and resolve the cause of the issue.",
+  "category_of_the_email": "Incident"
+}

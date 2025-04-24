@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische Datensicherheitsnummer\n\nDie Verschl\u00fcsselung medizinischer Informationen hat aufgrund einer veralteten Oracle Database 19c-Konfiguration misslingt. Der RAID-Controller wurde neu gestartet und die JIRA Software Logdateien wurden gepr\u00fcft.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        280,
+        295
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datensicherheitsnummer\n\nDie Verschl\u00fcsselung medizinischer Informationen hat aufgrund einer veralteten Oracle Database 19c-Konfiguration misslingt. Der RAID-Controller wurde neu gestartet und die JIRA Software Logdateien wurden gepr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Digital Services Invoicing\n\nOur company was incorrectly charged twice for digital services, leading to financial flow issues due to system errors.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        204
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Digital Services Invoicing\n\nOur company was incorrectly charged twice for digital services, leading to financial flow issues due to system errors.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

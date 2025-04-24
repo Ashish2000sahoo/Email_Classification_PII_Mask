@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia requerida para la actualizaci\u00f3n del teclado Surface Pro 7\n\nEstimado equipo de soporte de Tech Online Store,\n\nMe estoy poniendo en contacto para recibir asistencia con la actualizaci\u00f3n del teclado desmontable para mi Microsoft Surface Pro 7, que actualmente funciona con Windows 10. Recientemente, he encontrado algunos problemas de compatibilidad y necesito orientaci\u00f3n para asegurar un proceso de actualizaci\u00f3n fluido.\n\n\u00bfPodr\u00edan por favor proporcionar instrucciones paso a paso o consejos de soluci\u00f3n de problemas para abordar posibles obst\u00e1culos? Adem\u00e1s, inf\u00f3rmenme si hay controladores espec\u00edficos o actualizaciones requeridas para un funcionamiento \u00f3ptimo My name is Fatima Al-Farsi.. Agradecer\u00eda mucho su pronta ayuda para resolver este asunto.\n\nGracias por su atenci\u00f3n a esta solicitud.\n\nAtentamente,\n\n<name> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        691,
+        700
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        857,
+        879
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Asistencia requerida para la actualizaci\u00f3n del teclado Surface Pro 7\n\nEstimado equipo de soporte de Tech Online Store,\n\nMe estoy poniendo en contacto para recibir asistencia con la actualizaci\u00f3n del teclado desmontable para mi Microsoft Surface Pro 7, que actualmente funciona con Windows 10. Recientemente, he encontrado algunos problemas de compatibilidad y necesito orientaci\u00f3n para asegurar un proceso de actualizaci\u00f3n fluido.\n\n\u00bfPodr\u00edan por favor proporcionar instrucciones paso a paso o consejos de soluci\u00f3n de problemas para abordar posibles obst\u00e1culos? Adem\u00e1s, inf\u00f3rmenme si hay controladores espec\u00edficos o actualizaciones requeridas para un funcionamiento \u00f3ptimo My name is [full_name]-Farsi.. Agradecer\u00eda mucho su pronta ayuda para resolver este asunto.\n\nGracias por su atenci\u00f3n a esta solicitud.\n\nAtentamente,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

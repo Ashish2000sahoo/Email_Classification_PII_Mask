@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsversto\u00df in Krankenhaus-IT-Systemen\n\nEin Sicherheitsversto\u00df wurde in den Krankenhaus-IT-Systemen festgestellt, die medizinischen Daten k\u00f6nnten m\u00f6glicherweise preisgegeben werden You can reach me at david.kim@corp.kr.. Sofortige Software-Upgrades und die St\u00e4rkung der Firewalls wurden durchgef\u00fchrt, es werden jedoch weiterhin verd\u00e4chtige Aktivit\u00e4ten beobachtet. Hilfe wird ben\u00f6tigt, um das Problem zu l\u00f6sen. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        437,
+        445
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        217,
+        234
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsversto\u00df in Krankenhaus-IT-Systemen\n\nEin Sicherheitsversto\u00df wurde in den Krankenhaus-IT-Systemen festgestellt, die medizinischen Daten k\u00f6nnten m\u00f6glicherweise preisgegeben werden You can reach me at [email].. Sofortige Software-Upgrades und die St\u00e4rkung der Firewalls wurden durchgef\u00fchrt, es werden jedoch weiterhin verd\u00e4chtige Aktivit\u00e4ten beobachtet. Hilfe wird ben\u00f6tigt, um das Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

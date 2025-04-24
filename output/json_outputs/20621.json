@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Exchange Request: Canon PIXMA MG3620 Printer Issue\n\nDear Customer Support team, I recently purchased a Canon PIXMA MG3620 printer from your online store. Upon setup, I discovered incorrect wireless configuration settings. I would like to request an exchange for this item. Please advise on the procedure You can reach me at fatima.farsi@help.com.. Thank you, <name> My name is John Doe.. My order reference is <order_ref_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        386,
+        394
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        333,
+        354
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        41,
+        45
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        126,
+        130
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Exchange Request: Canon PIXMA MG[phone_number] Printer Issue\n\nDear Customer Support team, I recently purchased a Canon PIXMA MG[phone_number] printer from your online store. Upon setup, I discovered incorrect wireless configuration settings. I would like to request an exchange for this item. Please advise on the procedure You can reach me at [email].. Thank you, <name> My name is [full_name].. My order reference is <order_ref_num>.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Information Gone Missing\n\nThe medical information has vanished from the database without warning You can reach me at david.kim@corp.kr.. There may be a lack of adequate access controls My name is Elena Ivanova.. The server has been restarted, backups checked, and a review of logs has been conducted.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        213,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        134,
+        151
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Medical Information Gone Missing\n\nThe medical information has vanished from the database without warning You can reach me at [email].. There may be a lack of adequate access controls My name is [full_name].. The server has been restarted, backups checked, and a review of logs has been conducted.",
+  "category_of_the_email": "Incident"
+}

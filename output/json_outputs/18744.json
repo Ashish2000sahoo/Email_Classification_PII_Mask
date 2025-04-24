@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue Identified with Payment Discrepancies\n\nThe billing system has detected discrepancies that have affected product subscriptions renewals following the integration of a recent software update. We have reviewed payment logs and contacted the payment processor for further clarification.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        335
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Issue Identified with Payment Discrepancies\n\nThe billing system has detected discrepancies that have affected product subscriptions renewals following the integration of a recent software update. We have reviewed payment logs and contacted the payment processor for further clarification.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Hadoop Cluster After Apache Update\n\nUnfortunately, our Hadoop cluster has experienced a crash, which may be related to a recent Apache update. Despite my attempts to restart the services, the issue remains unresolved, with the cluster currently offline and preventing data processing. I kindly request your assistance in addressing this issue promptly You can reach me at omar.hassan@secure.net.. Please inform me if you need further details from me. Thank you. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        495,
+        509
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        394,
+        416
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Hadoop Cluster After Apache Update\n\nUnfortunately, our Hadoop cluster has experienced a crash, which may be related to a recent Apache update. Despite my attempts to restart the services, the issue remains unresolved, with the cluster currently offline and preventing data processing. I kindly request your assistance in addressing this issue promptly You can reach me at [email].. Please inform me if you need further details from me. Thank you. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Crash Issue with Integrations\n\nThe project management platform has encountered a crash You can reach me at johndoe@email.com.. It is suspected that the incompatibility with WeChat and Microsoft Teams could be the reason. Steps taken so far include restarting the server and reviewing Azure logs. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        116,
+        133
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Crash Issue with Integrations\n\nThe project management platform has encountered a crash You can reach me at [email].. It is suspected that the incompatibility with WeChat and Microsoft Teams could be the reason. Steps taken so far include restarting the server and reviewing Azure logs. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

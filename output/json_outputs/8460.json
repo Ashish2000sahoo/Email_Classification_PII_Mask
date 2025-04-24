@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Error in Database Connection\n\nThe team has encountered a database connection error while accessing project data through the SaaS platform. This may have occurred due to recent updates in Microsoft SQL Server 2019 and MySQL 8.0, affecting compatibility My name is Carlos Mendoza.. We have already attempted to restart the database services and check recent configuration changes, but the issue still persists. We would greatly appreciate your prompt assistance in resolving this matter. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        286
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        512,
+        529
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        217,
+        221
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: Error in Database Connection\n\nThe team has encountered a database connection error while accessing project data through the SaaS platform. This may have occurred due to recent updates in Microsoft SQL Server [phone_number] and MySQL 8.0, affecting compatibility My name is [full_name].. We have already attempted to restart the database services and check recent configuration changes, but the issue still persists. We would greatly appreciate your prompt assistance in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

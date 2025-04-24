@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Digitalen Strategietools\n\nEine Marketing-Agentur begegnete St\u00f6rungen bei der Umsetzung ihrer digitalen Strategie. Mehrere Werkzeuge, darunter ein VR-Headset und PrestaShop, konnten nicht integriert werden You can reach me at janesmith@company.com.. Es k\u00f6nnte sein, dass die neuesten Softwareaktualisierungen das Problem verursachen My name is Jane Smith.. Versucht wurde, die Ger\u00e4te zu resetten und die Netzwerkkonnektivit\u00e4t zu \u00fcberpr\u00fcfen, jedoch blieben die Probleme bestehen. Hilfe ben\u00f6tigt, um das Problem zu l\u00f6sen und die digitale Strategie wieder in Ordnung zu bringen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        375
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        247,
+        268
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Digitalen Strategietools\n\nEine Marketing-Agentur begegnete St\u00f6rungen bei der Umsetzung ihrer digitalen Strategie. Mehrere Werkzeuge, darunter ein VR-Headset und PrestaShop, konnten nicht integriert werden You can reach me at [email].. Es k\u00f6nnte sein, dass die neuesten Softwareaktualisierungen das Problem verursachen My name is [full_name].. Versucht wurde, die Ger\u00e4te zu resetten und die Netzwerkkonnektivit\u00e4t zu \u00fcberpr\u00fcfen, jedoch blieben die Probleme bestehen. Hilfe ben\u00f6tigt, um das Problem zu l\u00f6sen und die digitale Strategie wieder in Ordnung zu bringen.",
+  "category_of_the_email": "Incident"
+}

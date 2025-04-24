@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Pricing Details on Products\n\nLooking for pricing details on the features of Projektor and Blackboard Learn products. Could you please provide detailed information?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        223
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Request for Pricing Details on Products\n\nLooking for pricing details on the features of Projektor and Blackboard Learn products. Could you please provide detailed information?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

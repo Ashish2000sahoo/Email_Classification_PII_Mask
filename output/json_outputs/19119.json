@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Breach in Apache Hadoop System\n\nHello Customer Support, I am reaching out to notify you about a potential data breach in our Apache Hadoop system. Despite applying security patches, the problem continues to exist and needs to be addressed urgently to safeguard our data. Could you please guide me on the actions to be taken to resolve this issue and ensure future security? Your prompt assistance is highly appreciated My name is Elena Ivanova.. Thank you for your attention to this matter. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        475
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        541,
+        564
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Breach in Apache Hadoop System\n\nHello Customer Support, I am reaching out to notify you about a potential data breach in our Apache Hadoop system. Despite applying security patches, the problem continues to exist and needs to be addressed urgently to safeguard our data. Could you please guide me on the actions to be taken to resolve this issue and ensure future security? Your prompt assistance is highly appreciated My name is [full_name].. Thank you for your attention to this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

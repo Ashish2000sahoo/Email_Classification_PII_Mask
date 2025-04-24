@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request Regarding System Failure\n\nUnexpected system failure affecting the main tools. This has been caused by a recent software update My name is Maria Gonzalez.. I have tried restarting the affected applications and contacted IT support, but the issues persist. The downtime has significantly disrupted our operational activities and we urgently need assistance to resolve the problem You can reach me at janesmith@company.com.. I appreciate you addressing this situation promptly and providing support as soon as possible. Please inform me if you need additional information, such as the latest software update details or specific error messages observed. Could you also provide details of the steps you have taken so far? If a call is necessary, please let me know a suitable time that works for you. Thank you for your prompt attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        420,
+        441
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request Regarding System Failure\n\nUnexpected system failure affecting the main tools. This has been caused by a recent software update My name is [full_name].. I have tried restarting the affected applications and contacted IT support, but the issues persist. The downtime has significantly disrupted our operational activities and we urgently need assistance to resolve the problem You can reach me at [email].. I appreciate you addressing this situation promptly and providing support as soon as possible. Please inform me if you need additional information, such as the latest software update details or specific error messages observed. Could you also provide details of the steps you have taken so far? If a call is necessary, please let me know a suitable time that works for you. Thank you for your prompt attention to this matter.",
+  "category_of_the_email": "Incident"
+}

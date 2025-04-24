@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit der Systemaktualisierung\n\nProjektleitungsfirmwarespezifischer Aktualisierungsprozess hat kritische Fehler verursacht You can reach me at liuwei@business.cn.. Die Ursache scheint Kompatibilit\u00e4tsprobleme zwischen verschiedenen Software- und Hardwarekomponenten zu sein My name is Fatima Al-Farsi.. Standardprozeduren zur Fehlerbehebung, einschlie\u00dflich der Hardwarediagnose und der Softwareaktualisierung, wurden bereits durchgef\u00fchrt, aber das Problem ist weiterhin bestanden. Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um das Problem schnell zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        299,
+        308
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        158,
+        176
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Systemaktualisierung\n\nProjektleitungsfirmwarespezifischer Aktualisierungsprozess hat kritische Fehler verursacht You can reach me at [email].. Die Ursache scheint Kompatibilit\u00e4tsprobleme zwischen verschiedenen Software- und Hardwarekomponenten zu sein My name is [full_name]-Farsi.. Standardprozeduren zur Fehlerbehebung, einschlie\u00dflich der Hardwarediagnose und der Softwareaktualisierung, wurden bereits durchgef\u00fchrt, aber das Problem ist weiterhin bestanden. Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um das Problem schnell zu beheben.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Campaign Problem\n\nThe digital marketing campaign was unexpectedly stopped, which is affecting the brand growth plans My name is John Doe.. A server outage might have caused the interruption You can reach me at sophia.rossi@service.it.. Restarting the affected applications and confirming internet connectivity did not resolve the issue. Could you please investigate and provide a solution as soon as possible?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        145,
+        153
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        230,
+        253
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Campaign Problem\n\nThe digital marketing campaign was unexpectedly stopped, which is affecting the brand growth plans My name is [full_name].. A server outage might have caused the interruption You can reach me at [email].. Restarting the affected applications and confirming internet connectivity did not resolve the issue. Could you please investigate and provide a solution as soon as possible?",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Pl\u00f6tzliche Fehler bei mehreren Integrationsvorg\u00e4ngen\n\nSehr geehrte Kundenservice, ich habe pl\u00f6tzlich mehrere Integrierungsprobleme, die gleichzeitig versagen You can reach me at elena.ivanova@support.org.. Dies k\u00f6nnte mit den k\u00fcrzlich durchgef\u00fchrten Docker-Updates zusammenh\u00e4ngen. Ich habe bereits versucht, LINE und das VPN-Router neu zu starten sowie die Zugriffsrechte zu \u00fcberpr\u00fcfen, aber das Problem besteht weiterhin My name is Carlos Mendoza.. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie mir helfen k\u00f6nnten, dieses Problem so schnell wie m\u00f6glich zu beheben. Bitte informieren Sie mich, wenn weitere Aktionen von meiner Seite notwendig sind oder wenn Sie weitere Details ben\u00f6tigen. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        456
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        187,
+        212
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Pl\u00f6tzliche Fehler bei mehreren Integrationsvorg\u00e4ngen\n\nSehr geehrte Kundenservice, ich habe pl\u00f6tzlich mehrere Integrierungsprobleme, die gleichzeitig versagen You can reach me at [email].. Dies k\u00f6nnte mit den k\u00fcrzlich durchgef\u00fchrten Docker-Updates zusammenh\u00e4ngen. Ich habe bereits versucht, LINE und das VPN-Router neu zu starten sowie die Zugriffsrechte zu \u00fcberpr\u00fcfen, aber das Problem besteht weiterhin My name is [full_name].. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie mir helfen k\u00f6nnten, dieses Problem so schnell wie m\u00f6glich zu beheben. Bitte informieren Sie mich, wenn weitere Aktionen von meiner Seite notwendig sind oder wenn Sie weitere Details ben\u00f6tigen. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Anfrage zur Optimierung von Markengrowth-Strategien mit Zoho CRM und Microsoft Dynamics 365\n\nIch schreibe Ihnen, um Rat bei der Optimierung Ihrer Markengrowth-Strategien zu erhalten. Es w\u00e4re hilfreich, wenn Sie bestehende Praktiken und die Nutzung der Tools von Zoho CRM und Microsoft Dynamics 365 verbessern k\u00f6nnten My name is Jane Smith.. K\u00f6nnten Sie bitte mehr Informationen zu Ihren Vertriebs- und Marketingaktivit\u00e4ten geben, um die besten Anleitungen f\u00fcr Sie liefern zu k\u00f6nnen? \u00dcberlegen Sie, welche Verbesserungen Sie erreichen m\u00f6chten, und besprechen wir die m\u00f6glichen Wege, um die Nutzung dieser Tools f\u00fcr die Verbesserung Ihrer Vertriebs- und Marketingaktivit\u00e4ten zu optimieren You can reach me at johndoe@email.com.. Allgemeine Tipps zur Verbesserung sind ebenfalls willkommen, zum Beispiel wie man Zoho CRM f\u00fcr das Lead-Management nutzt.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        717,
+        734
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        97,
+        100
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        303,
+        306
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Optimierung von Markengrowth-Strategien mit Zoho CRM und Microsoft Dynamics [cvv_no]\n\nIch schreibe Ihnen, um Rat bei der Optimierung Ihrer Markengrowth-Strategien zu erhalten. Es w\u00e4re hilfreich, wenn Sie bestehende Praktiken und die Nutzung der Tools von Zoho CRM und Microsoft Dynamics [cvv_no] verbessern k\u00f6nnten My name is [full_name].. K\u00f6nnten Sie bitte mehr Informationen zu Ihren Vertriebs- und Marketingaktivit\u00e4ten geben, um die besten Anleitungen f\u00fcr Sie liefern zu k\u00f6nnen? \u00dcberlegen Sie, welche Verbesserungen Sie erreichen m\u00f6chten, und besprechen wir die m\u00f6glichen Wege, um die Nutzung dieser Tools f\u00fcr die Verbesserung Ihrer Vertriebs- und Marketingaktivit\u00e4ten zu optimieren You can reach me at [email].. Allgemeine Tipps zur Verbesserung sind ebenfalls willkommen, zum Beispiel wie man Zoho CRM f\u00fcr das Lead-Management nutzt.",
+  "category_of_the_email": "Request"
+}

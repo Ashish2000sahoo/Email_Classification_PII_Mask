@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr Google Meet in Arztpraxisen\n\nGuten Tag Kundensupport, ich w\u00fcrde mich gerne um die Sicherheitsma\u00dfnahmen f\u00fcr Google Meet in der Arztpraxisumgebung informieren You can reach me at sophia.rossi@service.it.. Eine Arztpraxis umfasst oft sensible Patientendaten, und daher ist es wichtig, alle notwendigen Schritte zu unternehmen, um diese Informationen vor unbefugtem Zugriff zu sch\u00fctzen. Ich w\u00fcrde mich freuen, wenn Sie mir eine Anleitung geben k\u00f6nnten, wie wir die Sicherheit und die Vertraulichkeit von Google Meet Sitzungen in solchen Umgebungen gew\u00e4hrleisten k\u00f6nnen My name is Carlos Mendoza.. Gibt es bestimme Protokolle oder Funktionen, die wir nutzen sollten? Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, bald eine Antwort zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        610,
+        624
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        211,
+        234
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr Google Meet in Arztpraxisen\n\nGuten Tag Kundensupport, ich w\u00fcrde mich gerne um die Sicherheitsma\u00dfnahmen f\u00fcr Google Meet in der Arztpraxisumgebung informieren You can reach me at [email].. Eine Arztpraxis umfasst oft sensible Patientendaten, und daher ist es wichtig, alle notwendigen Schritte zu unternehmen, um diese Informationen vor unbefugtem Zugriff zu sch\u00fctzen. Ich w\u00fcrde mich freuen, wenn Sie mir eine Anleitung geben k\u00f6nnten, wie wir die Sicherheit und die Vertraulichkeit von Google Meet Sitzungen in solchen Umgebungen gew\u00e4hrleisten k\u00f6nnen My name is [full_name].. Gibt es bestimme Protokolle oder Funktionen, die wir nutzen sollten? Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, bald eine Antwort zu erhalten.",
+  "category_of_the_email": "Request"
+}

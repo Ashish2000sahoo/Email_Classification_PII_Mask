@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Unexpected Data Disappearance\n\nA brief description of the problem: Project data vanished unexpectedly during the night My name is Maria Gonzalez.. Possible causes include an integration glitch or synchronization issue You can reach me at maria.gonzalez@shop.es.. Steps taken so far include rebooting the server, examining logs, and ensuring all connections are correct. Although I was working on the project the previous day and everything appeared to be in order, upon logging in the next morning, my project data was not there. Despite restarting the server, reviewing logs, and validating connections, the issue remains unresolved. I am worried about the consequences of this data loss and need urgent assistance to restore my project data. Kindly inform me of the necessary actions to take or any additional details you require to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        169
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        260,
+        282
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Unexpected Data Disappearance\n\nA brief description of the problem: Project data vanished unexpectedly during the night My name is [full_name].. Possible causes include an integration glitch or synchronization issue You can reach me at [email].. Steps taken so far include rebooting the server, examining logs, and ensuring all connections are correct. Although I was working on the project the previous day and everything appeared to be in order, upon logging in the next morning, my project data was not there. Despite restarting the server, reviewing logs, and validating connections, the issue remains unresolved. I am worried about the consequences of this data loss and need urgent assistance to restore my project data. Kindly inform me of the necessary actions to take or any additional details you require to address this issue.",
+  "category_of_the_email": "Incident"
+}

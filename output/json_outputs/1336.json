@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Unauthorized Access to Medical Data Systems\n\nThere have been experienced unauthorized access attempts to medical data systems, which might be due to outdated security protocols. Steps taken include auditing access logs and updating passwords, but the issues still persist You can reach me at omar.hassan@secure.net.. Enhanced configurations on Microsoft Azure and Docker have been implemented, yet breaches continue to be a concern My name is Liu Wei.. Assistance is needed to resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        464,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        313,
+        335
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Unauthorized Access to Medical Data Systems\n\nThere have been experienced unauthorized access attempts to medical data systems, which might be due to outdated security protocols. Steps taken include auditing access logs and updating passwords, but the issues still persist You can reach me at [email].. Enhanced configurations on Microsoft Azure and Docker have been implemented, yet breaches continue to be a concern My name is [full_name].. Assistance is needed to resolve this issue.",
+  "category_of_the_email": "Incident"
+}

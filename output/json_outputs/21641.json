@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nEstimado equipo de soporte t\u00e9cnico,\n\nLes escribo para llamar su atenci\u00f3n sobre un problema persistente con mi laptop Dell XPS 13 9310. He estado experimentando parpadeos frecuentes en la pantalla, lo que est\u00e1 causando desaf\u00edos significativos en la visualizaci\u00f3n e interrumpiendo mis tareas diarias My name is Fatima Al-Farsi.. El problema parece empeorar de manera intermitente, causando una considerable tensi\u00f3n mientras intento usar el dispositivo tanto para trabajo profesional como personal.\n\nHe intentado realizar varios pasos de soluci\u00f3n de problemas, como actualizar los controladores de pantalla y verificar si hay problemas de hardware, pero el problema persiste.\n\n\u00bfPodr\u00edan por favor proporcionarme orientaci\u00f3n sobre pasos adicionales de soluci\u00f3n de problemas o coordinar una revisi\u00f3n y reparaci\u00f3n de la laptop? Su pronta asistencia para resolver este asunto a la brevedad ser\u00eda muy apreciada. No duden en contactarme al <tel_num> para cualquier detalle o consulta adicional.\n\nGracias,\n<name> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1035,
+        1056
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        137,
+        144
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: \n\nEstimado equipo de soporte t\u00e9cnico,\n\nLes escribo para llamar su atenci\u00f3n sobre un problema persistente con mi laptop Dell XPS [phone_number]. He estado experimentando parpadeos frecuentes en la pantalla, lo que est\u00e1 causando desaf\u00edos significativos en la visualizaci\u00f3n e interrumpiendo mis tareas diarias My name is [full_name]-Farsi.. El problema parece empeorar de manera intermitente, causando una considerable tensi\u00f3n mientras intento usar el dispositivo tanto para trabajo profesional como personal.\n\nHe intentado realizar varios pasos de soluci\u00f3n de problemas, como actualizar los controladores de pantalla y verificar si hay problemas de hardware, pero el problema persiste.\n\n\u00bfPodr\u00edan por favor proporcionarme orientaci\u00f3n sobre pasos adicionales de soluci\u00f3n de problemas o coordinar una revisi\u00f3n y reparaci\u00f3n de la laptop? Su pronta asistencia para resolver este asunto a la brevedad ser\u00eda muy apreciada. No duden en contactarme al <tel_num> para cualquier detalle o consulta adicional.\n\nGracias,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Digital Campaigns\n\nHello Customer Support, I am contacting you to address the poor performance of our digital campaigns You can reach me at carlosm@gmail.com.. Despite being in operation for some time, the return on investment is below our expectations. I suspect this could be because the ad targeting and strategy are not effective and may be missing our target audience My name is Maria Gonzalez.. I've already made changes to the ad budgets, targeting methods, and creative elements, but there hasn't been a notable improvement. I would greatly appreciate any advice or suggestions you can offer to enhance our campaign's performance. Please review the settings and suggest any modifications. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        161,
+        178
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Digital Campaigns\n\nHello Customer Support, I am contacting you to address the poor performance of our digital campaigns You can reach me at [email].. Despite being in operation for some time, the return on investment is below our expectations. I suspect this could be because the ad targeting and strategy are not effective and may be missing our target audience My name is [full_name].. I've already made changes to the ad budgets, targeting methods, and creative elements, but there hasn't been a notable improvement. I would greatly appreciate any advice or suggestions you can offer to enhance our campaign's performance. Please review the settings and suggest any modifications. I look forward to your response.",
+  "category_of_the_email": "Problem"
+}

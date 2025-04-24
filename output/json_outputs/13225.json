@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Breach Due to Outdated Software\n\nThere has been a data breach, which might be related to using outdated software My name is David Kim.. Despite restarting the systems, the issue remains unresolved You can reach me at liuwei@business.cn.. Quick assistance is needed to address this promptly and avoid additional harm.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        233,
+        251
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Data Breach Due to Outdated Software\n\nThere has been a data breach, which might be related to using outdated software My name is [full_name].. Despite restarting the systems, the issue remains unresolved You can reach me at [email].. Quick assistance is needed to address this promptly and avoid additional harm.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Help Needed for Printer Connection Issue\n\nCustomer <name> reports Epson EcoTank ET-4760 won't connect to the network My name is Elena Ivanova.. Requesting guidance for wireless setup diagnostics to resolve the issue promptly. Please assist soon. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        150
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        273,
+        290
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        92,
+        96
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Help Needed for Printer Connection Issue\n\nCustomer <name> reports Epson EcoTank ET-[phone_number] won't connect to the network My name is [full_name].. Requesting guidance for wireless setup diagnostics to resolve the issue promptly. Please assist soon. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

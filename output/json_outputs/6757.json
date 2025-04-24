@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Digital Tools\n\nAt the brand agency, we are encountering problems with several digital tools and software integrations You can reach me at sophia.rossi@service.it.. These issues might be due to recent updates causing compatibility problems My name is John Doe.. We have tried clearing caches and restarting the affected applications, but the problem persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        279
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        159,
+        182
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issues with Digital Tools\n\nAt the brand agency, we are encountering problems with several digital tools and software integrations You can reach me at [email].. These issues might be due to recent updates causing compatibility problems My name is [full_name].. We have tried clearing caches and restarting the affected applications, but the problem persists.",
+  "category_of_the_email": "Incident"
+}

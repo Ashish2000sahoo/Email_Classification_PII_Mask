@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Update der Projektsoftware\n\nEs ist erforderlich, die Projektmanagement-Software zu aktualisieren, um die Kompatibilit\u00e4t mit dem neuesten VR-Spielger\u00e4t zu verbessern und eine optimale Benutzererfahrung zu gew\u00e4hrleisten.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        250,
+        265
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Update der Projektsoftware\n\nEs ist erforderlich, die Projektmanagement-Software zu aktualisieren, um die Kompatibilit\u00e4t mit dem neuesten VR-Spielger\u00e4t zu verbessern und eine optimale Benutzererfahrung zu gew\u00e4hrleisten.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nService desk, k\u00fcrzlich ist das IT-System des Krankenhauses einem unbefugten Zugriff unterworfen worden, was die Sicherheit medizinischer Daten gef\u00e4hrdet hat. Das Problem ist auf veraltete Software-Schwachstellen zur\u00fcckzuf\u00fchren. Derzeit wird ein Softwareupdate durchgef\u00fchrt und die Firewalls verst\u00e4rkt. Eine weitere Unterst\u00fctzung ist erforderlich, um sensible Informationen sicherzustellen. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um zuk\u00fcnftige Verst\u00f6\u00dfe zu verhindern und die Vertraulichkeit der Patientendaten zu gew\u00e4hrleisten My name is Fatima Al-Farsi.. Bitte geben Sie Anleitungen f\u00fcr zus\u00e4tzliche Sicherheitsma\u00dfnahmen und notwendige Aktualisierungen unserer IT-Infrastruktur an. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        547,
+        556
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        713,
+        738
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nService desk, k\u00fcrzlich ist das IT-System des Krankenhauses einem unbefugten Zugriff unterworfen worden, was die Sicherheit medizinischer Daten gef\u00e4hrdet hat. Das Problem ist auf veraltete Software-Schwachstellen zur\u00fcckzuf\u00fchren. Derzeit wird ein Softwareupdate durchgef\u00fchrt und die Firewalls verst\u00e4rkt. Eine weitere Unterst\u00fctzung ist erforderlich, um sensible Informationen sicherzustellen. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um zuk\u00fcnftige Verst\u00f6\u00dfe zu verhindern und die Vertraulichkeit der Patientendaten zu gew\u00e4hrleisten My name is [full_name]-Farsi.. Bitte geben Sie Anleitungen f\u00fcr zus\u00e4tzliche Sicherheitsma\u00dfnahmen und notwendige Aktualisierungen unserer IT-Infrastruktur an. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

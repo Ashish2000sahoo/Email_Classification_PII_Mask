@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Advanced Investment Tracking Visualization\n\nI am writing to seek assistance in implementing advanced data visualization techniques for investment tracking and portfolio optimization. I need a more detailed overview of my investments to make informed decisions You can reach me at omar.hassan@secure.net.. Could you please provide me with more information on this topic? I look forward to hearing from you and learning more about the available options. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        484,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        301,
+        323
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Advanced Investment Tracking Visualization\n\nI am writing to seek assistance in implementing advanced data visualization techniques for investment tracking and portfolio optimization. I need a more detailed overview of my investments to make informed decisions You can reach me at [email].. Could you please provide me with more information on this topic? I look forward to hearing from you and learning more about the available options. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

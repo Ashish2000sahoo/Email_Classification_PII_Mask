@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme beim Login des Beraters mit dem HR-System\n\nSehr geehrtes IT Consulting Support Team,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Sie \u00fcber ein technisches Problem zu informieren, das aufgetreten ist, als unser Berater, <name>, versucht hat, auf das HR-System zuzugreifen, im Rahmen eines Bewertungsprozesses, der darauf abzielt, die Effizienz unseres Teams in der Softwareentwicklung zu verbessern. Der Zugriff auf das HR-System ist entscheidend f\u00fcr unseren Berater, um unsere Softwareentwicklungsbed\u00fcrfnisse genau einsch\u00e4tzen und strategisch planen zu k\u00f6nnen.\n\nLeider hatte unser Berater erhebliche Schwierigkeiten beim Einloggen. Das System gab konstant einen Fehler zur\u00fcck, was weitere Schritte in unserem Bewertungsprozess verhinderte. Dieses Problem hat unseren Fortschritt erheblich behindert, da die Bewertung unserer bestehenden IT-Struktur entscheidend ist, um zuk\u00fcnftige Verbesserungen zu bestimmen.\n\nWir w\u00fcrden Ihre schnelle Unterst\u00fctzung bei der L\u00f6sung dieses Anmeldeproblems sehr sch\u00e4tzen My name is Liu Wei.. Es ist f\u00fcr uns von entscheidender Bedeutung, den Zugang wiederherzustellen, um sicherzustellen, dass unsere Bewertung reibungslos und effektiv fortgesetzt werden kann You can reach me at janesmith@company.com.. Bitte kontaktieren Sie uns unter <tel_num> oder antworten Sie so schnell wie m\u00f6glich auf diese E-Mail. Wir verlassen uns auf Ihr Fachwissen, um dieses Problem schnell zu l\u00f6sen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit f\u00fcr dieses dringende Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> \nKontonummer: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1050,
+        1057
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        1251,
+        1272
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme beim Login des Beraters mit dem HR-System\n\nSehr geehrtes IT Consulting Support Team,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Sie \u00fcber ein technisches Problem zu informieren, das aufgetreten ist, als unser Berater, <name>, versucht hat, auf das HR-System zuzugreifen, im Rahmen eines Bewertungsprozesses, der darauf abzielt, die Effizienz unseres Teams in der Softwareentwicklung zu verbessern. Der Zugriff auf das HR-System ist entscheidend f\u00fcr unseren Berater, um unsere Softwareentwicklungsbed\u00fcrfnisse genau einsch\u00e4tzen und strategisch planen zu k\u00f6nnen.\n\nLeider hatte unser Berater erhebliche Schwierigkeiten beim Einloggen. Das System gab konstant einen Fehler zur\u00fcck, was weitere Schritte in unserem Bewertungsprozess verhinderte. Dieses Problem hat unseren Fortschritt erheblich behindert, da die Bewertung unserer bestehenden IT-Struktur entscheidend ist, um zuk\u00fcnftige Verbesserungen zu bestimmen.\n\nWir w\u00fcrden Ihre schnelle Unterst\u00fctzung bei der L\u00f6sung dieses Anmeldeproblems sehr sch\u00e4tzen My name is [full_name].. Es ist f\u00fcr uns von entscheidender Bedeutung, den Zugang wiederherzustellen, um sicherzustellen, dass unsere Bewertung reibungslos und effektiv fortgesetzt werden kann You can reach me at [email].. Bitte kontaktieren Sie uns unter <tel_num> oder antworten Sie so schnell wie m\u00f6glich auf diese E-Mail. Wir verlassen uns auf Ihr Fachwissen, um dieses Problem schnell zu l\u00f6sen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit f\u00fcr dieses dringende Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> \nKontonummer: <acc_num>",
+  "category_of_the_email": "Incident"
+}

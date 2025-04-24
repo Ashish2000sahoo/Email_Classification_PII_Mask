@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem You can reach me at janesmith@company.com.. Estou escrevendo para perguntar sobre a disponibilidade e os pre\u00e7os do Microsoft Surface Pro 7 em sua loja online. Estou especificamente interessado nas v\u00e1rias configura\u00e7\u00f5es e em quaisquer promo\u00e7\u00f5es que possam estar dispon\u00edveis atualmente.\n\nVoc\u00ea poderia fornecer informa\u00e7\u00f5es sobre as diferentes especifica\u00e7\u00f5es, como RAM, op\u00e7\u00f5es de armazenamento e se h\u00e1 pacotes ou descontos oferecidos? Al\u00e9m disso, eu apreciaria se voc\u00ea pudesse me informar sobre os prazos de entrega estimados para este produto, se estiver em estoque.\n\nObrigado pela sua assist\u00eancia e resposta r\u00e1pida My name is Carlos Mendoza.. Aguardo sua resposta.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        700,
+        714
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        97,
+        118
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem You can reach me at [email].. Estou escrevendo para perguntar sobre a disponibilidade e os pre\u00e7os do Microsoft Surface Pro 7 em sua loja online. Estou especificamente interessado nas v\u00e1rias configura\u00e7\u00f5es e em quaisquer promo\u00e7\u00f5es que possam estar dispon\u00edveis atualmente.\n\nVoc\u00ea poderia fornecer informa\u00e7\u00f5es sobre as diferentes especifica\u00e7\u00f5es, como RAM, op\u00e7\u00f5es de armazenamento e se h\u00e1 pacotes ou descontos oferecidos? Al\u00e9m disso, eu apreciaria se voc\u00ea pudesse me informar sobre os prazos de entrega estimados para este produto, se estiver em estoque.\n\nObrigado pela sua assist\u00eancia e resposta r\u00e1pida My name is [full_name].. Aguardo sua resposta.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Request"
+}

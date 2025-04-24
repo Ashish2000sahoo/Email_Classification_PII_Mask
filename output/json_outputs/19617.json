@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Langsame Markenentwicklungsschwierigkeiten\n\nMarketingaktionen erzielen nur m\u00e4\u00dfig. Obwohl Werbeanpassungen durchgef\u00fchrt wurden, haben sie einen geringen Effekt.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        208
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Langsame Markenentwicklungsschwierigkeiten\n\nMarketingaktionen erzielen nur m\u00e4\u00dfig. Obwohl Werbeanpassungen durchgef\u00fchrt wurden, haben sie einen geringen Effekt.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

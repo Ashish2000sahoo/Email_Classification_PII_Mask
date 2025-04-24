@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Securing Medical Data Systems\n\nThere have been experienced unauthorized access attempts on medical data systems You can reach me at maria.gonzalez@shop.es.. These may have occurred due to outdated security protocols My name is Sophia Rossi.. Passwords were updated and vulnerability scans were run, with improvements noted. Assistance is needed to secure the systems to prevent future unauthorized access attempts. Please provide guidance on the necessary steps to take.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        255,
+        267
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        160,
+        182
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Securing Medical Data Systems\n\nThere have been experienced unauthorized access attempts on medical data systems You can reach me at [email].. These may have occurred due to outdated security protocols My name is [full_name].. Passwords were updated and vulnerability scans were run, with improvements noted. Assistance is needed to secure the systems to prevent future unauthorized access attempts. Please provide guidance on the necessary steps to take.",
+  "category_of_the_email": "Incident"
+}

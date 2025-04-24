@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Salesforce Oracle Integration\n\nA financial entity is encountering difficulties with the Salesforce CRM and Oracle Database 19c integration, which is impeding data analytics due to possible software version incompatibilities My name is Fatima Al-Farsi.. After confirming connections, updating software, and rebooting systems, the issue remains unresolved. Assistance is required to address this problem. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        266
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        447,
+        469
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Salesforce Oracle Integration\n\nA financial entity is encountering difficulties with the Salesforce CRM and Oracle Database 19c integration, which is impeding data analytics due to possible software version incompatibilities My name is [full_name]-Farsi.. After confirming connections, updating software, and rebooting systems, the issue remains unresolved. Assistance is required to address this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia Necess\u00e1ria para Problema de Conectividade WiFi\n\nO cliente <name> relata problemas intermitentes de conectividade WiFi com o LG OLED C1, afetando os servi\u00e7os de streaming, e solicita suporte para uma resolu\u00e7\u00e3o r\u00e1pida. Contato dispon\u00edvel em <tel_num>.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        310
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia Necess\u00e1ria para Problema de Conectividade WiFi\n\nO cliente <name> relata problemas intermitentes de conectividade WiFi com o LG OLED C1, afetando os servi\u00e7os de streaming, e solicita suporte para uma resolu\u00e7\u00e3o r\u00e1pida. Contato dispon\u00edvel em <tel_num>.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

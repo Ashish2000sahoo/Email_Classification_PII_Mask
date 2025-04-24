@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data Retrieval\n\nI am encountering sluggish access to medical data and delayed transfers. This may be due to an incorrect Kubernetes setup You can reach me at fatima.farsi@help.com.. Despite restarting the Aruba switch and updating the Sophos application, the issue remains unresolved. I would be grateful for your help in addressing this My name is Liu Wei.. Kindly inform me of the subsequent actions to proceed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        379,
+        386
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        188,
+        209
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data Retrieval\n\nI am encountering sluggish access to medical data and delayed transfers. This may be due to an incorrect Kubernetes setup You can reach me at [email].. Despite restarting the Aruba switch and updating the Sophos application, the issue remains unresolved. I would be grateful for your help in addressing this My name is [full_name].. Kindly inform me of the subsequent actions to proceed.",
+  "category_of_the_email": "Incident"
+}

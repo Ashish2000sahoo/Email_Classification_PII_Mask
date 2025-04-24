@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detected Inaccuracies in Investment Projections\n\nHi Support Team, I am contacting you to report a problem with the investment projections. They have been inaccurate, and as I delved deeper, I discovered inconsistencies in the data. I believe this may be due to a misalignment between the MATLAB script and Zoho Books My name is Elena Ivanova.. Despite my efforts to review the script, refresh the data, and restart the system, the issue remains unresolved. I would be grateful if you could look into this and provide a solution promptly You can reach me at elena.ivanova@support.org.. Please let me know if there is any additional information you require from me to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        564,
+        589
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Detected Inaccuracies in Investment Projections\n\nHi Support Team, I am contacting you to report a problem with the investment projections. They have been inaccurate, and as I delved deeper, I discovered inconsistencies in the data. I believe this may be due to a misalignment between the MATLAB script and Zoho Books My name is [full_name].. Despite my efforts to review the script, refresh the data, and restart the system, the issue remains unresolved. I would be grateful if you could look into this and provide a solution promptly You can reach me at [email].. Please let me know if there is any additional information you require from me to address this issue.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Customer Issues\n\nRecently, users have reported intermittent connection issues with the Project Management Software. These problems are suspected to be due to server overload and network interruptions You can reach me at maria.gonzalez@shop.es.. So far, affected servers have been restarted and traffic levels are being monitored, with no significant improvements noted yet My name is Sophia Rossi.. We estimate that addressing the issue could help minimize its impact on users.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        241,
+        263
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Customer Issues\n\nRecently, users have reported intermittent connection issues with the Project Management Software. These problems are suspected to be due to server overload and network interruptions You can reach me at [email].. So far, affected servers have been restarted and traffic levels are being monitored, with no significant improvements noted yet My name is [full_name].. We estimate that addressing the issue could help minimize its impact on users.",
+  "category_of_the_email": "Incident"
+}

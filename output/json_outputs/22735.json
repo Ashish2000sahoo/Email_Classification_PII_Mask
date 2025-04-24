@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCher service client, je suis <name> et je me permets de vous contacter pour demander le service de gestion AWS afin d'optimiser nos co\u00fbts cloud et d'am\u00e9liorer les performances de l'infrastructure. Le produit concern\u00e9 est le service de gestion AWS You can reach me at carlosm@gmail.com.. Merci de me conseiller sur les prochaines \u00e9tapes et de fournir tous les d\u00e9tails n\u00e9cessaires pour proc\u00e9der. Merci, <name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        430,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        278,
+        295
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCher service client, je suis <name> et je me permets de vous contacter pour demander le service de gestion AWS afin d'optimiser nos co\u00fbts cloud et d'am\u00e9liorer les performances de l'infrastructure. Le produit concern\u00e9 est le service de gestion AWS You can reach me at [email].. Merci de me conseiller sur les prochaines \u00e9tapes et de fournir tous les d\u00e9tails n\u00e9cessaires pour proc\u00e9der. Merci, <name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Encryption Failed Suddenly Today\n\nData encryption on your Kingston DataTraveler has encountered a sudden issue, which may be related to outdated security software.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        215
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Data Encryption Failed Suddenly Today\n\nData encryption on your Kingston DataTraveler has encountered a sudden issue, which may be related to outdated security software.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

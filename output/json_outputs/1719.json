@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische Sicherheit\n\nWelche Sicherheitsma\u00dfnahmen werden eingesetzt, um medizinische Daten in den IT-Systemen eines Krankenhauses sicher zu halten? Ich ben\u00f6tige detaillierte Informationen zum Datenschutz.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        256
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Sicherheit\n\nWelche Sicherheitsma\u00dfnahmen werden eingesetzt, um medizinische Daten in den IT-Systemen eines Krankenhauses sicher zu halten? Ich ben\u00f6tige detaillierte Informationen zum Datenschutz.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Breach Issue\n\nThere has been an unexpected data breach that may have compromised sensitive medical data. This is likely due to insufficient security measures and outdated software You can reach me at fatima.farsi@help.com.. Actions taken include securing the system, updating passwords, and monitoring network activity. Assistance is needed to ensure the necessary steps are taken to protect sensitive information and prevent future breaches. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        488,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        234,
+        255
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Breach Issue\n\nThere has been an unexpected data breach that may have compromised sensitive medical data. This is likely due to insufficient security measures and outdated software You can reach me at [email].. Actions taken include securing the system, updating passwords, and monitoring network activity. Assistance is needed to ensure the necessary steps are taken to protect sensitive information and prevent future breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

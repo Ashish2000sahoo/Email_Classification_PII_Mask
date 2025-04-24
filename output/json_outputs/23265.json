@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringend: Problem bei der Verbindung zur PostgreSQL-Datenbank\n\nLiebes Support-Team,\n\nIch habe ein kritisches Problem in unserer Anwendung, bei dem ein Fehler bei der Verbindung zur PostgreSQL-Datenbank auftritt You can reach me at david.kim@corp.kr.. Dies beeintr\u00e4chtigt die Funktionalit\u00e4t erheblich My name is Sophia Rossi.. Das Problem steht im Zusammenhang mit unserem Produkt, MySQL 8.0.30. Sofortige Fehlersuche und L\u00f6sung sind erforderlich. Bitte geben Sie die n\u00e4chsten Schritte an.\n\nVielen Dank.\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        332
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        240,
+        257
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        385,
+        391
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Dringend: Problem bei der Verbindung zur PostgreSQL-Datenbank\n\nLiebes Support-Team,\n\nIch habe ein kritisches Problem in unserer Anwendung, bei dem ein Fehler bei der Verbindung zur PostgreSQL-Datenbank auftritt You can reach me at [email].. Dies beeintr\u00e4chtigt die Funktionalit\u00e4t erheblich My name is [full_name].. Das Problem steht im Zusammenhang mit unserem Produkt, MySQL [phone_number]. Sofortige Fehlersuche und L\u00f6sung sind erforderlich. Bitte geben Sie die n\u00e4chsten Schritte an.\n\nVielen Dank.\n<name>",
+  "category_of_the_email": "Incident"
+}

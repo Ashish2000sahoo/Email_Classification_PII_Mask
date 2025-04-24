@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with JIRA Project Management System\n\nExperienced a JIRA System crash while using the project management system My name is Liu Wei.. The issue seems to have arisen due to high server load. Restarted the desktop computer and cleared the cache, but the problem persists. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        307,
+        324
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with JIRA Project Management System\n\nExperienced a JIRA System crash while using the project management system My name is [full_name].. The issue seems to have arisen due to high server load. Restarted the desktop computer and cleared the cache, but the problem persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

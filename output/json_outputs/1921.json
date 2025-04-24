@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Concern\n\nThere was an incident that might involve unauthorized access to medical data. User access logs have been reviewed and security settings have been updated.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Support Concern\n\nThere was an incident that might involve unauthorized access to medical data. User access logs have been reviewed and security settings have been updated.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

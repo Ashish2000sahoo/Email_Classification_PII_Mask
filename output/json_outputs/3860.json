@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with HubSpot Integration\n\nMarketing Agency Experiencing Problems with HubSpot CRM Tools My name is John Doe.. Recent Updates Might Be the Cause of Compatibility Issues You can reach me at david.kim@corp.kr.. Have Already Tried Checking and Resetting System Settings and Reconnecting Connections, but the Problems Persist. Need Support to Resolve the Matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        115,
+        123
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        207,
+        224
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issues with HubSpot Integration\n\nMarketing Agency Experiencing Problems with HubSpot CRM Tools My name is [full_name].. Recent Updates Might Be the Cause of Compatibility Issues You can reach me at [email].. Have Already Tried Checking and Resetting System Settings and Reconnecting Connections, but the Problems Persist. Need Support to Resolve the Matter.",
+  "category_of_the_email": "Incident"
+}

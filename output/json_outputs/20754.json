@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Support Team,\nI have received a faulty iPad Pro 2021 with my recent purchase. Could you assist me with the procedure to obtain a replacement or a refund? My order reference number is <acc_num>.\n\nThank you,\n<name>. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        64,
+        68
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        251,
+        267
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Support Team,\nI have received a faulty iPad Pro [phone_number] with my recent purchase. Could you assist me with the procedure to obtain a replacement or a refund? My order reference number is <acc_num>.\n\nThank you,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ausruf Datenanalyse-Systems\n\nDas Betriebsystem eines finanziellen Unternehmens st\u00fcrzte in Spitzenzeiten bei der Investitionsanalyse aus, was m\u00f6glicherweise auf \u00dcberlastung der Ressourcen zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at johndoe@email.com.. Vorl\u00e4ufige Untersuchungen deuten darauf hin, dass die Serverkapazit\u00e4ten \u00fcberschritten wurden My name is John Doe.. Versuche, das System neu zu starten, blieben erfolglos, tempor\u00e4re Dateien konnten jedoch entfernt werden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        375
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        243,
+        260
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Ausruf Datenanalyse-Systems\n\nDas Betriebsystem eines finanziellen Unternehmens st\u00fcrzte in Spitzenzeiten bei der Investitionsanalyse aus, was m\u00f6glicherweise auf \u00dcberlastung der Ressourcen zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Vorl\u00e4ufige Untersuchungen deuten darauf hin, dass die Serverkapazit\u00e4ten \u00fcberschritten wurden My name is [full_name].. Versuche, das System neu zu starten, blieben erfolglos, tempor\u00e4re Dateien konnten jedoch entfernt werden.",
+  "category_of_the_email": "Incident"
+}

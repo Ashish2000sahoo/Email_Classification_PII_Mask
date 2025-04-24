@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Support Required to Fix Server Downtime\n\nDear IT Services Support Team, \n\nI am reaching out urgently to request immediate assistance with a critical issue You can reach me at fatima.farsi@help.com.. We are experiencing server downtime which is severely impacting our business operations. The affected service is your IT Consulting Service, and it's causing significant disruptions. We rely heavily on this service for our daily operations, and need resolution as soon as possible. Kindly prioritize this issue and provide the necessary support to restore normal operations. \n\nThank you for your prompt attention to this matter. \n\nBest regards, \n<name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        679,
+        693
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        191,
+        212
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Support Required to Fix Server Downtime\n\nDear IT Services Support Team, \n\nI am reaching out urgently to request immediate assistance with a critical issue You can reach me at [email].. We are experiencing server downtime which is severely impacting our business operations. The affected service is your IT Consulting Service, and it's causing significant disruptions. We rely heavily on this service for our daily operations, and need resolution as soon as possible. Kindly prioritize this issue and provide the necessary support to restore normal operations. \n\nThank you for your prompt attention to this matter. \n\nBest regards, \n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

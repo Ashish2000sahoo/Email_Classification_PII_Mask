@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Query for Energy Consumption Analytics on EVGA SuperNOVA 750 G5\n\nGreetings Customer Support, I hope this message finds you well. I am writing to request detailed information about the reporting features available for the EVGA SuperNOVA 750 G5 energy consumption analytics My name is David Kim.. Specifically, I am keen to understand the array of reports that can be generated to effectively track and monitor energy usage. Could you furnish me with comprehensive details on the types of data that can be tracked, the frequency at which reports are generated, and any options for customizing these reports? Additionally, it would be of great help to receive guidance on how to access and configure these reporting features. Furthermore, are there any limitations or restrictions on the reporting capabilities of the EVGA SuperNOVA 750 G5? I am eager to receive your response and to learn more about the robust energy consumption analytics offered by this product. Thank you for your prompt attention to this matter. Sincerely, [Your Name] You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        292,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1069,
+        1091
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        66,
+        69
+      ],
+      "classification": "cvv_no",
+      "entity": "750"
+    },
+    {
+      "position": [
+        245,
+        248
+      ],
+      "classification": "cvv_no",
+      "entity": "750"
+    },
+    {
+      "position": [
+        841,
+        844
+      ],
+      "classification": "cvv_no",
+      "entity": "750"
+    }
+  ],
+  "masked_email": "Subject: Query for Energy Consumption Analytics on EVGA SuperNOVA [cvv_no] G5\n\nGreetings Customer Support, I hope this message finds you well. I am writing to request detailed information about the reporting features available for the EVGA SuperNOVA [cvv_no] G5 energy consumption analytics My name is [full_name].. Specifically, I am keen to understand the array of reports that can be generated to effectively track and monitor energy usage. Could you furnish me with comprehensive details on the types of data that can be tracked, the frequency at which reports are generated, and any options for customizing these reports? Additionally, it would be of great help to receive guidance on how to access and configure these reporting features. Furthermore, are there any limitations or restrictions on the reporting capabilities of the EVGA SuperNOVA [cvv_no] G5? I am eager to receive your response and to learn more about the robust energy consumption analytics offered by this product. Thank you for your prompt attention to this matter. Sincerely, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

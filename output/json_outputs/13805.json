@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundensupport,<br><br>Wir melden uns bez\u00fcglich einer Sicherheitslage im Zusammenhang mit unserem medizinischen Datenystem You can reach me at sophia.rossi@service.it.. Es wurde ein autorisierter Zugang versucht, was m\u00f6glicherweise auf veraltete Software und mangelnde Sicherheitsma\u00dfnahmen zur\u00fcckzuf\u00fchren ist My name is Maria Gonzalez.. Wir haben bereits Ma\u00dfnahmen ergreifen k\u00f6nnen, wie das Aktualisieren von Antivirusdefinitionen und das \u00c4ndern von Passw\u00f6rtern. Allerdings bestehen Probleme weiterhin, was uns Sorge bereitet und uns zu der \u00dcberzeugung veranlasst, dass wir dringend Hilfe ben\u00f6tigen, um das Problem zu l\u00f6sen. Bitte geben Sie uns Anleitungen f\u00fcr die weitere Bearbeitung des Falles.<br><br>Mit freundlichen Gr\u00fc\u00dfen",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        166,
+        189
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundensupport,<br><br>Wir melden uns bez\u00fcglich einer Sicherheitslage im Zusammenhang mit unserem medizinischen Datenystem You can reach me at [email].. Es wurde ein autorisierter Zugang versucht, was m\u00f6glicherweise auf veraltete Software und mangelnde Sicherheitsma\u00dfnahmen zur\u00fcckzuf\u00fchren ist My name is [full_name].. Wir haben bereits Ma\u00dfnahmen ergreifen k\u00f6nnen, wie das Aktualisieren von Antivirusdefinitionen und das \u00c4ndern von Passw\u00f6rtern. Allerdings bestehen Probleme weiterhin, was uns Sorge bereitet und uns zu der \u00dcberzeugung veranlasst, dass wir dringend Hilfe ben\u00f6tigen, um das Problem zu l\u00f6sen. Bitte geben Sie uns Anleitungen f\u00fcr die weitere Bearbeitung des Falles.<br><br>Mit freundlichen Gr\u00fc\u00dfen",
+  "category_of_the_email": "Incident"
+}

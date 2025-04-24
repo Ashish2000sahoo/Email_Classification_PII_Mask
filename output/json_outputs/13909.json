@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boost User Interaction\n\nCustomer Support, addressing the request to enhance integration capabilities for various applications within the project management SaaS My name is John Doe.. The objective is to improve user experience by enabling seamless interactions across different tools. This would allow users to access multiple applications from a single platform, thereby streamlining workflows and increasing productivity You can reach me at johndoe@email.com.. We believe this enhancement would be a significant step towards providing an intuitive and efficient experience for users.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        189
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        455,
+        472
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Boost User Interaction\n\nCustomer Support, addressing the request to enhance integration capabilities for various applications within the project management SaaS My name is [full_name].. The objective is to improve user experience by enabling seamless interactions across different tools. This would allow users to access multiple applications from a single platform, thereby streamlining workflows and increasing productivity You can reach me at [email].. We believe this enhancement would be a significant step towards providing an intuitive and efficient experience for users.",
+  "category_of_the_email": "Change"
+}

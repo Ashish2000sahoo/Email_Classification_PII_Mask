@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlende Integration der SaaS-Plattform\n\nDie SaaS-Plattform konnte nicht integriert werden My name is Liu Wei.. Es k\u00f6nnte sich um ein Mismatch im API-Schl\u00fcssel oder abgelaufenen Berechtigungen handeln. Die Dienste wurden wiederhergestellt, die Logs wurden inspiziert und die Einstellungen gepr\u00fcft. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        111,
+        118
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        331,
+        356
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fehlende Integration der SaaS-Plattform\n\nDie SaaS-Plattform konnte nicht integriert werden My name is [full_name].. Es k\u00f6nnte sich um ein Mismatch im API-Schl\u00fcssel oder abgelaufenen Berechtigungen handeln. Die Dienste wurden wiederhergestellt, die Logs wurden inspiziert und die Einstellungen gepr\u00fcft. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

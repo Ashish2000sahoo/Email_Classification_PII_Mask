@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit der Unterbrechung der Modemverbindung\n\nSehr geehrte Kundenservice-Team,\\n\\nich schreibe, um das Problem mit dem Abruch meiner Modemverbindung zu melden, das den sicheren Datentransfer st\u00f6rt. M\u00f6gliche Ursachen k\u00f6nnten ein \u00fcberlastetes Netzwerk oder eine veraltete Firmware sein. Ich habe bereits versucht, das Modem neu zu starten und die Kabel zu \u00fcberpr\u00fcfen, aber das Problem ist leider bestehend geblieben. Es w\u00e4re sehr nett, wenn Sie sich dieser Angelegenheit annehmen k\u00f6nnten und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten You can reach me at carlosm@gmail.com.. Bitte melden Sie sich, falls Sie nach weiteren Informationen von mir ben\u00f6tigen, um dieses Problem zu beheben. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is Omar Hassan.. Ich freue mich darauf, Ihre Nachricht bald wiederzuerhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        761,
+        772
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        576,
+        593
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Unterbrechung der Modemverbindung\n\nSehr geehrte Kundenservice-Team,\\n\\nich schreibe, um das Problem mit dem Abruch meiner Modemverbindung zu melden, das den sicheren Datentransfer st\u00f6rt. M\u00f6gliche Ursachen k\u00f6nnten ein \u00fcberlastetes Netzwerk oder eine veraltete Firmware sein. Ich habe bereits versucht, das Modem neu zu starten und die Kabel zu \u00fcberpr\u00fcfen, aber das Problem ist leider bestehend geblieben. Es w\u00e4re sehr nett, wenn Sie sich dieser Angelegenheit annehmen k\u00f6nnten und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten You can reach me at [email].. Bitte melden Sie sich, falls Sie nach weiteren Informationen von mir ben\u00f6tigen, um dieses Problem zu beheben. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is [full_name].. Ich freue mich darauf, Ihre Nachricht bald wiederzuerhalten.",
+  "category_of_the_email": "Incident"
+}

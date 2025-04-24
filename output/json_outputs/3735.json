@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerns Regarding the Launch of Digital Campaigns\n\nThe digital campaigns failed to launch, which may be due to Node.js compatibility problems. After updating Node.js and verifying the HDMI connections, the issue still exists.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        274
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding the Launch of Digital Campaigns\n\nThe digital campaigns failed to launch, which may be due to Node.js compatibility problems. After updating Node.js and verifying the HDMI connections, the issue still exists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

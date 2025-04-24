@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Inquiries About Payment Methods for McAfee Total Protection 2021\n\nHello support team, I am keen on acquiring a McAfee Total Protection 2021 plan and would appreciate your guidance on the payment alternatives available My name is Fatima Al-Farsi.. Specifically, could you clarify if your services accept credit cards, PayPal, or other forms of payment? Furthermore, are there any special deals or promotions for new customers? I eagerly await your response and assistance in completing my subscription. Many thanks for your time and support. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        572,
+        597
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        69,
+        73
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        144,
+        148
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Inquiries About Payment Methods for McAfee Total Protection [phone_number]\n\nHello support team, I am keen on acquiring a McAfee Total Protection [phone_number] plan and would appreciate your guidance on the payment alternatives available My name is [full_name]-Farsi.. Specifically, could you clarify if your services accept credit cards, PayPal, or other forms of payment? Furthermore, are there any special deals or promotions for new customers? I eagerly await your response and assistance in completing my subscription. Many thanks for your time and support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

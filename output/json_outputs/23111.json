@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Nicht reagierender Touchscreen auf dem Ger\u00e4t\n\nHallo, ich habe Probleme mit der Touchscreen-Funktionalit\u00e4t auf meinem Microsoft Surface Pro 7 You can reach me at carlosm@gmail.com.. Es reagiert nicht, was die Navigation extrem schwierig macht My name is Carlos Mendoza.. K\u00f6nnen Sie bitte bei der Fehlersuche helfen oder Reparaturoptionen bereitstellen? Danke, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        276
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        170,
+        187
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Nicht reagierender Touchscreen auf dem Ger\u00e4t\n\nHallo, ich habe Probleme mit der Touchscreen-Funktionalit\u00e4t auf meinem Microsoft Surface Pro 7 You can reach me at [email].. Es reagiert nicht, was die Navigation extrem schwierig macht My name is [full_name].. K\u00f6nnen Sie bitte bei der Fehlersuche helfen oder Reparaturoptionen bereitstellen? Danke, <name>.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Projektmanagement-Software\n\nM\u00f6chte mehr \u00fcber die Integrationsf\u00e4higkeiten und Anpassungsm\u00f6glichkeiten der Projektmanagement-Software erfahren, insbesondere solche, die spezifischen Gesch\u00e4ftsn\u00f6te erf\u00fcllen und einbindende Tools unterst\u00fctzen?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        270,
+        285
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Projektmanagement-Software\n\nM\u00f6chte mehr \u00fcber die Integrationsf\u00e4higkeiten und Anpassungsm\u00f6glichkeiten der Projektmanagement-Software erfahren, insbesondere solche, die spezifischen Gesch\u00e4ftsn\u00f6te erf\u00fcllen und einbindende Tools unterst\u00fctzen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

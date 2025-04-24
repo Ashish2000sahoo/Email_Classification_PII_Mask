@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent Support Needed: Data Breach Occurred Today\n\nData breach detected, affecting medical records.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        146
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent Support Needed: Data Breach Occurred Today\n\nData breach detected, affecting medical records.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

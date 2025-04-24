@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlermeldung bei der Datenanalysesoftware\n\nSehr geehrte Kundenservice, ich melde mich an, um ein Problem mit der von mir verwendeten Datenanalysesoftware zu melden. Die Software brach pl\u00f6tzlich ab und ich konnte bisher keine L\u00f6sung finden My name is Elena Ivanova.. Da ich k\u00fcrzlich meinen Laptop mit einer neuen Betriebssystemversion aktualisiert habe, vermute ich, dass der Crash auf unkompatible Systemupdates zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich habe bereits versucht, meinen Laptop neu zu starten und die Einstellungen der Software zu \u00fcberpr\u00fcfen, um festzustellen, ob \u00c4nderungen notwendig waren You can reach me at liuwei@business.cn.. Allerdings hat dies das Problem nicht beheben k\u00f6nnen. Es w\u00e4re sehr hilfreich, wenn Sie mir dabei helfen k\u00f6nnten, das Problem zu l\u00f6sen. K\u00f6nnten Sie mir bitte mitteilen, welche Schritte ich unternehmen kann, um das Problem zu behandeln? Wenn Updates oder Patches verf\u00fcgbar sind, die ich installieren muss, lassen Sie es mich bitte wissen. Au\u00dferdem m\u00f6chte ich Anweisungen erhalten, wie ich zuk\u00fcnftig dieses Problem vermeiden kann. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        622,
+        640
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Fehlermeldung bei der Datenanalysesoftware\n\nSehr geehrte Kundenservice, ich melde mich an, um ein Problem mit der von mir verwendeten Datenanalysesoftware zu melden. Die Software brach pl\u00f6tzlich ab und ich konnte bisher keine L\u00f6sung finden My name is [full_name].. Da ich k\u00fcrzlich meinen Laptop mit einer neuen Betriebssystemversion aktualisiert habe, vermute ich, dass der Crash auf unkompatible Systemupdates zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich habe bereits versucht, meinen Laptop neu zu starten und die Einstellungen der Software zu \u00fcberpr\u00fcfen, um festzustellen, ob \u00c4nderungen notwendig waren You can reach me at [email].. Allerdings hat dies das Problem nicht beheben k\u00f6nnen. Es w\u00e4re sehr hilfreich, wenn Sie mir dabei helfen k\u00f6nnten, das Problem zu l\u00f6sen. K\u00f6nnten Sie mir bitte mitteilen, welche Schritte ich unternehmen kann, um das Problem zu behandeln? Wenn Updates oder Patches verf\u00fcgbar sind, die ich installieren muss, lassen Sie es mich bitte wissen. Au\u00dferdem m\u00f6chte ich Anweisungen erhalten, wie ich zuk\u00fcnftig dieses Problem vermeiden kann. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

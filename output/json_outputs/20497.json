@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit der Microsoft Surface Pro 7 Tastatur\n\nSehr geehrter Kundenservice,  \n\nich habe ein Problem mit meinem Microsoft Surface Pro 7 My name is Elena Ivanova.. Die abnehmbare Tastatur funktioniert w\u00e4hrend Verkaufspr\u00e4sentationen nicht richtig, was meine Produktivit\u00e4t beeintr\u00e4chtigt You can reach me at liuwei@business.cn.. Bitte helfen Sie mir, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.\n\nVielen Dank,  \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        314,
+        332
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Microsoft Surface Pro 7 Tastatur\n\nSehr geehrter Kundenservice,  \n\nich habe ein Problem mit meinem Microsoft Surface Pro 7 My name is [full_name].. Die abnehmbare Tastatur funktioniert w\u00e4hrend Verkaufspr\u00e4sentationen nicht richtig, was meine Produktivit\u00e4t beeintr\u00e4chtigt You can reach me at [email].. Bitte helfen Sie mir, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.\n\nVielen Dank,  \n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Dashboard Metrics\n\nThe dashboard is unable to load essential metrics because of a data source connection problem.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Dashboard Metrics\n\nThe dashboard is unable to load essential metrics because of a data source connection problem.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

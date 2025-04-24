@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Upgraded Security for Medical Data Systems\n\nIt is essential to implement strong security measures to protect medical data, enhancing the efficiency of hospital infrastructure. This ensures the confidentiality, integrity, and availability of sensitive patient information, ultimately improving the quality of healthcare services.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        360,
+        375
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Upgraded Security for Medical Data Systems\n\nIt is essential to implement strong security measures to protect medical data, enhancing the efficiency of hospital infrastructure. This ensures the confidentiality, integrity, and availability of sensitive patient information, ultimately improving the quality of healthcare services.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

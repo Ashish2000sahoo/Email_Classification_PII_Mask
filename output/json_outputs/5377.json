@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Several Integrations Have Stopped Working Following New Updates\n\nDear Customer Support, <br><br>I am contacting you to report a problem with several integrations that have stopped working together. This issue began after recent software updates, which could have led to compatibility problems. Despite my attempts to restart services, review logs, and confirm configurations, the problem continues You can reach me at fatima.farsi@help.com.. <br><br>The integrations in question are essential for our operations, so I would be grateful if you could address this matter quickly My name is Sophia Rossi.. I have included the log files for your review. Please inform me if you need more details from me. <br><br>I appreciate your swift response to this issue and look forward to your prompt communication. <br><br>Warm regards, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        597,
+        609
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        427,
+        448
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Several Integrations Have Stopped Working Following New Updates\n\nDear Customer Support, <br><br>I am contacting you to report a problem with several integrations that have stopped working together. This issue began after recent software updates, which could have led to compatibility problems. Despite my attempts to restart services, review logs, and confirm configurations, the problem continues You can reach me at [email].. <br><br>The integrations in question are essential for our operations, so I would be grateful if you could address this matter quickly My name is [full_name].. I have included the log files for your review. Please inform me if you need more details from me. <br><br>I appreciate your swift response to this issue and look forward to your prompt communication. <br><br>Warm regards, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

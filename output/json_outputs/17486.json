@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr die Verbesserung der Verschl\u00fcsselung von medizinischen Akten auf Western Digital My Book Duo\n\nHiermit wende ich mich an den Kundendienst von Western Digital, um nach einem Verfahren f\u00fcr die Verbesserung der Verschl\u00fcsselung von medizinischen Akten auf Western Digital My Book Duo zu fragen My name is Liu Wei.. Der aktuelle Verschl\u00fcsselungsmechanismus erscheint mir f\u00fcr sensible medizinische Daten nicht ausreichend You can reach me at liuwei@business.cn.. Ich w\u00fcrde gerne eine Schritt-f\u00fcr-Schritt-Anleitung erhalten, die mir hilft, die Verschl\u00fcsselung zu verbessern, um die Vertraulichkeit und Integrit\u00e4t der Daten sicherzustellen. K\u00f6nnten Sie mir bitte Schritt-f\u00fcr-Schritt-Anweisungen oder ein geeignetes Verschl\u00fcsselungsprogramm empfehlen, das mit My Book Duo kompatibel ist? Ich sch\u00e4tze Ihre Unterst\u00fctzung in diesem Bereich und freue mich auf Ihre baldige R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        327,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        466,
+        484
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr die Verbesserung der Verschl\u00fcsselung von medizinischen Akten auf Western Digital My Book Duo\n\nHiermit wende ich mich an den Kundendienst von Western Digital, um nach einem Verfahren f\u00fcr die Verbesserung der Verschl\u00fcsselung von medizinischen Akten auf Western Digital My Book Duo zu fragen My name is [full_name].. Der aktuelle Verschl\u00fcsselungsmechanismus erscheint mir f\u00fcr sensible medizinische Daten nicht ausreichend You can reach me at [email].. Ich w\u00fcrde gerne eine Schritt-f\u00fcr-Schritt-Anleitung erhalten, die mir hilft, die Verschl\u00fcsselung zu verbessern, um die Vertraulichkeit und Integrit\u00e4t der Daten sicherzustellen. K\u00f6nnten Sie mir bitte Schritt-f\u00fcr-Schritt-Anweisungen oder ein geeignetes Verschl\u00fcsselungsprogramm empfehlen, das mit My Book Duo kompatibel ist? Ich sch\u00e4tze Ihre Unterst\u00fctzung in diesem Bereich und freue mich auf Ihre baldige R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

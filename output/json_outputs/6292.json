@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit verlorenen Daten\n\nPl\u00f6tzlich gab es Datenverlust auf verschiedenen Systemen My name is Liu Wei.. M\u00f6glicherweise ein Integrations- oder Synchronisationsproblem You can reach me at sophia.rossi@service.it.. Ich habe die Server neugestartet, die Verbindungen \u00fcberpr\u00fcft und die Backups best\u00e4tigt.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        107,
+        114
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        203,
+        226
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem mit verlorenen Daten\n\nPl\u00f6tzlich gab es Datenverlust auf verschiedenen Systemen My name is [full_name].. M\u00f6glicherweise ein Integrations- oder Synchronisationsproblem You can reach me at [email].. Ich habe die Server neugestartet, die Verbindungen \u00fcberpr\u00fcft und die Backups best\u00e4tigt.",
+  "category_of_the_email": "Incident"
+}

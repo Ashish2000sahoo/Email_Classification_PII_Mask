@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Digital Strategy Tools Access\n\nFacing sporadic difficulties accessing digital strategy tools. This could be related to server maintenance or network fluctuations My name is Maria Gonzalez.. After clearing the cache and restarting the affected applications, the problem still persists You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate prompt assistance to resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        323,
+        345
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Digital Strategy Tools Access\n\nFacing sporadic difficulties accessing digital strategy tools. This could be related to server maintenance or network fluctuations My name is [full_name].. After clearing the cache and restarting the affected applications, the problem still persists You can reach me at [email].. I would greatly appreciate prompt assistance to resolve this issue.",
+  "category_of_the_email": "Incident"
+}

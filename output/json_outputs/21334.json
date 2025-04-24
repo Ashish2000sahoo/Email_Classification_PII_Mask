@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande sur les services informatiques\n\nBonjour, J'ai quelques questions g\u00e9n\u00e9rales concernant votre processus de d\u00e9veloppement logiciel et j'appr\u00e9cierais tout conseil sur l'administration des serveurs. Le produit concern\u00e9 est votre service de conseil en informatique My name is John Doe.. J'attends avec impatience vos conseils et vous remercie pour votre soutien You can reach me at maria.gonzalez@shop.es.. Cordialement, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        295
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        396,
+        418
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Demande sur les services informatiques\n\nBonjour, J'ai quelques questions g\u00e9n\u00e9rales concernant votre processus de d\u00e9veloppement logiciel et j'appr\u00e9cierais tout conseil sur l'administration des serveurs. Le produit concern\u00e9 est votre service de conseil en informatique My name is [full_name].. J'attends avec impatience vos conseils et vous remercie pour votre soutien You can reach me at [email].. Cordialement, <name>.",
+  "category_of_the_email": "Request"
+}

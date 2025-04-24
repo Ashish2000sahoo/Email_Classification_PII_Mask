@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support urgent n\u00e9cessaire pour AWS\n\nBonjour Service Client,  \n\nNous rencontrons des d\u00e9fis s\u00e9rieux avec notre d\u00e9ploiement AWS li\u00e9 \u00e0 votre Service de Gestion AWS. Comme nous d\u00e9pendons de cela pour notre support d'infrastructure cloud et la gestion des co\u00fbts, une assistance imm\u00e9diate est critique. Veuillez faire de ce probl\u00e8me une priorit\u00e9 et fournir l'expertise requise My name is Jane Smith.. Merci You can reach me at janesmith@company.com..  \n\nCordialement,  \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        390,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        430,
+        451
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support urgent n\u00e9cessaire pour AWS\n\nBonjour Service Client,  \n\nNous rencontrons des d\u00e9fis s\u00e9rieux avec notre d\u00e9ploiement AWS li\u00e9 \u00e0 votre Service de Gestion AWS. Comme nous d\u00e9pendons de cela pour notre support d'infrastructure cloud et la gestion des co\u00fbts, une assistance imm\u00e9diate est critique. Veuillez faire de ce probl\u00e8me une priorit\u00e9 et fournir l'expertise requise My name is [full_name].. Merci You can reach me at [email]..  \n\nCordialement,  \n<name>",
+  "category_of_the_email": "Problem"
+}

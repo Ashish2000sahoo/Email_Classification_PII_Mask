@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cyber Sicherheit\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um nachzufragen, welche vorgeschlagenen Schutzma\u00dfnahmen f\u00fcr die Verschl\u00fcsselung medizinischer Daten in gesundheitswissenschaftlichen Einrichtungen empfohlen werden You can reach me at carlosm@gmail.com.. Wie Sie wissen, sind medizinische Daten sehr sensibel und erfordern ein hohes Ma\u00df an Schutz, um unautorisierten Zugriff und Verst\u00f6\u00dfe zu verhindern. Ich w\u00fcrde gerne wissen, welche Ma\u00dfnahmen zurzeit im Industriestandard als besten Praktiken anerkannt werden. Sind es spezielle Protokolle oder Technologien, die f\u00fcr die Verschl\u00fcsselung medizinischer Daten empfohlen werden? Ich w\u00fcrde mich auch \u00fcber Informationen freuen, die mir helfen, diese Ma\u00dfnahmen effektiv umzusetzen. Zudem gibt es f\u00fcr gesundheitswissenschaftliche Organisationen Ressourcen oder Leitlinien, um mit den relevanten Vorschriften in Einklang zu bleiben? Ich freue mich auf Ihre R\u00fcckmeldung zu diesem Thema My name is Carlos Mendoza.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        962,
+        976
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        259,
+        276
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Cyber Sicherheit\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um nachzufragen, welche vorgeschlagenen Schutzma\u00dfnahmen f\u00fcr die Verschl\u00fcsselung medizinischer Daten in gesundheitswissenschaftlichen Einrichtungen empfohlen werden You can reach me at [email].. Wie Sie wissen, sind medizinische Daten sehr sensibel und erfordern ein hohes Ma\u00df an Schutz, um unautorisierten Zugriff und Verst\u00f6\u00dfe zu verhindern. Ich w\u00fcrde gerne wissen, welche Ma\u00dfnahmen zurzeit im Industriestandard als besten Praktiken anerkannt werden. Sind es spezielle Protokolle oder Technologien, die f\u00fcr die Verschl\u00fcsselung medizinischer Daten empfohlen werden? Ich w\u00fcrde mich auch \u00fcber Informationen freuen, die mir helfen, diese Ma\u00dfnahmen effektiv umzusetzen. Zudem gibt es f\u00fcr gesundheitswissenschaftliche Organisationen Ressourcen oder Leitlinien, um mit den relevanten Vorschriften in Einklang zu bleiben? Ich freue mich auf Ihre R\u00fcckmeldung zu diesem Thema My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

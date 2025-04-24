@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hinweise zu gestopften Projektterminpl\u00e4nen\n\nEhrw\u00fcrdige Kundensupport, ich erlitt Schwierigkeiten, meine Projektterminpl\u00e4ne zu aktualisieren, da sie eingefroren sind. Das k\u00f6nnte ein Problem mit der Softwarekompatibilit\u00e4t sein. Ich versuchte bereits, das Programm zu neu starten, meine Browser-Version zu aktualisieren und den Cache zu leeren, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich mit diesem Problem befasst und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten My name is David Kim.. Bitte teilen Sie mich mit, falls Sie weitere Informationen von mir ben\u00f6tigen, um dieses Problem zu l\u00f6sen You can reach me at elena.ivanova@support.org.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        520,
+        529
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        659,
+        684
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Hinweise zu gestopften Projektterminpl\u00e4nen\n\nEhrw\u00fcrdige Kundensupport, ich erlitt Schwierigkeiten, meine Projektterminpl\u00e4ne zu aktualisieren, da sie eingefroren sind. Das k\u00f6nnte ein Problem mit der Softwarekompatibilit\u00e4t sein. Ich versuchte bereits, das Programm zu neu starten, meine Browser-Version zu aktualisieren und den Cache zu leeren, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich mit diesem Problem befasst und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten My name is [full_name].. Bitte teilen Sie mich mit, falls Sie weitere Informationen von mir ben\u00f6tigen, um dieses Problem zu l\u00f6sen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

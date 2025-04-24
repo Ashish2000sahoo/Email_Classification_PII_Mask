@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de changement de configuration du serveur\n\nCher service client, Je vous \u00e9cris pour demander un changement dans la configuration du serveur afin d'am\u00e9liorer la performance de notre service de conseil en informatique You can reach me at carlosm@gmail.com.. Nous rencontrons des probl\u00e8mes de vitesse et d'efficacit\u00e9, et croyons que l'optimisation des r\u00e9glages du serveur b\u00e9n\u00e9ficiera grandement \u00e0 notre service. Veuillez nous faire savoir le processus \u00e0 suivre pour cette demande. Merci pour votre assistance. Sinc\u00e8rement, <name>, Responsable informatique chez <company_name>. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        601,
+        610
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        252,
+        269
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Demande de changement de configuration du serveur\n\nCher service client, Je vous \u00e9cris pour demander un changement dans la configuration du serveur afin d'am\u00e9liorer la performance de notre service de conseil en informatique You can reach me at [email].. Nous rencontrons des probl\u00e8mes de vitesse et d'efficacit\u00e9, et croyons que l'optimisation des r\u00e9glages du serveur b\u00e9n\u00e9ficiera grandement \u00e0 notre service. Veuillez nous faire savoir le processus \u00e0 suivre pour cette demande. Merci pour votre assistance. Sinc\u00e8rement, <name>, Responsable informatique chez <company_name>. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Change"
+}

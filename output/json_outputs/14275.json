@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected System Crash During Data Analytics Processing\n\nAn unexpected system crash happened during data analytics processing You can reach me at elena.ivanova@support.org.. It might be due to software conflicts or insufficient resources. After restarting the system and running diagnostics, the issue still persists. I am concerned about the potential loss of data and would like assistance in resolving this issue as soon as possible. Please inform me of the next steps to troubleshoot and fix the problem. I appreciate your prompt attention to this matter and look forward to your response soon. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        620,
+        630
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        156,
+        181
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unexpected System Crash During Data Analytics Processing\n\nAn unexpected system crash happened during data analytics processing You can reach me at [email].. It might be due to software conflicts or insufficient resources. After restarting the system and running diagnostics, the issue still persists. I am concerned about the potential loss of data and would like assistance in resolving this issue as soon as possible. Please inform me of the next steps to troubleshoot and fix the problem. I appreciate your prompt attention to this matter and look forward to your response soon. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

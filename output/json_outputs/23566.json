@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inatividade do Servidor Requer Aten\u00e7\u00e3o Imediata\n\nCaro Suporte ao Cliente,\n\nEstou entrando em contato para trazer \u00e0 sua aten\u00e7\u00e3o urgente um problema que estamos enfrentando com seu Servi\u00e7o de Consultoria de TI My name is David Kim.. Nosso servidor voltado para o cliente, identificado como <acc_num>, sofreu uma inatividade inesperada, impactando severamente nossos servi\u00e7os para o usu\u00e1rio final. Essa interrup\u00e7\u00e3o est\u00e1 causando grande inconveni\u00eancia e insatisfa\u00e7\u00e3o entre nossos clientes.\n\nDada a natureza cr\u00edtica deste problema, necessitamos de assist\u00eancia t\u00e9cnica imediata para restaurar a funcionalidade total dos sistemas afetados. Nossa equipe tentou passos iniciais de resolu\u00e7\u00e3o de problemas sem sucesso, indicando a necessidade de suporte especializado de seus especialistas.\n\nPor favor, forne\u00e7a-nos um plano de suporte de emerg\u00eancia, incluindo os detalhes de contato apropriados e os pr\u00f3ximos passos para escalar esta quest\u00e3o. Voc\u00ea pode me contatar diretamente pelo <tel_num> para quaisquer detalhes adicionais necess\u00e1rios ou para agendar um hor\u00e1rio para uma sess\u00e3o colaborativa de resolu\u00e7\u00e3o de problemas.\n\nSua aten\u00e7\u00e3o imediata a este assunto seria muito apreciada para mitigar o impacto em nossos servi\u00e7os e manter nossa reputa\u00e7\u00e3o m\u00fatua de confiabilidade.\n\nObrigado pela sua compreens\u00e3o e resposta r\u00e1pida.\n\nAtenciosamente,\n\n<name> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        237
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1368,
+        1393
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Inatividade do Servidor Requer Aten\u00e7\u00e3o Imediata\n\nCaro Suporte ao Cliente,\n\nEstou entrando em contato para trazer \u00e0 sua aten\u00e7\u00e3o urgente um problema que estamos enfrentando com seu Servi\u00e7o de Consultoria de TI My name is [full_name].. Nosso servidor voltado para o cliente, identificado como <acc_num>, sofreu uma inatividade inesperada, impactando severamente nossos servi\u00e7os para o usu\u00e1rio final. Essa interrup\u00e7\u00e3o est\u00e1 causando grande inconveni\u00eancia e insatisfa\u00e7\u00e3o entre nossos clientes.\n\nDada a natureza cr\u00edtica deste problema, necessitamos de assist\u00eancia t\u00e9cnica imediata para restaurar a funcionalidade total dos sistemas afetados. Nossa equipe tentou passos iniciais de resolu\u00e7\u00e3o de problemas sem sucesso, indicando a necessidade de suporte especializado de seus especialistas.\n\nPor favor, forne\u00e7a-nos um plano de suporte de emerg\u00eancia, incluindo os detalhes de contato apropriados e os pr\u00f3ximos passos para escalar esta quest\u00e3o. Voc\u00ea pode me contatar diretamente pelo <tel_num> para quaisquer detalhes adicionais necess\u00e1rios ou para agendar um hor\u00e1rio para uma sess\u00e3o colaborativa de resolu\u00e7\u00e3o de problemas.\n\nSua aten\u00e7\u00e3o imediata a este assunto seria muito apreciada para mitigar o impacto em nossos servi\u00e7os e manter nossa reputa\u00e7\u00e3o m\u00fatua de confiabilidade.\n\nObrigado pela sua compreens\u00e3o e resposta r\u00e1pida.\n\nAtenciosamente,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

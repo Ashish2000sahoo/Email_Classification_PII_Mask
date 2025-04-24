@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investments Through Data Analytics\n\nPlease provide information on how data analytics services can optimize investments My name is Maria Gonzalez.. This would greatly assist us in making well-informed decisions. We are interested in learning about the benefits these services can bring to our business You can reach me at carlosm@gmail.com.. We look forward to your assistance and are waiting for your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        337,
+        354
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investments Through Data Analytics\n\nPlease provide information on how data analytics services can optimize investments My name is [full_name].. This would greatly assist us in making well-informed decisions. We are interested in learning about the benefits these services can bring to our business You can reach me at [email].. We look forward to your assistance and are waiting for your response.",
+  "category_of_the_email": "Request"
+}

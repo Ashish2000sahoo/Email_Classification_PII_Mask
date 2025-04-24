@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for MacBook Air Exchange\n\nDear Customer Support,\n\nI am writing to request an exchange for a new MacBook Air M1 due to battery charging issues My name is John Doe.. My device, purchased under the account <acc_num>, consistently fails to charge beyond 20% despite several troubleshooting attempts. I would appreciate a swift resolution. Please guide me through the process to ensure a smooth exchange, at my earliest convenience.\n\nThank you for your assistance.\n\nSincerely,\n<name> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        170,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        519,
+        536
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for MacBook Air Exchange\n\nDear Customer Support,\n\nI am writing to request an exchange for a new MacBook Air M1 due to battery charging issues My name is [full_name].. My device, purchased under the account <acc_num>, consistently fails to charge beyond 20% despite several troubleshooting attempts. I would appreciate a swift resolution. Please guide me through the process to ensure a smooth exchange, at my earliest convenience.\n\nThank you for your assistance.\n\nSincerely,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verschleierung medizinischer Daten\n\nEntwickeln und umsetzen erweiterten Schutzmechanismus, um Medizinische Daten vor Verletzungen zu sch\u00fctzen, und sicherzustellen, dass die IT-Systeme des Krankenhauses den Gesundheitsversorgungsregulierungen entsprechen. Dies umfasst die Verschl\u00fcsselung von sensiblen Informationen, die Einrichtung strenger Zugriffskontrollen sowie regelm\u00e4\u00dfige Audits.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        418,
+        434
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Verschleierung medizinischer Daten\n\nEntwickeln und umsetzen erweiterten Schutzmechanismus, um Medizinische Daten vor Verletzungen zu sch\u00fctzen, und sicherzustellen, dass die IT-Systeme des Krankenhauses den Gesundheitsversorgungsregulierungen entsprechen. Dies umfasst die Verschl\u00fcsselung von sensiblen Informationen, die Einrichtung strenger Zugriffskontrollen sowie regelm\u00e4\u00dfige Audits.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

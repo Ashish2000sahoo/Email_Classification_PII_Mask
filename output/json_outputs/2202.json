@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nKundenservice und das Marketingb\u00fcro k\u00e4mpfen mit der Markenansprechbarkeit. Unwirksame Kampagnen und Mangel an Engagement k\u00f6nnten die Hauptgr\u00fcnde sein My name is Jane Smith.. Durchgef\u00fchrt wurden A/B-Tests, die die Werbung angepasst haben und erwartet wird, dass dies zu signifikanten Verbesserungen f\u00fchrt. Weitere Unterst\u00fctzung wird ben\u00f6tigt, um den Inhalt zu optimieren und das Engagement zu erh\u00f6hen. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        172,
+        182
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        433,
+        454
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nKundenservice und das Marketingb\u00fcro k\u00e4mpfen mit der Markenansprechbarkeit. Unwirksame Kampagnen und Mangel an Engagement k\u00f6nnten die Hauptgr\u00fcnde sein My name is [full_name].. Durchgef\u00fchrt wurden A/B-Tests, die die Werbung angepasst haben und erwartet wird, dass dies zu signifikanten Verbesserungen f\u00fchrt. Weitere Unterst\u00fctzung wird ben\u00f6tigt, um den Inhalt zu optimieren und das Engagement zu erh\u00f6hen. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

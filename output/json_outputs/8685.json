@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Discrepancies Observed in Investment Performance Indicators\n\nDear Support Team, recently, our data analytics reports have highlighted inconsistencies in investment performance indicators. These discrepancies might be due to outdated algorithms or incorrect data inputs You can reach me at janesmith@company.com.. Despite refreshing the datasets and rebooting the analytics software, the issues have not been resolved. These inconsistencies are complicating our ability to make well-informed decisions. Having already tried troubleshooting by checking data sources and software configurations, the problem still persists My name is Fatima Al-Farsi.. We would greatly appreciate your assistance in resolving this issue at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        640,
+        649
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        298,
+        319
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Discrepancies Observed in Investment Performance Indicators\n\nDear Support Team, recently, our data analytics reports have highlighted inconsistencies in investment performance indicators. These discrepancies might be due to outdated algorithms or incorrect data inputs You can reach me at [email].. Despite refreshing the datasets and rebooting the analytics software, the issues have not been resolved. These inconsistencies are complicating our ability to make well-informed decisions. Having already tried troubleshooting by checking data sources and software configurations, the problem still persists My name is [full_name]-Farsi.. We would greatly appreciate your assistance in resolving this issue at your earliest convenience.",
+  "category_of_the_email": "Problem"
+}

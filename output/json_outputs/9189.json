@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, seeking guidance on securing medical data with DocuSign and MySQL 8.0 integration. A healthcare provider needs to ensure the protection of sensitive patient information You can reach me at maria.gonzalez@shop.es.. Currently using DocuSign for electronic signatures and MySQL 8.0 for database management. Would appreciate information on how to integrate these systems while maintaining HIPAA compliance My name is Jane Smith.. Specifically, looking for details on encryption methods, access controls, and audit trails.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        452
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        218,
+        240
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, seeking guidance on securing medical data with DocuSign and MySQL 8.0 integration. A healthcare provider needs to ensure the protection of sensitive patient information You can reach me at [email].. Currently using DocuSign for electronic signatures and MySQL 8.0 for database management. Would appreciate information on how to integrate these systems while maintaining HIPAA compliance My name is [full_name].. Specifically, looking for details on encryption methods, access controls, and audit trails.",
+  "category_of_the_email": "Request"
+}

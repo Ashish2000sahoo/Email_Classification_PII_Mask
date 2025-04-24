@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Data Synchronization Reported\n\nUser reports issues with data synchronization across devices You can reach me at omar.hassan@secure.net.. This is likely due to incorrect settings My name is Elena Ivanova.. The user has already attempted to restart the devices and reassign the accounts, but the problem persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        225
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        135,
+        157
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problems with Data Synchronization Reported\n\nUser reports issues with data synchronization across devices You can reach me at [email].. This is likely due to incorrect settings My name is [full_name].. The user has already attempted to restart the devices and reassign the accounts, but the problem persists.",
+  "category_of_the_email": "Incident"
+}

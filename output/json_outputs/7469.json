@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei der Integration von Datenanalyse\n\nGeliebter Kundenservice, ich m\u00f6chte um Informationen \u00fcber die Integration von Datenanalyse in Investitionsoptimierungsstrategien bitten. W\u00fcrden Sie mir helfen, zu verstehen, wie Erkenntnisse aus beiden Disziplinen effektiv kombiniert werden k\u00f6nnen, um Investitionsresultate zu verbessern? Ich w\u00fcrde mich freuen, Ratschl\u00e4ge und Ressourcen zu erhalten, die dem Bereich Datenanalyse gewidmet sind My name is Jane Smith.. Insbesondere interessiere ich mich daf\u00fcr, mehr zu erfahren, wie Datenanalyse verwendet werden kann, um Trends und Muster in Investitionsdaten zu identifizieren und diese Informationen f\u00fcr Investitionsentscheidungen zu nutzen You can reach me at liuwei@business.cn.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        466,
+        476
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        725,
+        743
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei der Integration von Datenanalyse\n\nGeliebter Kundenservice, ich m\u00f6chte um Informationen \u00fcber die Integration von Datenanalyse in Investitionsoptimierungsstrategien bitten. W\u00fcrden Sie mir helfen, zu verstehen, wie Erkenntnisse aus beiden Disziplinen effektiv kombiniert werden k\u00f6nnen, um Investitionsresultate zu verbessern? Ich w\u00fcrde mich freuen, Ratschl\u00e4ge und Ressourcen zu erhalten, die dem Bereich Datenanalyse gewidmet sind My name is [full_name].. Insbesondere interessiere ich mich daf\u00fcr, mehr zu erfahren, wie Datenanalyse verwendet werden kann, um Trends und Muster in Investitionsdaten zu identifizieren und diese Informationen f\u00fcr Investitionsentscheidungen zu nutzen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "category_of_the_email": "Request"
+}

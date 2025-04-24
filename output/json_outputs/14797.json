@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Analytics App\n\nThe Data Analytics application stopped working due to potential software compatibility issues. I have restarted the system and checked for updates, but the problem persists You can reach me at janesmith@company.com.. I would appreciate your assistance in resolving this matter. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        233,
+        254
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Analytics App\n\nThe Data Analytics application stopped working due to potential software compatibility issues. I have restarted the system and checked for updates, but the problem persists You can reach me at [email].. I would appreciate your assistance in resolving this matter. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

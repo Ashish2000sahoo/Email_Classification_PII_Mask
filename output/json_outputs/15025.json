@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung bei Netzwerkbetriebseinbruch\n\nEs gibt Probleme mit dem Netzwerkbetrieb, insbesondere mit den Datenanalyse-Tools, die aufgrund einer misskonfigurierten Google Nest Wifi Router nicht mehr funktionieren My name is David Kim.. Durch Neustart des Routers und Wiederpr\u00fcfung der Verbindungen wurde das Problem gel\u00f6st You can reach me at elena.ivanova@support.org.. Ich ben\u00f6tige jedoch Unterst\u00fctzung, um das Problem schnell zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        255
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        367,
+        392
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung bei Netzwerkbetriebseinbruch\n\nEs gibt Probleme mit dem Netzwerkbetrieb, insbesondere mit den Datenanalyse-Tools, die aufgrund einer misskonfigurierten Google Nest Wifi Router nicht mehr funktionieren My name is [full_name].. Durch Neustart des Routers und Wiederpr\u00fcfung der Verbindungen wurde das Problem gel\u00f6st You can reach me at [email].. Ich ben\u00f6tige jedoch Unterst\u00fctzung, um das Problem schnell zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

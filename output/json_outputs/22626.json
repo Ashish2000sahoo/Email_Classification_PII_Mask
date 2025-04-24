@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Aide urgente n\u00e9cessaire : probl\u00e8mes avec MacBook Air M1\n\nCher service client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. J'ai r\u00e9cemment achet\u00e9 un MacBook Air M1 dans votre boutique en ligne, et malheureusement, il ne d\u00e9marre pas correctement You can reach me at sophia.rossi@service.it.. Malgr\u00e9 le suivi de toutes les \u00e9tapes de d\u00e9pannage recommand\u00e9es, le probl\u00e8me persiste. \u00c9tant donn\u00e9 qu'il s'agit d'un article nouvellement achet\u00e9, j'appr\u00e9cierais que vous puissiez fournir une assistance prioritaire pour r\u00e9soudre ce probl\u00e8me d\u00e8s que possible. Mon num\u00e9ro de commande est <order_num>.\n\nMerci pour votre soutien.\n\nCordialement,\n<name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        664,
+        671
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        281,
+        304
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Aide urgente n\u00e9cessaire : probl\u00e8mes avec MacBook Air M1\n\nCher service client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. J'ai r\u00e9cemment achet\u00e9 un MacBook Air M1 dans votre boutique en ligne, et malheureusement, il ne d\u00e9marre pas correctement You can reach me at [email].. Malgr\u00e9 le suivi de toutes les \u00e9tapes de d\u00e9pannage recommand\u00e9es, le probl\u00e8me persiste. \u00c9tant donn\u00e9 qu'il s'agit d'un article nouvellement achet\u00e9, j'appr\u00e9cierais que vous puissiez fournir une assistance prioritaire pour r\u00e9soudre ce probl\u00e8me d\u00e8s que possible. Mon num\u00e9ro de commande est <order_num>.\n\nMerci pour votre soutien.\n\nCordialement,\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

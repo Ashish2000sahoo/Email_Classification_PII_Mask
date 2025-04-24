@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datensperrung\n\nSehr geehrte Kundensupport, ich melde eine unerwartete Datensperrung You can reach me at janesmith@company.com.. Es wird als menschlicher Fehler oder veraltete Software vermutet. Ich habe versucht, Systemneustarts, Firewallpr\u00fcfungen sowie den \u00dcberblick \u00fcber Protokolle durchzuf\u00fchren, aber das Problem beh\u00e4lt sich. Es w\u00e4re mir sehr lieb, wenn Sie sich mit diesem Issue befassen und so bald wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Ich bin besorgt \u00fcber die m\u00f6glichen Auswirkungen dieser Sperrung und m\u00f6chte sie so bald wie m\u00f6glich beheben. Ich bedanke mich f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung und freue mich darauf, bald eine R\u00fcckmeldung zu erhalten. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        764,
+        771
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        113,
+        134
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Datensperrung\n\nSehr geehrte Kundensupport, ich melde eine unerwartete Datensperrung You can reach me at [email].. Es wird als menschlicher Fehler oder veraltete Software vermutet. Ich habe versucht, Systemneustarts, Firewallpr\u00fcfungen sowie den \u00dcberblick \u00fcber Protokolle durchzuf\u00fchren, aber das Problem beh\u00e4lt sich. Es w\u00e4re mir sehr lieb, wenn Sie sich mit diesem Issue befassen und so bald wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Ich bin besorgt \u00fcber die m\u00f6glichen Auswirkungen dieser Sperrung und m\u00f6chte sie so bald wie m\u00f6glich beheben. Ich bedanke mich f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung und freue mich darauf, bald eine R\u00fcckmeldung zu erhalten. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCh\u00e8re \u00e9quipe de service client,\n\nJe vous \u00e9cris pour vous notifier un souci concernant la batterie de mon iPhone 13 Pro, acquis dans votre magasin en ligne My name is John Doe.. Elle ne conserve pas la charge comme pr\u00e9vu, et j'aimerais solliciter votre assistance concernant cet inconv\u00e9nient de batterie d\u00e9fectueuse. Mon identifiant de compte est <acc_num> You can reach me at fatima.farsi@help.com.. Pourriez-vous m'orienter sur les \u00e9tapes suivantes pour r\u00e9gler ce probl\u00e8me ? Je vous remercie pour votre assistance.\n\nSinc\u00e8rement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        185
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        390,
+        411
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCh\u00e8re \u00e9quipe de service client,\n\nJe vous \u00e9cris pour vous notifier un souci concernant la batterie de mon iPhone 13 Pro, acquis dans votre magasin en ligne My name is [full_name].. Elle ne conserve pas la charge comme pr\u00e9vu, et j'aimerais solliciter votre assistance concernant cet inconv\u00e9nient de batterie d\u00e9fectueuse. Mon identifiant de compte est <acc_num> You can reach me at [email].. Pourriez-vous m'orienter sur les \u00e9tapes suivantes pour r\u00e9gler ce probl\u00e8me ? Je vous remercie pour votre assistance.\n\nSinc\u00e8rement,\n<name>",
+  "category_of_the_email": "Problem"
+}

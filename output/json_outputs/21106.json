@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Demande d'installation de l'imprimante sans fil\n\nBonjour, j'ai besoin d'aide pour configurer mon imprimante HP DeskJet 3755 pour qu'elle se connecte sans fil \u00e0 mon ordinateur portable My name is Maria Gonzalez.. Pourriez-vous s'il vous pla\u00eet fournir des instructions \u00e9tape par \u00e9tape ? Merci. Cordialement, <name> <email> <tel_num> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        357,
+        374
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        128,
+        132
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Demande d'installation de l'imprimante sans fil\n\nBonjour, j'ai besoin d'aide pour configurer mon imprimante HP DeskJet [phone_number] pour qu'elle se connecte sans fil \u00e0 mon ordinateur portable My name is [full_name].. Pourriez-vous s'il vous pla\u00eet fournir des instructions \u00e9tape par \u00e9tape ? Merci. Cordialement, <name> <email> <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Software-Fehler w\u00e4hrend des Betriebs\n\nDie Datenanalyse-Software hat die kritische Investitionsanalyse unterbrochen. Ich habe versucht, die Anwendung neu zu starten.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Software-Fehler w\u00e4hrend des Betriebs\n\nDie Datenanalyse-Software hat die kritische Investitionsanalyse unterbrochen. Ich habe versucht, die Anwendung neu zu starten.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

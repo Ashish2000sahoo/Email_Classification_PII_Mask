@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Versagte Integrierungen gleichzeitig\n\nViele Integrationsprozesse versagten gleichzeitig, m\u00f6glicherweise aufgrund veralteter API-Schl\u00fcssel. Ich habe die Dienste neu gestartet und die Protokolle \u00fcberpr\u00fcft, ohne dass das Problem gel\u00f6st wurde.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        288
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Versagte Integrierungen gleichzeitig\n\nViele Integrationsprozesse versagten gleichzeitig, m\u00f6glicherweise aufgrund veralteter API-Schl\u00fcssel. Ich habe die Dienste neu gestartet und die Protokolle \u00fcberpr\u00fcft, ohne dass das Problem gel\u00f6st wurde.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

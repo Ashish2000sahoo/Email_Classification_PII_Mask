@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Demande concernant les frais de facturation pour Adobe Photoshop 2024\n\nCher \u00e9quipe de support client,\n\nJ'ai r\u00e9cemment achet\u00e9 une licence pour Adobe Photoshop 2024 My name is Carlos Mendoza.. Cependant, je remarque des frais inattendus sur mon relev\u00e9 de facturation. Pourriez-vous s'il vous pla\u00eet fournir plus de d\u00e9tails ou clarifier ces frais ?\n\nMerci,\n<name>\n<email> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        197
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        394,
+        415
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        74,
+        78
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        167,
+        171
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Demande concernant les frais de facturation pour Adobe Photoshop [phone_number]\n\nCher \u00e9quipe de support client,\n\nJ'ai r\u00e9cemment achet\u00e9 une licence pour Adobe Photoshop [phone_number] My name is [full_name].. Cependant, je remarque des frais inattendus sur mon relev\u00e9 de facturation. Pourriez-vous s'il vous pla\u00eet fournir plus de d\u00e9tails ou clarifier ces frais ?\n\nMerci,\n<name>\n<email> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

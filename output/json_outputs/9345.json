@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Investment-Analysisschalter\n\nDer Investment-Analysisschalter hat Probleme bei der Datenbearbeitung und verursacht Verz\u00f6gerungen My name is Maria Gonzalez.. Dieses Problem k\u00f6nnte auf Kompatibilit\u00e4tsprobleme zwischen Perl 5.32 und Simulink zur\u00fcckschlagen You can reach me at janesmith@company.com.. Trotz der Software-Aktualisierung und Neustarts bleibt das Problem bestehen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        296,
+        317
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Investment-Analysisschalter\n\nDer Investment-Analysisschalter hat Probleme bei der Datenbearbeitung und verursacht Verz\u00f6gerungen My name is [full_name].. Dieses Problem k\u00f6nnte auf Kompatibilit\u00e4tsprobleme zwischen Perl 5.32 und Simulink zur\u00fcckschlagen You can reach me at [email].. Trotz der Software-Aktualisierung und Neustarts bleibt das Problem bestehen.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Otimiza\u00e7\u00e3o Urgente da AWS\n\nCaro Suporte ao Cliente,\n\nPrecisamos urgentemente de ajuda com a otimiza\u00e7\u00e3o de custos da AWS devido a cobran\u00e7as inesperadas decorrentes do aumento do uso de dados e poder computacional com seu Servi\u00e7o de Gerenciamento da AWS.\n\nObrigado,\n\n<name>. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        319
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Otimiza\u00e7\u00e3o Urgente da AWS\n\nCaro Suporte ao Cliente,\n\nPrecisamos urgentemente de ajuda com a otimiza\u00e7\u00e3o de custos da AWS devido a cobran\u00e7as inesperadas decorrentes do aumento do uso de dados e poder computacional com seu Servi\u00e7o de Gerenciamento da AWS.\n\nObrigado,\n\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

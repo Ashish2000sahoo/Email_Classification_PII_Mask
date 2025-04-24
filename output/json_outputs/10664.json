@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Data Analytics Assistance\n\nThe investment charts are not updating; it might be due to a SQL Server connection problem. I restarted Redis and reviewed the SQL logs.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Request for Data Analytics Assistance\n\nThe investment charts are not updating; it might be due to a SQL Server connection problem. I restarted Redis and reviewed the SQL logs.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

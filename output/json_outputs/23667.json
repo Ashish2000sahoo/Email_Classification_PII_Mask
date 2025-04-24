@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bereitstellungsfehler und Anfrage zur Kostenoptimierung\n\nSehr geehrte Kundenbetreuung,\n\nUnser Kunde <name> hat Probleme mit Bereitstellungsfehlern bei seinem AWS Management Service You can reach me at carlosm@gmail.com.. Er m\u00f6chte auch M\u00f6glichkeiten zur Kostenoptimierung seiner bestehenden AWS-Setup und Infrastruktur erkunden. Die Kontonummer des Kunden lautet <acc_num>. Bitte helfen Sie bei diesem Anliegen zu Ihrer fr\u00fchesten Gelegenheit My name is John Doe.. Sie k\u00f6nnen mich unter <tel_num> erreichen.\n\nVielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        470
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        210,
+        227
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Bereitstellungsfehler und Anfrage zur Kostenoptimierung\n\nSehr geehrte Kundenbetreuung,\n\nUnser Kunde <name> hat Probleme mit Bereitstellungsfehlern bei seinem AWS Management Service You can reach me at [email].. Er m\u00f6chte auch M\u00f6glichkeiten zur Kostenoptimierung seiner bestehenden AWS-Setup und Infrastruktur erkunden. Die Kontonummer des Kunden lautet <acc_num>. Bitte helfen Sie bei diesem Anliegen zu Ihrer fr\u00fchesten Gelegenheit My name is [full_name].. Sie k\u00f6nnen mich unter <tel_num> erreichen.\n\nVielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Request"
+}

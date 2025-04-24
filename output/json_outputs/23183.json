@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringend: Falsche Geb\u00fchren auf der aktuellen IT-Rechnung\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe Ihnen, um Ihre sofortige Aufmerksamkeit auf ein Problem mit falschen Geb\u00fchren auf unserer aktuellen Rechnung f\u00fcr IT-Consulting-Services zu lenken. Das Rechnungsdatum ist der 30 You can reach me at sophia.rossi@service.it.. September 2023 und die Rechnungsnummer lautet <inv_num>. Bei der \u00dcberpr\u00fcfung der Geb\u00fchren habe ich Unterschiede festgestellt, die nicht mit den vereinbarten und erbrachten Dienstleistungen \u00fcbereinstimmen.\n\nTrotz unserer vorherigen Vereinbarung und der im Vertrag festgelegten Standardstundenpreise scheinen zus\u00e4tzliche Geb\u00fchren zu bestehen, die nicht ber\u00fccksichtigt wurden. Dies hat erhebliche Bedenken verursacht, da es unsere aktuellen Budgetzuweisungen beeinflusst. Wir bitten um eine sofortige Untersuchung dieser Angelegenheit, um die Abrechnungsfehler umgehend zu korrigieren.\n\nK\u00f6nnten Sie bitte die Einzelheiten so schnell wie m\u00f6glich \u00fcberpr\u00fcfen und uns eine korrigierte Rechnung zukommen lassen? Sollten Sie weitere Informationen ben\u00f6tigen, stehe ich Ihnen zur Verf\u00fcgung, um diese Angelegenheit zu besprechen und eine schnelle L\u00f6sung sicherzustellen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser dringenden Angelegenheit My name is Jane Smith.. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>\n<name>@company.com",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1325,
+        1335
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        357,
+        380
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        377,
+        381
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    }
+  ],
+  "masked_email": "Subject: Dringend: Falsche Geb\u00fchren auf der aktuellen IT-Rechnung\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe Ihnen, um Ihre sofortige Aufmerksamkeit auf ein Problem mit falschen Geb\u00fchren auf unserer aktuellen Rechnung f\u00fcr IT-Consulting-Services zu lenken. Das Rechnungsdatum ist der 30 You can reach me at [email].. September [phone_number] und die Rechnungsnummer lautet <inv_num>. Bei der \u00dcberpr\u00fcfung der Geb\u00fchren habe ich Unterschiede festgestellt, die nicht mit den vereinbarten und erbrachten Dienstleistungen \u00fcbereinstimmen.\n\nTrotz unserer vorherigen Vereinbarung und der im Vertrag festgelegten Standardstundenpreise scheinen zus\u00e4tzliche Geb\u00fchren zu bestehen, die nicht ber\u00fccksichtigt wurden. Dies hat erhebliche Bedenken verursacht, da es unsere aktuellen Budgetzuweisungen beeinflusst. Wir bitten um eine sofortige Untersuchung dieser Angelegenheit, um die Abrechnungsfehler umgehend zu korrigieren.\n\nK\u00f6nnten Sie bitte die Einzelheiten so schnell wie m\u00f6glich \u00fcberpr\u00fcfen und uns eine korrigierte Rechnung zukommen lassen? Sollten Sie weitere Informationen ben\u00f6tigen, stehe ich Ihnen zur Verf\u00fcgung, um diese Angelegenheit zu besprechen und eine schnelle L\u00f6sung sicherzustellen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser dringenden Angelegenheit My name is [full_name].. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>\n<name>@company.com",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Softwaretools\n\nSehr geehrte Kundenservice, ich schreibe an, um eine St\u00f6rung mit meinen Softwaretools zu melden You can reach me at omar.hassan@secure.net.. Dies k\u00f6nnte auf fehlerhafte Tools zur\u00fcckzuf\u00fchren sein, die m\u00f6glicherweise auf Softwareinkompatibilit\u00e4t oder Systembelastung hinweisen. Ich habe bereits Versuche unternommen, das Ger\u00e4t neu zu starten, Selbstdiagnoseprozeduren durchzuf\u00fchren und Aktualisierungen zu \u00fcberpr\u00fcfen, aber das Problem ist nach diesen Schritten weiter bestanden. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        801,
+        814
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        152,
+        174
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Softwaretools\n\nSehr geehrte Kundenservice, ich schreibe an, um eine St\u00f6rung mit meinen Softwaretools zu melden You can reach me at [email].. Dies k\u00f6nnte auf fehlerhafte Tools zur\u00fcckzuf\u00fchren sein, die m\u00f6glicherweise auf Softwareinkompatibilit\u00e4t oder Systembelastung hinweisen. Ich habe bereits Versuche unternommen, das Ger\u00e4t neu zu starten, Selbstdiagnoseprozeduren durchzuf\u00fchren und Aktualisierungen zu \u00fcberpr\u00fcfen, aber das Problem ist nach diesen Schritten weiter bestanden. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren My name is [full_name].. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

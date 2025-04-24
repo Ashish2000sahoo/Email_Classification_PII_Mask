@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Digital Strategy Tools Across Platforms\n\nCustomer Support, requesting enhancements to digital strategy tools to boost brand growth integration across multiple platforms such as HubSpot and ClickUp. These enhancements would allow the team to streamline workflows, track progress, and make data-driven decisions more efficiently My name is Carlos Mendoza.. Current tools are limited and we are encountering challenges in managing campaigns and collaborations. By integrating platforms, automating tasks, and reducing manual errors, we can significantly increase productivity. We believe that these enhancements will have a substantial positive impact on the brand. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        369
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        697,
+        718
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Improve Digital Strategy Tools Across Platforms\n\nCustomer Support, requesting enhancements to digital strategy tools to boost brand growth integration across multiple platforms such as HubSpot and ClickUp. These enhancements would allow the team to streamline workflows, track progress, and make data-driven decisions more efficiently My name is [full_name].. Current tools are limited and we are encountering challenges in managing campaigns and collaborations. By integrating platforms, automating tasks, and reducing manual errors, we can significantly increase productivity. We believe that these enhancements will have a substantial positive impact on the brand. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

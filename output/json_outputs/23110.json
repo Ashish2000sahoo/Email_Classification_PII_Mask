@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCaro time de suporte ao cliente,\n\nEspero que esta mensagem os encontre bem. Estou escrevendo para relatar um pequeno problema que venho experienciando com meu MacBook Air M1, que comprei recentemente em sua loja. Observei que, quando o dispositivo sai do modo de suspens\u00e3o ap\u00f3s um per\u00edodo relativamente curto de inatividade, ele \u00e0s vezes n\u00e3o responde com a agilidade e efici\u00eancia habituais. Esse problema se manifesta principalmente ap\u00f3s breves per\u00edodos de inatividade, aproximadamente entre 5 e 10 minutos You can reach me at janesmith@company.com.. No entanto, n\u00e3o percebi que esse problema ocorra ap\u00f3s dura\u00e7\u00f5es de sono mais longas.\n\nEsse problema ainda n\u00e3o impactou severamente minha produtividade, mas gostaria de entender se esse \u00e9 um problema comum e se existem solu\u00e7\u00f5es ou corre\u00e7\u00f5es recomendadas para isso My name is Liu Wei.. Dependo muito do meu MacBook para tarefas di\u00e1rias e, embora n\u00e3o seja um grande obst\u00e1culo por agora, quero garantir que n\u00e3o se tornar\u00e1 um problema significativo mais tarde.\n\nMuito obrigado pela sua assist\u00eancia e suporte. Aguardamos seu retorno e quaisquer solu\u00e7\u00f5es poss\u00edveis que voc\u00ea possa sugerir.\n\nAtenciosamente,\n<name>\n\nInforma\u00e7\u00f5es de Contato: <tel_num>\nDetalhes do Pedido: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        835,
+        842
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        538,
+        559
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCaro time de suporte ao cliente,\n\nEspero que esta mensagem os encontre bem. Estou escrevendo para relatar um pequeno problema que venho experienciando com meu MacBook Air M1, que comprei recentemente em sua loja. Observei que, quando o dispositivo sai do modo de suspens\u00e3o ap\u00f3s um per\u00edodo relativamente curto de inatividade, ele \u00e0s vezes n\u00e3o responde com a agilidade e efici\u00eancia habituais. Esse problema se manifesta principalmente ap\u00f3s breves per\u00edodos de inatividade, aproximadamente entre 5 e 10 minutos You can reach me at [email].. No entanto, n\u00e3o percebi que esse problema ocorra ap\u00f3s dura\u00e7\u00f5es de sono mais longas.\n\nEsse problema ainda n\u00e3o impactou severamente minha produtividade, mas gostaria de entender se esse \u00e9 um problema comum e se existem solu\u00e7\u00f5es ou corre\u00e7\u00f5es recomendadas para isso My name is [full_name].. Dependo muito do meu MacBook para tarefas di\u00e1rias e, embora n\u00e3o seja um grande obst\u00e1culo por agora, quero garantir que n\u00e3o se tornar\u00e1 um problema significativo mais tarde.\n\nMuito obrigado pela sua assist\u00eancia e suporte. Aguardamos seu retorno e quaisquer solu\u00e7\u00f5es poss\u00edveis que voc\u00ea possa sugerir.\n\nAtenciosamente,\n<name>\n\nInforma\u00e7\u00f5es de Contato: <tel_num>\nDetalhes do Pedido: <acc_num>",
+  "category_of_the_email": "Problem"
+}

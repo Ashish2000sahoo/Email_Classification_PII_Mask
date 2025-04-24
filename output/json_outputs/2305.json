@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Performance Challenges in SaaS Application\n\nUsers are encountering performance problems with the project management SaaS application as a result of increased server load.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        202,
+        218
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Performance Challenges in SaaS Application\n\nUsers are encountering performance problems with the project management SaaS application as a result of increased server load.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

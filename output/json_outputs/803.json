@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ecommerce Support\n\nDear customer support, I am contacting you to explore digital strategies that boost brand growth for e-commerce platforms such as Shopify and Magento You can reach me at elena.ivanova@support.org.. I am keen to understand how these platforms can assist businesses in enhancing their online reach and boosting sales. Could you elaborate on specific strategies like social media marketing, email marketing, and search engine optimization? Additionally, I would be grateful for any advice on leveraging data analytics and customer relationship management tools to make informed marketing decisions and enhance customer engagement My name is David Kim.. Furthermore, I am interested in learning about the impact of mobile optimization and user experience on brand growth. Could you share some insights or resources on these topics? I am eager to receive your guidance on driving brand growth for e-commerce platforms. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        666,
+        675
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        198,
+        223
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Ecommerce Support\n\nDear customer support, I am contacting you to explore digital strategies that boost brand growth for e-commerce platforms such as Shopify and Magento You can reach me at [email].. I am keen to understand how these platforms can assist businesses in enhancing their online reach and boosting sales. Could you elaborate on specific strategies like social media marketing, email marketing, and search engine optimization? Additionally, I would be grateful for any advice on leveraging data analytics and customer relationship management tools to make informed marketing decisions and enhance customer engagement My name is [full_name].. Furthermore, I am interested in learning about the impact of mobile optimization and user experience on brand growth. Could you share some insights or resources on these topics? I am eager to receive your guidance on driving brand growth for e-commerce platforms. Thank you for your support.",
+  "category_of_the_email": "Request"
+}

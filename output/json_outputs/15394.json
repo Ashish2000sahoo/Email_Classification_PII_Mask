@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidelines for Securing Medical Data with SQL\n\nCould you offer advice on securing medical data using a SQL Server environment in healthcare? It is crucial to protect patient data and comply with regulations. I would appreciate recommendations on encryption, access control, and auditing My name is David Kim.. I look forward to your assistance and response. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        307,
+        316
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        389,
+        407
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Guidelines for Securing Medical Data with SQL\n\nCould you offer advice on securing medical data using a SQL Server environment in healthcare? It is crucial to protect patient data and comply with regulations. I would appreciate recommendations on encryption, access control, and auditing My name is [full_name].. I look forward to your assistance and response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Empfohlene Sicherheitsprotokolle f\u00fcr medizinische Datenspeicherung\n\nSehr gesch\u00e4tzter Kundenservice, ich schreibe an Sie, um mich nach den empfohlenen Sicherheitsprotokollen f\u00fcr die Verwaltung medizinischer Daten auf unseren Netzwerkger\u00e4ten zu erkundigen My name is Fatima Al-Farsi.. Da wir vertrauliche medizinische Informationen bearbeiten, ist es von zentraler Wichtigkeit, die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit dieser Daten sicherzustellen. K\u00f6nnten Sie mir bitte Informationen zu den Best Practices zur Datensicherheit auf unseren Netzwerkger\u00e4ten zur Verf\u00fcgung stellen und Ma\u00dfnahmen vorschlagen, um vertrauliche medizinische Daten vor nicht autorisiertem Zugriff, Datenverlusten und anderen Sicherheitsgefahren zu sch\u00fctzen? Ich sch\u00e4tze jede Hilfe oder Empfehlungen, die Sie bieten k\u00f6nnen You can reach me at elena.ivanova@support.org.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        274,
+        283
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        834,
+        859
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Empfohlene Sicherheitsprotokolle f\u00fcr medizinische Datenspeicherung\n\nSehr gesch\u00e4tzter Kundenservice, ich schreibe an Sie, um mich nach den empfohlenen Sicherheitsprotokollen f\u00fcr die Verwaltung medizinischer Daten auf unseren Netzwerkger\u00e4ten zu erkundigen My name is [full_name]-Farsi.. Da wir vertrauliche medizinische Informationen bearbeiten, ist es von zentraler Wichtigkeit, die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit dieser Daten sicherzustellen. K\u00f6nnten Sie mir bitte Informationen zu den Best Practices zur Datensicherheit auf unseren Netzwerkger\u00e4ten zur Verf\u00fcgung stellen und Ma\u00dfnahmen vorschlagen, um vertrauliche medizinische Daten vor nicht autorisiertem Zugriff, Datenverlusten und anderen Sicherheitsgefahren zu sch\u00fctzen? Ich sch\u00e4tze jede Hilfe oder Empfehlungen, die Sie bieten k\u00f6nnen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

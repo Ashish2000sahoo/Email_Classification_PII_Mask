@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for RapidMiner Integration\n\nHello customer support, I am reaching out to seek guidance on integrating RapidMiner SaaS project management software into my project You can reach me at omar.hassan@secure.net.. Could you provide some guidance and documentation resources to help me get started? Specifically, I am interested in knowing which APIs and tools are available for integration My name is Carlos Mendoza.. I would greatly appreciate your assistance. I look forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        437
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        211,
+        233
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for RapidMiner Integration\n\nHello customer support, I am reaching out to seek guidance on integrating RapidMiner SaaS project management software into my project You can reach me at [email].. Could you provide some guidance and documentation resources to help me get started? Specifically, I am interested in knowing which APIs and tools are available for integration My name is [full_name].. I would greatly appreciate your assistance. I look forward to hearing back from you soon.",
+  "category_of_the_email": "Request"
+}

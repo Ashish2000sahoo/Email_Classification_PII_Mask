@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Health Concern\n\nIncident: Encryption of health data malfunctioned. Possible causes: Obsolete software, potential misconfiguration.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        177
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Health Concern\n\nIncident: Encryption of health data malfunctioned. Possible causes: Obsolete software, potential misconfiguration.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

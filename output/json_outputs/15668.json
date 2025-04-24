@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimization of Investment Data\n\nDear Customer Support, I hope this message finds you well. I am reaching out regarding the optimization of investment data through the use of data analysis and available tools You can reach me at sophia.rossi@service.it.. Could you provide some insights or resources to get started? I am particularly interested in utilizing data visualization tools to identify trends and patterns in the market, as well as exploring machine learning methods to predict investment outcomes My name is Fatima Al-Farsi.. Could you offer any assistance in this regard?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        527,
+        536
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        238,
+        261
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Optimization of Investment Data\n\nDear Customer Support, I hope this message finds you well. I am reaching out regarding the optimization of investment data through the use of data analysis and available tools You can reach me at [email].. Could you provide some insights or resources to get started? I am particularly interested in utilizing data visualization tools to identify trends and patterns in the market, as well as exploring machine learning methods to predict investment outcomes My name is [full_name]-Farsi.. Could you offer any assistance in this regard?",
+  "category_of_the_email": "Request"
+}

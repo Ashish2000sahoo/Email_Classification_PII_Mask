@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Cross-User Data Synchronization\n\nUsers are facing difficulties in syncing project data. This might be due to API conflicts or network issues My name is Maria Gonzalez.. They have already attempted to reset their API connections. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        268,
+        290
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Cross-User Data Synchronization\n\nUsers are facing difficulties in syncing project data. This might be due to API conflicts or network issues My name is [full_name].. They have already attempted to reset their API connections. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

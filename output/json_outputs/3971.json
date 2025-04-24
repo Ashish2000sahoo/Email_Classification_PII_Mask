@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investments-Dashboard Hat Unerwartet Gestern Abgest\u00fcrzt\n\nDas Investments-Dashboard hat pl\u00f6tzlich nicht mehr funktioniert. Es k\u00f6nnte sein, dass es sich um ein Kompatibilit\u00e4ts-Problem mit der neuesten Version von Cassandra 4.0 handelt You can reach me at johndoe@email.com.. Ich habe den Server bereits neu gestartet und die Logdateien \u00fcberpr\u00fcft, aber der Fehler blieb bestehen. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        397,
+        405
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        262,
+        279
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Investments-Dashboard Hat Unerwartet Gestern Abgest\u00fcrzt\n\nDas Investments-Dashboard hat pl\u00f6tzlich nicht mehr funktioniert. Es k\u00f6nnte sein, dass es sich um ein Kompatibilit\u00e4ts-Problem mit der neuesten Version von Cassandra 4.0 handelt You can reach me at [email].. Ich habe den Server bereits neu gestartet und die Logdateien \u00fcberpr\u00fcft, aber der Fehler blieb bestehen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

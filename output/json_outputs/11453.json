@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Required for Ubuntu Crash\n\nUbuntu has crashed, possibly because of incompatible Apache Hadoop. After restarting and reinstalling Hadoop, the problem still exists.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        202,
+        217
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Ubuntu Crash\n\nUbuntu has crashed, possibly because of incompatible Apache Hadoop. After restarting and reinstalling Hadoop, the problem still exists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

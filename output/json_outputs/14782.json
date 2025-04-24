@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern with Investment Analytics Dashboard\n\nI am reaching out to address an issue with the investment analytics dashboard. The performance metrics shown are inaccurate, despite attempts to refresh the data feeds and clear the cache, which have not resolved the problem My name is David Kim.. It seems possible that this issue might be related to recent updates to the data sources. I would greatly appreciate it if you could look into this matter and provide a solution at your earliest convenience. Please let me know if there is any additional information needed to resolve this issue You can reach me at johndoe@email.com.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        619,
+        636
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concern with Investment Analytics Dashboard\n\nI am reaching out to address an issue with the investment analytics dashboard. The performance metrics shown are inaccurate, despite attempts to refresh the data feeds and clear the cache, which have not resolved the problem My name is [full_name].. It seems possible that this issue might be related to recent updates to the data sources. I would greatly appreciate it if you could look into this matter and provide a solution at your earliest convenience. Please let me know if there is any additional information needed to resolve this issue You can reach me at [email].. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

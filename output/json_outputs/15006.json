@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Integration with Discord for Enhanced Team Collaboration\n\nInquiring about the process of integrating Discord into our project management SaaS to improve team collaboration. Would appreciate guidance on the specific features that will be available and the benefits of using Discord for team collaboration My name is Elena Ivanova.. Please provide details on the steps required to integrate Discord into our SaaS platform. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        324,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        448,
+        466
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Integration with Discord for Enhanced Team Collaboration\n\nInquiring about the process of integrating Discord into our project management SaaS to improve team collaboration. Would appreciate guidance on the specific features that will be available and the benefits of using Discord for team collaboration My name is [full_name].. Please provide details on the steps required to integrate Discord into our SaaS platform. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

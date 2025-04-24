@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur sofortigen Ersatzlieferung des fehlerhaften MacBook Air M1 Akkus\n\nSehr geehrtes Tech Online Store Support Team,\n\nich schreibe, um einen sofortigen Austausch des Akkus meines k\u00fcrzlich gekauften MacBook Air M1 aufgrund h\u00e4ufiger und zuf\u00e4lliger Abschaltungen zu beantragen You can reach me at janesmith@company.com.. Trotz der Einhaltung aller empfohlenen Wartungs- und Nutzungshinweise habe ich erhebliche St\u00f6rungen, da das Ger\u00e4t unerwartet herunterf\u00e4hrt My name is Maria Gonzalez.. Dieses Problem trat kurz nach dem Kauf auf und besteht weiterhin, was zu Unannehmlichkeiten f\u00fchrt und meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt. Ich bin auf mein MacBook Air M1 sowohl f\u00fcr berufliche als auch pers\u00f6nliche Aufgaben angewiesen, was dieses Problem besonders dringend macht.\n\nIch habe bereits mehrere m\u00f6gliche Fehlerbehebungsmethoden ausprobiert, wie das Zur\u00fccksetzen des SMC und die Sicherstellung, dass die Software auf dem neuesten Stand ist, jedoch ohne Erfolg. Ich bitte Sie freundlich um Ihre schnelle Unterst\u00fctzung bei der Behebung dieser Akku-St\u00f6rung.\n\nZu Ihrer Information sind meine Bestell- und Kontodaten wie folgt: Bestellnummer - <order_num>, Kontonummer - <acc_num>.\n\nIch freue mich darauf, bald von Ihnen zu h\u00f6ren, wie der Prozess f\u00fcr die m\u00f6glichst schnelle Ersatzlieferung organisiert werden kann.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit f\u00fcr dieses dringende Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\nKontakttelefonnummer: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        484,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        310,
+        331
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur sofortigen Ersatzlieferung des fehlerhaften MacBook Air M1 Akkus\n\nSehr geehrtes Tech Online Store Support Team,\n\nich schreibe, um einen sofortigen Austausch des Akkus meines k\u00fcrzlich gekauften MacBook Air M1 aufgrund h\u00e4ufiger und zuf\u00e4lliger Abschaltungen zu beantragen You can reach me at [email].. Trotz der Einhaltung aller empfohlenen Wartungs- und Nutzungshinweise habe ich erhebliche St\u00f6rungen, da das Ger\u00e4t unerwartet herunterf\u00e4hrt My name is [full_name].. Dieses Problem trat kurz nach dem Kauf auf und besteht weiterhin, was zu Unannehmlichkeiten f\u00fchrt und meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt. Ich bin auf mein MacBook Air M1 sowohl f\u00fcr berufliche als auch pers\u00f6nliche Aufgaben angewiesen, was dieses Problem besonders dringend macht.\n\nIch habe bereits mehrere m\u00f6gliche Fehlerbehebungsmethoden ausprobiert, wie das Zur\u00fccksetzen des SMC und die Sicherstellung, dass die Software auf dem neuesten Stand ist, jedoch ohne Erfolg. Ich bitte Sie freundlich um Ihre schnelle Unterst\u00fctzung bei der Behebung dieser Akku-St\u00f6rung.\n\nZu Ihrer Information sind meine Bestell- und Kontodaten wie folgt: Bestellnummer - <order_num>, Kontonummer - <acc_num>.\n\nIch freue mich darauf, bald von Ihnen zu h\u00f6ren, wie der Prozess f\u00fcr die m\u00f6glichst schnelle Ersatzlieferung organisiert werden kann.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit f\u00fcr dieses dringende Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\nKontakttelefonnummer: <tel_num>",
+  "category_of_the_email": "Incident"
+}

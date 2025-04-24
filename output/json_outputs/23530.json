@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Actualizaci\u00f3n de firmware urgente requerida para alta latencia\n\nEstimado soporte al cliente,\n\nHemos estado experimentando alta latencia en la red en toda la oficina, que parece deberse al router Cisco ISR4331 My name is Maria Gonzalez.. Parece que se necesita una actualizaci\u00f3n urgente del firmware para resolver estos problemas r\u00e1pidamente. Esperamos que pueda ayudarnos a programar esta actualizaci\u00f3n a la brevedad posible.\n\nGracias por su atenci\u00f3n a este asunto urgente.\n\nAtentamente,\n<name> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        521,
+        543
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        213,
+        217
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Actualizaci\u00f3n de firmware urgente requerida para alta latencia\n\nEstimado soporte al cliente,\n\nHemos estado experimentando alta latencia en la red en toda la oficina, que parece deberse al router Cisco ISR[phone_number] My name is [full_name].. Parece que se necesita una actualizaci\u00f3n urgente del firmware para resolver estos problemas r\u00e1pidamente. Esperamos que pueda ayudarnos a programar esta actualizaci\u00f3n a la brevedad posible.\n\nGracias por su atenci\u00f3n a este asunto urgente.\n\nAtentamente,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

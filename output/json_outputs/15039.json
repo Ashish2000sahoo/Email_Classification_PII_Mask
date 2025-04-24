@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Interrupted Healthcare Data Access\n\nAn unforeseen disruption occurred in accessing healthcare data. The potential cause is a problem with the network configuration My name is Sophia Rossi.. Steps already taken include restarting the Mesh-Netzwerk and verifying all connections. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        206
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        316,
+        338
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Report on Interrupted Healthcare Data Access\n\nAn unforeseen disruption occurred in accessing healthcare data. The potential cause is a problem with the network configuration My name is [full_name].. Steps already taken include restarting the Mesh-Netzwerk and verifying all connections. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

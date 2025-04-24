@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nA recent security breach has been identified in our medical data systems My name is Carlos Mendoza.. It appears that outdated security protocols might be the cause. Despite updating the antivirus software and performing a preliminary scan, the issue persists. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        95,
+        109
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        288,
+        305
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nA recent security breach has been identified in our medical data systems My name is [full_name].. It appears that outdated security protocols might be the cause. Despite updating the antivirus software and performing a preliminary scan, the issue persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Digital Engagement\n\nCustomer Support, our marketing agency has encountered reduced engagement on digital platforms, which might be attributed to outdated strategies My name is Omar Hassan.. Efforts to update content and increase ad spending have shown some progress, but we are still struggling to understand our target audience and create effective content You can reach me at elena.ivanova@support.org.. Our current strategies are not yielding the desired results, and we need guidance on how to proceed. We would greatly appreciate any advice or recommendations that could help us improve our digital engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        206
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        397,
+        422
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Digital Engagement\n\nCustomer Support, our marketing agency has encountered reduced engagement on digital platforms, which might be attributed to outdated strategies My name is [full_name].. Efforts to update content and increase ad spending have shown some progress, but we are still struggling to understand our target audience and create effective content You can reach me at [email].. Our current strategies are not yielding the desired results, and we need guidance on how to proceed. We would greatly appreciate any advice or recommendations that could help us improve our digital engagement.",
+  "category_of_the_email": "Problem"
+}

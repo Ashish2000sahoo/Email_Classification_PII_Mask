@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue Regarding Marketing Campaigns\n\nThe campaigns are not reaching the target audience as the settings are incorrect.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Marketing Campaigns\n\nThe campaigns are not reaching the target audience as the settings are incorrect.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

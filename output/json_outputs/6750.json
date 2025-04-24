@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Security Protocols for Medical Data\n\nDear Customer Support, I am writing to inquire about the security measures in place for safeguarding medical data on your products. Considering the sensitive nature of this information, I would like to understand the specific encryption methods and authentication protocols you employ to ensure its protection against unauthorized access or breaches My name is Carlos Mendoza.. Moreover, I would appreciate any recommendations on how to securely store and transmit medical data using your products. If there are any additional security steps I can take, please let me know You can reach me at janesmith@company.com.. Thank you for your assistance and I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        437
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        652,
+        673
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Security Protocols for Medical Data\n\nDear Customer Support, I am writing to inquire about the security measures in place for safeguarding medical data on your products. Considering the sensitive nature of this information, I would like to understand the specific encryption methods and authentication protocols you employ to ensure its protection against unauthorized access or breaches My name is [full_name].. Moreover, I would appreciate any recommendations on how to securely store and transmit medical data using your products. If there are any additional security steps I can take, please let me know You can reach me at [email].. Thank you for your assistance and I look forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

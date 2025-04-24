@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verletzung der Datenbindungssicherheit\n\nEs wurde eine Verletzung der Datenbindungssicherheit bei den medizinischen Akten festgestellt My name is Maria Gonzalez.. Dies h\u00e4ngt mit einem Fehler in den Sicherheitsstellungen der alten Software zusammen You can reach me at maria.gonzalez@shop.es.. Durch die Aktualisierung auf PostgreSQL, die Implementierung von Firewallregeln und die \u00c4nderung von Benutzerzugriffskennw\u00f6rtern wurde das Problem behoben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        273,
+        295
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Verletzung der Datenbindungssicherheit\n\nEs wurde eine Verletzung der Datenbindungssicherheit bei den medizinischen Akten festgestellt My name is [full_name].. Dies h\u00e4ngt mit einem Fehler in den Sicherheitsstellungen der alten Software zusammen You can reach me at [email].. Durch die Aktualisierung auf PostgreSQL, die Implementierung von Firewallregeln und die \u00c4nderung von Benutzerzugriffskennw\u00f6rtern wurde das Problem behoben.",
+  "category_of_the_email": "Incident"
+}

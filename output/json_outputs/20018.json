@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, \n\nI hope this message finds you well My name is David Kim.. I am writing to request a detailed explanation of some unexpected monthly charges for AWS cloud resources as seen on my last bill. The charges seem unaccounted for, and since I utilize the AWS Management Service, it would be helpful for me to understand the breakdown. Would you please help clarify these charges? My account number is <acc_num>. For further correspondence, you can reach me at <nameemail>@domain.com or call me at <tel_num> You can reach me at liuwei@business.cn.. Your prompt assistance with this matter is appreciated. \n\nThank you. \n\nBest regards, \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        82,
+        91
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        557,
+        575
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, \n\nI hope this message finds you well My name is [full_name].. I am writing to request a detailed explanation of some unexpected monthly charges for AWS cloud resources as seen on my last bill. The charges seem unaccounted for, and since I utilize the AWS Management Service, it would be helpful for me to understand the breakdown. Would you please help clarify these charges? My account number is <acc_num>. For further correspondence, you can reach me at <nameemail>@domain.com or call me at <tel_num> You can reach me at [email].. Your prompt assistance with this matter is appreciated. \n\nThank you. \n\nBest regards, \n<name>",
+  "category_of_the_email": "Request"
+}

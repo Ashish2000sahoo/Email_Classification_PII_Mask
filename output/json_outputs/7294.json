@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Loss Concerning Patient Records\n\nI am writing to report a data loss that has endangered our patient records My name is Elena Ivanova.. This issue is attributed to inadequate encryption and outdated software You can reach me at david.kim@corp.kr.. I have attempted to resolve the problem by applying patch updates, conducting security checks, and seeking support from our IT department, but the issue persists. I require further assistance to address this problem. Could you please provide guidance on how to proceed? I greatly appreciate any support you can offer to ensure the security and integrity of our patient data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        166
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        259,
+        276
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Loss Concerning Patient Records\n\nI am writing to report a data loss that has endangered our patient records My name is [full_name].. This issue is attributed to inadequate encryption and outdated software You can reach me at [email].. I have attempted to resolve the problem by applying patch updates, conducting security checks, and seeking support from our IT department, but the issue persists. I require further assistance to address this problem. Could you please provide guidance on how to proceed? I greatly appreciate any support you can offer to ensure the security and integrity of our patient data.",
+  "category_of_the_email": "Incident"
+}

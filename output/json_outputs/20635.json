@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance avec la configuration de l'imprimante\n\nBonjour service client, j'ai besoin d'aide pour changer la configuration de mon imprimante Canon PIXMA MG3620 pour l'impression sans fil You can reach me at elena.ivanova@support.org.. Veuillez fournir des instructions \u00e9tape par \u00e9tape pour la configuration My name is John Doe.. J'attends votre r\u00e9ponse rapide. Merci, <name>, compte <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        327,
+        335
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        216,
+        241
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        164,
+        168
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Assistance avec la configuration de l'imprimante\n\nBonjour service client, j'ai besoin d'aide pour changer la configuration de mon imprimante Canon PIXMA MG[phone_number] pour l'impression sans fil You can reach me at [email].. Veuillez fournir des instructions \u00e9tape par \u00e9tape pour la configuration My name is [full_name].. J'attends votre r\u00e9ponse rapide. Merci, <name>, compte <acc_num>.",
+  "category_of_the_email": "Problem"
+}

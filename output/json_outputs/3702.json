@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Digital Engagement Metrics\n\nCustomer Support,\\n\\nWe are preparing a report on the recent decline in our brand's engagement metrics across various digital platforms You can reach me at janesmith@company.com.. The issue might be due to an ineffective content strategy or technical problems with the platforms. To address the problem, we conducted a thorough audit of our digital content and adjusted our marketing schedules accordingly. However, we need assistance to resolve the matter.\\n\\nCould you please provide guidance on the next steps to take? We would appreciate recommendations to improve our content strategy. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        658,
+        670
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        212,
+        233
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Digital Engagement Metrics\n\nCustomer Support,\\n\\nWe are preparing a report on the recent decline in our brand's engagement metrics across various digital platforms You can reach me at [email].. The issue might be due to an ineffective content strategy or technical problems with the platforms. To address the problem, we conducted a thorough audit of our digital content and adjusted our marketing schedules accordingly. However, we need assistance to resolve the matter.\\n\\nCould you please provide guidance on the next steps to take? We would appreciate recommendations to improve our content strategy. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

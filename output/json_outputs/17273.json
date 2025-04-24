@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Decrease in Campaign Interaction\n\nHello Customer Support, I am contacting you regarding a recent decline in our campaign's interaction levels. This issue began recently, and even after modifying the audience filters, the engagement has not recovered. I believe ineffective targeting could be responsible for this. Although I've attempted to refine the filters to more accurately target our audience, these adjustments haven't been effective. I would greatly appreciate any help or advice you could offer to address this matter. Kindly inform me if additional details are needed from me to investigate this further. Thank you for your assistance You can reach me at liuwei@business.cn.. Best regards, [Your Name] My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        732,
+        742
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        674,
+        692
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Decrease in Campaign Interaction\n\nHello Customer Support, I am contacting you regarding a recent decline in our campaign's interaction levels. This issue began recently, and even after modifying the audience filters, the engagement has not recovered. I believe ineffective targeting could be responsible for this. Although I've attempted to refine the filters to more accurately target our audience, these adjustments haven't been effective. I would greatly appreciate any help or advice you could offer to address this matter. Kindly inform me if additional details are needed from me to investigate this further. Thank you for your assistance You can reach me at [email].. Best regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

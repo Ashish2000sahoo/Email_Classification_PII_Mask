@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Analyse von Problemen bei der Synchronisation\n\nDie Projektterminpl\u00e4ne synchronisieren nicht korrekt. Die Einstellungen wurden gepr\u00fcft, die Synchronisierung neu gestartet und die Dokumentation gepr\u00fcft.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        248
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Analyse von Problemen bei der Synchronisation\n\nDie Projektterminpl\u00e4ne synchronisieren nicht korrekt. Die Einstellungen wurden gepr\u00fcft, die Synchronisierung neu gestartet und die Dokumentation gepr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

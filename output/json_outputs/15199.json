@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Health Provider\n\nHealth provider has experienced unauthorized access to medical data in IT systems due to inadequate security measures You can reach me at elena.ivanova@support.org.. Although patches have been installed and passwords updated, vulnerabilities still persist My name is Maria Gonzalez.. We request comprehensive security audit support and recommendations to strengthen the security system. Please provide the necessary steps and additional information required. We appreciate your prompt attention to this matter and look forward to hearing from you soon. Security is our top priority and we want to address this issue as quickly as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        305,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        176,
+        201
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support for Health Provider\n\nHealth provider has experienced unauthorized access to medical data in IT systems due to inadequate security measures You can reach me at [email].. Although patches have been installed and passwords updated, vulnerabilities still persist My name is [full_name].. We request comprehensive security audit support and recommendations to strengthen the security system. Please provide the necessary steps and additional information required. We appreciate your prompt attention to this matter and look forward to hearing from you soon. Security is our top priority and we want to address this issue as quickly as possible.",
+  "category_of_the_email": "Incident"
+}

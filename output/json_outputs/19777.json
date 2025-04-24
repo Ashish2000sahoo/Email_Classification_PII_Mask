@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Synchronization Between Devices\n\nCustomers are facing synchronization problems across various devices. These issues might be due to an integration error My name is Carlos Mendoza.. Restarting devices and clearing caches do not resolve the problem. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        287,
+        305
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Synchronization Between Devices\n\nCustomers are facing synchronization problems across various devices. These issues might be due to an integration error My name is [full_name].. Restarting devices and clearing caches do not resolve the problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

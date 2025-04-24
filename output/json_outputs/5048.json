@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unauthorized Access Attempt on Hospital Systems, Likely via Phishing Email\n\nThere was an unauthorized access attempt on our hospital systems, which might have been caused by a phishing email. We have enhanced our password protocols and provided security training to the staff.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        323
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unauthorized Access Attempt on Hospital Systems, Likely via Phishing Email\n\nThere was an unauthorized access attempt on our hospital systems, which might have been caused by a phishing email. We have enhanced our password protocols and provided security training to the staff.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

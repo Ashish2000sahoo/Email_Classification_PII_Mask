@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Dashboard Load Issue Today\n\nTo whom it may concern, I am contacting you to address a problem I encountered with the data analytics dashboard. It did not fully load, and I believe it could be related to a software error or server problem. Despite restarting my device and verifying my internet connection, the issue remains You can reach me at omar.hassan@secure.net.. I would be grateful if you could investigate and find a solution promptly. Please inform me if there is more information you require from me to address this problem My name is Carlos Mendoza.. Thank you for your time and assistance, and I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        568,
+        582
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        367,
+        389
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Dashboard Load Issue Today\n\nTo whom it may concern, I am contacting you to address a problem I encountered with the data analytics dashboard. It did not fully load, and I believe it could be related to a software error or server problem. Despite restarting my device and verifying my internet connection, the issue remains You can reach me at [email].. I would be grateful if you could investigate and find a solution promptly. Please inform me if there is more information you require from me to address this problem My name is [full_name].. Thank you for your time and assistance, and I eagerly await your response.",
+  "category_of_the_email": "Incident"
+}

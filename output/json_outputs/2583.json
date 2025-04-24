@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: N\u00f6tige Unterst\u00fctzung bei einem Datensicherheitsversto\u00df\n\nEin Datensicherheitsversto\u00df ist aufgetreten, der auf eine unzureichende Firewall-Konfiguration zur\u00fcckzuf\u00fchren ist. Versuche, das Problem durch Durchstarten von Docker und einpr\u00fcfen der Einstellungen im Eclipse-IDE zu l\u00f6sen, ohne Erfolg zu haben, wurde bem\u00e4ngelt.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        350,
+        366
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: N\u00f6tige Unterst\u00fctzung bei einem Datensicherheitsversto\u00df\n\nEin Datensicherheitsversto\u00df ist aufgetreten, der auf eine unzureichende Firewall-Konfiguration zur\u00fcckzuf\u00fchren ist. Versuche, das Problem durch Durchstarten von Docker und einpr\u00fcfen der Einstellungen im Eclipse-IDE zu l\u00f6sen, ohne Erfolg zu haben, wurde bem\u00e4ngelt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

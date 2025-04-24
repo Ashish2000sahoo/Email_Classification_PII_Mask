@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Experienced Unauthorized Access Attempts to Medical Data Systems\n\nThere have been experienced unauthorized access attempts to our medical data systems You can reach me at johndoe@email.com.. We have implemented multi-factor authentication and updated our security protocols, but the attempts continue. Assistance is needed to resolve this issue and prevent future incidents. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        395,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        180,
+        197
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Experienced Unauthorized Access Attempts to Medical Data Systems\n\nThere have been experienced unauthorized access attempts to our medical data systems You can reach me at [email].. We have implemented multi-factor authentication and updated our security protocols, but the attempts continue. Assistance is needed to resolve this issue and prevent future incidents. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

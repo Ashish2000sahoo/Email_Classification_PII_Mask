@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Login Access Overnight\n\nThe login function experienced an unexpected failure last night. This might be due to outdated dependencies or recent code modifications My name is Maria Gonzalez.. I have already restarted the server, examined the logs, and ensured that all configurations are correct. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        333,
+        355
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Login Access Overnight\n\nThe login function experienced an unexpected failure last night. This might be due to outdated dependencies or recent code modifications My name is [full_name].. I have already restarted the server, examined the logs, and ensured that all configurations are correct. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Project Management Software Pricing\n\nInterested in learning more about project management software You can reach me at carlosm@gmail.com.. Please provide details on the pricing tiers and the features included in each. I would like to know about the different options available to help me determine which one fits my needs. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        357,
+        366
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        142,
+        159
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Project Management Software Pricing\n\nInterested in learning more about project management software You can reach me at [email].. Please provide details on the pricing tiers and the features included in each. I would like to know about the different options available to help me determine which one fits my needs. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

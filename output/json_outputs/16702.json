@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Recent Performance Issues with JIRA Software Tools\n\nUpdates to the tools have been slower recently.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        146
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Recent Performance Issues with JIRA Software Tools\n\nUpdates to the tools have been slower recently.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

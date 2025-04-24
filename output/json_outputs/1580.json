@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Portfolio Tools\n\nHello, I am contacting customer support to seek guidance on data analytics tools that are suitable for optimizing investment portfolios. I am currently exploring various software options but am finding the selection process to be quite daunting due to the extensive range of available tools. Could you offer me some advice or information on the most effective tools? I am particularly interested in features such as real-time data analysis, risk assessment, and portfolio diversification My name is Fatima Al-Farsi.. Additionally, I would like to learn about the benefits of using data analytics tools to enhance my investment portfolio management. Please share any insights or recommendations you can provide You can reach me at elena.ivanova@support.org.. I eagerly await your response and thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        536,
+        545
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        769,
+        794
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Investment Portfolio Tools\n\nHello, I am contacting customer support to seek guidance on data analytics tools that are suitable for optimizing investment portfolios. I am currently exploring various software options but am finding the selection process to be quite daunting due to the extensive range of available tools. Could you offer me some advice or information on the most effective tools? I am particularly interested in features such as real-time data analysis, risk assessment, and portfolio diversification My name is [full_name]-Farsi.. Additionally, I would like to learn about the benefits of using data analytics tools to enhance my investment portfolio management. Please share any insights or recommendations you can provide You can reach me at [email].. I eagerly await your response and thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

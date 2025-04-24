@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbessern der digitalen Marketingstrategie bitte\n\nIch m\u00f6chte eine Anforderung stellen, um die Nutzung der Datenanalyse in unserer digitalen Marketingstrategie zu erweitern. Ziel ist es, das Markenwachstum und die Kundenbindung zu verbessern, um die Zielgruppe besser zu verstehen und effektivere Marketingkampannen zu erstellen My name is Omar Hassan.. Durch den Einsatz von Datenanalyse k\u00f6nnen Bereiche identifiziert und verbessert werden, um datagetriebene Entscheidungen zu treffen und das Gesch\u00e4ftswachstum sowie die Kundenzufriedenheit zu erh\u00f6hen. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        360
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        583,
+        601
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Verbessern der digitalen Marketingstrategie bitte\n\nIch m\u00f6chte eine Anforderung stellen, um die Nutzung der Datenanalyse in unserer digitalen Marketingstrategie zu erweitern. Ziel ist es, das Markenwachstum und die Kundenbindung zu verbessern, um die Zielgruppe besser zu verstehen und effektivere Marketingkampannen zu erstellen My name is [full_name].. Durch den Einsatz von Datenanalyse k\u00f6nnen Bereiche identifiziert und verbessert werden, um datagetriebene Entscheidungen zu treffen und das Gesch\u00e4ftswachstum sowie die Kundenzufriedenheit zu erh\u00f6hen. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

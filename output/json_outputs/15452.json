@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Decrease in Campaign Engagement\n\nThere has been an unexpected drop in the engagement metrics of the marketing campaign You can reach me at liuwei@business.cn.. This could be due to various factors such as changes in audience behavior or ineffective advertising strategies. I would appreciate it if you could look into the matter and provide a detailed analysis of the issue. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        406,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        159,
+        177
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Decrease in Campaign Engagement\n\nThere has been an unexpected drop in the engagement metrics of the marketing campaign You can reach me at [email].. This could be due to various factors such as changes in audience behavior or ineffective advertising strategies. I would appreciate it if you could look into the matter and provide a detailed analysis of the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

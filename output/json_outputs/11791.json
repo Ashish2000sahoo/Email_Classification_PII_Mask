@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Need Help with Unexpected System Crash in Data Analytics\n\nI encountered an unexpected system crash in data analytics My name is Jane Smith.. The possible causes might be software conflicts or hardware issues. Restarting or rebooting might resolve the problem. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        290,
+        311
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Need Help with Unexpected System Crash in Data Analytics\n\nI encountered an unexpected system crash in data analytics My name is [full_name].. The possible causes might be software conflicts or hardware issues. Restarting or rebooting might resolve the problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

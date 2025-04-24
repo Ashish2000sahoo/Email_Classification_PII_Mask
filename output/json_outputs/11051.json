@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhanced Digital Growth\n\nHello, we are here to assist with your report on digital marketing strategies. Current strategies have not yet produced the expected growth outcomes My name is Liu Wei.. Initial checks showed that there might be software conflicts affecting the campaign's performance. After testing and reconfiguring the tools to optimize workflows, we did not see the expected improvements. We would greatly appreciate your guidance on how to better integrate digital tools and platforms to meet your brand growth objectives. Please let us know your availability for a call to discuss this further. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        654,
+        675
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhanced Digital Growth\n\nHello, we are here to assist with your report on digital marketing strategies. Current strategies have not yet produced the expected growth outcomes My name is [full_name].. Initial checks showed that there might be software conflicts affecting the campaign's performance. After testing and reconfiguring the tools to optimize workflows, we did not see the expected improvements. We would greatly appreciate your guidance on how to better integrate digital tools and platforms to meet your brand growth objectives. Please let us know your availability for a call to discuss this further. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Behebung eines Verschl\u00fcsselungsfehlers\n\nSehr gesch\u00e4tzte Kundensupport, ich schreibe an Sie, um einen Fehler mit der Verschl\u00fcsselung zu melden. Der Vorgang ist aufgrund mangelnder Updates fehlgeschlagen My name is Carlos Mendoza.. Ihr Team versuchte, den Fehler durch Neustart der Server zu beheben, leider ohne Erfolg. Der Fehler beh\u00e4lt sich fort und wir ben\u00f6tigen dringend Unterst\u00fctzung, um die Situation zu beheben. K\u00f6nnten Sie uns bitte Rat geben, wie wir vorgehen k\u00f6nnen? Wir haben bereits einige Schritte versucht, aber ohne Erfolg. Der Fehler verursacht signifikante Unterbrechungen unserer Betriebsprozesse und wir danken Ihnen im Voraus f\u00fcr jede Hilfe, die Sie uns bieten k\u00f6nnen, um unsere Systeme sicher wieder online zu bringen. Bitte geben Sie uns die n\u00e4chsten Schritte an You can reach me at johndoe@email.com.. Vielen Dank f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit. Wir freuen uns auf Ihre R\u00fcckmeldung baldigst.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        248
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        822,
+        839
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Behebung eines Verschl\u00fcsselungsfehlers\n\nSehr gesch\u00e4tzte Kundensupport, ich schreibe an Sie, um einen Fehler mit der Verschl\u00fcsselung zu melden. Der Vorgang ist aufgrund mangelnder Updates fehlgeschlagen My name is [full_name].. Ihr Team versuchte, den Fehler durch Neustart der Server zu beheben, leider ohne Erfolg. Der Fehler beh\u00e4lt sich fort und wir ben\u00f6tigen dringend Unterst\u00fctzung, um die Situation zu beheben. K\u00f6nnten Sie uns bitte Rat geben, wie wir vorgehen k\u00f6nnen? Wir haben bereits einige Schritte versucht, aber ohne Erfolg. Der Fehler verursacht signifikante Unterbrechungen unserer Betriebsprozesse und wir danken Ihnen im Voraus f\u00fcr jede Hilfe, die Sie uns bieten k\u00f6nnen, um unsere Systeme sicher wieder online zu bringen. Bitte geben Sie uns die n\u00e4chsten Schritte an You can reach me at [email].. Vielen Dank f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit. Wir freuen uns auf Ihre R\u00fcckmeldung baldigst.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Related to System Crash\n\nHello Customer Support, <br><br>I hope this message finds you well. I am writing to inform you about a sudden system crash that I experienced recently. I was unable to save my work during the crash, and I suspect it might be due to insufficient memory or a software conflict. <br><br>I've tried several troubleshooting steps such as restarting my systems, updating drivers, and reviewing logs, but the issue persists and I continue to face crashes. I am worried that this might be a more significant problem My name is Liu Wei.. <br><br>I would be very grateful if you could help resolve this issue. Could you please guide me on further troubleshooting steps or request any additional information from me? <br><br>I appreciate your prompt attention to this matter and look forward to your response You can reach me at liuwei@business.cn.. Thank you for your assistance. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        561,
+        568
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        864,
+        882
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem Related to System Crash\n\nHello Customer Support, <br><br>I hope this message finds you well. I am writing to inform you about a sudden system crash that I experienced recently. I was unable to save my work during the crash, and I suspect it might be due to insufficient memory or a software conflict. <br><br>I've tried several troubleshooting steps such as restarting my systems, updating drivers, and reviewing logs, but the issue persists and I continue to face crashes. I am worried that this might be a more significant problem My name is [full_name].. <br><br>I would be very grateful if you could help resolve this issue. Could you please guide me on further troubleshooting steps or request any additional information from me? <br><br>I appreciate your prompt attention to this matter and look forward to your response You can reach me at [email].. Thank you for your assistance. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

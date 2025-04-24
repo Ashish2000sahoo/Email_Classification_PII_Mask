@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Over Medical Data Security\n\nDiscrepancies in billing have been identified. A confirmation email is required regarding the security issue related to medical data and billing discrepancies You can reach me at fatima.farsi@help.com.. I would appreciate detailed information about the discrepancies for the account number <acc_num>. This will assist in a thorough investigation My name is Elena Ivanova.. A call at your convenience at <tel_num> would be helpful to discuss the matter further. Please inform me of a suitable time for the call.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        225,
+        246
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Medical Data Security\n\nDiscrepancies in billing have been identified. A confirmation email is required regarding the security issue related to medical data and billing discrepancies You can reach me at [email].. I would appreciate detailed information about the discrepancies for the account number <acc_num>. This will assist in a thorough investigation My name is [full_name].. A call at your convenience at <tel_num> would be helpful to discuss the matter further. Please inform me of a suitable time for the call.",
+  "category_of_the_email": "Incident"
+}

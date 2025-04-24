@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Effizientes Optimieren von Investitionsportfolios\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um umfassender \u00fcber die Datenanalysetools Ihrer Firma zu erfahren, die Sie bei der Optimierung von Investitionsportfolios f\u00fcr Einzelkunden nutzen. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen \u00fcber die spezifischen Tools und Technologien liefern, die Sie einsetzen, um Marktentwicklungen zu analysieren und Entscheidungen basierend auf Daten zu treffen? Ich freue mich darauf, weitere Einzelheiten zu erfahren, wie diese Tools Investitionsstrategien f\u00fcr jeden Kunden individuell gestalten My name is John Doe.. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        613,
+        621
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        734,
+        751
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Effizientes Optimieren von Investitionsportfolios\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um umfassender \u00fcber die Datenanalysetools Ihrer Firma zu erfahren, die Sie bei der Optimierung von Investitionsportfolios f\u00fcr Einzelkunden nutzen. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen \u00fcber die spezifischen Tools und Technologien liefern, die Sie einsetzen, um Marktentwicklungen zu analysieren und Entscheidungen basierend auf Daten zu treffen? Ich freue mich darauf, weitere Einzelheiten zu erfahren, wie diese Tools Investitionsstrategien f\u00fcr jeden Kunden individuell gestalten My name is [full_name].. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

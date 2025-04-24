@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur Preisgestaltung von Projektmanagement-SaaS-Funktionen\n\nIch bin interessiert, mehr \u00fcber die Preisgestaltung der Projektmanagement-SaaS-Funktionen zu erfahren My name is Elena Ivanova.. K\u00f6nnten Sie detaillierte Informationen zu den verschiedenen Pl\u00e4nen und den enthaltenen Funktionen geben? Ich w\u00fcrde gerne erfahren, welche Rabatte und Promotionsaktionen zur Verf\u00fcgung stehen. Dar\u00fcber hinaus w\u00e4re ich daran interessiert, zu erfahren, ob die Plattform skalierbar ist, um mein Gesch\u00e4ft zu f\u00f6rdern. Bitte geben Sie mir auch Fallstudien oder Empfehlungen von bestehenden Kunden bekannt. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        618,
+        636
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Preisgestaltung von Projektmanagement-SaaS-Funktionen\n\nIch bin interessiert, mehr \u00fcber die Preisgestaltung der Projektmanagement-SaaS-Funktionen zu erfahren My name is [full_name].. K\u00f6nnten Sie detaillierte Informationen zu den verschiedenen Pl\u00e4nen und den enthaltenen Funktionen geben? Ich w\u00fcrde gerne erfahren, welche Rabatte und Promotionsaktionen zur Verf\u00fcgung stehen. Dar\u00fcber hinaus w\u00e4re ich daran interessiert, zu erfahren, ob die Plattform skalierbar ist, um mein Gesch\u00e4ft zu f\u00f6rdern. Bitte geben Sie mir auch Fallstudien oder Empfehlungen von bestehenden Kunden bekannt. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

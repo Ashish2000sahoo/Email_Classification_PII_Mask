@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Optimierung digitaler Strategien und Produktpromotion\n\ngeehrte Kundenservice, ben\u00f6tige Anleitungen zur Optimierung digitaler Strategien, insbesondere f\u00fcr die F\u00f6rderung von Logitech G502 und Adobe Premiere Pro You can reach me at janesmith@company.com.. K\u00f6nnten Sie Ratschl\u00e4ge geben, wie ich Produkte effektiv an meine Zielgruppe vermarkten kann? Empfehlungen zur Durchf\u00fchrung zielgerichteter Sozialmedien-Kampagnen, Partnerschaften mit Influencern und Content-Produktion w\u00e4ren sehr willkommen My name is Omar Hassan.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        525,
+        536
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        250,
+        271
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Optimierung digitaler Strategien und Produktpromotion\n\ngeehrte Kundenservice, ben\u00f6tige Anleitungen zur Optimierung digitaler Strategien, insbesondere f\u00fcr die F\u00f6rderung von Logitech G502 und Adobe Premiere Pro You can reach me at [email].. K\u00f6nnten Sie Ratschl\u00e4ge geben, wie ich Produkte effektiv an meine Zielgruppe vermarkten kann? Empfehlungen zur Durchf\u00fchrung zielgerichteter Sozialmedien-Kampagnen, Partnerschaften mit Influencern und Content-Produktion w\u00e4ren sehr willkommen My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

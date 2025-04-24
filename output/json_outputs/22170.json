@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nCaro Suporte ao Cliente da Tech Online Store,\n\nRecentemente comprei uma impressora HP DeskJet 3755 na sua loja, mas ela est\u00e1 apresentando problemas de atolamento de papel My name is Carlos Mendoza.. Tentei solucionar o problema sem sucesso. Voc\u00ea poderia por favor organizar uma troca para esta unidade defeituosa? Meu n\u00famero de conta \u00e9 <acc_num> You can reach me at carlosm@gmail.com.. Sua assist\u00eancia r\u00e1pida seria muito apreciada.\n\nObrigado,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        374,
+        391
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        105,
+        109
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: \n\nCaro Suporte ao Cliente da Tech Online Store,\n\nRecentemente comprei uma impressora HP DeskJet [phone_number] na sua loja, mas ela est\u00e1 apresentando problemas de atolamento de papel My name is [full_name].. Tentei solucionar o problema sem sucesso. Voc\u00ea poderia por favor organizar uma troca para esta unidade defeituosa? Meu n\u00famero de conta \u00e9 <acc_num> You can reach me at [email].. Sua assist\u00eancia r\u00e1pida seria muito apreciada.\n\nObrigado,\n<name>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

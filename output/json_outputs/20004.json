@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me d'affichage de MacBook Air\n\nCher \u00e9quipe de support du magasin en ligne Tech, \n\nJe vous \u00e9cris pour attirer votre attention sur un probl\u00e8me que j'ai rencontr\u00e9 avec mon MacBook Air M1 r\u00e9cemment achet\u00e9. Bien que l'appareil ait initialement r\u00e9pondu \u00e0 ma satisfaction, j'ai remarqu\u00e9 que l'\u00e9cran scintille occasionnellement pendant l'utilisation. Ce l\u00e9ger probl\u00e8me se produit sporadiquement et est quelque peu distrayant, notamment lorsque je me concentre sur des t\u00e2ches importantes. J'ai v\u00e9rifi\u00e9 que mon syst\u00e8me d'exploitation est \u00e0 jour et je n'ai pas apport\u00e9 d'alt\u00e9rations non autoris\u00e9es \u00e0 la configuration du syst\u00e8me. Malgr\u00e9 mes tentatives de d\u00e9pannage, telles que la r\u00e9initialisation des param\u00e8tres d'affichage et l'assurance que tous les logiciels sont \u00e0 jour, le scintillement persiste. \u00c9tant donn\u00e9 la r\u00e9putation de votre marque pour des dispositifs de haute qualit\u00e9, j'ai confiance que c'est un probl\u00e8me avec lequel vous pouvez m'assister. J'appr\u00e9cierais des conseils sur les \u00e9ventuelles solutions ou s'il serait possible d'organiser une inspection ou un remplacement si n\u00e9cessaire. Mon achat a \u00e9t\u00e9 effectu\u00e9 au nom de <name> le <purchase_date>. Je peux fournir le num\u00e9ro de s\u00e9rie de l'appareil si n\u00e9cessaire You can reach me at janesmith@company.com.. Veuillez m'informer des prochaines \u00e9tapes que je devrais suivre My name is Sophia Rossi.. Merci pour votre attention rapide \u00e0 cette affaire. \n\nCordialement, \n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1346,
+        1358
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1247,
+        1268
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me d'affichage de MacBook Air\n\nCher \u00e9quipe de support du magasin en ligne Tech, \n\nJe vous \u00e9cris pour attirer votre attention sur un probl\u00e8me que j'ai rencontr\u00e9 avec mon MacBook Air M1 r\u00e9cemment achet\u00e9. Bien que l'appareil ait initialement r\u00e9pondu \u00e0 ma satisfaction, j'ai remarqu\u00e9 que l'\u00e9cran scintille occasionnellement pendant l'utilisation. Ce l\u00e9ger probl\u00e8me se produit sporadiquement et est quelque peu distrayant, notamment lorsque je me concentre sur des t\u00e2ches importantes. J'ai v\u00e9rifi\u00e9 que mon syst\u00e8me d'exploitation est \u00e0 jour et je n'ai pas apport\u00e9 d'alt\u00e9rations non autoris\u00e9es \u00e0 la configuration du syst\u00e8me. Malgr\u00e9 mes tentatives de d\u00e9pannage, telles que la r\u00e9initialisation des param\u00e8tres d'affichage et l'assurance que tous les logiciels sont \u00e0 jour, le scintillement persiste. \u00c9tant donn\u00e9 la r\u00e9putation de votre marque pour des dispositifs de haute qualit\u00e9, j'ai confiance que c'est un probl\u00e8me avec lequel vous pouvez m'assister. J'appr\u00e9cierais des conseils sur les \u00e9ventuelles solutions ou s'il serait possible d'organiser une inspection ou un remplacement si n\u00e9cessaire. Mon achat a \u00e9t\u00e9 effectu\u00e9 au nom de <name> le <purchase_date>. Je peux fournir le num\u00e9ro de s\u00e9rie de l'appareil si n\u00e9cessaire You can reach me at [email].. Veuillez m'informer des prochaines \u00e9tapes que je devrais suivre My name is [full_name].. Merci pour votre attention rapide \u00e0 cette affaire. \n\nCordialement, \n\n<name>",
+  "category_of_the_email": "Problem"
+}

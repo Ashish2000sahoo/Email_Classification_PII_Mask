@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Timelines Not Updating\n\nProject timelines are not updating automatically. This might be related to recent system updates You can reach me at david.kim@corp.kr.. I have restarted my system and checked the settings, but found no solution. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        279
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        158,
+        175
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Project Timelines Not Updating\n\nProject timelines are not updating automatically. This might be related to recent system updates You can reach me at [email].. I have restarted my system and checked the settings, but found no solution. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

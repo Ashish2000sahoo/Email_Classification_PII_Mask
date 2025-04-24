@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Updating Campaign Metrics\n\nWhile working on the digital marketing campaigns, we've run into difficulties with the performance metrics not updating accurately My name is Elena Ivanova.. This problem might be due to recent software updates or integration conflicts. After attempting to troubleshoot the systems, the discrepancies still persist. This could affect our ability to make informed decisions. We would appreciate it if you could look into this matter and provide a solution as soon as possible. Please inform us if any additional information is required You can reach me at fatima.farsi@help.com.. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        589,
+        610
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Updating Campaign Metrics\n\nWhile working on the digital marketing campaigns, we've run into difficulties with the performance metrics not updating accurately My name is [full_name].. This problem might be due to recent software updates or integration conflicts. After attempting to troubleshoot the systems, the discrepancies still persist. This could affect our ability to make informed decisions. We would appreciate it if you could look into this matter and provide a solution as soon as possible. Please inform us if any additional information is required You can reach me at [email].. Thank you.",
+  "category_of_the_email": "Incident"
+}

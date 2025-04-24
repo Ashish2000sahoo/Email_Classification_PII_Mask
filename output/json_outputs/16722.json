@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Digital Campaign Network Integration\n\nCustomer Support,<br>Recently, our team has encountered connectivity issues affecting digital campaign strategies. This might be due to firewall configurations or hardware malfunctions You can reach me at carlosm@gmail.com.. We have already tried rebooting the system and checking network settings, but the issue still persists. <br>Our team is working hard to resolve the issue, but we haven't yet been able to identify the root cause. We believe the problem could be related to the network infrastructure or possibly a software bug My name is Omar Hassan.. <br>We would greatly appreciate",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        610,
+        621
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        270,
+        287
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Digital Campaign Network Integration\n\nCustomer Support,<br>Recently, our team has encountered connectivity issues affecting digital campaign strategies. This might be due to firewall configurations or hardware malfunctions You can reach me at [email].. We have already tried rebooting the system and checking network settings, but the issue still persists. <br>Our team is working hard to resolve the issue, but we haven't yet been able to identify the root cause. We believe the problem could be related to the network infrastructure or possibly a software bug My name is [full_name].. <br>We would greatly appreciate",
+  "category_of_the_email": "Incident"
+}

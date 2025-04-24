@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Datensicherungs-Fehler\n\nDie Datensicherung ist fehlerhaft verlaufen, was Patientendaten preisgab, da auf eine veraltete Node.js-Version zur\u00fcckgegriffen wurde. Obwohl die Server neu gestartet und Microsoft Office aktualisiert wurden, beh\u00e4lt sich das Problem weiterhin bestehen.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        337
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Datensicherungs-Fehler\n\nDie Datensicherung ist fehlerhaft verlaufen, was Patientendaten preisgab, da auf eine veraltete Node.js-Version zur\u00fcckgegriffen wurde. Obwohl die Server neu gestartet und Microsoft Office aktualisiert wurden, beh\u00e4lt sich das Problem weiterhin bestehen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

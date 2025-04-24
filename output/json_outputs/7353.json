@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, we are facing unexpected website outages during a high-traffic marketing campaign You can reach me at liuwei@business.cn.. We suspect the cause might be server overload due to increased visitor traffic. We have already attempted a server restart and optimized performance settings, but the issues still persist. We would greatly appreciate it if you could look into the matter and provide a solution at your earliest convenience My name is Sophia Rossi.. Please let us know if there is any additional information you need to resolve the issue. We look forward to hearing from you soon. Thank you for your time.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        474,
+        486
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        136,
+        154
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, we are facing unexpected website outages during a high-traffic marketing campaign You can reach me at [email].. We suspect the cause might be server overload due to increased visitor traffic. We have already attempted a server restart and optimized performance settings, but the issues still persist. We would greatly appreciate it if you could look into the matter and provide a solution at your earliest convenience My name is [full_name].. Please let us know if there is any additional information you need to resolve the issue. We look forward to hearing from you soon. Thank you for your time.",
+  "category_of_the_email": "Incident"
+}

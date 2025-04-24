@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Timelines Not Syncing Across All Platforms\n\nIssue: Project timelines are not syncing across various platforms. Reason: Potential integration problems with Elasticsearch and SAP ERP My name is Carlos Mendoza.. Attempted: Restarted servers, verified API connections. Continued to face issues, need your assistance. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        347,
+        364
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Project Timelines Not Syncing Across All Platforms\n\nIssue: Project timelines are not syncing across various platforms. Reason: Potential integration problems with Elasticsearch and SAP ERP My name is [full_name].. Attempted: Restarted servers, verified API connections. Continued to face issues, need your assistance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

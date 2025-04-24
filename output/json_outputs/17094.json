@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Cassandra\n\nSehr geehrte Kundenservice, ich schreibe an Sie, um Rat zur Optimierung meiner Investitionen in Cassandra 4.0 Wave und zur Datenaufbereitung -analyse zu erhalten My name is Elena Ivanova.. K\u00f6nnten Sie mir einige Tipps zu besten Praktiken geben und mir zeigen, wie ich die verf\u00fcgbaren Werkzeuge am besten nutzen kann? Ich freue mich darauf, die zur Verf\u00fcgung stehenden Informationen zu erhalten und Verbesserungen in der Datenaufbereitung -analyse vorzunehmen. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, welche allgemeinen Einschr\u00e4nkungen oder h\u00e4ufigen Fallen bei der Nutzung von Cassandra 4.0 Wave zu beachten sind. Ich freue mich auf Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        224
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        756,
+        777
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Cassandra\n\nSehr geehrte Kundenservice, ich schreibe an Sie, um Rat zur Optimierung meiner Investitionen in Cassandra 4.0 Wave und zur Datenaufbereitung -analyse zu erhalten My name is [full_name].. K\u00f6nnten Sie mir einige Tipps zu besten Praktiken geben und mir zeigen, wie ich die verf\u00fcgbaren Werkzeuge am besten nutzen kann? Ich freue mich darauf, die zur Verf\u00fcgung stehenden Informationen zu erhalten und Verbesserungen in der Datenaufbereitung -analyse vorzunehmen. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, welche allgemeinen Einschr\u00e4nkungen oder h\u00e4ufigen Fallen bei der Nutzung von Cassandra 4.0 Wave zu beachten sind. Ich freue mich auf Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

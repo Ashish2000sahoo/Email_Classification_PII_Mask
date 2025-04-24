@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Data Security in Healthcare\n\nCould you provide information on data security solutions for healthcare providers and hospital systems? I would like to know the measures that can be put in place to protect sensitive patient information and ensure compliance with industry regulations.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        341
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Security in Healthcare\n\nCould you provide information on data security solutions for healthcare providers and hospital systems? I would like to know the measures that can be put in place to protect sensitive patient information and ensure compliance with industry regulations.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

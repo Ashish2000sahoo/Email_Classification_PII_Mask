@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur effektivsten digitalen Strategie f\u00fcr das Marktwachstum von Mittelst\u00e4nden\n\nSehr geehrte Kundenservice, ich habe eine Nachricht geschrieben, in der ich nach den am effektivsten digitalen Strategien f\u00fcr das Marktwachstum von Mittelst\u00e4nden gefragt habe. In der sich st\u00e4ndig ver\u00e4ndernden Szene der digitalen Marketingstrategien kann es schwierig sein, die besten Ans\u00e4tze zu identifizieren. Ich w\u00fcrde mich freuen, wenn Sie mir irgendeine Unterst\u00fctzung oder Empfehlungen geben k\u00f6nnten. Ich interessiere mich speziell f\u00fcr Soziale-Media-Marketing, Suchmaschinenoptimierung und E-Mail-Marketing You can reach me at johndoe@email.com.. Haben Sie spezifische Strategien oder Techniken, die sich f\u00fcr Mittelst\u00e4ndische Unternehmen besonders gut eingesetzt haben? Ich freue mich darauf, Ihre Meinung zu diesem Thema zu h\u00f6ren. Danke f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        890,
+        900
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        624,
+        641
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Frage zur effektivsten digitalen Strategie f\u00fcr das Marktwachstum von Mittelst\u00e4nden\n\nSehr geehrte Kundenservice, ich habe eine Nachricht geschrieben, in der ich nach den am effektivsten digitalen Strategien f\u00fcr das Marktwachstum von Mittelst\u00e4nden gefragt habe. In der sich st\u00e4ndig ver\u00e4ndernden Szene der digitalen Marketingstrategien kann es schwierig sein, die besten Ans\u00e4tze zu identifizieren. Ich w\u00fcrde mich freuen, wenn Sie mir irgendeine Unterst\u00fctzung oder Empfehlungen geben k\u00f6nnten. Ich interessiere mich speziell f\u00fcr Soziale-Media-Marketing, Suchmaschinenoptimierung und E-Mail-Marketing You can reach me at [email].. Haben Sie spezifische Strategien oder Techniken, die sich f\u00fcr Mittelst\u00e4ndische Unternehmen besonders gut eingesetzt haben? Ich freue mich darauf, Ihre Meinung zu diesem Thema zu h\u00f6ren. Danke f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

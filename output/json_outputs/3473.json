@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit fehlgeschlagenen Integrationsvorg\u00e4ngen\n\nSehr geehrte Kundenservice-Team,<br><br>ich m\u00f6chte Ihnen mitteilen, dass mehrere Integrierungen gleichzeitig fehlschlugen My name is Liu Wei.. Das Problem trat pl\u00f6tzlich auf, und ich vermute, dass es m\u00f6glicherweise mit Kompatibilit\u00e4tsproblemen in Bezug auf die neuesten Updates zusammenh\u00e4ngt You can reach me at johndoe@email.com.. Ich habe bereits die betroffenen Dienste neu gestartet, die Logs gepr\u00fcft und die Abh\u00e4ngigkeiten aktualisiert, aber der Fehler besteht weiterhin.<br><br>Die fehlgeschlagenen Integrierungen beeintr\u00e4chtigen unsere t\u00e4gliche Arbeit stark, und ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir m\u00f6glichst bald bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. Ich habe die Systemlogs gepr\u00fcft und einige Fehlermeldungen gefunden, die m\u00f6glicherweise relevant sind. Wenn es erforderlich ist, stehe ich Ihnen gerne zur Verf\u00fcgung, um weitere Informationen oder Kontext bereitzustellen.<br><br>K\u00f6nnten Sie bitte das Problem troubleshooten oder mir Anleitungen zur L\u00f6sung geben? Ich sch\u00e4tze jede Unterst\u00fctzung, die Sie mir in dieser Angelegenheit bieten k\u00f6nnen. Lassen Sie mich wissen, wenn es weitere Schritte f\u00fcr mich gibt oder wenn Sie weitere Informationen ben\u00f6tigen.<br><br>Mit freundlichen Gr\u00fc\u00dfen,<br>[Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        201
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        377,
+        394
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit fehlgeschlagenen Integrationsvorg\u00e4ngen\n\nSehr geehrte Kundenservice-Team,<br><br>ich m\u00f6chte Ihnen mitteilen, dass mehrere Integrierungen gleichzeitig fehlschlugen My name is [full_name].. Das Problem trat pl\u00f6tzlich auf, und ich vermute, dass es m\u00f6glicherweise mit Kompatibilit\u00e4tsproblemen in Bezug auf die neuesten Updates zusammenh\u00e4ngt You can reach me at [email].. Ich habe bereits die betroffenen Dienste neu gestartet, die Logs gepr\u00fcft und die Abh\u00e4ngigkeiten aktualisiert, aber der Fehler besteht weiterhin.<br><br>Die fehlgeschlagenen Integrierungen beeintr\u00e4chtigen unsere t\u00e4gliche Arbeit stark, und ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir m\u00f6glichst bald bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. Ich habe die Systemlogs gepr\u00fcft und einige Fehlermeldungen gefunden, die m\u00f6glicherweise relevant sind. Wenn es erforderlich ist, stehe ich Ihnen gerne zur Verf\u00fcgung, um weitere Informationen oder Kontext bereitzustellen.<br><br>K\u00f6nnten Sie bitte das Problem troubleshooten oder mir Anleitungen zur L\u00f6sung geben? Ich sch\u00e4tze jede Unterst\u00fctzung, die Sie mir in dieser Angelegenheit bieten k\u00f6nnen. Lassen Sie mich wissen, wenn es weitere Schritte f\u00fcr mich gibt oder wenn Sie weitere Informationen ben\u00f6tigen.<br><br>Mit freundlichen Gr\u00fc\u00dfen,<br>[Ihr Name]",
+  "category_of_the_email": "Incident"
+}

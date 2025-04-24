@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Sync\n\nI am facing sync difficulties with the Notion integration. The data is not updating properly between the platforms, which seems to be a problem with the compatibility of Express.js 4.17. I've already restarted my MacBook and verified the API keys, but the issue remains unresolved. Could you please assist me in fixing this? If there are any further steps I can take or known solutions, it would be great to hear from you You can reach me at johndoe@email.com.. I look forward to your response. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        534,
+        545
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        470,
+        487
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Sync\n\nI am facing sync difficulties with the Notion integration. The data is not updating properly between the platforms, which seems to be a problem with the compatibility of Express.js 4.17. I've already restarted my MacBook and verified the API keys, but the issue remains unresolved. Could you please assist me in fixing this? If there are any further steps I can take or known solutions, it would be great to hear from you You can reach me at [email].. I look forward to your response. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

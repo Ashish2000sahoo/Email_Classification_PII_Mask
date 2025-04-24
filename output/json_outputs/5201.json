@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit neuem Rechnungsabrechnungsprozess\n\nWir haben unerwartete Fehler in unserer letzten Rechnung und vermuten, dass es sich um ein Synchronisationsproblem handelt. Obwohl wir unsere Transaktionen \u00fcberpr\u00fcft haben, konnten wir die Unstimmigkeit nicht beheben You can reach me at elena.ivanova@support.org.. Wir ben\u00f6tigen Hilfe, um das Problem schnell zu l\u00f6sen und weitere Komplikationen zu vermeiden. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        427,
+        437
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        294,
+        319
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit neuem Rechnungsabrechnungsprozess\n\nWir haben unerwartete Fehler in unserer letzten Rechnung und vermuten, dass es sich um ein Synchronisationsproblem handelt. Obwohl wir unsere Transaktionen \u00fcberpr\u00fcft haben, konnten wir die Unstimmigkeit nicht beheben You can reach me at [email].. Wir ben\u00f6tigen Hilfe, um das Problem schnell zu l\u00f6sen und weitere Komplikationen zu vermeiden. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

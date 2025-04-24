@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCher service client,\n\nJe rencontre un probl\u00e8me avec le syst\u00e8me de tickets depuis la r\u00e9cente mise \u00e0 jour de Jira Software 8.20, qui emp\u00eache le chargement des projets My name is Fatima Al-Farsi.. Cela affecte gravement nos t\u00e2ches de gestion de projet. Pourriez-vous s'il vous pla\u00eet examiner cette question de toute urgence et fournir une solution ? Votre assistance rapide serait grandement appr\u00e9ci\u00e9e.\n\nMerci,\n<name>\n<acc_num>\n<tel_num> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        468,
+        490
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nCher service client,\n\nJe rencontre un probl\u00e8me avec le syst\u00e8me de tickets depuis la r\u00e9cente mise \u00e0 jour de Jira Software 8.20, qui emp\u00eache le chargement des projets My name is [full_name]-Farsi.. Cela affecte gravement nos t\u00e2ches de gestion de projet. Pourriez-vous s'il vous pla\u00eet examiner cette question de toute urgence et fournir une solution ? Votre assistance rapide serait grandement appr\u00e9ci\u00e9e.\n\nMerci,\n<name>\n<acc_num>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

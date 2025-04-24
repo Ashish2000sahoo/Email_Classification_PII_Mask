@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I have been facing intermittent performance issues with project load times, which might be related to increased user activity during peak hours. I have already tried optimizing database queries and increasing server resources, and this has led to significant improvement. However, users still experience delays during peak hours, which is causing frustration You can reach me at elena.ivanova@support.org.. I would appreciate your assistance in identifying the root cause and implementing a solution to enhance the performance and user experience. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        593,
+        607
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        413,
+        438
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I have been facing intermittent performance issues with project load times, which might be related to increased user activity during peak hours. I have already tried optimizing database queries and increasing server resources, and this has led to significant improvement. However, users still experience delays during peak hours, which is causing frustration You can reach me at [email].. I would appreciate your assistance in identifying the root cause and implementing a solution to enhance the performance and user experience. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

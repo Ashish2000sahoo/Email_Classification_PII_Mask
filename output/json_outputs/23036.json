@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues Regarding Service Interruption\n\nDear Customer Support Team,<br><br>I am writing to inform you of a moderate priority issue that has arisen during the scheduled maintenance My name is Fatima Al-Farsi.. An unexpected service interruption has had an impact on the Infrastructure Maintenance Service, affecting multiple clients. This has understandably caused some inconvenience, and we kindly request your immediate support in resolving this issue.<br><br>Could you please provide guidance on the immediate steps to implement and possible solutions? Additionally, we would be grateful for consistent updates on progress and the anticipated timeline for resolution You can reach me at elena.ivanova@support.org.. Please let us know if you require any further information from our end.<br><br>Thank you for your prompt attention to this matter.<br><br>Sincerely,<br><name><br>Contact: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        199,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        699,
+        724
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issues Regarding Service Interruption\n\nDear Customer Support Team,<br><br>I am writing to inform you of a moderate priority issue that has arisen during the scheduled maintenance My name is [full_name]-Farsi.. An unexpected service interruption has had an impact on the Infrastructure Maintenance Service, affecting multiple clients. This has understandably caused some inconvenience, and we kindly request your immediate support in resolving this issue.<br><br>Could you please provide guidance on the immediate steps to implement and possible solutions? Additionally, we would be grateful for consistent updates on progress and the anticipated timeline for resolution You can reach me at [email].. Please let us know if you require any further information from our end.<br><br>Thank you for your prompt attention to this matter.<br><br>Sincerely,<br><name><br>Contact: <tel_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas con la implementaci\u00f3n de AWS\n\nEstimado equipo de soporte al cliente,\n\nLes escribo para llamar su atenci\u00f3n inmediata sobre un problema cr\u00edtico que estamos enfrentando con el Servicio de Gesti\u00f3n de AWS You can reach me at david.kim@corp.kr.. Hemos encontrado dificultades significativas durante la implementaci\u00f3n de una instancia de AWS, lo que est\u00e1 causando interrupciones en el servicio para nuestras operaciones. Estas interrupciones est\u00e1n afectando gravemente nuestra capacidad para atender a los clientes de manera efectiva y mantener operaciones comerciales fluidas.\n\nHasta ahora, nuestro equipo interno ha intentado varias estrategias para corregir los errores de configuraci\u00f3n que causan este problema de implementaci\u00f3n My name is David Kim.. A pesar de estos esfuerzos, el problema persiste y no hemos podido identificar la causa ra\u00edz. Las interrupciones han escalado a un nivel en el que est\u00e1n afectando nuestros SLA y las expectativas de los clientes.\n\nTenemos una necesidad urgente de su experiencia y asistencia para resolver este problema lo m\u00e1s r\u00e1pido posible. \u00bfPodr\u00edan asignar a un especialista para investigar los errores de configuraci\u00f3n a la mayor brevedad? Una respuesta r\u00e1pida y un esfuerzo colaborativo para diagnosticar y solucionar el problema ser\u00edan muy apreciados.\n\nSi es necesario, estamos disponibles para una llamada de conferencia para proporcionar detalles espec\u00edficos y colaborar con su equipo t\u00e9cnico. Por favor, h\u00e1ganos saber un momento adecuado para que su equipo se comunique con el nuestro.\n\nGracias por su atenci\u00f3n urgente a este asunto.\n\nAtentamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        756,
+        765
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        239,
+        256
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problemas con la implementaci\u00f3n de AWS\n\nEstimado equipo de soporte al cliente,\n\nLes escribo para llamar su atenci\u00f3n inmediata sobre un problema cr\u00edtico que estamos enfrentando con el Servicio de Gesti\u00f3n de AWS You can reach me at [email].. Hemos encontrado dificultades significativas durante la implementaci\u00f3n de una instancia de AWS, lo que est\u00e1 causando interrupciones en el servicio para nuestras operaciones. Estas interrupciones est\u00e1n afectando gravemente nuestra capacidad para atender a los clientes de manera efectiva y mantener operaciones comerciales fluidas.\n\nHasta ahora, nuestro equipo interno ha intentado varias estrategias para corregir los errores de configuraci\u00f3n que causan este problema de implementaci\u00f3n My name is [full_name].. A pesar de estos esfuerzos, el problema persiste y no hemos podido identificar la causa ra\u00edz. Las interrupciones han escalado a un nivel en el que est\u00e1n afectando nuestros SLA y las expectativas de los clientes.\n\nTenemos una necesidad urgente de su experiencia y asistencia para resolver este problema lo m\u00e1s r\u00e1pido posible. \u00bfPodr\u00edan asignar a un especialista para investigar los errores de configuraci\u00f3n a la mayor brevedad? Una respuesta r\u00e1pida y un esfuerzo colaborativo para diagnosticar y solucionar el problema ser\u00edan muy apreciados.\n\nSi es necesario, estamos disponibles para una llamada de conferencia para proporcionar detalles espec\u00edficos y colaborar con su equipo t\u00e9cnico. Por favor, h\u00e1ganos saber un momento adecuado para que su equipo se comunique con el nuestro.\n\nGracias por su atenci\u00f3n urgente a este asunto.\n\nAtentamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

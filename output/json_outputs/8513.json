@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Data Analytics Services Details\n\nHello Customer Support, I am reaching out to inquire about the benefits, features, and services related to data analytics. Our firm is interested in learning more about these services to help us make data-driven decisions and improve our investment strategies My name is Fatima Al-Farsi.. Could you provide us with more information on the benefits of your data analytics services? You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        324,
+        333
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        456,
+        473
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Data Analytics Services Details\n\nHello Customer Support, I am reaching out to inquire about the benefits, features, and services related to data analytics. Our firm is interested in learning more about these services to help us make data-driven decisions and improve our investment strategies My name is [full_name]-Farsi.. Could you provide us with more information on the benefits of your data analytics services? You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Integration Query for Sony Vegas Pro 18\n\nHello Customer Support, I am reaching out to seek information about the integration possibilities for Sony Vegas Pro 18 with your project management SaaS platform You can reach me at david.kim@corp.kr.. Particularly, I am interested in understanding if there are any plugins or APIs that can facilitate a smooth integration between the two systems. My aim is to enhance the efficiency of my workflow and boost team collaboration My name is Jane Smith.. Could you kindly share more details regarding the available integration solutions, including any available tutorials or documentation? I would greatly appreciate any advice you could offer. Thank you for your support, and I am looking forward to your response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        490,
+        500
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        233,
+        250
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Integration Query for Sony Vegas Pro 18\n\nHello Customer Support, I am reaching out to seek information about the integration possibilities for Sony Vegas Pro 18 with your project management SaaS platform You can reach me at [email].. Particularly, I am interested in understanding if there are any plugins or APIs that can facilitate a smooth integration between the two systems. My aim is to enhance the efficiency of my workflow and boost team collaboration My name is [full_name].. Could you kindly share more details regarding the available integration solutions, including any available tutorials or documentation? I would greatly appreciate any advice you could offer. Thank you for your support, and I am looking forward to your response. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

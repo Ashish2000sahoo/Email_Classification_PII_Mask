@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Outage Affects Data Analytics Operations\n\nDear Customer Support, we are encountering a system outage that has disrupted our data analytics processes and investment optimization You can reach me at liuwei@business.cn.. The issue might be due to server overload or software conflicts. We have attempted to restart affected services and clear temporary files, but the problem persists. We would greatly appreciate your assistance in resolving this matter as soon as possible. Please let us know if you require any additional information to facilitate the resolution process My name is Maria Gonzalez.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        598,
+        612
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        213,
+        231
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: System Outage Affects Data Analytics Operations\n\nDear Customer Support, we are encountering a system outage that has disrupted our data analytics processes and investment optimization You can reach me at [email].. The issue might be due to server overload or software conflicts. We have attempted to restart affected services and clear temporary files, but the problem persists. We would greatly appreciate your assistance in resolving this matter as soon as possible. Please let us know if you require any additional information to facilitate the resolution process My name is [full_name].. Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

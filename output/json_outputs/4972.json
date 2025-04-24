@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of Critical Data Breach Event\n\nA data breach has happened, resulting in the compromise of sensitive medical information You can reach me at david.kim@corp.kr.. The likely cause is inadequate access controls and outdated systems. Immediate steps have been taken, such as implementing temporary access restrictions, updating antivirus software, and initiating employee cybersecurity training to prevent future breaches. The training covers identifying phishing emails and the importance of using strong passwords. An internal investigation is underway to assess the extent of the breach and to notify affected individuals appropriately My name is Liu Wei.. We sincerely apologize for any inconvenience caused.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        667,
+        674
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        162,
+        179
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Notification of Critical Data Breach Event\n\nA data breach has happened, resulting in the compromise of sensitive medical information You can reach me at [email].. The likely cause is inadequate access controls and outdated systems. Immediate steps have been taken, such as implementing temporary access restrictions, updating antivirus software, and initiating employee cybersecurity training to prevent future breaches. The training covers identifying phishing emails and the importance of using strong passwords. An internal investigation is underway to assess the extent of the breach and to notify affected individuals appropriately My name is [full_name].. We sincerely apologize for any inconvenience caused.",
+  "category_of_the_email": "Incident"
+}

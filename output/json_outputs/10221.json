@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Smart-Tracker Integration with Apache Hadoop 3.2.1\n\nDear Support Team, I am writing to inquire about the integration process for Smart-Tracker with Apache Hadoop 3.2.1 for our project management. We are already utilizing Apache Hadoop 3.2.1 and aim to integrate Smart-Tracker to improve our project management workflow. Could you offer us extensive guidelines, including essential configuration details, API documentation, and troubleshooting advice? Any additional support or resources would be greatly appreciated to ensure a smooth integration My name is Elena Ivanova.. We are keen to proceed with Smart-Tracker and believe it will effectively streamline our project management. Thank you for your attention and assistance. We eagerly await your response. Best regards, [Your Name] You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        587,
+        600
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        833,
+        850
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Smart-Tracker Integration with Apache Hadoop 3.2.1\n\nDear Support Team, I am writing to inquire about the integration process for Smart-Tracker with Apache Hadoop 3.2.1 for our project management. We are already utilizing Apache Hadoop 3.2.1 and aim to integrate Smart-Tracker to improve our project management workflow. Could you offer us extensive guidelines, including essential configuration details, API documentation, and troubleshooting advice? Any additional support or resources would be greatly appreciated to ensure a smooth integration My name is [full_name].. We are keen to proceed with Smart-Tracker and believe it will effectively streamline our project management. Thank you for your attention and assistance. We eagerly await your response. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud para optimizar las configuraciones de AWS con el Servicio de Gesti\u00f3n\n\nEstimado equipo de soporte de la empresa de consultor\u00eda de TI,\n\nEspero que este mensaje lo encuentre bien. Estoy escribiendo para solicitar asistencia con la modificaci\u00f3n de nuestras configuraciones de AWS. Nuestro objetivo es mejorar la asignaci\u00f3n de recursos y reducir los costos de infraestructura optimizando nuestra configuraci\u00f3n actual bajo el producto del Servicio de Gesti\u00f3n de AWS.\n\nNecesitamos una revisi\u00f3n detallada y recomendaciones de expertos sobre los cambios necesarios para lograr estos objetivos de manera eficiente You can reach me at maria.gonzalez@shop.es.. Favor de proporcionar orientaci\u00f3n a la brevedad posible para que podamos implementar los ajustes necesarios.\n\nGracias por su atenci\u00f3n y apoyo en este asunto. Puede comunicarse conmigo en cualquier momento conveniente a trav\u00e9s del correo electr\u00f3nico o n\u00famero de contacto. Espero su pronta asistencia.\n\nSaludos cordiales,\n\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1007,
+        1021
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        643,
+        665
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Solicitud para optimizar las configuraciones de AWS con el Servicio de Gesti\u00f3n\n\nEstimado equipo de soporte de la empresa de consultor\u00eda de TI,\n\nEspero que este mensaje lo encuentre bien. Estoy escribiendo para solicitar asistencia con la modificaci\u00f3n de nuestras configuraciones de AWS. Nuestro objetivo es mejorar la asignaci\u00f3n de recursos y reducir los costos de infraestructura optimizando nuestra configuraci\u00f3n actual bajo el producto del Servicio de Gesti\u00f3n de AWS.\n\nNecesitamos una revisi\u00f3n detallada y recomendaciones de expertos sobre los cambios necesarios para lograr estos objetivos de manera eficiente You can reach me at [email].. Favor de proporcionar orientaci\u00f3n a la brevedad posible para que podamos implementar los ajustes necesarios.\n\nGracias por su atenci\u00f3n y apoyo en este asunto. Puede comunicarse conmigo en cualquier momento conveniente a trav\u00e9s del correo electr\u00f3nico o n\u00famero de contacto. Espero su pronta asistencia.\n\nSaludos cordiales,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

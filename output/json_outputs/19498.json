@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with the Frozen Data Analytics Dashboard\n\nDear Customer Support, I am encountering difficulties with my data analytics dashboard, which has frozen and prevented me from accessing any information. Despite restarting my system and ensuring all updates are installed, the issue remains unresolved. I believe a software conflict might be the cause You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate any guidance you can offer to resolve this. If there are any further actions I can take to troubleshoot, please let me know. Thank you for your assistance. Sincerely, [Your Name] My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        624,
+        636
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        382,
+        404
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problems with the Frozen Data Analytics Dashboard\n\nDear Customer Support, I am encountering difficulties with my data analytics dashboard, which has frozen and prevented me from accessing any information. Despite restarting my system and ensuring all updates are installed, the issue remains unresolved. I believe a software conflict might be the cause You can reach me at [email].. I would greatly appreciate any guidance you can offer to resolve this. If there are any further actions I can take to troubleshoot, please let me know. Thank you for your assistance. Sincerely, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

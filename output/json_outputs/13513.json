@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Missing Project Data\n\nDear Customer Support, I am writing to report a problem with my project data. Unfortunately, the data is unexpectedly missing, and I am concerned about potential causes and consequences. After conducting an investigation, I believe that a software compatibility issue might be the root of the problem My name is Sophia Rossi.. I have restarted my computer and checked my backups, but the data remains unavailable. I would appreciate it if you could address this issue and provide me with prompt assistance. Please instruct me on any additional steps I can take to resolve the problem or share any information you need from me. I look forward to hearing from you soon. I have attempted to resolve the issue on my own, but I need your expertise to do so. I am confident that with your help, we can find a solution and restore my project data. I thank you for your time and support You can reach me at johndoe@email.com.. I appreciate your attention to this matter and look forward to your response. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        379
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        953,
+        970
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Missing Project Data\n\nDear Customer Support, I am writing to report a problem with my project data. Unfortunately, the data is unexpectedly missing, and I am concerned about potential causes and consequences. After conducting an investigation, I believe that a software compatibility issue might be the root of the problem My name is [full_name].. I have restarted my computer and checked my backups, but the data remains unavailable. I would appreciate it if you could address this issue and provide me with prompt assistance. Please instruct me on any additional steps I can take to resolve the problem or share any information you need from me. I look forward to hearing from you soon. I have attempted to resolve the issue on my own, but I need your expertise to do so. I am confident that with your help, we can find a solution and restore my project data. I thank you for your time and support You can reach me at [email].. I appreciate your attention to this matter and look forward to your response. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

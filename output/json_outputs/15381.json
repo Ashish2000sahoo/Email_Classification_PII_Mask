@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschwinden von Projektdateien\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte mich bei Ihnen melden, um einen dringenden Fehler in meinem Projekt zu melden You can reach me at johndoe@email.com.. \u00dcber Nacht sind alle meiner Projektdateien spurlos verschwunden und ich kann sie nicht mehr erreichen. Es k\u00f6nnte sich um einen Datenbankverbindungs- oder Synchronisationsfehler handeln, der diesen Fehler verursacht hat.\\n\\nIch habe bereits versucht, das Problem selbst zu beheben, indem ich die Benutzerzugriffe \u00fcberpr\u00fcft, den Systemstart neu gestartet und die Protokolle gepr\u00fcft habe, aber ich bin derzeit noch immer nicht in der Lage, das Problem zu l\u00f6sen. Ich schreibe an, um Ihre Hilfe bei der Wiederherstellung meiner verloren gegangen Daten und der Verhinderung dieses Problems in der Zukunft zu bitten.\\n\\nHier sind die Details des Problems:\\n\\n* Was passiert ist: Projektdateien verschwanden pl\u00f6tzlich \u00fcber Nacht.\\n* Warum es passiert sein k\u00f6nnte: M\u00f6glicherweise Datenbankverbindung- oder Synchronisationsfehler.\\n* Was bisher versucht wurde: \u00dcberpr\u00fcfung der Benutzerzugriffe, Neustart des Systems, \u00dcberpr\u00fcfung der Protokolle.\\n\\nIch sch\u00e4tze Ihre Hilfe bei der Behebung dieses Problems sehr. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von mir ben\u00f6tigen oder ob es weitere Schritte f\u00fcr mich gibt, die ich unternehmen kann, um zur Wiederherstellung meiner Daten beizutragen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1506,
+        1515
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        182,
+        199
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verschwinden von Projektdateien\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte mich bei Ihnen melden, um einen dringenden Fehler in meinem Projekt zu melden You can reach me at [email].. \u00dcber Nacht sind alle meiner Projektdateien spurlos verschwunden und ich kann sie nicht mehr erreichen. Es k\u00f6nnte sich um einen Datenbankverbindungs- oder Synchronisationsfehler handeln, der diesen Fehler verursacht hat.\\n\\nIch habe bereits versucht, das Problem selbst zu beheben, indem ich die Benutzerzugriffe \u00fcberpr\u00fcft, den Systemstart neu gestartet und die Protokolle gepr\u00fcft habe, aber ich bin derzeit noch immer nicht in der Lage, das Problem zu l\u00f6sen. Ich schreibe an, um Ihre Hilfe bei der Wiederherstellung meiner verloren gegangen Daten und der Verhinderung dieses Problems in der Zukunft zu bitten.\\n\\nHier sind die Details des Problems:\\n\\n* Was passiert ist: Projektdateien verschwanden pl\u00f6tzlich \u00fcber Nacht.\\n* Warum es passiert sein k\u00f6nnte: M\u00f6glicherweise Datenbankverbindung- oder Synchronisationsfehler.\\n* Was bisher versucht wurde: \u00dcberpr\u00fcfung der Benutzerzugriffe, Neustart des Systems, \u00dcberpr\u00fcfung der Protokolle.\\n\\nIch sch\u00e4tze Ihre Hilfe bei der Behebung dieses Problems sehr. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von mir ben\u00f6tigen oder ob es weitere Schritte f\u00fcr mich gibt, die ich unternehmen kann, um zur Wiederherstellung meiner Daten beizutragen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Battery Issue Assistance\n\nDear Tech Online Store Support,\n\nI hope this message finds you well. I am reaching out regarding my Dell XPS 13 9310, which has been encountering issues with its battery. It seems that the battery is not holding charge as efficiently as it should, and I am keen to obtain more information regarding troubleshooting this problem.\n\nGiven my lack of technical knowledge, I would appreciate detailed guidance on addressing this issue. Additionally, if there are specific diagnostic tools or software that I should utilize, please let me know. If this requires service intervention, kindly provide the associated steps.\n\nThank you for your support and assistance on this matter You can reach me at liuwei@business.cn.. I look forward to your prompt response.\n\nBest regards,\n\n<name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        823,
+        837
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        728,
+        746
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        144,
+        151
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Battery Issue Assistance\n\nDear Tech Online Store Support,\n\nI hope this message finds you well. I am reaching out regarding my Dell XPS [phone_number], which has been encountering issues with its battery. It seems that the battery is not holding charge as efficiently as it should, and I am keen to obtain more information regarding troubleshooting this problem.\n\nGiven my lack of technical knowledge, I would appreciate detailed guidance on addressing this issue. Additionally, if there are specific diagnostic tools or software that I should utilize, please let me know. If this requires service intervention, kindly provide the associated steps.\n\nThank you for your support and assistance on this matter You can reach me at [email].. I look forward to your prompt response.\n\nBest regards,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

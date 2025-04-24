@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with SaaS Project Management Tool\n\nExperiencing connection issues with the SaaS project management tool across various devices, including external storage and smart home devices You can reach me at liuwei@business.cn.. The problem seems to be related to compatibility issues with the latest software updates My name is Elena Ivanova.. I have already attempted to restart the devices and reconfigure the network settings, but the issue persists. Your assistance in resolving this matter would be greatly appreciated. Please let me know if you need any additional information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        213,
+        231
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue with SaaS Project Management Tool\n\nExperiencing connection issues with the SaaS project management tool across various devices, including external storage and smart home devices You can reach me at [email].. The problem seems to be related to compatibility issues with the latest software updates My name is [full_name].. I have already attempted to restart the devices and reconfigure the network settings, but the issue persists. Your assistance in resolving this matter would be greatly appreciated. Please let me know if you need any additional information.",
+  "category_of_the_email": "Incident"
+}

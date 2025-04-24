@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols in Cisco Webex Meetings for Medical Data\n\nI am reaching out to seek information on the security measures that are in place to safeguard medical data when using Cisco Webex Meetings You can reach me at david.kim@corp.kr.. As a healthcare professional, I am concerned about the confidentiality and integrity of sensitive patient information that is discussed in virtual meetings. Could you kindly share details about the encryption techniques used, the access control mechanisms, and the compliance certifications, such as HIPAA, that Cisco Webex complies with? Additionally, I would appreciate advice on the best practices for securely sharing medical data during these meetings. Thank you for your time and assistance. I look forward to your response. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        791,
+        805
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        229,
+        246
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols in Cisco Webex Meetings for Medical Data\n\nI am reaching out to seek information on the security measures that are in place to safeguard medical data when using Cisco Webex Meetings You can reach me at [email].. As a healthcare professional, I am concerned about the confidentiality and integrity of sensitive patient information that is discussed in virtual meetings. Could you kindly share details about the encryption techniques used, the access control mechanisms, and the compliance certifications, such as HIPAA, that Cisco Webex complies with? Additionally, I would appreciate advice on the best practices for securely sharing medical data during these meetings. Thank you for your time and assistance. I look forward to your response. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

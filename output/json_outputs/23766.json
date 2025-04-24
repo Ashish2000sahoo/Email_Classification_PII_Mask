@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Zoom Conferencing\n\nHello Customer Support,\n\nI hope this message finds you well My name is Omar Hassan.. I am writing to bring to your attention certain connection issues we have encountered during webinars using Zoom version 5.11.0. The participants experiencing these issues are primarily running Windows 10. These disruptions have unfortunately affected the quality and productivity of our online meetings, especially during critical discussions.\n\nThe presence of frequent disconnects, audio cut-outs, and overall instability severely hampers smooth communications and participant engagement. Such interruptions cause considerable delays and frustrations for our team and clients alike. We rely heavily on stable video conferencing solutions for our operations, and need assurance of consistent performance.\n\nCould you please provide guidance or suggest potential remedies to improve this situation? If there are available updates or settings adjustments we should consider, your timely advice would be greatly appreciated.\n\nThank you for attending to this matter promptly. I look forward to your expert guidance on ensuring more stable and effective webinar experiences with our current setup.\n\nBest regards,\n\n<name>\n<company>  You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        111,
+        122
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1272,
+        1293
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Zoom Conferencing\n\nHello Customer Support,\n\nI hope this message finds you well My name is [full_name].. I am writing to bring to your attention certain connection issues we have encountered during webinars using Zoom version 5.11.0. The participants experiencing these issues are primarily running Windows 10. These disruptions have unfortunately affected the quality and productivity of our online meetings, especially during critical discussions.\n\nThe presence of frequent disconnects, audio cut-outs, and overall instability severely hampers smooth communications and participant engagement. Such interruptions cause considerable delays and frustrations for our team and clients alike. We rely heavily on stable video conferencing solutions for our operations, and need assurance of consistent performance.\n\nCould you please provide guidance or suggest potential remedies to improve this situation? If there are available updates or settings adjustments we should consider, your timely advice would be greatly appreciated.\n\nThank you for attending to this matter promptly. I look forward to your expert guidance on ensuring more stable and effective webinar experiences with our current setup.\n\nBest regards,\n\n<name>\n<company>  You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

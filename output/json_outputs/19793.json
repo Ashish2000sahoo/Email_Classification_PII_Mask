@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incorrect Refund Amount Issued Today\n\nDear Customer Support, I am contacting you to report a problem with my refund You can reach me at liuwei@business.cn.. The refund amount issued was incorrect. I placed an order and was due a refund, but the amount was wrong. I have double-checked my order and calculations, and the error does not seem to be on my side. Despite this, the refund was still incorrect. I believe this could be due to a mistake or a technical issue. I would really appreciate it if you could look into this and correct the refund amount at your earliest convenience My name is John Doe.. Please inform me if you require any more details to address this matter. You can reach me at this email address for any further communication. Thank you for your attention to this issue. I am looking forward to your prompt response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        603,
+        611
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        145,
+        163
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Incorrect Refund Amount Issued Today\n\nDear Customer Support, I am contacting you to report a problem with my refund You can reach me at [email].. The refund amount issued was incorrect. I placed an order and was due a refund, but the amount was wrong. I have double-checked my order and calculations, and the error does not seem to be on my side. Despite this, the refund was still incorrect. I believe this could be due to a mistake or a technical issue. I would really appreciate it if you could look into this and correct the refund amount at your earliest convenience My name is [full_name].. Please inform me if you require any more details to address this matter. You can reach me at this email address for any further communication. Thank you for your attention to this issue. I am looking forward to your prompt response. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

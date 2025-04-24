@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Analytics-Plattform\n\nDie Analytics-Plattform hatte einen pl\u00f6tzlichen Ausfall bei der Verarbeitung von Investitionsdaten You can reach me at janesmith@company.com.. M\u00f6glicherweise liegt dies an einem System\u00fcberschuss durch parallele Benutzer. Bitte versuchen Sie, die betroffenen Anwendungen neu zu starten und die Systemprotokolle zu pr\u00fcfen, um das Problem zu l\u00f6sen. Es w\u00e4re hilfreich, wenn Sie mehr Systemprotokolle bereitstellen k\u00f6nnten, nachdem Sie die Systemprotokolle gepr\u00fcft haben, insbesondere je nach spezifischen Fehlermeldungen, die Sie beobachtet haben. Bitte geben Sie au\u00dferdem genaue Informationen zur Anzahl paralleler Benutzer, zu dem Zeitpunkt des Ausfalls und zu jeglichen neueren \u00c4nderungen am System an. F\u00fcr eine weitergehende Diskussion stehen wir Ihnen gerne zur Verf\u00fcgung. Eine Telefonkonferenz w\u00e4re auch in Betracht gezogen, geben Sie bitte ein geeignetes Zeitfenster an. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        929,
+        938
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        163,
+        184
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Analytics-Plattform\n\nDie Analytics-Plattform hatte einen pl\u00f6tzlichen Ausfall bei der Verarbeitung von Investitionsdaten You can reach me at [email].. M\u00f6glicherweise liegt dies an einem System\u00fcberschuss durch parallele Benutzer. Bitte versuchen Sie, die betroffenen Anwendungen neu zu starten und die Systemprotokolle zu pr\u00fcfen, um das Problem zu l\u00f6sen. Es w\u00e4re hilfreich, wenn Sie mehr Systemprotokolle bereitstellen k\u00f6nnten, nachdem Sie die Systemprotokolle gepr\u00fcft haben, insbesondere je nach spezifischen Fehlermeldungen, die Sie beobachtet haben. Bitte geben Sie au\u00dferdem genaue Informationen zur Anzahl paralleler Benutzer, zu dem Zeitpunkt des Ausfalls und zu jeglichen neueren \u00c4nderungen am System an. F\u00fcr eine weitergehende Diskussion stehen wir Ihnen gerne zur Verf\u00fcgung. Eine Telefonkonferenz w\u00e4re auch in Betracht gezogen, geben Sie bitte ein geeignetes Zeitfenster an. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

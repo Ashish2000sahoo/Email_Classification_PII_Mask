@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Campaign Analytics\n\nHello Support Team, I am contacting you to address an unexpected anomaly in our campaign analytics. After restarting our systems and reviewing our data sources, the issue remains unresolved My name is Carlos Mendoza.. I believe inconsistent data tracking may be the root of this problem You can reach me at liuwei@business.cn.. Could you please examine this issue and offer a solution at your earliest convenience? If you require any further details from me to resolve this matter, please do not hesitate to ask. Thank you for your support and I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        262
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        351,
+        369
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Campaign Analytics\n\nHello Support Team, I am contacting you to address an unexpected anomaly in our campaign analytics. After restarting our systems and reviewing our data sources, the issue remains unresolved My name is [full_name].. I believe inconsistent data tracking may be the root of this problem You can reach me at [email].. Could you please examine this issue and offer a solution at your earliest convenience? If you require any further details from me to resolve this matter, please do not hesitate to ask. Thank you for your support and I look forward to your response.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reduce Customer Interaction Across Platforms\n\nWe have observed a decrease in customer engagement on various platforms. Even after updating content and reviewing data, the engagement levels have not improved.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        255
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Reduce Customer Interaction Across Platforms\n\nWe have observed a decrease in customer engagement on various platforms. Even after updating content and reviewing data, the engagement levels have not improved.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Application Crashes Issue\n\nFaced unexpected application crashes during project management tasks, possibly due to incompatibility with Node.js 14.17 or conflicting software.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    },
+    {
+      "position": [
+        204,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Application Crashes Issue\n\nFaced unexpected application crashes during project management tasks, possibly due to incompatibility with Node.js [phone_number] or conflicting software.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

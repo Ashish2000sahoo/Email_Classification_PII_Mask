@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Umsetzung erweiteter Sicherheitsma\u00dfnahmen f\u00fcr medizinische Daten\n\nBitte umfassende Informationen zu den spezifischen Anforderungen und dem aktuellen Stand bereitstellen. Vorbereiten Sie die Bewertung der Implementierung, um die n\u00e4chsten Schritte f\u00fcr das Konto <acc_num> zu bestimmen.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        315,
+        331
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Umsetzung erweiteter Sicherheitsma\u00dfnahmen f\u00fcr medizinische Daten\n\nBitte umfassende Informationen zu den spezifischen Anforderungen und dem aktuellen Stand bereitstellen. Vorbereiten Sie die Bewertung der Implementierung, um die n\u00e4chsten Schritte f\u00fcr das Konto <acc_num> zu bestimmen.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

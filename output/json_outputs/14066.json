@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Project Timelines Syncing to JIRA\n\nEncountered an issue where project timelines are not syncing with JIRA My name is Liu Wei.. It could be due to an incompatible PHP 8.0 version. Steps taken include reinstalling Puppet and restarting the server. Assistance is requested as I need guidance on troubleshooting and fixing this problem. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        377,
+        399
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Project Timelines Syncing to JIRA\n\nEncountered an issue where project timelines are not syncing with JIRA My name is [full_name].. It could be due to an incompatible PHP 8.0 version. Steps taken include reinstalling Puppet and restarting the server. Assistance is requested as I need guidance on troubleshooting and fixing this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

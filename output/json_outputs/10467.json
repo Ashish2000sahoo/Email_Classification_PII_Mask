@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Integration\n\nThere was a sudden failure in the integration with ClickUp and Sage Accounting, which has disrupted our project management workflows. It may have been caused by recent API changes You can reach me at sophia.rossi@service.it.. I have already cleared the caches, checked the configurations, and restarted the integration setup. I would appreciate your help in resolving this issue as soon as possible My name is Carlos Mendoza.. Please let me know a suitable time for a call to discuss the issue in detail and determine the best course of action. Available for a call at the earliest convenience. Please notify me using the contact number <tel_num> to resolve the issue regarding <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        443,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        233,
+        256
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Integration\n\nThere was a sudden failure in the integration with ClickUp and Sage Accounting, which has disrupted our project management workflows. It may have been caused by recent API changes You can reach me at [email].. I have already cleared the caches, checked the configurations, and restarted the integration setup. I would appreciate your help in resolving this issue as soon as possible My name is [full_name].. Please let me know a suitable time for a call to discuss the issue in detail and determine the best course of action. Available for a call at the earliest convenience. Please notify me using the contact number <tel_num> to resolve the issue regarding <acc_num>.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Downtime Problems\n\nwent through unforeseen downtime with various products, such as Twitch Studio Beta and MATLAB. outage possibly due to recent software updates or network troubles. so far, restarted involved applications and verified server connections, but to no avail. team is diligently working to resolve the issue and prevent future occurrences. thank you for your patience and understanding You can reach me at liuwei@business.cn.. should you have any questions or concerns, please do not hesitate to contact us. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        556,
+        570
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        443,
+        461
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Downtime Problems\n\nwent through unforeseen downtime with various products, such as Twitch Studio Beta and MATLAB. outage possibly due to recent software updates or network troubles. so far, restarted involved applications and verified server connections, but to no avail. team is diligently working to resolve the issue and prevent future occurrences. thank you for your patience and understanding You can reach me at [email].. should you have any questions or concerns, please do not hesitate to contact us. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

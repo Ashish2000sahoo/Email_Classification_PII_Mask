@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problems with Connection to Project Management Software\n\nTeam members are experiencing distant connection issues with our project management software due to conflicting network settings and high system load.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        255
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Problems with Connection to Project Management Software\n\nTeam members are experiencing distant connection issues with our project management software due to conflicting network settings and high system load.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

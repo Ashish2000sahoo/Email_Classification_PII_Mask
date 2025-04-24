@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de especificaciones e informaci\u00f3n comparativa\n\nEstimado soporte al cliente,\n\n\u00bfPodr\u00edan proporcionarme especificaciones detalladas y una comparaci\u00f3n entre el Dell XPS 13 9310 y el MacBook Air M1? Un cliente solicit\u00f3 esta informaci\u00f3n para tomar una decisi\u00f3n de compra informada.\n\nGracias por su asistencia.\n\nAtentamente,\n\n<name>. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        191
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        367,
+        383
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de especificaciones e informaci\u00f3n comparativa\n\nEstimado soporte al cliente,\n\n\u00bfPodr\u00edan proporcionarme especificaciones detalladas y una comparaci\u00f3n entre el Dell XPS [phone_number] y el MacBook Air M1? Un cliente solicit\u00f3 esta informaci\u00f3n para tomar una decisi\u00f3n de compra informada.\n\nGracias por su asistencia.\n\nAtentamente,\n\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

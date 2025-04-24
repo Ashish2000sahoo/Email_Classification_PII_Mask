@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bewerben Aktualisierung Digitale Marketing Werkzeuge\n\nIch m\u00f6chte eine Aktualisierung unserer digitalen Marketingwerkzeuge beantragen My name is Sophia Rossi.. Die aktuelle Strategie hat gew\u00fcnschte Ergebnisse erbracht, und ich glaube, es ist Zeit, Ver\u00e4nderungen vorzunehmen. Ich m\u00f6chte neue Wege erkunden, um die Sichtbarkeit und Beteiligung unserer Marke zu verbessern You can reach me at sophia.rossi@service.it.. K\u00f6nnten Sie mir bitte Empfehlungen und Vorschl\u00e4ge zur Verbesserung unserer digitalen Marketingbem\u00fchungen zukommen lassen?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        165
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        397,
+        420
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Bewerben Aktualisierung Digitale Marketing Werkzeuge\n\nIch m\u00f6chte eine Aktualisierung unserer digitalen Marketingwerkzeuge beantragen My name is [full_name].. Die aktuelle Strategie hat gew\u00fcnschte Ergebnisse erbracht, und ich glaube, es ist Zeit, Ver\u00e4nderungen vorzunehmen. Ich m\u00f6chte neue Wege erkunden, um die Sichtbarkeit und Beteiligung unserer Marke zu verbessern You can reach me at [email].. K\u00f6nnten Sie mir bitte Empfehlungen und Vorschl\u00e4ge zur Verbesserung unserer digitalen Marketingbem\u00fchungen zukommen lassen?",
+  "category_of_the_email": "Change"
+}

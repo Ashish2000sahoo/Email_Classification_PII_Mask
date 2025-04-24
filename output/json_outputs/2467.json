@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Audio Output\n\nA compatibility issue arose with the ASUS Xonar AE Soundcard on Ubuntu 20.04 LTS, impacting audio output. Recent updates might have led to driver inconsistencies.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        107,
+        112
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        221,
+        236
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Audio Output\n\nA compatibility issue arose with the ASUS Xonar AE Soundcard on Ubuntu [phone_number] LTS, impacting audio output. Recent updates might have led to driver inconsistencies.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

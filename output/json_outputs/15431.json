@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr die Speicherung medizinischer Daten\n\nIch wende mich an Sie, um Informationen \u00fcber die empfohlenen Sicherheitsprotokolle f\u00fcr die Speicherung medizinischer Daten zu erhalten You can reach me at janesmith@company.com.. Wie k\u00f6nnen wir sicherstellen, dass die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen wahrhaftig gew\u00e4hrleistet ist? Gibt es spezielle Leitlinien oder Gesetze, die wir einhalten m\u00fcssen? Ich w\u00fcrde Sie sehr bitten, mir bei dieser Frage Ratschl\u00e4ge oder Ressourcen zu geben. Falls Sie zus\u00e4tzliche Details ben\u00f6tigen, lassen Sie mich bitte wissen. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        647
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        226,
+        247
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr die Speicherung medizinischer Daten\n\nIch wende mich an Sie, um Informationen \u00fcber die empfohlenen Sicherheitsprotokolle f\u00fcr die Speicherung medizinischer Daten zu erhalten You can reach me at [email].. Wie k\u00f6nnen wir sicherstellen, dass die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen wahrhaftig gew\u00e4hrleistet ist? Gibt es spezielle Leitlinien oder Gesetze, die wir einhalten m\u00fcssen? Ich w\u00fcrde Sie sehr bitten, mir bei dieser Frage Ratschl\u00e4ge oder Ressourcen zu geben. Falls Sie zus\u00e4tzliche Details ben\u00f6tigen, lassen Sie mich bitte wissen. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Asistencia para consulta de facturaci\u00f3n\n\nHola equipo de soporte de la tienda en l\u00ednea Tech,\n\nEspero que este mensaje los encuentre bien. Recientemente not\u00e9 un cargo inesperado relacionado con una suscripci\u00f3n de Microsoft Office 365 en mi cuenta <acc_num> My name is Sophia Rossi.. No recuerdo haber autorizado esta transacci\u00f3n y solicito amablemente m\u00e1s aclaraciones sobre esta discrepancia de facturaci\u00f3n You can reach me at fatima.farsi@help.com.. \u00bfPodr\u00edan proporcionarme detalles adicionales y explorar opciones de resoluci\u00f3n posibles?\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su r\u00e1pida respuesta.\n\nAtentamente,\n\n<name>\n<email>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        287
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        434,
+        455
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        237,
+        240
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Asistencia para consulta de facturaci\u00f3n\n\nHola equipo de soporte de la tienda en l\u00ednea Tech,\n\nEspero que este mensaje los encuentre bien. Recientemente not\u00e9 un cargo inesperado relacionado con una suscripci\u00f3n de Microsoft Office [cvv_no] en mi cuenta <acc_num> My name is [full_name].. No recuerdo haber autorizado esta transacci\u00f3n y solicito amablemente m\u00e1s aclaraciones sobre esta discrepancia de facturaci\u00f3n You can reach me at [email].. \u00bfPodr\u00edan proporcionarme detalles adicionales y explorar opciones de resoluci\u00f3n posibles?\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su r\u00e1pida respuesta.\n\nAtentamente,\n\n<name>\n<email>\n<tel_num>",
+  "category_of_the_email": "Request"
+}

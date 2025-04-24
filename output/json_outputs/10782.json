@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: SAP System Problem\n\nFrequent malfunctions in the SAP ERP system are disrupting investment analysis processes.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: SAP System Problem\n\nFrequent malfunctions in the SAP ERP system are disrupting investment analysis processes.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

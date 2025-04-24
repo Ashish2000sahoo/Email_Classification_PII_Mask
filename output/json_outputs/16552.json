@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundenservice-Finanzberatungsinstrumente\n\nKontaktieren Sie uns, um Details zu Werkzeugen f\u00fcr die Datenanalyse zu erhalten, die dabei helfen k\u00f6nnen, Finanzinvestitionen zu optimieren und Portfoliomanagement zu unterst\u00fctzen. Wir w\u00fcrden gerne mehr Informationen zu den verf\u00fcgbaren Werkzeugen und deren Funktionen teilen You can reach me at liuwei@business.cn.. Bitte geben Sie an, ob Sie Informationen zu diesen Werkzeugen und deren Unterst\u00fctzung bei Investitionsentscheidungen ben\u00f6tigen. Zus\u00e4tzlich suchten Sie nach Ressourcen, um sich mit Datenanalyse vertraut zu machen My name is David Kim.. Sind Tutorien und Support-Ressourcen verf\u00fcgbar? Wir freuen uns darauf, Sie bald zu beantworten. Lassen Sie uns einen geeigneten Zeitpunkt f\u00fcr eine Telefonatsbesprechung vereinbaren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        590,
+        599
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        346,
+        364
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Kundenservice-Finanzberatungsinstrumente\n\nKontaktieren Sie uns, um Details zu Werkzeugen f\u00fcr die Datenanalyse zu erhalten, die dabei helfen k\u00f6nnen, Finanzinvestitionen zu optimieren und Portfoliomanagement zu unterst\u00fctzen. Wir w\u00fcrden gerne mehr Informationen zu den verf\u00fcgbaren Werkzeugen und deren Funktionen teilen You can reach me at [email].. Bitte geben Sie an, ob Sie Informationen zu diesen Werkzeugen und deren Unterst\u00fctzung bei Investitionsentscheidungen ben\u00f6tigen. Zus\u00e4tzlich suchten Sie nach Ressourcen, um sich mit Datenanalyse vertraut zu machen My name is [full_name].. Sind Tutorien und Support-Ressourcen verf\u00fcgbar? Wir freuen uns darauf, Sie bald zu beantworten. Lassen Sie uns einen geeigneten Zeitpunkt f\u00fcr eine Telefonatsbesprechung vereinbaren.",
+  "category_of_the_email": "Request"
+}

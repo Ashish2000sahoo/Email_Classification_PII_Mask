@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hochpriorit\u00e4tsvorfall: SQL-Abfragefehler in MySQL 8.0.30\n\nSehr geehrter Kundensupport, ein kritischer SQL-Abfragefehler verursacht Ausfallzeiten in MySQL 8.0.30 My name is Liu Wei.. Eine unverz\u00fcgliche L\u00f6sung ist erforderlich, um den Betrieb wiederherzustellen You can reach me at maria.gonzalez@shop.es.. Bitte priorisieren Sie dies und halten Sie uns umgehend auf dem Laufenden. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        293,
+        315
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        59,
+        65
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        163,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Hochpriorit\u00e4tsvorfall: SQL-Abfragefehler in MySQL [phone_number]\n\nSehr geehrter Kundensupport, ein kritischer SQL-Abfragefehler verursacht Ausfallzeiten in MySQL [phone_number] My name is [full_name].. Eine unverz\u00fcgliche L\u00f6sung ist erforderlich, um den Betrieb wiederherzustellen You can reach me at [email].. Bitte priorisieren Sie dies und halten Sie uns umgehend auf dem Laufenden. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

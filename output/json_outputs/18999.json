@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung Anfrage Aktualisierung Integrationseinstellungen\n\nSchreibe an, dass ich Ihre Anfrage zur Aktualisierung der Integrationseinstellungen best\u00e4tige, da sie betroffene Produkte und die Kompatibilit\u00e4t der SaaS-Projektmanagement-Plattform verbessern. Ich verstehe, dass der aktuelle Stand der Einstellungen Probleme bei der Datensynchronisierung und Workflows-Steuerung verursacht und freue mich, Ihre Anfrage zu unterst\u00fctzen You can reach me at janesmith@company.com.. Um die Aktualisierung vorzunehmen, ben\u00f6tige ich zus\u00e4tzliche Informationen. K\u00f6nnten Sie bitte Ihre Konto-Daten (<acc_num>) und eine detaillierte Beschreibung der Probleme bei der Datensynchronisierung und Workflows-Steuerung bereitstellen? Das erm\u00f6glicht es mir, die Angelegenheit genauer zu untersuchen und eine pr\u00e4zise L\u00f6sung zu liefern My name is Omar Hassan.. Zudem m\u00f6chte ich wissen,",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        833,
+        844
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        460,
+        481
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung Anfrage Aktualisierung Integrationseinstellungen\n\nSchreibe an, dass ich Ihre Anfrage zur Aktualisierung der Integrationseinstellungen best\u00e4tige, da sie betroffene Produkte und die Kompatibilit\u00e4t der SaaS-Projektmanagement-Plattform verbessern. Ich verstehe, dass der aktuelle Stand der Einstellungen Probleme bei der Datensynchronisierung und Workflows-Steuerung verursacht und freue mich, Ihre Anfrage zu unterst\u00fctzen You can reach me at [email].. Um die Aktualisierung vorzunehmen, ben\u00f6tige ich zus\u00e4tzliche Informationen. K\u00f6nnten Sie bitte Ihre Konto-Daten (<acc_num>) und eine detaillierte Beschreibung der Probleme bei der Datensynchronisierung und Workflows-Steuerung bereitstellen? Das erm\u00f6glicht es mir, die Angelegenheit genauer zu untersuchen und eine pr\u00e4zise L\u00f6sung zu liefern My name is [full_name].. Zudem m\u00f6chte ich wissen,",
+  "category_of_the_email": "Change"
+}

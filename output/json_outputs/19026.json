@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Campaign Issues\n\nNoted a sudden decline in engagement and conversion rates across digital campaigns. This may be due to recent changes in social media algorithms. Adjustments have been made to ad targeting and creatives, but results are still unsatisfactory My name is Fatima Al-Farsi.. Would appreciate your assistance in resolving this matter. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        303
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        393,
+        415
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Campaign Issues\n\nNoted a sudden decline in engagement and conversion rates across digital campaigns. This may be due to recent changes in social media algorithms. Adjustments have been made to ad targeting and creatives, but results are still unsatisfactory My name is [full_name]-Farsi.. Would appreciate your assistance in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

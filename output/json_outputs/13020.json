@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on System Requirements for Optimal Performance Today\n\nHello Customer Support, I am writing to ask about the system requirements for the optimal performance of your project management SaaS platform You can reach me at elena.ivanova@support.org.. Could you kindly share with me the detailed hardware and software specifications needed? Specifically, I am interested in the recommended operating system, processor speed, memory, and any other pertinent details. This information will assist me in ensuring that my system meets the necessary standards and operates the platform efficiently My name is Omar Hassan.. I appreciate your time and help with this. Thanks for your support, and I am eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        614,
+        625
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        234,
+        259
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on System Requirements for Optimal Performance Today\n\nHello Customer Support, I am writing to ask about the system requirements for the optimal performance of your project management SaaS platform You can reach me at [email].. Could you kindly share with me the detailed hardware and software specifications needed? Specifically, I am interested in the recommended operating system, processor speed, memory, and any other pertinent details. This information will assist me in ensuring that my system meets the necessary standards and operates the platform efficiently My name is [full_name].. I appreciate your time and help with this. Thanks for your support, and I am eagerly awaiting your response.",
+  "category_of_the_email": "Request"
+}

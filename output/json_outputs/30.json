@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Invoice\n\nI am encountering a problem with my invoice You can reach me at sophia.rossi@service.it.. The amount shown online is not accurate. I have attempted to resolve this by refreshing the page and signing out then back in, but the issue still exists. I believe it might be a technical error or a data synchronization issue. Can you please investigate this for me and give me a corrected invoice total? My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        438,
+        447
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        95,
+        118
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Invoice\n\nI am encountering a problem with my invoice You can reach me at [email].. The amount shown online is not accurate. I have attempted to resolve this by refreshing the page and signing out then back in, but the issue still exists. I believe it might be a technical error or a data synchronization issue. Can you please investigate this for me and give me a corrected invoice total? My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

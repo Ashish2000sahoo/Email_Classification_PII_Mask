@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding SaaS Subscription\n\nI have run into a billing concern with my SaaS subscription, and it seems recent system updates or configuration changes might have impacted my account My name is Fatima Al-Farsi.. I have already checked my payment details and cleared my browser cache, but the issue still persists You can reach me at johndoe@email.com.. I would greatly appreciate if you could take a look at this matter and provide a solution as soon as possible. Please let me know if there is any additional information needed to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        350,
+        367
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding SaaS Subscription\n\nI have run into a billing concern with my SaaS subscription, and it seems recent system updates or configuration changes might have impacted my account My name is [full_name]-Farsi.. I have already checked my payment details and cleared my browser cache, but the issue still persists You can reach me at [email].. I would greatly appreciate if you could take a look at this matter and provide a solution as soon as possible. Please let me know if there is any additional information needed to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reduce Brand Engagement Visibility on Digital Platforms\n\nFacing a decline in brand engagement and visibility within digital marketing campaigns My name is Elena Ivanova.. This might be due to recent algorithm changes making current strategies less effective. Despite attempts to adjust ad spend and optimize content, there has been some improvement, but not enough. I would appreciate your help in identifying the root cause of the issue and providing recommendations for improvement. Could you assist in analyzing our current strategies and suggesting changes to enhance our brand's online presence? You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        628,
+        645
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Reduce Brand Engagement Visibility on Digital Platforms\n\nFacing a decline in brand engagement and visibility within digital marketing campaigns My name is [full_name].. This might be due to recent algorithm changes making current strategies less effective. Despite attempts to adjust ad spend and optimize content, there has been some improvement, but not enough. I would appreciate your help in identifying the root cause of the issue and providing recommendations for improvement. Could you assist in analyzing our current strategies and suggesting changes to enhance our brand's online presence? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

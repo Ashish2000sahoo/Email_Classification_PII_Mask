@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Finanzinstitute\n\nWelche Analysetools verbessern die Anlageportfolios bei Finanzinstitute?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        139,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Finanzinstitute\n\nWelche Analysetools verbessern die Anlageportfolios bei Finanzinstitute?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

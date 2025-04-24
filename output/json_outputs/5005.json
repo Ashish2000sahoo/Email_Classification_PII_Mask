@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am contacting you to seek advice on digital strategies that can help drive brand growth for our marketing agency. We aim to boost our online presence and attract more customers. Could you provide us with some insights on the most effective digital marketing approaches for our sector? We would greatly appreciate any recommendations or guidance you can provide You can reach me at janesmith@company.com.. Thank you for your time and help My name is Elena Ivanova.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        485,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        417,
+        438
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am contacting you to seek advice on digital strategies that can help drive brand growth for our marketing agency. We aim to boost our online presence and attract more customers. Could you provide us with some insights on the most effective digital marketing approaches for our sector? We would greatly appreciate any recommendations or guidance you can provide You can reach me at [email].. Thank you for your time and help My name is [full_name].. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

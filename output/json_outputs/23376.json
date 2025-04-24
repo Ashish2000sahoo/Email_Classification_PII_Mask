@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Server Admin Module Assistance\n\nHello, I am reaching out to seek your assistance with the implementation of the server administration module, intended for enhanced performance in our IT ticket system operations. We subscribe to your IT Consulting Service and require guidance to ensure a smooth integration process. If there are specific procedures or tools that we should utilize, please advise accordingly. Our goal is to improve operational efficiency and response times significantly You can reach me at carlosm@gmail.com.. For any further details or discussion, feel free to contact me directly. Thank you in advance for your prompt support My name is Elena Ivanova.. Sincerely, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        666,
+        679
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        517,
+        534
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Server Admin Module Assistance\n\nHello, I am reaching out to seek your assistance with the implementation of the server administration module, intended for enhanced performance in our IT ticket system operations. We subscribe to your IT Consulting Service and require guidance to ensure a smooth integration process. If there are specific procedures or tools that we should utilize, please advise accordingly. Our goal is to improve operational efficiency and response times significantly You can reach me at [email].. For any further details or discussion, feel free to contact me directly. Thank you in advance for your prompt support My name is [full_name].. Sincerely, <name>.",
+  "category_of_the_email": "Request"
+}

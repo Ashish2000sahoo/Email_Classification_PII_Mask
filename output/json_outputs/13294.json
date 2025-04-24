@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Abfrage zu Integrationsoptionen f\u00fcr Projektmanagement\n\nSehr geehrte Kundenservice, ich schreibe an diesem Entwicklungsanlaufpunkt, um zu erfahren, welche Integrationsoptionen f\u00fcr den Bereich Projektmanagement verf\u00fcgbar sind. Ich bin daran interessiert, meine Arbeitsablaufoptimierung und die Zusammenarbeit mit meinem Team zu verbessern. K\u00f6nnten Sie mir Informationen zu den verf\u00fcgbaren Integrationsoptionen geben, wie z.B. APIs, Webhooks oder vorgefertigte Connectors? Ich w\u00fcrde auch gerne Zugriff auf Kriterien und Tutorials haben, die Sie zur Verf\u00fcgung stellen, um mich besser einzurichten. Zudem m\u00f6chte ich wissen, ob es bestimmte Anforderungen oder Einschr\u00e4nkungen gibt, die ich beachten muss, wenn ich Ihre Werkzeuge mit meinem Projektmanagement-System integriere My name is Maria Gonzalez.. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung You can reach me at elena.ivanova@support.org.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        790,
+        804
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        883,
+        908
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Abfrage zu Integrationsoptionen f\u00fcr Projektmanagement\n\nSehr geehrte Kundenservice, ich schreibe an diesem Entwicklungsanlaufpunkt, um zu erfahren, welche Integrationsoptionen f\u00fcr den Bereich Projektmanagement verf\u00fcgbar sind. Ich bin daran interessiert, meine Arbeitsablaufoptimierung und die Zusammenarbeit mit meinem Team zu verbessern. K\u00f6nnten Sie mir Informationen zu den verf\u00fcgbaren Integrationsoptionen geben, wie z.B. APIs, Webhooks oder vorgefertigte Connectors? Ich w\u00fcrde auch gerne Zugriff auf Kriterien und Tutorials haben, die Sie zur Verf\u00fcgung stellen, um mich besser einzurichten. Zudem m\u00f6chte ich wissen, ob es bestimmte Anforderungen oder Einschr\u00e4nkungen gibt, die ich beachten muss, wenn ich Ihre Werkzeuge mit meinem Projektmanagement-System integriere My name is [full_name].. Ich danke Ihnen f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

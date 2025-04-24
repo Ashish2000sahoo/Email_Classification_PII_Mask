@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report of Media Data Interruption Error During System Update\n\nI am writing to report an error with media data interruption that occurred during a system update You can reach me at carlosm@gmail.com.. This error might be caused by an insufficient firewall configuration. I have tried restarting the system and updating the firewall rules, but the error persists. I would appreciate it if you could urgently investigate this matter and provide a solution to prevent further media data interruptions. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        518,
+        526
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        189,
+        206
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Report of Media Data Interruption Error During System Update\n\nI am writing to report an error with media data interruption that occurred during a system update You can reach me at [email].. This error might be caused by an insufficient firewall configuration. I have tried restarting the system and updating the firewall rules, but the error persists. I would appreciate it if you could urgently investigate this matter and provide a solution to prevent further media data interruptions. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

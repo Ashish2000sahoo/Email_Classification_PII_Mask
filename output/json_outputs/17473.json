@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Strategies with Apache Hadoop and Machine Learning\n\nDear Customer Support, I am inquiring about optimizing investment strategies using Apache Hadoop and Scikit-learn. Could you provide insights and tools that can help improve investment decisions, especially in the areas of machine learning algorithms, portfolio management, and risk assessment? I am particularly interested in learning about specific techniques and models that can be used to analyze large datasets and make predictions about market trends My name is Jane Smith.. I would greatly appreciate any guidance or resources you can offer on this topic. Thank you for your assistance. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        550,
+        560
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        697,
+        714
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Strategies with Apache Hadoop and Machine Learning\n\nDear Customer Support, I am inquiring about optimizing investment strategies using Apache Hadoop and Scikit-learn. Could you provide insights and tools that can help improve investment decisions, especially in the areas of machine learning algorithms, portfolio management, and risk assessment? I am particularly interested in learning about specific techniques and models that can be used to analyze large datasets and make predictions about market trends My name is [full_name].. I would greatly appreciate any guidance or resources you can offer on this topic. Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: IT-System Problem\n\nEs wurde ein unbefugter Zugangsantrag zum IT-System des Krankenhauses festgestellt. M\u00f6gliche Gr\u00fcnde k\u00f6nnten Phishing und schwache Passw\u00f6rter sein. Sicherheitsma\u00dfnahmen wurden umgesetzt, um Passw\u00f6rter zu aktualisieren und zu \u00fcberwachen, aber eine weitere Pr\u00fcfung ist erforderlich You can reach me at elena.ivanova@support.org.. Hilfe beim Untersuchen und Aufl\u00f6sen des Problems ist notwendig. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        430,
+        442
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        327,
+        352
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: IT-System Problem\n\nEs wurde ein unbefugter Zugangsantrag zum IT-System des Krankenhauses festgestellt. M\u00f6gliche Gr\u00fcnde k\u00f6nnten Phishing und schwache Passw\u00f6rter sein. Sicherheitsma\u00dfnahmen wurden umgesetzt, um Passw\u00f6rter zu aktualisieren und zu \u00fcberwachen, aber eine weitere Pr\u00fcfung ist erforderlich You can reach me at [email].. Hilfe beim Untersuchen und Aufl\u00f6sen des Problems ist notwendig. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

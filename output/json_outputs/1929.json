@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics for Investment Strategies\n\nIs it possible to offer data analytics solutions that optimize investments? This would be very helpful for making informed decisions You can reach me at janesmith@company.com.. I appreciate your assistance and look forward to hearing back soon. Thank you. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        331
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        204,
+        225
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics for Investment Strategies\n\nIs it possible to offer data analytics solutions that optimize investments? This would be very helpful for making informed decisions You can reach me at [email].. I appreciate your assistance and look forward to hearing back soon. Thank you. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

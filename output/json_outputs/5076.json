@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with Latest Billing Statements\n\nThere are ongoing inconsistencies in the billing statements.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        148
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Issues with Latest Billing Statements\n\nThere are ongoing inconsistencies in the billing statements.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

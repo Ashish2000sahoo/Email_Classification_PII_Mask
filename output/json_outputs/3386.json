@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, exploring our digital strategy services to aid in brand growth My name is Carlos Mendoza.. Would appreciate detailed information on the services you offer and how they can assist our business, especially in areas like social media marketing, content creation, and search engine optimization. Please include case studies and testimonials from previous clients. Looking forward to your response and excited to learn more about how your services can help our business. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        103,
+        117
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        512,
+        529
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, exploring our digital strategy services to aid in brand growth My name is [full_name].. Would appreciate detailed information on the services you offer and how they can assist our business, especially in areas like social media marketing, content creation, and search engine optimization. Please include case studies and testimonials from previous clients. Looking forward to your response and excited to learn more about how your services can help our business. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

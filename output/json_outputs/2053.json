@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Incident in Healthcare Provider System\n\nA data breach has been detected, which might expose patient data You can reach me at elena.ivanova@support.org.. The incident could be due to outdated security protocols and software vulnerabilities. Initial steps to address the issue, such as conducting security audits and updating software, have not resolved the problem. Immediate action is required to investigate and protect sensitive information to prevent further breaches. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        501,
+        515
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        143,
+        168
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Security Incident in Healthcare Provider System\n\nA data breach has been detected, which might expose patient data You can reach me at [email].. The incident could be due to outdated security protocols and software vulnerabilities. Initial steps to address the issue, such as conducting security audits and updating software, have not resolved the problem. Immediate action is required to investigate and protect sensitive information to prevent further breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

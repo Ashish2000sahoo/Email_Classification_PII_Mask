@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Discrepancies in Billing Protocols for Patient Services\n\nRecent attempts to integrate the billing system have resulted in discrepancies in the billing protocols. The errors in the integration with Shopify and Zoho CRM are suspected to be due to outdated connections My name is Carlos Mendoza.. The system logs have been checked, API connections verified, and the billing process flow reviewed, leading to a solution being identified. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        300
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        460,
+        483
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Discrepancies in Billing Protocols for Patient Services\n\nRecent attempts to integrate the billing system have resulted in discrepancies in the billing protocols. The errors in the integration with Shopify and Zoho CRM are suspected to be due to outdated connections My name is [full_name].. The system logs have been checked, API connections verified, and the billing process flow reviewed, leading to a solution being identified. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

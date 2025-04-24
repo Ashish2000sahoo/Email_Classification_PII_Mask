@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit nicht synchronisierten Projektterminpl\u00e4nen\n\nSehr geehrte Kundensupport, ich melde mich, um ein Problem mit den Projektterminkalendern zu melden, die korrekt \u00fcber mehrere Systeme nicht synchronisiert werden. Dies f\u00fchrt zu un\u00fcbersichtlichem und verz\u00f6gertem Arbeitsablauf. Ich vermute, dass dies darauf zur\u00fcckzuf\u00fchren ist, dass die Integrationsfunktionen mit den drittanbieterbasierten Werkzeugen, die wir verwenden, fehlschlagen My name is John Doe.. Obwohl ich versucht habe, diese Dienste neu zu starten und die API-Verbindungen zu \u00fcberpr\u00fcfen, scheint das Problem weiterhin bestehen zu bleiben You can reach me at omar.hassan@secure.net.. Ich w\u00fcrde gern, dass Sie dieses Problem untersuchen und so bald wie m\u00f6glich eine L\u00f6sung anbieten. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen. Ich stehe Ihnen zur Verf\u00fcgung, um weitere Details zu liefern oder auf Ihre Fragen einzugehen. Ich freue mich auf Ihre R\u00fcckmeldung. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        460,
+        468
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        639,
+        661
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit nicht synchronisierten Projektterminpl\u00e4nen\n\nSehr geehrte Kundensupport, ich melde mich, um ein Problem mit den Projektterminkalendern zu melden, die korrekt \u00fcber mehrere Systeme nicht synchronisiert werden. Dies f\u00fchrt zu un\u00fcbersichtlichem und verz\u00f6gertem Arbeitsablauf. Ich vermute, dass dies darauf zur\u00fcckzuf\u00fchren ist, dass die Integrationsfunktionen mit den drittanbieterbasierten Werkzeugen, die wir verwenden, fehlschlagen My name is [full_name].. Obwohl ich versucht habe, diese Dienste neu zu starten und die API-Verbindungen zu \u00fcberpr\u00fcfen, scheint das Problem weiterhin bestehen zu bleiben You can reach me at [email].. Ich w\u00fcrde gern, dass Sie dieses Problem untersuchen und so bald wie m\u00f6glich eine L\u00f6sung anbieten. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen. Ich stehe Ihnen zur Verf\u00fcgung, um weitere Details zu liefern oder auf Ihre Fragen einzugehen. Ich freue mich auf Ihre R\u00fcckmeldung. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

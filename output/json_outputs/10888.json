@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Portfolio Management via Python\n\nHello Customer Support, I am writing to seek information on data analytics tools that can optimize investment portfolios using Python 3.9 with GitHub integration. I am keen to explore the available tools and learn about their features. Could you kindly offer some recommendations and instructions on how to begin? It would be greatly appreciated if you could share best practices for utilizing these tools, along with any potential constraints or considerations. Furthermore, I am interested in knowing if there are any tutorials or learning resources available for this area. I look forward to your response. Thank you for your support My name is Jane Smith.. Best regards, [Your Name] You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        711,
+        721
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        771,
+        788
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Portfolio Management via Python\n\nHello Customer Support, I am writing to seek information on data analytics tools that can optimize investment portfolios using Python 3.9 with GitHub integration. I am keen to explore the available tools and learn about their features. Could you kindly offer some recommendations and instructions on how to begin? It would be greatly appreciated if you could share best practices for utilizing these tools, along with any potential constraints or considerations. Furthermore, I am interested in knowing if there are any tutorials or learning resources available for this area. I look forward to your response. Thank you for your support My name is [full_name].. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

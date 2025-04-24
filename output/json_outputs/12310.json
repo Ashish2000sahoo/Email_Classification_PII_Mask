@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nTo the customer support team, I am contacting you to report a problem My name is Carlos Mendoza.. The situation is as follows: Investment predictions have not performed as expected You can reach me at fatima.farsi@help.com.. The reason for this is a lack of adequate data analytics training. I have already attempted to review the algorithms and rerun the models. I would greatly appreciate any assistance you could provide in resolving this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        92,
+        106
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        209,
+        230
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nTo the customer support team, I am contacting you to report a problem My name is [full_name].. The situation is as follows: Investment predictions have not performed as expected You can reach me at [email].. The reason for this is a lack of adequate data analytics training. I have already attempted to review the algorithms and rerun the models. I would greatly appreciate any assistance you could provide in resolving this issue.",
+  "category_of_the_email": "Incident"
+}

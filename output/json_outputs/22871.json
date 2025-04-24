@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt bei Problemen mit dem AWS Management Service\n\nSehr geehrter Kundenservice,\n\nich habe derzeit Probleme mit der Bereitstellung und der Optimierung der Infrastruktur mit dem AWS Management Service, was den reibungslosen Betrieb unserer Projekte beeintr\u00e4chtigt hat. Unser Team ist auf unerwartete Herausforderungen gesto\u00dfen, die unseren Arbeitsablauf gest\u00f6rt haben, und wir ben\u00f6tigen Ihre Unterst\u00fctzung, um diese Probleme zeitnah zu l\u00f6sen.\n\nWir glauben, dass es in unserer AWS-Einrichtung eine Fehlkonfiguration oder einen Bedarf an besserer Ressourcenverteilung geben k\u00f6nnte You can reach me at omar.hassan@secure.net.. Wir bitten um Anleitung oder Ressourcen von Ihrem Team, um die urs\u00e4chlichen Probleme zu identifizieren und anzugehen.\n\nBitte lassen Sie uns einen geeigneten Zeitpunkt f\u00fcr eine Beratung wissen oder verweisen Sie uns auf vorhandene Unterst\u00fctzungsmaterialien My name is Jane Smith.. Ich freue mich auf Ihre schnelle Antwort.\n\nVielen Dank,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        908,
+        918
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        616,
+        638
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt bei Problemen mit dem AWS Management Service\n\nSehr geehrter Kundenservice,\n\nich habe derzeit Probleme mit der Bereitstellung und der Optimierung der Infrastruktur mit dem AWS Management Service, was den reibungslosen Betrieb unserer Projekte beeintr\u00e4chtigt hat. Unser Team ist auf unerwartete Herausforderungen gesto\u00dfen, die unseren Arbeitsablauf gest\u00f6rt haben, und wir ben\u00f6tigen Ihre Unterst\u00fctzung, um diese Probleme zeitnah zu l\u00f6sen.\n\nWir glauben, dass es in unserer AWS-Einrichtung eine Fehlkonfiguration oder einen Bedarf an besserer Ressourcenverteilung geben k\u00f6nnte You can reach me at [email].. Wir bitten um Anleitung oder Ressourcen von Ihrem Team, um die urs\u00e4chlichen Probleme zu identifizieren und anzugehen.\n\nBitte lassen Sie uns einen geeigneten Zeitpunkt f\u00fcr eine Beratung wissen oder verweisen Sie uns auf vorhandene Unterst\u00fctzungsmaterialien My name is [full_name].. Ich freue mich auf Ihre schnelle Antwort.\n\nVielen Dank,\n<name>",
+  "category_of_the_email": "Incident"
+}

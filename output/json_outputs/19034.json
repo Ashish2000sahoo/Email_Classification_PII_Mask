@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Elasticsearch-Cluster Absturz\n\nDer Elasticsearch-Cluster hat ein neues Problem aufgeworfen, und dies hat die Datenanalyse beeintr\u00e4chtigt, da es m\u00f6glicherweise an Ressourcen oder einem Softwarefehler liegen kann.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        260
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Elasticsearch-Cluster Absturz\n\nDer Elasticsearch-Cluster hat ein neues Problem aufgeworfen, und dies hat die Datenanalyse beeintr\u00e4chtigt, da es m\u00f6glicherweise an Ressourcen oder einem Softwarefehler liegen kann.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

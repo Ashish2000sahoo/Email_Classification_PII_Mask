@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Data Protection Support\n\nFollowing a data protection incident, the IT systems of the hospital have been affected, and it seems to be due to unresolved software availability gaps. Despite updating security measures, the issues persist My name is Liu Wei.. Please assist in resolving this matter. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        266,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        340,
+        357
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Data Protection Support\n\nFollowing a data protection incident, the IT systems of the hospital have been affected, and it seems to be due to unresolved software availability gaps. Despite updating security measures, the issues persist My name is [full_name].. Please assist in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

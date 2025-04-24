@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Marken-Campagnen\n\nEs wurde eine Senkung der Beteiligungsmetriken festgestellt You can reach me at omar.hassan@secure.net.. Neueste \u00c4nderungen an den Algorithmen k\u00f6nnten die Ursache sein. Die Inhaltsstrategie wurde angepasst und die Werbeanzeigen-Ausgabe erh\u00f6ht, aber die Ergebnisse blieben unzufriedenstellend. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        344,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        120,
+        142
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Marken-Campagnen\n\nEs wurde eine Senkung der Beteiligungsmetriken festgestellt You can reach me at [email].. Neueste \u00c4nderungen an den Algorithmen k\u00f6nnten die Ursache sein. Die Inhaltsstrategie wurde angepasst und die Werbeanzeigen-Ausgabe erh\u00f6ht, aber die Ergebnisse blieben unzufriedenstellend. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Versorgung medizinischer Daten in Krankenhaus-IT-Umgebungen\n\nBieten detaillierte L\u00f6sungen an. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        124,
+        140
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Versorgung medizinischer Daten in Krankenhaus-IT-Umgebungen\n\nBieten detaillierte L\u00f6sungen an. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

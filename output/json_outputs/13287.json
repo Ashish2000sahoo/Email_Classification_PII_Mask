@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Support for Financial Analytics Tools with Excel 2021\n\nDear Customer Service, I am writing to inquire about the most suitable analytical tools that integrate well with Excel 2021 for performing investment data analysis My name is Sophia Rossi.. As a financial analyst, I heavily rely on Excel for data analysis and visualization. However, I am seeking ways to expand my toolset with advanced analytical functions. I would appreciate recommendations that integrate well with Excel 2021, such as add-ins or plugins, that can enhance my data analysis workflow. Specific features I am looking for include data visualization, predictive modeling, and machine learning You can reach me at elena.ivanova@support.org.. I would also be grateful for information on their application and any potential limitations or drawbacks. Thank you for your time and support. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        251
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        691,
+        716
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        58,
+        62
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        183,
+        187
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        488,
+        492
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Support for Financial Analytics Tools with Excel [phone_number]\n\nDear Customer Service, I am writing to inquire about the most suitable analytical tools that integrate well with Excel [phone_number] for performing investment data analysis My name is [full_name].. As a financial analyst, I heavily rely on Excel for data analysis and visualization. However, I am seeking ways to expand my toolset with advanced analytical functions. I would appreciate recommendations that integrate well with Excel [phone_number], such as add-ins or plugins, that can enhance my data analysis workflow. Specific features I am looking for include data visualization, predictive modeling, and machine learning You can reach me at [email].. I would also be grateful for information on their application and any potential limitations or drawbacks. Thank you for your time and support. I look forward to your response.",
+  "category_of_the_email": "Request"
+}

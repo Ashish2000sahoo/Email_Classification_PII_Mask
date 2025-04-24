@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancements to Branding Strategies for Product Improvement\n\nRequest for adjustment in branding strategies that impact our products. The goal is to enhance our digital presence and drive customer engagement. We believe this can be achieved through targeted marketing campaigns and social media optimization My name is Elena Ivanova.. We would appreciate it if you could review the matter and provide a plan of action, which would help us better connect with our customers and increase brand awareness. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        327,
+        340
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        529,
+        547
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Enhancements to Branding Strategies for Product Improvement\n\nRequest for adjustment in branding strategies that impact our products. The goal is to enhance our digital presence and drive customer engagement. We believe this can be achieved through targeted marketing campaigns and social media optimization My name is [full_name].. We would appreciate it if you could review the matter and provide a plan of action, which would help us better connect with our customers and increase brand awareness. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

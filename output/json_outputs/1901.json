@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Alert\n\nCustomer Support, an unauthorized access attempt has been detected on the hospital's systems, possibly due to outdated security protocols. A system scan has been initiated and firewall settings have been updated to mitigate risks. The system scan is currently in progress, and we will notify you of the findings. In the meantime, please be cautious with sensitive information and report any suspicious activity immediately My name is David Kim.. We apologize for any inconvenience this may have caused and appreciate your cooperation in this matter. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        457,
+        466
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        595,
+        620
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: System Alert\n\nCustomer Support, an unauthorized access attempt has been detected on the hospital's systems, possibly due to outdated security protocols. A system scan has been initiated and firewall settings have been updated to mitigate risks. The system scan is currently in progress, and we will notify you of the findings. In the meantime, please be cautious with sensitive information and report any suspicious activity immediately My name is [full_name].. We apologize for any inconvenience this may have caused and appreciate your cooperation in this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

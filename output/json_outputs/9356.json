@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, <br>We appreciate your interest in promoting Snagit PowerPoint 2021. To develop effective digital strategies, we recommend creating engaging content such as tutorials and webinars. Utilize social media platforms to share customer testimonials and product updates You can reach me at carlosm@gmail.com.. Email marketing campaigns can be used to target potential customers. For successful case studies and examples of companies that have effectively promoted similar products, we would be happy to discuss further. We are available for a call. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        582,
+        595
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        312,
+        329
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        92,
+        96
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, <br>We appreciate your interest in promoting Snagit PowerPoint [phone_number]. To develop effective digital strategies, we recommend creating engaging content such as tutorials and webinars. Utilize social media platforms to share customer testimonials and product updates You can reach me at [email].. Email marketing campaigns can be used to target potential customers. For successful case studies and examples of companies that have effectively promoted similar products, we would be happy to discuss further. We are available for a call. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

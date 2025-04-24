@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nich m\u00f6chte mich um Verbesserungen der Datenaufarbeitungswerkzeuge bem\u00fchen You can reach me at elena.ivanova@support.org.. Verbesserte Investitionsoptimierung und Entscheidungsprozesseffizienz sind entscheidend My name is David Kim.. Verbesserungen helfen, bessere Entscheidungen zu treffen. ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        241
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        105,
+        130
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nich m\u00f6chte mich um Verbesserungen der Datenaufarbeitungswerkzeuge bem\u00fchen You can reach me at [email].. Verbesserte Investitionsoptimierung und Entscheidungsprozesseffizienz sind entscheidend My name is [full_name].. Verbesserungen helfen, bessere Entscheidungen zu treffen. ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Change"
+}

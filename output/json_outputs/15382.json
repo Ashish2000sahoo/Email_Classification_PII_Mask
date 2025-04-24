@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error in Data Encryption Process\n\nHello Support Team, I am contacting you to report a significant problem with our data encryption service. The encryption process has failed, leading to the potential disclosure of confidential patient information. This may be due to outdated software or incomplete updates. We have tried to fix the problem by rebooting the servers, reviewing the firewall settings, and updating the Maus software My name is Elena Ivanova.. Despite these efforts, the issue remains unresolved You can reach me at fatima.farsi@help.com.. We urgently require your help to address this and guarantee the safety of our patient data. Could you please suggest the appropriate measures we should take? We greatly appreciate your swift response and are hopeful for your reply. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        451,
+        464
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        537,
+        558
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Error in Data Encryption Process\n\nHello Support Team, I am contacting you to report a significant problem with our data encryption service. The encryption process has failed, leading to the potential disclosure of confidential patient information. This may be due to outdated software or incomplete updates. We have tried to fix the problem by rebooting the servers, reviewing the firewall settings, and updating the Maus software My name is [full_name].. Despite these efforts, the issue remains unresolved You can reach me at [email].. We urgently require your help to address this and guarantee the safety of our patient data. Could you please suggest the appropriate measures we should take? We greatly appreciate your swift response and are hopeful for your reply. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

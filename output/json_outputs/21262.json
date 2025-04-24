@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problemas de conectividad con la impresora HP DeskJet 3755\n\nHola Servicio al Cliente,\n\nEspero que este mensaje te encuentre bien. Me estoy poniendo en contacto respecto a algunos problemas de conectividad que he estado experimentando con mi impresora HP DeskJet 3755 al intentar conectarla inal\u00e1mbricamente a mi laptop. Para contextualizar, recientemente compr\u00e9 esta impresora en su tienda en l\u00ednea - n\u00famero de pedido <order_num> You can reach me at maria.gonzalez@shop.es.. Inicialmente, el proceso de configuraci\u00f3n parec\u00eda sencillo, pero desafortunadamente, mi laptop no ha reconocido consistentemente la impresora durante los intentos de establecer una conexi\u00f3n inal\u00e1mbrica.\n\nHe intentado varios m\u00e9todos de soluci\u00f3n de problemas descritos en el manual de la impresora y en su Centro de Ayuda en l\u00ednea, incluyendo reiniciar ambos dispositivos y asegurarme de que est\u00e9n conectados a la misma red Wi-Fi. A pesar de estos esfuerzos, el problema persiste. La luz inal\u00e1mbrica de la impresora sigue parpadeando, indicando dificultades de conexi\u00f3n.\n\nEn este punto, no estoy seguro si se trata de un problema de hardware con la impresora o un conflicto de software con el sistema operativo de mi laptop. Por lo tanto, estoy buscando su orientaci\u00f3n sobre los pr\u00f3ximos pasos a seguir. \u00bfPodr\u00eda su equipo proporcionar una soluci\u00f3n a este problema, o deber\u00eda considerar un reemplazo?\n\nGracias por su asistencia, y espero su pronta respuesta.\n\nSaludos cordiales,\n\n<name>\n<email> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1487,
+        1501
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        459,
+        481
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        63,
+        67
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        271,
+        275
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Problemas de conectividad con la impresora HP DeskJet [phone_number]\n\nHola Servicio al Cliente,\n\nEspero que este mensaje te encuentre bien. Me estoy poniendo en contacto respecto a algunos problemas de conectividad que he estado experimentando con mi impresora HP DeskJet [phone_number] al intentar conectarla inal\u00e1mbricamente a mi laptop. Para contextualizar, recientemente compr\u00e9 esta impresora en su tienda en l\u00ednea - n\u00famero de pedido <order_num> You can reach me at [email].. Inicialmente, el proceso de configuraci\u00f3n parec\u00eda sencillo, pero desafortunadamente, mi laptop no ha reconocido consistentemente la impresora durante los intentos de establecer una conexi\u00f3n inal\u00e1mbrica.\n\nHe intentado varios m\u00e9todos de soluci\u00f3n de problemas descritos en el manual de la impresora y en su Centro de Ayuda en l\u00ednea, incluyendo reiniciar ambos dispositivos y asegurarme de que est\u00e9n conectados a la misma red Wi-Fi. A pesar de estos esfuerzos, el problema persiste. La luz inal\u00e1mbrica de la impresora sigue parpadeando, indicando dificultades de conexi\u00f3n.\n\nEn este punto, no estoy seguro si se trata de un problema de hardware con la impresora o un conflicto de software con el sistema operativo de mi laptop. Por lo tanto, estoy buscando su orientaci\u00f3n sobre los pr\u00f3ximos pasos a seguir. \u00bfPodr\u00eda su equipo proporcionar una soluci\u00f3n a este problema, o deber\u00eda considerar un reemplazo?\n\nGracias por su asistencia, y espero su pronta respuesta.\n\nSaludos cordiales,\n\n<name>\n<email> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Update\n\nNoted the decline in engagement metrics across various platforms My name is Jane Smith.. Recognizing the significance of a robust online presence, we will look into this issue. To better assist you, could you provide specific details on the metrics affected and the timeframe in which the drop was noticed? This will help us in providing an accurate assessment and potential solutions. Additionally, any recent changes in platforms or content strategy would be beneficial. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        101,
+        111
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        519,
+        540
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Update\n\nNoted the decline in engagement metrics across various platforms My name is [full_name].. Recognizing the significance of a robust online presence, we will look into this issue. To better assist you, could you provide specific details on the metrics affected and the timeframe in which the drop was noticed? This will help us in providing an accurate assessment and potential solutions. Additionally, any recent changes in platforms or content strategy would be beneficial. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

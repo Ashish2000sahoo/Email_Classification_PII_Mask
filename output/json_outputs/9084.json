@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit langsamen Ladezeiten von Projekt-Dashboards\n\nEs wurde festgestellt, dass die Nutzung der Dashboards von Projektinformationen langsam ist, was die Produktivit\u00e4t beeintr\u00e4chtigt. Es k\u00f6nnte sein, dass eine erh\u00f6hte Serveraktivit\u00e4t in den Gipphours die Ursache ist.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        319
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit langsamen Ladezeiten von Projekt-Dashboards\n\nEs wurde festgestellt, dass die Nutzung der Dashboards von Projektinformationen langsam ist, was die Produktivit\u00e4t beeintr\u00e4chtigt. Es k\u00f6nnte sein, dass eine erh\u00f6hte Serveraktivit\u00e4t in den Gipphours die Ursache ist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

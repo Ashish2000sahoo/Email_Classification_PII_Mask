@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: R\u00fccksendungsanfrage f\u00fcr Canon PIXMA MG3620 aufgrund von Problemen\n\nSehr geehrter Kundenservice,\n\nich schreibe, um eine R\u00fccksendung meines k\u00fcrzlichen Kaufs eines Canon PIXMA MG3620, Kontonummer <acc_num>, zu beantragen You can reach me at fatima.farsi@help.com.. Der Drucker hat h\u00e4ufig Papierstaus beim drahtlosen Drucken, was \u00fcber dem akzeptablen Limit f\u00fcr die regul\u00e4re Nutzung liegt. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie mir den R\u00fcckgabeprozess und die notwendigen Schritte erl\u00e4utern k\u00f6nnten, um eine reibungslose Transaktion zu gew\u00e4hrleisten.\n\nBitte lassen Sie mich wissen, welche Optionen f\u00fcr einen Ersatz oder eine R\u00fcckerstattung Ihnen am fr\u00fchesten zur Verf\u00fcgung stehen My name is Omar Hassan.. Ich freue mich auf Ihre zeitnahe Unterst\u00fctzung bei der L\u00f6sung dieses Problems.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        689,
+        700
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        247,
+        268
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        47,
+        51
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        184,
+        188
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: R\u00fccksendungsanfrage f\u00fcr Canon PIXMA MG[phone_number] aufgrund von Problemen\n\nSehr geehrter Kundenservice,\n\nich schreibe, um eine R\u00fccksendung meines k\u00fcrzlichen Kaufs eines Canon PIXMA MG[phone_number], Kontonummer <acc_num>, zu beantragen You can reach me at [email].. Der Drucker hat h\u00e4ufig Papierstaus beim drahtlosen Drucken, was \u00fcber dem akzeptablen Limit f\u00fcr die regul\u00e4re Nutzung liegt. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie mir den R\u00fcckgabeprozess und die notwendigen Schritte erl\u00e4utern k\u00f6nnten, um eine reibungslose Transaktion zu gew\u00e4hrleisten.\n\nBitte lassen Sie mich wissen, welche Optionen f\u00fcr einen Ersatz oder eine R\u00fcckerstattung Ihnen am fr\u00fchesten zur Verf\u00fcgung stehen My name is [full_name].. Ich freue mich auf Ihre zeitnahe Unterst\u00fctzung bei der L\u00f6sung dieses Problems.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Problem"
+}

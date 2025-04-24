@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Failure Report\n\nThere was an unexpected system outage that affected several applications, causing the investment analysis processes to cease. It seems that the recent software updates or network issues could be the reason My name is Jane Smith.. Efforts to reboot and reset the network configurations have been unsuccessful You can reach me at liuwei@business.cn.. We need your assistance to resolve this issue and prevent future occurrences.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        249,
+        259
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        361,
+        379
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: System Failure Report\n\nThere was an unexpected system outage that affected several applications, causing the investment analysis processes to cease. It seems that the recent software updates or network issues could be the reason My name is [full_name].. Efforts to reboot and reset the network configurations have been unsuccessful You can reach me at [email].. We need your assistance to resolve this issue and prevent future occurrences.",
+  "category_of_the_email": "Incident"
+}

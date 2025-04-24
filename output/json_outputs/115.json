@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Requested for Data Encryption Issue\n\nHello Support Team, I need assistance with a data encryption error that has been occurring. The error message 'Data encryption failed' is shown, and it seems a misconfiguration might be the reason. After attempting to restart the servers and review the logs, the issue still exists. I would be very grateful if you could assist in solving this problem You can reach me at david.kim@corp.kr.. Please inform me if you require more details from me to help resolve this. Thank you for your support and I look forward to your feedback. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        599,
+        609
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        429,
+        446
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance Requested for Data Encryption Issue\n\nHello Support Team, I need assistance with a data encryption error that has been occurring. The error message 'Data encryption failed' is shown, and it seems a misconfiguration might be the reason. After attempting to restart the servers and review the logs, the issue still exists. I would be very grateful if you could assist in solving this problem You can reach me at [email].. Please inform me if you require more details from me to help resolve this. Thank you for your support and I look forward to your feedback. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

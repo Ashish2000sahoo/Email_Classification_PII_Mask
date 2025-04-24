@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Project Management SaaS\n\nCould you provide details on the billing process for the project management SaaS subscription? I would like to know the payment terms and any additional fees associated with it.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        262
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support for Project Management SaaS\n\nCould you provide details on the billing process for the project management SaaS subscription? I would like to know the payment terms and any additional fees associated with it.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

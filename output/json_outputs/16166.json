@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Enhancements to Data Analysis Tool\n\nDear Customer Support, I am writing to request improvements to the data analysis tool, aiming to enhance reporting capabilities for investment optimization processes My name is Carlos Mendoza.. The current limitations of the tool are hindering my ability to make well-founded decisions. I would like to inquire about additional features such as real-time data updates, advanced filtering options, and customizable report templates. These enhancements would significantly improve the investment optimization processes and allow for more accurate predictions. Could you please provide an estimate of when these features could be implemented? Thank you for your attention to this matter You can reach me at maria.gonzalez@shop.es.. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        248
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        758,
+        780
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Enhancements to Data Analysis Tool\n\nDear Customer Support, I am writing to request improvements to the data analysis tool, aiming to enhance reporting capabilities for investment optimization processes My name is [full_name].. The current limitations of the tool are hindering my ability to make well-founded decisions. I would like to inquire about additional features such as real-time data updates, advanced filtering options, and customizable report templates. These enhancements would significantly improve the investment optimization processes and allow for more accurate predictions. Could you please provide an estimate of when these features could be implemented? Thank you for your attention to this matter You can reach me at [email].. I look forward to your response.",
+  "category_of_the_email": "Change"
+}

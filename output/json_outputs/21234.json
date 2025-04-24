@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance Needed with Software Development Process\n\nHello Customer Support,\n\nWe need assistance with software development and integrating a new ticketing system. Can you provide guidance on streamlining this process for our team?\n\nThanks,\n<name>\n<name> IT Solutions.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        299,
+        316
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed with Software Development Process\n\nHello Customer Support,\n\nWe need assistance with software development and integrating a new ticketing system. Can you provide guidance on streamlining this process for our team?\n\nThanks,\n<name>\n<name> IT Solutions.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

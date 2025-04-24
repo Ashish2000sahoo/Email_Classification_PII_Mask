@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Geehrte Kundenservice, unerwartete Datenverletzungen im medizinischen Datensicherheitssystem melden. M\u00f6gliche Ursachen: veraltete Software oder Konfigurationsfehler. Sicherheitsaudits und Softwareupgrades wurden durchgef\u00fchrt, jedoch bestehen weiter Probleme. Hilfe zur L\u00f6sung der Angelegenheit sch\u00e4tzen, eine schnelle L\u00f6sung ist dringend erforderlich. Vielen Dank f\u00fcr Ihre Aufmerksamkeit beim dringenden Problem.\n\nWir bitten, spezielle Experten einzusetzen, um die Datenverletzungen zu untersuchen. Bitte geben Sie mehr Details zu den durchgef\u00fchrten Sicherheitsaudits und Softwareupgrades an, um eine weitergehende Hilfe und L\u00f6sung anzubieten.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        675,
+        691
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Geehrte Kundenservice, unerwartete Datenverletzungen im medizinischen Datensicherheitssystem melden. M\u00f6gliche Ursachen: veraltete Software oder Konfigurationsfehler. Sicherheitsaudits und Softwareupgrades wurden durchgef\u00fchrt, jedoch bestehen weiter Probleme. Hilfe zur L\u00f6sung der Angelegenheit sch\u00e4tzen, eine schnelle L\u00f6sung ist dringend erforderlich. Vielen Dank f\u00fcr Ihre Aufmerksamkeit beim dringenden Problem.\n\nWir bitten, spezielle Experten einzusetzen, um die Datenverletzungen zu untersuchen. Bitte geben Sie mehr Details zu den durchgef\u00fchrten Sicherheitsaudits und Softwareupgrades an, um eine weitergehende Hilfe und L\u00f6sung anzubieten.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

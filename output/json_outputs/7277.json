@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Breach in Healthcare Systems Noted Recently\n\nHealthcare systems reported experiencing a data breach, resulting in the compromise of sensitive medical information. This may have occurred due to vulnerabilities in outdated security protocols and software My name is Sophia Rossi.. So far, we have ensured that systems are updated with the latest antivirus software and have performed initial scans, but the issue remains unresolved. We need assistance in identifying the root cause and implementing a solution to prevent future breaches. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        290
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        569,
+        592
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Data Breach in Healthcare Systems Noted Recently\n\nHealthcare systems reported experiencing a data breach, resulting in the compromise of sensitive medical information. This may have occurred due to vulnerabilities in outdated security protocols and software My name is [full_name].. So far, we have ensured that systems are updated with the latest antivirus software and have performed initial scans, but the issue remains unresolved. We need assistance in identifying the root cause and implementing a solution to prevent future breaches. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

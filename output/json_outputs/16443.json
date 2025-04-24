@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Falsche Geb\u00fchren bei neuem Kauf gemeldet\n\nEs gibt einen Fehler bei falschen Geb\u00fchren f\u00fcr einen VR-Controller von Lenovo ThinkPad. Vermutet, dass der Fehler aufgrund neuer Softwareupdates des Berechnungssystems entstanden ist. Bitte \u00fcberpr\u00fcfen Sie die Transaktionsdaten und die Dienstleistungsvereinbarungen, um Unstimmigkeiten zu identifizieren. Das Problem wird bisher nicht vollst\u00e4ndig gel\u00f6st. Es w\u00e4re sehr hilfreich, wenn Sie die Bestellnummern f\u00fcr den VR-Controller Lenovo ThinkPad und die genauen Datumsangaben f\u00fcr die Transaktionen, bei denen Unstimmigkeiten bemerkt wurden, bereitstellen k\u00f6nnten. Ich werde mich bem\u00fchen, den Fehler schnellstm\u00f6glich zu beheben. Falls weitere Informationen notwendig sind, k\u00f6nnen Sie gerne anrufen, um die Details zu besprechen My name is Omar Hassan.. Ich stehe Ihnen gerne zur Verf\u00fcgung, um das Problem zu kl\u00e4ren. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        787,
+        798
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        884,
+        901
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Falsche Geb\u00fchren bei neuem Kauf gemeldet\n\nEs gibt einen Fehler bei falschen Geb\u00fchren f\u00fcr einen VR-Controller von Lenovo ThinkPad. Vermutet, dass der Fehler aufgrund neuer Softwareupdates des Berechnungssystems entstanden ist. Bitte \u00fcberpr\u00fcfen Sie die Transaktionsdaten und die Dienstleistungsvereinbarungen, um Unstimmigkeiten zu identifizieren. Das Problem wird bisher nicht vollst\u00e4ndig gel\u00f6st. Es w\u00e4re sehr hilfreich, wenn Sie die Bestellnummern f\u00fcr den VR-Controller Lenovo ThinkPad und die genauen Datumsangaben f\u00fcr die Transaktionen, bei denen Unstimmigkeiten bemerkt wurden, bereitstellen k\u00f6nnten. Ich werde mich bem\u00fchen, den Fehler schnellstm\u00f6glich zu beheben. Falls weitere Informationen notwendig sind, k\u00f6nnen Sie gerne anrufen, um die Details zu besprechen My name is [full_name].. Ich stehe Ihnen gerne zur Verf\u00fcgung, um das Problem zu kl\u00e4ren. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

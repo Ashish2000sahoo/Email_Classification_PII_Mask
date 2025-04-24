@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Integration of Project Management Tools\n\nFacing integration issues with various products while using the project management tool My name is John Doe.. These problems seem to be due to compatibility conflicts with the systems You can reach me at elena.ivanova@support.org.. Despite updating the drivers and software versions, the issues persist. I believe resolving this issue would help in effectively managing projects. Please inform me of the next steps you can take to address this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        268,
+        293
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with Integration of Project Management Tools\n\nFacing integration issues with various products while using the project management tool My name is [full_name].. These problems seem to be due to compatibility conflicts with the systems You can reach me at [email].. Despite updating the drivers and software versions, the issues persist. I believe resolving this issue would help in effectively managing projects. Please inform me of the next steps you can take to address this problem.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for System Integration Support\n\nCustomer Support, <br>Our marketing agency is facing issues with system integration across multiple platforms. These discrepancies in data between Cisco Webex Meetings, Zoho Books, and other systems may be hindering the effectiveness of our campaigns My name is Elena Ivanova.. The problems might be due to API conflicts or version mismatches. We have already attempted troubleshooting by restarting applications and checking for updates, but the issue continues to persist and requires our assistance to resolve. Could you please provide guidance on how to resolve these integration issues to ensure seamless data synchronization across all platforms? You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        720,
+        745
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Request for System Integration Support\n\nCustomer Support, <br>Our marketing agency is facing issues with system integration across multiple platforms. These discrepancies in data between Cisco Webex Meetings, Zoho Books, and other systems may be hindering the effectiveness of our campaigns My name is [full_name].. The problems might be due to API conflicts or version mismatches. We have already attempted troubleshooting by restarting applications and checking for updates, but the issue continues to persist and requires our assistance to resolve. Could you please provide guidance on how to resolve these integration issues to ensure seamless data synchronization across all platforms? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

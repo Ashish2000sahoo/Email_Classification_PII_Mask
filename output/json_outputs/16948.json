@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr Verschl\u00fcsselungsprobleme\n\nDas Problem: Die Datenverschl\u00fcsselung funktioniert momentan nicht mehr You can reach me at sophia.rossi@service.it.. M\u00f6glicher Grund: Es k\u00f6nnte sich um ein Softwareproblem handeln My name is Elena Ivanova.. Bislang wurden die Server neu gestartet und die Einstellungen gepr\u00fcft.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        251
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        138,
+        161
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr Verschl\u00fcsselungsprobleme\n\nDas Problem: Die Datenverschl\u00fcsselung funktioniert momentan nicht mehr You can reach me at [email].. M\u00f6glicher Grund: Es k\u00f6nnte sich um ein Softwareproblem handeln My name is [full_name].. Bislang wurden die Server neu gestartet und die Einstellungen gepr\u00fcft.",
+  "category_of_the_email": "Incident"
+}

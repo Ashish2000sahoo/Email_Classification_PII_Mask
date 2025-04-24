@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Encryption Issues Emerged Today\n\nI am currently facing problems with data encryption that started suddenly You can reach me at carlosm@gmail.com.. I have already tried rebooting my systems and examined my webcam and CPU cooler, but the issue is still present. I believe my old version of Adobe Creative Cloud could be the reason My name is Omar Hassan.. I would greatly appreciate any support or advice you can offer to solve this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        354,
+        365
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        141,
+        158
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Data Encryption Issues Emerged Today\n\nI am currently facing problems with data encryption that started suddenly You can reach me at [email].. I have already tried rebooting my systems and examined my webcam and CPU cooler, but the issue is still present. I believe my old version of Adobe Creative Cloud could be the reason My name is [full_name].. I would greatly appreciate any support or advice you can offer to solve this problem.",
+  "category_of_the_email": "Incident"
+}

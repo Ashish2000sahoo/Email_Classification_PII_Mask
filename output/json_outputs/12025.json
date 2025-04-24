@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Website Analytics Tool Issue\n\nI am encountering difficulties with the website analytics tool and need assistance. Despite my attempts to restart the system and adjust the settings, the problem remains unaddressed. I believe it may be due to an outdated plugin or a software glitch. Could you please review the situation and provide guidance or a resolution? I would be grateful if you could share your insights and help me find a solution You can reach me at janesmith@company.com.. Please feel free to request any additional details that could aid in resolving this issue My name is Jane Smith.. Thanks for your prompt attention to this matter. I will be available to discuss further at your convenience via call or email.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        613,
+        623
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        488,
+        509
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Website Analytics Tool Issue\n\nI am encountering difficulties with the website analytics tool and need assistance. Despite my attempts to restart the system and adjust the settings, the problem remains unaddressed. I believe it may be due to an outdated plugin or a software glitch. Could you please review the situation and provide guidance or a resolution? I would be grateful if you could share your insights and help me find a solution You can reach me at [email].. Please feel free to request any additional details that could aid in resolving this issue My name is [full_name].. Thanks for your prompt attention to this matter. I will be available to discuss further at your convenience via call or email.",
+  "category_of_the_email": "Incident"
+}

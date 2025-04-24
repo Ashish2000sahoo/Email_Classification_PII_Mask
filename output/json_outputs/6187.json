@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Service\n\nA significant service outage has impacted multiple devices running software that utilizes data analytics. The issue might have arisen from a conflict during a software update or a power failure. Despite rebooting the affected systems and reviewing the configuration settings, we have not resolved the problem My name is Liu Wei.. The outage is currently hindering our ability to process and analyze data, leading to substantial delays. We urgently request your assistance in resolving this matter, as it is critical for our operations You can reach me at elena.ivanova@support.org.. Please respond at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        351,
+        358
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        590,
+        615
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Service\n\nA significant service outage has impacted multiple devices running software that utilizes data analytics. The issue might have arisen from a conflict during a software update or a power failure. Despite rebooting the affected systems and reviewing the configuration settings, we have not resolved the problem My name is [full_name].. The outage is currently hindering our ability to process and analyze data, leading to substantial delays. We urgently request your assistance in resolving this matter, as it is critical for our operations You can reach me at [email].. Please respond at your earliest convenience.",
+  "category_of_the_email": "Incident"
+}

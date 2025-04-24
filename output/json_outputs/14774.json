@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der SendGrid-E-Mail-Berichtsfunktion\n\nHabe k\u00fcrzlich instabile E-Mail-Berichtsendungen bei SendGrid festgestellt, die die Projektbenachrichtigungen der Benutzer beeintr\u00e4chtigen. Die Schwierigkeiten scheinen auf die Anwendung zur Integration zur\u00fcckzuf\u00fchren. Obwohl ich die SendGrid-Einstellungen neu konfiguriert und die Ereignisprotokolle gepr\u00fcft habe, beh\u00e4lt das Problem weiterhin anhaltend bestehen My name is Jane Smith.. Ich freue mich darauf, bei der Suche nach einer L\u00f6sung f\u00fcr das Problem behilflich zu sein, um sicherzustellen, dass die Benachrichtigungen reibungslos funktionieren. Bitte teilen Sie mehr Details zur vermuteten Integrationsschwierigkeit und spezifischen Fehlern im Anwendungsprogramm sowie die Ereignisprotokolle mit, um die Angelegenheit besser zu verstehen. Diese Informationen werden uns helfen, eine geeignete L\u00f6sung zu finden, die es erm\u00f6glicht, die Benachrichtigungen den Benutzern rechtzeitig zur Verf\u00fcgung zu stellen. Falls erforderlich, k\u00f6nnen wir gerne einen Anruf vereinbaren, um die Angelegenheit in Detail zu besprechen You can reach me at david.kim@corp.kr.. Bitte geben Sie f\u00fcr den Anruf ein geeignetes Zeitfenster an.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        433,
+        443
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1100,
+        1117
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der SendGrid-E-Mail-Berichtsfunktion\n\nHabe k\u00fcrzlich instabile E-Mail-Berichtsendungen bei SendGrid festgestellt, die die Projektbenachrichtigungen der Benutzer beeintr\u00e4chtigen. Die Schwierigkeiten scheinen auf die Anwendung zur Integration zur\u00fcckzuf\u00fchren. Obwohl ich die SendGrid-Einstellungen neu konfiguriert und die Ereignisprotokolle gepr\u00fcft habe, beh\u00e4lt das Problem weiterhin anhaltend bestehen My name is [full_name].. Ich freue mich darauf, bei der Suche nach einer L\u00f6sung f\u00fcr das Problem behilflich zu sein, um sicherzustellen, dass die Benachrichtigungen reibungslos funktionieren. Bitte teilen Sie mehr Details zur vermuteten Integrationsschwierigkeit und spezifischen Fehlern im Anwendungsprogramm sowie die Ereignisprotokolle mit, um die Angelegenheit besser zu verstehen. Diese Informationen werden uns helfen, eine geeignete L\u00f6sung zu finden, die es erm\u00f6glicht, die Benachrichtigungen den Benutzern rechtzeitig zur Verf\u00fcgung zu stellen. Falls erforderlich, k\u00f6nnen wir gerne einen Anruf vereinbaren, um die Angelegenheit in Detail zu besprechen You can reach me at [email].. Bitte geben Sie f\u00fcr den Anruf ein geeignetes Zeitfenster an.",
+  "category_of_the_email": "Incident"
+}

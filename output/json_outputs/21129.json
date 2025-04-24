@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem with Dell XPS 13 9310 Display\n\nHello Customer Support Team,\n\nI am experiencing a problem with the display of my recently purchased Dell XPS 13 9310. The screen occasionally turns blank and flickers, interrupting my activities. My account number is <acc_num> and the order number is <order_num> My name is Maria Gonzalez.. Could you please advise me on the next steps to address this issue? You can contact me at <tel_num> for any further information.\n\nThank you,\n<name> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        504,
+        529
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        31,
+        38
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        157,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problem with Dell XPS [phone_number] Display\n\nHello Customer Support Team,\n\nI am experiencing a problem with the display of my recently purchased Dell XPS [phone_number]. The screen occasionally turns blank and flickers, interrupting my activities. My account number is <acc_num> and the order number is <order_num> My name is [full_name].. Could you please advise me on the next steps to address this issue? You can contact me at <tel_num> for any further information.\n\nThank you,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

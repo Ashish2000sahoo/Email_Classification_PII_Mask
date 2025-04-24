@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nCustomer support, our team has encountered technical difficulties with the data analytics tools, which we believe are due to software conflicts, incompatible hardware, or system updates and misconfigurations, impacting multiple products. We have attempted to resolve the issue by restarting devices, updating software, and clearing cache, but the problems continue.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        414
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer support, our team has encountered technical difficulties with the data analytics tools, which we believe are due to software conflicts, incompatible hardware, or system updates and misconfigurations, impacting multiple products. We have attempted to resolve the issue by restarting devices, updating software, and clearing cache, but the problems continue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Hospital Information Technology Systems\n\nRespected Customer Support, I am contacting you to seek information on security protocols that are advised for safeguarding medical information within hospital IT systems. Given the sensitivity and confidentiality of medical data, it is essential to mitigate risks of unauthorized access, breaches, or cyber threats. Could you provide details on the security measures currently in use and if there are any specific protocols or technological solutions we should adopt? Your expert advice and any available resources would be greatly appreciated You can reach me at janesmith@company.com.. I eagerly await your response. Thank you for your attention and assistance. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        749,
+        761
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        638,
+        659
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Hospital Information Technology Systems\n\nRespected Customer Support, I am contacting you to seek information on security protocols that are advised for safeguarding medical information within hospital IT systems. Given the sensitivity and confidentiality of medical data, it is essential to mitigate risks of unauthorized access, breaches, or cyber threats. Could you provide details on the security measures currently in use and if there are any specific protocols or technological solutions we should adopt? Your expert advice and any available resources would be greatly appreciated You can reach me at [email].. I eagerly await your response. Thank you for your attention and assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

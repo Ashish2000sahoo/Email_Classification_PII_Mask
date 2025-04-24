@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische IT-Fachkraft\n\nEs wurde ein unbefugter Zugriff auf das IT-System des Krankenhauses festgestellt, der medizinischen Daten potenziell gef\u00e4hrden k\u00f6nnte. Passwortsicherheitsrichtlinien wurden durch diverse Anwendungen verst\u00e4rkt und aktualisiert.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        301
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Medizinische IT-Fachkraft\n\nEs wurde ein unbefugter Zugriff auf das IT-System des Krankenhauses festgestellt, der medizinischen Daten potenziell gef\u00e4hrden k\u00f6nnte. Passwortsicherheitsrichtlinien wurden durch diverse Anwendungen verst\u00e4rkt und aktualisiert.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

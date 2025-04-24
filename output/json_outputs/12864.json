@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Data Encryption Support\n\nHello Customer Support, <br><br>I am writing to report a critical issue with our data encryption. Specifically, our sensitive patient data was exposed unexpectedly, which is a serious concern for us. We suspect that the cause of this issue might be our outdated Symantec Endpoint Protection, which could be compromising our security measures My name is Fatima Al-Farsi.. <br><br>So far, we have tried restarting our servers and checking our firewall settings to see if that would resolve the issue, but unfortunately, the problem persists. We are concerned about the potential consequences of this data exposure and would like to request your immediate assistance in resolving this matter. <br><br>Could you please provide us with guidance on how to update our Symantec Endpoint Protection and ensure that our data encryption is functioning properly? We would also appreciate any recommendations you may have for preventing such incidents in the future. <br><br>Thank you for your prompt attention to this matter. We look forward to hearing from you soon.<br><br>Sincerely,<br>[Your Name] You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        408
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1157,
+        1178
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Data Encryption Support\n\nHello Customer Support, <br><br>I am writing to report a critical issue with our data encryption. Specifically, our sensitive patient data was exposed unexpectedly, which is a serious concern for us. We suspect that the cause of this issue might be our outdated Symantec Endpoint Protection, which could be compromising our security measures My name is [full_name]-Farsi.. <br><br>So far, we have tried restarting our servers and checking our firewall settings to see if that would resolve the issue, but unfortunately, the problem persists. We are concerned about the potential consequences of this data exposure and would like to request your immediate assistance in resolving this matter. <br><br>Could you please provide us with guidance on how to update our Symantec Endpoint Protection and ensure that our data encryption is functioning properly? We would also appreciate any recommendations you may have for preventing such incidents in the future. <br><br>Thank you for your prompt attention to this matter. We look forward to hearing from you soon.<br><br>Sincerely,<br>[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

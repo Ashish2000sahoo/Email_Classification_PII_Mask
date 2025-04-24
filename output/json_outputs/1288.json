@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Concurrent Integration Failures\n\nDear Customer Support,\\n\\nI am contacting you to report a problem with several integrations failing at the same time. The issue emerged abruptly, and I suspect it could be due to compatibility concerns with recent updates. Despite attempting to restart services, reviewing logs, and updating dependencies, the problem continues to persist.\\n\\nThese failed integrations are essential for our daily operations, and I would greatly appreciate your prompt assistance in resolving this matter. I have reviewed the system logs and identified some error messages that may be pertinent to the issue My name is Carlos Mendoza.. I am willing to supply more details or context if required.\\n\\nCould you please help me diagnose the problem or offer recommendations on how to fix it? Your support and guidance would be greatly appreciated You can reach me at omar.hassan@secure.net.. Please inform me if there are any additional actions for me to undertake or if you require further details from me.\\n\\nI am grateful for your time and cooperation. I eagerly await your response.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        657,
+        671
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        898,
+        920
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Concurrent Integration Failures\n\nDear Customer Support,\\n\\nI am contacting you to report a problem with several integrations failing at the same time. The issue emerged abruptly, and I suspect it could be due to compatibility concerns with recent updates. Despite attempting to restart services, reviewing logs, and updating dependencies, the problem continues to persist.\\n\\nThese failed integrations are essential for our daily operations, and I would greatly appreciate your prompt assistance in resolving this matter. I have reviewed the system logs and identified some error messages that may be pertinent to the issue My name is [full_name].. I am willing to supply more details or context if required.\\n\\nCould you please help me diagnose the problem or offer recommendations on how to fix it? Your support and guidance would be greatly appreciated You can reach me at [email].. Please inform me if there are any additional actions for me to undertake or if you require further details from me.\\n\\nI am grateful for your time and cooperation. I eagerly await your response.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

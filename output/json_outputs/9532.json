@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Analytics Dashboard - Not Loading\n\nDear Customer Support, I am reporting an issue with our data analytics dashboard that has suddenly stopped loading overnight. We believe this could be due to server overload. Despite restarting the server and checking network connectivity, the problem continues You can reach me at carlosm@gmail.com.. Could you please investigate and provide a solution? Please inform us if you require further details from us. We appreciate your prompt response and assistance My name is Jane Smith.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        533,
+        543
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        342,
+        359
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Analytics Dashboard - Not Loading\n\nDear Customer Support, I am reporting an issue with our data analytics dashboard that has suddenly stopped loading overnight. We believe this could be due to server overload. Despite restarting the server and checking network connectivity, the problem continues You can reach me at [email].. Could you please investigate and provide a solution? Please inform us if you require further details from us. We appreciate your prompt response and assistance My name is [full_name].. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Needed for AWS Management Service\n\nDear Customer Support,\n\nI am writing to express the challenges we are facing with managing our AWS infrastructure efficiently, utilizing your AWS Management Service. Our team is encountering difficulties optimizing our cloud deployment processes which, in turn, affects our operational efficiency My name is Liu Wei.. We believe that the functionality provided by your service should ideally support us in achieving streamlined operations, but currently, our efforts have not yielded the desired results.\n\nCould you please provide guidance or resources that could assist us in overcoming these challenges? Any steps or best practices that your team could share in terms of managing cloud deployments more effectively would be immensely appreciated.\n\nThank you for addressing this issue promptly. Looking forward to your valuable insights.\n\nWarm regards,\n\n<name>, IT Manager You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        363,
+        370
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        953,
+        970
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed for AWS Management Service\n\nDear Customer Support,\n\nI am writing to express the challenges we are facing with managing our AWS infrastructure efficiently, utilizing your AWS Management Service. Our team is encountering difficulties optimizing our cloud deployment processes which, in turn, affects our operational efficiency My name is [full_name].. We believe that the functionality provided by your service should ideally support us in achieving streamlined operations, but currently, our efforts have not yielded the desired results.\n\nCould you please provide guidance or resources that could assist us in overcoming these challenges? Any steps or best practices that your team could share in terms of managing cloud deployments more effectively would be immensely appreciated.\n\nThank you for addressing this issue promptly. Looking forward to your valuable insights.\n\nWarm regards,\n\n<name>, IT Manager You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

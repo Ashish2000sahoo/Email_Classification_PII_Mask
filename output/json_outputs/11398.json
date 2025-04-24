@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Slowed Website Performance\n\nDear Support Team, we are experiencing significant slowdowns on the agency's website, which is impacting our campaign execution My name is Liu Wei.. Despite measures taken to clear the cache and optimize images, the issues continue. We suspect the problem could be due to increased traffic or underlying infrastructure issues. Could you please investigate and provide a solution to improve the website's performance? You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        199
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        494,
+        516
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Slowed Website Performance\n\nDear Support Team, we are experiencing significant slowdowns on the agency's website, which is impacting our campaign execution My name is [full_name].. Despite measures taken to clear the cache and optimize images, the issues continue. We suspect the problem could be due to increased traffic or underlying infrastructure issues. Could you please investigate and provide a solution to improve the website's performance? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

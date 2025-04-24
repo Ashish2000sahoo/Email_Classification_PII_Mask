@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nA financial firm is encountering sporadic crashes with its data analytics software, which is hindering their investment optimization strategies. The problem is suspected to be related to compatibility issues with recent updates. Despite reinstallation and cache clearing, the issue remains unresolved You can reach me at elena.ivanova@support.org.. We would greatly appreciate your assistance in resolving this matter as soon as possible My name is Jane Smith.. Please let us know if there is any additional information needed to facilitate the troubleshooting process.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        460,
+        470
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        332,
+        357
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nA financial firm is encountering sporadic crashes with its data analytics software, which is hindering their investment optimization strategies. The problem is suspected to be related to compatibility issues with recent updates. Despite reinstallation and cache clearing, the issue remains unresolved You can reach me at [email].. We would greatly appreciate your assistance in resolving this matter as soon as possible My name is [full_name].. Please let us know if there is any additional information needed to facilitate the troubleshooting process.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme beim Projekt\n\nDie terminbasierten Pl\u00e4ne f\u00fcr die Projekte aktualisieren sich nicht automatisch, was darauf hindeuten k\u00f6nnte, dass es ein Problem mit der Hintergrundsynchrosierung gibt.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        239
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Probleme beim Projekt\n\nDie terminbasierten Pl\u00e4ne f\u00fcr die Projekte aktualisieren sich nicht automatisch, was darauf hindeuten k\u00f6nnte, dass es ein Problem mit der Hintergrundsynchrosierung gibt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

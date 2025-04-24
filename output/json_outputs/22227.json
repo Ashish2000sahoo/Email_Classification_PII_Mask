@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent Server Issue Requires Immediate Action\n\nA swift investigation is necessary concerning the interruption of the AWS Management Service that affects essential business operations.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        215,
+        231
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Urgent Server Issue Requires Immediate Action\n\nA swift investigation is necessary concerning the interruption of the AWS Management Service that affects essential business operations.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

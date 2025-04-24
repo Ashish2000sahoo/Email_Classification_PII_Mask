@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de bater\u00eda y sobrecalentamiento del Surface Pro 7\n\nEstimado Servicio de Atenci\u00f3n al Cliente de Tech Online Store,\n\nEspero que este mensaje te encuentre bien My name is John Doe.. Me pongo en contacto para informar sobre un problema repentino con mi Microsoft Surface Pro 7, que he experimentado en los \u00faltimos d\u00edas You can reach me at david.kim@corp.kr.. El dispositivo, que a\u00fan est\u00e1 en garant\u00eda, est\u00e1 sufriendo un r\u00e1pido drenaje de la bater\u00eda y sobrecalentamiento durante el uso b\u00e1sico como navegar y procesar textos.\n\nAnteriormente, la bater\u00eda duraba numerosas horas con una carga completa, pero ahora lucha por mantener la energ\u00eda incluso durante un par de horas. Adem\u00e1s, el dispositivo se calienta sorprendentemente al tacto despu\u00e9s de un uso corto. Este cambio en el rendimiento despierta mi preocupaci\u00f3n por la longevidad del producto.\n\nSolicito amablemente su asistencia para abordar este problema lo antes posible. \u00bfCu\u00e1les son los pasos para iniciar una solicitud de servicio y soy elegible para un reemplazo o reparaci\u00f3n bajo garant\u00eda?\n\nGracias por su apoyo.\n\nSaludos cordiales,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        357,
+        374
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problemas de bater\u00eda y sobrecalentamiento del Surface Pro 7\n\nEstimado Servicio de Atenci\u00f3n al Cliente de Tech Online Store,\n\nEspero que este mensaje te encuentre bien My name is [full_name].. Me pongo en contacto para informar sobre un problema repentino con mi Microsoft Surface Pro 7, que he experimentado en los \u00faltimos d\u00edas You can reach me at [email].. El dispositivo, que a\u00fan est\u00e1 en garant\u00eda, est\u00e1 sufriendo un r\u00e1pido drenaje de la bater\u00eda y sobrecalentamiento durante el uso b\u00e1sico como navegar y procesar textos.\n\nAnteriormente, la bater\u00eda duraba numerosas horas con una carga completa, pero ahora lucha por mantener la energ\u00eda incluso durante un par de horas. Adem\u00e1s, el dispositivo se calienta sorprendentemente al tacto despu\u00e9s de un uso corto. Este cambio en el rendimiento despierta mi preocupaci\u00f3n por la longevidad del producto.\n\nSolicito amablemente su asistencia para abordar este problema lo antes posible. \u00bfCu\u00e1les son los pasos para iniciar una solicitud de servicio y soy elegible para un reemplazo o reparaci\u00f3n bajo garant\u00eda?\n\nGracias por su apoyo.\n\nSaludos cordiales,\n<name>",
+  "category_of_the_email": "Request"
+}

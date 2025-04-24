@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for MySQL Integration in Ulysses\n\nInquiring about detailed documentation for integrating the MySQL database with Ulysses, a project management SaaS tool currently used for writing and editing My name is David Kim.. Need step-by-step instructions and necessary code snippets to achieve this integration, which would greatly assist in streamlining our workflow You can reach me at janesmith@company.com.. Please provide the required guidance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        229
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        398,
+        419
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support for MySQL Integration in Ulysses\n\nInquiring about detailed documentation for integrating the MySQL database with Ulysses, a project management SaaS tool currently used for writing and editing My name is [full_name].. Need step-by-step instructions and necessary code snippets to achieve this integration, which would greatly assist in streamlining our workflow You can reach me at [email].. Please provide the required guidance.",
+  "category_of_the_email": "Request"
+}

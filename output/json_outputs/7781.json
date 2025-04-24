@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbessern der Datenanalyse\n\nBetreff: Erh\u00f6hung der Datenanalyseintegration in unseren Produkten My name is Jane Smith.. Ich glaube, dass die Optimierung unserer Investments und der Entscheidungsfindung erheblich verbessert werden kann You can reach me at elena.ivanova@support.org.. Ich denke, eine wertvolle Erg\u00e4nzung unserer bestehenden Funktionen w\u00e4re eine Sache, die mit dem Support-Team diskutiert werden sollte.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        116,
+        126
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        265,
+        290
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Verbessern der Datenanalyse\n\nBetreff: Erh\u00f6hung der Datenanalyseintegration in unseren Produkten My name is [full_name].. Ich glaube, dass die Optimierung unserer Investments und der Entscheidungsfindung erheblich verbessert werden kann You can reach me at [email].. Ich denke, eine wertvolle Erg\u00e4nzung unserer bestehenden Funktionen w\u00e4re eine Sache, die mit dem Support-Team diskutiert werden sollte.",
+  "category_of_the_email": "Change"
+}

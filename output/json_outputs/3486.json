@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Processing Application\n\nDear Customer Support, <br>I am writing to report a critical error in our data processing application My name is Carlos Mendoza.. The application has crashed during the file validation process, possibly due to insufficient system resources or software conflicts. Despite restarting the affected device and reinstalling the application, the issue persists You can reach me at johndoe@email.com.. <br>I appreciate your prompt attention to this matter and would be grateful if a solution could be provided as soon as possible. <br>Please inform me if you need further details. <br>Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        421,
+        438
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Processing Application\n\nDear Customer Support, <br>I am writing to report a critical error in our data processing application My name is [full_name].. The application has crashed during the file validation process, possibly due to insufficient system resources or software conflicts. Despite restarting the affected device and reinstalling the application, the issue persists You can reach me at [email].. <br>I appreciate your prompt attention to this matter and would be grateful if a solution could be provided as soon as possible. <br>Please inform me if you need further details. <br>Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

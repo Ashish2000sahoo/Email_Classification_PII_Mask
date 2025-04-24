@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Marketing-Kampagnen Unterst\u00fctzung Wird Bereitgestellt\n\nMarketing-Kampagnen sind unterleistet, und entt\u00e4uschendes Markenwachstum resultiert.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        188
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Marketing-Kampagnen Unterst\u00fctzung Wird Bereitgestellt\n\nMarketing-Kampagnen sind unterleistet, und entt\u00e4uschendes Markenwachstum resultiert.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o Urgente de Substitui\u00e7\u00e3o\n\nCaro Time de Suporte ao Cliente,\n\nEspero que esta mensagem os encontre bem. Estou entrando em contato para chamar a aten\u00e7\u00e3o para um problema com a panela de press\u00e3o el\u00e9trica que comprei recentemente em sua loja online. Ao tentar us\u00e1-la, percebi que emite ru\u00eddos de erro incomuns quando tento ativar a fun\u00e7\u00e3o de cozimento sob press\u00e3o. Este problema est\u00e1 me impedindo de us\u00e1-la efetivamente e \u00e9 bastante preocupante. Assim, estou solicitando uma substitui\u00e7\u00e3o urgente desta unidade defeituosa My name is Sophia Rossi.. Voc\u00eas poderiam me orientar sobre os passos que devo seguir para processar esta troca? Agradeceria a pronta assist\u00eancia com este assunto You can reach me at david.kim@corp.kr.. Obrigado.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        547,
+        559
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        717,
+        734
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o Urgente de Substitui\u00e7\u00e3o\n\nCaro Time de Suporte ao Cliente,\n\nEspero que esta mensagem os encontre bem. Estou entrando em contato para chamar a aten\u00e7\u00e3o para um problema com a panela de press\u00e3o el\u00e9trica que comprei recentemente em sua loja online. Ao tentar us\u00e1-la, percebi que emite ru\u00eddos de erro incomuns quando tento ativar a fun\u00e7\u00e3o de cozimento sob press\u00e3o. Este problema est\u00e1 me impedindo de us\u00e1-la efetivamente e \u00e9 bastante preocupante. Assim, estou solicitando uma substitui\u00e7\u00e3o urgente desta unidade defeituosa My name is [full_name].. Voc\u00eas poderiam me orientar sobre os passos que devo seguir para processar esta troca? Agradeceria a pronta assist\u00eancia com este assunto You can reach me at [email].. Obrigado.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Problem"
+}

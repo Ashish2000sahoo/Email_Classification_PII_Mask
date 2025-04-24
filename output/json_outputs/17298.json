@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Informationen zur Sicherung medizinischer Daten\n\nSuche nach detaillierten Informationen zur Sicherung medizinischer Daten und besten Praktiken f\u00fcr die effektive Verwaltung von Krankenhaus-IT-Systemen. Brauche Anleitungen und Protokolle.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Informationen zur Sicherung medizinischer Daten\n\nSuche nach detaillierten Informationen zur Sicherung medizinischer Daten und besten Praktiken f\u00fcr die effektive Verwaltung von Krankenhaus-IT-Systemen. Brauche Anleitungen und Protokolle.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

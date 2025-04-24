@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nexperiencing irregular data visualizations on the analytics dashboard. this might be due to a recent software update that has impacted the Elasticsearch connectivity My name is Carlos Mendoza.. so far, we have restarted the software and verified the network connections, but the issue persists. I would greatly appreciate your help in resolving this problem. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        387,
+        412
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nexperiencing irregular data visualizations on the analytics dashboard. this might be due to a recent software update that has impacted the Elasticsearch connectivity My name is [full_name].. so far, we have restarted the software and verified the network connections, but the issue persists. I would greatly appreciate your help in resolving this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

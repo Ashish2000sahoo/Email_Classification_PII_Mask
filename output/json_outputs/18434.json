@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry for Detailed Data Analytics Services\n\nCould you provide detailed information on data analytics services that optimize investment strategies? This would greatly assist in making informed decisions and maximizing returns You can reach me at david.kim@corp.kr.. Thank you for your time and assistance My name is John Doe.. I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        326,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        256,
+        273
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Inquiry for Detailed Data Analytics Services\n\nCould you provide detailed information on data analytics services that optimize investment strategies? This would greatly assist in making informed decisions and maximizing returns You can reach me at [email].. Thank you for your time and assistance My name is [full_name].. I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

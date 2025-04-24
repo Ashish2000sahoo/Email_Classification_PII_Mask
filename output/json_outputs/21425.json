@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team,\n\nI am reaching out to report a problem with the battery of my Lenovo IdeaPad 5 laptop. The battery discharges very quickly even with standard usage. The device remains under warranty You can reach me at sophia.rossi@service.it.. I would appreciate your help with this matter at your earliest opportunity.\n\nThank you.\n\nBest regards,\n<name>\nAccount Number: <acc_num>\nPhone: <tel_num> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        432,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        242,
+        265
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team,\n\nI am reaching out to report a problem with the battery of my Lenovo IdeaPad 5 laptop. The battery discharges very quickly even with standard usage. The device remains under warranty You can reach me at [email].. I would appreciate your help with this matter at your earliest opportunity.\n\nThank you.\n\nBest regards,\n<name>\nAccount Number: <acc_num>\nPhone: <tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

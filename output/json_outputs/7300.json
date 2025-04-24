@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I recently observed inconsistencies in patient billing records and suspect they may be due to system glitches or incorrect data entry. I have already reviewed the billing system logs and verified patient information, but the issue still persists. I need your assistance to resolve this as soon as possible My name is Maria Gonzalez.. Could you please provide examples of the discrepancies and the steps you have taken so far? We would appreciate a prompt response and guidance on the next steps we should take to resolve this matter. Thank you for your attention to this issue. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        351,
+        365
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        629,
+        654
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I recently observed inconsistencies in patient billing records and suspect they may be due to system glitches or incorrect data entry. I have already reviewed the billing system logs and verified patient information, but the issue still persists. I need your assistance to resolve this as soon as possible My name is [full_name].. Could you please provide examples of the discrepancies and the steps you have taken so far? We would appreciate a prompt response and guidance on the next steps we should take to resolve this matter. Thank you for your attention to this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

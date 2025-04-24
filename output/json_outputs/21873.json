@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Assistance Requise : Probl\u00e8me d'installation d'Adobe Photoshop 2024\n\nCher Support Client, \n\nJe vous \u00e9cris pour demander de l'aide concernant un probl\u00e8me que je rencontre avec l'installation d'Adobe Photoshop 2024 You can reach me at sophia.rossi@service.it.. J'ai achet\u00e9 le logiciel pour mon <acc_num> et j'ai tent\u00e9 de l'installer sur mon ordinateur, mais malheureusement, je rencontre un message d'erreur indiquant 'installation incompl\u00e8te'. Cela persiste malgr\u00e9 plusieurs efforts de ma part pour r\u00e9soudre le probl\u00e8me. \n\nJ'ai v\u00e9rifi\u00e9 les exigences syst\u00e8me et confirm\u00e9 que mon syst\u00e8me r\u00e9pond aux sp\u00e9cifications n\u00e9cessaires. De plus, j'ai suivi toutes les \u00e9tapes d\u00e9crites dans le guide d'installation fourni. J'ai \u00e9galement tent\u00e9 une installation propre en d\u00e9sinstallant les versions ant\u00e9rieures, mais le probl\u00e8me reste non r\u00e9solu.\n\nPourriez-vous s'il vous pla\u00eet me guider sur la fa\u00e7on de r\u00e9soudre ce probl\u00e8me ? S'il y a des \u00e9tapes suppl\u00e9mentaires ou des proc\u00e9dures de d\u00e9pannage que je devrais suivre, merci de me le faire savoir. Je suis impatient d'utiliser le produit et j'appr\u00e9cierais votre assistance rapide pour faciliter une installation r\u00e9ussie My name is Sophia Rossi.. \n\nMerci de votre soutien. Vous pouvez me joindre au <tel_num> pour toute information suppl\u00e9mentaire dont vous pourriez avoir besoin.\n\nCordialement, \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1172,
+        1184
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        242,
+        265
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        72,
+        76
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        217,
+        221
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Assistance Requise : Probl\u00e8me d'installation d'Adobe Photoshop [phone_number]\n\nCher Support Client, \n\nJe vous \u00e9cris pour demander de l'aide concernant un probl\u00e8me que je rencontre avec l'installation d'Adobe Photoshop [phone_number] You can reach me at [email].. J'ai achet\u00e9 le logiciel pour mon <acc_num> et j'ai tent\u00e9 de l'installer sur mon ordinateur, mais malheureusement, je rencontre un message d'erreur indiquant 'installation incompl\u00e8te'. Cela persiste malgr\u00e9 plusieurs efforts de ma part pour r\u00e9soudre le probl\u00e8me. \n\nJ'ai v\u00e9rifi\u00e9 les exigences syst\u00e8me et confirm\u00e9 que mon syst\u00e8me r\u00e9pond aux sp\u00e9cifications n\u00e9cessaires. De plus, j'ai suivi toutes les \u00e9tapes d\u00e9crites dans le guide d'installation fourni. J'ai \u00e9galement tent\u00e9 une installation propre en d\u00e9sinstallant les versions ant\u00e9rieures, mais le probl\u00e8me reste non r\u00e9solu.\n\nPourriez-vous s'il vous pla\u00eet me guider sur la fa\u00e7on de r\u00e9soudre ce probl\u00e8me ? S'il y a des \u00e9tapes suppl\u00e9mentaires ou des proc\u00e9dures de d\u00e9pannage que je devrais suivre, merci de me le faire savoir. Je suis impatient d'utiliser le produit et j'appr\u00e9cierais votre assistance rapide pour faciliter une installation r\u00e9ussie My name is [full_name].. \n\nMerci de votre soutien. Vous pouvez me joindre au <tel_num> pour toute information suppl\u00e9mentaire dont vous pourriez avoir besoin.\n\nCordialement, \n<name>",
+  "category_of_the_email": "Problem"
+}

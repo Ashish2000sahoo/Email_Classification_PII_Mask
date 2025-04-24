@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unvorhergesehener Crash der digitalen Kampagne\n\nDer digitale Kampagnenbetrieb bricht unerwartet ab You can reach me at sophia.rossi@service.it.. M\u00f6glicherweise ist ein inexactes Software-Update die Ausl\u00f6ser. Ich habe das System neu gestartet und die Kompatibilit\u00e4t \u00fcberpr\u00fcft, jedoch konnte ich das Problem beheben My name is David Kim.. Bitte helfen Sie mir, diesen Fehler so schnell wie m\u00f6glich zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        128,
+        151
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unvorhergesehener Crash der digitalen Kampagne\n\nDer digitale Kampagnenbetrieb bricht unerwartet ab You can reach me at [email].. M\u00f6glicherweise ist ein inexactes Software-Update die Ausl\u00f6ser. Ich habe das System neu gestartet und die Kompatibilit\u00e4t \u00fcberpr\u00fcft, jedoch konnte ich das Problem beheben My name is [full_name].. Bitte helfen Sie mir, diesen Fehler so schnell wie m\u00f6glich zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

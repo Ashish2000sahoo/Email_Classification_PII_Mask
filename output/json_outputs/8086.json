@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mehrere unerwartete Integrationsstart-Positionen\n\nW\u00e4hrend des Synchronisierungsprozesses sind Fehler aufgetreten, da es Schwierigkeiten bei der API-Kompatibilit\u00e4t gibt My name is Maria Gonzalez.. Nach dem Neustart der Dienste und der \u00dcberpr\u00fcfung der Logs ist das Problem jedoch bestehen geblieben You can reach me at omar.hassan@secure.net.. K\u00f6nnten Sie mir helfen, dieses Problem zu beheben?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        323,
+        345
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Mehrere unerwartete Integrationsstart-Positionen\n\nW\u00e4hrend des Synchronisierungsprozesses sind Fehler aufgetreten, da es Schwierigkeiten bei der API-Kompatibilit\u00e4t gibt My name is [full_name].. Nach dem Neustart der Dienste und der \u00dcberpr\u00fcfung der Logs ist das Problem jedoch bestehen geblieben You can reach me at [email].. K\u00f6nnten Sie mir helfen, dieses Problem zu beheben?",
+  "category_of_the_email": "Incident"
+}

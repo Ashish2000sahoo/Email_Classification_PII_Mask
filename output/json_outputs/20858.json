@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear IT Services Support Team,\n\nI hope this email finds you in good spirits. I am encountering a problem with the installation of Windows 11 Pro My name is Liu Wei.. I have adhered to all the supplied guidelines, yet the installation continues to fail You can reach me at fatima.farsi@help.com.. Could you kindly help me in resolving this matter?\n\nThank you for your quick response.\n\nSincerely,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        287,
+        308
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear IT Services Support Team,\n\nI hope this email finds you in good spirits. I am encountering a problem with the installation of Windows 11 Pro My name is [full_name].. I have adhered to all the supplied guidelines, yet the installation continues to fail You can reach me at [email].. Could you kindly help me in resolving this matter?\n\nThank you for your quick response.\n\nSincerely,\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

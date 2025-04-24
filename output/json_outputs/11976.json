@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Elasticsearch Security Practices for Medical Data\n\nI'm writing to seek guidance on the recommended security practices for storing medical data in Elasticsearch version 7.13. Can you share the best practices for securing sensitive medical information within Elasticsearch?. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        320
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Elasticsearch Security Practices for Medical Data\n\nI'm writing to seek guidance on the recommended security practices for storing medical data in Elasticsearch version 7.13. Can you share the best practices for securing sensitive medical information within Elasticsearch?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

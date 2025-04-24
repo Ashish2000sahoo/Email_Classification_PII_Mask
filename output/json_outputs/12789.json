@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Freeze Issue with SaaS Platform\n\nHello Customer Support, <br/>I am contacting you to report an unexpected freeze issue with the SaaS platform You can reach me at liuwei@business.cn.. It might be related to an Azure integration problem My name is Elena Ivanova.. I have already attempted to restart my computer and verified the firewall settings, but the issue continues. I kindly request you to look into this and supply a solution as quickly as possible. Please inform me if you need any further details from me. Thank you for your help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        277
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        180,
+        198
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Reported Freeze Issue with SaaS Platform\n\nHello Customer Support, <br/>I am contacting you to report an unexpected freeze issue with the SaaS platform You can reach me at [email].. It might be related to an Azure integration problem My name is [full_name].. I have already attempted to restart my computer and verified the firewall settings, but the issue continues. I kindly request you to look into this and supply a solution as quickly as possible. Please inform me if you need any further details from me. Thank you for your help.",
+  "category_of_the_email": "Incident"
+}

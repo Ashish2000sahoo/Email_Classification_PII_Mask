@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Syntaxhervorhebung Problem\n\nLiebes Support-Team, ich habe ein Problem mit der Syntaxhervorhebung f\u00fcr Python-Dateien nach dem letzten Update von Visual Studio Code 1.70 My name is Liu Wei.. K\u00f6nnten Sie bitte Unterst\u00fctzung bei der Fehlersuche zu diesem Problem leisten? Vielen Dank f\u00fcr Ihre Hilfe. Mit freundlichen Gr\u00fc\u00dfen, <name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        361,
+        384
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Syntaxhervorhebung Problem\n\nLiebes Support-Team, ich habe ein Problem mit der Syntaxhervorhebung f\u00fcr Python-Dateien nach dem letzten Update von Visual Studio Code 1.70 My name is [full_name].. K\u00f6nnten Sie bitte Unterst\u00fctzung bei der Fehlersuche zu diesem Problem leisten? Vielen Dank f\u00fcr Ihre Hilfe. Mit freundlichen Gr\u00fc\u00dfen, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

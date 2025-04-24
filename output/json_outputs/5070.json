@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Integrating Project Management Tool\n\nFacing integration challenges with different products and the project management tool. This might be due to compatibility issues between systems. Despite updating drivers and software versions, the problems continue You can reach me at liuwei@business.cn.. I would greatly appreciate your help in resolving this matter, as it is impeding my ability to effectively manage projects My name is Sophia Rossi.. Please let me know the next steps to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        450,
+        462
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        295,
+        313
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Integrating Project Management Tool\n\nFacing integration challenges with different products and the project management tool. This might be due to compatibility issues between systems. Despite updating drivers and software versions, the problems continue You can reach me at [email].. I would greatly appreciate your help in resolving this matter, as it is impeding my ability to effectively manage projects My name is [full_name].. Please let me know the next steps to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

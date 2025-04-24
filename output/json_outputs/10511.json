@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Airtable Integration\n\nDear Customer Service, I am writing to report an issue with my Airtable integration You can reach me at sophia.rossi@service.it.. It has suddenly become unresponsive, which may be due to the expiration of the API key My name is Carlos Mendoza.. I have checked my login credentials and restarted the services, yet the error persists. I would greatly appreciate your assistance in resolving this matter. Please inform me if you recommend any further steps or require additional information. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        289
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        151,
+        174
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Airtable Integration\n\nDear Customer Service, I am writing to report an issue with my Airtable integration You can reach me at [email].. It has suddenly become unresponsive, which may be due to the expiration of the API key My name is [full_name].. I have checked my login credentials and restarted the services, yet the error persists. I would greatly appreciate your assistance in resolving this matter. Please inform me if you recommend any further steps or require additional information. Thank you for your time and support.",
+  "category_of_the_email": "Incident"
+}

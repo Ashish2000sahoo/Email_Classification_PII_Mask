@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on SaaS Project Management Features\n\nHello, I am reaching out to inquire about the features of your SaaS project management platform, specifically its integration capabilities My name is Omar Hassan.. Could you provide more details on how the platform handles task assignments, progress tracking, and team collaboration? I am also interested in learning about the different integration options available, particularly with tools like Google Drive and Trello. Additionally, could you share information on pricing plans and any discounts for long-term commitments? Thank you for your assistance, and I look forward to hearing back. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        215
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        667,
+        685
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on SaaS Project Management Features\n\nHello, I am reaching out to inquire about the features of your SaaS project management platform, specifically its integration capabilities My name is [full_name].. Could you provide more details on how the platform handles task assignments, progress tracking, and team collaboration? I am also interested in learning about the different integration options available, particularly with tools like Google Drive and Trello. Additionally, could you share information on pricing plans and any discounts for long-term commitments? Thank you for your assistance, and I look forward to hearing back. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

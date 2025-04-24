@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technisches Problem bei der SaaS-Plattform\n\nUnser Team hat unerwartete Crashes der SaaS-Plattform und beeintr\u00e4chtigte Integrationsfunktionen von Microsoft Word und Adobe Effects bemerkt. Diese Probleme scheinen auf die neuesten Updates der Anwendungen zur\u00fcckzuf\u00fchren sein. Wir haben versucht, zuvor verwendete Versionen wiederherzustellen und die Serverkapazit\u00e4t zu erh\u00f6hen, aber das Problem beh\u00e4lt sich best\u00e4ndig You can reach me at johndoe@email.com.. Das Team arbeitet daran, das Problem zu l\u00f6sen, ben\u00f6tigt aber zus\u00e4tzliche Unterst\u00fctzung, um den Ursprung des Problems zu identifizieren und eine L\u00f6sung umzusetzen My name is Jane Smith.. K\u00f6nnten Sie bitte Rat geben, um die Ursache des Problems weiter zu untersuchen und eine L\u00f6sung voranzutreiben?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        636,
+        646
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        443,
+        460
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Technisches Problem bei der SaaS-Plattform\n\nUnser Team hat unerwartete Crashes der SaaS-Plattform und beeintr\u00e4chtigte Integrationsfunktionen von Microsoft Word und Adobe Effects bemerkt. Diese Probleme scheinen auf die neuesten Updates der Anwendungen zur\u00fcckzuf\u00fchren sein. Wir haben versucht, zuvor verwendete Versionen wiederherzustellen und die Serverkapazit\u00e4t zu erh\u00f6hen, aber das Problem beh\u00e4lt sich best\u00e4ndig You can reach me at [email].. Das Team arbeitet daran, das Problem zu l\u00f6sen, ben\u00f6tigt aber zus\u00e4tzliche Unterst\u00fctzung, um den Ursprung des Problems zu identifizieren und eine L\u00f6sung umzusetzen My name is [full_name].. K\u00f6nnten Sie bitte Rat geben, um die Ursache des Problems weiter zu untersuchen und eine L\u00f6sung voranzutreiben?",
+  "category_of_the_email": "Incident"
+}

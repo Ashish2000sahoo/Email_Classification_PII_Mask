@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Request for Assistance: HP DeskJet 3755 Paper Jam Issues\n\nDear Customer Support Team,\n\nI am writing to report an issue with my HP DeskJet 3755 printer My name is David Kim.. It is consistently experiencing paper jam errors during the printing process, which is severely impacting the device's functionality. I have attempted basic troubleshooting steps, such as checking for obstructions and manually clearing jams, but the problem persists.\n\nCould you please guide me on how to resolve this issue, or if necessary, provide instructions for obtaining a repair or replacement? Your prompt assistance would be greatly appreciated as I rely on this printer for my daily tasks.\n\nThank you!\n\nBest regards,\n\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        740,
+        763
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        44,
+        48
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        147,
+        151
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance: HP DeskJet [phone_number] Paper Jam Issues\n\nDear Customer Support Team,\n\nI am writing to report an issue with my HP DeskJet [phone_number] printer My name is [full_name].. It is consistently experiencing paper jam errors during the printing process, which is severely impacting the device's functionality. I have attempted basic troubleshooting steps, such as checking for obstructions and manually clearing jams, but the problem persists.\n\nCould you please guide me on how to resolve this issue, or if necessary, provide instructions for obtaining a repair or replacement? Your prompt assistance would be greatly appreciated as I rely on this printer for my daily tasks.\n\nThank you!\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, we are exploring digital strategies to enhance our brand growth and are interested in gaining information on methods and techniques that can be used to increase brand awareness and customer engagement My name is Omar Hassan.. We would greatly appreciate a detailed explanation of your approach to social media marketing, content creation, and customer interaction You can reach me at liuwei@business.cn.. Additionally, could you provide us with information on the analytics and measurement tools you use to track the success of your strategies? We look forward to your prompt assistance and are eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        418,
+        436
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, we are exploring digital strategies to enhance our brand growth and are interested in gaining information on methods and techniques that can be used to increase brand awareness and customer engagement My name is [full_name].. We would greatly appreciate a detailed explanation of your approach to social media marketing, content creation, and customer interaction You can reach me at [email].. Additionally, could you provide us with information on the analytics and measurement tools you use to track the success of your strategies? We look forward to your prompt assistance and are eagerly awaiting your response.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notice of Security Incident in Medical Data Systems\n\nA security breach has been identified in the medical data systems. This may have occurred due to outdated software vulnerabilities. Immediate software updates have been implemented, and a preliminary security audit has been conducted to identify the root cause and prevent future incidents You can reach me at omar.hassan@secure.net.. Our team is working diligently to ensure the security and integrity of the systems My name is Omar Hassan.. We will provide updates and notify affected parties as necessary. Please let us know if you have any questions or concerns regarding this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        491,
+        502
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        372,
+        394
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Notice of Security Incident in Medical Data Systems\n\nA security breach has been identified in the medical data systems. This may have occurred due to outdated software vulnerabilities. Immediate software updates have been implemented, and a preliminary security audit has been conducted to identify the root cause and prevent future incidents You can reach me at [email].. Our team is working diligently to ensure the security and integrity of the systems My name is [full_name].. We will provide updates and notify affected parties as necessary. Please let us know if you have any questions or concerns regarding this matter.",
+  "category_of_the_email": "Incident"
+}

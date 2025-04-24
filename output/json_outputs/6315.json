@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Payroll Processing System\n\nCustomer Support, an employee has reported discrepancies in the payroll processing which is causing delays You can reach me at sophia.rossi@service.it.. These issues might have occurred due to a recent software update. The employee attempted to revert the update and validate the data, but the issue still persists and requires immediate assistance to resolve My name is John Doe.. Could you please look into this and provide a solution as soon as possible? I appreciate your prompt attention to this matter and look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        428
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        176,
+        199
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Payroll Processing System\n\nCustomer Support, an employee has reported discrepancies in the payroll processing which is causing delays You can reach me at [email].. These issues might have occurred due to a recent software update. The employee attempted to revert the update and validate the data, but the issue still persists and requires immediate assistance to resolve My name is [full_name].. Could you please look into this and provide a solution as soon as possible? I appreciate your prompt attention to this matter and look forward to hearing from you soon.",
+  "category_of_the_email": "Incident"
+}

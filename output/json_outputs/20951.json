@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Help Needed: Canon PIXMA MG3620 Paper Jam Issue\n\nDear Customer Support,\n\nI hope this message finds you well You can reach me at carlosm@gmail.com.. I am writing to report an issue I\u2019m experiencing with my Canon PIXMA MG3620 printer, purchased from your Tech Online Store on <date>. Despite following all recommended guidelines and steps provided in the user manual, my printer repeatedly shows a 'Paper Jam' error message during routine operations.\n\nThe device has functioned well since purchase until recently when it started showing this error without any apparent cause. I meticulously checked for any visible jams, removed dust, and ensured no tiny paper pieces are stuck within the machine. In addition, multiple troubleshooting attempts have been made such as powering down the device, reconnecting it, as well as reinstalling the drivers on my PC, yet the error persists.\n\nI rely heavily on the printer for my professional assignments and projects, making this issue quite inconvenient. Therefore, I am seeking your technical expertise in resolving this matter or guidance on obtaining a replacement if the device is indeed faulty. If any further information such as the printer\u2019s serial number or my purchase details is needed for processing my request, please inform me how I can securely provide this data.\n\nPlease contact me at your earliest convenience via email or my phone number <tel_num> to assist in resolving this issue. Thank you for your prompt attention to this matter.\n\nBest regards,\n\n<name> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1534,
+        1542
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        137,
+        154
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        36,
+        40
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        218,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Help Needed: Canon PIXMA MG[phone_number] Paper Jam Issue\n\nDear Customer Support,\n\nI hope this message finds you well You can reach me at [email].. I am writing to report an issue I\u2019m experiencing with my Canon PIXMA MG[phone_number] printer, purchased from your Tech Online Store on <date>. Despite following all recommended guidelines and steps provided in the user manual, my printer repeatedly shows a 'Paper Jam' error message during routine operations.\n\nThe device has functioned well since purchase until recently when it started showing this error without any apparent cause. I meticulously checked for any visible jams, removed dust, and ensured no tiny paper pieces are stuck within the machine. In addition, multiple troubleshooting attempts have been made such as powering down the device, reconnecting it, as well as reinstalling the drivers on my PC, yet the error persists.\n\nI rely heavily on the printer for my professional assignments and projects, making this issue quite inconvenient. Therefore, I am seeking your technical expertise in resolving this matter or guidance on obtaining a replacement if the device is indeed faulty. If any further information such as the printer\u2019s serial number or my purchase details is needed for processing my request, please inform me how I can securely provide this data.\n\nPlease contact me at your earliest convenience via email or my phone number <tel_num> to assist in resolving this issue. Thank you for your prompt attention to this matter.\n\nBest regards,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

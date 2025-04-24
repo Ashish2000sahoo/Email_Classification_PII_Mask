@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema urgente con el teclado Dell XPS 13\n\nEstimado equipo de soporte al cliente de Tech Online Store, espero que este mensaje les encuentre bien. Estoy escribiendo para expresar mi preocupaci\u00f3n respecto a los problemas del teclado que estoy experimentando con el Dell XPS 13 9310, que compr\u00e9 en su tienda. El teclado se ha vuelto completamente inoperante, impactando enormemente mi productividad y interrumpiendo mis tareas diarias You can reach me at fatima.farsi@help.com.. Este problema es de alta prioridad para m\u00ed, y necesito asistencia para resolverlo r\u00e1pidamente. \u00bfPodr\u00edan por favor aconsejar sobre los pr\u00f3ximos pasos o proporcionar una soluci\u00f3n lo antes posible? Agradecer\u00eda su atenci\u00f3n inmediata a este asunto. Gracias por su comprensi\u00f3n My name is Jane Smith.. Saludos cordiales, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        770,
+        780
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        464,
+        485
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        284,
+        291
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema urgente con el teclado Dell XPS 13\n\nEstimado equipo de soporte al cliente de Tech Online Store, espero que este mensaje les encuentre bien. Estoy escribiendo para expresar mi preocupaci\u00f3n respecto a los problemas del teclado que estoy experimentando con el Dell XPS [phone_number], que compr\u00e9 en su tienda. El teclado se ha vuelto completamente inoperante, impactando enormemente mi productividad y interrumpiendo mis tareas diarias You can reach me at [email].. Este problema es de alta prioridad para m\u00ed, y necesito asistencia para resolverlo r\u00e1pidamente. \u00bfPodr\u00edan por favor aconsejar sobre los pr\u00f3ximos pasos o proporcionar una soluci\u00f3n lo antes posible? Agradecer\u00eda su atenci\u00f3n inmediata a este asunto. Gracias por su comprensi\u00f3n My name is [full_name].. Saludos cordiales, <name>",
+  "category_of_the_email": "Problem"
+}

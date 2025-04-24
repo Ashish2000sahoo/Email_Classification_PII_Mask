@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nGeh\u00f6rte Kundensupport, ich habe Schwierigkeiten mit unerlaubten Zugangsmeldungen auf mehreren Ger\u00e4ten, was darauf hindeutet, dass eine m\u00f6glicherweise Sicherheitsl\u00fccke vorliegt. Trotz aktualisierter Firewall-Einstellungen und durchgef\u00fchrter Malware-Scans sind die Probleme weiterhin bestehen geblieben My name is David Kim.. Ich ben\u00f6tige dringend Hilfe, um das Problem zu l\u00f6sen und weitere Sicherheitsl\u00fccken zu vermeiden You can reach me at fatima.farsi@help.com.. K\u00f6nnten Sie bitte Anleitungen geben, welche n\u00e4chsten Schritte ich unternehmen soll?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        332
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        453,
+        474
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nGeh\u00f6rte Kundensupport, ich habe Schwierigkeiten mit unerlaubten Zugangsmeldungen auf mehreren Ger\u00e4ten, was darauf hindeutet, dass eine m\u00f6glicherweise Sicherheitsl\u00fccke vorliegt. Trotz aktualisierter Firewall-Einstellungen und durchgef\u00fchrter Malware-Scans sind die Probleme weiterhin bestehen geblieben My name is [full_name].. Ich ben\u00f6tige dringend Hilfe, um das Problem zu l\u00f6sen und weitere Sicherheitsl\u00fccken zu vermeiden You can reach me at [email].. K\u00f6nnten Sie bitte Anleitungen geben, welche n\u00e4chsten Schritte ich unternehmen soll?",
+  "category_of_the_email": "Incident"
+}

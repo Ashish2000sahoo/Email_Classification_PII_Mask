@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Missing Product Fees\n\nDear Customer Service, I am writing to report an issue with missing product fees. It appears that several fees for products have not been processed correctly, and I suspect this might be due to a system error in the accounting system My name is David Kim.. I have already reviewed my bills and contacted you, but the issue persists You can reach me at johndoe@email.com.. I would greatly appreciate it if you could further investigate and provide a solution as soon as possible. If you need any additional information to proceed with the investigation, please let me know. I am concerned that this issue might prevent me from receiving important products and services, and I would like to resolve it as soon as possible. Thank you for your support in this matter. I look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        399,
+        416
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Missing Product Fees\n\nDear Customer Service, I am writing to report an issue with missing product fees. It appears that several fees for products have not been processed correctly, and I suspect this might be due to a system error in the accounting system My name is [full_name].. I have already reviewed my bills and contacted you, but the issue persists You can reach me at [email].. I would greatly appreciate it if you could further investigate and provide a solution as soon as possible. If you need any additional information to proceed with the investigation, please let me know. I am concerned that this issue might prevent me from receiving important products and services, and I would like to resolve it as soon as possible. Thank you for your support in this matter. I look forward to hearing from you soon.",
+  "category_of_the_email": "Incident"
+}

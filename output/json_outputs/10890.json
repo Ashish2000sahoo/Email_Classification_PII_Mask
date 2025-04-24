@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sichere medizinische Daten im Hospital IT-System: Informationen zur Verbesserung anbieten?\n\nIch ben\u00f6tige Informationen zur Sicherung medizinischer Daten und zur Verbesserung der Hospital IT-Systeme. Vielen Dank.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        259
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Sichere medizinische Daten im Hospital IT-System: Informationen zur Verbesserung anbieten?\n\nIch ben\u00f6tige Informationen zur Sicherung medizinischer Daten und zur Verbesserung der Hospital IT-Systeme. Vielen Dank.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Langsame Internetprobleme mit Cisco Router\n\nSehr geehrter Kundensupport,\n\nIch habe mit meinem Cisco Router ISR4331 langsame Internetverbindungen. K\u00f6nnten Sie bitte Diagnosetests durchf\u00fchren, um festzustellen, ob es Konfigurationsfehler oder Hardwareprobleme gibt, die dieses Problem verursachen?\n\nVielen Dank,\n<name>. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        119,
+        123
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        348,
+        364
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Langsame Internetprobleme mit Cisco Router\n\nSehr geehrter Kundensupport,\n\nIch habe mit meinem Cisco Router ISR[phone_number] langsame Internetverbindungen. K\u00f6nnten Sie bitte Diagnosetests durchf\u00fchren, um festzustellen, ob es Konfigurationsfehler oder Hardwareprobleme gibt, die dieses Problem verursachen?\n\nVielen Dank,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

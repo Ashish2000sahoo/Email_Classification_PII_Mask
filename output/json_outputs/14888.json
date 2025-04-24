@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Inquiry on Payment Options for Medical Data Security Services\n\nI would like to know about the payment options for your medical data security services. Could you please share more details on the payment methods you offer?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        267
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Payment Options for Medical Data Security Services\n\nI would like to know about the payment options for your medical data security services. Could you please share more details on the payment methods you offer?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

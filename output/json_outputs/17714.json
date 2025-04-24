@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Investment-Optimization Tool\n\nDear Customer Support, I am writing to report an issue with the Investment-Optimization Tool My name is Carlos Mendoza.. The tool is providing incorrect insights and potentially leading to financial losses, which seem to be related to conflicts with the Dashcam Firewall settings. Despite attempts to restart the software and reinstall it, the problems persist You can reach me at janesmith@company.com.. Even after efforts, the issue remains unresolved. I appreciate your prompt attention to this matter and hope to receive a solution soon. Please inform me if any additional information is needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        428,
+        449
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investment-Optimization Tool\n\nDear Customer Support, I am writing to report an issue with the Investment-Optimization Tool My name is [full_name].. The tool is providing incorrect insights and potentially leading to financial losses, which seem to be related to conflicts with the Dashcam Firewall settings. Despite attempts to restart the software and reinstall it, the problems persist You can reach me at [email].. Even after efforts, the issue remains unresolved. I appreciate your prompt attention to this matter and hope to receive a solution soon. Please inform me if any additional information is needed.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur digitalen Strategie und Dienstleistungen\n\nGeh\u00f6rte Kundenservice, ich m\u00f6chte digitalen Strategien und Dienstleistungen zum Markenwachstum nachgehen My name is Jane Smith.. K\u00f6nnten Sie mir bitte mehr Informationen \u00fcber den Ansatz und die verf\u00fcgbaren Dienstleistungen f\u00fcr das digitale Marketing geben? Ich freue mich darauf, weitere Details zu erhalten You can reach me at liuwei@business.cn.. Vielen Dank! Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        390,
+        408
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Frage zur digitalen Strategie und Dienstleistungen\n\nGeh\u00f6rte Kundenservice, ich m\u00f6chte digitalen Strategien und Dienstleistungen zum Markenwachstum nachgehen My name is [full_name].. K\u00f6nnten Sie mir bitte mehr Informationen \u00fcber den Ansatz und die verf\u00fcgbaren Dienstleistungen f\u00fcr das digitale Marketing geben? Ich freue mich darauf, weitere Details zu erhalten You can reach me at [email].. Vielen Dank! Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

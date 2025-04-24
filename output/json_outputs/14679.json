@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Digital Marketing Tactics\n\nIs it possible to offer insights on optimizing digital marketing strategies for our marketing agency? We are looking to enhance our online presence and reach a broader audience My name is Jane Smith.. Our team is exploring ways to effectively utilize the products at our disposal to achieve our goals You can reach me at maria.gonzalez@shop.es.. We would greatly appreciate any guidance or support in this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        244
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        368,
+        390
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Digital Marketing Tactics\n\nIs it possible to offer insights on optimizing digital marketing strategies for our marketing agency? We are looking to enhance our online presence and reach a broader audience My name is [full_name].. Our team is exploring ways to effectively utilize the products at our disposal to achieve our goals You can reach me at [email].. We would greatly appreciate any guidance or support in this matter.",
+  "category_of_the_email": "Request"
+}

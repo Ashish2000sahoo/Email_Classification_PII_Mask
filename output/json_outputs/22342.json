@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Customer Issue with Server Access\n\nHello,\n\nI am writing to report an issue encountered by our customer, <name> My name is Omar Hassan.. They have been experiencing problems accessing certain server functionalities, which has resulted in operational downtime for their software solutions. This issue particularly affects our IT Consulting Service. Currently, it is causing considerable inconvenience and a potential financial impact.\n\nOur customer has articulated that when trying to utilize the standard server operations, they receive error messages that disrupt their workflow. It seems as though there might be a discrepancy in their server access permissions, or possibly a temporary glitch in the server operations.\n\nPlease prioritize this issue for a swift resolution to restore our customer's service efficiency. If needed, I can provide additional details from the interaction logs or connect you directly with the customer's tech team.\n\nThank you for your prompt attention to this urgent matter You can reach me at liuwei@business.cn.. Our customer truly values the reliability of your services and hopes to see the server functionalities fully restored soon.\n\nBest regards,\n\n<name>\nIT Department\n<company>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        142
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1033,
+        1051
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Customer Issue with Server Access\n\nHello,\n\nI am writing to report an issue encountered by our customer, <name> My name is [full_name].. They have been experiencing problems accessing certain server functionalities, which has resulted in operational downtime for their software solutions. This issue particularly affects our IT Consulting Service. Currently, it is causing considerable inconvenience and a potential financial impact.\n\nOur customer has articulated that when trying to utilize the standard server operations, they receive error messages that disrupt their workflow. It seems as though there might be a discrepancy in their server access permissions, or possibly a temporary glitch in the server operations.\n\nPlease prioritize this issue for a swift resolution to restore our customer's service efficiency. If needed, I can provide additional details from the interaction logs or connect you directly with the customer's tech team.\n\nThank you for your prompt attention to this urgent matter You can reach me at [email].. Our customer truly values the reliability of your services and hopes to see the server functionalities fully restored soon.\n\nBest regards,\n\n<name>\nIT Department\n<company>",
+  "category_of_the_email": "Incident"
+}

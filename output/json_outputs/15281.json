@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Please Improve Integration Features\n\nDear customer support, I am writing to request enhancements in integration capabilities for the listed products, which would significantly boost project management efficiency and the user experience You can reach me at johndoe@email.com.. I believe these changes would be highly beneficial and appreciated by users. We would greatly value your consideration of this request My name is Omar Hassan.. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        431,
+        442
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        265,
+        282
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Please Improve Integration Features\n\nDear customer support, I am writing to request enhancements in integration capabilities for the listed products, which would significantly boost project management efficiency and the user experience You can reach me at [email].. I believe these changes would be highly beneficial and appreciated by users. We would greatly value your consideration of this request My name is [full_name].. Thank you for your time and assistance.",
+  "category_of_the_email": "Change"
+}

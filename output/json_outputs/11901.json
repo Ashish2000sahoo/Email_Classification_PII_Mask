@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Data Breach Involving Medical Records\n\nThere was a data breach affecting medical records due to poor access control measures.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        185
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Breach Involving Medical Records\n\nThere was a data breach affecting medical records due to poor access control measures.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

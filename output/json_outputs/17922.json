@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice,\\nich m\u00f6chte Sie auf ein Problem hinweisen, das ich w\u00e4hrend meiner Investitionsergebnisse beobachtet habe You can reach me at sophia.rossi@service.it.. Die tats\u00e4chlichen Ergebnisse unterscheiden sich erheblich von den berechneten Daten, und ich vermute, dass dies m\u00f6glicherweise auf ungenaue Dateneingaben zur\u00fcckzuf\u00fchren ist. Ich habe bereits die Einstellungen meiner Analysesoftware gepr\u00fcft, aber der Grund f\u00fcr diesen Fehler konnte bisher noch nicht ermittelt werden.\\nIch w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir Ratschl\u00e4ge geben k\u00f6nnten, wie ich dieses Problem l\u00f6sen kann. Bitte geben Sie mir auch Anweisungen, falls ich weitere Schritte unternehmen sollte, oder melden Sie, dass Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um die Ermittlungen voranzutreiben.\\nVielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        943,
+        952
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        164,
+        187
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice,\\nich m\u00f6chte Sie auf ein Problem hinweisen, das ich w\u00e4hrend meiner Investitionsergebnisse beobachtet habe You can reach me at [email].. Die tats\u00e4chlichen Ergebnisse unterscheiden sich erheblich von den berechneten Daten, und ich vermute, dass dies m\u00f6glicherweise auf ungenaue Dateneingaben zur\u00fcckzuf\u00fchren ist. Ich habe bereits die Einstellungen meiner Analysesoftware gepr\u00fcft, aber der Grund f\u00fcr diesen Fehler konnte bisher noch nicht ermittelt werden.\\nIch w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir Ratschl\u00e4ge geben k\u00f6nnten, wie ich dieses Problem l\u00f6sen kann. Bitte geben Sie mir auch Anweisungen, falls ich weitere Schritte unternehmen sollte, oder melden Sie, dass Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um die Ermittlungen voranzutreiben.\\nVielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

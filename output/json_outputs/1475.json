@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Projektdaten fehlten nach der Aktualisierung\n\nProjektdaten waren nach der Software-Aktualisierung nicht mehr zug\u00e4nglich My name is Fatima Al-Farsi.. Der Ursachengehalt k\u00f6nnte ein unkompatibles Plugin oder ein Softwarekonflikt sein You can reach me at carlosm@gmail.com.. Ich habe den Systemneustart versucht, habe die vorhandenen Backups \u00fcberpr\u00fcft und mich in den Online-Forums umgesehen, aber das Problem konnte nicht verbessert werden. Ich bitte Sie um Hilfe bei der Wiederherstellung meiner Projektdaten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        149
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        262,
+        279
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Projektdaten fehlten nach der Aktualisierung\n\nProjektdaten waren nach der Software-Aktualisierung nicht mehr zug\u00e4nglich My name is [full_name]-Farsi.. Der Ursachengehalt k\u00f6nnte ein unkompatibles Plugin oder ein Softwarekonflikt sein You can reach me at [email].. Ich habe den Systemneustart versucht, habe die vorhandenen Backups \u00fcberpr\u00fcft und mich in den Online-Forums umgesehen, aber das Problem konnte nicht verbessert werden. Ich bitte Sie um Hilfe bei der Wiederherstellung meiner Projektdaten.",
+  "category_of_the_email": "Incident"
+}

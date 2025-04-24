@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Update Required for Jira Software 8.20\n\nDear Customer Support,\n\nI am writing to urgently request an update for our customer-facing project management tool, Jira Software 8.20. Our team has been experiencing an outage that severely affects our service availability and team coordination You can reach me at elena.ivanova@support.org.. As you can imagine, this disruption is impacting our key project deliverables. We kindly ask for your immediate intervention to resolve the issue My name is Elena Ivanova.. Please advise on any steps we should take to assist you in expediting this process.\n\nLooking forward to your swift response.\n\nThank you,\n\n<name>\nProject Manager\n<company_name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        507,
+        520
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        322,
+        347
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent Update Required for Jira Software 8.20\n\nDear Customer Support,\n\nI am writing to urgently request an update for our customer-facing project management tool, Jira Software 8.20. Our team has been experiencing an outage that severely affects our service availability and team coordination You can reach me at [email].. As you can imagine, this disruption is impacting our key project deliverables. We kindly ask for your immediate intervention to resolve the issue My name is [full_name].. Please advise on any steps we should take to assist you in expediting this process.\n\nLooking forward to your swift response.\n\nThank you,\n\n<name>\nProject Manager\n<company_name>",
+  "category_of_the_email": "Incident"
+}

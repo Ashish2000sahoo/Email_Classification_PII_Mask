@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Data Vanished During Synchronization Today\n\nI encountered an issue with my project data disappearing suddenly during the sync process today My name is Elena Ivanova.. It is possible that the problem is related to network instability or a software malfunction You can reach me at liuwei@business.cn.. I have already tried rebooting my computer and verifying my network settings, but the issue remains unresolved. Could you please look into this and provide a resolution at your earliest convenience? Please advise if there is any further information you require from me to address this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        181
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        294,
+        312
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Project Data Vanished During Synchronization Today\n\nI encountered an issue with my project data disappearing suddenly during the sync process today My name is [full_name].. It is possible that the problem is related to network instability or a software malfunction You can reach me at [email].. I have already tried rebooting my computer and verifying my network settings, but the issue remains unresolved. Could you please look into this and provide a resolution at your earliest convenience? Please advise if there is any further information you require from me to address this matter.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Medical Data Breach Assistance Required\n\nDear Support Team, I urgently need your help with a recent medical data breach You can reach me at elena.ivanova@support.org.. It seems to have been caused by outdated software, despite my efforts to secure our systems. Could you guide me through the steps needed to investigate this, and advise on how to prevent similar issues in the future? I look forward to your prompt response. Please provide any necessary information to assist in resolving this matter quickly My name is David Kim.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        536,
+        545
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        156,
+        181
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent Medical Data Breach Assistance Required\n\nDear Support Team, I urgently need your help with a recent medical data breach You can reach me at [email].. It seems to have been caused by outdated software, despite my efforts to secure our systems. Could you guide me through the steps needed to investigate this, and advise on how to prevent similar issues in the future? I look forward to your prompt response. Please provide any necessary information to assist in resolving this matter quickly My name is [full_name].. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

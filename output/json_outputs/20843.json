@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgente: Problema com Dell XPS 13 9310\n\nCaro Suporte da Loja Online Tech,\n\nEstou enfrentando um problema com meu Dell XPS 13 9310, que \u00e0s vezes congela e interrompe meu fluxo de trabalho. Voc\u00ea poderia me ajudar a diagnosticar e resolver esse problema?\n\nObrigado,\n<name>\nN\u00famero da Conta: <acc_num>\nTelefone: <tel_num>. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        40,
+        47
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        131,
+        138
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        348,
+        364
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problema com Dell XPS [phone_number]\n\nCaro Suporte da Loja Online Tech,\n\nEstou enfrentando um problema com meu Dell XPS [phone_number], que \u00e0s vezes congela e interrompe meu fluxo de trabalho. Voc\u00ea poderia me ajudar a diagnosticar e resolver esse problema?\n\nObrigado,\n<name>\nN\u00famero da Conta: <acc_num>\nTelefone: <tel_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

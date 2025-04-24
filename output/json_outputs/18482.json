@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: IT-Probleme im Krankenhaus - Unterst\u00fctzung erforderlich\n\nEs wurde versucht, unbefugt in das IT-System des Krankenhauses einzudringen. M\u00f6gliche Gr\u00fcnde sind Netzwerkschwerpunkte und gestohlene Benutzerdaten. Um die Sicherheit zu gew\u00e4hrleisten, wurden Ma\u00dfnahmen wie Passwort\u00e4nderungen und Protokoll\u00fcberwachung unternommen My name is Liu Wei.. Allerdings besteht das Problem weiterhin You can reach me at maria.gonzalez@shop.es.. Zus\u00e4tzliche Unterst\u00fctzung wird ben\u00f6tigt, um das Problem zu l\u00f6sen und die Sicherheit der Patientendaten zu gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        346
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        414,
+        436
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: IT-Probleme im Krankenhaus - Unterst\u00fctzung erforderlich\n\nEs wurde versucht, unbefugt in das IT-System des Krankenhauses einzudringen. M\u00f6gliche Gr\u00fcnde sind Netzwerkschwerpunkte und gestohlene Benutzerdaten. Um die Sicherheit zu gew\u00e4hrleisten, wurden Ma\u00dfnahmen wie Passwort\u00e4nderungen und Protokoll\u00fcberwachung unternommen My name is [full_name].. Allerdings besteht das Problem weiterhin You can reach me at [email].. Zus\u00e4tzliche Unterst\u00fctzung wird ben\u00f6tigt, um das Problem zu l\u00f6sen und die Sicherheit der Patientendaten zu gew\u00e4hrleisten.",
+  "category_of_the_email": "Incident"
+}

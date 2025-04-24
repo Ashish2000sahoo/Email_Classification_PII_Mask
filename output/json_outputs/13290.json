@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancements to Investment Portfolio Analysis Tool\n\nDear Customer Support, I am contacting you to propose improvements to the investment portfolio analysis tool. Currently, the tool offers a useful summary of my portfolio, but I need additional advanced analytical functionalities. I am particularly interested in detailed metrics such as risk assessment and performance monitoring. These enhancements would enable me to make more educated investment choices and improve my portfolio's optimization My name is Jane Smith.. We should consider incorporating these features in the tool. Furthermore, I would like to request more regular data updates to stay abreast of market trends You can reach me at maria.gonzalez@shop.es.. Thank you for your attention to this matter. I eagerly await your response. Warm regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        519,
+        529
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        710,
+        732
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhancements to Investment Portfolio Analysis Tool\n\nDear Customer Support, I am contacting you to propose improvements to the investment portfolio analysis tool. Currently, the tool offers a useful summary of my portfolio, but I need additional advanced analytical functionalities. I am particularly interested in detailed metrics such as risk assessment and performance monitoring. These enhancements would enable me to make more educated investment choices and improve my portfolio's optimization My name is [full_name].. We should consider incorporating these features in the tool. Furthermore, I would like to request more regular data updates to stay abreast of market trends You can reach me at [email].. Thank you for your attention to this matter. I eagerly await your response. Warm regards, [Your Name]",
+  "category_of_the_email": "Change"
+}

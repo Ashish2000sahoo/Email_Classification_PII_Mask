@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Network Access\n\nI am encountering difficulties in accessing medical data owing to a network disruption My name is Carlos Mendoza.. Despite efforts to reset the router, perform virus scans, and review firewall configurations, the issue remains unresolved. I believe there might be a configuration mistake or a potential malware intrusion. Could you offer assistance in addressing this concern? You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        143,
+        157
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        439,
+        456
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Network Access\n\nI am encountering difficulties in accessing medical data owing to a network disruption My name is [full_name].. Despite efforts to reset the router, perform virus scans, and review firewall configurations, the issue remains unresolved. I believe there might be a configuration mistake or a potential malware intrusion. Could you offer assistance in addressing this concern? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

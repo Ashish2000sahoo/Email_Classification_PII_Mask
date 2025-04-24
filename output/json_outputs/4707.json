@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Delay in Adobe Creative Cloud Services\n\nNoted a delay in accessing Adobe Creative Cloud services, which has affected project timelines. This delay may have been caused by recent maintenance updates.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        258
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Delay in Adobe Creative Cloud Services\n\nNoted a delay in accessing Adobe Creative Cloud services, which has affected project timelines. This delay may have been caused by recent maintenance updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

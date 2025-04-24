@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Monday.com\n\nI would like to request improvements for the integration of a streaming camera, enhanced project management, and real-time collaborative features. These improvements aim to streamline the workflow and increase productivity.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        279,
+        294
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support for Monday.com\n\nI would like to request improvements for the integration of a streaming camera, enhanced project management, and real-time collaborative features. These improvements aim to streamline the workflow and increase productivity.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

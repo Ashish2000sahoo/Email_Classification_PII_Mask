@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Informationen zur Projektoberwachungssoftware\n\nIch wende mich an Sie, um mehr \u00fcber die verf\u00fcgbaren Funktionen im Projektmanagement-Software-as-a-Service f\u00fcr Teamkollaboration zu erfahren My name is Omar Hassan.. K\u00f6nnten Sie mir bitte eine Liste der eingeschlossenen Funktionen des Systems bereitstellen? Ich bin besonders an den Werkzeugen und Funktionen interessiert, die die Produktivit\u00e4t und Effizienz der Teams verbessern k\u00f6nnen. Zus\u00e4tzlich w\u00fcrde ich gerne mehr \u00fcber die Preisanbieter und Kundensupport-Optionen erfahren. Ich danke Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at johndoe@email.com.. Ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        603,
+        620
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Informationen zur Projektoberwachungssoftware\n\nIch wende mich an Sie, um mehr \u00fcber die verf\u00fcgbaren Funktionen im Projektmanagement-Software-as-a-Service f\u00fcr Teamkollaboration zu erfahren My name is [full_name].. K\u00f6nnten Sie mir bitte eine Liste der eingeschlossenen Funktionen des Systems bereitstellen? Ich bin besonders an den Werkzeugen und Funktionen interessiert, die die Produktivit\u00e4t und Effizienz der Teams verbessern k\u00f6nnen. Zus\u00e4tzlich w\u00fcrde ich gerne mehr \u00fcber die Preisanbieter und Kundensupport-Optionen erfahren. Ich danke Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "category_of_the_email": "Request"
+}

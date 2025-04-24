@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI am facing slow performance issues with the project management SaaS tool, which might be due to high database load and resource competition. Despite attempts to optimize queries and restart affected services, the issue remains unresolved You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate your assistance in troubleshooting and resolving this matter, as it is impacting my productivity and may be caused by database load and resource competition. Please help me troubleshoot and provide a solution. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        543,
+        557
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        270,
+        292
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am facing slow performance issues with the project management SaaS tool, which might be due to high database load and resource competition. Despite attempts to optimize queries and restart affected services, the issue remains unresolved You can reach me at [email].. I would greatly appreciate your assistance in troubleshooting and resolving this matter, as it is impacting my productivity and may be caused by database load and resource competition. Please help me troubleshoot and provide a solution. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

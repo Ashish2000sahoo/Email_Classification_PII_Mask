@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Integration Details of IBM SPSS Statistics 28\n\nI am looking to inquire about integrating IBM SPSS Statistics 28 with our current investment data analytics tools. Could you provide more details on the process? We are particularly interested in learning how to seamlessly combine these tools to enhance our data analysis capabilities My name is Maria Gonzalez.. Specifically, we would like to know about any compatibility issues, required software updates, and the potential benefits of the integration You can reach me at sophia.rossi@service.it.. Your guidance on this matter would be greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        364,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        539,
+        562
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Integration Details of IBM SPSS Statistics 28\n\nI am looking to inquire about integrating IBM SPSS Statistics 28 with our current investment data analytics tools. Could you provide more details on the process? We are particularly interested in learning how to seamlessly combine these tools to enhance our data analysis capabilities My name is [full_name].. Specifically, we would like to know about any compatibility issues, required software updates, and the potential benefits of the integration You can reach me at [email].. Your guidance on this matter would be greatly appreciated.",
+  "category_of_the_email": "Request"
+}

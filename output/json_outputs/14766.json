@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Improvement Request\n\nDear Customer Service, I am writing to request enhancements to the security protocols for managing medical data in hospitals. Ensuring compliance with data protection regulations in the healthcare industry is of great importance. I would like to suggest the implementation of advanced encryption methods, secure data storage, and regular security audits to prevent data theft My name is Liu Wei.. Additionally, it would be beneficial to provide training for hospital personnel on best security practices related to data handling You can reach me at omar.hassan@secure.net.. I believe these measures will help protect sensitive medical information and maintain patient trust.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        426,
+        433
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        592,
+        614
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Security Improvement Request\n\nDear Customer Service, I am writing to request enhancements to the security protocols for managing medical data in hospitals. Ensuring compliance with data protection regulations in the healthcare industry is of great importance. I would like to suggest the implementation of advanced encryption methods, secure data storage, and regular security audits to prevent data theft My name is [full_name].. Additionally, it would be beneficial to provide training for hospital personnel on best security practices related to data handling You can reach me at [email].. I believe these measures will help protect sensitive medical information and maintain patient trust.",
+  "category_of_the_email": "Change"
+}

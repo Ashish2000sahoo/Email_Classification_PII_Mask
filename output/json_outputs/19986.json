@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, our agency is facing connectivity issues with digital tools. These issues might be due to recent software updates conflicting with hardware settings You can reach me at liuwei@business.cn.. So far, we have rebooted the router and other devices, but the issue still persists. We need assistance to resolve this issue promptly to minimize disruptions to our operations. Please provide guidance on the next steps we should take. We appreciate your prompt attention to this matter and look forward to hearing from you soon. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        565,
+        579
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        203,
+        221
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, our agency is facing connectivity issues with digital tools. These issues might be due to recent software updates conflicting with hardware settings You can reach me at [email].. So far, we have rebooted the router and other devices, but the issue still persists. We need assistance to resolve this issue promptly to minimize disruptions to our operations. Please provide guidance on the next steps we should take. We appreciate your prompt attention to this matter and look forward to hearing from you soon. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

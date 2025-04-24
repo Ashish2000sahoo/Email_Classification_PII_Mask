@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Reported: Website Loading Slowly\n\nGreetings Customer Support, I am contacting you to report that the website is loading slowly My name is Fatima Al-Farsi.. This has occurred unexpectedly and might be due to a high volume of traffic. Despite attempting to restart the server and verify network connectivity, the problem continues to persist You can reach me at sophia.rossi@service.it.. Could you please look into this and offer a solution at your earliest convenience? If there is any additional information needed from me to address this, please let me know. I look forward to your response. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        162
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        377,
+        400
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue Reported: Website Loading Slowly\n\nGreetings Customer Support, I am contacting you to report that the website is loading slowly My name is [full_name]-Farsi.. This has occurred unexpectedly and might be due to a high volume of traffic. Despite attempting to restart the server and verify network connectivity, the problem continues to persist You can reach me at [email].. Could you please look into this and offer a solution at your earliest convenience? If there is any additional information needed from me to address this, please let me know. I look forward to your response. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

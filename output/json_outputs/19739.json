@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei digitalen Strategien f\u00fcr Gaming PCs und Software-Subscriptions\n\nSehr geehrte Kundenservice-Abteilung, ich w\u00fcrde gerne mehr \u00fcber digitalen Strategien erfahren, insbesondere f\u00fcr Produkte wie Gaming PCs und Software-Subscriptions You can reach me at maria.gonzalez@shop.es.. K\u00f6nnten Sie Informationen zu Online-Marketingans\u00e4tzen geben, insbesondere zu Sozialmedien-Kampagnen und E-Mail-Marketing-Efforts, die das Ziel haben, das Zielpublikum zu erreichen? Dar\u00fcber hinaus w\u00e4re ich interessiert, zu erfahren, welche Mittel zur Verf\u00fcgung stehen, um die Effektivit\u00e4t dieser Strategien basierend auf gesammelten Daten zu messen und anpassen zu k\u00f6nnen My name is John Doe.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        681,
+        689
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        274,
+        296
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei digitalen Strategien f\u00fcr Gaming PCs und Software-Subscriptions\n\nSehr geehrte Kundenservice-Abteilung, ich w\u00fcrde gerne mehr \u00fcber digitalen Strategien erfahren, insbesondere f\u00fcr Produkte wie Gaming PCs und Software-Subscriptions You can reach me at [email].. K\u00f6nnten Sie Informationen zu Online-Marketingans\u00e4tzen geben, insbesondere zu Sozialmedien-Kampagnen und E-Mail-Marketing-Efforts, die das Ziel haben, das Zielpublikum zu erreichen? Dar\u00fcber hinaus w\u00e4re ich interessiert, zu erfahren, welche Mittel zur Verf\u00fcgung stehen, um die Effektivit\u00e4t dieser Strategien basierend auf gesammelten Daten zu messen und anpassen zu k\u00f6nnen My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "category_of_the_email": "Request"
+}

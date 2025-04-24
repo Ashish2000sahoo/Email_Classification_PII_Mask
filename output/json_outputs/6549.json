@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Payment Methods for Medical Data Services\n\nHello Customer Support, I am writing to gather information about the payment methods accepted for medical data services. Could you please furnish me with a comprehensive list of the accepted payment methods, such as credit cards, bank transfers, and online payment platforms? Additionally, I would be grateful if you could provide me with any essential information I might need. Moreover, could you also share any current discounts or promotions that might be applicable? I am eager to learn more and secure my medical data services My name is John Doe.. Thank you for your assistance You can reach me at liuwei@business.cn.. Please feel free to request any further details if needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        612,
+        620
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        676,
+        694
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Payment Methods for Medical Data Services\n\nHello Customer Support, I am writing to gather information about the payment methods accepted for medical data services. Could you please furnish me with a comprehensive list of the accepted payment methods, such as credit cards, bank transfers, and online payment platforms? Additionally, I would be grateful if you could provide me with any essential information I might need. Moreover, could you also share any current discounts or promotions that might be applicable? I am eager to learn more and secure my medical data services My name is [full_name].. Thank you for your assistance You can reach me at [email].. Please feel free to request any further details if needed.",
+  "category_of_the_email": "Request"
+}

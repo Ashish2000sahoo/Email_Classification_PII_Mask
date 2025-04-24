@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Security Measures for Medical Data in Hospital IT Systems\n\nDear Customer Support, I hope this message finds you well My name is Liu Wei.. I am writing to delve into the security protocols that hospitals implement to safeguard sensitive medical data within their IT systems You can reach me at maria.gonzalez@shop.es.. Given the critical nature of medical data, it is imperative that it is protected against unauthorized access. Could you please outline the specific security measures and technologies that are currently in place to ensure the confidentiality, integrity, and availability of this data? Encryption, firewalls, and access controls are just a few examples, but I would appreciate a detailed overview of the actual measures utilized. Any additional information or resources you could share would be greatly appreciated. Thank you very much for your time and assistance. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        155
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        317,
+        339
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Security Measures for Medical Data in Hospital IT Systems\n\nDear Customer Support, I hope this message finds you well My name is [full_name].. I am writing to delve into the security protocols that hospitals implement to safeguard sensitive medical data within their IT systems You can reach me at [email].. Given the critical nature of medical data, it is imperative that it is protected against unauthorized access. Could you please outline the specific security measures and technologies that are currently in place to ensure the confidentiality, integrity, and availability of this data? Encryption, firewalls, and access controls are just a few examples, but I would appreciate a detailed overview of the actual measures utilized. Any additional information or resources you could share would be greatly appreciated. Thank you very much for your time and assistance. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

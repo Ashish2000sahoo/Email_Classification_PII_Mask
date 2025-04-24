@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsanfrage\n\ngeehrte Kundenservice, ich schreibe Ihnen, um eine Anfrage zu erweiterten Sicherheitsma\u00dfnahmen bez\u00fcglich medizinischer Daten und Krankenhaus-IT-Systeme zu stellen. Die aktuellen Sicherheitsprotokolle bieten m\u00f6glicherweise nicht ausreichende Schutzma\u00dfnahmen f\u00fcr sensible Patientendaten My name is Carlos Mendoza.. Ich rate dringend, starke Sicherheitsma\u00dfnahmen umzusetzen, um Datenverletzungen und Cyberangriffe zu verhindern. Es ist entscheidend, das Patientenvertrauen zu erhalten und die Integrit\u00e4t der medizinischen Daten zu gew\u00e4hrleisten You can reach me at carlosm@gmail.com.. Ich sch\u00e4tze eine erfrischende Antwort, in der Ma\u00dfnahmen genannt werden, die ergriffen werden, um meine Sorge zu ber\u00fccksichtigen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit hierzu.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        588,
+        605
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsanfrage\n\ngeehrte Kundenservice, ich schreibe Ihnen, um eine Anfrage zu erweiterten Sicherheitsma\u00dfnahmen bez\u00fcglich medizinischer Daten und Krankenhaus-IT-Systeme zu stellen. Die aktuellen Sicherheitsprotokolle bieten m\u00f6glicherweise nicht ausreichende Schutzma\u00dfnahmen f\u00fcr sensible Patientendaten My name is [full_name].. Ich rate dringend, starke Sicherheitsma\u00dfnahmen umzusetzen, um Datenverletzungen und Cyberangriffe zu verhindern. Es ist entscheidend, das Patientenvertrauen zu erhalten und die Integrit\u00e4t der medizinischen Daten zu gew\u00e4hrleisten You can reach me at [email].. Ich sch\u00e4tze eine erfrischende Antwort, in der Ma\u00dfnahmen genannt werden, die ergriffen werden, um meine Sorge zu ber\u00fccksichtigen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit hierzu.",
+  "category_of_the_email": "Change"
+}

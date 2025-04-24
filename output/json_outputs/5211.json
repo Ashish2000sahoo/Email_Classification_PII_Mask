@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nA critical bug has been reported in the project management SaaS integration, leading to disruptions My name is Liu Wei.. Recent API changes might be the cause You can reach me at elena.ivanova@support.org.. I have already attempted to reset the integrations and verify the API keys, but the issue still persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        122,
+        129
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        194,
+        219
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nA critical bug has been reported in the project management SaaS integration, leading to disruptions My name is [full_name].. Recent API changes might be the cause You can reach me at [email].. I have already attempted to reset the integrations and verify the API keys, but the issue still persists.",
+  "category_of_the_email": "Incident"
+}

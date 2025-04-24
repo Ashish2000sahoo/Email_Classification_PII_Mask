@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Concurrent Tool Failures and Request for Assistance\n\nI am contacting you to report an issue where various tools are crashing at the same time, significantly disrupting my work flow You can reach me at johndoe@email.com.. This might be caused by an overloaded server or incompatible software. Till now, I've attempted to restart my devices, check for updates, and clear the cache, yet the problem remains unresolved My name is Omar Hassan.. Could you please examine this issue and offer a potential solution as soon as possible? Please inform me if there's any further information you require from me to resolve this issue. I look forward to your prompt response. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        456
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        220,
+        237
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Concurrent Tool Failures and Request for Assistance\n\nI am contacting you to report an issue where various tools are crashing at the same time, significantly disrupting my work flow You can reach me at [email].. This might be caused by an overloaded server or incompatible software. Till now, I've attempted to restart my devices, check for updates, and clear the cache, yet the problem remains unresolved My name is [full_name].. Could you please examine this issue and offer a potential solution as soon as possible? Please inform me if there's any further information you require from me to resolve this issue. I look forward to your prompt response. Thank you for your time and support.",
+  "category_of_the_email": "Incident"
+}

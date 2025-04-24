@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Digital Audio\n\nWe are looking to enhance the Kopfh\u00f6rer experience for Apple macOS Monterey. Could you please share more details regarding any issues you are facing with your headphones on macOS Monterey? If there are any error messages or if the headphones are not recognized by the system, this information would be very helpful for us to provide a targeted solution. Alternatively, we can also schedule a call to troubleshoot the issue My name is Fatima Al-Farsi.. You can contact us at <tel_num> or reply to this email with a convenient time slot. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        470,
+        479
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        594,
+        616
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Digital Audio\n\nWe are looking to enhance the Kopfh\u00f6rer experience for Apple macOS Monterey. Could you please share more details regarding any issues you are facing with your headphones on macOS Monterey? If there are any error messages or if the headphones are not recognized by the system, this information would be very helpful for us to provide a targeted solution. Alternatively, we can also schedule a call to troubleshoot the issue My name is [full_name]-Farsi.. You can contact us at <tel_num> or reply to this email with a convenient time slot. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

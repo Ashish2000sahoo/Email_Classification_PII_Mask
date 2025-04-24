@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS Configuration Change Request\n\nDear Customer Support,\n\nI am writing to request a change in our AWS configuration under the AWS Management Service. We believe enhancing our cloud infrastructure efficiency will significantly improve deployment speeds and overall system performance You can reach me at janesmith@company.com.. Please advise on the next steps.\n\nThank you,\n<name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        312,
+        333
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: AWS Configuration Change Request\n\nDear Customer Support,\n\nI am writing to request a change in our AWS configuration under the AWS Management Service. We believe enhancing our cloud infrastructure efficiency will significantly improve deployment speeds and overall system performance You can reach me at [email].. Please advise on the next steps.\n\nThank you,\n<name> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

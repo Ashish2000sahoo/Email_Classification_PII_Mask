@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with HubSpot CRM Integration Today\n\nThe marketing team is encountering difficulties with HubSpot CRM. Recent software updates could be causing conflicts with our existing systems. We have already restarted the CRM, cleared the cache, and verified the network connections, but the issue still persists My name is Sophia Rossi.. We kindly request your assistance in resolving this as soon as possible. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        341
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        436,
+        458
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with HubSpot CRM Integration Today\n\nThe marketing team is encountering difficulties with HubSpot CRM. Recent software updates could be causing conflicts with our existing systems. We have already restarted the CRM, cleared the cache, and verified the network connections, but the issue still persists My name is [full_name].. We kindly request your assistance in resolving this as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Meldung \u00fcber Login-Probleme\n\nWir bemerken derzeit Probleme bei den Logins, was m\u00f6glicherweise auf einen Server\u00fcberdruck aufgrund hoher Nutzungstage zur\u00fcckzuf\u00fchren ist. Trotz der Erh\u00f6hung der Serverkapazit\u00e4t und der Optimierung des Login-Prozesses bestehen die Probleme weiterhin You can reach me at david.kim@corp.kr.. Wir arbeiten konsistent daran, die Probleme so schnell wie m\u00f6glich zu beheben My name is Sophia Rossi.. Entschuldigung f\u00fcr die Unannehmlichkeiten. Wir bedanken uns bei Ihnen f\u00fcr Ihr Verst\u00e4ndnis und m\u00f6chten die Probleme l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        417,
+        429
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        308,
+        325
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Meldung \u00fcber Login-Probleme\n\nWir bemerken derzeit Probleme bei den Logins, was m\u00f6glicherweise auf einen Server\u00fcberdruck aufgrund hoher Nutzungstage zur\u00fcckzuf\u00fchren ist. Trotz der Erh\u00f6hung der Serverkapazit\u00e4t und der Optimierung des Login-Prozesses bestehen die Probleme weiterhin You can reach me at [email].. Wir arbeiten konsistent daran, die Probleme so schnell wie m\u00f6glich zu beheben My name is [full_name].. Entschuldigung f\u00fcr die Unannehmlichkeiten. Wir bedanken uns bei Ihnen f\u00fcr Ihr Verst\u00e4ndnis und m\u00f6chten die Probleme l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

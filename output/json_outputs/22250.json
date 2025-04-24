@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Anfrage zum Tintentank\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohlbehalten My name is Maria Gonzalez.. Ich schreibe, um detailliertere Informationen zu einem Produkt anzufordern, an dem ich interessiert bin, das ich in Ihrem Gesch\u00e4ft kaufen m\u00f6chte, und zwar speziell das Modell Epson EcoTank ET-4760 You can reach me at sophia.rossi@service.it.. K\u00fcrzlich bin ich auf dieses Produkt gesto\u00dfen und w\u00fcrde gerne mehr \u00fcber seine Funktionen erfahren, insbesondere in Bezug auf das hochleistungsf\u00e4hige Tintentanksystem und die drahtlosen Druckm\u00f6glichkeiten, die es bietet.\n\nEs ist entscheidend, die Vorteile des hochleistungsf\u00e4higen Tintentanksystems zu verstehen, insbesondere da ich regelm\u00e4\u00dfig hohe Mengen f\u00fcr mein kleines Unternehmen drucke. Die in Ihrer Produktbeschreibung aufgef\u00fchrten Kosteneinsparungen und die Effizienz scheinen vielversprechend zu sein, und ich w\u00fcrde es sch\u00e4tzen, wenn Sie mir weitere Erkl\u00e4rungen dar\u00fcber geben k\u00f6nnten, wie dieses System funktioniert und ob es spezielle Wartungsprotokolle gibt, die erforderlich sind, um seine Langlebigkeit und Funktionalit\u00e4t zu gew\u00e4hrleisten.\n\nZus\u00e4tzlich ist die drahtlose Druckf\u00e4higkeit ein Merkmal, auf das ich h\u00e4ufig angewiesen bin, angesichts der Vielzahl von Ger\u00e4ten, die ich den Tag \u00fcber verwende. Ich w\u00e4re dankbar, wenn Sie erl\u00e4utern k\u00f6nnten, wie der Drucker mit verschiedenen Betriebssystemen und Netzwerken integriert wird. Gibt es spezifische Einschr\u00e4nkungen oder empfohlene Setups, um diese Funktion zu maximieren?\n\nFalls es zus\u00e4tzliche Ressourcen gibt, wie Benutzerhandb\u00fccher oder Links zu Videodemonstrationen, die weitere Einblicke in die effiziente Nutzung des Epson EcoTank ET-4760 bieten k\u00f6nnten, teilen Sie diese bitte mit.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf Ihre zeitnahe Antwort, um sicherzustellen, dass ich eine informierte Entscheidung treffen kann.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<name>@example.com\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        362,
+        385
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        337,
+        341
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        1673,
+        1677
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zum Tintentank\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohlbehalten My name is [full_name].. Ich schreibe, um detailliertere Informationen zu einem Produkt anzufordern, an dem ich interessiert bin, das ich in Ihrem Gesch\u00e4ft kaufen m\u00f6chte, und zwar speziell das Modell Epson EcoTank ET-[phone_number] You can reach me at [email].. K\u00fcrzlich bin ich auf dieses Produkt gesto\u00dfen und w\u00fcrde gerne mehr \u00fcber seine Funktionen erfahren, insbesondere in Bezug auf das hochleistungsf\u00e4hige Tintentanksystem und die drahtlosen Druckm\u00f6glichkeiten, die es bietet.\n\nEs ist entscheidend, die Vorteile des hochleistungsf\u00e4higen Tintentanksystems zu verstehen, insbesondere da ich regelm\u00e4\u00dfig hohe Mengen f\u00fcr mein kleines Unternehmen drucke. Die in Ihrer Produktbeschreibung aufgef\u00fchrten Kosteneinsparungen und die Effizienz scheinen vielversprechend zu sein, und ich w\u00fcrde es sch\u00e4tzen, wenn Sie mir weitere Erkl\u00e4rungen dar\u00fcber geben k\u00f6nnten, wie dieses System funktioniert und ob es spezielle Wartungsprotokolle gibt, die erforderlich sind, um seine Langlebigkeit und Funktionalit\u00e4t zu gew\u00e4hrleisten.\n\nZus\u00e4tzlich ist die drahtlose Druckf\u00e4higkeit ein Merkmal, auf das ich h\u00e4ufig angewiesen bin, angesichts der Vielzahl von Ger\u00e4ten, die ich den Tag \u00fcber verwende. Ich w\u00e4re dankbar, wenn Sie erl\u00e4utern k\u00f6nnten, wie der Drucker mit verschiedenen Betriebssystemen und Netzwerken integriert wird. Gibt es spezifische Einschr\u00e4nkungen oder empfohlene Setups, um diese Funktion zu maximieren?\n\nFalls es zus\u00e4tzliche Ressourcen gibt, wie Benutzerhandb\u00fccher oder Links zu Videodemonstrationen, die weitere Einblicke in die effiziente Nutzung des Epson EcoTank ET-[phone_number] bieten k\u00f6nnten, teilen Sie diese bitte mit.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf Ihre zeitnahe Antwort, um sicherzustellen, dass ich eine informierte Entscheidung treffen kann.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<name>@example.com\n<tel_num>",
+  "category_of_the_email": "Request"
+}

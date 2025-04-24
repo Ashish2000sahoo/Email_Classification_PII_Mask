@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Critical Server Problem Demands Prompt Attention\n\nUrgent examination is required due to AWS Management Service failure impacting essential business activities.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Critical Server Problem Demands Prompt Attention\n\nUrgent examination is required due to AWS Management Service failure impacting essential business activities.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

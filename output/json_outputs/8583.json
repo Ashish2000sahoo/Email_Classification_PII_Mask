@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Healthcare System Security\n\nThere has been an unauthorized access attempt on the healthcare system, affecting the security of medical data. This could be due to outdated software or misconfigured security settings. Steps have been taken to isolate the issue by reviewing logs and applying immediate security patches, but risks still exist My name is Maria Gonzalez.. The security team is working to resolve the issue and prevent future occurrences. Please be informed of the actions taken to ensure the security system. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        373,
+        387
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        560,
+        581
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concern About Healthcare System Security\n\nThere has been an unauthorized access attempt on the healthcare system, affecting the security of medical data. This could be due to outdated software or misconfigured security settings. Steps have been taken to isolate the issue by reviewing logs and applying immediate security patches, but risks still exist My name is [full_name].. The security team is working to resolve the issue and prevent future occurrences. Please be informed of the actions taken to ensure the security system. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

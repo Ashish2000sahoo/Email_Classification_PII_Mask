@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Ad Display\n\nHello Customer Support, I hope this message finds you well My name is John Doe.. I am experiencing an issue with my digital ads not displaying as expected, and I am seeking your assistance to resolve it. Despite my efforts to check my campaign settings and the ad status, the ads remain undisplayed. I suspect this could be due to a glitch in the platform or an issue with my campaign setup. Your prompt attention to this matter would be greatly appreciated, and I would be grateful if you could look into it and offer a solution. Please inform me if any additional details are required from my end to help address this situation. I appreciate your swift action in this matter and look forward to your timely response. Thank you for your support You can reach me at janesmith@company.com.. I have double-checked my campaign settings and ad status, but the ads are still not displaying properly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        104,
+        112
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        803,
+        824
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Ad Display\n\nHello Customer Support, I hope this message finds you well My name is [full_name].. I am experiencing an issue with my digital ads not displaying as expected, and I am seeking your assistance to resolve it. Despite my efforts to check my campaign settings and the ad status, the ads remain undisplayed. I suspect this could be due to a glitch in the platform or an issue with my campaign setup. Your prompt attention to this matter would be greatly appreciated, and I would be grateful if you could look into it and offer a solution. Please inform me if any additional details are required from my end to help address this situation. I appreciate your swift action in this matter and look forward to your timely response. Thank you for your support You can reach me at [email].. I have double-checked my campaign settings and ad status, but the ads are still not displaying properly.",
+  "category_of_the_email": "Incident"
+}

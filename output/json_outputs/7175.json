@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Mangel bei Finanzanalyse\n\nLieber Kundensupport-Team, <br>Wir haben Schwierigkeiten bei der Durchf\u00fchrung historischer Datenanalysen f\u00fcr Investitionen. Es k\u00f6nnte ein Konflikt zwischen Software und Speicher \u00fcberlastet sein. Wir haben den Desktop neu gestartet und relevante Softwarepakete aktualisiert, aber der Fehler beh\u00e4lt sich trotzdem bei. Wir w\u00fcrden uns freuen, wenn Sie uns helfen k\u00f6nnten, das Problem zu l\u00f6sen My name is Elena Ivanova.. Bitte geben Sie uns Anweisungen f\u00fcr weitere Schritte, um das Problem zu beheben. Danke f\u00fcr Ihre Unterst\u00fctzung und f\u00fcr den Einsatz Ihrer Zeit. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        446,
+        459
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        622,
+        644
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Technische Mangel bei Finanzanalyse\n\nLieber Kundensupport-Team, <br>Wir haben Schwierigkeiten bei der Durchf\u00fchrung historischer Datenanalysen f\u00fcr Investitionen. Es k\u00f6nnte ein Konflikt zwischen Software und Speicher \u00fcberlastet sein. Wir haben den Desktop neu gestartet und relevante Softwarepakete aktualisiert, aber der Fehler beh\u00e4lt sich trotzdem bei. Wir w\u00fcrden uns freuen, wenn Sie uns helfen k\u00f6nnten, das Problem zu l\u00f6sen My name is [full_name].. Bitte geben Sie uns Anweisungen f\u00fcr weitere Schritte, um das Problem zu beheben. Danke f\u00fcr Ihre Unterst\u00fctzung und f\u00fcr den Einsatz Ihrer Zeit. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

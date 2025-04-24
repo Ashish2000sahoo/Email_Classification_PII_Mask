@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia y Optimizaci\u00f3n para la Infraestructura de AWS\n\nEstimado Soporte al Cliente, necesitamos ayuda experta para configurar y optimizar nuestra oferta de Servicio de Gesti\u00f3n de AWS para un cliente. Nuestro objetivo es mejorar el rendimiento y reducir costos. Esperamos su pronta asistencia My name is Elena Ivanova.. Atentamente, <name> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        315,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        369,
+        386
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Asistencia y Optimizaci\u00f3n para la Infraestructura de AWS\n\nEstimado Soporte al Cliente, necesitamos ayuda experta para configurar y optimizar nuestra oferta de Servicio de Gesti\u00f3n de AWS para un cliente. Nuestro objetivo es mejorar el rendimiento y reducir costos. Esperamos su pronta asistencia My name is [full_name].. Atentamente, <name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

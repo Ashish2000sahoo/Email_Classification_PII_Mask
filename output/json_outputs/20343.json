@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS Cost Optimization Request\n\nHello,\n\nI hope this message finds you well My name is Sophia Rossi.. I am writing to request assistance with optimizing the AWS Management Service usage for our company to efficiently reduce operational expenses. Kindly provide insights or actions we can consider for achieving cost savings.\n\nThank you for your support. \n\nBest regards,\n<name>\nAccount Number: <acc_num>\nPhone Number: <tel_num> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        94,
+        106
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        453,
+        475
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: AWS Cost Optimization Request\n\nHello,\n\nI hope this message finds you well My name is [full_name].. I am writing to request assistance with optimizing the AWS Management Service usage for our company to efficiently reduce operational expenses. Kindly provide insights or actions we can consider for achieving cost savings.\n\nThank you for your support. \n\nBest regards,\n<name>\nAccount Number: <acc_num>\nPhone Number: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

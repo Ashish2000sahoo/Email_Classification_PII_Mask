@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Vulnerability in Medical IT System\n\nA security vulnerability in the medical IT system of the hospital has been identified, resulting in the breach of medical data You can reach me at elena.ivanova@support.org.. This is due to outdated software and weak access controls. Firewalls are in place and security protocols have been updated, yet vulnerabilities persist. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        393,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        201,
+        226
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Security Vulnerability in Medical IT System\n\nA security vulnerability in the medical IT system of the hospital has been identified, resulting in the breach of medical data You can reach me at [email].. This is due to outdated software and weak access controls. Firewalls are in place and security protocols have been updated, yet vulnerabilities persist. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThe investment optimization application encountered issues while processing large datasets, possibly due to database overload. The Oracle Database was restarted, and memory leaks were checked.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        242
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe investment optimization application encountered issues while processing large datasets, possibly due to database overload. The Oracle Database was restarted, and memory leaks were checked.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

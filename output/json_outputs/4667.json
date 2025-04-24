@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Concern: Data Breach\n\nHello Customer Support, I would like to inform you about a potential data breach that happened. My concern is that the breach might be due to outdated software, even though I have tried updating it with patches and firewall adjustments, the problem still exists You can reach me at david.kim@corp.kr.. I am worried about the security of my information and need your help to address this. Can you guide me on what to do next? Also, could you give me advice on how to update my software and improve my security to avoid such breaches in the future? Thank you for your prompt attention to this My name is Maria Gonzalez.. I am expecting a response from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        642,
+        656
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        322,
+        339
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Security Concern: Data Breach\n\nHello Customer Support, I would like to inform you about a potential data breach that happened. My concern is that the breach might be due to outdated software, even though I have tried updating it with patches and firewall adjustments, the problem still exists You can reach me at [email].. I am worried about the security of my information and need your help to address this. Can you guide me on what to do next? Also, could you give me advice on how to update my software and improve my security to avoid such breaches in the future? Thank you for your prompt attention to this My name is [full_name].. I am expecting a response from you soon.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Integrating Scrivener\n\nCould you provide details on integrating the Scrivener project management software? I am interested in learning how tools can work together to enhance my workflow My name is Elena Ivanova.. Specifically, I would like to know about existing integrations and the APIs used to connect the two systems You can reach me at sophia.rossi@service.it.. Thank you for your time, and I look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        218,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        360,
+        383
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support for Integrating Scrivener\n\nCould you provide details on integrating the Scrivener project management software? I am interested in learning how tools can work together to enhance my workflow My name is [full_name].. Specifically, I would like to know about existing integrations and the APIs used to connect the two systems You can reach me at [email].. Thank you for your time, and I look forward to hearing from you soon.",
+  "category_of_the_email": "Request"
+}

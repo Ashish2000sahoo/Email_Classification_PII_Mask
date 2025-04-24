@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Incidente de Jira Software que Afecta a los Equipos\n\nEstimado Soporte al Cliente,\n\nEspero que este mensaje le encuentre bien You can reach me at maria.gonzalez@shop.es.. Le escribo para informarle que nuestro sistema de tickets en Jira Software 8.20 se bloque\u00f3 inesperadamente, lo que est\u00e1 afectando significativamente la gesti\u00f3n de proyectos en curso para m\u00faltiples equipos. Este problema requiere atenci\u00f3n inmediata para restaurar la funcionalidad y minimizar la interrupci\u00f3n. Por favor, proporcionen orientaci\u00f3n sobre c\u00f3mo resolver esto lo m\u00e1s r\u00e1pido posible. Nuestro equipo depende en gran medida de este sistema para las operaciones diarias, y cualquier retraso est\u00e1 obstaculizando la productividad.\n\nGracias por su pronta asistencia.\n\nSaludos cordiales,\n\n<name>\n<name> Servicios de TI My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        820,
+        834
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        163,
+        185
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Incidente de Jira Software que Afecta a los Equipos\n\nEstimado Soporte al Cliente,\n\nEspero que este mensaje le encuentre bien You can reach me at [email].. Le escribo para informarle que nuestro sistema de tickets en Jira Software 8.20 se bloque\u00f3 inesperadamente, lo que est\u00e1 afectando significativamente la gesti\u00f3n de proyectos en curso para m\u00faltiples equipos. Este problema requiere atenci\u00f3n inmediata para restaurar la funcionalidad y minimizar la interrupci\u00f3n. Por favor, proporcionen orientaci\u00f3n sobre c\u00f3mo resolver esto lo m\u00e1s r\u00e1pido posible. Nuestro equipo depende en gran medida de este sistema para las operaciones diarias, y cualquier retraso est\u00e1 obstaculizando la productividad.\n\nGracias por su pronta asistencia.\n\nSaludos cordiales,\n\n<name>\n<name> Servicios de TI My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

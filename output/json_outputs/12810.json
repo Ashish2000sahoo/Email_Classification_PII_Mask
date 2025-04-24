@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem with Printer\n\nThe marketing team has been experiencing connectivity issues with the Canon PIXMA TR8550 printer when using Outlook 2021. This problem might be due to recent Windows updates that could have affected the printer drivers You can reach me at omar.hassan@secure.net.. They have tried restarting the devices, reinstalling the printer drivers, and clearing the Outlook cache, but to no avail. Despite their efforts to troubleshoot, the issue still persists. We would greatly appreciate your assistance in resolving this matter as soon as possible to minimize any disruptions to our work My name is Omar Hassan.. Please let us know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        623,
+        634
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        270,
+        292
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        115,
+        119
+      ],
+      "classification": "phone_number",
+      "entity": "8550"
+    },
+    {
+      "position": [
+        147,
+        151
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem with Printer\n\nThe marketing team has been experiencing connectivity issues with the Canon PIXMA TR[phone_number] printer when using Outlook [phone_number]. This problem might be due to recent Windows updates that could have affected the printer drivers You can reach me at [email].. They have tried restarting the devices, reinstalling the printer drivers, and clearing the Outlook cache, but to no avail. Despite their efforts to troubleshoot, the issue still persists. We would greatly appreciate your assistance in resolving this matter as soon as possible to minimize any disruptions to our work My name is [full_name].. Please let us know.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Die Prognosen f\u00fcr meine Investitionen sind heute ungenau\n\nIch schreibe, um ein Manko in meiner Portfolio-Optimierung zu melden. Die Prognosen f\u00fcr meine Investitionen sind ungenau, m\u00f6glicherweise aufgrund falscher Dateneingaben. Ich habe meine Datenquellen \u00fcberpr\u00fcft und mein Modell neu berechnet, aber das Problem besteht weiterhin. Es w\u00e4re mir sehr lieb, wenn Sie sich dieser Sache annehmen und eine L\u00f6sung anbieten k\u00f6nnten You can reach me at janesmith@company.com.. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um diesen Fall zu kl\u00e4ren. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        588,
+        595
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        454,
+        475
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Die Prognosen f\u00fcr meine Investitionen sind heute ungenau\n\nIch schreibe, um ein Manko in meiner Portfolio-Optimierung zu melden. Die Prognosen f\u00fcr meine Investitionen sind ungenau, m\u00f6glicherweise aufgrund falscher Dateneingaben. Ich habe meine Datenquellen \u00fcberpr\u00fcft und mein Modell neu berechnet, aber das Problem besteht weiterhin. Es w\u00e4re mir sehr lieb, wenn Sie sich dieser Sache annehmen und eine L\u00f6sung anbieten k\u00f6nnten You can reach me at [email].. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um diesen Fall zu kl\u00e4ren. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

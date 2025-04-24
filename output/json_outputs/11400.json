@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Mathematica\n\nEncounter errors while optimizing investment models using Wolfram Mathematica, possibly due to issues with data access or software conflicts You can reach me at liuwei@business.cn.. Restarted the server and reinstalled Mathematica, but the problem persists My name is John Doe.. Need assistance to resolve.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        195,
+        213
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Support for Mathematica\n\nEncounter errors while optimizing investment models using Wolfram Mathematica, possibly due to issues with data access or software conflicts You can reach me at [email].. Restarted the server and reinstalled Mathematica, but the problem persists My name is [full_name].. Need assistance to resolve.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Multiple Product Licenses\n\nHello support team, I am contacting you to inform you about several missing product licenses that I am experiencing. It is possible that this issue is related to a database synchronization problem. Despite trying to restart services and reviewing logs, the problem still exists You can reach me at janesmith@company.com.. I would greatly appreciate your assistance in addressing this issue and providing a solution at your earliest convenience My name is Fatima Al-Farsi.. Please inform me if you require any further information from me to resolve this matter. I am looking forward to your prompt response. Thank you for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        513
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        347,
+        368
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Multiple Product Licenses\n\nHello support team, I am contacting you to inform you about several missing product licenses that I am experiencing. It is possible that this issue is related to a database synchronization problem. Despite trying to restart services and reviewing logs, the problem still exists You can reach me at [email].. I would greatly appreciate your assistance in addressing this issue and providing a solution at your earliest convenience My name is [full_name]-Farsi.. Please inform me if you require any further information from me to resolve this matter. I am looking forward to your prompt response. Thank you for your attention and support.",
+  "category_of_the_email": "Incident"
+}

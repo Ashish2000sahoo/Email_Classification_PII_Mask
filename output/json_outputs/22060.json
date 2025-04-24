@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: High-Priority Return Request: Defective MacBook Air\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to request a high-priority return for a recently purchased MacBook Air M1. The device is exhibiting significant battery issues, failing to hold a charge beyond a few hours, which is not as per its specifications.\n\nI made this purchase on <date> using the order number <order_num>. Despite following all recommended settings and usage guidelines, the issue persists. I am unable to utilize the laptop for my daily tasks due to these problems. As I rely heavily on this device, I kindly urge you to expedite the return process.\n\nThank you for addressing this matter swiftly My name is Fatima Al-Farsi.. Please let me know what steps I should follow next.\n\nBest regards,\n\n<name>\n<email>\n<tel_num> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        736,
+        745
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        869,
+        892
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: High-Priority Return Request: Defective MacBook Air\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to request a high-priority return for a recently purchased MacBook Air M1. The device is exhibiting significant battery issues, failing to hold a charge beyond a few hours, which is not as per its specifications.\n\nI made this purchase on <date> using the order number <order_num>. Despite following all recommended settings and usage guidelines, the issue persists. I am unable to utilize the laptop for my daily tasks due to these problems. As I rely heavily on this device, I kindly urge you to expedite the return process.\n\nThank you for addressing this matter swiftly My name is [full_name]-Farsi.. Please let me know what steps I should follow next.\n\nBest regards,\n\n<name>\n<email>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Sicherheit medizinischer Daten in der IT-Infrastruktur von Krankenh\u00e4usern\n\nEs ist dringend erforderlich, die Sicherheitsma\u00dfnahmen f\u00fcr medizinische Daten in der IT-Infrastruktur von Krankenh\u00e4usern zu verbessern, insbesondere in Bezug auf betroffene Produkte. Es ist von grundlegender Bedeutung, sensible Informationen vor potenziellen cybernischen Bedrohungen zu sch\u00fctzen My name is Omar Hassan.. Ich freue mich darauf, detaillierte Ma\u00dfnahmen zu besprechen, um die Sicherheit medizinischer Daten zu gew\u00e4hrleisten. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        408,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        559,
+        580
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Sicherheit medizinischer Daten in der IT-Infrastruktur von Krankenh\u00e4usern\n\nEs ist dringend erforderlich, die Sicherheitsma\u00dfnahmen f\u00fcr medizinische Daten in der IT-Infrastruktur von Krankenh\u00e4usern zu verbessern, insbesondere in Bezug auf betroffene Produkte. Es ist von grundlegender Bedeutung, sensible Informationen vor potenziellen cybernischen Bedrohungen zu sch\u00fctzen My name is [full_name].. Ich freue mich darauf, detaillierte Ma\u00dfnahmen zu besprechen, um die Sicherheit medizinischer Daten zu gew\u00e4hrleisten. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

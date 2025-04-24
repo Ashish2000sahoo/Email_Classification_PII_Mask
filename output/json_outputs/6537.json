@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Betreff: Meldung \u00fcber Absturz der Projektmanagement-Software\n\nSehr geehrte Kundensupport, ich melde einen Fehler in der Projektmanagement-Software My name is Sophia Rossi.. Das Programm brach w\u00e4hrend einer Team-Kollaborations-Sitzung ab und k\u00f6nnte auf mangelnde Serverressourcen zur\u00fcckzuf\u00fchren sein You can reach me at david.kim@corp.kr.. Ich habe versucht, die Anwendung neu zu starten und Systemeinstellungen zu optimieren, aber das Problem beh\u00e4lt sich trotzdem bestehen. Der Crash verursacht signifikante Verz\u00f6gerungen in unserem wichtigen Projekt. Ich sch\u00e4tze es, wenn Sie das Problem schnell behandeln und eine L\u00f6sung anbieten k\u00f6nnen. Bitte teilen Sie mich mit, wenn Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        327,
+        344
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Betreff: Meldung \u00fcber Absturz der Projektmanagement-Software\n\nSehr geehrte Kundensupport, ich melde einen Fehler in der Projektmanagement-Software My name is [full_name].. Das Programm brach w\u00e4hrend einer Team-Kollaborations-Sitzung ab und k\u00f6nnte auf mangelnde Serverressourcen zur\u00fcckzuf\u00fchren sein You can reach me at [email].. Ich habe versucht, die Anwendung neu zu starten und Systemeinstellungen zu optimieren, aber das Problem beh\u00e4lt sich trotzdem bestehen. Der Crash verursacht signifikante Verz\u00f6gerungen in unserem wichtigen Projekt. Ich sch\u00e4tze es, wenn Sie das Problem schnell behandeln und eine L\u00f6sung anbieten k\u00f6nnen. Bitte teilen Sie mich mit, wenn Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

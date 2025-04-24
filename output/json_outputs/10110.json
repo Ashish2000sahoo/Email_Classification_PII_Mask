@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: QNAP Data Security\n\nDear Customer Support, I am contacting you to seek advice on securing medical data stored on QNAP NAS and accessed via mobile devices. Given the sensitivity of medical data, it is crucial to implement the most robust security measures to ensure its confidentiality, integrity, and availability. Could you provide details on the encryption methodologies, such as AES or SSL, and how they are applied on QNAP systems? Furthermore, I would appreciate information on additional security features, like access controls, authentication mechanisms, and auditing processes, that can enhance data protection My name is Jane Smith.. I look forward to your detailed response. Thank you for your support You can reach me at omar.hassan@secure.net.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        649
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        742,
+        764
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: QNAP Data Security\n\nDear Customer Support, I am contacting you to seek advice on securing medical data stored on QNAP NAS and accessed via mobile devices. Given the sensitivity of medical data, it is crucial to implement the most robust security measures to ensure its confidentiality, integrity, and availability. Could you provide details on the encryption methodologies, such as AES or SSL, and how they are applied on QNAP systems? Furthermore, I would appreciate information on additional security features, like access controls, authentication mechanisms, and auditing processes, that can enhance data protection My name is [full_name].. I look forward to your detailed response. Thank you for your support You can reach me at [email].. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

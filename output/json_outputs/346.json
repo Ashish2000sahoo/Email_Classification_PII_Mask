@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Antrag auf technische Unterst\u00fctzung\n\nLiebe Kundenservice-Team, wir erleben st\u00f6rende Unterbrechungen unserer Anwendung, die sich auf die Serverkapazit\u00e4t zur\u00fcckf\u00fchren lassen My name is Sophia Rossi.. Trotz des Neustarts der Server und der \u00dcberwachung der Verkehrsdynamiken sind die Probleme weiterhin bestehen geblieben You can reach me at carlosm@gmail.com.. Wir sch\u00e4tzen eine schnelle Unterst\u00fctzung bei der Behebung dieses Problems und bitten um Ma\u00dfnahmen, die den Einfluss auf die Nutzer minimieren. Bitte geben Sie uns die n\u00e4chsten Schritte an und informieren Sie uns dar\u00fcber, welche Bedingungen erf\u00fcllt werden m\u00fcssen, um die Serverkapazit\u00e4t zu erh\u00f6hen. Wir stehen Ihnen zur Verf\u00fcgung, um zus\u00e4tzliche Informationen bereitzustellen, falls diese ben\u00f6tigt werden. Vielen Dank f\u00fcr Ihre schnelle Bearbeitung dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        346,
+        363
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Antrag auf technische Unterst\u00fctzung\n\nLiebe Kundenservice-Team, wir erleben st\u00f6rende Unterbrechungen unserer Anwendung, die sich auf die Serverkapazit\u00e4t zur\u00fcckf\u00fchren lassen My name is [full_name].. Trotz des Neustarts der Server und der \u00dcberwachung der Verkehrsdynamiken sind die Probleme weiterhin bestehen geblieben You can reach me at [email].. Wir sch\u00e4tzen eine schnelle Unterst\u00fctzung bei der Behebung dieses Problems und bitten um Ma\u00dfnahmen, die den Einfluss auf die Nutzer minimieren. Bitte geben Sie uns die n\u00e4chsten Schritte an und informieren Sie uns dar\u00fcber, welche Bedingungen erf\u00fcllt werden m\u00fcssen, um die Serverkapazit\u00e4t zu erh\u00f6hen. Wir stehen Ihnen zur Verf\u00fcgung, um zus\u00e4tzliche Informationen bereitzustellen, falls diese ben\u00f6tigt werden. Vielen Dank f\u00fcr Ihre schnelle Bearbeitung dieser Angelegenheit.",
+  "category_of_the_email": "Incident"
+}

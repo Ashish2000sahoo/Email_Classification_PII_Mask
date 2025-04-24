@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Campaign Issue Report\n\nHere is a concise problem description: What happened: Campaign metrics are not updating accurately. Why it might have occurred: There could be an API integration issue My name is Omar Hassan.. What steps were taken: I have already checked the settings and refreshed the dashboard You can reach me at fatima.farsi@help.com.. I need your assistance in resolving this issue as it is affecting our campaign performance analysis.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        222
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        332,
+        353
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Campaign Issue Report\n\nHere is a concise problem description: What happened: Campaign metrics are not updating accurately. Why it might have occurred: There could be an API integration issue My name is [full_name].. What steps were taken: I have already checked the settings and refreshed the dashboard You can reach me at [email].. I need your assistance in resolving this issue as it is affecting our campaign performance analysis.",
+  "category_of_the_email": "Incident"
+}

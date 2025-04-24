@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Security Systems\n\nFound unauthorized access attempts on medical data systems You can reach me at omar.hassan@secure.net.. Could have happened due to outdated security protocols. So far, we've reviewed the updated antivirus software and checked user permissions My name is Carlos Mendoza.. Worried about a potential breach of sensitive information and need help with a thorough investigation and implementing further security measures to prevent future incidents.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        308
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        119,
+        141
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Security Systems\n\nFound unauthorized access attempts on medical data systems You can reach me at [email].. Could have happened due to outdated security protocols. So far, we've reviewed the updated antivirus software and checked user permissions My name is [full_name].. Worried about a potential breach of sensitive information and need help with a thorough investigation and implementing further security measures to prevent future incidents.",
+  "category_of_the_email": "Incident"
+}

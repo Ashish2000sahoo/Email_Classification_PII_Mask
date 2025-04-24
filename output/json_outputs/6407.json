@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Features\n\nHello customer support, I am writing to seek information about the features of your project management SaaS. Could you provide a list of the tools and functionalities available on your platform? Specifically, I am interested in learning more about the task management, team collaboration, and reporting functionalities My name is Elena Ivanova.. Additionally, I would like to know if your platform is compatible with third-party applications and services. Thank you for your support and I look forward to your response. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        360,
+        373
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        568,
+        585
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Features\n\nHello customer support, I am writing to seek information about the features of your project management SaaS. Could you provide a list of the tools and functionalities available on your platform? Specifically, I am interested in learning more about the task management, team collaboration, and reporting functionalities My name is [full_name].. Additionally, I would like to know if your platform is compatible with third-party applications and services. Thank you for your support and I look forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

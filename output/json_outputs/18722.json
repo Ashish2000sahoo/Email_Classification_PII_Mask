@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Software-Crash- und Verbindestr\u00fchrigkeiten gemeldet\n\nDie Agentur erleidet Software-Crash- und Verbindestr\u00fchrigkeiten. M\u00f6gliche Ursachen k\u00f6nnten in Neue Updates und Kompatibilit\u00e4tskonflikten liegen You can reach me at omar.hassan@secure.net.. Es wurden bereits Versuche unternommen, Ger\u00e4te neu zu starten und die Software neu zu installieren, jedoch ohne Erfolg. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        226,
+        248
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Software-Crash- und Verbindestr\u00fchrigkeiten gemeldet\n\nDie Agentur erleidet Software-Crash- und Verbindestr\u00fchrigkeiten. M\u00f6gliche Ursachen k\u00f6nnten in Neue Updates und Kompatibilit\u00e4tskonflikten liegen You can reach me at [email].. Es wurden bereits Versuche unternommen, Ger\u00e4te neu zu starten und die Software neu zu installieren, jedoch ohne Erfolg. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

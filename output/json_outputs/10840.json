@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Adjusting Metrics Participation\n\nA decrease in brand participation metrics has been observed. Recent changes in marketing strategies might be the cause My name is Sophia Rossi.. Please analyze recent campaigns for any adjustments, as noted so far, there have been some improvements. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        323,
+        340
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Adjusting Metrics Participation\n\nA decrease in brand participation metrics has been observed. Recent changes in marketing strategies might be the cause My name is [full_name].. Please analyze recent campaigns for any adjustments, as noted so far, there have been some improvements. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

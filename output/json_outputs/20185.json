@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Suporte urgente da AWS necess\u00e1rio\n\nPrezada equipe de suporte,\n\nMeu nome \u00e9 <name> e eu represento <company_name> You can reach me at maria.gonzalez@shop.es.. Estamos enfrentando problemas significativos com nossa infraestrutura da AWS, gerenciada pelo seu Servi\u00e7o de Gerenciamento da AWS, o que est\u00e1 afetando o tempo de atividade e o desempenho geral do nosso site. Isso teve um impacto consider\u00e1vel nas opera\u00e7\u00f5es do nosso neg\u00f3cio, e precisamos de assist\u00eancia imediata para resolver esses problemas.\n\nVoc\u00ea poderia, por favor, priorizar nosso pedido e nos fornecer suporte urgente para otimizar e estabilizar nossa infraestrutura? Agradecemos sua aten\u00e7\u00e3o r\u00e1pida a esta quest\u00e3o e aguardamos sua resposta \u00e1gil.\n\nObrigado pela sua compreens\u00e3o e coopera\u00e7\u00e3o.\n\nAtenciosamente,\n<name>\n<email_address>\n<tel_num> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        822,
+        836
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        141,
+        163
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Suporte urgente da AWS necess\u00e1rio\n\nPrezada equipe de suporte,\n\nMeu nome \u00e9 <name> e eu represento <company_name> You can reach me at [email].. Estamos enfrentando problemas significativos com nossa infraestrutura da AWS, gerenciada pelo seu Servi\u00e7o de Gerenciamento da AWS, o que est\u00e1 afetando o tempo de atividade e o desempenho geral do nosso site. Isso teve um impacto consider\u00e1vel nas opera\u00e7\u00f5es do nosso neg\u00f3cio, e precisamos de assist\u00eancia imediata para resolver esses problemas.\n\nVoc\u00ea poderia, por favor, priorizar nosso pedido e nos fornecer suporte urgente para otimizar e estabilizar nossa infraestrutura? Agradecemos sua aten\u00e7\u00e3o r\u00e1pida a esta quest\u00e3o e aguardamos sua resposta \u00e1gil.\n\nObrigado pela sua compreens\u00e3o e coopera\u00e7\u00e3o.\n\nAtenciosamente,\n<name>\n<email_address>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

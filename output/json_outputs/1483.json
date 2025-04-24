@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nFacing connectivity problems with the SaaS project management tool on my iMac, which might be related to network instability with the Google Nest Wifi Router. After restarting and clearing cache, the issues still persist.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        255,
+        271
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: \n\nFacing connectivity problems with the SaaS project management tool on my iMac, which might be related to network instability with the Google Nest Wifi Router. After restarting and clearing cache, the issues still persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

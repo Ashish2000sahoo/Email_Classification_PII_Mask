@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Security\n\nThere is a breach in medical data security, potentially endangering the confidentiality of patient records due to outdated software and a misconfigured IT infrastructure My name is Maria Gonzalez.. Security processes have been updated, but system scans have revealed ongoing issues You can reach me at janesmith@company.com.. Immediate attention is required to prevent further breaches and protect sensitive patient data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        237
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        341,
+        362
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Security\n\nThere is a breach in medical data security, potentially endangering the confidentiality of patient records due to outdated software and a misconfigured IT infrastructure My name is [full_name].. Security processes have been updated, but system scans have revealed ongoing issues You can reach me at [email].. Immediate attention is required to prevent further breaches and protect sensitive patient data.",
+  "category_of_the_email": "Incident"
+}

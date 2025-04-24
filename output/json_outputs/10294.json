@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Empfehlungen f\u00fcr Sicherheitsprotokolle bei der Datenspeicherung in der medizinischen Versorgung\n\nIch wende mich an Sie, um nachzufragen, welche Sicherheitsprotokolle f\u00fcr die Datenspeicherung in der medizinischen Versorgung empfohlen werden. K\u00f6nnten Sie mir bitte Informationen zu den besten Praktiken zur Speicherung vertraulicher medizinischer Daten geben?. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        389,
+        405
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Empfehlungen f\u00fcr Sicherheitsprotokolle bei der Datenspeicherung in der medizinischen Versorgung\n\nIch wende mich an Sie, um nachzufragen, welche Sicherheitsprotokolle f\u00fcr die Datenspeicherung in der medizinischen Versorgung empfohlen werden. K\u00f6nnten Sie mir bitte Informationen zu den besten Praktiken zur Speicherung vertraulicher medizinischer Daten geben?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

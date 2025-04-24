@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten in WordPress-Krankenhausbetrieben\n\nSehr geehrte Kundensupport, ich bitte Sie um Rat zur Verschl\u00fcsselung medizinischer Daten innerhalb einer WordPress-Website eines Krankenhauses. Da sensible Patientendaten betreut werden, m\u00fcssen wir sicherstellen, dass die Website den relevanten Vorschriften entspricht You can reach me at liuwei@business.cn.. K\u00f6nnten Sie Anleitungen zur Auswahl passender Plugins und Themen sowie zur Implementierung der besten Praktiken zur Verschl\u00fcsselung von Daten, Zugriffssteuerung und Backups geben? Ein detaillierteres Gespr\u00e4ch zu spezifischen Funktionen von WordPress, die zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit der Patientendaten beitragen, w\u00e4re sehr willkommen My name is Fatima Al-Farsi.. Eine detaillierte Diskussion w\u00e4re \u00fcber Telefon <tel_num> m\u00f6glich. Bitte w\u00e4hlen Sie ein geeignetes Zeitfenster f\u00fcr uns, oder geben Sie uns Ihre Konto-Referenz <acc_num> f\u00fcr den Fall von Verwechslungen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        770,
+        779
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        363,
+        381
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten in WordPress-Krankenhausbetrieben\n\nSehr geehrte Kundensupport, ich bitte Sie um Rat zur Verschl\u00fcsselung medizinischer Daten innerhalb einer WordPress-Website eines Krankenhauses. Da sensible Patientendaten betreut werden, m\u00fcssen wir sicherstellen, dass die Website den relevanten Vorschriften entspricht You can reach me at [email].. K\u00f6nnten Sie Anleitungen zur Auswahl passender Plugins und Themen sowie zur Implementierung der besten Praktiken zur Verschl\u00fcsselung von Daten, Zugriffssteuerung und Backups geben? Ein detaillierteres Gespr\u00e4ch zu spezifischen Funktionen von WordPress, die zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit der Patientendaten beitragen, w\u00e4re sehr willkommen My name is [full_name]-Farsi.. Eine detaillierte Diskussion w\u00e4re \u00fcber Telefon <tel_num> m\u00f6glich. Bitte w\u00e4hlen Sie ein geeignetes Zeitfenster f\u00fcr uns, oder geben Sie uns Ihre Konto-Referenz <acc_num> f\u00fcr den Fall von Verwechslungen.",
+  "category_of_the_email": "Request"
+}

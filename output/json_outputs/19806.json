@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unstimmigkeiten bei Rechnungsstellungsdaten f\u00fcr Patientendienstleistungen\n\nDie neuesten Versuche, um die Rechnungssysteme zu integrieren, haben zu Unstimmigkeiten bei den Rechnungsstellungsdaten gef\u00fchrt. Das Problem scheint auf eine veraltete Integration von Shopify und Zoho CRM zu beruhen. Die Systemprotokolle wurden gepr\u00fcft, die API-Verbindungen wurden \u00fcberpr\u00fcft, und die Buchhaltungsworkflows wurden \u00fcberarbeitet You can reach me at johndoe@email.com.. Eine L\u00f6sung wurde gefunden. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        506,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        447,
+        464
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unstimmigkeiten bei Rechnungsstellungsdaten f\u00fcr Patientendienstleistungen\n\nDie neuesten Versuche, um die Rechnungssysteme zu integrieren, haben zu Unstimmigkeiten bei den Rechnungsstellungsdaten gef\u00fchrt. Das Problem scheint auf eine veraltete Integration von Shopify und Zoho CRM zu beruhen. Die Systemprotokolle wurden gepr\u00fcft, die API-Verbindungen wurden \u00fcberpr\u00fcft, und die Buchhaltungsworkflows wurden \u00fcberarbeitet You can reach me at [email].. Eine L\u00f6sung wurde gefunden. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Analysis of System Failure\n\nCustomer Support,<br><br>We are currently experiencing system failure during data analysis, which is disrupting our investment optimization processes My name is David Kim.. The issue might be related to compatibility problems with Django 3.2 and GitLab. Our team has attempted to resolve the issue by restarting the servers and checking configurations, but unfortunately, the problem still persists. We are requesting your assistance to troubleshoot and resolve the issue as soon as possible You can reach me at sophia.rossi@service.it.. Could you please provide guidance on the next steps and any additional troubleshooting measures we can take?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        551,
+        574
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Analysis of System Failure\n\nCustomer Support,<br><br>We are currently experiencing system failure during data analysis, which is disrupting our investment optimization processes My name is [full_name].. The issue might be related to compatibility problems with Django 3.2 and GitLab. Our team has attempted to resolve the issue by restarting the servers and checking configurations, but unfortunately, the problem still persists. We are requesting your assistance to troubleshoot and resolve the issue as soon as possible You can reach me at [email].. Could you please provide guidance on the next steps and any additional troubleshooting measures we can take?",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Investment Analytics Reports\n\nNoted inconsistencies in the investment analytics reports which have led to incorrect investment recommendations My name is Omar Hassan.. These discrepancies might have occurred due to data integration issues within the analytics platform. So far, I have attempted recalibrating the data sources and updating the analytics software, but without success You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate your assistance in resolving this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        186
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        424,
+        446
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issues with Investment Analytics Reports\n\nNoted inconsistencies in the investment analytics reports which have led to incorrect investment recommendations My name is [full_name].. These discrepancies might have occurred due to data integration issues within the analytics platform. So far, I have attempted recalibrating the data sources and updating the analytics software, but without success You can reach me at [email].. I would greatly appreciate your assistance in resolving this matter.",
+  "category_of_the_email": "Incident"
+}

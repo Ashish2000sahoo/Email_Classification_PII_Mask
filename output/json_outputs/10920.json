@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Difficulty in Digital Campaign Execution\n\nA marketing agency is experiencing notable disruptions in their digital campaigns, which are affecting the brand's growth. The issues may be related to software compatibility or server misconfigurations You can reach me at omar.hassan@secure.net.. So far, troubleshooting steps have included updating Python, reviewing Discord integrations, and checking server settings on IBM Cloud. We would greatly appreciate your guidance on how to resolve this issue to minimize its impact on the brand's online presence. Please let us know your next steps. Thank you. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        619,
+        630
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        274,
+        296
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Difficulty in Digital Campaign Execution\n\nA marketing agency is experiencing notable disruptions in their digital campaigns, which are affecting the brand's growth. The issues may be related to software compatibility or server misconfigurations You can reach me at [email].. So far, troubleshooting steps have included updating Python, reviewing Discord integrations, and checking server settings on IBM Cloud. We would greatly appreciate your guidance on how to resolve this issue to minimize its impact on the brand's online presence. Please let us know your next steps. Thank you. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

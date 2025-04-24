@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Betreff: Unautorisierten Zugriffswarnungen auf mehreren Ger\u00e4ten - m\u00f6glicher Sicherheitsrisiko\n\nSehr geehrte Kundensupport, wir haben mehrere Ger\u00e4te mit Warnungen \u00fcber unautorisierten Zugriff, was ein Sicherheitsrisiko sein k\u00f6nnte My name is Omar Hassan.. Wir haben bereits unsere Firewall-Einstellungen aktualisiert und Anfangsmalware-Scans durchgef\u00fchrt, aber die Probleme sind weiterhin bestehen geblieben You can reach me at liuwei@business.cn.. Wir ben\u00f6tigen dringend Ihre Hilfe, um das Problem zu beheben und weitere Sicherheitsl\u00fccken zu vermeiden. K\u00f6nnten Sie uns bitte den n\u00e4chsten Schritt vorschlagen?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        250,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        436,
+        454
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Betreff: Unautorisierten Zugriffswarnungen auf mehreren Ger\u00e4ten - m\u00f6glicher Sicherheitsrisiko\n\nSehr geehrte Kundensupport, wir haben mehrere Ger\u00e4te mit Warnungen \u00fcber unautorisierten Zugriff, was ein Sicherheitsrisiko sein k\u00f6nnte My name is [full_name].. Wir haben bereits unsere Firewall-Einstellungen aktualisiert und Anfangsmalware-Scans durchgef\u00fchrt, aber die Probleme sind weiterhin bestehen geblieben You can reach me at [email].. Wir ben\u00f6tigen dringend Ihre Hilfe, um das Problem zu beheben und weitere Sicherheitsl\u00fccken zu vermeiden. K\u00f6nnten Sie uns bitte den n\u00e4chsten Schritt vorschlagen?",
+  "category_of_the_email": "Incident"
+}

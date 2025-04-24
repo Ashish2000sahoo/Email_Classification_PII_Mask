@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Digital Strategy Campaign\n\nCustomer Support, our recent digital strategy campaign has shown expected growth metrics My name is Omar Hassan.. However, it might be due to poor audience targeting and ineffective messaging. We have attempted to adjust ad spend and analyze past performance data for insights. Still, we need assistance in identifying the root cause to optimize the campaign for better results You can reach me at elena.ivanova@support.org.. Could you please provide guidance on how to improve targeting and messaging strategies?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        159
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        446,
+        471
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support for Digital Strategy Campaign\n\nCustomer Support, our recent digital strategy campaign has shown expected growth metrics My name is [full_name].. However, it might be due to poor audience targeting and ineffective messaging. We have attempted to adjust ad spend and analyze past performance data for insights. Still, we need assistance in identifying the root cause to optimize the campaign for better results You can reach me at [email].. Could you please provide guidance on how to improve targeting and messaging strategies?",
+  "category_of_the_email": "Problem"
+}

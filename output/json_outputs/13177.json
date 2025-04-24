@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Breach Endangering Patient Medical Data Confirmed\n\nA data breach has been identified, compromising patient medical data through hospital systems. This could be due to outdated security protocols and misconfigurations You can reach me at carlosm@gmail.com.. Initial steps, such as tightening access controls and running vulnerability scans, have been taken, but the issue still persists My name is Jane Smith.. Immediate assistance is needed to resolve this critical issue and prevent further breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        411,
+        421
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        251,
+        268
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Data Breach Endangering Patient Medical Data Confirmed\n\nA data breach has been identified, compromising patient medical data through hospital systems. This could be due to outdated security protocols and misconfigurations You can reach me at [email].. Initial steps, such as tightening access controls and running vulnerability scans, have been taken, but the issue still persists My name is [full_name].. Immediate assistance is needed to resolve this critical issue and prevent further breaches.",
+  "category_of_the_email": "Incident"
+}

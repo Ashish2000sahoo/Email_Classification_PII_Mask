@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancements to User Interface for Project Management\n\nRequesting improvements to the user interface to enhance the navigation efficiency of project management features. The current layout is confusing and difficult to navigate, which has led to decreased productivity You can reach me at liuwei@business.cn.. I would suggest a streamlined and intuitive design that allows users to quickly access and manage projects My name is John Doe.. This could include features such as a dashboard overview, easy-to-use menus, and clear labeling. By improving the user interface, we believe users will be able to work more efficiently and effectively.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        437,
+        445
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        298,
+        316
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Enhancements to User Interface for Project Management\n\nRequesting improvements to the user interface to enhance the navigation efficiency of project management features. The current layout is confusing and difficult to navigate, which has led to decreased productivity You can reach me at [email].. I would suggest a streamlined and intuitive design that allows users to quickly access and manage projects My name is [full_name].. This could include features such as a dashboard overview, easy-to-use menus, and clear labeling. By improving the user interface, we believe users will be able to work more efficiently and effectively.",
+  "category_of_the_email": "Change"
+}

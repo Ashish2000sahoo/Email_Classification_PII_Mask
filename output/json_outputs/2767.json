@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Security Incident\n\nCustomer Support,\\n\\nI am writing to report a recent security incident involving the hospital's system My name is Omar Hassan.. An unauthorized access attempt was detected, which may have been facilitated by weak password protocols. In addressing this issue, we have implemented stronger password policies and conducted a comprehensive system audit to identify potential vulnerabilities.\\n\\nThe incident occurred on [date] and was detected by the security monitoring system You can reach me at elena.ivanova@support.org.. Upon investigation, it was determined that the unauthorized access attempt was likely due to the use of a weak password.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        160
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        529,
+        554
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: System Security Incident\n\nCustomer Support,\\n\\nI am writing to report a recent security incident involving the hospital's system My name is [full_name].. An unauthorized access attempt was detected, which may have been facilitated by weak password protocols. In addressing this issue, we have implemented stronger password policies and conducted a comprehensive system audit to identify potential vulnerabilities.\\n\\nThe incident occurred on [date] and was detected by the security monitoring system You can reach me at [email].. Upon investigation, it was determined that the unauthorized access attempt was likely due to the use of a weak password.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Healthcare Data Breach Incident\n\nThe healthcare provider's system was breached, leading to unauthorized access to medical data. Despite updating firewalls and conducting initial audits, the issues continue to persist My name is Jane Smith.. Immediate action is necessary to prevent further unauthorized access and to protect sensitive medical information. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        237,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        386,
+        403
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Healthcare Data Breach Incident\n\nThe healthcare provider's system was breached, leading to unauthorized access to medical data. Despite updating firewalls and conducting initial audits, the issues continue to persist My name is [full_name].. Immediate action is necessary to prevent further unauthorized access and to protect sensitive medical information. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

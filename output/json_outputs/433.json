@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Report on Sync Problem\n\nThe project timelines are not syncing properly. I have already checked the settings, restarted the sync process, and referred to the documentation.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        218
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Report on Sync Problem\n\nThe project timelines are not syncing properly. I have already checked the settings, restarted the sync process, and referred to the documentation.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

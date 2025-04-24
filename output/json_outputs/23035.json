@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems Installing Norton Antivirus Plus: Urgent Help Needed for Resolution\n\nHello <name>,\n\nI am encountering difficulties with the installation process of Norton Antivirus Plus on my equipment You can reach me at maria.gonzalez@shop.es.. I would appreciate your prompt help in rectifying this situation. Thank you very much.\n\nSincerely,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        366,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        224,
+        246
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problems Installing Norton Antivirus Plus: Urgent Help Needed for Resolution\n\nHello <name>,\n\nI am encountering difficulties with the installation process of Norton Antivirus Plus on my equipment You can reach me at [email].. I would appreciate your prompt help in rectifying this situation. Thank you very much.\n\nSincerely,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

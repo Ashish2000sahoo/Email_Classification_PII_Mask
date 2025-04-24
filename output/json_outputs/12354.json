@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject:  Datenschutzverletzung in Krankenhaus-Systemen \n\nK\u00fcrzlich trat eine Datenschutzverletzung in den Krankenhaussystemen auf, die unautorisierten Zugriff auf medizinische Akten erm\u00f6glicht hat. M\u00f6gliche Gr\u00fcnde sind schwache Sicherheitsprotokolle und veraltete Software You can reach me at omar.hassan@secure.net.. Obwohl die Antivirensoftware aktualisiert und ein Netzwerkscan durchgef\u00fchrt wurde, bestehen weiterhin Probleme My name is Carlos Mendoza.. Wir ben\u00f6tigen Ihre Hilfe, um das Problem zu l\u00f6sen und zuk\u00fcnftige Verletzungen zu vermeiden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        440,
+        454
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        293,
+        315
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject:  Datenschutzverletzung in Krankenhaus-Systemen \n\nK\u00fcrzlich trat eine Datenschutzverletzung in den Krankenhaussystemen auf, die unautorisierten Zugriff auf medizinische Akten erm\u00f6glicht hat. M\u00f6gliche Gr\u00fcnde sind schwache Sicherheitsprotokolle und veraltete Software You can reach me at [email].. Obwohl die Antivirensoftware aktualisiert und ein Netzwerkscan durchgef\u00fchrt wurde, bestehen weiterhin Probleme My name is [full_name].. Wir ben\u00f6tigen Ihre Hilfe, um das Problem zu l\u00f6sen und zuk\u00fcnftige Verletzungen zu vermeiden.",
+  "category_of_the_email": "Incident"
+}

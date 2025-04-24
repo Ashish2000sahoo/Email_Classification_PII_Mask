@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SaaS Support\n\nGreetings, I am writing to request the integration of PostgreSQL 13 for enhanced data management and scalability within our current project management tools My name is Liu Wei.. We appreciate your efforts to improve our services and better serve our customers You can reach me at elena.ivanova@support.org.. Please review our request and get back to us with the next steps. Could you also provide us with information about our current setup and the expected outcomes? We are happy to discuss and explore the possibilities of integrating PostgreSQL 13 with our existing tools.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        198
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        307,
+        332
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: SaaS Support\n\nGreetings, I am writing to request the integration of PostgreSQL 13 for enhanced data management and scalability within our current project management tools My name is [full_name].. We appreciate your efforts to improve our services and better serve our customers You can reach me at [email].. Please review our request and get back to us with the next steps. Could you also provide us with information about our current setup and the expected outcomes? We are happy to discuss and explore the possibilities of integrating PostgreSQL 13 with our existing tools.",
+  "category_of_the_email": "Request"
+}

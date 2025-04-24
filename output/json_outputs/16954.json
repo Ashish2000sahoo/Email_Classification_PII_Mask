@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Investment Model Failure\n\nThe investment forecasting model has encountered issues because of erroneous data analytics input.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        172
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Investment Model Failure\n\nThe investment forecasting model has encountered issues because of erroneous data analytics input.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

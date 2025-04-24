@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Breach and Unauthorized Access Identified\n\nBriefly, a medical data breach and unauthorized access have been identified. The potential causes are an outdated Symantec Endpoint Protection and a susceptible Moodle plugin. We have already restarted servers, conducted antivirus scans, and verified firewall configurations, yet the problem remains unresolved You can reach me at carlosm@gmail.com.. Urgent help is needed to address this issue and prevent additional breaches. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        515
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        396,
+        413
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Breach and Unauthorized Access Identified\n\nBriefly, a medical data breach and unauthorized access have been identified. The potential causes are an outdated Symantec Endpoint Protection and a susceptible Moodle plugin. We have already restarted servers, conducted antivirus scans, and verified firewall configurations, yet the problem remains unresolved You can reach me at [email].. Urgent help is needed to address this issue and prevent additional breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

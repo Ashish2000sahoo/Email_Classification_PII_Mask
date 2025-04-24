@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Absturz - Hilfe erforderlich\n\nSehr geehrte Kundenservice-Teams,<br>Wir erleben einen Systemabsturz bei unserer Projektmanagement-Software-as-a-Service, insbesondere die Benutzerzugriffsfunktionen sind beeintr\u00e4chtigt.<br>Das Problem scheint mit Kompatibilit\u00e4tsproblemen zu Node.js 14.17 und neueren Updates der integrierten Werkzeuge in Verbindung zu stehen.<br>Obwohl wir versucht haben, den Server neu zu starten und die Updates zu r\u00fcckg\u00e4ngig zu machen, besteht das Problem weiterhin.<br>Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um das Problem zu beheben und die vollst\u00e4ndige Funktionalit\u00e4t des Systems wiederherzustellen.<br>Bitte geben Sie uns eine schnelle L\u00f6sung und leiten Sie die notwendigen Schritte zur L\u00f6sung des Problems ein.<br>Wir danken Ihnen f\u00fcr Ihre dringende Beachtung des Problems.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        301
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    },
+    {
+      "position": [
+        840,
+        856
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: System Absturz - Hilfe erforderlich\n\nSehr geehrte Kundenservice-Teams,<br>Wir erleben einen Systemabsturz bei unserer Projektmanagement-Software-as-a-Service, insbesondere die Benutzerzugriffsfunktionen sind beeintr\u00e4chtigt.<br>Das Problem scheint mit Kompatibilit\u00e4tsproblemen zu Node.js [phone_number] und neueren Updates der integrierten Werkzeuge in Verbindung zu stehen.<br>Obwohl wir versucht haben, den Server neu zu starten und die Updates zu r\u00fcckg\u00e4ngig zu machen, besteht das Problem weiterhin.<br>Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um das Problem zu beheben und die vollst\u00e4ndige Funktionalit\u00e4t des Systems wiederherzustellen.<br>Bitte geben Sie uns eine schnelle L\u00f6sung und leiten Sie die notwendigen Schritte zur L\u00f6sung des Problems ein.<br>Wir danken Ihnen f\u00fcr Ihre dringende Beachtung des Problems.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Hospital Systems\n\nThe hospital's systems have been breached, impacting several applications. Notwithstanding recent software updates and enhanced firewall configurations, the issues continue.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        251
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Problem with Hospital Systems\n\nThe hospital's systems have been breached, impacting several applications. Notwithstanding recent software updates and enhanced firewall configurations, the issues continue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

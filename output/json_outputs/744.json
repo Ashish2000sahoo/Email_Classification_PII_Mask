@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry Regarding Payment Options\n\nI am keen to join your service and would like to understand the available payment methods. Could you kindly share a list of accepted payment types? Additionally, I would be grateful if you could inform me about any current discounts or promotions. I appreciate your time and look forward to your response My name is Elena Ivanova.. I await your reply eagerly. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        360,
+        373
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        422,
+        439
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Enquiry Regarding Payment Options\n\nI am keen to join your service and would like to understand the available payment methods. Could you kindly share a list of accepted payment types? Additionally, I would be grateful if you could inform me about any current discounts or promotions. I appreciate your time and look forward to your response My name is [full_name].. I await your reply eagerly. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

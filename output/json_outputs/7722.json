@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Google Cloud Platform\n\nFacing service disruptions due to server maintenance and scalability problems. Attempting to reboot and scale might help resolve the issue.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem with Google Cloud Platform\n\nFacing service disruptions due to server maintenance and scalability problems. Attempting to reboot and scale might help resolve the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

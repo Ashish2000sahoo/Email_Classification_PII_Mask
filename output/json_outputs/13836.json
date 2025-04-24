@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Upgrade Cassandra 4.0 to MySQL 8.0 for Enhanced Analytics\n\nDear Customer Support Team,<br><br>I am reaching out to seek your guidance on upgrading our Cassandra 4.0 database integration with MySQL 8.0 to boost our marketing analytics and campaign optimization efforts. Our marketing team needs an updated system to enhance their performance and reliability.<br><br>The current integration is outdated, causing issues with data consistency and accuracy You can reach me at maria.gonzalez@shop.es.. By upgrading to the most recent version, we aim to improve performance and reliability, allowing our marketing team to make more informed decisions and launch more effective campaigns.<br><br>Could you kindly offer advice on the best approach for this upgrade? We would greatly appreciate any documentation or resources that can aid us in this process.<br><br>Moreover, we would like to know more about potential downtime or disruptions that might occur during the upgrade process. We want to ensure our marketing team is adequately prepared and can plan accordingly.<br><br>Thank you for your assistance with this matter. We look forward to your response.<br><br>Best regards,<br>[Your Name] My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1210,
+        1222
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        481,
+        503
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Upgrade Cassandra 4.0 to MySQL 8.0 for Enhanced Analytics\n\nDear Customer Support Team,<br><br>I am reaching out to seek your guidance on upgrading our Cassandra 4.0 database integration with MySQL 8.0 to boost our marketing analytics and campaign optimization efforts. Our marketing team needs an updated system to enhance their performance and reliability.<br><br>The current integration is outdated, causing issues with data consistency and accuracy You can reach me at [email].. By upgrading to the most recent version, we aim to improve performance and reliability, allowing our marketing team to make more informed decisions and launch more effective campaigns.<br><br>Could you kindly offer advice on the best approach for this upgrade? We would greatly appreciate any documentation or resources that can aid us in this process.<br><br>Moreover, we would like to know more about potential downtime or disruptions that might occur during the upgrade process. We want to ensure our marketing team is adequately prepared and can plan accordingly.<br><br>Thank you for your assistance with this matter. We look forward to your response.<br><br>Best regards,<br>[Your Name] My name is [full_name].",
+  "category_of_the_email": "Change"
+}

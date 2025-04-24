@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Attention Required for Enhanced Encryption of Medical Data\n\nI am contacting you to highlight the necessity of improved encryption measures for the storage and transmission of medical data on the relevant products and systems My name is David Kim.. This issue is of paramount importance and needs immediate consideration to safeguard the confidentiality and security of sensitive medical information. The current encryption methods might not be adequate to fend off potential cyber threats, and it is imperative that we adopt more robust and dependable encryption protocols. I would greatly appreciate it if you could address this matter promptly and offer a solution to boost the security of our medical data. Please inform me if you need any supplementary information or clarifications. I am looking forward to your response soon. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        870,
+        888
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Urgent Attention Required for Enhanced Encryption of Medical Data\n\nI am contacting you to highlight the necessity of improved encryption measures for the storage and transmission of medical data on the relevant products and systems My name is [full_name].. This issue is of paramount importance and needs immediate consideration to safeguard the confidentiality and security of sensitive medical information. The current encryption methods might not be adequate to fend off potential cyber threats, and it is imperative that we adopt more robust and dependable encryption protocols. I would greatly appreciate it if you could address this matter promptly and offer a solution to boost the security of our medical data. Please inform me if you need any supplementary information or clarifications. I am looking forward to your response soon. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

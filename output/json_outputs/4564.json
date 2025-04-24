@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Service Inquiry Regarding Analysis Software Issues\n\nDear Customer Support Team, I am writing to report issues with the Data Analysis Software You can reach me at maria.gonzalez@shop.es.. The system is running slowly, which is affecting the Investment Optimization Processes. I suspect that the high volume of data is causing performance loss. Despite restarting the server and deleting temporary files, the problem persists. Our team is trying to resolve it, but it remains unresolved. I would be grateful if you could assist in identifying the root cause and providing a solution to improve the performance of the software My name is Carlos Mendoza.. Please share any additional information that you may need.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        644,
+        658
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        171,
+        193
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Service Inquiry Regarding Analysis Software Issues\n\nDear Customer Support Team, I am writing to report issues with the Data Analysis Software You can reach me at [email].. The system is running slowly, which is affecting the Investment Optimization Processes. I suspect that the high volume of data is causing performance loss. Despite restarting the server and deleting temporary files, the problem persists. Our team is trying to resolve it, but it remains unresolved. I would be grateful if you could assist in identifying the root cause and providing a solution to improve the performance of the software My name is [full_name].. Please share any additional information that you may need.",
+  "category_of_the_email": "Incident"
+}

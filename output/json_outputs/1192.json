@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Sichere Medizinische Daten mit Kaspersky\n\nGestattet es, Kundensupport zu kontaktieren My name is Maria Gonzalez.. Wir m\u00f6chten detaillierte Anleitungen f\u00fcr die Sicherung medizinischer Daten mit Kaspersky Internet Security 2021 Hospital-IT erhalten You can reach me at maria.gonzalez@shop.es.. Es ist wichtig, dass Patientendaten vor Cyberangriffen gesch\u00fctzt werden und die Vorschriften eingehalten werden. Bitte geben Sie Schritt-f\u00fcr-Schritt-Anweisungen f\u00fcr die Konfiguration von Kaspersky Internet Security 2021 f\u00fcr die Hospital-IT-Infrastruktur an. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        106,
+        120
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        273,
+        295
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        227,
+        231
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        498,
+        502
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Sichere Medizinische Daten mit Kaspersky\n\nGestattet es, Kundensupport zu kontaktieren My name is [full_name].. Wir m\u00f6chten detaillierte Anleitungen f\u00fcr die Sicherung medizinischer Daten mit Kaspersky Internet Security [phone_number] Hospital-IT erhalten You can reach me at [email].. Es ist wichtig, dass Patientendaten vor Cyberangriffen gesch\u00fctzt werden und die Vorschriften eingehalten werden. Bitte geben Sie Schritt-f\u00fcr-Schritt-Anweisungen f\u00fcr die Konfiguration von Kaspersky Internet Security [phone_number] f\u00fcr die Hospital-IT-Infrastruktur an. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

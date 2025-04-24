@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Synchronization Difficulty\n\nProject schedules are not synchronizing between different teams You can reach me at liuwei@business.cn.. There might be a problem with the API connections. I have already restarted the server and reviewed the firewall settings, but the issue still exists. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        316
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        121,
+        139
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Synchronization Difficulty\n\nProject schedules are not synchronizing between different teams You can reach me at [email].. There might be a problem with the API connections. I have already restarted the server and reviewed the firewall settings, but the issue still exists. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

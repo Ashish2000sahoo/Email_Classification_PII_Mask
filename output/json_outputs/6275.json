@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Halted Digital Campaigns Due to Technical Challenges\n\nDear Support Team, We are experiencing difficulties with our ongoing digital campaigns which have been halted following database and security problems. Despite our efforts to restart the servers and update the software, we are still facing these issues. We would be grateful if you could investigate and offer a swift resolution My name is Liu Wei.. The delay is resulting in substantial financial loss for our organization. Kindly supply any necessary details to help resolve this. We await your prompt response and can be reached at this telephone number for discussions You can reach me at elena.ivanova@support.org.. Thank you for your timely assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        410
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        660,
+        685
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Halted Digital Campaigns Due to Technical Challenges\n\nDear Support Team, We are experiencing difficulties with our ongoing digital campaigns which have been halted following database and security problems. Despite our efforts to restart the servers and update the software, we are still facing these issues. We would be grateful if you could investigate and offer a swift resolution My name is [full_name].. The delay is resulting in substantial financial loss for our organization. Kindly supply any necessary details to help resolve this. We await your prompt response and can be reached at this telephone number for discussions You can reach me at [email].. Thank you for your timely assistance.",
+  "category_of_the_email": "Incident"
+}

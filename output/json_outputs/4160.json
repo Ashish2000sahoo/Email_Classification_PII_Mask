@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident of Medical Data Leaking\n\nAn unauthorized access incident led to the leakage of medical data. The probable reasons are weak password policies or out-of-date software. Despite restarting the servers, updating Joomla, and reviewing UniFi logs, the problem continues My name is Elena Ivanova.. We urgently require assistance to fortify our system and avoid future data leaks. Please address this matter at your earliest convenience. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        292,
+        305
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        465,
+        483
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Incident of Medical Data Leaking\n\nAn unauthorized access incident led to the leakage of medical data. The probable reasons are weak password policies or out-of-date software. Despite restarting the servers, updating Joomla, and reviewing UniFi logs, the problem continues My name is [full_name].. We urgently require assistance to fortify our system and avoid future data leaks. Please address this matter at your earliest convenience. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

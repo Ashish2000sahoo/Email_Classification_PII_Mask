@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support,<br>I am writing to report an issue with the hospital's system. I am experiencing difficulties accessing secured medical data, which may be related to recent software updates that have disrupted connectivity.<br>Our team has attempted to resolve the issue by restarting servers and verifying software configurations, but unfortunately, the problem still persists.<br>I would greatly appreciate your guidance to provide us with assistance in resolving this matter as soon as possible.<br>Please let us know how we can proceed.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        576,
+        591
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support,<br>I am writing to report an issue with the hospital's system. I am experiencing difficulties accessing secured medical data, which may be related to recent software updates that have disrupted connectivity.<br>Our team has attempted to resolve the issue by restarting servers and verifying software configurations, but unfortunately, the problem still persists.<br>I would greatly appreciate your guidance to provide us with assistance in resolving this matter as soon as possible.<br>Please let us know how we can proceed.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

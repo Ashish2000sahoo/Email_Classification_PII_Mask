@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung des Markenwachstums durch digitale Strategien online\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um mehr \u00fcber Methoden zur Erh\u00f6hung des Markenwachstums durch digitale Strategien zu erfahren My name is Jane Smith.. K\u00f6nnten Sie mehr Informationen zu den Verfahren geben, die f\u00fcr die Erh\u00f6hung der Markenbewusstheit verwendet werden? Ich bin sehr daran interessiert, mehr Ans\u00e4tze zu erfahren, die ich meinem Unternehmen anwenden kann. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen f\u00fcr Ihre Zeit. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        241
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        549,
+        566
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung des Markenwachstums durch digitale Strategien online\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um mehr \u00fcber Methoden zur Erh\u00f6hung des Markenwachstums durch digitale Strategien zu erfahren My name is [full_name].. K\u00f6nnten Sie mehr Informationen zu den Verfahren geben, die f\u00fcr die Erh\u00f6hung der Markenbewusstheit verwendet werden? Ich bin sehr daran interessiert, mehr Ans\u00e4tze zu erfahren, die ich meinem Unternehmen anwenden kann. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen f\u00fcr Ihre Zeit. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

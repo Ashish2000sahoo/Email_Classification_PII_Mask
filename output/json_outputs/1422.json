@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unanticipated Charge on Billing Statement\n\nI encountered an unanticipated charge on my billing statement. This could have resulted from a system error or miscommunication. I have reviewed past invoices and reached out to support, but the issue still persists You can reach me at sophia.rossi@service.it.. I would greatly appreciate it if you could look into this matter and provide a resolution at your earliest convenience. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        454
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        288,
+        311
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unanticipated Charge on Billing Statement\n\nI encountered an unanticipated charge on my billing statement. This could have resulted from a system error or miscommunication. I have reviewed past invoices and reached out to support, but the issue still persists You can reach me at [email].. I would greatly appreciate it if you could look into this matter and provide a resolution at your earliest convenience. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

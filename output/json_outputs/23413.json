@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Atualiza\u00e7\u00e3o de Software\n\nCaro Time de Suporte, estou escrevendo para solicitar uma atualiza\u00e7\u00e3o do Jira Software 8.20 para a vers\u00e3o mais recente My name is Elena Ivanova.. Precisamos de melhorias na gest\u00e3o de projetos e aprimoramentos no rastreamento de bugs. Obrigado, <name> <acc_num>. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        329,
+        346
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Atualiza\u00e7\u00e3o de Software\n\nCaro Time de Suporte, estou escrevendo para solicitar uma atualiza\u00e7\u00e3o do Jira Software 8.20 para a vers\u00e3o mais recente My name is [full_name].. Precisamos de melhorias na gest\u00e3o de projetos e aprimoramentos no rastreamento de bugs. Obrigado, <name> <acc_num>. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

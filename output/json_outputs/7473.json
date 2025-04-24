@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nIch schreibe, um detaillierte Informationen zu digitalen Strategien f\u00fcr Markenwachstum zu erhalten, insbesondere zu Dienstleistungen wie sozialen-Media-Marketing, Inhaltserstellung und Kampagnenanalyse You can reach me at elena.ivanova@support.org.. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie detaillierte Methoden und Ans\u00e4tze zur Verbesserung der Markenpr\u00e4senz und des Austausches bereitstellen k\u00f6nnten My name is Maria Gonzalez.. Ich bin besonders an der Herangehensweise an sozialen-Media-Marketing, Inhaltserstellung und Kampagnenanalyse interessiert. Bitte senden Sie mir die relevanten Informationen, einschlie\u00dflich Kontaktdaten wie E-Mail-Adresse und Telefonnummer, damit wir telefonisch vereinbaren k\u00f6nnen, wann wir uns \u00fcber die spezifischen Bed\u00fcrfnisse besprechen k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        415,
+        429
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        233,
+        258
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nIch schreibe, um detaillierte Informationen zu digitalen Strategien f\u00fcr Markenwachstum zu erhalten, insbesondere zu Dienstleistungen wie sozialen-Media-Marketing, Inhaltserstellung und Kampagnenanalyse You can reach me at [email].. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie detaillierte Methoden und Ans\u00e4tze zur Verbesserung der Markenpr\u00e4senz und des Austausches bereitstellen k\u00f6nnten My name is [full_name].. Ich bin besonders an der Herangehensweise an sozialen-Media-Marketing, Inhaltserstellung und Kampagnenanalyse interessiert. Bitte senden Sie mir die relevanten Informationen, einschlie\u00dflich Kontaktdaten wie E-Mail-Adresse und Telefonnummer, damit wir telefonisch vereinbaren k\u00f6nnen, wann wir uns \u00fcber die spezifischen Bed\u00fcrfnisse besprechen k\u00f6nnen.",
+  "category_of_the_email": "Request"
+}

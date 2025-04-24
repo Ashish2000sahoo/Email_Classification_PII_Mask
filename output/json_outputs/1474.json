@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Steigerung der Werkstationen erforderlich\n\nSehr geehrte Kundenservice, ich mache mir darum bem\u00fcht, eine Steigerung der Hardware meiner Werkstation zu beantragen, um eine effizientere Datenanalyse und ben\u00f6tigte Anlageeinblicke zu erm\u00f6glichen. Das aktuelle System ist veraltet und beeintr\u00e4chtigt meine Produktivit\u00e4t My name is Maria Gonzalez.. Ich werde eine Werkstation mit einem schnelleren Prozessor, mehr RAM und einer leistungsstarken Grafikkarte beantragen You can reach me at elena.ivanova@support.org.. Diese Steigerung wird es mir erm\u00f6glichen, gro\u00dfe Datens\u00e4tze schnell zu verarbeiten und weise Anlageentscheidungen zu treffen. Ich denke, dass diese Steigerung unerl\u00e4sslich ist, um in der Wettbewerbslandschaft erfolgreich zu sein. Ich freue mich auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        348
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        487,
+        512
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Steigerung der Werkstationen erforderlich\n\nSehr geehrte Kundenservice, ich mache mir darum bem\u00fcht, eine Steigerung der Hardware meiner Werkstation zu beantragen, um eine effizientere Datenanalyse und ben\u00f6tigte Anlageeinblicke zu erm\u00f6glichen. Das aktuelle System ist veraltet und beeintr\u00e4chtigt meine Produktivit\u00e4t My name is [full_name].. Ich werde eine Werkstation mit einem schnelleren Prozessor, mehr RAM und einer leistungsstarken Grafikkarte beantragen You can reach me at [email].. Diese Steigerung wird es mir erm\u00f6glichen, gro\u00dfe Datens\u00e4tze schnell zu verarbeiten und weise Anlageentscheidungen zu treffen. Ich denke, dass diese Steigerung unerl\u00e4sslich ist, um in der Wettbewerbslandschaft erfolgreich zu sein. Ich freue mich auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Change"
+}

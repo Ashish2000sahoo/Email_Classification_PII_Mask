@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Campaign Analytics Problem\n\nRespected Customer Support Team, I am contacting you to report a glitch with our campaign analytics tool You can reach me at carlosm@gmail.com.. The issue arose following recent software modifications. Even after restarting the system and updating the plugins, the problem has not been resolved My name is David Kim.. The dashboard is unable to present correct campaign data, which is preventing us from making strategic choices. I've attempted to resolve the issue by verifying for plugin conflicts and ensuring all software is updated. Nevertheless, the issue persists. I would be very grateful if you could examine this situation and offer a solution promptly. Kindly inform me if you need any further details from me. Thanks for your help. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        162,
+        179
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Campaign Analytics Problem\n\nRespected Customer Support Team, I am contacting you to report a glitch with our campaign analytics tool You can reach me at [email].. The issue arose following recent software modifications. Even after restarting the system and updating the plugins, the problem has not been resolved My name is [full_name].. The dashboard is unable to present correct campaign data, which is preventing us from making strategic choices. I've attempted to resolve the issue by verifying for plugin conflicts and ensuring all software is updated. Nevertheless, the issue persists. I would be very grateful if you could examine this situation and offer a solution promptly. Kindly inform me if you need any further details from me. Thanks for your help. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

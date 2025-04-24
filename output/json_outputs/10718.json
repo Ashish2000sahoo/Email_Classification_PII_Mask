@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject:  Detected Unlawful Access to Patient Information\n\nEsteemed Customer Support, <br>We have identified unauthorized access to patient data. This may have resulted from inadequate firewall settings. Despite verifying user authentication methods, the problem continues My name is Liu Wei.. We require your immediate help to address this emergency and avoid future security breaches. <br>Please instruct us on measures to safeguard our system and prevent such unauthorized access. <br>We are grateful for your rapid intervention You can reach me at david.kim@corp.kr.. <br>Thank you for your cooperation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        291
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        556,
+        573
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject:  Detected Unlawful Access to Patient Information\n\nEsteemed Customer Support, <br>We have identified unauthorized access to patient data. This may have resulted from inadequate firewall settings. Despite verifying user authentication methods, the problem continues My name is [full_name].. We require your immediate help to address this emergency and avoid future security breaches. <br>Please instruct us on measures to safeguard our system and prevent such unauthorized access. <br>We are grateful for your rapid intervention You can reach me at [email].. <br>Thank you for your cooperation.",
+  "category_of_the_email": "Incident"
+}

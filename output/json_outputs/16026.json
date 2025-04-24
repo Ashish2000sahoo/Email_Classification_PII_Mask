@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with IntelliJ IDEA\n\nI am reaching out to report an issue I am encountering with IntelliJ IDEA My name is Carlos Mendoza.. This issue seems to be related to outdated plugin compatibility. Despite attempting to resolve it by restarting the application, updating the plugins, and clearing the cache, the problem continues to occur. I would be extremely grateful if you could offer a solution or guidance on how to fix this. Kindly inform me if you require any additional details from me to help resolve the issue. I am eagerly awaiting your response. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        122,
+        136
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        582,
+        604
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with IntelliJ IDEA\n\nI am reaching out to report an issue I am encountering with IntelliJ IDEA My name is [full_name].. This issue seems to be related to outdated plugin compatibility. Despite attempting to resolve it by restarting the application, updating the plugins, and clearing the cache, the problem continues to occur. I would be extremely grateful if you could offer a solution or guidance on how to fix this. Kindly inform me if you require any additional details from me to help resolve the issue. I am eagerly awaiting your response. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

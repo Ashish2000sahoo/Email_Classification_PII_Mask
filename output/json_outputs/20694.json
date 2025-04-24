@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Intermittierendes Bildschirmflackerproblem beim Laptop\n\nSehr geehrter Tech Online Store Kundenservice,\n\nIch hoffe, diese Nachricht erreicht Sie wohl You can reach me at janesmith@company.com.. Ich wende mich an Sie, um ein Problem mit meinem k\u00fcrzlich erworbenen Laptop, dem Dell XPS 13 9310, zu melden, der w\u00e4hrend der regul\u00e4ren Nutzung intermittierendes Bildschirmflackern zeigt. Dieses Problem wird besonders offensichtlich und h\u00e4ufig, wenn ich die Helligkeitseinstellungen anpasse.\n\nIch habe den Laptop k\u00fcrzlich \u00fcber Ihren Online-Shop mit der Bestellnummer <order_num> gekauft, und er ist noch unter Garantie. Zun\u00e4chst war die Leistung einwandfrei, aber in den letzten Wochen habe ich ein zunehmendes Flackern des Bildschirms bemerkt, das meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt, insbesondere w\u00e4hrend Konferenzgespr\u00e4che und Pr\u00e4sentationen.\n\nIch habe eine Reihe von Fehlersuche-Schritten ausprobiert, wie das Aktualisieren der Grafikkartentreiber, Systemupdates durchzuf\u00fchren und die Helligkeitseinstellungen auf automatisch zur\u00fcckzusetzen, aber das Problem bleibt bestehen. Ich habe auch versucht, adaptive Helligkeitsfunktionen zu deaktivieren und mit verschiedenen Energieeinstellungen zu experimentieren, aber leider haben diese Versuche das Problem nicht gel\u00f6st.\n\nAngesichts dessen, dass es sich um ein Hochleistungsmodell handelt, hatte ich eine nahtlose Nutzung erwartet, aber dieses Problem ist eine erhebliche Entt\u00e4uschung. Daher bitte ich um Ihre Anleitung, wie ich bei der Behebung dieses Problems am besten vorgehen sollte. Ich freue mich auf Ihre Empfehlungen oder die Organisation einer Reparatur oder eines Austauschs, falls erforderlich.\n\nVielen Dank im Voraus f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Bitte kontaktieren Sie mich zu einem f\u00fcr Sie passenden Zeitpunkt unter <email> oder \u00fcber meine Handynummer, <tel_num>.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1905,
+        1919
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        178,
+        199
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        278,
+        285
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Intermittierendes Bildschirmflackerproblem beim Laptop\n\nSehr geehrter Tech Online Store Kundenservice,\n\nIch hoffe, diese Nachricht erreicht Sie wohl You can reach me at [email].. Ich wende mich an Sie, um ein Problem mit meinem k\u00fcrzlich erworbenen Laptop, dem Dell XPS [phone_number], zu melden, der w\u00e4hrend der regul\u00e4ren Nutzung intermittierendes Bildschirmflackern zeigt. Dieses Problem wird besonders offensichtlich und h\u00e4ufig, wenn ich die Helligkeitseinstellungen anpasse.\n\nIch habe den Laptop k\u00fcrzlich \u00fcber Ihren Online-Shop mit der Bestellnummer <order_num> gekauft, und er ist noch unter Garantie. Zun\u00e4chst war die Leistung einwandfrei, aber in den letzten Wochen habe ich ein zunehmendes Flackern des Bildschirms bemerkt, das meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt, insbesondere w\u00e4hrend Konferenzgespr\u00e4che und Pr\u00e4sentationen.\n\nIch habe eine Reihe von Fehlersuche-Schritten ausprobiert, wie das Aktualisieren der Grafikkartentreiber, Systemupdates durchzuf\u00fchren und die Helligkeitseinstellungen auf automatisch zur\u00fcckzusetzen, aber das Problem bleibt bestehen. Ich habe auch versucht, adaptive Helligkeitsfunktionen zu deaktivieren und mit verschiedenen Energieeinstellungen zu experimentieren, aber leider haben diese Versuche das Problem nicht gel\u00f6st.\n\nAngesichts dessen, dass es sich um ein Hochleistungsmodell handelt, hatte ich eine nahtlose Nutzung erwartet, aber dieses Problem ist eine erhebliche Entt\u00e4uschung. Daher bitte ich um Ihre Anleitung, wie ich bei der Behebung dieses Problems am besten vorgehen sollte. Ich freue mich auf Ihre Empfehlungen oder die Organisation einer Reparatur oder eines Austauschs, falls erforderlich.\n\nVielen Dank im Voraus f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Bitte kontaktieren Sie mich zu einem f\u00fcr Sie passenden Zeitpunkt unter <email> oder \u00fcber meine Handynummer, <tel_num>.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

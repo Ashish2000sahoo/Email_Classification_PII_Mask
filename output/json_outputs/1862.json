@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance for Brand Expansion\n\nCould we provide you with information on strategies? We are here to support your brand growth. Our team is willing to discuss strategies that could help your business expand and increase brand awareness My name is John Doe.. We offer customized solutions to help businesses reach their goals. Please share your current goals and challenges so we can provide tailored information. We would be happy to schedule a call at your convenience. Please let us know a suitable time. You can reach us at <tel_num>. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        255,
+        263
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        569,
+        586
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance for Brand Expansion\n\nCould we provide you with information on strategies? We are here to support your brand growth. Our team is willing to discuss strategies that could help your business expand and increase brand awareness My name is [full_name].. We offer customized solutions to help businesses reach their goals. Please share your current goals and challenges so we can provide tailored information. We would be happy to schedule a call at your convenience. Please let us know a suitable time. You can reach us at <tel_num>. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

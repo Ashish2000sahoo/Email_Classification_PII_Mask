@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digital Expansion Strategies\n\nWould like to get more details on digital growth strategies and the pricing options available. Your services would be a great help for our business to grow. Also, would appreciate if you could inform me about any discounts or promotions that are currently available You can reach me at liuwei@business.cn.. Thank you for your assistance, and I look forward to your response soon. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        430,
+        439
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        325,
+        343
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Digital Expansion Strategies\n\nWould like to get more details on digital growth strategies and the pricing options available. Your services would be a great help for our business to grow. Also, would appreciate if you could inform me about any discounts or promotions that are currently available You can reach me at [email].. Thank you for your assistance, and I look forward to your response soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

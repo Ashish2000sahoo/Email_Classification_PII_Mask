@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Billing Error Issue\n\nHello Customer Support,\\n\\nI am contacting you to report an unexpected billing error that happened during my subscription renewal process. Even after checking my account and payment information, I encountered an error stating the payment was not processed successfully. \\nI believe this error could be due to an issue with the payment gateway integration, as I have faced similar problems before. \\nI would greatly appreciate your investigation and a prompt solution. Please feel free to request any additional information you may need from me to address this issue You can reach me at maria.gonzalez@shop.es.. \\nThank you for your swift response. I look forward to hearing back from you soon My name is Elena Ivanova.. \\nSincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        734,
+        747
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        616,
+        638
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Billing Error Issue\n\nHello Customer Support,\\n\\nI am contacting you to report an unexpected billing error that happened during my subscription renewal process. Even after checking my account and payment information, I encountered an error stating the payment was not processed successfully. \\nI believe this error could be due to an issue with the payment gateway integration, as I have faced similar problems before. \\nI would greatly appreciate your investigation and a prompt solution. Please feel free to request any additional information you may need from me to address this issue You can reach me at [email].. \\nThank you for your swift response. I look forward to hearing back from you soon My name is [full_name].. \\nSincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

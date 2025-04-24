@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Strategies for Enhancing Digital Brand Growth\n\nI hope this message finds you well You can reach me at fatima.farsi@help.com.. I am interested in learning about effective digital strategies that can help boost brand growth and engagement for businesses. Could you share some insights or recommendations on this matter? Your input would be greatly appreciated. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        379,
+        389
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        111,
+        132
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Strategies for Enhancing Digital Brand Growth\n\nI hope this message finds you well You can reach me at [email].. I am interested in learning about effective digital strategies that can help boost brand growth and engagement for businesses. Could you share some insights or recommendations on this matter? Your input would be greatly appreciated. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

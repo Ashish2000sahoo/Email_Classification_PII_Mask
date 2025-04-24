@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problemas de Conectividade de Rede\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema de conectividade de rede que estamos enfrentando com nosso Roteador Cisco ISR4331, impactando nossa rede empresarial segura e conex\u00f5es de alto desempenho. O roteador, que \u00e9 essencial para nossas opera\u00e7\u00f5es di\u00e1rias, tem interrompido conex\u00f5es intermitentemente e afetado nossa produtividade geral. Reiniciamos o roteador e verificamos todas as conex\u00f5es f\u00edsicas, mas o problema persiste My name is Fatima Al-Farsi.. Como esse dispositivo \u00e9 cr\u00edtico para garantir transfer\u00eancias de dados em alta velocidade em nossa rede, uma resolu\u00e7\u00e3o r\u00e1pida \u00e9 necess\u00e1ria.\n\nVoc\u00ea poderia, por favor, fornecer orienta\u00e7\u00f5es ou arranjar um especialista t\u00e9cnico para nos ajudar a diagnosticar e resolver o problema? Qualquer conselho imediato para mitigar interrup\u00e7\u00f5es seria muito apreciado.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto. Posso ser contatado pelo <tel_num> ou por e-mail em <email>, caso voc\u00ea precise de mais detalhes.\n\nAtenciosamente,\n\n<name>\n<acc_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        510,
+        519
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1077,
+        1098
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        193,
+        197
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Problemas de Conectividade de Rede\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema de conectividade de rede que estamos enfrentando com nosso Roteador Cisco ISR[phone_number], impactando nossa rede empresarial segura e conex\u00f5es de alto desempenho. O roteador, que \u00e9 essencial para nossas opera\u00e7\u00f5es di\u00e1rias, tem interrompido conex\u00f5es intermitentemente e afetado nossa produtividade geral. Reiniciamos o roteador e verificamos todas as conex\u00f5es f\u00edsicas, mas o problema persiste My name is [full_name]-Farsi.. Como esse dispositivo \u00e9 cr\u00edtico para garantir transfer\u00eancias de dados em alta velocidade em nossa rede, uma resolu\u00e7\u00e3o r\u00e1pida \u00e9 necess\u00e1ria.\n\nVoc\u00ea poderia, por favor, fornecer orienta\u00e7\u00f5es ou arranjar um especialista t\u00e9cnico para nos ajudar a diagnosticar e resolver o problema? Qualquer conselho imediato para mitigar interrup\u00e7\u00f5es seria muito apreciado.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto. Posso ser contatado pelo <tel_num> ou por e-mail em <email>, caso voc\u00ea precise de mais detalhes.\n\nAtenciosamente,\n\n<name>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

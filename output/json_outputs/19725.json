@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Marketing Campaigns Performance Issues\n\nOur marketing campaigns are not performing as expected, leading to a stagnated brand growth. This may be due to unclear targeting and ineffective messaging My name is Elena Ivanova.. We have reviewed the strategies and adjusted the audience segments, which has shown some improvement. However, we need your assistance to identify the root cause and develop a new strategy to boost brand growth. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        229
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        462,
+        484
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Marketing Campaigns Performance Issues\n\nOur marketing campaigns are not performing as expected, leading to a stagnated brand growth. This may be due to unclear targeting and ineffective messaging My name is [full_name].. We have reviewed the strategies and adjusted the audience segments, which has shown some improvement. However, we need your assistance to identify the root cause and develop a new strategy to boost brand growth. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler mit Projektdaten\n\nNach dem Update der Software verschwanden die Projektdaten My name is Omar Hassan.. M\u00f6glicherweise liegt dies an einer unkompatiblen Integration mit der Oracle-Datenbank 19c. Obwohl das System neu gestartet wurde und die Logdateien gepr\u00fcft wurden, beh\u00e4lt sich das Problem bestanden. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        104,
+        115
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        337,
+        362
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fehler mit Projektdaten\n\nNach dem Update der Software verschwanden die Projektdaten My name is [full_name].. M\u00f6glicherweise liegt dies an einer unkompatiblen Integration mit der Oracle-Datenbank 19c. Obwohl das System neu gestartet wurde und die Logdateien gepr\u00fcft wurden, beh\u00e4lt sich das Problem bestanden. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

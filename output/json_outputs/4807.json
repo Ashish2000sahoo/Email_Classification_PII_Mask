@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Dashboard Problem\n\nI am contacting you to address an issue with the investment dashboard. It experienced an unexpected crash last night, which might be linked to a recent Terraform configuration update You can reach me at david.kim@corp.kr.. I have attempted to resolve the issue by restarting the service, reviewing logs, and conducting malware scans, but the problem remains unresolved. The dashboard was functioning correctly prior to the crash, and I am worried about the impact on my investments My name is Liu Wei.. I would be grateful if you could look into this and offer a solution promptly. Please inform me if you require additional details from me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        532,
+        539
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        242,
+        259
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Investment Dashboard Problem\n\nI am contacting you to address an issue with the investment dashboard. It experienced an unexpected crash last night, which might be linked to a recent Terraform configuration update You can reach me at [email].. I have attempted to resolve the issue by restarting the service, reviewing logs, and conducting malware scans, but the problem remains unresolved. The dashboard was functioning correctly prior to the crash, and I am worried about the impact on my investments My name is [full_name].. I would be grateful if you could look into this and offer a solution promptly. Please inform me if you require additional details from me.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frequente Ausf\u00e4lle\n\nUnser SaaS-System erleidet h\u00e4ufige Ausf\u00e4lle unter hoher Last You can reach me at janesmith@company.com.. Die Ressourcen wurden skaliert und die Abfragen optimiert, aber die Probleme bestehen weiterhin My name is Sophia Rossi.. Bitte helfen Sie bei der L\u00f6sung des Problems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        241,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        110,
+        131
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Frequente Ausf\u00e4lle\n\nUnser SaaS-System erleidet h\u00e4ufige Ausf\u00e4lle unter hoher Last You can reach me at [email].. Die Ressourcen wurden skaliert und die Abfragen optimiert, aber die Probleme bestehen weiterhin My name is [full_name].. Bitte helfen Sie bei der L\u00f6sung des Problems.",
+  "category_of_the_email": "Incident"
+}

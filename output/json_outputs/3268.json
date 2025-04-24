@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Unforeseen Service Interruption\n\nHello Customer Support, I am submitting a report regarding an unexpected service interruption that has affected multiple products, including Kubernetes ClickUp. The exact cause of the outage has not yet been determined, and it could be due to an overload or a configuration error. Initial steps taken included system reboots and checking the logs, but the issues still persist. I would greatly appreciate it if you could look into this matter urgently and provide a resolution as soon as possible You can reach me at maria.gonzalez@shop.es.. Please keep me informed. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        630,
+        640
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        569,
+        591
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Report on Unforeseen Service Interruption\n\nHello Customer Support, I am submitting a report regarding an unexpected service interruption that has affected multiple products, including Kubernetes ClickUp. The exact cause of the outage has not yet been determined, and it could be due to an overload or a configuration error. Initial steps taken included system reboots and checking the logs, but the issues still persist. I would greatly appreciate it if you could look into this matter urgently and provide a resolution as soon as possible You can reach me at [email].. Please keep me informed. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

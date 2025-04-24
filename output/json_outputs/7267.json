@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Access to Medical Data\n\nI am writing to report an issue with accessing medical data You can reach me at maria.gonzalez@shop.es.. This issue has appeared unexpectedly, and I suspect it might be due to a configuration problem or software glitch. I have already tried restarting the systems, checking permissions, and collecting error logs, but the issue persists. I would appreciate it if you could look into this matter and provide a solution as soon as possible. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        499,
+        512
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        129,
+        151
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Access to Medical Data\n\nI am writing to report an issue with accessing medical data You can reach me at [email].. This issue has appeared unexpectedly, and I suspect it might be due to a configuration problem or software glitch. I have already tried restarting the systems, checking permissions, and collecting error logs, but the issue persists. I would appreciate it if you could look into this matter and provide a solution as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

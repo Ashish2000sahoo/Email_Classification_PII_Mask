@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Cisco Router-Ausfall\n\nSehr geehrter Kundenservice,\n\nich schreibe, um Sie \u00fcber ein technisches Problem von hoher Priorit\u00e4t zu informieren, das wir mit dem Cisco-Router ISR4331 haben. Der Fehler, der mit dieser Ausr\u00fcstung verbunden ist, hat zu einem vollst\u00e4ndigen Dienstausfall gef\u00fchrt, der mehrere Kunden betrifft und sofortige Aufmerksamkeit und L\u00f6sung erfordert.\n\nDieses Problem wurde erstmals am <date> festgestellt und hat unsere Dienstbereitstellung erheblich beeintr\u00e4chtigt. Wir haben zahlreiche Berichte von Kunden erhalten, die nicht auf ihre Dienstleistungen zugreifen k\u00f6nnen, was erhebliche betriebliche St\u00f6rungen f\u00fcr sie verursacht. Es scheint, dass der Router nicht in der Lage ist, die Konnektivit\u00e4t aufrechtzuerhalten, und diese St\u00f6rung ist across mehrere verbundene Netzwerke konsistent You can reach me at sophia.rossi@service.it.. Wir haben alle Verbindungen und Einstellungen \u00fcberpr\u00fcft, um sicherzustellen, dass das Problem nicht in unseren internen Systemen liegt My name is Elena Ivanova.. Folglich vermuten wir stark, dass ein Fehler von der Hardware oder Firmware des Routers ausgeht, der dringend untersucht werden muss.\n\nAngesichts der kritischen Natur dieses Problems erh\u00f6hen wir die Dringlichkeit dieses Problems auf die h\u00f6chste Priorit\u00e4t. Unsere Kunden sind auf uns f\u00fcr zuverl\u00e4ssige Dienstleistungen angewiesen, und es ist unerl\u00e4sslich, dass diese St\u00f6rung schnell behoben wird, um weitere Verluste zu minimieren und das Vertrauen der Betroffenen wiederherzustellen. Wir w\u00fcrden es sch\u00e4tzen, wenn Sie ein erfahrenes technisches Team entsenden k\u00f6nnten, um die Ursache so schnell wie m\u00f6glich zu bewerten und zu beheben.\n\nK\u00f6nnten Sie bitte den Erhalt dieses Schreibens best\u00e4tigen und Anleitungen zu den n\u00e4chsten Schritten geben? Wir vertrauen auf Ihre Kompetenz und verlassen uns auf Ihr Fachwissen, um uns zu helfen, die volle Funktionalit\u00e4t so schnell wie m\u00f6glich wiederherzustellen.\n\nZu Dokumentationszwecken lautet unsere Kontonummer <acc_num>. Bitte kontaktieren Sie uns \u00fcber diese E-Mail oder unter <tel_num>, falls Sie weitere Informationen oder Klarstellungen ben\u00f6tigen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem kritischen Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\nIT Services Team",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1002,
+        1015
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        830,
+        853
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        179,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Cisco Router-Ausfall\n\nSehr geehrter Kundenservice,\n\nich schreibe, um Sie \u00fcber ein technisches Problem von hoher Priorit\u00e4t zu informieren, das wir mit dem Cisco-Router ISR[phone_number] haben. Der Fehler, der mit dieser Ausr\u00fcstung verbunden ist, hat zu einem vollst\u00e4ndigen Dienstausfall gef\u00fchrt, der mehrere Kunden betrifft und sofortige Aufmerksamkeit und L\u00f6sung erfordert.\n\nDieses Problem wurde erstmals am <date> festgestellt und hat unsere Dienstbereitstellung erheblich beeintr\u00e4chtigt. Wir haben zahlreiche Berichte von Kunden erhalten, die nicht auf ihre Dienstleistungen zugreifen k\u00f6nnen, was erhebliche betriebliche St\u00f6rungen f\u00fcr sie verursacht. Es scheint, dass der Router nicht in der Lage ist, die Konnektivit\u00e4t aufrechtzuerhalten, und diese St\u00f6rung ist across mehrere verbundene Netzwerke konsistent You can reach me at [email].. Wir haben alle Verbindungen und Einstellungen \u00fcberpr\u00fcft, um sicherzustellen, dass das Problem nicht in unseren internen Systemen liegt My name is [full_name].. Folglich vermuten wir stark, dass ein Fehler von der Hardware oder Firmware des Routers ausgeht, der dringend untersucht werden muss.\n\nAngesichts der kritischen Natur dieses Problems erh\u00f6hen wir die Dringlichkeit dieses Problems auf die h\u00f6chste Priorit\u00e4t. Unsere Kunden sind auf uns f\u00fcr zuverl\u00e4ssige Dienstleistungen angewiesen, und es ist unerl\u00e4sslich, dass diese St\u00f6rung schnell behoben wird, um weitere Verluste zu minimieren und das Vertrauen der Betroffenen wiederherzustellen. Wir w\u00fcrden es sch\u00e4tzen, wenn Sie ein erfahrenes technisches Team entsenden k\u00f6nnten, um die Ursache so schnell wie m\u00f6glich zu bewerten und zu beheben.\n\nK\u00f6nnten Sie bitte den Erhalt dieses Schreibens best\u00e4tigen und Anleitungen zu den n\u00e4chsten Schritten geben? Wir vertrauen auf Ihre Kompetenz und verlassen uns auf Ihr Fachwissen, um uns zu helfen, die volle Funktionalit\u00e4t so schnell wie m\u00f6glich wiederherzustellen.\n\nZu Dokumentationszwecken lautet unsere Kontonummer <acc_num>. Bitte kontaktieren Sie uns \u00fcber diese E-Mail oder unter <tel_num>, falls Sie weitere Informationen oder Klarstellungen ben\u00f6tigen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem kritischen Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\nIT Services Team",
+  "category_of_the_email": "Incident"
+}

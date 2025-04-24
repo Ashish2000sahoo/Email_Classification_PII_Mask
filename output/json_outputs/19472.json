@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung von Verz\u00f6gerungen bei Marketing-Kampagnen\n\nWir erleben Verz\u00f6gerungen bei der Ver\u00f6ffentlichung von Kampagnen aufgrund von Integrationsschwierigkeiten mit Softwarewerkzeugen und Plattformen.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        248
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung von Verz\u00f6gerungen bei Marketing-Kampagnen\n\nWir erleben Verz\u00f6gerungen bei der Ver\u00f6ffentlichung von Kampagnen aufgrund von Integrationsschwierigkeiten mit Softwarewerkzeugen und Plattformen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

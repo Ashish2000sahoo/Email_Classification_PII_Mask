@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage Kundenbetreuung\n\nWenden Sie sich zu digitalen Strategien f\u00fcr die Markengr\u00f6\u00dfe. Bitte geben Sie Details und Angebote an My name is Maria Gonzalez.. Ich m\u00f6chte mehr \u00fcber die Art und Weise erfahren, wie Ihr Unternehmen die Gesch\u00e4ftsziele meines Unternehmens erreichen kann You can reach me at johndoe@email.com.. Insbesondere interessiert mich die Herangehensweise bei sozialem Medien-Marketing, Inhaltserschaffung und Suchmaschinenoptimierung. Ich glaube, dass eine gut durchdachte digitale Strategie im heutigen wettbewerbsreichen Markt entscheidend ist. Ich freue mich darauf, die Nachricht zu beantworten und dar\u00fcber zu er\u00f6rtern, wie wir zusammen arbeiten k\u00f6nnen, um das Wachstum und die Markenbewusstheit zu f\u00f6rdern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        160
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        303,
+        320
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage Kundenbetreuung\n\nWenden Sie sich zu digitalen Strategien f\u00fcr die Markengr\u00f6\u00dfe. Bitte geben Sie Details und Angebote an My name is [full_name].. Ich m\u00f6chte mehr \u00fcber die Art und Weise erfahren, wie Ihr Unternehmen die Gesch\u00e4ftsziele meines Unternehmens erreichen kann You can reach me at [email].. Insbesondere interessiert mich die Herangehensweise bei sozialem Medien-Marketing, Inhaltserschaffung und Suchmaschinenoptimierung. Ich glaube, dass eine gut durchdachte digitale Strategie im heutigen wettbewerbsreichen Markt entscheidend ist. Ich freue mich darauf, die Nachricht zu beantworten und dar\u00fcber zu er\u00f6rtern, wie wir zusammen arbeiten k\u00f6nnen, um das Wachstum und die Markenbewusstheit zu f\u00f6rdern.",
+  "category_of_the_email": "Request"
+}

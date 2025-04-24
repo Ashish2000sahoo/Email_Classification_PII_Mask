@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage zu Zubeh\u00f6r\n\nHallo Tech Online Store Support-Team,\n\nich m\u00f6chte mich nach der Verf\u00fcgbarkeit und Kompatibilit\u00e4t von Zubeh\u00f6r f\u00fcr das MacBook Air M1 erkundigen, das auf Ihrer Website aufgef\u00fchrt ist. K\u00f6nnten Sie bitte weitere Informationen dazu bereitstellen?\n\nVielen Dank,\n<name>. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        329
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zu Zubeh\u00f6r\n\nHallo Tech Online Store Support-Team,\n\nich m\u00f6chte mich nach der Verf\u00fcgbarkeit und Kompatibilit\u00e4t von Zubeh\u00f6r f\u00fcr das MacBook Air M1 erkundigen, das auf Ihrer Website aufgef\u00fchrt ist. K\u00f6nnten Sie bitte weitere Informationen dazu bereitstellen?\n\nVielen Dank,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

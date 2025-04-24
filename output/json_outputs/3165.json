@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Software Crashes\n\nHello customer support, I am contacting you to report several software crashes that happened on the same day My name is Liu Wei.. These crashes were unplanned and could be due to issues with the recent macOS update. Despite restarting my systems and updating my drivers, I was unable to resolve the problem. I would be grateful for any help or advice you could offer. If you require further details, please let me know. Thank you. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        495,
+        512
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Software Crashes\n\nHello customer support, I am contacting you to report several software crashes that happened on the same day My name is [full_name].. These crashes were unplanned and could be due to issues with the recent macOS update. Despite restarting my systems and updating my drivers, I was unable to resolve the problem. I would be grateful for any help or advice you could offer. If you require further details, please let me know. Thank you. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Securing Medical Data\n\nCustomer Support, could you please provide information on securing medical data in Keras hospital environments? Medical data is highly sensitive and requires the utmost protection. I would appreciate knowing the measures taken to ensure the confidentiality, integrity, and availability of medical data using Keras You can reach me at janesmith@company.com.. Could you provide some general information on this topic and recommend any resources that could help? Specifically, I would like to know the practices and protocols followed in handling medical data. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        601,
+        614
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        366,
+        387
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Securing Medical Data\n\nCustomer Support, could you please provide information on securing medical data in Keras hospital environments? Medical data is highly sensitive and requires the utmost protection. I would appreciate knowing the measures taken to ensure the confidentiality, integrity, and availability of medical data using Keras You can reach me at [email].. Could you provide some general information on this topic and recommend any resources that could help? Specifically, I would like to know the practices and protocols followed in handling medical data. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

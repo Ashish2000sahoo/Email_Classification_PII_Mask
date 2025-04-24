@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Prediction Issues with Data Analytics Tool\n\nHello customer support, I am encountering problems with inaccuracies in investment predictions from the data analytics tool. It seems the tool may be malfunctioning My name is Elena Ivanova.. Despite attempting to restart the system and verify the data feeds, the issue continues. I would greatly appreciate your assistance in addressing this. Could you please help me diagnose the problem and find a solution to ensure accurate predictions? You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        240,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        524,
+        541
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Investment Prediction Issues with Data Analytics Tool\n\nHello customer support, I am encountering problems with inaccuracies in investment predictions from the data analytics tool. It seems the tool may be malfunctioning My name is [full_name].. Despite attempting to restart the system and verify the data feeds, the issue continues. I would greatly appreciate your assistance in addressing this. Could you please help me diagnose the problem and find a solution to ensure accurate predictions? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

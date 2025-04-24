@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Significant Performance Degradation Noted During Optimum User Activity Period\n\nObserved critical performance degradation during peak user activity periods You can reach me at johndoe@email.com.. This could be due to increased user load and inefficient queries. Efforts to optimize database queries have resolved the issue. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        184,
+        201
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Significant Performance Degradation Noted During Optimum User Activity Period\n\nObserved critical performance degradation during peak user activity periods You can reach me at [email].. This could be due to increased user load and inefficient queries. Efforts to optimize database queries have resolved the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

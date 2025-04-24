@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Datensicherheit im Bereich medizinischer Daten\n\nIch schreibe an, um die Verbesserung der Sicherheitsma\u00dfnahmen f\u00fcr den Schutz medizinischer Daten in den IT-Systemen und den zugeh\u00f6rigen Ger\u00e4ten im Krankenhaus zu bitten. Dies umfasst die Umsetzung robuster Firewalls, die Verschl\u00fcsselung sensibler Informationen, regelm\u00e4\u00dfige Software-Aktualisierungen, um Cyberthreatauszuschlie\u00dfen My name is Liu Wei.. Dar\u00fcber hinaus werden Schulungen f\u00fcr den Personaldienstbetrieb bez\u00fcglich der besten Sicherheitspraktiken angeboten You can reach me at maria.gonzalez@shop.es.. Ich glaube, dass diese Ma\u00dfnahmen das Risiko eines Datenbruchs erheblich reduzieren und die Vertraulichkeit der Patientendaten sichern werden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        415,
+        422
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        564,
+        586
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Datensicherheit im Bereich medizinischer Daten\n\nIch schreibe an, um die Verbesserung der Sicherheitsma\u00dfnahmen f\u00fcr den Schutz medizinischer Daten in den IT-Systemen und den zugeh\u00f6rigen Ger\u00e4ten im Krankenhaus zu bitten. Dies umfasst die Umsetzung robuster Firewalls, die Verschl\u00fcsselung sensibler Informationen, regelm\u00e4\u00dfige Software-Aktualisierungen, um Cyberthreatauszuschlie\u00dfen My name is [full_name].. Dar\u00fcber hinaus werden Schulungen f\u00fcr den Personaldienstbetrieb bez\u00fcglich der besten Sicherheitspraktiken angeboten You can reach me at [email].. Ich glaube, dass diese Ma\u00dfnahmen das Risiko eines Datenbruchs erheblich reduzieren und die Vertraulichkeit der Patientendaten sichern werden.",
+  "category_of_the_email": "Change"
+}

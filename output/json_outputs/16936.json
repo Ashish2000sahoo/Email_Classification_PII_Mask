@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr Technische Unterst\u00fctzung bei St\u00fcrzen\n\nDas App-Programm st\u00fcrzt h\u00e4ufig w\u00e4hrend der Verwendung auf dem MacBook Air ab.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr Technische Unterst\u00fctzung bei St\u00fcrzen\n\nDas App-Programm st\u00fcrzt h\u00e4ufig w\u00e4hrend der Verwendung auf dem MacBook Air ab.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

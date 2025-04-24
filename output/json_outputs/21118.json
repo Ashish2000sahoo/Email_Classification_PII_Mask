@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: HP DeskJet 3755 Problem\n\nSehr geehrter Kundenservice, ich habe einen HP DeskJet 3755 erhalten, und er zeigt w\u00e4hrend der Ersteinrichtung einen Papierstau-Fehler an You can reach me at carlosm@gmail.com.. Bitte helfen Sie mir My name is Fatima Al-Farsi.. Mit freundlichen Gr\u00fc\u00dfen, <name>, Konto: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        192,
+        209
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        20,
+        24
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        89,
+        93
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: HP DeskJet [phone_number] Problem\n\nSehr geehrter Kundenservice, ich habe einen HP DeskJet [phone_number] erhalten, und er zeigt w\u00e4hrend der Ersteinrichtung einen Papierstau-Fehler an You can reach me at [email].. Bitte helfen Sie mir My name is [full_name]-Farsi.. Mit freundlichen Gr\u00fc\u00dfen, <name>, Konto: <acc_num>",
+  "category_of_the_email": "Incident"
+}

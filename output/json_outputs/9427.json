@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Management Tool Crash\n\nThe SaaS project management tool has been encountering unexpected system crashes during data processing, which might be related to a conflict with PostgreSQL 13 and Kaspersky Internet Security 2021. To resolve the issue, it is recommended to adjust security settings and optimize database queries.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        250
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        373,
+        388
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Management Tool Crash\n\nThe SaaS project management tool has been encountering unexpected system crashes during data processing, which might be related to a conflict with PostgreSQL 13 and Kaspersky Internet Security [phone_number]. To resolve the issue, it is recommended to adjust security settings and optimize database queries.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

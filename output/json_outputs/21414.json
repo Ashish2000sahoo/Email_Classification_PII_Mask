@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de consultation sur le serveur\n\nCher Support Client,\n\nJe vous \u00e9cris pour demander une consultation concernant l'administration des serveurs. Plus pr\u00e9cis\u00e9ment, j'ai besoin d'aide pour comprendre les mises \u00e0 jour logicielles et les plannings de maintenance li\u00e9s \u00e0 votre Service de Conseil en TI You can reach me at carlosm@gmail.com.. Votre expertise dans ce domaine est grandement appr\u00e9ci\u00e9e.\n\nMerci,\n<name> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        447
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        330,
+        347
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Demande de consultation sur le serveur\n\nCher Support Client,\n\nJe vous \u00e9cris pour demander une consultation concernant l'administration des serveurs. Plus pr\u00e9cis\u00e9ment, j'ai besoin d'aide pour comprendre les mises \u00e0 jour logicielles et les plannings de maintenance li\u00e9s \u00e0 votre Service de Conseil en TI You can reach me at [email].. Votre expertise dans ce domaine est grandement appr\u00e9ci\u00e9e.\n\nMerci,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

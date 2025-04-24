@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Guidance on Securing Medical Data Software\n\nCould you provide guidance on securing medical data with AutoCAD 2022 and QuickBooks Online? It's crucial to ensure the confidentiality of patient information. Your assistance in this matter is greatly appreciated My name is Liu Wei.. I look forward to hearing back from you soon. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        285
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        358,
+        380
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        118,
+        122
+      ],
+      "classification": "phone_number",
+      "entity": "2022"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Securing Medical Data Software\n\nCould you provide guidance on securing medical data with AutoCAD [phone_number] and QuickBooks Online? It's crucial to ensure the confidentiality of patient information. Your assistance in this matter is greatly appreciated My name is [full_name].. I look forward to hearing back from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

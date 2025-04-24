@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Digital Marketing Campaigns\n\nDear Customer Support, I am writing to report an issue with our digital marketing campaigns. They have unexpectedly stopped and are not running as planned. We believe there might be software compatibility issues My name is Carlos Mendoza.. We have already restarted our systems and looked for updates, but the problem persists You can reach me at carlosm@gmail.com.. Could you please assist us in resolving this? We would greatly appreciate any guidance on how to fix the error. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        291
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        398,
+        415
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Digital Marketing Campaigns\n\nDear Customer Support, I am writing to report an issue with our digital marketing campaigns. They have unexpectedly stopped and are not running as planned. We believe there might be software compatibility issues My name is [full_name].. We have already restarted our systems and looked for updates, but the problem persists You can reach me at [email].. Could you please assist us in resolving this? We would greatly appreciate any guidance on how to fix the error. Thank you for your time and support.",
+  "category_of_the_email": "Incident"
+}

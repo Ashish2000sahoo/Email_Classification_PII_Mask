@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Software crashes during data visualization due to potential memory compatibility issues with NAS-System, even after restarts and updates.\n\nThe software is experiencing crashes during data visualization tasks, which may be related to high memory usage and compatibility issues with the NAS-System. This issue persists despite attempts to restart and update the software.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        416
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Software crashes during data visualization due to potential memory compatibility issues with NAS-System, even after restarts and updates.\n\nThe software is experiencing crashes during data visualization tasks, which may be related to high memory usage and compatibility issues with the NAS-System. This issue persists despite attempts to restart and update the software.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Antivirus-Angelegenheit\n\nSehr geehrte/r <name>,\n\nich m\u00f6chte ein Problem mit Norton Antivirus Plus zur Sprache bringen. Die Anwendung scheint nicht ordnungsgem\u00e4\u00df zu arbeiten und bietet nicht den Schutz, den ich erwartet habe My name is Liu Wei.. Bitte helfen Sie mir, dieses Problem m\u00f6glichst schnell zu l\u00f6sen. Wenn Sie weitere Informationen ben\u00f6tigen, erreichen Sie mich unter <tel_num> oder indem Sie auf diese E-Mail antworten.\n\nMit besten Gr\u00fc\u00dfen,\n<name> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        251
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        490,
+        507
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Antivirus-Angelegenheit\n\nSehr geehrte/r <name>,\n\nich m\u00f6chte ein Problem mit Norton Antivirus Plus zur Sprache bringen. Die Anwendung scheint nicht ordnungsgem\u00e4\u00df zu arbeiten und bietet nicht den Schutz, den ich erwartet habe My name is [full_name].. Bitte helfen Sie mir, dieses Problem m\u00f6glichst schnell zu l\u00f6sen. Wenn Sie weitere Informationen ben\u00f6tigen, erreichen Sie mich unter <tel_num> oder indem Sie auf diese E-Mail antworten.\n\nMit besten Gr\u00fc\u00dfen,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

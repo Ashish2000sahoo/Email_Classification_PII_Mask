@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Investment Predictions Accuracy\n\nHello Customer Support, I am contacting you to report a problem with the investment predictions produced by your service My name is Jane Smith.. The predictions are inaccurate and despite restarting the system and verifying the data sources, the issue continues. I suspect this may be caused by a data feed disruption or a flaw in the algorithm You can reach me at fatima.farsi@help.com.. I would be grateful if you could examine this and offer a resolution at your earliest convenience. Please inform me if more information from my end is necessary to address this issue. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        419,
+        440
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investment Predictions Accuracy\n\nHello Customer Support, I am contacting you to report a problem with the investment predictions produced by your service My name is [full_name].. The predictions are inaccurate and despite restarting the system and verifying the data sources, the issue continues. I suspect this may be caused by a data feed disruption or a flaw in the algorithm You can reach me at [email].. I would be grateful if you could examine this and offer a resolution at your earliest convenience. Please inform me if more information from my end is necessary to address this issue. Thank you for your time and assistance.",
+  "category_of_the_email": "Incident"
+}

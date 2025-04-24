@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de bater\u00eda con Dell XPS 13\n\nEstimado equipo de soporte de Tech Online Store,\n\nEstoy experimentando un problema de bater\u00eda con mi Dell XPS 13 9310. La bater\u00eda no retiene una carga por m\u00e1s de 2 horas. Como resultado, interfiere significativamente en mi trabajo You can reach me at johndoe@email.com.. Solicito amablemente asistencia para resolver este asunto a la mayor brevedad posible.\n\nPor favor, h\u00e1game saber si se requiere informaci\u00f3n adicional.\n\nGracias por su pronta atenci\u00f3n.\n\nAtentamente,\n<name>\n\nContacto: <tel_num> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        553,
+        560
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        297,
+        314
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        156,
+        163
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema de bater\u00eda con Dell XPS 13\n\nEstimado equipo de soporte de Tech Online Store,\n\nEstoy experimentando un problema de bater\u00eda con mi Dell XPS [phone_number]. La bater\u00eda no retiene una carga por m\u00e1s de 2 horas. Como resultado, interfiere significativamente en mi trabajo You can reach me at [email].. Solicito amablemente asistencia para resolver este asunto a la mayor brevedad posible.\n\nPor favor, h\u00e1game saber si se requiere informaci\u00f3n adicional.\n\nGracias por su pronta atenci\u00f3n.\n\nAtentamente,\n<name>\n\nContacto: <tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

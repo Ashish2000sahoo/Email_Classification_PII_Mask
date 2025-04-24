@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Issue Regarding Web Traffic\n\nWeb traffic has significantly decreased. The changes in the algorithm might be due to outdated SEO strategies My name is Omar Hassan.. After analyzing the data and adjusting the keywords, some improvement has been noted. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        287,
+        304
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Issue Regarding Web Traffic\n\nWeb traffic has significantly decreased. The changes in the algorithm might be due to outdated SEO strategies My name is [full_name].. After analyzing the data and adjusting the keywords, some improvement has been noted. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

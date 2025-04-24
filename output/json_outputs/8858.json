@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Campaign Information\n\nDear Customer Support,\\n\\nI am contacting you to report an unexpected disappearance of campaign data overnight. I believe a potential cause could be related to an issue with the TYPO3 and Drupal integration You can reach me at david.kim@corp.kr.. I have already restarted the server and reviewed the logs.\\n\\nPlease investigate this matter promptly and let me know the next steps to resolve it.\\n\\nThank you for your attention to this.\\n\\nBest regards My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        507,
+        519
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        271,
+        288
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Campaign Information\n\nDear Customer Support,\\n\\nI am contacting you to report an unexpected disappearance of campaign data overnight. I believe a potential cause could be related to an issue with the TYPO3 and Drupal integration You can reach me at [email].. I have already restarted the server and reviewed the logs.\\n\\nPlease investigate this matter promptly and let me know the next steps to resolve it.\\n\\nThank you for your attention to this.\\n\\nBest regards My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

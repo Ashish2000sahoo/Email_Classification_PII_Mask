@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nThe user is unable to access the project settings, and recent updates My name is Fatima Al-Farsi.. Steps taken include clearing the browser cache and resetting user permissions, but access is still blocked. The issue might be due to recent code changes or permission misconfigurations You can reach me at johndoe@email.com.. Please assist in resolving this issue at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        92,
+        101
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        318,
+        335
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe user is unable to access the project settings, and recent updates My name is [full_name]-Farsi.. Steps taken include clearing the browser cache and resetting user permissions, but access is still blocked. The issue might be due to recent code changes or permission misconfigurations You can reach me at [email].. Please assist in resolving this issue at your earliest convenience.",
+  "category_of_the_email": "Incident"
+}

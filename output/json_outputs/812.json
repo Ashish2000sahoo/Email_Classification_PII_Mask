@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Medical Scanner Operation\n\nThe medical scanner started malfunctioning unexpectedly You can reach me at carlosm@gmail.com.. It might be because of an old scanner driver. Attempted to resolve by restarting the scanner and updating the drivers. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        286
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        125,
+        142
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Scanner Operation\n\nThe medical scanner started malfunctioning unexpectedly You can reach me at [email].. It might be because of an old scanner driver. Attempted to resolve by restarting the scanner and updating the drivers. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

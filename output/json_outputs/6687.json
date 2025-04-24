@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Nachhaltige Projektleitungsl\u00f6sungen\n\nK\u00f6nnten Sie umfassende Details zu SaaS-F\u00e4higkeiten f\u00fcr skalierbare Projektleitungsl\u00f6sungen liefern?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Nachhaltige Projektleitungsl\u00f6sungen\n\nK\u00f6nnten Sie umfassende Details zu SaaS-F\u00e4higkeiten f\u00fcr skalierbare Projektleitungsl\u00f6sungen liefern?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

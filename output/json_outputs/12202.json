@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich m\u00f6chte mich in Bezug auf die gemeldete Reduzierung der Kundennutzungsma\u00dfe des letzten Monats wenden My name is Elena Ivanova.. Es ist m\u00f6glich, dass sich \u00c4nderungen in den Algorithmen von Sozialmediaplattformen als Ursache hierf\u00fcr erweisen You can reach me at maria.gonzalez@shop.es.. Trotz aller Bem\u00fchungen, um den Inhalt zu verbessern und den Werbeaufwand zu erh\u00f6hen, konnten wir keine signifikanten Verbesserungen feststellen. Ich w\u00e4re sehr dankbar, wenn Sie mir Unterst\u00fctzung bei der Identifizierung der Grundursache und m\u00f6glichen L\u00f6sungen zur Verbesserung der Kundennutzungsma\u00dfe bieten k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        162
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        295,
+        317
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich m\u00f6chte mich in Bezug auf die gemeldete Reduzierung der Kundennutzungsma\u00dfe des letzten Monats wenden My name is [full_name].. Es ist m\u00f6glich, dass sich \u00c4nderungen in den Algorithmen von Sozialmediaplattformen als Ursache hierf\u00fcr erweisen You can reach me at [email].. Trotz aller Bem\u00fchungen, um den Inhalt zu verbessern und den Werbeaufwand zu erh\u00f6hen, konnten wir keine signifikanten Verbesserungen feststellen. Ich w\u00e4re sehr dankbar, wenn Sie mir Unterst\u00fctzung bei der Identifizierung der Grundursache und m\u00f6glichen L\u00f6sungen zur Verbesserung der Kundennutzungsma\u00dfe bieten k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

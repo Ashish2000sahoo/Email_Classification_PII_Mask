@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with HubSpot Integration\n\nA marketing agency is encountering issues with integrating HubSpot CRM tools My name is Jane Smith.. Recent updates might have introduced compatibility problems You can reach me at omar.hassan@secure.net.. Despite attempts to troubleshoot by checking system settings and re-establishing connections, the issues continue to persist. We require assistance to resolve this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        141
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        225,
+        247
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with HubSpot Integration\n\nA marketing agency is encountering issues with integrating HubSpot CRM tools My name is [full_name].. Recent updates might have introduced compatibility problems You can reach me at [email].. Despite attempts to troubleshoot by checking system settings and re-establishing connections, the issues continue to persist. We require assistance to resolve this matter.",
+  "category_of_the_email": "Incident"
+}

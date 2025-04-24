@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Signal Integration Malfunction\n\nDear Customer Support,\\n\\nI am contacting you to report a problem with the signal integration in our project. The updates are not synchronizing as they should, which has made it hard to monitor the project's progress You can reach me at omar.hassan@secure.net.. Upon investigation, we believe an API key mismatch is the probable root of this issue.\\n\\nWe have attempted to restart the service and reviewed the logs, but the issue persists My name is Liu Wei.. We would be very grateful if you could help us resolve this as soon as possible.\\n\\nHere are the specifics of the event:\\n\\n* Incident: Signal integration failure\\n* What happened: Project updates not syncing\\n* Likely cause: API key mismatch\\n* Steps taken: Restarted service, reviewed logs\\n\\nIf you need more information or additional steps from our side, please let us know.\\n\\nThank you for addressing this quickly.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        491,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        278,
+        300
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Signal Integration Malfunction\n\nDear Customer Support,\\n\\nI am contacting you to report a problem with the signal integration in our project. The updates are not synchronizing as they should, which has made it hard to monitor the project's progress You can reach me at [email].. Upon investigation, we believe an API key mismatch is the probable root of this issue.\\n\\nWe have attempted to restart the service and reviewed the logs, but the issue persists My name is [full_name].. We would be very grateful if you could help us resolve this as soon as possible.\\n\\nHere are the specifics of the event:\\n\\n* Incident: Signal integration failure\\n* What happened: Project updates not syncing\\n* Likely cause: API key mismatch\\n* Steps taken: Restarted service, reviewed logs\\n\\nIf you need more information or additional steps from our side, please let us know.\\n\\nThank you for addressing this quickly.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

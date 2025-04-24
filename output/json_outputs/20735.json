@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Enterprise Networking Issue\n\nDear IT Services Support Team,\n\nI'm reaching out to report an issue we've been experiencing with our Cisco Router ISR4331 in managing our enterprise networking needs. Our organization has been encountering significant difficulty as the router seems unable to handle the high-performance demands required for secure connections, which is an essential function for our operations.\n\nRecently, our network capacity requirements have escalated due to increased remote work, demanding 24/7 secure access for multiple users You can reach me at liuwei@business.cn.. Unfortunately, the router appears to be struggling under these conditions, leading to frequent disruptions and an inability to maintain reliable and secure connections. This performance degradation is causing considerable concern as it severely impacts our business processes and productivity.\n\nWe initially selected the Cisco Router ISR4331 for its robust specifications, which, on paper, seemed more than adequate for our needs. However, in practice, it is proving inadequate for our growing demands. Despite several attempts at configuration tweaks and an upgrade to the latest firmware, the issue remains persistent. We speculate that the current hardware limitations may not be sufficient for our needs but would appreciate an expert evaluation from your team to confirm this and advise on possible solutions.\n\nOur goal is to ensure robust, high-speed connectivity for our internal and client-facing operations, with the necessary security measures uncompromised. Please acknowledge this request at your earliest convenience and advise on steps or opportunities for enhanced support, evaluation, or even an upgrade to a more suitable router model if deemed necessary.\n\nThank you for your attention to this urgent matter My name is Jane Smith.. I look forward to your swift response.\n\nBest regards,\n\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1832,
+        1842
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        575,
+        593
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        155,
+        159
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        922,
+        926
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Enterprise Networking Issue\n\nDear IT Services Support Team,\n\nI'm reaching out to report an issue we've been experiencing with our Cisco Router ISR[phone_number] in managing our enterprise networking needs. Our organization has been encountering significant difficulty as the router seems unable to handle the high-performance demands required for secure connections, which is an essential function for our operations.\n\nRecently, our network capacity requirements have escalated due to increased remote work, demanding 24/7 secure access for multiple users You can reach me at [email].. Unfortunately, the router appears to be struggling under these conditions, leading to frequent disruptions and an inability to maintain reliable and secure connections. This performance degradation is causing considerable concern as it severely impacts our business processes and productivity.\n\nWe initially selected the Cisco Router ISR[phone_number] for its robust specifications, which, on paper, seemed more than adequate for our needs. However, in practice, it is proving inadequate for our growing demands. Despite several attempts at configuration tweaks and an upgrade to the latest firmware, the issue remains persistent. We speculate that the current hardware limitations may not be sufficient for our needs but would appreciate an expert evaluation from your team to confirm this and advise on possible solutions.\n\nOur goal is to ensure robust, high-speed connectivity for our internal and client-facing operations, with the necessary security measures uncompromised. Please acknowledge this request at your earliest convenience and advise on steps or opportunities for enhanced support, evaluation, or even an upgrade to a more suitable router model if deemed necessary.\n\nThank you for your attention to this urgent matter My name is [full_name].. I look forward to your swift response.\n\nBest regards,\n\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

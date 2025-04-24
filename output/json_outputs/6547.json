@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Integration Issue\n\nDear Support Team, I am contacting you to address an integration failure we are encountering with our system. Several tools are unable to sync data, which is essential for our daily operations. We believe this issue may stem from API authentication problems, similar to previous experiences we have had. We have already attempted to restart the services and check the credentials, but the problem still lingers. We kindly request your immediate attention to this issue and a prompt solution My name is Liu Wei.. Please notify us if you require further information You can reach me at david.kim@corp.kr.. We appreciate your assistance in resolving this matter. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        537,
+        544
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        623,
+        640
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: System Integration Issue\n\nDear Support Team, I am contacting you to address an integration failure we are encountering with our system. Several tools are unable to sync data, which is essential for our daily operations. We believe this issue may stem from API authentication problems, similar to previous experiences we have had. We have already attempted to restart the services and check the credentials, but the problem still lingers. We kindly request your immediate attention to this issue and a prompt solution My name is [full_name].. Please notify us if you require further information You can reach me at [email].. We appreciate your assistance in resolving this matter. Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

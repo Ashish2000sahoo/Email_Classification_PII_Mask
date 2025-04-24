@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Schnellere Ladegeschwindigkeit ben\u00f6tigt\n\nLangsames Ladetempo bei Projektmanagement-\u00dcbersichtserfahrung erkgberungen.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        163
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Schnellere Ladegeschwindigkeit ben\u00f6tigt\n\nLangsames Ladetempo bei Projektmanagement-\u00dcbersichtserfahrung erkgberungen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

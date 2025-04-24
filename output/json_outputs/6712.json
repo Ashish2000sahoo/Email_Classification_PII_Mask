@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Security Protocols for Storing Medical Data on PostgreSQL 13\n\nHello Customer Support, I am writing to seek advice on the best security practices for storing medical data on PostgreSQL 13. Given the sensitivity of medical information, it is essential to implement stringent protection measures My name is Sophia Rossi.. Could you please provide details on encryption techniques, access management, and backup strategies to safeguard the confidentiality, integrity, and accessibility of the data? I am particularly interested in understanding the recommended encryption methods, access control measures, and backup procedures You can reach me at fatima.farsi@help.com.. I look forward to your response and any additional information you can provide. Thank you for your assistance, and I hope to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        664,
+        685
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Security Protocols for Storing Medical Data on PostgreSQL 13\n\nHello Customer Support, I am writing to seek advice on the best security practices for storing medical data on PostgreSQL 13. Given the sensitivity of medical information, it is essential to implement stringent protection measures My name is [full_name].. Could you please provide details on encryption techniques, access management, and backup strategies to safeguard the confidentiality, integrity, and accessibility of the data? I am particularly interested in understanding the recommended encryption methods, access control measures, and backup procedures You can reach me at [email].. I look forward to your response and any additional information you can provide. Thank you for your assistance, and I hope to hear from you soon.",
+  "category_of_the_email": "Request"
+}

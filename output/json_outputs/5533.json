@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem with Investment Dashboard\n\nHello customer support, I am contacting you to report an issue I am experiencing with my investment dashboards. They are not loading, and I believe it might be related to a problem with the Azure connection. Despite restarting Jenkins and checking my Norton 360 settings, the issue still exists My name is Omar Hassan.. I would be grateful if you could examine this and provide a resolution at your earliest convenience. If you require any additional information from me to address this, please let me know. Thank you for your attention and help. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        350,
+        361
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        611,
+        628
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        302,
+        305
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Dashboard\n\nHello customer support, I am contacting you to report an issue I am experiencing with my investment dashboards. They are not loading, and I believe it might be related to a problem with the Azure connection. Despite restarting Jenkins and checking my Norton [cvv_no] settings, the issue still exists My name is [full_name].. I would be grateful if you could examine this and provide a resolution at your earliest convenience. If you require any additional information from me to address this, please let me know. Thank you for your attention and help. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Datenanalyse-Tools\n\nIch m\u00f6chte anfragen, dass die Datenanalysefunktionen zur Optimierung der Investitionen verbessert werden You can reach me at liuwei@business.cn.. Ich sehne mich nach integrierten Werkzeugen, die \u00fcber mehrere Produkte hinweg verf\u00fcgbar sind, um die Entscheidungsfindung zu verbessern My name is Carlos Mendoza.. Solche Verbesserungen k\u00f6nnten die Gesamtleistung der Investitionsstrategien erheblich f\u00f6rdern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        353
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        171,
+        189
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Datenanalyse-Tools\n\nIch m\u00f6chte anfragen, dass die Datenanalysefunktionen zur Optimierung der Investitionen verbessert werden You can reach me at [email].. Ich sehne mich nach integrierten Werkzeugen, die \u00fcber mehrere Produkte hinweg verf\u00fcgbar sind, um die Entscheidungsfindung zu verbessern My name is [full_name].. Solche Verbesserungen k\u00f6nnten die Gesamtleistung der Investitionsstrategien erheblich f\u00f6rdern.",
+  "category_of_the_email": "Change"
+}

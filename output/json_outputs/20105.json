@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Billing Disputes\n\nDear Customer Support, I noticed discrepancies in the charges after experiencing service throttling during peak hours on AWS Management Service. Could you please assist in clarifying and resolving this issue? Sincerely, <name>. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        292
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Billing Disputes\n\nDear Customer Support, I noticed discrepancies in the charges after experiencing service throttling during peak hours on AWS Management Service. Could you please assist in clarifying and resolving this issue? Sincerely, <name>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

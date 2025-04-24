@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Multiple Tools Experienced Concurrent Malfunctions This Morning\n\nVarious tools failed at the identical time. It might be related to excessive infrastructure demand My name is Omar Hassan.. We have already rebooted the servers, reviewed the logs, and informed the pertinent teams. The problem is under investigation and will be addressed as swiftly as possible. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        390,
+        411
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Multiple Tools Experienced Concurrent Malfunctions This Morning\n\nVarious tools failed at the identical time. It might be related to excessive infrastructure demand My name is [full_name].. We have already rebooted the servers, reviewed the logs, and informed the pertinent teams. The problem is under investigation and will be addressed as swiftly as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Tactics Through Data\n\nWhich tools are utilized in investment analysis?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        123,
+        138
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Tactics Through Data\n\nWhich tools are utilized in investment analysis?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

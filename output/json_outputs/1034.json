@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problems with Microsoft Surface Pro 8 Operation\n\nFacing issues while writing reports on my Microsoft Surface Pro 8 You can reach me at johndoe@email.com.. The device struggles to run QuickBooks and Excel 2021 smoothly My name is Maria Gonzalez.. I've already attempted a restart and reinstallation of the software, but the problem continues. I suspect there might be software conflicts or insufficient system resources. I would greatly appreciate your prompt assistance in resolving this issue. Could you please guide me on the next steps to troubleshoot and resolve the problem? I am available to provide any additional information needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        252
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        144,
+        161
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        203,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problems with Microsoft Surface Pro 8 Operation\n\nFacing issues while writing reports on my Microsoft Surface Pro 8 You can reach me at [email].. The device struggles to run QuickBooks and Excel [phone_number] smoothly My name is [full_name].. I've already attempted a restart and reinstallation of the software, but the problem continues. I suspect there might be software conflicts or insufficient system resources. I would greatly appreciate your prompt assistance in resolving this issue. Could you please guide me on the next steps to troubleshoot and resolve the problem? I am available to provide any additional information needed.",
+  "category_of_the_email": "Incident"
+}

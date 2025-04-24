@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Enhanced Reporting Features\n\nSeeking to enhance the reporting features in the project management platform to improve our analytics capabilities for better decision-making and operational optimization My name is Elena Ivanova.. Current reporting tools are insufficient for tracking key performance indicators and identifying areas for improvement. By incorporating advanced reporting features, we aim to gain a deeper understanding of our products' performance, enabling us to make data-driven decisions to drive business growth. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        245
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        568,
+        589
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Enhanced Reporting Features\n\nSeeking to enhance the reporting features in the project management platform to improve our analytics capabilities for better decision-making and operational optimization My name is [full_name].. Current reporting tools are insufficient for tracking key performance indicators and identifying areas for improvement. By incorporating advanced reporting features, we aim to gain a deeper understanding of our products' performance, enabling us to make data-driven decisions to drive business growth. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detected Unauthorised Access on Hospital Systems\n\nDear Support Team, I am reporting a critical security incident involving unauthorized access to our hospital systems, which could jeopardize the security of our medical data My name is Maria Gonzalez.. Despite recent measures such as updating passwords, patching systems, and conducting security scans, the issue persists. We are deeply concerned about the potential consequences and urgently seek your assistance in resolving this matter at the earliest opportunity. Please provide us with further instructions. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        589,
+        611
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Detected Unauthorised Access on Hospital Systems\n\nDear Support Team, I am reporting a critical security incident involving unauthorized access to our hospital systems, which could jeopardize the security of our medical data My name is [full_name].. Despite recent measures such as updating passwords, patching systems, and conducting security scans, the issue persists. We are deeply concerned about the potential consequences and urgently seek your assistance in resolving this matter at the earliest opportunity. Please provide us with further instructions. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

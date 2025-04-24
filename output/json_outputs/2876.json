@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Integrationsfunktion auf MacBook\n\nBewerbte Kundensupport, ich habe Schwierigkeiten mit der Integrationsfunktion verschiedener Plattformen (Adobe Sign, ActiveCampaign, Airtable) auf meinem Apple MacBook Air. Die Probleme k\u00f6nnten Kompatibilit\u00e4tskonflikte mit neueren Software-Updates verursacht haben. Ich habe bereits versucht, mein Ger\u00e4t neu zu starten, die betroffenen Anwendungen zu deinstallieren und neu zu installieren, aber das Problem beh\u00e4lt seinen Bestand. Ich sch\u00e4tze es, wenn Sie einen L\u00f6sungsansatz schnell zur Verf\u00fcgung stellen k\u00f6nnten My name is Elena Ivanova.. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        585,
+        598
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        704,
+        726
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Integrationsfunktion auf MacBook\n\nBewerbte Kundensupport, ich habe Schwierigkeiten mit der Integrationsfunktion verschiedener Plattformen (Adobe Sign, ActiveCampaign, Airtable) auf meinem Apple MacBook Air. Die Probleme k\u00f6nnten Kompatibilit\u00e4tskonflikte mit neueren Software-Updates verursacht haben. Ich habe bereits versucht, mein Ger\u00e4t neu zu starten, die betroffenen Anwendungen zu deinstallieren und neu zu installieren, aber das Problem beh\u00e4lt seinen Bestand. Ich sch\u00e4tze es, wenn Sie einen L\u00f6sungsansatz schnell zur Verf\u00fcgung stellen k\u00f6nnten My name is [full_name].. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

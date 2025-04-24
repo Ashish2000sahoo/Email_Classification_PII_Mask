@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent Resolution Required for Network Failure\n\nMission-critical communication failure due to Cisco Router ISR4331 crash. Needs urgent diagnosis for network restoration You can reach me at maria.gonzalez@shop.es.. Immediate attention required! My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        278
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        198,
+        220
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        119,
+        123
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent Resolution Required for Network Failure\n\nMission-critical communication failure due to Cisco Router ISR[phone_number] crash. Needs urgent diagnosis for network restoration You can reach me at [email].. Immediate attention required! My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

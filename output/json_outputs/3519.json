@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem MacBook Air\n\nLiebe Kundensupport, ich schreibe, dass ich h\u00e4ufig Kopfschmerzen bei meinem MacBook Air erltere, w\u00e4hrend ich mehrere Anwendungen gleichzeitig benutze You can reach me at elena.ivanova@support.org.. Trotz Neustarts des Ger\u00e4ts, Schlie\u00dfen ungenutzter Anwendungen und Neuinstallation der betroffenen Software, besteht der Problemfall weiterhin. Ich vermute, dass der Mangel an Systemressourcen oder Anwendungskompatibilit\u00e4t den Ursprung des Problems haben k\u00f6nnte. Kopfschmerzen treten zuf\u00e4llig, ohne ein spezifisches Muster zu haben, und ich kann keinen Ausl\u00f6ser identifizieren. Ich sch\u00e4tze eine L\u00f6sung f\u00fcr dieses Problem, da es meine Produktivit\u00e4t st\u00f6rt. Bitte lassen Sie mich wissen, welche Schritte ich unternehmen kann, um das Problem zu l\u00f6sen. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        795,
+        809
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        209,
+        234
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem MacBook Air\n\nLiebe Kundensupport, ich schreibe, dass ich h\u00e4ufig Kopfschmerzen bei meinem MacBook Air erltere, w\u00e4hrend ich mehrere Anwendungen gleichzeitig benutze You can reach me at [email].. Trotz Neustarts des Ger\u00e4ts, Schlie\u00dfen ungenutzter Anwendungen und Neuinstallation der betroffenen Software, besteht der Problemfall weiterhin. Ich vermute, dass der Mangel an Systemressourcen oder Anwendungskompatibilit\u00e4t den Ursprung des Problems haben k\u00f6nnte. Kopfschmerzen treten zuf\u00e4llig, ohne ein spezifisches Muster zu haben, und ich kann keinen Ausl\u00f6ser identifizieren. Ich sch\u00e4tze eine L\u00f6sung f\u00fcr dieses Problem, da es meine Produktivit\u00e4t st\u00f6rt. Bitte lassen Sie mich wissen, welche Schritte ich unternehmen kann, um das Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

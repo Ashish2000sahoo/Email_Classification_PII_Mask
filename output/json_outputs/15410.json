@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Nicht genaue Investment-Prognosen - Bitte Unterst\u00fctzung\n\nUnsere finanziellen Unternehmen k\u00e4mpfen mit ungenauen Investitionsprognosen You can reach me at fatima.farsi@help.com.. Wir haben versucht, die Analysesoftware zu kalibrieren, um die Datens\u00e4tze zu aktualisieren, was jedoch erfolglos war My name is David Kim.. Das Team hat verschiedene Schritt-f\u00fcr-Schritt-Anleitungen durchgef\u00fchrt, aber das Problem beh\u00e4lt sich bestehen. Wir bitten h\u00f6flich das Kundenservice-Team um Unterst\u00fctzung, um die Pr\u00e4zision unserer Investitionsprognosen zu verbessern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        162,
+        183
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Nicht genaue Investment-Prognosen - Bitte Unterst\u00fctzung\n\nUnsere finanziellen Unternehmen k\u00e4mpfen mit ungenauen Investitionsprognosen You can reach me at [email].. Wir haben versucht, die Analysesoftware zu kalibrieren, um die Datens\u00e4tze zu aktualisieren, was jedoch erfolglos war My name is [full_name].. Das Team hat verschiedene Schritt-f\u00fcr-Schritt-Anleitungen durchgef\u00fchrt, aber das Problem beh\u00e4lt sich bestehen. Wir bitten h\u00f6flich das Kundenservice-Team um Unterst\u00fctzung, um die Pr\u00e4zision unserer Investitionsprognosen zu verbessern.",
+  "category_of_the_email": "Problem"
+}

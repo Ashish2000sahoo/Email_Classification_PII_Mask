@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Vermutete Datensperrverletzung im Medizinischen Datensystem\n\nSehr geehrter Kundensupport,<br><br>Wir m\u00f6chten Ihnen mitteilen, dass eine m\u00f6gliche Datensperrverletzung im Medizinischen Datensystem vermutet wird My name is Carlos Mendoza.. Die veralteten Sicherheitsprotokolle sind m\u00f6glicherweise die Ursache You can reach me at carlosm@gmail.com.. Obwohl keine sofortigen Probleme festgestellt wurden, f\u00fchren wir eine gr\u00fcndliche Untersuchung durch, um den Umfang der Verletzung, die Ursache und den Zugang zu bestimmen.<br><br>Wir empfehlen unseren Kunden, ihre Konten auf verd\u00e4chtige Aktivit\u00e4ten zu \u00fcberwachen und uns umgehend zu melden, falls etwas Ungew\u00f6hnliches auftritt.<br><br>Mit freundlichen Gr\u00fc\u00dfen",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        332,
+        349
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Vermutete Datensperrverletzung im Medizinischen Datensystem\n\nSehr geehrter Kundensupport,<br><br>Wir m\u00f6chten Ihnen mitteilen, dass eine m\u00f6gliche Datensperrverletzung im Medizinischen Datensystem vermutet wird My name is [full_name].. Die veralteten Sicherheitsprotokolle sind m\u00f6glicherweise die Ursache You can reach me at [email].. Obwohl keine sofortigen Probleme festgestellt wurden, f\u00fchren wir eine gr\u00fcndliche Untersuchung durch, um den Umfang der Verletzung, die Ursache und den Zugang zu bestimmen.<br><br>Wir empfehlen unseren Kunden, ihre Konten auf verd\u00e4chtige Aktivit\u00e4ten zu \u00fcberwachen und uns umgehend zu melden, falls etwas Ungew\u00f6hnliches auftritt.<br><br>Mit freundlichen Gr\u00fc\u00dfen",
+  "category_of_the_email": "Incident"
+}

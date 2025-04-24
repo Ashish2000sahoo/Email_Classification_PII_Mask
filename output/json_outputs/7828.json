@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Schwerpunkt des Zugriffs auf Patientendaten\n\nDerzeit sind die Patientendaten aufgrund eines Systemabbruchs nicht verf\u00fcgbar. Dies k\u00f6nnte entweder auf einen Softwarefehler oder eine hohes Serverlast zur\u00fcckzuf\u00fchren sein You can reach me at david.kim@corp.kr.. Die Server wurden bereits neu gestartet und die Backups wurden nach Fehlern durchsucht, aber das Problem wurde bisher nicht beheben. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um dieses Problem zu l\u00f6sen. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        476,
+        483
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        246,
+        263
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Schwerpunkt des Zugriffs auf Patientendaten\n\nDerzeit sind die Patientendaten aufgrund eines Systemabbruchs nicht verf\u00fcgbar. Dies k\u00f6nnte entweder auf einen Softwarefehler oder eine hohes Serverlast zur\u00fcckzuf\u00fchren sein You can reach me at [email].. Die Server wurden bereits neu gestartet und die Backups wurden nach Fehlern durchsucht, aber das Problem wurde bisher nicht beheben. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um dieses Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

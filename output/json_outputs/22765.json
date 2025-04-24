@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fallos en el Despliegue y Solicitud de Optimizaci\u00f3n de Costos\n\nEstimado Soporte al Cliente,\n\nNuestro cliente <name> est\u00e1 experimentando fallos en el despliegue con su Servicio de Gesti\u00f3n de AWS. Tambi\u00e9n les gustar\u00eda explorar opciones para la optimizaci\u00f3n de costos de su configuraci\u00f3n e infraestructura de AWS existentes You can reach me at elena.ivanova@support.org.. El n\u00famero de cuenta del cliente es <acc_num>. Por favor, asista con este asunto a la mayor brevedad posible My name is Jane Smith.. Puede contactarme al <tel_num>.\n\nGracias.\n\nAtentamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        497,
+        507
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        350,
+        375
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fallos en el Despliegue y Solicitud de Optimizaci\u00f3n de Costos\n\nEstimado Soporte al Cliente,\n\nNuestro cliente <name> est\u00e1 experimentando fallos en el despliegue con su Servicio de Gesti\u00f3n de AWS. Tambi\u00e9n les gustar\u00eda explorar opciones para la optimizaci\u00f3n de costos de su configuraci\u00f3n e infraestructura de AWS existentes You can reach me at [email].. El n\u00famero de cuenta del cliente es <acc_num>. Por favor, asista con este asunto a la mayor brevedad posible My name is [full_name].. Puede contactarme al <tel_num>.\n\nGracias.\n\nAtentamente,\n<name>",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nA security breach in medical data occurred during a routine software update You can reach me at david.kim@corp.kr.. It may have happened due to outdated security protocols. So far, we have patched the critical systems and reviewed access logs for any anomalies. Immediate action is necessary to prevent further breaches. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        107,
+        124
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nA security breach in medical data occurred during a routine software update You can reach me at [email].. It may have happened due to outdated security protocols. So far, we have patched the critical systems and reviewed access logs for any anomalies. Immediate action is necessary to prevent further breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

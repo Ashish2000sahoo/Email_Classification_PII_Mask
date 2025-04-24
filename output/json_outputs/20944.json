@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Immediate response required: Cisco Router ISR4331 issue\n\nOur enterprise network is down due to the Cisco Router ISR4331 malfunctioning My name is David Kim.. This requires your urgent attention to restore secure, high-performance connectivity immediately. Please address this issue at your earliest convenience. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        164
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        343,
+        361
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        54,
+        58
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        124,
+        128
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Immediate response required: Cisco Router ISR[phone_number] issue\n\nOur enterprise network is down due to the Cisco Router ISR[phone_number] malfunctioning My name is [full_name].. This requires your urgent attention to restore secure, high-performance connectivity immediately. Please address this issue at your earliest convenience. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

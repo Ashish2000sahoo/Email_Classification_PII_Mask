@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgente: Interrup\u00e7\u00e3o de Rede pelo Roteador ISR4331\n\nCaro Time de Suporte, Estamos enfrentando uma interrup\u00e7\u00e3o de rede causada por um roteador Cisco ISR4331 com defeito. Isso requer uma interven\u00e7\u00e3o t\u00e9cnica de alta prioridade My name is Liu Wei.. Por favor, resolvam este problema o mais r\u00e1pido poss\u00edvel. Obrigado pela assist\u00eancia You can reach me at david.kim@corp.kr.. Atenciosamente, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        251
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        362,
+        379
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        55,
+        59
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        160,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Interrup\u00e7\u00e3o de Rede pelo Roteador ISR[phone_number]\n\nCaro Time de Suporte, Estamos enfrentando uma interrup\u00e7\u00e3o de rede causada por um roteador Cisco ISR[phone_number] com defeito. Isso requer uma interven\u00e7\u00e3o t\u00e9cnica de alta prioridade My name is [full_name].. Por favor, resolvam este problema o mais r\u00e1pido poss\u00edvel. Obrigado pela assist\u00eancia You can reach me at [email].. Atenciosamente, <name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Over Data Security\n\nThe healthcare provider's systems have faced unauthorized access attempts, posing a threat to the security of medical data You can reach me at johndoe@email.com.. Potential reasons for this include weak passwords and outdated software. Actions have been initiated to update security protocols and conduct staff training to enhance data protection and prevent future breaches. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        425,
+        432
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        181,
+        198
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Data Security\n\nThe healthcare provider's systems have faced unauthorized access attempts, posing a threat to the security of medical data You can reach me at [email].. Potential reasons for this include weak passwords and outdated software. Actions have been initiated to update security protocols and conduct staff training to enhance data protection and prevent future breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

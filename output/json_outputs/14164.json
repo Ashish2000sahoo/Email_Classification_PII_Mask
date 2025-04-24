@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Integration\n\nSeeking details on integration options for AutoCAD 2022 SaaS with a project management tool. Could you provide information on how to integrate the two systems, including compatibility, setup, and any potential limitations?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        82,
+        86
+      ],
+      "classification": "phone_number",
+      "entity": "2022"
+    },
+    {
+      "position": [
+        276,
+        292
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Query on Integration\n\nSeeking details on integration options for AutoCAD [phone_number] SaaS with a project management tool. Could you provide information on how to integrate the two systems, including compatibility, setup, and any potential limitations?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

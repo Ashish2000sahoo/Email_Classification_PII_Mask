@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Concern with Data Analytics Dashboard\n\nHere is a brief description of the issue: **Problem:** The data analytics dashboard is malfunctioning. **Details:** It is showing incorrect investment forecasts My name is Fatima Al-Farsi.. **Reason:** Potentially, this is because of an outdated Microsoft Dynamics 365 integration. **Steps Taken:** Restarted the system and checked the TP-Link switch connections. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        229
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        434,
+        451
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        315,
+        318
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Concern with Data Analytics Dashboard\n\nHere is a brief description of the issue: **Problem:** The data analytics dashboard is malfunctioning. **Details:** It is showing incorrect investment forecasts My name is [full_name]-Farsi.. **Reason:** Potentially, this is because of an outdated Microsoft Dynamics [cvv_no] integration. **Steps Taken:** Restarted the system and checked the TP-Link switch connections. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

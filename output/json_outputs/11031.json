@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem With Data Analytics Dashboard\n\nHello Customer Support, I am contacting you to address a problem with our data analytics dashboard. The dashboard is not loading, and I believe this could be a PostgreSQL database connection problem. I have already tried restarting the server, verifying the database credentials, and checking the network connection, but the issue still persists. I would be grateful if you could help me resolve this My name is Maria Gonzalez.. If there are more troubleshooting steps I could do, or if it is a known issue that needs a fix or update, please inform me. I am ready to provide any necessary details or access to help solve this issue You can reach me at maria.gonzalez@shop.es.. Thank you for your time and help. I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        460,
+        474
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        697,
+        719
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem With Data Analytics Dashboard\n\nHello Customer Support, I am contacting you to address a problem with our data analytics dashboard. The dashboard is not loading, and I believe this could be a PostgreSQL database connection problem. I have already tried restarting the server, verifying the database credentials, and checking the network connection, but the issue still persists. I would be grateful if you could help me resolve this My name is [full_name].. If there are more troubleshooting steps I could do, or if it is a known issue that needs a fix or update, please inform me. I am ready to provide any necessary details or access to help solve this issue You can reach me at [email].. Thank you for your time and help. I eagerly await your response.",
+  "category_of_the_email": "Incident"
+}

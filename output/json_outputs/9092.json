@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Ensuring Medical Data Security\n\nIs it possible to provide detailed information on solutions for securing medical data for hospitals? A reliable and efficient system to protect patients' sensitive information is needed. I greatly appreciate your prompt assistance in finding a solution that meets the hospital's requirements.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        368,
+        383
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support for Ensuring Medical Data Security\n\nIs it possible to provide detailed information on solutions for securing medical data for hospitals? A reliable and efficient system to protect patients' sensitive information is needed. I greatly appreciate your prompt assistance in finding a solution that meets the hospital's requirements.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

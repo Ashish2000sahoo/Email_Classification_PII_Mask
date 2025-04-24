@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Strategien zur F\u00f6rderung von Marktwachstum\n\nSehr geehrte Kundenservice, ich mache mich an Sie heran, um mehr \u00fcber digitale Strategien zu erfahren, mit denen Unternehmen ihre Marktwachstumsziele erf\u00fcllen k\u00f6nnen. In der digitalen Welt ist es f\u00fcr Unternehmen von gro\u00dfer Bedeutung, eine starke Onlinepr\u00e4senz zu haben, um in der Wettbewerbslandschaft erfolgreich zu sein. Ich w\u00fcrde gerne mehr \u00fcber verschiedene Methoden erfahren, die die Markenwahrnehmung verbessern und Verkaufsprozesse f\u00f6rdern k\u00f6nnen My name is Maria Gonzalez.. Insbesondere interessieren mich Social Media Marketing, Suchmaschinenoptimierung und Inhaltserschaffung You can reach me at janesmith@company.com.. K\u00f6nnten Sie mir bitte Informationen zu diesen Themen geben oder einige Hilfreiche Ressourcen nennen, mit denen ich mich besser vertraut machen kann? Ich danke Ihnen f\u00fcr Ihre Zeit und freue mich auf Ihre R\u00fcckmeldung baldigst.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        527,
+        541
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        665,
+        686
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Digitale Strategien zur F\u00f6rderung von Marktwachstum\n\nSehr geehrte Kundenservice, ich mache mich an Sie heran, um mehr \u00fcber digitale Strategien zu erfahren, mit denen Unternehmen ihre Marktwachstumsziele erf\u00fcllen k\u00f6nnen. In der digitalen Welt ist es f\u00fcr Unternehmen von gro\u00dfer Bedeutung, eine starke Onlinepr\u00e4senz zu haben, um in der Wettbewerbslandschaft erfolgreich zu sein. Ich w\u00fcrde gerne mehr \u00fcber verschiedene Methoden erfahren, die die Markenwahrnehmung verbessern und Verkaufsprozesse f\u00f6rdern k\u00f6nnen My name is [full_name].. Insbesondere interessieren mich Social Media Marketing, Suchmaschinenoptimierung und Inhaltserschaffung You can reach me at [email].. K\u00f6nnten Sie mir bitte Informationen zu diesen Themen geben oder einige Hilfreiche Ressourcen nennen, mit denen ich mich besser vertraut machen kann? Ich danke Ihnen f\u00fcr Ihre Zeit und freue mich auf Ihre R\u00fcckmeldung baldigst.",
+  "category_of_the_email": "Request"
+}

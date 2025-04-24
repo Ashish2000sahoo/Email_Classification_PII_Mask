@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Slow Load Times\n\nCustomers are facing slow load times when accessing the project dashboards. This might be due to increased server load or high concurrent usage. We have already attempted to optimize database queries and cache data, but the issue still persists My name is Fatima Al-Farsi.. We request your prompt assistance in resolving this matter. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        307
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        398,
+        419
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Slow Load Times\n\nCustomers are facing slow load times when accessing the project dashboards. This might be due to increased server load or high concurrent usage. We have already attempted to optimize database queries and cache data, but the issue still persists My name is [full_name]-Farsi.. We request your prompt assistance in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

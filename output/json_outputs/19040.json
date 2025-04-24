@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Subscription Renewal Payment\n\nMy subscription renewal was charged twice due to a recent processing error. I have already attempted to contact support and reviewed my billing history.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        227,
+        243
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Subscription Renewal Payment\n\nMy subscription renewal was charged twice due to a recent processing error. I have already attempted to contact support and reviewed my billing history.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

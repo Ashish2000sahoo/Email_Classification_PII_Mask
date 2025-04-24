@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Improvement of Project Management Tool\n\nDear Customer Support, I am reaching out to request improvements to the project management tool to enhance its user interface and workflow efficiency for better collaboration. Despite the tool being in use for a while, there are several areas that can be improved You can reach me at fatima.farsi@help.com.. The user interface is not very intuitive, which can take a considerable amount of time for new users to understand. Additionally, the workflow can be optimized by automating repetitive tasks and offering more customization options. Lastly, the collaboration features can be improved by enabling real-time commenting and editing, as well as integrating with other systems. These enhancements would greatly boost our team's productivity and user experience. I would appreciate a timeline for when these improvements can be expected My name is John Doe.. If possible, I would also like to discuss this further at your earliest convenience. Thank you for your attention and assistance. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        910,
+        918
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        345,
+        366
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Improvement of Project Management Tool\n\nDear Customer Support, I am reaching out to request improvements to the project management tool to enhance its user interface and workflow efficiency for better collaboration. Despite the tool being in use for a while, there are several areas that can be improved You can reach me at [email].. The user interface is not very intuitive, which can take a considerable amount of time for new users to understand. Additionally, the workflow can be optimized by automating repetitive tasks and offering more customization options. Lastly, the collaboration features can be improved by enabling real-time commenting and editing, as well as integrating with other systems. These enhancements would greatly boost our team's productivity and user experience. I would appreciate a timeline for when these improvements can be expected My name is [full_name].. If possible, I would also like to discuss this further at your earliest convenience. Thank you for your attention and assistance. Best regards, [Your Name]",
+  "category_of_the_email": "Change"
+}

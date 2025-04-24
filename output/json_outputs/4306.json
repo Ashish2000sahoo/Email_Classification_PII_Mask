@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: SQL Support\n\nInquiring about leveraging Microsoft SQL Server 2019 for data analytics and investment optimization My name is Elena Ivanova.. Would appreciate information on relevant features and tools that can aid in data analysis and investment decision-making You can reach me at johndoe@email.com.. Can you provide guidance and resources to help get started with SQL Server 2019 data analytics and investment optimization?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        133,
+        146
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        288,
+        305
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        70,
+        74
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    },
+    {
+      "position": [
+        373,
+        377
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: SQL Support\n\nInquiring about leveraging Microsoft SQL Server [phone_number] for data analytics and investment optimization My name is [full_name].. Would appreciate information on relevant features and tools that can aid in data analysis and investment decision-making You can reach me at [email].. Can you provide guidance and resources to help get started with SQL Server [phone_number] data analytics and investment optimization?",
+  "category_of_the_email": "Request"
+}

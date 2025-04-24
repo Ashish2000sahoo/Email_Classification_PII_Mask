@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Analyse digitaler Kampagnen\n\nBeim Erstellen von Berichten \u00fcber digitale Kampagnen wird eine Verz\u00f6gerung beobachtet, was m\u00f6glicherweise auf neueste Softwareupdates zur\u00fcckzuf\u00fchren ist. Nach dem Bereinigen des Caches und Neues Loggen besteht das Problem weiterhin You can reach me at david.kim@corp.kr.. Bitte helfen Sie uns, das Problem schnell zu beheben. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        392,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        307,
+        324
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Analyse digitaler Kampagnen\n\nBeim Erstellen von Berichten \u00fcber digitale Kampagnen wird eine Verz\u00f6gerung beobachtet, was m\u00f6glicherweise auf neueste Softwareupdates zur\u00fcckzuf\u00fchren ist. Nach dem Bereinigen des Caches und Neues Loggen besteht das Problem weiterhin You can reach me at [email].. Bitte helfen Sie uns, das Problem schnell zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

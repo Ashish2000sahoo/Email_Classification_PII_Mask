@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am facing problems with Excel 2021 crashing while performing data analysis. This issue could be caused by incompatible add-ins or outdated drivers. I have already restarted my system, updated Excel, and checked my dependencies, but the problem still exists You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate any help in resolving this issue My name is Jane Smith.. Please let me know if there are additional actions I can undertake or if you need extra information from me. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        410,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        314,
+        336
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        67,
+        71
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am facing problems with Excel [phone_number] crashing while performing data analysis. This issue could be caused by incompatible add-ins or outdated drivers. I have already restarted my system, updated Excel, and checked my dependencies, but the problem still exists You can reach me at [email].. I would greatly appreciate any help in resolving this issue My name is [full_name].. Please let me know if there are additional actions I can undertake or if you need extra information from me. Thank you for your time and support.",
+  "category_of_the_email": "Incident"
+}

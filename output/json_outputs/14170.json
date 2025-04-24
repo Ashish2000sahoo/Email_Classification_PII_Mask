@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Synchronization of Project Timeline\n\nGreeting from customer support, I am contacting you to inform you about a trouble I encountered with the synchronization of my project timeline. The synchronization did not run smoothly and I suspect it may be because of compatibility problems with SQL Server. I have already attempted to restart my Surface Pro and verified the settings for Cassandra 4.0, yet the problem still continues. I kindly request you to investigate the situation and offer a solution at the earliest You can reach me at sophia.rossi@service.it.. Please inform me if you require any extra information from me to address this situation. I remain open to providing more details or clarifications if necessary. Thank you for your understanding and help. I am eagerly waiting for your reply. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        832,
+        840
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        554,
+        577
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Synchronization of Project Timeline\n\nGreeting from customer support, I am contacting you to inform you about a trouble I encountered with the synchronization of my project timeline. The synchronization did not run smoothly and I suspect it may be because of compatibility problems with SQL Server. I have already attempted to restart my Surface Pro and verified the settings for Cassandra 4.0, yet the problem still continues. I kindly request you to investigate the situation and offer a solution at the earliest You can reach me at [email].. Please inform me if you require any extra information from me to address this situation. I remain open to providing more details or clarifications if necessary. Thank you for your understanding and help. I am eagerly waiting for your reply. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

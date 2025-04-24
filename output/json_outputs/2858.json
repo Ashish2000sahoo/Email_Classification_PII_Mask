@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Marketing Efforts\n\nOur marketing firm has observed a notable decrease in brand engagement metrics You can reach me at maria.gonzalez@shop.es.. This decline could be attributed to recent algorithm modifications on social media platforms. Efforts to enhance engagement, such as boosting ad expenditure and refining content, have not yielded satisfactory results. We are in need of expert advice to improve our online presence and increase engagement. Could you offer some strategic recommendations to help us overcome this challenge? My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        576,
+        589
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        151,
+        173
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Marketing Efforts\n\nOur marketing firm has observed a notable decrease in brand engagement metrics You can reach me at [email].. This decline could be attributed to recent algorithm modifications on social media platforms. Efforts to enhance engagement, such as boosting ad expenditure and refining content, have not yielded satisfactory results. We are in need of expert advice to improve our online presence and increase engagement. Could you offer some strategic recommendations to help us overcome this challenge? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

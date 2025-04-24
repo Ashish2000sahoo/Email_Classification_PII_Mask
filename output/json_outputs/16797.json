@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem with Software Crashes During Data Analysis\n\nI am encountering software crashes while performing investment data analysis on an Ubuntu 20.04 LTS system, which might be related to compatibility issues with Microsoft Office 2021 and Bitbucket My name is Maria Gonzalez.. Despite restarting the system and reinstalling the affected applications, as well as checking for updates, the issue still persists You can reach me at janesmith@company.com.. Could you please assist in resolving this problem?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        282
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        434,
+        455
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        151,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        238,
+        242
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem with Software Crashes During Data Analysis\n\nI am encountering software crashes while performing investment data analysis on an Ubuntu [phone_number] LTS system, which might be related to compatibility issues with Microsoft Office [phone_number] and Bitbucket My name is [full_name].. Despite restarting the system and reinstalling the affected applications, as well as checking for updates, the issue still persists You can reach me at [email].. Could you please assist in resolving this problem?",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de support suppl\u00e9mentaire en administration de serveur\n\nBonjour Support Client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Nous sommes actuellement en partenariat pour des solutions informatiques continues et avons besoin d'un soutien suppl\u00e9mentaire en administration de serveur. L'expansion de nos op\u00e9rations n\u00e9cessite une meilleure supervision de nos syst\u00e8mes de serveur afin de maintenir l'efficacit\u00e9 et la s\u00e9curit\u00e9. Veuillez nous faire savoir les options disponibles ainsi que tous les co\u00fbts associ\u00e9s ou les modifications de notre accord actuel You can reach me at sophia.rossi@service.it.. Nous sommes impatients de poursuivre notre partenariat productif.\n\nMerci pour votre attention \u00e0 cette demande.\n\nCordialement,\n\n<name>\n<acc_num>\n<tel_num> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        787,
+        800
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        596,
+        619
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Demande de support suppl\u00e9mentaire en administration de serveur\n\nBonjour Support Client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Nous sommes actuellement en partenariat pour des solutions informatiques continues et avons besoin d'un soutien suppl\u00e9mentaire en administration de serveur. L'expansion de nos op\u00e9rations n\u00e9cessite une meilleure supervision de nos syst\u00e8mes de serveur afin de maintenir l'efficacit\u00e9 et la s\u00e9curit\u00e9. Veuillez nous faire savoir les options disponibles ainsi que tous les co\u00fbts associ\u00e9s ou les modifications de notre accord actuel You can reach me at [email].. Nous sommes impatients de poursuivre notre partenariat productif.\n\nMerci pour votre attention \u00e0 cette demande.\n\nCordialement,\n\n<name>\n<acc_num>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

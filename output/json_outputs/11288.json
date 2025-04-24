@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with System Integrations\n\nFacing unexpected integration breakdowns You can reach me at fatima.farsi@help.com.. Might be related to recent software updates My name is John Doe.. Already rebooted and verified my connection details.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        105,
+        126
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with System Integrations\n\nFacing unexpected integration breakdowns You can reach me at [email].. Might be related to recent software updates My name is [full_name].. Already rebooted and verified my connection details.",
+  "category_of_the_email": "Incident"
+}

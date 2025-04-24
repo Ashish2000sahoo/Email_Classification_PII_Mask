@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit der Leistung der Datenanalyse-Software\n\nDas Datenanalysewerkzeug zeigt Leistungsprobleme, wobei die Datenabholung beeintr\u00e4chtigt wird. Es k\u00f6nnte sich um einen System\u00fcberschuss oder eine Softwarekonfigurationsfehler handeln.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Leistung der Datenanalyse-Software\n\nDas Datenanalysewerkzeug zeigt Leistungsprobleme, wobei die Datenabholung beeintr\u00e4chtigt wird. Es k\u00f6nnte sich um einen System\u00fcberschuss oder eine Softwarekonfigurationsfehler handeln.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

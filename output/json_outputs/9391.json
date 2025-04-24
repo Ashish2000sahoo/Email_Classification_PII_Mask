@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Report on Unforeseen Software Crash\n\nDear Customer Support, I am contacting you to report an unanticipated crash of the project management software, which led to the loss of my user data. This crash might be related to an incompatibility issue with the recently updated Keras library, causing an integration problem. Despite my attempts to restart my HyperX Fury 32GB DDR4 and update my McAfee Total Protection 2021, the issue remains unresolved You can reach me at janesmith@company.com.. I would be grateful if you could look into this and provide a solution at your earliest convenience. If you need any additional information from me to address this issue, please let me know. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        701,
+        710
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        475,
+        496
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        420,
+        424
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Report on Unforeseen Software Crash\n\nDear Customer Support, I am contacting you to report an unanticipated crash of the project management software, which led to the loss of my user data. This crash might be related to an incompatibility issue with the recently updated Keras library, causing an integration problem. Despite my attempts to restart my HyperX Fury 32GB DDR4 and update my McAfee Total Protection [phone_number], the issue remains unresolved You can reach me at [email].. I would be grateful if you could look into this and provide a solution at your earliest convenience. If you need any additional information from me to address this issue, please let me know. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

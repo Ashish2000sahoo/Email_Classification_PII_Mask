@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear customer support, it is imperative to bring to your attention the importance of enhancing security protocols in our medical data management systems within the healthcare environment My name is David Kim.. Patient privacy is our top priority and is crucial to taking measures to protect sensitive information from unauthorized access. This includes implementing robust firewalls, encryption methods, and secure data storage solutions to ensure the confidentiality and integrity of patient data, thereby maintaining trust and upholding the highest standards of care. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        603,
+        628
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear customer support, it is imperative to bring to your attention the importance of enhancing security protocols in our medical data management systems within the healthcare environment My name is [full_name].. Patient privacy is our top priority and is crucial to taking measures to protect sensitive information from unauthorized access. This includes implementing robust firewalls, encryption methods, and secure data storage solutions to ensure the confidentiality and integrity of patient data, thereby maintaining trust and upholding the highest standards of care. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

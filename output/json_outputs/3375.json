@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Investments-Analysen-Infrastruktur\n\nEs ist dringend notwendig, die Leistung und Zuverl\u00e4ssigkeit unserer Daten zu verbessern My name is Carlos Mendoza.. Das aktuelle System ist zu langsam und f\u00e4hig zu Fehlern. Eine Aktualisierung der Infrastruktur k\u00f6nnte zu schnelleren und genauerer Resultate f\u00fchren. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        344,
+        361
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Investments-Analysen-Infrastruktur\n\nEs ist dringend notwendig, die Leistung und Zuverl\u00e4ssigkeit unserer Daten zu verbessern My name is [full_name].. Das aktuelle System ist zu langsam und f\u00e4hig zu Fehlern. Eine Aktualisierung der Infrastruktur k\u00f6nnte zu schnelleren und genauerer Resultate f\u00fchren. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

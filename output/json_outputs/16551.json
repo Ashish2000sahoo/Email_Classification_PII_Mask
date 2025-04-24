@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Integration Encountered\n\nPlease find the brief description of the problem: Unexpected integration errors have arisen. These might stem from compatibility problems My name is Sophia Rossi.. Despite restarting the services, the issue persists. I am requesting urgent assistance to resolve this You can reach me at sophia.rossi@service.it.. Kindly inform me if there is additional information you require from me to debug the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        206
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        331,
+        354
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Integration Encountered\n\nPlease find the brief description of the problem: Unexpected integration errors have arisen. These might stem from compatibility problems My name is [full_name].. Despite restarting the services, the issue persists. I am requesting urgent assistance to resolve this You can reach me at [email].. Kindly inform me if there is additional information you require from me to debug the problem.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Webcam Failure Posed Threat to Patient Data Privacy\n\nThe webcam malfunctioned because of obsolete software, posing a risk to patient data privacy. The system was restarted and endpoint protection was updated.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        240,
+        256
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Webcam Failure Posed Threat to Patient Data Privacy\n\nThe webcam malfunctioned because of obsolete software, posing a risk to patient data privacy. The system was restarted and endpoint protection was updated.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

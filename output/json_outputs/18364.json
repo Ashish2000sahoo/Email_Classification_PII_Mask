@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frequent System Failures in SaaS Project Management Tool\n\nWe are encountering frequent system failures with the SaaS project management tool, which are disrupting our workflows. Recent updates to Camtasia Vagrant might be the cause.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        279
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Frequent System Failures in SaaS Project Management Tool\n\nWe are encountering frequent system failures with the SaaS project management tool, which are disrupting our workflows. Recent updates to Camtasia Vagrant might be the cause.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

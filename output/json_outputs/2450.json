@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Analytics Practices\n\nInquiring about data analytics to optimize investment strategies for our firm. Could you provide specifics on the tools and techniques used to analyze market trends and make predictions? Your insights would greatly assist in identifying potential risks and opportunities My name is Maria Gonzalez.. Additionally, we would like to know how analytics can be integrated with our existing systems and if customization options are available You can reach me at david.kim@corp.kr.. Looking forward to your response, as it will be invaluable in understanding the benefits of data analytics for our firm.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        333,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        504,
+        521
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Analytics Practices\n\nInquiring about data analytics to optimize investment strategies for our firm. Could you provide specifics on the tools and techniques used to analyze market trends and make predictions? Your insights would greatly assist in identifying potential risks and opportunities My name is [full_name].. Additionally, we would like to know how analytics can be integrated with our existing systems and if customization options are available You can reach me at [email].. Looking forward to your response, as it will be invaluable in understanding the benefits of data analytics for our firm.",
+  "category_of_the_email": "Request"
+}

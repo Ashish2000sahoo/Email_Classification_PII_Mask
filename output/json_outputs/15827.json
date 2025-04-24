@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Recent Updates to Marketing Integrations\n\nDear [Customer Support Team],\\n\\nI am reaching out to inquire about the recent updates to marketing integrations and how these updates will influence our brand's growth and digital strategy across all our products You can reach me at carlosm@gmail.com.. We have encountered some issues with our current integrations and are seeking a solution that enhances our brand's online presence.\\n\\nCould you provide more details on these updates and how they may benefit our business? We are particularly interested in the new features and functionalities that will be introduced, as well as any potential challenges or limitations we might face during the transition period.\\n\\nFurthermore, we would appreciate any support or guidance you can offer to help us navigate these updates and ensure a smooth execution of our digital strategy. We are dedicated to providing the best customer experience and are eager to collaborate with your team to achieve this goal.\\n\\nThank you for your time and assistance My name is Liu Wei.. We look forward to hearing from you soon.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1075,
+        1082
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        301,
+        318
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Recent Updates to Marketing Integrations\n\nDear [Customer Support Team],\\n\\nI am reaching out to inquire about the recent updates to marketing integrations and how these updates will influence our brand's growth and digital strategy across all our products You can reach me at [email].. We have encountered some issues with our current integrations and are seeking a solution that enhances our brand's online presence.\\n\\nCould you provide more details on these updates and how they may benefit our business? We are particularly interested in the new features and functionalities that will be introduced, as well as any potential challenges or limitations we might face during the transition period.\\n\\nFurthermore, we would appreciate any support or guidance you can offer to help us navigate these updates and ensure a smooth execution of our digital strategy. We are dedicated to providing the best customer experience and are eager to collaborate with your team to achieve this goal.\\n\\nThank you for your time and assistance My name is [full_name].. We look forward to hearing from you soon.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Request"
+}

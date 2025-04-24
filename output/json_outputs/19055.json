@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Information Disappeared Today Unexpectedly\n\nProject information vanished without warning. It might be related to the new Redis 6.2 version integration You can reach me at carlosm@gmail.com.. Even after restarting the servers and reviewing the logs, the problem hasn't been fixed My name is Liu Wei.. Immediate help is required to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        307,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        188,
+        205
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Project Information Disappeared Today Unexpectedly\n\nProject information vanished without warning. It might be related to the new Redis 6.2 version integration You can reach me at [email].. Even after restarting the servers and reviewing the logs, the problem hasn't been fixed My name is [full_name].. Immediate help is required to address this issue.",
+  "category_of_the_email": "Incident"
+}

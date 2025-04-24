@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Medical Data Storage and Transmission\n\nDear Customer Support, I am contacting you to seek information on the security protocols recommended for storing and transmitting medical data My name is Sophia Rossi.. Given the sensitive nature of medical data, it is crucial to have strong protections in place to avoid unauthorized access or breaches You can reach me at janesmith@company.com.. Could you please share the protocols used to ensure the confidentiality, integrity, and availability of medical data? Are there any specific encryption methods or access controls that are considered best practices? Additionally, what steps can be taken to prevent data loss or corruption during transmission? I would greatly appreciate any advice or materials you could offer. Thank you for your time and help. I am looking forward to your response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        237
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        394,
+        415
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Medical Data Storage and Transmission\n\nDear Customer Support, I am contacting you to seek information on the security protocols recommended for storing and transmitting medical data My name is [full_name].. Given the sensitive nature of medical data, it is crucial to have strong protections in place to avoid unauthorized access or breaches You can reach me at [email].. Could you please share the protocols used to ensure the confidentiality, integrity, and availability of medical data? Are there any specific encryption methods or access controls that are considered best practices? Additionally, what steps can be taken to prevent data loss or corruption during transmission? I would greatly appreciate any advice or materials you could offer. Thank you for your time and help. I am looking forward to your response. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

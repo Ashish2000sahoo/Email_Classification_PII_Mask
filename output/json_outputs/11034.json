@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Datenaufbereitungstools f\u00fcr MySQL-Investment-Optimierung\n\nWelche Tools k\u00f6nnen mit MySQL zur Verbesserung der Investitionsoptimierung integriert werden?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        198
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Datenaufbereitungstools f\u00fcr MySQL-Investment-Optimierung\n\nWelche Tools k\u00f6nnen mit MySQL zur Verbesserung der Investitionsoptimierung integriert werden?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

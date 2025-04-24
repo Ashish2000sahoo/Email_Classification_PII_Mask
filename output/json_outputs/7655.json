@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Performance Issues\n\nHello customer support, I am experiencing a performance slowdown in my data analytics system, which I believe could be due to high data volume and server overload My name is Jane Smith.. I have already restarted affected applications and optimized queries, but the issue still persists You can reach me at liuwei@business.cn.. I would greatly appreciate your assistance in resolving this matter. If you need any additional information from me, please let me know. I am looking forward to your response soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        336,
+        354
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Performance Issues\n\nHello customer support, I am experiencing a performance slowdown in my data analytics system, which I believe could be due to high data volume and server overload My name is [full_name].. I have already restarted affected applications and optimized queries, but the issue still persists You can reach me at [email].. I would greatly appreciate your assistance in resolving this matter. If you need any additional information from me, please let me know. I am looking forward to your response soon.",
+  "category_of_the_email": "Incident"
+}

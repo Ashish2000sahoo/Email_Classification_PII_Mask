@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sachverhalt\n\nTechnisches Problem bei Funktionalit\u00e4ten des digitalen Strategie-Systems aufgrund neuer Software-Updates.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sachverhalt\n\nTechnisches Problem bei Funktionalit\u00e4ten des digitalen Strategie-Systems aufgrund neuer Software-Updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

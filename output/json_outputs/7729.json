@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei dem Investment-Predictions-Dienst\n\nEs ist passiert: Die Investmentvorhersagen wurden unerwartet unterbrochen. M\u00f6glicherweise handelt es sich um einen Datenflussschnittstelle-Integration-Fehler My name is John Doe.. Versucht wurde: Ein Neustart der Analytics-Plattform und die Pr\u00fcfung der APIs. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem so schnell wie m\u00f6glich zu beheben. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        234
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        425,
+        446
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei dem Investment-Predictions-Dienst\n\nEs ist passiert: Die Investmentvorhersagen wurden unerwartet unterbrochen. M\u00f6glicherweise handelt es sich um einen Datenflussschnittstelle-Integration-Fehler My name is [full_name].. Versucht wurde: Ein Neustart der Analytics-Plattform und die Pr\u00fcfung der APIs. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem so schnell wie m\u00f6glich zu beheben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

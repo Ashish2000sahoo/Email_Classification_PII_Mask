@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: AWS Outage Affecting Deployments\n\nDear Customer Support Team,\n\nI am writing to express my concern about a high-priority incident involving AWS downtime that is significantly impacting our application deployment across multiple platforms. We have been utilizing the AWS Management Service and since the outage began, there have been considerable delays and disruptions. Our team is reliant on a stable and efficient service for ongoing operation, and this downtime poses a serious challenge.\n\nAt this time, we are unable to proceed with our scheduled updates and deployment projects, affecting our deliverables timeline You can reach me at fatima.farsi@help.com.. Furthermore, the continued lack of access can potentially lead to missed deadlines and client dissatisfaction.\n\nPlease escalate this issue to the technical team and provide us with a resolution at the earliest My name is Sophia Rossi.. Also, we would appreciate an update on when the AWS Management Service is expected to be fully operational again.\n\nThank you for your prompt attention to this matter and please keep me informed of the progress and any steps we need to undertake.\n\nBest regards,\n\n<name>\nAccount Number: <acc_num>\nContact: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        901,
+        913
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        656,
+        677
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: AWS Outage Affecting Deployments\n\nDear Customer Support Team,\n\nI am writing to express my concern about a high-priority incident involving AWS downtime that is significantly impacting our application deployment across multiple platforms. We have been utilizing the AWS Management Service and since the outage began, there have been considerable delays and disruptions. Our team is reliant on a stable and efficient service for ongoing operation, and this downtime poses a serious challenge.\n\nAt this time, we are unable to proceed with our scheduled updates and deployment projects, affecting our deliverables timeline You can reach me at [email].. Furthermore, the continued lack of access can potentially lead to missed deadlines and client dissatisfaction.\n\nPlease escalate this issue to the technical team and provide us with a resolution at the earliest My name is [full_name].. Also, we would appreciate an update on when the AWS Management Service is expected to be fully operational again.\n\nThank you for your prompt attention to this matter and please keep me informed of the progress and any steps we need to undertake.\n\nBest regards,\n\n<name>\nAccount Number: <acc_num>\nContact: <tel_num>",
+  "category_of_the_email": "Incident"
+}

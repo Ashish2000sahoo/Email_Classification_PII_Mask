@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Istcstdliben bei digitalen Kampagnen\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen Fehler bei meinen digitalen Kampagnen zu melden, der sich nicht mit Schoology und Twitch Studio synchronisiert. Der Fehler trat nach der neuesten Aktualisierung von Laravel 8 auf, was ich f\u00fcr potenzielle Integrationssch\u00e4den halte My name is Jane Smith.. Ich habe versucht, das Problem durch Neustart des NZXT Kraken Z63, L\u00f6schen der Cache-Dateien und Neustart des Acer Predator XB273K zu beheben. Leider hat keines dieser Schritte das Problem gel\u00f6st. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit dieser Angelegenheit befassen und uns so bald wie m\u00f6glich eine L\u00f6sung bieten k\u00f6nnten. Bitte lassen Sie mich wissen, ob wir zus\u00e4tzliche Informationen ben\u00f6tigen, um die Untersuchung durchzuf\u00fchren. Danke f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung You can reach me at sophia.rossi@service.it.. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        860,
+        883
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Istcstdliben bei digitalen Kampagnen\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen Fehler bei meinen digitalen Kampagnen zu melden, der sich nicht mit Schoology und Twitch Studio synchronisiert. Der Fehler trat nach der neuesten Aktualisierung von Laravel 8 auf, was ich f\u00fcr potenzielle Integrationssch\u00e4den halte My name is [full_name].. Ich habe versucht, das Problem durch Neustart des NZXT Kraken Z63, L\u00f6schen der Cache-Dateien und Neustart des Acer Predator XB273K zu beheben. Leider hat keines dieser Schritte das Problem gel\u00f6st. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit dieser Angelegenheit befassen und uns so bald wie m\u00f6glich eine L\u00f6sung bieten k\u00f6nnten. Bitte lassen Sie mich wissen, ob wir zus\u00e4tzliche Informationen ben\u00f6tigen, um die Untersuchung durchzuf\u00fchren. Danke f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Security Support\n\nCustomer Support, <br>An unauthorized access attempt has been detected in the hospital's systems, potentially compromising the integrity of medical data You can reach me at david.kim@corp.kr.. The incident may have occurred due to outdated software vulnerabilities or misconfigured network settings. To date, we have updated the antivirus definitions, reviewed access logs, and initiated the security patching process My name is Fatima Al-Farsi.. <br>We kindly request immediate assistance in investigating the matter and providing recommendations to prevent future occurrences. <br>Please let",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        463,
+        472
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        207,
+        224
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgent Security Support\n\nCustomer Support, <br>An unauthorized access attempt has been detected in the hospital's systems, potentially compromising the integrity of medical data You can reach me at [email].. The incident may have occurred due to outdated software vulnerabilities or misconfigured network settings. To date, we have updated the antivirus definitions, reviewed access logs, and initiated the security patching process My name is [full_name]-Farsi.. <br>We kindly request immediate assistance in investigating the matter and providing recommendations to prevent future occurrences. <br>Please let",
+  "category_of_the_email": "Incident"
+}

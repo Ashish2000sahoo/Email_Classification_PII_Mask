@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Strategies for Safeguarding Medical Data on AWS and Microsoft Office 365\n\nCould you provide the best practices for securing medical data on AWS and Microsoft Office 365? I am concerned about protecting sensitive patient information.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        281
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    },
+    {
+      "position": [
+        78,
+        81
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        174,
+        177
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Strategies for Safeguarding Medical Data on AWS and Microsoft Office [cvv_no]\n\nCould you provide the best practices for securing medical data on AWS and Microsoft Office [cvv_no]? I am concerned about protecting sensitive patient information.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

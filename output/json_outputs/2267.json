@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Project Synchronization and Data Loss\n\nHello Customer Support, I am contacting you to report a problem with my project synchronization. The sync process has failed, and I have lost some of my data. I suspect there could be a malfunction in the integrations or compatibility issues My name is Maria Gonzalez.. I have already attempted to resolve the issue by restarting the system, reconfiguring the settings, and logging out and back in, but none of these actions have been successful. I would greatly appreciate any help you can offer to resolve this and recover my lost data You can reach me at janesmith@company.com.. Please let me know if there are any further steps I need to take or if you require additional information. Thank you for your assistance and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        326
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        614,
+        635
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Project Synchronization and Data Loss\n\nHello Customer Support, I am contacting you to report a problem with my project synchronization. The sync process has failed, and I have lost some of my data. I suspect there could be a malfunction in the integrations or compatibility issues My name is [full_name].. I have already attempted to resolve the issue by restarting the system, reconfiguring the settings, and logging out and back in, but none of these actions have been successful. I would greatly appreciate any help you can offer to resolve this and recover my lost data You can reach me at [email].. Please let me know if there are any further steps I need to take or if you require additional information. Thank you for your assistance and support.",
+  "category_of_the_email": "Incident"
+}

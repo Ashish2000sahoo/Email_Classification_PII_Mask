@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Analytics Platform\n\nCustomer Support, reporting a critical issue with the data analytics platform You can reach me at johndoe@email.com.. The platform crashed during a major investment analysis session, causing significant disruption to our work. Despite attempts to restart the system and clear the cache, the issue persists My name is Sophia Rossi.. Possible causes may include server overload or software bugs. We would greatly appreciate your urgent look into this matter and a prompt solution if possible. Please let us know if any additional information is required.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        369,
+        381
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        150,
+        167
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Analytics Platform\n\nCustomer Support, reporting a critical issue with the data analytics platform You can reach me at [email].. The platform crashed during a major investment analysis session, causing significant disruption to our work. Despite attempts to restart the system and clear the cache, the issue persists My name is [full_name].. Possible causes may include server overload or software bugs. We would greatly appreciate your urgent look into this matter and a prompt solution if possible. Please let us know if any additional information is required.",
+  "category_of_the_email": "Incident"
+}

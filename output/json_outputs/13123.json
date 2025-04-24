@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Campaign Performance Indicators Today\n\nOur marketing agency is encountering unexpected delays in the campaign performance indicators You can reach me at johndoe@email.com.. These issues might be due to configuration errors resulting from recent software updates My name is Elena Ivanova.. We have already attempted to update the settings and re-run the data analysis.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        307
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        174,
+        191
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Campaign Performance Indicators Today\n\nOur marketing agency is encountering unexpected delays in the campaign performance indicators You can reach me at [email].. These issues might be due to configuration errors resulting from recent software updates My name is [full_name].. We have already attempted to update the settings and re-run the data analysis.",
+  "category_of_the_email": "Incident"
+}

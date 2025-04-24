@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Barcode Scanner Connection\n\nRespected Customer Support Team, I am encountering difficulties with the barcode scanner connection. This might be due to an incompatibility between API versions. Despite restarting services and verifying settings, the issue remains unresolved You can reach me at maria.gonzalez@shop.es.. I kindly request your support in investigating and finding a resolution to this problem, as it is hindering our workflow. Thank you for your attention and help. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        511,
+        522
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        314,
+        336
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Barcode Scanner Connection\n\nRespected Customer Support Team, I am encountering difficulties with the barcode scanner connection. This might be due to an incompatibility between API versions. Despite restarting services and verifying settings, the issue remains unresolved You can reach me at [email].. I kindly request your support in investigating and finding a resolution to this problem, as it is hindering our workflow. Thank you for your attention and help. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

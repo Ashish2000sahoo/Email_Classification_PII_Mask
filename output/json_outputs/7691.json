@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Google Cloud Data Security\n\nCould you recommend security measures for medical data on Google Cloud Platform?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Google Cloud Data Security\n\nCould you recommend security measures for medical data on Google Cloud Platform?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Technical Issues\n\nA critical error occurred, causing integration damages. The latest updates might be the reason for compatibility issues My name is Fatima Al-Farsi.. Attempts to resolve the problem, including rolling back updates and clearing caches, have been unsuccessful. Please assist in solving the issue. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        183
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        359,
+        382
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Technical Issues\n\nA critical error occurred, causing integration damages. The latest updates might be the reason for compatibility issues My name is [full_name]-Farsi.. Attempts to resolve the problem, including rolling back updates and clearing caches, have been unsuccessful. Please assist in solving the issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

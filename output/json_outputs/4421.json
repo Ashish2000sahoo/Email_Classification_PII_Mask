@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent: Detection of a Data Breach in the Patient Records System\n\nA data breach has been detected.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Detection of a Data Breach in the Patient Records System\n\nA data breach has been detected.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

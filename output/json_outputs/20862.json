@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent Installation Request and Compatibility Check\n\nDear Tech Online Store Customer Support,\n\nMy name is <name>, and I am reaching out to request immediate assistance concerning the installation and compatibility check for Google Chrome version 102.0 You can reach me at fatima.farsi@help.com.. Given its critical role in addressing my high-priority browsing requirements, it is imperative that this matter is resolved at your earliest convenience.\n\nCurrently, I am experiencing concerns related to the performance and compatibility of this browser version and would greatly appreciate your technical team's expertise in performing a thorough installation and compatibility verification.\n\nCould you please provide instructions or coordinate with your support team to manage this installation? I am available for a remote session if needed and can be reached at <tel_num> for any clarifications or scheduling details.\n\nThank you for your urgent attention to this matter. I look forward to your prompt response to ensure that my browsing experience continues without disruption.\n\nSincerely,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1117,
+        1131
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        281,
+        302
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        255,
+        258
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Urgent Installation Request and Compatibility Check\n\nDear Tech Online Store Customer Support,\n\nMy name is <name>, and I am reaching out to request immediate assistance concerning the installation and compatibility check for Google Chrome version [cvv_no].0 You can reach me at [email].. Given its critical role in addressing my high-priority browsing requirements, it is imperative that this matter is resolved at your earliest convenience.\n\nCurrently, I am experiencing concerns related to the performance and compatibility of this browser version and would greatly appreciate your technical team's expertise in performing a thorough installation and compatibility verification.\n\nCould you please provide instructions or coordinate with your support team to manage this installation? I am available for a remote session if needed and can be reached at <tel_num> for any clarifications or scheduling details.\n\nThank you for your urgent attention to this matter. I look forward to your prompt response to ensure that my browsing experience continues without disruption.\n\nSincerely,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

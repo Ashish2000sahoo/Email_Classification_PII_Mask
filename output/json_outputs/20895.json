@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support,\n\nI am writing to bring to your attention a battery life issue with my MacBook Air M1. Please prioritize this under the high priority support queue You can reach me at omar.hassan@secure.net.. My details are: Name: <name>, Phone: <tel_num>, Order Number: <acc_num>.\n\nThank you,\n<name> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        342
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        201,
+        223
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support,\n\nI am writing to bring to your attention a battery life issue with my MacBook Air M1. Please prioritize this under the high priority support queue You can reach me at [email].. My details are: Name: <name>, Phone: <tel_num>, Order Number: <acc_num>.\n\nThank you,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

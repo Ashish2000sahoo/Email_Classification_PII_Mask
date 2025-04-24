@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Urgente: Problemas de conectividad de red del router Cisco ISR4331\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje los encuentre bien. Estoy escribiendo para presentar formalmente un problema relacionado con la conectividad de red de mi router Cisco ISR4331. Mi nombre es <name>, y he estado experimentando consistentemente problemas durante las \u00faltimas semanas You can reach me at elena.ivanova@support.org.. El dispositivo, que me fue recomendado por su reputed \u0432\u044b\u0441\u043e\u043a\u0443\u044e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c, no est\u00e1 funcionando como esperaba.\n\nEl problema principal es que el router no logra mantener una velocidad de red constante y frecuentemente pierde la conexi\u00f3n. Esto ha interrumpido significativamente mis arreglos de trabajo desde casa, donde la conectividad a Internet fiable es crucial. Inicialmente, pens\u00e9 que esto podr\u00eda estar relacionado con mi proveedor de servicios de Internet, pero despu\u00e9s de varias verificaciones y consultas con ellos, se ha confirmado que el problema no est\u00e1 en su extremo.\n\nPara proporcionar m\u00e1s detalles, la conexi\u00f3n parece caerse de manera impredecible, a veces incluso varias veces dentro de la misma hora, y durante estos tiempos, no se est\u00e1 realizando ninguna actividad particular que podr\u00eda abrumar la red. Ya he intentado pasos b\u00e1sicos de soluci\u00f3n de problemas como reiniciar el router, restablecerlo a la configuraci\u00f3n de f\u00e1brica y actualizar el firmware My name is Liu Wei.. Ninguna de estas medidas ha dado un resultado positivo.\n\nDadas estas circunstancias, solicito amablemente su asistencia para resolver esta situaci\u00f3n lo antes posible. Quiz\u00e1s podr\u00eda haber una configuraci\u00f3n avanzada o un cambio de configuraci\u00f3n que podr\u00eda estabilizar el rendimiento de la red del ISR4331. Su orientaci\u00f3n y soporte expertos para resolver este asunto ser\u00edan invaluables.\n\nGracias por su atenci\u00f3n a este problema. Por favor, h\u00e1ganme saber si requieren informaci\u00f3n adicional o si hay detalles espec\u00edficos sobre la configuraci\u00f3n que necesiten para ayudar m\u00e1s.\n\nSaludos cordiales,\n\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1422,
+        1429
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        408,
+        433
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        71,
+        75
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        279,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        1716,
+        1720
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problemas de conectividad de red del router Cisco ISR[phone_number]\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje los encuentre bien. Estoy escribiendo para presentar formalmente un problema relacionado con la conectividad de red de mi router Cisco ISR[phone_number]. Mi nombre es <name>, y he estado experimentando consistentemente problemas durante las \u00faltimas semanas You can reach me at [email].. El dispositivo, que me fue recomendado por su reputed \u0432\u044b\u0441\u043e\u043a\u0443\u044e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c, no est\u00e1 funcionando como esperaba.\n\nEl problema principal es que el router no logra mantener una velocidad de red constante y frecuentemente pierde la conexi\u00f3n. Esto ha interrumpido significativamente mis arreglos de trabajo desde casa, donde la conectividad a Internet fiable es crucial. Inicialmente, pens\u00e9 que esto podr\u00eda estar relacionado con mi proveedor de servicios de Internet, pero despu\u00e9s de varias verificaciones y consultas con ellos, se ha confirmado que el problema no est\u00e1 en su extremo.\n\nPara proporcionar m\u00e1s detalles, la conexi\u00f3n parece caerse de manera impredecible, a veces incluso varias veces dentro de la misma hora, y durante estos tiempos, no se est\u00e1 realizando ninguna actividad particular que podr\u00eda abrumar la red. Ya he intentado pasos b\u00e1sicos de soluci\u00f3n de problemas como reiniciar el router, restablecerlo a la configuraci\u00f3n de f\u00e1brica y actualizar el firmware My name is [full_name].. Ninguna de estas medidas ha dado un resultado positivo.\n\nDadas estas circunstancias, solicito amablemente su asistencia para resolver esta situaci\u00f3n lo antes posible. Quiz\u00e1s podr\u00eda haber una configuraci\u00f3n avanzada o un cambio de configuraci\u00f3n que podr\u00eda estabilizar el rendimiento de la red del ISR[phone_number]. Su orientaci\u00f3n y soporte expertos para resolver este asunto ser\u00edan invaluables.\n\nGracias por su atenci\u00f3n a este problema. Por favor, h\u00e1ganme saber si requieren informaci\u00f3n adicional o si hay detalles espec\u00edficos sobre la configuraci\u00f3n que necesiten para ayudar m\u00e1s.\n\nSaludos cordiales,\n\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

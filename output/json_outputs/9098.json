@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Project Issues\n\nFacing connection problems with the Project Management System across various devices. Issues include retries of network configurations and reinstallation of applications.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        246
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Support for Project Issues\n\nFacing connection problems with the Project Management System across various devices. Issues include retries of network configurations and reinstallation of applications.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

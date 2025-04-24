@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung medizinischer Daten hat unerwartet versagt\n\nDie Verschl\u00fcsselung der medizinischen Daten hat aufgrund eines vermuteten Konflikts mit der Malwarebytes-Aktualisierung versagt.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        235
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung medizinischer Daten hat unerwartet versagt\n\nDie Verschl\u00fcsselung der medizinischen Daten hat aufgrund eines vermuteten Konflikts mit der Malwarebytes-Aktualisierung versagt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

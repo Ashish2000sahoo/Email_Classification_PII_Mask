@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Information on Digital Marketing Services and Pricing\n\nI am eager to learn more about the digital marketing services your company provides. Could you kindly share the details of the pricing plans that are available? Specifically, I would like to know what services are included in each plan and the associated costs My name is Elena Ivanova.. This information will assist me in making an informed choice regarding the most suitable plan for my business. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        349
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        481,
+        498
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Information on Digital Marketing Services and Pricing\n\nI am eager to learn more about the digital marketing services your company provides. Could you kindly share the details of the pricing plans that are available? Specifically, I would like to know what services are included in each plan and the associated costs My name is [full_name].. This information will assist me in making an informed choice regarding the most suitable plan for my business. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

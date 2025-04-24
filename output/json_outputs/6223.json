@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundensupport zur Integration von IFTTT\n\nSehr geehrte Kundensupport-Team, ich wende mich an Sie, um zu erkunden, ob es wahrscheinlich ist, IFTTT mit den IT-Systemen unseres Krankenhauses zu verbinden You can reach me at david.kim@corp.kr.. Wir suchen eine sichere M\u00f6glichkeit, unsere Systeme mit IFTTT zu verbinden, um die Patientensorge zu verbessern und unsere Operationen zu vereinfachen. K\u00f6nnten Sie uns bitte einige Hilfestellungen geben, wie wir dies sicher verwaltungsf\u00e4hig machen k\u00f6nnen? Wir sind besorgt, dass sensible Patientendaten gesch\u00fctzt werden und dass wir den relevanten Vorschriften entsprechen. Ich w\u00fcrde mich \u00fcber Ihre Ratgeber oder Anregungen freuen My name is David Kim.. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        691,
+        700
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        229,
+        246
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Kundensupport zur Integration von IFTTT\n\nSehr geehrte Kundensupport-Team, ich wende mich an Sie, um zu erkunden, ob es wahrscheinlich ist, IFTTT mit den IT-Systemen unseres Krankenhauses zu verbinden You can reach me at [email].. Wir suchen eine sichere M\u00f6glichkeit, unsere Systeme mit IFTTT zu verbinden, um die Patientensorge zu verbessern und unsere Operationen zu vereinfachen. K\u00f6nnten Sie uns bitte einige Hilfestellungen geben, wie wir dies sicher verwaltungsf\u00e4hig machen k\u00f6nnen? Wir sind besorgt, dass sensible Patientendaten gesch\u00fctzt werden und dass wir den relevanten Vorschriften entsprechen. Ich w\u00fcrde mich \u00fcber Ihre Ratgeber oder Anregungen freuen My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

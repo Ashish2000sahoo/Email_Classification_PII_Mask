@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for API Support\n\nThe external API integration has failed, leading to disruptions in project task updates My name is Sophia Rossi.. A potential cause might be a rate limit being exceeded You can reach me at janesmith@company.com.. Despite restarting the service and checking the API keys, the issue still persists. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        133,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        222,
+        243
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for API Support\n\nThe external API integration has failed, leading to disruptions in project task updates My name is [full_name].. A potential cause might be a rate limit being exceeded You can reach me at [email].. Despite restarting the service and checking the API keys, the issue still persists. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible.",
+  "category_of_the_email": "Incident"
+}

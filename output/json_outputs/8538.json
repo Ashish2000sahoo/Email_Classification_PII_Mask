@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Task Sync Feature\n\nThe task sync feature in the SaaS project management software is experiencing issues My name is Carlos Mendoza.. Recent API updates and server changes might be the cause. Despite restarting the systems and clearing the app cache, the problem still persists You can reach me at maria.gonzalez@shop.es.. We kindly request your assistance in resolving this critical issue as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        156
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        320,
+        342
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Task Sync Feature\n\nThe task sync feature in the SaaS project management software is experiencing issues My name is [full_name].. Recent API updates and server changes might be the cause. Despite restarting the systems and clearing the app cache, the problem still persists You can reach me at [email].. We kindly request your assistance in resolving this critical issue as soon as possible.",
+  "category_of_the_email": "Incident"
+}

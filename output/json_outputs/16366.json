@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nunauthorized access attempt identified in medical data systems, raising concerns about data security You can reach me at fatima.farsi@help.com.. password resets have been enforced, and access logs have been reviewed for suspicious activity My name is Jane Smith.. assistance is needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        272
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        132,
+        153
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nunauthorized access attempt identified in medical data systems, raising concerns about data security You can reach me at [email].. password resets have been enforced, and access logs have been reviewed for suspicious activity My name is [full_name].. assistance is needed.",
+  "category_of_the_email": "Incident"
+}

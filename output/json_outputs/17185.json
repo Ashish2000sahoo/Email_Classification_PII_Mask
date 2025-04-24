@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Ensuring Medical Data Security Compliance\n\nI am inquiring about support and guidance on securing access to medical data using Outlook 2021. Could you provide the necessary steps to ensure our systems meet the required standards for data protection? Specifically, we need to ensure that sensitive patient information is protected, and that our software is up-to-date with the latest security patches. Please provide detailed instructions and recommend any additional resources for learning My name is Omar Hassan.. This matter is important to us, and we look forward to hearing from you soon. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        509,
+        520
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        621,
+        642
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        143,
+        147
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Ensuring Medical Data Security Compliance\n\nI am inquiring about support and guidance on securing access to medical data using Outlook [phone_number]. Could you provide the necessary steps to ensure our systems meet the required standards for data protection? Specifically, we need to ensure that sensitive patient information is protected, and that our software is up-to-date with the latest security patches. Please provide detailed instructions and recommend any additional resources for learning My name is [full_name].. This matter is important to us, and we look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringende Anfrage zur \u00c4nderung des Jira-Tickets\n\nSehr geehrter Kundenservice,\n\nIch hoffe, diese Nachricht erreicht Sie wohl You can reach me at omar.hassan@secure.net.. Ich kontaktiere Sie mit einer dringenden Anfrage zur \u00c4nderung der Ticketkategorisierungseinrichtung in unserer Jira-Software 8.20 zur Verbesserung des Projektmanagements My name is Omar Hassan.. Diese \u00c4nderung hat hohe Priorit\u00e4t und wird den Workflow unseres Teams erheblich verbessern. Bitte informieren Sie mich, wie Sie uns helfen k\u00f6nnen, diesen Prozess zu beschleunigen.\n\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        370
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        153,
+        175
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Dringende Anfrage zur \u00c4nderung des Jira-Tickets\n\nSehr geehrter Kundenservice,\n\nIch hoffe, diese Nachricht erreicht Sie wohl You can reach me at [email].. Ich kontaktiere Sie mit einer dringenden Anfrage zur \u00c4nderung der Ticketkategorisierungseinrichtung in unserer Jira-Software 8.20 zur Verbesserung des Projektmanagements My name is [full_name].. Diese \u00c4nderung hat hohe Priorit\u00e4t und wird den Workflow unseres Teams erheblich verbessern. Bitte informieren Sie mich, wie Sie uns helfen k\u00f6nnen, diesen Prozess zu beschleunigen.\n\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Change"
+}

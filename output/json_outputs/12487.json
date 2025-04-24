@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for System Specifications\n\nHello customer support, I am writing to request information regarding the system requirements needed for the best performance of your project management software. I am keen to understand the necessary hardware and software specifications to ensure smooth operation. Could you kindly share detailed guidance on the suggested system specifications, including the processor speed, available memory, and the compatible operating systems? Also, could you provide any insights into any possible limitations or challenges that might arise if my current system does not align with these recommendations? I am eager to hear from you and to find the best way to optimize my project management experience. Thank you for your assistance and I look forward to your response My name is Elena Ivanova.. I am excited to learn more about the system specifications and how they can enhance my use of the software. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        816,
+        829
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        958,
+        976
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Support for System Specifications\n\nHello customer support, I am writing to request information regarding the system requirements needed for the best performance of your project management software. I am keen to understand the necessary hardware and software specifications to ensure smooth operation. Could you kindly share detailed guidance on the suggested system specifications, including the processor speed, available memory, and the compatible operating systems? Also, could you provide any insights into any possible limitations or challenges that might arise if my current system does not align with these recommendations? I am eager to hear from you and to find the best way to optimize my project management experience. Thank you for your assistance and I look forward to your response My name is [full_name].. I am excited to learn more about the system specifications and how they can enhance my use of the software. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

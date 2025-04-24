@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance with Security Breach\n\nAn unauthorized access attempt was detected within the hospital's system, potentially compromising sensitive medical data My name is Elena Ivanova.. The breach might have occurred due to outdated security patches, such as those for Elasticsearch and Perl 5.32. Immediate updates were implemented, access logs were reviewed, and firewall settings were reinforced to mitigate risks You can reach me at fatima.farsi@help.com.. A request for assistance in conducting a thorough investigation and providing recommendations for enhanced security measures to prevent future incidents is made.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        452,
+        473
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance with Security Breach\n\nAn unauthorized access attempt was detected within the hospital's system, potentially compromising sensitive medical data My name is [full_name].. The breach might have occurred due to outdated security patches, such as those for Elasticsearch and Perl 5.32. Immediate updates were implemented, access logs were reviewed, and firewall settings were reinforced to mitigate risks You can reach me at [email].. A request for assistance in conducting a thorough investigation and providing recommendations for enhanced security measures to prevent future incidents is made.",
+  "category_of_the_email": "Incident"
+}

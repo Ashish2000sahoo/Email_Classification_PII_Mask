@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Marketing Campaigns\n\nOur marketing efforts have encountered significant issues, resulting in reduced brand engagement. It could be due to improperly configured APIs across various platforms, which might be impacting data transmission. Despite running diagnostics and optimizing SQL server settings, the problem continues My name is Liu Wei.. Our team is actively working to resolve this, but we need additional assistance to pinpoint the root cause and implement a solution. We would greatly appreciate any guidance you can provide. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        362
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        580,
+        597
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Marketing Campaigns\n\nOur marketing efforts have encountered significant issues, resulting in reduced brand engagement. It could be due to improperly configured APIs across various platforms, which might be impacting data transmission. Despite running diagnostics and optimizing SQL server settings, the problem continues My name is [full_name].. Our team is actively working to resolve this, but we need additional assistance to pinpoint the root cause and implement a solution. We would greatly appreciate any guidance you can provide. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

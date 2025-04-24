@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Security Concerns\n\nDear Customer Support, I am writing to inquire about the security measures implemented at your hospital to protect medical records. Could you provide detailed information on the protocols and technologies you use to safeguard sensitive patient data, ensuring its confidentiality, integrity, and availability? Additionally, I would appreciate it if you could include information on the training provided to staff members regarding data security procedures in the event of a potential security breach.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        555,
+        570
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data Security Concerns\n\nDear Customer Support, I am writing to inquire about the security measures implemented at your hospital to protect medical records. Could you provide detailed information on the protocols and technologies you use to safeguard sensitive patient data, ensuring its confidentiality, integrity, and availability? Additionally, I would appreciate it if you could include information on the training provided to staff members regarding data security procedures in the event of a potential security breach.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

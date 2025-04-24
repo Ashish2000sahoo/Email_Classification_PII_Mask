@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance\n\nI am writing to report a critical error that occurred during the night, where our systems experienced data loss and crashes You can reach me at liuwei@business.cn.. We suspect this might be due to compatibility issues or hardware failures My name is Fatima Al-Farsi.. So far, we have tried restarting the systems and checking for updates, but the problem persists. Could you please support us in resolving this issue as soon as possible? We would greatly appreciate any guidance on how to address or resolve this problem. Please inform us if you need additional information to proceed. We look forward to hearing from you and finding a solution to this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        280
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        165,
+        183
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance\n\nI am writing to report a critical error that occurred during the night, where our systems experienced data loss and crashes You can reach me at [email].. We suspect this might be due to compatibility issues or hardware failures My name is [full_name]-Farsi.. So far, we have tried restarting the systems and checking for updates, but the problem persists. Could you please support us in resolving this issue as soon as possible? We would greatly appreciate any guidance on how to address or resolve this problem. Please inform us if you need additional information to proceed. We look forward to hearing from you and finding a solution to this problem.",
+  "category_of_the_email": "Incident"
+}

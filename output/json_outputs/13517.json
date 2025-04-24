@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zu Unterst\u00fctzung bei Optimierungsstrategien f\u00fcr Anlagen\n\nSehr geehrte Kundenservice, ich melde mich an, um Hilfe bei der Nutzung von Datenanalysewerkzeugen zur Optimierung der Leistungsresultate meiner Anlagen zu erhalten You can reach me at maria.gonzalez@shop.es.. Ich m\u00f6chte verstehen, wie Datenanalyse meine Anlagenverb\u00fcnde optimieren und meine Renditen verbessern kann. K\u00f6nnten Sie mir Rat geben und Informationen zur Verf\u00fcgung stellen, einschlie\u00dflich erfolgreicher Optimierungsstrategien und Empfehlungen f\u00fcr geeignete Datenanalysewerkzeuge? Ich bin sehr daran interessiert, meine Anlageentscheidungen zu verbessern und zu erfahren, wie Datenanalyse dabei hilft My name is David Kim.. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung. Ihr Engagement wird hoch gesch\u00e4tzt.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        694,
+        703
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        257,
+        279
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Frage zu Unterst\u00fctzung bei Optimierungsstrategien f\u00fcr Anlagen\n\nSehr geehrte Kundenservice, ich melde mich an, um Hilfe bei der Nutzung von Datenanalysewerkzeugen zur Optimierung der Leistungsresultate meiner Anlagen zu erhalten You can reach me at [email].. Ich m\u00f6chte verstehen, wie Datenanalyse meine Anlagenverb\u00fcnde optimieren und meine Renditen verbessern kann. K\u00f6nnten Sie mir Rat geben und Informationen zur Verf\u00fcgung stellen, einschlie\u00dflich erfolgreicher Optimierungsstrategien und Empfehlungen f\u00fcr geeignete Datenanalysewerkzeuge? Ich bin sehr daran interessiert, meine Anlageentscheidungen zu verbessern und zu erfahren, wie Datenanalyse dabei hilft My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung. Ihr Engagement wird hoch gesch\u00e4tzt.",
+  "category_of_the_email": "Request"
+}

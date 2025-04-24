@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema urgente de Jira\n\nEstimado soporte al cliente,\n\nMe comunico para informar sobre un problema cr\u00edtico que estamos experimentando con Jira Software 8.20. Los miembros de nuestro equipo, incluido <name>, no pueden asignar tareas dentro de la plataforma My name is Carlos Mendoza.. Esta funcionalidad es crucial para mantener nuestro flujo de trabajo y productividad, ya que nos estamos acercando a plazos importantes de proyectos.\n\nLa incapacidad para asignar tareas est\u00e1 afectando severamente nuestra productividad, lo que lleva a confusi\u00f3n sobre las responsabilidades de las tareas y retrasos en nuestro ciclo de desarrollo. Esta interrupci\u00f3n plantea un riesgo para nuestras entregas y compromisos con los clientes You can reach me at elena.ivanova@support.org.. Hemos intentado pasos b\u00e1sicos de soluci\u00f3n de problemas sin \u00e9xito.\n\nSolicitamos asistencia inmediata o una soluci\u00f3n alternativa, ya que resolver este problema es de suma urgencia para nosotros. Por favor, gu\u00edenos para garantizar la asignaci\u00f3n de tareas y la gesti\u00f3n de proyectos sin inconvenientes.\n\nPara sus registros, nuestro n\u00famero de cuenta vinculada es <acc_num>. Por favor, priorice y contacte a <name> en <tel_num> para discutir los pr\u00f3ximos pasos. Agradecer\u00edamos mucho su pronta atenci\u00f3n a este asunto.\n\nGracias por su apoyo.\n\nAtentamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        291
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        747,
+        772
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problema urgente de Jira\n\nEstimado soporte al cliente,\n\nMe comunico para informar sobre un problema cr\u00edtico que estamos experimentando con Jira Software 8.20. Los miembros de nuestro equipo, incluido <name>, no pueden asignar tareas dentro de la plataforma My name is [full_name].. Esta funcionalidad es crucial para mantener nuestro flujo de trabajo y productividad, ya que nos estamos acercando a plazos importantes de proyectos.\n\nLa incapacidad para asignar tareas est\u00e1 afectando severamente nuestra productividad, lo que lleva a confusi\u00f3n sobre las responsabilidades de las tareas y retrasos en nuestro ciclo de desarrollo. Esta interrupci\u00f3n plantea un riesgo para nuestras entregas y compromisos con los clientes You can reach me at [email].. Hemos intentado pasos b\u00e1sicos de soluci\u00f3n de problemas sin \u00e9xito.\n\nSolicitamos asistencia inmediata o una soluci\u00f3n alternativa, ya que resolver este problema es de suma urgencia para nosotros. Por favor, gu\u00edenos para garantizar la asignaci\u00f3n de tareas y la gesti\u00f3n de proyectos sin inconvenientes.\n\nPara sus registros, nuestro n\u00famero de cuenta vinculada es <acc_num>. Por favor, priorice y contacte a <name> en <tel_num> para discutir los pr\u00f3ximos pasos. Agradecer\u00edamos mucho su pronta atenci\u00f3n a este asunto.\n\nGracias por su apoyo.\n\nAtentamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

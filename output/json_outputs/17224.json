@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unforeseen Payment Issues Experienced Today\n\nDear Support Team, <br><br>I hope this message finds you well. I need to inform you about recurring payment disruptions for my subscriptions that occurred today You can reach me at janesmith@company.com.. This might be linked to an underlying problem with the QuickBooks Online interface. Despite checking my account configurations and payment details, the issue remains unresolved My name is Omar Hassan.. <br><br>I kindly request that you thoroughly examine the situation and offer a timely solution. If more information is required, please do not hesitate to reach out to me. <br><br>Thank you for your prompt attention to this matter. I eagerly await your response. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        447,
+        458
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        235,
+        256
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unforeseen Payment Issues Experienced Today\n\nDear Support Team, <br><br>I hope this message finds you well. I need to inform you about recurring payment disruptions for my subscriptions that occurred today You can reach me at [email].. This might be linked to an underlying problem with the QuickBooks Online interface. Despite checking my account configurations and payment details, the issue remains unresolved My name is [full_name].. <br><br>I kindly request that you thoroughly examine the situation and offer a timely solution. If more information is required, please do not hesitate to reach out to me. <br><br>Thank you for your prompt attention to this matter. I eagerly await your response. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

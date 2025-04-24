@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Project Timelines\n\nDear Valued Customer, We are concerned about the reported issue with your project timelines not updating automatically, which might be related to a database synchronization problem You can reach me at carlosm@gmail.com.. Despite your efforts to resolve the issue by restarting the server and checking the configuration, the problem still exists. We kindly request your cooperation in addressing this issue as it is causing delays in your project. If you could provide more detailed information about your setup and any specific error messages, it would be greatly appreciated. Additionally, we suggest setting up a call to discuss the issue in more detail and offer troubleshooting advice. Kindly inform us of a convenient time to contact you at the number provided. Thank you for your understanding and patience. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        869,
+        883
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        245,
+        262
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Project Timelines\n\nDear Valued Customer, We are concerned about the reported issue with your project timelines not updating automatically, which might be related to a database synchronization problem You can reach me at [email].. Despite your efforts to resolve the issue by restarting the server and checking the configuration, the problem still exists. We kindly request your cooperation in addressing this issue as it is causing delays in your project. If you could provide more detailed information about your setup and any specific error messages, it would be greatly appreciated. Additionally, we suggest setting up a call to discuss the issue in more detail and offer troubleshooting advice. Kindly inform us of a convenient time to contact you at the number provided. Thank you for your understanding and patience. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

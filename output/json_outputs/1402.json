@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Fallschutzverletzung bei medizinischen Daten\n\nEs wurde festgestellt, dass sensible medizinische Informationen freigegeben wurden. Dies ist ein beunruhigender Vorfall.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        213
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Fallschutzverletzung bei medizinischen Daten\n\nEs wurde festgestellt, dass sensible medizinische Informationen freigegeben wurden. Dies ist ein beunruhigender Vorfall.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

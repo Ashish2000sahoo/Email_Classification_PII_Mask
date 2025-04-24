@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountering Unusual Billing Errors Across Several Products\n\nI am currently facing unexpected billing failures for several of my products You can reach me at maria.gonzalez@shop.es.. I have already confirmed my account details, reviewed the payment gateway status, and restarted the necessary services. The problem might stem from a payment gateway error or a subscription synchronization issue My name is David Kim.. I would greatly appreciate your support in addressing this issue. Could you assist me in pinpointing the cause and offer a solution to avoid similar problems in the future?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        415,
+        424
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        167,
+        189
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Encountering Unusual Billing Errors Across Several Products\n\nI am currently facing unexpected billing failures for several of my products You can reach me at [email].. I have already confirmed my account details, reviewed the payment gateway status, and restarted the necessary services. The problem might stem from a payment gateway error or a subscription synchronization issue My name is [full_name].. I would greatly appreciate your support in addressing this issue. Could you assist me in pinpointing the cause and offer a solution to avoid similar problems in the future?",
+  "category_of_the_email": "Incident"
+}

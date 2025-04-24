@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Data Synchronization\n\nA critical error was encountered during the data syncing process for Google Cloud Platform Redis 6.2, due to API configuration issues and network disruptions. API credentials were checked, and services were restarted.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        297
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Synchronization\n\nA critical error was encountered during the data syncing process for Google Cloud Platform Redis 6.2, due to API configuration issues and network disruptions. API credentials were checked, and services were restarted.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

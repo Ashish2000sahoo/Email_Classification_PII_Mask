@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundensupport, ich melde Fehler in der digitalen Werbekampagne an. Trotz der \u00dcberpr\u00fcfung der Kampagnen-Einstellungen und der Anpassung des Budgets bleiben die Ergebnisse unzufriedenstellend. Die Kampagnen underperformen, was die Markeinsicht verringert. Diese unterliegt den j\u00fcngsten \u00c4nderungen an den Algorithmus und der Zielgruppen-Ann\u00e4herung. Es w\u00e4re sehr hilfreich, wenn Sie Rat geben k\u00f6nnten, wie die Leistung unserer Kampagnen verbessert werden kann. Bitte geben Sie an, wenn zus\u00e4tzliche Informationen ben\u00f6tigt werden, um das Problem zu bearbeiten My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        589,
+        602
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        659,
+        676
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundensupport, ich melde Fehler in der digitalen Werbekampagne an. Trotz der \u00dcberpr\u00fcfung der Kampagnen-Einstellungen und der Anpassung des Budgets bleiben die Ergebnisse unzufriedenstellend. Die Kampagnen underperformen, was die Markeinsicht verringert. Diese unterliegt den j\u00fcngsten \u00c4nderungen an den Algorithmus und der Zielgruppen-Ann\u00e4herung. Es w\u00e4re sehr hilfreich, wenn Sie Rat geben k\u00f6nnten, wie die Leistung unserer Kampagnen verbessert werden kann. Bitte geben Sie an, wenn zus\u00e4tzliche Informationen ben\u00f6tigt werden, um das Problem zu bearbeiten My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

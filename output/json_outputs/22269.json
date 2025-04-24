@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent Support Request: Dell XPS 13 9310 Issue\n\nDear Customer Support Team,\n\nI am writing to bring to your attention a recurring issue I have been experiencing with my Dell XPS 13 9310. After the latest Windows update, my device has started showing a persistent blue screen error, significantly affecting its performance and usability.\n\nThis problem began immediately following the installation of the new update, with the blue screen appearing almost every time I start or restart the computer You can reach me at david.kim@corp.kr.. Additionally, the overall performance of the device has noticeably declined, with tasks that should be simple now taking considerably more time and applications frequently crashing.\n\nI rely heavily on this laptop for work and personal tasks, making this issue particularly urgent. I attempted some basic troubleshooting steps like rebooting in safe mode and searching for further system updates, but the problem persists.\n\nPlease advise on possible solutions or whether this is a known issue with a current fix underway. Understanding how critical this device is to my daily routine, I would appreciate a swift response.\n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n<name>\n<email_address>\n<tel_num>\n<acc_num> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1288,
+        1302
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        524,
+        541
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        42,
+        49
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        186,
+        193
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent Support Request: Dell XPS [phone_number] Issue\n\nDear Customer Support Team,\n\nI am writing to bring to your attention a recurring issue I have been experiencing with my Dell XPS [phone_number]. After the latest Windows update, my device has started showing a persistent blue screen error, significantly affecting its performance and usability.\n\nThis problem began immediately following the installation of the new update, with the blue screen appearing almost every time I start or restart the computer You can reach me at [email].. Additionally, the overall performance of the device has noticeably declined, with tasks that should be simple now taking considerably more time and applications frequently crashing.\n\nI rely heavily on this laptop for work and personal tasks, making this issue particularly urgent. I attempted some basic troubleshooting steps like rebooting in safe mode and searching for further system updates, but the problem persists.\n\nPlease advise on possible solutions or whether this is a known issue with a current fix underway. Understanding how critical this device is to my daily routine, I would appreciate a swift response.\n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n<name>\n<email_address>\n<tel_num>\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

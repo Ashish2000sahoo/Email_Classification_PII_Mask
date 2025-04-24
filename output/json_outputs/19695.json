@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Billing Discrepancies\n\nEncountering unexpected billing discrepancies following recent software updates across multiple products My name is Fatima Al-Farsi.. Invoices have been reviewed, and payment methods have been reset, but the issue still persists. Assistance is needed to resolve this matter and ensure accurate future billing. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        384,
+        406
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Billing Discrepancies\n\nEncountering unexpected billing discrepancies following recent software updates across multiple products My name is [full_name]-Farsi.. Invoices have been reviewed, and payment methods have been reset, but the issue still persists. Assistance is needed to resolve this matter and ensure accurate future billing. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fachliche Unterst\u00fctzung bei Rechnungsproblemen ben\u00f6tigt\n\nIch mache mich an dieser Stelle mit einer Issue bei meiner Rechnung f\u00fcr Datenanalyse-Dienstleistungen auseinander You can reach me at maria.gonzalez@shop.es.. Insbesondere wurden mich f\u00fcr einen Monat mehrmals abgerechnet, was ich einer m\u00f6glichen Synchronisationsproblematik zwischen Puppet und Firebase zuschreibe. Ich habe bisher meine Rechnungen analysiert und dem Support-Team mich bereits angeschlossen, der Issue jedoch ist bisher nicht aufgeklart. Ich bitte Sie daher, wenn Sie diese Sache weiter untersuchen und meine Rechnung so fr\u00fch wie m\u00f6glich korrigieren k\u00f6nnten My name is Sophia Rossi.. Bitte geben Sie mir Bescheid, wenn Sie weitere Informationen ben\u00f6tigen, um das Verfahren voranzutreiben. Ich m\u00f6chte Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung in dieser Angelegenheit herzlich danken.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        651,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        200,
+        222
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Fachliche Unterst\u00fctzung bei Rechnungsproblemen ben\u00f6tigt\n\nIch mache mich an dieser Stelle mit einer Issue bei meiner Rechnung f\u00fcr Datenanalyse-Dienstleistungen auseinander You can reach me at [email].. Insbesondere wurden mich f\u00fcr einen Monat mehrmals abgerechnet, was ich einer m\u00f6glichen Synchronisationsproblematik zwischen Puppet und Firebase zuschreibe. Ich habe bisher meine Rechnungen analysiert und dem Support-Team mich bereits angeschlossen, der Issue jedoch ist bisher nicht aufgeklart. Ich bitte Sie daher, wenn Sie diese Sache weiter untersuchen und meine Rechnung so fr\u00fch wie m\u00f6glich korrigieren k\u00f6nnten My name is [full_name].. Bitte geben Sie mir Bescheid, wenn Sie weitere Informationen ben\u00f6tigen, um das Verfahren voranzutreiben. Ich m\u00f6chte Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung in dieser Angelegenheit herzlich danken.",
+  "category_of_the_email": "Incident"
+}

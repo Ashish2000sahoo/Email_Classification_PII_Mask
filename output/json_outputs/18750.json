@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, seeking insights on methods to secure medical data and improve hospital security. Would greatly appreciate details on the measures your company has in place to protect sensitive patient information and prevent data breaches, including any compliance certifications held such as HIPAA. Additionally, interested in learning more about the security services you offer, such as network monitoring, threat detection, and incident response You can reach me at sophia.rossi@service.it.. Please inform us if you have any case studies or whitepapers available. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        592,
+        604
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        483,
+        506
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, seeking insights on methods to secure medical data and improve hospital security. Would greatly appreciate details on the measures your company has in place to protect sensitive patient information and prevent data breaches, including any compliance certifications held such as HIPAA. Additionally, interested in learning more about the security services you offer, such as network monitoring, threat detection, and incident response You can reach me at [email].. Please inform us if you have any case studies or whitepapers available. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

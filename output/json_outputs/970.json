@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Synchronization\n\nSeveral users are facing synchronization challenges while using iOS Outlook 2021 to access project management functions. This might be due to API limitations or network delays impacting data fetching.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        116,
+        120
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        263,
+        278
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Problems with Synchronization\n\nSeveral users are facing synchronization challenges while using iOS Outlook [phone_number] to access project management functions. This might be due to API limitations or network delays impacting data fetching.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

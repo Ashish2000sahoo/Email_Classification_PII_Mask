@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Access to SaaS Functionality\n\nNoted a sudden failure in accessing essential SaaS features You can reach me at omar.hassan@secure.net.. This might be due to a server overload or configuration issue My name is Omar Hassan.. Steps taken include attempting to restart the affected applications.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        130,
+        152
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Access to SaaS Functionality\n\nNoted a sudden failure in accessing essential SaaS features You can reach me at [email].. This might be due to a server overload or configuration issue My name is [full_name].. Steps taken include attempting to restart the affected applications.",
+  "category_of_the_email": "Incident"
+}

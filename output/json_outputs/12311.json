@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundendienstlichen Helfer\n\nIch w\u00fcrde gerne mehr \u00fcber den Preis von Mercurial mit der Integration von Microsoft Office 365 erfahren. K\u00f6nnten Sie mir bitte Details zu den verschiedenen Preisebenen und deren Kosten bereitstellen? Es w\u00e4re mir sehr willkommen, wenn Sie mir auch \u00fcber m\u00f6gliche Rabatte oder Spezialangebote berichten k\u00f6nnten.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        367,
+        382
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    },
+    {
+      "position": [
+        127,
+        130
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Kundendienstlichen Helfer\n\nIch w\u00fcrde gerne mehr \u00fcber den Preis von Mercurial mit der Integration von Microsoft Office [cvv_no] erfahren. K\u00f6nnten Sie mir bitte Details zu den verschiedenen Preisebenen und deren Kosten bereitstellen? Es w\u00e4re mir sehr willkommen, wenn Sie mir auch \u00fcber m\u00f6gliche Rabatte oder Spezialangebote berichten k\u00f6nnten.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

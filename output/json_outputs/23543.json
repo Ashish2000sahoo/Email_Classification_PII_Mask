@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbindungsprobleme w\u00e4hrend Zoom-Meetings\n\nSehr geehrter Kundenservice, \n\nich hoffe, diese Nachricht trifft Sie wohl You can reach me at liuwei@business.cn.. Ich schreibe, um Ihre Aufmerksamkeit auf ein hartn\u00e4ckiges Problem zu lenken, das ich mit der Zoom-Plattform, Version 5.11.0, habe. Trotz einer stabilen Internetverbindung habe ich w\u00e4hrend Videoanrufen Verbindungsprobleme, die es mir unm\u00f6glich machen, zuverl\u00e4ssig an geplanten Meetings teilzunehmen. Manchmal erkennt die Anwendung die Meeting-ID nicht oder kann einfach keine Verbindung herstellen, selbst nach mehreren Versuchen My name is Jane Smith.. Diese St\u00f6rung beeintr\u00e4chtigt erheblich meine Produktivit\u00e4t und meine F\u00e4higkeit, effektiv mit meinem Team zusammenzuarbeiten.\n\nIch habe \u00fcberpr\u00fcft, dass die Software meines Ger\u00e4ts auf dem neuesten Stand ist, und habe Fehlersuche-Schritte unternommen, einschlie\u00dflich Neustart des Ger\u00e4ts und Neuinstallation des Zoom-Clients, jedoch ohne Erfolg. K\u00f6nnten Sie mir bitte helfen, dieses Problem zu diagnostizieren und zu l\u00f6sen? Bitte lassen Sie mich wissen, ob Sie weitere Informationen oder Diagnosen von meiner Seite ben\u00f6tigen. Ich sch\u00e4tze Ihre schnelle Bearbeitung dieses Anliegens zutiefst, da es meine Arbeitsweise stark beeintr\u00e4chtigt.\n\nDanke f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        607,
+        617
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        146,
+        164
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Verbindungsprobleme w\u00e4hrend Zoom-Meetings\n\nSehr geehrter Kundenservice, \n\nich hoffe, diese Nachricht trifft Sie wohl You can reach me at [email].. Ich schreibe, um Ihre Aufmerksamkeit auf ein hartn\u00e4ckiges Problem zu lenken, das ich mit der Zoom-Plattform, Version 5.11.0, habe. Trotz einer stabilen Internetverbindung habe ich w\u00e4hrend Videoanrufen Verbindungsprobleme, die es mir unm\u00f6glich machen, zuverl\u00e4ssig an geplanten Meetings teilzunehmen. Manchmal erkennt die Anwendung die Meeting-ID nicht oder kann einfach keine Verbindung herstellen, selbst nach mehreren Versuchen My name is [full_name].. Diese St\u00f6rung beeintr\u00e4chtigt erheblich meine Produktivit\u00e4t und meine F\u00e4higkeit, effektiv mit meinem Team zusammenzuarbeiten.\n\nIch habe \u00fcberpr\u00fcft, dass die Software meines Ger\u00e4ts auf dem neuesten Stand ist, und habe Fehlersuche-Schritte unternommen, einschlie\u00dflich Neustart des Ger\u00e4ts und Neuinstallation des Zoom-Clients, jedoch ohne Erfolg. K\u00f6nnten Sie mir bitte helfen, dieses Problem zu diagnostizieren und zu l\u00f6sen? Bitte lassen Sie mich wissen, ob Sie weitere Informationen oder Diagnosen von meiner Seite ben\u00f6tigen. Ich sch\u00e4tze Ihre schnelle Bearbeitung dieses Anliegens zutiefst, da es meine Arbeitsweise stark beeintr\u00e4chtigt.\n\nDanke f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

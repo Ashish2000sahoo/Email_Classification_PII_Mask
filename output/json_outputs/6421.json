@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Issues with Project Management Platform\n\nDear Customer Support,\\n\\nI am reaching out to address an issue I am encountering with the project management platform. The platform unexpectedly crashed, which is concerning, and I suspect it may be related to potential conflicts between my RAM and Firewall settings You can reach me at maria.gonzalez@shop.es.. Despite attempting to restart my router and checking for updates, the problem has not been resolved.\\n\\nHere are the specifics of what occurred:\\n\\n- The platform suddenly crashed, leading to the loss of access to my projects and tasks.\\n- I think the crash might be due to conflicting RAM and Firewall settings, as I have noticed some issues with my computer's memory and firewall configuration.\\n- I have already tried restarting the router and checking for updates, but the issue still persists.\\n\\nI would greatly appreciate any assistance or guidance you could offer to help resolve this issue.\\n\\nThank you for your time and support.\\n\\nSincerely,\\n[Your Name] My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1051,
+        1059
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        348,
+        370
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Report on Issues with Project Management Platform\n\nDear Customer Support,\\n\\nI am reaching out to address an issue I am encountering with the project management platform. The platform unexpectedly crashed, which is concerning, and I suspect it may be related to potential conflicts between my RAM and Firewall settings You can reach me at [email].. Despite attempting to restart my router and checking for updates, the problem has not been resolved.\\n\\nHere are the specifics of what occurred:\\n\\n- The platform suddenly crashed, leading to the loss of access to my projects and tasks.\\n- I think the crash might be due to conflicting RAM and Firewall settings, as I have noticed some issues with my computer's memory and firewall configuration.\\n- I have already tried restarting the router and checking for updates, but the issue still persists.\\n\\nI would greatly appreciate any assistance or guidance you could offer to help resolve this issue.\\n\\nThank you for your time and support.\\n\\nSincerely,\\n[Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical: Application Interface Freezing Problem\n\nDear Customer Support Crew,\n\nI am reaching out to highlight a pressing incident taking place within your JavaScript React App Development Service. We have faced a situation where the application interface freezes when users interact with it, greatly hindering its functionality. This problem has become increasingly disruptive and calls for urgent resolution to improve user experience.\n\nPlease treat this matter with high priority and offer support in addressing the technical issue You can reach me at janesmith@company.com.. Our operations strongly depend on the seamless performance of the JavaScript React app. I would appreciate it if you could keep me informed about your progress and let me know if you need any further information from us to accelerate the troubleshooting process.\n\nThank you for your swift attention to this concern.\n\nSincerely,\n<name> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        933,
+        944
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        563,
+        584
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Critical: Application Interface Freezing Problem\n\nDear Customer Support Crew,\n\nI am reaching out to highlight a pressing incident taking place within your JavaScript React App Development Service. We have faced a situation where the application interface freezes when users interact with it, greatly hindering its functionality. This problem has become increasingly disruptive and calls for urgent resolution to improve user experience.\n\nPlease treat this matter with high priority and offer support in addressing the technical issue You can reach me at [email].. Our operations strongly depend on the seamless performance of the JavaScript React app. I would appreciate it if you could keep me informed about your progress and let me know if you need any further information from us to accelerate the troubleshooting process.\n\nThank you for your swift attention to this concern.\n\nSincerely,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

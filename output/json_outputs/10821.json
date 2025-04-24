@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on SSD Failure - Crucial MX500\n\nThere has been a critical failure with the Crucial MX500 SSD, which has disrupted the data analytics processes. The issue may be due to an abrupt power loss or software conflicts You can reach me at sophia.rossi@service.it.. Steps taken include rebooting, attempting data recovery, and checking for software updates. Despite these efforts, the problem continues to persist and requires immediate assistance to prevent further disruptions. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        512
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        247,
+        270
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Report on SSD Failure - Crucial MX500\n\nThere has been a critical failure with the Crucial MX500 SSD, which has disrupted the data analytics processes. The issue may be due to an abrupt power loss or software conflicts You can reach me at [email].. Steps taken include rebooting, attempting data recovery, and checking for software updates. Despite these efforts, the problem continues to persist and requires immediate assistance to prevent further disruptions. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

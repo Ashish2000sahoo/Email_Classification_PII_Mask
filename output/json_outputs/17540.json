@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with SaaS Application\n\nHaving difficulties accessing the project management functions of our SaaS application. Despite restarting the modem, verifying the internet connection, and clearing the application cache, the issue persists You can reach me at sophia.rossi@service.it.. Network instability and software update issues seem to be the cause My name is Liu Wei.. Assistance is needed to quickly resolve this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        266,
+        289
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with SaaS Application\n\nHaving difficulties accessing the project management functions of our SaaS application. Despite restarting the modem, verifying the internet connection, and clearing the application cache, the issue persists You can reach me at [email].. Network instability and software update issues seem to be the cause My name is [full_name].. Assistance is needed to quickly resolve this problem.",
+  "category_of_the_email": "Incident"
+}

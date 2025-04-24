@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Abweichung im AWS-Rechnungsstatement\n\nSehr geehrter IT-Services-Kundenservice,\\n\\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, weil ich eine Abweichung in der Abrechnung auf meiner letzten monatlichen Rechnung vom AWS Management Service festgestellt habe You can reach me at elena.ivanova@support.org.. Bei der \u00dcberpr\u00fcfung der Rechnung stellte ich fest, dass unerwartete Geb\u00fchren in betr\u00e4chtlicher H\u00f6he entstanden sind, die nicht gem\u00e4\u00df unseren vereinbarten Servicebedingungen erwartet wurden.\\n\\nDie betreffende Rechnung, die mit der Kontonummer <acc_num> verkn\u00fcpft ist, wurde f\u00fcr den Abrechnungszeitraum September ausgestellt. Da wir keine wesentlichen \u00c4nderungen an unserer Nutzung oder Stufe vorgenommen haben, sind diese r\u00e4tselhaften Geb\u00fchren ziemlich besorgniserregend und erfordern eine dringende Untersuchung, um die Situation umgehend zu beheben.\\n\\nK\u00f6nnten Sie bitte diese Angelegenheit so schnell wie m\u00f6glich pr\u00fcfen? Falls erforderlich, bin ich gerne bereit, weitere Informationen zur Verf\u00fcgung zu stellen, die f\u00fcr die L\u00f6sung dieses Problems relevant sind My name is Fatima Al-Farsi.. Sie k\u00f6nnen mich unter <tel_num> erreichen.\\n\\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre schnelle Antwort.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n\\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1110,
+        1119
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        308,
+        333
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Abweichung im AWS-Rechnungsstatement\n\nSehr geehrter IT-Services-Kundenservice,\\n\\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, weil ich eine Abweichung in der Abrechnung auf meiner letzten monatlichen Rechnung vom AWS Management Service festgestellt habe You can reach me at [email].. Bei der \u00dcberpr\u00fcfung der Rechnung stellte ich fest, dass unerwartete Geb\u00fchren in betr\u00e4chtlicher H\u00f6he entstanden sind, die nicht gem\u00e4\u00df unseren vereinbarten Servicebedingungen erwartet wurden.\\n\\nDie betreffende Rechnung, die mit der Kontonummer <acc_num> verkn\u00fcpft ist, wurde f\u00fcr den Abrechnungszeitraum September ausgestellt. Da wir keine wesentlichen \u00c4nderungen an unserer Nutzung oder Stufe vorgenommen haben, sind diese r\u00e4tselhaften Geb\u00fchren ziemlich besorgniserregend und erfordern eine dringende Untersuchung, um die Situation umgehend zu beheben.\\n\\nK\u00f6nnten Sie bitte diese Angelegenheit so schnell wie m\u00f6glich pr\u00fcfen? Falls erforderlich, bin ich gerne bereit, weitere Informationen zur Verf\u00fcgung zu stellen, die f\u00fcr die L\u00f6sung dieses Problems relevant sind My name is [full_name]-Farsi.. Sie k\u00f6nnen mich unter <tel_num> erreichen.\\n\\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre schnelle Antwort.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n\\n<name>",
+  "category_of_the_email": "Incident"
+}

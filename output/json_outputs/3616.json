@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Login Problems\n\nFacing sporadic login difficulties, which might be related to recent system updates. Browser caches have been cleared and passwords have been reset, but the issue still persists and requires your assistance to resolve You can reach me at david.kim@corp.kr.. Please provide a solution or an alternative workaround. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        284,
+        301
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Login Problems\n\nFacing sporadic login difficulties, which might be related to recent system updates. Browser caches have been cleared and passwords have been reset, but the issue still persists and requires your assistance to resolve You can reach me at [email].. Please provide a solution or an alternative workaround. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

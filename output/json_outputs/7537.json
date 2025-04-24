@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Analysetools\n\nMarketing-Analysetools are currently available, but campaign reporting is affected due to a server outage My name is Maria Gonzalez.. I tried restarting the application and clearing the cache, but the issue persists You can reach me at johndoe@email.com.. Please help us resolve this problem quickly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        165
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        267,
+        284
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Analysetools\n\nMarketing-Analysetools are currently available, but campaign reporting is affected due to a server outage My name is [full_name].. I tried restarting the application and clearing the cache, but the issue persists You can reach me at [email].. Please help us resolve this problem quickly.",
+  "category_of_the_email": "Incident"
+}

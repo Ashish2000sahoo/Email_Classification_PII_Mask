@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am reporting a critical issue with the project management tool, specifically regarding the key feature of task assignment, which has stopped functioning. I suspect this might be due to a recent code update. Despite attempts to rollback the update and clear the cache, the issue continues. I have tried troubleshooting but have been unable to resolve it on my own You can reach me at elena.ivanova@support.org.. I would greatly appreciate if you could look into this matter urgently and provide a solution as soon as possible. Please let us My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        587,
+        596
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        419,
+        444
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am reporting a critical issue with the project management tool, specifically regarding the key feature of task assignment, which has stopped functioning. I suspect this might be due to a recent code update. Despite attempts to rollback the update and clear the cache, the issue continues. I have tried troubleshooting but have been unable to resolve it on my own You can reach me at [email].. I would greatly appreciate if you could look into this matter urgently and provide a solution as soon as possible. Please let us My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

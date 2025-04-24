@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Login System\n\nUsers are facing sporadic login difficulties on the project management platform. This might be linked to heightened server load during peak times You can reach me at maria.gonzalez@shop.es.. Steps like clearing cache and restarting the application server have been attempted but the issue remains unresolved. We require your assistance in resolving this problem. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        410,
+        421
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        202,
+        224
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Login System\n\nUsers are facing sporadic login difficulties on the project management platform. This might be linked to heightened server load during peak times You can reach me at [email].. Steps like clearing cache and restarting the application server have been attempted but the issue remains unresolved. We require your assistance in resolving this problem. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

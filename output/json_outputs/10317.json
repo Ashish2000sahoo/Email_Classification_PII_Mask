@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frage zur Bezahlung von Software-Abonnements und Hardware-Produkten\n\nIch setze mich mit der Bitte um Informationen zur Bezahlungsm\u00f6glichkeiten f\u00fcr Software-Abonnement und zugeh\u00f6rige Hardware-Produkte in Verbindung. K\u00f6nnten Sie mir bitte detaillierte Informationen zu diesem Thema geben?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        333
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Bezahlung von Software-Abonnements und Hardware-Produkten\n\nIch setze mich mit der Bitte um Informationen zur Bezahlungsm\u00f6glichkeiten f\u00fcr Software-Abonnement und zugeh\u00f6rige Hardware-Produkte in Verbindung. K\u00f6nnten Sie mir bitte detaillierte Informationen zu diesem Thema geben?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nAn error has happened during the integration of the Mailchimp project management tool.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        120,
+        135
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: \n\nAn error has happened during the integration of the Mailchimp project management tool.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS Management Service-Ausfall\n\nSehr geehrter Kundenservice, ich schreibe Ihnen, um Sie dar\u00fcber zu informieren, dass der AWS Management Service derzeit mit einem erheblichen Dienstausfall konfrontiert ist. Sofortige Wartungsma\u00dfnahmen sind erforderlich, um unsere Cloud-Operationen effektiv wiederherzustellen. Diese Situation hat unsere Produktivit\u00e4t beeintr\u00e4chtigt und erfordert dringende Aufmerksamkeit, um St\u00f6rungen zu minimieren You can reach me at omar.hassan@secure.net.. Bitte priorisieren Sie dieses Problem und geben Sie eine gesch\u00e4tzte Zeit f\u00fcr die L\u00f6sung an. Ihre schnelle Antwort wird sehr gesch\u00e4tzt My name is Liu Wei.. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Aufmerksamkeit f\u00fcr dieses kritische Anliegen. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        632,
+        639
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        462,
+        484
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: AWS Management Service-Ausfall\n\nSehr geehrter Kundenservice, ich schreibe Ihnen, um Sie dar\u00fcber zu informieren, dass der AWS Management Service derzeit mit einem erheblichen Dienstausfall konfrontiert ist. Sofortige Wartungsma\u00dfnahmen sind erforderlich, um unsere Cloud-Operationen effektiv wiederherzustellen. Diese Situation hat unsere Produktivit\u00e4t beeintr\u00e4chtigt und erfordert dringende Aufmerksamkeit, um St\u00f6rungen zu minimieren You can reach me at [email].. Bitte priorisieren Sie dieses Problem und geben Sie eine gesch\u00e4tzte Zeit f\u00fcr die L\u00f6sung an. Ihre schnelle Antwort wird sehr gesch\u00e4tzt My name is [full_name].. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Aufmerksamkeit f\u00fcr dieses kritische Anliegen. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Incident"
+}

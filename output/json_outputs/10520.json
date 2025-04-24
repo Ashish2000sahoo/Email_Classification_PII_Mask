@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Enhancing Investment Strategies Through Data Analytics\n\nWe are contacting you regarding the optimization of our investment strategies using data analytics. We are eager to understand the advantages of incorporating data analytics into our investment decision-making process My name is Omar Hassan.. We would be grateful if you could provide us with information on this topic and possibly direct us to any resources available. We look forward to your prompt response and appreciate your assistance You can reach me at liuwei@business.cn.. We are awaiting your reply and are hopeful to hear back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        535,
+        553
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Query on Enhancing Investment Strategies Through Data Analytics\n\nWe are contacting you regarding the optimization of our investment strategies using data analytics. We are eager to understand the advantages of incorporating data analytics into our investment decision-making process My name is [full_name].. We would be grateful if you could provide us with information on this topic and possibly direct us to any resources available. We look forward to your prompt response and appreciate your assistance You can reach me at [email].. We are awaiting your reply and are hopeful to hear back from you soon.",
+  "category_of_the_email": "Request"
+}

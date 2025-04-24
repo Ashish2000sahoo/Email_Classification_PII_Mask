@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem mit der Projekt-Dashboards-Ladeprozess\n\nVerz\u00f6gerte Reaktionen w\u00e4hrend des Ladens von Projekt-Dashboards. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        143,
+        160
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Projekt-Dashboards-Ladeprozess\n\nVerz\u00f6gerte Reaktionen w\u00e4hrend des Ladens von Projekt-Dashboards. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

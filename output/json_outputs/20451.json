@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Creating Jira Tickets\n\nDear Customer Support, I am experiencing an issue with Jira Software 8.20, where the screen freezes when attempting to submit forms for new tickets. This is severely affecting our workflow efficiency My name is John Doe.. Could you please provide a solution or workaround to resolve this problem promptly? Your immediate attention to restoring our ability to create tickets smoothly would be greatly appreciated You can reach me at omar.hassan@secure.net.. Thank you for your support. Sincerely, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        262
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        478,
+        500
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Creating Jira Tickets\n\nDear Customer Support, I am experiencing an issue with Jira Software 8.20, where the screen freezes when attempting to submit forms for new tickets. This is severely affecting our workflow efficiency My name is [full_name].. Could you please provide a solution or workaround to resolve this problem promptly? Your immediate attention to restoring our ability to create tickets smoothly would be greatly appreciated You can reach me at [email].. Thank you for your support. Sincerely, <name>",
+  "category_of_the_email": "Incident"
+}

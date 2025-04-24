@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Low Engagement on Social Media Campaigns\n\nI am encountering low engagement on my social media campaigns, primarily due to inadequate targeting and outdated content You can reach me at carlosm@gmail.com.. Despite my efforts to adjust ad spend and refine my content strategy, the issue continues My name is Jane Smith.. I would greatly appreciate your support in addressing this and enhancing my social media engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        328,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        207,
+        224
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern About Low Engagement on Social Media Campaigns\n\nI am encountering low engagement on my social media campaigns, primarily due to inadequate targeting and outdated content You can reach me at [email].. Despite my efforts to adjust ad spend and refine my content strategy, the issue continues My name is [full_name].. I would greatly appreciate your support in addressing this and enhancing my social media engagement.",
+  "category_of_the_email": "Problem"
+}

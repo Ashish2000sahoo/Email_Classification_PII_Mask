@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Anfrage zur Einrichtungshilfe\n\nSehr geehrter Kundenservice, \n\nich ben\u00f6tige Hilfe bei der Einrichtung meines k\u00fcrzlich gekauften Cisco Routers ISR4331 f\u00fcr sicheres, h\u00e4ufiges Verbindungsmonitoring You can reach me at sophia.rossi@service.it.. Bitte leiten Sie mich durch den Prozess My name is Fatima Al-Farsi.. \n\nVielen Dank, \n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        223,
+        246
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        153,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Einrichtungshilfe\n\nSehr geehrter Kundenservice, \n\nich ben\u00f6tige Hilfe bei der Einrichtung meines k\u00fcrzlich gekauften Cisco Routers ISR[phone_number] f\u00fcr sicheres, h\u00e4ufiges Verbindungsmonitoring You can reach me at [email].. Bitte leiten Sie mich durch den Prozess My name is [full_name]-Farsi.. \n\nVielen Dank, \n<name>",
+  "category_of_the_email": "Request"
+}

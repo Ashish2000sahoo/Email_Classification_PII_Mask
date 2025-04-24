@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage \u00fcber vermeintliche Datenschutzverletzung\n\nEs wurde von m\u00f6glicher unbefugten Zugriff auf medizinischen Akten berichtet. Dies scheint auf veraltete Sicherheitsprotokolle zur\u00fcckzuf\u00fchren sein My name is Sophia Rossi.. Nachdem Passw\u00f6rter aktualisiert wurden, wurden Antivirus-Skripte auf betroffenen Ger\u00e4ten durchgef\u00fchrt. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        228
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        353,
+        371
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Anfrage \u00fcber vermeintliche Datenschutzverletzung\n\nEs wurde von m\u00f6glicher unbefugten Zugriff auf medizinischen Akten berichtet. Dies scheint auf veraltete Sicherheitsprotokolle zur\u00fcckzuf\u00fchren sein My name is [full_name].. Nachdem Passw\u00f6rter aktualisiert wurden, wurden Antivirus-Skripte auf betroffenen Ger\u00e4ten durchgef\u00fchrt. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

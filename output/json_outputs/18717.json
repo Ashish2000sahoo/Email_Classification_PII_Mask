@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Incident Involving Marketing Agency's Digital Strategy\n\nHello customer support, I am contacting you to report an issue with our marketing agency's digital strategy. Our campaign automation encountered a problem that we suspect is due to an integration error My name is Omar Hassan.. Despite attempting to restart ActiveCampaign, the issue remains unresolved. We kindly request an investigation into this matter and a swift resolution, as the failure of our campaign automation has significantly impacted our marketing activities. We would appreciate a detailed report on the cause of the issue and recommended steps to prevent similar incidents in the future You can reach me at fatima.farsi@help.com.. We value your prompt attention to this matter and are eager to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        288,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        698,
+        719
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Incident Involving Marketing Agency's Digital Strategy\n\nHello customer support, I am contacting you to report an issue with our marketing agency's digital strategy. Our campaign automation encountered a problem that we suspect is due to an integration error My name is [full_name].. Despite attempting to restart ActiveCampaign, the issue remains unresolved. We kindly request an investigation into this matter and a swift resolution, as the failure of our campaign automation has significantly impacted our marketing activities. We would appreciate a detailed report on the cause of the issue and recommended steps to prevent similar incidents in the future You can reach me at [email].. We value your prompt attention to this matter and are eager to hear from you soon.",
+  "category_of_the_email": "Incident"
+}

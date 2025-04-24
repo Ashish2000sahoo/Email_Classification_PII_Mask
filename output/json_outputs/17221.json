@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem with Investment Forecast Precision Today\n\nI am contacting you to bring to your attention the precision issues with investment forecasts You can reach me at janesmith@company.com.. This problem may be indicative of a data integration issue My name is Sophia Rossi.. Despite restarting Dynamics 365 and verifying Avast security settings, the problem continues. I would be grateful for your assistance in addressing this. Kindly inform me of the necessary steps to proceed. I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        279
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        173,
+        194
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        295,
+        298
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Forecast Precision Today\n\nI am contacting you to bring to your attention the precision issues with investment forecasts You can reach me at [email].. This problem may be indicative of a data integration issue My name is [full_name].. Despite restarting Dynamics [cvv_no] and verifying Avast security settings, the problem continues. I would be grateful for your assistance in addressing this. Kindly inform me of the necessary steps to proceed. I look forward to your prompt response.",
+  "category_of_the_email": "Problem"
+}

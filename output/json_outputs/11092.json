@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Investment-Dashborad - Fehlerbehandlung\n\nBeim Verarbeiten der Daten im Investment-Analytik-Dashborad trat w\u00e4hrend der Visualisierung ein Crash aufgrund von Mangel an Ressourcen des Cassandra 4.0-Datenbanksystems auf My name is Liu Wei.. Nach Neustart des Servers und \u00dcberpr\u00fcfung der SQL-Verbindungen blieb der Fehler bestehen You can reach me at david.kim@corp.kr.. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem zu l\u00f6sen und sicherzustellen, dass das Dashborad funktioniert.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        260
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        376,
+        393
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Investment-Dashborad - Fehlerbehandlung\n\nBeim Verarbeiten der Daten im Investment-Analytik-Dashborad trat w\u00e4hrend der Visualisierung ein Crash aufgrund von Mangel an Ressourcen des Cassandra 4.0-Datenbanksystems auf My name is [full_name].. Nach Neustart des Servers und \u00dcberpr\u00fcfung der SQL-Verbindungen blieb der Fehler bestehen You can reach me at [email].. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem zu l\u00f6sen und sicherzustellen, dass das Dashborad funktioniert.",
+  "category_of_the_email": "Incident"
+}

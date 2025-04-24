@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Severe Performance Challenges with SaaS Application\n\nThe SaaS application is currently facing severe performance challenges, leading to slow response times. This might have resulted from an increase in user load and the connected devices via the NAS system. Steps were taken to optimize server settings and enhance bandwidth, but the performance issues continue to persist You can reach me at janesmith@company.com.. Despite these efforts, the platform's performance remains unsatisfactory, causing concern about its impact on users. I would greatly appreciate it if you could look into this matter urgently and provide a solution to resolve the performance issues. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        686,
+        700
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        402,
+        423
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Severe Performance Challenges with SaaS Application\n\nThe SaaS application is currently facing severe performance challenges, leading to slow response times. This might have resulted from an increase in user load and the connected devices via the NAS system. Steps were taken to optimize server settings and enhance bandwidth, but the performance issues continue to persist You can reach me at [email].. Despite these efforts, the platform's performance remains unsatisfactory, causing concern about its impact on users. I would greatly appreciate it if you could look into this matter urgently and provide a solution to resolve the performance issues. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

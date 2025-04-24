@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Inquiry About Payment Options for Switch and MATLAB R2021a\n\nHello Customer Support, I am writing to seek information regarding the payment methods for Switch and MATLAB R2021a subscriptions. I am keen on purchasing a subscription and would like to know which payment options are available. It would be greatly appreciated if you could provide me with a list of accepted methods. Additionally, please inform me about any current promotions or discounts My name is Liu Wei.. Furthermore, I would like to understand if there are any differences in the payment options for individual and business subscriptions. I am eager to hear from you and learn more about these payment options. Thank you for your assistance and I look forward to your response. I am enthusiastic about the potential benefits of using these products in my work You can reach me at maria.gonzalez@shop.es.. Please let me know if you require any additional information from me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        472,
+        479
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        862,
+        884
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        62,
+        66
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        179,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Payment Options for Switch and MATLAB R[phone_number]a\n\nHello Customer Support, I am writing to seek information regarding the payment methods for Switch and MATLAB R[phone_number]a subscriptions. I am keen on purchasing a subscription and would like to know which payment options are available. It would be greatly appreciated if you could provide me with a list of accepted methods. Additionally, please inform me about any current promotions or discounts My name is [full_name].. Furthermore, I would like to understand if there are any differences in the payment options for individual and business subscriptions. I am eager to hear from you and learn more about these payment options. Thank you for your assistance and I look forward to your response. I am enthusiastic about the potential benefits of using these products in my work You can reach me at [email].. Please let me know if you require any additional information from me.",
+  "category_of_the_email": "Request"
+}

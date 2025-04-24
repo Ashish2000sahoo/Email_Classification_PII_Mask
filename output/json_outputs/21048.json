@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEstimado equipo de soporte al cliente,\n\nMe estoy comunicando urgentemente para abordar un problema cr\u00edtico relacionado con nuestra infraestructura de AWS gestionada bajo su Servicio de Gesti\u00f3n de AWS. Hemos encontrado una interrupci\u00f3n significativa que est\u00e1 afectando a m\u00faltiples clientes, exigiendo acciones inmediatas de recuperaci\u00f3n y un an\u00e1lisis exhaustivo para prevenir cualquier recurrencia. Esta situaci\u00f3n ha afectado gravemente las operaciones comerciales, lo que ha llevado a p\u00e9rdidas de ingresos potenciales y la insatisfacci\u00f3n de los clientes, que necesita ser abordada con la mayor prioridad.\n\nEstamos buscando su experiencia e intervenci\u00f3n inmediata para restablecer nuestros servicios de AWS r\u00e1pidamente. Tambi\u00e9n se requiere un an\u00e1lisis detallado de la causa ra\u00edz para comprender el problema subyacente que caus\u00f3 esta interrupci\u00f3n. Nuestros clientes dependen en gran medida de la disponibilidad continua del servicio, y ante tal tiempo de inactividad, debemos asegurarles soluciones fiables y medidas preventivas.\n\nPor favor, priorice este problema y proporcione actualizaciones regulares sobre su progreso My name is Jane Smith.. Comun\u00edquese con nuestro l\u00edder t\u00e9cnico, <name>, al <tel_num> o por correo electr\u00f3nico seg\u00fan sea necesario. Contamos con su apoyo para mitigar esta interrupci\u00f3n de manera r\u00e1pida y apreciamos su atenci\u00f3n inmediata a este asunto.\n\nGracias por su cooperaci\u00f3n y comprensi\u00f3n.\n\nAtentamente,\n\n<name>\n<position>\n<company>\n<tel_num> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1143,
+        1153
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1499,
+        1521
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nEstimado equipo de soporte al cliente,\n\nMe estoy comunicando urgentemente para abordar un problema cr\u00edtico relacionado con nuestra infraestructura de AWS gestionada bajo su Servicio de Gesti\u00f3n de AWS. Hemos encontrado una interrupci\u00f3n significativa que est\u00e1 afectando a m\u00faltiples clientes, exigiendo acciones inmediatas de recuperaci\u00f3n y un an\u00e1lisis exhaustivo para prevenir cualquier recurrencia. Esta situaci\u00f3n ha afectado gravemente las operaciones comerciales, lo que ha llevado a p\u00e9rdidas de ingresos potenciales y la insatisfacci\u00f3n de los clientes, que necesita ser abordada con la mayor prioridad.\n\nEstamos buscando su experiencia e intervenci\u00f3n inmediata para restablecer nuestros servicios de AWS r\u00e1pidamente. Tambi\u00e9n se requiere un an\u00e1lisis detallado de la causa ra\u00edz para comprender el problema subyacente que caus\u00f3 esta interrupci\u00f3n. Nuestros clientes dependen en gran medida de la disponibilidad continua del servicio, y ante tal tiempo de inactividad, debemos asegurarles soluciones fiables y medidas preventivas.\n\nPor favor, priorice este problema y proporcione actualizaciones regulares sobre su progreso My name is [full_name].. Comun\u00edquese con nuestro l\u00edder t\u00e9cnico, <name>, al <tel_num> o por correo electr\u00f3nico seg\u00fan sea necesario. Contamos con su apoyo para mitigar esta interrupci\u00f3n de manera r\u00e1pida y apreciamos su atenci\u00f3n inmediata a este asunto.\n\nGracias por su cooperaci\u00f3n y comprensi\u00f3n.\n\nAtentamente,\n\n<name>\n<position>\n<company>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

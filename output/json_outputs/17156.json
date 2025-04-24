@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am reaching out to inquire about enhancing our digital marketing strategies to better improve brand growth and customer engagement You can reach me at liuwei@business.cn.. Our current strategies are yielding the desired results, but we are seeking a more effective approach to reach our target audience My name is Maria Gonzalez.. We would greatly appreciate it if you could provide us with a comprehensive plan to boost our online presence and engagement. This plan could include social media marketing, email marketing, and search engine optimization. We look forward to hearing from you soon. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        350,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        187,
+        205
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am reaching out to inquire about enhancing our digital marketing strategies to better improve brand growth and customer engagement You can reach me at [email].. Our current strategies are yielding the desired results, but we are seeking a more effective approach to reach our target audience My name is [full_name].. We would greatly appreciate it if you could provide us with a comprehensive plan to boost our online presence and engagement. This plan could include social media marketing, email marketing, and search engine optimization. We look forward to hearing from you soon. Thank you.",
+  "category_of_the_email": "Request"
+}

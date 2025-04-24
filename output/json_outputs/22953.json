@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlerhaftes LG OLED C1 Display-Problem\n\nSehr geehrter Kundenservice, ich erlebe intermittierenden Bildverlust mit meinem k\u00fcrzlich gekauften LG OLED C1 Display. Dieses Problem tritt konsistent auf und verursacht erhebliches Unbehagen. Bitte beraten Sie mich zu einer L\u00f6sung oder einem m\u00f6glichen Ersatz. Ich freue mich auf Ihre umgehende Antwort zur L\u00f6sung dieses Problems You can reach me at fatima.farsi@help.com.. Vielen Dank My name is David Kim.. Mit freundlichen Gr\u00fc\u00dfen, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        448,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        401,
+        422
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Fehlerhaftes LG OLED C1 Display-Problem\n\nSehr geehrter Kundenservice, ich erlebe intermittierenden Bildverlust mit meinem k\u00fcrzlich gekauften LG OLED C1 Display. Dieses Problem tritt konsistent auf und verursacht erhebliches Unbehagen. Bitte beraten Sie mich zu einer L\u00f6sung oder einem m\u00f6glichen Ersatz. Ich freue mich auf Ihre umgehende Antwort zur L\u00f6sung dieses Problems You can reach me at [email].. Vielen Dank My name is [full_name].. Mit freundlichen Gr\u00fc\u00dfen, <name>.",
+  "category_of_the_email": "Incident"
+}

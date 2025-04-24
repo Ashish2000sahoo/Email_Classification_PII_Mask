@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Details on Adobe Creative Cloud Payment Plans\n\nI would like to get acquainted with the payment terms for the Adobe Creative Cloud subscription You can reach me at johndoe@email.com.. Specifically, I would appreciate detailed information on the available payment plans and any applicable discounts. Additionally, I am keen to know if there are any extra charges related to the service. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        172,
+        189
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Details on Adobe Creative Cloud Payment Plans\n\nI would like to get acquainted with the payment terms for the Adobe Creative Cloud subscription You can reach me at [email].. Specifically, I would appreciate detailed information on the available payment plans and any applicable discounts. Additionally, I am keen to know if there are any extra charges related to the service. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

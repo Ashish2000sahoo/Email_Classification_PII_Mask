@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\ndigitaler Marketingtool Zugang, Kampagnen-Ausf\u00fchrung, Wachstumsstrategien beeintr\u00e4chtigt.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        123,
+        140
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: \n\ndigitaler Marketingtool Zugang, Kampagnen-Ausf\u00fchrung, Wachstumsstrategien beeintr\u00e4chtigt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

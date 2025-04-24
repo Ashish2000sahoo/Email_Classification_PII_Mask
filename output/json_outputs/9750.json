@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Data Access Affecting Medical Information Security\n\nAn incident involving data access conflicts in securing medical data has been reported You can reach me at sophia.rossi@service.it.. Possible reasons may include discrepancies in software versions and changes in user permissions My name is Liu Wei.. Efforts to address the issue have involved reconfiguring access settings and updating software components. Assistance is required to identify the root cause and implement a solution to prevent future incidents.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        320
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        180,
+        203
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issues with Data Access Affecting Medical Information Security\n\nAn incident involving data access conflicts in securing medical data has been reported You can reach me at [email].. Possible reasons may include discrepancies in software versions and changes in user permissions My name is [full_name].. Efforts to address the issue have involved reconfiguring access settings and updating software components. Assistance is required to identify the root cause and implement a solution to prevent future incidents.",
+  "category_of_the_email": "Incident"
+}

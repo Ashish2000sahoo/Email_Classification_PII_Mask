@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Probleme bei der Netzwerkverbindung\n\nDer Benutzer hat Schwierigkeiten mit der Verbindung zuGrammarly, Dokumentverschiebung bei Adobe Creative Cloud You can reach me at janesmith@company.com.. Die Konfiguration des Aruba 2530 Switches k\u00f6nnte den Fehler verursacht haben. Der Benutzer hat das Ger\u00e4t neu gestartet und den Cache geleert, aber die Probleme blieben bestehen. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        390,
+        401
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        177,
+        198
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        215,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "2530"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Netzwerkverbindung\n\nDer Benutzer hat Schwierigkeiten mit der Verbindung zuGrammarly, Dokumentverschiebung bei Adobe Creative Cloud You can reach me at [email].. Die Konfiguration des Aruba [phone_number] Switches k\u00f6nnte den Fehler verursacht haben. Der Benutzer hat das Ger\u00e4t neu gestartet und den Cache geleert, aber die Probleme blieben bestehen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nVerz\u00f6gerungen w\u00e4hrend der Datenverarbeitung Scikit-learn auf Surface Pro, obwohl Optimierungen und eine Neuinstallation erfolgt sind.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        182
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nVerz\u00f6gerungen w\u00e4hrend der Datenverarbeitung Scikit-learn auf Surface Pro, obwohl Optimierungen und eine Neuinstallation erfolgt sind.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

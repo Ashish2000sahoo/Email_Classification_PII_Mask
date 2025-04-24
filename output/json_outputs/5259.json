@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer support, the data analytics tool is experiencing issues in efficiently processing investment data My name is Omar Hassan.. The problem might be due to software compatibility issues. After updating the associated software devices, the issue still persists. We are currently investigating the data source integrity to identify the root cause. There is concern about the potential impact on the business, and we would like assistance in resolving this matter as soon as possible You can reach me at johndoe@email.com.. Please let us know the next steps you plan to take.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        129,
+        140
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        516,
+        533
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer support, the data analytics tool is experiencing issues in efficiently processing investment data My name is [full_name].. The problem might be due to software compatibility issues. After updating the associated software devices, the issue still persists. We are currently investigating the data source integrity to identify the root cause. There is concern about the potential impact on the business, and we would like assistance in resolving this matter as soon as possible You can reach me at [email].. Please let us know the next steps you plan to take.",
+  "category_of_the_email": "Incident"
+}

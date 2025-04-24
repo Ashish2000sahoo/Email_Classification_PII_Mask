@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am seeking detailed insights and optimization strategies for my investments by utilizing data analytics on the mentioned products. Could you kindly provide me with information on how data analytics can aid in making informed investment decisions? It would be greatly appreciated if you could also include examples of successful investment optimization strategies that have been achieved through data analytics You can reach me at janesmith@company.com.. Furthermore, please inform me about the tools and software available to support this process My name is Omar Hassan.. I look forward to hearing back from you and learning more.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        594,
+        605
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        466,
+        487
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am seeking detailed insights and optimization strategies for my investments by utilizing data analytics on the mentioned products. Could you kindly provide me with information on how data analytics can aid in making informed investment decisions? It would be greatly appreciated if you could also include examples of successful investment optimization strategies that have been achieved through data analytics You can reach me at [email].. Furthermore, please inform me about the tools and software available to support this process My name is [full_name].. I look forward to hearing back from you and learning more.",
+  "category_of_the_email": "Request"
+}

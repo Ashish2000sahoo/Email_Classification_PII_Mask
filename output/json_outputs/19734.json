@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns about Software Compatibility Issues\n\nDear Support Team, a marketing agency is facing delays in campaign execution due to software compatibility problems with their devices. These issues might be caused by outdated software versions or insufficient integration You can reach me at liuwei@business.cn.. Despite updating devices and restarting applications, the problems continue to persist. We urgently need your assistance to resolve this matter as soon as possible to avoid further delays My name is Liu Wei.. Please provide us with the software versions used on the devices so we can better assist you. Additionally, we would like to schedule a call to discuss the next steps to resolve the issue. I am available to discuss at your convenience. Please let us know a suitable time so we can proceed with troubleshooting and resolving the compatibility problems experienced. Thank you for your prompt attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        518,
+        525
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        298,
+        316
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concerns about Software Compatibility Issues\n\nDear Support Team, a marketing agency is facing delays in campaign execution due to software compatibility problems with their devices. These issues might be caused by outdated software versions or insufficient integration You can reach me at [email].. Despite updating devices and restarting applications, the problems continue to persist. We urgently need your assistance to resolve this matter as soon as possible to avoid further delays My name is [full_name].. Please provide us with the software versions used on the devices so we can better assist you. Additionally, we would like to schedule a call to discuss the next steps to resolve the issue. I am available to discuss at your convenience. Please let us know a suitable time so we can proceed with troubleshooting and resolving the compatibility problems experienced. Thank you for your prompt attention to this matter.",
+  "category_of_the_email": "Incident"
+}

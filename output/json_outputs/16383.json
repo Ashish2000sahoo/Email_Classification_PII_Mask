@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Data Security\n\nNoted unauthorized access attempts on medical data systems, likely due to outdated firewall settings and increased phishing attacks. Security protocols have been updated, and employee training on recognizing phishing scams has been conducted to prevent future incidents.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        352
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Data Security\n\nNoted unauthorized access attempts on medical data systems, likely due to outdated firewall settings and increased phishing attacks. Security protocols have been updated, and employee training on recognizing phishing scams has been conducted to prevent future incidents.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

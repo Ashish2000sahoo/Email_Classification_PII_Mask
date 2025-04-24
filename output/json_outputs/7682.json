@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Notice of Data Leakage in Hospital Database\n\nThere is an indication of data leakage in the hospital's database, which might be a result of using outdated security updates. Actions taken include updating the firewall settings and conducting a malware scan.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        303
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Notice of Data Leakage in Hospital Database\n\nThere is an indication of data leakage in the hospital's database, which might be a result of using outdated security updates. Actions taken include updating the firewall settings and conducting a malware scan.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

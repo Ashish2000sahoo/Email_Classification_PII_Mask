@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Question Regarding Detachable Keyboard Choices\n\nDear Support Team at Tech Online Store,\n\nI am seeking options for compatible detachable keyboards for my Microsoft Surface Pro 7. Would you be able to provide information on available products, their prices, and any suggestions you might have? I appreciate your help in improving the capabilities of my device.\n\nSincerely,\n\n<name>\n<acc_num>. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        435
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Question Regarding Detachable Keyboard Choices\n\nDear Support Team at Tech Online Store,\n\nI am seeking options for compatible detachable keyboards for my Microsoft Surface Pro 7. Would you be able to provide information on available products, their prices, and any suggestions you might have? I appreciate your help in improving the capabilities of my device.\n\nSincerely,\n\n<name>\n<acc_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

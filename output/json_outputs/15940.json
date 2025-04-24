@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Campaign Data Synchronization\n\nI am facing difficulties with the synchronization of my campaign data You can reach me at johndoe@email.com.. The sync process has failed, and I believe there might be an issue with the API connection. I attempted to restart the server and double-check my credentials, but the problem still exists. Can you please help resolve this issue? My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        414
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        143,
+        160
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Campaign Data Synchronization\n\nI am facing difficulties with the synchronization of my campaign data You can reach me at [email].. The sync process has failed, and I believe there might be an issue with the API connection. I attempted to restart the server and double-check my credentials, but the problem still exists. Can you please help resolve this issue? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

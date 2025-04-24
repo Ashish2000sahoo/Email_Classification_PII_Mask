@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Amend Return Policies\n\nCustomer Support, requesting an update to the return policies for the affected products in our SaaS project management framework You can reach me at johndoe@email.com.. The current policies are causing inconvenience to our customers, and we believe enhancing their flexibility will lead to increased customer satisfaction. After receiving feedback from our clients, it is clear that there is a need to evaluate the products and decide whether to keep the return option My name is John Doe.. Extending the return window would provide customers with the flexibility they need, ultimately leading to increased trust and loyalty.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        512,
+        520
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        181,
+        198
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Amend Return Policies\n\nCustomer Support, requesting an update to the return policies for the affected products in our SaaS project management framework You can reach me at [email].. The current policies are causing inconvenience to our customers, and we believe enhancing their flexibility will lead to increased customer satisfaction. After receiving feedback from our clients, it is clear that there is a need to evaluate the products and decide whether to keep the return option My name is [full_name].. Extending the return window would provide customers with the flexibility they need, ultimately leading to increased trust and loyalty.",
+  "category_of_the_email": "Change"
+}

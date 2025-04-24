@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Details on Medical Data Security Services\n\nCould you provide more information on the services you offer for securing medical data in hospital solutions? This should include details on compliance measures and protection protocols. Additionally, I would appreciate knowing about your experience working with hospitals and healthcare providers My name is Carlos Mendoza.. I look forward to hearing back from you. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        361,
+        375
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        436,
+        453
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Details on Medical Data Security Services\n\nCould you provide more information on the services you offer for securing medical data in hospital solutions? This should include details on compliance measures and protection protocols. Additionally, I would appreciate knowing about your experience working with hospitals and healthcare providers My name is [full_name].. I look forward to hearing back from you. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

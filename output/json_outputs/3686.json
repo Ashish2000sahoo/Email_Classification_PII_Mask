@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Cyber Security Measures\n\nTo Customer Support: Please address the immediate need to fortify our cybersecurity to protect our patients' sensitive information and hospital IT systems My name is Jane Smith.. Recent cyber threats have shown the importance of taking proactive steps. We request swift action to enhance our security, involving robust firewalls and data encryption, and regular audits. A prompt update on these measures would be greatly appreciated. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        217
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        496,
+        521
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent Cyber Security Measures\n\nTo Customer Support: Please address the immediate need to fortify our cybersecurity to protect our patients' sensitive information and hospital IT systems My name is [full_name].. Recent cyber threats have shown the importance of taking proactive steps. We request swift action to enhance our security, involving robust firewalls and data encryption, and regular audits. A prompt update on these measures would be greatly appreciated. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

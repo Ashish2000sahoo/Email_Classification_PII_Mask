@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Campaign Performance\n\nOur digital campaigns across various platforms are underperforming. The latest software updates are causing integration issues. After analyzing campaign data and adjusting objectives, we attempted to resolve synchronization issues between software applications My name is Sophia Rossi.. However, the problems persist, and we require additional support to resolve the issue and improve campaign performance. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        471,
+        489
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problems with Campaign Performance\n\nOur digital campaigns across various platforms are underperforming. The latest software updates are causing integration issues. After analyzing campaign data and adjusting objectives, we attempted to resolve synchronization issues between software applications My name is [full_name].. However, the problems persist, and we require additional support to resolve the issue and improve campaign performance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

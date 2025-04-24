@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der FL Studio-Integration und API-Kompatibilit\u00e4t\n\nLieber Kundenservice, ich melde einen Fehler bei der Integration von FL Studio in unser SaaS-Projektmanagement-Tool. Es scheint, dass das Problem auf API-Kompatibilit\u00e4tsfehler zur\u00fcckzuf\u00fchren ist You can reach me at johndoe@email.com.. Trotz Neustarts von FL Studio und Aktualisierungen der Integrationseinstellungen besteht der Fehler weiterhin My name is Jane Smith.. Ich habe bereits Schritt-f\u00fcr-Schritt-L\u00f6sungsans\u00e4tze versucht, aber leider ohne Erfolg. K\u00f6nnten Sie bitte hilfreiche Anleitungen zur Behebung des Problems geben oder alternative L\u00f6sungen zur Integration von FL Studio in unser Projektmanagement-Tool vorschlagen? Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        438
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        287,
+        304
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der FL Studio-Integration und API-Kompatibilit\u00e4t\n\nLieber Kundenservice, ich melde einen Fehler bei der Integration von FL Studio in unser SaaS-Projektmanagement-Tool. Es scheint, dass das Problem auf API-Kompatibilit\u00e4tsfehler zur\u00fcckzuf\u00fchren ist You can reach me at [email].. Trotz Neustarts von FL Studio und Aktualisierungen der Integrationseinstellungen besteht der Fehler weiterhin My name is [full_name].. Ich habe bereits Schritt-f\u00fcr-Schritt-L\u00f6sungsans\u00e4tze versucht, aber leider ohne Erfolg. K\u00f6nnten Sie bitte hilfreiche Anleitungen zur Behebung des Problems geben oder alternative L\u00f6sungen zur Integration von FL Studio in unser Projektmanagement-Tool vorschlagen? Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen.",
+  "category_of_the_email": "Incident"
+}

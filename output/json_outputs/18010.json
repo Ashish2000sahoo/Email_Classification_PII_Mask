@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Urgent Billing Discrepancy Resolution\n\nEncountering unexpected billing discrepancies that are affecting the payment processing for multiple products. This issue might be due to recent software updates or integration problems You can reach me at maria.gonzalez@shop.es.. I have already attempted to reconcile the accounts and contacted support, but the issue remains unresolved My name is Omar Hassan.. I would greatly appreciate it if you could look into this matter urgently and provide a solution to resolve the discrepancies. Please let me know if you require any additional information to facilitate the investigation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        409,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        266,
+        288
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Urgent Billing Discrepancy Resolution\n\nEncountering unexpected billing discrepancies that are affecting the payment processing for multiple products. This issue might be due to recent software updates or integration problems You can reach me at [email].. I have already attempted to reconcile the accounts and contacted support, but the issue remains unresolved My name is [full_name].. I would greatly appreciate it if you could look into this matter urgently and provide a solution to resolve the discrepancies. Please let me know if you require any additional information to facilitate the investigation.",
+  "category_of_the_email": "Incident"
+}

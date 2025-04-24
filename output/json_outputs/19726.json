@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nWe are facing challenges with brand visibility and need assistance to improve our marketing strategies You can reach me at sophia.rossi@service.it.. Despite efforts like A/B testing and adjusting ad spend, engagement has not increased significantly. Please provide more details on our current strategies and goals to help us optimize content and boost engagement. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        386,
+        399
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        134,
+        157
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nWe are facing challenges with brand visibility and need assistance to improve our marketing strategies You can reach me at [email].. Despite efforts like A/B testing and adjusting ad spend, engagement has not increased significantly. Please provide more details on our current strategies and goals to help us optimize content and boost engagement. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

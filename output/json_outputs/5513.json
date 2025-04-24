@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Macbook Air\n\nIch habe w\u00e4hrend einer Pr\u00e4sentation einen Bildschirmausfall erlebt You can reach me at david.kim@corp.kr.. Es k\u00f6nnte sein, dass der RAID-Controller \u00fcberlastet ist. Ich habe mein Macbook Air bereits neu gestartet und die Anschl\u00fcsse \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestanden. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        122,
+        139
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Macbook Air\n\nIch habe w\u00e4hrend einer Pr\u00e4sentation einen Bildschirmausfall erlebt You can reach me at [email].. Es k\u00f6nnte sein, dass der RAID-Controller \u00fcberlastet ist. Ich habe mein Macbook Air bereits neu gestartet und die Anschl\u00fcsse \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestanden. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

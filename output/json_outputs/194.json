@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Informationen \u00fcber die Kostenstruktur f\u00fcr die Hemingway-Editor-Integration\n\nIch m\u00f6chte mich mit Ihnen \u00fcber die Preisstruktur f\u00fcr die Integration des Hemingway-Editors in Ihre Software-as-a-Service-L\u00f6sung befassen You can reach me at fatima.farsi@help.com.. K\u00f6nnten Sie mir bitte ausf\u00fchrliche Informationen zu den verschiedenen Tarifen und den zugeh\u00f6rigen Kosten liefern? Es w\u00e4re mir auch recht, wenn Sie mir informieren k\u00f6nnten, ob es Rabattm\u00f6glichkeiten f\u00fcr Vertr\u00e4ge mit langerlaufender Fracht oder gro\u00dfe Bestellungen gibt My name is David Kim.. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob es bei den Tarifen Einschr\u00e4nkungen oder Beschr\u00e4nkungen hinsichtlich des Anzahl der Benutzer oder der verf\u00fcgbaren Funktionalit\u00e4ten gibt. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        544,
+        553
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        242,
+        263
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Informationen \u00fcber die Kostenstruktur f\u00fcr die Hemingway-Editor-Integration\n\nIch m\u00f6chte mich mit Ihnen \u00fcber die Preisstruktur f\u00fcr die Integration des Hemingway-Editors in Ihre Software-as-a-Service-L\u00f6sung befassen You can reach me at [email].. K\u00f6nnten Sie mir bitte ausf\u00fchrliche Informationen zu den verschiedenen Tarifen und den zugeh\u00f6rigen Kosten liefern? Es w\u00e4re mir auch recht, wenn Sie mir informieren k\u00f6nnten, ob es Rabattm\u00f6glichkeiten f\u00fcr Vertr\u00e4ge mit langerlaufender Fracht oder gro\u00dfe Bestellungen gibt My name is [full_name].. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob es bei den Tarifen Einschr\u00e4nkungen oder Beschr\u00e4nkungen hinsichtlich des Anzahl der Benutzer oder der verf\u00fcgbaren Funktionalit\u00e4ten gibt. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

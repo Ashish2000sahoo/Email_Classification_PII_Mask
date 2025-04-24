@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Data Analytics Integration\n\nRequest for enhancement in data analytics integration across platforms You can reach me at maria.gonzalez@shop.es.. Current system limitations are impeding our ability to optimize investments and generate efficient reports. We believe that by improving the integration, we can make more informed decisions, which will increase productivity My name is Sophia Rossi.. Enhancing the system would allow for real-time data synchronization, automated reporting, and advanced analytics capabilities. This would enable our team to focus on high-level strategic decisions rather than manual data processing. We would appreciate your prompt attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        408,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        148,
+        170
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Data Analytics Integration\n\nRequest for enhancement in data analytics integration across platforms You can reach me at [email].. Current system limitations are impeding our ability to optimize investments and generate efficient reports. We believe that by improving the integration, we can make more informed decisions, which will increase productivity My name is [full_name].. Enhancing the system would allow for real-time data synchronization, automated reporting, and advanced analytics capabilities. This would enable our team to focus on high-level strategic decisions rather than manual data processing. We would appreciate your prompt attention to this matter.",
+  "category_of_the_email": "Change"
+}

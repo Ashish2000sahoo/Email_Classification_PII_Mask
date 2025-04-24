@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Project Management Tool Performance\n\nNoted that users have been encountering notable performance lags while utilizing the project management tool My name is David Kim.. This could be attributed to increased server load or the integration of third-party products. Attempts to optimize database queries and scale server resources have been made, yet the issue continues You can reach me at fatima.farsi@help.com.. Assistance is needed to identify the root cause and resolve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        411,
+        432
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Project Management Tool Performance\n\nNoted that users have been encountering notable performance lags while utilizing the project management tool My name is [full_name].. This could be attributed to increased server load or the integration of third-party products. Attempts to optimize database queries and scale server resources have been made, yet the issue continues You can reach me at [email].. Assistance is needed to identify the root cause and resolve the problem.",
+  "category_of_the_email": "Incident"
+}

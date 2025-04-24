@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unexpected failure of medical data encryption potentially due to software updates\n\nThere was an unexpected failure in medical data encryption, which could be due to incompatible software updates. We have already attempted system restarts, reviewed update logs, and confirmed the system configurations.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        333,
+        349
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Unexpected failure of medical data encryption potentially due to software updates\n\nThere was an unexpected failure in medical data encryption, which could be due to incompatible software updates. We have already attempted system restarts, reviewed update logs, and confirmed the system configurations.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

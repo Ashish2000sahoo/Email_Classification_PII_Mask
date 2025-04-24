@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Integration von ClickUp und Adobe Integration\n\nSehr geehrte Kundensupport, ich m\u00f6chte mich an Sie wenden, um Anleitungen f\u00fcr die Integration von ClickUp mit Adobe Photoshop CC 2021 zu erhalten. K\u00f6nnten Sie mir bitte Schritt-f\u00fcr-Schritt-Anleitungen oder Dokumentationen zur Verf\u00fcgung stellen? Meine Zielsetzung ist es, meine Arbeitsabl\u00e4ufe zu vereinfachen und meine Produktivit\u00e4t zu verbessern. Insbesondere interessiere ich mich f\u00fcr Informationen zum Import und Export von Dateien sowie zur Synchronisierung von Aufgaben und Projekten zwischen den beiden Systemen. Jede von Ihnen zur Verf\u00fcgung gestellte Anleitung oder Ressource w\u00fcrde ich sehr gesch\u00e4tzt haben My name is Elena Ivanova.. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        680,
+        693
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        765,
+        782
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        185,
+        189
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Integration von ClickUp und Adobe Integration\n\nSehr geehrte Kundensupport, ich m\u00f6chte mich an Sie wenden, um Anleitungen f\u00fcr die Integration von ClickUp mit Adobe Photoshop CC [phone_number] zu erhalten. K\u00f6nnten Sie mir bitte Schritt-f\u00fcr-Schritt-Anleitungen oder Dokumentationen zur Verf\u00fcgung stellen? Meine Zielsetzung ist es, meine Arbeitsabl\u00e4ufe zu vereinfachen und meine Produktivit\u00e4t zu verbessern. Insbesondere interessiere ich mich f\u00fcr Informationen zum Import und Export von Dateien sowie zur Synchronisierung von Aufgaben und Projekten zwischen den beiden Systemen. Jede von Ihnen zur Verf\u00fcgung gestellte Anleitung oder Ressource w\u00fcrde ich sehr gesch\u00e4tzt haben My name is [full_name].. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

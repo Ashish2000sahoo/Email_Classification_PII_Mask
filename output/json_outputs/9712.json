@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem encountered with the data analytics platform\n\nHello Customer Support, I am contacting you to address an issue I have experienced with the data analytics platform. It suddenly froze, and I suspect it could be due to a recent software update that is not compatible. After restarting the system and updating it, the issue still remains. Could you please look into this and provide a solution at your earliest convenience? I can provide any additional information you may need to resolve this issue. Your prompt attention is appreciated You can reach me at omar.hassan@secure.net.. Thanks, [Your Name] My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        626,
+        634
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        570,
+        592
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem encountered with the data analytics platform\n\nHello Customer Support, I am contacting you to address an issue I have experienced with the data analytics platform. It suddenly froze, and I suspect it could be due to a recent software update that is not compatible. After restarting the system and updating it, the issue still remains. Could you please look into this and provide a solution at your earliest convenience? I can provide any additional information you may need to resolve this issue. Your prompt attention is appreciated You can reach me at [email].. Thanks, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nTo the support team, I am contacting you to report an issue with the investment forecasts. These forecasts are inaccurate due to data inconsistencies, which might be a result of improper data integration or software errors You can reach me at liuwei@business.cn.. Despite my attempts to check the data sources and rerun the analysis, the problem still exists. I have also sought advice from specialists, but we have not been able to find a solution My name is Maria Gonzalez.. I would greatly appreciate it if you could investigate this issue and offer a resolution as soon as possible. Please inform me if you need further details from me to help resolve this. Thank you for your assistance and I am looking forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        471,
+        485
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        254,
+        272
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nTo the support team, I am contacting you to report an issue with the investment forecasts. These forecasts are inaccurate due to data inconsistencies, which might be a result of improper data integration or software errors You can reach me at [email].. Despite my attempts to check the data sources and rerun the analysis, the problem still exists. I have also sought advice from specialists, but we have not been able to find a solution My name is [full_name].. I would greatly appreciate it if you could investigate this issue and offer a resolution as soon as possible. Please inform me if you need further details from me to help resolve this. Thank you for your assistance and I am looking forward to your prompt response.",
+  "category_of_the_email": "Incident"
+}

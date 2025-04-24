@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Health Data Leaks Caused by Flawed Security Strategies\n\nRespected Customer Service Team, I am contacting you to address a critical problem of health data leaks that were due to poor security measures. The leaks occurred because our existing security practices were lacking, despite recent updates to our basic firewall settings, which were insufficient to protect against the breaches My name is Jane Smith.. We made efforts to update our firewall, but it appears that more sophisticated security measures are required. I would greatly appreciate your advice on implementing stronger encryption measures to prevent future breaches You can reach me at david.kim@corp.kr.. Could you please instruct us on what actions we need to take to enhance our security? Thank you for your support in resolving this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        415
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        661,
+        678
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Health Data Leaks Caused by Flawed Security Strategies\n\nRespected Customer Service Team, I am contacting you to address a critical problem of health data leaks that were due to poor security measures. The leaks occurred because our existing security practices were lacking, despite recent updates to our basic firewall settings, which were insufficient to protect against the breaches My name is [full_name].. We made efforts to update our firewall, but it appears that more sophisticated security measures are required. I would greatly appreciate your advice on implementing stronger encryption measures to prevent future breaches You can reach me at [email].. Could you please instruct us on what actions we need to take to enhance our security? Thank you for your support in resolving this issue.",
+  "category_of_the_email": "Incident"
+}

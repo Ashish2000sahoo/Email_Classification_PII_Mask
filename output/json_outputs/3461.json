@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bitten um technische Unterst\u00fctzung\n\nSehr geehrte Kundensupport, ich melde mir an, um ein Problem zu melden. W\u00e4hrend der Pr\u00e4sentation beobachtete ich einen Druck- Projektionsfehler, der auf eine veraltete Druckerkennung Software zur\u00fcckgef\u00fchrt werden k\u00f6nnte My name is Liu Wei.. Ich habe bereits versucht, das Problem zu beheben, indem ich das System neu gestartet und die Treiber aktualisiert habe, aber die Probleme bestehen leider weiter You can reach me at carlosm@gmail.com.. Ich sch\u00e4tze Ihre Unterst\u00fctzung und hoffe, dass Sie mir helfen k\u00f6nnen, das Problem zu l\u00f6sen. Bitte geben Sie mir weitere Anweisungen, sobald Sie weitere Informationen ben\u00f6tigen. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        283
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        472,
+        489
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Bitten um technische Unterst\u00fctzung\n\nSehr geehrte Kundensupport, ich melde mir an, um ein Problem zu melden. W\u00e4hrend der Pr\u00e4sentation beobachtete ich einen Druck- Projektionsfehler, der auf eine veraltete Druckerkennung Software zur\u00fcckgef\u00fchrt werden k\u00f6nnte My name is [full_name].. Ich habe bereits versucht, das Problem zu beheben, indem ich das System neu gestartet und die Treiber aktualisiert habe, aber die Probleme bestehen leider weiter You can reach me at [email].. Ich sch\u00e4tze Ihre Unterst\u00fctzung und hoffe, dass Sie mir helfen k\u00f6nnen, das Problem zu l\u00f6sen. Bitte geben Sie mir weitere Anweisungen, sobald Sie weitere Informationen ben\u00f6tigen. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

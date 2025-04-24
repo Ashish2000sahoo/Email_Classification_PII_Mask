@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frage \u00fcber Digital-Strategie-Er\u00f6rterung und Preisinformationen\n\nW\u00fcrden Sie uns bitte Ausk\u00fcnfte zur Beratung und den Preisen erteilen?. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        181
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Frage \u00fcber Digital-Strategie-Er\u00f6rterung und Preisinformationen\n\nW\u00fcrden Sie uns bitte Ausk\u00fcnfte zur Beratung und den Preisen erteilen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

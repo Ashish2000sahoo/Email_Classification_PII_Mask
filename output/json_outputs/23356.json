@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance requise : probl\u00e8me de configuration des e-mails\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve bien You can reach me at johndoe@email.com.. Je vous contacte au nom de notre client, <name>, qui rencontre actuellement un probl\u00e8me avec la configuration de son e-mail. Plus pr\u00e9cis\u00e9ment, il \u00e9prouve des difficult\u00e9s \u00e0 int\u00e9grer Outlook avec le serveur de son entreprise. Ce probl\u00e8me rel\u00e8ve du service de conseil en informatique que nous offrons, et il est crucial pour les op\u00e9rations de notre client que cela soit r\u00e9solu dans les plus brefs d\u00e9lais.\n\nLe client a exprim\u00e9 sa d\u00e9pendance \u00e0 un syst\u00e8me de messagerie fluide et fonctionnel pour maintenir une communication efficace avec son \u00e9quipe et ses clients My name is Jane Smith.. Ils ont tent\u00e9 de rectifier ce probl\u00e8me en interne, mais n'ont pas r\u00e9ussi, ce qui les pousse \u00e0 faire appel \u00e0 votre assistance experte. Nous comprenons les complexit\u00e9s li\u00e9es \u00e0 de telles configurations et appr\u00e9cions votre soutien pour r\u00e9soudre cette affaire rapidement. Veuillez contacter directement <name> au <tel_num> pour toute communication n\u00e9cessaire ou pour obtenir plus d'informations sur le compte, dont les d\u00e9tails sont disponibles sous <acc_num>.\n\nMerci de votre attention imm\u00e9diate et de votre assistance.\n\nCordialement,\n\n<name>\n<IT Consulting Firm Name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        752,
+        762
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        162,
+        179
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance requise : probl\u00e8me de configuration des e-mails\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve bien You can reach me at [email].. Je vous contacte au nom de notre client, <name>, qui rencontre actuellement un probl\u00e8me avec la configuration de son e-mail. Plus pr\u00e9cis\u00e9ment, il \u00e9prouve des difficult\u00e9s \u00e0 int\u00e9grer Outlook avec le serveur de son entreprise. Ce probl\u00e8me rel\u00e8ve du service de conseil en informatique que nous offrons, et il est crucial pour les op\u00e9rations de notre client que cela soit r\u00e9solu dans les plus brefs d\u00e9lais.\n\nLe client a exprim\u00e9 sa d\u00e9pendance \u00e0 un syst\u00e8me de messagerie fluide et fonctionnel pour maintenir une communication efficace avec son \u00e9quipe et ses clients My name is [full_name].. Ils ont tent\u00e9 de rectifier ce probl\u00e8me en interne, mais n'ont pas r\u00e9ussi, ce qui les pousse \u00e0 faire appel \u00e0 votre assistance experte. Nous comprenons les complexit\u00e9s li\u00e9es \u00e0 de telles configurations et appr\u00e9cions votre soutien pour r\u00e9soudre cette affaire rapidement. Veuillez contacter directement <name> au <tel_num> pour toute communication n\u00e9cessaire ou pour obtenir plus d'informations sur le compte, dont les d\u00e9tails sont disponibles sous <acc_num>.\n\nMerci de votre attention imm\u00e9diate et de votre assistance.\n\nCordialement,\n\n<name>\n<IT Consulting Firm Name>",
+  "category_of_the_email": "Problem"
+}

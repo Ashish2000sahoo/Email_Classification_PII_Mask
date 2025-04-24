@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nKundenservice, schreibe, Fehler beim Hochladen von Projektdateien melden My name is Carlos Mendoza.. Wobei Benutzer versucht haben, Dateien hochzuladen, erhalten sie eine Fehlermeldung, die besagt, dass das Dateiformat inkonsistent ist. Trotz versuchter L\u00f6sungsans\u00e4tze, einschlie\u00dflich Cache-L\u00f6schen, Software-aktualisieren und Testen verschiedener Browser, besteht das Problem weiterhin You can reach me at liuwei@business.cn.. Es wird vermutet, dass der fehlende Support f\u00fcr bestimmte Dateitypen mit Konfigurationsfehlern von PHP 8.0 zusammenh\u00e4ngt. Bitte eine Anleitung zur Behebung des Problems geben k\u00f6nnen, um die Fortschritte zu beschleunigen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        95,
+        109
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        415,
+        433
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nKundenservice, schreibe, Fehler beim Hochladen von Projektdateien melden My name is [full_name].. Wobei Benutzer versucht haben, Dateien hochzuladen, erhalten sie eine Fehlermeldung, die besagt, dass das Dateiformat inkonsistent ist. Trotz versuchter L\u00f6sungsans\u00e4tze, einschlie\u00dflich Cache-L\u00f6schen, Software-aktualisieren und Testen verschiedener Browser, besteht das Problem weiterhin You can reach me at [email].. Es wird vermutet, dass der fehlende Support f\u00fcr bestimmte Dateitypen mit Konfigurationsfehlern von PHP 8.0 zusammenh\u00e4ngt. Bitte eine Anleitung zur Behebung des Problems geben k\u00f6nnen, um die Fortschritte zu beschleunigen.",
+  "category_of_the_email": "Incident"
+}

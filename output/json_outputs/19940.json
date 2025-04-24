@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Integration Not Working\n\nThe tools are not being integrated. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        104,
+        119
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem with Integration Not Working\n\nThe tools are not being integrated. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

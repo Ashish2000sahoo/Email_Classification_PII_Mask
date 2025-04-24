@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Login Feature\n\nCustomers are experiencing sporadic login difficulties during peak times You can reach me at maria.gonzalez@shop.es.. This might be related to server load and connection timeouts My name is Maria Gonzalez.. Steps already taken include clearing the browser cache and trying different devices, but the issue remains unresolved.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        227,
+        241
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        130,
+        152
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Login Feature\n\nCustomers are experiencing sporadic login difficulties during peak times You can reach me at [email].. This might be related to server load and connection timeouts My name is [full_name].. Steps already taken include clearing the browser cache and trying different devices, but the issue remains unresolved.",
+  "category_of_the_email": "Incident"
+}

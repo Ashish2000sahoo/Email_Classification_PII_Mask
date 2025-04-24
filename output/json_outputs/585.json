@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am reaching out to request enhancements to the data analytics tools to improve investment optimization You can reach me at elena.ivanova@support.org.. The current tools are lacking and do not provide the necessary insights for making informed decisions. I would like to see advanced features integrated into the existing software to significantly improve the user experience and provide a competitive advantage. I look forward to hearing from you soon. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        159,
+        184
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am reaching out to request enhancements to the data analytics tools to improve investment optimization You can reach me at [email].. The current tools are lacking and do not provide the necessary insights for making informed decisions. I would like to see advanced features integrated into the existing software to significantly improve the user experience and provide a competitive advantage. I look forward to hearing from you soon. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

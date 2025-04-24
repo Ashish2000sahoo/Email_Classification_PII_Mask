@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe f\u00fcr Krankenhaus-IT-Problem\n\nEs gibt eine Dienstunterbrechung, die die IT-Operationen im Krankenhaus st\u00f6rt und die medizinische Datenverwaltung beeintr\u00e4chtigt. Es k\u00f6nnte zu potenziellen Netzwerkausf\u00e4llen und Sicherheitsverletzungen f\u00fchren You can reach me at liuwei@business.cn.. Versuche, die Ger\u00e4te neu zu resetten und zu starten, sind erfolglos gewesen. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        390
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        273,
+        291
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Hilfe f\u00fcr Krankenhaus-IT-Problem\n\nEs gibt eine Dienstunterbrechung, die die IT-Operationen im Krankenhaus st\u00f6rt und die medizinische Datenverwaltung beeintr\u00e4chtigt. Es k\u00f6nnte zu potenziellen Netzwerkausf\u00e4llen und Sicherheitsverletzungen f\u00fchren You can reach me at [email].. Versuche, die Ger\u00e4te neu zu resetten und zu starten, sind erfolglos gewesen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

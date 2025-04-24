@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Hinweis zu Investitionsprognosen\n\nDie Erstellung der Investitionsprognosen wurde durch Datenstrom-St\u00f6rungen beeintr\u00e4chtigt. Ich habe den SQL-Server neu gestartet, aber das Problem ist persistierend geblieben.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        240,
+        255
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Hinweis zu Investitionsprognosen\n\nDie Erstellung der Investitionsprognosen wurde durch Datenstrom-St\u00f6rungen beeintr\u00e4chtigt. Ich habe den SQL-Server neu gestartet, aber das Problem ist persistierend geblieben.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

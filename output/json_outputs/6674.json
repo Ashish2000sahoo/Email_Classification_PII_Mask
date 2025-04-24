@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance with Brand Expansion\n\nIs it possible to get details on digital strategies?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        117,
+        133
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Brand Expansion\n\nIs it possible to get details on digital strategies?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

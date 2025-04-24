@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am interested in learning about digital strategies for promoting SAP ERP and Shopify. Could you provide details on the methods used to integrate and promote these platforms? I would greatly appreciate any information on how a digital marketing approach can benefit a business My name is Jane Smith.. Thank you for your assistance, and I look forward to hearing back from you. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        324,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        434,
+        451
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am interested in learning about digital strategies for promoting SAP ERP and Shopify. Could you provide details on the methods used to integrate and promote these platforms? I would greatly appreciate any information on how a digital marketing approach can benefit a business My name is [full_name].. Thank you for your assistance, and I look forward to hearing back from you. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

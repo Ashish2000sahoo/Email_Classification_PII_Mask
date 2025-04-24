@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Medical Data Access System\n\nFacing difficulties with secure access to medical information My name is Fatima Al-Farsi.. The issue is related to hardware compatibility and software conflicts. The systems have been restarted, drivers have been updated, and a malware scan was conducted, but the problem persists. The team has tried various steps to resolve the issue, but it remains unresolved. We kindly request your assistance to resolve the problem soon and ensure the security and integrity of our medical data. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        121,
+        130
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        555,
+        576
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Medical Data Access System\n\nFacing difficulties with secure access to medical information My name is [full_name]-Farsi.. The issue is related to hardware compatibility and software conflicts. The systems have been restarted, drivers have been updated, and a malware scan was conducted, but the problem persists. The team has tried various steps to resolve the issue, but it remains unresolved. We kindly request your assistance to resolve the problem soon and ensure the security and integrity of our medical data. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

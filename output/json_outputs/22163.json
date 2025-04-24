@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Optimization of AWS Cloud Resources and Stability\n\nDear IT Services Customer Support,\n\nI am reaching out to report a significant increase in deployment costs and infrastructure instability within our AWS Management Service. We have noticed these issues over the past month and would appreciate assistance in optimizing our cloud resources to improve efficiency and stability. Please review our account <acc_num> and provide recommendations for resolving these concerns You can reach me at maria.gonzalez@shop.es.. You can contact me at <name> via email or call at <tel_num> if further information is required.\n\nThank you,\n\n<name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        662,
+        672
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        510,
+        532
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Optimization of AWS Cloud Resources and Stability\n\nDear IT Services Customer Support,\n\nI am reaching out to report a significant increase in deployment costs and infrastructure instability within our AWS Management Service. We have noticed these issues over the past month and would appreciate assistance in optimizing our cloud resources to improve efficiency and stability. Please review our account <acc_num> and provide recommendations for resolving these concerns You can reach me at [email].. You can contact me at <name> via email or call at <tel_num> if further information is required.\n\nThank you,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

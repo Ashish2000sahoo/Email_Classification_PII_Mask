@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required: MySQL 8.0.30 Database Crash Issue\n\nDear Customer Support Team,\n\nI am contacting you regarding a high-priority incident that has recently occurred with the MySQL 8.0.30 version, which unexpectedly crashed My name is Carlos Mendoza.. This issue has severely impacted our data access and server functionality, causing significant disruptions in our daily operations. As our IT service provider, your urgent intervention is crucial to resolve this matter promptly.\n\nOur business heavily relies on seamless database performance, and the downtime experienced is affecting our ability to meet client demands. The unexpected database crash is causing interruptions, especially with real-time data processing and retrieval. We suspect this might be due to unexpected software glitches, but further analysis is needed.\n\nPlease treat this as a top-priority request and provide us with guidance on immediate troubleshooting steps. Additionally, any insights you can offer into potential causes or a plan of action to avert such issues in the future would be immensely valuable.\n\nOur account number is <acc_num> and you can reach me directly at <tel_num> for any immediate updates You can reach me at fatima.farsi@help.com.. Thank you for addressing this critical issue promptly.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        266
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1222,
+        1243
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        43,
+        49
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        198,
+        204
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required: MySQL [phone_number] Database Crash Issue\n\nDear Customer Support Team,\n\nI am contacting you regarding a high-priority incident that has recently occurred with the MySQL [phone_number] version, which unexpectedly crashed My name is [full_name].. This issue has severely impacted our data access and server functionality, causing significant disruptions in our daily operations. As our IT service provider, your urgent intervention is crucial to resolve this matter promptly.\n\nOur business heavily relies on seamless database performance, and the downtime experienced is affecting our ability to meet client demands. The unexpected database crash is causing interruptions, especially with real-time data processing and retrieval. We suspect this might be due to unexpected software glitches, but further analysis is needed.\n\nPlease treat this as a top-priority request and provide us with guidance on immediate troubleshooting steps. Additionally, any insights you can offer into potential causes or a plan of action to avert such issues in the future would be immensely valuable.\n\nOur account number is <acc_num> and you can reach me directly at <tel_num> for any immediate updates You can reach me at [email].. Thank you for addressing this critical issue promptly.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Access Issue with Jira Software\n\nUser in HR unable to access Jira queue, impacting ticket handling. Please assist in resolving this issue with Jira Software 8.20 version.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        202,
+        218
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Access Issue with Jira Software\n\nUser in HR unable to access Jira queue, impacting ticket handling. Please assist in resolving this issue with Jira Software 8.20 version.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

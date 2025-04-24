@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Discrep\u00e2ncia de Faturamento no Google Workspace\n\nCaro Time de Suporte de TI,\n\nEstou escrevendo para relatar um valor de faturamento incorreto na minha assinatura do Google Workspace Business Standard sob a conta <acc_num> My name is Elena Ivanova.. Por favor, revise e ajuste a fatura You can reach me at sophia.rossi@service.it.. Aguardando sua pronta resposta.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        255
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        312,
+        335
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Discrep\u00e2ncia de Faturamento no Google Workspace\n\nCaro Time de Suporte de TI,\n\nEstou escrevendo para relatar um valor de faturamento incorreto na minha assinatura do Google Workspace Business Standard sob a conta <acc_num> My name is [full_name].. Por favor, revise e ajuste a fatura You can reach me at [email].. Aguardando sua pronta resposta.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Change"
+}

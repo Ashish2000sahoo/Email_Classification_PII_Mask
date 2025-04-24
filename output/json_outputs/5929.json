@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Datenservices\n\nSehr geehrte Kundenservice, ich schreibe im Zusammenhang mit den Sicherheitsma\u00dfnahmen You can reach me at david.kim@corp.kr.. Medizinische Daten werden in Klinikanlagen-IT-Dienstleistungen sowie bei verwandten Produkten eingesetzt. K\u00f6nnten Sie uns Details \u00fcber das verwendete Verschl\u00fcsselungsverfahren, Zugriffssteuerungen und Datenspeicherprotokolle geben? \u00dcber detaillierte Informationen zu den zugeh\u00f6rigen Compliance-Zertifikaten, z.B. HIPAA, freuen wir uns. Dar\u00fcber hinaus interessiert uns, wann Sicherheitspr\u00fcfungen und Durchbruchstests durchgef\u00fchrt wurden, um die Integrit\u00e4t unserer Systeme zu gew\u00e4hrleisten My name is Jane Smith.. Bitte geben Sie uns detaillierte Informationen, damit wir besser verstehen k\u00f6nnen, wie wir die Sicherheit medizinischer Daten gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        673,
+        683
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        154,
+        171
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Datenservices\n\nSehr geehrte Kundenservice, ich schreibe im Zusammenhang mit den Sicherheitsma\u00dfnahmen You can reach me at [email].. Medizinische Daten werden in Klinikanlagen-IT-Dienstleistungen sowie bei verwandten Produkten eingesetzt. K\u00f6nnten Sie uns Details \u00fcber das verwendete Verschl\u00fcsselungsverfahren, Zugriffssteuerungen und Datenspeicherprotokolle geben? \u00dcber detaillierte Informationen zu den zugeh\u00f6rigen Compliance-Zertifikaten, z.B. HIPAA, freuen wir uns. Dar\u00fcber hinaus interessiert uns, wann Sicherheitspr\u00fcfungen und Durchbruchstests durchgef\u00fchrt wurden, um die Integrit\u00e4t unserer Systeme zu gew\u00e4hrleisten My name is [full_name].. Bitte geben Sie uns detaillierte Informationen, damit wir besser verstehen k\u00f6nnen, wie wir die Sicherheit medizinischer Daten gew\u00e4hrleisten.",
+  "category_of_the_email": "Request"
+}

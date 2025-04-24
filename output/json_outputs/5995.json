@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber einen medizinischen Datensicherheitsversto\u00df auf dem Gaming-PC\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass ich einen medizinischen Datensicherheitsversto\u00df auf meinem Gaming-PC festgestellt habe You can reach me at carlosm@gmail.com.. M\u00f6glicherweise resultiert der Fehler aus einem schwachen Passwort und einer veralteten Linux Mint My name is Omar Hassan.. Ich habe den Google Nest Wifi Router neu gestartet und die Alteryx Logs gepr\u00fcft, aber das Problem ist weiterhin bestehen geblieben. Ich w\u00fcrde mich freuen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        393
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        253,
+        270
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber einen medizinischen Datensicherheitsversto\u00df auf dem Gaming-PC\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass ich einen medizinischen Datensicherheitsversto\u00df auf meinem Gaming-PC festgestellt habe You can reach me at [email].. M\u00f6glicherweise resultiert der Fehler aus einem schwachen Passwort und einer veralteten Linux Mint My name is [full_name].. Ich habe den Google Nest Wifi Router neu gestartet und die Alteryx Logs gepr\u00fcft, aber das Problem ist weiterhin bestehen geblieben. Ich w\u00fcrde mich freuen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "category_of_the_email": "Incident"
+}

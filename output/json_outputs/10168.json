@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Data Security Enhancements\n\nRequest for improvements in data security protocols for managing medical data across hospital systems and affected products You can reach me at sophia.rossi@service.it.. Current protocols might be sufficient to protect sensitive medical information, but it's essential to prioritize security and data integrity. I would appreciate it if you could review and implement necessary updates to ensure the highest level of security for medical data My name is Omar Hassan.. Maintaining patient trust and compliance with regulatory requirements is crucial.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        503,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        193,
+        216
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Security Enhancements\n\nRequest for improvements in data security protocols for managing medical data across hospital systems and affected products You can reach me at [email].. Current protocols might be sufficient to protect sensitive medical information, but it's essential to prioritize security and data integrity. I would appreciate it if you could review and implement necessary updates to ensure the highest level of security for medical data My name is [full_name].. Maintaining patient trust and compliance with regulatory requirements is crucial.",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe zur Integration von Elasticsearch\n\nIch schreibe, um Informationen \u00fcber die Integration von Elasticsearch in eine Projektmanagement-Software-as-a-Service-Anwendung zu erhalten. Ich w\u00e4re dankbar, wenn Sie den Prozess n\u00e4her erl\u00e4utern und jegliche Anleitungen oder Ressourcen anbieten k\u00f6nnten, um damit anzufangen. Vielen Dank f\u00fcr Ihre Hilfe My name is Maria Gonzalez.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        364,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        446,
+        467
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe zur Integration von Elasticsearch\n\nIch schreibe, um Informationen \u00fcber die Integration von Elasticsearch in eine Projektmanagement-Software-as-a-Service-Anwendung zu erhalten. Ich w\u00e4re dankbar, wenn Sie den Prozess n\u00e4her erl\u00e4utern und jegliche Anleitungen oder Ressourcen anbieten k\u00f6nnten, um damit anzufangen. Vielen Dank f\u00fcr Ihre Hilfe My name is [full_name].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

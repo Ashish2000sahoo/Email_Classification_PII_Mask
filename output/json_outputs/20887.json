@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent : Probl\u00e8me d'affichage sur Dell XPS 13 9310\n\nCher support client, je vous \u00e9cris pour signaler un probl\u00e8me de scintillement d'affichage avec mon Dell XPS 13 9310 achet\u00e9 dans votre magasin en ligne. Ce probl\u00e8me se produit fr\u00e9quemment, rendant difficile l'utilisation efficace de l'ordinateur portable. Comme le probl\u00e8me affecte consid\u00e9rablement la fonctionnalit\u00e9, je demande gentiment une \u00e9valuation physique imm\u00e9diate et, si n\u00e9cessaire, un remplacement de l'unit\u00e9 affect\u00e9e. Merci de me contacter d\u00e8s que possible pour organiser une solution My name is John Doe.. Merci de votre attention et de votre r\u00e9ponse rapide \u00e0 cette affaire. Cordialement, <name> <acc_num> <tel_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        567,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        711,
+        732
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        52,
+        59
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        169,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Probl\u00e8me d'affichage sur Dell XPS [phone_number]\n\nCher support client, je vous \u00e9cris pour signaler un probl\u00e8me de scintillement d'affichage avec mon Dell XPS [phone_number] achet\u00e9 dans votre magasin en ligne. Ce probl\u00e8me se produit fr\u00e9quemment, rendant difficile l'utilisation efficace de l'ordinateur portable. Comme le probl\u00e8me affecte consid\u00e9rablement la fonctionnalit\u00e9, je demande gentiment une \u00e9valuation physique imm\u00e9diate et, si n\u00e9cessaire, un remplacement de l'unit\u00e9 affect\u00e9e. Merci de me contacter d\u00e8s que possible pour organiser une solution My name is [full_name].. Merci de votre attention et de votre r\u00e9ponse rapide \u00e0 cette affaire. Cordialement, <name> <acc_num> <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

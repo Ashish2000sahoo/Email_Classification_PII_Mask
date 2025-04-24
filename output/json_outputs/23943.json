@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS-Cloud-Bereitstellungsprobleme und -l\u00f6sungen\n\nHallo, ich erlebe verz\u00f6gerte Antwortzeiten in meiner AWS-Cloud-Bereitstellung, die Ihren AWS-Management-Service verwendet. K\u00f6nnten Sie bitte bei der optimalen Konfiguration und Kostenoptimierung helfen, um diese Probleme zu l\u00f6sen? Ihre schnelle Hilfe wird sehr gesch\u00e4tzt You can reach me at maria.gonzalez@shop.es.. Vielen Dank. Beste Gr\u00fc\u00dfe, <name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        418,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        349,
+        371
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: AWS-Cloud-Bereitstellungsprobleme und -l\u00f6sungen\n\nHallo, ich erlebe verz\u00f6gerte Antwortzeiten in meiner AWS-Cloud-Bereitstellung, die Ihren AWS-Management-Service verwendet. K\u00f6nnten Sie bitte bei der optimalen Konfiguration und Kostenoptimierung helfen, um diese Probleme zu l\u00f6sen? Ihre schnelle Hilfe wird sehr gesch\u00e4tzt You can reach me at [email].. Vielen Dank. Beste Gr\u00fc\u00dfe, <name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

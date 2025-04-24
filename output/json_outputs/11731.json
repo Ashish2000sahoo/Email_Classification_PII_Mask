@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Encryption Incident Report\n\nData encryption has failed, leading to the exposure of patient records due to an outdated Node.js version. Despite restarting the servers and updating Microsoft Office, the issue still remains.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        273
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data Encryption Incident Report\n\nData encryption has failed, leading to the exposure of patient records due to an outdated Node.js version. Despite restarting the servers and updating Microsoft Office, the issue still remains.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

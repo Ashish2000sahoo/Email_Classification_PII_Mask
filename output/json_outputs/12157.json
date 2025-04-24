@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Airtable Security\n\nHello Customer Support, I am reaching out to inquire about the implementation of enhanced encryption for Airtable to secure sensitive medical data and hospital IT systems. As you are likely aware, the security of medical data is of the utmost importance, and any breaches could have serious ramifications My name is Jane Smith.. Could you provide me with details on the current encryption methods utilized by Airtable and any supplementary steps that can be taken to ensure data security? Specifically, I am interested in knowing if we can implement end-to-end encryption for all data stored in Airtable, along with any additional security protocols that can be put in place to prevent unauthorized access. This is a critical step in safeguarding the security and integrity of sensitive medical data You can reach me at johndoe@email.com.. I look forward to your response with more information on this matter. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        344,
+        354
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        849,
+        866
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Airtable Security\n\nHello Customer Support, I am reaching out to inquire about the implementation of enhanced encryption for Airtable to secure sensitive medical data and hospital IT systems. As you are likely aware, the security of medical data is of the utmost importance, and any breaches could have serious ramifications My name is [full_name].. Could you provide me with details on the current encryption methods utilized by Airtable and any supplementary steps that can be taken to ensure data security? Specifically, I am interested in knowing if we can implement end-to-end encryption for all data stored in Airtable, along with any additional security protocols that can be put in place to prevent unauthorized access. This is a critical step in safeguarding the security and integrity of sensitive medical data You can reach me at [email].. I look forward to your response with more information on this matter. Thank you for your time and assistance.",
+  "category_of_the_email": "Request"
+}

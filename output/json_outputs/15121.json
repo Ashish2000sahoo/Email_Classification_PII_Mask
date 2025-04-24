@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verletzung der Datenvertraulichkeit in unserem KI-System des Krankenhauses\n\nEs wurde festgestellt, dass es eine Verletzung der Datenvertraulichkeit in unserem Krankenhauses und im KI-System gibt, was sensibles medizinisches Daten preiszugeben riskiert My name is Maria Gonzalez.. Die veraltete Software ist der Phishing-Angriff zur\u00fcckzuf\u00fchren You can reach me at carlosm@gmail.com.. Sofortige Systempr\u00fcfungen wurden durchgef\u00fchrt, und Sicherheitsprotokolle wurden aktualisiert, um weitere Verletzungen zu verhindern und die Ursache der Sache zu untersuchen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        286
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        369,
+        386
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Verletzung der Datenvertraulichkeit in unserem KI-System des Krankenhauses\n\nEs wurde festgestellt, dass es eine Verletzung der Datenvertraulichkeit in unserem Krankenhauses und im KI-System gibt, was sensibles medizinisches Daten preiszugeben riskiert My name is [full_name].. Die veraltete Software ist der Phishing-Angriff zur\u00fcckzuf\u00fchren You can reach me at [email].. Sofortige Systempr\u00fcfungen wurden durchgef\u00fchrt, und Sicherheitsprotokolle wurden aktualisiert, um weitere Verletzungen zu verhindern und die Ursache der Sache zu untersuchen.",
+  "category_of_the_email": "Incident"
+}

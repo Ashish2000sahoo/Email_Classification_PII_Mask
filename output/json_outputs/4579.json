@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Technical Support for Connection Issues\n\nExperiencing connection problems, impacting productivity. Resolved by restarting and updating the FIRMWARE.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        195
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Technical Support for Connection Issues\n\nExperiencing connection problems, impacting productivity. Resolved by restarting and updating the FIRMWARE.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

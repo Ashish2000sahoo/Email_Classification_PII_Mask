@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Serious Malfunction in Data Analytics Tool Noted\n\nCustomer Support, reporting critical malfunction in one of the data analytics tools, which has disrupted the investment optimization processes. Possible causes of the issue may include software incompatibility or recent updates You can reach me at elena.ivanova@support.org.. Attempts to restart the applications or reinstall updates have been unsuccessful My name is Liu Wei.. We would greatly appreciate your assistance in resolving this issue as soon as possible. Please let us know if you require any additional information to facilitate the troubleshooting process. Thank you for your attention.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        427,
+        434
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        307,
+        332
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Serious Malfunction in Data Analytics Tool Noted\n\nCustomer Support, reporting critical malfunction in one of the data analytics tools, which has disrupted the investment optimization processes. Possible causes of the issue may include software incompatibility or recent updates You can reach me at [email].. Attempts to restart the applications or reinstall updates have been unsuccessful My name is [full_name].. We would greatly appreciate your assistance in resolving this issue as soon as possible. Please let us know if you require any additional information to facilitate the troubleshooting process. Thank you for your attention.",
+  "category_of_the_email": "Incident"
+}

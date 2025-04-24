@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nGesegnete Kundenservice-Abteilung, ich bitte um Rat zur Sicherung medizinischer Daten. Ich verwende Smart-T\u00fcrklingel und McAfee Total Protection My name is David Kim.. K\u00f6nnten Sie detaillierte Schritte zur Sicherstellung des Schutzes medizinischer Daten bereitstellen? Es w\u00fcrde mich freuen, empfehlenswerte Praktiken zu erfahren You can reach me at maria.gonzalez@shop.es.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf eine baldige R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        362,
+        384
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nGesegnete Kundenservice-Abteilung, ich bitte um Rat zur Sicherung medizinischer Daten. Ich verwende Smart-T\u00fcrklingel und McAfee Total Protection My name is [full_name].. K\u00f6nnten Sie detaillierte Schritte zur Sicherstellung des Schutzes medizinischer Daten bereitstellen? Es w\u00fcrde mich freuen, empfehlenswerte Praktiken zu erfahren You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf eine baldige R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Actualizaci\u00f3n urgente necesaria para la optimizaci\u00f3n de AWS\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEstoy escribiendo para solicitar un cambio de alta prioridad en nuestra infraestructura de AWS, ya que hemos estado experimentando interrupciones en el servicio que afectan el rendimiento de la aplicaci\u00f3n. La gesti\u00f3n eficiente y la pronta optimizaci\u00f3n de nuestro Servicio de Gesti\u00f3n de AWS son cruciales, considerando las interrupciones recurrentes que actualmente afectan nuestras operaciones. \u00bfPodr\u00edan priorizar esta solicitud y proporcionarnos detalles sobre los pasos propuestos que tomar\u00e1n para resolver estos problemas? Creemos que una revisi\u00f3n detallada y modificaciones estrat\u00e9gicas a nuestra configuraci\u00f3n existente mejorar\u00e1n la confiabilidad y el rendimiento You can reach me at sophia.rossi@service.it.. Agradecer\u00edamos mucho su pronta atenci\u00f3n a este asunto.\n\nNo duden en comunicarse conmigo al <tel_num> para cualquier aclaraci\u00f3n adicional.\n\nGracias,\n\n<name> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        995,
+        1008
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        802,
+        825
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Actualizaci\u00f3n urgente necesaria para la optimizaci\u00f3n de AWS\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEstoy escribiendo para solicitar un cambio de alta prioridad en nuestra infraestructura de AWS, ya que hemos estado experimentando interrupciones en el servicio que afectan el rendimiento de la aplicaci\u00f3n. La gesti\u00f3n eficiente y la pronta optimizaci\u00f3n de nuestro Servicio de Gesti\u00f3n de AWS son cruciales, considerando las interrupciones recurrentes que actualmente afectan nuestras operaciones. \u00bfPodr\u00edan priorizar esta solicitud y proporcionarnos detalles sobre los pasos propuestos que tomar\u00e1n para resolver estos problemas? Creemos que una revisi\u00f3n detallada y modificaciones estrat\u00e9gicas a nuestra configuraci\u00f3n existente mejorar\u00e1n la confiabilidad y el rendimiento You can reach me at [email].. Agradecer\u00edamos mucho su pronta atenci\u00f3n a este asunto.\n\nNo duden en comunicarse conmigo al <tel_num> para cualquier aclaraci\u00f3n adicional.\n\nGracias,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

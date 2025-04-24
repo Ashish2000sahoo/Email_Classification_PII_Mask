@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nHola equipo de soporte al cliente,\n\nEstoy escribiendo para expresar nuestras preocupaciones con respecto a los problemas de conectividad en curso con nuestro enrutador Cisco ISR4331. Durante las \u00faltimas semanas, hemos observado ca\u00eddas intermitentes de conectividad que afectan negativamente el rendimiento de nuestra red empresarial y comprometen las conexiones seguras. Nuestro equipo de TI sospecha que puede ser un error relacionado con el firmware, pero a\u00fan no han podido identificar una causa definitiva.\n\nEl enrutador juega un papel crucial en la gesti\u00f3n de nuestra red, y este problema ha impactado significativamente la productividad. El correo electr\u00f3nico, el acceso a servicios en la nube y los servicios de VoIP se interrumpen intermitentemente, causando inconvenientes a nuestros equipos. Dependemos en gran medida de la estabilidad de la red para mantener flujos de trabajo operativos sin problemas.\n\nHemos reiniciado el enrutador y verificado todas las conexiones f\u00edsicas My name is Sophia Rossi.. A pesar de estos pasos correctivos, el problema persiste. Una r\u00e1pida resoluci\u00f3n de este problema es primordial, dado su impacto cr\u00edtico en las operaciones comerciales. \u00bfPodr\u00eda proporcionarnos orientaci\u00f3n sobre c\u00f3mo proceder? Tal vez sea necesario una actualizaci\u00f3n de firmware o una inspecci\u00f3n.\n\nEsperamos su pronta respuesta. Gracias por su apoyo.\n\nAtentamente,\n\n<name>\n<tel_num>\n<acc_num> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1008,
+        1020
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1433,
+        1455
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        188,
+        192
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: \n\nHola equipo de soporte al cliente,\n\nEstoy escribiendo para expresar nuestras preocupaciones con respecto a los problemas de conectividad en curso con nuestro enrutador Cisco ISR[phone_number]. Durante las \u00faltimas semanas, hemos observado ca\u00eddas intermitentes de conectividad que afectan negativamente el rendimiento de nuestra red empresarial y comprometen las conexiones seguras. Nuestro equipo de TI sospecha que puede ser un error relacionado con el firmware, pero a\u00fan no han podido identificar una causa definitiva.\n\nEl enrutador juega un papel crucial en la gesti\u00f3n de nuestra red, y este problema ha impactado significativamente la productividad. El correo electr\u00f3nico, el acceso a servicios en la nube y los servicios de VoIP se interrumpen intermitentemente, causando inconvenientes a nuestros equipos. Dependemos en gran medida de la estabilidad de la red para mantener flujos de trabajo operativos sin problemas.\n\nHemos reiniciado el enrutador y verificado todas las conexiones f\u00edsicas My name is [full_name].. A pesar de estos pasos correctivos, el problema persiste. Una r\u00e1pida resoluci\u00f3n de este problema es primordial, dado su impacto cr\u00edtico en las operaciones comerciales. \u00bfPodr\u00eda proporcionarnos orientaci\u00f3n sobre c\u00f3mo proceder? Tal vez sea necesario una actualizaci\u00f3n de firmware o una inspecci\u00f3n.\n\nEsperamos su pronta respuesta. Gracias por su apoyo.\n\nAtentamente,\n\n<name>\n<tel_num>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

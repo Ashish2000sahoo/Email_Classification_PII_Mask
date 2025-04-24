@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Unauthorized Access to Hospital System\n\nAn unauthorized access attempt was detected in the hospital's system. The possible causes include vulnerabilities due to outdated software and inadequate access controls My name is David Kim.. After conducting a system audit and updating security protocols, unauthorized access still seems possible. Assistance is needed to resolve this issue and ensure the security of the system. Please provide guidance on the next steps to take. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        518,
+        536
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern About Unauthorized Access to Hospital System\n\nAn unauthorized access attempt was detected in the hospital's system. The possible causes include vulnerabilities due to outdated software and inadequate access controls My name is [full_name].. After conducting a system audit and updating security protocols, unauthorized access still seems possible. Assistance is needed to resolve this issue and ensure the security of the system. Please provide guidance on the next steps to take. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

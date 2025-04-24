@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Needed for Jira Setup\n\nHello Customer Support Team,\n\nI hope this message finds you well You can reach me at sophia.rossi@service.it.. I am reaching out to request assistance with the setup of the Jira ticket system, which we intend to use for Scrum project management within my team. We are currently working with Jira Software 8.20 and need guidance on configuring it to align with our project management needs effectively.\n\nThe main areas where we require support include establishing a streamlined workflow for our Scrum sprints, setting up user permissions accurately to ensure that everyone on the team has the necessary access, and customizing the project's boards to reflect our development processes. Additionally, any tips on optimizing Jira for sprint reviews and retrospectives would be greatly appreciated.\n\nCould you let us know the best way to approach this within the current version we are using? Moreover, if there's an existing documentation or a support guide that could facilitate our setup, that would be tremendously helpful My name is Maria Gonzalez.. If needed, I am available for a call at <tel_num> to discuss this further.\n\nThank you for your support and looking forward to your guidance.\n\nKind regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1078,
+        1092
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        128,
+        151
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed for Jira Setup\n\nHello Customer Support Team,\n\nI hope this message finds you well You can reach me at [email].. I am reaching out to request assistance with the setup of the Jira ticket system, which we intend to use for Scrum project management within my team. We are currently working with Jira Software 8.20 and need guidance on configuring it to align with our project management needs effectively.\n\nThe main areas where we require support include establishing a streamlined workflow for our Scrum sprints, setting up user permissions accurately to ensure that everyone on the team has the necessary access, and customizing the project's boards to reflect our development processes. Additionally, any tips on optimizing Jira for sprint reviews and retrospectives would be greatly appreciated.\n\nCould you let us know the best way to approach this within the current version we are using? Moreover, if there's an existing documentation or a support guide that could facilitate our setup, that would be tremendously helpful My name is [full_name].. If needed, I am available for a call at <tel_num> to discuss this further.\n\nThank you for your support and looking forward to your guidance.\n\nKind regards,\n\n<name>",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Data Integration Involving Various Products\n\nA financial company is facing data integration challenges due to multiple products interfering with investment analysis. Recent system updates may have disrupted connections You can reach me at elena.ivanova@support.org.. Services were restarted and configurations were checked, but the issues remain. Urgent assistance is needed to resolve the problem and minimize operational impact. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        465,
+        472
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        262,
+        287
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problems with Data Integration Involving Various Products\n\nA financial company is facing data integration challenges due to multiple products interfering with investment analysis. Recent system updates may have disrupted connections You can reach me at [email].. Services were restarted and configurations were checked, but the issues remain. Urgent assistance is needed to resolve the problem and minimize operational impact. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

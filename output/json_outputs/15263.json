@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Daten infolge unerlaubten Zugriffs verloren\n\nSehr geehrte Kundenservice-Abteilung,<br><br>ich schreibe Ihnen, um einen schwerwiegenden Fehler mit unseren medizinischen Daten zu melden. Leider haben wir einen Datenverlust infolge eines unerlaubten Zugriffs erlebt. Der Verlust trat aufgrund einer mangelnden Firewall-Konfiguration auf, was m\u00f6glicherweise einen unerw\u00fcnschten Zugriff auf unser System erm\u00f6glicht hat.<br><br>Wir haben mehrere Ma\u00dfnahmen unternommen, um das Problem zu l\u00f6sen. Zun\u00e4chst wiederholten wir den Start unserer Server, um m\u00f6gliche Malware zu entfernen. Anschlie\u00dfend \u00fcberpr\u00fcften wir die Berechtigungen aller Nutzer, um sicherzustellen, dass niemand unerw\u00fcnschten Zugriff auf sensible Daten hatte. Schlie\u00dflich durchsuchten wir unser System nach Malware, um potenzielle Bedrohungen zu identifizieren und zu entfernen.<br><br>Obwohl wir diese Schritte unternommen haben, h\u00e4lt sich das Problem bestehen You can reach me at maria.gonzalez@shop.es.. Wir ben\u00f6tigen daher weitere Unterst\u00fctzung, um die Situation zu beheben. Wir w\u00fcrden jede Hilfe oder Unterst\u00fctzung sehr sch\u00e4tzen, die Sie uns leisten k\u00f6nnen, um unsere medizinischen Daten vorzusorgen und zuk\u00fcnftige Verluste zu verhindern.<br><br>Vielen Dank f\u00fcr Ihr Aufmerksamkeit an dieser Angelegenheit. Ich freue mich auf Ihre R\u00fcckmeldung bald.<br><br>Hochachtungsvoll,<br>[Ihr Name] My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1382,
+        1396
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        961,
+        983
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Daten infolge unerlaubten Zugriffs verloren\n\nSehr geehrte Kundenservice-Abteilung,<br><br>ich schreibe Ihnen, um einen schwerwiegenden Fehler mit unseren medizinischen Daten zu melden. Leider haben wir einen Datenverlust infolge eines unerlaubten Zugriffs erlebt. Der Verlust trat aufgrund einer mangelnden Firewall-Konfiguration auf, was m\u00f6glicherweise einen unerw\u00fcnschten Zugriff auf unser System erm\u00f6glicht hat.<br><br>Wir haben mehrere Ma\u00dfnahmen unternommen, um das Problem zu l\u00f6sen. Zun\u00e4chst wiederholten wir den Start unserer Server, um m\u00f6gliche Malware zu entfernen. Anschlie\u00dfend \u00fcberpr\u00fcften wir die Berechtigungen aller Nutzer, um sicherzustellen, dass niemand unerw\u00fcnschten Zugriff auf sensible Daten hatte. Schlie\u00dflich durchsuchten wir unser System nach Malware, um potenzielle Bedrohungen zu identifizieren und zu entfernen.<br><br>Obwohl wir diese Schritte unternommen haben, h\u00e4lt sich das Problem bestehen You can reach me at [email].. Wir ben\u00f6tigen daher weitere Unterst\u00fctzung, um die Situation zu beheben. Wir w\u00fcrden jede Hilfe oder Unterst\u00fctzung sehr sch\u00e4tzen, die Sie uns leisten k\u00f6nnen, um unsere medizinischen Daten vorzusorgen und zuk\u00fcnftige Verluste zu verhindern.<br><br>Vielen Dank f\u00fcr Ihr Aufmerksamkeit an dieser Angelegenheit. Ich freue mich auf Ihre R\u00fcckmeldung bald.<br><br>Hochachtungsvoll,<br>[Ihr Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

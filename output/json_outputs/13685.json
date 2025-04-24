@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Identifying Discrepancies in Anlageanalyse Reports\n\nDiscrepancies in Anlageanalyse data have been identified. These seem to be due to software issues.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        198
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Identifying Discrepancies in Anlageanalyse Reports\n\nDiscrepancies in Anlageanalyse data have been identified. These seem to be due to software issues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

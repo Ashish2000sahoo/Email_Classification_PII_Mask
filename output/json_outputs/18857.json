@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Problembehandlung\n\nDie Webanalytik-Trackerei auf der Webseite funktioniert nicht mehr You can reach me at fatima.farsi@help.com.. Es k\u00f6nnte aufgrund von Plugin-Updates oder API-\u00c4nderungen liegen. Ich werde die Plugins \u00fcberpr\u00fcfen und den WordPress-Core aktualisieren. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        126,
+        147
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Technische Problembehandlung\n\nDie Webanalytik-Trackerei auf der Webseite funktioniert nicht mehr You can reach me at [email].. Es k\u00f6nnte aufgrund von Plugin-Updates oder API-\u00c4nderungen liegen. Ich werde die Plugins \u00fcberpr\u00fcfen und den WordPress-Core aktualisieren. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data in PostgreSQL 13\n\nCustomer Support, kindly provide guidance on securing medical data within PostgreSQL 13 for healthcare compliance. Given the high sensitivity of healthcare data, it is crucial to ensure its confidentiality, integrity, and availability My name is Maria Gonzalez.. Could you please share best practices for encrypting and storing medical data in PostgreSQL 13, including specific configuration settings needed to meet healthcare compliance standards? You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        309,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        529,
+        550
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data in PostgreSQL 13\n\nCustomer Support, kindly provide guidance on securing medical data within PostgreSQL 13 for healthcare compliance. Given the high sensitivity of healthcare data, it is crucial to ensure its confidentiality, integrity, and availability My name is [full_name].. Could you please share best practices for encrypting and storing medical data in PostgreSQL 13, including specific configuration settings needed to meet healthcare compliance standards? You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

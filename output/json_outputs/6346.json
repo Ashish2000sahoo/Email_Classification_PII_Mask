@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required with Secure Handling of Medical Data\n\nThere are concerns about the healthcare provider's billing system not securely managing patient data, which could lead to potential breaches. Recent software updates and misconfigurations might be the cause My name is Elena Ivanova.. Efforts to resolve the issue, such as restarting the billing software and verifying user permissions, have not been successful You can reach me at liuwei@business.cn.. This issue needs urgent attention to protect patient data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        446,
+        464
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required with Secure Handling of Medical Data\n\nThere are concerns about the healthcare provider's billing system not securely managing patient data, which could lead to potential breaches. Recent software updates and misconfigurations might be the cause My name is [full_name].. Efforts to resolve the issue, such as restarting the billing software and verifying user permissions, have not been successful You can reach me at [email].. This issue needs urgent attention to protect patient data.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Optimization Model Failure\n\nThe investment optimization model has encountered problems, providing inconsistent outcomes You can reach me at liuwei@business.cn.. This might be due to an interruption in the data feed My name is Elena Ivanova.. Despite our efforts to restart the servers and verify the data sources, the issue remains unresolved. We request your prompt intervention to address this and prevent any potential financial harm. Kindly inform us of the subsequent steps you recommend.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        259
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        160,
+        178
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Investment Optimization Model Failure\n\nThe investment optimization model has encountered problems, providing inconsistent outcomes You can reach me at [email].. This might be due to an interruption in the data feed My name is [full_name].. Despite our efforts to restart the servers and verify the data sources, the issue remains unresolved. We request your prompt intervention to address this and prevent any potential financial harm. Kindly inform us of the subsequent steps you recommend.",
+  "category_of_the_email": "Incident"
+}

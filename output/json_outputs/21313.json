@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nGreetings,  \n\nI am encountering problems with the battery of my new MacBook Air M1 My name is Fatima Al-Farsi.. The battery discharges rapidly and does not maintain a charge as anticipated. Could you kindly provide assistance regarding this matter?  \n\nThank you,  \n<name>  \nAccount Number: <acc_num>  \nPhone: <tel_num> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        105,
+        114
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        352,
+        375
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nGreetings,  \n\nI am encountering problems with the battery of my new MacBook Air M1 My name is [full_name]-Farsi.. The battery discharges rapidly and does not maintain a charge as anticipated. Could you kindly provide assistance regarding this matter?  \n\nThank you,  \n<name>  \nAccount Number: <acc_num>  \nPhone: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

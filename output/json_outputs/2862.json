@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello support team, I encountered a problem with the data analytics platform where the investments optimization dashboard froze unexpectedly My name is David Kim.. This may be related to a Cassandra 4.0 database connection problem. After attempting to restart the system and verify the network connections, the issue still exists You can reach me at fatima.farsi@help.com.. I would greatly appreciate your assistance in addressing this issue promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        172
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        363,
+        384
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello support team, I encountered a problem with the data analytics platform where the investments optimization dashboard froze unexpectedly My name is [full_name].. This may be related to a Cassandra 4.0 database connection problem. After attempting to restart the system and verify the network connections, the issue still exists You can reach me at [email].. I would greatly appreciate your assistance in addressing this issue promptly.",
+  "category_of_the_email": "Incident"
+}

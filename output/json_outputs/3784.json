@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Integration of Real-Time Collaboration Features\n\nDear Customer Support Team, I am reaching out to request the integration of real-time collaboration features across our supported products You can reach me at fatima.farsi@help.com.. This would significantly enhance project management efficiency, allowing teams to work together seamlessly. Currently, we face challenges in coordinating and sharing information, which hinders our productivity. If real-time collaboration features were incorporated, we would be able to track changes, communicate effectively, and make decisions more quickly My name is Carlos Mendoza.. We believe this would be a valuable addition to our tools.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        622,
+        636
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        229,
+        250
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Integration of Real-Time Collaboration Features\n\nDear Customer Support Team, I am reaching out to request the integration of real-time collaboration features across our supported products You can reach me at [email].. This would significantly enhance project management efficiency, allowing teams to work together seamlessly. Currently, we face challenges in coordinating and sharing information, which hinders our productivity. If real-time collaboration features were incorporated, we would be able to track changes, communicate effectively, and make decisions more quickly My name is [full_name].. We believe this would be a valuable addition to our tools.",
+  "category_of_the_email": "Change"
+}

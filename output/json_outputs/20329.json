@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Update Required: Billing Information for Google Workspace\n\nDear Customer Support Team,\n\nI hope this email finds you well You can reach me at liuwei@business.cn.. I am writing to request guidance on updating my billing information for our company's Google Workspace Business Standard services My name is Jane Smith.. Currently, my records indicate that my current billing details are outdated, potentially affecting our, thus requiring your assistance to ensure a seamless transition.\n\nFor reference, my account number is <acc_num>, and the registered email for these services is <email>. I would like to confirm the appropriate procedure for updating our billing details in your system to avoid any disruption to these essential services. Please guide me on the specific form or platform section where we need to enter the new information or if there is any additional documentation needed during this process.\n\nAdditionally, if there are any potential limitations concerning billing updates during business hours or any expected delay in updating the system digitally, I would appreciate your immediate notification ahead of the process. Our intent is to ensure that all billing issues concerning our Google Workspace Business Standard remain up-to-date, ensuring no interruption in services and continuing our collaboration smoothly and efficiently.\n\nI appreciate your timely assistance in this matter and look forward to your prompt response. Should you need further details or verification, feel free to reach me directly at <tel_num> during business hours.\n\nThank you for your support.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        322
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        150,
+        168
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Update Required: Billing Information for Google Workspace\n\nDear Customer Support Team,\n\nI hope this email finds you well You can reach me at [email].. I am writing to request guidance on updating my billing information for our company's Google Workspace Business Standard services My name is [full_name].. Currently, my records indicate that my current billing details are outdated, potentially affecting our, thus requiring your assistance to ensure a seamless transition.\n\nFor reference, my account number is <acc_num>, and the registered email for these services is <email>. I would like to confirm the appropriate procedure for updating our billing details in your system to avoid any disruption to these essential services. Please guide me on the specific form or platform section where we need to enter the new information or if there is any additional documentation needed during this process.\n\nAdditionally, if there are any potential limitations concerning billing updates during business hours or any expected delay in updating the system digitally, I would appreciate your immediate notification ahead of the process. Our intent is to ensure that all billing issues concerning our Google Workspace Business Standard remain up-to-date, ensuring no interruption in services and continuing our collaboration smoothly and efficiently.\n\nI appreciate your timely assistance in this matter and look forward to your prompt response. Should you need further details or verification, feel free to reach me directly at <tel_num> during business hours.\n\nThank you for your support.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Change"
+}

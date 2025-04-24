@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Discrepancia en la facturaci\u00f3n con el servicio de AWS\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEscribo para expresar mis preocupaciones sobre las discrepancias en mi factura reciente por el servicio de gesti\u00f3n de AWS. Parece que me est\u00e1n cobrando por un uso inusualmente alto y hay cargos inesperados que no coinciden con mis registros. \u00bfPodr\u00eda revisar mi cuenta, <acc_num>, y proporcionar aclaraciones sobre estos cargos? Adem\u00e1s, por favor, indique c\u00f3mo se pueden rectificar My name is Jane Smith.. Agradezco su pronta atenci\u00f3n a este asunto.\n\nGracias,\n<name>\n<tel_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        499,
+        509
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        604,
+        625
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Discrepancia en la facturaci\u00f3n con el servicio de AWS\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEscribo para expresar mis preocupaciones sobre las discrepancias en mi factura reciente por el servicio de gesti\u00f3n de AWS. Parece que me est\u00e1n cobrando por un uso inusualmente alto y hay cargos inesperados que no coinciden con mis registros. \u00bfPodr\u00eda revisar mi cuenta, <acc_num>, y proporcionar aclaraciones sobre estos cargos? Adem\u00e1s, por favor, indique c\u00f3mo se pueden rectificar My name is [full_name].. Agradezco su pronta atenci\u00f3n a este asunto.\n\nGracias,\n<name>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

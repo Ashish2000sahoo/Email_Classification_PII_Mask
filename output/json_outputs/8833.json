@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Integrate Smart Devices\n\nHello customer support, I am contacting you to seek advice on integrating Smart-Thermometer and Smart-Thermostat data into our Trackball project management software. Our goal is to incorporate real-time temperature and thermostat monitoring into our project management platform My name is Elena Ivanova.. Could you please provide us with the necessary guidance, including any documentation that might be available to facilitate this integration? We would greatly appreciate your assistance in getting us started. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        565,
+        586
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Integrate Smart Devices\n\nHello customer support, I am contacting you to seek advice on integrating Smart-Thermometer and Smart-Thermostat data into our Trackball project management software. Our goal is to incorporate real-time temperature and thermostat monitoring into our project management platform My name is [full_name].. Could you please provide us with the necessary guidance, including any documentation that might be available to facilitate this integration? We would greatly appreciate your assistance in getting us started. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

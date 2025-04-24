@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Intermittent Lag During Project Updates\n\nDear Customer Support,\\n\\nI am writing to address an issue I have encountered, which is intermittent lag during project updates. This issue has happened sporadically and I suspect it might be due to an overload of the API integration My name is Elena Ivanova.. I have attempted to troubleshoot the problem by restarting the system, clearing the cache, and checking the network, but the issue still persists.\\n\\nThe lag is not only inconvenient but also impacts my productivity and my ability to meet deadlines. I have tried to identify any patterns or common factors that could be contributing to this issue but have not been able to determine the exact cause. I am reaching out to your team in the hope that you can provide assistance and guidance in resolving this problem.\\n\\nI would greatly appreciate it if you could look into this issue and provide a solution or recommendations on how to prevent it from occurring in the future. If there is any additional information you need from me, please do not hesitate to ask. I am available to provide any necessary details or context to help resolve this matter.\\n\\nThank you for your time and attention to this matter. I look forward to hearing from you soon.\\n\\nSincerely,\\n[Your Name] You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        306,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1316,
+        1333
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Intermittent Lag During Project Updates\n\nDear Customer Support,\\n\\nI am writing to address an issue I have encountered, which is intermittent lag during project updates. This issue has happened sporadically and I suspect it might be due to an overload of the API integration My name is [full_name].. I have attempted to troubleshoot the problem by restarting the system, clearing the cache, and checking the network, but the issue still persists.\\n\\nThe lag is not only inconvenient but also impacts my productivity and my ability to meet deadlines. I have tried to identify any patterns or common factors that could be contributing to this issue but have not been able to determine the exact cause. I am reaching out to your team in the hope that you can provide assistance and guidance in resolving this problem.\\n\\nI would greatly appreciate it if you could look into this issue and provide a solution or recommendations on how to prevent it from occurring in the future. If there is any additional information you need from me, please do not hesitate to ask. I am available to provide any necessary details or context to help resolve this matter.\\n\\nThank you for your time and attention to this matter. I look forward to hearing from you soon.\\n\\nSincerely,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

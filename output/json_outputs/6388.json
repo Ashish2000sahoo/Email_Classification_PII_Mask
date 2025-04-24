@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nNoted billing discrepancies in the SaaS service, which have led to overcharges You can reach me at johndoe@email.com.. These issues might be due to recent system updates or payment gateway problems My name is John Doe.. After recalculating the invoices and verifying payment configurations, the issues still persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        228
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        110,
+        127
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nNoted billing discrepancies in the SaaS service, which have led to overcharges You can reach me at [email].. These issues might be due to recent system updates or payment gateway problems My name is [full_name].. After recalculating the invoices and verifying payment configurations, the issues still persist.",
+  "category_of_the_email": "Incident"
+}

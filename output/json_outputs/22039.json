@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHi, I am having trouble activating Windows 11 Pro. An error keeps appearing My name is Sophia Rossi.. Could you please help me resolve this as soon as possible? My account number is <acc_num>. Thank you, <name> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        98,
+        110
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        241,
+        263
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nHi, I am having trouble activating Windows 11 Pro. An error keeps appearing My name is [full_name].. Could you please help me resolve this as soon as possible? My account number is <acc_num>. Thank you, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

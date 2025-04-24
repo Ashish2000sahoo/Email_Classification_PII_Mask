@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Technical Issues Halted Digital Marketing Campaign Launch\n\nOur digital marketing campaigns have been unable to launch because of technical difficulties.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        199
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Technical Issues Halted Digital Marketing Campaign Launch\n\nOur digital marketing campaigns have been unable to launch because of technical difficulties.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

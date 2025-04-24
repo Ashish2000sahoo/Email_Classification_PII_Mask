@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request: Issue with Medical Data Encryption\n\nDear Customer Support, I am contacting you to inform you about a recent problem with the medical data encryption process. The encryption process unexpectedly failed, and I suspect it might be a software configuration issue. I have already tried restarting the servers and checking for updates, but the issue continues. I would be grateful for your assistance in addressing this. Please inform me if there are any additional actions I can take or if you require further information from me My name is Maria Gonzalez.. I am willing to provide any necessary details or discuss this further You can reach me at fatima.farsi@help.com.. Thank you for your support. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        562,
+        576
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        666,
+        687
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request: Issue with Medical Data Encryption\n\nDear Customer Support, I am contacting you to inform you about a recent problem with the medical data encryption process. The encryption process unexpectedly failed, and I suspect it might be a software configuration issue. I have already tried restarting the servers and checking for updates, but the issue continues. I would be grateful for your assistance in addressing this. Please inform me if there are any additional actions I can take or if you require further information from me My name is [full_name].. I am willing to provide any necessary details or discuss this further You can reach me at [email].. Thank you for your support. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

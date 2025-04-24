@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenschutzprotokolle f\u00fcr medizinische Daten auf der Seagate Expansion Desktop 6TB\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4sslich meiner Anfrage zu den Sicherheitsprotokollen f\u00fcr die Speicherung medizinischer Daten mit der Seagate Expansion Desktop 6TB. Sie wissen ja, dass medizinische Daten sehr sensibel sind und strengste Sicherheitsma\u00dfnahmen erforderlich sind, um die Patientendaten zu sch\u00fctzen My name is Carlos Mendoza.. Ich m\u00f6chte wissen, welche Protokolle in der Sicherstellung der Datenspeicherung auf diesem Ger\u00e4t in Betracht gezogen werden. Gibt es Verschl\u00fcsselungsmethoden verwendet? Existieren Zugriffs- oder Authentifizierungsmethoden? Darf ich auch erfahren, ob das Ger\u00e4t mit den Vorschriften wie HIPAA einvernehmlich ist? Zudem w\u00fcrde ich gerne wissen, welche Empfehlungen es gibt, um Daten, wenn sie nicht mehr ben\u00f6tigt werden, vom Ger\u00e4t sicher zu l\u00f6schen. Ich freue mich darauf, von Ihnen zu h\u00f6ren, mehr Informationen \u00fcber die Sicherheitsprotokolle f\u00fcr die medizinische Datenspeicherung auf der Seagate Expansion Desktop 6TB zu erhalten. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        426,
+        440
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1088,
+        1109
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Datenschutzprotokolle f\u00fcr medizinische Daten auf der Seagate Expansion Desktop 6TB\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4sslich meiner Anfrage zu den Sicherheitsprotokollen f\u00fcr die Speicherung medizinischer Daten mit der Seagate Expansion Desktop 6TB. Sie wissen ja, dass medizinische Daten sehr sensibel sind und strengste Sicherheitsma\u00dfnahmen erforderlich sind, um die Patientendaten zu sch\u00fctzen My name is [full_name].. Ich m\u00f6chte wissen, welche Protokolle in der Sicherstellung der Datenspeicherung auf diesem Ger\u00e4t in Betracht gezogen werden. Gibt es Verschl\u00fcsselungsmethoden verwendet? Existieren Zugriffs- oder Authentifizierungsmethoden? Darf ich auch erfahren, ob das Ger\u00e4t mit den Vorschriften wie HIPAA einvernehmlich ist? Zudem w\u00fcrde ich gerne wissen, welche Empfehlungen es gibt, um Daten, wenn sie nicht mehr ben\u00f6tigt werden, vom Ger\u00e4t sicher zu l\u00f6schen. Ich freue mich darauf, von Ihnen zu h\u00f6ren, mehr Informationen \u00fcber die Sicherheitsprotokolle f\u00fcr die medizinische Datenspeicherung auf der Seagate Expansion Desktop 6TB zu erhalten. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

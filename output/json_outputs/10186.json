@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding the Investment Analysis Dashboard\n\nA brief description of the issue: The investment analysis dashboard has failed to load, which may be related to a problem with the integration of the data analytics tool You can reach me at sophia.rossi@service.it.. Despite rebooting the system and verifying the firewall settings, the issue remains unresolved. I would greatly appreciate your assistance in addressing this problem. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        456,
+        466
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        252,
+        275
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding the Investment Analysis Dashboard\n\nA brief description of the issue: The investment analysis dashboard has failed to load, which may be related to a problem with the integration of the data analytics tool You can reach me at [email].. Despite rebooting the system and verifying the firewall settings, the issue remains unresolved. I would greatly appreciate your assistance in addressing this problem. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

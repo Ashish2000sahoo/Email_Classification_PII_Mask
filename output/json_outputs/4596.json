@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Serious Incident: Unauthorized Access to Medical Data\n\nAn incident involving unauthorized access to medical data has occurred within the hospital system You can reach me at elena.ivanova@support.org.. This might have arisen due to a compromise of network security protocols. We have initiated the process of updating security settings and running diagnostic scans on connected devices to contain the issue. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        427,
+        441
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        182,
+        207
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Serious Incident: Unauthorized Access to Medical Data\n\nAn incident involving unauthorized access to medical data has occurred within the hospital system You can reach me at [email].. This might have arisen due to a compromise of network security protocols. We have initiated the process of updating security settings and running diagnostic scans on connected devices to contain the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

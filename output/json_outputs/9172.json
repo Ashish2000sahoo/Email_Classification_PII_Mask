@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am seeking guidance on optimizing my data analytics investment decisions using IBM SPSS Statistics 28 You can reach me at carlosm@gmail.com.. Could you provide any tips or resources to help me get started with the software? I am particularly interested in learning about predictive modeling and data visualization. I would greatly appreciate any assistance you can provide. I look forward to hearing from you soon My name is Fatima Al-Farsi.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        159,
+        176
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am seeking guidance on optimizing my data analytics investment decisions using IBM SPSS Statistics 28 You can reach me at [email].. Could you provide any tips or resources to help me get started with the software? I am particularly interested in learning about predictive modeling and data visualization. I would greatly appreciate any assistance you can provide. I look forward to hearing from you soon My name is [full_name]-Farsi.. Thank you for your support.",
+  "category_of_the_email": "Request"
+}

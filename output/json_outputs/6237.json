@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Implement IFTTT and JIRA Automation Synergy\n\nCustomer support, requesting integration of project management tools IFTTT and JIRA to enhance automation and collaboration capabilities. This integration would significantly boost team productivity and streamline workflows My name is Sophia Rossi.. IFTTT can automate repetitive tasks, while JIRA offers a robust platform for project tracking and management. I believe this integration would be a valuable addition to our toolkit You can reach me at fatima.farsi@help.com.. Please provide more information on how to proceed with the implementation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        504,
+        525
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Implement IFTTT and JIRA Automation Synergy\n\nCustomer support, requesting integration of project management tools IFTTT and JIRA to enhance automation and collaboration capabilities. This integration would significantly boost team productivity and streamline workflows My name is [full_name].. IFTTT can automate repetitive tasks, while JIRA offers a robust platform for project tracking and management. I believe this integration would be a valuable addition to our toolkit You can reach me at [email].. Please provide more information on how to proceed with the implementation.",
+  "category_of_the_email": "Change"
+}

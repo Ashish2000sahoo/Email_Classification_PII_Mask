@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Project\n\nRequest for enhancing the user interface to improve usability and accessibility for the project management tools, making it more intuitive and user-friendly.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        225
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support for Project\n\nRequest for enhancing the user interface to improve usability and accessibility for the project management tools, making it more intuitive and user-friendly.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Datenanalyse-DashBoard\n\nDer Datenanalyse-DashBoard l\u00e4dt nicht richtig, was auf Kompatibilit\u00e4tsprobleme mit der Software schlie\u00dfen l\u00e4sst You can reach me at elena.ivanova@support.org.. Ich habe das System neugestartet und nach Updates gesucht, aber das Problem beh\u00e4lt sich trotzdem bestehen. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        182,
+        207
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Datenanalyse-DashBoard\n\nDer Datenanalyse-DashBoard l\u00e4dt nicht richtig, was auf Kompatibilit\u00e4tsprobleme mit der Software schlie\u00dfen l\u00e4sst You can reach me at [email].. Ich habe das System neugestartet und nach Updates gesucht, aber das Problem beh\u00e4lt sich trotzdem bestehen. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

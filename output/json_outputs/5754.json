@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerns Over Healthcare System Security\n\nThere was a security breach in the healthcare system that may have exposed sensitive medical data due to outdated protocols. Updates have been implemented and password policies have been reinforced.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        287
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Healthcare System Security\n\nThere was a security breach in the healthcare system that may have exposed sensitive medical data due to outdated protocols. Updates have been implemented and password policies have been reinforced.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versicherung medizinischer Daten auf Linux Mint und Android\n\nIch richte mich an Sie, um die vorgeschlagenen Sicherheitsma\u00dfnahmen zu kl\u00e4ren, die notwendig sind, um medizinische Daten auf Linux Mint und Android-Ger\u00e4ten sicher zu speichern My name is Fatima Al-Farsi.. Da medizinische Daten besonders sensibel sind und durch Normen wie HIPAA gesch\u00fctzt werden m\u00fcssen, ist es wichtig, dass sie sicher verarbeitet und gespeichert werden. Ich w\u00fcrde mich \u00fcber schriftliche Anleitungen zu Verschl\u00fcsselung, Zugriffscontrollern und anderen relevanten Sicherheitsprotokollen freuen, die bei der Sicherung dieser Daten auf diesen Systems in Betracht gezogen werden sollten You can reach me at liuwei@business.cn.. Zudem w\u00e4re ich dankbar f\u00fcr Vorschl\u00e4ge zu sicheren Kommunikations- und Datentransfermethoden. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        266
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        691,
+        709
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Versicherung medizinischer Daten auf Linux Mint und Android\n\nIch richte mich an Sie, um die vorgeschlagenen Sicherheitsma\u00dfnahmen zu kl\u00e4ren, die notwendig sind, um medizinische Daten auf Linux Mint und Android-Ger\u00e4ten sicher zu speichern My name is [full_name]-Farsi.. Da medizinische Daten besonders sensibel sind und durch Normen wie HIPAA gesch\u00fctzt werden m\u00fcssen, ist es wichtig, dass sie sicher verarbeitet und gespeichert werden. Ich w\u00fcrde mich \u00fcber schriftliche Anleitungen zu Verschl\u00fcsselung, Zugriffscontrollern und anderen relevanten Sicherheitsprotokollen freuen, die bei der Sicherung dieser Daten auf diesen Systems in Betracht gezogen werden sollten You can reach me at [email].. Zudem w\u00e4re ich dankbar f\u00fcr Vorschl\u00e4ge zu sicheren Kommunikations- und Datentransfermethoden. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "category_of_the_email": "Request"
+}

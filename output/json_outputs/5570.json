@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Report on Data Security Incident Involving Breach of Medical Records\n\nOur hospital faced a data security breach which compromised medical records due to outdated protocols and insufficient training. We have taken steps to update our firewalls and are conducting incident response training.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        336
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Report on Data Security Incident Involving Breach of Medical Records\n\nOur hospital faced a data security breach which compromised medical records due to outdated protocols and insufficient training. We have taken steps to update our firewalls and are conducting incident response training.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Investment Optimization Model Due to Lack of Data Analytics\n\nThe investment optimization model has encountered problems because of inadequate integration with data analytics.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        217,
+        232
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investment Optimization Model Due to Lack of Data Analytics\n\nThe investment optimization model has encountered problems because of inadequate integration with data analytics.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

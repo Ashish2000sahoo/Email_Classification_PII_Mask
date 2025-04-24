@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Potential Data Breach in Hospital's Medical Records System\n\nThere is a potential data breach that has compromised medical records in our hospital's systems. Outdated software vulnerabilities might be the cause. Despite attempted system updates, securing access points, and running security scans, the issue still persists My name is Carlos Mendoza.. Immediate assistance is needed to resolve this matter and prevent further damage. Please provide guidance on the next steps to take You can reach me at sophia.rossi@service.it.. We appreciate prompt attention to this urgent matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        342,
+        356
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        508,
+        531
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Potential Data Breach in Hospital's Medical Records System\n\nThere is a potential data breach that has compromised medical records in our hospital's systems. Outdated software vulnerabilities might be the cause. Despite attempted system updates, securing access points, and running security scans, the issue still persists My name is [full_name].. Immediate assistance is needed to resolve this matter and prevent further damage. Please provide guidance on the next steps to take You can reach me at [email].. We appreciate prompt attention to this urgent matter.",
+  "category_of_the_email": "Incident"
+}

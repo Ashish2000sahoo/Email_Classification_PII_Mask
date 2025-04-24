@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwarteter Fehler in den Marketing-Automatisierungsprozessen\n\nDie Marketing-Automatisierungsprozesse funktionieren derzeit nicht mehr wie erwartet You can reach me at johndoe@email.com.. Es k\u00f6nnte sich um Probleme mit der Integration zu Salesforce und Zapier handeln. Obwohl wir die betroffenen Systeme neugestartet und neu konfiguriert haben, besteht das Problem trotzdem. Wir ben\u00f6tigen Ihre Hilfe, um diese Sache zu l\u00f6sen. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        447,
+        456
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        178,
+        195
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unerwarteter Fehler in den Marketing-Automatisierungsprozessen\n\nDie Marketing-Automatisierungsprozesse funktionieren derzeit nicht mehr wie erwartet You can reach me at [email].. Es k\u00f6nnte sich um Probleme mit der Integration zu Salesforce und Zapier handeln. Obwohl wir die betroffenen Systeme neugestartet und neu konfiguriert haben, besteht das Problem trotzdem. Wir ben\u00f6tigen Ihre Hilfe, um diese Sache zu l\u00f6sen. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

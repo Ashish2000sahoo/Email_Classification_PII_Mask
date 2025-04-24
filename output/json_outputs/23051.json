@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCaro Suporte ao Cliente,\n\nRecentemente, comprei um novo MacBook Air M1 na sua loja My name is John Doe.. Infelizmente, ele n\u00e3o liga ap\u00f3s um desligamento, apesar das minhas v\u00e1rias tentativas e da verifica\u00e7\u00e3o da fonte de energia. O problema persiste e n\u00e3o consigo usar o dispositivo de forma eficaz.\n\nVoc\u00ea poderia gentilmente me ajudar a diagnosticar o problema ou iniciar uma poss\u00edvel devolu\u00e7\u00e3o ou substitui\u00e7\u00e3o? Meu n\u00famero de conta \u00e9 <acc_num>.\n\nObrigado pela sua ajuda.\n\nAtenciosamente,\n<name> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        105,
+        113
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        528,
+        549
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCaro Suporte ao Cliente,\n\nRecentemente, comprei um novo MacBook Air M1 na sua loja My name is [full_name].. Infelizmente, ele n\u00e3o liga ap\u00f3s um desligamento, apesar das minhas v\u00e1rias tentativas e da verifica\u00e7\u00e3o da fonte de energia. O problema persiste e n\u00e3o consigo usar o dispositivo de forma eficaz.\n\nVoc\u00ea poderia gentilmente me ajudar a diagnosticar o problema ou iniciar uma poss\u00edvel devolu\u00e7\u00e3o ou substitui\u00e7\u00e3o? Meu n\u00famero de conta \u00e9 <acc_num>.\n\nObrigado pela sua ajuda.\n\nAtenciosamente,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

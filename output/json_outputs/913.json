@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThe SaaS platform experienced an unexpected crash, which may be related to database overload. After restarting the servers and reviewing the logs, and engaging IT support, the problem continues to persist and requires your attention for resolution.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        299
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe SaaS platform experienced an unexpected crash, which may be related to database overload. After restarting the servers and reviewing the logs, and engaging IT support, the problem continues to persist and requires your attention for resolution.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

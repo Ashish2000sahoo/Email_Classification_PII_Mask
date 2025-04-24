@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boost malware protection for secure medical data storage systems\n\nDear support team, I am contacting you to seek ways to improve malware protection for our hospital's IT network and medical data My name is Omar Hassan.. Ensuring the safety and accuracy of our patient information is crucial. Could you give us more details about the available solutions and their costs? We would also like any advice on how to deploy these solutions properly. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        215,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        472,
+        493
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Boost malware protection for secure medical data storage systems\n\nDear support team, I am contacting you to seek ways to improve malware protection for our hospital's IT network and medical data My name is [full_name].. Ensuring the safety and accuracy of our patient information is crucial. Could you give us more details about the available solutions and their costs? We would also like any advice on how to deploy these solutions properly. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

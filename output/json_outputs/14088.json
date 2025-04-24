@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzungsanfrage zur Einrichtung mehrerer Werkzeuge\n\nSehr geehrte Kundenservice-Team, ich schreibe Ihnen, um einen Einrichtungsfehler mit mehreren Werkzeugen zu melden. Der Fehler trat pl\u00f6tzlich auf, insbesondere bei der Synchronisierung der Dashboard-Daten. Es k\u00f6nnte sein, dass die API-Schl\u00fcssel abgelaufen sind, was zu diesem Fehler f\u00fchren k\u00f6nnte You can reach me at maria.gonzalez@shop.es.. Bislang habe ich versucht, die Dienste zu neustarten und die API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber der Fehler beharrt sich. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu beheben My name is Fatima Al-Farsi.. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        777,
+        786
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        384,
+        406
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzungsanfrage zur Einrichtung mehrerer Werkzeuge\n\nSehr geehrte Kundenservice-Team, ich schreibe Ihnen, um einen Einrichtungsfehler mit mehreren Werkzeugen zu melden. Der Fehler trat pl\u00f6tzlich auf, insbesondere bei der Synchronisierung der Dashboard-Daten. Es k\u00f6nnte sein, dass die API-Schl\u00fcssel abgelaufen sind, was zu diesem Fehler f\u00fchren k\u00f6nnte You can reach me at [email].. Bislang habe ich versucht, die Dienste zu neustarten und die API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber der Fehler beharrt sich. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu beheben My name is [full_name]-Farsi.. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

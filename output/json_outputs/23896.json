@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cliente mencionou a aus\u00eancia de um acess\u00f3rio no pedido do Lenovo IdeaPad 5. Solicita\u00e7\u00e3o de assist\u00eancia urgente para resolver a quest\u00e3o.\n\nPrezada Equipe de Suporte ao Cliente, adquiri recentemente um Lenovo IdeaPad 5 em sua loja virtual You can reach me at carlosm@gmail.com.. Contudo, um dos itens que deveria ter sido inclu\u00eddo n\u00e3o veio junto My name is Omar Hassan.. Poderiam por gentileza ajudar a solucionar essa situa\u00e7\u00e3o? Atenciosamente, <nome>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        363,
+        374
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        265,
+        282
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Cliente mencionou a aus\u00eancia de um acess\u00f3rio no pedido do Lenovo IdeaPad 5. Solicita\u00e7\u00e3o de assist\u00eancia urgente para resolver a quest\u00e3o.\n\nPrezada Equipe de Suporte ao Cliente, adquiri recentemente um Lenovo IdeaPad 5 em sua loja virtual You can reach me at [email].. Contudo, um dos itens que deveria ter sido inclu\u00eddo n\u00e3o veio junto My name is [full_name].. Poderiam por gentileza ajudar a solucionar essa situa\u00e7\u00e3o? Atenciosamente, <nome>",
+  "category_of_the_email": "Problem"
+}

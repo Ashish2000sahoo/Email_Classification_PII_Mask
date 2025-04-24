@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am inquiring about data analytics solutions for investment optimization My name is David Kim.. Could you provide information on the types of analytics tools that are available to assist in making informed investment decisions? I am particularly interested in learning about the data visualization capabilities that can be used to identify trends and patterns in the market. Additionally, I would like to know about any case studies or success stories from previous clients You can reach me at carlosm@gmail.com.. I look forward to hearing back from you at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        120,
+        129
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        532,
+        549
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am inquiring about data analytics solutions for investment optimization My name is [full_name].. Could you provide information on the types of analytics tools that are available to assist in making informed investment decisions? I am particularly interested in learning about the data visualization capabilities that can be used to identify trends and patterns in the market. Additionally, I would like to know about any case studies or success stories from previous clients You can reach me at [email].. I look forward to hearing back from you at your earliest convenience.",
+  "category_of_the_email": "Request"
+}

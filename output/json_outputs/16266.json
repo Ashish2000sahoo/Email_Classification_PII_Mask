@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Dashboard Access\n\nA user has reported intermittent difficulties in accessing project dashboards. This issue might be linked to recent server maintenance You can reach me at johndoe@email.com.. The user has tried refreshing the page and logging out, but the problem still exists. They are unable to access the dashboards. We would appreciate it if you could look into this and provide a solution as soon as possible. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        449,
+        456
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        195,
+        212
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Dashboard Access\n\nA user has reported intermittent difficulties in accessing project dashboards. This issue might be linked to recent server maintenance You can reach me at [email].. The user has tried refreshing the page and logging out, but the problem still exists. They are unable to access the dashboards. We would appreciate it if you could look into this and provide a solution as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

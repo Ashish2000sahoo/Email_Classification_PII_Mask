@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technisches Problem mit der Datenanalysesoftware\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4\u00dflich eines technischen Problems mit der Datenanalysesoftware. Die Software brach pl\u00f6tzlich ab und ich vermute, dass dies auf inkompatible Bibliotheksaktualisierungen zur\u00fcckzuf\u00fchren sein k\u00f6nnte My name is Sophia Rossi.. Ich habe bereits versucht, die Software zu neu zu starten, die Treiber zu aktualisieren und die Software neu zu installieren, aber das Problem beh\u00e4lt sich best\u00e4ndig bestehen You can reach me at janesmith@company.com.. Das Crash trat w\u00e4hrend eines wichtigen Projekts auf und ich bef\u00fcrchte, dass ich Fortschritte verliere. Ich sch\u00e4tze es, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Ich stehe Ihnen zur Verf\u00fcgung, um weitere Details zu bereitstellen oder bei der L\u00f6sung des Problems zu unterst\u00fctzen, wie es in meiner Macht steht. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        309,
+        321
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        517,
+        538
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Technisches Problem mit der Datenanalysesoftware\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4\u00dflich eines technischen Problems mit der Datenanalysesoftware. Die Software brach pl\u00f6tzlich ab und ich vermute, dass dies auf inkompatible Bibliotheksaktualisierungen zur\u00fcckzuf\u00fchren sein k\u00f6nnte My name is [full_name].. Ich habe bereits versucht, die Software zu neu zu starten, die Treiber zu aktualisieren und die Software neu zu installieren, aber das Problem beh\u00e4lt sich best\u00e4ndig bestehen You can reach me at [email].. Das Crash trat w\u00e4hrend eines wichtigen Projekts auf und ich bef\u00fcrchte, dass ich Fortschritte verliere. Ich sch\u00e4tze es, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Ich stehe Ihnen zur Verf\u00fcgung, um weitere Details zu bereitstellen oder bei der L\u00f6sung des Problems zu unterst\u00fctzen, wie es in meiner Macht steht. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: OBS Studio Live Streaming Troubleshooting\n\nI am encountering difficulties with OBS Studio 27 during live streaming My name is Fatima Al-Farsi.. Could you provide me with the optimal settings for a seamless stream? I have experimented with various setups but am still facing challenges. Could you suggest the best bitrate, resolution, and frame rate for my situation? I would greatly appreciate any advice or assistance you can offer. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        135,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        465,
+        490
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: OBS Studio Live Streaming Troubleshooting\n\nI am encountering difficulties with OBS Studio 27 during live streaming My name is [full_name]-Farsi.. Could you provide me with the optimal settings for a seamless stream? I have experimented with various setups but am still facing challenges. Could you suggest the best bitrate, resolution, and frame rate for my situation? I would greatly appreciate any advice or assistance you can offer. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

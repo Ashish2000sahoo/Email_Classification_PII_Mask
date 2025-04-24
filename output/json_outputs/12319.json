@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technischer Fehler\n\nDie Videokonferenz brach w\u00e4hrend einer wichtigen Besprechung ab You can reach me at janesmith@company.com.. M\u00f6gliche Gr\u00fcnde k\u00f6nnten Netzwerkprobleme oder Sch\u00e4den an dem Equipment sein My name is Carlos Mendoza.. Ich habe den UniFi Dream Machine neu gestartet und die Internetverbindung \u00fcberpr\u00fcft, aber das Problem ist weiterhin bestanden geblieben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        113,
+        134
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Technischer Fehler\n\nDie Videokonferenz brach w\u00e4hrend einer wichtigen Besprechung ab You can reach me at [email].. M\u00f6gliche Gr\u00fcnde k\u00f6nnten Netzwerkprobleme oder Sch\u00e4den an dem Equipment sein My name is [full_name].. Ich habe den UniFi Dream Machine neu gestartet und die Internetverbindung \u00fcberpr\u00fcft, aber das Problem ist weiterhin bestanden geblieben.",
+  "category_of_the_email": "Incident"
+}

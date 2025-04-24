@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage an den Kundendienst bez\u00fcglich der Integration von Analysenwerkzeugen in JIRA\n\nSehr geehrte Kundenservice-Abteilung, ich wende mich an Sie, um zu erkundigen, welche Analysenwerkzeuge mit JIRA vertraglich integriert werden k\u00f6nnen, um Investitionsoptimierung zu unterst\u00fctzen My name is Maria Gonzalez.. K\u00f6nnten Sie mir bitte eine Liste der vertraglichen Werkzeuge und deren Funktionalit\u00e4ten zukommen lassen? Ich freue mich auf Ihre Anleitungen zur Auswahl des besten Werkzeugs f\u00fcr meine spezifischen Anforderungen You can reach me at carlosm@gmail.com.. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        545,
+        562
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage an den Kundendienst bez\u00fcglich der Integration von Analysenwerkzeugen in JIRA\n\nSehr geehrte Kundenservice-Abteilung, ich wende mich an Sie, um zu erkundigen, welche Analysenwerkzeuge mit JIRA vertraglich integriert werden k\u00f6nnen, um Investitionsoptimierung zu unterst\u00fctzen My name is [full_name].. K\u00f6nnten Sie mir bitte eine Liste der vertraglichen Werkzeuge und deren Funktionalit\u00e4ten zukommen lassen? Ich freue mich auf Ihre Anleitungen zur Auswahl des besten Werkzeugs f\u00fcr meine spezifischen Anforderungen You can reach me at [email].. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

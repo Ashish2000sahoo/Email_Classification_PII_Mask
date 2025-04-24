@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Issue with SaaS Functionality Usage\n\nNoted an unexpected breakdown in using essential SaaS features. This might be linked to server overload or configuration problems You can reach me at maria.gonzalez@shop.es.. Steps taken include restarting the involved applications. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        299,
+        307
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        205,
+        227
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue with SaaS Functionality Usage\n\nNoted an unexpected breakdown in using essential SaaS features. This might be linked to server overload or configuration problems You can reach me at [email].. Steps taken include restarting the involved applications. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

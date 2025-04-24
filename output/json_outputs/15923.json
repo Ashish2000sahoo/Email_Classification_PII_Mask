@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Data Analysis Software for Investors\n\nCustomer Support, we are reaching out to request improvements to the data analytics tools that are currently used to optimize investment strategies and enhance client outcomes. The current tools have a limited capacity to provide actionable insights, making it difficult for investors to make informed decisions. We believe that by upgrading these tools, we can more effectively analyze market trends, identify opportunities, and minimize risks, ultimately leading to better investment outcomes for our clients My name is Carlos Mendoza.. We would greatly appreciate any information you could provide to help us understand your specific requirements and prioritize this request. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        577,
+        591
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        751,
+        773
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Improve Data Analysis Software for Investors\n\nCustomer Support, we are reaching out to request improvements to the data analytics tools that are currently used to optimize investment strategies and enhance client outcomes. The current tools have a limited capacity to provide actionable insights, making it difficult for investors to make informed decisions. We believe that by upgrading these tools, we can more effectively analyze market trends, identify opportunities, and minimize risks, ultimately leading to better investment outcomes for our clients My name is [full_name].. We would greatly appreciate any information you could provide to help us understand your specific requirements and prioritize this request. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

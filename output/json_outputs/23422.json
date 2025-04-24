@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema: Reproducci\u00f3n HDR borrosa en TV Samsung QLED\n\nEstimado Soporte al Cliente, estoy experimentando visuales borrosas al reproducir contenido HDR en mi TV Samsung QLED QN90A. Por favor, aconseje sobre una soluci\u00f3n o inicie un proceso de devoluci\u00f3n. Gracias por su asistencia You can reach me at janesmith@company.com.. Saludos, <name>. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        361,
+        373
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        309,
+        330
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problema: Reproducci\u00f3n HDR borrosa en TV Samsung QLED\n\nEstimado Soporte al Cliente, estoy experimentando visuales borrosas al reproducir contenido HDR en mi TV Samsung QLED QN90A. Por favor, aconseje sobre una soluci\u00f3n o inicie un proceso de devoluci\u00f3n. Gracias por su asistencia You can reach me at [email].. Saludos, <name>. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

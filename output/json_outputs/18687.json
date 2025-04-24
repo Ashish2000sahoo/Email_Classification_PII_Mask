@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unvorhergesehene Abst\u00fcrze von Alteryx-Datenanalyse-Tool\n\nDas Alteryx-Datenanalyse-Tool unterliegt unerwarteten Ausfallsituationen, was m\u00f6glicherweise auf mangelndes Speicherpensum oder Kompatibilit\u00e4tsprobleme zur\u00fcckzuf\u00fchren sein k\u00f6nnte.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        284
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Unvorhergesehene Abst\u00fcrze von Alteryx-Datenanalyse-Tool\n\nDas Alteryx-Datenanalyse-Tool unterliegt unerwarteten Ausfallsituationen, was m\u00f6glicherweise auf mangelndes Speicherpensum oder Kompatibilit\u00e4tsprobleme zur\u00fcckzuf\u00fchren sein k\u00f6nnte.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

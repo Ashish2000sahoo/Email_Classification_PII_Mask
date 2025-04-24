@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten mit Malwarebytes\n\nLieber Kundensupport, ich schreibe an, um nachzukommen, ob es M\u00f6glichkeiten gibt, medizinische Daten in Krankenhaus-IT-Systemen sicher mit Malwarebytes integrieren zu k\u00f6nnen My name is Maria Gonzalez.. Ich m\u00f6chte Cyber-Sicherheitsma\u00dfnahmen erweitern und vertrauliche Patientendaten sch\u00fctzen. Ich freue mich, wenn Sie vorgeschlagene Empfehlungen zu den besten Praktiken teilen k\u00f6nnten You can reach me at johndoe@email.com.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        256
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        458,
+        475
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten mit Malwarebytes\n\nLieber Kundensupport, ich schreibe an, um nachzukommen, ob es M\u00f6glichkeiten gibt, medizinische Daten in Krankenhaus-IT-Systemen sicher mit Malwarebytes integrieren zu k\u00f6nnen My name is [full_name].. Ich m\u00f6chte Cyber-Sicherheitsma\u00dfnahmen erweitern und vertrauliche Patientendaten sch\u00fctzen. Ich freue mich, wenn Sie vorgeschlagene Empfehlungen zu den besten Praktiken teilen k\u00f6nnten You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

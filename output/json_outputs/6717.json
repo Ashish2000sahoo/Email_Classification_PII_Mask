@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselungsprobleme im medizinischen Datenverschl\u00fcsselungssystem\n\nSehr geehrte Kundensupport, wir melden einen unerwarteten Verschl\u00fcsselungsfehler in unserem medizinischen Datenverschl\u00fcsselungssystem You can reach me at david.kim@corp.kr.. Das Problem k\u00f6nnte durch veraltete Softwarekompatibilit\u00e4tsprobleme entstehen. Obwohl wir die Server neu gestartet und Evernote aktualisiert haben, beh\u00e4lt sich das Problem best\u00e4ndigerweise bei. Wir ben\u00f6tigen dringend Ihre Hilfe, um dieses Problem zu beheben und die Sicherheit unserer medizinischen Daten zu gew\u00e4hrleisten. Bitte geben Sie uns die notwendigen Schritte an. Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung in dieser Angelegenheit. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        705,
+        717
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        234,
+        251
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselungsprobleme im medizinischen Datenverschl\u00fcsselungssystem\n\nSehr geehrte Kundensupport, wir melden einen unerwarteten Verschl\u00fcsselungsfehler in unserem medizinischen Datenverschl\u00fcsselungssystem You can reach me at [email].. Das Problem k\u00f6nnte durch veraltete Softwarekompatibilit\u00e4tsprobleme entstehen. Obwohl wir die Server neu gestartet und Evernote aktualisiert haben, beh\u00e4lt sich das Problem best\u00e4ndigerweise bei. Wir ben\u00f6tigen dringend Ihre Hilfe, um dieses Problem zu beheben und die Sicherheit unserer medizinischen Daten zu gew\u00e4hrleisten. Bitte geben Sie uns die notwendigen Schritte an. Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung in dieser Angelegenheit. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

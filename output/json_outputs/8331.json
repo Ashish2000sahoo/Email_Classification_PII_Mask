@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Tools\n\nMany tools are no longer working My name is Fatima Al-Farsi.. There might be an integration or network issue. Try reconnecting, checking settings, and logging in/out. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        71,
+        80
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        216,
+        238
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Tools\n\nMany tools are no longer working My name is [full_name]-Farsi.. There might be an integration or network issue. Try reconnecting, checking settings, and logging in/out. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

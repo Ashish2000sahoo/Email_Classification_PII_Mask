@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Reporting a Security Incident\n\nCustomer Support, preparing a report on a security incident involving hospital systems. An unauthorized access attempt was detected, posing a risk to the security of medical data. The incident might have occurred due to a misconfigured firewall or a phishing attack My name is David Kim.. Actions taken include updating passwords, reviewing access logs, and tightening firewall settings, but the issues persist You can reach me at elena.ivanova@support.org.. Kindly request assistance in investigating and resolving the matter to ensure the security of medical data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        485,
+        510
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support for Reporting a Security Incident\n\nCustomer Support, preparing a report on a security incident involving hospital systems. An unauthorized access attempt was detected, posing a risk to the security of medical data. The incident might have occurred due to a misconfigured firewall or a phishing attack My name is [full_name].. Actions taken include updating passwords, reviewing access logs, and tightening firewall settings, but the issues persist You can reach me at [email].. Kindly request assistance in investigating and resolving the matter to ensure the security of medical data.",
+  "category_of_the_email": "Incident"
+}

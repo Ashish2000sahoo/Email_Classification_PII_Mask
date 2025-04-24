@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Major Service Outage\n\nA significant service outage has affected multiple products, including Magento and QuickBooks. It might be due to recent system updates or network issues You can reach me at sophia.rossi@service.it.. We have restarted the affected services and monitored the network health, but the problem still persists My name is John Doe.. Our team is working diligently to resolve the issue and prevent future occurrences. We apologize for any inconvenience caused and appreciate your patience as we work to restore full functionality.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        357,
+        365
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        215,
+        238
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Report on Major Service Outage\n\nA significant service outage has affected multiple products, including Magento and QuickBooks. It might be due to recent system updates or network issues You can reach me at [email].. We have restarted the affected services and monitored the network health, but the problem still persists My name is [full_name].. Our team is working diligently to resolve the issue and prevent future occurrences. We apologize for any inconvenience caused and appreciate your patience as we work to restore full functionality.",
+  "category_of_the_email": "Incident"
+}

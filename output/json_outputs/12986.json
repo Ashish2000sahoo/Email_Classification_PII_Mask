@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice, ich schreibe im Zusammenhang mit Informationen zur Sicherung medizinischer Daten in der Red Enterprise Linux IT-Infrastruktur f\u00fcr Krankenh\u00e4user. K\u00f6nnten Sie Details zu den besten Praktiken und Sicherheitsma\u00dfnahmen zur Gew\u00e4hrleistung der Vertraulichkeit und Integrit\u00e4t von Patientendaten liefern?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        357,
+        373
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice, ich schreibe im Zusammenhang mit Informationen zur Sicherung medizinischer Daten in der Red Enterprise Linux IT-Infrastruktur f\u00fcr Krankenh\u00e4user. K\u00f6nnten Sie Details zu den besten Praktiken und Sicherheitsma\u00dfnahmen zur Gew\u00e4hrleistung der Vertraulichkeit und Integrit\u00e4t von Patientendaten liefern?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

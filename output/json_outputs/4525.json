@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice, wir m\u00f6chten Ihnen melden, dass wir bei unserem IT-System schwerwiegende Fehler bei den Krankenakten des Krankenhauses festgestellt haben You can reach me at omar.hassan@secure.net.. Kurz vor der Nachricht die Ereignis, haben wir eine Datenverletzung erlebt, bei der sensible Informationen preisgegeben wurden. Vorl\u00e4ufige Untersuchungen deuten darauf hin, dass der Fehler m\u00f6glicherweise durch veraltete Sicherheitsprotokolle verursacht wurde. Wir haben bereits Ma\u00dfnahmen ergriffen, indem wir Systemprotokolle \u00fcberpr\u00fcft und die Software aktualisiert haben My name is David Kim.. Trotz unserer Bem\u00fchungen bestehen jedoch immer noch Schwachstellen. Wir sind besorgt \u00fcber die m\u00f6glichen Konsequenzen und verbundenen Risiken.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        604,
+        613
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        196,
+        218
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice, wir m\u00f6chten Ihnen melden, dass wir bei unserem IT-System schwerwiegende Fehler bei den Krankenakten des Krankenhauses festgestellt haben You can reach me at [email].. Kurz vor der Nachricht die Ereignis, haben wir eine Datenverletzung erlebt, bei der sensible Informationen preisgegeben wurden. Vorl\u00e4ufige Untersuchungen deuten darauf hin, dass der Fehler m\u00f6glicherweise durch veraltete Sicherheitsprotokolle verursacht wurde. Wir haben bereits Ma\u00dfnahmen ergriffen, indem wir Systemprotokolle \u00fcberpr\u00fcft und die Software aktualisiert haben My name is [full_name].. Trotz unserer Bem\u00fchungen bestehen jedoch immer noch Schwachstellen. Wir sind besorgt \u00fcber die m\u00f6glichen Konsequenzen und verbundenen Risiken.",
+  "category_of_the_email": "Incident"
+}

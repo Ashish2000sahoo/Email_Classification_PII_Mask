@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Unpaid Invoices and Configuration\n\nRespected Customer Support, I am contacting you to address the issue with my outstanding invoices for various products. The error seems to stem from an incorrect configuration of the payment gateway You can reach me at omar.hassan@secure.net.. Having reviewed my account details and payment history, I am still experiencing problems. Kindly examine this situation and offer a resolution at your earliest convenience. If any further information is required from me, please inform me so that we can address this issue promptly. I eagerly await your response. Thank you for your attention and help My name is Sophia Rossi.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        663,
+        675
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        276,
+        298
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Unpaid Invoices and Configuration\n\nRespected Customer Support, I am contacting you to address the issue with my outstanding invoices for various products. The error seems to stem from an incorrect configuration of the payment gateway You can reach me at [email].. Having reviewed my account details and payment history, I am still experiencing problems. Kindly examine this situation and offer a resolution at your earliest convenience. If any further information is required from me, please inform me so that we can address this issue promptly. I eagerly await your response. Thank you for your attention and help My name is [full_name].. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

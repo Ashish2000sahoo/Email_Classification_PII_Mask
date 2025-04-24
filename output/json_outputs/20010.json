@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for software development consultation and server admin advice\n\nDear Customer Support,\n\nI hope this message finds you well. My name is <name>, and I am reaching out regarding recurring system instability issues we have been experiencing My name is Jane Smith.. We are currently subscribed to your IT Consulting Service, and I believe we require a software development consultation and server administration advice to address these problems effectively. Could you please guide us on how to proceed with scheduling a consultation at your earliest convenience? You can reach me via email or contact me at <tel_num>. Your prompt assistance is greatly appreciated, as these issues are affecting our business operations.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        274
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        821,
+        838
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for software development consultation and server admin advice\n\nDear Customer Support,\n\nI hope this message finds you well. My name is <name>, and I am reaching out regarding recurring system instability issues we have been experiencing My name is [full_name].. We are currently subscribed to your IT Consulting Service, and I believe we require a software development consultation and server administration advice to address these problems effectively. Could you please guide us on how to proceed with scheduling a consultation at your earliest convenience? You can reach me via email or contact me at <tel_num>. Your prompt assistance is greatly appreciated, as these issues are affecting our business operations.\n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

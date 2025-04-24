@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Integrations\n\nCurrently facing integration challenges across various platforms, such as Microsoft Teams and GitHub. The recent updates and API modifications might be the cause. We have attempted to reconnect and verified the API keys, but these actions have not been successful. We would greatly appreciate your assistance in resolving this issue. Please provide us with the steps you have taken so far and any error messages you are encountering You can reach me at janesmith@company.com.. Additionally, it would be helpful to know the specific API changes that have occurred recently. We can schedule a call at your convenience to discuss the issue and provide a tailored solution My name is Sophia Rossi.. Please inform us of a suitable time for the call at <tel_num>, and we will proceed with the troubleshooting process for account <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        717,
+        729
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        490,
+        511
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Integrations\n\nCurrently facing integration challenges across various platforms, such as Microsoft Teams and GitHub. The recent updates and API modifications might be the cause. We have attempted to reconnect and verified the API keys, but these actions have not been successful. We would greatly appreciate your assistance in resolving this issue. Please provide us with the steps you have taken so far and any error messages you are encountering You can reach me at [email].. Additionally, it would be helpful to know the specific API changes that have occurred recently. We can schedule a call at your convenience to discuss the issue and provide a tailored solution My name is [full_name].. Please inform us of a suitable time for the call at <tel_num>, and we will proceed with the troubleshooting process for account <acc_num>.",
+  "category_of_the_email": "Incident"
+}

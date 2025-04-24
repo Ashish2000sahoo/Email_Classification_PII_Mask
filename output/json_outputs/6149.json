@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: M\u00f6gliche Verbindungsst\u00f6rungen bei Smart-Home-Ger\u00e4ten\n\nEs scheint, dass Sie Verbindungsprobleme mit Ihren Smart-Home-Ger\u00e4ten haben. Es k\u00f6nnte sein, dass die neueste Software-Aktualisierung die Ursache ist My name is Carlos Mendoza.. Bitte versuchen Sie, die Ger\u00e4te zu neustarten und Ihre Netzwerkeinstellungen zu \u00fcberpr\u00fcfen. Wenn das Problem weiterhin besteht, m\u00f6chte ich es genauer untersuchen, um es zu l\u00f6sen You can reach me at david.kim@corp.kr.. K\u00f6nnten Sie mir bitte mehr Informationen zu der Software-Aktualisierung geben, die Sie installiert haben, und den genauen Fehlerhinweis? Zudem w\u00e4re es hilfreich, wenn Sie die Marke und den Modellnamen der betroffenen Ger\u00e4te nennen k\u00f6nnten. Falls es hilfreich w\u00e4re, k\u00f6nnen wir einen weiteren Termin vereinbaren, um das Problem zu besprechen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        436,
+        453
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: M\u00f6gliche Verbindungsst\u00f6rungen bei Smart-Home-Ger\u00e4ten\n\nEs scheint, dass Sie Verbindungsprobleme mit Ihren Smart-Home-Ger\u00e4ten haben. Es k\u00f6nnte sein, dass die neueste Software-Aktualisierung die Ursache ist My name is [full_name].. Bitte versuchen Sie, die Ger\u00e4te zu neustarten und Ihre Netzwerkeinstellungen zu \u00fcberpr\u00fcfen. Wenn das Problem weiterhin besteht, m\u00f6chte ich es genauer untersuchen, um es zu l\u00f6sen You can reach me at [email].. K\u00f6nnten Sie mir bitte mehr Informationen zu der Software-Aktualisierung geben, die Sie installiert haben, und den genauen Fehlerhinweis? Zudem w\u00e4re es hilfreich, wenn Sie die Marke und den Modellnamen der betroffenen Ger\u00e4te nennen k\u00f6nnten. Falls es hilfreich w\u00e4re, k\u00f6nnen wir einen weiteren Termin vereinbaren, um das Problem zu besprechen.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Data Security Issue\n\nA data loss has been discovered, and sensitive medical information might have been exposed. This issue could be due to software vulnerabilities or incorrect configuration. Attempts have been made to update security software and review event logs for anomalies. However, additional support is needed to secure the system and prevent future breaches You can reach me at david.kim@corp.kr.. Please share the necessary steps required. I look forward to your prompt action and feedback. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        535,
+        542
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        410,
+        427
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Security Issue\n\nA data loss has been discovered, and sensitive medical information might have been exposed. This issue could be due to software vulnerabilities or incorrect configuration. Attempts have been made to update security software and review event logs for anomalies. However, additional support is needed to secure the system and prevent future breaches You can reach me at [email].. Please share the necessary steps required. I look forward to your prompt action and feedback. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

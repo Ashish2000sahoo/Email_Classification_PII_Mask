@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Integration of Ubiquiti UniFi Dream Machine SaaS\n\nI write to confirm the issue with the integration of the Ubiquiti UniFi Dream Machine SaaS. Apologies for any inconvenience caused My name is Sophia Rossi.. To better assist, could you please provide more details on the connection issues and the steps you have already taken to research the problem? Additionally, it would be helpful to know the version of the UniFi Dream Machine SaaS platform you are using. Please call at <tel_num> to discuss further steps at a convenient time. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        219,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        578,
+        595
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Integration of Ubiquiti UniFi Dream Machine SaaS\n\nI write to confirm the issue with the integration of the Ubiquiti UniFi Dream Machine SaaS. Apologies for any inconvenience caused My name is [full_name].. To better assist, could you please provide more details on the connection issues and the steps you have already taken to research the problem? Additionally, it would be helpful to know the version of the UniFi Dream Machine SaaS platform you are using. Please call at <tel_num> to discuss further steps at a convenient time. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

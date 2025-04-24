@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Help Needed for Surface Pro 7 Setup\n\nHi Tech Online Store Support,\n\nCould you assist me in setting up the detachable keyboard and configuring the touchscreen features on my Microsoft Surface Pro 7? I am having trouble with both functionalities. Thank you for your assistance.\n\nBest regards,\n<name>. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        344
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Help Needed for Surface Pro 7 Setup\n\nHi Tech Online Store Support,\n\nCould you assist me in setting up the detachable keyboard and configuring the touchscreen features on my Microsoft Surface Pro 7? I am having trouble with both functionalities. Thank you for your assistance.\n\nBest regards,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

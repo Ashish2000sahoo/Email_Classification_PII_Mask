@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Investment-Optimierungstool\n\nSehr geehrte Kundenservice, ich m\u00f6chte melden, dass ich seit einigen Tagen Probleme mit dem Investment-Optimierungstool habe. Im Gipfelzeiten des Datenverkehrs h\u00e4lt sich das Tool stagniert You can reach me at janesmith@company.com.. Ich habe versucht, das Problem zu l\u00f6sen, indem ich die Programmneuinstallation durchgef\u00fchrt und die Datenbankabfragen optimiert habe. Trotz dieser Ma\u00dfnahmen beh\u00e4lt das Problem bestehen. Trotz meiner Bem\u00fchungen ist die Leistung des Tools immer noch langsam. Ich freue mich, wenn Sie die L\u00f6sung des Problems schnellstm\u00f6glich bereitstellen k\u00f6nnen. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        728,
+        737
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        264,
+        285
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Investment-Optimierungstool\n\nSehr geehrte Kundenservice, ich m\u00f6chte melden, dass ich seit einigen Tagen Probleme mit dem Investment-Optimierungstool habe. Im Gipfelzeiten des Datenverkehrs h\u00e4lt sich das Tool stagniert You can reach me at [email].. Ich habe versucht, das Problem zu l\u00f6sen, indem ich die Programmneuinstallation durchgef\u00fchrt und die Datenbankabfragen optimiert habe. Trotz dieser Ma\u00dfnahmen beh\u00e4lt das Problem bestehen. Trotz meiner Bem\u00fchungen ist die Leistung des Tools immer noch langsam. Ich freue mich, wenn Sie die L\u00f6sung des Problems schnellstm\u00f6glich bereitstellen k\u00f6nnen. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

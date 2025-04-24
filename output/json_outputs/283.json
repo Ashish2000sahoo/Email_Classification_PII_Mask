@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improvement in MongoDB 4.4 for Marketing Analytics\n\nHello, we are in need of some guidance on optimizing the use of MongoDB 4.4 for our marketing analytics. Our team stores and analyzes large volumes of customer data, and we believe there are ways to enhance our workflow and gain deeper insights from the data My name is Fatima Al-Farsi.. Could you provide some recommendations on how to best utilize MongoDB's features, such as indexing and aggregation, to improve query performance and our data analysis capabilities? We are particularly interested in learning about best practices for data modeling and schema design in MongoDB. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        331,
+        340
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        664,
+        685
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Improvement in MongoDB 4.4 for Marketing Analytics\n\nHello, we are in need of some guidance on optimizing the use of MongoDB 4.4 for our marketing analytics. Our team stores and analyzes large volumes of customer data, and we believe there are ways to enhance our workflow and gain deeper insights from the data My name is [full_name]-Farsi.. Could you provide some recommendations on how to best utilize MongoDB's features, such as indexing and aggregation, to improve query performance and our data analysis capabilities? We are particularly interested in learning about best practices for data modeling and schema design in MongoDB. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

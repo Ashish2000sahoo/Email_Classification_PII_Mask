@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digital Marketing Assistance\n\nHello Customer Support Team, I am in need of your assistance regarding the failure of our digital marketing campaigns to connect with our intended audience. We suspect that this problem might be due to an error in the CRM integration. We have already restarted Zoho and checked the settings in Notion, but the situation continues to be unresolved My name is Liu Wei.. We would be greatly thankful for any help in resolving this matter. If there is any more information you need or if you have any suggestions on how to proceed with troubleshooting, please let us know You can reach me at carlosm@gmail.com.. We are looking forward to getting our campaigns operational and thank you for your assistance. Kind regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        397,
+        404
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        631,
+        648
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Digital Marketing Assistance\n\nHello Customer Support Team, I am in need of your assistance regarding the failure of our digital marketing campaigns to connect with our intended audience. We suspect that this problem might be due to an error in the CRM integration. We have already restarted Zoho and checked the settings in Notion, but the situation continues to be unresolved My name is [full_name].. We would be greatly thankful for any help in resolving this matter. If there is any more information you need or if you have any suggestions on how to proceed with troubleshooting, please let us know You can reach me at [email].. We are looking forward to getting our campaigns operational and thank you for your assistance. Kind regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

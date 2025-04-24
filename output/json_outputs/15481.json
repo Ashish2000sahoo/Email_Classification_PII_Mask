@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsprobleme im Krankenhaus-IT-System gemeldet\n\nLieber Kundensupport, ich melde eine ernste Sicherheitsverletzung im Krankenhaus-IT-System My name is Maria Gonzalez.. Es wurde unerlaubtes Zugriffsmoment festgestellt, was die Sicherheit der medizinischen Daten gef\u00e4hrdet hat. Die Verletzung ist vermutlich aufgrund eines Phishing-Versuchs \u00fcber einen Systemschwachpunkt eingetreten. Wir haben bereits Ma\u00dfnahmen der Firewall-Optimierung ergriffen und eine vorl\u00e4ufige Systempr\u00fcfung durchgef\u00fchrt, um Bedrohungen zu eliminieren You can reach me at janesmith@company.com.. Allerdings ben\u00f6tigen wir weitere Unterst\u00fctzung, um die Sicherheit des Systems zuk\u00fcnftig zu gew\u00e4hrleisten und Verletzungen zu verhindern. Bitte geben Sie Anweisungen f\u00fcr die n\u00e4chsten Schritte und rufen Sie uns an, um dar\u00fcber zu sprechen. Ich freue mich auf Ihre rasche Aufmerksamkeit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        555,
+        576
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsprobleme im Krankenhaus-IT-System gemeldet\n\nLieber Kundensupport, ich melde eine ernste Sicherheitsverletzung im Krankenhaus-IT-System My name is [full_name].. Es wurde unerlaubtes Zugriffsmoment festgestellt, was die Sicherheit der medizinischen Daten gef\u00e4hrdet hat. Die Verletzung ist vermutlich aufgrund eines Phishing-Versuchs \u00fcber einen Systemschwachpunkt eingetreten. Wir haben bereits Ma\u00dfnahmen der Firewall-Optimierung ergriffen und eine vorl\u00e4ufige Systempr\u00fcfung durchgef\u00fchrt, um Bedrohungen zu eliminieren You can reach me at [email].. Allerdings ben\u00f6tigen wir weitere Unterst\u00fctzung, um die Sicherheit des Systems zuk\u00fcnftig zu gew\u00e4hrleisten und Verletzungen zu verhindern. Bitte geben Sie Anweisungen f\u00fcr die n\u00e4chsten Schritte und rufen Sie uns an, um dar\u00fcber zu sprechen. Ich freue mich auf Ihre rasche Aufmerksamkeit.",
+  "category_of_the_email": "Incident"
+}

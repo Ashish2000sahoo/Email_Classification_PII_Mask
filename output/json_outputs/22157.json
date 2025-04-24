@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versp\u00e4tung bei der Lieferung des Lenovo IdeaPad 5\n\nSehr geehrte/r <name>,\n\nich kontaktiere Sie, um Sie \u00fcber eine Verz\u00f6gerung bei der Lieferung Ihres Lenovo IdeaPad 5 zu benachrichtigen. Wir bedauern die Unannehmlichkeiten und setzen alles daran, dieses Problem so schnell wie m\u00f6glich zu beheben You can reach me at omar.hassan@secure.net.. Vielen Dank f\u00fcr Ihre Geduld. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        389,
+        402
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        324,
+        346
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Versp\u00e4tung bei der Lieferung des Lenovo IdeaPad 5\n\nSehr geehrte/r <name>,\n\nich kontaktiere Sie, um Sie \u00fcber eine Verz\u00f6gerung bei der Lieferung Ihres Lenovo IdeaPad 5 zu benachrichtigen. Wir bedauern die Unannehmlichkeiten und setzen alles daran, dieses Problem so schnell wie m\u00f6glich zu beheben You can reach me at [email].. Vielen Dank f\u00fcr Ihre Geduld. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme beim Synchronisieren von Projektterminpl\u00e4nen\n\nSehr geehrte Kundensupport, ich m\u00f6chte Ihnen ein Problem mit der Projektterminplan-Synchronisierung melden. Daraus haben Verschiedenheiten in unserer Projektverwaltung resultiert. Dies k\u00f6nnte auf eine API-Schl\u00fcsselungleichheit hindeuten, da ich festgestellt habe, dass die API-Schl\u00fcssel nicht korrekt in allen Integrationsplattformen aktualisiert wurden You can reach me at liuwei@business.cn.. Ich habe bereits die Dienste neu gestartet und die Zugangsdaten \u00fcberpr\u00fcft, aber das Problem beharrt trotzdem. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und eine L\u00f6sung anbieten k\u00f6nnten. Bitte teilen Sie mich mit, wenn Sie weitere Informationen ben\u00f6tigen. Ich stehe Ihnen zur Verf\u00fcgung, um alle zus\u00e4tzlichen Details oder Kontextinformationen bereitzustellen, die notwendig sind, um das Problem zu l\u00f6sen My name is Jane Smith.. Vielen Dank f\u00fcr Ihre Geduld und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        898,
+        908
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        438,
+        456
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme beim Synchronisieren von Projektterminpl\u00e4nen\n\nSehr geehrte Kundensupport, ich m\u00f6chte Ihnen ein Problem mit der Projektterminplan-Synchronisierung melden. Daraus haben Verschiedenheiten in unserer Projektverwaltung resultiert. Dies k\u00f6nnte auf eine API-Schl\u00fcsselungleichheit hindeuten, da ich festgestellt habe, dass die API-Schl\u00fcssel nicht korrekt in allen Integrationsplattformen aktualisiert wurden You can reach me at [email].. Ich habe bereits die Dienste neu gestartet und die Zugangsdaten \u00fcberpr\u00fcft, aber das Problem beharrt trotzdem. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und eine L\u00f6sung anbieten k\u00f6nnten. Bitte teilen Sie mich mit, wenn Sie weitere Informationen ben\u00f6tigen. Ich stehe Ihnen zur Verf\u00fcgung, um alle zus\u00e4tzlichen Details oder Kontextinformationen bereitzustellen, die notwendig sind, um das Problem zu l\u00f6sen My name is [full_name].. Vielen Dank f\u00fcr Ihre Geduld und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

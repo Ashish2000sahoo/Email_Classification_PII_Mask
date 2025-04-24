@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Microsoft Surface Pro 7 Screen Flickering\n\nDear Tech Online Store Customer Support,\n\nI am writing to report a persistent screen flickering issue with my new Microsoft Surface Pro 7. This problem is severely affecting my ability to perform high-priority tasks efficiently, and it occurs frequently enough to be a major concern You can reach me at david.kim@corp.kr.. I kindly request your guidance on how to resolve this issue or any available support for a potential replacement.\n\nThank you for your prompt assistance.\n\nBest regards,\n\n<name>\n\n<email> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        582,
+        596
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        366,
+        383
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Microsoft Surface Pro 7 Screen Flickering\n\nDear Tech Online Store Customer Support,\n\nI am writing to report a persistent screen flickering issue with my new Microsoft Surface Pro 7. This problem is severely affecting my ability to perform high-priority tasks efficiently, and it occurs frequently enough to be a major concern You can reach me at [email].. I kindly request your guidance on how to resolve this issue or any available support for a potential replacement.\n\nThank you for your prompt assistance.\n\nBest regards,\n\n<name>\n\n<email> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

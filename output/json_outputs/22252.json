@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de red de la empresa\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEstoy escribiendo para informar un problema con nuestro enrutador Cisco ISR4331 en nuestra sede. Estamos experimentando cortes de conexi\u00f3n intermitentes que est\u00e1n interrumpiendo frecuentemente las actividades de la red de nuestra empresa. Este problema se ha vuelto cada vez m\u00e1s problem\u00e1tico, afectando nuestras operaciones diarias y causando inconvenientes significativos My name is Omar Hassan.. Nuestro departamento de TI ha verificado que el problema no proviene de nuestro lado. Apreciar\u00edamos que su equipo nos proporcionara una soluci\u00f3n o sugiriera los pr\u00f3ximos pasos para la soluci\u00f3n de problemas You can reach me at carlosm@gmail.com.. Su pronta atenci\u00f3n a este asunto ser\u00eda muy apreciada.\n\nGracias,\n<name>\nDepartamento de TI\n<name> Ltd.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        467,
+        478
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        707,
+        724
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        158,
+        162
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Problema de red de la empresa\n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEstoy escribiendo para informar un problema con nuestro enrutador Cisco ISR[phone_number] en nuestra sede. Estamos experimentando cortes de conexi\u00f3n intermitentes que est\u00e1n interrumpiendo frecuentemente las actividades de la red de nuestra empresa. Este problema se ha vuelto cada vez m\u00e1s problem\u00e1tico, afectando nuestras operaciones diarias y causando inconvenientes significativos My name is [full_name].. Nuestro departamento de TI ha verificado que el problema no proviene de nuestro lado. Apreciar\u00edamos que su equipo nos proporcionara una soluci\u00f3n o sugiriera los pr\u00f3ximos pasos para la soluci\u00f3n de problemas You can reach me at [email].. Su pronta atenci\u00f3n a este asunto ser\u00eda muy apreciada.\n\nGracias,\n<name>\nDepartamento de TI\n<name> Ltd.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Login Issues\n\nLogin difficulties on the Project Management SaaS platform during peak times. Users are unable to log in due to potential server load. Tried restarting the server and optimizing database queries, but the issue persists You can reach me at maria.gonzalez@shop.es.. The problem has been ongoing for several days. Server logs show login errors when multiple users attempt to log in simultaneously My name is Sophia Rossi.. Thank you for your assistance; we will look into this matter and provide a solution as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        440
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        262,
+        284
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Login Issues\n\nLogin difficulties on the Project Management SaaS platform during peak times. Users are unable to log in due to potential server load. Tried restarting the server and optimizing database queries, but the issue persists You can reach me at [email].. The problem has been ongoing for several days. Server logs show login errors when multiple users attempt to log in simultaneously My name is [full_name].. Thank you for your assistance; we will look into this matter and provide a solution as soon as possible.",
+  "category_of_the_email": "Incident"
+}

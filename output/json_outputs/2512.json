@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry Into Investment Optimization Services\n\nHello Customer Support, I have reached out to gather information on the data analytics tools you supply for investment optimization. Could you please furnish me with a list of the tools and platforms used to assess investment data and optimize portfolios? I am especially eager to learn more about your risk management and portfolio optimization services You can reach me at fatima.farsi@help.com.. Moreover, could you tell me if you provide any machine learning or AI-based solutions for investment optimization? Also, I would greatly appreciate any case studies or examples of how your data analytics tools have enabled clients to meet their investment objectives. Thank you for your time and support. I anticipate your prompt response My name is Jane Smith.. Kind regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        805,
+        815
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        431,
+        452
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry Into Investment Optimization Services\n\nHello Customer Support, I have reached out to gather information on the data analytics tools you supply for investment optimization. Could you please furnish me with a list of the tools and platforms used to assess investment data and optimize portfolios? I am especially eager to learn more about your risk management and portfolio optimization services You can reach me at [email].. Moreover, could you tell me if you provide any machine learning or AI-based solutions for investment optimization? Also, I would greatly appreciate any case studies or examples of how your data analytics tools have enabled clients to meet their investment objectives. Thank you for your time and support. I anticipate your prompt response My name is [full_name].. Kind regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

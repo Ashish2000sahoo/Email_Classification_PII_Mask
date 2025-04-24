@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung bei der Jira HR-Integration\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, um Hilfe bei der Integration von Jira Software 8.20 zu bitten, um HR-Aufgaben zu verwalten und die arbeitsbezogenen Abl\u00e4ufe effizient zu optimieren You can reach me at elena.ivanova@support.org.. Unser Ziel ist es, die Produktivit\u00e4t zu steigern und einen reibungslosen Ablauf bei der Bearbeitung von HR-Prozessen sicherzustellen.\n\nK\u00f6nnten Sie bitte Hinweise zu den besten Praktiken f\u00fcr die Einrichtung dieser Integration geben? Au\u00dferdem, falls spezifische Konfigurationen ben\u00f6tigt werden, teilen Sie bitte pr\u00e4zise Details mit, die hilfreich sein k\u00f6nnten.\n\nIhre Expertise und Unterst\u00fctzung in dieser Angelegenheit w\u00e4ren sehr gesch\u00e4tzt.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<company>\n<tel_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        863,
+        872
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        331,
+        356
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung bei der Jira HR-Integration\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, um Hilfe bei der Integration von Jira Software 8.20 zu bitten, um HR-Aufgaben zu verwalten und die arbeitsbezogenen Abl\u00e4ufe effizient zu optimieren You can reach me at [email].. Unser Ziel ist es, die Produktivit\u00e4t zu steigern und einen reibungslosen Ablauf bei der Bearbeitung von HR-Prozessen sicherzustellen.\n\nK\u00f6nnten Sie bitte Hinweise zu den besten Praktiken f\u00fcr die Einrichtung dieser Integration geben? Au\u00dferdem, falls spezifische Konfigurationen ben\u00f6tigt werden, teilen Sie bitte pr\u00e4zise Details mit, die hilfreich sein k\u00f6nnten.\n\nIhre Expertise und Unterst\u00fctzung in dieser Angelegenheit w\u00e4ren sehr gesch\u00e4tzt.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<company>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

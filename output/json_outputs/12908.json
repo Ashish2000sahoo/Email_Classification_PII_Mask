@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung medizinischer Daten in PostgreSQL 13\n\nK\u00f6nnten Informationen zur Verschl\u00fcsselung medizinischer Daten in PostgreSQL 13 f\u00fcr Krankenhaus-IT-Umgebungen bereitgestellt werden? Interessiert an besten Praktiken f\u00fcr die Gew\u00e4hrleistung des Schutzes von vertraulichen Patientendaten und der Einhaltung von Vorschriften. Schl\u00fcssel\u00fcberlegungen zum Schutz medizinischer Daten in Krankenh\u00e4usern?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        443
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung medizinischer Daten in PostgreSQL 13\n\nK\u00f6nnten Informationen zur Verschl\u00fcsselung medizinischer Daten in PostgreSQL 13 f\u00fcr Krankenhaus-IT-Umgebungen bereitgestellt werden? Interessiert an besten Praktiken f\u00fcr die Gew\u00e4hrleistung des Schutzes von vertraulichen Patientendaten und der Einhaltung von Vorschriften. Schl\u00fcssel\u00fcberlegungen zum Schutz medizinischer Daten in Krankenh\u00e4usern?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

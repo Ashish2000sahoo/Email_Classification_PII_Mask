@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenges in Digital Strategy Implementation\n\nOur agency is facing issues with the implementation of the digital strategy, which is impacting brand growth. There might be a lack of proper integration tools such as HubSpot and Kubernetes. We have attempted to clean up HubSpot CRM to ensure the software is up-to-date, but the problem persists You can reach me at liuwei@business.cn.. We believe that correcting the integration tools might be necessary and would appreciate advice on this. Please arrange a call at <tel_num> to discuss the best approach, which will be determined by your <acc_num> account. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        627,
+        634
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        373,
+        391
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Challenges in Digital Strategy Implementation\n\nOur agency is facing issues with the implementation of the digital strategy, which is impacting brand growth. There might be a lack of proper integration tools such as HubSpot and Kubernetes. We have attempted to clean up HubSpot CRM to ensure the software is up-to-date, but the problem persists You can reach me at [email].. We believe that correcting the integration tools might be necessary and would appreciate advice on this. Please arrange a call at <tel_num> to discuss the best approach, which will be determined by your <acc_num> account. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

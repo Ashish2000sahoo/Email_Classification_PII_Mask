@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice, k\u00fcrzlich wurden ungew\u00f6hnliche Zugangskontrollversuche zu medizinischen IT-Systemen festgestellt, was m\u00f6gliche Sicherheitsl\u00fccken deutet. Trotz Analyse der Protokolle und St\u00e4rkung der Passw\u00f6rter bestehen immernoch Anzeichen eines unerlaubten Zugangs You can reach me at carlosm@gmail.com.. Wir ben\u00f6tigen Ihre Hilfe, um die Angelegenheit zu identifizieren und zu l\u00f6sen, um die Sicherheit unserer Systeme zu gew\u00e4hrleisten. Bitte geben Sie Anweisungen f\u00fcr die n\u00e4chsten Schritte und die Behebung der m\u00f6glichen Sicherheitsl\u00fccken. Vielen Dank f\u00fcr Ihre schnelle Auff\u00e4lligkeit dieser Angelegenheit. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        646
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        307,
+        324
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice, k\u00fcrzlich wurden ungew\u00f6hnliche Zugangskontrollversuche zu medizinischen IT-Systemen festgestellt, was m\u00f6gliche Sicherheitsl\u00fccken deutet. Trotz Analyse der Protokolle und St\u00e4rkung der Passw\u00f6rter bestehen immernoch Anzeichen eines unerlaubten Zugangs You can reach me at [email].. Wir ben\u00f6tigen Ihre Hilfe, um die Angelegenheit zu identifizieren und zu l\u00f6sen, um die Sicherheit unserer Systeme zu gew\u00e4hrleisten. Bitte geben Sie Anweisungen f\u00fcr die n\u00e4chsten Schritte und die Behebung der m\u00f6glichen Sicherheitsl\u00fccken. Vielen Dank f\u00fcr Ihre schnelle Auff\u00e4lligkeit dieser Angelegenheit. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

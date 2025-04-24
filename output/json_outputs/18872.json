@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit WhatsApp Desktop\n\nBei der Koordination von Marketing-Kampagnen und Telekonferenzen treten technische Probleme mit WhatsApp Desktop auf You can reach me at fatima.farsi@help.com.. Das Problem scheint durch Software-Aktualisierungen nicht behoben zu werden. Ich habe versucht, das Programm neu zu installieren und den Rechner neu zu starten, jedoch beh\u00e4lt das Problem nach wie vor bestand My name is David Kim.. Bitte helfen Sie mir, dieses Problem zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        429
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        177,
+        198
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit WhatsApp Desktop\n\nBei der Koordination von Marketing-Kampagnen und Telekonferenzen treten technische Probleme mit WhatsApp Desktop auf You can reach me at [email].. Das Problem scheint durch Software-Aktualisierungen nicht behoben zu werden. Ich habe versucht, das Programm neu zu installieren und den Rechner neu zu starten, jedoch beh\u00e4lt das Problem nach wie vor bestand My name is [full_name].. Bitte helfen Sie mir, dieses Problem zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

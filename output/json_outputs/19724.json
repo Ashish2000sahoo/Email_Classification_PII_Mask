@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on System Requirements for H2O.ai Integration\n\nHello Customer Support Team, I am writing to seek information on the system requirements for integrating H2O.ai into our project management SaaS. We are keen on utilizing H2O.ai's features to improve our project management platform and require assurance that our system aligns with the necessary specifications My name is Elena Ivanova.. Could you please furnish us with details regarding operating system compatibility, processor and memory specifications, and any additional software or dependencies required? We would also be grateful if you could share any documentation or guides to aid us in the integration process. Furthermore, are there any specific security protocols or configurations we ought to adhere to for a secure integration? We are eager to hear your response and explore opportunities for integrating H2O.ai into our project management SaaS. Thank you for your time and assistance. Best regards, [Your Name] You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        386,
+        399
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1010,
+        1035
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on System Requirements for H2O.ai Integration\n\nHello Customer Support Team, I am writing to seek information on the system requirements for integrating H2O.ai into our project management SaaS. We are keen on utilizing H2O.ai's features to improve our project management platform and require assurance that our system aligns with the necessary specifications My name is [full_name].. Could you please furnish us with details regarding operating system compatibility, processor and memory specifications, and any additional software or dependencies required? We would also be grateful if you could share any documentation or guides to aid us in the integration process. Furthermore, are there any specific security protocols or configurations we ought to adhere to for a secure integration? We are eager to hear your response and explore opportunities for integrating H2O.ai into our project management SaaS. Thank you for your time and assistance. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Performance Problem with Data Analytics Tool\n\nThe data analytics tool experiences sluggish performance during peak times.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Performance Problem with Data Analytics Tool\n\nThe data analytics tool experiences sluggish performance during peak times.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

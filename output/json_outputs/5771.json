@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am seeking guidance on how to secure medical data while using DaVinci Resolve and Adobe Effects for video editing and visual effects. It is crucial to ensure that sensitive medical information is properly protected. Could you please provide recommendations on best practices for securing medical data within these applications? I would greatly appreciate any advice or resources you can offer My name is John Doe.. Thank you for your time and assistance. I look forward to hearing from you soon. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        440,
+        448
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        555,
+        573
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am seeking guidance on how to secure medical data while using DaVinci Resolve and Adobe Effects for video editing and visual effects. It is crucial to ensure that sensitive medical information is properly protected. Could you please provide recommendations on best practices for securing medical data within these applications? I would greatly appreciate any advice or resources you can offer My name is [full_name].. Thank you for your time and assistance. I look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Seeking Assistance with Project Timelines\n\nHello Customer Support, I hope this message finds you well. I'm contacting you regarding an issue with project timelines that isn't syncing correctly between teams. This might be related to a recent update or an integration glitch. Despite restarting the system, reviewing settings, and clearing the cache, the problem continues My name is David Kim.. I would be very grateful if you could examine this situation and offer a resolution at your earliest convenience. Proper timeline synchronization is essential for our team's effectiveness and efficiency. Thank you for your attention and help. I await your prompt response You can reach me at omar.hassan@secure.net.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        392,
+        401
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        698,
+        720
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Seeking Assistance with Project Timelines\n\nHello Customer Support, I hope this message finds you well. I'm contacting you regarding an issue with project timelines that isn't syncing correctly between teams. This might be related to a recent update or an integration glitch. Despite restarting the system, reviewing settings, and clearing the cache, the problem continues My name is [full_name].. I would be very grateful if you could examine this situation and offer a resolution at your earliest convenience. Proper timeline synchronization is essential for our team's effectiveness and efficiency. Thank you for your attention and help. I await your prompt response You can reach me at [email].. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

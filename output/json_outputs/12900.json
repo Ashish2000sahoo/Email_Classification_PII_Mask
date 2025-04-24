@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Feed Interruption Today\n\nThe data feed has been interrupted, leading to a delay in investment insights. Potential reasons might be network connectivity problems or server overload You can reach me at maria.gonzalez@shop.es.. We have already restarted the servers, inspected the firewalls, and ensured the configurations are correct My name is Maria Gonzalez.. However, the issue still exists. Please assist us in resolving this matter promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        370,
+        384
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        227,
+        249
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Feed Interruption Today\n\nThe data feed has been interrupted, leading to a delay in investment insights. Potential reasons might be network connectivity problems or server overload You can reach me at [email].. We have already restarted the servers, inspected the firewalls, and ensured the configurations are correct My name is [full_name].. However, the issue still exists. Please assist us in resolving this matter promptly.",
+  "category_of_the_email": "Incident"
+}

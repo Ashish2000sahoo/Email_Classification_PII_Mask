@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHola,\n\nEstoy experimentando fluctuaciones en mi estado de cuenta de AWS y necesito claridad sobre este asunto My name is David Kim.. Parece que est\u00e1 afectado por el uso cambiante de servicios y las actualizaciones de auto-escalado relacionadas con el Servicio de Gesti\u00f3n de AWS You can reach me at maria.gonzalez@shop.es.. \u00bfPuedes ayudarme a entender estos cambios?\n\nGracias,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        141
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        311,
+        333
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nHola,\n\nEstoy experimentando fluctuaciones en mi estado de cuenta de AWS y necesito claridad sobre este asunto My name is [full_name].. Parece que est\u00e1 afectado por el uso cambiante de servicios y las actualizaciones de auto-escalado relacionadas con el Servicio de Gesti\u00f3n de AWS You can reach me at [email].. \u00bfPuedes ayudarme a entender estos cambios?\n\nGracias,\n<name>",
+  "category_of_the_email": "Request"
+}

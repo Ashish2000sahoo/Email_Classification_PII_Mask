@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Data Security Breach\n\nExperienced unauthorized access attempts to medical data stored on a Samsung EVO Select MicroSD. This may have occurred due to inadequate encryption and outdated security protocols. Steps taken to mitigate the issue include updating security settings with Avast Premium and reinforcing AWS access controls, as well as changing Moodle login credentials. Assistance is requested to ensure the security of the data My name is Maria Gonzalez.. Please provide details on the nature of the unauthorized access attempts and the current security protocols in place, and let's schedule a call to discuss this matter further. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        468,
+        482
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        678,
+        700
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concern About Data Security Breach\n\nExperienced unauthorized access attempts to medical data stored on a Samsung EVO Select MicroSD. This may have occurred due to inadequate encryption and outdated security protocols. Steps taken to mitigate the issue include updating security settings with Avast Premium and reinforcing AWS access controls, as well as changing Moodle login credentials. Assistance is requested to ensure the security of the data My name is [full_name].. Please provide details on the nature of the unauthorized access attempts and the current security protocols in place, and let's schedule a call to discuss this matter further. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

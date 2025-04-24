@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDas Investment-Optimierungs-Programm brach throughout die Verarbeitung gro\u00dfer Datens\u00e4tze ab, was m\u00f6glicherweise auf eine Datenbanklast \u00fcbersteigung zur\u00fcckzuf\u00fchren ist. Die Oracle-Datenbank wurde neu gestartet, und Speicherlecks wurden gepr\u00fcft.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        293
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: \n\nDas Investment-Optimierungs-Programm brach throughout die Verarbeitung gro\u00dfer Datens\u00e4tze ab, was m\u00f6glicherweise auf eine Datenbanklast \u00fcbersteigung zur\u00fcckzuf\u00fchren ist. Die Oracle-Datenbank wurde neu gestartet, und Speicherlecks wurden gepr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

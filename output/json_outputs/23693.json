@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringend: MySQL-Datenbankkonfigurationsproblem\n\nSehr geehrtes IT-Service-Support-Team, ich hoffe, es geht Ihnen gut. Ich schreibe, um dringend Hilfe bei einem Problem zu suchen, das ich bei der Konfiguration von MySQL-Version 8.0.30 festgestellt habe. Leider habe ich bei der Ausf\u00fchrung von Abfragen persisting Fehler. Trotz umfassender \u00dcberpr\u00fcfung der Konfigurationseinstellungen und der Einhaltung aller empfohlenen Praktiken bleiben die Fehler bestehen. Dieses Problem hat negative Auswirkungen auf unsere Abl\u00e4ufe, und wir ben\u00f6tigen sofortige technische Unterst\u00fctzung, um es zu l\u00f6sen. K\u00f6nnten Sie bitte einen Experten anfordern, der bei der Fehlersuche und Behebung des Problems hilft? Ich bin zuversichtlich, dass das Fachwissen Ihres Teams uns schnell dabei helfen wird, die Funktionalit\u00e4t unserer Datenbank wiederherzustellen You can reach me at janesmith@company.com.. Dar\u00fcber hinaus w\u00e4re es hilfreich, Anleitungen zur Verhinderung \u00e4hnlicher Probleme in der Zukunft zu erhalten. Ich freue mich auf Ihre schnelle Antwort My name is Fatima Al-Farsi.. Vielen Dank im Voraus f\u00fcr Ihre dringende Aufmerksamkeit f\u00fcr dieses Anliegen. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1047,
+        1056
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        861,
+        882
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        235,
+        241
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Dringend: MySQL-Datenbankkonfigurationsproblem\n\nSehr geehrtes IT-Service-Support-Team, ich hoffe, es geht Ihnen gut. Ich schreibe, um dringend Hilfe bei einem Problem zu suchen, das ich bei der Konfiguration von MySQL-Version [phone_number] festgestellt habe. Leider habe ich bei der Ausf\u00fchrung von Abfragen persisting Fehler. Trotz umfassender \u00dcberpr\u00fcfung der Konfigurationseinstellungen und der Einhaltung aller empfohlenen Praktiken bleiben die Fehler bestehen. Dieses Problem hat negative Auswirkungen auf unsere Abl\u00e4ufe, und wir ben\u00f6tigen sofortige technische Unterst\u00fctzung, um es zu l\u00f6sen. K\u00f6nnten Sie bitte einen Experten anfordern, der bei der Fehlersuche und Behebung des Problems hilft? Ich bin zuversichtlich, dass das Fachwissen Ihres Teams uns schnell dabei helfen wird, die Funktionalit\u00e4t unserer Datenbank wiederherzustellen You can reach me at [email].. Dar\u00fcber hinaus w\u00e4re es hilfreich, Anleitungen zur Verhinderung \u00e4hnlicher Probleme in der Zukunft zu erhalten. Ich freue mich auf Ihre schnelle Antwort My name is [full_name]-Farsi.. Vielen Dank im Voraus f\u00fcr Ihre dringende Aufmerksamkeit f\u00fcr dieses Anliegen. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Incident"
+}

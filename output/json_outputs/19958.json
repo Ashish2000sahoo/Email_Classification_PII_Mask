@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Data Encryption\n\nThe encryption of medical data has failed. A potential cause could be a false Node.js configuration issue My name is Elena Ivanova.. The server was restarted and Airtable logs were checked, but the problem persists You can reach me at fatima.farsi@help.com.. Assistance is required to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        172
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        275,
+        296
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Data Encryption\n\nThe encryption of medical data has failed. A potential cause could be a false Node.js configuration issue My name is [full_name].. The server was restarted and Airtable logs were checked, but the problem persists You can reach me at [email].. Assistance is required to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

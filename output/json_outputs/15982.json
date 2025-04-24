@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung medizinischer Daten - Einhaltung Vorschriften\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Anleitungen zur Sicherung von Outlook 2021 und Access sowie zur Einhaltung medizinischer Daten zu erhalten. K\u00f6nnten Sie mir detaillierte Informationen zur notwendigen Verfahrensweise geben, um sicherzustellen, dass unsere Systeme den erforderlichen Standards entsprechen? Es ist wichtig, dass sensible Patientendaten gesch\u00fctzt werden und dass die Software stets den neuesten Sicherheitspatches enth\u00e4lt. Bitte empfehlen Sie mir detaillierte Anweisungen und Ressourcen, die zus\u00e4tzliche Kenntnisse anbieten You can reach me at carlosm@gmail.com.. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        816,
+        825
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        650,
+        667
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        164,
+        168
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung medizinischer Daten - Einhaltung Vorschriften\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Anleitungen zur Sicherung von Outlook [phone_number] und Access sowie zur Einhaltung medizinischer Daten zu erhalten. K\u00f6nnten Sie mir detaillierte Informationen zur notwendigen Verfahrensweise geben, um sicherzustellen, dass unsere Systeme den erforderlichen Standards entsprechen? Es ist wichtig, dass sensible Patientendaten gesch\u00fctzt werden und dass die Software stets den neuesten Sicherheitspatches enth\u00e4lt. Bitte empfehlen Sie mir detaillierte Anweisungen und Ressourcen, die zus\u00e4tzliche Kenntnisse anbieten You can reach me at [email].. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

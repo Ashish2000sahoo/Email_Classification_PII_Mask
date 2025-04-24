@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mangelnde Investitionsprognosen aufgrund von ungenauen Dateneingaben. Neustart des Analyse-Systems nicht erfolgreich.\n\nIch habe Ihre Nachricht \u00fcber die nicht vorhandenen Investitionsprognosen aufgrund ungenauer Dateneingaben erhalten My name is Liu Wei.. Der Versuch, das Analyse-System neu zu starten, hat nicht geholfen You can reach me at sophia.rossi@service.it.. Bitte geben Sie mir mehr Details zu den fehlerhaften Prognosen und den Dateneingaben, damit ich diesen Fall weiter untersuchen kann.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        355,
+        378
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Mangelnde Investitionsprognosen aufgrund von ungenauen Dateneingaben. Neustart des Analyse-Systems nicht erfolgreich.\n\nIch habe Ihre Nachricht \u00fcber die nicht vorhandenen Investitionsprognosen aufgrund ungenauer Dateneingaben erhalten My name is [full_name].. Der Versuch, das Analyse-System neu zu starten, hat nicht geholfen You can reach me at [email].. Bitte geben Sie mir mehr Details zu den fehlerhaften Prognosen und den Dateneingaben, damit ich diesen Fall weiter untersuchen kann.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nNach dem letzten Update habe ich Probleme beim Einloggen. Es k\u00f6nnte sich um eine Konfigurationsunstimmigkeit handeln. Ich habe bereits versucht, das Problem durch Neustarten des Servers und Pr\u00fcfen der Logs zu l\u00f6sen, aber es beh\u00e4lt sich trotzdem bestehen. Ich w\u00fcrde mich freuen, bei der L\u00f6sung dieses Problems behilflich zu sein You can reach me at johndoe@email.com.. Bitte geben Sie mir Anweisungen, welche zus\u00e4tzlichen Schritte ich unternehmen kann, um das Problem zu beheben oder ob es eine dauerhafte L\u00f6sung gibt. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        540,
+        550
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        359,
+        376
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nNach dem letzten Update habe ich Probleme beim Einloggen. Es k\u00f6nnte sich um eine Konfigurationsunstimmigkeit handeln. Ich habe bereits versucht, das Problem durch Neustarten des Servers und Pr\u00fcfen der Logs zu l\u00f6sen, aber es beh\u00e4lt sich trotzdem bestehen. Ich w\u00fcrde mich freuen, bei der L\u00f6sung dieses Problems behilflich zu sein You can reach me at [email].. Bitte geben Sie mir Anweisungen, welche zus\u00e4tzlichen Schritte ich unternehmen kann, um das Problem zu beheben oder ob es eine dauerhafte L\u00f6sung gibt. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

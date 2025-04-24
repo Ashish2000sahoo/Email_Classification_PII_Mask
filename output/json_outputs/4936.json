@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nA financial firm is encountering software incompatibility problems following a recent system update You can reach me at sophia.rossi@service.it.. Reinstalling and updating the software may resolve the issue. To help troubleshoot the problem, could you please provide any error messages and specify which software is experiencing compatibility issues? Additionally, knowing your software and operating system versions would be helpful My name is Omar Hassan.. If needed, we can schedule a call at your convenience to discuss the issue and explore possible solutions. Please let us know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        456,
+        467
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        131,
+        154
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nA financial firm is encountering software incompatibility problems following a recent system update You can reach me at [email].. Reinstalling and updating the software may resolve the issue. To help troubleshoot the problem, could you please provide any error messages and specify which software is experiencing compatibility issues? Additionally, knowing your software and operating system versions would be helpful My name is [full_name].. If needed, we can schedule a call at your convenience to discuss the issue and explore possible solutions. Please let us know.",
+  "category_of_the_email": "Incident"
+}

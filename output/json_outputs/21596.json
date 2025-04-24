@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgente: Necesidad de optimizaci\u00f3n de costos\n\nEl Servicio de Gesti\u00f3n de AWS requiere atenci\u00f3n inmediata para la optimizaci\u00f3n de costos y el monitoreo de despliegues debido a cargos inesperadamente altos.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        251
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Necesidad de optimizaci\u00f3n de costos\n\nEl Servicio de Gesti\u00f3n de AWS requiere atenci\u00f3n inmediata para la optimizaci\u00f3n de costos y el monitoreo de despliegues debido a cargos inesperadamente altos.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

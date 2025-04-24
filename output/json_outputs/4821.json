@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Team Collaboration Tools Details Available\n\nI am contacting you to request information on the collaboration features and task tracking capabilities offered by your project management software as a service (SaaS). Could you kindly share more details about the tools and functionalities available for team collaboration and task management?. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        370,
+        386
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Team Collaboration Tools Details Available\n\nI am contacting you to request information on the collaboration features and task tracking capabilities offered by your project management software as a service (SaaS). Could you kindly share more details about the tools and functionalities available for team collaboration and task management?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

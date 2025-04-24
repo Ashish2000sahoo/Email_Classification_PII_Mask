@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDear customer support, I am interested in optimizing campaigns to enhance our brand's growth using RapidMiner and Adobe Photoshop. Could you provide information on how to leverage these tools to improve our brand's online presence and reach a wider audience? I would greatly appreciate any guidance or resources you can offer, and look forward to hearing from you soon.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        418
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear customer support, I am interested in optimizing campaigns to enhance our brand's growth using RapidMiner and Adobe Photoshop. Could you provide information on how to leverage these tools to improve our brand's online presence and reach a wider audience? I would greatly appreciate any guidance or resources you can offer, and look forward to hearing from you soon.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ncustomer support, expressing interest in improving security measures for medical data management systems to ensure compliance and protect patient information You can reach me at elena.ivanova@support.org.. emphasizes the importance of robust access controls and data encryption to prevent unauthorized access My name is John Doe.. requests a customized solution and asks for details on the current infrastructure to better address needs. requests a call to discuss further.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        331,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        189,
+        214
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\ncustomer support, expressing interest in improving security measures for medical data management systems to ensure compliance and protect patient information You can reach me at [email].. emphasizes the importance of robust access controls and data encryption to prevent unauthorized access My name is [full_name].. requests a customized solution and asks for details on the current infrastructure to better address needs. requests a call to discuss further.",
+  "category_of_the_email": "Change"
+}

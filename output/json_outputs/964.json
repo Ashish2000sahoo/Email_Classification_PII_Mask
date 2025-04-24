@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Investment Portfolio Not Updating Correctly Today\n\nThe portfolio is not updating. I tried restarting and reviewing the settings.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Investment Portfolio Not Updating Correctly Today\n\nThe portfolio is not updating. I tried restarting and reviewing the settings.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

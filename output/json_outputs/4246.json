@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei Systemzugriff\n\nZeitweise Probleme beim Zugriff auf gesch\u00fctzte medizinische Daten werden von Gesundheitsversorgungsanbietern beobachtet. Dies scheint auf neu eingef\u00fchrte Softwareupdates und Serveroverlast zur\u00fcckzuf\u00fchren sein. Versuche, um das Problem zu beheben, enthielten Neustarts der Server und \u00dcberpr\u00fcfungen der Netzwerkverbindungen You can reach me at liuwei@business.cn.. Trotz dieser Ma\u00dfnahmen bestehen weiterhin Probleme, was die Bef\u00fcrchtung aufrechterh\u00e4lt, dass die Versorgung der Patienten gef\u00e4hrdet sein k\u00f6nnte. Bitte bieten Sie Vorschl\u00e4ge zur L\u00f6sung des Problems und zur weiteren Behandlung des Problems an, um es so schnell wie m\u00f6glich zu l\u00f6sen. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        692,
+        706
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        379,
+        397
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei Systemzugriff\n\nZeitweise Probleme beim Zugriff auf gesch\u00fctzte medizinische Daten werden von Gesundheitsversorgungsanbietern beobachtet. Dies scheint auf neu eingef\u00fchrte Softwareupdates und Serveroverlast zur\u00fcckzuf\u00fchren sein. Versuche, um das Problem zu beheben, enthielten Neustarts der Server und \u00dcberpr\u00fcfungen der Netzwerkverbindungen You can reach me at [email].. Trotz dieser Ma\u00dfnahmen bestehen weiterhin Probleme, was die Bef\u00fcrchtung aufrechterh\u00e4lt, dass die Versorgung der Patienten gef\u00e4hrdet sein k\u00f6nnte. Bitte bieten Sie Vorschl\u00e4ge zur L\u00f6sung des Problems und zur weiteren Behandlung des Problems an, um es so schnell wie m\u00f6glich zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

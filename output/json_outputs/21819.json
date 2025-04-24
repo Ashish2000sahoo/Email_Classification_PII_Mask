@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent : Probl\u00e8me de surchauffe avec le Dell XPS 13\n\nCher service client de Tech Online Store,\n\nJ'esp\u00e8re que ce message vous trouvera en bonne sant\u00e9. Je vous \u00e9cris pour vous informer d'un probl\u00e8me que je rencontre avec mon ordinateur portable Dell XPS 13 9310, que j'ai achet\u00e9 dans votre magasin. L'ordinateur portable a tendance \u00e0 surchauffer lors d'une utilisation normale, ce qui entra\u00eene une d\u00e9gradation significative des performances My name is Jane Smith.. Ce probl\u00e8me a commenc\u00e9 il y a environ deux semaines et a progressivement empir\u00e9.\n\nLe num\u00e9ro de mod\u00e8le de l'ordinateur portable est Dell XPS 13 9310. Malgr\u00e9 l'essai de diverses \u00e9tapes de d\u00e9pannage par moi-m\u00eame, telles que le nettoyage des \u00e9tranges, la mise \u00e0 jour des pilotes et l'utilisation d'un support de refroidissement, l'ordinateur portable continue de surchauffer apr\u00e8s de courtes p\u00e9riodes d'utilisation typique.\n\n\u00c9tant donn\u00e9 que cet appareil est essentiel pour mon travail, les baisses de performances causent des inconv\u00e9nients consid\u00e9rables You can reach me at omar.hassan@secure.net.. Je vous contacte pour demander de l'aide afin de r\u00e9soudre cette affaire le plus rapidement possible. Je vous serais reconnaissant de me guider sur les prochaines \u00e9tapes que je devrais suivre, que cela implique d'apporter l'ordinateur portable \u00e0 un centre de service agr\u00e9\u00e9 ou de faire examiner le probl\u00e8me en ligne par un technicien.\n\nJe vous remercie par avance pour votre attention rapide \u00e0 cette affaire. J'attends votre r\u00e9ponse avec impatience.\n\nCordialement,\n\n<name>\n<email_address>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        459,
+        469
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1043,
+        1065
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        261,
+        268
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        613,
+        620
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Probl\u00e8me de surchauffe avec le Dell XPS 13\n\nCher service client de Tech Online Store,\n\nJ'esp\u00e8re que ce message vous trouvera en bonne sant\u00e9. Je vous \u00e9cris pour vous informer d'un probl\u00e8me que je rencontre avec mon ordinateur portable Dell XPS [phone_number], que j'ai achet\u00e9 dans votre magasin. L'ordinateur portable a tendance \u00e0 surchauffer lors d'une utilisation normale, ce qui entra\u00eene une d\u00e9gradation significative des performances My name is [full_name].. Ce probl\u00e8me a commenc\u00e9 il y a environ deux semaines et a progressivement empir\u00e9.\n\nLe num\u00e9ro de mod\u00e8le de l'ordinateur portable est Dell XPS [phone_number]. Malgr\u00e9 l'essai de diverses \u00e9tapes de d\u00e9pannage par moi-m\u00eame, telles que le nettoyage des \u00e9tranges, la mise \u00e0 jour des pilotes et l'utilisation d'un support de refroidissement, l'ordinateur portable continue de surchauffer apr\u00e8s de courtes p\u00e9riodes d'utilisation typique.\n\n\u00c9tant donn\u00e9 que cet appareil est essentiel pour mon travail, les baisses de performances causent des inconv\u00e9nients consid\u00e9rables You can reach me at [email].. Je vous contacte pour demander de l'aide afin de r\u00e9soudre cette affaire le plus rapidement possible. Je vous serais reconnaissant de me guider sur les prochaines \u00e9tapes que je devrais suivre, que cela implique d'apporter l'ordinateur portable \u00e0 un centre de service agr\u00e9\u00e9 ou de faire examiner le probl\u00e8me en ligne par un technicien.\n\nJe vous remercie par avance pour votre attention rapide \u00e0 cette affaire. J'attends votre r\u00e9ponse avec impatience.\n\nCordialement,\n\n<name>\n<email_address>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

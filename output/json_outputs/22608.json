@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para trazer \u00e0 sua aten\u00e7\u00e3o imediata um problema cr\u00edtico de conectividade com nosso Roteador Cisco ISR4331. Estamos enfrentando interrup\u00e7\u00f5es significativas na rede, impactando nossas opera\u00e7\u00f5es You can reach me at liuwei@business.cn.. O desempenho do roteador \u00e9 inconsistente e exige uma solu\u00e7\u00e3o imediata de problemas na rede My name is Omar Hassan.. Al\u00e9m disso, precisamos de uma configura\u00e7\u00e3o segura para garantir opera\u00e7\u00f5es confi\u00e1veis no futuro. Dada a urg\u00eancia da situa\u00e7\u00e3o, assist\u00eancia r\u00e1pida \u00e9 essencial para minimizar o tempo de inatividade e seus potenciais efeitos em nossos neg\u00f3cios. Confiamos em sua experi\u00eancia para lidar com esses assuntos e aguardamos sua r\u00e1pida resposta.\n\nObrigado antecipadamente por resolver esse problema prontamente.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        388,
+        399
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        265,
+        283
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        154,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: \n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para trazer \u00e0 sua aten\u00e7\u00e3o imediata um problema cr\u00edtico de conectividade com nosso Roteador Cisco ISR[phone_number]. Estamos enfrentando interrup\u00e7\u00f5es significativas na rede, impactando nossas opera\u00e7\u00f5es You can reach me at [email].. O desempenho do roteador \u00e9 inconsistente e exige uma solu\u00e7\u00e3o imediata de problemas na rede My name is [full_name].. Al\u00e9m disso, precisamos de uma configura\u00e7\u00e3o segura para garantir opera\u00e7\u00f5es confi\u00e1veis no futuro. Dada a urg\u00eancia da situa\u00e7\u00e3o, assist\u00eancia r\u00e1pida \u00e9 essencial para minimizar o tempo de inatividade e seus potenciais efeitos em nossos neg\u00f3cios. Confiamos em sua experi\u00eancia para lidar com esses assuntos e aguardamos sua r\u00e1pida resposta.\n\nObrigado antecipadamente por resolver esse problema prontamente.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Sprengung\n\nEin kritischer Fehler in der Projektmanagement-Software hat mehrere Dienste beeintr\u00e4chtigt You can reach me at omar.hassan@secure.net.. M\u00f6glicherweise ist die Ursache die Inkompatibilit\u00e4t zwischen Vagrant und SQL Server. Bereits ausgef\u00fchrt wurden Neustarts der Dienste, \u00dcberpr\u00fcfungen der Konfigurationen und Aktualisierungen der Softwareversionen. Der Fehler beh\u00e4lt sich bestehen, und wir ben\u00f6tigen Ihre Hilfe, um das Problem zu l\u00f6sen und zuk\u00fcnftige Vorkommnisse zu verhindern. Bitte geben Sie Anweisungen f\u00fcr den n\u00e4chsten Schritt an. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        577,
+        589
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        142,
+        164
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Technische Sprengung\n\nEin kritischer Fehler in der Projektmanagement-Software hat mehrere Dienste beeintr\u00e4chtigt You can reach me at [email].. M\u00f6glicherweise ist die Ursache die Inkompatibilit\u00e4t zwischen Vagrant und SQL Server. Bereits ausgef\u00fchrt wurden Neustarts der Dienste, \u00dcberpr\u00fcfungen der Konfigurationen und Aktualisierungen der Softwareversionen. Der Fehler beh\u00e4lt sich bestehen, und wir ben\u00f6tigen Ihre Hilfe, um das Problem zu l\u00f6sen und zuk\u00fcnftige Vorkommnisse zu verhindern. Bitte geben Sie Anweisungen f\u00fcr den n\u00e4chsten Schritt an. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

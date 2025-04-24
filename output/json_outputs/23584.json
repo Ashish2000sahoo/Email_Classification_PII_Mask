@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgente: Suporte para Roteador com Mau Funcionamento\n\nOl\u00e1 Suporte ao Cliente,\n\nNosso Roteador Cisco ISR4331 est\u00e1 apresentando uma falha repentina, causando grandes interrup\u00e7\u00f5es na rede em todo o sistema. Este problema \u00e9 cr\u00edtico e exige a sua interven\u00e7\u00e3o t\u00e9cnica imediata. Suspeitamos que a atualiza\u00e7\u00e3o do firmware do roteador possa restaurar sua funcionalidade normal My name is Omar Hassan.. Pedimos que voc\u00ea agilize o processo para resolver essas interrup\u00e7\u00f5es e restaurar nossos servi\u00e7os na maior brevidade poss\u00edvel You can reach me at carlosm@gmail.com.. Dependemos fortemente de um servi\u00e7o cont\u00ednuo e ininterrupto e agradecemos sua r\u00e1pida assist\u00eancia.\n\nAtenciosamente,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        388,
+        399
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        547,
+        564
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        112,
+        116
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Suporte para Roteador com Mau Funcionamento\n\nOl\u00e1 Suporte ao Cliente,\n\nNosso Roteador Cisco ISR[phone_number] est\u00e1 apresentando uma falha repentina, causando grandes interrup\u00e7\u00f5es na rede em todo o sistema. Este problema \u00e9 cr\u00edtico e exige a sua interven\u00e7\u00e3o t\u00e9cnica imediata. Suspeitamos que a atualiza\u00e7\u00e3o do firmware do roteador possa restaurar sua funcionalidade normal My name is [full_name].. Pedimos que voc\u00ea agilize o processo para resolver essas interrup\u00e7\u00f5es e restaurar nossos servi\u00e7os na maior brevidade poss\u00edvel You can reach me at [email].. Dependemos fortemente de um servi\u00e7o cont\u00ednuo e ininterrupto e agradecemos sua r\u00e1pida assist\u00eancia.\n\nAtenciosamente,\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

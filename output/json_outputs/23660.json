@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request to Enable Scrum Board in Jira Software\n\nDear Customer Support,\n\nWe are currently using Jira Software version 8.20 and require the Scrum board features enabled for enhanced project management. Could you assist us with this request at your earliest convenience? Thank you for your support.\n\nBest regards,\n<name>. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        366
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Request to Enable Scrum Board in Jira Software\n\nDear Customer Support,\n\nWe are currently using Jira Software version 8.20 and require the Scrum board features enabled for enhanced project management. Could you assist us with this request at your earliest convenience? Thank you for your support.\n\nBest regards,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

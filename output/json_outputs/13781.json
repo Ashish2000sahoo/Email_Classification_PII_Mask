@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Software-Probleme\n\nDie Projektmanagement-Software hat w\u00e4hrend der Videomeetings ausfallen lassen. Es k\u00f6nnte sein, dass unkompatible Webcam- und Audioeinstellungen dahinterstecken My name is Fatima Al-Farsi.. Ich habe bereits versucht, das Programm zu aktualisieren, die Treiber zu aktualisieren und die Einstellungen anzupassen, aber das Problem beh\u00e4lt sich bei. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        217,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        412,
+        429
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Software-Probleme\n\nDie Projektmanagement-Software hat w\u00e4hrend der Videomeetings ausfallen lassen. Es k\u00f6nnte sein, dass unkompatible Webcam- und Audioeinstellungen dahinterstecken My name is [full_name]-Farsi.. Ich habe bereits versucht, das Programm zu aktualisieren, die Treiber zu aktualisieren und die Einstellungen anzupassen, aber das Problem beh\u00e4lt sich bei. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

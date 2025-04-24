@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Support for Connectivity Problems\n\nUsers are facing connectivity challenges across various devices and applications, which is disrupting project workflows You can reach me at sophia.rossi@service.it.. These issues might be due to recent software updates or network changes. We have attempted to resolve by restarting and reconfiguring, but the problem continues. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        393,
+        402
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        194,
+        217
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Technical Support for Connectivity Problems\n\nUsers are facing connectivity challenges across various devices and applications, which is disrupting project workflows You can reach me at [email].. These issues might be due to recent software updates or network changes. We have attempted to resolve by restarting and reconfiguring, but the problem continues. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

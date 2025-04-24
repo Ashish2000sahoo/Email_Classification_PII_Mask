@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Management SaaS Connection\n\nCustomer Support, facing connectivity problems with the project management SaaS while using various devices. This could be due to integration conflicts with the software or connected products You can reach me at david.kim@corp.kr.. Have already attempted restarting the affected devices and clearing browser caches, but the issue persists. I would greatly appreciate your prompt assistance in resolving this matter. Please let me know if any additional information is required to troubleshoot the problem. Thank you for your support. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        603,
+        615
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        270,
+        287
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Management SaaS Connection\n\nCustomer Support, facing connectivity problems with the project management SaaS while using various devices. This could be due to integration conflicts with the software or connected products You can reach me at [email].. Have already attempted restarting the affected devices and clearing browser caches, but the issue persists. I would greatly appreciate your prompt assistance in resolving this matter. Please let me know if any additional information is required to troubleshoot the problem. Thank you for your support. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

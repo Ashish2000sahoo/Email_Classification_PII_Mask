@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nPyCharm 2024.2 crashes when running code analysis tools. Need urgent help.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        19,
+        23
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        108,
+        125
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: \n\nPyCharm [phone_number].2 crashes when running code analysis tools. Need urgent help.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

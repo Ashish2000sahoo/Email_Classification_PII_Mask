@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Demande de support technique : probl\u00e8me d'imprimante\n\nCher service client,\n\nJe vous \u00e9cris pour demander de l'assistance technique avec mon imprimante HP DeskJet 3755. R\u00e9cemment, j'ai remarqu\u00e9 qu'elle produit des bandes sur les pages lors de l'impression de documents couleurs My name is Sophia Rossi.. Ce probl\u00e8me affecte la qualit\u00e9 de mes impressions et ma capacit\u00e9 \u00e0 effectuer des t\u00e2ches de mani\u00e8re efficace. J'ai essay\u00e9 des \u00e9tapes de d\u00e9pannage de base telles que le nettoyage de la t\u00eate d'impression, mais le probl\u00e8me persiste You can reach me at johndoe@email.com.. Pourriez-vous s'il vous pla\u00eet me guider \u00e0 travers des m\u00e9thodes de d\u00e9pannage plus avanc\u00e9es ou organiser l'intervention d'un technicien professionnel pour r\u00e9soudre ce probl\u00e8me ? Vous pouvez me contacter au <tel_num> pour toute assistance suppl\u00e9mentaire. Merci.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        308
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        558,
+        575
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        170,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Demande de support technique : probl\u00e8me d'imprimante\n\nCher service client,\n\nJe vous \u00e9cris pour demander de l'assistance technique avec mon imprimante HP DeskJet [phone_number]. R\u00e9cemment, j'ai remarqu\u00e9 qu'elle produit des bandes sur les pages lors de l'impression de documents couleurs My name is [full_name].. Ce probl\u00e8me affecte la qualit\u00e9 de mes impressions et ma capacit\u00e9 \u00e0 effectuer des t\u00e2ches de mani\u00e8re efficace. J'ai essay\u00e9 des \u00e9tapes de d\u00e9pannage de base telles que le nettoyage de la t\u00eate d'impression, mais le probl\u00e8me persiste You can reach me at [email].. Pourriez-vous s'il vous pla\u00eet me guider \u00e0 travers des m\u00e9thodes de d\u00e9pannage plus avanc\u00e9es ou organiser l'intervention d'un technicien professionnel pour r\u00e9soudre ce probl\u00e8me ? Vous pouvez me contacter au <tel_num> pour toute assistance suppl\u00e9mentaire. Merci.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

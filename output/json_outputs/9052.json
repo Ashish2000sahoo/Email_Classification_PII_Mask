@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Payment Problem Identified\n\nRecently encountered an issue with the subscription payment which was declined You can reach me at fatima.farsi@help.com.. The problem might be due to insufficient funds or a card expiration My name is Fatima Al-Farsi.. After verifying the card details and ensuring there is a sufficient balance, the issue still persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        248
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        136,
+        157
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Payment Problem Identified\n\nRecently encountered an issue with the subscription payment which was declined You can reach me at [email].. The problem might be due to insufficient funds or a card expiration My name is [full_name]-Farsi.. After verifying the card details and ensuring there is a sufficient balance, the issue still persists.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Screen Flickering Issue\n\nDear Tech Online Store Support,\n\nI am writing to report an ongoing screen flickering issue with my MacBook Air M1 You can reach me at carlosm@gmail.com.. The problem arises randomly during usage and persists despite the operating system being updated to the latest version. The situation is quite concerning, as it interferes with my daily tasks.\n\nCould you please assist in resolving this issue at the earliest? I would appreciate any guidance or support you can offer, potentially including service or replacement options.\n\nThank you for your attention to this matter.\n\nBest regards,\n<name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        638,
+        650
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        168,
+        185
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Screen Flickering Issue\n\nDear Tech Online Store Support,\n\nI am writing to report an ongoing screen flickering issue with my MacBook Air M1 You can reach me at [email].. The problem arises randomly during usage and persists despite the operating system being updated to the latest version. The situation is quite concerning, as it interferes with my daily tasks.\n\nCould you please assist in resolving this issue at the earliest? I would appreciate any guidance or support you can offer, potentially including service or replacement options.\n\nThank you for your attention to this matter.\n\nBest regards,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

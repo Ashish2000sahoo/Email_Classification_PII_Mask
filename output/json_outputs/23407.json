@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes d'impression sans fil avec Canon PIXMA MG3620\n\nBonjour,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me persistant avec mon imprimante Canon PIXMA MG3620, que j'ai achet\u00e9e via votre Tech Online Store. Depuis quelques jours, j'ai du mal \u00e0 maintenir une connexion sans fil stable entre cette imprimante et mes appareils mobiles. Ce probl\u00e8me a consid\u00e9rablement entrav\u00e9 ma capacit\u00e9 \u00e0 imprimer des documents de mani\u00e8re pratique depuis mon smartphone ou ma tablette.\n\nMalgr\u00e9 le suivi du guide de d\u00e9pannage du manuel de l'utilisateur et en m'assurant que tous les appareils sont connect\u00e9s au m\u00eame r\u00e9seau Wi-Fi, le probl\u00e8me persiste. J'ai tent\u00e9 de mettre \u00e0 jour le firmware de l'imprimante via le site Web de Canon, mais cela n'a pas r\u00e9solu le probl\u00e8me de connectivit\u00e9. Cela me conduit \u00e0 croire qu'il pourrait y avoir un probl\u00e8me technique plus profond avec la r\u00e9ception sans fil de l'imprimante. \n\nD\u00e9tails suppl\u00e9mentaires : Mon num\u00e9ro de compte est <acc_num> et le num\u00e9ro de s\u00e9rie de l'imprimante est <serial_num>. J'ai \u00e9galement tent\u00e9 d'utiliser diff\u00e9rentes applications pour imprimer, comme Google Cloud Print et l'application Canon Print Inkjet/SELPHY, sans succ\u00e8s.\n\nJe demande \u00e0 votre \u00e9quipe de support technique de fournir des conseils ou d'organiser une inspection de service. Alternativement, s'il y a des \u00e9tapes recommand\u00e9es ou des logiciels que j'aurais pu n\u00e9gliger, veuillez me le faire savoir. Je suis joignable au <tel_num> ou via cet e-mail pour toute communication ult\u00e9rieure You can reach me at sophia.rossi@service.it.. J'attends votre aide pour r\u00e9soudre ce probl\u00e8me rapidement.\n\nMerci,\n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1627,
+        1636
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1515,
+        1538
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        60,
+        64
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        161,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes d'impression sans fil avec Canon PIXMA MG[phone_number]\n\nBonjour,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me persistant avec mon imprimante Canon PIXMA MG[phone_number], que j'ai achet\u00e9e via votre Tech Online Store. Depuis quelques jours, j'ai du mal \u00e0 maintenir une connexion sans fil stable entre cette imprimante et mes appareils mobiles. Ce probl\u00e8me a consid\u00e9rablement entrav\u00e9 ma capacit\u00e9 \u00e0 imprimer des documents de mani\u00e8re pratique depuis mon smartphone ou ma tablette.\n\nMalgr\u00e9 le suivi du guide de d\u00e9pannage du manuel de l'utilisateur et en m'assurant que tous les appareils sont connect\u00e9s au m\u00eame r\u00e9seau Wi-Fi, le probl\u00e8me persiste. J'ai tent\u00e9 de mettre \u00e0 jour le firmware de l'imprimante via le site Web de Canon, mais cela n'a pas r\u00e9solu le probl\u00e8me de connectivit\u00e9. Cela me conduit \u00e0 croire qu'il pourrait y avoir un probl\u00e8me technique plus profond avec la r\u00e9ception sans fil de l'imprimante. \n\nD\u00e9tails suppl\u00e9mentaires : Mon num\u00e9ro de compte est <acc_num> et le num\u00e9ro de s\u00e9rie de l'imprimante est <serial_num>. J'ai \u00e9galement tent\u00e9 d'utiliser diff\u00e9rentes applications pour imprimer, comme Google Cloud Print et l'application Canon Print Inkjet/SELPHY, sans succ\u00e8s.\n\nJe demande \u00e0 votre \u00e9quipe de support technique de fournir des conseils ou d'organiser une inspection de service. Alternativement, s'il y a des \u00e9tapes recommand\u00e9es ou des logiciels que j'aurais pu n\u00e9gliger, veuillez me le faire savoir. Je suis joignable au <tel_num> ou via cet e-mail pour toute communication ult\u00e9rieure You can reach me at [email].. J'attends votre aide pour r\u00e9soudre ce probl\u00e8me rapidement.\n\nMerci,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

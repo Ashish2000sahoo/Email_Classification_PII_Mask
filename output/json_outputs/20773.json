@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Solicitud de actualizaci\u00f3n de RAM para Dell XPS 13 9310\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEscribo para solicitar una actualizaci\u00f3n de la RAM en mi Dell XPS 13 9310 para mejorar el rendimiento al gestionar los \u00faltimos flujos de trabajo y aplicaciones. Actualmente, estoy experimentando dificultades al ejecutar m\u00faltiples aplicaciones simult\u00e1neamente, lo cual creo que se debe a la capacidad de memoria existente.\n\nUna actualizaci\u00f3n de RAM mejorar\u00eda significativamente el rendimiento de mi dispositivo y garantizar\u00eda capacidades de multitarea fluidas You can reach me at david.kim@corp.kr.. \u00bfPodr\u00eda proporcionar informaci\u00f3n detallada sobre las opciones de actualizaci\u00f3n de RAM disponibles para mi dispositivo, incluidos el costo y el proceso involucrado?\n\nCompr\u00e9 mi Dell XPS 13 9310 en su tienda con el n\u00famero de cuenta <acc_num>. Espero su pronta respuesta.\n\nGracias,\n<name>\n<tel_num> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        914,
+        928
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        588,
+        605
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        57,
+        64
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        175,
+        182
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        782,
+        789
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de actualizaci\u00f3n de RAM para Dell XPS [phone_number]\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEscribo para solicitar una actualizaci\u00f3n de la RAM en mi Dell XPS [phone_number] para mejorar el rendimiento al gestionar los \u00faltimos flujos de trabajo y aplicaciones. Actualmente, estoy experimentando dificultades al ejecutar m\u00faltiples aplicaciones simult\u00e1neamente, lo cual creo que se debe a la capacidad de memoria existente.\n\nUna actualizaci\u00f3n de RAM mejorar\u00eda significativamente el rendimiento de mi dispositivo y garantizar\u00eda capacidades de multitarea fluidas You can reach me at [email].. \u00bfPodr\u00eda proporcionar informaci\u00f3n detallada sobre las opciones de actualizaci\u00f3n de RAM disponibles para mi dispositivo, incluidos el costo y el proceso involucrado?\n\nCompr\u00e9 mi Dell XPS [phone_number] en su tienda con el n\u00famero de cuenta <acc_num>. Espero su pronta respuesta.\n\nGracias,\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

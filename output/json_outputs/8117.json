@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Users Experiencing Crashes in SaaS Application While Accessing Project Management Features\n\nRecent software updates are suspected to be causing compatibility issues that result in crashes of the SaaS application when accessing project management features. Users have attempted to resolve the issue by clearing their cache and reinstalling the application. Please provide more details on the recent software updates installed and any specific error messages that users are encountering You can reach me at johndoe@email.com.. A call to further discuss this issue would be helpful; please let us know a suitable time that works for you. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        655,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        514,
+        531
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Users Experiencing Crashes in SaaS Application While Accessing Project Management Features\n\nRecent software updates are suspected to be causing compatibility issues that result in crashes of the SaaS application when accessing project management features. Users have attempted to resolve the issue by clearing their cache and reinstalling the application. Please provide more details on the recent software updates installed and any specific error messages that users are encountering You can reach me at [email].. A call to further discuss this issue would be helpful; please let us know a suitable time that works for you. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

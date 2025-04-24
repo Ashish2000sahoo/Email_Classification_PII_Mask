@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Medical Data Security\n\nHello Customer Support Team, we are in need of guidance to ensure the confidentiality, integrity, and availability of patients' sensitive medical information at our hospital. We are seeking a reliable and efficient solution to protect our medical records infrastructure. We look forward to your timely assistance and are awaiting your response soon My name is Elena Ivanova.. Best regards, [Your Name] You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        464,
+        481
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support for Medical Data Security\n\nHello Customer Support Team, we are in need of guidance to ensure the confidentiality, integrity, and availability of patients' sensitive medical information at our hospital. We are seeking a reliable and efficient solution to protect our medical records infrastructure. We look forward to your timely assistance and are awaiting your response soon My name is [full_name].. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

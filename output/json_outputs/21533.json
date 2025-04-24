@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zu Einstellungen \u00c4nderungen\n\nHallo IT-Support-Team,\n\nIch hoffe, diese Nachricht erreicht Sie wohl My name is Omar Hassan.. Ich kontaktiere Sie, um \u00c4nderungen an unseren AWS Management Service-Konfigurationen zu beantragen You can reach me at david.kim@corp.kr.. Konkret sind wir bestrebt, unsere Finanzstruktur zu optimieren und unsere bestehenden Ressourcenmanagement-Techniken zu verbessern. Unser Hauptziel ist es, sicherzustellen, dass unsere Cloud-Infrastruktur effizient funktioniert und optimalen Wert liefert, w\u00e4hrend sie unseren Leistungserwartungen entspricht.\n\nWir erkennen an, dass ein effektives Management von Cloud-Ressourcen entscheidend ist, insbesondere aufgrund unserer wachsenden Anforderungen, und wir glauben, dass es M\u00f6glichkeiten zur Verbesserung in unserer bestehenden Konfiguration gibt, die besser mit unseren Gesch\u00e4ftszielen in Einklang gebracht werden k\u00f6nnen. K\u00f6nnten Sie uns dabei unterst\u00fctzen, indem Sie eine Evaluierung durchf\u00fchren oder uns durch die notwendigen Schritte f\u00fchren, um m\u00f6gliche Optimierungen in unseren Bereitstellungseinstellungen zu identifizieren? Dar\u00fcber hinaus w\u00fcrden wir Ihre Expertise zu den neuesten Best Practices f\u00fcr Kosteneffizienz und transformative Ressourcenverwaltung sehr sch\u00e4tzen.\n\nDa wir weiter wachsen, ist es entscheidend, die Skalierbarkeit zu gew\u00e4hrleisten, w\u00e4hrend wir die budget\u00e4re Kontrolle aufrechterhalten. Falls erforderlich, hier sind unsere Kontodaten: Kontonummer: <acc_num>. Z\u00f6gern Sie nicht, mich direkt unter <tel_num> zu kontaktieren, wenn Sie weitere Einzelheiten ben\u00f6tigen oder diese Angelegenheit besprechen m\u00f6chten.\n\nVielen Dank f\u00fcr Ihre erwartete Unterst\u00fctzung. Ich freue mich auf Ihre fachkundigen Empfehlungen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        137
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        259,
+        276
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zu Einstellungen \u00c4nderungen\n\nHallo IT-Support-Team,\n\nIch hoffe, diese Nachricht erreicht Sie wohl My name is [full_name].. Ich kontaktiere Sie, um \u00c4nderungen an unseren AWS Management Service-Konfigurationen zu beantragen You can reach me at [email].. Konkret sind wir bestrebt, unsere Finanzstruktur zu optimieren und unsere bestehenden Ressourcenmanagement-Techniken zu verbessern. Unser Hauptziel ist es, sicherzustellen, dass unsere Cloud-Infrastruktur effizient funktioniert und optimalen Wert liefert, w\u00e4hrend sie unseren Leistungserwartungen entspricht.\n\nWir erkennen an, dass ein effektives Management von Cloud-Ressourcen entscheidend ist, insbesondere aufgrund unserer wachsenden Anforderungen, und wir glauben, dass es M\u00f6glichkeiten zur Verbesserung in unserer bestehenden Konfiguration gibt, die besser mit unseren Gesch\u00e4ftszielen in Einklang gebracht werden k\u00f6nnen. K\u00f6nnten Sie uns dabei unterst\u00fctzen, indem Sie eine Evaluierung durchf\u00fchren oder uns durch die notwendigen Schritte f\u00fchren, um m\u00f6gliche Optimierungen in unseren Bereitstellungseinstellungen zu identifizieren? Dar\u00fcber hinaus w\u00fcrden wir Ihre Expertise zu den neuesten Best Practices f\u00fcr Kosteneffizienz und transformative Ressourcenverwaltung sehr sch\u00e4tzen.\n\nDa wir weiter wachsen, ist es entscheidend, die Skalierbarkeit zu gew\u00e4hrleisten, w\u00e4hrend wir die budget\u00e4re Kontrolle aufrechterhalten. Falls erforderlich, hier sind unsere Kontodaten: Kontonummer: <acc_num>. Z\u00f6gern Sie nicht, mich direkt unter <tel_num> zu kontaktieren, wenn Sie weitere Einzelheiten ben\u00f6tigen oder diese Angelegenheit besprechen m\u00f6chten.\n\nVielen Dank f\u00fcr Ihre erwartete Unterst\u00fctzung. Ich freue mich auf Ihre fachkundigen Empfehlungen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with File Upload Process\n\nCustomers are experiencing error notifications during file uploads.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        146
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Issue with File Upload Process\n\nCustomers are experiencing error notifications during file uploads.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Needed\n\nDear Customer Support Team at IT Services,\n\nWe are currently facing an issue with the sluggish loading of the frontend in our JavaScript React application You can reach me at janesmith@company.com.. This requires immediate action to avoid any possible downtime. The impacted service is your JavaScript React App Development Service. We would appreciate it if you could look into this issue as soon as possible. Thank you for your prompt attention to this concern.\n\nSincerely,\n\n<name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        530,
+        542
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        210,
+        231
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Needed\n\nDear Customer Support Team at IT Services,\n\nWe are currently facing an issue with the sluggish loading of the frontend in our JavaScript React application You can reach me at [email].. This requires immediate action to avoid any possible downtime. The impacted service is your JavaScript React App Development Service. We would appreciate it if you could look into this issue as soon as possible. Thank you for your prompt attention to this concern.\n\nSincerely,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Underperforming Digital Marketing Campaigns\n\nOur digital marketing campaigns are underperforming, resulting in reduced brand awareness and growth My name is Carlos Mendoza.. This is due to outdated strategies and ineffective audience segmentation. We have attempted to update content and optimize ad spend, but have not seen any visible improvements. The current state of our campaigns is concerning, and we need support to address this issue. Could you please consider the need for a review and recommendations for updating our strategies, improving ad selection, and increasing brand awareness? Additional context is appreciated. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        190,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        682,
+        704
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Underperforming Digital Marketing Campaigns\n\nOur digital marketing campaigns are underperforming, resulting in reduced brand awareness and growth My name is [full_name].. This is due to outdated strategies and ineffective audience segmentation. We have attempted to update content and optimize ad spend, but have not seen any visible improvements. The current state of our campaigns is concerning, and we need support to address this issue. Could you please consider the need for a review and recommendations for updating our strategies, improving ad selection, and increasing brand awareness? Additional context is appreciated. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

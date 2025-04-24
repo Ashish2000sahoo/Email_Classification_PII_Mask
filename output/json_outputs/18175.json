@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit Systemst\u00f6rungen und betroffene Anwendungen/Ger\u00e4te\n\nBeschreibung der Serverlast-Problematik. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        135,
+        151
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Systemst\u00f6rungen und betroffene Anwendungen/Ger\u00e4te\n\nBeschreibung der Serverlast-Problematik. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

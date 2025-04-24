@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Query on Customer Support Smart Products\n\nIs it possible to get information on digital strategies?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Query on Customer Support Smart Products\n\nIs it possible to get information on digital strategies?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

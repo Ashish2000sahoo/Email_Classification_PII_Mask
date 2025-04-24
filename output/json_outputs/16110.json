@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digital Campaign Metrics Integration Error Again Today\n\nDear Support Team, I am facing difficulties with the synchronization of my digital campaign metrics. This issue might be attributed to an incorrect API integration or firewall problems My name is Liu Wei.. Despite my efforts to restart servers, validate API keys, and modify firewall settings, the issue remains unresolved. Kindly help me address this to ensure accurate campaign tracking You can reach me at fatima.farsi@help.com.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        478,
+        499
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Digital Campaign Metrics Integration Error Again Today\n\nDear Support Team, I am facing difficulties with the synchronization of my digital campaign metrics. This issue might be attributed to an incorrect API integration or firewall problems My name is [full_name].. Despite my efforts to restart servers, validate API keys, and modify firewall settings, the issue remains unresolved. Kindly help me address this to ensure accurate campaign tracking You can reach me at [email].. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

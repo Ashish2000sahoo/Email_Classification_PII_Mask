@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: N\u00f6tige Unterst\u00fctzung bei Algorithmusfehler\n\nIch melde einen Vorfall mit dem finanzlichen Algorithmus. Es ist wichtig, dass der Investment-Optimierungsprozess ordnungsgem\u00e4\u00df funktioniert You can reach me at sophia.rossi@service.it.. Ich habe verschiedene unvereinbare Datendateiformate entdeckt My name is David Kim.. Ich habe versucht, das Problem zu beheben, indem ich das System neu gestartet und die betroffene Software neu installiert habe, aber das Problem besteht weiterhin. Es w\u00e4re sehr hilfreich, wenn ihr die Unterst\u00fctzung bereithalten k\u00f6nntet, um den Fehler so schnell wie m\u00f6glich zu beheben. Bitte teilt mir mit, welche zus\u00e4tzlichen Informationen ihr ben\u00f6tigt, um die L\u00f6sung schneller voranzutreiben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        322
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        214,
+        237
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: N\u00f6tige Unterst\u00fctzung bei Algorithmusfehler\n\nIch melde einen Vorfall mit dem finanzlichen Algorithmus. Es ist wichtig, dass der Investment-Optimierungsprozess ordnungsgem\u00e4\u00df funktioniert You can reach me at [email].. Ich habe verschiedene unvereinbare Datendateiformate entdeckt My name is [full_name].. Ich habe versucht, das Problem zu beheben, indem ich das System neu gestartet und die betroffene Software neu installiert habe, aber das Problem besteht weiterhin. Es w\u00e4re sehr hilfreich, wenn ihr die Unterst\u00fctzung bereithalten k\u00f6nntet, um den Fehler so schnell wie m\u00f6glich zu beheben. Bitte teilt mir mit, welche zus\u00e4tzlichen Informationen ihr ben\u00f6tigt, um die L\u00f6sung schneller voranzutreiben.",
+  "category_of_the_email": "Incident"
+}

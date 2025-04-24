@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringende Unterst\u00fctzung bei Verbindungsproblemen erforderlich\n\nSehr geehrtes Pit Services Support Team,\n\nich schreibe, um zu berichten, dass der Cisco Router ISR4331 in unserem Unternehmen schwerwiegende Verbindungsprobleme hat. Dieses Problem betrifft alle Benutzer in unserem Netzwerk und erfordert sofortige technische Unterst\u00fctzung My name is Fatima Al-Farsi.. Wir haben grundlegende Fehlerbehebungsma\u00dfnahmen wie das Neustarten des Routers und das \u00dcberpr\u00fcfen der Kabel versucht, aber das Problem besteht weiterhin You can reach me at fatima.farsi@help.com.. Angesichts der kritischen Natur unserer Betriebsabl\u00e4ufe ist eine schnelle L\u00f6sung erforderlich, um St\u00f6rungen zu minimieren. Bitte geben Sie uns Anweisungen zu den n\u00e4chsten Schritten oder arrangieren Sie einen Techniker, der dieses Problem diagnostiziert und behebt.\n\nVielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        365
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        549,
+        570
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        170,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Dringende Unterst\u00fctzung bei Verbindungsproblemen erforderlich\n\nSehr geehrtes Pit Services Support Team,\n\nich schreibe, um zu berichten, dass der Cisco Router ISR[phone_number] in unserem Unternehmen schwerwiegende Verbindungsprobleme hat. Dieses Problem betrifft alle Benutzer in unserem Netzwerk und erfordert sofortige technische Unterst\u00fctzung My name is [full_name]-Farsi.. Wir haben grundlegende Fehlerbehebungsma\u00dfnahmen wie das Neustarten des Routers und das \u00dcberpr\u00fcfen der Kabel versucht, aber das Problem besteht weiterhin You can reach me at [email].. Angesichts der kritischen Natur unserer Betriebsabl\u00e4ufe ist eine schnelle L\u00f6sung erforderlich, um St\u00f6rungen zu minimieren. Bitte geben Sie uns Anweisungen zu den n\u00e4chsten Schritten oder arrangieren Sie einen Techniker, der dieses Problem diagnostiziert und behebt.\n\nVielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Incident"
+}

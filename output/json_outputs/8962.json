@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Advice on Security Measures for Medical Data in Hospital Solutions\n\nI am seeking guidance on how to ensure the confidentiality, integrity, and availability of sensitive patient information within our hospital solutions You can reach me at maria.gonzalez@shop.es.. Could you provide information on encryption methods, access controls, and data backup protocols? Additionally, I would appreciate details on any compliance certifications, such as HIPAA, that our solutions adhere to. Your timely assistance in this matter would be greatly appreciated My name is Liu Wei.. I look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        568,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        248,
+        270
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Advice on Security Measures for Medical Data in Hospital Solutions\n\nI am seeking guidance on how to ensure the confidentiality, integrity, and availability of sensitive patient information within our hospital solutions You can reach me at [email].. Could you provide information on encryption methods, access controls, and data backup protocols? Additionally, I would appreciate details on any compliance certifications, such as HIPAA, that our solutions adhere to. Your timely assistance in this matter would be greatly appreciated My name is [full_name].. I look forward to hearing from you soon.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS Management Service Outage\n\nDear Customer Support, I am writing to inform you that the AWS Management Service is currently experiencing a major service outage. Immediate maintenance is required to restore our cloud operations effectively. This situation has affected our productivity and requires urgent attention to minimize disruption. Please prioritize this issue, and provide an estimated time for resolution. Your prompt response will be greatly appreciated You can reach me at omar.hassan@secure.net.. Thank you for your understanding and attention to this critical matter. Sincerely, <name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        621,
+        631
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        495,
+        517
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: AWS Management Service Outage\n\nDear Customer Support, I am writing to inform you that the AWS Management Service is currently experiencing a major service outage. Immediate maintenance is required to restore our cloud operations effectively. This situation has affected our productivity and requires urgent attention to minimize disruption. Please prioritize this issue, and provide an estimated time for resolution. Your prompt response will be greatly appreciated You can reach me at [email].. Thank you for your understanding and attention to this critical matter. Sincerely, <name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

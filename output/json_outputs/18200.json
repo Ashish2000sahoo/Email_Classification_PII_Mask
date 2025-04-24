@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Azure Infrastructure Upgrade\n\nI am writing to request an upgrade to our Azure infrastructure You can reach me at david.kim@corp.kr.. Our digital marketing campaigns and data analytics are expanding rapidly, and our current setup is having trouble keeping up with the growing demands. To ensure smooth operation, we require an increase in storage capacity and computing power to manage the increased workload. Could you kindly provide us with a quote and a timeline for the upgrade? Additionally, could you offer any specific recommendations for optimizing our infrastructure for our particular use case? My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        636,
+        646
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        134,
+        151
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for Azure Infrastructure Upgrade\n\nI am writing to request an upgrade to our Azure infrastructure You can reach me at [email].. Our digital marketing campaigns and data analytics are expanding rapidly, and our current setup is having trouble keeping up with the growing demands. To ensure smooth operation, we require an increase in storage capacity and computing power to manage the increased workload. Could you kindly provide us with a quote and a timeline for the upgrade? Additionally, could you offer any specific recommendations for optimizing our infrastructure for our particular use case? My name is [full_name].",
+  "category_of_the_email": "Change"
+}

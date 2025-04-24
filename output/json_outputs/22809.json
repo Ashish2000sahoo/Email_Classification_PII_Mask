@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Esclarecimento Urgente Necess\u00e1rio\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para abordar urgentemente cobran\u00e7as inesperadas no meu Servi\u00e7o de Gerenciamento da AWS You can reach me at sophia.rossi@service.it.. Por favor, ajudem a esclarecer essas discrep\u00e2ncias de cobran\u00e7a o mais r\u00e1pido poss\u00edvel My name is Sophia Rossi.. A resolu\u00e7\u00e3o r\u00e1pida seria muito apreciada.\n\nObrigado,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        194,
+        217
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Esclarecimento Urgente Necess\u00e1rio\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para abordar urgentemente cobran\u00e7as inesperadas no meu Servi\u00e7o de Gerenciamento da AWS You can reach me at [email].. Por favor, ajudem a esclarecer essas discrep\u00e2ncias de cobran\u00e7a o mais r\u00e1pido poss\u00edvel My name is [full_name].. A resolu\u00e7\u00e3o r\u00e1pida seria muito apreciada.\n\nObrigado,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Problem"
+}

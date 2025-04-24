@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Security Breach\n\nCustomer Support Team, <br>            An unauthorized access incident has occurred, which may have exposed patient medical data and compromised hospital systems You can reach me at carlosm@gmail.com.. <br>            Potential causes include weak access controls and outdated software. <br> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        349
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        218,
+        235
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Security Breach\n\nCustomer Support Team, <br>            An unauthorized access incident has occurred, which may have exposed patient medical data and compromised hospital systems You can reach me at [email].. <br>            Potential causes include weak access controls and outdated software. <br> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

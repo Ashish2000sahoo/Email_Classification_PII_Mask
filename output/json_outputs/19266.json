@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Konkrete Unterst\u00fctzung Notwendig f\u00fcr Dienstleistungsschwierigkeiten\n\nGerehrte Kundenservice-Abteilung, <br>Wir begegnen derzeit Schwierigkeiten bei der Nutzung unserer Projektmanagement-SaaS-Plattform. Kompatibilit\u00e4tsprobleme nach der neuesten Ruby Rails-Aktualisierung und die Integration mit BigCommerce sind notwendig You can reach me at carlosm@gmail.com.. Bislang haben wir versucht, die betroffenen Dienstleistungen durch R\u00fcckrufe und einen Neustart zu aktualisieren, aber das hat leider nicht funktioniert. <br>Wir freuen uns darauf, unterst\u00fctzt zu werden, um das Problem schnell zu diagnostizieren und zu l\u00f6sen. Das Team steht bereit, um zus\u00e4tzliche Informationen und Unterst\u00fctzung zu liefern, die erforderlich sind, um das Problem schnell zu beheben. <br>Bitten Sie uns um R\u00fcckmeldung. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        815,
+        829
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        350,
+        367
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Konkrete Unterst\u00fctzung Notwendig f\u00fcr Dienstleistungsschwierigkeiten\n\nGerehrte Kundenservice-Abteilung, <br>Wir begegnen derzeit Schwierigkeiten bei der Nutzung unserer Projektmanagement-SaaS-Plattform. Kompatibilit\u00e4tsprobleme nach der neuesten Ruby Rails-Aktualisierung und die Integration mit BigCommerce sind notwendig You can reach me at [email].. Bislang haben wir versucht, die betroffenen Dienstleistungen durch R\u00fcckrufe und einen Neustart zu aktualisieren, aber das hat leider nicht funktioniert. <br>Wir freuen uns darauf, unterst\u00fctzt zu werden, um das Problem schnell zu diagnostizieren und zu l\u00f6sen. Das Team steht bereit, um zus\u00e4tzliche Informationen und Unterst\u00fctzung zu liefern, die erforderlich sind, um das Problem schnell zu beheben. <br>Bitten Sie uns um R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

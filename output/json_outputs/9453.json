@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: M\u00f6glichkeiten zur Zahlung mehrerer Abonnements\n\nIch m\u00f6chte mehrere Abonnements kaufen und interessiere mich f\u00fcr die verschiedenen Zahlungsm\u00f6glichkeiten. Kann ich Kreditkarte oder Bank\u00fcberweisung verwenden? Es gibt Rabatte f\u00fcr gro\u00dfe Bestellungen, stimmt das? K\u00f6nnen Sie mir mehr Informationen dazu geben?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        335,
+        350
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: M\u00f6glichkeiten zur Zahlung mehrerer Abonnements\n\nIch m\u00f6chte mehrere Abonnements kaufen und interessiere mich f\u00fcr die verschiedenen Zahlungsm\u00f6glichkeiten. Kann ich Kreditkarte oder Bank\u00fcberweisung verwenden? Es gibt Rabatte f\u00fcr gro\u00dfe Bestellungen, stimmt das? K\u00f6nnen Sie mir mehr Informationen dazu geben?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

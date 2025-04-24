@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Syncing Project Updates Across Devices\n\nThe user is unable to sync project updates across devices using the Smart-Thermometer Chef applications following recent software updates You can reach me at elena.ivanova@support.org.. Despite clearing the app cache and reinstalling, the issue still exists My name is Omar Hassan.. The user has attempted multiple troubleshooting steps but the problem continues.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        331,
+        342
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        220,
+        245
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Syncing Project Updates Across Devices\n\nThe user is unable to sync project updates across devices using the Smart-Thermometer Chef applications following recent software updates You can reach me at [email].. Despite clearing the app cache and reinstalling, the issue still exists My name is [full_name].. The user has attempted multiple troubleshooting steps but the problem continues.",
+  "category_of_the_email": "Incident"
+}

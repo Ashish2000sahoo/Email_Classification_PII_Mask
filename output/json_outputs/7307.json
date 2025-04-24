@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Video Conference Integration\n\nWe are experiencing frequent crashes during video conferences, which might be related to compatibility issues between macOS and iOS.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        223
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Video Conference Integration\n\nWe are experiencing frequent crashes during video conferences, which might be related to compatibility issues between macOS and iOS.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

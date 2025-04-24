@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema con la asignaci\u00f3n de tareas en Jira\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje los encuentre bien. Me comunico para solicitar asistencia respecto a un desaf\u00edo que encontr\u00e9 al utilizar Jira Software 8.20. Espec\u00edficamente, tengo problemas para asignar tareas dentro de la cola de Recursos Humanos My name is Liu Wei.. El problema parece ocurrir de manera inconsistente, lo que dificulta establecer un patr\u00f3n o soluci\u00f3n. He intentado varios m\u00e9todos de soluci\u00f3n de problemas, como borrar la cach\u00e9 y reiniciar la aplicaci\u00f3n, pero lamentablemente, el problema persiste. \u00bfPodr\u00edan guiarme sobre c\u00f3mo resolver esto? Adem\u00e1s, si hay problemas de compatibilidad conocidos con otras versiones de software, sus comentarios ser\u00edan muy valiosos. Agradezco su pronta atenci\u00f3n a este asunto y espero con inter\u00e9s su orientaci\u00f3n experta.\n\nGracias por su apoyo.\n\nAtentamente,\n<name>\n<company_name>\n<tel_num> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        346,
+        353
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        951,
+        973
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problema con la asignaci\u00f3n de tareas en Jira\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje los encuentre bien. Me comunico para solicitar asistencia respecto a un desaf\u00edo que encontr\u00e9 al utilizar Jira Software 8.20. Espec\u00edficamente, tengo problemas para asignar tareas dentro de la cola de Recursos Humanos My name is [full_name].. El problema parece ocurrir de manera inconsistente, lo que dificulta establecer un patr\u00f3n o soluci\u00f3n. He intentado varios m\u00e9todos de soluci\u00f3n de problemas, como borrar la cach\u00e9 y reiniciar la aplicaci\u00f3n, pero lamentablemente, el problema persiste. \u00bfPodr\u00edan guiarme sobre c\u00f3mo resolver esto? Adem\u00e1s, si hay problemas de compatibilidad conocidos con otras versiones de software, sus comentarios ser\u00edan muy valiosos. Agradezco su pronta atenci\u00f3n a este asunto y espero con inter\u00e9s su orientaci\u00f3n experta.\n\nGracias por su apoyo.\n\nAtentamente,\n<name>\n<company_name>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nUpdate marketing strategy to enhance brand visibility through targeted digital campaigns and increased social media engagement to reach customers.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        196
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: \n\nUpdate marketing strategy to enhance brand visibility through targeted digital campaigns and increased social media engagement to reach customers.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

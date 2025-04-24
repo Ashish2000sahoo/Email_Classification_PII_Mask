@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Resolver el problema de latencia del Servicio de Gesti\u00f3n de AWS\n\nEstimado cliente de Servicios de TI,\n\nEstamos experimentando un incidente grave con el Servicio de Gesti\u00f3n de AWS, espec\u00edficamente relacionado con la escalabilidad de nuestra infraestructura, lo cual est\u00e1 causando una alta latencia en nuestras aplicaciones desplegadas. Esto impacta severamente el rendimiento y requiere atenci\u00f3n y resoluci\u00f3n inmediata My name is Carlos Mendoza.. Por favor, prioricen este problema y proporcionen una actualizaci\u00f3n sobre el progreso de la resoluci\u00f3n lo antes posible.\n\nGracias por su r\u00e1pida respuesta.\n\nAtentamente,\n<name>\n<tel_num>\n<acc_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        447,
+        461
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        677,
+        698
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Resolver el problema de latencia del Servicio de Gesti\u00f3n de AWS\n\nEstimado cliente de Servicios de TI,\n\nEstamos experimentando un incidente grave con el Servicio de Gesti\u00f3n de AWS, espec\u00edficamente relacionado con la escalabilidad de nuestra infraestructura, lo cual est\u00e1 causando una alta latencia en nuestras aplicaciones desplegadas. Esto impacta severamente el rendimiento y requiere atenci\u00f3n y resoluci\u00f3n inmediata My name is [full_name].. Por favor, prioricen este problema y proporcionen una actualizaci\u00f3n sobre el progreso de la resoluci\u00f3n lo antes posible.\n\nGracias por su r\u00e1pida respuesta.\n\nAtentamente,\n<name>\n<tel_num>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

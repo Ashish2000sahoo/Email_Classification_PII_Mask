@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Report on System Issues\n\nSeveral integrations have encountered failures, which might be related to the potential expiration of API keys. Efforts were made to restart services and verify the credentials.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        250
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Report on System Issues\n\nSeveral integrations have encountered failures, which might be related to the potential expiration of API keys. Efforts were made to restart services and verify the credentials.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for System Crash\n\nA system crash occurred during data analysis due to multiple simultaneous requests overwhelming resource usage. Attempts were made to optimize MySQL queries and increase server resources, but they were not successful.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        291
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Support for System Crash\n\nA system crash occurred during data analysis due to multiple simultaneous requests overwhelming resource usage. Attempts were made to optimize MySQL queries and increase server resources, but they were not successful.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detected Lag in Data Visualization\n\nI am encountering issues with data visualization lag. This problem seems to be caused by resource-heavy Elasticsearch queries My name is Maria Gonzalez.. Despite restarting Elasticsearch and increasing RAM, the issue still persists You can reach me at elena.ivanova@support.org.. I would be grateful if you could offer a solution. The lag is disrupting my workflow and must be addressed promptly. If there are further steps I can take to investigate this, please inform me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        294,
+        319
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Detected Lag in Data Visualization\n\nI am encountering issues with data visualization lag. This problem seems to be caused by resource-heavy Elasticsearch queries My name is [full_name].. Despite restarting Elasticsearch and increasing RAM, the issue still persists You can reach me at [email].. I would be grateful if you could offer a solution. The lag is disrupting my workflow and must be addressed promptly. If there are further steps I can take to investigate this, please inform me.",
+  "category_of_the_email": "Problem"
+}

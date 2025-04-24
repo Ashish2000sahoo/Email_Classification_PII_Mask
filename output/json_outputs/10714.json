@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Delayed Load Speed\n\nNoticing significant delays while loading the project management dashboard.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Delayed Load Speed\n\nNoticing significant delays while loading the project management dashboard.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

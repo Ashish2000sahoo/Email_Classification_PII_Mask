@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues Detected in Investment Analytics Data Across Multiple Platforms\n\nDear Customer Support, we are encountering discrepancies in investment analytics results across different platforms, which might be due to data integration or software compatibility issues. Despite checking the integrity of the data sources and updating the software versions, the discrepancies still persist. We would greatly appreciate your assistance in resolving this issue to ensure accurate investment analytics results My name is Carlos Mendoza.. Please let us know the next steps to take You can reach me at johndoe@email.com.. Thank you for your help in resolving this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        518,
+        532
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        594,
+        611
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issues Detected in Investment Analytics Data Across Multiple Platforms\n\nDear Customer Support, we are encountering discrepancies in investment analytics results across different platforms, which might be due to data integration or software compatibility issues. Despite checking the integrity of the data sources and updating the software versions, the discrepancies still persist. We would greatly appreciate your assistance in resolving this issue to ensure accurate investment analytics results My name is [full_name].. Please let us know the next steps to take You can reach me at [email].. Thank you for your help in resolving this matter.",
+  "category_of_the_email": "Incident"
+}

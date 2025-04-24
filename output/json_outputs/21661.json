@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Wi-Fi Connectivity and Performance Issues with Cisco Router\n\nDear Customer Support,\n\nI am writing to express concerns about ongoing Wi-Fi connectivity issues attributed to our Cisco Router ISR4331 My name is Fatima Al-Farsi.. Over the past few weeks, we have experienced regular performance dips, which we suspect are due to a router misconfiguration You can reach me at sophia.rossi@service.it.. These disruptions are significantly impacting our enterprise networking reliability and thus our business operations.\n\nDespite attempts to resolve the issue through various troubleshooting measures, the problem persists, leading to outages that affect our work efficiency. We kindly request your assistance in resolving this issue as a priority. Could you please advise on potential solutions or schedule a technical visit at the earliest convenience?\n\nThank you for your immediate attention to this pressing issue.\n\nSincerely,\n\n<name>\n\n<email_address>\n\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        217,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        382,
+        405
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        201,
+        205
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Wi-Fi Connectivity and Performance Issues with Cisco Router\n\nDear Customer Support,\n\nI am writing to express concerns about ongoing Wi-Fi connectivity issues attributed to our Cisco Router ISR[phone_number] My name is [full_name]-Farsi.. Over the past few weeks, we have experienced regular performance dips, which we suspect are due to a router misconfiguration You can reach me at [email].. These disruptions are significantly impacting our enterprise networking reliability and thus our business operations.\n\nDespite attempts to resolve the issue through various troubleshooting measures, the problem persists, leading to outages that affect our work efficiency. We kindly request your assistance in resolving this issue as a priority. Could you please advise on potential solutions or schedule a technical visit at the earliest convenience?\n\nThank you for your immediate attention to this pressing issue.\n\nSincerely,\n\n<name>\n\n<email_address>\n\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

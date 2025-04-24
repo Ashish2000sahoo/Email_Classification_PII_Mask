@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Regarding Data Stream\n\nHello Customer Support, I am contacting you to report a problem with our data stream. The stream has been unexpectedly interrupted, and we believe it might be because of a network connectivity problem. We have already attempted to restart the services and check the connections, but the issue remains unsolved. The data stream is essential for our operations, and we would like to seek your help in addressing this situation promptly. Could you please examine this and offer a solution or direction on how to resolve the issue? We would greatly appreciate any assistance you can provide to restore the data stream You can reach me at liuwei@business.cn.. Thank you for your time and support. Sincerely, [Your Name] My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        766,
+        774
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        674,
+        692
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem Regarding Data Stream\n\nHello Customer Support, I am contacting you to report a problem with our data stream. The stream has been unexpectedly interrupted, and we believe it might be because of a network connectivity problem. We have already attempted to restart the services and check the connections, but the issue remains unsolved. The data stream is essential for our operations, and we would like to seek your help in addressing this situation promptly. Could you please examine this and offer a solution or direction on how to resolve the issue? We would greatly appreciate any assistance you can provide to restore the data stream You can reach me at [email].. Thank you for your time and support. Sincerely, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

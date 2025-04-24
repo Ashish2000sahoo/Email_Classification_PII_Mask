@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Tools for Brand Growth\n\nDear Customer Support, over the past few days, we have been using digital tools to boost our brand growth, but they are behaving in a way that is unfamiliar and concerning My name is David Kim.. These issues are hindering the execution of our campaigns and communication. The problems seem to be due to conflicting software versions due to recent system updates. We have already attempted to troubleshoot by restarting individual systems, but the issues persist. Our team is familiar with these tools for daily operations, but this is causing significant delays You can reach me at sophia.rossi@service.it.. It would be greatly appreciated if you could provide a quick solution or workaround.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        234
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        626,
+        649
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Digitale Tools for Brand Growth\n\nDear Customer Support, over the past few days, we have been using digital tools to boost our brand growth, but they are behaving in a way that is unfamiliar and concerning My name is [full_name].. These issues are hindering the execution of our campaigns and communication. The problems seem to be due to conflicting software versions due to recent system updates. We have already attempted to troubleshoot by restarting individual systems, but the issues persist. Our team is familiar with these tools for daily operations, but this is causing significant delays You can reach me at [email].. It would be greatly appreciated if you could provide a quick solution or workaround.",
+  "category_of_the_email": "Incident"
+}

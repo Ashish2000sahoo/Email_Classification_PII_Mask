@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nTo the customer support team,\\n\\nI am contacting you to report a potential medical data breach You can reach me at liuwei@business.cn.. The breach happened due to an unsecured Google Meet session being used to discuss sensitive medical data. Despite our team's efforts to restart the Ubuntu server, the issue remains unresolved. We are worried about the consequences of this breach and would greatly appreciate your help in investigating and addressing the problem. Please inform us of the subsequent steps we should take. We are grateful for your swift resolution to this matter and anticipate your prompt response. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        647
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        126,
+        144
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nTo the customer support team,\\n\\nI am contacting you to report a potential medical data breach You can reach me at [email].. The breach happened due to an unsecured Google Meet session being used to discuss sensitive medical data. Despite our team's efforts to restart the Ubuntu server, the issue remains unresolved. We are worried about the consequences of this breach and would greatly appreciate your help in investigating and addressing the problem. Please inform us of the subsequent steps we should take. We are grateful for your swift resolution to this matter and anticipate your prompt response. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

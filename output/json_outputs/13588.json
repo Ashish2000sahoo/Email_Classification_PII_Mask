@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Tracker Problem\n\nNoted the sudden failure of the Smart-Tracker feature, which has affected multiple products You can reach me at carlosm@gmail.com.. The exact cause is unclear but may be related to a recent software update or database inconsistency. The team has tried to resolve it by restarting services and rolling back recent changes, but the issue still persists. We would greatly appreciate your assistance and guidance to help us resolve the issue as soon as possible My name is David Kim.. Please let us know if there is any additional information needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        513
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        147,
+        164
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Tracker Problem\n\nNoted the sudden failure of the Smart-Tracker feature, which has affected multiple products You can reach me at [email].. The exact cause is unclear but may be related to a recent software update or database inconsistency. The team has tried to resolve it by restarting services and rolling back recent changes, but the issue still persists. We would greatly appreciate your assistance and guidance to help us resolve the issue as soon as possible My name is [full_name].. Please let us know if there is any additional information needed.",
+  "category_of_the_email": "Incident"
+}

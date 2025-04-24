@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Unexpected Reboot of Cisco Router ISR4331\n\nDear Customer Support Team,\n\nI am reaching out to notify you about a critical problem we faced with one of your devices during our standard operating hours. Our Cisco Router ISR4331 underwent an unanticipated reboot which led to a network disruption My name is John Doe.. This situation has hindered our operations, and any additional complications could severely affect our business efficiency.\n\nConsidering this is a secure, high-performance enterprise device, we were quite surprised by its failure You can reach me at fatima.farsi@help.com.. We hold the expectation that our network devices deliver not merely stability, but also reliability, particularly during peak business times.\n\nCould you kindly prioritize the following concerns? Firstly, we require an inquiry into what caused this unexpected reboot. Secondly, we seek advice on how to avoid such incidents in the future. Ensuring that our network remains stable is essential for preserving our operational momentum.\n\nWe are confident that your team will deliver prompt support to address this issue thoroughly and assist us in reinstating normal operations in our network. Should you need more information, please feel free to contact me directly at <name>'s email or call me at <tel_num>.\n\nThank you for your immediate attention to this pressing issue.\n\nBest regards,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        321
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        577,
+        598
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        46,
+        50
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        229,
+        233
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Reboot of Cisco Router ISR[phone_number]\n\nDear Customer Support Team,\n\nI am reaching out to notify you about a critical problem we faced with one of your devices during our standard operating hours. Our Cisco Router ISR[phone_number] underwent an unanticipated reboot which led to a network disruption My name is [full_name].. This situation has hindered our operations, and any additional complications could severely affect our business efficiency.\n\nConsidering this is a secure, high-performance enterprise device, we were quite surprised by its failure You can reach me at [email].. We hold the expectation that our network devices deliver not merely stability, but also reliability, particularly during peak business times.\n\nCould you kindly prioritize the following concerns? Firstly, we require an inquiry into what caused this unexpected reboot. Secondly, we seek advice on how to avoid such incidents in the future. Ensuring that our network remains stable is essential for preserving our operational momentum.\n\nWe are confident that your team will deliver prompt support to address this issue thoroughly and assist us in reinstating normal operations in our network. Should you need more information, please feel free to contact me directly at <name>'s email or call me at <tel_num>.\n\nThank you for your immediate attention to this pressing issue.\n\nBest regards,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

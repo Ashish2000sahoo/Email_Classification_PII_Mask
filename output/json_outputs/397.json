@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThere have been unauthorized access attempts on medical data systems, continuing even after updates to passwords and firewall checks.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        182
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: \n\nThere have been unauthorized access attempts on medical data systems, continuing even after updates to passwords and firewall checks.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

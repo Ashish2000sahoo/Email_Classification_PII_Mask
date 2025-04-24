@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Request for System Freeze During Project Updates\n\nAn unexpected system freeze happened while performing project updates, which might be related to compatibility issues caused by recent software updates. Restarting the compatibility checks resolved the issue.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        314
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Support Request for System Freeze During Project Updates\n\nAn unexpected system freeze happened while performing project updates, which might be related to compatibility issues caused by recent software updates. Restarting the compatibility checks resolved the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

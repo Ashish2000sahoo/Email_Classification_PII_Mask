@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten f\u00fcr Krankenh\u00e4user\n\nBieten Sie L\u00f6sungen zur Sicherung medizinischer Daten an.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        153
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten f\u00fcr Krankenh\u00e4user\n\nBieten Sie L\u00f6sungen zur Sicherung medizinischer Daten an.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

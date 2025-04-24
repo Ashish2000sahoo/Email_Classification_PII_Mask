@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem with Network Connectivity\n\nThe financial firm's data analytics platform is encountering intermittent connectivity issues with the Aruba 2530 switch. These problems might be due to recent software updates or changes in network configuration. Steps already taken include rebooting the switch and checking cable connections, but the issue remains unresolved You can reach me at sophia.rossi@service.it.. We would greatly appreciate your help in resolving this matter. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        493,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        392,
+        415
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        153,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "2530"
+    }
+  ],
+  "masked_email": "Subject: Problem with Network Connectivity\n\nThe financial firm's data analytics platform is encountering intermittent connectivity issues with the Aruba [phone_number] switch. These problems might be due to recent software updates or changes in network configuration. Steps already taken include rebooting the switch and checking cable connections, but the issue remains unresolved You can reach me at [email].. We would greatly appreciate your help in resolving this matter. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

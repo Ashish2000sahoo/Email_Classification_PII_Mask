@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Temporary Outage in Project Management Dashboards\n\nExperienced a temporary outage with the Project Management Dashboards following recent server configuration changes You can reach me at janesmith@company.com.. Tried restarting the application and clearing the cache, but the issue persists. The team is currently using the dashboard, and this is causing delays in project planning My name is Jane Smith.. We appreciate your prompt attention to this matter and would like to investigate and provide a solution as soon as possible. Please inform us if you need any additional information to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        402,
+        412
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        196,
+        217
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Temporary Outage in Project Management Dashboards\n\nExperienced a temporary outage with the Project Management Dashboards following recent server configuration changes You can reach me at [email].. Tried restarting the application and clearing the cache, but the issue persists. The team is currently using the dashboard, and this is causing delays in project planning My name is [full_name].. We appreciate your prompt attention to this matter and would like to investigate and provide a solution as soon as possible. Please inform us if you need any additional information to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance Required for Technical Issue\n\nOur analytics platform experienced a crash during a critical reporting period You can reach me at carlosm@gmail.com.. After restarting services and updating the software, the issue still persists. There are suspicions of compatibility problems with MongoDB 4.4 and Node.js 14.17. We need your help to resolve this issue as soon as possible. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        402,
+        413
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        148,
+        165
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        313,
+        318
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Technical Issue\n\nOur analytics platform experienced a crash during a critical reporting period You can reach me at [email].. After restarting services and updating the software, the issue still persists. There are suspicions of compatibility problems with MongoDB 4.4 and Node.js [phone_number]. We need your help to resolve this issue as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with MySQL 8.0 Integration\n\nFaced difficulties with MySQL 8.0 integration, possibly related to Elasticsearch compatibility.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        180
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problem with MySQL 8.0 Integration\n\nFaced difficulties with MySQL 8.0 integration, possibly related to Elasticsearch compatibility.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

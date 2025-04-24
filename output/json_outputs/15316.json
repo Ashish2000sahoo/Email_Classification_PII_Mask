@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Datenanalyse-F\u00e4higkeiten f\u00fcr die Optimierung der Investitionsleistung\n\nGestresst an den Kundensupport, ich schlage vor, die aktuellen F\u00e4higkeiten des Datenanalyse-Systems zu verbessern You can reach me at elena.ivanova@support.org.. Das Ziel besteht darin, die Investitionsleistung zu optimieren und Fortschritte effektiver zu verfolgen My name is David Kim.. Derzeit fehlt dem System die F\u00e4higkeit, realechtige Einsichten und detaillierte Analysen zu liefern, was es schwierig macht, ausgewogene Entscheidungen zu treffen. Ich schlage vor, ein neues Modul zu entwickeln, das das bestehende System erweitert und eine umfassendere visuelle Datenanalyse sowie vorhersagende Analysen bereitstellt. Dies sollte uns helfen, Trends, Chancen und potenzielle Risiken zu identifizieren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        374,
+        383
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        231,
+        256
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Datenanalyse-F\u00e4higkeiten f\u00fcr die Optimierung der Investitionsleistung\n\nGestresst an den Kundensupport, ich schlage vor, die aktuellen F\u00e4higkeiten des Datenanalyse-Systems zu verbessern You can reach me at [email].. Das Ziel besteht darin, die Investitionsleistung zu optimieren und Fortschritte effektiver zu verfolgen My name is [full_name].. Derzeit fehlt dem System die F\u00e4higkeit, realechtige Einsichten und detaillierte Analysen zu liefern, was es schwierig macht, ausgewogene Entscheidungen zu treffen. Ich schlage vor, ein neues Modul zu entwickeln, das das bestehende System erweitert und eine umfassendere visuelle Datenanalyse sowie vorhersagende Analysen bereitstellt. Dies sollte uns helfen, Trends, Chancen und potenzielle Risiken zu identifizieren.",
+  "category_of_the_email": "Change"
+}

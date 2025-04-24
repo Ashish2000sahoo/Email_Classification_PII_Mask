@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Meldung an den Kundenservice-Team\n\nSehr geehrte Kundenservice-Team,<br>bei einem Vorfall wurde unverschl\u00fcsseltes medizinisches Daten extern zugegriffen.<br>Dies k\u00f6nnte auf fehlerhaften Firewall-Regeln zur\u00fcckzuf\u00fchren sein.<br>Bislang haben wir versucht, die Firewall neu zu starten und die Logs zu \u00fcberpr\u00fcfen.<br>Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um dieses Problem zu l\u00f6sen und zuk\u00fcnftige Abl\u00e4ufe zu verhindern.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        459
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Meldung an den Kundenservice-Team\n\nSehr geehrte Kundenservice-Team,<br>bei einem Vorfall wurde unverschl\u00fcsseltes medizinisches Daten extern zugegriffen.<br>Dies k\u00f6nnte auf fehlerhaften Firewall-Regeln zur\u00fcckzuf\u00fchren sein.<br>Bislang haben wir versucht, die Firewall neu zu starten und die Logs zu \u00fcberpr\u00fcfen.<br>Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um dieses Problem zu l\u00f6sen und zuk\u00fcnftige Abl\u00e4ufe zu verhindern.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme beim Anmelden am Konto\n\nSehr geehrte Kundenservice, ich bin im Moment bei dem Versuch, mein Konto anzumelden, an einem Problem gestrandet. Ich vermute, dass es auf eine veraltete Browser-Version zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at carlosm@gmail.com.. Ich habe bereits das Cache-Clearing und das Neustarten des Browsers versucht, aber leider l\u00f6st das das Problem nicht. Ich w\u00fcrde mich sehr freuen, wenn Sie mir bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. Bitte teilen Sie mich mit, ob es weitere potrzebene Schritte sind, die ich unternehmen soll oder ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen My name is Sophia Rossi.. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        637,
+        649
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        260,
+        277
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme beim Anmelden am Konto\n\nSehr geehrte Kundenservice, ich bin im Moment bei dem Versuch, mein Konto anzumelden, an einem Problem gestrandet. Ich vermute, dass es auf eine veraltete Browser-Version zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Ich habe bereits das Cache-Clearing und das Neustarten des Browsers versucht, aber leider l\u00f6st das das Problem nicht. Ich w\u00fcrde mich sehr freuen, wenn Sie mir bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. Bitte teilen Sie mich mit, ob es weitere potrzebene Schritte sind, die ich unternehmen soll oder ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen My name is [full_name].. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

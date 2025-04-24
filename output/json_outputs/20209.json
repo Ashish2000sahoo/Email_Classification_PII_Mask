@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei der drahtlosen Einrichtung erforderlich\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, dass es Ihnen gut geht. Ich wende mich an Sie, um Unterst\u00fctzung bei der Einrichtung des drahtlosen Druckens auf meinem HP DeskJet 3755 Drucker zu bitten My name is Carlos Mendoza.. Ich habe Schwierigkeiten, den Drucker mit meinem drahtlosen Netzwerk zu verbinden und w\u00fcrde Ihre Hilfe bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen.\n\nIch habe versucht, die Anweisungen im Benutzerhandbuch zu befolgen, aber leider war ich nicht erfolgreich. Da ich stark auf das Drucken f\u00fcr pers\u00f6nliche und berufliche Zwecke angewiesen bin, ist es f\u00fcr mich entscheidend, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.\n\nK\u00f6nnten Sie mir bitte einige Fehlersuche-Schritte oder eine Fernunterst\u00fctzung anbieten, um mich durch den Einrichtungsprozess zu f\u00fchren? Wenn es spezifische Anforderungen oder Konfigurationen gibt, die vorgenommen werden m\u00fcssen, lassen Sie es mich bitte ebenfalls wissen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit You can reach me at omar.hassan@secure.net.. Ich freue mich auf Ihre Antwort und hoffe, dass das drahtlose Drucken bald reibungslos funktioniert.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        291
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1072,
+        1094
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        243,
+        247
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei der drahtlosen Einrichtung erforderlich\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, dass es Ihnen gut geht. Ich wende mich an Sie, um Unterst\u00fctzung bei der Einrichtung des drahtlosen Druckens auf meinem HP DeskJet [phone_number] Drucker zu bitten My name is [full_name].. Ich habe Schwierigkeiten, den Drucker mit meinem drahtlosen Netzwerk zu verbinden und w\u00fcrde Ihre Hilfe bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen.\n\nIch habe versucht, die Anweisungen im Benutzerhandbuch zu befolgen, aber leider war ich nicht erfolgreich. Da ich stark auf das Drucken f\u00fcr pers\u00f6nliche und berufliche Zwecke angewiesen bin, ist es f\u00fcr mich entscheidend, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.\n\nK\u00f6nnten Sie mir bitte einige Fehlersuche-Schritte oder eine Fernunterst\u00fctzung anbieten, um mich durch den Einrichtungsprozess zu f\u00fchren? Wenn es spezifische Anforderungen oder Konfigurationen gibt, die vorgenommen werden m\u00fcssen, lassen Sie es mich bitte ebenfalls wissen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit You can reach me at [email].. Ich freue mich auf Ihre Antwort und hoffe, dass das drahtlose Drucken bald reibungslos funktioniert.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

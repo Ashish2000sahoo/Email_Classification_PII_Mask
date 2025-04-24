@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Integration mehrerer Werkzeuge in Ihr System\n\nSehr geehrter Kunde,\\n\\nich m\u00f6chte mich um den Fehler bem\u00fchen, den Sie bei der Integration mehrerer Werkzeuge in Ihr System feststellen, k\u00fcmmern. F\u00fcr die L\u00f6sung dieses Problems ben\u00f6tige ich zus\u00e4tzliche Informationen. Bitte teilen Sie mir die spezifischen Werkzeuge mit, bei denen es zu Schwierigkeiten kommt, sowie die genauen Fehlermeldungen, die Sie erhalten My name is Jane Smith.. Dar\u00fcber hinaus w\u00e4re es hilfreich zu erfahren, welche Ma\u00dfnahmen Sie bereits unternommen haben, um das Problem zu beheben You can reach me at fatima.farsi@help.com.. Wenn n\u00f6tig, k\u00f6nnen wir auch eine Telefonkonferenz vereinbaren, um gemeinsam eine L\u00f6sung zu finden. Bitte geben Sie mir eine geeignete Zeit f\u00fcr einen Anruf auf <tel_num>, oder wir k\u00f6nnen weiter per E-Mail korrespondieren.\\n\\nMit freundlichen Gr\u00fc\u00dfen",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        444,
+        454
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        598,
+        619
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Integration mehrerer Werkzeuge in Ihr System\n\nSehr geehrter Kunde,\\n\\nich m\u00f6chte mich um den Fehler bem\u00fchen, den Sie bei der Integration mehrerer Werkzeuge in Ihr System feststellen, k\u00fcmmern. F\u00fcr die L\u00f6sung dieses Problems ben\u00f6tige ich zus\u00e4tzliche Informationen. Bitte teilen Sie mir die spezifischen Werkzeuge mit, bei denen es zu Schwierigkeiten kommt, sowie die genauen Fehlermeldungen, die Sie erhalten My name is [full_name].. Dar\u00fcber hinaus w\u00e4re es hilfreich zu erfahren, welche Ma\u00dfnahmen Sie bereits unternommen haben, um das Problem zu beheben You can reach me at [email].. Wenn n\u00f6tig, k\u00f6nnen wir auch eine Telefonkonferenz vereinbaren, um gemeinsam eine L\u00f6sung zu finden. Bitte geben Sie mir eine geeignete Zeit f\u00fcr einen Anruf auf <tel_num>, oder wir k\u00f6nnen weiter per E-Mail korrespondieren.\\n\\nMit freundlichen Gr\u00fc\u00dfen",
+  "category_of_the_email": "Incident"
+}

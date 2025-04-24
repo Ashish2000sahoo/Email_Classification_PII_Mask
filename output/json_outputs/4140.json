@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhanced Security Protocols for Healthcare Data\n\nTo implement enhanced security protocols for healthcare data management across affected software and hardware systems, ensuring compliance and protection is crucial. This includes regular software updates, secure data storage, and access controls. Additionally, training staff on data handling security practices is essential My name is Fatima Al-Farsi.. These measures will help protect sensitive healthcare data and maintain patient trust. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        395,
+        404
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        522,
+        544
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Enhanced Security Protocols for Healthcare Data\n\nTo implement enhanced security protocols for healthcare data management across affected software and hardware systems, ensuring compliance and protection is crucial. This includes regular software updates, secure data storage, and access controls. Additionally, training staff on data handling security practices is essential My name is [full_name]-Farsi.. These measures will help protect sensitive healthcare data and maintain patient trust. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

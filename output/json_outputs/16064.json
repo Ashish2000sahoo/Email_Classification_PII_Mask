@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung f\u00fcr Kampagnenunterst\u00fctzung\n\nSehr geehrte Kundenservice-Team, ich habe Schwierigkeiten mit dem Kampagnen-Analysedashboard, das die Daten nicht korrekt ladt You can reach me at omar.hassan@secure.net.. Dies k\u00f6nnte aufgrund eines unkompatiblen Software-Updates passiert sein My name is David Kim.. Ich habe mein System neu gestartet und meine Internetverbindung gepr\u00fcft, aber das Problem beh\u00e4lt sich hartn\u00e4ckig. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dieser Angelegenheit annehmen und so schnell wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu beheben. Ich danke Ihnen im Voraus f\u00fcr Ihre Hilfe und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        311
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        194,
+        216
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Forderung f\u00fcr Kampagnenunterst\u00fctzung\n\nSehr geehrte Kundenservice-Team, ich habe Schwierigkeiten mit dem Kampagnen-Analysedashboard, das die Daten nicht korrekt ladt You can reach me at [email].. Dies k\u00f6nnte aufgrund eines unkompatiblen Software-Updates passiert sein My name is [full_name].. Ich habe mein System neu gestartet und meine Internetverbindung gepr\u00fcft, aber das Problem beh\u00e4lt sich hartn\u00e4ckig. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dieser Angelegenheit annehmen und so schnell wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu beheben. Ich danke Ihnen im Voraus f\u00fcr Ihre Hilfe und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

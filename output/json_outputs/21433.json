@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrtes Tech Online Store Support-Team,\n\nich schreibe, um Unterst\u00fctzung bei einem anhaltenden Problem zu suchen, das ich mit Adobe Photoshop 2024 habe, das ich in Ihrem Gesch\u00e4ft gekauft habe, Bestellnummer <order_num>. Die Software hat derzeit erhebliche Verz\u00f6gerungen beim Laden, was sich negativ auf meinen Workflow auswirkt You can reach me at omar.hassan@secure.net.. Beim Starten der Anwendung bleibt sie mehrere Minuten lang am Initialisierungsbildschirm h\u00e4ngen, was ziemlich besorgniserregend ist und nicht dem entspricht, was ich von einer neu ver\u00f6ffentlichten Softwareversion erwarte.\n\nIch habe sichergestellt, dass mein System alle Softwareanforderungen erf\u00fcllt, und ich habe alle verf\u00fcgbaren Updates sowohl f\u00fcr Adobe Photoshop als auch f\u00fcr mein Betriebssystem installiert, aber das Problem besteht weiterhin. Ich habe auch versucht, die Software neu zu installieren, Cache-Dateien zu l\u00f6schen und nach konfliktbehafteten Anwendungen zu suchen, indem ich die \u00fcblichen Online-Fehlerbehebungsma\u00dfnahmen befolgt habe. Leider haben diese Ma\u00dfnahmen das Problem nicht gel\u00f6st.\n\nK\u00f6nnten Sie mir bitte Hinweise oder zus\u00e4tzliche Fehlerbehebungsma\u00dfnahmen geben, die mir helfen k\u00f6nnten, diese Situation zu l\u00f6sen? Jede Einsicht oder L\u00f6sung, die Ihr Team anbieten k\u00f6nnte, w\u00e4re sehr willkommen. Dar\u00fcber hinaus w\u00e4re ich Ihnen dankbar f\u00fcr eine Best\u00e4tigung \u00fcber die Kompatibilit\u00e4t der Software mit den letzten Updates, die zu diesem Problem beitragen k\u00f6nnten.\n\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1557,
+        1565
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        364,
+        386
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        158,
+        162
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrtes Tech Online Store Support-Team,\n\nich schreibe, um Unterst\u00fctzung bei einem anhaltenden Problem zu suchen, das ich mit Adobe Photoshop [phone_number] habe, das ich in Ihrem Gesch\u00e4ft gekauft habe, Bestellnummer <order_num>. Die Software hat derzeit erhebliche Verz\u00f6gerungen beim Laden, was sich negativ auf meinen Workflow auswirkt You can reach me at [email].. Beim Starten der Anwendung bleibt sie mehrere Minuten lang am Initialisierungsbildschirm h\u00e4ngen, was ziemlich besorgniserregend ist und nicht dem entspricht, was ich von einer neu ver\u00f6ffentlichten Softwareversion erwarte.\n\nIch habe sichergestellt, dass mein System alle Softwareanforderungen erf\u00fcllt, und ich habe alle verf\u00fcgbaren Updates sowohl f\u00fcr Adobe Photoshop als auch f\u00fcr mein Betriebssystem installiert, aber das Problem besteht weiterhin. Ich habe auch versucht, die Software neu zu installieren, Cache-Dateien zu l\u00f6schen und nach konfliktbehafteten Anwendungen zu suchen, indem ich die \u00fcblichen Online-Fehlerbehebungsma\u00dfnahmen befolgt habe. Leider haben diese Ma\u00dfnahmen das Problem nicht gel\u00f6st.\n\nK\u00f6nnten Sie mir bitte Hinweise oder zus\u00e4tzliche Fehlerbehebungsma\u00dfnahmen geben, die mir helfen k\u00f6nnten, diese Situation zu l\u00f6sen? Jede Einsicht oder L\u00f6sung, die Ihr Team anbieten k\u00f6nnte, w\u00e4re sehr willkommen. Dar\u00fcber hinaus w\u00e4re ich Ihnen dankbar f\u00fcr eine Best\u00e4tigung \u00fcber die Kompatibilit\u00e4t der Software mit den letzten Updates, die zu diesem Problem beitragen k\u00f6nnten.\n\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

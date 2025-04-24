@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Algorithm Malfunction\n\nI am compiling a report on an incident involving a financial algorithm that failed to execute the investment optimization process correctly due to conflicting data formats You can reach me at david.kim@corp.kr.. Despite attempts to resolve the issue by rebooting systems and reinstalling the affected software, the problem continues. I would greatly appreciate any assistance you could provide in resolving this issue as soon as possible My name is Fatima Al-Farsi.. Please let me know if you need additional information to facilitate a prompt resolution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        502,
+        511
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        245,
+        262
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Algorithm Malfunction\n\nI am compiling a report on an incident involving a financial algorithm that failed to execute the investment optimization process correctly due to conflicting data formats You can reach me at [email].. Despite attempts to resolve the issue by rebooting systems and reinstalling the affected software, the problem continues. I would greatly appreciate any assistance you could provide in resolving this issue as soon as possible My name is [full_name]-Farsi.. Please let me know if you need additional information to facilitate a prompt resolution.",
+  "category_of_the_email": "Incident"
+}

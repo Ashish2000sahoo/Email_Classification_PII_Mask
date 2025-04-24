@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Folge-Up on Digital Marketing Tools Software Update\n\nDear Customer Service, I am writing to inquire about the update of our digital marketing tools - software. This update will aid in fostering brand growth, optimizing strategies, competing in the market, and enhancing our online presence. I require the latest technology. Please provide details on the update process and how to proceed with the tools and software My name is Carlos Mendoza.. I highly appreciate your assistance with this matter and look forward to your response You can reach me at johndoe@email.com.. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        436,
+        450
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        557,
+        574
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Folge-Up on Digital Marketing Tools Software Update\n\nDear Customer Service, I am writing to inquire about the update of our digital marketing tools - software. This update will aid in fostering brand growth, optimizing strategies, competing in the market, and enhancing our online presence. I require the latest technology. Please provide details on the update process and how to proceed with the tools and software My name is [full_name].. I highly appreciate your assistance with this matter and look forward to your response You can reach me at [email].. Thank you.",
+  "category_of_the_email": "Change"
+}

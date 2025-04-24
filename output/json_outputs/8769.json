@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler in den Investment-Prognosen\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass ich unerwartete Fehler in meinen Investment-Prognosen festgestellt habe You can reach me at johndoe@email.com.. Es k\u00f6nnte sein, dass veraltete Trainingdaten f\u00fcr das Modell die Pr\u00e4zision des Analyse-Engines beeintr\u00e4chtigen. Ich habe versucht, das Analyse-Engine neu zu starten, was leider den Fehler nicht gel\u00f6st hat. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich dieser Angelegenheit annehmen und mir so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten My name is Fatima Al-Farsi.. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich bin gespannt auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        566,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        198,
+        215
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Fehler in den Investment-Prognosen\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass ich unerwartete Fehler in meinen Investment-Prognosen festgestellt habe You can reach me at [email].. Es k\u00f6nnte sein, dass veraltete Trainingdaten f\u00fcr das Modell die Pr\u00e4zision des Analyse-Engines beeintr\u00e4chtigen. Ich habe versucht, das Analyse-Engine neu zu starten, was leider den Fehler nicht gel\u00f6st hat. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich dieser Angelegenheit annehmen und mir so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten My name is [full_name]-Farsi.. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich bin gespannt auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team,\n\nI am writing to report an issue with the JavaScript React App Development Service. After the recent update, our user interface has been crashing consistently, which has significantly impacted our frontend operations. This issue needs urgent resolution to restore full functionality You can reach me at carlosm@gmail.com.. We understand that software updates are critical, and we appreciate your team's efforts, but this malfunction has affected our productivity adversely.\n\nCould you please look into this matter at the earliest? We would greatly appreciate guidance or any immediate recommendations on possible workarounds until a fix can be applied.\n\nThank you for your prompt attention to this urgent matter.\n\nKind regards,\n\n<name>\n<tel_num>\n<email> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        804,
+        817
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        342,
+        359
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team,\n\nI am writing to report an issue with the JavaScript React App Development Service. After the recent update, our user interface has been crashing consistently, which has significantly impacted our frontend operations. This issue needs urgent resolution to restore full functionality You can reach me at [email].. We understand that software updates are critical, and we appreciate your team's efforts, but this malfunction has affected our productivity adversely.\n\nCould you please look into this matter at the earliest? We would greatly appreciate guidance or any immediate recommendations on possible workarounds until a fix can be applied.\n\nThank you for your prompt attention to this urgent matter.\n\nKind regards,\n\n<name>\n<tel_num>\n<email> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

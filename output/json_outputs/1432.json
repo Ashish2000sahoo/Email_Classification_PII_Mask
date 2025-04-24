@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Untersuchung unkonstanter Investment-Prognosen durch Datenanalyse-Nutzungstool\n\nDas Datenanalyse-Nutzungstool produziert unkonstante Investment-Prognosen You can reach me at omar.hassan@secure.net.. Es k\u00f6nnte sein, dass Probleme mit der Software-Aktualisierung und Datenaustausch die Ursache sind My name is Sophia Rossi.. Datenquellen wurden \u00fcberpr\u00fcft, aber die Probleme sind weiterhin bestehen. Wir ben\u00f6tigen Unterst\u00fctzung, um das Problem zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        183,
+        205
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Untersuchung unkonstanter Investment-Prognosen durch Datenanalyse-Nutzungstool\n\nDas Datenanalyse-Nutzungstool produziert unkonstante Investment-Prognosen You can reach me at [email].. Es k\u00f6nnte sein, dass Probleme mit der Software-Aktualisierung und Datenaustausch die Ursache sind My name is [full_name].. Datenquellen wurden \u00fcberpr\u00fcft, aber die Probleme sind weiterhin bestehen. Wir ben\u00f6tigen Unterst\u00fctzung, um das Problem zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

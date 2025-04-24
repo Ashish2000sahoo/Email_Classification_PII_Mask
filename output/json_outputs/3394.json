@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Details on Data Analysis Services\n\nCould you provide detailed information on data analysis services, optimization of investment strategies, to assist in making informed decisions and maximizing returns? We are seeking a comprehensive solution that includes data visualization and predictive modeling. Thank you for your time and support My name is Carlos Mendoza.. Looking forward to your prompt response. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        369,
+        383
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        444,
+        461
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Details on Data Analysis Services\n\nCould you provide detailed information on data analysis services, optimization of investment strategies, to assist in making informed decisions and maximizing returns? We are seeking a comprehensive solution that includes data visualization and predictive modeling. Thank you for your time and support My name is [full_name].. Looking forward to your prompt response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

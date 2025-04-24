@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern Regarding Marketing Campaigns\n\nThe current marketing campaigns are not achieving the anticipated growth in brand engagement due to ineffective targeting and the use of inadequate digital channels. Despite attempts to adjust ad budgets and test content, the results have not been satisfactory.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        347
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Marketing Campaigns\n\nThe current marketing campaigns are not achieving the anticipated growth in brand engagement due to ineffective targeting and the use of inadequate digital channels. Despite attempts to adjust ad budgets and test content, the results have not been satisfactory.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de conexi\u00f3n para iniciar sesi\u00f3n en Jira Software\n\nEstimado equipo de soporte al cliente,\n\nLes escribo para informarles sobre un problema persistente que estamos enfrentando con nuestra implementaci\u00f3n de Jira Software versi\u00f3n 8.20 You can reach me at liuwei@business.cn.. Los miembros de nuestro equipo han informado una falta de respuesta constante en el sistema, particularmente al intentar iniciar sesi\u00f3n. La situaci\u00f3n ha sido bastante frustrante ya que parece ser un problema de tiempo de espera de conexi\u00f3n del servidor, causando importantes interrupciones en nuestro flujo de trabajo.\n\nA pesar de varios intentos, los usuarios se encuentran atascados durante el proceso de inicio de sesi\u00f3n, incapaces de acceder a funciones cr\u00edticas de gesti\u00f3n de proyectos. Dependemos mucho de Jira para facilitar nuestras tareas diarias y mantener los cronogramas de los proyectos My name is Jane Smith.. Estas interrupciones est\u00e1n causando retrasos e impactando la productividad de nuestro equipo.\n\n\u00bfPodr\u00edan investigar este problema con prioridad y proporcionar una soluci\u00f3n a la brevedad? Sospechamos que podr\u00eda ser un problema subyacente de conexi\u00f3n del servidor o quiz\u00e1s una configuraci\u00f3n que necesita ajustes. Si pudieran compartir alg\u00fan paso de soluci\u00f3n de problemas o ideas que podr\u00edamos transmitir a nuestro departamento de TI para ayudar a resolver esto, ser\u00eda apreciado.\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su r\u00e1pida respuesta y una soluci\u00f3n para que podamos restaurar el acceso sin problemas a nuestro sistema.\n\nAtentamente,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        901,
+        911
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        269,
+        287
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problemas de conexi\u00f3n para iniciar sesi\u00f3n en Jira Software\n\nEstimado equipo de soporte al cliente,\n\nLes escribo para informarles sobre un problema persistente que estamos enfrentando con nuestra implementaci\u00f3n de Jira Software versi\u00f3n 8.20 You can reach me at [email].. Los miembros de nuestro equipo han informado una falta de respuesta constante en el sistema, particularmente al intentar iniciar sesi\u00f3n. La situaci\u00f3n ha sido bastante frustrante ya que parece ser un problema de tiempo de espera de conexi\u00f3n del servidor, causando importantes interrupciones en nuestro flujo de trabajo.\n\nA pesar de varios intentos, los usuarios se encuentran atascados durante el proceso de inicio de sesi\u00f3n, incapaces de acceder a funciones cr\u00edticas de gesti\u00f3n de proyectos. Dependemos mucho de Jira para facilitar nuestras tareas diarias y mantener los cronogramas de los proyectos My name is [full_name].. Estas interrupciones est\u00e1n causando retrasos e impactando la productividad de nuestro equipo.\n\n\u00bfPodr\u00edan investigar este problema con prioridad y proporcionar una soluci\u00f3n a la brevedad? Sospechamos que podr\u00eda ser un problema subyacente de conexi\u00f3n del servidor o quiz\u00e1s una configuraci\u00f3n que necesita ajustes. Si pudieran compartir alg\u00fan paso de soluci\u00f3n de problemas o ideas que podr\u00edamos transmitir a nuestro departamento de TI para ayudar a resolver esto, ser\u00eda apreciado.\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su r\u00e1pida respuesta y una soluci\u00f3n para que podamos restaurar el acceso sin problemas a nuestro sistema.\n\nAtentamente,\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

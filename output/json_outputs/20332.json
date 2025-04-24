@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Need Immediate AWS Optimization\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well. My name is <name>, and I am contacting you on behalf of our company, <company_name>. We are currently experiencing significant challenges with our AWS Management Service, primarily concerning cost optimization and deployment inefficiencies.\n\nOur IT infrastructure heavily relies on AWS, and recently, we have observed a continuous increase in our monthly AWS bills, without a corresponding improvement in service performance or delivery. As such, we consider this matter to be high-priority, given its substantial impact on our operational budget and overall service delivery.\n\nWe urgently require your expertise to conduct a thorough analysis and provide viable solutions for optimizing our AWS infrastructure costs. Additionally, we need strategies to enhance the efficiency of our cloud service deployments, ensuring they are seamless and future-proof.\n\nPlease let us know the soonest availability for a consultation meeting with your team My name is Jane Smith.. Feel free to reach out to me at <email_address> or call me directly at <tel_num>.\n\nYour prompt attention to this matter would be greatly appreciated. We look forward to collaborating closely with your team to resolve these pressing issues.\n\nThank you for your support.\n\nBest regards,\n\n<name>\n<position>\n<company_name>\n<tel_num>\n<email_address> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1073,
+        1083
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1451,
+        1468
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Need Immediate AWS Optimization\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well. My name is <name>, and I am contacting you on behalf of our company, <company_name>. We are currently experiencing significant challenges with our AWS Management Service, primarily concerning cost optimization and deployment inefficiencies.\n\nOur IT infrastructure heavily relies on AWS, and recently, we have observed a continuous increase in our monthly AWS bills, without a corresponding improvement in service performance or delivery. As such, we consider this matter to be high-priority, given its substantial impact on our operational budget and overall service delivery.\n\nWe urgently require your expertise to conduct a thorough analysis and provide viable solutions for optimizing our AWS infrastructure costs. Additionally, we need strategies to enhance the efficiency of our cloud service deployments, ensuring they are seamless and future-proof.\n\nPlease let us know the soonest availability for a consultation meeting with your team My name is [full_name].. Feel free to reach out to me at <email_address> or call me directly at <tel_num>.\n\nYour prompt attention to this matter would be greatly appreciated. We look forward to collaborating closely with your team to resolve these pressing issues.\n\nThank you for your support.\n\nBest regards,\n\n<name>\n<position>\n<company_name>\n<tel_num>\n<email_address> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

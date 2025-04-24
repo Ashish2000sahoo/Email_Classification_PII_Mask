@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Investment Data Analytics\n\nDie Investment Data Analytics-Plattform experiences sudden crashes, not due to insufficient system resources or software conflicts. Restarting the systems and checking for updates have already been attempted.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Investment Data Analytics\n\nDie Investment Data Analytics-Plattform experiences sudden crashes, not due to insufficient system resources or software conflicts. Restarting the systems and checking for updates have already been attempted.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

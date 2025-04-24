@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Inquiry about bulk purchase of MacBook Air M1\n\nDear Customer Support,\n\nI am reaching out to inquire about the possibility of purchasing multiple units of the MacBook Air M1 for our company's corporate use. We are interested in understanding the options available for bulk pricing and any potential discounts you might offer for large orders.\n\nCan you please provide more details on your corporate purchase program and any specific terms or requirements involved? Your assistance in expediting this inquiry would be greatly appreciated.\n\nLooking forward to your prompt response.\n\nBest regards,\n\n<name>\n<company_name>. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        647,
+        663
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Inquiry about bulk purchase of MacBook Air M1\n\nDear Customer Support,\n\nI am reaching out to inquire about the possibility of purchasing multiple units of the MacBook Air M1 for our company's corporate use. We are interested in understanding the options available for bulk pricing and any potential discounts you might offer for large orders.\n\nCan you please provide more details on your corporate purchase program and any specific terms or requirements involved? Your assistance in expediting this inquiry would be greatly appreciated.\n\nLooking forward to your prompt response.\n\nBest regards,\n\n<name>\n<company_name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

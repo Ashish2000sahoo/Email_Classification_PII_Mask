@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Security Incident: Medical Data Encryption Failure\n\nDear Customer Support,\\n\\nWe are contacting you to report an unexpected issue that happened last night. Our medical data encryption system has malfunctioned My name is Omar Hassan.. We believe this might be due to a malware attack or a software conflict.\\nTo address this, we have already performed a Malwarebytes scan and reviewed our Airtable permissions, but the issue remains unresolved.\\nWe would greatly appreciate any guidance you could offer to resolve this situation You can reach me at fatima.farsi@help.com.. Please inform us if any extra details are needed from our side.\\nThank you for your understanding and support.\\nSincerely,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        250
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        567,
+        588
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Security Incident: Medical Data Encryption Failure\n\nDear Customer Support,\\n\\nWe are contacting you to report an unexpected issue that happened last night. Our medical data encryption system has malfunctioned My name is [full_name].. We believe this might be due to a malware attack or a software conflict.\\nTo address this, we have already performed a Malwarebytes scan and reviewed our Airtable permissions, but the issue remains unresolved.\\nWe would greatly appreciate any guidance you could offer to resolve this situation You can reach me at [email].. Please inform us if any extra details are needed from our side.\\nThank you for your understanding and support.\\nSincerely,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Network Connectivity Among Various Devices\n\nCurrently facing network connectivity challenges across several devices and applications, which is impacting project management tasks My name is Sophia Rossi.. It seems recent software updates or configuration changes might be the cause You can reach me at sophia.rossi@service.it.. Even after restarting the devices and checking network settings, the issue still exists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        322,
+        345
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Network Connectivity Among Various Devices\n\nCurrently facing network connectivity challenges across several devices and applications, which is impacting project management tasks My name is [full_name].. It seems recent software updates or configuration changes might be the cause You can reach me at [email].. Even after restarting the devices and checking network settings, the issue still exists.",
+  "category_of_the_email": "Incident"
+}

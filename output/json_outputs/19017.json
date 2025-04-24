@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr digitalen Marketingkampagnen in Anbetracht neuer Algorithmen\u00e4nderungen\n\nAusnahmsweise unterliegen unsere digitalen Marketingkampagnen den \u00c4nderungen der Algorithmen My name is Maria Gonzalez.. Bislang haben Anpassungen an die Zielgruppe und die Erh\u00f6hung des Budgets geholfen You can reach me at liuwei@business.cn.. Wir ben\u00f6tigen Unterst\u00fctzung, um die Sichtbarkeit der Anzeigen zu verbessern und das Markenwachstum zu f\u00f6rdern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        217
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        319,
+        337
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr digitalen Marketingkampagnen in Anbetracht neuer Algorithmen\u00e4nderungen\n\nAusnahmsweise unterliegen unsere digitalen Marketingkampagnen den \u00c4nderungen der Algorithmen My name is [full_name].. Bislang haben Anpassungen an die Zielgruppe und die Erh\u00f6hung des Budgets geholfen You can reach me at [email].. Wir ben\u00f6tigen Unterst\u00fctzung, um die Sichtbarkeit der Anzeigen zu verbessern und das Markenwachstum zu f\u00f6rdern.",
+  "category_of_the_email": "Change"
+}

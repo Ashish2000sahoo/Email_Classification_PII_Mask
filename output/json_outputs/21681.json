@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema con la facturaci\u00f3n de AWS\n\nEstimado equipo de soporte al cliente, espero que este mensaje les encuentre bien. Les escribo para llamar su atenci\u00f3n sobre un problema relacionado con la optimizaci\u00f3n de costos de mi AWS bajo el Servicio de Gesti\u00f3n de AWS You can reach me at johndoe@email.com.. Este mes, he notado cargos inesperados en mi cuenta de facturaci\u00f3n que no anticip\u00e9. Como cliente valioso, conf\u00edo en sus servicios para asegurarme de gestionar y prever mis gastos de manera eficiente. Sin embargo, estos cargos no anticipados han causado preocupaci\u00f3n y han afectado mi presupuesto. \u00bfPodr\u00edan investigar este problema a la brevedad posible y proporcionar aclaraciones sobre el origen de estos cargos? Adem\u00e1s, agradecer\u00eda orientaci\u00f3n sobre c\u00f3mo prevenir situaciones similares en futuros per\u00edodos de facturaci\u00f3n My name is Maria Gonzalez.. Mi n\u00famero de cuenta es <acc_num>, y el correo electr\u00f3nico registrado es <email>. Su atenci\u00f3n inmediata y soluci\u00f3n a este asunto ser\u00edan muy apreciadas. Para cualquier consulta, estoy disponible en <tel_num>. Gracias por su cooperaci\u00f3n y apoyo r\u00e1pido respecto a esta situaci\u00f3n. Espero su respuesta para asegurar la continuidad del servicio sin problemas. Atentamente, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        843,
+        857
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        289,
+        306
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problema con la facturaci\u00f3n de AWS\n\nEstimado equipo de soporte al cliente, espero que este mensaje les encuentre bien. Les escribo para llamar su atenci\u00f3n sobre un problema relacionado con la optimizaci\u00f3n de costos de mi AWS bajo el Servicio de Gesti\u00f3n de AWS You can reach me at [email].. Este mes, he notado cargos inesperados en mi cuenta de facturaci\u00f3n que no anticip\u00e9. Como cliente valioso, conf\u00edo en sus servicios para asegurarme de gestionar y prever mis gastos de manera eficiente. Sin embargo, estos cargos no anticipados han causado preocupaci\u00f3n y han afectado mi presupuesto. \u00bfPodr\u00edan investigar este problema a la brevedad posible y proporcionar aclaraciones sobre el origen de estos cargos? Adem\u00e1s, agradecer\u00eda orientaci\u00f3n sobre c\u00f3mo prevenir situaciones similares en futuros per\u00edodos de facturaci\u00f3n My name is [full_name].. Mi n\u00famero de cuenta es <acc_num>, y el correo electr\u00f3nico registrado es <email>. Su atenci\u00f3n inmediata y soluci\u00f3n a este asunto ser\u00edan muy apreciadas. Para cualquier consulta, estoy disponible en <tel_num>. Gracias por su cooperaci\u00f3n y apoyo r\u00e1pido respecto a esta situaci\u00f3n. Espero su respuesta para asegurar la continuidad del servicio sin problemas. Atentamente, <name>",
+  "category_of_the_email": "Request"
+}

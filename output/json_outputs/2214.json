@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nrequire optimization of database queries for the project management platform to enhance performance and scalability My name is Fatima Al-Farsi.. also, aim to improve the user experience to support growth. please provide more details on the current database setup and any specific issues encountered for better understanding of your needs. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        372,
+        393
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nrequire optimization of database queries for the project management platform to enhance performance and scalability My name is [full_name]-Farsi.. also, aim to improve the user experience to support growth. please provide more details on the current database setup and any specific issues encountered for better understanding of your needs. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

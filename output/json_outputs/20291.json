@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Screen Flickering Issue on Dell XPS 13\n\nDear Customer Support, I am reaching out to report an issue with my Dell XPS 13 (model 9310) purchased from your Tech Online Store. After the recent Windows 10 update, I have been experiencing severe screen flickering that makes the laptop nearly unusable. It seems the issue might be related to the latest update's compatibility with the Dell hardware. As an avid user of Dell products, this has been quite inconvenient for me. I kindly request your guidance on possible solutions or steps I should take towards resolving this matter. Any assistance would be greatly appreciated You can reach me at omar.hassan@secure.net.. Please feel free to contact me here or by phone at <tel_num> My name is Carlos Mendoza.. Thank you for your attention to this urgent matter. Best regards, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        746,
+        760
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        649,
+        671
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        136,
+        140
+      ],
+      "classification": "phone_number",
+      "entity": "9310"
+    }
+  ],
+  "masked_email": "Subject: Screen Flickering Issue on Dell XPS 13\n\nDear Customer Support, I am reaching out to report an issue with my Dell XPS 13 (model [phone_number]) purchased from your Tech Online Store. After the recent Windows 10 update, I have been experiencing severe screen flickering that makes the laptop nearly unusable. It seems the issue might be related to the latest update's compatibility with the Dell hardware. As an avid user of Dell products, this has been quite inconvenient for me. I kindly request your guidance on possible solutions or steps I should take towards resolving this matter. Any assistance would be greatly appreciated You can reach me at [email].. Please feel free to contact me here or by phone at <tel_num> My name is [full_name].. Thank you for your attention to this urgent matter. Best regards, <name>",
+  "category_of_the_email": "Incident"
+}

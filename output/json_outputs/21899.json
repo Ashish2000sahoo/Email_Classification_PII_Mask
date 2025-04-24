@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de actualizaci\u00f3n del flujo de trabajo en Jira\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje los encuentre bien. Mi nombre es <name> y estoy escribiendo para solicitar una actualizaci\u00f3n de nuestro flujo de trabajo de gesti\u00f3n de proyectos existente para mejorar el seguimiento y la previsi\u00f3n de ventas utilizando Jira Software 8.20.\n\nHemos estado utilizando Jira Software para nuestras necesidades de gesti\u00f3n de proyectos de manera efectiva; sin embargo, hemos identificado \u00e1reas en el seguimiento y la previsi\u00f3n de ventas que se pueden optimizar My name is John Doe.. Con su experiencia, estoy seguro de que podemos integrar caracter\u00edsticas mejoradas y personalizaciones para agilizar estos flujos de trabajo.\n\nNo duden en contactarme al <tel_num> o a trav\u00e9s de mi correo electr\u00f3nico para discutir esta solicitud m\u00e1s a fondo. Adem\u00e1s, si requieren alguna verificaci\u00f3n de cuenta, mi n\u00famero de cuenta es <acc_num>.\n\nGracias por su apoyo,\n\n<name> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        594,
+        602
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1003,
+        1020
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de actualizaci\u00f3n del flujo de trabajo en Jira\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje los encuentre bien. Mi nombre es <name> y estoy escribiendo para solicitar una actualizaci\u00f3n de nuestro flujo de trabajo de gesti\u00f3n de proyectos existente para mejorar el seguimiento y la previsi\u00f3n de ventas utilizando Jira Software 8.20.\n\nHemos estado utilizando Jira Software para nuestras necesidades de gesti\u00f3n de proyectos de manera efectiva; sin embargo, hemos identificado \u00e1reas en el seguimiento y la previsi\u00f3n de ventas que se pueden optimizar My name is [full_name].. Con su experiencia, estoy seguro de que podemos integrar caracter\u00edsticas mejoradas y personalizaciones para agilizar estos flujos de trabajo.\n\nNo duden en contactarme al <tel_num> o a trav\u00e9s de mi correo electr\u00f3nico para discutir esta solicitud m\u00e1s a fondo. Adem\u00e1s, si requieren alguna verificaci\u00f3n de cuenta, mi n\u00famero de cuenta es <acc_num>.\n\nGracias por su apoyo,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

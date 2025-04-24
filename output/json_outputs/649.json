@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Temporary User Authentication Issues During Peak Times\n\nTemporary user authentication issues occurred during peak times, likely due to server overload and maintenance work My name is Carlos Mendoza.. Measures taken to resolve the issue included resetting the authentication service and reviewing system logs. The products were affected, and user experience was impacted. Further investigations are necessary to prevent future occurrences. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        485,
+        502
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Temporary User Authentication Issues During Peak Times\n\nTemporary user authentication issues occurred during peak times, likely due to server overload and maintenance work My name is [full_name].. Measures taken to resolve the issue included resetting the authentication service and reviewing system logs. The products were affected, and user experience was impacted. Further investigations are necessary to prevent future occurrences. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

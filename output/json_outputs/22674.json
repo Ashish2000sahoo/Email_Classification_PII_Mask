@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Demande de support technique\n\nBonjour,\n\nJe rencontre des plantages fr\u00e9quents du navigateur en raison des extensions sur Google Chrome version 102.0 You can reach me at david.kim@corp.kr.. Merci de me fournir de l'aide pour r\u00e9soudre ce probl\u00e8me My name is David Kim.. Mon num\u00e9ro de compte est <acc_num>. Merci pour votre soutien.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        177,
+        194
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        151,
+        154
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Demande de support technique\n\nBonjour,\n\nJe rencontre des plantages fr\u00e9quents du navigateur en raison des extensions sur Google Chrome version [cvv_no].0 You can reach me at [email].. Merci de me fournir de l'aide pour r\u00e9soudre ce probl\u00e8me My name is [full_name].. Mon num\u00e9ro de compte est <acc_num>. Merci pour votre soutien.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

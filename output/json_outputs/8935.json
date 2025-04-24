@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem Datenauswertungs-Dashboard\n\nDas Datenauswertungs-Dashboard bricht w\u00e4hrend der Berichtsbearbeitung aufgrund von fehlenden Hadoop-Cluster-Ressourcen zusammen You can reach me at maria.gonzalez@shop.es.. Ich habe die Hadoop-Dienste neu gestartet und die Protokolle \u00fcberpr\u00fcft, aber das Problem ist weiterhin vorhanden. Ich brauche Ihre Unterst\u00fctzung, um dieses Problem zu beheben. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        413,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        201,
+        223
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem Datenauswertungs-Dashboard\n\nDas Datenauswertungs-Dashboard bricht w\u00e4hrend der Berichtsbearbeitung aufgrund von fehlenden Hadoop-Cluster-Ressourcen zusammen You can reach me at [email].. Ich habe die Hadoop-Dienste neu gestartet und die Protokolle \u00fcberpr\u00fcft, aber das Problem ist weiterhin vorhanden. Ich brauche Ihre Unterst\u00fctzung, um dieses Problem zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

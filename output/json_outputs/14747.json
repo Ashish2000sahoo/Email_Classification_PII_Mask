@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unexpected Disruption Hits Medical Management Tools\n\nAn unforeseen outage impacted several applications critical for handling medical information owing to a software error and network issues.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        238
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Disruption Hits Medical Management Tools\n\nAn unforeseen outage impacted several applications critical for handling medical information owing to a software error and network issues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

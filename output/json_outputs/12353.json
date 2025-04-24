@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Informationen zu Datenanalysewerkzeugen, Optimierung und Investitionsstrategien\n\nK\u00f6nnten Sie bitte mehr Informationen zu Datenanalysewerkzeugen, Optimierung und Investitionsstrategien bereitstellen? Vielen Dank.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        258
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Informationen zu Datenanalysewerkzeugen, Optimierung und Investitionsstrategien\n\nK\u00f6nnten Sie bitte mehr Informationen zu Datenanalysewerkzeugen, Optimierung und Investitionsstrategien bereitstellen? Vielen Dank.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

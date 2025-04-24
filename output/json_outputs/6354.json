@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Informationen \u00fcber die Sicherheit medizinischer Daten auf Smart Home-Hub-Ger\u00e4ten\n\n/npm>Sehr geehrte Kundensupport, ich bitte Sie, mir die Sicherheitsvorkehrungen f\u00fcr medizinische Daten auf Smart Home-Hub-Ger\u00e4ten n\u00e4her zu erl\u00e4utern You can reach me at liuwei@business.cn.. Als Benutzer dieser Ger\u00e4te bin ich besorgt \u00fcber die Sicherheit und Vertraulichkeit meiner Medizindaten. K\u00f6nnen Sie mir bitte Informationen zu den Schutzma\u00dfnahmen geben? Dar\u00fcber hinaus w\u00e4re ich sehr erleichtert, wenn Sie mir auch \u00fcber die verwendeten Verschl\u00fcsselungstechniken und die Zugriffssteuerung informieren k\u00f6nnten My name is Carlos Mendoza.. Bitte f\u00fcgen Sie auch einen \u00dcberblick \u00fcber Backup-Prozesse bei, um einen Datenverlust zu verhindern. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. Ich werde Sie um Ihre Zeit bitten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        614,
+        628
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        260,
+        278
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Informationen \u00fcber die Sicherheit medizinischer Daten auf Smart Home-Hub-Ger\u00e4ten\n\n/npm>Sehr geehrte Kundensupport, ich bitte Sie, mir die Sicherheitsvorkehrungen f\u00fcr medizinische Daten auf Smart Home-Hub-Ger\u00e4ten n\u00e4her zu erl\u00e4utern You can reach me at [email].. Als Benutzer dieser Ger\u00e4te bin ich besorgt \u00fcber die Sicherheit und Vertraulichkeit meiner Medizindaten. K\u00f6nnen Sie mir bitte Informationen zu den Schutzma\u00dfnahmen geben? Dar\u00fcber hinaus w\u00e4re ich sehr erleichtert, wenn Sie mir auch \u00fcber die verwendeten Verschl\u00fcsselungstechniken und die Zugriffssteuerung informieren k\u00f6nnten My name is [full_name].. Bitte f\u00fcgen Sie auch einen \u00dcberblick \u00fcber Backup-Prozesse bei, um einen Datenverlust zu verhindern. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. Ich werde Sie um Ihre Zeit bitten.",
+  "category_of_the_email": "Request"
+}

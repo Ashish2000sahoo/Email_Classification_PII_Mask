@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue reported regarding synchronization failure between Asana and Airtable\n\nI encountered a problem with the synchronization between Asana and Airtable, which seems to be related to an expired or incorrectly set API key. Despite restarting the service and verifying my credentials, the issue remains unresolved. I kindly request your support in addressing this issue My name is Sophia Rossi.. If there are any additional steps to diagnose the problem, please inform me. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        388,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        499,
+        516
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue reported regarding synchronization failure between Asana and Airtable\n\nI encountered a problem with the synchronization between Asana and Airtable, which seems to be related to an expired or incorrectly set API key. Despite restarting the service and verifying my credentials, the issue remains unresolved. I kindly request your support in addressing this issue My name is [full_name].. If there are any additional steps to diagnose the problem, please inform me. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

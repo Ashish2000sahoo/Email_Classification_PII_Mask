@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems Encountered with Investment Projections\n\nHello Support, the investment projections have encountered a failure due to data processing glitches My name is Elena Ivanova.. This could be due to incompatible versions of TensorFlow and MATLAB. I have already rebooted the WLAN router, upgraded Cassandra to version 4.0, and reviewed the Drupal logs, yet the issue continues to persist You can reach me at elena.ivanova@support.org.. Kindly help me in addressing this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        184
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        415,
+        440
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problems Encountered with Investment Projections\n\nHello Support, the investment projections have encountered a failure due to data processing glitches My name is [full_name].. This could be due to incompatible versions of TensorFlow and MATLAB. I have already rebooted the WLAN router, upgraded Cassandra to version 4.0, and reviewed the Drupal logs, yet the issue continues to persist You can reach me at [email].. Kindly help me in addressing this issue.",
+  "category_of_the_email": "Problem"
+}

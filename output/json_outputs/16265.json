@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry Regarding API Integration for Project Management SaaS\n\nCustomer Support, we are writing to inquire about the API integration capabilities of your project management SaaS platform You can reach me at johndoe@email.com.. Could you please provide us with detailed information on the types of APIs that are supported, the data that can be integrated, and any specific requirements or restrictions for the integration process? We would greatly appreciate it if you could also provide us with documentation resources that would help us with the integration process. We look forward to your prompt assistance as this matter is of great importance to us My name is David Kim.. We are eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        674,
+        683
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        216,
+        233
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Enquiry Regarding API Integration for Project Management SaaS\n\nCustomer Support, we are writing to inquire about the API integration capabilities of your project management SaaS platform You can reach me at [email].. Could you please provide us with detailed information on the types of APIs that are supported, the data that can be integrated, and any specific requirements or restrictions for the integration process? We would greatly appreciate it if you could also provide us with documentation resources that would help us with the integration process. We look forward to your prompt assistance as this matter is of great importance to us My name is [full_name].. We are eagerly awaiting your response.",
+  "category_of_the_email": "Request"
+}

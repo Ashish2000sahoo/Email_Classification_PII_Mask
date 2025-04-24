@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Interrup\u00e7\u00e3o de Servi\u00e7o da AWS\n\nCaro time de Suporte de Servi\u00e7os de TI,\n\nEstou entrando em contato para relatar uma interrup\u00e7\u00e3o cr\u00edtica de servi\u00e7o afetando nossa infraestrutura da AWS, impactando especificamente os recursos de computa\u00e7\u00e3o gerenciados atrav\u00e9s do seu Servi\u00e7o de Gerenciamento da AWS My name is Sophia Rossi.. Esta situa\u00e7\u00e3o requer investiga\u00e7\u00e3o imediata e resolu\u00e7\u00e3o r\u00e1pida, pois prejudica significativamente nossas opera\u00e7\u00f5es You can reach me at johndoe@email.com.. Por favor, priorizem este pedido e forne\u00e7am atualiza\u00e7\u00f5es na sua primeira oportunidade.\n\nObrigado,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        473,
+        490
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Interrup\u00e7\u00e3o de Servi\u00e7o da AWS\n\nCaro time de Suporte de Servi\u00e7os de TI,\n\nEstou entrando em contato para relatar uma interrup\u00e7\u00e3o cr\u00edtica de servi\u00e7o afetando nossa infraestrutura da AWS, impactando especificamente os recursos de computa\u00e7\u00e3o gerenciados atrav\u00e9s do seu Servi\u00e7o de Gerenciamento da AWS My name is [full_name].. Esta situa\u00e7\u00e3o requer investiga\u00e7\u00e3o imediata e resolu\u00e7\u00e3o r\u00e1pida, pois prejudica significativamente nossas opera\u00e7\u00f5es You can reach me at [email].. Por favor, priorizem este pedido e forne\u00e7am atualiza\u00e7\u00f5es na sua primeira oportunidade.\n\nObrigado,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

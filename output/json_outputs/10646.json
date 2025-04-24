@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: PyCharm Crashes on Ubuntu 22.04 LTS\n\nI am encountering frequent crashes of PyCharm Professional 2021.1 while running data analytics scripts My name is Elena Ivanova.. The crashes might be due to compatibility issues with Ubuntu 22.04 LTS. Despite updating the software drivers, the issue still persists. The crashes happen randomly, and I am unable to identify a specific pattern that triggers them You can reach me at johndoe@email.com.. I would greatly appreciate any assistance in resolving this issue, as it is significantly impacting my productivity. Please let us know if there are any known issues or workarounds that could help solve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        173
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        426,
+        443
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        35,
+        40
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    },
+    {
+      "position": [
+        105,
+        109
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        235,
+        240
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: PyCharm Crashes on Ubuntu [phone_number] LTS\n\nI am encountering frequent crashes of PyCharm Professional [phone_number].1 while running data analytics scripts My name is [full_name].. The crashes might be due to compatibility issues with Ubuntu [phone_number] LTS. Despite updating the software drivers, the issue still persists. The crashes happen randomly, and I am unable to identify a specific pattern that triggers them You can reach me at [email].. I would greatly appreciate any assistance in resolving this issue, as it is significantly impacting my productivity. Please let us know if there are any known issues or workarounds that could help solve the problem.",
+  "category_of_the_email": "Incident"
+}

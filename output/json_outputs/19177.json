@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Healthcare Data Backup Problem\n\nWe are facing an unexpected failure in our healthcare data backup system. Despite attempting to restart our server and examining the SSD and Subversion settings, the problem continues My name is John Doe.. There's a possibility that the motherboard or NAS system might be the source of the problem. It is imperative that we receive support to address this issue quickly to maintain data security. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        244
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        461,
+        478
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Healthcare Data Backup Problem\n\nWe are facing an unexpected failure in our healthcare data backup system. Despite attempting to restart our server and examining the SSD and Subversion settings, the problem continues My name is [full_name].. There's a possibility that the motherboard or NAS system might be the source of the problem. It is imperative that we receive support to address this issue quickly to maintain data security. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

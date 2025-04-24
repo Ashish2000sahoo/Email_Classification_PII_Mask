@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem Dashboard\n\nSehr geehrte Kundensupport, ich entspreche Ihnen, um ein Problem mit dem Dashboard zu melden You can reach me at maria.gonzalez@shop.es.. Es schl\u00e4gt ab im Zufallsverlauf, was Unannehmlichkeiten und Unterbrechungen meines Arbeitsablaufs verursacht. Nach meiner Untersuchung ist der Fehler darauf zur\u00fcckzuf\u00fchren, dass die Bibliotheksversionen inkonsistent waren. Ich habe versucht, die Abh\u00e4ngigkeiten zu aktualisieren und den Cache zu leeren, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich mit diesem Problem befassen und entweder eine L\u00f6sung oder Anleitung zur L\u00f6sung des Problems bereitstellen k\u00f6nnten. Bitte teilen Sie mich mit, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is Sophia Rossi.. Ich freue mich auf eine R\u00fcckmeldung von Ihnen bald.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        804,
+        816
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        149,
+        171
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem Dashboard\n\nSehr geehrte Kundensupport, ich entspreche Ihnen, um ein Problem mit dem Dashboard zu melden You can reach me at [email].. Es schl\u00e4gt ab im Zufallsverlauf, was Unannehmlichkeiten und Unterbrechungen meines Arbeitsablaufs verursacht. Nach meiner Untersuchung ist der Fehler darauf zur\u00fcckzuf\u00fchren, dass die Bibliotheksversionen inkonsistent waren. Ich habe versucht, die Abh\u00e4ngigkeiten zu aktualisieren und den Cache zu leeren, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich mit diesem Problem befassen und entweder eine L\u00f6sung oder Anleitung zur L\u00f6sung des Problems bereitstellen k\u00f6nnten. Bitte teilen Sie mich mit, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is [full_name].. Ich freue mich auf eine R\u00fcckmeldung von Ihnen bald.",
+  "category_of_the_email": "Incident"
+}

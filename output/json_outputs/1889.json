@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Medical Data\n\nRespected customer support, I am addressing this message to seek advice on the security measures needed for protecting medical data within hospital IT networks You can reach me at carlosm@gmail.com.. Could you please elucidate the steps hospitals should take to safeguard sensitive patient details? Are there any particular directives or laws that hospitals are obligated to adhere to in this context? Additionally, how do encryption methods, access management, and monitoring trails contribute to the security of medical records? I would greatly appreciate any insights or documentation you could offer. I eagerly await your response. Thank you for your efforts in this regard. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        736,
+        745
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        226,
+        243
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Medical Data\n\nRespected customer support, I am addressing this message to seek advice on the security measures needed for protecting medical data within hospital IT networks You can reach me at [email].. Could you please elucidate the steps hospitals should take to safeguard sensitive patient details? Are there any particular directives or laws that hospitals are obligated to adhere to in this context? Additionally, how do encryption methods, access management, and monitoring trails contribute to the security of medical records? I would greatly appreciate any insights or documentation you could offer. I eagerly await your response. Thank you for your efforts in this regard. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

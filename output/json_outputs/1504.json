@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request: Assistance with Missing Project Data\n\nDear Customer Support Team, \\n\\nI am reaching out to address an issue with my project data, which has inexplicably vanished. I am seeking guidance on the possible causes and steps to rectify this situation. Upon internal investigation, I believe a software compatibility issue could be the source of the problem. Despite restarting my device and reviewing my backups, the data is still unavailable. I would be extremely grateful if you could examine this and offer your support at the earliest convenience. Please inform me of any additional measures I can undertake to assist in resolving the issue or if you need further details from me. I am hopeful that with your assistance, we can identify a solution and recover my project data You can reach me at carlosm@gmail.com.. \\n\\nThank you for your attention and prompt response My name is John Doe.. I look forward to your guidance. \\n\\nSincerely, \\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        903,
+        911
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        819,
+        836
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request: Assistance with Missing Project Data\n\nDear Customer Support Team, \\n\\nI am reaching out to address an issue with my project data, which has inexplicably vanished. I am seeking guidance on the possible causes and steps to rectify this situation. Upon internal investigation, I believe a software compatibility issue could be the source of the problem. Despite restarting my device and reviewing my backups, the data is still unavailable. I would be extremely grateful if you could examine this and offer your support at the earliest convenience. Please inform me of any additional measures I can undertake to assist in resolving the issue or if you need further details from me. I am hopeful that with your assistance, we can identify a solution and recover my project data You can reach me at [email].. \\n\\nThank you for your attention and prompt response My name is [full_name].. I look forward to your guidance. \\n\\nSincerely, \\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

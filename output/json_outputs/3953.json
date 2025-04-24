@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Subject: Sudden Disappearance of Digital Campaign Metrics\n\nDear Customer Support, \\n\\nI am writing to report a sudden disappearance of our digital campaign metrics My name is Carlos Mendoza.. This issue may be related to an API integration problem. I have attempted to resolve it by restarting the analytics tool and verifying the data connectors, but to no avail. I kindly request you to investigate this and provide a resolution. The missing metrics are essential for our marketing team to assess campaign performance. If you require any additional information from me, please do not hesitate to ask. I have ensured that the tool's settings are correct. I look forward to your prompt response You can reach me at janesmith@company.com.. Thank you for your time and assistance. \\n\\nSincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        198
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        721,
+        742
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Subject: Sudden Disappearance of Digital Campaign Metrics\n\nDear Customer Support, \\n\\nI am writing to report a sudden disappearance of our digital campaign metrics My name is [full_name].. This issue may be related to an API integration problem. I have attempted to resolve it by restarting the analytics tool and verifying the data connectors, but to no avail. I kindly request you to investigate this and provide a resolution. The missing metrics are essential for our marketing team to assess campaign performance. If you require any additional information from me, please do not hesitate to ask. I have ensured that the tool's settings are correct. I look forward to your prompt response You can reach me at [email].. Thank you for your time and assistance. \\n\\nSincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

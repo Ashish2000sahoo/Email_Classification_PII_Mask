@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr die Integration von MySQL 8.0 in eine skalierbare SaaS-L\u00f6sung f\u00fcr Projektmanagement\n\nSehr geehrte Kundensupport, bitte informieren Sie mich dar\u00fcber, wie ich die MySQL 8.0 in meine skalierbare SaaS-L\u00f6sung f\u00fcr Projektmanagement integrieren kann. Leiten Sie mir bitte eine Zusammenfassung der besten Praktiken sowie Hinweise zur Integration und m\u00f6glichen Herausforderungen bei der Kompatibilit\u00e4t zu My name is John Doe.. Zudem w\u00e4re ich dankbar, wenn Sie Ratschl\u00fcsse zur Verbesserung der Datenbankleistung und zur Unterst\u00fctzung unserer Projektmanagementbed\u00fcrfnisse geben k\u00f6nnten. Ich freue mich darauf, von Ihren Empfehlungen zu erfahren und werde mich gerne mit Ihnen \u00fcber einen geeigneten Termin f\u00fcr eine Besprechung in Kontakt setzen, um die Details der Integration zu besprechen und Fragen zu unserer L\u00f6sung zu kl\u00e4ren. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        442
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        869,
+        886
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr die Integration von MySQL 8.0 in eine skalierbare SaaS-L\u00f6sung f\u00fcr Projektmanagement\n\nSehr geehrte Kundensupport, bitte informieren Sie mich dar\u00fcber, wie ich die MySQL 8.0 in meine skalierbare SaaS-L\u00f6sung f\u00fcr Projektmanagement integrieren kann. Leiten Sie mir bitte eine Zusammenfassung der besten Praktiken sowie Hinweise zur Integration und m\u00f6glichen Herausforderungen bei der Kompatibilit\u00e4t zu My name is [full_name].. Zudem w\u00e4re ich dankbar, wenn Sie Ratschl\u00fcsse zur Verbesserung der Datenbankleistung und zur Unterst\u00fctzung unserer Projektmanagementbed\u00fcrfnisse geben k\u00f6nnten. Ich freue mich darauf, von Ihren Empfehlungen zu erfahren und werde mich gerne mit Ihnen \u00fcber einen geeigneten Termin f\u00fcr eine Besprechung in Kontakt setzen, um die Details der Integration zu besprechen und Fragen zu unserer L\u00f6sung zu kl\u00e4ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

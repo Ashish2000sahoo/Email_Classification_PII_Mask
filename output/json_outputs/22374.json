@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Optimierung von AWS-Instanzen\n\nSehr geehrtes IT-Serviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, um Rat und Unterst\u00fctzung bei der Optimierung unserer AWS-Instanzen f\u00fcr eine verbesserte Leistung innerhalb unserer Cloud-Computing-Infrastruktur zu bitten. Als Kunde, der Ihren AWS-Verwaltungsdienst nutzt, haben wir einige Bereiche festgestellt, in denen die Leistung verbessert werden k\u00f6nnte. Wir glauben, dass eine Expertenintervention zu einer verbesserten Effizienz und Kostenwirksamkeit f\u00fchren k\u00f6nnte.\n\nAngesichts der aktuellen Anforderungen des Unternehmens an eine gesteigerte Produktivit\u00e4t priorisieren wir diese \u00c4nderungsaufgabe auf mittlerer Ebene innerhalb unserer Ziele. Wir w\u00fcrden Ihre Einblicke und Vorschl\u00e4ge zu Best Practices, Konfigurationen oder jeglichen erforderlichen Tools und Dienstleistungen, die Sie anbieten k\u00f6nnen, um diese Ziele zu erreichen, sehr sch\u00e4tzen.\n\nBitte lassen Sie uns wissen, wann es Ihnen passt, um ein detailliertes Gespr\u00e4ch mit unserem technischen Team zu f\u00fchren. Wir freuen uns auf Ihr Fachwissen und Ihre z\u00fcgige Bearbeitung dieser Angelegenheit You can reach me at david.kim@corp.kr.. Bei sofortigen Fragen k\u00f6nnen Sie uns gerne per E-Mail oder telefonisch unter <tel_num> kontaktieren.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1364,
+        1371
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        1162,
+        1179
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Optimierung von AWS-Instanzen\n\nSehr geehrtes IT-Serviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, um Rat und Unterst\u00fctzung bei der Optimierung unserer AWS-Instanzen f\u00fcr eine verbesserte Leistung innerhalb unserer Cloud-Computing-Infrastruktur zu bitten. Als Kunde, der Ihren AWS-Verwaltungsdienst nutzt, haben wir einige Bereiche festgestellt, in denen die Leistung verbessert werden k\u00f6nnte. Wir glauben, dass eine Expertenintervention zu einer verbesserten Effizienz und Kostenwirksamkeit f\u00fchren k\u00f6nnte.\n\nAngesichts der aktuellen Anforderungen des Unternehmens an eine gesteigerte Produktivit\u00e4t priorisieren wir diese \u00c4nderungsaufgabe auf mittlerer Ebene innerhalb unserer Ziele. Wir w\u00fcrden Ihre Einblicke und Vorschl\u00e4ge zu Best Practices, Konfigurationen oder jeglichen erforderlichen Tools und Dienstleistungen, die Sie anbieten k\u00f6nnen, um diese Ziele zu erreichen, sehr sch\u00e4tzen.\n\nBitte lassen Sie uns wissen, wann es Ihnen passt, um ein detailliertes Gespr\u00e4ch mit unserem technischen Team zu f\u00fchren. Wir freuen uns auf Ihr Fachwissen und Ihre z\u00fcgige Bearbeitung dieser Angelegenheit You can reach me at [email].. Bei sofortigen Fragen k\u00f6nnen Sie uns gerne per E-Mail oder telefonisch unter <tel_num> kontaktieren.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

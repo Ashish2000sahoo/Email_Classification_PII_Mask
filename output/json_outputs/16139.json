@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Data Dashboard Issue\n\nDear Support Team,\\n\\nI am contacting you to address a problem with our data dashboard that failed to update yesterday You can reach me at johndoe@email.com.. This tool is essential for our day-to-day operations, and the disruption has caused considerable inconvenience.\\n\\nWe have already tried restarting the service and confirmed that our network is functioning correctly, but the issue still hasn't been resolved. We believe it could be due to an outdated API connection or a permissions issue.\\n\\nCould you please help us check the API and permissions settings? We would greatly appreciate any advice on how to update or reconfigure them if needed My name is Sophia Rossi.. Additionally, if there are any logs or diagnostic tools we can use to get more information about the problem, please provide us with details.\\n\\nWe are dedicated to resolving this issue promptly and thank you for your assistance.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        719,
+        731
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        194,
+        211
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Data Dashboard Issue\n\nDear Support Team,\\n\\nI am contacting you to address a problem with our data dashboard that failed to update yesterday You can reach me at [email].. This tool is essential for our day-to-day operations, and the disruption has caused considerable inconvenience.\\n\\nWe have already tried restarting the service and confirmed that our network is functioning correctly, but the issue still hasn't been resolved. We believe it could be due to an outdated API connection or a permissions issue.\\n\\nCould you please help us check the API and permissions settings? We would greatly appreciate any advice on how to update or reconfigure them if needed My name is [full_name].. Additionally, if there are any logs or diagnostic tools we can use to get more information about the problem, please provide us with details.\\n\\nWe are dedicated to resolving this issue promptly and thank you for your assistance.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

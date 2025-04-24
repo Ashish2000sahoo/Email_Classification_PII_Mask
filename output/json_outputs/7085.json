@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Technical Products\n\nDear Customer Support, I am writing to address an inquiry about the potential applications of data analytics technologies in the field of technical products, specifically regarding the Valve Index VR Kit My name is Sophia Rossi.. Could you provide us with information on the types of analyses that can be offered to assist companies in making informed decisions about investments in technology products? We would be grateful for more details on the services and their benefits for companies. In particular, we are interested in understanding the types of data that are collected and how these insights can be utilized. Thank you for your time. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        256,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        704,
+        726
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Technical Products\n\nDear Customer Support, I am writing to address an inquiry about the potential applications of data analytics technologies in the field of technical products, specifically regarding the Valve Index VR Kit My name is [full_name].. Could you provide us with information on the types of analyses that can be offered to assist companies in making informed decisions about investments in technology products? We would be grateful for more details on the services and their benefits for companies. In particular, we are interested in understanding the types of data that are collected and how these insights can be utilized. Thank you for your time. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

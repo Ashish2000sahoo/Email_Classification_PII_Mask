@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent: Incident technique avec le routeur Cisco\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour signaler un incident technique de haute priorit\u00e9 impliquant l'un de nos dispositifs Cisco Router ISR4331. L'appareil ne fournit actuellement pas d'acc\u00e8s Internet, ce qui affecte consid\u00e9rablement nos op\u00e9rations commerciales. Ce probl\u00e8me n\u00e9cessite une attention imm\u00e9diate de votre \u00e9quipe de support technique pour minimiser les temps d'arr\u00eat et les pertes commerciales potentielles.\n\nLes d\u00e9tails de l'incident sont les suivants :\n- Mod\u00e8le de l'appareil : Cisco Router ISR4331\n- Probl\u00e8me identifi\u00e9 : Pas de connectivit\u00e9 Internet\n- Impact : Perturbation de l'ensemble du r\u00e9seau de bureau\n- Gravit\u00e9 : \u00c9lev\u00e9e\n\nNous vous serions reconnaissants si votre \u00e9quipe de support technique pouvait \u00e9valuer la situation et nous fournir une solution potentielle dans les meilleurs d\u00e9lais My name is Maria Gonzalez.. Veuillez nous conseiller sur les prochaines \u00e9tapes, et si des informations suppl\u00e9mentaires sont n\u00e9cessaires, je suis disponible \u00e0 votre convenance pour les fournir.\n\nMerci pour votre attention imm\u00e9diate \u00e0 cette affaire urgente You can reach me at johndoe@email.com.. Nous attendons votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name>\nNum\u00e9ro de compte : <acc_num>\nNum\u00e9ro de t\u00e9l\u00e9phone : <tel_num>\nEmail : <email>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        943,
+        957
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1204,
+        1221
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        262,
+        266
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        631,
+        635
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Incident technique avec le routeur Cisco\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour signaler un incident technique de haute priorit\u00e9 impliquant l'un de nos dispositifs Cisco Router ISR[phone_number]. L'appareil ne fournit actuellement pas d'acc\u00e8s Internet, ce qui affecte consid\u00e9rablement nos op\u00e9rations commerciales. Ce probl\u00e8me n\u00e9cessite une attention imm\u00e9diate de votre \u00e9quipe de support technique pour minimiser les temps d'arr\u00eat et les pertes commerciales potentielles.\n\nLes d\u00e9tails de l'incident sont les suivants :\n- Mod\u00e8le de l'appareil : Cisco Router ISR[phone_number]\n- Probl\u00e8me identifi\u00e9 : Pas de connectivit\u00e9 Internet\n- Impact : Perturbation de l'ensemble du r\u00e9seau de bureau\n- Gravit\u00e9 : \u00c9lev\u00e9e\n\nNous vous serions reconnaissants si votre \u00e9quipe de support technique pouvait \u00e9valuer la situation et nous fournir une solution potentielle dans les meilleurs d\u00e9lais My name is [full_name].. Veuillez nous conseiller sur les prochaines \u00e9tapes, et si des informations suppl\u00e9mentaires sont n\u00e9cessaires, je suis disponible \u00e0 votre convenance pour les fournir.\n\nMerci pour votre attention imm\u00e9diate \u00e0 cette affaire urgente You can reach me at [email].. Nous attendons votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name>\nNum\u00e9ro de compte : <acc_num>\nNum\u00e9ro de t\u00e9l\u00e9phone : <tel_num>\nEmail : <email>",
+  "category_of_the_email": "Problem"
+}

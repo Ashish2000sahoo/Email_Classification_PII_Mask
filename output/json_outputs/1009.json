@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sync Problems\n\nHello Customer Support, I am contacting you to address an issue I am experiencing with my project tasks failing to sync with Adobe Creative Cloud. The problem arose when I attempted to access my tasks through the Creative Cloud dashboard, yet the updates were not reflected. I believe this could be a result of a synchronization bug or a glitch in the API. To attempt troubleshooting, I have restarted the application, verified my API keys, and examined the debug logs. Unfortunately, these actions have not corrected the issue. I would be immensely grateful if you could examine this problem and provide a solution at your earliest convenience My name is Fatima Al-Farsi.. Please notify me if you require further information to resolve this matter. I appreciate your time and assistance and eagerly await your response. Best regards. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        680,
+        689
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        881,
+        906
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Sync Problems\n\nHello Customer Support, I am contacting you to address an issue I am experiencing with my project tasks failing to sync with Adobe Creative Cloud. The problem arose when I attempted to access my tasks through the Creative Cloud dashboard, yet the updates were not reflected. I believe this could be a result of a synchronization bug or a glitch in the API. To attempt troubleshooting, I have restarted the application, verified my API keys, and examined the debug logs. Unfortunately, these actions have not corrected the issue. I would be immensely grateful if you could examine this problem and provide a solution at your earliest convenience My name is [full_name]-Farsi.. Please notify me if you require further information to resolve this matter. I appreciate your time and assistance and eagerly await your response. Best regards. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

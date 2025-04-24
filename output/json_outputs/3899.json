@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: System Outages During Peak Data Analysis\n\nDuring peak data analysis periods, we are facing system outages, which might be due to an increased data load or configuration issues. Despite restarting devices and updating software, the issue continues to persist.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        307
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: System Outages During Peak Data Analysis\n\nDuring peak data analysis periods, we are facing system outages, which might be due to an increased data load or configuration issues. Despite restarting devices and updating software, the issue continues to persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

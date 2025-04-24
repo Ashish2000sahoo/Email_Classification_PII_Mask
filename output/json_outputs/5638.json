@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unexplained Denial of Medical Information Today\n\nSeek Assistance. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        96,
+        112
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Unexplained Denial of Medical Information Today\n\nSeek Assistance. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Multiple Integrations Owing to Server Overload\n\nTo Whom It May Concern,\\n\\nI am reporting an issue with multiple integrations that abruptly failed You can reach me at liuwei@business.cn.. This issue began when our server faced an overload, leading to synchronization problems between various services.\\n\\nDespite our efforts to troubleshoot, including service restarts, log checks, and configuration verifications, the problem remains unresolved My name is Omar Hassan.. We are still unable to synchronize data properly.\\n\\nCould you please look into this and provide a solution? I can offer further details or respond to any queries you might have.\\n\\nThank you for your swift response.\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        478,
+        489
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        188,
+        206
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issues with Multiple Integrations Owing to Server Overload\n\nTo Whom It May Concern,\\n\\nI am reporting an issue with multiple integrations that abruptly failed You can reach me at [email].. This issue began when our server faced an overload, leading to synchronization problems between various services.\\n\\nDespite our efforts to troubleshoot, including service restarts, log checks, and configuration verifications, the problem remains unresolved My name is [full_name].. We are still unable to synchronize data properly.\\n\\nCould you please look into this and provide a solution? I can offer further details or respond to any queries you might have.\\n\\nThank you for your swift response.\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

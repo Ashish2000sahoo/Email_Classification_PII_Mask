@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Investment Analysis Tool\n\nThe investment analysis tool is crucial for accurate forecasting of current market trends. However, it might be outdated due to improper integration of algorithms and datasets. After reviewing the data sources and recalibrating the system, the issues still persist My name is Liu Wei.. Please assist us in resolving this issue as soon as possible. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        332
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        421,
+        443
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concern about Investment Analysis Tool\n\nThe investment analysis tool is crucial for accurate forecasting of current market trends. However, it might be outdated due to improper integration of algorithms and datasets. After reviewing the data sources and recalibrating the system, the issues still persist My name is [full_name].. Please assist us in resolving this issue as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

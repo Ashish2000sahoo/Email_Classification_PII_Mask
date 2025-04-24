@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unauthorized Access Attempt in Hospital Systems\n\nAn unauthorized access attempt has been detected on the hospital's systems, targeting secured medical data. This may be due to an existing vulnerability in the software My name is Omar Hassan.. Despite updating the software and reinforcing firewall settings, the environment remains unsecured. Assistance is needed to resolve the issue and protect sensitive patient information. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        249
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        457,
+        474
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unauthorized Access Attempt in Hospital Systems\n\nAn unauthorized access attempt has been detected on the hospital's systems, targeting secured medical data. This may be due to an existing vulnerability in the software My name is [full_name].. Despite updating the software and reinforcing firewall settings, the environment remains unsecured. Assistance is needed to resolve the issue and protect sensitive patient information. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

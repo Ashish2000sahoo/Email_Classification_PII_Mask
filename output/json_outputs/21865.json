@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema na Impressora Epson\n\nCaro Time de Suporte da Tech Online Store, Estou entrando em contato com voc\u00eas sobre um problema com a impressora Epson EcoTank ET-4760 que comprei em sua loja online. Recentemente, ela tem mostrado consistentemente um erro de 'atolamento de papel' em seu display, mesmo que n\u00e3o pare\u00e7a haver realmente um atolamento ou qualquer obstru\u00e7\u00e3o no caminho do papel You can reach me at carlosm@gmail.com.. Este erro persiste e est\u00e1 impedindo a conclus\u00e3o de qualquer trabalho de impress\u00e3o, o que est\u00e1 impactando significativamente minha capacidade de realizar tarefas de trabalho essenciais com efici\u00eancia. Poderiam, por favor, fornecer orienta\u00e7\u00f5es sobre como solucionar esse problema ou sugerir um curso de a\u00e7\u00e3o adequado? Se necess\u00e1rio, estou preparado para realizar quaisquer verifica\u00e7\u00f5es ou ajustes de manuten\u00e7\u00e3o b\u00e1sica conforme necess\u00e1rio. Se isso n\u00e3o resolver o problema, eu apreciaria quaisquer recomenda\u00e7\u00f5es sobre como proceder com poss\u00edveis reparos ou uma reclama\u00e7\u00e3o de garantia. Agrade\u00e7o pela aten\u00e7\u00e3o a este assunto. Espero ouvir da sua equipe em breve sobre esta quest\u00e3o urgente, uma vez que esta impressora \u00e9 fundamental para minhas opera\u00e7\u00f5es di\u00e1rias My name is Maria Gonzalez.. Atenciosamente, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1203,
+        1217
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        417,
+        434
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        170,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Problema na Impressora Epson\n\nCaro Time de Suporte da Tech Online Store, Estou entrando em contato com voc\u00eas sobre um problema com a impressora Epson EcoTank ET-[phone_number] que comprei em sua loja online. Recentemente, ela tem mostrado consistentemente um erro de 'atolamento de papel' em seu display, mesmo que n\u00e3o pare\u00e7a haver realmente um atolamento ou qualquer obstru\u00e7\u00e3o no caminho do papel You can reach me at [email].. Este erro persiste e est\u00e1 impedindo a conclus\u00e3o de qualquer trabalho de impress\u00e3o, o que est\u00e1 impactando significativamente minha capacidade de realizar tarefas de trabalho essenciais com efici\u00eancia. Poderiam, por favor, fornecer orienta\u00e7\u00f5es sobre como solucionar esse problema ou sugerir um curso de a\u00e7\u00e3o adequado? Se necess\u00e1rio, estou preparado para realizar quaisquer verifica\u00e7\u00f5es ou ajustes de manuten\u00e7\u00e3o b\u00e1sica conforme necess\u00e1rio. Se isso n\u00e3o resolver o problema, eu apreciaria quaisquer recomenda\u00e7\u00f5es sobre como proceder com poss\u00edveis reparos ou uma reclama\u00e7\u00e3o de garantia. Agrade\u00e7o pela aten\u00e7\u00e3o a este assunto. Espero ouvir da sua equipe em breve sobre esta quest\u00e3o urgente, uma vez que esta impressora \u00e9 fundamental para minhas opera\u00e7\u00f5es di\u00e1rias My name is [full_name].. Atenciosamente, <name>.",
+  "category_of_the_email": "Problem"
+}

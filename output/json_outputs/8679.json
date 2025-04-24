@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Unavailability Incident\n\nI am reporting an unanticipated system unavailability that happened during the night You can reach me at janesmith@company.com.. It might be related to server overload or a maintenance event. I have attempted to restart services and reviewed system logs, but the problem continues. I would be grateful if you could investigate this and offer a resolution promptly My name is David Kim.. Please notify me if any further details are required from my side to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        416,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        146,
+        167
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: System Unavailability Incident\n\nI am reporting an unanticipated system unavailability that happened during the night You can reach me at [email].. It might be related to server overload or a maintenance event. I have attempted to restart services and reviewed system logs, but the problem continues. I would be grateful if you could investigate this and offer a resolution promptly My name is [full_name].. Please notify me if any further details are required from my side to address this issue.",
+  "category_of_the_email": "Incident"
+}

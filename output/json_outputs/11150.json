@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Security Measures for Medical Data\n\nHello customer support, I am writing to inquire about the security measures in place at Monday.com, specifically concerning the protection of sensitive patient information in integrated hospital systems You can reach me at johndoe@email.com.. Could you provide details on how this data is encrypted and protected, and also confirm compliance with healthcare regulations such as HIPAA? Additionally, I would appreciate information on the protocols in place for handling data breaches and unauthorized access. I look forward to your response regarding Monday.com's commitment to security and data integrity. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        673,
+        680
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        279,
+        296
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Security Measures for Medical Data\n\nHello customer support, I am writing to inquire about the security measures in place at Monday.com, specifically concerning the protection of sensitive patient information in integrated hospital systems You can reach me at [email].. Could you provide details on how this data is encrypted and protected, and also confirm compliance with healthcare regulations such as HIPAA? Additionally, I would appreciate information on the protocols in place for handling data breaches and unauthorized access. I look forward to your response regarding Monday.com's commitment to security and data integrity. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

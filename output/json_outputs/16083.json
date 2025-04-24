@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: System Specifications for Best Experience\n\nCould you provide the system specifications required for the best performance of your SaaS project management application?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: System Specifications for Best Experience\n\nCould you provide the system specifications required for the best performance of your SaaS project management application?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

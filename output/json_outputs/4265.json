@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical Data Encryption Failure - Sensitive Patient Records Exposed\n\nDear Customer Support, \\n\\nI am reaching out to inform you about a significant problem we have encountered with our system. We have abruptly experienced a data encryption failure that has led to the exposure of sensitive patient data My name is David Kim.. Our preliminary investigation indicates that the root cause might be an outdated software vulnerability that was likely exploited by malware. We have already initiated emergency measures by restarting our servers and conducting a malware scan. Furthermore, we have upgraded our Snagit software to the most recent version. Despite these actions, the issue remains unresolved, and immediate assistance is required to address this matter. \\n\\nI would greatly appreciate any advice or support you can provide to help us contain and resolve this situation at the earliest possible time You can reach me at janesmith@company.com.. Please let me know the necessary steps to be taken. Thank you for promptly attending to this issue. \\n\\nSincerely, \\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        324,
+        333
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        939,
+        960
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Critical Data Encryption Failure - Sensitive Patient Records Exposed\n\nDear Customer Support, \\n\\nI am reaching out to inform you about a significant problem we have encountered with our system. We have abruptly experienced a data encryption failure that has led to the exposure of sensitive patient data My name is [full_name].. Our preliminary investigation indicates that the root cause might be an outdated software vulnerability that was likely exploited by malware. We have already initiated emergency measures by restarting our servers and conducting a malware scan. Furthermore, we have upgraded our Snagit software to the most recent version. Despite these actions, the issue remains unresolved, and immediate assistance is required to address this matter. \\n\\nI would greatly appreciate any advice or support you can provide to help us contain and resolve this situation at the earliest possible time You can reach me at [email].. Please let me know the necessary steps to be taken. Thank you for promptly attending to this issue. \\n\\nSincerely, \\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

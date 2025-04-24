@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Over Decrease in Online Engagement\n\nWe have observed a decline in online engagement, even with ongoing digital marketing activities My name is Carlos Mendoza.. This could be due to algorithm changes or campaign fatigue. Our team has tried to optimize content and adjust ad spending, but the results have been minimal You can reach me at david.kim@corp.kr.. We are worried that this trend might continue and are seeking to identify the root cause. Could you provide guidance on potential solutions and offer support to help us enhance our online engagement?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        351,
+        368
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Over Decrease in Online Engagement\n\nWe have observed a decline in online engagement, even with ongoing digital marketing activities My name is [full_name].. This could be due to algorithm changes or campaign fatigue. Our team has tried to optimize content and adjust ad spending, but the results have been minimal You can reach me at [email].. We are worried that this trend might continue and are seeking to identify the root cause. Could you provide guidance on potential solutions and offer support to help us enhance our online engagement?",
+  "category_of_the_email": "Incident"
+}

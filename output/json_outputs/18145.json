@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance for Security Incident\n\nDear Customer Support, we faced an unauthorized access attempt to medical data due to outdated security measures. Despite updating software, reviewing access logs, and tightening password policies, the issue still persists My name is Jane Smith.. Immediate technical support is required to secure our data and prevent future breaches You can reach me at johndoe@email.com.. Our hospital's infrastructure is at risk, and we urgently need your help to resolve this matter. Please provide a solution and guidance for the ongoing investigation and remediation. This is time-sensitive, and we greatly appreciate your prompt attention.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        294
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        405,
+        422
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance for Security Incident\n\nDear Customer Support, we faced an unauthorized access attempt to medical data due to outdated security measures. Despite updating software, reviewing access logs, and tightening password policies, the issue still persists My name is [full_name].. Immediate technical support is required to secure our data and prevent future breaches You can reach me at [email].. Our hospital's infrastructure is at risk, and we urgently need your help to resolve this matter. Please provide a solution and guidance for the ongoing investigation and remediation. This is time-sensitive, and we greatly appreciate your prompt attention.",
+  "category_of_the_email": "Incident"
+}

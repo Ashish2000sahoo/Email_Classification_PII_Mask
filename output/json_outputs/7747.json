@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, we are seeking guidance on digital marketing services to assist in boosting brand growth My name is Fatima Al-Farsi.. We are keen to learn about the strategies and techniques you use to enhance online visibility and engagement. Could you provide details on the types of services you offer, such as social media management, search engine optimization, and content creation? We would greatly appreciate any information you can share on how to measure the success of your campaigns and the types of results we can expect You can reach me at david.kim@corp.kr.. Additionally, could you please share some case studies or examples?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        129,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        569,
+        586
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, we are seeking guidance on digital marketing services to assist in boosting brand growth My name is [full_name]-Farsi.. We are keen to learn about the strategies and techniques you use to enhance online visibility and engagement. Could you provide details on the types of services you offer, such as social media management, search engine optimization, and content creation? We would greatly appreciate any information you can share on how to measure the success of your campaigns and the types of results we can expect You can reach me at [email].. Additionally, could you please share some case studies or examples?",
+  "category_of_the_email": "Request"
+}

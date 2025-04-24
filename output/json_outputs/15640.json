@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Anfragen zur Unterst\u00fctzung im Bereich Datenanalyse\n\nSehr geehrte Kundenservice-Team, ich schreibe an, um Informationen zum Thema die Integration von Datenanalysewerkzeugen in Excel 2021 f\u00fcr die Optimierung der Investitionsplanung und die Verbesserung der Verkaufsprognosef\u00e4higkeiten abzuholen. Unsere Firma hat sich auf die Verbesserung der datenbasierten Entscheidungsfindung konzentriert und glaubt, dass die Verwendung fortschrittlicher Analysewerkzeuge in Excel uns dabei helfen kann, diesen Ziel zu erreichen. Wir sind insbesondere an Werkzeugen interessiert, die Datenvisualisierung, vorhersagbare Modellierung und Maschinelles Lernen erleichtern. Wir w\u00fcrden uns sehr freuen, wenn Sie uns Rat oder Empfehlungen in Bezug auf die besten Werkzeuge geben k\u00f6nnten und wie sie mit Excel 2021 problemlos integriert werden k\u00f6nnen. Dar\u00fcber hinaus m\u00f6chten wir wissen, ob es spezielle Systemanforderungen oder Kompatibilit\u00e4tsprobleme gibt, die wir beachten sollten. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung My name is Elena Ivanova.. Wir freuen uns darauf, bald von Ihnen zu h\u00f6ren. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1036,
+        1049
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1118,
+        1135
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        190,
+        194
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        796,
+        800
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Anfragen zur Unterst\u00fctzung im Bereich Datenanalyse\n\nSehr geehrte Kundenservice-Team, ich schreibe an, um Informationen zum Thema die Integration von Datenanalysewerkzeugen in Excel [phone_number] f\u00fcr die Optimierung der Investitionsplanung und die Verbesserung der Verkaufsprognosef\u00e4higkeiten abzuholen. Unsere Firma hat sich auf die Verbesserung der datenbasierten Entscheidungsfindung konzentriert und glaubt, dass die Verwendung fortschrittlicher Analysewerkzeuge in Excel uns dabei helfen kann, diesen Ziel zu erreichen. Wir sind insbesondere an Werkzeugen interessiert, die Datenvisualisierung, vorhersagbare Modellierung und Maschinelles Lernen erleichtern. Wir w\u00fcrden uns sehr freuen, wenn Sie uns Rat oder Empfehlungen in Bezug auf die besten Werkzeuge geben k\u00f6nnten und wie sie mit Excel [phone_number] problemlos integriert werden k\u00f6nnen. Dar\u00fcber hinaus m\u00f6chten wir wissen, ob es spezielle Systemanforderungen oder Kompatibilit\u00e4tsprobleme gibt, die wir beachten sollten. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung My name is [full_name].. Wir freuen uns darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

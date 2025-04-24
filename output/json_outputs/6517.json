@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Recommended Security Protocols for Canon Printers in Healthcare Settings\n\nI am reaching out to discuss the requirements for recommended security protocols for Canon printers in healthcare settings. Given the increasing emphasis on data privacy, I wish to ensure that our printers are both secure and compliant with industry standards You can reach me at liuwei@business.cn.. Could you please provide me with guidelines or a guideline document? My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        475,
+        485
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        374,
+        392
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Recommended Security Protocols for Canon Printers in Healthcare Settings\n\nI am reaching out to discuss the requirements for recommended security protocols for Canon printers in healthcare settings. Given the increasing emphasis on data privacy, I wish to ensure that our printers are both secure and compliant with industry standards You can reach me at [email].. Could you please provide me with guidelines or a guideline document? My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de rapport sur la mise \u00e0 niveau du serveur\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 My name is Omar Hassan.. Je m'appelle <name>, et je vous contacte pour demander un rapport complet d\u00e9taillant les mises \u00e0 niveau potentielles de notre infrastructure serveur existante You can reach me at sophia.rossi@service.it.. Il est pertinent pour nos op\u00e9rations que nous explorions toute am\u00e9lioration faisable pour am\u00e9liorer les performances, la s\u00e9curit\u00e9 et l'\u00e9volutivit\u00e9 de nos syst\u00e8mes informatiques.\n\nEn tant que l'un de vos clients de longue date utilisant votre service de conseil en informatique, nous faisons confiance \u00e0 l'expertise que votre \u00e9quipe fournit. L'infrastructure serveur actuelle prend en charge des op\u00e9rations critiques, et nous cherchons \u00e0 renforcer ses capacit\u00e9s pour s'aligner sur notre croissance projet\u00e9e dans les mois \u00e0 venir. Par cons\u00e9quent, une analyse d\u00e9taill\u00e9e de notre configuration existante, mettant en \u00e9vidence les domaines d'am\u00e9lioration potentielle, serait extr\u00eamement b\u00e9n\u00e9fique.\n\nPourriez-vous s'il vous pla\u00eet organiser que votre \u00e9quipe effectue cette \u00e9valuation et nous fournisse un rapport d\u00e9taill\u00e9 incluent des solutions propos\u00e9es, les co\u00fbts associ\u00e9s, les d\u00e9lais et toute interruption possible de nos op\u00e9rations pendant la mise en \u0153uvre ? Notre intention est de donner la priorit\u00e9 aux solutions qui r\u00e9pondent non seulement \u00e0 nos besoins actuels mais anticipent \u00e9galement les exigences futures.\n\nVeuillez nous faire savoir si vous avez besoin d'informations suppl\u00e9mentaires ou d'acc\u00e8s pour faciliter ce processus. Nous sommes tr\u00e8s motiv\u00e9s \u00e0 travailler en \u00e9troite collaboration avec votre \u00e9quipe pour mettre en \u0153uvre les changements n\u00e9cessaires rapidement.\n\nMerci de votre attention \u00e0 cette affaire.\n\nCordialement,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        166
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        348,
+        371
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Demande de rapport sur la mise \u00e0 niveau du serveur\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 My name is [full_name].. Je m'appelle <name>, et je vous contacte pour demander un rapport complet d\u00e9taillant les mises \u00e0 niveau potentielles de notre infrastructure serveur existante You can reach me at [email].. Il est pertinent pour nos op\u00e9rations que nous explorions toute am\u00e9lioration faisable pour am\u00e9liorer les performances, la s\u00e9curit\u00e9 et l'\u00e9volutivit\u00e9 de nos syst\u00e8mes informatiques.\n\nEn tant que l'un de vos clients de longue date utilisant votre service de conseil en informatique, nous faisons confiance \u00e0 l'expertise que votre \u00e9quipe fournit. L'infrastructure serveur actuelle prend en charge des op\u00e9rations critiques, et nous cherchons \u00e0 renforcer ses capacit\u00e9s pour s'aligner sur notre croissance projet\u00e9e dans les mois \u00e0 venir. Par cons\u00e9quent, une analyse d\u00e9taill\u00e9e de notre configuration existante, mettant en \u00e9vidence les domaines d'am\u00e9lioration potentielle, serait extr\u00eamement b\u00e9n\u00e9fique.\n\nPourriez-vous s'il vous pla\u00eet organiser que votre \u00e9quipe effectue cette \u00e9valuation et nous fournisse un rapport d\u00e9taill\u00e9 incluent des solutions propos\u00e9es, les co\u00fbts associ\u00e9s, les d\u00e9lais et toute interruption possible de nos op\u00e9rations pendant la mise en \u0153uvre ? Notre intention est de donner la priorit\u00e9 aux solutions qui r\u00e9pondent non seulement \u00e0 nos besoins actuels mais anticipent \u00e9galement les exigences futures.\n\nVeuillez nous faire savoir si vous avez besoin d'informations suppl\u00e9mentaires ou d'acc\u00e8s pour faciliter ce processus. Nous sommes tr\u00e8s motiv\u00e9s \u00e0 travailler en \u00e9troite collaboration avec votre \u00e9quipe pour mettre en \u0153uvre les changements n\u00e9cessaires rapidement.\n\nMerci de votre attention \u00e0 cette affaire.\n\nCordialement,\n<name>\n<tel_num>",
+  "category_of_the_email": "Change"
+}

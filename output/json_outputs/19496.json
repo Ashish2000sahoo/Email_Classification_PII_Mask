@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Concerns Regarding Billing\n\nNoted the presence of unanticipated billing inconsistencies across various products.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        152,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Concerns Regarding Billing\n\nNoted the presence of unanticipated billing inconsistencies across various products.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Interrup\u00e7\u00e3o Cr\u00edtica de Servi\u00e7o\n\nCaro Time de Suporte de Servi\u00e7os de TI, Estou escrevendo para notific\u00e1-los sobre uma interrup\u00e7\u00e3o de servi\u00e7o detectada, causando problemas cr\u00edticos de inatividade com o Servi\u00e7o de Gerenciamento da AWS. Essa interrup\u00e7\u00e3o impactou consideravelmente nossas opera\u00e7\u00f5es, e precisamos de uma inspe\u00e7\u00e3o urgente e resolu\u00e7\u00e3o da infraestrutura de nuvem afetada. A inatividade interrompeu nossa capacidade de gerenciar recursos em nuvem, impactando tanto o desempenho quanto a produtividade. Como essa situa\u00e7\u00e3o \u00e9 cr\u00edtica, por favor, priorize nosso pedido e envolva as equipes necess\u00e1rias para diagnosticar e mitigar o problema rapidamente. Al\u00e9m disso, agradecer\u00edamos atualiza\u00e7\u00f5es regulares sobre o progresso feito. Por favor, entre em contato com <name> em nosso escrit\u00f3rio via e-mail ou contate-o diretamente pelo <tel_num> My name is Sophia Rossi.. Nosso n\u00famero de conta \u00e9 <acc_num>. Obrigado pela sua aten\u00e7\u00e3o imediata a este assunto. Atenciosamente, <name> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        862,
+        874
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1005,
+        1027
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Interrup\u00e7\u00e3o Cr\u00edtica de Servi\u00e7o\n\nCaro Time de Suporte de Servi\u00e7os de TI, Estou escrevendo para notific\u00e1-los sobre uma interrup\u00e7\u00e3o de servi\u00e7o detectada, causando problemas cr\u00edticos de inatividade com o Servi\u00e7o de Gerenciamento da AWS. Essa interrup\u00e7\u00e3o impactou consideravelmente nossas opera\u00e7\u00f5es, e precisamos de uma inspe\u00e7\u00e3o urgente e resolu\u00e7\u00e3o da infraestrutura de nuvem afetada. A inatividade interrompeu nossa capacidade de gerenciar recursos em nuvem, impactando tanto o desempenho quanto a produtividade. Como essa situa\u00e7\u00e3o \u00e9 cr\u00edtica, por favor, priorize nosso pedido e envolva as equipes necess\u00e1rias para diagnosticar e mitigar o problema rapidamente. Al\u00e9m disso, agradecer\u00edamos atualiza\u00e7\u00f5es regulares sobre o progresso feito. Por favor, entre em contato com <name> em nosso escrit\u00f3rio via e-mail ou contate-o diretamente pelo <tel_num> My name is [full_name].. Nosso n\u00famero de conta \u00e9 <acc_num>. Obrigado pela sua aten\u00e7\u00e3o imediata a este assunto. Atenciosamente, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der AWS-Bereitstellung\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl You can reach me at johndoe@email.com.. Ich schreibe, um ein bedeutendes Problem zu melden, das wir bei der Bereitstellung des AWS Management Service erleben. Wir haben anhaltende Herausforderungen festgestellt, die zu Verz\u00f6gerungen bei unseren Cloud-Projekten gef\u00fchrt haben, und es beeintr\u00e4chtigt erheblich unsere Bem\u00fchungen um Kosteneffizienz. Diese Einschr\u00e4nkung bei der effizienten Verwaltung und Bereitstellung von AWS-Diensten erweist sich als Engpass f\u00fcr unsere Betriebspl\u00e4ne.\n\nDa sich diese Situation \u00fcber einen Zeitraum von Wochen erstreckt, st\u00f6rt sie unseren Arbeitsablauf erheblich. Es ist entscheidend f\u00fcr uns, diese Probleme schnell zu l\u00f6sen, um unsere Projektfristen einzuhalten und unsere Wettbewerbsf\u00e4higkeit aufrechtzuerhalten My name is Maria Gonzalez.. Eine sofortige Aufmerksamkeit f\u00fcr diese Angelegenheit w\u00e4re sehr dankbar.\n\nK\u00f6nnten Sie bitte \u00fcber m\u00f6gliche L\u00f6sungen oder Aktualisierungen zu dieser St\u00f6rung informieren? Ihre rechtzeitige Unterst\u00fctzung wird f\u00fcr uns von unsch\u00e4tzbarem Wert sein, um diese Herausforderung zu bew\u00e4ltigen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihr Verst\u00e4ndnis. Ich freue mich auf Ihre Antwort, um diese Angelegenheit weiter zu besprechen und m\u00f6gliche L\u00f6sungen zu erkunden.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<company_name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        876,
+        890
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        141,
+        158
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der AWS-Bereitstellung\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl You can reach me at [email].. Ich schreibe, um ein bedeutendes Problem zu melden, das wir bei der Bereitstellung des AWS Management Service erleben. Wir haben anhaltende Herausforderungen festgestellt, die zu Verz\u00f6gerungen bei unseren Cloud-Projekten gef\u00fchrt haben, und es beeintr\u00e4chtigt erheblich unsere Bem\u00fchungen um Kosteneffizienz. Diese Einschr\u00e4nkung bei der effizienten Verwaltung und Bereitstellung von AWS-Diensten erweist sich als Engpass f\u00fcr unsere Betriebspl\u00e4ne.\n\nDa sich diese Situation \u00fcber einen Zeitraum von Wochen erstreckt, st\u00f6rt sie unseren Arbeitsablauf erheblich. Es ist entscheidend f\u00fcr uns, diese Probleme schnell zu l\u00f6sen, um unsere Projektfristen einzuhalten und unsere Wettbewerbsf\u00e4higkeit aufrechtzuerhalten My name is [full_name].. Eine sofortige Aufmerksamkeit f\u00fcr diese Angelegenheit w\u00e4re sehr dankbar.\n\nK\u00f6nnten Sie bitte \u00fcber m\u00f6gliche L\u00f6sungen oder Aktualisierungen zu dieser St\u00f6rung informieren? Ihre rechtzeitige Unterst\u00fctzung wird f\u00fcr uns von unsch\u00e4tzbarem Wert sein, um diese Herausforderung zu bew\u00e4ltigen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihr Verst\u00e4ndnis. Ich freue mich auf Ihre Antwort, um diese Angelegenheit weiter zu besprechen und m\u00f6gliche L\u00f6sungen zu erkunden.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<company_name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request: Implementation of a Data Visualization Method for Portfolio Analysis and Optimization\n\nDear <name>,\\n\\nWe appreciate your interest in implementing a data visualization method to enhance your analysis and optimization possibilities of the investment portfolio, and to make better decisions My name is Sophia Rossi.. To better understand your requirements, we would like to gather more information about your current investment portfolio and the specific features you are interested in within a data visualization method. Could you please provide us with more details about your current situation and what you hope to achieve with this implementation? This will help us offer you a more tailored solution You can reach me at omar.hassan@secure.net.. If you prefer to discuss this over the phone, we can arrange a convenient time and contact you at <tel_num>. We look forward to hearing from you and supporting you in improving your analysis and optimization capabilities of your investment portfolio.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        326,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        748,
+        770
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Request: Implementation of a Data Visualization Method for Portfolio Analysis and Optimization\n\nDear <name>,\\n\\nWe appreciate your interest in implementing a data visualization method to enhance your analysis and optimization possibilities of the investment portfolio, and to make better decisions My name is [full_name].. To better understand your requirements, we would like to gather more information about your current investment portfolio and the specific features you are interested in within a data visualization method. Could you please provide us with more details about your current situation and what you hope to achieve with this implementation? This will help us offer you a more tailored solution You can reach me at [email].. If you prefer to discuss this over the phone, we can arrange a convenient time and contact you at <tel_num>. We look forward to hearing from you and supporting you in improving your analysis and optimization capabilities of your investment portfolio.",
+  "category_of_the_email": "Request"
+}

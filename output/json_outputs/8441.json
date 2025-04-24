@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for AWS Integration\n\nHello Customer Support, I am reaching out regarding the request to integrate AWS with Monday.com to enhance our data analytics capabilities on an Apple MacBook Air workstation. This integration aims to streamline our workflow and provide deeper insights into our data. Could you please guide me through the steps required to set up this integration, including any additional software or hardware that may be needed? Additionally, I would like to know about any compatibility issues or limitations. I am looking forward to your response as we explore the possibilities of this integration My name is Maria Gonzalez.. Thank you for your time and assistance. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        637,
+        651
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        711,
+        736
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Request for AWS Integration\n\nHello Customer Support, I am reaching out regarding the request to integrate AWS with Monday.com to enhance our data analytics capabilities on an Apple MacBook Air workstation. This integration aims to streamline our workflow and provide deeper insights into our data. Could you please guide me through the steps required to set up this integration, including any additional software or hardware that may be needed? Additionally, I would like to know about any compatibility issues or limitations. I am looking forward to your response as we explore the possibilities of this integration My name is [full_name].. Thank you for your time and assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

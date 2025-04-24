@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Unexpected Service Interruption\n\nDear Customer Service, we experienced an unexpected service outage involving several products, including Outlook Redis 6.2. The high server load during peak times is suspected to be the cause. We have attempted to restart the affected services and monitor the traffic, but the issue persists My name is Fatima Al-Farsi.. We are currently investigating the root cause and working on a solution. Please inform us of any further steps needed to resolve the problem. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        357,
+        366
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        539,
+        561
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Unexpected Service Interruption\n\nDear Customer Service, we experienced an unexpected service outage involving several products, including Outlook Redis 6.2. The high server load during peak times is suspected to be the cause. We have attempted to restart the affected services and monitor the traffic, but the issue persists My name is [full_name]-Farsi.. We are currently investigating the root cause and working on a solution. Please inform us of any further steps needed to resolve the problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

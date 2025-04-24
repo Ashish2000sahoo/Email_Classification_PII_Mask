@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for Implementing Enhanced Encryption\n\nDear Customer Support, I am seeking immediate assistance with the implementation of enhanced encryption to protect sensitive patient data and hospital IT systems, which is a high-priority issue requiring prompt attention. I would greatly appreciate a comprehensive plan of action and a timeline for completion. Please inform me of any additional steps I need to take or information required from my side You can reach me at liuwei@business.cn.. Thank you for your swift response My name is Maria Gonzalez.. I look forward to your prompt reply.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        564,
+        578
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        498,
+        516
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for Implementing Enhanced Encryption\n\nDear Customer Support, I am seeking immediate assistance with the implementation of enhanced encryption to protect sensitive patient data and hospital IT systems, which is a high-priority issue requiring prompt attention. I would greatly appreciate a comprehensive plan of action and a timeline for completion. Please inform me of any additional steps I need to take or information required from my side You can reach me at [email].. Thank you for your swift response My name is [full_name].. I look forward to your prompt reply.",
+  "category_of_the_email": "Change"
+}

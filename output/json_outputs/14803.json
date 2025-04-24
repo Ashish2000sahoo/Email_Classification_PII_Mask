@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Hinweise zur Optimierung von Investitionen\n\nK\u00f6nnten Sie Rat zur Optimierung Ihrer Investitionen erhalten?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        152
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Hinweise zur Optimierung von Investitionen\n\nK\u00f6nnten Sie Rat zur Optimierung Ihrer Investitionen erhalten?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

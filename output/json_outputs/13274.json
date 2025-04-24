@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, seeking assistance with integrating Airtable project management software My name is Fatima Al-Farsi.. Could you provide detailed instructions on how to accomplish this? I would greatly appreciate any guidance and necessary steps, including potential complications that may arise during the integration process. Thank you for your time and assistance You can reach me at sophia.rossi@service.it.. I look forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        113,
+        122
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        401,
+        424
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, seeking assistance with integrating Airtable project management software My name is [full_name]-Farsi.. Could you provide detailed instructions on how to accomplish this? I would greatly appreciate any guidance and necessary steps, including potential complications that may arise during the integration process. Thank you for your time and assistance You can reach me at [email].. I look forward to hearing back from you soon.",
+  "category_of_the_email": "Request"
+}

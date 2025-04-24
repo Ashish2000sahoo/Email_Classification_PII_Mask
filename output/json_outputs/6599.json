@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Avid Pro Tools 2021.6 Crash auf Ubuntu\n\nBeim Verwenden von Avid Pro Tools 2021.6 zur Audiobearbeitung unter Ubuntu habe ich einen unerwarteten Crash erlebt You can reach me at johndoe@email.com.. Das Problem k\u00f6nnte auf Kompatibilit\u00e4tsprobleme zur Ausf\u00fchrung mehrerer leistungsintensiver Anwendungen zur\u00fcckzuf\u00fchren sein My name is Fatima Al-Farsi.. Ich habe bereits versucht, die Anwendung neu zu starten, die Treiber zu aktualisieren und Systemupdates zu \u00fcberpr\u00fcfen, aber das Problem beharrt trotzdem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        348
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        185,
+        202
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        24,
+        28
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        83,
+        87
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Avid Pro Tools [phone_number].6 Crash auf Ubuntu\n\nBeim Verwenden von Avid Pro Tools [phone_number].6 zur Audiobearbeitung unter Ubuntu habe ich einen unerwarteten Crash erlebt You can reach me at [email].. Das Problem k\u00f6nnte auf Kompatibilit\u00e4tsprobleme zur Ausf\u00fchrung mehrerer leistungsintensiver Anwendungen zur\u00fcckzuf\u00fchren sein My name is [full_name]-Farsi.. Ich habe bereits versucht, die Anwendung neu zu starten, die Treiber zu aktualisieren und Systemupdates zu \u00fcberpr\u00fcfen, aber das Problem beharrt trotzdem.",
+  "category_of_the_email": "Incident"
+}

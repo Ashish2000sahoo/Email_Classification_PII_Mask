@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Software Update\n\nFacing connectivity problems with the SaaS project management system, which has affected the integrated tools and devices. The issue started after the latest software update and might be due to compatibility issues You can reach me at elena.ivanova@support.org.. I have already restarted my devices, checked my network settings, and cleared the cache, but the problem persists My name is Maria Gonzalez.. Could you please help resolve this issue at your earliest convenience?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        442
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        275,
+        300
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern about Software Update\n\nFacing connectivity problems with the SaaS project management system, which has affected the integrated tools and devices. The issue started after the latest software update and might be due to compatibility issues You can reach me at [email].. I have already restarted my devices, checked my network settings, and cleared the cache, but the problem persists My name is [full_name].. Could you please help resolve this issue at your earliest convenience?",
+  "category_of_the_email": "Incident"
+}

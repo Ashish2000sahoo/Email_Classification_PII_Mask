@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Encryption After Software Update\n\nThere has been a sudden malfunction in data encryption, which I suspect might be due to a conflict with a software update My name is Jane Smith.. Despite restarting the servers and reviewing the configurations, the problem still exists You can reach me at david.kim@corp.kr.. I urgently need your help to fix this. Please advise on the next steps. The delay in resolution is causing significant disruptions, and I would greatly appreciate your quick response. Thank you in advance for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        316,
+        333
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Encryption After Software Update\n\nThere has been a sudden malfunction in data encryption, which I suspect might be due to a conflict with a software update My name is [full_name].. Despite restarting the servers and reviewing the configurations, the problem still exists You can reach me at [email].. I urgently need your help to fix this. Please advise on the next steps. The delay in resolution is causing significant disruptions, and I would greatly appreciate your quick response. Thank you in advance for your assistance.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Crash of the Data Analytics System\n\nHello Customer Support, I am in need of your assistance as our data analytics system has crashed unexpectedly You can reach me at sophia.rossi@service.it.. We suspect it may be due to an excessive amount of data being processed. Despite our efforts to restart the servers and verify network connections, the problem remains unresolved My name is David Kim.. The crash happened suddenly, and unfortunately, we were not able to collect any error logs. We are worried about the potential data loss and request your immediate help to address this matter. Please inform us of the necessary actions to be taken. Thank you for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        402,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        186,
+        209
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Crash of the Data Analytics System\n\nHello Customer Support, I am in need of your assistance as our data analytics system has crashed unexpectedly You can reach me at [email].. We suspect it may be due to an excessive amount of data being processed. Despite our efforts to restart the servers and verify network connections, the problem remains unresolved My name is [full_name].. The crash happened suddenly, and unfortunately, we were not able to collect any error logs. We are worried about the potential data loss and request your immediate help to address this matter. Please inform us of the necessary actions to be taken. Thank you for your attention and support.",
+  "category_of_the_email": "Incident"
+}

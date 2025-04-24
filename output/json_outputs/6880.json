@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Immediate Update of Digital Marketing Tools\n\nI am contacting you to ask for an urgent update of our digital marketing tools to solve connectivity problems with several platforms My name is Fatima Al-Farsi.. Specifically, we are encountering difficulties with Drupal, MongoDB, and osCommerce, which are leading to significant issues You can reach me at maria.gonzalez@shop.es.. If you could share a timeline for when these problems will be addressed and the tools will be updated, that would be greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        219
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        375,
+        397
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Immediate Update of Digital Marketing Tools\n\nI am contacting you to ask for an urgent update of our digital marketing tools to solve connectivity problems with several platforms My name is [full_name]-Farsi.. Specifically, we are encountering difficulties with Drupal, MongoDB, and osCommerce, which are leading to significant issues You can reach me at [email].. If you could share a timeline for when these problems will be addressed and the tools will be updated, that would be greatly appreciated.",
+  "category_of_the_email": "Incident"
+}

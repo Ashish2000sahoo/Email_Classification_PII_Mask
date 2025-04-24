@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach Unterst\u00fctzung bei der Integration von Mailchimp in die digitale Marketingstrategie\n\nIch w\u00fcrde gerne mehr Informationen zur Integration von Mailchimp in unsere digitale Marketingstrategie erhalten My name is Fatima Al-Farsi.. Insbesondere interessieren wir uns f\u00fcr die Optimierung unserer E-Mail-Kampagnen und die Automatisierung des Workflows. Ich freue mich auf Ihre Unterst\u00fctzung und sch\u00e4tze jede Hilfe sehr. Ich freue mich auf Ihre R\u00fcckmeldung. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        492,
+        509
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Unterst\u00fctzung bei der Integration von Mailchimp in die digitale Marketingstrategie\n\nIch w\u00fcrde gerne mehr Informationen zur Integration von Mailchimp in unsere digitale Marketingstrategie erhalten My name is [full_name]-Farsi.. Insbesondere interessieren wir uns f\u00fcr die Optimierung unserer E-Mail-Kampagnen und die Automatisierung des Workflows. Ich freue mich auf Ihre Unterst\u00fctzung und sch\u00e4tze jede Hilfe sehr. Ich freue mich auf Ihre R\u00fcckmeldung. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich kontaktiere mich im Zusammenhang mit Datenanalyse-Dienstleistungen, die zur Optimierung von Investitionsstrategien beitragen You can reach me at johndoe@email.com.. Ich w\u00fcrde gerne mehr Informationen zu den angebotenen Dienstleistungen erhalten, insbesondere, wie sie dabei helfen k\u00f6nnen, investitionssichere Entscheidungen zu treffen. Dar\u00fcber hinaus bin ich an den Ans\u00e4tzen interessiert, wie Datenanalyse helfen kann, Kunden zu erreichen und Investitionsziele zu unterst\u00fctzen. Ich freue mich darauf, weitere Informationen \u00fcber die Kosten und den Implementierungsprozess der Dienstleistungen zu erhalten. Ich freue mich darauf, mehr \u00fcber die M\u00f6glichkeiten und die Dienstleistungen zur Optimierung der Investitionsstrategie zu erfahren. Vielen Dank. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        798,
+        807
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        183,
+        200
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich kontaktiere mich im Zusammenhang mit Datenanalyse-Dienstleistungen, die zur Optimierung von Investitionsstrategien beitragen You can reach me at [email].. Ich w\u00fcrde gerne mehr Informationen zu den angebotenen Dienstleistungen erhalten, insbesondere, wie sie dabei helfen k\u00f6nnen, investitionssichere Entscheidungen zu treffen. Dar\u00fcber hinaus bin ich an den Ans\u00e4tzen interessiert, wie Datenanalyse helfen kann, Kunden zu erreichen und Investitionsziele zu unterst\u00fctzen. Ich freue mich darauf, weitere Informationen \u00fcber die Kosten und den Implementierungsprozess der Dienstleistungen zu erhalten. Ich freue mich darauf, mehr \u00fcber die M\u00f6glichkeiten und die Dienstleistungen zur Optimierung der Investitionsstrategie zu erfahren. Vielen Dank. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

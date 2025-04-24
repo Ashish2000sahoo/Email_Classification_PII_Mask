@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data analytics platform experienced an unexpected failure\n\nThe Cassandra 4.0 database encountered an issue because it lacked adequate resources.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        176,
+        191
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Data analytics platform experienced an unexpected failure\n\nThe Cassandra 4.0 database encountered an issue because it lacked adequate resources.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

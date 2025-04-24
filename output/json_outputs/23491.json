@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEstimado equipo de soporte al cliente, estoy escribiendo para llamar su atenci\u00f3n sobre los problemas continuos que estamos experimentando con nuestra implementaci\u00f3n en la nube de AWS, que se gestiona a trav\u00e9s de su Servicio de Administraci\u00f3n de AWS. Estas interrupciones han estado ocurriendo con una frecuencia creciente y han llevado a interrupciones significativas del servicio para nuestras operaciones. El tiempo de inactividad est\u00e1 afectando nuestros procesos comerciales y causando inconvenientes a nuestros clientes. Hemos estado utilizando sus servicios de TI durante un tiempo y no esper\u00e1bamos problemas tan recurrentes, dada su reputaci\u00f3n de confiabilidad. La naturaleza de las interrupciones parece estar relacionada con errores de configuraci\u00f3n y asignaci\u00f3n insuficiente de recursos durante los picos de uso. Intentamos solucionar los problemas utilizando los procedimientos est\u00e1ndar proporcionados en su documentaci\u00f3n, sin \u00e9xito. Desafortunadamente, nuestros intentos de resolver este asunto sin apoyo externo no han sido fruct\u00edferos. Dada la urgencia de nuestra situaci\u00f3n y el impacto en la eficiencia de nuestro negocio, solicitamos amablemente que prioricen nuestro caso y nos brinden una resoluci\u00f3n r\u00e1pida My name is David Kim.. Por favor, inf\u00f3rmenos sobre los pr\u00f3ximos pasos para abordar estos problemas de implementaci\u00f3n de manera oportuna. Gracias por su atenci\u00f3n inmediata a nuestras necesidades urgentes You can reach me at janesmith@company.com.. Sinceramente, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1246,
+        1255
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1460,
+        1481
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nEstimado equipo de soporte al cliente, estoy escribiendo para llamar su atenci\u00f3n sobre los problemas continuos que estamos experimentando con nuestra implementaci\u00f3n en la nube de AWS, que se gestiona a trav\u00e9s de su Servicio de Administraci\u00f3n de AWS. Estas interrupciones han estado ocurriendo con una frecuencia creciente y han llevado a interrupciones significativas del servicio para nuestras operaciones. El tiempo de inactividad est\u00e1 afectando nuestros procesos comerciales y causando inconvenientes a nuestros clientes. Hemos estado utilizando sus servicios de TI durante un tiempo y no esper\u00e1bamos problemas tan recurrentes, dada su reputaci\u00f3n de confiabilidad. La naturaleza de las interrupciones parece estar relacionada con errores de configuraci\u00f3n y asignaci\u00f3n insuficiente de recursos durante los picos de uso. Intentamos solucionar los problemas utilizando los procedimientos est\u00e1ndar proporcionados en su documentaci\u00f3n, sin \u00e9xito. Desafortunadamente, nuestros intentos de resolver este asunto sin apoyo externo no han sido fruct\u00edferos. Dada la urgencia de nuestra situaci\u00f3n y el impacto en la eficiencia de nuestro negocio, solicitamos amablemente que prioricen nuestro caso y nos brinden una resoluci\u00f3n r\u00e1pida My name is [full_name].. Por favor, inf\u00f3rmenos sobre los pr\u00f3ximos pasos para abordar estos problemas de implementaci\u00f3n de manera oportuna. Gracias por su atenci\u00f3n inmediata a nuestras necesidades urgentes You can reach me at [email].. Sinceramente, <name>",
+  "category_of_the_email": "Incident"
+}

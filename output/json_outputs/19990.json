@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Website Performance Issues\n\nDear Customer Support, the performance of the agency's website has significantly slowed, leading to delays in campaign execution My name is Maria Gonzalez.. Although we have cleared the cache and optimized images, the issues still persist You can reach me at sophia.rossi@service.it.. We suspect that this might be due to increased traffic and underlying infrastructure problems. Could you please investigate and provide a solution to improve the website's performance?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        199
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        301,
+        324
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Website Performance Issues\n\nDear Customer Support, the performance of the agency's website has significantly slowed, leading to delays in campaign execution My name is [full_name].. Although we have cleared the cache and optimized images, the issues still persist You can reach me at [email].. We suspect that this might be due to increased traffic and underlying infrastructure problems. Could you please investigate and provide a solution to improve the website's performance?",
+  "category_of_the_email": "Incident"
+}

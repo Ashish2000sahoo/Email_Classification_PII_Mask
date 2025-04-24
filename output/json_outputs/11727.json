@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for Investment Tool\n\nThe investment optimization tool is producing inaccurate asset allocation suggestions, possibly due to recent data integration problems You can reach me at janesmith@company.com.. Despite restarting the application and validating data inputs, the issue remains. We would greatly appreciate a prompt review to provide guidance and resolve this problem My name is David Kim.. Please inform us if you need any additional information. We look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        419,
+        428
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        213,
+        234
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for Investment Tool\n\nThe investment optimization tool is producing inaccurate asset allocation suggestions, possibly due to recent data integration problems You can reach me at [email].. Despite restarting the application and validating data inputs, the issue remains. We would greatly appreciate a prompt review to provide guidance and resolve this problem My name is [full_name].. Please inform us if you need any additional information. We look forward to your prompt response.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Incident of Security Breach\n\nA security breach has been identified, affecting the medical data systems. It appears that the breach may be due to outdated software vulnerabilities. Initial efforts to address the issue involved updating the software and enhancing firewall protections, but the issue continues. We require your assistance to rectify the situation and prevent future occurrences You can reach me at liuwei@business.cn.. Please provide guidance on the next steps. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        513
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        429,
+        447
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Incident of Security Breach\n\nA security breach has been identified, affecting the medical data systems. It appears that the breach may be due to outdated software vulnerabilities. Initial efforts to address the issue involved updating the software and enhancing firewall protections, but the issue continues. We require your assistance to rectify the situation and prevent future occurrences You can reach me at [email].. Please provide guidance on the next steps. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Encryption Malfunction\n\nGreeting Customer Support Team, I am submitting this communication to highlight a sudden encryption malfunction on my medical data. This anomaly could be linked to the use of an outdated Docker version My name is Sophia Rossi.. Despite my efforts to restart the servers and analyze the logs, the problem remains unresolved You can reach me at johndoe@email.com.. I kindly request you to examine this situation and swiftly offer a resolution. Please inform me if there is any supplementary information you require. Thanks for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        256,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        385,
+        402
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Encryption Malfunction\n\nGreeting Customer Support Team, I am submitting this communication to highlight a sudden encryption malfunction on my medical data. This anomaly could be linked to the use of an outdated Docker version My name is [full_name].. Despite my efforts to restart the servers and analyze the logs, the problem remains unresolved You can reach me at [email].. I kindly request you to examine this situation and swiftly offer a resolution. Please inform me if there is any supplementary information you require. Thanks for your support.",
+  "category_of_the_email": "Incident"
+}

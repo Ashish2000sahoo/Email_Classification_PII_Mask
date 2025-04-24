@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr die Implementierung von Verschl\u00fcsselung anfordern\n\nIch habe Ihre Anfrage zur Implementierung einer Verschl\u00fcsselungsmethode erhalten. Um Ihnen optimale Unterst\u00fctzung zu bieten, brauche ich einige zus\u00e4tzliche Informationen You can reach me at fatima.farsi@help.com.. Bitte geben Sie an, welche Art von Verschl\u00fcsselung Sie ben\u00f6tigen und welche Art von System oder Daten versehrt werden sollen My name is Carlos Mendoza.. Dies wird mir helfen, eine passende L\u00f6sung f\u00fcr Sie zu identifizieren. Wenn Sie dies lieber telefonisch besprechen m\u00f6chten, kann ich auch einen Anruf vereinbaren, um die beste Strategie f\u00fcr Ihre Verschl\u00fcsselungsanforderungen zu erarbeiten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        442
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        268,
+        289
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr die Implementierung von Verschl\u00fcsselung anfordern\n\nIch habe Ihre Anfrage zur Implementierung einer Verschl\u00fcsselungsmethode erhalten. Um Ihnen optimale Unterst\u00fctzung zu bieten, brauche ich einige zus\u00e4tzliche Informationen You can reach me at [email].. Bitte geben Sie an, welche Art von Verschl\u00fcsselung Sie ben\u00f6tigen und welche Art von System oder Daten versehrt werden sollen My name is [full_name].. Dies wird mir helfen, eine passende L\u00f6sung f\u00fcr Sie zu identifizieren. Wenn Sie dies lieber telefonisch besprechen m\u00f6chten, kann ich auch einen Anruf vereinbaren, um die beste Strategie f\u00fcr Ihre Verschl\u00fcsselungsanforderungen zu erarbeiten.",
+  "category_of_the_email": "Request"
+}

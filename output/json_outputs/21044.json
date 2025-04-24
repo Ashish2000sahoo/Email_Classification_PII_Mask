@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Interrup\u00e7\u00e3o Urgente do Banco de Dados\n\nPrezado Time de Suporte ao Cliente, estamos enfrentando uma grave interrup\u00e7\u00e3o do banco de dados afetando o MySQL 8.0.30. Dados cr\u00edticos dos clientes se tornaram inacess\u00edveis My name is Omar Hassan.. Precisamos urgentemente do seu suporte para resolver este problema You can reach me at maria.gonzalez@shop.es.. Por favor, priorize nosso pedido. Entre em contato com <name> pelo <tel_num> para detalhes adicionais. Obrigado pela sua aten\u00e7\u00e3o imediata.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        233,
+        244
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        334,
+        356
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        161,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Interrup\u00e7\u00e3o Urgente do Banco de Dados\n\nPrezado Time de Suporte ao Cliente, estamos enfrentando uma grave interrup\u00e7\u00e3o do banco de dados afetando o MySQL [phone_number]. Dados cr\u00edticos dos clientes se tornaram inacess\u00edveis My name is [full_name].. Precisamos urgentemente do seu suporte para resolver este problema You can reach me at [email].. Por favor, priorize nosso pedido. Entre em contato com <name> pelo <tel_num> para detalhes adicionais. Obrigado pela sua aten\u00e7\u00e3o imediata.",
+  "category_of_the_email": "Incident"
+}

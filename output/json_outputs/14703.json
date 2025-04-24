@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit den Campagnendaten\n\nDie digitale Campagnendaten wurden unverhofft verloren, da ein Datenbank-Synchronisationsproblem aufgetreten ist.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        194
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit den Campagnendaten\n\nDie digitale Campagnendaten wurden unverhofft verloren, da ein Datenbank-Synchronisationsproblem aufgetreten ist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Smartsheet Integration\n\nHello customer support, I am reaching out to inquire about integrating the Smartsheet SaaS project management platform My name is Sophia Rossi.. Could you provide me with the details and necessary steps required for the integration? I would greatly appreciate your assistance and look forward to hearing back from you soon. Thank you for your time and support. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        433,
+        454
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Smartsheet Integration\n\nHello customer support, I am reaching out to inquire about integrating the Smartsheet SaaS project management platform My name is [full_name].. Could you provide me with the details and necessary steps required for the integration? I would greatly appreciate your assistance and look forward to hearing back from you soon. Thank you for your time and support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

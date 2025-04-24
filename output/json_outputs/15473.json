@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Complete Failure of Project Synchronization Today\n\nProject synchronization across platforms has failed due to incompatible API updates.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Complete Failure of Project Synchronization Today\n\nProject synchronization across platforms has failed due to incompatible API updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

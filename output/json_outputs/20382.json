@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Battery Issue with Surface Pro\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to express my concern regarding a purchase I made from your online store. The product in question is a Microsoft Surface Pro 7. Unfortunately, I am encountering a recurrent issue with its battery performance My name is David Kim.. Specifically, the battery seems unable to charge beyond 50% You can reach me at janesmith@company.com.. This substantial limitation is significantly impacting my work productivity, as I rely on this device for numerous professional tasks.\n\nGiven this situation, I am seeking your assistance in evaluating the problem and exploring potential solutions. Ideally, I would like to inquire about the possibility of receiving a replacement unit or having this unit repaired to resolve the charging issue. Please let me know the steps I should follow to proceed with either option.\n\nI have attached proof of purchase and further device details for your reference. Your prompt response will be greatly appreciated given the urgent nature of this matter, as it influences my daily work commitments. Thank you for your attention to this issue.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        351,
+        360
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        445,
+        466
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Battery Issue with Surface Pro\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to express my concern regarding a purchase I made from your online store. The product in question is a Microsoft Surface Pro 7. Unfortunately, I am encountering a recurrent issue with its battery performance My name is [full_name].. Specifically, the battery seems unable to charge beyond 50% You can reach me at [email].. This substantial limitation is significantly impacting my work productivity, as I rely on this device for numerous professional tasks.\n\nGiven this situation, I am seeking your assistance in evaluating the problem and exploring potential solutions. Ideally, I would like to inquire about the possibility of receiving a replacement unit or having this unit repaired to resolve the charging issue. Please let me know the steps I should follow to proceed with either option.\n\nI have attached proof of purchase and further device details for your reference. Your prompt response will be greatly appreciated given the urgent nature of this matter, as it influences my daily work commitments. Thank you for your attention to this issue.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: M\u00f6glichkeiten der Integration von TensorFlow in SaaS-Projekte\n\nBitte kontaktieren Sie mich, um mehr Informationen zur Integration von TensorFlow in die SaaS-Project-Management-L\u00f6sung zu erhalten You can reach me at omar.hassan@secure.net.. Es w\u00e4re sch\u00f6n, wenn Sie weitere Details bereitstellen k\u00f6nnten. Ich w\u00fcrde mich freuen, \u00fcber den Integrationsprozess sowie die Vorteile und m\u00f6glichen Herausforderungen aufzukl\u00e4ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung bei dieser Angelegenheit. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        224,
+        246
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: M\u00f6glichkeiten der Integration von TensorFlow in SaaS-Projekte\n\nBitte kontaktieren Sie mich, um mehr Informationen zur Integration von TensorFlow in die SaaS-Project-Management-L\u00f6sung zu erhalten You can reach me at [email].. Es w\u00e4re sch\u00f6n, wenn Sie weitere Details bereitstellen k\u00f6nnten. Ich w\u00fcrde mich freuen, \u00fcber den Integrationsprozess sowie die Vorteile und m\u00f6glichen Herausforderungen aufzukl\u00e4ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung bei dieser Angelegenheit. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

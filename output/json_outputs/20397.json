@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problemas de Conectividade com Impressora Canon\n\nPrezada Equipe de Suporte da Tech Online Store, estou escrevendo para relatar problemas de conectividade com minha impressora Canon PIXMA MG3620 durante impress\u00f5es m\u00f3veis. Ela frequentemente perde a conex\u00e3o sem fio, interrompendo as minhas tarefas de impress\u00e3o. Por favor, ajudem a resolver esse problema persistente para que eu possa usar minha impressora de forma eficiente My name is Elena Ivanova.. A sua resposta r\u00e1pida ser\u00e1 muito apreciada You can reach me at maria.gonzalez@shop.es.. Obrigado pela sua ajuda. Atenciosamente, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        458
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        522,
+        544
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        198,
+        202
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Problemas de Conectividade com Impressora Canon\n\nPrezada Equipe de Suporte da Tech Online Store, estou escrevendo para relatar problemas de conectividade com minha impressora Canon PIXMA MG[phone_number] durante impress\u00f5es m\u00f3veis. Ela frequentemente perde a conex\u00e3o sem fio, interrompendo as minhas tarefas de impress\u00e3o. Por favor, ajudem a resolver esse problema persistente para que eu possa usar minha impressora de forma eficiente My name is [full_name].. A sua resposta r\u00e1pida ser\u00e1 muito apreciada You can reach me at [email].. Obrigado pela sua ajuda. Atenciosamente, <name>",
+  "category_of_the_email": "Problem"
+}

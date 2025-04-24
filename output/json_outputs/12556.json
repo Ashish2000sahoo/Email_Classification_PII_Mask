@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Support for Keras Integration\n\nWhile trying to integrate Keras with a project management SaaS, I've faced considerable performance problems, which might be linked to resource allocation conflicts, particularly with the CPU software My name is Carlos Mendoza.. I have already restarted the application, reallocated system resources, and updated relevant software components, yet the issues continue You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate guidance on how to resolve this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        276
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        434,
+        456
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Technical Support for Keras Integration\n\nWhile trying to integrate Keras with a project management SaaS, I've faced considerable performance problems, which might be linked to resource allocation conflicts, particularly with the CPU software My name is [full_name].. I have already restarted the application, reallocated system resources, and updated relevant software components, yet the issues continue You can reach me at [email].. I would greatly appreciate guidance on how to resolve this.",
+  "category_of_the_email": "Incident"
+}

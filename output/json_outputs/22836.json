@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgente: Problemas de conectividad repetidos con el enrutador\n\nEstimado soporte al cliente,\n\nEstamos experimentando interrupciones frecuentes en nuestros servicios de red debido a que el enrutador Cisco ISR4331 pierde repetidamente la conexi\u00f3n a internet. Este problema afecta significativamente nuestras operaciones empresariales My name is Elena Ivanova.. \u00bfPodr\u00eda proporcionar asistencia inmediata para diagnosticar y resolver estos problemas de conectividad? Su pronta atenci\u00f3n a este incidente de alta prioridad ser\u00eda muy apreciada.\n\nSaludos cordiales,\n<name>\n<company> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        351,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        601,
+        618
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        215,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problemas de conectividad repetidos con el enrutador\n\nEstimado soporte al cliente,\n\nEstamos experimentando interrupciones frecuentes en nuestros servicios de red debido a que el enrutador Cisco ISR[phone_number] pierde repetidamente la conexi\u00f3n a internet. Este problema afecta significativamente nuestras operaciones empresariales My name is [full_name].. \u00bfPodr\u00eda proporcionar asistencia inmediata para diagnosticar y resolver estos problemas de conectividad? Su pronta atenci\u00f3n a este incidente de alta prioridad ser\u00eda muy apreciada.\n\nSaludos cordiales,\n<name>\n<company> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

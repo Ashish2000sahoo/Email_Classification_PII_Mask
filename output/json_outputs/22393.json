@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Jira Software\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um ein Problem zu melden, das wir mit Jira Software 8.20 haben You can reach me at johndoe@email.com.. Unser Team kann beim Erstellen neuer Tickets keine Anh\u00e4nge zu Aufgaben hinzuf\u00fcgen, was unseren Arbeitsablauf erheblich beeintr\u00e4chtigt. Wir sind stark von dieser Funktion f\u00fcr effektives Issue-Tracking und Dokumentation abh\u00e4ngig My name is Elena Ivanova.. K\u00f6nnten Sie bitte diese Angelegenheit so schnell wie m\u00f6glich \u00fcberpr\u00fcfen? Falls es einige Problembehebungsschritte oder Patches gibt, stellen Sie diese bitte zur Verf\u00fcgung. Lassen Sie uns auch wissen, ob dieses Problem mit k\u00fcrzlichen Updates zusammenh\u00e4ngt. Wir sch\u00e4tzen Ihre Unterst\u00fctzung und freuen uns auf eine baldige L\u00f6sung.\n\nVielen Dank,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        425,
+        438
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        167,
+        184
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Jira Software\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um ein Problem zu melden, das wir mit Jira Software 8.20 haben You can reach me at [email].. Unser Team kann beim Erstellen neuer Tickets keine Anh\u00e4nge zu Aufgaben hinzuf\u00fcgen, was unseren Arbeitsablauf erheblich beeintr\u00e4chtigt. Wir sind stark von dieser Funktion f\u00fcr effektives Issue-Tracking und Dokumentation abh\u00e4ngig My name is [full_name].. K\u00f6nnten Sie bitte diese Angelegenheit so schnell wie m\u00f6glich \u00fcberpr\u00fcfen? Falls es einige Problembehebungsschritte oder Patches gibt, stellen Sie diese bitte zur Verf\u00fcgung. Lassen Sie uns auch wissen, ob dieses Problem mit k\u00fcrzlichen Updates zusammenh\u00e4ngt. Wir sch\u00e4tzen Ihre Unterst\u00fctzung und freuen uns auf eine baldige L\u00f6sung.\n\nVielen Dank,\n<name>",
+  "category_of_the_email": "Incident"
+}

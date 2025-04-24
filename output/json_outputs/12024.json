@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Leakage in Hospital System\n\nHello Customer Support, I am contacting you to report a data leakage issue within our hospital system. It might be related to an outdated SAP ERP system. I have attempted to restart Cassandra 4.0 and checked my MacBook Pro, but the issue continues My name is Elena Ivanova.. I hope you can address this urgently and offer a solution to avoid future data breaches. Please inform me if you require any further details from me. I appreciate your swift response to this concern. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        535,
+        552
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Data Leakage in Hospital System\n\nHello Customer Support, I am contacting you to report a data leakage issue within our hospital system. It might be related to an outdated SAP ERP system. I have attempted to restart Cassandra 4.0 and checked my MacBook Pro, but the issue continues My name is [full_name].. I hope you can address this urgently and offer a solution to avoid future data breaches. Please inform me if you require any further details from me. I appreciate your swift response to this concern. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

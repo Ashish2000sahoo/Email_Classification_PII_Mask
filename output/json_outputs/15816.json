@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investments Dashboard Fails Owing to Potential Data Overflow or Software Error Today\n\nThe investments dashboard has failed You can reach me at janesmith@company.com.. The likely causes are data overflow or a glitch in the analytics software My name is Fatima Al-Farsi.. I have restarted Sophos Home and reviewed the MySQL 8.0 logs.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        152,
+        173
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Investments Dashboard Fails Owing to Potential Data Overflow or Software Error Today\n\nThe investments dashboard has failed You can reach me at [email].. The likely causes are data overflow or a glitch in the analytics software My name is [full_name]-Farsi.. I have restarted Sophos Home and reviewed the MySQL 8.0 logs.",
+  "category_of_the_email": "Incident"
+}

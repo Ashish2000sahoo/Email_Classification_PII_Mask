@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Data Breach Incident\n\nA data breach has occurred, possibly revealing sensitive medical data due to vulnerabilities in the encryption software. We have initiated a secure network update using software applications.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        274
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Breach Incident\n\nA data breach has occurred, possibly revealing sensitive medical data due to vulnerabilities in the encryption software. We have initiated a secure network update using software applications.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

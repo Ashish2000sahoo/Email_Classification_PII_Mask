@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Immediate Help Required for React App Issue\n\nDear Customer Support,\n\nI hope this message finds you well. I am writing to urgently report a high-priority incident involving the JavaScript React application that has been causing user interface crashes consistently You can reach me at omar.hassan@secure.net.. We have identified that the problem lies within the JavaScript React App Development Service offered by your company.\n\nThe issue manifests as unexpected crashes during user interactions, which significantly hampers the user experience and affects our productivity adversely. These crashes occur across multiple devices and browsers, indicating a widespread issue within the application itself.\n\nWe are currently in a critical phase of deployment, and this unforeseen problem is obstructing our project timelines drastically. As our service provider, we request your technical team to address this incident on a priority basis My name is David Kim.. Given the urgency of our situation, it is crucial that we receive troubleshooting guidance and appropriate solutions to resolve this matter immediately.\n\nKindly assign this case to a competent and urgent team available at your end to undertake immediate troubleshooting. We are dependent on your expertise to aid our teams in overcoming this hurdle. \n\nPlease advise on the next steps at your earliest convenience. For further communication, you can reach me at <tel_num>.\n\nThank you for your swift attention to this matter.\n\nBest regards,\n\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        962,
+        971
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        300,
+        322
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Immediate Help Required for React App Issue\n\nDear Customer Support,\n\nI hope this message finds you well. I am writing to urgently report a high-priority incident involving the JavaScript React application that has been causing user interface crashes consistently You can reach me at [email].. We have identified that the problem lies within the JavaScript React App Development Service offered by your company.\n\nThe issue manifests as unexpected crashes during user interactions, which significantly hampers the user experience and affects our productivity adversely. These crashes occur across multiple devices and browsers, indicating a widespread issue within the application itself.\n\nWe are currently in a critical phase of deployment, and this unforeseen problem is obstructing our project timelines drastically. As our service provider, we request your technical team to address this incident on a priority basis My name is [full_name].. Given the urgency of our situation, it is crucial that we receive troubleshooting guidance and appropriate solutions to resolve this matter immediately.\n\nKindly assign this case to a competent and urgent team available at your end to undertake immediate troubleshooting. We are dependent on your expertise to aid our teams in overcoming this hurdle. \n\nPlease advise on the next steps at your earliest convenience. For further communication, you can reach me at <tel_num>.\n\nThank you for your swift attention to this matter.\n\nBest regards,\n\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

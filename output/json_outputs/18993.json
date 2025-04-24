@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unpr\u00e4zise Anlage-Prognosen erfahre ich. M\u00f6gliche Gr\u00fcnde sind Datenfehler oder Modellprobleme. Neustart und Datenquelle \u00fcberpr\u00fcft, aber Fehler bestandhaft. L\u00f6sung w\u00fcnsche ich, falls Sie mir dabei helfen k\u00f6nnten.\n\nIch stehe Ihnen gerne zur Verf\u00fcgung, um das Problem der unpr\u00e4zisen Anlage-Prognosen zu bearbeiten My name is Maria Gonzalez.. Um Ihnen besser behilflich zu sein, ben\u00f6tige ich weitere Details \u00fcber die Fehlermeldungen, die Sie erhalten You can reach me at janesmith@company.com.. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen zu den nicht pr\u00e4zisen Prognosen geben? Ich werde mich gerne bei einem Telefonat weiter mit Ihnen \u00fcber dies austauschen und eine L\u00f6sung finden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        330,
+        344
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        472,
+        493
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unpr\u00e4zise Anlage-Prognosen erfahre ich. M\u00f6gliche Gr\u00fcnde sind Datenfehler oder Modellprobleme. Neustart und Datenquelle \u00fcberpr\u00fcft, aber Fehler bestandhaft. L\u00f6sung w\u00fcnsche ich, falls Sie mir dabei helfen k\u00f6nnten.\n\nIch stehe Ihnen gerne zur Verf\u00fcgung, um das Problem der unpr\u00e4zisen Anlage-Prognosen zu bearbeiten My name is [full_name].. Um Ihnen besser behilflich zu sein, ben\u00f6tige ich weitere Details \u00fcber die Fehlermeldungen, die Sie erhalten You can reach me at [email].. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen zu den nicht pr\u00e4zisen Prognosen geben? Ich werde mich gerne bei einem Telefonat weiter mit Ihnen \u00fcber dies austauschen und eine L\u00f6sung finden.",
+  "category_of_the_email": "Incident"
+}

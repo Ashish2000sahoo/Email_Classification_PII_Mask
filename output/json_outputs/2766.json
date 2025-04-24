@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Several products encountered deployment issues\n\nSeveral products failed to deploy You can reach me at janesmith@company.com.. It could be due to insufficient bandwidth allocation. Servers were restarted and configurations were reviewed. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        265
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        111,
+        132
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Several products encountered deployment issues\n\nSeveral products failed to deploy You can reach me at [email].. It could be due to insufficient bandwidth allocation. Servers were restarted and configurations were reviewed. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

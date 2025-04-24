@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unanticipated Medical Information Leak Was Noted\n\nIncident details: An unforeseen medical information leak transpired during the night. Possible reasons: Potential vulnerability in the firewall setup My name is Omar Hassan.. Actions taken: Servers were restarted, log files were examined, and IT personnel were informed. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        350,
+        373
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unanticipated Medical Information Leak Was Noted\n\nIncident details: An unforeseen medical information leak transpired during the night. Possible reasons: Potential vulnerability in the firewall setup My name is [full_name].. Actions taken: Servers were restarted, log files were examined, and IT personnel were informed. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues Detected with Windows 10 Pro Data Synchronization\n\nThe project timelines are failing to synchronize You can reach me at carlosm@gmail.com.. This could be due to conflicting software updates or a damaged database My name is Elena Ivanova.. Steps already taken include restarting the system, applying updates, and cleaning the cache, yet the issue remains unresolved.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        252
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        136,
+        153
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issues Detected with Windows 10 Pro Data Synchronization\n\nThe project timelines are failing to synchronize You can reach me at [email].. This could be due to conflicting software updates or a damaged database My name is [full_name].. Steps already taken include restarting the system, applying updates, and cleaning the cache, yet the issue remains unresolved.",
+  "category_of_the_email": "Incident"
+}

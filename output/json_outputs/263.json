@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Medical Data Breach Incident\n\nDear Customer Support, I am writing to inform you of an unexpected data breach related to my medical information. It seems the issue might be due to an outdated CPU cooler causing a system failure. After investigating, I restarted the WLAN router and updated PyTorch, but the problem still persists. It is essential to address this urgently as it involves sensitive medical data. I would greatly appreciate your immediate assistance in investigating and resolving this. Could you provide guidance on the next steps and any preventive measures to avoid similar incidents in the future? Your support is highly valued, and I look forward to your prompt response My name is Elena Ivanova.. Please let me know if you need any additional information to proceed. Kindly respond as soon as possible. Best regards, [Your Name] You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        718,
+        731
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        884,
+        905
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Medical Data Breach Incident\n\nDear Customer Support, I am writing to inform you of an unexpected data breach related to my medical information. It seems the issue might be due to an outdated CPU cooler causing a system failure. After investigating, I restarted the WLAN router and updated PyTorch, but the problem still persists. It is essential to address this urgently as it involves sensitive medical data. I would greatly appreciate your immediate assistance in investigating and resolving this. Could you provide guidance on the next steps and any preventive measures to avoid similar incidents in the future? Your support is highly valued, and I look forward to your prompt response My name is [full_name].. Please let me know if you need any additional information to proceed. Kindly respond as soon as possible. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

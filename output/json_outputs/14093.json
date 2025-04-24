@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Syncing Issue\n\nI am facing periodic syncing challenges, which might be related to network fluctuations. Despite restarting UniFi, verifying cable connections, and updating Ubuntu, the problem still exists and is intermittent, complicating its diagnosis. I would greatly appreciate your help in resolving this You can reach me at david.kim@corp.kr.. Could you please request additional details from me to aid in troubleshooting? My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        448,
+        461
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        338,
+        355
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Syncing Issue\n\nI am facing periodic syncing challenges, which might be related to network fluctuations. Despite restarting UniFi, verifying cable connections, and updating Ubuntu, the problem still exists and is intermittent, complicating its diagnosis. I would greatly appreciate your help in resolving this You can reach me at [email].. Could you please request additional details from me to aid in troubleshooting? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt: Problem beim Anmelden in das Slack-Konto nach dem Update\n\nHallo Kundenbetreuungsteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Unterst\u00fctzung hinsichtlich eines Problems anzufordern, das ich beim Anmelden in mein Slack-Konto nach dem Update auf Version 4.23.0 habe. Mein Konto, das mit dem Benutzernamen <name> verbunden ist, hat seit der Installation des Updates Probleme You can reach me at carlosm@gmail.com.. Eine Anmeldung ist nicht m\u00f6glich, und ich sto\u00dfe h\u00e4ufig auf Fehlermeldungen, die den Zugriff verhindern. Ich nutze Slack intensiv f\u00fcr die Arbeit, und diese St\u00f6rung wirkt sich erheblich auf meine Produktivit\u00e4t aus. Ich habe bereits verschiedene Schritte zur Problembehandlung ausprobiert, einschlie\u00dflich der Neuinstallation der Anwendung, aber das Problem bleibt bestehen. Ihre sofortige Anleitung oder eine L\u00f6sung f\u00fcr dieses Problem w\u00e4re sehr willkommen. Bitte z\u00f6gern Sie nicht, mich unter <tel_num> zu kontaktieren, falls weitere Details ben\u00f6tigt werden. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1129,
+        1143
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        440,
+        457
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt: Problem beim Anmelden in das Slack-Konto nach dem Update\n\nHallo Kundenbetreuungsteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Unterst\u00fctzung hinsichtlich eines Problems anzufordern, das ich beim Anmelden in mein Slack-Konto nach dem Update auf Version 4.23.0 habe. Mein Konto, das mit dem Benutzernamen <name> verbunden ist, hat seit der Installation des Updates Probleme You can reach me at [email].. Eine Anmeldung ist nicht m\u00f6glich, und ich sto\u00dfe h\u00e4ufig auf Fehlermeldungen, die den Zugriff verhindern. Ich nutze Slack intensiv f\u00fcr die Arbeit, und diese St\u00f6rung wirkt sich erheblich auf meine Produktivit\u00e4t aus. Ich habe bereits verschiedene Schritte zur Problembehandlung ausprobiert, einschlie\u00dflich der Neuinstallation der Anwendung, aber das Problem bleibt bestehen. Ihre sofortige Anleitung oder eine L\u00f6sung f\u00fcr dieses Problem w\u00e4re sehr willkommen. Bitte z\u00f6gern Sie nicht, mich unter <tel_num> zu kontaktieren, falls weitere Details ben\u00f6tigt werden. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

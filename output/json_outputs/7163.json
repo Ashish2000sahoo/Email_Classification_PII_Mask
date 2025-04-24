@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Bose QuietComfort 35 II Gaming Headset Connectivity\n\nWe are encountering connectivity problems with the Bose QuietComfort 35 II Gaming Headset during virtual meetings You can reach me at david.kim@corp.kr.. It seems that recent software updates might be incompatible with Cisco Webex. We have already tried restarting the headset, updating the drivers, and reinstalling Webex, but the issue still persists. We would appreciate your help in resolving this matter. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        496,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        209,
+        226
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Bose QuietComfort 35 II Gaming Headset Connectivity\n\nWe are encountering connectivity problems with the Bose QuietComfort 35 II Gaming Headset during virtual meetings You can reach me at [email].. It seems that recent software updates might be incompatible with Cisco Webex. We have already tried restarting the headset, updating the drivers, and reinstalling Webex, but the issue still persists. We would appreciate your help in resolving this matter. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

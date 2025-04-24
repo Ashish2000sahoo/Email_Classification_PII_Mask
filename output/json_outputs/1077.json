@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best Practices for Safeguarding Medical Data\n\nHello Customer Support, I am reaching out to seek detailed information on the security measures that are in place to protect medical data within hospital IT systems. Given the sensitive nature of medical information, it is crucial to implement stringent security protocols to avoid unauthorized access and data breaches. Could you provide insights into the existing security safeguards, such as data encryption, access controls, and network security, and suggest additional steps to strengthen these measures? I am also interested in understanding the regulatory requirements and standards, such as HIPAA, that hospital IT systems must comply with for medical data security. I am eager to learn more about the comprehensive security strategies that are essential for maintaining patient confidentiality and preventing data breaches You can reach me at johndoe@email.com.. I look forward to your comprehensive response and any further details you might need from me. Thank you for your assistance in this matter. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1078,
+        1085
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        907,
+        924
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Best Practices for Safeguarding Medical Data\n\nHello Customer Support, I am reaching out to seek detailed information on the security measures that are in place to protect medical data within hospital IT systems. Given the sensitive nature of medical information, it is crucial to implement stringent security protocols to avoid unauthorized access and data breaches. Could you provide insights into the existing security safeguards, such as data encryption, access controls, and network security, and suggest additional steps to strengthen these measures? I am also interested in understanding the regulatory requirements and standards, such as HIPAA, that hospital IT systems must comply with for medical data security. I am eager to learn more about the comprehensive security strategies that are essential for maintaining patient confidentiality and preventing data breaches You can reach me at [email].. I look forward to your comprehensive response and any further details you might need from me. Thank you for your assistance in this matter. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

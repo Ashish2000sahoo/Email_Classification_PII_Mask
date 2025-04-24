@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Rechnung und Zahlungsergebnis unvereinbar\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich hiermit an Sie wenden, um eine Rechnungsanomalie zu melden. Nach meinem eigentlichen \u00dcberpr\u00fcfen meiner Zahlungsnachweise bin ich der Meinung, dass ein eventueller menschlicher Fehler zu einem Unterschied in der Rechnung gef\u00fchrt haben k\u00f6nnte. Ich habe meine Zahlungen sorgf\u00e4ltig gepr\u00fcft und denke, dass hier ein Unterschied vorliegen k\u00f6nnte My name is Carlos Mendoza.. K\u00f6nnten Sie bitte dies f\u00fcr mich \u00fcberpr\u00fcfen und mir dabei helfen, das Problem zu kl\u00e4ren? Ich sch\u00e4tze Ihre Unterst\u00fctzung sehr You can reach me at carlosm@gmail.com.. Ich danke Ihnen im Voraus f\u00fcr Ihre Hilfe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        459,
+        473
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        617,
+        634
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Rechnung und Zahlungsergebnis unvereinbar\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich hiermit an Sie wenden, um eine Rechnungsanomalie zu melden. Nach meinem eigentlichen \u00dcberpr\u00fcfen meiner Zahlungsnachweise bin ich der Meinung, dass ein eventueller menschlicher Fehler zu einem Unterschied in der Rechnung gef\u00fchrt haben k\u00f6nnte. Ich habe meine Zahlungen sorgf\u00e4ltig gepr\u00fcft und denke, dass hier ein Unterschied vorliegen k\u00f6nnte My name is [full_name].. K\u00f6nnten Sie bitte dies f\u00fcr mich \u00fcberpr\u00fcfen und mir dabei helfen, das Problem zu kl\u00e4ren? Ich sch\u00e4tze Ihre Unterst\u00fctzung sehr You can reach me at [email].. Ich danke Ihnen im Voraus f\u00fcr Ihre Hilfe.",
+  "category_of_the_email": "Incident"
+}

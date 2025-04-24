@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Data Access\n\nThere was an issue with accessing data, specifically medical records, which might be related to outdated security protocols. We have updated the antivirus software and performed a preliminary security review.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        266,
+        282
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Access\n\nThere was an issue with accessing data, specifically medical records, which might be related to outdated security protocols. We have updated the antivirus software and performed a preliminary security review.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

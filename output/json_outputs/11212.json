@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Smart-Home Devices\n\nFacing connectivity problems with Smart-Home devices You can reach me at liuwei@business.cn.. A recent software update might be the cause. Restarting the devices and checking the network settings resolved the issue temporarily. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        281,
+        290
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        115,
+        133
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Smart-Home Devices\n\nFacing connectivity problems with Smart-Home devices You can reach me at [email].. A recent software update might be the cause. Restarting the devices and checking the network settings resolved the issue temporarily. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

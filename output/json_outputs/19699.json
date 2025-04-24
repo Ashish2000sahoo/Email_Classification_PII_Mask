@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Eilende IT-Sicherheitsassistance\n\nGehorsam Kundenservice,<br>Einen autorisierten Zugangversuch wurde auf den IT-Systemen des Krankenhauses festgestellt, der die Integrit\u00e4t medizinischer Daten potenziell gef\u00e4hrdet sein k\u00f6nnte. Das Ereignis k\u00f6nnte auf veraltete Software-Vulnerabilitt\u00e4ten und inkorrekt konfigurierte Netzwerkeinstellungen zur\u00fcckzuf\u00fchren sein. Bislang wurden die Antiviren-Definitionen aktualisiert, Zugriffslogs gepr\u00fcft und ein Vorsicherungsprozess initialisiert My name is Sophia Rossi.. <br>Wir bitten um freundliche sofortige Unterst\u00fctzung f\u00fcr eine weitere Untersuchung, um Empfehlungen zur Verhinderung zuk\u00fcnftiger Vorkommnisse bereitzustellen. Bitte teilen Sie die n\u00e4chsten Schritte mit, um die Sicherheit des Systems zu gew\u00e4hrleisten. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        510
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        784,
+        806
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Eilende IT-Sicherheitsassistance\n\nGehorsam Kundenservice,<br>Einen autorisierten Zugangversuch wurde auf den IT-Systemen des Krankenhauses festgestellt, der die Integrit\u00e4t medizinischer Daten potenziell gef\u00e4hrdet sein k\u00f6nnte. Das Ereignis k\u00f6nnte auf veraltete Software-Vulnerabilitt\u00e4ten und inkorrekt konfigurierte Netzwerkeinstellungen zur\u00fcckzuf\u00fchren sein. Bislang wurden die Antiviren-Definitionen aktualisiert, Zugriffslogs gepr\u00fcft und ein Vorsicherungsprozess initialisiert My name is [full_name].. <br>Wir bitten um freundliche sofortige Unterst\u00fctzung f\u00fcr eine weitere Untersuchung, um Empfehlungen zur Verhinderung zuk\u00fcnftiger Vorkommnisse bereitzustellen. Bitte teilen Sie die n\u00e4chsten Schritte mit, um die Sicherheit des Systems zu gew\u00e4hrleisten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

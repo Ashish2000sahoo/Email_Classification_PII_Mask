@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry Regarding Integration Options for Project Management Tools\n\nHello Customer Support, I am writing to inquire about the integration options available for project management with your tools. I am keen to streamline my workflow and enhance team collaboration through the use of your tools My name is Maria Gonzalez.. Can you provide me with details on the available integration options such as APIs, webhooks, or pre-built connectors? Additionally, I would appreciate any documentation or instructional materials that you might be able to provide to assist me in getting started. I am also interested in understanding any specific requirements or limitations that I should be aware of when integrating your tools with my project management system. Thank you for your time and assistance You can reach me at david.kim@corp.kr.. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        817,
+        834
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enquiry Regarding Integration Options for Project Management Tools\n\nHello Customer Support, I am writing to inquire about the integration options available for project management with your tools. I am keen to streamline my workflow and enhance team collaboration through the use of your tools My name is [full_name].. Can you provide me with details on the available integration options such as APIs, webhooks, or pre-built connectors? Additionally, I would appreciate any documentation or instructional materials that you might be able to provide to assist me in getting started. I am also interested in understanding any specific requirements or limitations that I should be aware of when integrating your tools with my project management system. Thank you for your time and assistance You can reach me at [email].. I look forward to your response.",
+  "category_of_the_email": "Request"
+}

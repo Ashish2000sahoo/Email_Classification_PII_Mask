@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer support, a data breach has been detected in the hospital's systems, posing a risk to the security of medical data You can reach me at fatima.farsi@help.com.. We have updated the software, implemented stricter password policies, and trained staff on new data security protocols to address this issue. Could you assist us in enhancing our security measures? Please provide more details about the breach and your current security setup so we can discuss additional steps to secure your systems. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        523,
+        536
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        154,
+        175
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer support, a data breach has been detected in the hospital's systems, posing a risk to the security of medical data You can reach me at [email].. We have updated the software, implemented stricter password policies, and trained staff on new data security protocols to address this issue. Could you assist us in enhancing our security measures? Please provide more details about the breach and your current security setup so we can discuss additional steps to secure your systems. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

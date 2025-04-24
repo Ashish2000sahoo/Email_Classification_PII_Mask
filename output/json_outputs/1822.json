@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Crash Reported\n\nThere has been a website crash, and it is suspected that the server is overloaded My name is Jane Smith.. Despite attempting a restart, the issue remains unresolved and is impacting users You can reach me at maria.gonzalez@shop.es.. Assistance is required to address this issue promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        125,
+        135
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        241,
+        263
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: System Crash Reported\n\nThere has been a website crash, and it is suspected that the server is overloaded My name is [full_name].. Despite attempting a restart, the issue remains unresolved and is impacting users You can reach me at [email].. Assistance is required to address this issue promptly.",
+  "category_of_the_email": "Incident"
+}

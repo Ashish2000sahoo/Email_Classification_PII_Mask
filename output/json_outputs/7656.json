@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Issue with Payment Failure\n\nThere was an unexpected payment failure You can reach me at omar.hassan@secure.net.. It might be due to an outdated payment gateway integration. The billing service was restarted and logs were reviewed. Assistance is needed to address the problem. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        305,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        106,
+        128
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue with Payment Failure\n\nThere was an unexpected payment failure You can reach me at [email].. It might be due to an outdated payment gateway integration. The billing service was restarted and logs were reviewed. Assistance is needed to address the problem. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

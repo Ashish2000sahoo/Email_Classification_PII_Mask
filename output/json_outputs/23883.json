@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Solicitud de Asistencia con la Implementaci\u00f3n del Sistema de Tickets\n\nEl cliente necesita ayuda con el desarrollo de software para el sistema de tickets de su organizaci\u00f3n.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de Asistencia con la Implementaci\u00f3n del Sistema de Tickets\n\nEl cliente necesita ayuda con el desarrollo de software para el sistema de tickets de su organizaci\u00f3n.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

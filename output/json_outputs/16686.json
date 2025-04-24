@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Fehler in digitalen Kampagnen-Analysedaten\n\nSehr geehrte Kundenservice-Abteilung, es freut mich, Sie zu kontaktieren, um ein Problem bei den Analysedaten unserer digitalen Kampagnen zu melden You can reach me at carlosm@gmail.com.. Die verf\u00fcgbaren Daten sind unzusammenh\u00e4ngend, und wir sp\u00fcren bereits einen Ruck, als wir versuchen, den Grund zu identifizieren My name is Carlos Mendoza.. Wir denken, dass die Ursache am Integrationsschritt mit Laravel 8 liegen k\u00f6nnte. Wir haben unsere PostgreSQL-Verbindungen und die Einstellungen in Alteryx bereits gepr\u00fcft, ohne jedoch ein offenes Problem festzustellen. Wir w\u00fcrden Ihre Unterst\u00fctzung in der L\u00f6sung dieses Problems hoch sch\u00e4tzen. K\u00f6nnten Sie bitte nachgehen und uns Rat oder Anleitungen geben, was wir als N\u00e4chstes tun sollten? Wir freuen uns auf Ihre schnelle R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Aufmerksamkeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        393,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        234,
+        251
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Fehler in digitalen Kampagnen-Analysedaten\n\nSehr geehrte Kundenservice-Abteilung, es freut mich, Sie zu kontaktieren, um ein Problem bei den Analysedaten unserer digitalen Kampagnen zu melden You can reach me at [email].. Die verf\u00fcgbaren Daten sind unzusammenh\u00e4ngend, und wir sp\u00fcren bereits einen Ruck, als wir versuchen, den Grund zu identifizieren My name is [full_name].. Wir denken, dass die Ursache am Integrationsschritt mit Laravel 8 liegen k\u00f6nnte. Wir haben unsere PostgreSQL-Verbindungen und die Einstellungen in Alteryx bereits gepr\u00fcft, ohne jedoch ein offenes Problem festzustellen. Wir w\u00fcrden Ihre Unterst\u00fctzung in der L\u00f6sung dieses Problems hoch sch\u00e4tzen. K\u00f6nnten Sie bitte nachgehen und uns Rat oder Anleitungen geben, was wir als N\u00e4chstes tun sollten? Wir freuen uns auf Ihre schnelle R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Aufmerksamkeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

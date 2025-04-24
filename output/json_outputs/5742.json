@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Data Analytics Services Billing\n\nHello customer support, I have a query regarding the billing arrangements for data analytics services You can reach me at johndoe@email.com.. I aim to enhance my investment and seek detailed information about the various pricing levels My name is Fatima Al-Farsi.. Could you kindly furnish me with specifics on the different pricing tiers and any potential discounts that are available? Furthermore, I would be grateful if you could offer me advice on selecting the most suitable plan for my particular requirements. Additionally, I would like to know if there are any extra fees associated with the services, such as data storage or support. I look forward to your response and detailed information on the billing arrangements for data analytics services.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        175,
+        192
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Data Analytics Services Billing\n\nHello customer support, I have a query regarding the billing arrangements for data analytics services You can reach me at [email].. I aim to enhance my investment and seek detailed information about the various pricing levels My name is [full_name]-Farsi.. Could you kindly furnish me with specifics on the different pricing tiers and any potential discounts that are available? Furthermore, I would be grateful if you could offer me advice on selecting the most suitable plan for my particular requirements. Additionally, I would like to know if there are any extra fees associated with the services, such as data storage or support. I look forward to your response and detailed information on the billing arrangements for data analytics services.",
+  "category_of_the_email": "Request"
+}

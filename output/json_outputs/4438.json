@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of an Error in Our Data Analysis Platform Reporting a Crash and Seeking Assistance\n\nI am writing to report a malfunction in our data analysis platform My name is Elena Ivanova.. The platform has crashed, and we suspect it may be due to insufficient RAM allocation. We have already restarted the server and reviewed the logs, but the issue persists. We would appreciate it if you could take care of this and provide us with a solution as soon as possible You can reach me at janesmith@company.com.. Please let us know if you require any further information to resolve this issue. The platform is currently unavailable and needs to be back online as soon as possible. Thank you for your understanding and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        197
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        494,
+        515
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Notification of an Error in Our Data Analysis Platform Reporting a Crash and Seeking Assistance\n\nI am writing to report a malfunction in our data analysis platform My name is [full_name].. The platform has crashed, and we suspect it may be due to insufficient RAM allocation. We have already restarted the server and reviewed the logs, but the issue persists. We would appreciate it if you could take care of this and provide us with a solution as soon as possible You can reach me at [email].. Please let us know if you require any further information to resolve this issue. The platform is currently unavailable and needs to be back online as soon as possible. Thank you for your understanding and support.",
+  "category_of_the_email": "Incident"
+}

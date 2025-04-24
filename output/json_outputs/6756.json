@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Projekt-Synchronisation\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um das Problem mit der Projektzeit-Synchronisation zu melden, das sich auf mehreren Plattformen \u00e4u\u00dfert You can reach me at liuwei@business.cn.. Es scheint auf unkompatiblen API-Integrationen zur\u00fcckzuf\u00fchren sein. Bislang habe ich versucht, die Dienste zu aktualisieren und die Konfigurationsdateien zu pr\u00fcfen, aber das Problem bleibt bestehen. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung finden k\u00f6nnten. Bitte lassen Sie mich wissen, ob Sie weitere Informationen ben\u00f6tigen. Ich bin bereit, mich zu helfen und zus\u00e4tzliche Details bereitzustellen, falls erforderlich. Ich danke Ihnen f\u00fcr Ihren Einsatz und Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten My name is Fatima Al-Farsi.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        876,
+        885
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        222,
+        240
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Projekt-Synchronisation\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um das Problem mit der Projektzeit-Synchronisation zu melden, das sich auf mehreren Plattformen \u00e4u\u00dfert You can reach me at [email].. Es scheint auf unkompatiblen API-Integrationen zur\u00fcckzuf\u00fchren sein. Bislang habe ich versucht, die Dienste zu aktualisieren und die Konfigurationsdateien zu pr\u00fcfen, aber das Problem bleibt bestehen. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung finden k\u00f6nnten. Bitte lassen Sie mich wissen, ob Sie weitere Informationen ben\u00f6tigen. Ich bin bereit, mich zu helfen und zus\u00e4tzliche Details bereitzustellen, falls erforderlich. Ich danke Ihnen f\u00fcr Ihren Einsatz und Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten My name is [full_name]-Farsi.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

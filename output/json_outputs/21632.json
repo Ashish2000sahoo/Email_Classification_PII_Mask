@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de Mensajer\u00eda en Tiempo Real\n\nEstimado equipo de soporte de Tech Online Store,\n\nEstoy escribiendo para informar sobre problemas constantes con las capacidades de mensajer\u00eda en tiempo real de Slack en varios canales, que afectan seriamente la comunicaci\u00f3n y colaboraci\u00f3n de nuestro equipo. Actualmente estamos utilizando la versi\u00f3n de Slack 4.23.0. El problema comenz\u00f3 hace unos d\u00edas y afecta a todos los miembros de nuestro equipo, causando retrasos en la entrega de mensajes y sincronizaci\u00f3n My name is Elena Ivanova.. Esto interrumpe nuestro flujo de trabajo y pone en riesgo los plazos. Necesitamos urgentemente una soluci\u00f3n fiable o orientaci\u00f3n sobre los pasos de soluci\u00f3n de problemas que podemos tomar de inmediato. Por favor, aborden este problema a la mayor brevedad posible.\n\nGracias por su asistencia.\n\nSaludos cordiales,\n\n<name> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        523,
+        536
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        877,
+        894
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problemas de Mensajer\u00eda en Tiempo Real\n\nEstimado equipo de soporte de Tech Online Store,\n\nEstoy escribiendo para informar sobre problemas constantes con las capacidades de mensajer\u00eda en tiempo real de Slack en varios canales, que afectan seriamente la comunicaci\u00f3n y colaboraci\u00f3n de nuestro equipo. Actualmente estamos utilizando la versi\u00f3n de Slack 4.23.0. El problema comenz\u00f3 hace unos d\u00edas y afecta a todos los miembros de nuestro equipo, causando retrasos en la entrega de mensajes y sincronizaci\u00f3n My name is [full_name].. Esto interrumpe nuestro flujo de trabajo y pone en riesgo los plazos. Necesitamos urgentemente una soluci\u00f3n fiable o orientaci\u00f3n sobre los pasos de soluci\u00f3n de problemas que podemos tomar de inmediato. Por favor, aborden este problema a la mayor brevedad posible.\n\nGracias por su asistencia.\n\nSaludos cordiales,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

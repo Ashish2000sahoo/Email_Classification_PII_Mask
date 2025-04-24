@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error during Project Setup Process\n\nDear Customer Support, I am writing to report an unexpected error that occurred during the project setup. This issue might be due to insufficient permissions or a recent update. I have already attempted to log out, clear the cache, and re-run the process, but the problem persists. I would greatly appreciate it if you could investigate this matter and offer a solution as soon as possible. Please inform me if you need further details to resolve the issue You can reach me at janesmith@company.com.. Thank you for your understanding and assistance. Best regards, [Your Name] My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        632,
+        639
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        522,
+        543
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Error during Project Setup Process\n\nDear Customer Support, I am writing to report an unexpected error that occurred during the project setup. This issue might be due to insufficient permissions or a recent update. I have already attempted to log out, clear the cache, and re-run the process, but the problem persists. I would greatly appreciate it if you could investigate this matter and offer a solution as soon as possible. Please inform me if you need further details to resolve the issue You can reach me at [email].. Thank you for your understanding and assistance. Best regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

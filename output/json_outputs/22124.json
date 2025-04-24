@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de conectividad de Oracle Database 19c\n\nEstimado equipo de soporte al cliente,\n\nActualmente estamos experimentando problemas de conectividad con Oracle Database 19c. Nuestra aplicaci\u00f3n empresarial no puede establecer una conexi\u00f3n estable con el servidor My name is Elena Ivanova.. Se requiere asistencia inmediata para resolver este problema, ya que est\u00e1 impactando significativamente nuestras operaciones.\n\nGracias por su atenci\u00f3n urgente a este tema.\n\nSinceramente,\n<name> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        296
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        511,
+        533
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problema de conectividad de Oracle Database 19c\n\nEstimado equipo de soporte al cliente,\n\nActualmente estamos experimentando problemas de conectividad con Oracle Database 19c. Nuestra aplicaci\u00f3n empresarial no puede establecer una conexi\u00f3n estable con el servidor My name is [full_name].. Se requiere asistencia inmediata para resolver este problema, ya que est\u00e1 impactando significativamente nuestras operaciones.\n\nGracias por su atenci\u00f3n urgente a este tema.\n\nSinceramente,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

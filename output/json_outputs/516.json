@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit den Projekt-Daten\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte melden, dass meine Projektdaten unerwartet fehlen. Es ist m\u00f6glich, dass ein Integrationsproblem mit Redis 6.2 dahintersteckt You can reach me at carlosm@gmail.com.. Ich habe bereits versucht, Jenkins neu zu starten und die Logs der Python 3.9 zu pr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen My name is Jane Smith.. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie das Problem untersuchen und mir so bald wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte melden Sie sich bei mir, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu beheben. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        385,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        227,
+        244
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit den Projekt-Daten\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte melden, dass meine Projektdaten unerwartet fehlen. Es ist m\u00f6glich, dass ein Integrationsproblem mit Redis 6.2 dahintersteckt You can reach me at [email].. Ich habe bereits versucht, Jenkins neu zu starten und die Logs der Python 3.9 zu pr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen My name is [full_name].. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie das Problem untersuchen und mir so bald wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte melden Sie sich bei mir, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu beheben. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "category_of_the_email": "Incident"
+}

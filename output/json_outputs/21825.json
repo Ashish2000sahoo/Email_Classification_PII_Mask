@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent : Besoin imm\u00e9diat d'attention pour le souci de bourrage de papier signal\u00e9 sur le Canon PIXMA MG3620\n\nBonjour, \u00e9quipe de support, J'ai rencontr\u00e9 un probl\u00e8me de bourrage papier avec mon imprimante Canon PIXMA MG3620. Pourriez-vous me donner des conseils ? Bien \u00e0 vous, <name>. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        111,
+        115
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        225,
+        229
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        312,
+        327
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Besoin imm\u00e9diat d'attention pour le souci de bourrage de papier signal\u00e9 sur le Canon PIXMA MG[phone_number]\n\nBonjour, \u00e9quipe de support, J'ai rencontr\u00e9 un probl\u00e8me de bourrage papier avec mon imprimante Canon PIXMA MG[phone_number]. Pourriez-vous me donner des conseils ? Bien \u00e0 vous, <name>. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

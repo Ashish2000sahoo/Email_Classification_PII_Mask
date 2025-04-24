@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Implementing Project Timelines in SaaS\n\nHello Customer Support, I am contacting you to seek advice on the best practices for implementing project timelines in your SaaS platform You can reach me at janesmith@company.com.. Could you inform me about any specific features or tools that would facilitate the creation and management of these timelines? Additionally, are there tutorials or guides you could recommend to help me begin this process? I am seeking a solution that can enhance my project management and improve teamwork coordination My name is Omar Hassan.. Could you provide more details on this? Your assistance and recommendations would be greatly appreciated. Thank you for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        573,
+        584
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        219,
+        240
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Implementing Project Timelines in SaaS\n\nHello Customer Support, I am contacting you to seek advice on the best practices for implementing project timelines in your SaaS platform You can reach me at [email].. Could you inform me about any specific features or tools that would facilitate the creation and management of these timelines? Additionally, are there tutorials or guides you could recommend to help me begin this process? I am seeking a solution that can enhance my project management and improve teamwork coordination My name is [full_name].. Could you provide more details on this? Your assistance and recommendations would be greatly appreciated. Thank you for your attention and support.",
+  "category_of_the_email": "Request"
+}

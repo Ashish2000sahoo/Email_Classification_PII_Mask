@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for IT User Support\n\nAn unauthorized access attempt to the hospital's IT systems has been detected, which might potentially compromise the integrity of medical data. Despite updating applications and reviewing network security protocols, the error persists.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        297,
+        313
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for IT User Support\n\nAn unauthorized access attempt to the hospital's IT systems has been detected, which might potentially compromise the integrity of medical data. Despite updating applications and reviewing network security protocols, the error persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

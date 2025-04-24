@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Autorisierter Zugriff versucht auf medizinische Akten\n\nEs wird vermutet, dass ein unautorisierter Zugriff auf medizinische Akten versucht wurde, aufgrund schwacher Sicherheitsprotokolle ben\u00f6tigen wir Unterst\u00fctzung.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        261
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Autorisierter Zugriff versucht auf medizinische Akten\n\nEs wird vermutet, dass ein unautorisierter Zugriff auf medizinische Akten versucht wurde, aufgrund schwacher Sicherheitsprotokolle ben\u00f6tigen wir Unterst\u00fctzung.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

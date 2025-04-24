@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Elasticsearch Integration\n\nDear customer support, we are seeking guidance on integrating Elasticsearch 7.13 into our data analytics platform for investment optimization. We aim to leverage Elasticsearch's capabilities to enhance data search and aggregation My name is Fatima Al-Farsi.. We are unsure about the best approach and would greatly appreciate any documentation, tutorials, or examples of successful integrations. Your assistance in this matter would be greatly appreciated You can reach me at elena.ivanova@support.org.. We look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        307
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        535,
+        560
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Elasticsearch Integration\n\nDear customer support, we are seeking guidance on integrating Elasticsearch 7.13 into our data analytics platform for investment optimization. We aim to leverage Elasticsearch's capabilities to enhance data search and aggregation My name is [full_name]-Farsi.. We are unsure about the best approach and would greatly appreciate any documentation, tutorials, or examples of successful integrations. Your assistance in this matter would be greatly appreciated You can reach me at [email].. We look forward to hearing from you soon.",
+  "category_of_the_email": "Request"
+}

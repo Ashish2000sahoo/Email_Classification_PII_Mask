@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Underperforming Marketing Campaigns\n\nDespite using digital strategies, our marketing campaigns are not performing well You can reach me at johndoe@email.com.. There might be a misalignment between the product messaging and the target audience's preferences causing this issue My name is Elena Ivanova.. We have analyzed the data, adjusted our ad spending, and conducted A/B testing, but have not seen any improvements.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        163,
+        180
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Underperforming Marketing Campaigns\n\nDespite using digital strategies, our marketing campaigns are not performing well You can reach me at [email].. There might be a misalignment between the product messaging and the target audience's preferences causing this issue My name is [full_name].. We have analyzed the data, adjusted our ad spending, and conducted A/B testing, but have not seen any improvements.",
+  "category_of_the_email": "Problem"
+}

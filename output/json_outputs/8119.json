@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit der Rechnungsstellung\n\nEs gibt Rechnungsfehler auf unserer SaaS-Plattform, die mehrere Benutzer betreffen My name is David Kim.. Benutzer melden \u00dcberbuchungen und Neuauslastungen. Die Ursache k\u00f6nnte im recenten Systemupdate liegen You can reach me at janesmith@company.com.. Nach Durchsuchen der Benutzerkonto-Kundendienstprotokolle wurde eine L\u00f6sung gefunden, aber wir sind besorgt, dass dies verschiedene Benutzergruppen beeintr\u00e4chtigen k\u00f6nnte und die Kundenzufriedenheit beeintr\u00e4chtigen k\u00f6nnte. Bitte kontaktieren Sie uns telefonisch unter <tel_num> zur L\u00f6sung der Angelegenheit und vermeiden Sie weitere Fehler, um eine glattere Benutzererfahrung zu gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        274,
+        295
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der Rechnungsstellung\n\nEs gibt Rechnungsfehler auf unserer SaaS-Plattform, die mehrere Benutzer betreffen My name is [full_name].. Benutzer melden \u00dcberbuchungen und Neuauslastungen. Die Ursache k\u00f6nnte im recenten Systemupdate liegen You can reach me at [email].. Nach Durchsuchen der Benutzerkonto-Kundendienstprotokolle wurde eine L\u00f6sung gefunden, aber wir sind besorgt, dass dies verschiedene Benutzergruppen beeintr\u00e4chtigen k\u00f6nnte und die Kundenzufriedenheit beeintr\u00e4chtigen k\u00f6nnte. Bitte kontaktieren Sie uns telefonisch unter <tel_num> zur L\u00f6sung der Angelegenheit und vermeiden Sie weitere Fehler, um eine glattere Benutzererfahrung zu gew\u00e4hrleisten.",
+  "category_of_the_email": "Incident"
+}

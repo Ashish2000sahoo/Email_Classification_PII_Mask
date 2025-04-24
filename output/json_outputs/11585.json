@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung an den Kundendienst\n\nDie Datenanalyse-Sicht ist pl\u00f6tzlich gestoppt You can reach me at maria.gonzalez@shop.es.. Ich habe das System neustartet und die Firewall-Einstellungen \u00fcberpr\u00fcft, aber das Problem besteht sogar nach diesem Vorgehen. Ich denke, dass es sich um ein potenzielles Softwarekompabilit\u00e4tsproblem handelt. Bitte helfen Sie mir, dieses Problem so schnell wie m\u00f6glich zu beheben. Ich ben\u00f6tige diese Ansicht f\u00fcr meine Arbeit, und sie muss funktionieren. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        495,
+        508
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        106,
+        128
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Forderung an den Kundendienst\n\nDie Datenanalyse-Sicht ist pl\u00f6tzlich gestoppt You can reach me at [email].. Ich habe das System neustartet und die Firewall-Einstellungen \u00fcberpr\u00fcft, aber das Problem besteht sogar nach diesem Vorgehen. Ich denke, dass es sich um ein potenzielles Softwarekompabilit\u00e4tsproblem handelt. Bitte helfen Sie mir, dieses Problem so schnell wie m\u00f6glich zu beheben. Ich ben\u00f6tige diese Ansicht f\u00fcr meine Arbeit, und sie muss funktionieren. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: unexpected delay in investment analysis\n\nI am encountering a delay in receiving my investment insights. It might be a result of issues with the data feed. I have already attempted to restart the analytics engine and verify the data sources, but the problem still exists You can reach me at carlosm@gmail.com.. Your prompt resolution would be greatly appreciated. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        383,
+        392
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        299,
+        316
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: unexpected delay in investment analysis\n\nI am encountering a delay in receiving my investment insights. It might be a result of issues with the data feed. I have already attempted to restart the analytics engine and verify the data sources, but the problem still exists You can reach me at [email].. Your prompt resolution would be greatly appreciated. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

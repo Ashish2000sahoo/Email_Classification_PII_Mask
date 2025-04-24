@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Regarding Data Access\n\nRecently hired employees are facing difficulties with accessing data You can reach me at maria.gonzalez@shop.es.. It appears that the user profile setup could be the reason My name is Carlos Mendoza.. We have already checked the user credentials and permissions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        129,
+        151
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem Regarding Data Access\n\nRecently hired employees are facing difficulties with accessing data You can reach me at [email].. It appears that the user profile setup could be the reason My name is [full_name].. We have already checked the user credentials and permissions.",
+  "category_of_the_email": "Incident"
+}

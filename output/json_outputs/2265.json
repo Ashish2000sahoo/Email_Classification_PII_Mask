@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung von medizinischen Daten missgl\u00fcckt w\u00e4hrend des \u00dcbernachtens\n\nDie Verschl\u00fcsselung von medizinischen Daten w\u00e4hrend des \u00dcbernachtens ist wegen fehlerhafter Einstellungen des Kubernetes-Clusters misslungen. Ich habe den NAS-System neu gestartet und die Norton 360-Protokolle \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestanden.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        369,
+        385
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    },
+    {
+      "position": [
+        281,
+        284
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung von medizinischen Daten missgl\u00fcckt w\u00e4hrend des \u00dcbernachtens\n\nDie Verschl\u00fcsselung von medizinischen Daten w\u00e4hrend des \u00dcbernachtens ist wegen fehlerhafter Einstellungen des Kubernetes-Clusters misslungen. Ich habe den NAS-System neu gestartet und die Norton [cvv_no]-Protokolle \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestanden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

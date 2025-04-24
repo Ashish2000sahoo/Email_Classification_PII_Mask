@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Security Breach\n\nA data security breach happened, possibly exposing medical information. We have reviewed system logs and strengthened access controls.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        203
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data Security Breach\n\nA data security breach happened, possibly exposing medical information. We have reviewed system logs and strengthened access controls.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

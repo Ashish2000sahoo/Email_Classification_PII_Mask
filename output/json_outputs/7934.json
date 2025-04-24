@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry on Digital Strategies for Marketing Agencies\n\nHello Customer Support, I hope this message finds you well. I am writing to gain insights into the digital strategies that marketing agencies use to enhance brand growth. The digital sphere is crucial for marketing agencies to establish a robust online footprint, which is vital for attracting and maintaining clients. Effective digital strategies, such as SEO, PPC, social media marketing, and content marketing, can significantly boost visibility, generate more leads, and contribute to brand expansion. I would greatly value your expertise and guidance on these strategies My name is John Doe.. Furthermore, I am keen to learn about the current trends and best practices in digital marketing for marketing agencies. Thank you for your attention and support. I am eagerly awaiting your response You can reach me at carlosm@gmail.com.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        650,
+        658
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        883,
+        900
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on Digital Strategies for Marketing Agencies\n\nHello Customer Support, I hope this message finds you well. I am writing to gain insights into the digital strategies that marketing agencies use to enhance brand growth. The digital sphere is crucial for marketing agencies to establish a robust online footprint, which is vital for attracting and maintaining clients. Effective digital strategies, such as SEO, PPC, social media marketing, and content marketing, can significantly boost visibility, generate more leads, and contribute to brand expansion. I would greatly value your expertise and guidance on these strategies My name is [full_name].. Furthermore, I am keen to learn about the current trends and best practices in digital marketing for marketing agencies. Thank you for your attention and support. I am eagerly awaiting your response You can reach me at [email].. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

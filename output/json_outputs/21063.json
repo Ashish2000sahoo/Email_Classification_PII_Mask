@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent: Dell XPS 13 Overheating Issue\n\nDear Customer Support,\n\nI am writing to report a significant issue with my Dell XPS 13 9310 laptop You can reach me at sophia.rossi@service.it.. It is overheating extensively, leading to serious performance downgrades during use My name is Liu Wei.. Please advise on possible solutions or the next steps for addressing this problem.\n\nThank you,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        288,
+        295
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        167,
+        190
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        132,
+        139
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Dell XPS 13 Overheating Issue\n\nDear Customer Support,\n\nI am writing to report a significant issue with my Dell XPS [phone_number] laptop You can reach me at [email].. It is overheating extensively, leading to serious performance downgrades during use My name is [full_name].. Please advise on possible solutions or the next steps for addressing this problem.\n\nThank you,\n<name>",
+  "category_of_the_email": "Incident"
+}

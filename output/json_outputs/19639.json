@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Access to Project Control Panel\n\nDear Customer Service, I have noticed disruptive delays while accessing the Project Control Panel. These delays seem to be due to recent increases in server load You can reach me at janesmith@company.com.. Clearing the cache and restarting the applications did not resolve the issue My name is Sophia Rossi.. The delays are intermittent but are impacting my productivity. Could you please provide a quick solution to this problem? I would greatly appreciate your assistance in resolving the issue. Thank you for your help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        359
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        235,
+        256
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Access to Project Control Panel\n\nDear Customer Service, I have noticed disruptive delays while accessing the Project Control Panel. These delays seem to be due to recent increases in server load You can reach me at [email].. Clearing the cache and restarting the applications did not resolve the issue My name is [full_name].. The delays are intermittent but are impacting my productivity. Could you please provide a quick solution to this problem? I would greatly appreciate your assistance in resolving the issue. Thank you for your help.",
+  "category_of_the_email": "Incident"
+}

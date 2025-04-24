@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI have a query regarding the integration of CorelDRAW project management into a SaaS solution You can reach me at fatima.farsi@help.com.. Could you provide some information on this topic? I would greatly appreciate any guidance or resources you can offer to help me get started My name is David Kim.. Thank you for your assistance, and I look forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        125,
+        146
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nI have a query regarding the integration of CorelDRAW project management into a SaaS solution You can reach me at [email].. Could you provide some information on this topic? I would greatly appreciate any guidance or resources you can offer to help me get started My name is [full_name].. Thank you for your assistance, and I look forward to hearing back from you soon.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support with Slow Performance\n\nUsers are facing slow loading times on the project management dashboard. This might be due to increased server load during peak hours. After clearing the cache and optimizing queries, the issue still persists My name is Jane Smith.. Assistance is needed to resolve this. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        332,
+        353
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support with Slow Performance\n\nUsers are facing slow loading times on the project management dashboard. This might be due to increased server load during peak hours. After clearing the cache and optimizing queries, the issue still persists My name is [full_name].. Assistance is needed to resolve this. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

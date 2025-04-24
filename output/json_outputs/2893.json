@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Details on Data Security Measures\n\nCould you provide details on the data security measures for medical records services? This information is crucial for ensuring compliance with regulatory requirements. I would greatly appreciate a prompt response to this matter.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        310
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Details on Data Security Measures\n\nCould you provide details on the data security measures for medical records services? This information is crucial for ensuring compliance with regulatory requirements. I would greatly appreciate a prompt response to this matter.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

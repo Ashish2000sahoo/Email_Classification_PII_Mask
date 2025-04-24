@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Meldung zu Technischen Schwierigkeiten\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um ein Problem mit unserem System zu melden. Die Verz\u00f6gerungen in den Daten f\u00fchren dazu, dass die Anlageanalyse beeintr\u00e4chtigt wird You can reach me at carlosm@gmail.com.. M\u00f6gliche Ursachen f\u00fcr das Problem k\u00f6nnten Netzwerkprobleme oder Server\u00fcberlastungen sein. Das Team hat versucht, den Server neu zu starten und den Cache zu leeren, leider besteht das Problem nach wie vor. Ich freue mich, wenn Sie das Problem baldigenfalls befassen und eine L\u00f6sung anbieten k\u00f6nnen. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        676,
+        683
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        249,
+        266
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Meldung zu Technischen Schwierigkeiten\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um ein Problem mit unserem System zu melden. Die Verz\u00f6gerungen in den Daten f\u00fchren dazu, dass die Anlageanalyse beeintr\u00e4chtigt wird You can reach me at [email].. M\u00f6gliche Ursachen f\u00fcr das Problem k\u00f6nnten Netzwerkprobleme oder Server\u00fcberlastungen sein. Das Team hat versucht, den Server neu zu starten und den Cache zu leeren, leider besteht das Problem nach wie vor. Ich freue mich, wenn Sie das Problem baldigenfalls befassen und eine L\u00f6sung anbieten k\u00f6nnen. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

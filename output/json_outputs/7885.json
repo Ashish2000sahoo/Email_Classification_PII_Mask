@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern Regarding Project Management Subscription\n\nExperience double charging, which might be due to a system error during the renewal process.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        191
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Project Management Subscription\n\nExperience double charging, which might be due to a system error during the renewal process.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

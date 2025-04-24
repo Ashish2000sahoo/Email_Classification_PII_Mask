@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data in MongoDB\n\nDear Support, I am reaching out to inquire about securing medical data in MongoDB 4.4, especially in conjunction with Apache Hadoop My name is Fatima Al-Farsi.. Given the sensitivity of medical data, it is crucial to implement strong security measures to prevent unauthorized access You can reach me at carlosm@gmail.com.. Could you provide information on the security features available in MongoDB 4.4 that can be integrated with Apache Hadoop to ensure the confidentiality, integrity, and availability of the data? Specifically, I am interested in learning about the encryption methods, access control mechanisms, and auditing capabilities.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        362,
+        379
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data in MongoDB\n\nDear Support, I am reaching out to inquire about securing medical data in MongoDB 4.4, especially in conjunction with Apache Hadoop My name is [full_name]-Farsi.. Given the sensitivity of medical data, it is crucial to implement strong security measures to prevent unauthorized access You can reach me at [email].. Could you provide information on the security features available in MongoDB 4.4 that can be integrated with Apache Hadoop to ensure the confidentiality, integrity, and availability of the data? Specifically, I am interested in learning about the encryption methods, access control mechanisms, and auditing capabilities.",
+  "category_of_the_email": "Request"
+}

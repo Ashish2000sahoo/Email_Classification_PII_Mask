@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Unauthorized Database Access\n\nRespected Customer Support, I am contacting you to outline an incident where medical records were accessed without authorization. Our team has conducted a thorough scan using ESET, updated our Git repository, and installed Kaspersky antivirus software in response to this vulnerability in our MongoDB database My name is Omar Hassan.. Despite these actions, we need further assistance to guarantee the security of our database. Could you offer advice on securing our MongoDB and preventing such unauthorized access in the future? We are grateful for your swift response to this matter and eagerly await your feedback. Thanks for your support. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        726,
+        747
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Unauthorized Database Access\n\nRespected Customer Support, I am contacting you to outline an incident where medical records were accessed without authorization. Our team has conducted a thorough scan using ESET, updated our Git repository, and installed Kaspersky antivirus software in response to this vulnerability in our MongoDB database My name is [full_name].. Despite these actions, we need further assistance to guarantee the security of our database. Could you offer advice on securing our MongoDB and preventing such unauthorized access in the future? We are grateful for your swift response to this matter and eagerly await your feedback. Thanks for your support. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

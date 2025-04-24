@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundensupport, ich bitte um Informationen zur Optimierung meiner Investitionen mithilfe von Apache Hadoop f\u00fcr Datenanalyse. K\u00f6nnten Sie mir zus\u00e4tzliche Details zu diesem Thema liefern? Ich freue mich darauf, Informationen zu teilen, die ich zur Verf\u00fcgung stellen kann, und hoffe auf Ihre Unterst\u00fctzung My name is Jane Smith.. Ich freue mich darauf, bald eine R\u00fcckmeldung zu erhalten. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        429,
+        452
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundensupport, ich bitte um Informationen zur Optimierung meiner Investitionen mithilfe von Apache Hadoop f\u00fcr Datenanalyse. K\u00f6nnten Sie mir zus\u00e4tzliche Details zu diesem Thema liefern? Ich freue mich darauf, Informationen zu teilen, die ich zur Verf\u00fcgung stellen kann, und hoffe auf Ihre Unterst\u00fctzung My name is [full_name].. Ich freue mich darauf, bald eine R\u00fcckmeldung zu erhalten. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

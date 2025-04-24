@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Account Access\n\nCurrently using the account for bills and payments. A system error may have caused a missed payment My name is Omar Hassan.. Already attempted to reset the password and cleared the browser cache, but the issue persists You can reach me at elena.ivanova@support.org.. Looking forward to your prompt assistance in resolving this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        161
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        278,
+        303
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problems with Account Access\n\nCurrently using the account for bills and payments. A system error may have caused a missed payment My name is [full_name].. Already attempted to reset the password and cleared the browser cache, but the issue persists You can reach me at [email].. Looking forward to your prompt assistance in resolving this problem.",
+  "category_of_the_email": "Incident"
+}

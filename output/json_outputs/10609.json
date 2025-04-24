@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Informieren \u00fcber die Integration von Zapier in eine Cloud-basierte Projektmanagement-L\u00f6sung\n\nHallo [Name], wir danken Ihnen f\u00fcr Ihr Interesse an der Integration von Zapier in unsere Cloud-basierte Projektmanagement-L\u00f6sung My name is Maria Gonzalez.. Um Ihnen die Verwendung der Funktionen zu erleichtern, bitten wir Sie, die Website zu besuchen, wo Sie Schritt-f\u00fcr-Schritt-Anleitungen f\u00fcr die Einrichtung der Integration finden k\u00f6nnen. Unsere L\u00f6sung bietet eine Vielzahl von Ausl\u00f6sern und Aktionen, um Ihren Arbeitsabl\u00e4ufen optimal zu entsprechen. Wir stellen auch detaillierte Informationen \u00fcber unsere Dokumentation und Tutorials zur Verf\u00fcgung. Wenn Sie m\u00f6chten, k\u00f6nnen Sie sich gerne an uns wenden, um eine Verbindung aufzunehmen oder Ihre Fragen zu kl\u00e4ren You can reach me at elena.ivanova@support.org.. Bitte geben Sie uns Bescheid, wann es Ihnen passt, um diese Diskussion fortzusetzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        256
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        786,
+        811
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Informieren \u00fcber die Integration von Zapier in eine Cloud-basierte Projektmanagement-L\u00f6sung\n\nHallo [Name], wir danken Ihnen f\u00fcr Ihr Interesse an der Integration von Zapier in unsere Cloud-basierte Projektmanagement-L\u00f6sung My name is [full_name].. Um Ihnen die Verwendung der Funktionen zu erleichtern, bitten wir Sie, die Website zu besuchen, wo Sie Schritt-f\u00fcr-Schritt-Anleitungen f\u00fcr die Einrichtung der Integration finden k\u00f6nnen. Unsere L\u00f6sung bietet eine Vielzahl von Ausl\u00f6sern und Aktionen, um Ihren Arbeitsabl\u00e4ufen optimal zu entsprechen. Wir stellen auch detaillierte Informationen \u00fcber unsere Dokumentation und Tutorials zur Verf\u00fcgung. Wenn Sie m\u00f6chten, k\u00f6nnen Sie sich gerne an uns wenden, um eine Verbindung aufzunehmen oder Ihre Fragen zu kl\u00e4ren You can reach me at [email].. Bitte geben Sie uns Bescheid, wann es Ihnen passt, um diese Diskussion fortzusetzen.",
+  "category_of_the_email": "Request"
+}

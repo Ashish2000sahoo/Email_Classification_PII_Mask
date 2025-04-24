@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Growth in Digital Marketing\n\nDear Customer Support, I am reaching out to learn more about digital marketing strategies. Specifically, I would like to understand how to implement a digital marketing growth strategy to apply our products more effectively My name is Elena Ivanova.. Could you provide more details on the approaches we can use to enhance brand awareness and boost sales? Additionally, I am interested in learning about social media marketing strategies, content creation, and advertising efforts. I would also appreciate guidance on how to measure the success of these strategies using key metrics such as website traffic, social media engagement, and conversion rates. Thank you for your time and assistance. I look forward to your response. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        286
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        783,
+        805
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Growth in Digital Marketing\n\nDear Customer Support, I am reaching out to learn more about digital marketing strategies. Specifically, I would like to understand how to implement a digital marketing growth strategy to apply our products more effectively My name is [full_name].. Could you provide more details on the approaches we can use to enhance brand awareness and boost sales? Additionally, I am interested in learning about social media marketing strategies, content creation, and advertising efforts. I would also appreciate guidance on how to measure the success of these strategies using key metrics such as website traffic, social media engagement, and conversion rates. Thank you for your time and assistance. I look forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

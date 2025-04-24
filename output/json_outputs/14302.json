@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung der Investmentstrategie durch Datenanalyse\n\nSehr geehrte Kundenservice, ich hoffe, es geht Ihnen gut. Ich schreibe Ihnen, um nachzufragen, welche Investitions-Optimierungsmethoden Ihr Unternehmen mit Hilfe von Datenanalyse anbietet, insbesondere ob Sie Machine Learning- oder KI-basierte Ans\u00e4tze verwenden My name is David Kim.. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen zu den aufgebotenen Methoden und deren Vorteilen f\u00fcr meine Investitionen geben? Dar\u00fcber hinaus w\u00fcrde ich gern erfahren, ob Sie mir relevante Fallstudien oder Beispiele erfolgreicher Implementierungen zur Verf\u00fcgung stellen k\u00f6nnten. Ich freue mich darauf, von Ihnen zu h\u00f6ren und mehr \u00fcber Ihre Dienstleistungen zu erfahren. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Hilfe. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        790,
+        807
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierung der Investmentstrategie durch Datenanalyse\n\nSehr geehrte Kundenservice, ich hoffe, es geht Ihnen gut. Ich schreibe Ihnen, um nachzufragen, welche Investitions-Optimierungsmethoden Ihr Unternehmen mit Hilfe von Datenanalyse anbietet, insbesondere ob Sie Machine Learning- oder KI-basierte Ans\u00e4tze verwenden My name is [full_name].. K\u00f6nnten Sie mir bitte zus\u00e4tzliche Informationen zu den aufgebotenen Methoden und deren Vorteilen f\u00fcr meine Investitionen geben? Dar\u00fcber hinaus w\u00fcrde ich gern erfahren, ob Sie mir relevante Fallstudien oder Beispiele erfolgreicher Implementierungen zur Verf\u00fcgung stellen k\u00f6nnten. Ich freue mich darauf, von Ihnen zu h\u00f6ren und mehr \u00fcber Ihre Dienstleistungen zu erfahren. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Hilfe. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

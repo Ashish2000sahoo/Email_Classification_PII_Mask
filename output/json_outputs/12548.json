@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Projektsynchronisierung misslingt am heutigen Tag\n\nDie Projekt synchronisierung hat heute versagt, was zu einer Datenverlust durch das Update gef\u00fchrt hat.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        202
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Projektsynchronisierung misslingt am heutigen Tag\n\nDie Projekt synchronisierung hat heute versagt, was zu einer Datenverlust durch das Update gef\u00fchrt hat.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

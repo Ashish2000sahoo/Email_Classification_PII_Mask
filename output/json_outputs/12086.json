@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Projections Support Urgently Required\n\nObservation: The investment projections do not align with the actual outcomes You can reach me at sophia.rossi@service.it.. Suspected cause: The market data might be outdated. Actions taken: Confirmed data origins, examined algorithmic predictions. Seeking help to resolve this inconsistency. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        363,
+        375
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        157,
+        180
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Investment Projections Support Urgently Required\n\nObservation: The investment projections do not align with the actual outcomes You can reach me at [email].. Suspected cause: The market data might be outdated. Actions taken: Confirmed data origins, examined algorithmic predictions. Seeking help to resolve this inconsistency. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

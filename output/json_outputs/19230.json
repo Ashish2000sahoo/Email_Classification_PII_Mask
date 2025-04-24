@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues Encountered with Unforeseen Payment Failures Today\n\nDear Customer Support, <br><br>I am inquiring about an issue I encountered today with several subscription payments that did not go through as expected You can reach me at elena.ivanova@support.org.. It is possible that a technical glitch with the QuickBooks Online integration caused this problem. I have already checked my account settings and payment details, but the issue continues. <br><br>Please look into this matter and provide a resolution at your earliest convenience. If you require any further information from me to address this, please inform me My name is Maria Gonzalez.. <br><br>I appreciate your assistance and look forward to your response. Thank you for your time and effort. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        640,
+        654
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        240,
+        265
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issues Encountered with Unforeseen Payment Failures Today\n\nDear Customer Support, <br><br>I am inquiring about an issue I encountered today with several subscription payments that did not go through as expected You can reach me at [email].. It is possible that a technical glitch with the QuickBooks Online integration caused this problem. I have already checked my account settings and payment details, but the issue continues. <br><br>Please look into this matter and provide a resolution at your earliest convenience. If you require any further information from me to address this, please inform me My name is [full_name].. <br><br>I appreciate your assistance and look forward to your response. Thank you for your time and effort. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

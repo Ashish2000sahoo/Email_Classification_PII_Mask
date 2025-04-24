@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unerlaubter Zugriff auf medizinische Daten\n\nErlebt unerlaubte Zugriffsversuche auf medizinische Daten. Sicherheitsprotokolle werden verst\u00e4rkt und \u00fcberwacht.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        204
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Unerlaubter Zugriff auf medizinische Daten\n\nErlebt unerlaubte Zugriffsversuche auf medizinische Daten. Sicherheitsprotokolle werden verst\u00e4rkt und \u00fcberwacht.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

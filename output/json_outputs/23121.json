@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ayuda Urgente Necesaria: Problemas de Sincronizaci\u00f3n\n\nEstimado Equipo de Soporte al Cliente,\n\nConf\u00edo en que este mensaje los encuentre en buen \u00e1nimo. Estoy escribiendo para abordar problemas de sincronizaci\u00f3n que est\u00e1n afectando tanto mis correos electr\u00f3nicos como mi calendario dentro de mi cuenta de Google Workspace Business Standard (<acc_num>). Este dilema est\u00e1 obstaculizando significativamente mi productividad, y requiero urgentemente su asistencia t\u00e9cnica para resolverlo. Parece que la sincronizaci\u00f3n es lenta en ocasiones, lo que resulta en retrasos, y en ciertos momentos, no sincroniza eventos o correos electr\u00f3nicos en particular.\n\nPor favor, recomienden un plan de acci\u00f3n r\u00e1pido para rectificar estas interrupciones You can reach me at liuwei@business.cn.. Pueden contactarme al <tel_num>.\n\nAprecio su atenci\u00f3n inmediata a este asunto.\n\nMis mejores deseos,\n\n<name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        900,
+        912
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        760,
+        778
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Ayuda Urgente Necesaria: Problemas de Sincronizaci\u00f3n\n\nEstimado Equipo de Soporte al Cliente,\n\nConf\u00edo en que este mensaje los encuentre en buen \u00e1nimo. Estoy escribiendo para abordar problemas de sincronizaci\u00f3n que est\u00e1n afectando tanto mis correos electr\u00f3nicos como mi calendario dentro de mi cuenta de Google Workspace Business Standard (<acc_num>). Este dilema est\u00e1 obstaculizando significativamente mi productividad, y requiero urgentemente su asistencia t\u00e9cnica para resolverlo. Parece que la sincronizaci\u00f3n es lenta en ocasiones, lo que resulta en retrasos, y en ciertos momentos, no sincroniza eventos o correos electr\u00f3nicos en particular.\n\nPor favor, recomienden un plan de acci\u00f3n r\u00e1pido para rectificar estas interrupciones You can reach me at [email].. Pueden contactarme al <tel_num>.\n\nAprecio su atenci\u00f3n inmediata a este asunto.\n\nMis mejores deseos,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

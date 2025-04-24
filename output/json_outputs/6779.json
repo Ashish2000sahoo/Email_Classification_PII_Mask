@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung der Benutzerrechte-Einstellungen\n\nIch schreibe, um die Erh\u00f6hung der Benutzerrechte-Einstellungen f\u00fcr die Projektmanagement-Software-as-a-Service (SaaS) vorzuschlagen. Diese \u00c4nderungen k\u00f6nnten die Sicherheit der Projektkollaboration erheblich verbessern, indem spezifische Rollen den Benutzern zugewiesen werden, was das Risiko eines unautorisierten Zugriffs reduziert. Die \u00dcberwachungsfunktion k\u00f6nnte die Erledigung von \u00c4nderungen und Updates erleichtern und die Verwaltung von Projekten einfacher machen My name is Carlos Mendoza.. Ich glaube, dass diese Erh\u00f6hung die Produktivit\u00e4t des Teams erheblich f\u00f6rdern w\u00fcrde. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        537,
+        551
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        656,
+        677
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierung der Benutzerrechte-Einstellungen\n\nIch schreibe, um die Erh\u00f6hung der Benutzerrechte-Einstellungen f\u00fcr die Projektmanagement-Software-as-a-Service (SaaS) vorzuschlagen. Diese \u00c4nderungen k\u00f6nnten die Sicherheit der Projektkollaboration erheblich verbessern, indem spezifische Rollen den Benutzern zugewiesen werden, was das Risiko eines unautorisierten Zugriffs reduziert. Die \u00dcberwachungsfunktion k\u00f6nnte die Erledigung von \u00c4nderungen und Updates erleichtern und die Verwaltung von Projekten einfacher machen My name is [full_name].. Ich glaube, dass diese Erh\u00f6hung die Produktivit\u00e4t des Teams erheblich f\u00f6rdern w\u00fcrde. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

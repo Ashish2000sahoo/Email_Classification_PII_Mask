@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of Service Disruption\n\nSignificant service disruption affecting multiple products, including Magento and QuickBooks My name is Omar Hassan.. Network issues may be linked to recent system updates You can reach me at omar.hassan@secure.net.. Services have been restarted and network status is being monitored, but the issue persists. The team is urgently working to resolve the problem and prevent future occurrences. We apologize for any inconvenience caused and appreciate your understanding as we work to restore full functionality.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        160
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        237,
+        259
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Notification of Service Disruption\n\nSignificant service disruption affecting multiple products, including Magento and QuickBooks My name is [full_name].. Network issues may be linked to recent system updates You can reach me at [email].. Services have been restarted and network status is being monitored, but the issue persists. The team is urgently working to resolve the problem and prevent future occurrences. We apologize for any inconvenience caused and appreciate your understanding as we work to restore full functionality.",
+  "category_of_the_email": "Incident"
+}

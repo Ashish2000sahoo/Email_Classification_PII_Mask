@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Leistung der Website gemeldet\n\nDie Marketing-Agentur stellt fest, dass aufgrund der neuesten Softwareaktualisierungen die Leistung der Website beeintr\u00e4chtigt ist. Die Beteiligungsniveaus sind reduziert, was durch erh\u00f6hte Online-Belastungen zur\u00fcckgef\u00fchr werden kann You can reach me at sophia.rossi@service.it.. Durch das Analyseren von Verkehrsdaten und Anpassen der digitalen Marketingstrategien k\u00f6nnen signifikante Verbesserungen erzielt werden. Eine L\u00f6sung wird ben\u00f6tigt, um die Leistung unserer Website zu verbessern. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        559,
+        566
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        311,
+        334
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Leistung der Website gemeldet\n\nDie Marketing-Agentur stellt fest, dass aufgrund der neuesten Softwareaktualisierungen die Leistung der Website beeintr\u00e4chtigt ist. Die Beteiligungsniveaus sind reduziert, was durch erh\u00f6hte Online-Belastungen zur\u00fcckgef\u00fchr werden kann You can reach me at [email].. Durch das Analyseren von Verkehrsdaten und Anpassen der digitalen Marketingstrategien k\u00f6nnen signifikante Verbesserungen erzielt werden. Eine L\u00f6sung wird ben\u00f6tigt, um die Leistung unserer Website zu verbessern. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

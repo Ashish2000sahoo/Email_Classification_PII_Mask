@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident in der Medizindatenbank\n\nEin Datenversto\u00df mit unbefugtem Zugriff auf medizinische Akten wurde registriert You can reach me at fatima.farsi@help.com.. Es scheint, dass eine Schwachstelle im IT-Sicherheitsprotokoll dahingehend verantwortlich ist My name is Fatima Al-Farsi.. Wir haben die zuletzt verwendeten Zugriffsnachweise \u00fcberpr\u00fcft und einfache Scans durchgef\u00fchrt, dabei einen m\u00f6glichen L\u00f6sungsansatz gefunden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        282
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        144,
+        165
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Incident in der Medizindatenbank\n\nEin Datenversto\u00df mit unbefugtem Zugriff auf medizinische Akten wurde registriert You can reach me at [email].. Es scheint, dass eine Schwachstelle im IT-Sicherheitsprotokoll dahingehend verantwortlich ist My name is [full_name]-Farsi.. Wir haben die zuletzt verwendeten Zugriffsnachweise \u00fcberpr\u00fcft und einfache Scans durchgef\u00fchrt, dabei einen m\u00f6glichen L\u00f6sungsansatz gefunden.",
+  "category_of_the_email": "Incident"
+}

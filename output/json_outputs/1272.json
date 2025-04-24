@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Medical Data in Cloud Solutions\n\nInquiring about customer support for securing medical data within healthcare applications on Google Cloud Platform. Could you provide detailed information on the security practices and measures that are implemented to ensure the confidentiality, integrity, and availability of sensitive medical data? Your guidance and resources on this matter would be greatly appreciated You can reach me at omar.hassan@secure.net.. Thank you for your assistance. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        509,
+        519
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        442,
+        464
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Secure Medical Data in Cloud Solutions\n\nInquiring about customer support for securing medical data within healthcare applications on Google Cloud Platform. Could you provide detailed information on the security practices and measures that are implemented to ensure the confidentiality, integrity, and availability of sensitive medical data? Your guidance and resources on this matter would be greatly appreciated You can reach me at [email].. Thank you for your assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

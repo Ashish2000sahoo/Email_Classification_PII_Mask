@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Eclipse IDE Hat Pl\u00f6tzlich Ausgefallen\n\nEclipse IDE ist unerwartet ausgefallen und hat die Data-Analytics-Arbeitsschleife unterbrochen. Nach dem Neustart des IDE wurde die Cache-Datei geleert und die Plugins aktualisiert.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        267
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Eclipse IDE Hat Pl\u00f6tzlich Ausgefallen\n\nEclipse IDE ist unerwartet ausgefallen und hat die Data-Analytics-Arbeitsschleife unterbrochen. Nach dem Neustart des IDE wurde die Cache-Datei geleert und die Plugins aktualisiert.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

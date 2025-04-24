@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Billing System Update\n\nGreetings from Customer Support. We have noted that you are experiencing errors in the billing system, which have resulted in incorrect charges across multiple products, affecting your subscription access. The issue might be due to a problem with the recent system integration updates You can reach me at maria.gonzalez@shop.es.. Despite your efforts to resolve the issue by reviewing transaction logs and contacting customer support, the problem persists. We would be greatly appreciative if you could look into this matter and provide a solution at your earliest convenience My name is Maria Gonzalez.. Please inform us if you need any additional information from you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        631,
+        645
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        348,
+        370
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Billing System Update\n\nGreetings from Customer Support. We have noted that you are experiencing errors in the billing system, which have resulted in incorrect charges across multiple products, affecting your subscription access. The issue might be due to a problem with the recent system integration updates You can reach me at [email].. Despite your efforts to resolve the issue by reviewing transaction logs and contacting customer support, the problem persists. We would be greatly appreciative if you could look into this matter and provide a solution at your earliest convenience My name is [full_name].. Please inform us if you need any additional information from you.",
+  "category_of_the_email": "Incident"
+}

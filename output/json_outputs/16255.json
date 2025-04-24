@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Reported Concerning the Investments Optimization Tool\n\nDear Customer Support, <br/> I am contacting you to address a problem I am experiencing with the investments optimization tool. The tool is failing to load data, which could be caused by insufficient system resources or software incompatibility. <br/> I have already attempted restarting my system and ensuring all updates are installed, yet the issue continues. <br/> I would be grateful if you could look into this and offer a solution as soon as possible You can reach me at liuwei@business.cn.. <br/> Thank you for your time and assistance My name is Sophia Rossi.. <br/> Sincerely, <br/> [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        625,
+        637
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        548,
+        566
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue Reported Concerning the Investments Optimization Tool\n\nDear Customer Support, <br/> I am contacting you to address a problem I am experiencing with the investments optimization tool. The tool is failing to load data, which could be caused by insufficient system resources or software incompatibility. <br/> I have already attempted restarting my system and ensuring all updates are installed, yet the issue continues. <br/> I would be grateful if you could look into this and offer a solution as soon as possible You can reach me at [email].. <br/> Thank you for your time and assistance My name is [full_name].. <br/> Sincerely, <br/> [Your Name]",
+  "category_of_the_email": "Incident"
+}

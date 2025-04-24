@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Digital Marketing Campaign\n\nThe digital marketing campaign was not meeting expectations, resulting in a reduced visibility and engagement with the brand You can reach me at elena.ivanova@support.org.. This can be attributed to low-quality content and ineffective target audience strategies My name is Sophia Rossi.. After analyzing the metrics and adjusting the ads, we have seen some improvements, but more needs to be done to enhance the campaign's performance. We require assistance to identify the root cause and develop the correct plan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        333
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        193,
+        218
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with Digital Marketing Campaign\n\nThe digital marketing campaign was not meeting expectations, resulting in a reduced visibility and engagement with the brand You can reach me at [email].. This can be attributed to low-quality content and ineffective target audience strategies My name is [full_name].. After analyzing the metrics and adjusting the ads, we have seen some improvements, but more needs to be done to enhance the campaign's performance. We require assistance to identify the root cause and develop the correct plan.",
+  "category_of_the_email": "Incident"
+}

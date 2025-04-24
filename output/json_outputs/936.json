@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Financial Tool Functionality\n\nThe financial firm's investment optimization tool has been accurately processing data analytics My name is Jane Smith.. However, a potential issue might have arisen due to a recent software update or configuration problem. Steps taken include restarting affected applications and verifying network connectivity via the VPN-router, but the problem still persists. We would greatly appreciate your assistance in resolving this issue as soon as possible to minimize any potential losses. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        156
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        545,
+        567
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Financial Tool Functionality\n\nThe financial firm's investment optimization tool has been accurately processing data analytics My name is [full_name].. However, a potential issue might have arisen due to a recent software update or configuration problem. Steps taken include restarting affected applications and verifying network connectivity via the VPN-router, but the problem still persists. We would greatly appreciate your assistance in resolving this issue as soon as possible to minimize any potential losses. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

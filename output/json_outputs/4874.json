@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Payment Options for Magento Integration\n\nDear Customer Support, I am contacting you to ask about the payment methods that can be used to integrate Magento with your SaaS platform. I would like to gather information on the different payment gateways and methods that can be utilized to conduct transactions between the two systems. Particularly, I am curious if you offer support for well-known payment gateways such as PayPal, Stripe, and Authorize.net My name is John Doe.. Furthermore, I would also appreciate details about any associated fees and whether there are any reductions for larger transaction volumes. I am looking forward to your response and would like to learn more about the payment options for Magento integration with your SaaS platform You can reach me at david.kim@corp.kr.. Thank you for your help. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        473,
+        481
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        788,
+        805
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Payment Options for Magento Integration\n\nDear Customer Support, I am contacting you to ask about the payment methods that can be used to integrate Magento with your SaaS platform. I would like to gather information on the different payment gateways and methods that can be utilized to conduct transactions between the two systems. Particularly, I am curious if you offer support for well-known payment gateways such as PayPal, Stripe, and Authorize.net My name is [full_name].. Furthermore, I would also appreciate details about any associated fees and whether there are any reductions for larger transaction volumes. I am looking forward to your response and would like to learn more about the payment options for Magento integration with your SaaS platform You can reach me at [email].. Thank you for your help. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment-Dashboards-Fehler\n\nDas Investment-Analysedashboard st\u00fcrzt w\u00e4hrend der Datenvisualisierung aufgrund von knappem Speicherplatz in der Cassandra 4.0-Datenbank ab My name is John Doe.. Ich habe den Server neu gestartet und die SQL-Verbindungen \u00fcberpr\u00fcft, jedoch beh\u00e4lt sich das Problem best\u00e4ndig bei. Ich ben\u00f6tige Unterst\u00fctzung, um dieses Problem zu beheben und sicherzustellen, dass das Dashboard korrekt funktioniert. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        190,
+        198
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        459,
+        476
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Investment-Dashboards-Fehler\n\nDas Investment-Analysedashboard st\u00fcrzt w\u00e4hrend der Datenvisualisierung aufgrund von knappem Speicherplatz in der Cassandra 4.0-Datenbank ab My name is [full_name].. Ich habe den Server neu gestartet und die SQL-Verbindungen \u00fcberpr\u00fcft, jedoch beh\u00e4lt sich das Problem best\u00e4ndig bei. Ich ben\u00f6tige Unterst\u00fctzung, um dieses Problem zu beheben und sicherzustellen, dass das Dashboard korrekt funktioniert. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

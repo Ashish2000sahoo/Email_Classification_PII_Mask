@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Application Support Inquiry\n\nFacing recurring performance issues with the application, which is significantly impacting user experience and productivity My name is Jane Smith.. The problem might have arisen from recent code modifications or the increased user load. Efforts to optimize database queries and scale server resources have not resolved the issue. The team has tried multiple troubleshooting steps and requires assistance to resolve it. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        173,
+        183
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        478,
+        495
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Application Support Inquiry\n\nFacing recurring performance issues with the application, which is significantly impacting user experience and productivity My name is [full_name].. The problem might have arisen from recent code modifications or the increased user load. Efforts to optimize database queries and scale server resources have not resolved the issue. The team has tried multiple troubleshooting steps and requires assistance to resolve it. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

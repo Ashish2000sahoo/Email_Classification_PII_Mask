@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns about Digital Campaign Launch\n\nHello Customer Support, I am contacting you to address an issue we are facing with our digital campaigns. We have recently encountered challenges in initiating these campaigns, and we suspect it might be due to software compatibility problems My name is Liu Wei.. Despite restarting our servers and reviewing our settings, the issue has not been resolved. We would be very grateful if you could look into this and provide us with a solution as quickly as possible. If you require any additional information from us to address this issue, please let us know. We are eager to hear from you soon. Thank you for your time and help You can reach me at carlosm@gmail.com.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        700,
+        717
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns about Digital Campaign Launch\n\nHello Customer Support, I am contacting you to address an issue we are facing with our digital campaigns. We have recently encountered challenges in initiating these campaigns, and we suspect it might be due to software compatibility problems My name is [full_name].. Despite restarting our servers and reviewing our settings, the issue has not been resolved. We would be very grateful if you could look into this and provide us with a solution as quickly as possible. If you require any additional information from us to address this issue, please let us know. We are eager to hear from you soon. Thank you for your time and help You can reach me at [email].. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

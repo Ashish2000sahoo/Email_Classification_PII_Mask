@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Issue\n\nYou have contacted us for support regarding service outages across various products, including software and hardware integrations My name is Liu Wei.. These outages disrupt project management functions and cause significant disruptions. We would appreciate it if you could address this matter urgently and provide a prompt solution to minimize further disruptions. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        172
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        413,
+        435
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Issue\n\nYou have contacted us for support regarding service outages across various products, including software and hardware integrations My name is [full_name].. These outages disrupt project management functions and cause significant disruptions. We would appreciate it if you could address this matter urgently and provide a prompt solution to minimize further disruptions. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

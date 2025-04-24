@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgente: Interrup\u00e7\u00e3o de Rede - Roteador Cisco ISR4331\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para relatar uma interrup\u00e7\u00e3o de rede de alta prioridade que est\u00e1 afetando atualmente nossos servi\u00e7os empresariais You can reach me at david.kim@corp.kr.. Esse problema parece estar ligado ao nosso Roteador Cisco ISR4331, que requer solu\u00e7\u00e3o de problemas e restaura\u00e7\u00e3o imediatas. A interrup\u00e7\u00e3o est\u00e1 impactando significativamente nossas opera\u00e7\u00f5es di\u00e1rias, e assist\u00eancia oportuna \u00e9 necess\u00e1ria para resolv\u00ea-lo o mais r\u00e1pido poss\u00edvel.\n\nPor favor, priorize este pedido e nos informe quais etapas precisamos seguir para acelerar o processo de resolu\u00e7\u00e3o.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n\n<name>\n<acc_num>\n<tel_num> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        762,
+        772
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        244,
+        261
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        58,
+        62
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        315,
+        319
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Interrup\u00e7\u00e3o de Rede - Roteador Cisco ISR[phone_number]\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para relatar uma interrup\u00e7\u00e3o de rede de alta prioridade que est\u00e1 afetando atualmente nossos servi\u00e7os empresariais You can reach me at [email].. Esse problema parece estar ligado ao nosso Roteador Cisco ISR[phone_number], que requer solu\u00e7\u00e3o de problemas e restaura\u00e7\u00e3o imediatas. A interrup\u00e7\u00e3o est\u00e1 impactando significativamente nossas opera\u00e7\u00f5es di\u00e1rias, e assist\u00eancia oportuna \u00e9 necess\u00e1ria para resolv\u00ea-lo o mais r\u00e1pido poss\u00edvel.\n\nPor favor, priorize este pedido e nos informe quais etapas precisamos seguir para acelerar o processo de resolu\u00e7\u00e3o.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n\n<name>\n<acc_num>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para solicitar uma atualiza\u00e7\u00e3o para nosso plano de Servi\u00e7o de Gest\u00e3o AWS para melhorar a gest\u00e3o de custos e a escalabilidade da infraestrutura. Buscamos evitar a superprovisionamento My name is Liu Wei.. Por favor, aconselhe sobre as op\u00e7\u00f5es dispon\u00edveis e as etapas necess\u00e1rias para prosseguir.\n\nObrigado,\n<name>\n<acc_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        251,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        403,
+        424
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para solicitar uma atualiza\u00e7\u00e3o para nosso plano de Servi\u00e7o de Gest\u00e3o AWS para melhorar a gest\u00e3o de custos e a escalabilidade da infraestrutura. Buscamos evitar a superprovisionamento My name is [full_name].. Por favor, aconselhe sobre as op\u00e7\u00f5es dispon\u00edveis e as etapas necess\u00e1rias para prosseguir.\n\nObrigado,\n<name>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei Sicherheitsprotokollen\n\nSehr geehrter Kunden, ich stehe Ihnen zur Verf\u00fcgung, um Sie bei den Fragen zu den Sicherheitsprotokollen zu supporten. K\u00f6nnten Sie bitte mehr Details \u00fcber das aktuelle Problem bereitstellen? Ich freue mich darauf, bei der Findung einer L\u00f6sung zu helfen, oder wir vereinbaren gerne einen Anruf, um zus\u00e4tzliche Fragen zu besprechen.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        419
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei Sicherheitsprotokollen\n\nSehr geehrter Kunden, ich stehe Ihnen zur Verf\u00fcgung, um Sie bei den Fragen zu den Sicherheitsprotokollen zu supporten. K\u00f6nnten Sie bitte mehr Details \u00fcber das aktuelle Problem bereitstellen? Ich freue mich darauf, bei der Findung einer L\u00f6sung zu helfen, oder wir vereinbaren gerne einen Anruf, um zus\u00e4tzliche Fragen zu besprechen.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

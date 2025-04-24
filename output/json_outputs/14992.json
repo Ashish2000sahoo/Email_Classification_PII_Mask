@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung zur technischen Unterst\u00fctzung\n\nSehr geehrtes Support-Team,\\n\\nich m\u00f6chte euch auf ein dringendes Problem hinweisen, das sich bei unserem Datenfeed entplexen l\u00e4sst. Insbesondere ist das Feed gest\u00f6rt, und unsere erste Untersuchung deutet darauf hin, dass die geplanten Wartungsarbeiten m\u00f6glicherweise unrichtig eingerichtet wurden. Wir haben bereits vorl\u00e4ufige Ma\u00dfnahmen ergriffen, um das Problem zu beheben, indem wir die relevanten Dienste neugestartet und die Systemprotokolle genauestens gepr\u00fcft haben. Trotz dieser Anstrengungen beh\u00e4lt das Problem jedoch anhaltend an.\\n\\nDie St\u00f6rung des Datenfeeds bereitet uns erhebliche Unannehmlichkeiten und beeintr\u00e4chtigt unsere Betriebsprozesse My name is Liu Wei.. Deshalb bitten wir um dringende Unterst\u00fctzung bei der L\u00f6sung dieser Angelegenheit You can reach me at maria.gonzalez@shop.es.. K\u00f6nntet ihr bitte die Konfiguration der geplanten Wartungsarbeiten \u00fcberpr\u00fcfen und feststellen, ob sie der Ursache des Problems entsprechen? Zus\u00e4tzlich w\u00e4ren wir sehr dankbar f\u00fcr Anleitungen zu weiteren Schritten, die wir unternehmen k\u00f6nnen, um das Problem zu beheben.\\n\\nWir stehen euch zur Verf\u00fcgung, um zus\u00e4tzliche Informationen bereitzustellen oder in irgendeiner Weise mitzuhelfen, um die L\u00f6sung dieser Angelegenheit zu beschleunigen. Vielen Dank f\u00fcr eure schnelle Aufmerksamkeit und wir freuen uns darauf, bald von euch zu h\u00f6ren.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        718,
+        725
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        834,
+        856
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Forderung zur technischen Unterst\u00fctzung\n\nSehr geehrtes Support-Team,\\n\\nich m\u00f6chte euch auf ein dringendes Problem hinweisen, das sich bei unserem Datenfeed entplexen l\u00e4sst. Insbesondere ist das Feed gest\u00f6rt, und unsere erste Untersuchung deutet darauf hin, dass die geplanten Wartungsarbeiten m\u00f6glicherweise unrichtig eingerichtet wurden. Wir haben bereits vorl\u00e4ufige Ma\u00dfnahmen ergriffen, um das Problem zu beheben, indem wir die relevanten Dienste neugestartet und die Systemprotokolle genauestens gepr\u00fcft haben. Trotz dieser Anstrengungen beh\u00e4lt das Problem jedoch anhaltend an.\\n\\nDie St\u00f6rung des Datenfeeds bereitet uns erhebliche Unannehmlichkeiten und beeintr\u00e4chtigt unsere Betriebsprozesse My name is [full_name].. Deshalb bitten wir um dringende Unterst\u00fctzung bei der L\u00f6sung dieser Angelegenheit You can reach me at [email].. K\u00f6nntet ihr bitte die Konfiguration der geplanten Wartungsarbeiten \u00fcberpr\u00fcfen und feststellen, ob sie der Ursache des Problems entsprechen? Zus\u00e4tzlich w\u00e4ren wir sehr dankbar f\u00fcr Anleitungen zu weiteren Schritten, die wir unternehmen k\u00f6nnen, um das Problem zu beheben.\\n\\nWir stehen euch zur Verf\u00fcgung, um zus\u00e4tzliche Informationen bereitzustellen oder in irgendeiner Weise mitzuhelfen, um die L\u00f6sung dieser Angelegenheit zu beschleunigen. Vielen Dank f\u00fcr eure schnelle Aufmerksamkeit und wir freuen uns darauf, bald von euch zu h\u00f6ren.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

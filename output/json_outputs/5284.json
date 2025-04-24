@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Security Requirement\n\nHello Customer Support, I urgently need your assistance to enhance the encryption measures for protecting our sensitive medical data and hospital IT systems. The current security setup is inadequate to combat the increasing cyber threats, which could jeopardize patient privacy and public safety. I urge your team to act swiftly to upgrade the encryption methods and safeguard all critical data My name is Elena Ivanova.. Please include implementing full end-to-end encryption for all data transfers and encrypting all data stored in hospital systems You can reach me at fatima.farsi@help.com.. I look forward to receiving a clear schedule for when these improvements will be made and the actions your team will undertake to secure our medical and IT systems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        444,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        607,
+        628
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Security Requirement\n\nHello Customer Support, I urgently need your assistance to enhance the encryption measures for protecting our sensitive medical data and hospital IT systems. The current security setup is inadequate to combat the increasing cyber threats, which could jeopardize patient privacy and public safety. I urge your team to act swiftly to upgrade the encryption methods and safeguard all critical data My name is [full_name].. Please include implementing full end-to-end encryption for all data transfers and encrypting all data stored in hospital systems You can reach me at [email].. I look forward to receiving a clear schedule for when these improvements will be made and the actions your team will undertake to secure our medical and IT systems.",
+  "category_of_the_email": "Change"
+}

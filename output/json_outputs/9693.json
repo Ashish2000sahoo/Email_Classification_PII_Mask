@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nK\u00f6nnten Sie Klarstellungen zu verf\u00fcgbaren Datenanalysedienstleistungen sowie zur Optimierung von Investitionsstrategien geben? Ich bin sehr interessiert, mehr dar\u00fcber zu erfahren, da die Dienstleistungen helfen k\u00f6nnen, informierte Entscheidungen zu treffen You can reach me at maria.gonzalez@shop.es.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren My name is Carlos Mendoza.. Die Anleitung w\u00fcrde ich sehr sch\u00e4tzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        407,
+        421
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        288,
+        310
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nK\u00f6nnten Sie Klarstellungen zu verf\u00fcgbaren Datenanalysedienstleistungen sowie zur Optimierung von Investitionsstrategien geben? Ich bin sehr interessiert, mehr dar\u00fcber zu erfahren, da die Dienstleistungen helfen k\u00f6nnen, informierte Entscheidungen zu treffen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren My name is [full_name].. Die Anleitung w\u00fcrde ich sehr sch\u00e4tzen.",
+  "category_of_the_email": "Request"
+}

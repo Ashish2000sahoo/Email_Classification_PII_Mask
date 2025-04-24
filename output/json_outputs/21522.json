@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me avec les extensions apr\u00e8s la mise \u00e0 jour\n\nBonjour l'\u00e9quipe de support,\n\nJ'esp\u00e8re que ce message vous trouve bien You can reach me at liuwei@business.cn.. J'ai un petit probl\u00e8me avec la mise \u00e0 jour 1.70 de Visual Studio Code, o\u00f9 les extensions ne se chargent pas correctement My name is Jane Smith.. Pourriez-vous s'il vous pla\u00eet fournir de l'aide pour r\u00e9soudre cela d\u00e8s que possible ? Merci !\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        151,
+        169
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me avec les extensions apr\u00e8s la mise \u00e0 jour\n\nBonjour l'\u00e9quipe de support,\n\nJ'esp\u00e8re que ce message vous trouve bien You can reach me at [email].. J'ai un petit probl\u00e8me avec la mise \u00e0 jour 1.70 de Visual Studio Code, o\u00f9 les extensions ne se chargent pas correctement My name is [full_name].. Pourriez-vous s'il vous pla\u00eet fournir de l'aide pour r\u00e9soudre cela d\u00e8s que possible ? Merci !\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

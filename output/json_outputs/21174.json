@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes fr\u00e9quents d'imprimante\n\nCher support client de la boutique en ligne Tech,\n\nJe vous contacte pour signaler plusieurs probl\u00e8mes avec mon imprimante HP DeskJet 3755. R\u00e9cemment, elle a connu des bourrages papier fr\u00e9quents et affiche divers codes d'erreur, ce qui rend difficile l'ex\u00e9cution efficace des travaux d'impression. De plus, j'ai rencontr\u00e9 des difficult\u00e9s avec la configuration de la connectivit\u00e9 sans fil, l'imprimante \u00e9chouant \u00e0 se connecter \u00e0 mon r\u00e9seau de mani\u00e8re coh\u00e9rente.\n\nPourriez-vous s'il vous pla\u00eet fournir des conseils ou des solutions pour r\u00e9soudre ces probl\u00e8mes persistants ? J'esp\u00e8re obtenir un guide de d\u00e9pannage \u00e9tape par \u00e9tape ou des suggestions d'options de service si n\u00e9cessaire You can reach me at elena.ivanova@support.org.. Je vous remercie de votre aide pour traiter ces pr\u00e9occupations dans les meilleurs d\u00e9lais.\n\nCordialement, <name>\nIdentifiant client : <acc_num>\nT\u00e9l\u00e9phone : <tel_num> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        947,
+        959
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        743,
+        768
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        176,
+        180
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes fr\u00e9quents d'imprimante\n\nCher support client de la boutique en ligne Tech,\n\nJe vous contacte pour signaler plusieurs probl\u00e8mes avec mon imprimante HP DeskJet [phone_number]. R\u00e9cemment, elle a connu des bourrages papier fr\u00e9quents et affiche divers codes d'erreur, ce qui rend difficile l'ex\u00e9cution efficace des travaux d'impression. De plus, j'ai rencontr\u00e9 des difficult\u00e9s avec la configuration de la connectivit\u00e9 sans fil, l'imprimante \u00e9chouant \u00e0 se connecter \u00e0 mon r\u00e9seau de mani\u00e8re coh\u00e9rente.\n\nPourriez-vous s'il vous pla\u00eet fournir des conseils ou des solutions pour r\u00e9soudre ces probl\u00e8mes persistants ? J'esp\u00e8re obtenir un guide de d\u00e9pannage \u00e9tape par \u00e9tape ou des suggestions d'options de service si n\u00e9cessaire You can reach me at [email].. Je vous remercie de votre aide pour traiter ces pr\u00e9occupations dans les meilleurs d\u00e9lais.\n\nCordialement, <name>\nIdentifiant client : <acc_num>\nT\u00e9l\u00e9phone : <tel_num> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

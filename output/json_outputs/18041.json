@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, reporting a critical data breach where sensitive medical information might have been exposed You can reach me at david.kim@corp.kr.. The breach is suspected to have resulted from weak access controls and a phishing attack My name is Elena Ivanova.. Immediate steps have been taken to implement new security protocols and conduct staff training on data protection to prevent future incidents. However, due to concerns about the potential consequences of the breach, I would appreciate your assistance in investigating and containing the incident. Please provide detailed information about the breach, including the type of data exposed and the measures already taken.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        142,
+        159
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, reporting a critical data breach where sensitive medical information might have been exposed You can reach me at [email].. The breach is suspected to have resulted from weak access controls and a phishing attack My name is [full_name].. Immediate steps have been taken to implement new security protocols and conduct staff training on data protection to prevent future incidents. However, due to concerns about the potential consequences of the breach, I would appreciate your assistance in investigating and containing the incident. Please provide detailed information about the breach, including the type of data exposed and the measures already taken.",
+  "category_of_the_email": "Incident"
+}

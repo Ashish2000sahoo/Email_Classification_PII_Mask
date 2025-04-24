@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support needed\n\nThe Campaign-Analytics-Dashboard is not updating properly My name is David Kim.. There is an issue with the data synchronization, suggesting a potential API integration error You can reach me at maria.gonzalez@shop.es.. I have tried restarting the service and checking the API keys.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        94,
+        103
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        222,
+        244
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support needed\n\nThe Campaign-Analytics-Dashboard is not updating properly My name is [full_name].. There is an issue with the data synchronization, suggesting a potential API integration error You can reach me at [email].. I have tried restarting the service and checking the API keys.",
+  "category_of_the_email": "Incident"
+}

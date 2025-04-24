@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Flickering Screen Issue on Samsung QLED TV\n\nDear Customer Support,\n\nI am reaching out to report an issue with my recently purchased Samsung QLED QN90A TV, model: Quantum Dot, Smart TV, HDR, 4K. The screen occasionally flickers when switching channels or apps You can reach me at janesmith@company.com.. The interruption lasts only a few seconds, but it's frequent enough to be disruptive to the viewing experience My name is Elena Ivanova.. I have already tried restarting the TV and ensuring that all cables are securely connected, but the issue persists.\n\nPlease advise on how to resolve this problem. Is there a firmware update or a setting adjustment that could address the flickering screen? If it's beyond a do-it-yourself fix, I would appreciate any guidance on repair services available for products still within warranty.\n\nLooking forward to your swift response.\n\nThank you for your attention to this matter.\n\nSincerely,\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        447
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        288,
+        309
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Flickering Screen Issue on Samsung QLED TV\n\nDear Customer Support,\n\nI am reaching out to report an issue with my recently purchased Samsung QLED QN90A TV, model: Quantum Dot, Smart TV, HDR, 4K. The screen occasionally flickers when switching channels or apps You can reach me at [email].. The interruption lasts only a few seconds, but it's frequent enough to be disruptive to the viewing experience My name is [full_name].. I have already tried restarting the TV and ensuring that all cables are securely connected, but the issue persists.\n\nPlease advise on how to resolve this problem. Is there a firmware update or a setting adjustment that could address the flickering screen? If it's beyond a do-it-yourself fix, I would appreciate any guidance on repair services available for products still within warranty.\n\nLooking forward to your swift response.\n\nThank you for your attention to this matter.\n\nSincerely,\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

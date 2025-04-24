@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported IT Issue\n\nAn authorized login attempt on the hospital admission system was detected. Potential causes include outdated software vulnerabilities and missing access controls You can reach me at omar.hassan@secure.net.. A system audit has already been conducted, and security protocols have been updated, but access still appears possible My name is Sophia Rossi.. We need support to resolve the issue and ensure the safety of the admission system. Please provide instructions for the next steps.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        377
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        210,
+        232
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Reported IT Issue\n\nAn authorized login attempt on the hospital admission system was detected. Potential causes include outdated software vulnerabilities and missing access controls You can reach me at [email].. A system audit has already been conducted, and security protocols have been updated, but access still appears possible My name is [full_name].. We need support to resolve the issue and ensure the safety of the admission system. Please provide instructions for the next steps.",
+  "category_of_the_email": "Incident"
+}

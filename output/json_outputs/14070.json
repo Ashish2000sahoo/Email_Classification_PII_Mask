@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with System Integration\n\nThe integration might have failed because of an API mismatch. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        125,
+        140
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with System Integration\n\nThe integration might have failed because of an API mismatch. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

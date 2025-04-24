@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Occasional System Failures and Recent Project Updates\n\nA user has reported occasional system failures related to project updates that have been noted recently. This may be linked to recent code modifications and increased server load My name is Fatima Al-Farsi.. Efforts to replicate the issue in a controlled environment were not successful. Please investigate the matter and provide a solution as soon as possible. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        263
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        448,
+        471
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Occasional System Failures and Recent Project Updates\n\nA user has reported occasional system failures related to project updates that have been noted recently. This may be linked to recent code modifications and increased server load My name is [full_name]-Farsi.. Efforts to replicate the issue in a controlled environment were not successful. Please investigate the matter and provide a solution as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Figma Billing Cycle Information\n\nCould you please provide details on the billing cycles for the Figma subscription? Thank you!. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        173
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Figma Billing Cycle Information\n\nCould you please provide details on the billing cycles for the Figma subscription? Thank you!. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

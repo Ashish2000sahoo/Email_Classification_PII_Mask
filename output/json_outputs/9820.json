@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Information on Laptop Support\n\nCould you provide more details on strategies for supporting technology products, specifically a 2-in-1 Convertible Laptop? I am particularly interested in how to reach the target audience and create engaging content.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        306
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Request for Information on Laptop Support\n\nCould you provide more details on strategies for supporting technology products, specifically a 2-in-1 Convertible Laptop? I am particularly interested in how to reach the target audience and create engaging content.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

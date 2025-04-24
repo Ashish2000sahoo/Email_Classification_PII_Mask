@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sachverhalt: Datenschutzverletzung durch unbefugtes Zugriff\n\nSehr geehrte Kundenservice, ich beschreibe unter diesen Zeilen den Sachverhalt zu einer medizinischen Datenverletzung im Zusammenhang mit unbefugtem Zugriff. Wahrscheinlich traten diese Verletzungen aufgrund mangelnder Verschl\u00fcsselung und veralteter Software auf My name is Maria Gonzalez.. Aktuell haben wir Antivirus-Sicherheitspr\u00fcfungen und unsere Firewalls durchgef\u00fchrt, um das Problem zu beheben You can reach me at sophia.rossi@service.it.. Wir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie uns bei der Bearbeitung dieser Angelegenheit mitwirken k\u00f6nnten. Bitte informieren Sie uns \u00fcber die nachfolgenden Schritte, die wir unternehmen k\u00f6nnen, um die Sicherheit Ihrer Daten zu gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        344,
+        358
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        488,
+        511
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Sachverhalt: Datenschutzverletzung durch unbefugtes Zugriff\n\nSehr geehrte Kundenservice, ich beschreibe unter diesen Zeilen den Sachverhalt zu einer medizinischen Datenverletzung im Zusammenhang mit unbefugtem Zugriff. Wahrscheinlich traten diese Verletzungen aufgrund mangelnder Verschl\u00fcsselung und veralteter Software auf My name is [full_name].. Aktuell haben wir Antivirus-Sicherheitspr\u00fcfungen und unsere Firewalls durchgef\u00fchrt, um das Problem zu beheben You can reach me at [email].. Wir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie uns bei der Bearbeitung dieser Angelegenheit mitwirken k\u00f6nnten. Bitte informieren Sie uns \u00fcber die nachfolgenden Schritte, die wir unternehmen k\u00f6nnen, um die Sicherheit Ihrer Daten zu gew\u00e4hrleisten.",
+  "category_of_the_email": "Incident"
+}

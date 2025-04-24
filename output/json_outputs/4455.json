@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Data Issue\n\nA significant data discrepancy has been observed in the investment analytics system, which is impacting the accuracy of financial decision-making.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        214
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Support Data Issue\n\nA significant data discrepancy has been observed in the investment analytics system, which is impacting the accuracy of financial decision-making.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

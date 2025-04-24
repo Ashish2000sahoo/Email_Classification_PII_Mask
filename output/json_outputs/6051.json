@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlerbericht zur Webex Meetings-Integration nach Update\n\nSehr geehrte Kundenservice,\\nich melde einen unerwarteten Fehler in der Webex Meetings-Integration, der durch die neuesten Updates entstanden ist You can reach me at elena.ivanova@support.org.. Ich vermute eine Inkompatibilit\u00e4t mit dem Zapier Connector. Nach dem Neustart des UniFi Dream Machines und dem \u00dcberpr\u00fcfen der Discord-Ermittlungsbenachrichtigungen besteht das Problem weiterhin. Bitte geben Sie einen L\u00f6sungsvorschlag oder Anleitung, wie das Problem behoben werden kann.\\nWenn weitere Informationen ben\u00f6tigt werden, um die Untersuchung zu unterst\u00fctzen, lassen Sie es mich bitte wissen My name is Carlos Mendoza.. Ich freue mich auf Ihre R\u00fcckmeldung.\\nVielen Dank f\u00fcr Ihre Hilfe.\\nMit freundlichen Gr\u00fc\u00dfen",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        673,
+        687
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        233,
+        258
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fehlerbericht zur Webex Meetings-Integration nach Update\n\nSehr geehrte Kundenservice,\\nich melde einen unerwarteten Fehler in der Webex Meetings-Integration, der durch die neuesten Updates entstanden ist You can reach me at [email].. Ich vermute eine Inkompatibilit\u00e4t mit dem Zapier Connector. Nach dem Neustart des UniFi Dream Machines und dem \u00dcberpr\u00fcfen der Discord-Ermittlungsbenachrichtigungen besteht das Problem weiterhin. Bitte geben Sie einen L\u00f6sungsvorschlag oder Anleitung, wie das Problem behoben werden kann.\\nWenn weitere Informationen ben\u00f6tigt werden, um die Untersuchung zu unterst\u00fctzen, lassen Sie es mich bitte wissen My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung.\\nVielen Dank f\u00fcr Ihre Hilfe.\\nMit freundlichen Gr\u00fc\u00dfen",
+  "category_of_the_email": "Incident"
+}

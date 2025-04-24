@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Problem with Printer Canon PIXMA TR8550\n\nThe marketing team has encountered connectivity issues with the Canon PIXMA TR8550 printer when using Outlook 2021 You can reach me at maria.gonzalez@shop.es.. This problem might be due to recent Windows updates that could have affected the printer drivers. They have tried restarting the devices, reinstalling the printer drivers, and clearing the Outlook cache, but these steps did not resolve the issue My name is Sophia Rossi.. The team has already tried various troubleshooting methods, and the issue still persists. We would greatly appreciate your assistance in resolving this matter as soon as possible to minimize any disruptions to our work. Please respond.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        467,
+        479
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        185,
+        207
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        44,
+        48
+      ],
+      "classification": "phone_number",
+      "entity": "8550"
+    },
+    {
+      "position": [
+        128,
+        132
+      ],
+      "classification": "phone_number",
+      "entity": "8550"
+    },
+    {
+      "position": [
+        160,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem with Printer Canon PIXMA TR[phone_number]\n\nThe marketing team has encountered connectivity issues with the Canon PIXMA TR[phone_number] printer when using Outlook [phone_number] You can reach me at [email].. This problem might be due to recent Windows updates that could have affected the printer drivers. They have tried restarting the devices, reinstalling the printer drivers, and clearing the Outlook cache, but these steps did not resolve the issue My name is [full_name].. The team has already tried various troubleshooting methods, and the issue still persists. We would greatly appreciate your assistance in resolving this matter as soon as possible to minimize any disruptions to our work. Please respond.",
+  "category_of_the_email": "Incident"
+}

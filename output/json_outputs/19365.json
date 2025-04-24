@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nWe are noticing reduced engagement levels for our recent marketing campaigns My name is David Kim.. The use of outdated strategies or misalignment with the target audience might be contributing factors. Despite adjusting the messaging and analyzing the metrics, we have seen minimal improvement. I need your assistance to enhance engagement. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        99,
+        108
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        375,
+        396
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nWe are noticing reduced engagement levels for our recent marketing campaigns My name is [full_name].. The use of outdated strategies or misalignment with the target audience might be contributing factors. Despite adjusting the messaging and analyzing the metrics, we have seen minimal improvement. I need your assistance to enhance engagement. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

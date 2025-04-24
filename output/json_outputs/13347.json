@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Encryption - Customer Support\n\nHello Customer Support, I am contacting you to inform about a data encryption problem that happened because of an unexpected loss of encryption keys, which might be due to a human error. Despite attempting to restart the servers and reviewing the logs, the problem remains unresolved You can reach me at sophia.rossi@service.it.. I would greatly appreciate any help or instructions you can offer to fix this quickly. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        484,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        360,
+        383
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Encryption - Customer Support\n\nHello Customer Support, I am contacting you to inform about a data encryption problem that happened because of an unexpected loss of encryption keys, which might be due to a human error. Despite attempting to restart the servers and reviewing the logs, the problem remains unresolved You can reach me at [email].. I would greatly appreciate any help or instructions you can offer to fix this quickly. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

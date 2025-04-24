@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Crash Support Inquiry\n\nOur system has experienced a widespread failure impacting several key applications and devices My name is Elena Ivanova.. This may have been caused by server overloads or recent software updates. Despite restarting devices, clearing cache, and checking network connections, the issue persists You can reach me at liuwei@business.cn.. We require your prompt assistance to resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        145,
+        158
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        350,
+        368
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: System Crash Support Inquiry\n\nOur system has experienced a widespread failure impacting several key applications and devices My name is [full_name].. This may have been caused by server overloads or recent software updates. Despite restarting devices, clearing cache, and checking network connections, the issue persists You can reach me at [email].. We require your prompt assistance to resolve this issue.",
+  "category_of_the_email": "Incident"
+}

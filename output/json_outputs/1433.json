@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Marketing Strategy\n\nCustomer Support, <br><br>I am encountering issues with the marketing strategy report My name is David Kim.. The marketing agency's digital strategies are not yielding the expected brand growth. Potential reasons could be poor targeting or ineffective platforms. I have already adjusted ad spends and reviewed analytics, but the results are still not satisfactory. Our team has invested significant time and resources, yet we are seeing disappointing progress. I would greatly appreciate some guidance to improve the strategy and achieve the desired outcomes. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        627,
+        648
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Marketing Strategy\n\nCustomer Support, <br><br>I am encountering issues with the marketing strategy report My name is [full_name].. The marketing agency's digital strategies are not yielding the expected brand growth. Potential reasons could be poor targeting or ineffective platforms. I have already adjusted ad spends and reviewed analytics, but the results are still not satisfactory. Our team has invested significant time and resources, yet we are seeing disappointing progress. I would greatly appreciate some guidance to improve the strategy and achieve the desired outcomes. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anomaly in Firewall Security System\n\nDear Customer Support, I am writing to inquire about a supposed medical data blockage that occurred on our firewall system. This issue might be due to erroneous firewall rules. So far, we have restarted the firewall and inspected the update logs, but the issue still persists. We need your assistance to resolve this quickly You can reach me at sophia.rossi@service.it.. Please provide us with the next steps we should take. Thank you for your understanding and support. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        528,
+        535
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        391,
+        414
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Anomaly in Firewall Security System\n\nDear Customer Support, I am writing to inquire about a supposed medical data blockage that occurred on our firewall system. This issue might be due to erroneous firewall rules. So far, we have restarted the firewall and inspected the update logs, but the issue still persists. We need your assistance to resolve this quickly You can reach me at [email].. Please provide us with the next steps we should take. Thank you for your understanding and support. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

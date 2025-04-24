@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issues with Browser Extensions on Chrome 102.0 Update\n\nDear Customer Support,\n\nI'm encountering an issue where my browser extensions are not functioning correctly following a recent update to Google Chrome version 102.0 My name is David Kim.. These extensions worked fine before the update, but now they fail to operate as expected.\n\nCould you please provide guidance or a fix for this issue? Your assistance is greatly appreciated. Thank you for addressing this matter promptly.\n\nBest regards,\n\n<name>\n<tel_num>\n<email_address> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        240,
+        249
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        560,
+        578
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        50,
+        53
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    },
+    {
+      "position": [
+        223,
+        226
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Issues with Browser Extensions on Chrome [cvv_no].0 Update\n\nDear Customer Support,\n\nI'm encountering an issue where my browser extensions are not functioning correctly following a recent update to Google Chrome version [cvv_no].0 My name is [full_name].. These extensions worked fine before the update, but now they fail to operate as expected.\n\nCould you please provide guidance or a fix for this issue? Your assistance is greatly appreciated. Thank you for addressing this matter promptly.\n\nBest regards,\n\n<name>\n<tel_num>\n<email_address> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

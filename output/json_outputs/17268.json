@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ist ein Missstand mit mehreren Werkzeugen aufgetreten - Beschreibung\n\nSehr geehrte Kundenservice, ich teile Ihnen mit, dass ich ein Problem mit mehreren fehlerhaften Werkzeugen auf meine Aufmerksamkeit aufziehen muss, was zu erheblichen Verz\u00f6gerungen bei unserem Projekt gef\u00fchrt hat. Dieses Problem entstand nach der Anwendung der neuesten Updates, die wahrscheinlich die Ursache daf\u00fcr sind. Ich habe alle m\u00f6glichen Systemneuinstallationen, die Suche nach aktualisierten Versionen und grundlegende Schleifen versucht, aber das Problem beh\u00e4lt sich weiterhin bestanden My name is David Kim.. Die betroffenen Werkzeuge sind f\u00fcr unser Projekt entscheidend und m\u00fcssen so schnell wie m\u00f6glich wieder in Betrieb genommen werden. Ich hoffe, Sie werden sich dieser Angelegenheit dringend zuwenden und mir eine L\u00f6sung anbieten k\u00f6nnen. Bitte teilen Sie mich mit, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen You can reach me at david.kim@corp.kr.. Ich stehe Ihnen gerne zur Verf\u00fcgung, um alle erforderlichen Details oder Unterst\u00fctzung zu liefern. Ich danke Ihnen im Voraus f\u00fcr Ihre schnelle Aufmerksamkeit dieser Angelegenheit. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        587,
+        596
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        949,
+        966
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Ist ein Missstand mit mehreren Werkzeugen aufgetreten - Beschreibung\n\nSehr geehrte Kundenservice, ich teile Ihnen mit, dass ich ein Problem mit mehreren fehlerhaften Werkzeugen auf meine Aufmerksamkeit aufziehen muss, was zu erheblichen Verz\u00f6gerungen bei unserem Projekt gef\u00fchrt hat. Dieses Problem entstand nach der Anwendung der neuesten Updates, die wahrscheinlich die Ursache daf\u00fcr sind. Ich habe alle m\u00f6glichen Systemneuinstallationen, die Suche nach aktualisierten Versionen und grundlegende Schleifen versucht, aber das Problem beh\u00e4lt sich weiterhin bestanden My name is [full_name].. Die betroffenen Werkzeuge sind f\u00fcr unser Projekt entscheidend und m\u00fcssen so schnell wie m\u00f6glich wieder in Betrieb genommen werden. Ich hoffe, Sie werden sich dieser Angelegenheit dringend zuwenden und mir eine L\u00f6sung anbieten k\u00f6nnen. Bitte teilen Sie mich mit, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen You can reach me at [email].. Ich stehe Ihnen gerne zur Verf\u00fcgung, um alle erforderlichen Details oder Unterst\u00fctzung zu liefern. Ich danke Ihnen im Voraus f\u00fcr Ihre schnelle Aufmerksamkeit dieser Angelegenheit. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

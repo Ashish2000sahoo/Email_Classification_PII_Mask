@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problematik bei Zugriff auf medizinische Akten\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen unerwarteten Fehler bei der Zugriffsm\u00f6glichkeit auf medizinische Akten zu melden You can reach me at maria.gonzalez@shop.es.. Der Fehler trat w\u00e4hrend der Nacht auf und obwohl ich mehrere Schritte der Fehlerbehebung versucht habe, besteht er weiterhin. M\u00f6gliche Ursachen f\u00fcr diesen Fehler k\u00f6nnten ein Glitch in einer Software-aktualisierung oder ein Firewallproblem sein. Bislang habe ich die Server neugestartet, die Anmeldeinformationen \u00fcberpr\u00fcft und die Netzwerkverbindung gepr\u00fcft, aber keiner dieser Schritte hat den Fehler behoben. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie diesen Fall dringend untersuchen und eine L\u00f6sung innerhalb k\u00fcrzester Zeit vorlegen k\u00f6nnten. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von mir ben\u00f6tigen, um diesen Fall zu l\u00f6sen My name is Omar Hassan.. Danke f\u00fcr Ihre schnelle Beachtung dieser Sache. Ich freue mich darauf, von Ihnen bald wieder zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        894,
+        905
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        215,
+        237
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problematik bei Zugriff auf medizinische Akten\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen unerwarteten Fehler bei der Zugriffsm\u00f6glichkeit auf medizinische Akten zu melden You can reach me at [email].. Der Fehler trat w\u00e4hrend der Nacht auf und obwohl ich mehrere Schritte der Fehlerbehebung versucht habe, besteht er weiterhin. M\u00f6gliche Ursachen f\u00fcr diesen Fehler k\u00f6nnten ein Glitch in einer Software-aktualisierung oder ein Firewallproblem sein. Bislang habe ich die Server neugestartet, die Anmeldeinformationen \u00fcberpr\u00fcft und die Netzwerkverbindung gepr\u00fcft, aber keiner dieser Schritte hat den Fehler behoben. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie diesen Fall dringend untersuchen und eine L\u00f6sung innerhalb k\u00fcrzester Zeit vorlegen k\u00f6nnten. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von mir ben\u00f6tigen, um diesen Fall zu l\u00f6sen My name is [full_name].. Danke f\u00fcr Ihre schnelle Beachtung dieser Sache. Ich freue mich darauf, von Ihnen bald wieder zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

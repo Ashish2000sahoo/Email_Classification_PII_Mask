@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Billing Discrepancies in Subscription Services\n\nNoticing discrepancies in the billing for my subscription services You can reach me at maria.gonzalez@shop.es.. The issue might be due to incorrect payment processing through Xero. After re-verifying my account details and reprocessing payments, the problem still persists. I would greatly appreciate your timely assistance in resolving this matter My name is Maria Gonzalez.. Could you please let me know the next steps to take to resolve the issue? I am looking forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        430,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        157,
+        179
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Billing Discrepancies in Subscription Services\n\nNoticing discrepancies in the billing for my subscription services You can reach me at [email].. The issue might be due to incorrect payment processing through Xero. After re-verifying my account details and reprocessing payments, the problem still persists. I would greatly appreciate your timely assistance in resolving this matter My name is [full_name].. Could you please let me know the next steps to take to resolve the issue? I am looking forward to hearing from you soon.",
+  "category_of_the_email": "Problem"
+}

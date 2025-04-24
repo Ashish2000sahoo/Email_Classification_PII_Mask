@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Hospital Data Accessibility\n\nThe medical data at the hospital has become inaccessible due to a malfunction in the recent security update My name is Fatima Al-Farsi.. It is suspected that the recent software patch might be conflicting with the existing systems, leading to a data lockout. Attempts to roll back the update and restart the server were unsuccessful. We kindly request your assistance in resolving this issue as soon as possible. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        170,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        486,
+        507
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Hospital Data Accessibility\n\nThe medical data at the hospital has become inaccessible due to a malfunction in the recent security update My name is [full_name]-Farsi.. It is suspected that the recent software patch might be conflicting with the existing systems, leading to a data lockout. Attempts to roll back the update and restart the server were unsuccessful. We kindly request your assistance in resolving this issue as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

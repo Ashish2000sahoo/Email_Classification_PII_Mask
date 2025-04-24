@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Compatibility Across Various Operating Systems\n\nCustomer support, please provide details on the compatibility of our SaaS software across different operating systems. It would be greatly appreciated if you could list the supported systems for our products My name is Maria Gonzalez.. This information will help me understand how to integrate SaaS into my current setup. Thank you for your assistance, and I look forward to hearing from you soon. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        483,
+        501
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Compatibility Across Various Operating Systems\n\nCustomer support, please provide details on the compatibility of our SaaS software across different operating systems. It would be greatly appreciated if you could list the supported systems for our products My name is [full_name].. This information will help me understand how to integrate SaaS into my current setup. Thank you for your assistance, and I look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler in den Investment-Modellierungs-Ausgaben\n\nEin Missverst\u00e4ndnis gibt es hier: Das Problem: Die Investment-Modellierungs-Ausgaben sind korrekt dargestellt, was zu ungenauen Prognosen f\u00fchrt. Warum es passieren k\u00f6nnte: Fehlende Daten oder veraltete Verfahren My name is Fatima Al-Farsi.. Was bereits versucht wurde: Kubernetes wurde neu gestartet, die PostgreSQL-Verbindungen wurden gepr\u00fcft, und Antiviren-Skannierungen wurden durchgef\u00fchrt. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        281,
+        290
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        474,
+        491
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Fehler in den Investment-Modellierungs-Ausgaben\n\nEin Missverst\u00e4ndnis gibt es hier: Das Problem: Die Investment-Modellierungs-Ausgaben sind korrekt dargestellt, was zu ungenauen Prognosen f\u00fchrt. Warum es passieren k\u00f6nnte: Fehlende Daten oder veraltete Verfahren My name is [full_name]-Farsi.. Was bereits versucht wurde: Kubernetes wurde neu gestartet, die PostgreSQL-Verbindungen wurden gepr\u00fcft, und Antiviren-Skannierungen wurden durchgef\u00fchrt. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

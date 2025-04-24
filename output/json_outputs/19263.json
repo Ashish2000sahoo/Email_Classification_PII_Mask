@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Kompatibilit\u00e4t neuester Software-Updates\n\nNach dem Installieren der neuesten Updates treten Probleme mit Microsoft OneNote und Malwarebytes 4.4 auf You can reach me at carlosm@gmail.com.. Die Aufgaben werden gest\u00f6rt My name is Fatima Al-Farsi.. Die R\u00fcckg\u00e4ngig-Ma\u00dfnahme und eine Neuinstallation waren leider nicht erfolgreich.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        249,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        190,
+        207
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Kompatibilit\u00e4t neuester Software-Updates\n\nNach dem Installieren der neuesten Updates treten Probleme mit Microsoft OneNote und Malwarebytes 4.4 auf You can reach me at [email].. Die Aufgaben werden gest\u00f6rt My name is [full_name]-Farsi.. Die R\u00fcckg\u00e4ngig-Ma\u00dfnahme und eine Neuinstallation waren leider nicht erfolgreich.",
+  "category_of_the_email": "Incident"
+}

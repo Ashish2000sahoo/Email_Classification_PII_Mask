@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investigation of Investment Data Processing Errors\n\nThere have been issues with the processing of investment data for analytics and reports My name is Carlos Mendoza.. These problems might be due to incompatible software versions or data integration issues You can reach me at maria.gonzalez@shop.es.. So far, we have reviewed the updated software components and data pipelines, and identified some discrepancies. Our team is actively working on resolving the problem and would appreciate your assistance to ensure smooth data processing and accurate reporting. We would greatly appreciate your guidance on potential solutions and recommendations to improve the data analytics infrastructure. Please let us know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        283,
+        305
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Investigation of Investment Data Processing Errors\n\nThere have been issues with the processing of investment data for analytics and reports My name is [full_name].. These problems might be due to incompatible software versions or data integration issues You can reach me at [email].. So far, we have reviewed the updated software components and data pipelines, and identified some discrepancies. Our team is actively working on resolving the problem and would appreciate your assistance to ensure smooth data processing and accurate reporting. We would greatly appreciate your guidance on potential solutions and recommendations to improve the data analytics infrastructure. Please let us know.",
+  "category_of_the_email": "Incident"
+}

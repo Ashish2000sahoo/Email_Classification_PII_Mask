@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with AWS Management Service Deployment\n\nDear Customer Support Team,\n\nI hope this message finds you well. We are writing to bring to your attention a recurring issue we are facing with our AWS Management Service, specifically concerning the deployment configurations My name is Sophia Rossi.. Over the past few weeks, our team has experienced intermittent service downtimes and access problems, which we suspect are associated with these configuration settings.\n\nDuring peak usage periods, the service tends to become unavailable or slow to respond, which is impacting our operations and ability to serve clients efficiently. We have already attempted several internal strategies to address these issues, including reviewing our current configurations and scaling our resources, but these efforts have unfortunately not resolved the underlying problem.\n\nCould you please assist us in identifying the root cause of these disruptions? We believe that further investigation and expert insights from your end will be crucial in resolving these ongoing challenges.\n\nTo expedite the resolution process, we are keen to discuss this matter with one of your technical specialists. It would be greatly appreciated if we could schedule a call at your earliest convenience.\n\nThank you for your attention and assistance.\n\nSincerely,\n<name>\n<name> LLC\n<tel_num> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        305
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1382,
+        1405
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issues with AWS Management Service Deployment\n\nDear Customer Support Team,\n\nI hope this message finds you well. We are writing to bring to your attention a recurring issue we are facing with our AWS Management Service, specifically concerning the deployment configurations My name is [full_name].. Over the past few weeks, our team has experienced intermittent service downtimes and access problems, which we suspect are associated with these configuration settings.\n\nDuring peak usage periods, the service tends to become unavailable or slow to respond, which is impacting our operations and ability to serve clients efficiently. We have already attempted several internal strategies to address these issues, including reviewing our current configurations and scaling our resources, but these efforts have unfortunately not resolved the underlying problem.\n\nCould you please assist us in identifying the root cause of these disruptions? We believe that further investigation and expert insights from your end will be crucial in resolving these ongoing challenges.\n\nTo expedite the resolution process, we are keen to discuss this matter with one of your technical specialists. It would be greatly appreciated if we could schedule a call at your earliest convenience.\n\nThank you for your attention and assistance.\n\nSincerely,\n<name>\n<name> LLC\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

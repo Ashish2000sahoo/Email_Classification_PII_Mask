@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent : R\u00e9soudre le probl\u00e8me de synchronisation de Microsoft Office 365\n\nCher Service Client,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me de haute priorit\u00e9 que nous rencontrons avec Microsoft Office 365. Nos utilisateurs ne peuvent actuellement pas acc\u00e9der \u00e0 leurs fichiers Excel en raison d'une erreur de synchronisation persistante dans le cloud You can reach me at david.kim@corp.kr.. Ce probl\u00e8me a un impact significatif sur nos op\u00e9rations quotidiennes. Nous avons besoin d'une r\u00e9solution urgente pour r\u00e9tablir l'acc\u00e8s \u00e0 nos fichiers. Merci de prioriser cette affaire et de fournir des conseils sur la fa\u00e7on de r\u00e9soudre cela aussi rapidement que possible ou de recommander une solution imm\u00e9diate.\nFaites-nous savoir si vous avez besoin de plus d'informations \u00e0 ce sujet.\n\nCordialement,\n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        816,
+        825
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        375,
+        392
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        78,
+        81
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        206,
+        209
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Urgent : R\u00e9soudre le probl\u00e8me de synchronisation de Microsoft Office [cvv_no]\n\nCher Service Client,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me de haute priorit\u00e9 que nous rencontrons avec Microsoft Office [cvv_no]. Nos utilisateurs ne peuvent actuellement pas acc\u00e9der \u00e0 leurs fichiers Excel en raison d'une erreur de synchronisation persistante dans le cloud You can reach me at [email].. Ce probl\u00e8me a un impact significatif sur nos op\u00e9rations quotidiennes. Nous avons besoin d'une r\u00e9solution urgente pour r\u00e9tablir l'acc\u00e8s \u00e0 nos fichiers. Merci de prioriser cette affaire et de fournir des conseils sur la fa\u00e7on de r\u00e9soudre cela aussi rapidement que possible ou de recommander une solution imm\u00e9diate.\nFaites-nous savoir si vous avez besoin de plus d'informations \u00e0 ce sujet.\n\nCordialement,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

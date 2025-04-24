@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe zur Datensperre f\u00fcr einen Gesundheitsdienstleister erforderlich\n\nEin Gesundheitsdienstleister hat Probleme mit einer Datensperre und veraltete Firewall-Einstellungen, die medizinische Akten sch\u00fctzen sollten You can reach me at janesmith@company.com.. Die Sicherheitsprotokolle wurden aktualisiert und eine neue Firewall eingesetzt, aber es bestehen weiterhin Vunerabilit\u00e4ten. Hilfe bei der L\u00f6sung des Problems und der Vermeidung zuk\u00fcnftiger Sperren ist erforderlich. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        493,
+        505
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        242,
+        263
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe zur Datensperre f\u00fcr einen Gesundheitsdienstleister erforderlich\n\nEin Gesundheitsdienstleister hat Probleme mit einer Datensperre und veraltete Firewall-Einstellungen, die medizinische Akten sch\u00fctzen sollten You can reach me at [email].. Die Sicherheitsprotokolle wurden aktualisiert und eine neue Firewall eingesetzt, aber es bestehen weiterhin Vunerabilit\u00e4ten. Hilfe bei der L\u00f6sung des Problems und der Vermeidung zuk\u00fcnftiger Sperren ist erforderlich. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

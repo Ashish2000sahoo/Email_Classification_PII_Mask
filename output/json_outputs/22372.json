@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Anfrage zu Umtausch oder R\u00fcckerstattung eines fehlerhaften Ultrabooks\n\nSehr geehrter Tech Online Store,\n\nich melde eine Fehlfunktion des Touchpads meines Dell XPS 13 9310, die nach nur drei Monaten Nutzung aufgetreten ist My name is Elena Ivanova.. Ich bitte um einen Umtausch oder eine R\u00fcckerstattung f\u00fcr dieses Ger\u00e4t You can reach me at liuwei@business.cn.. Bitte unterst\u00fctzen Sie mich bei den n\u00e4chsten Schritten.\n\nDanke.\n\nMit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        242,
+        255
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        346,
+        364
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        172,
+        179
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zu Umtausch oder R\u00fcckerstattung eines fehlerhaften Ultrabooks\n\nSehr geehrter Tech Online Store,\n\nich melde eine Fehlfunktion des Touchpads meines Dell XPS [phone_number], die nach nur drei Monaten Nutzung aufgetreten ist My name is [full_name].. Ich bitte um einen Umtausch oder eine R\u00fcckerstattung f\u00fcr dieses Ger\u00e4t You can reach me at [email].. Bitte unterst\u00fctzen Sie mich bei den n\u00e4chsten Schritten.\n\nDanke.\n\nMit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Incident"
+}

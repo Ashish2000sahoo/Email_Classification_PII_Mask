@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Rechnungsdaten mehrerer Produkte, einschlie\u00dflich Smart-Thermometer Scrivener\n\nWir haben unerwartete Verschiedenheiten in den Rechnungsdaten mehrerer Produkte, einschlie\u00dflich Smart-Thermometer Scrivener, bemerkt You can reach me at elena.ivanova@support.org.. Dies scheint auf ein neueres Update des Rechnungssystems zur\u00fcckzuf\u00fchren sein. Wir haben die Kontoeinstellungen \u00fcberpr\u00fcft und die Transaktionsgeschichte gepr\u00fcft, um eine L\u00f6sung zu finden My name is Carlos Mendoza.. Das Team arbeitet aktiv daran, das Problem zu beheben. Bitte bedanke dich bei deiner Geduld und Verst\u00e4ndnis w\u00e4hrend dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        477,
+        491
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        252,
+        277
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Rechnungsdaten mehrerer Produkte, einschlie\u00dflich Smart-Thermometer Scrivener\n\nWir haben unerwartete Verschiedenheiten in den Rechnungsdaten mehrerer Produkte, einschlie\u00dflich Smart-Thermometer Scrivener, bemerkt You can reach me at [email].. Dies scheint auf ein neueres Update des Rechnungssystems zur\u00fcckzuf\u00fchren sein. Wir haben die Kontoeinstellungen \u00fcberpr\u00fcft und die Transaktionsgeschichte gepr\u00fcft, um eine L\u00f6sung zu finden My name is [full_name].. Das Team arbeitet aktiv daran, das Problem zu beheben. Bitte bedanke dich bei deiner Geduld und Verst\u00e4ndnis w\u00e4hrend dieser Angelegenheit.",
+  "category_of_the_email": "Incident"
+}

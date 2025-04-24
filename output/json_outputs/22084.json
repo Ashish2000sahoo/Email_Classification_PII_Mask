@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS-Abrechnungsunterst\u00fctzung ben\u00f6tigt\n\nHallo, unser Kunde, <name>, hat nach der k\u00fcrzlichen Einf\u00fchrung von unter dem AWS Management Service verwalteten Diensten Abrechnungsdifferenzen festgestellt. Wir ben\u00f6tigen Hilfe bei der Beseitigung dieser Inkonsistenzen so schnell wie m\u00f6glich You can reach me at maria.gonzalez@shop.es.. Bitte \u00fcberpr\u00fcfen Sie die angef\u00fcgten Details zu den Differenzen und setzen Sie sich f\u00fcr weitere Informationen mit uns in Verbindung My name is John Doe.. Bitte kontaktieren Sie unseren Account-Manager, <name>, unter <tel_num> oder beziehen Sie sich auf <acc_num>, wenn Sie dieses Problem ansprechen. Ihre zeitnahe Aufmerksamkeit f\u00fcr diese Angelegenheit wird sehr gesch\u00e4tzt. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        478,
+        486
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        311,
+        333
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: AWS-Abrechnungsunterst\u00fctzung ben\u00f6tigt\n\nHallo, unser Kunde, <name>, hat nach der k\u00fcrzlichen Einf\u00fchrung von unter dem AWS Management Service verwalteten Diensten Abrechnungsdifferenzen festgestellt. Wir ben\u00f6tigen Hilfe bei der Beseitigung dieser Inkonsistenzen so schnell wie m\u00f6glich You can reach me at [email].. Bitte \u00fcberpr\u00fcfen Sie die angef\u00fcgten Details zu den Differenzen und setzen Sie sich f\u00fcr weitere Informationen mit uns in Verbindung My name is [full_name].. Bitte kontaktieren Sie unseren Account-Manager, <name>, unter <tel_num> oder beziehen Sie sich auf <acc_num>, wenn Sie dieses Problem ansprechen. Ihre zeitnahe Aufmerksamkeit f\u00fcr diese Angelegenheit wird sehr gesch\u00e4tzt. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Incident"
+}

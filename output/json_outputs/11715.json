@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Alteryx Support\n\nI am reaching out to inquire about training materials available for optimizing Alteryx for asset analysis. Could you please provide me with details on the available courses, tutorials, or webinars that could help me enhance my skills in this area? I greatly appreciate any assistance you can offer.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        362
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Alteryx Support\n\nI am reaching out to inquire about training materials available for optimizing Alteryx for asset analysis. Could you please provide me with details on the available courses, tutorials, or webinars that could help me enhance my skills in this area? I greatly appreciate any assistance you can offer.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

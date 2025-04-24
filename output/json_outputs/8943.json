@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Langsame Leistung bei mehreren Softwareanwendungen gemeldet\n\nHeute meldeten sich viele Softwareanwendungen auf langsame Leistung You can reach me at david.kim@corp.kr.. Es k\u00f6nnte konfliktierende Updates und mangelnde Systemressourcen dahinterstecken. Bitte versuchen, die Anwendungen neu zu starten, um die Ressourcen zu optimieren My name is David Kim.. Allerdings beh\u00e4lt das Problem nach wie vor bestand.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        352,
+        361
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        158,
+        175
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Langsame Leistung bei mehreren Softwareanwendungen gemeldet\n\nHeute meldeten sich viele Softwareanwendungen auf langsame Leistung You can reach me at [email].. Es k\u00f6nnte konfliktierende Updates und mangelnde Systemressourcen dahinterstecken. Bitte versuchen, die Anwendungen neu zu starten, um die Ressourcen zu optimieren My name is [full_name].. Allerdings beh\u00e4lt das Problem nach wie vor bestand.",
+  "category_of_the_email": "Incident"
+}

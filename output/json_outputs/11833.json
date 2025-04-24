@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Requirements for SaaS Tool\n\nDear Customer Support, I am writing to inquire about the system requirements necessary for optimal performance of your project management SaaS tool. Could you kindly provide me with the recommended hardware and software requirements? I wish to ensure that my system is compatible with your tool to avoid any potential issues. Specifically, I am interested in the minimum and recommended specifications for the operating system, processor, memory, and storage My name is John Doe.. Additionally, are there any specific requirements for the browser or plugins? I would also appreciate any tips for optimizing the tool's performance. Thank you for your time and assistance You can reach me at carlosm@gmail.com.. I look forward to your prompt reply. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        514,
+        522
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        737,
+        754
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: System Requirements for SaaS Tool\n\nDear Customer Support, I am writing to inquire about the system requirements necessary for optimal performance of your project management SaaS tool. Could you kindly provide me with the recommended hardware and software requirements? I wish to ensure that my system is compatible with your tool to avoid any potential issues. Specifically, I am interested in the minimum and recommended specifications for the operating system, processor, memory, and storage My name is [full_name].. Additionally, are there any specific requirements for the browser or plugins? I would also appreciate any tips for optimizing the tool's performance. Thank you for your time and assistance You can reach me at [email].. I look forward to your prompt reply. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

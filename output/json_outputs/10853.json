@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheit von medizinischen Datenspeicherungen\n\nSehr geehrte Kundenservice-Abteilung, ich wende mich an Sie, um zu erfahren, welche Sicherheitsma\u00dfnahmen Sie f\u00fcr die Speicherung medizinischer Daten auf Windows und AWS vorschlagen. K\u00f6nnten Sie mir bitte eine Zusammenfassung der besten Praktiken zur Gew\u00e4hrleistung von Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen liefern, einschlie\u00dflich Verschl\u00fcsselungsverfahren, Zugangssteuerungen und der Einhaltung von rechtlichen Anforderungen wie HIPAA? Ich w\u00fcrde mich sehr freuen, wenn Sie Informationen zu Verschl\u00fcsselungsverfahren, Zugangssteuerungen und der Einhaltung rechtlicher Anforderungen wie HIPAA bereitstellen k\u00f6nnten. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung My name is Elena Ivanova.. Ich blicke darauf hinaus, von Ihnen bald wieder zu h\u00f6ren. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        815,
+        828
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        907,
+        929
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Sicherheit von medizinischen Datenspeicherungen\n\nSehr geehrte Kundenservice-Abteilung, ich wende mich an Sie, um zu erfahren, welche Sicherheitsma\u00dfnahmen Sie f\u00fcr die Speicherung medizinischer Daten auf Windows und AWS vorschlagen. K\u00f6nnten Sie mir bitte eine Zusammenfassung der besten Praktiken zur Gew\u00e4hrleistung von Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen liefern, einschlie\u00dflich Verschl\u00fcsselungsverfahren, Zugangssteuerungen und der Einhaltung von rechtlichen Anforderungen wie HIPAA? Ich w\u00fcrde mich sehr freuen, wenn Sie Informationen zu Verschl\u00fcsselungsverfahren, Zugangssteuerungen und der Einhaltung rechtlicher Anforderungen wie HIPAA bereitstellen k\u00f6nnten. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung My name is [full_name].. Ich blicke darauf hinaus, von Ihnen bald wieder zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

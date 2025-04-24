@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Security Protocols for Medical Data Storage and Transfer\n\nHello Customer Support, I am contacting you to request information regarding the optimal security measures for safeguarding medical data during storage and transmission. Given the sensitive and confidential nature of medical information, it is imperative to employ robust protection methods. Could you kindly share the best practices and protocols for securing medical data? Your advice and suggestions would be greatly appreciated You can reach me at fatima.farsi@help.com.. Thank you for your time and support My name is David Kim.. I am eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        601,
+        610
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        530,
+        551
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Security Protocols for Medical Data Storage and Transfer\n\nHello Customer Support, I am contacting you to request information regarding the optimal security measures for safeguarding medical data during storage and transmission. Given the sensitive and confidential nature of medical information, it is imperative to employ robust protection methods. Could you kindly share the best practices and protocols for securing medical data? Your advice and suggestions would be greatly appreciated You can reach me at [email].. Thank you for your time and support My name is [full_name].. I am eagerly awaiting your response.",
+  "category_of_the_email": "Request"
+}

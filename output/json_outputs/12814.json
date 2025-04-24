@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Dashboard Freezing\n\nThe investment analytics dashboard was unable to visualize data properly due to a lack of resources in the Cassandra 4.0 database. After restarting the server and reviewing SQL connections, the issue still exists You can reach me at omar.hassan@secure.net.. Assistance is needed to fix this and ensure the dashboard operates smoothly. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        286,
+        308
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Dashboard Freezing\n\nThe investment analytics dashboard was unable to visualize data properly due to a lack of resources in the Cassandra 4.0 database. After restarting the server and reviewing SQL connections, the issue still exists You can reach me at [email].. Assistance is needed to fix this and ensure the dashboard operates smoothly. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

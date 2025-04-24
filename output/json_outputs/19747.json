@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Secure Medical Data Protocols\n\nIs it possible to provide guidelines for securing medical data with Oracle Database 19c in a hospital IT environment? Thank you.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        206
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Secure Medical Data Protocols\n\nIs it possible to provide guidelines for securing medical data with Oracle Database 19c in a hospital IT environment? Thank you.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erh\u00f6hen Sie den Funktionalit\u00e4t des Projekt-Desktops durch benutzerdefinierte Widgets\n\nSehr geehrte Kundenservice, ich hoffe, es geht Ihnen gut. Ich m\u00f6chte vorschlagen, dass wir den aktuellen Projekt-Desktop durch benutzerdefinierte Widgets erweitern, um Flexibilit\u00e4t und Anpassungsf\u00e4higkeit zu erh\u00f6hen. Der aktuelle Desktop ist praktisch, aber er k\u00f6nnte den individuellen Bed\u00fcrfnissen der Benutzer noch besser gerecht werden. Benutzerdefinierte Widgets w\u00fcrden es Benutzern erm\u00f6glichen, ihre wichtigsten Funktionen priorisierend an den Desktop anzupassen, was die Benutzerzufriedenheit und die Produktivit\u00e4t potenziell erh\u00f6hen k\u00f6nnte My name is Jane Smith.. Dar\u00fcber hinaus k\u00f6nnten diese Widgets zur \u00dcberwachung wichtiger Leistungsindikatoren beitragen, die in Echtzeit aktualisiert werden, was f\u00fcr informierte Entscheidungen hilfreich ist. Ich bin der Meinung, dass dieses Vorschlag einen wichtigen Fortschritt in Richtung eines individuell angepassten und effizienteren Benutzererlebnisses darstellt. Ich freue mich darauf, Ihre Meinung zu diesem Vorschlag zu h\u00f6ren und m\u00f6gliche Umsetzungswege zu besprechen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit und Ihre \u00dcberlegungen. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        653,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1198,
+        1216
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Erh\u00f6hen Sie den Funktionalit\u00e4t des Projekt-Desktops durch benutzerdefinierte Widgets\n\nSehr geehrte Kundenservice, ich hoffe, es geht Ihnen gut. Ich m\u00f6chte vorschlagen, dass wir den aktuellen Projekt-Desktop durch benutzerdefinierte Widgets erweitern, um Flexibilit\u00e4t und Anpassungsf\u00e4higkeit zu erh\u00f6hen. Der aktuelle Desktop ist praktisch, aber er k\u00f6nnte den individuellen Bed\u00fcrfnissen der Benutzer noch besser gerecht werden. Benutzerdefinierte Widgets w\u00fcrden es Benutzern erm\u00f6glichen, ihre wichtigsten Funktionen priorisierend an den Desktop anzupassen, was die Benutzerzufriedenheit und die Produktivit\u00e4t potenziell erh\u00f6hen k\u00f6nnte My name is [full_name].. Dar\u00fcber hinaus k\u00f6nnten diese Widgets zur \u00dcberwachung wichtiger Leistungsindikatoren beitragen, die in Echtzeit aktualisiert werden, was f\u00fcr informierte Entscheidungen hilfreich ist. Ich bin der Meinung, dass dieses Vorschlag einen wichtigen Fortschritt in Richtung eines individuell angepassten und effizienteren Benutzererlebnisses darstellt. Ich freue mich darauf, Ihre Meinung zu diesem Vorschlag zu h\u00f6ren und m\u00f6gliche Umsetzungswege zu besprechen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit und Ihre \u00dcberlegungen. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

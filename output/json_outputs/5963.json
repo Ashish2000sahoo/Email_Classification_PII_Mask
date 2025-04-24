@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr IT-Betriebsunterst\u00fctzung\n\nEin autorisierter Zugangversuch zu den IT-Systemen des Krankenhauses wurde festgestellt, der die Verarbeitung medizinischer Daten potenziell gef\u00e4hrden k\u00f6nnte. Obwohl die Anwendungen aktualisiert und die Netzwerksicherheitsprotokolle gepr\u00fcft wurden, besteht das Problem weiterhin.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        366
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr IT-Betriebsunterst\u00fctzung\n\nEin autorisierter Zugangversuch zu den IT-Systemen des Krankenhauses wurde festgestellt, der die Verarbeitung medizinischer Daten potenziell gef\u00e4hrden k\u00f6nnte. Obwohl die Anwendungen aktualisiert und die Netzwerksicherheitsprotokolle gepr\u00fcft wurden, besteht das Problem weiterhin.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

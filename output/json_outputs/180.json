@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Healthcare Access Concern\n\nI am encountering an undesired medical data access denial scenario. My login credentials have suddenly stopped working, which might be related to a change in password policies My name is John Doe.. Despite restarting my device, verifying my credentials, and referring to the user manual, the problem remains unresolved. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        231
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        379,
+        400
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Healthcare Access Concern\n\nI am encountering an undesired medical data access denial scenario. My login credentials have suddenly stopped working, which might be related to a change in password policies My name is [full_name].. Despite restarting my device, verifying my credentials, and referring to the user manual, the problem remains unresolved. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

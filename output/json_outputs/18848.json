@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Investment Optimization Issues\n\nDear Support Team, <br>Our investment optimization algorithm is producing inconsistent results, which may be due to outdated data sources. Despite recalibrating the algorithm and refreshing data feeds, the problem persists My name is Carlos Mendoza.. We would greatly appreciate your assistance in resolving this matter, as it is affecting our investment decisions. Please let us know the next steps to address this issue. <br>Thank you for your support You can reach me at omar.hassan@secure.net.. <br>Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        524,
+        546
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Investment Optimization Issues\n\nDear Support Team, <br>Our investment optimization algorithm is producing inconsistent results, which may be due to outdated data sources. Despite recalibrating the algorithm and refreshing data feeds, the problem persists My name is [full_name].. We would greatly appreciate your assistance in resolving this matter, as it is affecting our investment decisions. Please let us know the next steps to address this issue. <br>Thank you for your support You can reach me at [email].. <br>Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

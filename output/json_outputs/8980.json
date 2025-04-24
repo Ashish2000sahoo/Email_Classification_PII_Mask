@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Specifications for SaaS Tool\n\nHi Customer Support, I am writing to request detailed system requirements for your SaaS project management tool to ensure optimal performance. Could you please supply the necessary information regarding the recommended hardware and software specifications? I want to make sure my equipment meets the requirements to prevent any compatibility issues You can reach me at elena.ivanova@support.org.. Specifically, I need to know the minimum and recommended requirements for the operating system, processor, memory, and storage. Are there any specific browser or plugin requirements as well? Additionally, any tips for optimizing the performance of the tool would be greatly appreciated. Thanks for your assistance, and I eagerly await your response My name is Jane Smith.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        803,
+        813
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        415,
+        440
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: System Specifications for SaaS Tool\n\nHi Customer Support, I am writing to request detailed system requirements for your SaaS project management tool to ensure optimal performance. Could you please supply the necessary information regarding the recommended hardware and software specifications? I want to make sure my equipment meets the requirements to prevent any compatibility issues You can reach me at [email].. Specifically, I need to know the minimum and recommended requirements for the operating system, processor, memory, and storage. Are there any specific browser or plugin requirements as well? Additionally, any tips for optimizing the performance of the tool would be greatly appreciated. Thanks for your assistance, and I eagerly await your response My name is [full_name].. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

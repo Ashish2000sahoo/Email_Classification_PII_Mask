@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Request for Performance Issues\n\nThe SaaS platform is currently facing notable performance delays, likely related to recent software upgrades and a higher user volume.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Performance Issues\n\nThe SaaS platform is currently facing notable performance delays, likely related to recent software upgrades and a higher user volume.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

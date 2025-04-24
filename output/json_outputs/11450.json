@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zum Problem mit der Projekt-Datensynchronisation\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um ein Problem mit der Projekt-Datensynchronisation zu melden. Der Synchronisationsprozess ist unerwartet fehlgeschlagen, und wir k\u00f6nnen das Problem trotz unserer Bem\u00fchungen nicht selbst beheben My name is Fatima Al-Farsi.. Unsere Untersuchung deutet darauf hin, dass die neueste Aktualisierung des Redis 6.2 Caches der wahrscheinliche Ursache des Problems ist. Wir haben die Dienste neu gestartet und die Systemprotokolle gepr\u00fcft, leider ohne Erfolg. Die Synchronisation der Daten hat bedeutende Auswirkungen auf unser Projekt, und wir ben\u00f6tigen dringend Ihre Hilfe, um dieses Problem zu l\u00f6sen. K\u00f6nnten Sie bitte nach diesem Problem recherchieren und uns eine L\u00f6sung oder Anleitungen zur weiteren Vorgehensweise geben? Wir w\u00fcrden jede Hilfe sch\u00e4tzen, um unser Projekt wieder auf den richtigen Weg zu bringen You can reach me at fatima.farsi@help.com.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        946,
+        967
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zum Problem mit der Projekt-Datensynchronisation\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um ein Problem mit der Projekt-Datensynchronisation zu melden. Der Synchronisationsprozess ist unerwartet fehlgeschlagen, und wir k\u00f6nnen das Problem trotz unserer Bem\u00fchungen nicht selbst beheben My name is [full_name]-Farsi.. Unsere Untersuchung deutet darauf hin, dass die neueste Aktualisierung des Redis 6.2 Caches der wahrscheinliche Ursache des Problems ist. Wir haben die Dienste neu gestartet und die Systemprotokolle gepr\u00fcft, leider ohne Erfolg. Die Synchronisation der Daten hat bedeutende Auswirkungen auf unser Projekt, und wir ben\u00f6tigen dringend Ihre Hilfe, um dieses Problem zu l\u00f6sen. K\u00f6nnten Sie bitte nach diesem Problem recherchieren und uns eine L\u00f6sung oder Anleitungen zur weiteren Vorgehensweise geben? Wir w\u00fcrden jede Hilfe sch\u00e4tzen, um unser Projekt wieder auf den richtigen Weg zu bringen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

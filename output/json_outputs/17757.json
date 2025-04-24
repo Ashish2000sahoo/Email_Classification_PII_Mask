@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello customer support, I am interested in learning more about digital marketing strategies My name is Sophia Rossi.. Could you provide details on how to integrate the listed products? Your approach in benefiting our business is of great interest. Please provide any relevant information or resources to help me understand the strategies better. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        126
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        376,
+        393
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello customer support, I am interested in learning more about digital marketing strategies My name is [full_name].. Could you provide details on how to integrate the listed products? Your approach in benefiting our business is of great interest. Please provide any relevant information or resources to help me understand the strategies better. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

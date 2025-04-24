@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versicherung der medizinischen Datenverwaltung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um zu erkundigen, welche gesetzlichen Sicherheitsrichtlinien f\u00fcr die Datenspeicherung in medizinischer Hinsicht auf unseren Netzwerkkomponenten gelten. Da wir vertrauliche medizinische Informationen verwalteten, ist es prim\u00e4r wichtig, die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit dieser Daten zu gew\u00e4hrleisten You can reach me at omar.hassan@secure.net.. Ich w\u00fcrde gerne erfahren, welche Schritte wir unternehmen k\u00f6nnen, um unsere medizinischen Daten vor unbefugtem Zugriff, Verletzungen und andere Sicherheitsbedrohungen zu sch\u00fctzen. K\u00f6nnten Sie mir bitte Informationen zu den besten Praktiken f\u00fcr die Sicherung medizinischer Daten auf unseren Netzwerkkomponenten geben? Ich w\u00fcrde jede Anleitung oder Empfehlung, die Sie mir geben k\u00f6nnen, sehr sch\u00e4tzen. Ich dank Ihnen im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        934,
+        947
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        440,
+        462
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Versicherung der medizinischen Datenverwaltung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um zu erkundigen, welche gesetzlichen Sicherheitsrichtlinien f\u00fcr die Datenspeicherung in medizinischer Hinsicht auf unseren Netzwerkkomponenten gelten. Da wir vertrauliche medizinische Informationen verwalteten, ist es prim\u00e4r wichtig, die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit dieser Daten zu gew\u00e4hrleisten You can reach me at [email].. Ich w\u00fcrde gerne erfahren, welche Schritte wir unternehmen k\u00f6nnen, um unsere medizinischen Daten vor unbefugtem Zugriff, Verletzungen und andere Sicherheitsbedrohungen zu sch\u00fctzen. K\u00f6nnten Sie mir bitte Informationen zu den besten Praktiken f\u00fcr die Sicherung medizinischer Daten auf unseren Netzwerkkomponenten geben? Ich w\u00fcrde jede Anleitung oder Empfehlung, die Sie mir geben k\u00f6nnen, sehr sch\u00e4tzen. Ich dank Ihnen im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

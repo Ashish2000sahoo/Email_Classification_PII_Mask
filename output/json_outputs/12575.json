@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nErfahrungen mit unautorisierten Zugriffsbem\u00fchungen auf vertrauliche medizinische Daten wurden gemacht My name is Omar Hassan.. M\u00f6glicherweise sind veraltete Sicherheitsprotokolle der Ursache You can reach me at liuwei@business.cn.. Zugriffslogs wurden durchgesehen, Passw\u00f6rter aktualisiert, aber die Probleme blieben bestehen. Bitte untersuchen Sie die Sache h\u00f6flich und unterst\u00fctzen Sie uns, um die L\u00f6sung des Problems zu finden, weitere Verletzungen zu vermeiden und die Sicherheit unserer medizinischen Daten zu gew\u00e4hrleisten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        124,
+        135
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        222,
+        240
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nErfahrungen mit unautorisierten Zugriffsbem\u00fchungen auf vertrauliche medizinische Daten wurden gemacht My name is [full_name].. M\u00f6glicherweise sind veraltete Sicherheitsprotokolle der Ursache You can reach me at [email].. Zugriffslogs wurden durchgesehen, Passw\u00f6rter aktualisiert, aber die Probleme blieben bestehen. Bitte untersuchen Sie die Sache h\u00f6flich und unterst\u00fctzen Sie uns, um die L\u00f6sung des Problems zu finden, weitere Verletzungen zu vermeiden und die Sicherheit unserer medizinischen Daten zu gew\u00e4hrleisten.",
+  "category_of_the_email": "Incident"
+}

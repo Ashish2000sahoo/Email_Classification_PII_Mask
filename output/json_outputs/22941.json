@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inconsistent Billing Issue with AWS Management\n\nDear Customer Support Team,\n\nI am writing to request assistance with inconsistent billing seen on our AWS Management Service account <acc_num>. We suspect that suboptimal resource allocation may be the cause and need guidance on efficient cost management strategies You can reach me at fatima.farsi@help.com.. Your timely help to optimize costs would be greatly appreciated My name is Elena Ivanova.. Please reach out to me at <tel_num> or email <email>.\n\nThank you,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        455
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        343,
+        364
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Inconsistent Billing Issue with AWS Management\n\nDear Customer Support Team,\n\nI am writing to request assistance with inconsistent billing seen on our AWS Management Service account <acc_num>. We suspect that suboptimal resource allocation may be the cause and need guidance on efficient cost management strategies You can reach me at [email].. Your timely help to optimize costs would be greatly appreciated My name is [full_name].. Please reach out to me at <tel_num> or email <email>.\n\nThank you,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

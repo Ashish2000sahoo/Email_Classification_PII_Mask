@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Request for Change in Data Analytics Infrastructure\n\nDear Customer Support, I am writing urgently to request changes to enhance our data analytics infrastructure My name is Liu Wei.. These changes are essential to optimize our investments and address recent service outages that have affected multiple products, resulting in significant financial losses and disruptions to our operations. I would like to request that the necessary updates be implemented as soon as possible to prevent any further outages and ensure the continuity of our services You can reach me at johndoe@email.com.. Please let me know if there are any additional steps required and the information I need to provide.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        588,
+        605
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Request for Change in Data Analytics Infrastructure\n\nDear Customer Support, I am writing urgently to request changes to enhance our data analytics infrastructure My name is [full_name].. These changes are essential to optimize our investments and address recent service outages that have affected multiple products, resulting in significant financial losses and disruptions to our operations. I would like to request that the necessary updates be implemented as soon as possible to prevent any further outages and ensure the continuity of our services You can reach me at [email].. Please let me know if there are any additional steps required and the information I need to provide.",
+  "category_of_the_email": "Incident"
+}

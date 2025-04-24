@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Services for Securing Medical Data\n\ninquiring about services to secure medical data in hospital systems You can reach me at liuwei@business.cn.. Please provide details on the types of security measures offered, such as encryption and access control. It would be greatly appreciated if you could share relevant case studies and testimonials from previous clients in the healthcare industry. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        410,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        133,
+        151
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Services for Securing Medical Data\n\ninquiring about services to secure medical data in hospital systems You can reach me at [email].. Please provide details on the types of security measures offered, such as encryption and access control. It would be greatly appreciated if you could share relevant case studies and testimonials from previous clients in the healthcare industry. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

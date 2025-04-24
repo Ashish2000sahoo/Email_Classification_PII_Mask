@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Required for Potential Data Breach\n\nA potential data breach has been detected in the hospital system. An attempt has been made to update the security software and review access logs.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        238
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Potential Data Breach\n\nA potential data breach has been detected in the hospital system. An attempt has been made to update the security software and review access logs.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

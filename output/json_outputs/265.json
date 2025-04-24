@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Financial Tool Processing Data Analytics\n\nThe investment optimization tool used by the financial firm accurately processes data analytics. The problem might have arisen due to a recent software update configuration issue My name is Fatima Al-Farsi.. Steps such as restarting affected applications and verifying network connectivity via the VPN-router have been taken, but the issue persists. Your prompt assistance in resolving this issue would be greatly appreciated to minimize any potential losses. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        544,
+        567
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Financial Tool Processing Data Analytics\n\nThe investment optimization tool used by the financial firm accurately processes data analytics. The problem might have arisen due to a recent software update configuration issue My name is [full_name]-Farsi.. Steps such as restarting affected applications and verifying network connectivity via the VPN-router have been taken, but the issue persists. Your prompt assistance in resolving this issue would be greatly appreciated to minimize any potential losses. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

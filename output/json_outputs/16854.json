@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unbefugtes Zugriffskontrollversuch im Krankenhaus-IT-System festgestellt\n\nEs wurde ein Zugriffskontrollversuch auf das Krankenhaus-IT-System erkannt You can reach me at david.kim@corp.kr.. Es k\u00f6nnte mangelnde Sicherheitskonfigurationen dahinterstecken. Die \u00dcberwachung wurde verst\u00e4rkt, und die Zugangsdaten wurden ge\u00e4ndert. Erste Ma\u00dfnahmen wurden getroffen, um das System sicherzustellen, aber wir ben\u00f6tigen Ihre Hilfe, um die Sicherheitsstellungen zu \u00fcberpr\u00fcfen und sicherzustellen, dass das System sicher ist. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        532,
+        543
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        178,
+        195
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Unbefugtes Zugriffskontrollversuch im Krankenhaus-IT-System festgestellt\n\nEs wurde ein Zugriffskontrollversuch auf das Krankenhaus-IT-System erkannt You can reach me at [email].. Es k\u00f6nnte mangelnde Sicherheitskonfigurationen dahinterstecken. Die \u00dcberwachung wurde verst\u00e4rkt, und die Zugangsdaten wurden ge\u00e4ndert. Erste Ma\u00dfnahmen wurden getroffen, um das System sicherzustellen, aber wir ben\u00f6tigen Ihre Hilfe, um die Sicherheitsstellungen zu \u00fcberpr\u00fcfen und sicherzustellen, dass das System sicher ist. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

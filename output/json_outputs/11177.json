@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Absturz von CyberLink PowerDirector 19\n\nIch habe CyberLink PowerDirector 19 installiert, nachdem eine neuere Grafikkartendriver-aktualisierung ausgef\u00fchrt wurde, und der Software ist seitdem ein Absturz begegnet. Nach dem Wiederverbinden und der Aktualisierung der Driver wurde der Fehler jedoch nicht behoben.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        356
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Absturz von CyberLink PowerDirector 19\n\nIch habe CyberLink PowerDirector 19 installiert, nachdem eine neuere Grafikkartendriver-aktualisierung ausgef\u00fchrt wurde, und der Software ist seitdem ein Absturz begegnet. Nach dem Wiederverbinden und der Aktualisierung der Driver wurde der Fehler jedoch nicht behoben.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

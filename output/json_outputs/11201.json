@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Meldung eines Fehlers im Datensicherungssystem\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen Fehler in unserem Datensicherungssystem zu melden. Das Problem trat pl\u00f6tzlich auf, und wir sind unsicher, welcher Ursache es zugeschrieben werden kann. Wir vermuten, dass es sich m\u00f6glicherweise um einen Softwarefehler oder ein Updateproblem handelt. Trotz unserer gr\u00f6\u00dften Bem\u00fchungen, das Problem zu l\u00f6sen, besteht es weiterhin You can reach me at omar.hassan@secure.net.. Bislang haben wir versucht, die Systeme zu neustarten und nach verf\u00fcgbaren Updates zu suchen, ohne Erfolg. Der Datensicherungsausfall hat signifikante St\u00f6rungen unserer Betriebsprozesse verursacht, und wir sind eifrig darum bem\u00fcht, eine L\u00f6sung so schnell wie m\u00f6glich zu finden. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dringend um dieses Problem k\u00fcmmern und uns eine L\u00f6sung oder zumindest eine Erkl\u00e4rung f\u00fcr die Ursache des Problems anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, wenn weitere Informationen von Ihnen ben\u00f6tigt werden, um die Untersuchung voranzutreiben My name is David Kim.. Ich stehe Ihnen gerne zur Verf\u00fcgung, um dies weiter zu besprechen und notwendige Details zu liefern. Vielen Dank f\u00fcr Ihre rasche Aufmerksamkeit an diesem Thema. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Herzliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1063,
+        1072
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        461,
+        483
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Meldung eines Fehlers im Datensicherungssystem\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um einen Fehler in unserem Datensicherungssystem zu melden. Das Problem trat pl\u00f6tzlich auf, und wir sind unsicher, welcher Ursache es zugeschrieben werden kann. Wir vermuten, dass es sich m\u00f6glicherweise um einen Softwarefehler oder ein Updateproblem handelt. Trotz unserer gr\u00f6\u00dften Bem\u00fchungen, das Problem zu l\u00f6sen, besteht es weiterhin You can reach me at [email].. Bislang haben wir versucht, die Systeme zu neustarten und nach verf\u00fcgbaren Updates zu suchen, ohne Erfolg. Der Datensicherungsausfall hat signifikante St\u00f6rungen unserer Betriebsprozesse verursacht, und wir sind eifrig darum bem\u00fcht, eine L\u00f6sung so schnell wie m\u00f6glich zu finden. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dringend um dieses Problem k\u00fcmmern und uns eine L\u00f6sung oder zumindest eine Erkl\u00e4rung f\u00fcr die Ursache des Problems anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, wenn weitere Informationen von Ihnen ben\u00f6tigt werden, um die Untersuchung voranzutreiben My name is [full_name].. Ich stehe Ihnen gerne zur Verf\u00fcgung, um dies weiter zu besprechen und notwendige Details zu liefern. Vielen Dank f\u00fcr Ihre rasche Aufmerksamkeit an diesem Thema. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Herzliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

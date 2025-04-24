@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Niedriges Engagement in der letzten Marketing-Kampagne\n\nDie letzte Kampagne zeigte eine niedrige Engagement- und Konvertierungsrate. Daten wurden analysiert und Zielgruppensegmente angepasst, wobei Verbesserungen festgestellt wurden.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        280
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Niedriges Engagement in der letzten Marketing-Kampagne\n\nDie letzte Kampagne zeigte eine niedrige Engagement- und Konvertierungsrate. Daten wurden analysiert und Zielgruppensegmente angepasst, wobei Verbesserungen festgestellt wurden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

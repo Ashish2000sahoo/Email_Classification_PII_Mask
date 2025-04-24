@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: User Interface Glitch Report\n\nDescription: Experienced a glitch with the user interface on the project dashboard. It may have occurred because of a recent update or browser compatibility issues You can reach me at david.kim@corp.kr.. Actions Taken: Tried refreshing the page and clearing the browser cache. However, the issue is still ongoing and I require help to fix it. I eagerly await your guidance and a quick resolution to this problem My name is Fatima Al-Farsi.. Thank you for your support and I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        223,
+        240
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: User Interface Glitch Report\n\nDescription: Experienced a glitch with the user interface on the project dashboard. It may have occurred because of a recent update or browser compatibility issues You can reach me at [email].. Actions Taken: Tried refreshing the page and clearing the browser cache. However, the issue is still ongoing and I require help to fix it. I eagerly await your guidance and a quick resolution to this problem My name is [full_name]-Farsi.. Thank you for your support and I look forward to your prompt response.",
+  "category_of_the_email": "Incident"
+}

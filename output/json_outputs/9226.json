@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Integrating Slack with Adobe Effects\n\nSeeking details on how to integrate Slack with Adobe Effects to enhance collaboration in marketing projects My name is Fatima Al-Farsi.. Aim is to streamline workflow and improve communication among team members. Any guidance or resources provided would be highly appreciated. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        358,
+        375
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Integrating Slack with Adobe Effects\n\nSeeking details on how to integrate Slack with Adobe Effects to enhance collaboration in marketing projects My name is [full_name]-Farsi.. Aim is to streamline workflow and improve communication among team members. Any guidance or resources provided would be highly appreciated. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

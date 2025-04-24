@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reduce Digital Engagement\n\nOur agency is facing a decline in engagement for digital campaigns My name is John Doe.. An investigation has revealed a potential misalignment between the target audience and the messaging You can reach me at elena.ivanova@support.org.. We have made efforts to revise the content and adjust the targeting to improve results, but we need assistance in identifying the root cause and implementing effective solutions to boost engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        122
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        249,
+        274
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Reduce Digital Engagement\n\nOur agency is facing a decline in engagement for digital campaigns My name is [full_name].. An investigation has revealed a potential misalignment between the target audience and the messaging You can reach me at [email].. We have made efforts to revise the content and adjust the targeting to improve results, but we need assistance in identifying the root cause and implementing effective solutions to boost engagement.",
+  "category_of_the_email": "Problem"
+}

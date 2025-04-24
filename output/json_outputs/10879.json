@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem with Software Crashes in Steinberg Cubase 11 and Adobe Premiere Pro 2021\n\nFacing software crashes with Steinberg Cubase 11 and Adobe Premiere Pro 2021 during project rendering My name is Elena Ivanova.. The issue might be related to recent updates or compatibility problems with PHP 8.0 You can reach me at carlosm@gmail.com.. Reinstalling the software and updating drivers could be a solution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        217
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        322,
+        339
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        85,
+        89
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        163,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem with Software Crashes in Steinberg Cubase 11 and Adobe Premiere Pro [phone_number]\n\nFacing software crashes with Steinberg Cubase 11 and Adobe Premiere Pro [phone_number] during project rendering My name is [full_name].. The issue might be related to recent updates or compatibility problems with PHP 8.0 You can reach me at [email].. Reinstalling the software and updating drivers could be a solution.",
+  "category_of_the_email": "Incident"
+}

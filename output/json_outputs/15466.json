@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach Analysewerkzeugen\n\nIch schreibe, um nach den Analysewerkzeugen zu fragen, die es erm\u00f6glichen, Investitionsportfolios durch die Integration von Elasticsearch und Smart-T\u00fcrklingel-Daten zu optimieren My name is Carlos Mendoza.. K\u00f6nnten Sie mir bitte Informationen zu den verf\u00fcgbaren Werkzeugen und deren Funktionen geben? Ich m\u00f6chte gerne mehr dar\u00fcber erfahren, wie diese Werkzeuge mir dabei helfen k\u00f6nnen, informierte Investitionsentscheidungen zu treffen You can reach me at fatima.farsi@help.com.. Dar\u00fcber hinaus w\u00fcrde ich eine Anleitung zur Integration dieser Werkzeuge in meine bestehenden Systeme sehr sch\u00e4tzen. Ich danke Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        245
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        494,
+        515
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Analysewerkzeugen\n\nIch schreibe, um nach den Analysewerkzeugen zu fragen, die es erm\u00f6glichen, Investitionsportfolios durch die Integration von Elasticsearch und Smart-T\u00fcrklingel-Daten zu optimieren My name is [full_name].. K\u00f6nnten Sie mir bitte Informationen zu den verf\u00fcgbaren Werkzeugen und deren Funktionen geben? Ich m\u00f6chte gerne mehr dar\u00fcber erfahren, wie diese Werkzeuge mir dabei helfen k\u00f6nnen, informierte Investitionsentscheidungen zu treffen You can reach me at [email].. Dar\u00fcber hinaus w\u00fcrde ich eine Anleitung zur Integration dieser Werkzeuge in meine bestehenden Systeme sehr sch\u00e4tzen. Ich danke Ihnen f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

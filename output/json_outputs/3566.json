@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Anmeldung in verschiedenen Produkten\n\nSehr geehrte Kundensupport, ich erlidle aktuell Anmeldeprobleme bei mehreren Produkten. Dies scheint auf \u00dcberlastung der Server und Authentifizierungsfehler zur\u00fcckzuf\u00fchren sein. Ich habe bereits versucht, das Passwort zur\u00fcckzusetzen und den Cache zu l\u00f6schen, aber dies hat leider nicht geholfen. Ich habe verschiedene Schritte unternommen, um das Problem zu l\u00f6sen, aber es beh\u00e4lt trotzdem hartn\u00e4ckig an You can reach me at david.kim@corp.kr.. Ich sch\u00e4tze, Sie k\u00f6nnten mir eine schnelle L\u00f6sung bieten. Bitte teilen Sie mir zus\u00e4tzliche Informationen zu, die f\u00fcr das Problem n\u00fctzlich sein k\u00f6nnten My name is Omar Hassan.. Ich freue mich auf Ihre baldige R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        669,
+        680
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        487,
+        504
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Anmeldung in verschiedenen Produkten\n\nSehr geehrte Kundensupport, ich erlidle aktuell Anmeldeprobleme bei mehreren Produkten. Dies scheint auf \u00dcberlastung der Server und Authentifizierungsfehler zur\u00fcckzuf\u00fchren sein. Ich habe bereits versucht, das Passwort zur\u00fcckzusetzen und den Cache zu l\u00f6schen, aber dies hat leider nicht geholfen. Ich habe verschiedene Schritte unternommen, um das Problem zu l\u00f6sen, aber es beh\u00e4lt trotzdem hartn\u00e4ckig an You can reach me at [email].. Ich sch\u00e4tze, Sie k\u00f6nnten mir eine schnelle L\u00f6sung bieten. Bitte teilen Sie mir zus\u00e4tzliche Informationen zu, die f\u00fcr das Problem n\u00fctzlich sein k\u00f6nnten My name is [full_name].. Ich freue mich auf Ihre baldige R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

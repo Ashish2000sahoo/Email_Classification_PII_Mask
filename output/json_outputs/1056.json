@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Synchronization Process\n\nDear Customer Support, we are encountering issues with data synchronization across various platforms. These problems seem to arise from recent software updates and server connection issues. We have attempted several steps to resolve the issue, including restarting applications and restoring network connections, but the problem persists My name is Liu Wei.. Various measures have been taken, but the problem remains unresolved. The data synchronization issue is causing uncertainty in reports and analyses. We value your prompt attention to this matter and would appreciate it if you could provide a quick solution You can reach me at elena.ivanova@support.org.. Please let us know if you need more details on the recent software updates or server connection issues. If further assistance is required, please provide your preferred time for a call to gather additional information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        690,
+        715
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Synchronization Process\n\nDear Customer Support, we are encountering issues with data synchronization across various platforms. These problems seem to arise from recent software updates and server connection issues. We have attempted several steps to resolve the issue, including restarting applications and restoring network connections, but the problem persists My name is [full_name].. Various measures have been taken, but the problem remains unresolved. The data synchronization issue is causing uncertainty in reports and analyses. We value your prompt attention to this matter and would appreciate it if you could provide a quick solution You can reach me at [email].. Please let us know if you need more details on the recent software updates or server connection issues. If further assistance is required, please provide your preferred time for a call to gather additional information.",
+  "category_of_the_email": "Incident"
+}

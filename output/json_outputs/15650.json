@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich interessiere mich f\u00fcr die Dienstleistungen bez\u00fcglich der Sicherung medizinischer Daten im IT-Umfeld von Krankenh\u00e4usern. K\u00f6nnten Sie mir Informationen geben, wie Sie Sicherheitsma\u00dfnahmen einsetzen, wie Verschl\u00fcsselung, Zugriffskontrolle und Backupsysteme funktionieren? Es w\u00e4re sehr hilfreich, wenn Sie Details zu Compliance-Zertifikaten wie HIPAA geben k\u00f6nnten. Ich m\u00f6chte auch erfahren, wie Sie Erfahrungen mit Krankenh\u00e4usern und Gesundheitsorganisationen sammeln und ob Sie Fallstudien und Referenzen zur Verf\u00fcgung stellen k\u00f6nnten My name is John Doe.. Ich freue mich darauf, mehr \u00fcber Ihre Dienstleistungen zu erfahren, insbesondere wie Sie sensiblen medizinischen Daten sch\u00fctzen You can reach me at fatima.farsi@help.com.. Bitte teilen Sie mir mit, wenn Sie Zeit f\u00fcr einen Anruf haben, um dies zu besprechen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        582,
+        590
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        744,
+        765
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich interessiere mich f\u00fcr die Dienstleistungen bez\u00fcglich der Sicherung medizinischer Daten im IT-Umfeld von Krankenh\u00e4usern. K\u00f6nnten Sie mir Informationen geben, wie Sie Sicherheitsma\u00dfnahmen einsetzen, wie Verschl\u00fcsselung, Zugriffskontrolle und Backupsysteme funktionieren? Es w\u00e4re sehr hilfreich, wenn Sie Details zu Compliance-Zertifikaten wie HIPAA geben k\u00f6nnten. Ich m\u00f6chte auch erfahren, wie Sie Erfahrungen mit Krankenh\u00e4usern und Gesundheitsorganisationen sammeln und ob Sie Fallstudien und Referenzen zur Verf\u00fcgung stellen k\u00f6nnten My name is [full_name].. Ich freue mich darauf, mehr \u00fcber Ihre Dienstleistungen zu erfahren, insbesondere wie Sie sensiblen medizinischen Daten sch\u00fctzen You can reach me at [email].. Bitte teilen Sie mir mit, wenn Sie Zeit f\u00fcr einen Anruf haben, um dies zu besprechen.",
+  "category_of_the_email": "Request"
+}

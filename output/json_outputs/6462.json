@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Sudden Project Data Loss\n\nThere was an unexpected loss of project data recently. It might be related to a database synchronization problem You can reach me at carlosm@gmail.com.. Services were restarted and backups checked so far. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        178,
+        195
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Sudden Project Data Loss\n\nThere was an unexpected loss of project data recently. It might be related to a database synchronization problem You can reach me at [email].. Services were restarted and backups checked so far. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

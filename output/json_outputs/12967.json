@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme in der Marketingkampagne\n\nSehr geehrte Kundenservice, ich m\u00f6chte Sie auf ein Problem mit unserer aktuellen Marketingkampagne aufmerksam machen. Trotz unserer Bem\u00fchungen liefert die Kampagne derzeit keine erwarteten Ergebnisse im Internet. Wir haben festgestellt, dass m\u00f6glicherweise die mangelnde Ausrichtung der digitalen Strategie die Ursache dieses Problems ist My name is Sophia Rossi.. Um dies zu beheben, haben wir die Zielgruppen-Einstellungen fl\u00fcchtig angepasst. Allerdings haben wir bisher keine signifikanten Verbesserungen festgestellt. Wir wenden uns an Sie, um Ihr expertenbasiertes Rat und Hilfeschreiben in dieser Angelegenheit einzuholen. K\u00f6nnten Sie bitte in diese Sache einbezogen werden und uns mit Ratschl\u00e4gen und Empfehlungen zur digitalen Strategie-Optimierung unterst\u00fctzen? Wir w\u00fcrden jede Empfehlung oder Vorschlag, den Sie haben, herzlich begr\u00fc\u00dfen You can reach me at johndoe@email.com.. Zus\u00e4tzlich, wenn es spezifische Schritte oder Anpassungen gibt, die wir ergreifen k\u00f6nnen, um die Leistung der Kampagne zu verbessern, melden Sie sich bitte bei uns. Wir freuen uns darauf, von Ihnen zur\u00fcckzuh\u00f6ren und zusammen mit Ihnen an diesem Problem zu arbeiten. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        394,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        910,
+        927
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme in der Marketingkampagne\n\nSehr geehrte Kundenservice, ich m\u00f6chte Sie auf ein Problem mit unserer aktuellen Marketingkampagne aufmerksam machen. Trotz unserer Bem\u00fchungen liefert die Kampagne derzeit keine erwarteten Ergebnisse im Internet. Wir haben festgestellt, dass m\u00f6glicherweise die mangelnde Ausrichtung der digitalen Strategie die Ursache dieses Problems ist My name is [full_name].. Um dies zu beheben, haben wir die Zielgruppen-Einstellungen fl\u00fcchtig angepasst. Allerdings haben wir bisher keine signifikanten Verbesserungen festgestellt. Wir wenden uns an Sie, um Ihr expertenbasiertes Rat und Hilfeschreiben in dieser Angelegenheit einzuholen. K\u00f6nnten Sie bitte in diese Sache einbezogen werden und uns mit Ratschl\u00e4gen und Empfehlungen zur digitalen Strategie-Optimierung unterst\u00fctzen? Wir w\u00fcrden jede Empfehlung oder Vorschlag, den Sie haben, herzlich begr\u00fc\u00dfen You can reach me at [email].. Zus\u00e4tzlich, wenn es spezifische Schritte oder Anpassungen gibt, die wir ergreifen k\u00f6nnen, um die Leistung der Kampagne zu verbessern, melden Sie sich bitte bei uns. Wir freuen uns darauf, von Ihnen zur\u00fcckzuh\u00f6ren und zusammen mit Ihnen an diesem Problem zu arbeiten. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

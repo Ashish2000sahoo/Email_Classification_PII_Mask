@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ensuring Security of Medical Data on Hospital IT Systems\n\nHello Customer Support, I am writing to request information on the security measures that should be taken to protect medical data on our hospital's IT systems and devices My name is Elena Ivanova.. Given that medical data is very sensitive, it is crucial to have robust protection against unauthorized access and data breaches You can reach me at janesmith@company.com.. Could you please advise on the steps we should take to guarantee the confidentiality, integrity, and availability of this data? I am particularly interested in learning about encryption techniques, access restrictions, and network security measures that can be put in place to safeguard the data. I would greatly appreciate any advice or suggestions you can offer. Thank you for your attention and assistance. I am eager to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        249,
+        262
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        412,
+        433
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Ensuring Security of Medical Data on Hospital IT Systems\n\nHello Customer Support, I am writing to request information on the security measures that should be taken to protect medical data on our hospital's IT systems and devices My name is [full_name].. Given that medical data is very sensitive, it is crucial to have robust protection against unauthorized access and data breaches You can reach me at [email].. Could you please advise on the steps we should take to guarantee the confidentiality, integrity, and availability of this data? I am particularly interested in learning about encryption techniques, access restrictions, and network security measures that can be put in place to safeguard the data. I would greatly appreciate any advice or suggestions you can offer. Thank you for your attention and assistance. I am eager to hear from you soon.",
+  "category_of_the_email": "Request"
+}

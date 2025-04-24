@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for ClickUp SQL Server Integration\n\nI am attempting to integrate ClickUp with my SQL Server on a Microsoft Surface Pro 8 My name is Maria Gonzalez.. Could you provide me with the necessary system requirements for this integration? Specifically, I am interested in the minimum and recommended hardware specifications for the device, along with any required software You can reach me at omar.hassan@secure.net.. This information will assist me in ensuring that my device meets the requirements for a smooth integration.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        411,
+        433
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for ClickUp SQL Server Integration\n\nI am attempting to integrate ClickUp with my SQL Server on a Microsoft Surface Pro 8 My name is [full_name].. Could you provide me with the necessary system requirements for this integration? Specifically, I am interested in the minimum and recommended hardware specifications for the device, along with any required software You can reach me at [email].. This information will assist me in ensuring that my device meets the requirements for a smooth integration.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Probleml\u00f6sung\n\nSehr geehrte Kundensupport, ich schreibe anl\u00e4sslich eines Vorfalls mit einem Integrationsfehler zwischen unserem SaaS API und Mailchimp. Der Fehler trat zum Teil aufgrund unkompatibler Updates in Express.js auf You can reach me at liuwei@business.cn.. Ich habe versucht, die Dienste neu zu starten und die API-Protokolle zu \u00fcberpr\u00fcfen, jedoch beh\u00e4lt sich der Fehler bestanden. Es w\u00e4re mir sehr wertvoll, wenn Sie sich mit diesem Problem auseinandersetzen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Die Details des Vorfalls lauten wie folgt: Vorfall: Integrationsfehler, Was passiert ist: SaaS API-Sync-Fehler mit Mailchimp, Warum: Unkompatibler Updates in Express.js, Was versucht wurde: Dienste neu gestartet, API-Protokolle \u00fcberpr\u00fcft. Ich freue mich auf Ihre R\u00fcckmeldung baldigst. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        843,
+        852
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        266,
+        284
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Technische Probleml\u00f6sung\n\nSehr geehrte Kundensupport, ich schreibe anl\u00e4sslich eines Vorfalls mit einem Integrationsfehler zwischen unserem SaaS API und Mailchimp. Der Fehler trat zum Teil aufgrund unkompatibler Updates in Express.js auf You can reach me at [email].. Ich habe versucht, die Dienste neu zu starten und die API-Protokolle zu \u00fcberpr\u00fcfen, jedoch beh\u00e4lt sich der Fehler bestanden. Es w\u00e4re mir sehr wertvoll, wenn Sie sich mit diesem Problem auseinandersetzen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Die Details des Vorfalls lauten wie folgt: Vorfall: Integrationsfehler, Was passiert ist: SaaS API-Sync-Fehler mit Mailchimp, Warum: Unkompatibler Updates in Express.js, Was versucht wurde: Dienste neu gestartet, API-Protokolle \u00fcberpr\u00fcft. Ich freue mich auf Ihre R\u00fcckmeldung baldigst. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

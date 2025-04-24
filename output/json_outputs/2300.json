@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Markenagentur\n\nDie Markenagentur hatte Probleme mit der Verbindung, da die Softwarekompatibilit\u00e4t und der Hardwareversagen die Umsetzung der digitalen Strategie beeintr\u00e4chtigten My name is Carlos Mendoza.. Es wurde notwendig, die Ger\u00e4te neu zu installieren und Anwendungen neu zu installieren You can reach me at elena.ivanova@support.org.. Bislang ist das Problem gel\u00f6st.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        224
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        331,
+        356
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Markenagentur\n\nDie Markenagentur hatte Probleme mit der Verbindung, da die Softwarekompatibilit\u00e4t und der Hardwareversagen die Umsetzung der digitalen Strategie beeintr\u00e4chtigten My name is [full_name].. Es wurde notwendig, die Ger\u00e4te neu zu installieren und Anwendungen neu zu installieren You can reach me at [email].. Bislang ist das Problem gel\u00f6st.",
+  "category_of_the_email": "Incident"
+}

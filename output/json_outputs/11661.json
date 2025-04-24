@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with campaign metrics\n\nI am currently encountering an issue where campaign metrics are not appearing on my Chromebook, which is affecting our agency's performance reports. This problem might be due to incompatible software updates or software conflicts You can reach me at david.kim@corp.kr.. Despite restarting Monday.com, verifying the Outlook sync, and examining the Terraform logs, the issue remains unresolved My name is Maria Gonzalez.. It would be greatly appreciated if you could look into this and provide a solution at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        443,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        290,
+        307
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with campaign metrics\n\nI am currently encountering an issue where campaign metrics are not appearing on my Chromebook, which is affecting our agency's performance reports. This problem might be due to incompatible software updates or software conflicts You can reach me at [email].. Despite restarting Monday.com, verifying the Outlook sync, and examining the Terraform logs, the issue remains unresolved My name is [full_name].. It would be greatly appreciated if you could look into this and provide a solution at your earliest convenience.",
+  "category_of_the_email": "Incident"
+}

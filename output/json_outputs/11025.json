@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Inquiry About Data Security Measures for Hospital Products\n\nSeeking detailed information on the data security measures implemented for the services related to hospital products. Specifically, could you provide insights into the protocols and technologies used to protect sensitive patient data? Encryption methods, access controls, and compliance with relevant regulations would be greatly appreciated.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        449
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Data Security Measures for Hospital Products\n\nSeeking detailed information on the data security measures implemented for the services related to hospital products. Specifically, could you provide insights into the protocols and technologies used to protect sensitive patient data? Encryption methods, access controls, and compliance with relevant regulations would be greatly appreciated.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

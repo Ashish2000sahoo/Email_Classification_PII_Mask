@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investments with Google Cloud\n\nSeeking insights on optimizing investments through Google Cloud Platform, particularly with Elasticsearch for data analytics My name is Elena Ivanova.. Would greatly appreciate any information or resources you could offer. Thank you for your time and assistance. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        199
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        331,
+        348
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investments with Google Cloud\n\nSeeking insights on optimizing investments through Google Cloud Platform, particularly with Elasticsearch for data analytics My name is [full_name].. Would greatly appreciate any information or resources you could offer. Thank you for your time and assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

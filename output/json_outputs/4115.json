@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Campaign Performance Issues on Social Media\n\nThe campaign did not perform well because of low engagement on social media You can reach me at sophia.rossi@service.it.. It seems that the targeting might be insufficient. Despite adjusting the ads, the results remain unsatisfactory. We require your assistance to pinpoint the issue and find ways to enhance engagement. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        386,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        150,
+        173
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Campaign Performance Issues on Social Media\n\nThe campaign did not perform well because of low engagement on social media You can reach me at [email].. It seems that the targeting might be insufficient. Despite adjusting the ads, the results remain unsatisfactory. We require your assistance to pinpoint the issue and find ways to enhance engagement. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Project Management Platform Interruptions\n\nWe have noticed unexpected interruptions with the project management platform. These interruptions are likely due to server overloads from recent code updates. Despite reverting to the previous version and attempting to increase server capacity, the issue persists My name is Carlos Mendoza.. This is causing significant delays in accessing critical project information. We value your prompt attention to this urgent matter and would appreciate a quick resolution You can reach me at sophia.rossi@service.it.. Please inform us if you need additional details to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        342,
+        356
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        547,
+        570
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problems with Project Management Platform Interruptions\n\nWe have noticed unexpected interruptions with the project management platform. These interruptions are likely due to server overloads from recent code updates. Despite reverting to the previous version and attempting to increase server capacity, the issue persists My name is [full_name].. This is causing significant delays in accessing critical project information. We value your prompt attention to this urgent matter and would appreciate a quick resolution You can reach me at [email].. Please inform us if you need additional details to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

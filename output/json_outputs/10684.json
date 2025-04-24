@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische Datensicherheit im KNIME-Hospital-IT-Umfeld\n\nIch schreibe, um nachzufragen, ob KNIME im Hospital-IT-Umfeld medizinische Daten sichern kann. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die besten Praktiken, Protokolle und Ma\u00dfnahmen zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen bereitstellen?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        419
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datensicherheit im KNIME-Hospital-IT-Umfeld\n\nIch schreibe, um nachzufragen, ob KNIME im Hospital-IT-Umfeld medizinische Daten sichern kann. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die besten Praktiken, Protokolle und Ma\u00dfnahmen zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen bereitstellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach Informationen zur Sicherung medizinischer Daten mit MongoDB 4.4 f\u00fcr Hospital-IT-Bed\u00fcrfnisse\n\nSehr geehrte Kundenservice, k\u00f6nnten Sie mir Informationen zur Sicherung medizinischer Daten mit MongoDB 4.4 f\u00fcr Hospital-IT-Bed\u00fcrfnisse liefern? Es ist entscheidend, dass Vertraulichkeit und Integrit\u00e4t der patientenbezogenen Daten gew\u00e4hrleistet sind. Bitte geben Sie Details zu den Sicherheitsfunktionen wie Datenverschl\u00fcsselung, Zugriffskontrolle und Auditing an You can reach me at elena.ivanova@support.org.. Zudem ben\u00f6tigen wir Informationen zur Einhaltung gesetzlicher Anforderungen wie HIPAA. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        625,
+        636
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        499,
+        524
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Informationen zur Sicherung medizinischer Daten mit MongoDB 4.4 f\u00fcr Hospital-IT-Bed\u00fcrfnisse\n\nSehr geehrte Kundenservice, k\u00f6nnten Sie mir Informationen zur Sicherung medizinischer Daten mit MongoDB 4.4 f\u00fcr Hospital-IT-Bed\u00fcrfnisse liefern? Es ist entscheidend, dass Vertraulichkeit und Integrit\u00e4t der patientenbezogenen Daten gew\u00e4hrleistet sind. Bitte geben Sie Details zu den Sicherheitsfunktionen wie Datenverschl\u00fcsselung, Zugriffskontrolle und Auditing an You can reach me at [email].. Zudem ben\u00f6tigen wir Informationen zur Einhaltung gesetzlicher Anforderungen wie HIPAA. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

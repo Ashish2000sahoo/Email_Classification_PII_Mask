@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia com Erro de Faturamento\n\nOl\u00e1, notei um erro de faturamento relacionado \u00e0 minha compra recente da impressora HP DeskJet 3755 My name is Omar Hassan.. Meu n\u00famero de conta \u00e9 <acc_num>. Voc\u00ea poderia, por favor, me ajudar a resolver este problema? You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        284,
+        305
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        140,
+        144
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia com Erro de Faturamento\n\nOl\u00e1, notei um erro de faturamento relacionado \u00e0 minha compra recente da impressora HP DeskJet [phone_number] My name is [full_name].. Meu n\u00famero de conta \u00e9 <acc_num>. Voc\u00ea poderia, por favor, me ajudar a resolver este problema? You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Billing System\n\nFacing unexpected billing inconsistencies with various software and hardware products My name is David Kim.. These issues might have arisen from recent updates to the payment processing systems. I have reviewed the account statements and attempted to resolve the discrepancies through customer support, but the issues still persist. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        135,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        393,
+        418
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Billing System\n\nFacing unexpected billing inconsistencies with various software and hardware products My name is [full_name].. These issues might have arisen from recent updates to the payment processing systems. I have reviewed the account statements and attempted to resolve the discrepancies through customer support, but the issues still persist. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

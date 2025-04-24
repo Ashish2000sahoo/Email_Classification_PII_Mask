@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Identified Medical Data Breach\n\nGreetings from customer support, we have noticed an unauthorized access to patient records at your end. This could be due to a weak WLAN-Router password and an outdated Norton Antivirus You can reach me at david.kim@corp.kr.. You've attempted to troubleshoot by restarting the router, updating the antivirus, and scanning for malware, but the issue remains unresolved My name is Jane Smith.. We seek your cooperation to promptly address and secure your patient records.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        261,
+        278
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern About Identified Medical Data Breach\n\nGreetings from customer support, we have noticed an unauthorized access to patient records at your end. This could be due to a weak WLAN-Router password and an outdated Norton Antivirus You can reach me at [email].. You've attempted to troubleshoot by restarting the router, updating the antivirus, and scanning for malware, but the issue remains unresolved My name is [full_name].. We seek your cooperation to promptly address and secure your patient records.",
+  "category_of_the_email": "Incident"
+}

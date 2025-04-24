@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem mit Office-Software\n\nDas Finanzdatenanalyse-Team hat Probleme mit der Datenberichterstattung im Microsoft Office 2021. Es wurde ein Systemausfall gemeldet, der offensichtlich von Kompatibilit\u00e4tskonflikten zwischen Office, Adobe Creative Cloud und m\u00f6glicherweise anderen Anwendungen verursacht wird You can reach me at elena.ivanova@support.org.. Bitte versuchen Sie, das Programm neu zu starten und die Updates zu pr\u00fcfen. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        450,
+        459
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        335,
+        360
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        130,
+        134
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Office-Software\n\nDas Finanzdatenanalyse-Team hat Probleme mit der Datenberichterstattung im Microsoft Office [phone_number]. Es wurde ein Systemausfall gemeldet, der offensichtlich von Kompatibilit\u00e4tskonflikten zwischen Office, Adobe Creative Cloud und m\u00f6glicherweise anderen Anwendungen verursacht wird You can reach me at [email].. Bitte versuchen Sie, das Programm neu zu starten und die Updates zu pr\u00fcfen. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

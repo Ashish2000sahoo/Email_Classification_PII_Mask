@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Error Report on Unplanned Application Crash\n\nDear Customer Service, I am contacting you to report an unexpected crash of the project management SaaS, which resulted in the loss of user data My name is Fatima Al-Farsi.. This crash might be due to an incompatibility issue caused by a recent update of the Keras library. I have restarted my HyperX Fury 32GB DDR4 and updated my McAfee Total Protection 2021, but the issue persists. I would appreciate it if you could address this matter and offer a solution as soon as possible. Please notify me if you require further information to resolve this issue. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        219
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        633,
+        650
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        411,
+        415
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Error Report on Unplanned Application Crash\n\nDear Customer Service, I am contacting you to report an unexpected crash of the project management SaaS, which resulted in the loss of user data My name is [full_name]-Farsi.. This crash might be due to an incompatibility issue caused by a recent update of the Keras library. I have restarted my HyperX Fury 32GB DDR4 and updated my McAfee Total Protection [phone_number], but the issue persists. I would appreciate it if you could address this matter and offer a solution as soon as possible. Please notify me if you require further information to resolve this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

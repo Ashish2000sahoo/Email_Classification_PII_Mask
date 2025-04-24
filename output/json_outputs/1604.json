@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Dashboard\n\nDear Support Team, we are encountering irregular performance issues with the Project Management Dashboard. These problems seem to arise from compatibility conflicts due to recent software updates. Despite clearing the cache, restarting the program, and ensuring all system updates are available, the issue persists My name is David Kim.. Performance problems are affecting productivity and the overall experience of our teams on the platform. We appreciate your assistance in finding a solution and would greatly appreciate any steps or instructions that could help resolve this problem. Please let us know if you need any additional information to facilitate troubleshooting You can reach me at carlosm@gmail.com.. We look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        357,
+        366
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        729,
+        746
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Dashboard\n\nDear Support Team, we are encountering irregular performance issues with the Project Management Dashboard. These problems seem to arise from compatibility conflicts due to recent software updates. Despite clearing the cache, restarting the program, and ensuring all system updates are available, the issue persists My name is [full_name].. Performance problems are affecting productivity and the overall experience of our teams on the platform. We appreciate your assistance in finding a solution and would greatly appreciate any steps or instructions that could help resolve this problem. Please let us know if you need any additional information to facilitate troubleshooting You can reach me at [email].. We look forward to your response.",
+  "category_of_the_email": "Incident"
+}

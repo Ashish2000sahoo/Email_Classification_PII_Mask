@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema con la gesti\u00f3n de capas en Photoshop\n\nHola servicio al cliente,\n\nMe comunico para solicitar asistencia con Adobe Photoshop 2024 You can reach me at johndoe@email.com.. Actualmente, estoy enfrentando un problema con la gesti\u00f3n de capas que est\u00e1 retrasando significativamente mi proceso de edici\u00f3n de obras de arte. Dependo en gran medida de esta funci\u00f3n para mis proyectos, y cualquier interrupci\u00f3n obstaculiza mi flujo de trabajo. Por favor, aconsejen sobre cualquier soluci\u00f3n o actualizaci\u00f3n disponible que pueda resolver este problema de gesti\u00f3n de capas. Gracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta, la cual ser\u00e1 muy apreciada.\n\nSaludos cordiales,\n\n<name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        710,
+        719
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        166,
+        183
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        141,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Problema con la gesti\u00f3n de capas en Photoshop\n\nHola servicio al cliente,\n\nMe comunico para solicitar asistencia con Adobe Photoshop [phone_number] You can reach me at [email].. Actualmente, estoy enfrentando un problema con la gesti\u00f3n de capas que est\u00e1 retrasando significativamente mi proceso de edici\u00f3n de obras de arte. Dependo en gran medida de esta funci\u00f3n para mis proyectos, y cualquier interrupci\u00f3n obstaculiza mi flujo de trabajo. Por favor, aconsejen sobre cualquier soluci\u00f3n o actualizaci\u00f3n disponible que pueda resolver este problema de gesti\u00f3n de capas. Gracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta, la cual ser\u00e1 muy apreciada.\n\nSaludos cordiales,\n\n<name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

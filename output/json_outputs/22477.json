@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de Doble Carga\n\nEstimado Equipo de Soporte al Cliente,\n\nLes escribo para llamar su atenci\u00f3n sobre un problema de facturaci\u00f3n que he encontrado. Este mes, not\u00e9 que me han cobrado dos veces por la renovaci\u00f3n de la suscripci\u00f3n anual de Microsoft Office 365. Mi n\u00famero de cuenta es <acc_num> My name is John Doe.. Es crucial para m\u00ed resolver esto prontamente, ya que afecta mi planificaci\u00f3n presupuestaria You can reach me at liuwei@business.cn.. He confirmado los cargos duplicados en el estado de cuenta de mi banco bajo las transacciones con referencias <trn_ref>.\n\n\u00bfPodr\u00edan verificar esto y emitir un reembolso por el cargo extra lo antes posible? Agradezco su asistencia para corregir este asunto de inmediato.\n\nGracias por su atenci\u00f3n a este problema.\n\nAtentamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        325
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        443,
+        461
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        268,
+        271
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Problema de Doble Carga\n\nEstimado Equipo de Soporte al Cliente,\n\nLes escribo para llamar su atenci\u00f3n sobre un problema de facturaci\u00f3n que he encontrado. Este mes, not\u00e9 que me han cobrado dos veces por la renovaci\u00f3n de la suscripci\u00f3n anual de Microsoft Office [cvv_no]. Mi n\u00famero de cuenta es <acc_num> My name is [full_name].. Es crucial para m\u00ed resolver esto prontamente, ya que afecta mi planificaci\u00f3n presupuestaria You can reach me at [email].. He confirmado los cargos duplicados en el estado de cuenta de mi banco bajo las transacciones con referencias <trn_ref>.\n\n\u00bfPodr\u00edan verificar esto y emitir un reembolso por el cargo extra lo antes posible? Agradezco su asistencia para corregir este asunto de inmediato.\n\nGracias por su atenci\u00f3n a este problema.\n\nAtentamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

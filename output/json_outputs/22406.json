@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Surface Pro 7\n\nDear Customer Support Team,<br><br>I am writing to bring to your attention an issue I am experiencing with my Microsoft Surface Pro 7. Recently, I have noticed that the touchscreen has been having intermittent issues with responsiveness, which is affecting my productivity and overall usage of the device You can reach me at elena.ivanova@support.org.. I rely heavily on my Surface Pro for my daily activities, both personal and professional, and this issue has become quite disruptive.<br><br>The touchscreen fails to respond to touch inputs sporadically which requires me to restart the device frequently to regain functionality. This not only interrupts my workflows but also causes delays in my tasks as the device is otherwise functioning correctly. I have attempted basic troubleshooting steps such as recalibrating the screen and updating drivers, but the issue persists.<br><br>I would appreciate it if you could provide guidance on how to address this issue or suggest possible solutions My name is David Kim.. Additionally, I would like to know if this problem is covered under warranty.<br><br>Thank you for your assistance. I look forward to your prompt reply.<br><br>Regards,<br><name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1043,
+        1052
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        360,
+        385
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with Surface Pro 7\n\nDear Customer Support Team,<br><br>I am writing to bring to your attention an issue I am experiencing with my Microsoft Surface Pro 7. Recently, I have noticed that the touchscreen has been having intermittent issues with responsiveness, which is affecting my productivity and overall usage of the device You can reach me at [email].. I rely heavily on my Surface Pro for my daily activities, both personal and professional, and this issue has become quite disruptive.<br><br>The touchscreen fails to respond to touch inputs sporadically which requires me to restart the device frequently to regain functionality. This not only interrupts my workflows but also causes delays in my tasks as the device is otherwise functioning correctly. I have attempted basic troubleshooting steps such as recalibrating the screen and updating drivers, but the issue persists.<br><br>I would appreciate it if you could provide guidance on how to address this issue or suggest possible solutions My name is [full_name].. Additionally, I would like to know if this problem is covered under warranty.<br><br>Thank you for your assistance. I look forward to your prompt reply.<br><br>Regards,<br><name>",
+  "category_of_the_email": "Incident"
+}

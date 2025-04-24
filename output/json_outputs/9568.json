@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Investment Data Analysis\n\nA financial organization is facing problems with investment data analysis. The results appear to be incorrect due to integration issues and software bugs My name is Omar Hassan.. Troubleshooting efforts have been initiated. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        225
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        293,
+        314
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Investment Data Analysis\n\nA financial organization is facing problems with investment data analysis. The results appear to be incorrect due to integration issues and software bugs My name is [full_name].. Troubleshooting efforts have been initiated. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

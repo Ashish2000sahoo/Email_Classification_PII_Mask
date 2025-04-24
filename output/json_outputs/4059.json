@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung der Investitionen mit Cisco\n\nSehr geehrte Kundenservice, ich kontaktiere Sie, um nachzuhaken, ob Datenanalysewerkzeuge von Cisco die Optimierung Ihrer Investitionen unterst\u00fctzen k\u00f6nnen You can reach me at omar.hassan@secure.net.. K\u00f6nnten Sie Erkenntnisse liefern, die mir helfen, fundierte Investitionsentscheidungen treffen zu k\u00f6nnen? Ich sch\u00e4tze Ihre Unterst\u00fctzung bei der Bereitstellung von Ressourcen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is Jane Smith.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        483,
+        493
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        227,
+        249
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung der Investitionen mit Cisco\n\nSehr geehrte Kundenservice, ich kontaktiere Sie, um nachzuhaken, ob Datenanalysewerkzeuge von Cisco die Optimierung Ihrer Investitionen unterst\u00fctzen k\u00f6nnen You can reach me at [email].. K\u00f6nnten Sie Erkenntnisse liefern, die mir helfen, fundierte Investitionsentscheidungen treffen zu k\u00f6nnen? Ich sch\u00e4tze Ihre Unterst\u00fctzung bei der Bereitstellung von Ressourcen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is [full_name].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

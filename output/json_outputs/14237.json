@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Breach of Medical Records Noted\n\nUnderwent a data breach involving medical records because of unauthorized access, likely due to inadequate encryption protocols. Security software has been updated and access credentials changed You can reach me at elena.ivanova@support.org.. Assistance is needed to ensure the system's security. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        262,
+        287
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Data Breach of Medical Records Noted\n\nUnderwent a data breach involving medical records because of unauthorized access, likely due to inadequate encryption protocols. Security software has been updated and access credentials changed You can reach me at [email].. Assistance is needed to ensure the system's security. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

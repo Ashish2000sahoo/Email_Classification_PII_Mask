@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema com o Dell XPS 13 ao iniciar\n\nOl\u00e1 Suporte ao Cliente da Tech Online Store, \n\nEstou escrevendo para expressar minhas preocupa\u00e7\u00f5es sobre um problema que estou enfrentando com uma compra recente em sua loja, o Dell XPS 13 9310. Infelizmente, o ultrabook falha intermitentemente ao iniciar corretamente e frequentemente congela na tela de inicializa\u00e7\u00e3o My name is Elena Ivanova.. Esse problema me impede de usar o laptop de forma eficaz para minhas tarefas relacionadas ao trabalho e projetos pessoais. \n\nTentei v\u00e1rios m\u00e9todos de solu\u00e7\u00e3o de problemas, incluindo verificar as configura\u00e7\u00f5es da BIOS e garantir que todos os drivers estejam atualizados, mas o problema persiste. Al\u00e9m disso, realizar um hard reset tamb\u00e9m n\u00e3o resolveu a situa\u00e7\u00e3o. Como um cliente fiel da Tech Online Store, espero que voc\u00ea possa oferecer assist\u00eancia para resolver esse inconveniente. \n\nPor favor, oriente sobre os pr\u00f3ximos passos para resolver o problema. Acredito que o produto ainda esteja na garantia e solicito gentilmente orienta\u00e7\u00e3o sobre como proceder, seja por meio de reparo, substitui\u00e7\u00e3o ou op\u00e7\u00f5es de reembolso. \n\nObrigado pela sua aten\u00e7\u00e3o imediata a este assunto. Aguardo seu apoio para restaurar a plena funcionalidade do meu dispositivo You can reach me at sophia.rossi@service.it.. \n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        378,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1259,
+        1282
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        234,
+        241
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema com o Dell XPS 13 ao iniciar\n\nOl\u00e1 Suporte ao Cliente da Tech Online Store, \n\nEstou escrevendo para expressar minhas preocupa\u00e7\u00f5es sobre um problema que estou enfrentando com uma compra recente em sua loja, o Dell XPS [phone_number]. Infelizmente, o ultrabook falha intermitentemente ao iniciar corretamente e frequentemente congela na tela de inicializa\u00e7\u00e3o My name is [full_name].. Esse problema me impede de usar o laptop de forma eficaz para minhas tarefas relacionadas ao trabalho e projetos pessoais. \n\nTentei v\u00e1rios m\u00e9todos de solu\u00e7\u00e3o de problemas, incluindo verificar as configura\u00e7\u00f5es da BIOS e garantir que todos os drivers estejam atualizados, mas o problema persiste. Al\u00e9m disso, realizar um hard reset tamb\u00e9m n\u00e3o resolveu a situa\u00e7\u00e3o. Como um cliente fiel da Tech Online Store, espero que voc\u00ea possa oferecer assist\u00eancia para resolver esse inconveniente. \n\nPor favor, oriente sobre os pr\u00f3ximos passos para resolver o problema. Acredito que o produto ainda esteja na garantia e solicito gentilmente orienta\u00e7\u00e3o sobre como proceder, seja por meio de reparo, substitui\u00e7\u00e3o ou op\u00e7\u00f5es de reembolso. \n\nObrigado pela sua aten\u00e7\u00e3o imediata a este assunto. Aguardo seu apoio para restaurar a plena funcionalidade do meu dispositivo You can reach me at [email].. \n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Problem"
+}

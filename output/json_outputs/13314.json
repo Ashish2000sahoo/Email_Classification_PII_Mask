@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Onboarding Issues\n\nThe initiation of the new employee's onboarding is being hindered by a shortage of training resources You can reach me at fatima.farsi@help.com.. After reaching out to IT and reviewing the manuals, I have escalated the matter internally, yet the problem continues My name is Jane Smith.. I require your help to address this and ensure the onboarding process proceeds smoothly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        315,
+        325
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        162,
+        183
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Onboarding Issues\n\nThe initiation of the new employee's onboarding is being hindered by a shortage of training resources You can reach me at [email].. After reaching out to IT and reviewing the manuals, I have escalated the matter internally, yet the problem continues My name is [full_name].. I require your help to address this and ensure the onboarding process proceeds smoothly.",
+  "category_of_the_email": "Incident"
+}

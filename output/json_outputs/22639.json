@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Gmail settings customization\n\nDear Customer Support Team,\n\nI am writing to request some potential customization options for the Gmail settings within our Google Workspace Business Standard package, in order to enhance our team's efficiency in collaboration and improve our email management capabilities You can reach me at johndoe@email.com.. Our team relies heavily on email communication, and we believe that a few tailored settings could greatly benefit our workflow.\n\nSome key areas we are interested in optimizing include the organization of incoming emails, custom filters and labels to categorize emails by project, and integration options with third-party project management tools like Trello and Asana My name is David Kim.. Additionally, features that aid in reducing email clutter and delivering priority notifications would be invaluable for our team\u2019s productivity.\n\nWe are keen to know if these customizations can be incorporated within our existing framework or if there are any alternative plans you could suggest to accommodate these needs. Kindly provide us with any documentation, tutorials, or direct support needed to implement the suggested changes. \n\nThank you for your assistance. Awaiting your prompt response.\n\nBest regards,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        743,
+        752
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        344,
+        361
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Gmail settings customization\n\nDear Customer Support Team,\n\nI am writing to request some potential customization options for the Gmail settings within our Google Workspace Business Standard package, in order to enhance our team's efficiency in collaboration and improve our email management capabilities You can reach me at [email].. Our team relies heavily on email communication, and we believe that a few tailored settings could greatly benefit our workflow.\n\nSome key areas we are interested in optimizing include the organization of incoming emails, custom filters and labels to categorize emails by project, and integration options with third-party project management tools like Trello and Asana My name is [full_name].. Additionally, features that aid in reducing email clutter and delivering priority notifications would be invaluable for our team\u2019s productivity.\n\nWe are keen to know if these customizations can be incorporated within our existing framework or if there are any alternative plans you could suggest to accommodate these needs. Kindly provide us with any documentation, tutorials, or direct support needed to implement the suggested changes. \n\nThank you for your assistance. Awaiting your prompt response.\n\nBest regards,\n<name>\n<acc_num>",
+  "category_of_the_email": "Request"
+}

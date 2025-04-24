@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Syncing Issues Across Various Tools\n\nHello support team, I am encountering difficulties with project synchronization. The data is not being updated consistently across my tools, which might be related to an API integration problem You can reach me at david.kim@corp.kr.. Despite restarting the services and reviewing the logs, the issue remains unresolved My name is David Kim.. Could you please assist me in addressing this problem at your earliest convenience?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        393
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        268,
+        285
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Project Syncing Issues Across Various Tools\n\nHello support team, I am encountering difficulties with project synchronization. The data is not being updated consistently across my tools, which might be related to an API integration problem You can reach me at [email].. Despite restarting the services and reviewing the logs, the issue remains unresolved My name is [full_name].. Could you please assist me in addressing this problem at your earliest convenience?",
+  "category_of_the_email": "Incident"
+}

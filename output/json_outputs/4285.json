@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Nicht genaue Investment-Prognosen gemeldet\n\nSehr geehrte Kundenservice, ich schreibe an dieser Stelle, um ungenaue Investment-Prognosen zu melden. Die pr\u00e4diktiven Modelle haben aufgrund veralteter Marktdaten oder fehlerhaften Algorithmen falsche Ergebnisse erbracht. Ich habe versucht, die Modelle zu aktualisieren und die Datens\u00e4tze zu erneuern, aber das Problem beh\u00e4lt sich bestanden You can reach me at maria.gonzalez@shop.es.. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dieses Problem genauer ansehen und eine L\u00f6sung anbieten k\u00f6nnten My name is David Kim.. Ich danke Ihnen im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        552,
+        561
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        415,
+        437
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Nicht genaue Investment-Prognosen gemeldet\n\nSehr geehrte Kundenservice, ich schreibe an dieser Stelle, um ungenaue Investment-Prognosen zu melden. Die pr\u00e4diktiven Modelle haben aufgrund veralteter Marktdaten oder fehlerhaften Algorithmen falsche Ergebnisse erbracht. Ich habe versucht, die Modelle zu aktualisieren und die Datens\u00e4tze zu erneuern, aber das Problem beh\u00e4lt sich bestanden You can reach me at [email].. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dieses Problem genauer ansehen und eine L\u00f6sung anbieten k\u00f6nnten My name is [full_name].. Ich danke Ihnen im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

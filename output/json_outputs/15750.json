@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Trouble With Today's Campaign Launch\n\nOur digital campaigns did not launch successfully because of a misconfigured setup.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Trouble With Today's Campaign Launch\n\nOur digital campaigns did not launch successfully because of a misconfigured setup.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

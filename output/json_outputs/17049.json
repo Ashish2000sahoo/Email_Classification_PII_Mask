@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Cassandra\n\nIt happened: Project data was lost during the Cassandra 4.0 update My name is Maria Gonzalez.. Experienced: Incompatible Smart-Tracker integration caused a crash. Attempted: Restart laptop, re-install Smart-Tracker, contact Sophos support. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        112,
+        126
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        291,
+        313
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problems with Cassandra\n\nIt happened: Project data was lost during the Cassandra 4.0 update My name is [full_name].. Experienced: Incompatible Smart-Tracker integration caused a crash. Attempted: Restart laptop, re-install Smart-Tracker, contact Sophos support. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

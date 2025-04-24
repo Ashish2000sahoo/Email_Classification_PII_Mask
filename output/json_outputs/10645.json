@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Financial Data Analytics Tools\n\nThe financial firm's data analytics tools are experiencing malfunctions, which are impeding the optimization of investments. It appears that recent software updates might be causing compatibility issues You can reach me at maria.gonzalez@shop.es.. Various attempts to troubleshoot, including restarting devices and reinstalling applications, have not resolved the problem My name is Sophia Rossi.. We urgently need your assistance to resolve this issue as soon as possible to minimize potential losses.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        454
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        282,
+        304
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Financial Data Analytics Tools\n\nThe financial firm's data analytics tools are experiencing malfunctions, which are impeding the optimization of investments. It appears that recent software updates might be causing compatibility issues You can reach me at [email].. Various attempts to troubleshoot, including restarting devices and reinstalling applications, have not resolved the problem My name is [full_name].. We urgently need your assistance to resolve this issue as soon as possible to minimize potential losses.",
+  "category_of_the_email": "Incident"
+}

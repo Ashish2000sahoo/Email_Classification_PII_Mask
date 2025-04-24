@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Twitch Studio Beta Integration\n\nI am encountering difficulties with integrating the Twitch Studio Beta project management SaaS. Even after attempting to restart and reauthorize, the issue continues You can reach me at liuwei@business.cn.. It might be related to recent API changes or compatibility issues My name is Jane Smith.. I need assistance to resolve this so I can continue using the service effectively.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        348
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        240,
+        258
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Twitch Studio Beta Integration\n\nI am encountering difficulties with integrating the Twitch Studio Beta project management SaaS. Even after attempting to restart and reauthorize, the issue continues You can reach me at [email].. It might be related to recent API changes or compatibility issues My name is [full_name].. I need assistance to resolve this so I can continue using the service effectively.",
+  "category_of_the_email": "Incident"
+}

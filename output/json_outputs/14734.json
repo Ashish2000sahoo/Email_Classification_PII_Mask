@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Failure Issue\n\nDear Customer Support, I have experienced a system failure, as the access to critical tools on multiple platforms has been disrupted. The problem seems to have arisen due to conflicts from recent software updates You can reach me at david.kim@corp.kr.. After attempting to restart the affected devices and re-login, the issue persists. I appreciate your prompt attention and would greatly value a swift resolution. Please inform us if any additional details are needed My name is Jane Smith.. Looking forward to your response. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        511,
+        521
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        264,
+        281
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: System Failure Issue\n\nDear Customer Support, I have experienced a system failure, as the access to critical tools on multiple platforms has been disrupted. The problem seems to have arisen due to conflicts from recent software updates You can reach me at [email].. After attempting to restart the affected devices and re-login, the issue persists. I appreciate your prompt attention and would greatly value a swift resolution. Please inform us if any additional details are needed My name is [full_name].. Looking forward to your response. Thank you.",
+  "category_of_the_email": "Incident"
+}

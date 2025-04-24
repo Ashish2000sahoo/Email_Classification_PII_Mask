@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance urgente requise pour des pannes logicielles critiques\n\nCh\u00e8re entreprise de conseil en informatique,  \n\nNotre client, <name>, a signal\u00e9 des pannes intermittentes affectant la stabilit\u00e9 du serveur en raison de votre service de conseil en informatique. Nous demandons aimablement une consultation imm\u00e9diate pour \u00e9valuer et r\u00e9soudre les probl\u00e8mes en cours. Veuillez contacter <name> au <tel_num> My name is Jane Smith..  \n\nMerci. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        433
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        467,
+        489
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance urgente requise pour des pannes logicielles critiques\n\nCh\u00e8re entreprise de conseil en informatique,  \n\nNotre client, <name>, a signal\u00e9 des pannes intermittentes affectant la stabilit\u00e9 du serveur en raison de votre service de conseil en informatique. Nous demandons aimablement une consultation imm\u00e9diate pour \u00e9valuer et r\u00e9soudre les probl\u00e8mes en cours. Veuillez contacter <name> au <tel_num> My name is [full_name]..  \n\nMerci. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

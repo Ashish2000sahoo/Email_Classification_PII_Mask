@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Login System\n\nDear Customer Service, I am encountering disturbing login errors in the software. The latest server updates might be the cause of the issue. I have tried restarting the server and clearing the cache, but the problem persists My name is Omar Hassan.. Could you please assist in resolving this issue? I appreciate your support and look forward to your feedback. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        284
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        417,
+        438
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Login System\n\nDear Customer Service, I am encountering disturbing login errors in the software. The latest server updates might be the cause of the issue. I have tried restarting the server and clearing the cache, but the problem persists My name is [full_name].. Could you please assist in resolving this issue? I appreciate your support and look forward to your feedback. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

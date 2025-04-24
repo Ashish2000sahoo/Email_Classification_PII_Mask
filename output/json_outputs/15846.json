@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Connectivity\n\nCustomers are facing sporadic connectivity problems with the SaaS platform You can reach me at omar.hassan@secure.net.. These issues might be caused by network instability or configuration errors. Steps like restarting devices, reconfiguring settings, and checking service statuses have been taken but have not resolved the problem My name is Maria Gonzalez.. We are actively working to resolve the issue as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        380,
+        394
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        132,
+        154
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problems with Connectivity\n\nCustomers are facing sporadic connectivity problems with the SaaS platform You can reach me at [email].. These issues might be caused by network instability or configuration errors. Steps like restarting devices, reconfiguring settings, and checking service statuses have been taken but have not resolved the problem My name is [full_name].. We are actively working to resolve the issue as soon as possible.",
+  "category_of_the_email": "Incident"
+}

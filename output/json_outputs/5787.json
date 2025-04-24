@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with My Invoice\n\nI was overcharged for several products on my last invoice You can reach me at maria.gonzalez@shop.es.. I believe this is either due to an invoicing error or a system error My name is Maria Gonzalez.. I have already contacted support and reviewed my invoice, but the issue remains unresolved. I would appreciate it if you could take this matter into account and correct the charges as soon as possible. Please let me know if you need additional information to resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        215,
+        229
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        110,
+        132
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with My Invoice\n\nI was overcharged for several products on my last invoice You can reach me at [email].. I believe this is either due to an invoicing error or a system error My name is [full_name].. I have already contacted support and reviewed my invoice, but the issue remains unresolved. I would appreciate it if you could take this matter into account and correct the charges as soon as possible. Please let me know if you need additional information to resolve this issue.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Recent Data Breaches Experienced\n\nRespected customer support team, I am contacting you to report some recent data breaches. It might be due to outdated software. I've done partial antivirus scans but the problem still exists. Can you please investigate this and offer a solution promptly? Also, please inform me if you require any further information from me My name is Sophia Rossi.. Appreciate your prompt response. Thank you. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        379,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        457,
+        475
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Recent Data Breaches Experienced\n\nRespected customer support team, I am contacting you to report some recent data breaches. It might be due to outdated software. I've done partial antivirus scans but the problem still exists. Can you please investigate this and offer a solution promptly? Also, please inform me if you require any further information from me My name is [full_name].. Appreciate your prompt response. Thank you. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

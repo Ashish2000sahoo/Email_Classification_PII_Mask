@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request: Datensynchronisierungsfehler zwischen Zapier und Notion\n\nSehr geehrte Support-Team, ich schreibe an euch, um einen Fehler w\u00e4hrend des Datensynchronisierungsprozesses zwischen Zapier und Notion zu melden. Die Synchronisation ist aufgrund von API-Grenzwerten von Zapier Seite fehlgeschlagen. Ich habe versucht, Zapier neu zu starten und die API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber der Fehler ist best\u00e4ndig geblieben You can reach me at carlosm@gmail.com.. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn ihr diesbez\u00fcglich nachgeht und mir so bald wie m\u00f6glich eine L\u00f6sung anbietet. Bitte informiert mich, falls weitere Informationen notwendig sind, um diesen Fehler zu beheben. Danke f\u00fcr eure Zeit und Unterst\u00fctzung. Ich freue mich darauf, von euch zu h\u00f6ren My name is Jane Smith.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        771,
+        781
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        454,
+        471
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request: Datensynchronisierungsfehler zwischen Zapier und Notion\n\nSehr geehrte Support-Team, ich schreibe an euch, um einen Fehler w\u00e4hrend des Datensynchronisierungsprozesses zwischen Zapier und Notion zu melden. Die Synchronisation ist aufgrund von API-Grenzwerten von Zapier Seite fehlgeschlagen. Ich habe versucht, Zapier neu zu starten und die API-Schl\u00fcssel zu \u00fcberpr\u00fcfen, aber der Fehler ist best\u00e4ndig geblieben You can reach me at [email].. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn ihr diesbez\u00fcglich nachgeht und mir so bald wie m\u00f6glich eine L\u00f6sung anbietet. Bitte informiert mich, falls weitere Informationen notwendig sind, um diesen Fehler zu beheben. Danke f\u00fcr eure Zeit und Unterst\u00fctzung. Ich freue mich darauf, von euch zu h\u00f6ren My name is [full_name].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

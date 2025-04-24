@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Customer Support Request for Login Issues\n\nFacing sporadic login difficulties with various products following recent server configuration modifications.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        199
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Customer Support Request for Login Issues\n\nFacing sporadic login difficulties with various products following recent server configuration modifications.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

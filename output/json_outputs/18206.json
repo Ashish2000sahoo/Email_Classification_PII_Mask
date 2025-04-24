@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report of a Data Breach Involving Unencrypted Medical Data\n\nDear Customer Support, <br><br>I am contacting you to report a significant incident where unencrypted medical data was exposed due to a database breach that happened overnight. Early findings indicate that the breach could be related to an outdated SQL Server vulnerability. <br><br>Up to this point, we have initiated some preliminary actions to address the issue, such as scanning our systems with Norton Antivirus and restarting the server. However, we urgently need your professional help to delve deeper into the cause, limit the damage, and prevent similar incidents in the future My name is Elena Ivanova.. <br><br>Please provide us with the necessary guidance on the subsequent actions to undertake and any further steps we should take to ensure the security of our database and safeguard sensitive information You can reach me at fatima.farsi@help.com.. We greatly appreciate your swift response to this pressing matter and are eagerly awaiting your reply. <br><br>Thank you for your commendable support and assistance in this critical time. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        667,
+        680
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        906,
+        927
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Report of a Data Breach Involving Unencrypted Medical Data\n\nDear Customer Support, <br><br>I am contacting you to report a significant incident where unencrypted medical data was exposed due to a database breach that happened overnight. Early findings indicate that the breach could be related to an outdated SQL Server vulnerability. <br><br>Up to this point, we have initiated some preliminary actions to address the issue, such as scanning our systems with Norton Antivirus and restarting the server. However, we urgently need your professional help to delve deeper into the cause, limit the damage, and prevent similar incidents in the future My name is [full_name].. <br><br>Please provide us with the necessary guidance on the subsequent actions to undertake and any further steps we should take to ensure the security of our database and safeguard sensitive information You can reach me at [email].. We greatly appreciate your swift response to this pressing matter and are eagerly awaiting your reply. <br><br>Thank you for your commendable support and assistance in this critical time. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

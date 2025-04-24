@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe f\u00fcr blockierende digitale Tools\n\nSteady freezing of several digital tools at the same time is occurring. There might be a software conflict My name is Jane Smith.. I have restarted the systems and checked for updates, but the issue persists. I need your help to resolve this problem as quickly as possible. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        343,
+        365
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Hilfe f\u00fcr blockierende digitale Tools\n\nSteady freezing of several digital tools at the same time is occurring. There might be a software conflict My name is [full_name].. I have restarted the systems and checked for updates, but the issue persists. I need your help to resolve this problem as quickly as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

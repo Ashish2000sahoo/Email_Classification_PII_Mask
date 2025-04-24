@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Integration Optimization\n\nI am seeking support to optimize the integration across various platforms, which would enhance scalability and improve the user experience in our project management software. This would significantly boost our workflow and productivity You can reach me at liuwei@business.cn.. I would greatly appreciate any guidance on how to achieve this optimization effectively. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        436,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        315,
+        333
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Integration Optimization\n\nI am seeking support to optimize the integration across various platforms, which would enhance scalability and improve the user experience in our project management software. This would significantly boost our workflow and productivity You can reach me at [email].. I would greatly appreciate any guidance on how to achieve this optimization effectively. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

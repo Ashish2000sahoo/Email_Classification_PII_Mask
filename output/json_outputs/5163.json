@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Data Analytics Investment Efficiency\n\nI am reaching out to Customer Support for assistance in optimizing our data analytics infrastructure to enhance our investment strategies My name is Maria Gonzalez.. Our goal is to leverage our existing technology and software systems to gain deeper insights and make more informed decisions. Currently, our infrastructure is fully utilized, and we believe that optimization could significantly improve our investment outcomes You can reach me at david.kim@corp.kr.. I would appreciate any guidance or recommendations you can provide to optimize our systems. Specifically, I am interested in learning about any software updates and configuration changes that could be beneficial.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        499,
+        516
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhance Data Analytics Investment Efficiency\n\nI am reaching out to Customer Support for assistance in optimizing our data analytics infrastructure to enhance our investment strategies My name is [full_name].. Our goal is to leverage our existing technology and software systems to gain deeper insights and make more informed decisions. Currently, our infrastructure is fully utilized, and we believe that optimization could significantly improve our investment outcomes You can reach me at [email].. I would appreciate any guidance or recommendations you can provide to optimize our systems. Specifically, I am interested in learning about any software updates and configuration changes that could be beneficial.",
+  "category_of_the_email": "Change"
+}

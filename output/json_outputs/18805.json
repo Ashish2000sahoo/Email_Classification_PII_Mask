@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Microsoft Teams Firebase Connection\n\nThe marketing team is facing connectivity problems with Microsoft Teams Firebase, which is impeding our collaboration. This issue might have arisen due to recent software updates. We have already tried restarting our devices and reinstalling the applications, but the problem still persists. Currently, we are unable to share files, communicate, or work together efficiently My name is Elena Ivanova.. We would greatly appreciate it if you could help us resolve this issue as soon as possible You can reach me at johndoe@email.com.. Please let us know if there are any additional steps we need to take and the information you require from us.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        458
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        570,
+        587
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Microsoft Teams Firebase Connection\n\nThe marketing team is facing connectivity problems with Microsoft Teams Firebase, which is impeding our collaboration. This issue might have arisen due to recent software updates. We have already tried restarting our devices and reinstalling the applications, but the problem still persists. Currently, we are unable to share files, communicate, or work together efficiently My name is [full_name].. We would greatly appreciate it if you could help us resolve this issue as soon as possible You can reach me at [email].. Please let us know if there are any additional steps we need to take and the information you require from us.",
+  "category_of_the_email": "Incident"
+}

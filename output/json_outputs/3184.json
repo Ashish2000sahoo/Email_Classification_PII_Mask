@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Data Analytics Tools\n\nA financial firm encountered problems with its data analytics tools, particularly during the investment optimization process. These issues might be due to recent software updates that introduced compatibility problems with multiple products You can reach me at janesmith@company.com.. Efforts to resolve the issue included restarting applications and reinstalling software. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        435,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        311,
+        332
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Data Analytics Tools\n\nA financial firm encountered problems with its data analytics tools, particularly during the investment optimization process. These issues might be due to recent software updates that introduced compatibility problems with multiple products You can reach me at [email].. Efforts to resolve the issue included restarting applications and reinstalling software. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

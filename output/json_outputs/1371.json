@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Project Management Features\n\nRequesting the integration of project management features into existing products to significantly improve user collaboration efficiency My name is Maria Gonzalez.. This feature would be a valuable addition, facilitating seamless teamwork among various teams You can reach me at omar.hassan@secure.net.. I would greatly appreciate it if you could consider this request and provide a timeline for implementation. Please inform me if you need any additional information to proceed with this request.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        211
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        325,
+        347
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Project Management Features\n\nRequesting the integration of project management features into existing products to significantly improve user collaboration efficiency My name is [full_name].. This feature would be a valuable addition, facilitating seamless teamwork among various teams You can reach me at [email].. I would greatly appreciate it if you could consider this request and provide a timeline for implementation. Please inform me if you need any additional information to proceed with this request.",
+  "category_of_the_email": "Change"
+}

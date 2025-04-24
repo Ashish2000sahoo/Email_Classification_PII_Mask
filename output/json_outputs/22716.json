@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach IT-Consulting-Hilfe\n\nSehr geehrtes Support-Team der IT-Consulting-Firma,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf My name is Jane Smith.. Mein Name ist <name> und ich wende mich an Sie, um Ihre Unterst\u00fctzung f\u00fcr IT-Consulting-Dienstleistungen in Anspruch zu nehmen, insbesondere um unsere Serververwaltung zu verbessern und den Einsatz unserer aktuellen IT-L\u00f6sungen zu optimieren. Als Organisation streben wir danach, eine h\u00f6here Effizienz und Leistung in unseren IT-Betrieb zu erreichen, und wir glauben, dass Ihre Expertise und Erfahrung von unsch\u00e4tzbarem Wert f\u00fcr das Erreichen unserer Ziele sein w\u00fcrden.\n\nWir sind besonders daran interessiert zu verstehen, wie wir unsere Prozesse zur Serververwaltung modernisieren k\u00f6nnen, um mehr Robustheit, Sicherheit, Zuverl\u00e4ssigkeit und Zug\u00e4nglichkeit im gesamten Unternehmen zu gew\u00e4hrleisten. Dar\u00fcber hinaus m\u00f6chten wir den Einsatz unserer IT-L\u00f6sungen optimieren, um sicherzustellen, dass sie ihr maximales Potenzial aussch\u00f6pfen. Wir gehen davon aus, dass wir mit Ihren Consulting-Dienstleistungen Verbesserungsm\u00f6glichkeiten identifizieren und strategische \u00c4nderungen umsetzen k\u00f6nnen, um unsere gesamte IT-Infrastruktur zu verbessern.\n\nK\u00f6nnten Sie weitere Informationen dar\u00fcber bereitstellen, wie wir diesen Prozess in Gang setzen k\u00f6nnen? Wir sind begierig darauf, mehr \u00fcber die erforderlichen Schritte, die ungef\u00e4hren Zeitpl\u00e4ne und die mit Ihren Consulting-Dienstleistungen verbundenen Kosten zu erfahren.\n\nVielen Dank f\u00fcr Ihre Zeit, und ich freue mich auf Ihre zeitnahe Antwort. Bitte z\u00f6gern Sie nicht, mich unter <email> oder <tel_num> f\u00fcr weitere Gespr\u00e4che zu kontaktieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        165
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1707,
+        1724
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach IT-Consulting-Hilfe\n\nSehr geehrtes Support-Team der IT-Consulting-Firma,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf My name is [full_name].. Mein Name ist <name> und ich wende mich an Sie, um Ihre Unterst\u00fctzung f\u00fcr IT-Consulting-Dienstleistungen in Anspruch zu nehmen, insbesondere um unsere Serververwaltung zu verbessern und den Einsatz unserer aktuellen IT-L\u00f6sungen zu optimieren. Als Organisation streben wir danach, eine h\u00f6here Effizienz und Leistung in unseren IT-Betrieb zu erreichen, und wir glauben, dass Ihre Expertise und Erfahrung von unsch\u00e4tzbarem Wert f\u00fcr das Erreichen unserer Ziele sein w\u00fcrden.\n\nWir sind besonders daran interessiert zu verstehen, wie wir unsere Prozesse zur Serververwaltung modernisieren k\u00f6nnen, um mehr Robustheit, Sicherheit, Zuverl\u00e4ssigkeit und Zug\u00e4nglichkeit im gesamten Unternehmen zu gew\u00e4hrleisten. Dar\u00fcber hinaus m\u00f6chten wir den Einsatz unserer IT-L\u00f6sungen optimieren, um sicherzustellen, dass sie ihr maximales Potenzial aussch\u00f6pfen. Wir gehen davon aus, dass wir mit Ihren Consulting-Dienstleistungen Verbesserungsm\u00f6glichkeiten identifizieren und strategische \u00c4nderungen umsetzen k\u00f6nnen, um unsere gesamte IT-Infrastruktur zu verbessern.\n\nK\u00f6nnten Sie weitere Informationen dar\u00fcber bereitstellen, wie wir diesen Prozess in Gang setzen k\u00f6nnen? Wir sind begierig darauf, mehr \u00fcber die erforderlichen Schritte, die ungef\u00e4hren Zeitpl\u00e4ne und die mit Ihren Consulting-Dienstleistungen verbundenen Kosten zu erfahren.\n\nVielen Dank f\u00fcr Ihre Zeit, und ich freue mich auf Ihre zeitnahe Antwort. Bitte z\u00f6gern Sie nicht, mich unter <email> oder <tel_num> f\u00fcr weitere Gespr\u00e4che zu kontaktieren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

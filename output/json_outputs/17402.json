@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Network Connectivity Problem\n\nI recently experienced connectivity issues with the Mesh Network, which are impacting data-sharing capabilities My name is Fatima Al-Farsi.. These issues might have arisen due to recent software updates. I have already restarted the network, checked device configurations, and updated relevant applications, but the problem still persists and is causing significant disruptions to operations. Urgent assistance is needed to resolve this matter. Could you please provide guidance? An in-depth analysis is required You can reach me at maria.gonzalez@shop.es.. I appreciate your prompt attention to this issue and look forward to hearing from you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        574,
+        596
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Network Connectivity Problem\n\nI recently experienced connectivity issues with the Mesh Network, which are impacting data-sharing capabilities My name is [full_name]-Farsi.. These issues might have arisen due to recent software updates. I have already restarted the network, checked device configurations, and updated relevant applications, but the problem still persists and is causing significant disruptions to operations. Urgent assistance is needed to resolve this matter. Could you please provide guidance? An in-depth analysis is required You can reach me at [email].. I appreciate your prompt attention to this issue and look forward to hearing from you.",
+  "category_of_the_email": "Incident"
+}

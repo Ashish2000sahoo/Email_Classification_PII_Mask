@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Campaign Metrics\n\nBriefly, the problem is about missing campaign metrics You can reach me at omar.hassan@secure.net.. After a system update, the data seems to have been lost, maybe because of a sync error or bug. Despite restarting systems and verifying sync settings, the issue still exists My name is Omar Hassan.. Could use help in fixing this and getting my campaign metrics back.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        113,
+        135
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Campaign Metrics\n\nBriefly, the problem is about missing campaign metrics You can reach me at [email].. After a system update, the data seems to have been lost, maybe because of a sync error or bug. Despite restarting systems and verifying sync settings, the issue still exists My name is [full_name].. Could use help in fixing this and getting my campaign metrics back.",
+  "category_of_the_email": "Incident"
+}

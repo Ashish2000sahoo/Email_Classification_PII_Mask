@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Analytics Tool Performance\n\nCustomer Support,<br>The data analytics tool designed to optimize investments has encountered a crash during the latest analysis run My name is Carlos Mendoza.. This might be due to an increase in data volume or a software bug. We have already attempted to restart the tool and clear the cache, but the issue continues to persist. We kindly request your assistance in resolving this issue at the earliest possible time. Additionally, we would greatly appreciate any guidance you can provide on troubleshooting potential fixes You can reach me at carlosm@gmail.com.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        603,
+        620
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Analytics Tool Performance\n\nCustomer Support,<br>The data analytics tool designed to optimize investments has encountered a crash during the latest analysis run My name is [full_name].. This might be due to an increase in data volume or a software bug. We have already attempted to restart the tool and clear the cache, but the issue continues to persist. We kindly request your assistance in resolving this issue at the earliest possible time. Additionally, we would greatly appreciate any guidance you can provide on troubleshooting potential fixes You can reach me at [email].. Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

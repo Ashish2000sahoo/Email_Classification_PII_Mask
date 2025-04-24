@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr eine Datenverletzung\n\nEs gab einen Vorfall, bei dem medizinische Daten aufgrund eines Systemkonfigurationsfehlers kompromittiert wurden. Versucht haben wir, die Zugriffsprotokolle zu resetten und die Benutzerrechte zu \u00fcberpr\u00fcfen, um die Situation zu beheben My name is Jane Smith.. Sofortige Unterst\u00fctzung ist erforderlich, um weitere unbefugte Zugriffe zu verhindern. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        417,
+        438
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr eine Datenverletzung\n\nEs gab einen Vorfall, bei dem medizinische Daten aufgrund eines Systemkonfigurationsfehlers kompromittiert wurden. Versucht haben wir, die Zugriffsprotokolle zu resetten und die Benutzerrechte zu \u00fcberpr\u00fcfen, um die Situation zu beheben My name is [full_name].. Sofortige Unterst\u00fctzung ist erforderlich, um weitere unbefugte Zugriffe zu verhindern. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Einzelheiten verf\u00fcgbaren Datenanalysewerkzeuge\n\nK\u00f6nnen Sie Details zu Datenanalysewerkzeugen f\u00fcr die Optimierung von Investitionsstrategien liefern? Vielen Dank.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        209
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Einzelheiten verf\u00fcgbaren Datenanalysewerkzeuge\n\nK\u00f6nnen Sie Details zu Datenanalysewerkzeugen f\u00fcr die Optimierung von Investitionsstrategien liefern? Vielen Dank.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

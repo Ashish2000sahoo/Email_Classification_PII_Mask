@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Critical Integration Issue Report\n\nDear Customer Support,\\n\\nI am writing to report a critical issue that has caused significant delays in our project You can reach me at maria.gonzalez@shop.es.. Multiple integrations failed simultaneously, and despite our best efforts, we have been unable to resolve the issue.\\n\\nThe problem began after a recent update, which leads us to believe that there might be conflicts or API changes that are causing the integrations to fail. We have tried restarting the services, checking the logs, and verifying the settings, but nothing has worked.\\n\\nWe would greatly appreciate it if you could look into this matter urgently and provide us with a solution or guidance on how to resolve the issue. Please let us know if there are any additional steps we can take or if there's any further information you need from us.\\n\\nThank you for your attention to this matter, and we look forward to hearing from you soon.\\n\\nBest regards,\\n[Your Name] My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        996,
+        1010
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        180,
+        202
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Critical Integration Issue Report\n\nDear Customer Support,\\n\\nI am writing to report a critical issue that has caused significant delays in our project You can reach me at [email].. Multiple integrations failed simultaneously, and despite our best efforts, we have been unable to resolve the issue.\\n\\nThe problem began after a recent update, which leads us to believe that there might be conflicts or API changes that are causing the integrations to fail. We have tried restarting the services, checking the logs, and verifying the settings, but nothing has worked.\\n\\nWe would greatly appreciate it if you could look into this matter urgently and provide us with a solution or guidance on how to resolve the issue. Please let us know if there are any additional steps we can take or if there's any further information you need from us.\\n\\nThank you for your attention to this matter, and we look forward to hearing from you soon.\\n\\nBest regards,\\n[Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

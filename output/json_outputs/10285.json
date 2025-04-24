@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Procedures for Safeguarding Medical Information\n\nI would like to know about the precautions your hospital takes to ensure the confidentiality of medical data within its IT infrastructure. Could you elaborate on the steps you have put in place to safeguard patient data?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        317
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Procedures for Safeguarding Medical Information\n\nI would like to know about the precautions your hospital takes to ensure the confidentiality of medical data within its IT infrastructure. Could you elaborate on the steps you have put in place to safeguard patient data?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

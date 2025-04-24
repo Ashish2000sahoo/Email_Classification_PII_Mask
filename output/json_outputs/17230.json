@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber unerwarteten Abbruch des SaaS-Systems\n\nAn die Kundensupport, ich schreibe, um einen Fehler mit unserem SaaS-System zu melden You can reach me at janesmith@company.com.. Das System brach unerwartet ab, und es k\u00f6nnte mangelnde Ressourcen dahinterstecken My name is Sophia Rossi.. Ich habe bereits versucht, die Dienste neu zu starten, die Logs zu \u00fcberpr\u00fcfen und die Konfigurationen zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich sch\u00e4tze Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems, um die Unterbrechung so schnell wie m\u00f6glich zu beheben und weitere St\u00f6rungen zu vermeiden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        167,
+        188
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber unerwarteten Abbruch des SaaS-Systems\n\nAn die Kundensupport, ich schreibe, um einen Fehler mit unserem SaaS-System zu melden You can reach me at [email].. Das System brach unerwartet ab, und es k\u00f6nnte mangelnde Ressourcen dahinterstecken My name is [full_name].. Ich habe bereits versucht, die Dienste neu zu starten, die Logs zu \u00fcberpr\u00fcfen und die Konfigurationen zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich sch\u00e4tze Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems, um die Unterbrechung so schnell wie m\u00f6glich zu beheben und weitere St\u00f6rungen zu vermeiden.",
+  "category_of_the_email": "Incident"
+}

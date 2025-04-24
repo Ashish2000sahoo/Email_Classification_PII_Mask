@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de d\u00e9tails sur le MacBook Air M1\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve bien. J'ai r\u00e9cemment acquis un MacBook Air M1 aupr\u00e8s de Tech Online Store, et je recherche des informations d\u00e9taill\u00e9es sur son utilisation et quelques \u00e9tapes de d\u00e9pannage initiales. Bien que l'appareil fonctionne bien dans l'ensemble, je suis un nouveau venu dans l'\u00e9cosyst\u00e8me Mac, et il serait b\u00e9n\u00e9fique d'avoir une compr\u00e9hension plus compl\u00e8te de la navigation et de l'optimisation de ses fonctionnalit\u00e9s de mani\u00e8re efficace.\n\nPlus pr\u00e9cis\u00e9ment, j'appr\u00e9cierais des conseils sur la gestion des param\u00e8tres syst\u00e8me, l'utilisation efficace des modes d'\u00e9conomie d'\u00e9nergie, et la sauvegarde des donn\u00e9es de mani\u00e8re s\u00e9curis\u00e9e. De plus, tout conseil sur les installations de logiciels et les m\u00e9thodes de d\u00e9pannage courantes pour les probl\u00e8mes mineurs serait extr\u00eamement utile. Le num\u00e9ro de s\u00e9rie de mon MacBook Air est <acc_num>.\n\nComprendre ces aspects am\u00e9liorera mon exp\u00e9rience et m'aidera \u00e0 tirer le meilleur parti de l'investissement My name is John Doe.. Si disponible, veuillez me diriger vers des ressources en ligne, des guides ou des tutoriels qui pourraient compl\u00e9ter les informations fournies. Si vous avez besoin de plus de d\u00e9tails de ma part, n'h\u00e9sitez pas \u00e0 me contacter au plus t\u00f4t.\n\nMerci pour votre assistance.\n\nCordialement,\n\n<name> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1059,
+        1067
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1384,
+        1405
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Demande de d\u00e9tails sur le MacBook Air M1\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve bien. J'ai r\u00e9cemment acquis un MacBook Air M1 aupr\u00e8s de Tech Online Store, et je recherche des informations d\u00e9taill\u00e9es sur son utilisation et quelques \u00e9tapes de d\u00e9pannage initiales. Bien que l'appareil fonctionne bien dans l'ensemble, je suis un nouveau venu dans l'\u00e9cosyst\u00e8me Mac, et il serait b\u00e9n\u00e9fique d'avoir une compr\u00e9hension plus compl\u00e8te de la navigation et de l'optimisation de ses fonctionnalit\u00e9s de mani\u00e8re efficace.\n\nPlus pr\u00e9cis\u00e9ment, j'appr\u00e9cierais des conseils sur la gestion des param\u00e8tres syst\u00e8me, l'utilisation efficace des modes d'\u00e9conomie d'\u00e9nergie, et la sauvegarde des donn\u00e9es de mani\u00e8re s\u00e9curis\u00e9e. De plus, tout conseil sur les installations de logiciels et les m\u00e9thodes de d\u00e9pannage courantes pour les probl\u00e8mes mineurs serait extr\u00eamement utile. Le num\u00e9ro de s\u00e9rie de mon MacBook Air est <acc_num>.\n\nComprendre ces aspects am\u00e9liorera mon exp\u00e9rience et m'aidera \u00e0 tirer le meilleur parti de l'investissement My name is [full_name].. Si disponible, veuillez me diriger vers des ressources en ligne, des guides ou des tutoriels qui pourraient compl\u00e9ter les informations fournies. Si vous avez besoin de plus de d\u00e9tails de ma part, n'h\u00e9sitez pas \u00e0 me contacter au plus t\u00f4t.\n\nMerci pour votre assistance.\n\nCordialement,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Security Assistance\n\nOur organization has encountered unauthorized access to medical data systems, which might be due to outdated security measures You can reach me at johndoe@email.com.. After updating firewalls and reviewing access logs, the problem still exists My name is Jane Smith.. We need help to resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        297,
+        307
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        189,
+        206
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Security Assistance\n\nOur organization has encountered unauthorized access to medical data systems, which might be due to outdated security measures You can reach me at [email].. After updating firewalls and reviewing access logs, the problem still exists My name is [full_name].. We need help to resolve this issue.",
+  "category_of_the_email": "Incident"
+}

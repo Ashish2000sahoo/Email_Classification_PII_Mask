@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incorrect AWS Billing Issue\n\nDear Customer Support Team, I am writing to report unexpected charges on my AWS Management Services. Despite usual usage, there appears to be a billing discrepancy My name is Omar Hassan.. Can you please investigate and provide clarification? Account details: <acc_num>. Thank you for your prompt attention You can reach me at omar.hassan@secure.net.. Sincerely, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        213,
+        224
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        365,
+        387
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Incorrect AWS Billing Issue\n\nDear Customer Support Team, I am writing to report unexpected charges on my AWS Management Services. Despite usual usage, there appears to be a billing discrepancy My name is [full_name].. Can you please investigate and provide clarification? Account details: <acc_num>. Thank you for your prompt attention You can reach me at [email].. Sincerely, <name>",
+  "category_of_the_email": "Incident"
+}

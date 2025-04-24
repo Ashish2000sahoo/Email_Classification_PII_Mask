@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Connectivity Issues with Canon Printer\n\nDear Tech Online Store Support Team, I am writing to report connectivity issues with my Canon PIXMA MG3620 printer during mobile printing. It frequently loses wireless connection, disrupting my printing tasks. Please assist in resolving this persistent issue so I can efficiently use my printer. Your swift response will be greatly appreciated You can reach me at elena.ivanova@support.org.. Thank you for your help. Sincerely, <name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        495,
+        509
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        413,
+        438
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        151,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Connectivity Issues with Canon Printer\n\nDear Tech Online Store Support Team, I am writing to report connectivity issues with my Canon PIXMA MG[phone_number] printer during mobile printing. It frequently loses wireless connection, disrupting my printing tasks. Please assist in resolving this persistent issue so I can efficiently use my printer. Your swift response will be greatly appreciated You can reach me at [email].. Thank you for your help. Sincerely, <name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

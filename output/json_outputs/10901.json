@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Medical Data Security\n\nExperienced unauthorized access to medical data My name is Carlos Mendoza.. Suspicious IP addresses blocked You can reach me at maria.gonzalez@shop.es.. Firewall settings updated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        105,
+        119
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        171,
+        193
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern about Medical Data Security\n\nExperienced unauthorized access to medical data My name is [full_name].. Suspicious IP addresses blocked You can reach me at [email].. Firewall settings updated.",
+  "category_of_the_email": "Incident"
+}

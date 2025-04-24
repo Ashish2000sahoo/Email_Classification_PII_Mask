@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Langsame Leistung bei Data Analytics Support\n\nUnerwartete Verz\u00f6gerungen erlebt. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        110,
+        125
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Langsame Leistung bei Data Analytics Support\n\nUnerwartete Verz\u00f6gerungen erlebt. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenexport hat heute gescheitert\n\nSehr geehrte Kundensupport, ich stelle fest, dass es Schwierigkeiten gibt, Datenanalysereportings aus DataRobot in Microsoft Word zu exportieren You can reach me at sophia.rossi@service.it.. Die Reports werden nicht exportiert, und ich denke, dass die Ursache hierbei nichtkompatiblen Softwareaktualisierungen oder verschiedene Formate sein k\u00f6nnte My name is Elena Ivanova.. Ich habe bereits versucht, meinen Desktop neu zu starten, die Softwareversionen zu \u00fcberpr\u00fcfen und die Cache-Daten zu l\u00f6schen, aber das Problem bleibt bestehen. Es w\u00e4re sehr n\u00fctzlich, wenn Sie die Sache untersuchen und mir so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Ich danke Ihnen im Voraus f\u00fcr Ihr Engagement und freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        209,
+        232
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Datenexport hat heute gescheitert\n\nSehr geehrte Kundensupport, ich stelle fest, dass es Schwierigkeiten gibt, Datenanalysereportings aus DataRobot in Microsoft Word zu exportieren You can reach me at [email].. Die Reports werden nicht exportiert, und ich denke, dass die Ursache hierbei nichtkompatiblen Softwareaktualisierungen oder verschiedene Formate sein k\u00f6nnte My name is [full_name].. Ich habe bereits versucht, meinen Desktop neu zu starten, die Softwareversionen zu \u00fcberpr\u00fcfen und die Cache-Daten zu l\u00f6schen, aber das Problem bleibt bestehen. Es w\u00e4re sehr n\u00fctzlich, wenn Sie die Sache untersuchen und mir so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Ich danke Ihnen im Voraus f\u00fcr Ihr Engagement und freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

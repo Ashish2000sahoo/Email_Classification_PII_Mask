@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the Dashboard\n\nDear Customer Support, I am experiencing issues with the dashboard that have led to random crashes, which have significantly disrupted my workflow. Upon investigation, I discovered that the problem arises from incompatible library versions. Despite attempting to resolve it by updating dependencies and clearing the cache, the issue continues. I would be very grateful if you could look into this and provide guidance on how to fix it You can reach me at liuwei@business.cn.. Please inform me if you need any additional details from me My name is Fatima Al-Farsi.. Thank you for your attention and assistance. I am looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        584,
+        593
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        492,
+        510
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with the Dashboard\n\nDear Customer Support, I am experiencing issues with the dashboard that have led to random crashes, which have significantly disrupted my workflow. Upon investigation, I discovered that the problem arises from incompatible library versions. Despite attempting to resolve it by updating dependencies and clearing the cache, the issue continues. I would be very grateful if you could look into this and provide guidance on how to fix it You can reach me at [email].. Please inform me if you need any additional details from me My name is [full_name]-Farsi.. Thank you for your attention and assistance. I am looking forward to your response.",
+  "category_of_the_email": "Incident"
+}

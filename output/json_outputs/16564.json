@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Encryption for Medical Data Transmission\n\nHi Customer Support, I am interested in learning about encryption methods for securely transmitting medical data via WhatsApp Desktop and Cisco Webex Meetings My name is Omar Hassan.. Given the sensitive nature of medical information, ensuring its protection from unauthorized access is crucial. Could you please inform me about any encryption protocols currently available for these platforms? If not, could you suggest suitable encryption solutions? Furthermore, could you provide details on any regulatory compliance requirements that must be met for secure medical data transmission? I appreciate your assistance and look forward to your response. Thank you. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        741,
+        758
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Secure Encryption for Medical Data Transmission\n\nHi Customer Support, I am interested in learning about encryption methods for securely transmitting medical data via WhatsApp Desktop and Cisco Webex Meetings My name is [full_name].. Given the sensitive nature of medical information, ensuring its protection from unauthorized access is crucial. Could you please inform me about any encryption protocols currently available for these platforms? If not, could you suggest suitable encryption solutions? Furthermore, could you provide details on any regulatory compliance requirements that must be met for secure medical data transmission? I appreciate your assistance and look forward to your response. Thank you. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

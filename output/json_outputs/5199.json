@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improving Brand Expansion Digital Tactics Online\n\nCustomer support, exploring digital strategies to enhance brand growth My name is Carlos Mendoza.. Would be grateful for details on methods that can be used to increase brand awareness and engagement. Looking forward to learning more about the applied approach You can reach me at johndoe@email.com.. Thank you, and I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        155
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        337,
+        354
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Improving Brand Expansion Digital Tactics Online\n\nCustomer support, exploring digital strategies to enhance brand growth My name is [full_name].. Would be grateful for details on methods that can be used to increase brand awareness and engagement. Looking forward to learning more about the applied approach You can reach me at [email].. Thank you, and I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

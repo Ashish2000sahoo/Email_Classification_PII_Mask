@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erh\u00f6hte Analytik f\u00fcr Markenentwicklung\n\nGehrte Kundenservice, ich m\u00f6chte anfragen, ob avancierte Analytik-Werkzeuge zur Markenstrategie integriert werden k\u00f6nnen My name is Carlos Mendoza.. Diese Werkzeuge sollen uns bei der Ber\u00fccksichtigung datenbasierten Entscheidungen, der Markenentwicklung und der Steigerung der Konsumentenbeteiligung unterst\u00fctzen. Durch die Nutzung dieser Werkzeuge k\u00f6nnen wir wertvolle Erkenntnisse \u00fcber das Konsumentenverhalten gewinnen und Schl\u00fcsselindikatoren beobachten, um unsere Kampagnen zu optimieren. Ich denke, dass eine Integration entscheidend f\u00fcr den Wohlstand unserer Marken ist und dass Sie sich mit diesem Thema auskannten k\u00f6nnten You can reach me at fatima.farsi@help.com.. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen oder die n\u00e4chsten Schritte erl\u00e4utern k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        697,
+        718
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Erh\u00f6hte Analytik f\u00fcr Markenentwicklung\n\nGehrte Kundenservice, ich m\u00f6chte anfragen, ob avancierte Analytik-Werkzeuge zur Markenstrategie integriert werden k\u00f6nnen My name is [full_name].. Diese Werkzeuge sollen uns bei der Ber\u00fccksichtigung datenbasierten Entscheidungen, der Markenentwicklung und der Steigerung der Konsumentenbeteiligung unterst\u00fctzen. Durch die Nutzung dieser Werkzeuge k\u00f6nnen wir wertvolle Erkenntnisse \u00fcber das Konsumentenverhalten gewinnen und Schl\u00fcsselindikatoren beobachten, um unsere Kampagnen zu optimieren. Ich denke, dass eine Integration entscheidend f\u00fcr den Wohlstand unserer Marken ist und dass Sie sich mit diesem Thema auskannten k\u00f6nnten You can reach me at [email].. Bitte lassen Sie mich wissen, falls Sie weitere Informationen ben\u00f6tigen oder die n\u00e4chsten Schritte erl\u00e4utern k\u00f6nnen.",
+  "category_of_the_email": "Request"
+}

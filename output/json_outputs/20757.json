@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for IntelliJ IDEA License Transfer\n\nHello Customer Support,\n\nWe request a license transfer for IntelliJ IDEA 2024.1 due to internal department changes in our company. Please guide us through the process and provide any necessary documentation needed for the transfer.\n\nThank you,\n\n<name>\n<company_name>. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        130
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        342,
+        358
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for IntelliJ IDEA License Transfer\n\nHello Customer Support,\n\nWe request a license transfer for IntelliJ IDEA [phone_number].1 due to internal department changes in our company. Please guide us through the process and provide any necessary documentation needed for the transfer.\n\nThank you,\n\n<name>\n<company_name>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

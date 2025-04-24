@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit der Verbindung zum SaaS-Tool\n\nEs gibt h\u00e4ufige Verbindungsprobleme aufgrund von Inkompatibilit\u00e4ten zwischen PHP 8.0 und MySQL 8.0. Diese Probleme sind nach Neustart und Aktualisierung weiterhin vorhanden.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        263
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Verbindung zum SaaS-Tool\n\nEs gibt h\u00e4ufige Verbindungsprobleme aufgrund von Inkompatibilit\u00e4ten zwischen PHP 8.0 und MySQL 8.0. Diese Probleme sind nach Neustart und Aktualisierung weiterhin vorhanden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Growth Through Digital Marketing\n\nDear Customer Support, I am interested in learning more about digital marketing strategies for brand expansion. Could you provide more information on techniques and tools that can be used to increase brand visibility and engagement? I am particularly interested in learning more about social media marketing and search engine optimization approaches. Thank you for your time and support My name is Omar Hassan.. I look forward to hearing back from you soon You can reach me at janesmith@company.com.. Regards, Your engagement is highly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        441,
+        452
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        520,
+        541
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Growth Through Digital Marketing\n\nDear Customer Support, I am interested in learning more about digital marketing strategies for brand expansion. Could you provide more information on techniques and tools that can be used to increase brand visibility and engagement? I am particularly interested in learning more about social media marketing and search engine optimization approaches. Thank you for your time and support My name is [full_name].. I look forward to hearing back from you soon You can reach me at [email].. Regards, Your engagement is highly appreciated.",
+  "category_of_the_email": "Request"
+}

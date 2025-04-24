@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Crash of Data Analytics Platform Today\n\nDear Customer Support, <br>We are informing you that our data analytics platform encountered an unexpected crash My name is Omar Hassan.. This crash could potentially be linked to a shortage of resources on the MySQL server. <br>We have attempted to restart the MySQL server and reviewed the system logs, but the problem still exists. <br>We kindly request you to investigate this issue and offer a solution at the earliest You can reach me at fatima.farsi@help.com.. <br>Please inform us if there is any additional information you need from us. <br>Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        504,
+        525
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Crash of Data Analytics Platform Today\n\nDear Customer Support, <br>We are informing you that our data analytics platform encountered an unexpected crash My name is [full_name].. This crash could potentially be linked to a shortage of resources on the MySQL server. <br>We have attempted to restart the MySQL server and reviewed the system logs, but the problem still exists. <br>We kindly request you to investigate this issue and offer a solution at the earliest You can reach me at [email].. <br>Please inform us if there is any additional information you need from us. <br>Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

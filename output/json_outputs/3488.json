@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancement of Digital Toolkit\n\nHello Customer Support, I am contacting you to seek information on updating our digital resources for our marketing agency. We aim to boost our brand development strategies and enhance the effectiveness of our marketing campaigns. Our current digital resources are out of date, which makes it challenging to stay current with the latest trends and technologies You can reach me at omar.hassan@secure.net.. Could you provide us with details on the available options, along with their costs and benefits? Specifically, we are keen to learn about integrating data analytics and social media management tools to gain deeper insights into our target audience and develop more effective marketing strategies. We would greatly appreciate any recommendations or advice you can offer regarding the upgrade of our digital toolkit and improving our marketing efforts. We look forward to your response. Best regards, [Your Name] My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        969,
+        983
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        422,
+        444
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Enhancement of Digital Toolkit\n\nHello Customer Support, I am contacting you to seek information on updating our digital resources for our marketing agency. We aim to boost our brand development strategies and enhance the effectiveness of our marketing campaigns. Our current digital resources are out of date, which makes it challenging to stay current with the latest trends and technologies You can reach me at [email].. Could you provide us with details on the available options, along with their costs and benefits? Specifically, we are keen to learn about integrating data analytics and social media management tools to gain deeper insights into our target audience and develop more effective marketing strategies. We would greatly appreciate any recommendations or advice you can offer regarding the upgrade of our digital toolkit and improving our marketing efforts. We look forward to your response. Best regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Change"
+}

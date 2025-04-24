@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Anmeldung\n\nBenutzer erleben zeitweise Probleme bei der Anmeldung w\u00e4hrend der Gipfelstunde. Dies k\u00f6nnte auf eine Server\u00fcberlastung oder Konfigurationsfehler hinweisen My name is Elena Ivanova.. Durch Leeren der Caches und Neustart des Servers wurde die Situation verbessert. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        216
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        318,
+        339
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Anmeldung\n\nBenutzer erleben zeitweise Probleme bei der Anmeldung w\u00e4hrend der Gipfelstunde. Dies k\u00f6nnte auf eine Server\u00fcberlastung oder Konfigurationsfehler hinweisen My name is [full_name].. Durch Leeren der Caches und Neustart des Servers wurde die Situation verbessert. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

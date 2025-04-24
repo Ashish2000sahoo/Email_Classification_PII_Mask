@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Viele Produkte konnten nicht bereitgestellt werden\n\nViele Produkte konnten nicht bereitgestellt werden. Es k\u00f6nnte ein mangelnder Bandbreitenteil zugrunde liegen My name is Elena Ivanova.. Die Server wurden neugestartet und die Konfigurationen kontrolliert. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        194
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        284,
+        301
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Viele Produkte konnten nicht bereitgestellt werden\n\nViele Produkte konnten nicht bereitgestellt werden. Es k\u00f6nnte ein mangelnder Bandbreitenteil zugrunde liegen My name is [full_name].. Die Server wurden neugestartet und die Konfigurationen kontrolliert. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Netzwerkverbindung heute\n\nWir erleben momentan Netzwerkverbindungsm\u00e4\u00dfige Probleme mit verbundenen Ger\u00e4ten, einschlie\u00dflich des Rennlenks und Google Nest Wifi Router My name is Sophia Rossi.. Neueste Software-Updates k\u00f6nnten die Netzwerkdichte reduzieren und die Leistung beeinflussen You can reach me at elena.ivanova@support.org.. Wir haben versucht, die Ger\u00e4te und den Router auszuschalten und einzuschalten, aber die Probleme bestehen weiterhin. Wir bedanken uns f\u00fcr Ihre Geduld und werden bald eine m\u00f6gliche L\u00f6sung bereitstellen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        328,
+        353
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Netzwerkverbindung heute\n\nWir erleben momentan Netzwerkverbindungsm\u00e4\u00dfige Probleme mit verbundenen Ger\u00e4ten, einschlie\u00dflich des Rennlenks und Google Nest Wifi Router My name is [full_name].. Neueste Software-Updates k\u00f6nnten die Netzwerkdichte reduzieren und die Leistung beeinflussen You can reach me at [email].. Wir haben versucht, die Ger\u00e4te und den Router auszuschalten und einzuschalten, aber die Probleme bestehen weiterhin. Wir bedanken uns f\u00fcr Ihre Geduld und werden bald eine m\u00f6gliche L\u00f6sung bereitstellen.",
+  "category_of_the_email": "Incident"
+}

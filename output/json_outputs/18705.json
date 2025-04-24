@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenge with Financial Model Efficiency\n\nDear Customer Support,<br>I am preparing a report on the significant slowdown in our financial firm's investment optimization model. Despite our attempts to optimize the database and adjust parameters, the issues continue to persist You can reach me at janesmith@company.com.. The inefficiencies in the model might be due to increased data volume and algorithm inefficiencies My name is Liu Wei.. We have tried to resolve the issue by adjusting parameters and optimizing the database, but the problem remains. I would greatly appreciate your assistance in identifying the root cause and providing a solution to improve the model's performance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        305,
+        326
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Challenge with Financial Model Efficiency\n\nDear Customer Support,<br>I am preparing a report on the significant slowdown in our financial firm's investment optimization model. Despite our attempts to optimize the database and adjust parameters, the issues continue to persist You can reach me at [email].. The inefficiencies in the model might be due to increased data volume and algorithm inefficiencies My name is [full_name].. We have tried to resolve the issue by adjusting parameters and optimizing the database, but the problem remains. I would greatly appreciate your assistance in identifying the root cause and providing a solution to improve the model's performance.",
+  "category_of_the_email": "Incident"
+}

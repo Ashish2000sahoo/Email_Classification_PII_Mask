@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Question about IT Consulting Services\n\nHello Customer Support at the IT Consulting Firm,  \n\nI hope this note finds you well. My name is <name>, and I am contacting you to obtain details regarding the particular services offered by your IT Consulting Team. I am contemplating the possibility of utilizing your expertise to assist in configuring our server. While this project isn\u2019t pressing, I would appreciate understanding the support that may be available to me. Additionally, I am interested in learning about the average response times your team has when dealing with similar inquiries My name is Sophia Rossi..  \n\nCould you explain the consultation process from the initial request up until the implementation of your solutions? Furthermore, it would be greatly appreciated if you could provide any suggestions or materials that might help us make informed decisions during this configuration process.  \n\nI look forward to your advice and recommendations on how to engage your team for our server arrangement You can reach me at janesmith@company.com..  \n\nThank you for your assistance.  \n\nBest regards,  \n\n<name>  \n<company_name>  \n<contact_details>  \n\nPlease feel free to contact me directly at <tel_num> if you need additional information or wish to discuss anything further.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        610,
+        622
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1042,
+        1063
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Question about IT Consulting Services\n\nHello Customer Support at the IT Consulting Firm,  \n\nI hope this note finds you well. My name is <name>, and I am contacting you to obtain details regarding the particular services offered by your IT Consulting Team. I am contemplating the possibility of utilizing your expertise to assist in configuring our server. While this project isn\u2019t pressing, I would appreciate understanding the support that may be available to me. Additionally, I am interested in learning about the average response times your team has when dealing with similar inquiries My name is [full_name]..  \n\nCould you explain the consultation process from the initial request up until the implementation of your solutions? Furthermore, it would be greatly appreciated if you could provide any suggestions or materials that might help us make informed decisions during this configuration process.  \n\nI look forward to your advice and recommendations on how to engage your team for our server arrangement You can reach me at [email]..  \n\nThank you for your assistance.  \n\nBest regards,  \n\n<name>  \n<company_name>  \n<contact_details>  \n\nPlease feel free to contact me directly at <tel_num> if you need additional information or wish to discuss anything further.",
+  "category_of_the_email": "Request"
+}

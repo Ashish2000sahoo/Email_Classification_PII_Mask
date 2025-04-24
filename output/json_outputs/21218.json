@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de r\u00e9vision : erreur de chargement mensuel\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour exprimer ma pr\u00e9occupation concernant un probl\u00e8me de facturation avec mon r\u00e9cent plan Google Workspace Business Standard You can reach me at carlosm@gmail.com.. Mon num\u00e9ro de compte, <acc_num>, a \u00e9t\u00e9 factur\u00e9 incorrectement lors du dernier cycle de facturation, ce qui a entra\u00een\u00e9 un charge inattendu.\n\nBien que j'aie un accord de facturation mensuel standard, le montant de la facture de la derni\u00e8re p\u00e9riode indique une diff\u00e9rence consid\u00e9rable. Veuillez examiner les d\u00e9tails de facturation associ\u00e9s \u00e0 mon compte et me conseiller sur les ajustements n\u00e9cessaires. Ci-joint se trouve la capture d'\u00e9cran de la facture pour votre examen. Je crois que ce probl\u00e8me n\u00e9cessite une attention urgente pour \u00e9viter de futures divergences.\n\nMerci de r\u00e9pondre d\u00e8s que possible afin que nous puissions r\u00e9soudre cette affaire rapidement My name is Maria Gonzalez.. Merci pour votre assistance.\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        993,
+        1007
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        304,
+        321
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Demande de r\u00e9vision : erreur de chargement mensuel\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour exprimer ma pr\u00e9occupation concernant un probl\u00e8me de facturation avec mon r\u00e9cent plan Google Workspace Business Standard You can reach me at [email].. Mon num\u00e9ro de compte, <acc_num>, a \u00e9t\u00e9 factur\u00e9 incorrectement lors du dernier cycle de facturation, ce qui a entra\u00een\u00e9 un charge inattendu.\n\nBien que j'aie un accord de facturation mensuel standard, le montant de la facture de la derni\u00e8re p\u00e9riode indique une diff\u00e9rence consid\u00e9rable. Veuillez examiner les d\u00e9tails de facturation associ\u00e9s \u00e0 mon compte et me conseiller sur les ajustements n\u00e9cessaires. Ci-joint se trouve la capture d'\u00e9cran de la facture pour votre examen. Je crois que ce probl\u00e8me n\u00e9cessite une attention urgente pour \u00e9viter de futures divergences.\n\nMerci de r\u00e9pondre d\u00e8s que possible afin que nous puissions r\u00e9soudre cette affaire rapidement My name is [full_name].. Merci pour votre assistance.\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

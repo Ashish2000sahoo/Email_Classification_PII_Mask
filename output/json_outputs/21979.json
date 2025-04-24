@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Immediate Assistance Required\n\nDear Customer Support Team,\n\nI hope this message finds you well. We are encountering a major issue with our AWS Management Service, where the infrastructure has crashed unexpectedly, causing a disruption in our operations. This incident has greatly impacted our productivity, and we urgently need your swift help to reinstate full service You can reach me at maria.gonzalez@shop.es.. Our team is entirely ready to collaborate and provide any required credentials or information to accelerate the recovery process. Please treat this matter as urgent and provide us with guidance on the next steps promptly.\n\nThank you for your swift attention to this matter.\n\nBest regards,\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        739,
+        748
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        407,
+        429
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Immediate Assistance Required\n\nDear Customer Support Team,\n\nI hope this message finds you well. We are encountering a major issue with our AWS Management Service, where the infrastructure has crashed unexpectedly, causing a disruption in our operations. This incident has greatly impacted our productivity, and we urgently need your swift help to reinstate full service You can reach me at [email].. Our team is entirely ready to collaborate and provide any required credentials or information to accelerate the recovery process. Please treat this matter as urgent and provide us with guidance on the next steps promptly.\n\nThank you for your swift attention to this matter.\n\nBest regards,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

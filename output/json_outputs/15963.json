@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Required for JIRA Integration\n\nIs it possible to get details on integrating the JIRA project management SaaS solution?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        174
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Required for JIRA Integration\n\nIs it possible to get details on integrating the JIRA project management SaaS solution?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

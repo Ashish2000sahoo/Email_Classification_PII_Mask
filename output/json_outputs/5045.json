@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problematik mit fehlenden Produkt-Lizenzen\n\nLieber Kundensupport, ich schreibe, um zu melden, dass mehrere Produkt-Lizenzen fehlen. Dieses Anomaly k\u00f6nnte aufgrund eines m\u00f6glicherweise vorhandenen Datenbank-Sync-Problems aufgetreten sein My name is Omar Hassan.. Ich habe bereits versucht, die Dienstleistungen zu neu starten und die Logs zu pr\u00fcfen, aber der Fehler beh\u00e4lt seinen Verlauf auf You can reach me at maria.gonzalez@shop.es.. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich mit diesem Anomaly auseinandersetzen und eine L\u00f6sung so schnell wie m\u00f6glich zur Verf\u00fcgung stellen k\u00f6nnten. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von mir ben\u00f6tigen, um das Problem zu l\u00f6sen. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        420,
+        442
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problematik mit fehlenden Produkt-Lizenzen\n\nLieber Kundensupport, ich schreibe, um zu melden, dass mehrere Produkt-Lizenzen fehlen. Dieses Anomaly k\u00f6nnte aufgrund eines m\u00f6glicherweise vorhandenen Datenbank-Sync-Problems aufgetreten sein My name is [full_name].. Ich habe bereits versucht, die Dienstleistungen zu neu starten und die Logs zu pr\u00fcfen, aber der Fehler beh\u00e4lt seinen Verlauf auf You can reach me at [email].. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie sich mit diesem Anomaly auseinandersetzen und eine L\u00f6sung so schnell wie m\u00f6glich zur Verf\u00fcgung stellen k\u00f6nnten. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen von mir ben\u00f6tigen, um das Problem zu l\u00f6sen. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

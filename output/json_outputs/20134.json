@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Solicitud de programaci\u00f3n de mantenimiento de AWS\n\nPor favor, programe el mantenimiento rutinario para nuestra infraestructura de AWS para optimizar el rendimiento y prevenir posibles interrupciones del servicio. Su pronta atenci\u00f3n a esta solicitud es apreciada.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        310
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de programaci\u00f3n de mantenimiento de AWS\n\nPor favor, programe el mantenimiento rutinario para nuestra infraestructura de AWS para optimizar el rendimiento y prevenir posibles interrupciones del servicio. Su pronta atenci\u00f3n a esta solicitud es apreciada.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

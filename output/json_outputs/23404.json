@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: H\u00e4ufige Abst\u00fcrze auf macOS mit Adobe Photoshop 2024\n\nHallo Kundenservice, ich erlebe h\u00e4ufige Abst\u00fcrze auf macOS, wenn ich versuche, Effekte auf Ebenen in Adobe Photoshop 2024 anzuwenden My name is Carlos Mendoza.. Dieses Problem beeintr\u00e4chtigt meine Designarbeit erheblich. K\u00f6nnten Sie bitte helfen, dieses Problem schnell zu l\u00f6sen? Vielen Dank, <name>. Kontakt: <tel_num>. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        220
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        400,
+        425
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        56,
+        60
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        179,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: H\u00e4ufige Abst\u00fcrze auf macOS mit Adobe Photoshop [phone_number]\n\nHallo Kundenservice, ich erlebe h\u00e4ufige Abst\u00fcrze auf macOS, wenn ich versuche, Effekte auf Ebenen in Adobe Photoshop [phone_number] anzuwenden My name is [full_name].. Dieses Problem beeintr\u00e4chtigt meine Designarbeit erheblich. K\u00f6nnten Sie bitte helfen, dieses Problem schnell zu l\u00f6sen? Vielen Dank, <name>. Kontakt: <tel_num>. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

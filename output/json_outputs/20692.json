@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Aktualisierung der AWS-Stufe\n\nSehr geehrte/r <name>, ich schreibe, um eine Aktualisierung der im Rahmen unseres AWS-Management-Service-Kontos verwendeten AWS-Cloud-Speicherstufe <acc_num> zu beantragen My name is Omar Hassan.. Diese \u00c4nderung zielt darauf ab, unsere Kosten zu optimieren und die Datenabrufleistung zu verbessern. Bitte teilen Sie mir die erforderlichen Schritte mit You can reach me at liuwei@business.cn.. Mit freundlichen Gr\u00fc\u00dfen, <name>, <tel_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        245
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        423,
+        441
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Aktualisierung der AWS-Stufe\n\nSehr geehrte/r <name>, ich schreibe, um eine Aktualisierung der im Rahmen unseres AWS-Management-Service-Kontos verwendeten AWS-Cloud-Speicherstufe <acc_num> zu beantragen My name is [full_name].. Diese \u00c4nderung zielt darauf ab, unsere Kosten zu optimieren und die Datenabrufleistung zu verbessern. Bitte teilen Sie mir die erforderlichen Schritte mit You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, <name>, <tel_num>.",
+  "category_of_the_email": "Change"
+}

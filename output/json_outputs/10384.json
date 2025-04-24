@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boost Brand Expansion Techniques\n\nDear Support, we are reaching out to request the implementation of new digital marketing tools to enhance our brand's growth strategies My name is Carlos Mendoza.. Our goal is to streamline our campaign management and better target our audience to increase our online presence You can reach me at liuwei@business.cn.. We would greatly appreciate it if you could look into providing a solution as soon as possible. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        190,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        337,
+        355
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Boost Brand Expansion Techniques\n\nDear Support, we are reaching out to request the implementation of new digital marketing tools to enhance our brand's growth strategies My name is [full_name].. Our goal is to streamline our campaign management and better target our audience to increase our online presence You can reach me at [email].. We would greatly appreciate it if you could look into providing a solution as soon as possible. Thank you for your assistance.",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boost Brand Engagement Tactics\n\nHello Customer Support, I am contacting you to explore digital methods for enhancing brand engagement for our marketing firm. Our aim is to boost our online footprint and deepen our relationship with our audience. We are considering strategies such as social media campaigns, content production, and collaborations with influencers. However, we seek your professional advice on the most impactful digital strategies to increase engagement. We are eager to learn about current industry trends and best practices My name is Omar Hassan.. Furthermore, we would like to understand how to assess the effectiveness of our digital initiatives and monitor our ongoing success. We appreciate your help and look forward to your response You can reach me at sophia.rossi@service.it.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        563,
+        574
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        788,
+        811
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Boost Brand Engagement Tactics\n\nHello Customer Support, I am contacting you to explore digital methods for enhancing brand engagement for our marketing firm. Our aim is to boost our online footprint and deepen our relationship with our audience. We are considering strategies such as social media campaigns, content production, and collaborations with influencers. However, we seek your professional advice on the most impactful digital strategies to increase engagement. We are eager to learn about current industry trends and best practices My name is [full_name].. Furthermore, we would like to understand how to assess the effectiveness of our digital initiatives and monitor our ongoing success. We appreciate your help and look forward to your response You can reach me at [email].. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

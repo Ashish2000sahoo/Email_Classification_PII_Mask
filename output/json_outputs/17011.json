@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Data Update Overnight\n\nData update has ceased to function. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        102,
+        118
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Update Overnight\n\nData update has ceased to function. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am inquiring about updating the sales presentation materials. The software has recently undergone substantial improvements with new features that I believe would be very beneficial for showcasing to potential clients. The current materials are outdated and do not accurately represent the product's capabilities My name is Fatima Al-Farsi.. I would greatly appreciate it if you could update the presentation to include these new features, as this would significantly improve the overall quality of our sales pitches and increase the likelihood of converting leads into customers. Thank you. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        368
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        649,
+        666
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am inquiring about updating the sales presentation materials. The software has recently undergone substantial improvements with new features that I believe would be very beneficial for showcasing to potential clients. The current materials are outdated and do not accurately represent the product's capabilities My name is [full_name]-Farsi.. I would greatly appreciate it if you could update the presentation to include these new features, as this would significantly improve the overall quality of our sales pitches and increase the likelihood of converting leads into customers. Thank you. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

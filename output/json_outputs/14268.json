@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sichere Speicherm\u00f6glichkeiten f\u00fcr medizinische Daten\n\nSehr geehrte Kundensupport, ich wende mich an Sie im Zusammenhang mit der Suche nach sicheren Speicher- und \u00dcbertragungsmethoden f\u00fcr medizinische Informationen My name is David Kim.. Ich m\u00f6chte erfahren, welche M\u00f6glichkeiten es gibt, um die Vertraulichkeit und Integrit\u00e4t von sensible medizinischen Daten zu gew\u00e4hrleisten. Bitte berichten Sie \u00fcber die verwendeten Verschl\u00fcsselungsverfahren und die Sicherheitsmassnahmen You can reach me at fatima.farsi@help.com.. Ich freue mich auf Ihre Unterst\u00fctzung in dieser Angelegenheit und darauf, baldige R\u00fcckmeldung zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        505,
+        526
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Sichere Speicherm\u00f6glichkeiten f\u00fcr medizinische Daten\n\nSehr geehrte Kundensupport, ich wende mich an Sie im Zusammenhang mit der Suche nach sicheren Speicher- und \u00dcbertragungsmethoden f\u00fcr medizinische Informationen My name is [full_name].. Ich m\u00f6chte erfahren, welche M\u00f6glichkeiten es gibt, um die Vertraulichkeit und Integrit\u00e4t von sensible medizinischen Daten zu gew\u00e4hrleisten. Bitte berichten Sie \u00fcber die verwendeten Verschl\u00fcsselungsverfahren und die Sicherheitsmassnahmen You can reach me at [email].. Ich freue mich auf Ihre Unterst\u00fctzung in dieser Angelegenheit und darauf, baldige R\u00fcckmeldung zu erhalten.",
+  "category_of_the_email": "Request"
+}

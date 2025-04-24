@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerning suspected medical data leak via unsecured ClickUp dashboard\n\nDear Customer Support,\\n\\nI am contacting you to report a potential medical data leak that might have occurred through an unsecured ClickUp dashboard You can reach me at fatima.farsi@help.com.. This could be due to inadequate access controls and outdated Airtable plugins.\\n\\nI have already attempted to resolve the issue by restarting the Kodak scanner and reviewing the Bitdefender antivirus logs, but the problem remains unresolved and requires further assistance.\\n\\nWould you be able to launch an investigation and offer a solution to secure the medical data? I would also appreciate any advice on preventing similar incidents in the future.\\n\\nHere are the details of the issue:\\n\\n- What happened: A suspected medical data leak via an unsecured ClickUp dashboard.\\n- Why it might have occurred: Insufficient access controls, outdated Airtable plugins.\\n- What was tried so far: Restarted Kodak scanner, reviewed Bitdefender antivirus logs.\\n\\nThank you for your quick response to this matter. I look forward to your reply.\\n\\nSincerely,\\n[Your Name] My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1149,
+        1156
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        251,
+        272
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concerning suspected medical data leak via unsecured ClickUp dashboard\n\nDear Customer Support,\\n\\nI am contacting you to report a potential medical data leak that might have occurred through an unsecured ClickUp dashboard You can reach me at [email].. This could be due to inadequate access controls and outdated Airtable plugins.\\n\\nI have already attempted to resolve the issue by restarting the Kodak scanner and reviewing the Bitdefender antivirus logs, but the problem remains unresolved and requires further assistance.\\n\\nWould you be able to launch an investigation and offer a solution to secure the medical data? I would also appreciate any advice on preventing similar incidents in the future.\\n\\nHere are the details of the issue:\\n\\n- What happened: A suspected medical data leak via an unsecured ClickUp dashboard.\\n- Why it might have occurred: Insufficient access controls, outdated Airtable plugins.\\n- What was tried so far: Restarted Kodak scanner, reviewed Bitdefender antivirus logs.\\n\\nThank you for your quick response to this matter. I look forward to your reply.\\n\\nSincerely,\\n[Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

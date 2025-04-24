@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgente: Problema de tiempo de inactividad de la base de datos MySQL 8.0.30\n\nNuestra base de datos principal de clientes, que ejecuta MySQL 8.0.30, est\u00e1 actualmente fuera de servicio. Esto ha provocado problemas significativos de disponibilidad que afectan a varios de nuestros servicios y operaciones My name is Liu Wei.. Necesitamos soporte urgente para resolver este asunto r\u00e1pidamente. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        423,
+        445
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        78,
+        84
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        149,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problema de tiempo de inactividad de la base de datos MySQL [phone_number]\n\nNuestra base de datos principal de clientes, que ejecuta MySQL [phone_number], est\u00e1 actualmente fuera de servicio. Esto ha provocado problemas significativos de disponibilidad que afectan a varios de nuestros servicios y operaciones My name is [full_name].. Necesitamos soporte urgente para resolver este asunto r\u00e1pidamente. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

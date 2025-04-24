@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Einrichtung von ClickUp SAP ERP-Systemen\n\nHerausforderungen bei der Integration von ClickUp SAP ERP-Systemen zur Verbesserung des Projektmanagements My name is John Doe.. Ziel ist die erhebliche Steigerung der Produktivit\u00e4t You can reach me at omar.hassan@secure.net.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und die bereitgestellten Anleitungen. Freuen uns darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        256,
+        278
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Einrichtung von ClickUp SAP ERP-Systemen\n\nHerausforderungen bei der Integration von ClickUp SAP ERP-Systemen zur Verbesserung des Projektmanagements My name is [full_name].. Ziel ist die erhebliche Steigerung der Produktivit\u00e4t You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und die bereitgestellten Anleitungen. Freuen uns darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

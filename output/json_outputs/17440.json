@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Data Vanished Suddenly\n\nGreeting Customer Support Team, I am contacting you to address a problem with my project data that vanished unexpectedly overnight. I am uncertain of the reason behind it and suspect it could be linked to a Cassandra database synchronization issue. Despite attempting to refresh the Docker container, the issue remains unresolved You can reach me at elena.ivanova@support.org.. Your assistance in resolving this situation would be greatly appreciated My name is Jane Smith.. Please inform me if there are any additional steps I should take to diagnose or if you need further details from me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        503,
+        513
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        391,
+        416
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Project Data Vanished Suddenly\n\nGreeting Customer Support Team, I am contacting you to address a problem with my project data that vanished unexpectedly overnight. I am uncertain of the reason behind it and suspect it could be linked to a Cassandra database synchronization issue. Despite attempting to refresh the Docker container, the issue remains unresolved You can reach me at [email].. Your assistance in resolving this situation would be greatly appreciated My name is [full_name].. Please inform me if there are any additional steps I should take to diagnose or if you need further details from me.",
+  "category_of_the_email": "Incident"
+}

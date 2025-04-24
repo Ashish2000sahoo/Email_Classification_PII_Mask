@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Security Systems\n\nUnauthorized access controls on the medical data system have been identified My name is Sophia Rossi.. The outdated security protocols are likely the cause. So far, the antivirus software has been updated and user permissions have been checked. Concerned about potential breaches of confidential information, we seek support for a thorough investigation and implementation of additional security measures to prevent future events. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        488,
+        510
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Security Systems\n\nUnauthorized access controls on the medical data system have been identified My name is [full_name].. The outdated security protocols are likely the cause. So far, the antivirus software has been updated and user permissions have been checked. Concerned about potential breaches of confidential information, we seek support for a thorough investigation and implementation of additional security measures to prevent future events. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

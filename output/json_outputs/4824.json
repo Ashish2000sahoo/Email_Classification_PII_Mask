@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Scaling a Project Management SaaS Platform\n\nDear Customer Support, I am writing to inquire about the scalability options for our Project Management SaaS platform My name is Maria Gonzalez.. Could you please provide detailed information on how the platform scales with an increase in the number of users and data? I would greatly appreciate learning about the current scalability limits and potential bottlenecks. Additionally, I am interested in any future plans for improving scalability. Thank you for your support, and I look forward to hearing from you soon. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        601,
+        623
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Scaling a Project Management SaaS Platform\n\nDear Customer Support, I am writing to inquire about the scalability options for our Project Management SaaS platform My name is [full_name].. Could you please provide detailed information on how the platform scales with an increase in the number of users and data? I would greatly appreciate learning about the current scalability limits and potential bottlenecks. Additionally, I am interested in any future plans for improving scalability. Thank you for your support, and I look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

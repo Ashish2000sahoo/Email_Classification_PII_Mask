@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Dienstleistung gemeldet\n\nSehr geehrte Kundensupport, wir begegnen derzeit Serviceunterbrechungen bei mehreren Produkten, einschlie\u00dflich IFTTT DataRobot My name is Liu Wei.. Das Problem scheint auf unerwartete Serverlast zur\u00fcckzuf\u00fchren sein. Schon Ma\u00dfnahmen wurden ergriffen, um das Problem zu l\u00f6sen; betroffene Dienste wurden neu gestartet und Serverressourcen wurden gesteigert. Jedoch bestehen Probleme weiterhin. Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um das Problem zu l\u00f6sen. Wir danken Ihnen f\u00fcr Ihre schnelle Beachtung und freuen uns auf Ihre Unterst\u00fctzung, um die Dienste bald wieder in voller Funktionalit\u00e4t zu bringen. Bitte geben Sie die n\u00e4chsten Schritte an, um das Problem zu l\u00f6sen, und geben Sie ein geeignetes Zeitfenster f\u00fcr einen Anruf an, um weitere Informationen zu sammeln und die n\u00e4chsten Schritte zu bestimmen You can reach me at johndoe@email.com.. Das Telefonnummer f\u00fcr den Anruf ist <tel_num>. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        876,
+        893
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Dienstleistung gemeldet\n\nSehr geehrte Kundensupport, wir begegnen derzeit Serviceunterbrechungen bei mehreren Produkten, einschlie\u00dflich IFTTT DataRobot My name is [full_name].. Das Problem scheint auf unerwartete Serverlast zur\u00fcckzuf\u00fchren sein. Schon Ma\u00dfnahmen wurden ergriffen, um das Problem zu l\u00f6sen; betroffene Dienste wurden neu gestartet und Serverressourcen wurden gesteigert. Jedoch bestehen Probleme weiterhin. Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um das Problem zu l\u00f6sen. Wir danken Ihnen f\u00fcr Ihre schnelle Beachtung und freuen uns auf Ihre Unterst\u00fctzung, um die Dienste bald wieder in voller Funktionalit\u00e4t zu bringen. Bitte geben Sie die n\u00e4chsten Schritte an, um das Problem zu l\u00f6sen, und geben Sie ein geeignetes Zeitfenster f\u00fcr einen Anruf an, um weitere Informationen zu sammeln und die n\u00e4chsten Schritte zu bestimmen You can reach me at [email].. Das Telefonnummer f\u00fcr den Anruf ist <tel_num>. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

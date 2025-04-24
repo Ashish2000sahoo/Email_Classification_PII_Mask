@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Hospital Data Breach Incident\n\nA data breach has affected the hospital's systems, posing a risk to patient information security. It may be due to outdated software and insufficient encryption protocols My name is Sophia Rossi.. Despite initial security measures, such as updating access controls, the issue still persists. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        246
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        363,
+        384
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Hospital Data Breach Incident\n\nA data breach has affected the hospital's systems, posing a risk to patient information security. It may be due to outdated software and insufficient encryption protocols My name is [full_name].. Despite initial security measures, such as updating access controls, the issue still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

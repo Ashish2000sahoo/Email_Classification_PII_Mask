@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I hope this message finds you well. I am reaching out to inform you about a problem we are experiencing with our data encryption You can reach me at liuwei@business.cn.. The system has suddenly stopped working, and we believe it could be because of an old software patch. We have attempted to restart our servers and reviewed our configuration files, but the issue remains unresolved. We would be grateful if you could help us address this My name is David Kim.. If possible, could you provide steps on how to update the software patch or suggest any other viable solutions? Thank you for your assistance. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        485,
+        494
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        183,
+        201
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I hope this message finds you well. I am reaching out to inform you about a problem we are experiencing with our data encryption You can reach me at [email].. The system has suddenly stopped working, and we believe it could be because of an old software patch. We have attempted to restart our servers and reviewed our configuration files, but the issue remains unresolved. We would be grateful if you could help us address this My name is [full_name].. If possible, could you provide steps on how to update the software patch or suggest any other viable solutions? Thank you for your assistance. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

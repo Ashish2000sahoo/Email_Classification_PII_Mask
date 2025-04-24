@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with Server Response Times During Peak Hours\n\nDuring high traffic periods, there were noticeable delays in loading project dashboards, which might be related to the recent code updates impacting server performance.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        269
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Issues with Server Response Times During Peak Hours\n\nDuring high traffic periods, there were noticeable delays in loading project dashboards, which might be related to the recent code updates impacting server performance.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

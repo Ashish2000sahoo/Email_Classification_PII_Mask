@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Support with Campaigns\n\nThere are issues with digital campaigns as the ads are not displaying correctly, likely due to software incompatibility. After restarting systems and updating software, the problem still exists My name is John Doe.. Assistance is needed to address the issue and ensure campaigns run smoothly. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        250,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        361,
+        383
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Request for Support with Campaigns\n\nThere are issues with digital campaigns as the ads are not displaying correctly, likely due to software incompatibility. After restarting systems and updating software, the problem still exists My name is [full_name].. Assistance is needed to address the issue and ensure campaigns run smoothly. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

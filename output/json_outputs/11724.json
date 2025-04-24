@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Available Billing Options for Netzteil and Kaspersky\n\nDear customer support, I am contacting you to seek information regarding the billing options for Netzteil and Kaspersky subscriptions You can reach me at sophia.rossi@service.it.. Could you kindly share details about the different plans and their respective pricing? I am also interested in knowing if there are any discounts for long-term subscriptions or bundle deals My name is Maria Gonzalez.. Furthermore, I would like to be informed about the accepted payment methods and any additional fees associated with these subscriptions. I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        444,
+        458
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        217,
+        240
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Available Billing Options for Netzteil and Kaspersky\n\nDear customer support, I am contacting you to seek information regarding the billing options for Netzteil and Kaspersky subscriptions You can reach me at [email].. Could you kindly share details about the different plans and their respective pricing? I am also interested in knowing if there are any discounts for long-term subscriptions or bundle deals My name is [full_name].. Furthermore, I would like to be informed about the accepted payment methods and any additional fees associated with these subscriptions. I look forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

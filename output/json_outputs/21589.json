@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Demande sur la mise \u00e0 niveau du Dell XPS 13 9310\n\nBonjour,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 You can reach me at janesmith@company.com.. Je consid\u00e8re la possibilit\u00e9 de mettre \u00e0 niveau la RAM de mon Dell XPS 13 9310 et j'appr\u00e9cierais vos conseils My name is Sophia Rossi.. Pourriez-vous me fournir des informations sur la compatibilit\u00e9 et les mod\u00e8les disponibles ? Votre expertise et vos conseils \u00e0 ce sujet seraient d'une grande aide.\n\nMerci.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        296
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        140,
+        161
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        50,
+        57
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        220,
+        227
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Demande sur la mise \u00e0 niveau du Dell XPS [phone_number]\n\nBonjour,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 You can reach me at [email].. Je consid\u00e8re la possibilit\u00e9 de mettre \u00e0 niveau la RAM de mon Dell XPS [phone_number] et j'appr\u00e9cierais vos conseils My name is [full_name].. Pourriez-vous me fournir des informations sur la compatibilit\u00e9 et les mod\u00e8les disponibles ? Votre expertise et vos conseils \u00e0 ce sujet seraient d'une grande aide.\n\nMerci.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Request"
+}

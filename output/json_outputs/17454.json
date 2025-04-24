@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Failure in Data Encryption on MS Surface Pro 8\n\nRespected customer support, I am encountering difficulties with data encryption on my MS Surface Pro 8. It is likely that the problem is due to a compatibility issue with Symantec Endpoint Protection 14.3. I have attempted to resolve the issue by restarting the devices, verifying the encryption settings, and updating the Symantec software, but the problem continues to occur. I would be very grateful for any support or direction you can offer to address this issue My name is Maria Gonzalez.. Please inform me of any additional steps I should take or any further details you need from me. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        536,
+        550
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        666,
+        691
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Failure in Data Encryption on MS Surface Pro 8\n\nRespected customer support, I am encountering difficulties with data encryption on my MS Surface Pro 8. It is likely that the problem is due to a compatibility issue with Symantec Endpoint Protection 14.3. I have attempted to resolve the issue by restarting the devices, verifying the encryption settings, and updating the Symantec software, but the problem continues to occur. I would be very grateful for any support or direction you can offer to address this issue My name is [full_name].. Please inform me of any additional steps I should take or any further details you need from me. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

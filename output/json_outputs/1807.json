@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Die Anlage-Projektionen sind heute ungenau\n\nIch m\u00f6chte \u00fcber Ungereimtheiten in meiner Portfolio-Optimierung informieren You can reach me at omar.hassan@secure.net.. Die Anlage-Projektionen sind ungenau und k\u00f6nnten auf falsche Dateninhalte zur\u00fcckzuf\u00fchren sein. Ich habe die Datenquellen gepr\u00fcft und die Modelle neu berechnet, aber das Problem beh\u00e4lt sich trotzdem bestehen. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dies genauer anschauen und eine L\u00f6sung anbieten k\u00f6nnten. Bitte informieren Sie mich, ob Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        583,
+        597
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        149,
+        171
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Die Anlage-Projektionen sind heute ungenau\n\nIch m\u00f6chte \u00fcber Ungereimtheiten in meiner Portfolio-Optimierung informieren You can reach me at [email].. Die Anlage-Projektionen sind ungenau und k\u00f6nnten auf falsche Dateninhalte zur\u00fcckzuf\u00fchren sein. Ich habe die Datenquellen gepr\u00fcft und die Modelle neu berechnet, aber das Problem beh\u00e4lt sich trotzdem bestehen. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dies genauer anschauen und eine L\u00f6sung anbieten k\u00f6nnten. Bitte informieren Sie mich, ob Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

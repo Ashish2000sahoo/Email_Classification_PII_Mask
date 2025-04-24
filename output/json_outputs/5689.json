@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Help Needed for Service Interruption\n\nDear Customer Support, we are experiencing a major service outage that has impacted several platforms, leading to restricted access to crucial medical data My name is John Doe.. This issue may be due to system vulnerabilities and insufficient firewall protection. So far, we have restarted the affected servers and reviewed the logs for anomalies, but no resolution has been found yet. We urgently need your assistance to resolve this matter as soon as possible. Please inform us of the necessary steps to take to restore the services You can reach me at sophia.rossi@service.it.. We appreciate your cooperation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        221,
+        229
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        612,
+        635
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Urgent Help Needed for Service Interruption\n\nDear Customer Support, we are experiencing a major service outage that has impacted several platforms, leading to restricted access to crucial medical data My name is [full_name].. This issue may be due to system vulnerabilities and insufficient firewall protection. So far, we have restarted the affected servers and reviewed the logs for anomalies, but no resolution has been found yet. We urgently need your assistance to resolve this matter as soon as possible. Please inform us of the necessary steps to take to restore the services You can reach me at [email].. We appreciate your cooperation.",
+  "category_of_the_email": "Incident"
+}

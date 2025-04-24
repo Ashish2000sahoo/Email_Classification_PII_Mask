@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Low Engagement in Digital Campaigns\n\nCustomer Support, we are facing issues with lower engagement rates in our digital campaigns. This could be due to ineffective targeting or outdated strategies You can reach me at sophia.rossi@service.it.. After analyzing recent metrics, we updated ad creatives and adjusted audience segments, but the results have not improved My name is Liu Wei.. Our team has tried various adjustments, including refreshing ad content, refining targeting parameters, and exploring new channels. Despite these efforts, we have not seen significant improvements in engagement metrics.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        240,
+        263
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Low Engagement in Digital Campaigns\n\nCustomer Support, we are facing issues with lower engagement rates in our digital campaigns. This could be due to ineffective targeting or outdated strategies You can reach me at [email].. After analyzing recent metrics, we updated ad creatives and adjusted audience segments, but the results have not improved My name is [full_name].. Our team has tried various adjustments, including refreshing ad content, refining targeting parameters, and exploring new channels. Despite these efforts, we have not seen significant improvements in engagement metrics.",
+  "category_of_the_email": "Problem"
+}

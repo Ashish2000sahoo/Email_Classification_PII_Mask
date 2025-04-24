@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Data Analytics Solutions Investment\n\nCustomer Support, I am reaching out to inquire about data analytics solutions that can help optimize investment decisions. Could you provide information on the types of analytics tools that are available to assist in making informed investment choices? I am particularly interested in learning about the predictive modeling capabilities used to identify trends and patterns in the market. Additionally, I would like to know more about the data visualization tools that are used to present complex data in a clear and concise manner My name is Liu Wei.. I am also interested in learning about customer support and training options. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        600,
+        607
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        712,
+        733
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Data Analytics Solutions Investment\n\nCustomer Support, I am reaching out to inquire about data analytics solutions that can help optimize investment decisions. Could you provide information on the types of analytics tools that are available to assist in making informed investment choices? I am particularly interested in learning about the predictive modeling capabilities used to identify trends and patterns in the market. Additionally, I would like to know more about the data visualization tools that are used to present complex data in a clear and concise manner My name is [full_name].. I am also interested in learning about customer support and training options. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

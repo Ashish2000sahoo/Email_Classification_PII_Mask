@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Project Management\n\nThe project management application is facing occasional downtime with a rise in user load. Attempts to scale server resources and optimize the database have not resolved the issue.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        261
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Management\n\nThe project management application is facing occasional downtime with a rise in user load. Attempts to scale server resources and optimize the database have not resolved the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

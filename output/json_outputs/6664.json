@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice, ich m\u00f6chte mich erkundigen, welche Zahlungsmethoden zur Verf\u00fcgung stehen f\u00fcr die Absicherung medizinischer Datenleistungen You can reach me at janesmith@company.com.. K\u00f6nnten Sie mir bitte Details zu Kreditkarten, Bank\u00fcberweisungen und Online-Zahlungsplattformen geben? Es w\u00e4re mir au\u00dferdem sehr lieb, wenn Sie mir mitteilen k\u00f6nnten, ob es aktuelle Rabatte oder Promos gibt My name is Liu Wei.. Zudem m\u00f6chte ich erfahren, ob es spezielle Anforderungen oder Verfahren beim Zahlungsprozess gibt. Ich danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        424,
+        431
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        182,
+        203
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice, ich m\u00f6chte mich erkundigen, welche Zahlungsmethoden zur Verf\u00fcgung stehen f\u00fcr die Absicherung medizinischer Datenleistungen You can reach me at [email].. K\u00f6nnten Sie mir bitte Details zu Kreditkarten, Bank\u00fcberweisungen und Online-Zahlungsplattformen geben? Es w\u00e4re mir au\u00dferdem sehr lieb, wenn Sie mir mitteilen k\u00f6nnten, ob es aktuelle Rabatte oder Promos gibt My name is [full_name].. Zudem m\u00f6chte ich erfahren, ob es spezielle Anforderungen oder Verfahren beim Zahlungsprozess gibt. Ich danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

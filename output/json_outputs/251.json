@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the Home Page of the Website\n\nThe home page of the website has started to malfunction unexpectedly You can reach me at sophia.rossi@service.it.. It might be due to a plugin that is out of date or a coding mistake. I have restarted the server and reviewed the logs, but the problem still exists My name is David Kim.. I would really appreciate your help to fix this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        327,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        141,
+        164
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with the Home Page of the Website\n\nThe home page of the website has started to malfunction unexpectedly You can reach me at [email].. It might be due to a plugin that is out of date or a coding mistake. I have restarted the server and reviewed the logs, but the problem still exists My name is [full_name].. I would really appreciate your help to fix this.",
+  "category_of_the_email": "Incident"
+}

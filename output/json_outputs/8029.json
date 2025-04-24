@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Support Request for Synchronization Issues\n\nThe schedule synchronization across different devices is not functioning correctly My name is Omar Hassan.. It is suspected that there are integration issues with Adobe After Effects 2021. I have already performed restarts, reviewed the connection settings, and updated the SaaS application, but the issue remains unresolved. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        147,
+        158
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        399,
+        416
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        236,
+        240
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Synchronization Issues\n\nThe schedule synchronization across different devices is not functioning correctly My name is [full_name].. It is suspected that there are integration issues with Adobe After Effects [phone_number]. I have already performed restarts, reviewed the connection settings, and updated the SaaS application, but the issue remains unresolved. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

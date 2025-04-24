@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Error Report\n\nDear Support Team, I am reaching out to report an error I have been experiencing with my system My name is Omar Hassan.. Following a recent update, I have encountered unexpected error messages. I have tried restarting the system and clearing the cache, but the issue remains unresolved. Could you please investigate and provide a solution? If you need any additional details, please inform me You can reach me at david.kim@corp.kr.. Thank you for your assistance and I hope to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        443,
+        460
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: System Error Report\n\nDear Support Team, I am reaching out to report an error I have been experiencing with my system My name is [full_name].. Following a recent update, I have encountered unexpected error messages. I have tried restarting the system and clearing the cache, but the issue remains unresolved. Could you please investigate and provide a solution? If you need any additional details, please inform me You can reach me at [email].. Thank you for your assistance and I hope to hear from you soon.",
+  "category_of_the_email": "Incident"
+}

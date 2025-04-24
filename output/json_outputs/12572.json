@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Unexpected System Downtime Impacting Data Analytics Investment Optimization\n\nHello Customer Support, I am currently working on a report about an unexpected system downtime which has affected our data analytics investment optimization You can reach me at fatima.farsi@help.com.. The issue might be due to resource overload on Microsoft Azure. Despite my attempts to restart Docker containers and clear caches, the problem continues My name is Fatima Al-Farsi.. I would greatly appreciate your assistance in resolving this matter as soon as possible to minimize its impact on our operations.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        467,
+        476
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        279,
+        300
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Unexpected System Downtime Impacting Data Analytics Investment Optimization\n\nHello Customer Support, I am currently working on a report about an unexpected system downtime which has affected our data analytics investment optimization You can reach me at [email].. The issue might be due to resource overload on Microsoft Azure. Despite my attempts to restart Docker containers and clear caches, the problem continues My name is [full_name]-Farsi.. I would greatly appreciate your assistance in resolving this matter as soon as possible to minimize its impact on our operations.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung hat nach Update versagten\n\nNach dem Update ist die Verschl\u00fcsselung pl\u00f6tzlich fehlgeschlagen You can reach me at sophia.rossi@service.it.. M\u00f6glicherweise ist ein inkompatibles Update von Linux Mint die Ursache My name is Liu Wei.. Ich habe Airtable aktualisiert und die Einstellungen von Discord und Signal \u00fcberpr\u00fcft.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        252
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        137,
+        160
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung hat nach Update versagten\n\nNach dem Update ist die Verschl\u00fcsselung pl\u00f6tzlich fehlgeschlagen You can reach me at [email].. M\u00f6glicherweise ist ein inkompatibles Update von Linux Mint die Ursache My name is [full_name].. Ich habe Airtable aktualisiert und die Einstellungen von Discord und Signal \u00fcberpr\u00fcft.",
+  "category_of_the_email": "Incident"
+}

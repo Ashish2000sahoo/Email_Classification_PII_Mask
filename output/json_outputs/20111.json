@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Solu\u00e7\u00f5es de Gerenciamento da AWS Eficientes em Custo\n\nCaro Time de Suporte ao Cliente,\n\nEspero que esta mensagem os encontre bem. Meu nome \u00e9 <name> e atualmente estou supervisionando as opera\u00e7\u00f5es no escrit\u00f3rio de <name>. Temos utilizado seus Servi\u00e7os de Gerenciamento da AWS no \u00faltimo ano e, embora o servi\u00e7o tenha sido satisfat\u00f3rio, encontramos alguns desafios em rela\u00e7\u00e3o aos altos custos operacionais associados a ele.\n\n\u00c0 luz dessas restri\u00e7\u00f5es financeiras, estamos buscando aconselhamento sobre como otimizar da melhor forma nossos Servi\u00e7os de Gerenciamento da AWS existentes My name is Maria Gonzalez.. Especificamente, estamos interessados em explorar solu\u00e7\u00f5es que sejam eficientes em custo e que possam ajudar a racionalizar nossas opera\u00e7\u00f5es sem comprometer o desempenho ou a confiabilidade. Poderiam, por favor, nos fornecer insights ou recomenda\u00e7\u00f5es sobre op\u00e7\u00f5es ou ajustes dispon\u00edveis que podemos considerar?\n\nCompreender os detalhes do nosso uso da AWS e identificar \u00e1reas potenciais para economia de custos pode beneficiar muito nosso planejamento financeiro e estrat\u00e9gia operacional.\n\nMuito obrigado pela sua assist\u00eancia e por considerar nossa solicita\u00e7\u00e3o. Aguardo seu retorno em breve sobre poss\u00edveis solu\u00e7\u00f5es ou para agendar uma reuni\u00e3o com um consultor.\n\nAtenciosamente,\n\n<name>\nDepartamento de TI de <name>\nContato: <tel_num> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        613,
+        627
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1382,
+        1405
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Solu\u00e7\u00f5es de Gerenciamento da AWS Eficientes em Custo\n\nCaro Time de Suporte ao Cliente,\n\nEspero que esta mensagem os encontre bem. Meu nome \u00e9 <name> e atualmente estou supervisionando as opera\u00e7\u00f5es no escrit\u00f3rio de <name>. Temos utilizado seus Servi\u00e7os de Gerenciamento da AWS no \u00faltimo ano e, embora o servi\u00e7o tenha sido satisfat\u00f3rio, encontramos alguns desafios em rela\u00e7\u00e3o aos altos custos operacionais associados a ele.\n\n\u00c0 luz dessas restri\u00e7\u00f5es financeiras, estamos buscando aconselhamento sobre como otimizar da melhor forma nossos Servi\u00e7os de Gerenciamento da AWS existentes My name is [full_name].. Especificamente, estamos interessados em explorar solu\u00e7\u00f5es que sejam eficientes em custo e que possam ajudar a racionalizar nossas opera\u00e7\u00f5es sem comprometer o desempenho ou a confiabilidade. Poderiam, por favor, nos fornecer insights ou recomenda\u00e7\u00f5es sobre op\u00e7\u00f5es ou ajustes dispon\u00edveis que podemos considerar?\n\nCompreender os detalhes do nosso uso da AWS e identificar \u00e1reas potenciais para economia de custos pode beneficiar muito nosso planejamento financeiro e estrat\u00e9gia operacional.\n\nMuito obrigado pela sua assist\u00eancia e por considerar nossa solicita\u00e7\u00e3o. Aguardo seu retorno em breve sobre poss\u00edveis solu\u00e7\u00f5es ou para agendar uma reuni\u00e3o com um consultor.\n\nAtenciosamente,\n\n<name>\nDepartamento de TI de <name>\nContato: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

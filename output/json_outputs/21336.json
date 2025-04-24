@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for AWS Management Service Issue\n\nDear Customer Support,\n\nI am currently experiencing issues with deployment and infrastructure optimization using AWS Management Service, which has affected the smooth operation of our projects. Our team has encountered unexpected challenges that have disrupted our workflow, and we require your assistance to resolve these issues promptly.\n\nWe believe there may be a misconfiguration in our AWS setup or a need for better resource allocation My name is John Doe.. We kindly request guidance or resources from your team to identify and address the root cause of these problems.\n\nPlease let us know a suitable time for a consultation or direct us to any available support documentation. I look forward to your prompt response.\n\nThank you,\n<name> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        516,
+        524
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        830,
+        852
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for AWS Management Service Issue\n\nDear Customer Support,\n\nI am currently experiencing issues with deployment and infrastructure optimization using AWS Management Service, which has affected the smooth operation of our projects. Our team has encountered unexpected challenges that have disrupted our workflow, and we require your assistance to resolve these issues promptly.\n\nWe believe there may be a misconfiguration in our AWS setup or a need for better resource allocation My name is [full_name].. We kindly request guidance or resources from your team to identify and address the root cause of these problems.\n\nPlease let us know a suitable time for a consultation or direct us to any available support documentation. I look forward to your prompt response.\n\nThank you,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

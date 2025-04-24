@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request: Inaccurate Investment Forecasts\n\nI am reporting an issue with the investment forecasts suddenly becoming inaccurate You can reach me at fatima.farsi@help.com.. I suspect faulty data integration might be the cause. After restarting H2O.ai and verifying Babbel data feeds, the problem continues My name is Jane Smith.. Could you please investigate and provide a solution? Please let me know if you require additional information from me to resolve this issue. Thank you for your assistance, and I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        330,
+        340
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        162,
+        183
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request: Inaccurate Investment Forecasts\n\nI am reporting an issue with the investment forecasts suddenly becoming inaccurate You can reach me at [email].. I suspect faulty data integration might be the cause. After restarting H2O.ai and verifying Babbel data feeds, the problem continues My name is [full_name].. Could you please investigate and provide a solution? Please let me know if you require additional information from me to resolve this issue. Thank you for your assistance, and I look forward to your response.",
+  "category_of_the_email": "Incident"
+}

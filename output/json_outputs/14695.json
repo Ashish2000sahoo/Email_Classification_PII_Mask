@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unerwartete unbezahlte Rechnungen aufgetreten\n\nIch habe die Zahlungspl\u00e4ne \u00fcberpr\u00fcft und die Rechnungen gepr\u00fcft, aber es sind unerwartete unbezahlte Rechnungen entstanden, was m\u00f6glicherweise ein Problem im Rechnungssystem anzeigen k\u00f6nnte.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        269,
+        284
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Unerwartete unbezahlte Rechnungen aufgetreten\n\nIch habe die Zahlungspl\u00e4ne \u00fcberpr\u00fcft und die Rechnungen gepr\u00fcft, aber es sind unerwartete unbezahlte Rechnungen entstanden, was m\u00f6glicherweise ein Problem im Rechnungssystem anzeigen k\u00f6nnte.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

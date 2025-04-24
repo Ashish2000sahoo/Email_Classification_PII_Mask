@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datensicherheitsverletzung aufgetreten\n\nEs gab unerwartet eine medizinische Datensicherheitsverletzung My name is David Kim.. Unbefristete Verschl\u00fcsselung k\u00f6nnte die Ursache sein You can reach me at liuwei@business.cn.. Ich habe bereits das Firewall-System aktualisiert und die Zugriffssperrprotokolle \u00fcberpr\u00fcft.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        223,
+        241
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datensicherheitsverletzung aufgetreten\n\nEs gab unerwartet eine medizinische Datensicherheitsverletzung My name is [full_name].. Unbefristete Verschl\u00fcsselung k\u00f6nnte die Ursache sein You can reach me at [email].. Ich habe bereits das Firewall-System aktualisiert und die Zugriffssperrprotokolle \u00fcberpr\u00fcft.",
+  "category_of_the_email": "Incident"
+}

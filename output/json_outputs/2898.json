@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datenschutz-Sperre\n\nEs gab eine Datenschutz-Sperre aufgrund eines unerlaubten Zugriffs auf medizinische Daten You can reach me at carlosm@gmail.com.. Eine m\u00f6gliche Ursache ist ein schwaches Passwort. Obwohl ein Passwortneuasetzen durchgef\u00fchrt wurde, bestand das Problem fort. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        309,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        152,
+        169
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datenschutz-Sperre\n\nEs gab eine Datenschutz-Sperre aufgrund eines unerlaubten Zugriffs auf medizinische Daten You can reach me at [email].. Eine m\u00f6gliche Ursache ist ein schwaches Passwort. Obwohl ein Passwortneuasetzen durchgef\u00fchrt wurde, bestand das Problem fort. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

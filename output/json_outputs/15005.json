@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unangemessene Ausfalllage des Datenanalyse-Systems heute\n\nSehr geehrte Kundensupport,<br>Diese Nachricht informiert Sie \u00fcber einen unerwarteten Crash des Datenanalyse-Systems auf Ihrem Server My name is David Kim.. Es k\u00f6nnte sein, dass der Crash auf mangelnde Kapazit\u00e4ten des MySQL-Servers zur\u00fcckzuf\u00fchren ist.<br>Bis jetzt haben wir versucht, den MySQL-Server neu zu starten und die Systemprotokolle zu \u00fcberpr\u00fcfen, aber der Crash hat sich weiter fortgesetzt.<br>Wir danken Ihnen f\u00fcr den ersten Schritt zur Fehlerbehebung. Um den Crash zu beheben, ben\u00f6tigen wir zus\u00e4tzliche Informationen von Ihnen You can reach me at maria.gonzalez@shop.es.. Bitte teilen Sie uns den genauen Fehlerhinweis mit, der angezeigt wurde, wenn das System abst\u00fcrzt, sowie die Systemprotokolle ab dem Zeitpunkt des Crashes. Dies wird uns helfen, die Ursache des Problems zu identifizieren.<br>Was die Kapazit\u00e4ten des MySQL-Servers betrifft, k\u00f6nnen wir Ihnen bei der Bewertung und potentiellen Erh\u00f6hung der zugewiesenen Ressourcen zur Seite stehen. Bitte geben Sie uns Ihren <acc_num>, damit wir Ihre Konto-Spezifikationen \u00fcberpr\u00fcfen k\u00f6nnen. Falls Sie m\u00f6chten, k\u00f6nnen wir auch eine Anrufzeit vereinbaren, um dies ausf\u00fchrlicher zu besprechen. Geben Sie uns bitte eine geeignete Zeit an, um Sie anzurufen: <tel_num>.<br>Wir freuen uns auf Ihre Zusammenarbeit und sch\u00e4tzen Ihre Unterst\u00fctzung sehr.<br>Mit freundlichen Gr\u00fc\u00dfen,<br>Service-Desk-Agent",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        221
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        628,
+        650
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unangemessene Ausfalllage des Datenanalyse-Systems heute\n\nSehr geehrte Kundensupport,<br>Diese Nachricht informiert Sie \u00fcber einen unerwarteten Crash des Datenanalyse-Systems auf Ihrem Server My name is [full_name].. Es k\u00f6nnte sein, dass der Crash auf mangelnde Kapazit\u00e4ten des MySQL-Servers zur\u00fcckzuf\u00fchren ist.<br>Bis jetzt haben wir versucht, den MySQL-Server neu zu starten und die Systemprotokolle zu \u00fcberpr\u00fcfen, aber der Crash hat sich weiter fortgesetzt.<br>Wir danken Ihnen f\u00fcr den ersten Schritt zur Fehlerbehebung. Um den Crash zu beheben, ben\u00f6tigen wir zus\u00e4tzliche Informationen von Ihnen You can reach me at [email].. Bitte teilen Sie uns den genauen Fehlerhinweis mit, der angezeigt wurde, wenn das System abst\u00fcrzt, sowie die Systemprotokolle ab dem Zeitpunkt des Crashes. Dies wird uns helfen, die Ursache des Problems zu identifizieren.<br>Was die Kapazit\u00e4ten des MySQL-Servers betrifft, k\u00f6nnen wir Ihnen bei der Bewertung und potentiellen Erh\u00f6hung der zugewiesenen Ressourcen zur Seite stehen. Bitte geben Sie uns Ihren <acc_num>, damit wir Ihre Konto-Spezifikationen \u00fcberpr\u00fcfen k\u00f6nnen. Falls Sie m\u00f6chten, k\u00f6nnen wir auch eine Anrufzeit vereinbaren, um dies ausf\u00fchrlicher zu besprechen. Geben Sie uns bitte eine geeignete Zeit an, um Sie anzurufen: <tel_num>.<br>Wir freuen uns auf Ihre Zusammenarbeit und sch\u00e4tzen Ihre Unterst\u00fctzung sehr.<br>Mit freundlichen Gr\u00fc\u00dfen,<br>Service-Desk-Agent",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Software Update for Project Management Tools\n\nHello customer support, I am encountering difficulties with the project management tools following the latest software update. The tools are not syncing with my devices, which may be due to incompatibility with my existing hardware You can reach me at omar.hassan@secure.net.. I have already attempted to troubleshoot by reinstalling the affected applications and updating my drivers, but the issue still persists. I would greatly appreciate your assistance in resolving this matter My name is David Kim.. Could you please inform me of the next steps to address this issue?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        562,
+        571
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        320,
+        342
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Software Update for Project Management Tools\n\nHello customer support, I am encountering difficulties with the project management tools following the latest software update. The tools are not syncing with my devices, which may be due to incompatibility with my existing hardware You can reach me at [email].. I have already attempted to troubleshoot by reinstalling the affected applications and updating my drivers, but the issue still persists. I would greatly appreciate your assistance in resolving this matter My name is [full_name].. Could you please inform me of the next steps to address this issue?",
+  "category_of_the_email": "Incident"
+}

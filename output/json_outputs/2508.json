@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medien-Daten-Schaden\n\nEs kam unvorhergesehen ein Medien-Daten-Schaden zustande You can reach me at johndoe@email.com.. Die m\u00f6gliche Ursache ist eine veraltete Elasticsearch-Konfiguration. Ich habe die Firewall gepr\u00fcft, Zugriffsprotokolle \u00fcberpr\u00fcft und habe Unterst\u00fctzung von D-Link-Support angefordert My name is David Kim.. Ich w\u00e4re dankbar f\u00fcr zus\u00e4tzliche Informationen, um diese Situation zu l\u00f6sen und zuk\u00fcnftige Sch\u00e4den zu mindern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        331
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        108,
+        125
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Medien-Daten-Schaden\n\nEs kam unvorhergesehen ein Medien-Daten-Schaden zustande You can reach me at [email].. Die m\u00f6gliche Ursache ist eine veraltete Elasticsearch-Konfiguration. Ich habe die Firewall gepr\u00fcft, Zugriffsprotokolle \u00fcberpr\u00fcft und habe Unterst\u00fctzung von D-Link-Support angefordert My name is [full_name].. Ich w\u00e4re dankbar f\u00fcr zus\u00e4tzliche Informationen, um diese Situation zu l\u00f6sen und zuk\u00fcnftige Sch\u00e4den zu mindern.",
+  "category_of_the_email": "Incident"
+}

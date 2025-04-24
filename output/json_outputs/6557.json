@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for Security Issues\n\nA security breach has occurred, compromising medical data on hospital systems You can reach me at johndoe@email.com.. This may be due to vulnerabilities in outdated software and improper access controls My name is Sophia Rossi.. A full system audit is being conducted, and passwords have been reset to enhance security.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        283
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        155,
+        172
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for Security Issues\n\nA security breach has occurred, compromising medical data on hospital systems You can reach me at [email].. This may be due to vulnerabilities in outdated software and improper access controls My name is [full_name].. A full system audit is being conducted, and passwords have been reset to enhance security.",
+  "category_of_the_email": "Incident"
+}

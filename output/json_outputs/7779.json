@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr Unterst\u00fctzung bei Login-Problemen\n\nNeu: Der Benutzer Gipfelzeiten erlebt intermittente Login-Probleme, die sich auf erh\u00f6hte Serverlast zur\u00fcckf\u00fchren lassen. Wir haben bereits den Anwendungsserver neu gestartet und die Datenbankabfragen optimiert, aber das Problem beh\u00e4lt sich fort My name is Fatima Al-Farsi.. Das Problem tritt seit ein paar Tagen t\u00e4glich auf You can reach me at sophia.rossi@service.it.. Wir freuen uns, dass Sie sich um eine schnelle L\u00f6sung des Problems bem\u00fchen k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        321
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        402,
+        425
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr Unterst\u00fctzung bei Login-Problemen\n\nNeu: Der Benutzer Gipfelzeiten erlebt intermittente Login-Probleme, die sich auf erh\u00f6hte Serverlast zur\u00fcckf\u00fchren lassen. Wir haben bereits den Anwendungsserver neu gestartet und die Datenbankabfragen optimiert, aber das Problem beh\u00e4lt sich fort My name is [full_name]-Farsi.. Das Problem tritt seit ein paar Tagen t\u00e4glich auf You can reach me at [email].. Wir freuen uns, dass Sie sich um eine schnelle L\u00f6sung des Problems bem\u00fchen k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

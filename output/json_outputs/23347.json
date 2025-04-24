@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Audio Issues on Zoom\n\nDear Customer Support, \n\nI am writing to report an issue experienced by our Human Resources team during a Zoom call on product version 5.11.0. Participants were unable to hear each other clearly due to persistent audio issues You can reach me at sophia.rossi@service.it.. Please assist us in resolving this matter promptly. Your support in clearing this issue would be greatly appreciated to restore smooth communication in our upcoming meetings. Thank you.\n\nSincerely, \n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        521,
+        530
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        277,
+        300
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Audio Issues on Zoom\n\nDear Customer Support, \n\nI am writing to report an issue experienced by our Human Resources team during a Zoom call on product version 5.11.0. Participants were unable to hear each other clearly due to persistent audio issues You can reach me at [email].. Please assist us in resolving this matter promptly. Your support in clearing this issue would be greatly appreciated to restore smooth communication in our upcoming meetings. Thank you.\n\nSincerely, \n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

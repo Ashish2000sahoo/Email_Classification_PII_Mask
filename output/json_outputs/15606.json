@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Report on Digital Campaign\n\nRespected customer support team, I am contacting you to report a problem with our digital campaign You can reach me at carlosm@gmail.com.. It unexpectedly stopped working and we are unsure of the root cause My name is Fatima Al-Farsi.. We believe it might be due to software updates that are not compatible. We have already attempted to restart the systems and reviewed the configurations, but the issue remains unresolved. We would be grateful if you could look into this and provide us with a resolution at the earliest convenience. Please inform us if there is any additional information you require from us to address this issue. We are looking forward to your response. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        162,
+        179
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue Report on Digital Campaign\n\nRespected customer support team, I am contacting you to report a problem with our digital campaign You can reach me at [email].. It unexpectedly stopped working and we are unsure of the root cause My name is [full_name]-Farsi.. We believe it might be due to software updates that are not compatible. We have already attempted to restart the systems and reviewed the configurations, but the issue remains unresolved. We would be grateful if you could look into this and provide us with a resolution at the earliest convenience. Please inform us if there is any additional information you require from us to address this issue. We are looking forward to your response. Thank you for your time and assistance.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Microsoft Teams Dashboard Loading\n\nThe data analytics dashboard isn't loading in Microsoft Teams You can reach me at david.kim@corp.kr.. A recent ESET NOD32 Antivirus update might be the issue My name is Maria Gonzalez.. I've tried restarting Teams, reviewing firewall settings, and updating the Django framework, but the problem still exists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        139,
+        156
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Microsoft Teams Dashboard Loading\n\nThe data analytics dashboard isn't loading in Microsoft Teams You can reach me at [email].. A recent ESET NOD32 Antivirus update might be the issue My name is [full_name].. I've tried restarting Teams, reviewing firewall settings, and updating the Django framework, but the problem still exists.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Marketingstrategien f\u00fcr Wachstum\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Erl\u00e4uterungen zu den am effektivsten agierenden digitalen Strategien zu erhalten, die das Markenwachstum f\u00fcr Marketingagenturen f\u00f6rdern You can reach me at maria.gonzalez@shop.es.. K\u00f6nnten Sie Einblicke in die besten Ans\u00e4tze und die verwendeten Werkzeuge geben? Ich freue mich, wenn Sie mir Ratschl\u00e4ge zur Verbesserung unserer Marketinganstrengungen und zur Erh\u00f6hung unserer Onlinepr\u00e4senz geben k\u00f6nnten. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, von Ihnen zu h\u00f6ren. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        613,
+        622
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        262,
+        284
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Digitale Marketingstrategien f\u00fcr Wachstum\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um Erl\u00e4uterungen zu den am effektivsten agierenden digitalen Strategien zu erhalten, die das Markenwachstum f\u00fcr Marketingagenturen f\u00f6rdern You can reach me at [email].. K\u00f6nnten Sie Einblicke in die besten Ans\u00e4tze und die verwendeten Werkzeuge geben? Ich freue mich, wenn Sie mir Ratschl\u00e4ge zur Verbesserung unserer Marketinganstrengungen und zur Erh\u00f6hung unserer Onlinepr\u00e4senz geben k\u00f6nnten. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, von Ihnen zu h\u00f6ren. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

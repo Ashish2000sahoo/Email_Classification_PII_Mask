@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent System Update Request\n\nI need an urgent system update to improve the stability and performance of our project management SaaS platform during peak usage periods. This update is crucial to ensure smooth operation and prevent any potential downtime.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        301
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent System Update Request\n\nI need an urgent system update to improve the stability and performance of our project management SaaS platform during peak usage periods. This update is crucial to ensure smooth operation and prevent any potential downtime.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

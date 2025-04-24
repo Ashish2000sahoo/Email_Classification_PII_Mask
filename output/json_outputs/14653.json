@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenge with Access to Medical Data\n\nThere has been an unexpected denial of access to medical data for authorized personnel. This could be due to network configuration or firewall issues My name is David Kim.. Despite restarting the servers and verifying user credentials, the problem continues You can reach me at maria.gonzalez@shop.es.. We need your help to address this promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        328,
+        350
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Challenge with Access to Medical Data\n\nThere has been an unexpected denial of access to medical data for authorized personnel. This could be due to network configuration or firewall issues My name is [full_name].. Despite restarting the servers and verifying user credentials, the problem continues You can reach me at [email].. We need your help to address this promptly.",
+  "category_of_the_email": "Incident"
+}

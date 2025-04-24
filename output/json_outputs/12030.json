@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Resolve problems with Google Nest Wifi Router\n\nI am encountering connectivity issues with my Google Nest Wifi Router that are impacting my work on digital strategy You can reach me at liuwei@business.cn.. Despite attempting to restart the router, the problem continues. I kindly request your assistance in quickly addressing this issue. Could you please advise on the next steps I should take? My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        414,
+        427
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        193,
+        211
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Resolve problems with Google Nest Wifi Router\n\nI am encountering connectivity issues with my Google Nest Wifi Router that are impacting my work on digital strategy You can reach me at [email].. Despite attempting to restart the router, the problem continues. I kindly request your assistance in quickly addressing this issue. Could you please advise on the next steps I should take? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

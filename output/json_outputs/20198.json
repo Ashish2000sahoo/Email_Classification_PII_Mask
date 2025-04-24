@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: High Priority Request: Server Administration Issues\n\nDear Customer Support,\n\nI am writing to request urgent technical support regarding IT consulting services related to server administration issues affecting our operations severely. We're experiencing unexpected downtime and issues with server configuration and performance You can reach me at omar.hassan@secure.net.. Immediate assistance is required to diagnose and rectify the issues to prevent further disruptions.\n\nPlease contact me at your earliest convenience at <tel_num> or respond to this email with potential solutions or arrangements for a remote troubleshooting session.\n\nOur account number is <acc_num> My name is Jane Smith.. Thank you in advance for your prompt attention to this matter.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        689,
+        699
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        355,
+        377
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: High Priority Request: Server Administration Issues\n\nDear Customer Support,\n\nI am writing to request urgent technical support regarding IT consulting services related to server administration issues affecting our operations severely. We're experiencing unexpected downtime and issues with server configuration and performance You can reach me at [email].. Immediate assistance is required to diagnose and rectify the issues to prevent further disruptions.\n\nPlease contact me at your earliest convenience at <tel_num> or respond to this email with potential solutions or arrangements for a remote troubleshooting session.\n\nOur account number is <acc_num> My name is [full_name].. Thank you in advance for your prompt attention to this matter.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

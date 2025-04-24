@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Einrichtung des HP DeskJet 3755 angefordert\n\nSehr geehrter Kundenservice, ich habe Schwierigkeiten bei der drahtlosen Einrichtung meines neuen HP DeskJet 3755 Druckers My name is Omar Hassan.. Bitte f\u00fchren Sie mich durch den Einrichtungsprozess You can reach me at maria.gonzalez@shop.es.. Vielen Dank!",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        202,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        288,
+        310
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        50,
+        54
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        177,
+        181
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Einrichtung des HP DeskJet [phone_number] angefordert\n\nSehr geehrter Kundenservice, ich habe Schwierigkeiten bei der drahtlosen Einrichtung meines neuen HP DeskJet [phone_number] Druckers My name is [full_name].. Bitte f\u00fchren Sie mich durch den Einrichtungsprozess You can reach me at [email].. Vielen Dank!",
+  "category_of_the_email": "Problem"
+}

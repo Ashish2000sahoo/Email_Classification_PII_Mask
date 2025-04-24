@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nEs gab einen kritischen Fehler beim Generieren von Projektberichten, der auf Kompatibilit\u00e4tsprobleme zwischen Microsoft SQL Server 2019 und Nuendo zur\u00fcckgef\u00fchrt werden kann My name is Fatima Al-Farsi.. Nach dem Neustart des Programms und der \u00dcberpr\u00fcfung der Datenbankverbindungen hat sich das Problem jedoch nicht gelegt. Wir ben\u00f6tigen Ihre Hilfe, um das Problem bald zu l\u00f6sen. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        411,
+        428
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        142,
+        146
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: \n\nEs gab einen kritischen Fehler beim Generieren von Projektberichten, der auf Kompatibilit\u00e4tsprobleme zwischen Microsoft SQL Server [phone_number] und Nuendo zur\u00fcckgef\u00fchrt werden kann My name is [full_name]-Farsi.. Nach dem Neustart des Programms und der \u00dcberpr\u00fcfung der Datenbankverbindungen hat sich das Problem jedoch nicht gelegt. Wir ben\u00f6tigen Ihre Hilfe, um das Problem bald zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

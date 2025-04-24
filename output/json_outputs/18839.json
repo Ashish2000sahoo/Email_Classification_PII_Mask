@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Healthcare Data Encryption Problem\n\nTo customer service, I am contacting you to report an unanticipated malfunction in our medical data encryption process. It is possible that recent software updates are incompatible You can reach me at sophia.rossi@service.it.. After attempting to reboot the servers and reassessing the firewall configurations, the issue continues to exist My name is Carlos Mendoza.. Could you please offer assistance in addressing this situation promptly? I would greatly appreciate a quick response to this concern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        396,
+        410
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        246,
+        269
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Healthcare Data Encryption Problem\n\nTo customer service, I am contacting you to report an unanticipated malfunction in our medical data encryption process. It is possible that recent software updates are incompatible You can reach me at [email].. After attempting to reboot the servers and reassessing the firewall configurations, the issue continues to exist My name is [full_name].. Could you please offer assistance in addressing this situation promptly? I would greatly appreciate a quick response to this concern.",
+  "category_of_the_email": "Incident"
+}

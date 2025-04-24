@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unapproved Entry Alert Hospital Network Swiftly Responded To\n\nAn unapproved entry attempt was identified in the hospital's network following a phishing event. Security measures were initiated, and user access logs were examined.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        276
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Unapproved Entry Alert Hospital Network Swiftly Responded To\n\nAn unapproved entry attempt was identified in the hospital's network following a phishing event. Security measures were initiated, and user access logs were examined.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

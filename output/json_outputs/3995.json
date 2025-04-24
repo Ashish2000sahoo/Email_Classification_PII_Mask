@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Over Hospital IT System Security\n\nDear Customer Support, I am writing to express concern about the security of sensitive medical information within hospital IT systems You can reach me at elena.ivanova@support.org.. Given the critical nature of the data involved, it is imperative that we enhance data encryption to ensure the highest level of protection My name is Maria Gonzalez.. This will help prevent unauthorized access and safeguard patient data. Robust encryption is also vital for maintaining trust between patients and healthcare providers. Could you please provide me with more details on the current security measures and any plans to improve data encryption in the future? Additionally, I would appreciate it if you could suggest any further steps to secure hospital IT systems. I look forward to your prompt response and am available to discuss this further. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        398
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        206,
+        231
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Hospital IT System Security\n\nDear Customer Support, I am writing to express concern about the security of sensitive medical information within hospital IT systems You can reach me at [email].. Given the critical nature of the data involved, it is imperative that we enhance data encryption to ensure the highest level of protection My name is [full_name].. This will help prevent unauthorized access and safeguard patient data. Robust encryption is also vital for maintaining trust between patients and healthcare providers. Could you please provide me with more details on the current security measures and any plans to improve data encryption in the future? Additionally, I would appreciate it if you could suggest any further steps to secure hospital IT systems. I look forward to your prompt response and am available to discuss this further. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

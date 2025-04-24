@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Inquiry on Payment Plans for Large-Scale Subscriptions\n\nI would like to gather more details about the payment plans that are available for large-scale project management subscriptions. Could you kindly share the available options with me?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        270,
+        285
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Payment Plans for Large-Scale Subscriptions\n\nI would like to gather more details about the payment plans that are available for large-scale project management subscriptions. Could you kindly share the available options with me?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

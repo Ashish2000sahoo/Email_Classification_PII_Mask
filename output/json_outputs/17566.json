@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Act Urgently to Strengthen Security Protocols Today\n\nDear Customer Support, please address the urgent need to implement advanced security measures to protect medical data across all affected platforms and systems My name is Maria Gonzalez.. Current security protocols are insufficient and pose a significant risk to sensitive patient information You can reach me at fatima.farsi@help.com.. It is imperative to take immediate action to rectify the situation and ensure the confidentiality, integrity, and availability of medical data. This can be achieved by implementing robust encryption methods and conducting regular security audits.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        233,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        372,
+        393
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Act Urgently to Strengthen Security Protocols Today\n\nDear Customer Support, please address the urgent need to implement advanced security measures to protect medical data across all affected platforms and systems My name is [full_name].. Current security protocols are insufficient and pose a significant risk to sensitive patient information You can reach me at [email].. It is imperative to take immediate action to rectify the situation and ensure the confidentiality, integrity, and availability of medical data. This can be achieved by implementing robust encryption methods and conducting regular security audits.",
+  "category_of_the_email": "Change"
+}

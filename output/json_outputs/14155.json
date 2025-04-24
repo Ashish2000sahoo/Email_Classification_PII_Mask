@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for SaaS Project Management Platform\n\nCustomer support, requesting enhancement and integration support for the affected products within the SaaS project management platform You can reach me at janesmith@company.com.. The current integration capabilities are limited and are hindering our team's ability to manage projects efficiently. I would greatly appreciate an update on the potential timeline for enhanced integration support. This would significantly improve our overall experience with the platform My name is Jane Smith.. Thank you for your time and consideration.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        534,
+        544
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        210,
+        231
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support for SaaS Project Management Platform\n\nCustomer support, requesting enhancement and integration support for the affected products within the SaaS project management platform You can reach me at [email].. The current integration capabilities are limited and are hindering our team's ability to manage projects efficiently. I would greatly appreciate an update on the potential timeline for enhanced integration support. This would significantly improve our overall experience with the platform My name is [full_name].. Thank you for your time and consideration.",
+  "category_of_the_email": "Change"
+}

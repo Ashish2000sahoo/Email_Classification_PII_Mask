@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Projections Mismatch Inquiry\n\nI have noticed an unexpected mismatch in the investment projections My name is Omar Hassan.. This might be caused by an obsolete data analysis model You can reach me at sophia.rossi@service.it.. Despite performing manual calculations and verifying data sources, the discrepancy remains unresolved. I would greatly appreciate your help in addressing this concern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        129,
+        140
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        219,
+        242
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Investment Projections Mismatch Inquiry\n\nI have noticed an unexpected mismatch in the investment projections My name is [full_name].. This might be caused by an obsolete data analysis model You can reach me at [email].. Despite performing manual calculations and verifying data sources, the discrepancy remains unresolved. I would greatly appreciate your help in addressing this concern.",
+  "category_of_the_email": "Incident"
+}

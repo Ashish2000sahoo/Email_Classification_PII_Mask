@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Corrupted USB-Stick\n\nFacing issues with a report writing task due to a corrupted USB-Stick that holds sensitive medical data. The corruption might have happened due to improper ejection or malware My name is Fatima Al-Farsi.. Despite running antivirus scans and trying data recovery, the issue remains unresolved. Currently, troubleshooting storage devices like the Western Digital Book Duo to identify the cause and potential solution You can reach me at johndoe@email.com.. Would greatly appreciate any assistance or guidance from your team to address this matter and recover the data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        479,
+        496
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Corrupted USB-Stick\n\nFacing issues with a report writing task due to a corrupted USB-Stick that holds sensitive medical data. The corruption might have happened due to improper ejection or malware My name is [full_name]-Farsi.. Despite running antivirus scans and trying data recovery, the issue remains unresolved. Currently, troubleshooting storage devices like the Western Digital Book Duo to identify the cause and potential solution You can reach me at [email].. Would greatly appreciate any assistance or guidance from your team to address this matter and recover the data.",
+  "category_of_the_email": "Incident"
+}

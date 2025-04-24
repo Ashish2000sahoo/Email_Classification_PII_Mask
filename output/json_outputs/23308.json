@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de facturaci\u00f3n con la licencia de Visual Studio Code\n\nHola Soporte al Cliente,\n\nEspero que este mensaje te encuentre bien You can reach me at david.kim@corp.kr.. Me pongo en contacto para solicitar asistencia con respecto a un problema de facturaci\u00f3n que encontr\u00e9 con mi reciente compra de la licencia anual para Visual Studio Code 1.70 My name is Fatima Al-Farsi.. Parece que me han facturado dos veces por este producto, y agradecer\u00eda si pudieran investigar este asunto.\n\nPara ayudar en su investigaci\u00f3n, la compra se realiz\u00f3 bajo la cuenta vinculada a <acc_num>, y los IDs de transacci\u00f3n asociados con los cargos son <transaction_id_1> y <transaction_id_2>. Solicito amablemente una revisi\u00f3n de estos cargos y un reembolso por el pago duplicado.\n\nAgradecer\u00eda mucho su pronta atenci\u00f3n a este problema. No dude en ponerse en contacto conmigo al <tel_num> para cualquier detalle adicional que necesiten.\n\nGracias por su asistencia.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        366,
+        375
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        160,
+        177
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problema de facturaci\u00f3n con la licencia de Visual Studio Code\n\nHola Soporte al Cliente,\n\nEspero que este mensaje te encuentre bien You can reach me at [email].. Me pongo en contacto para solicitar asistencia con respecto a un problema de facturaci\u00f3n que encontr\u00e9 con mi reciente compra de la licencia anual para Visual Studio Code 1.70 My name is [full_name]-Farsi.. Parece que me han facturado dos veces por este producto, y agradecer\u00eda si pudieran investigar este asunto.\n\nPara ayudar en su investigaci\u00f3n, la compra se realiz\u00f3 bajo la cuenta vinculada a <acc_num>, y los IDs de transacci\u00f3n asociados con los cargos son <transaction_id_1> y <transaction_id_2>. Solicito amablemente una revisi\u00f3n de estos cargos y un reembolso por el pago duplicado.\n\nAgradecer\u00eda mucho su pronta atenci\u00f3n a este problema. No dude en ponerse en contacto conmigo al <tel_num> para cualquier detalle adicional que necesiten.\n\nGracias por su asistencia.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Request"
+}

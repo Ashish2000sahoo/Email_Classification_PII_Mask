@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThe project management tool experienced a failure, resulting in potential data loss. This might be due to an issue with software integration.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        190
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe project management tool experienced a failure, resulting in potential data loss. This might be due to an issue with software integration.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

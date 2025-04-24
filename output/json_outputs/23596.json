@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: R\u00fcckgabeanfrage f\u00fcr Canon-Druckerproblem\n\nSehr geehrter Kundenservice,\n\nich kann das mobile Drucken mit meinem Canon PIXMA MG3620 nicht verwenden You can reach me at elena.ivanova@support.org.. Ich habe alle Fehlersuche-Schritte ausprobiert, aber das Problem besteht weiterhin. Bitte leiten Sie eine R\u00fcckgabe f\u00fcr dieses Produkt ein. Meine Kontonummer ist <acc_num>.\n\nDanke,\n<name> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        414
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        175,
+        200
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        134,
+        138
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: R\u00fcckgabeanfrage f\u00fcr Canon-Druckerproblem\n\nSehr geehrter Kundenservice,\n\nich kann das mobile Drucken mit meinem Canon PIXMA MG[phone_number] nicht verwenden You can reach me at [email].. Ich habe alle Fehlersuche-Schritte ausprobiert, aber das Problem besteht weiterhin. Bitte leiten Sie eine R\u00fcckgabe f\u00fcr dieses Produkt ein. Meine Kontonummer ist <acc_num>.\n\nDanke,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

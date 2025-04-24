@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Project Management SaaS Functionality\n\nHello from Customer Support, we are here to assist with your inquiry regarding project management SaaS features and integration options with existing tools My name is Sophia Rossi.. Could you please provide more details on the features that the platform offers, such as task management, team collaboration, and reporting tools? Additionally, we would like to know about the integration options available with tools like Google Drive, Trello, and Slack. Could you also clarify any limitations or restrictions regarding the number of integrations that can be made? Lastly, we would appreciate any information on the security and data storage protocols used by the platform. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        748,
+        765
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Query on Project Management SaaS Functionality\n\nHello from Customer Support, we are here to assist with your inquiry regarding project management SaaS features and integration options with existing tools My name is [full_name].. Could you please provide more details on the features that the platform offers, such as task management, team collaboration, and reporting tools? Additionally, we would like to know about the integration options available with tools like Google Drive, Trello, and Slack. Could you also clarify any limitations or restrictions regarding the number of integrations that can be made? Lastly, we would appreciate any information on the security and data storage protocols used by the platform. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Needed Assistance with Project Management Integration\n\nHello customer support, I am contacting you to seek information on how to integrate Adobe Sign and ActiveCampaign with Pinnacle Studio to optimize our project management workflows My name is Carlos Mendoza.. This integration would significantly enhance the productivity and efficiency of my team. Could you kindly share more details on the setup process? I would greatly appreciate any available tutorials or documentation that can guide me through. Thank you for your time and help You can reach me at johndoe@email.com.. I await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        255,
+        269
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        564,
+        581
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Needed Assistance with Project Management Integration\n\nHello customer support, I am contacting you to seek information on how to integrate Adobe Sign and ActiveCampaign with Pinnacle Studio to optimize our project management workflows My name is [full_name].. This integration would significantly enhance the productivity and efficiency of my team. Could you kindly share more details on the setup process? I would greatly appreciate any available tutorials or documentation that can guide me through. Thank you for your time and help You can reach me at [email].. I await your response.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ung\u00fcltiger Zugriff auf medizinische Daten\n\nEs wurde ein unerlauber Zugriff auf medizinische Daten im Hospital-IT-System festgestellt. Aufgrund mangelnder Sicherheitsprotokolle k\u00f6nnte es sich um einen Phishing-Angriff handeln My name is Elena Ivanova.. Sofortige Systemkontrollen wurden durchgef\u00fchrt, und vorl\u00e4ufige Zugriffssperren wurden angewendet. Es bestehen Bef\u00fcrchtungen, dass fortlaufende Vernetzungen potenzielle Datensicherheitsverst\u00f6\u00dfe weiterhin bestehen k\u00f6nnten. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        500,
+        521
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Ung\u00fcltiger Zugriff auf medizinische Daten\n\nEs wurde ein unerlauber Zugriff auf medizinische Daten im Hospital-IT-System festgestellt. Aufgrund mangelnder Sicherheitsprotokolle k\u00f6nnte es sich um einen Phishing-Angriff handeln My name is [full_name].. Sofortige Systemkontrollen wurden durchgef\u00fchrt, und vorl\u00e4ufige Zugriffssperren wurden angewendet. Es bestehen Bef\u00fcrchtungen, dass fortlaufende Vernetzungen potenzielle Datensicherheitsverst\u00f6\u00dfe weiterhin bestehen k\u00f6nnten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

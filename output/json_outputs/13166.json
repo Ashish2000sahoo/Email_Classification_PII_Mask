@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sudden Login Problems for All Users\n\nAll users are facing login issues My name is Elena Ivanova.. This might be due to server overload or configuration errors. I have restarted the server and reviewed the logs, but have not yet found a solution. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        91,
+        104
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        273,
+        298
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Sudden Login Problems for All Users\n\nAll users are facing login issues My name is [full_name].. This might be due to server overload or configuration errors. I have restarted the server and reviewed the logs, but have not yet found a solution. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

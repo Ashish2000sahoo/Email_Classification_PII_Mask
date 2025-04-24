@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Specifications for Peak Performance\n\nHello Support Team, I am inquiring about the system specifications needed for optimal performance of your project management software You can reach me at david.kim@corp.kr.. Could you provide me with the recommended and minimum hardware and software specifications, including CPU speed, RAM size, and operating system requirements? Additionally, are there any specific browser or plugin requirements? I aim to ensure our team enjoys the best experience. Please inform me of any other factors that might affect performance My name is Fatima Al-Farsi.. I appreciate your help and look forward to your reply.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        586,
+        595
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        207,
+        224
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: System Specifications for Peak Performance\n\nHello Support Team, I am inquiring about the system specifications needed for optimal performance of your project management software You can reach me at [email].. Could you provide me with the recommended and minimum hardware and software specifications, including CPU speed, RAM size, and operating system requirements? Additionally, are there any specific browser or plugin requirements? I aim to ensure our team enjoys the best experience. Please inform me of any other factors that might affect performance My name is [full_name]-Farsi.. I appreciate your help and look forward to your reply.",
+  "category_of_the_email": "Request"
+}

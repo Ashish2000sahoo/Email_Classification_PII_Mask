@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Data Problem\n\nThe latest data upload led to incorrect investment performance metrics because of a data mapping error My name is John Doe.. I've tried re-uploading the data, but the issue still persists. I need assistance in resolving it. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        145,
+        153
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        278,
+        295
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Data Problem\n\nThe latest data upload led to incorrect investment performance metrics because of a data mapping error My name is [full_name].. I've tried re-uploading the data, but the issue still persists. I need assistance in resolving it. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

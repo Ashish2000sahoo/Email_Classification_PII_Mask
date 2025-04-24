@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unerlaubter Zugriff auf medizinische Datensysteme\n\nEin unerlauber Zugriff auf medizinische Datensysteme wurde beobachtet, was m\u00f6glicherweise auf veraltete Sicherheitsprotokolle zur\u00fcckzuf\u00fchren ist. Passw\u00f6rter wurden aktualisiert, und die Zugriffsprotokolle wurden \u00fcberpr\u00fcft.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        305,
+        320
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unerlaubter Zugriff auf medizinische Datensysteme\n\nEin unerlauber Zugriff auf medizinische Datensysteme wurde beobachtet, was m\u00f6glicherweise auf veraltete Sicherheitsprotokolle zur\u00fcckzuf\u00fchren ist. Passw\u00f6rter wurden aktualisiert, und die Zugriffsprotokolle wurden \u00fcberpr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

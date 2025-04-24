@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung von AutoCAD\n\nEs treten Probleme bei der Integration von AutoCAD 2022 auf You can reach me at janesmith@company.com.. Trotz der Anwendung von Updates und L\u00f6sungsversuche bleibt das Problem bestehen und scheint sich fortzusetzen. M\u00f6glicherweise k\u00f6nnten API-Kompatibilit\u00e4tsprobleme dahinter stecken. Ich ben\u00f6tige Unterst\u00fctzung, um das kritische Problem zu beheben. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        408,
+        422
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        128,
+        149
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        99,
+        103
+      ],
+      "classification": "phone_number",
+      "entity": "2022"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung von AutoCAD\n\nEs treten Probleme bei der Integration von AutoCAD [phone_number] auf You can reach me at [email].. Trotz der Anwendung von Updates und L\u00f6sungsversuche bleibt das Problem bestehen und scheint sich fortzusetzen. M\u00f6glicherweise k\u00f6nnten API-Kompatibilit\u00e4tsprobleme dahinter stecken. Ich ben\u00f6tige Unterst\u00fctzung, um das kritische Problem zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Notion Application\n\nAn unexpected crash happened during the use of Notion for data analysis, which has hindered our investment optimization. We have already restarted the application, verified for updates, and performed a malware scan with ESET NOD32 Antivirus.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        306,
+        321
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Notion Application\n\nAn unexpected crash happened during the use of Notion for data analysis, which has hindered our investment optimization. We have already restarted the application, verified for updates, and performed a malware scan with ESET NOD32 Antivirus.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

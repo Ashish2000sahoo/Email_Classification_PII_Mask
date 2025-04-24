@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technischer Unterst\u00fctzungsantrag\n\nIch bin in der Momenten mit Docker, Zoom und MySQL in technischen Schwierigkeiten. Es k\u00f6nnte sein, dass die Probleme auf veraltete Softwareversionen zur\u00fcckgehen. Ich habe bisher versucht, mein Ger\u00e4t neu zu starten, Konfigurationen zu \u00fcberpr\u00fcfen und Treiber zu aktualisieren, aber die Probleme blieben bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir dabei helfen, diese technischen Probleme zu l\u00f6sen You can reach me at johndoe@email.com.. Bitte geben Sie mir die notwendigen Informationen, damit der Troubleshooting-Prozess fortgesetzt werden kann. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        606,
+        614
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        465,
+        482
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Technischer Unterst\u00fctzungsantrag\n\nIch bin in der Momenten mit Docker, Zoom und MySQL in technischen Schwierigkeiten. Es k\u00f6nnte sein, dass die Probleme auf veraltete Softwareversionen zur\u00fcckgehen. Ich habe bisher versucht, mein Ger\u00e4t neu zu starten, Konfigurationen zu \u00fcberpr\u00fcfen und Treiber zu aktualisieren, aber die Probleme blieben bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir dabei helfen, diese technischen Probleme zu l\u00f6sen You can reach me at [email].. Bitte geben Sie mir die notwendigen Informationen, damit der Troubleshooting-Prozess fortgesetzt werden kann. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

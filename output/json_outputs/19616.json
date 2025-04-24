@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Breach in Medical Data Systems\n\nWe have encountered unauthorized access attempts to the medical data within our hospital systems. This may be due to weak passwords or outdated software You can reach me at johndoe@email.com.. We recommend resetting passwords and updating security protocols to help secure the data and prevent future breaches. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        372,
+        384
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        223,
+        240
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Security Breach in Medical Data Systems\n\nWe have encountered unauthorized access attempts to the medical data within our hospital systems. This may be due to weak passwords or outdated software You can reach me at [email].. We recommend resetting passwords and updating security protocols to help secure the data and prevent future breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

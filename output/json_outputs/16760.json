@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of Data Breach\n\nTo Customer Support, we are sending this message to report that a data breach happened following a human error. Our team suspects that confidential data might have been accidentally disclosed by an employee You can reach me at sophia.rossi@service.it.. Despite our efforts to restart the servers in an attempt to control the situation, the issue remains unresolved. We are taking swift measures to address the problem and ensure it does not recur My name is John Doe.. We will keep you informed about the progress and appreciate your patience and understanding. We are dedicated to safeguarding customer data and will implement all necessary steps to prevent future occurrences.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        496,
+        504
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        265,
+        288
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Notification of Data Breach\n\nTo Customer Support, we are sending this message to report that a data breach happened following a human error. Our team suspects that confidential data might have been accidentally disclosed by an employee You can reach me at [email].. Despite our efforts to restart the servers in an attempt to control the situation, the issue remains unresolved. We are taking swift measures to address the problem and ensure it does not recur My name is [full_name].. We will keep you informed about the progress and appreciate your patience and understanding. We are dedicated to safeguarding customer data and will implement all necessary steps to prevent future occurrences.",
+  "category_of_the_email": "Incident"
+}

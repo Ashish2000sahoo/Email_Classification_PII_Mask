@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem mit Crash im Projektmanagement-Tool\n\nDas SaaS-Projektmanagement-Tool hat unerwartete Systemcrashes w\u00e4hrend der Datenbearbeitung erlebt, was m\u00f6glicherweise auf einen Konflikt mit PostgreSQL 13 und Kaspersky Internet Security 2021 zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Die Sicherheitsvorkehrungen anpassen und die Datenbankabfragen optimieren k\u00f6nnten L\u00f6sungen sein My name is John Doe.. Fehler gel\u00f6st. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        381,
+        389
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        430,
+        455
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        241,
+        245
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Crash im Projektmanagement-Tool\n\nDas SaaS-Projektmanagement-Tool hat unerwartete Systemcrashes w\u00e4hrend der Datenbearbeitung erlebt, was m\u00f6glicherweise auf einen Konflikt mit PostgreSQL 13 und Kaspersky Internet Security [phone_number] zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Die Sicherheitsvorkehrungen anpassen und die Datenbankabfragen optimieren k\u00f6nnten L\u00f6sungen sein My name is [full_name].. Fehler gel\u00f6st. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

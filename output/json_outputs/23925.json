@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de creaci\u00f3n de tickets en Jira Software 8.20\n\nEstimado soporte al cliente,\n\nEstoy experimentando problemas con el proceso de creaci\u00f3n de tickets en Jira Software 8.20 My name is Sophia Rossi.. Cada vez que intento enviar un nuevo ticket, aparece un mensaje de error que impide completar la acci\u00f3n You can reach me at janesmith@company.com.. \u00bfPodr\u00eda ayudarme a resolver este problema? Su ayuda ser\u00eda muy apreciada.\n\nGracias,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        334,
+        355
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problema de creaci\u00f3n de tickets en Jira Software 8.20\n\nEstimado soporte al cliente,\n\nEstoy experimentando problemas con el proceso de creaci\u00f3n de tickets en Jira Software 8.20 My name is [full_name].. Cada vez que intento enviar un nuevo ticket, aparece un mensaje de error que impide completar la acci\u00f3n You can reach me at [email].. \u00bfPodr\u00eda ayudarme a resolver este problema? Su ayuda ser\u00eda muy apreciada.\n\nGracias,\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anomalie im Sicherheitsbereich\n\nRekently, ein Sicherheitsversto\u00df bei medizinischen Daten im IT-System eines Krankenhauses wurde identifiziert. Es wird vermutet, dass veraltete Software und inkorrekt eingerichtete Benutzerberechtigungen die Ursache f\u00fcr die Schwachstelle waren You can reach me at elena.ivanova@support.org.. Momentan wurden Malware-Suchaktionen durchgef\u00fchrt, und Benutzerzugriffe wurden eingeschr\u00e4nkt. Allerdings ben\u00f6tigen wir zus\u00e4tzliche Unterst\u00fctzung, um die Sicherheit unserer Systeme zu sichern. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        536,
+        547
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        305,
+        330
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Anomalie im Sicherheitsbereich\n\nRekently, ein Sicherheitsversto\u00df bei medizinischen Daten im IT-System eines Krankenhauses wurde identifiziert. Es wird vermutet, dass veraltete Software und inkorrekt eingerichtete Benutzerberechtigungen die Ursache f\u00fcr die Schwachstelle waren You can reach me at [email].. Momentan wurden Malware-Suchaktionen durchgef\u00fchrt, und Benutzerzugriffe wurden eingeschr\u00e4nkt. Allerdings ben\u00f6tigen wir zus\u00e4tzliche Unterst\u00fctzung, um die Sicherheit unserer Systeme zu sichern. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

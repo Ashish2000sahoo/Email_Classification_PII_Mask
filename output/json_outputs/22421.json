@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problema de parpadeo de pantalla en Dell XPS 13 9310\n\nHola Soporte de Tienda Online de Tecnolog\u00eda,\n\nEstoy experimentando un parpadeo constante en la pantalla de mi Dell XPS 13 9310 justo despu\u00e9s de iniciar sesi\u00f3n My name is Jane Smith.. Este problema afecta significativamente mi capacidad para usar la laptop de manera eficiente. \u00bfPodr\u00edan ayudarme a resolver este problema?\n\nGracias,\n<name> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        233,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        422,
+        443
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        54,
+        61
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        182,
+        189
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema de parpadeo de pantalla en Dell XPS [phone_number]\n\nHola Soporte de Tienda Online de Tecnolog\u00eda,\n\nEstoy experimentando un parpadeo constante en la pantalla de mi Dell XPS [phone_number] justo despu\u00e9s de iniciar sesi\u00f3n My name is [full_name].. Este problema afecta significativamente mi capacidad para usar la laptop de manera eficiente. \u00bfPodr\u00edan ayudarme a resolver este problema?\n\nGracias,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

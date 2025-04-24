@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Data Analytics Services for Investment Optimization\n\nHello Customer Support, I am reaching out to inquire about the data analytics services you offer for investment optimization You can reach me at fatima.farsi@help.com.. Could you provide details on the types of analytics you offer to assist with investment decisions? I would greatly appreciate any information you can provide on the cost and implementation process. Additionally, I would like to know about any case studies or success stories from previous clients. Thank you for your time and assistance My name is Sophia Rossi.. I look forward to hearing back from you soon, and a prompt response would be greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        590,
+        602
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        218,
+        239
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Data Analytics Services for Investment Optimization\n\nHello Customer Support, I am reaching out to inquire about the data analytics services you offer for investment optimization You can reach me at [email].. Could you provide details on the types of analytics you offer to assist with investment decisions? I would greatly appreciate any information you can provide on the cost and implementation process. Additionally, I would like to know about any case studies or success stories from previous clients. Thank you for your time and assistance My name is [full_name].. I look forward to hearing back from you soon, and a prompt response would be greatly appreciated.",
+  "category_of_the_email": "Request"
+}

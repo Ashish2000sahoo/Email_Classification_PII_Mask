@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report of Scanner Malfunction\n\nThe scanner has stopped working correctly, leading to the corruption of medical records My name is David Kim.. It might be due to outdated software or malware. I have restarted the scanner, updated the antivirus software, and checked network connectivity. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        139,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        318,
+        335
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Report of Scanner Malfunction\n\nThe scanner has stopped working correctly, leading to the corruption of medical records My name is [full_name].. It might be due to outdated software or malware. I have restarted the scanner, updated the antivirus software, and checked network connectivity. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

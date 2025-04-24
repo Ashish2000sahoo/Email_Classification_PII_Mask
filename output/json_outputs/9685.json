@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Website Analytics Tracking\n\nThe tracking code for website analytics has unexpectedly ceased to function My name is Maria Gonzalez.. I believe there might be a code conflict or an update-related issue. I have reviewed the code and confirmed the data sources, but the problem remains unresolved. I would greatly appreciate your assistance in resolving this issue promptly. Please inform me if additional details are required from me. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        471,
+        492
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Website Analytics Tracking\n\nThe tracking code for website analytics has unexpectedly ceased to function My name is [full_name].. I believe there might be a code conflict or an update-related issue. I have reviewed the code and confirmed the data sources, but the problem remains unresolved. I would greatly appreciate your assistance in resolving this issue promptly. Please inform me if additional details are required from me. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

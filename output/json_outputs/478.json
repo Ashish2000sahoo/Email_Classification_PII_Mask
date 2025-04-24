@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Information\n\nHello Customer Support, I am reaching out to address an issue where my project data has vanished unexpectedly. This problem might be due to a synchronization issue with our integrations. Despite restarting the system, reviewing the logs, and reaching out to the integrators, the issue remains unresolved. I kindly request you to examine this situation and offer a solution promptly. If you need any additional information from me to address this, please let me know. I am eagerly awaiting your response. Thanks for your time and help My name is Carlos Mendoza.. Sincerely, [Your Name] You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        588,
+        602
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        645,
+        666
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Information\n\nHello Customer Support, I am reaching out to address an issue where my project data has vanished unexpectedly. This problem might be due to a synchronization issue with our integrations. Despite restarting the system, reviewing the logs, and reaching out to the integrators, the issue remains unresolved. I kindly request you to examine this situation and offer a solution promptly. If you need any additional information from me to address this, please let me know. I am eagerly awaiting your response. Thanks for your time and help My name is [full_name].. Sincerely, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

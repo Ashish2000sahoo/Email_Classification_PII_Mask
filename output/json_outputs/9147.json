@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Digital Service Downtime\n\nFacing service disruptions on various platforms because of a failed deployment.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Digital Service Downtime\n\nFacing service disruptions on various platforms because of a failed deployment.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

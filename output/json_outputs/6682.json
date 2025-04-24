@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Needed with Forecast Discrepancies\n\nI am encountering unanticipated divergences in my investment forecasts You can reach me at david.kim@corp.kr.. This issue may be due to an outdated analytics model. Although I've restarted my system and verified the data feeds, the problem still exists My name is Jane Smith.. I would greatly appreciate your help in resolving this. Please assist me in identifying the cause and providing a fix for accurate forecasts.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        147,
+        164
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed with Forecast Discrepancies\n\nI am encountering unanticipated divergences in my investment forecasts You can reach me at [email].. This issue may be due to an outdated analytics model. Although I've restarted my system and verified the data feeds, the problem still exists My name is [full_name].. I would greatly appreciate your help in resolving this. Please assist me in identifying the cause and providing a fix for accurate forecasts.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mitteilung \u00fcber Unfall\n\nSehr geehrte Kundensupport,\\nEs ist zu einem Verschl\u00fcsselungsfehler gekommen, der Patientendaten sichtbar gemacht hat You can reach me at fatima.farsi@help.com.. Dies geschah aufgrund veralteter Softwarepatches und menschlichen Fehlers My name is Fatima Al-Farsi.. Momentan haben wir die Server neu gestartet und die Firewall-Einstellungen gepr\u00fcft.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        280,
+        289
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        171,
+        192
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung \u00fcber Unfall\n\nSehr geehrte Kundensupport,\\nEs ist zu einem Verschl\u00fcsselungsfehler gekommen, der Patientendaten sichtbar gemacht hat You can reach me at [email].. Dies geschah aufgrund veralteter Softwarepatches und menschlichen Fehlers My name is [full_name]-Farsi.. Momentan haben wir die Server neu gestartet und die Firewall-Einstellungen gepr\u00fcft.",
+  "category_of_the_email": "Incident"
+}

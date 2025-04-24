@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage nach Unterst\u00fctzung f\u00fcr Nuendo\n\nWelche M\u00f6glichkeiten gibt es f\u00fcr die Integration von Nuendo?. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        147
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Unterst\u00fctzung f\u00fcr Nuendo\n\nWelche M\u00f6glichkeiten gibt es f\u00fcr die Integration von Nuendo?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlermeldung bei Software nach macOS-Update\n\nSehr geehrte Kundenservice, ich m\u00f6chte melden, dass ich gestern mehrere unerwartete Software-Crashes erlebt habe You can reach me at elena.ivanova@support.org.. Es ist m\u00f6glich, dass diese Crashes mit Kompatibilit\u00e4tsproblemen zum aktuellen macOS-Update in Zusammenhang stehen My name is Fatima Al-Farsi.. Obwohl ich bereits versucht habe, die Ger\u00e4te neu zu starten und die Treiber zu aktualisieren, waren diese Versuche erfolglos. Ich w\u00fcrde jeden Vorschlag oder Anleitung sehr sch\u00e4tzen, die Sie mir geben k\u00f6nnen, um das Problem zu l\u00f6sen. Bitte teilen Sie mich mit, was weitere Schritte oder zus\u00e4tzliche Informationen erforderlich w\u00e4ren, die Ihnen ben\u00f6tigt werden k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        188,
+        213
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fehlermeldung bei Software nach macOS-Update\n\nSehr geehrte Kundenservice, ich m\u00f6chte melden, dass ich gestern mehrere unerwartete Software-Crashes erlebt habe You can reach me at [email].. Es ist m\u00f6glich, dass diese Crashes mit Kompatibilit\u00e4tsproblemen zum aktuellen macOS-Update in Zusammenhang stehen My name is [full_name]-Farsi.. Obwohl ich bereits versucht habe, die Ger\u00e4te neu zu starten und die Treiber zu aktualisieren, waren diese Versuche erfolglos. Ich w\u00fcrde jeden Vorschlag oder Anleitung sehr sch\u00e4tzen, die Sie mir geben k\u00f6nnen, um das Problem zu l\u00f6sen. Bitte teilen Sie mich mit, was weitere Schritte oder zus\u00e4tzliche Informationen erforderlich w\u00e4ren, die Ihnen ben\u00f6tigt werden k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

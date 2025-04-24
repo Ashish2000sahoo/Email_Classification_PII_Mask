@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Viele Arbeitenstools Kollabierten Gleichzeitig Dieser Morgen\n\nViele Arbeitsstools kollabierten im gleichen Moment You can reach me at carlosm@gmail.com.. M\u00f6glicherweise aufgrund von Infrastruktur\u00fcberlastung. Wir haben die Server neu gestartet, die Logs gepr\u00fcft und die Teams benachrichtigt My name is Sophia Rossi.. Das Problem wird weiter untersucht und so schnell wie m\u00f6glich korrigiert.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        322
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        143,
+        160
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Viele Arbeitenstools Kollabierten Gleichzeitig Dieser Morgen\n\nViele Arbeitsstools kollabierten im gleichen Moment You can reach me at [email].. M\u00f6glicherweise aufgrund von Infrastruktur\u00fcberlastung. Wir haben die Server neu gestartet, die Logs gepr\u00fcft und die Teams benachrichtigt My name is [full_name].. Das Problem wird weiter untersucht und so schnell wie m\u00f6glich korrigiert.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unforeseen Charges in My Monthly Statement\n\nThere are unexpected charges in my monthly bill, which might be owing to an incorrect setup of my product bundle.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        189,
+        205
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Unforeseen Charges in My Monthly Statement\n\nThere are unexpected charges in my monthly bill, which might be owing to an incorrect setup of my product bundle.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

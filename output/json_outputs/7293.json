@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Support Inquiry\n\nAn unauthorized access attempt was detected on the hospital's system, which could potentially expose medical data You can reach me at sophia.rossi@service.it.. This might have occurred due to weak passwords and outdated security protocols. Immediate password changes and firewall checks have been implemented, but concerns still remain. Assistance is needed to thoroughly investigate and secure the system. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        451,
+        460
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        167,
+        190
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Urgent Support Inquiry\n\nAn unauthorized access attempt was detected on the hospital's system, which could potentially expose medical data You can reach me at [email].. This might have occurred due to weak passwords and outdated security protocols. Immediate password changes and firewall checks have been implemented, but concerns still remain. Assistance is needed to thoroughly investigate and secure the system. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

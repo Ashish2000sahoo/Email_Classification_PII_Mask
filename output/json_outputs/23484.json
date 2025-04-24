@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Request for Exchange\n\nDear Customer Support,\n\nI recently purchased a Dell XPS 13 9310 laptop from Tech Online Store under the account number <acc_num> My name is Liu Wei.. Upon initial use, I noticed a minor issue with the internal hardware. Although the laptop functions overall, there seems to be an intermittent problem that affects my daily workflow. I suspect it might be related to the laptop's hardware, as the performance occasionally lags unexpectedly and there are some unusual noises originating from the internal components.\n\nGiven the nature of this issue, I would like to request an exchange for this product. I have always appreciated the quality of products and services your store offers, and I believe this to be an isolated case You can reach me at elena.ivanova@support.org.. To facilitate the process, please let me know the next steps required, including any forms I must fill out or specific procedures to follow. You can reach me via email or at my phone number, <tel_num>, should you need further details or clarifications.\n\nThank you for your attention to this matter. I look forward to resolving this issue promptly.\n\nSincerely,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        781,
+        806
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        87,
+        94
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Request for Exchange\n\nDear Customer Support,\n\nI recently purchased a Dell XPS [phone_number] laptop from Tech Online Store under the account number <acc_num> My name is [full_name].. Upon initial use, I noticed a minor issue with the internal hardware. Although the laptop functions overall, there seems to be an intermittent problem that affects my daily workflow. I suspect it might be related to the laptop's hardware, as the performance occasionally lags unexpectedly and there are some unusual noises originating from the internal components.\n\nGiven the nature of this issue, I would like to request an exchange for this product. I have always appreciated the quality of products and services your store offers, and I believe this to be an isolated case You can reach me at [email].. To facilitate the process, please let me know the next steps required, including any forms I must fill out or specific procedures to follow. You can reach me via email or at my phone number, <tel_num>, should you need further details or clarifications.\n\nThank you for your attention to this matter. I look forward to resolving this issue promptly.\n\nSincerely,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Report on Synchronization Problem\n\nHello Support Team, I am contacting you to report a synchronization challenge with project schedules not aligning between teams. This issue emerged post a TensorFlow update and I believe it may not be compatible with our existing system. I've restarted the Hub and verified Adobe After Effects 2021 settings, but the issue still exists You can reach me at maria.gonzalez@shop.es.. I have also checked for software updates and confirmed that all team members are using the same software version, yet the issue hasn't been resolved. Could you please look into this and provide a resolution promptly? If you need any additional information from me, please let me know. I am available for further discussion if required. Thank you for your assistance. I look forward to your response soon. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        841,
+        850
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        400,
+        422
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        338,
+        342
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Report on Synchronization Problem\n\nHello Support Team, I am contacting you to report a synchronization challenge with project schedules not aligning between teams. This issue emerged post a TensorFlow update and I believe it may not be compatible with our existing system. I've restarted the Hub and verified Adobe After Effects [phone_number] settings, but the issue still exists You can reach me at [email].. I have also checked for software updates and confirmed that all team members are using the same software version, yet the issue hasn't been resolved. Could you please look into this and provide a resolution promptly? If you need any additional information from me, please let me know. I am available for further discussion if required. Thank you for your assistance. I look forward to your response soon. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data in Hospitals\n\nInquiring about security measures for medical data within hospital environments My name is Maria Gonzalez.. Would greatly appreciate detailed guidance on the systems that can protect sensitive patient information. Specifically interested in data encryption, access controls, and compliance with regulatory requirements. Thank you for your assistance, and I look forward to hearing from you soon. Please notify if additional information is needed for a detailed response. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        164
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        547,
+        564
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data in Hospitals\n\nInquiring about security measures for medical data within hospital environments My name is [full_name].. Would greatly appreciate detailed guidance on the systems that can protect sensitive patient information. Specifically interested in data encryption, access controls, and compliance with regulatory requirements. Thank you for your assistance, and I look forward to hearing from you soon. Please notify if additional information is needed for a detailed response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hinweise zu Problemen mit den Aktualisierungen des Investitionsportfolios\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass ich Probleme mit den Updates meines Investitionsportfolios habe. Die Aktualisierungen sind versp\u00e4tet, und ich vermute, dass es m\u00f6glicherweise eine St\u00f6rung der Datenverbindung gibt My name is Carlos Mendoza.. Ich habe versucht, das Analyse-Engine zu neu starten und den Netzwerkstatus zu \u00fcberpr\u00fcfen, aber das Problem ist weiterhin bestehen geblieben. K\u00f6nnten Sie bitte nachgehen, ob es eine L\u00f6sung gibt, und mich \u00fcber Ihre Ma\u00dfnahmen so bald wie m\u00f6glich informieren? Ich w\u00fcrde jede Unterst\u00fctzung sehr sch\u00e4tzen, die Sie mir geben k\u00f6nnen, um dieses Problem zu l\u00f6sen. Das Problem bereitet mir Sorge und ich w\u00fcrde es gerne schnellstm\u00f6glich beheben. Bitte lassen Sie mich wissen, falls Sie weitere Informationen brauchen, um das Problem zu l\u00f6sen. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung und freue mich darauf, von Ihnen zu h\u00f6ren. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        336,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1014,
+        1037
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Hinweise zu Problemen mit den Aktualisierungen des Investitionsportfolios\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass ich Probleme mit den Updates meines Investitionsportfolios habe. Die Aktualisierungen sind versp\u00e4tet, und ich vermute, dass es m\u00f6glicherweise eine St\u00f6rung der Datenverbindung gibt My name is [full_name].. Ich habe versucht, das Analyse-Engine zu neu starten und den Netzwerkstatus zu \u00fcberpr\u00fcfen, aber das Problem ist weiterhin bestehen geblieben. K\u00f6nnten Sie bitte nachgehen, ob es eine L\u00f6sung gibt, und mich \u00fcber Ihre Ma\u00dfnahmen so bald wie m\u00f6glich informieren? Ich w\u00fcrde jede Unterst\u00fctzung sehr sch\u00e4tzen, die Sie mir geben k\u00f6nnen, um dieses Problem zu l\u00f6sen. Das Problem bereitet mir Sorge und ich w\u00fcrde es gerne schnellstm\u00f6glich beheben. Bitte lassen Sie mich wissen, falls Sie weitere Informationen brauchen, um das Problem zu l\u00f6sen. Ich danke Ihnen im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung und freue mich darauf, von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

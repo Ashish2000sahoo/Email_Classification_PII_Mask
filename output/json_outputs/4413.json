@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Available Integrations for Airtable in Your SaaS\n\nI am contacting you to request a list of all integrations that are currently supported for Airtable in your project management SaaS You can reach me at johndoe@email.com.. Additionally, I would greatly appreciate any documentation or setup guides you can provide My name is Jane Smith.. This information will assist me in understanding how to effectively use Airtable within your platform.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        344,
+        354
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        222,
+        239
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Available Integrations for Airtable in Your SaaS\n\nI am contacting you to request a list of all integrations that are currently supported for Airtable in your project management SaaS You can reach me at [email].. Additionally, I would greatly appreciate any documentation or setup guides you can provide My name is [full_name].. This information will assist me in understanding how to effectively use Airtable within your platform.",
+  "category_of_the_email": "Request"
+}

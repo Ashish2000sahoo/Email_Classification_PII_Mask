@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, <br><br>I am contacting you to seek information on the data analytics tools utilized by your organization to enhance the investment portfolios of financial institutions You can reach me at janesmith@company.com.. As a representative of a financial firm, I am eager to explore how your tools can assist us in making informed, data-driven decisions and refining our investment strategies.<br><br>Would you mind sharing details about the data analytics tools you provide, such as predictive modeling, machine learning, or data visualization? Additionally, I would appreciate any available case studies or success stories illustrating the positive impact your tools have had on other financial firms' portfolio optimizations.<br><br>Furthermore, I am curious about the level of customization and support your company offers to its clients. Do you tailor your tools to meet the unique needs of each client, or are they more standardized? What kind of support and training do you offer to ensure clients fully utilize these tools?<br><br>Specifically, I am interested in learning more about your tools' capabilities in risk management, asset allocation, and performance measurement. Could you provide insights into any distinct features or functionalities in these areas?<br><br>I would greatly appreciate a comprehensive response to these questions, including pertinent examples or case studies. I look forward to your reply and to learning how your services can aid in our portfolio optimization efforts.<br><br>Thank you for your time and support.<br><br>Best regards,<br>[Your Name] My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1626,
+        1637
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        223,
+        244
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, <br><br>I am contacting you to seek information on the data analytics tools utilized by your organization to enhance the investment portfolios of financial institutions You can reach me at [email].. As a representative of a financial firm, I am eager to explore how your tools can assist us in making informed, data-driven decisions and refining our investment strategies.<br><br>Would you mind sharing details about the data analytics tools you provide, such as predictive modeling, machine learning, or data visualization? Additionally, I would appreciate any available case studies or success stories illustrating the positive impact your tools have had on other financial firms' portfolio optimizations.<br><br>Furthermore, I am curious about the level of customization and support your company offers to its clients. Do you tailor your tools to meet the unique needs of each client, or are they more standardized? What kind of support and training do you offer to ensure clients fully utilize these tools?<br><br>Specifically, I am interested in learning more about your tools' capabilities in risk management, asset allocation, and performance measurement. Could you provide insights into any distinct features or functionalities in these areas?<br><br>I would greatly appreciate a comprehensive response to these questions, including pertinent examples or case studies. I look forward to your reply and to learning how your services can aid in our portfolio optimization efforts.<br><br>Thank you for your time and support.<br><br>Best regards,<br>[Your Name] My name is [full_name].",
+  "category_of_the_email": "Request"
+}

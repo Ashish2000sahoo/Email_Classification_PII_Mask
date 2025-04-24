@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Problem with Data Analytics Dashboard\n\nHello Customer Support, <br>I am contacting you to report a problem with our data analytics dashboard. The dashboard is not loading, and we think it could be because of an incompatible MySQL update. We've already tried restarting the server and verifying dependencies, but the issue still exists. <br>We would greatly appreciate it if you could look into this and give us a solution at your earliest convenience You can reach me at maria.gonzalez@shop.es.. <br>Thank you very much for your help My name is Omar Hassan.. <br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        563,
+        574
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        489,
+        511
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem with Data Analytics Dashboard\n\nHello Customer Support, <br>I am contacting you to report a problem with our data analytics dashboard. The dashboard is not loading, and we think it could be because of an incompatible MySQL update. We've already tried restarting the server and verifying dependencies, but the issue still exists. <br>We would greatly appreciate it if you could look into this and give us a solution at your earliest convenience You can reach me at [email].. <br>Thank you very much for your help My name is [full_name].. <br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

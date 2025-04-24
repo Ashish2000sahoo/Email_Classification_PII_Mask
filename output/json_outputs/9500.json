@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am contacting you to inquire about optimizing Squarespace for enhanced brand visibility and growth strategies My name is Carlos Mendoza.. Could you provide more details on this topic? I am very interested in learning how to improve my online presence and drive business growth You can reach me at omar.hassan@secure.net.. I look forward to your assistance and am eager to hear back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        172
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        331,
+        353
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am contacting you to inquire about optimizing Squarespace for enhanced brand visibility and growth strategies My name is [full_name].. Could you provide more details on this topic? I am very interested in learning how to improve my online presence and drive business growth You can reach me at [email].. I look forward to your assistance and am eager to hear back from you soon.",
+  "category_of_the_email": "Request"
+}

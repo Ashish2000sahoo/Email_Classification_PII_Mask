@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on System Error\n\nThe marketing platform is frequently experiencing outages, which are disrupting the execution of campaigns and client communication. These outages may be due to recent system updates. We have already attempted restarting and clearing caches, but the issue continues My name is Fatima Al-Farsi.. We need assistance in resolving this issue soon to minimize its impact on our business. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        438,
+        459
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Report on System Error\n\nThe marketing platform is frequently experiencing outages, which are disrupting the execution of campaigns and client communication. These outages may be due to recent system updates. We have already attempted restarting and clearing caches, but the issue continues My name is [full_name]-Farsi.. We need assistance in resolving this issue soon to minimize its impact on our business. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

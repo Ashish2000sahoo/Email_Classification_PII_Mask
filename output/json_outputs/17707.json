@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Unplanned Downtime\n\nThere was an unexpected period without service which might be related to excessive demand on PostgreSQL You can reach me at david.kim@corp.kr.. Restarting the Django server did not solve the problem. Additional examination is needed. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        163,
+        180
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Report on Unplanned Downtime\n\nThere was an unexpected period without service which might be related to excessive demand on PostgreSQL You can reach me at [email].. Restarting the Django server did not solve the problem. Additional examination is needed. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

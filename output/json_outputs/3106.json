@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Required for Data Security\n\nCould you please furnish details on data security solutions?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        144
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Data Security\n\nCould you please furnish details on data security solutions?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

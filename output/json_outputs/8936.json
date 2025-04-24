@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Encryption Process Not Working\n\nHello Customer Support, I am having trouble with data encryption. The encryption process has failed and I suspect it might be due to old software updates. I have already restarted the server and reviewed the configurations, but the problem still exists My name is Fatima Al-Farsi.. I would greatly appreciate any help in fixing this You can reach me at omar.hassan@secure.net.. Could you please guide me on additional steps or provide more details needed from me? Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        401,
+        423
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Data Encryption Process Not Working\n\nHello Customer Support, I am having trouble with data encryption. The encryption process has failed and I suspect it might be due to old software updates. I have already restarted the server and reviewed the configurations, but the problem still exists My name is [full_name]-Farsi.. I would greatly appreciate any help in fixing this You can reach me at [email].. Could you please guide me on additional steps or provide more details needed from me? Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Airtable\n\nDear Customer Support, I am contacting you to inform you about a problem with my Airtable integration. It has stopped working unexpectedly, which might be because of an expired API key You can reach me at liuwei@business.cn.. I have reviewed my authentication details and restarted the application, but the issue remains unresolved My name is David Kim.. I would be grateful if you could help me fix this. Could you please instruct me on what further actions I should undertake or if you need further information from me? Thank you for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        375,
+        384
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        237,
+        255
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Airtable\n\nDear Customer Support, I am contacting you to inform you about a problem with my Airtable integration. It has stopped working unexpectedly, which might be because of an expired API key You can reach me at [email].. I have reviewed my authentication details and restarted the application, but the issue remains unresolved My name is [full_name].. I would be grateful if you could help me fix this. Could you please instruct me on what further actions I should undertake or if you need further information from me? Thank you for your attention and support.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Data Analytics Services Information\n\nCould you provide details on the data analytics services that optimize investment strategies? This would greatly help in making informed decisions and improving the performance of my portfolio. I am interested in learning about the tools and techniques used to analyze market trends and predict future outcomes. Thank you for your time and assistance My name is Carlos Mendoza.. I look forward to hearing back soon. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        434
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        491,
+        508
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Data Analytics Services Information\n\nCould you provide details on the data analytics services that optimize investment strategies? This would greatly help in making informed decisions and improving the performance of my portfolio. I am interested in learning about the tools and techniques used to analyze market trends and predict future outcomes. Thank you for your time and assistance My name is [full_name].. I look forward to hearing back soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

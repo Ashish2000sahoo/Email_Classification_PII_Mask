@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nErlebe aktuelle Schwierigkeiten mit E-Mail-Verbindungen in Outlook, was Kommunikation und Kundenprojekte beeintr\u00e4chtigt. Das Problem k\u00f6nnte durch Unstabilit\u00e4t des Netzwerks verursacht worden sein You can reach me at carlosm@gmail.com.. Ich habe mein Router neu gestartet und meine Outlook-Einstellungen neu konfiguriert, jedoch hat sich das Problem nicht gel\u00f6st. Ich bitte h\u00f6flich um Unterst\u00fctzung, um die Angelegenheit schnellstm\u00f6glich zu beheben und weitere St\u00f6rungen zu minimieren. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        507,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        227,
+        244
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nErlebe aktuelle Schwierigkeiten mit E-Mail-Verbindungen in Outlook, was Kommunikation und Kundenprojekte beeintr\u00e4chtigt. Das Problem k\u00f6nnte durch Unstabilit\u00e4t des Netzwerks verursacht worden sein You can reach me at [email].. Ich habe mein Router neu gestartet und meine Outlook-Einstellungen neu konfiguriert, jedoch hat sich das Problem nicht gel\u00f6st. Ich bitte h\u00f6flich um Unterst\u00fctzung, um die Angelegenheit schnellstm\u00f6glich zu beheben und weitere St\u00f6rungen zu minimieren. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

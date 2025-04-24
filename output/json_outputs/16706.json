@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Periodische Anmeldeprobleme Benutzerkonto\n\nDer Benutzer meldete sich \u00fcber tempor\u00e4re Anmeldeprobleme bei seinem Konto an You can reach me at sophia.rossi@service.it.. Diese scheinen auf einen Serveroverload zur\u00fcckzuf\u00fchren sein My name is Sophia Rossi.. Der Benutzer hat versucht, den Browser-Cache zu leeren und ein neues Passwort einzustellen, jedoch beh\u00e4lt das Problem trotzdem bestehen. Es wird Unterst\u00fctzung ben\u00f6tigt, um das Problem zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        246,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        149,
+        172
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Periodische Anmeldeprobleme Benutzerkonto\n\nDer Benutzer meldete sich \u00fcber tempor\u00e4re Anmeldeprobleme bei seinem Konto an You can reach me at [email].. Diese scheinen auf einen Serveroverload zur\u00fcckzuf\u00fchren sein My name is [full_name].. Der Benutzer hat versucht, den Browser-Cache zu leeren und ein neues Passwort einzustellen, jedoch beh\u00e4lt das Problem trotzdem bestehen. Es wird Unterst\u00fctzung ben\u00f6tigt, um das Problem zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digital Campaigns Failing to Function Properly\n\nThe digital campaigns have malfunctioned unexpectedly. This might be due to problems with software integration My name is John Doe.. I have restarted the systems and verified the network connectivity, but the issue still exists. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        309,
+        334
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Digital Campaigns Failing to Function Properly\n\nThe digital campaigns have malfunctioned unexpectedly. This might be due to problems with software integration My name is [full_name].. I have restarted the systems and verified the network connectivity, but the issue still exists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

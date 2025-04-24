@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Intermittent Wi-Fi Issues\n\nDear Customer Support,\n\nI am experiencing intermittent Wi-Fi connectivity issues with my Dell XPS 13 9310, significantly affecting my online work efficiency. The connection drops unexpectedly, disrupting ongoing tasks My name is John Doe.. It's been consistent regardless of the network used. I'm seeking assistance in resolving this issue as soon as possible since it hampers productivity You can reach me at david.kim@corp.kr.. Could you please guide me through potential troubleshooting steps or recommend a repair service if necessary? I would appreciate your prompt attention to this matter. Thank you for your support.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        449,
+        466
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        134,
+        141
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Intermittent Wi-Fi Issues\n\nDear Customer Support,\n\nI am experiencing intermittent Wi-Fi connectivity issues with my Dell XPS [phone_number], significantly affecting my online work efficiency. The connection drops unexpectedly, disrupting ongoing tasks My name is [full_name].. It's been consistent regardless of the network used. I'm seeking assistance in resolving this issue as soon as possible since it hampers productivity You can reach me at [email].. Could you please guide me through potential troubleshooting steps or recommend a repair service if necessary? I would appreciate your prompt attention to this matter. Thank you for your support.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

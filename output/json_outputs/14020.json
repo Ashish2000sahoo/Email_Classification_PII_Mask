@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datensperre bei IT-Systemen\n\nEin Datensperre-Fall trat auf, bei dem sensible Patientendaten preisgegeben wurden You can reach me at omar.hassan@secure.net.. Dies gef\u00e4hrdete die IT-Systeme des Krankenhauses. Es wird der Mangel an Mitarbeitervorsicht als Ursache angesehen und prompt Passwort\u00e4nderungen durchgef\u00fchrt. Weitere Untersuchungen sind erforderlich, um den Ursprung zu bestimmen und zuk\u00fcnftige Vorkommen zu vermeiden My name is David Kim.. Der Datensperre wurden bedeutende Auswirkungen auf den Patientenschutz und die Krankenhausoperationen zugeschrieben. Bitte helfen Sie bei einer gr\u00fcndlichen Untersuchung und der Bereitstellung von Empfehlungen f\u00fcr verbesserte Sicherheitsma\u00dfnahmen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        444,
+        453
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        141,
+        163
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Datensperre bei IT-Systemen\n\nEin Datensperre-Fall trat auf, bei dem sensible Patientendaten preisgegeben wurden You can reach me at [email].. Dies gef\u00e4hrdete die IT-Systeme des Krankenhauses. Es wird der Mangel an Mitarbeitervorsicht als Ursache angesehen und prompt Passwort\u00e4nderungen durchgef\u00fchrt. Weitere Untersuchungen sind erforderlich, um den Ursprung zu bestimmen und zuk\u00fcnftige Vorkommen zu vermeiden My name is [full_name].. Der Datensperre wurden bedeutende Auswirkungen auf den Patientenschutz und die Krankenhausoperationen zugeschrieben. Bitte helfen Sie bei einer gr\u00fcndlichen Untersuchung und der Bereitstellung von Empfehlungen f\u00fcr verbesserte Sicherheitsma\u00dfnahmen.",
+  "category_of_the_email": "Incident"
+}

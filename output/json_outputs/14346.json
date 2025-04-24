@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Database Integration\n\nA financial company is facing difficulties with integrating Oracle Database 19c and its analysis tools, which is hindering efficient data processing. The issue might be due to outdated software or configuration errors You can reach me at sophia.rossi@service.it.. Attempts to update the software and verify connections have not resolved the problem, leading to significant delays in data processing. We would greatly appreciate your assistance in resolving this issue as soon as possible. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        544,
+        557
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        282,
+        305
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Database Integration\n\nA financial company is facing difficulties with integrating Oracle Database 19c and its analysis tools, which is hindering efficient data processing. The issue might be due to outdated software or configuration errors You can reach me at [email].. Attempts to update the software and verify connections have not resolved the problem, leading to significant delays in data processing. We would greatly appreciate your assistance in resolving this issue as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

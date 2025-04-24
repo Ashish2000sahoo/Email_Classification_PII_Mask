@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Recent Charges on VR-Controller Lenovo ThinkPad\n\nThere seems to be a problem with incorrect charges on the VR-Controller for a Lenovo ThinkPad My name is Maria Gonzalez.. I suspect this might be due to an error in the billing system after a recent software update You can reach me at maria.gonzalez@shop.es.. I have been checking transaction records and reviewing service agreements, but the discrepancies remain unresolved. I would greatly appreciate it if you could look into this matter and resolve it as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        189
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        302,
+        324
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issues with Recent Charges on VR-Controller Lenovo ThinkPad\n\nThere seems to be a problem with incorrect charges on the VR-Controller for a Lenovo ThinkPad My name is [full_name].. I suspect this might be due to an error in the billing system after a recent software update You can reach me at [email].. I have been checking transaction records and reviewing service agreements, but the discrepancies remain unresolved. I would greatly appreciate it if you could look into this matter and resolve it as soon as possible.",
+  "category_of_the_email": "Problem"
+}

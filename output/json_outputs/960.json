@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Potential Data Breach in Hospital System\n\nCustomer Support,\\n\\nI am writing a report on a potential data breach in the hospital system. The security of medical data has been compromised, possibly due to outdated antivirus software and unauthorized access. Immediate action has been taken to update the security software, review access logs, and identify potential vulnerabilities You can reach me at liuwei@business.cn.. Additionally, we have surveyed staff data-handling practices to ensure everyone is aware of the importance of data security.\\n\\nWe are concerned about the potential consequences of the breach. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        634,
+        644
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        409,
+        427
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Potential Data Breach in Hospital System\n\nCustomer Support,\\n\\nI am writing a report on a potential data breach in the hospital system. The security of medical data has been compromised, possibly due to outdated antivirus software and unauthorized access. Immediate action has been taken to update the security software, review access logs, and identify potential vulnerabilities You can reach me at [email].. Additionally, we have surveyed staff data-handling practices to ensure everyone is aware of the importance of data security.\\n\\nWe are concerned about the potential consequences of the breach. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Expansion of Digital Brand\n\nCustomer support, reaching out for inquiries about digital strategy services to aid in brand growth My name is John Doe.. Would appreciate detailed information and pricing for the services offered You can reach me at david.kim@corp.kr.. Thank you for your assistance, and I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        156
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        257,
+        274
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Expansion of Digital Brand\n\nCustomer support, reaching out for inquiries about digital strategy services to aid in brand growth My name is [full_name].. Would appreciate detailed information and pricing for the services offered You can reach me at [email].. Thank you for your assistance, and I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

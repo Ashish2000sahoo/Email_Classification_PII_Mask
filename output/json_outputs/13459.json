@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Reported Issue with Data Encryption\n\nHello Customer Support, I am contacting you to address a problem where our data encryption system has failed, leading to the exposure of patient data My name is David Kim.. We suspect this might be due to a software compatibility problem. Despite attempts to resolve it by restarting our servers and updating our Ubuntu 22.04 LTS, the issue remains unresolved. We urgently require your help to fix this issue to protect our patient records. Could you please outline the necessary actions to be taken? Many thanks for your quick response to this critical situation. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        207,
+        216
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        633,
+        650
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        368,
+        373
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue with Data Encryption\n\nHello Customer Support, I am contacting you to address a problem where our data encryption system has failed, leading to the exposure of patient data My name is [full_name].. We suspect this might be due to a software compatibility problem. Despite attempts to resolve it by restarting our servers and updating our Ubuntu [phone_number] LTS, the issue remains unresolved. We urgently require your help to fix this issue to protect our patient records. Could you please outline the necessary actions to be taken? Many thanks for your quick response to this critical situation. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

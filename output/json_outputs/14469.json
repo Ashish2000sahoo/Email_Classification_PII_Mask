@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Smart Device\n\nI am writing to address the issue I am experiencing with my Smart-T\u00fcrklingel device My name is Sophia Rossi.. I am sorry to hear that the connectivity is dropping during peak usage hours You can reach me at elena.ivanova@support.org.. I have already taken the initial steps of restarting the device and checking for updates, but the issue still persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        143
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        242,
+        267
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Smart Device\n\nI am writing to address the issue I am experiencing with my Smart-T\u00fcrklingel device My name is [full_name].. I am sorry to hear that the connectivity is dropping during peak usage hours You can reach me at [email].. I have already taken the initial steps of restarting the device and checking for updates, but the issue still persists.",
+  "category_of_the_email": "Incident"
+}

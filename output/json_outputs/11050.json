@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Gemeldetes Sicherheitsrisiko\n\nSehr geehrte Kundensupport, ein unautorisierter Zugriff auf das IT-System unseres Krankenhauses wurde festgestellt My name is Elena Ivanova.. Dies k\u00f6nnte auf eine potenzielle Sicherheitsl\u00fccke zur\u00fcckschwingen. Wir haben bereits begonnen, die Angelegenheit zu untersuchen und ein Software-Update durchgef\u00fchrt. Allerdings beobachten wir weiterhin verd\u00e4chtiges Verhalten. Wir bitten daher um h\u00f6fliche Unterst\u00fctzung bei der Untersuchung und Behebung der Angelegenheit, um die Sicherheit und Integrit\u00e4t unseres Systems zu gew\u00e4hrleisten. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        588,
+        611
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Gemeldetes Sicherheitsrisiko\n\nSehr geehrte Kundensupport, ein unautorisierter Zugriff auf das IT-System unseres Krankenhauses wurde festgestellt My name is [full_name].. Dies k\u00f6nnte auf eine potenzielle Sicherheitsl\u00fccke zur\u00fcckschwingen. Wir haben bereits begonnen, die Angelegenheit zu untersuchen und ein Software-Update durchgef\u00fchrt. Allerdings beobachten wir weiterhin verd\u00e4chtiges Verhalten. Wir bitten daher um h\u00f6fliche Unterst\u00fctzung bei der Untersuchung und Behebung der Angelegenheit, um die Sicherheit und Integrit\u00e4t unseres Systems zu gew\u00e4hrleisten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

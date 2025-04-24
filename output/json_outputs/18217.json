@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent Technical Support Needed\n\nData breach detected due to a potential vulnerability. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        134
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent Technical Support Needed\n\nData breach detected due to a potential vulnerability. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

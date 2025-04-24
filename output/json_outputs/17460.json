@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDie digitale Kampagne konnte nicht gestartet werden You can reach me at maria.gonzalez@shop.es.. Es erscheinen pl\u00f6tzlich Fehlernachrichten im Dashboard My name is John Doe.. M\u00f6glicherweise liegt das aufgrund von Software-Kompatibilit\u00e4tsproblemen. Nach dem Neustart der Systeme und der \u00dcberpr\u00fcfung der Konfiguration blieb das Problem jedoch bestehen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        182
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        83,
+        105
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nDie digitale Kampagne konnte nicht gestartet werden You can reach me at [email].. Es erscheinen pl\u00f6tzlich Fehlernachrichten im Dashboard My name is [full_name].. M\u00f6glicherweise liegt das aufgrund von Software-Kompatibilit\u00e4tsproblemen. Nach dem Neustart der Systeme und der \u00dcberpr\u00fcfung der Konfiguration blieb das Problem jedoch bestehen.",
+  "category_of_the_email": "Incident"
+}

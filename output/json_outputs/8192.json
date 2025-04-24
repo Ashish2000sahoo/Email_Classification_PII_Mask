@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Digital Marketing Campaigns\n\nCustomer Support, <br>Our digital marketing campaigns have come to a halt, causing a significant drop in brand engagement. This may be due to recent software conflicts or corrupted updates on our digital tools You can reach me at johndoe@email.com.. We have attempted system reinstalls and reviewed configurations, but the issue persists My name is Jane Smith.. Our team is working diligently to resolve the issue and would greatly appreciate additional assistance to get the campaigns back on track. We would be grateful for any guidance or support that you can provide to help us identify and rectify the root cause.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        282,
+        299
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Digital Marketing Campaigns\n\nCustomer Support, <br>Our digital marketing campaigns have come to a halt, causing a significant drop in brand engagement. This may be due to recent software conflicts or corrupted updates on our digital tools You can reach me at [email].. We have attempted system reinstalls and reviewed configurations, but the issue persists My name is [full_name].. Our team is working diligently to resolve the issue and would greatly appreciate additional assistance to get the campaigns back on track. We would be grateful for any guidance or support that you can provide to help us identify and rectify the root cause.",
+  "category_of_the_email": "Incident"
+}

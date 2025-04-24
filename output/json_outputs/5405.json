@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Growth in Branding\n\nI am reaching out to request information on digital strategies that can enhance the brand size of our marketing agency. We aim to expand our online presence and increase engagement with our target audience You can reach me at omar.hassan@secure.net.. Could you provide some recommendations or suggestions for implementing these goals? My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        375,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        255,
+        277
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Growth in Branding\n\nI am reaching out to request information on digital strategies that can enhance the brand size of our marketing agency. We aim to expand our online presence and increase engagement with our target audience You can reach me at [email].. Could you provide some recommendations or suggestions for implementing these goals? My name is [full_name].",
+  "category_of_the_email": "Request"
+}

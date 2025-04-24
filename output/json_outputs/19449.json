@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Auftritt von Ausf\u00e4llen\n\nDie Arztdaten sind aufgrund eines Netzwerkabbruchs nicht verf\u00fcgbar My name is Sophia Rossi.. M\u00f6gliche Ursachen k\u00f6nnten eine falsche Konfiguration von Magento oder ein defekter TP-Link-Switch sein. Ich habe bereits den UniFi Dream Machine neu gestartet und die PostgreSQL-Protokolle \u00fcberpr\u00fcft, aber das Problem beharrt weiterhin. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem zu beheben, damit ich auf die Arztdaten zugreifen kann. Bitte geben Sie eine L\u00f6sung oder leiten Sie mich durch den Fehlerbehebungsprozess ein. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        111,
+        123
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        575,
+        592
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Auftritt von Ausf\u00e4llen\n\nDie Arztdaten sind aufgrund eines Netzwerkabbruchs nicht verf\u00fcgbar My name is [full_name].. M\u00f6gliche Ursachen k\u00f6nnten eine falsche Konfiguration von Magento oder ein defekter TP-Link-Switch sein. Ich habe bereits den UniFi Dream Machine neu gestartet und die PostgreSQL-Protokolle \u00fcberpr\u00fcft, aber das Problem beharrt weiterhin. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um dieses Problem zu beheben, damit ich auf die Arztdaten zugreifen kann. Bitte geben Sie eine L\u00f6sung oder leiten Sie mich durch den Fehlerbehebungsprozess ein. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

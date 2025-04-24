@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Analytics Tools Integration\n\nCustomer Support, reporting an issue with data analytics tools at a financial firm. The integration with existing hardware and software systems is not proceeding smoothly, and the problem might be due to compatibility issues arising from recent updates My name is Fatima Al-Farsi.. Our team has tried troubleshooting by rebooting devices and reinstalling affected applications, but the issue still persists You can reach me at david.kim@corp.kr.. We have not yet been able to identify the root cause. We would greatly appreciate your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        490,
+        507
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Analytics Tools Integration\n\nCustomer Support, reporting an issue with data analytics tools at a financial firm. The integration with existing hardware and software systems is not proceeding smoothly, and the problem might be due to compatibility issues arising from recent updates My name is [full_name]-Farsi.. Our team has tried troubleshooting by rebooting devices and reinstalling affected applications, but the issue still persists You can reach me at [email].. We have not yet been able to identify the root cause. We would greatly appreciate your assistance.",
+  "category_of_the_email": "Incident"
+}

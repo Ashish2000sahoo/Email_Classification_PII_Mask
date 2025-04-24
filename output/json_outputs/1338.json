@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Task Disappearance on Dashboard\n\nHello customer support, we are experiencing delays in our project timelines because tasks are disappearing from the dashboard. Despite restarting servers, reviewing database logs, and confirming user permissions, the problem continues You can reach me at fatima.farsi@help.com.. Potential reasons may involve a MongoDB synchronization issue or a Chef configuration error. Your help in addressing this would greatly assist in regaining team productivity. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        518,
+        527
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        308,
+        329
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Task Disappearance on Dashboard\n\nHello customer support, we are experiencing delays in our project timelines because tasks are disappearing from the dashboard. Despite restarting servers, reviewing database logs, and confirming user permissions, the problem continues You can reach me at [email].. Potential reasons may involve a MongoDB synchronization issue or a Chef configuration error. Your help in addressing this would greatly assist in regaining team productivity. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

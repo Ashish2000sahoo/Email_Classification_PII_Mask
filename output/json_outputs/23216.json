@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nPrezada equipe de suporte de servi\u00e7os de TI,\n\nEstou escrevendo para relatar um incidente de alta prioridade envolvendo nosso Roteador Cisco ISR4331. Estamos enfrentando problemas intermitentes de conectividade que est\u00e3o impactando a estabilidade de nossa rede. Essas interrup\u00e7\u00f5es est\u00e3o afetando significativamente nossas opera\u00e7\u00f5es e requerem aten\u00e7\u00e3o imediata You can reach me at carlosm@gmail.com.. Poderia, por favor, priorizar este problema e fornecer orienta\u00e7\u00f5es ou um t\u00e9cnico de suporte para resolver esta quest\u00e3o com urg\u00eancia?\n\nNosso n\u00famero de refer\u00eancia para este incidente \u00e9 <incident_num> My name is Liu Wei.. Por favor, entre em contato comigo pelo <tel_num> assim que poss\u00edvel.\n\nAtenciosamente,\n\n<name>\n<company_name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        619,
+        626
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        390,
+        407
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        154,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: \n\nPrezada equipe de suporte de servi\u00e7os de TI,\n\nEstou escrevendo para relatar um incidente de alta prioridade envolvendo nosso Roteador Cisco ISR[phone_number]. Estamos enfrentando problemas intermitentes de conectividade que est\u00e3o impactando a estabilidade de nossa rede. Essas interrup\u00e7\u00f5es est\u00e3o afetando significativamente nossas opera\u00e7\u00f5es e requerem aten\u00e7\u00e3o imediata You can reach me at [email].. Poderia, por favor, priorizar este problema e fornecer orienta\u00e7\u00f5es ou um t\u00e9cnico de suporte para resolver esta quest\u00e3o com urg\u00eancia?\n\nNosso n\u00famero de refer\u00eancia para este incidente \u00e9 <incident_num> My name is [full_name].. Por favor, entre em contato comigo pelo <tel_num> assim que poss\u00edvel.\n\nAtenciosamente,\n\n<name>\n<company_name>",
+  "category_of_the_email": "Incident"
+}

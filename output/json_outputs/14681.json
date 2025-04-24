@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Failed Integrations Due to API Compatibility Problem\n\nSeveral integrations have stopped working at the same time, suggesting a possible API compatibility issue. After restarting the Zapier connections and reviewing the Redis logs, we still need more information to address the problem.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        332
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Failed Integrations Due to API Compatibility Problem\n\nSeveral integrations have stopped working at the same time, suggesting a possible API compatibility issue. After restarting the Zapier connections and reviewing the Redis logs, we still need more information to address the problem.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

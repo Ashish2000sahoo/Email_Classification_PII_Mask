@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, <br><br>I am writing to report a serious issue concerning a data breach that has compromised access to sensitive medical information. Preliminary investigations indicate that the incident may have been caused by outdated security protocols. <br><br>We have taken immediate action to update the system software and verify network configurations to ensure the integrity of the data You can reach me at liuwei@business.cn.. However, we require your assistance to fully investigate the matter and implement additional measures to prevent future incidents. <br><br>Could you please acknowledge the report of the data breach incident and appreciate the immediate actions taken to update the system software and verify network configurations? We need more information about the breach My name is Jane Smith.. Could you provide details on the incident, including the date and time it occurred and any error messages received? This will help us provide guidance on the next steps and recommend necessary security updates and patches to prevent future incidents.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        818,
+        828
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        429,
+        447
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, <br><br>I am writing to report a serious issue concerning a data breach that has compromised access to sensitive medical information. Preliminary investigations indicate that the incident may have been caused by outdated security protocols. <br><br>We have taken immediate action to update the system software and verify network configurations to ensure the integrity of the data You can reach me at [email].. However, we require your assistance to fully investigate the matter and implement additional measures to prevent future incidents. <br><br>Could you please acknowledge the report of the data breach incident and appreciate the immediate actions taken to update the system software and verify network configurations? We need more information about the breach My name is [full_name].. Could you provide details on the incident, including the date and time it occurred and any error messages received? This will help us provide guidance on the next steps and recommend necessary security updates and patches to prevent future incidents.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue with Canon PIXMA MG3620\n\nDear Customer Support,\n\nI hope this message finds you well. I am reaching out to report an issue related to a Canon PIXMA MG3620 printer I purchased from your Tech Online Store. The problem occurred while attempting to perform a duplex print job, an essential feature that I use frequently. During this process, the printer experienced a paper jam, which has become a recurring issue affecting its functionality and my productivity.\n\nUpon my attempts at resolving the issue, which included carefully removing the jammed paper and resetting the printer, the problem unfortunately persists My name is Carlos Mendoza.. Each attempt at duplex printing results in a similar paper jam, suggesting there might be an underlying technical issue with the printer itself. I have consulted the user manual and followed all basic troubleshooting steps recommended for such problems, but to no avail.\n\nI would appreciate your guidance on how to proceed further You can reach me at david.kim@corp.kr.. Specifically, I would like to know if there are any additional troubleshooting steps you might recommend or if this issue might be covered under any warranty or service agreement.\n\nThank you for your assistance in resolving this matter swiftly. I look forward to your guidance at your earliest convenience.\n\nBest regards,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        653
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1004,
+        1021
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        34,
+        38
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        164,
+        168
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Issue with Canon PIXMA MG[phone_number]\n\nDear Customer Support,\n\nI hope this message finds you well. I am reaching out to report an issue related to a Canon PIXMA MG[phone_number] printer I purchased from your Tech Online Store. The problem occurred while attempting to perform a duplex print job, an essential feature that I use frequently. During this process, the printer experienced a paper jam, which has become a recurring issue affecting its functionality and my productivity.\n\nUpon my attempts at resolving the issue, which included carefully removing the jammed paper and resetting the printer, the problem unfortunately persists My name is [full_name].. Each attempt at duplex printing results in a similar paper jam, suggesting there might be an underlying technical issue with the printer itself. I have consulted the user manual and followed all basic troubleshooting steps recommended for such problems, but to no avail.\n\nI would appreciate your guidance on how to proceed further You can reach me at [email].. Specifically, I would like to know if there are any additional troubleshooting steps you might recommend or if this issue might be covered under any warranty or service agreement.\n\nThank you for your assistance in resolving this matter swiftly. I look forward to your guidance at your earliest convenience.\n\nBest regards,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

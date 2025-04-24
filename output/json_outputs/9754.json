@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Identified Variability in Model Predictions\n\nWe are encountering inconsistencies in the outputs of our investment prediction models, which may be related to recent data integration problems You can reach me at david.kim@corp.kr.. Despite verifying data sources and restarting the analytics platform, the issue remains unresolved My name is Carlos Mendoza.. We require assistance to address this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        363
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        219,
+        236
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Identified Variability in Model Predictions\n\nWe are encountering inconsistencies in the outputs of our investment prediction models, which may be related to recent data integration problems You can reach me at [email].. Despite verifying data sources and restarting the analytics platform, the issue remains unresolved My name is [full_name].. We require assistance to address this problem.",
+  "category_of_the_email": "Problem"
+}

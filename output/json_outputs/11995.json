@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Please inquire about support for investment models\n\nThe models are no longer processing new data, which may be due to outdated algorithms or damaged files You can reach me at sophia.rossi@service.it.. I have restarted the systems and checked the data sources, but the issue persists My name is Elena Ivanova.. I need assistance to resolve this issue and restart the investment forecasts.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        316
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        184,
+        207
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Please inquire about support for investment models\n\nThe models are no longer processing new data, which may be due to outdated algorithms or damaged files You can reach me at [email].. I have restarted the systems and checked the data sources, but the issue persists My name is [full_name].. I need assistance to resolve this issue and restart the investment forecasts.",
+  "category_of_the_email": "Incident"
+}

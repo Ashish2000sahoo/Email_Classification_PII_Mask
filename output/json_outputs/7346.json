@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sichere medizinische Daten mit SQL\n\nLiebe Kundenservice, ich schreibe an, um Ratschl\u00e4ge zur Schutz von medizinischen Daten in SQL Server Integration mit Outlook einzuholen. K\u00f6nnten Sie Tipps zu besten Praktiken f\u00fcr die Gew\u00e4hrleistung der Vertraulichkeit und Integrit\u00e4t sensibler medizinischer Informationen geben? Ich freue mich auf Empfehlungen zu Verschl\u00fcsselungsmethoden, Zugangssteuerungen und Datensicherungsverfahren You can reach me at carlosm@gmail.com.. Zudem interessiert mich, welche SQL Server-Feats und Outlook-Einstellungen beachtet werden sollten, um Datenbremse zu vermeiden? Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf eine schnelle R\u00fcckmeldung. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        693,
+        706
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        452,
+        469
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Sichere medizinische Daten mit SQL\n\nLiebe Kundenservice, ich schreibe an, um Ratschl\u00e4ge zur Schutz von medizinischen Daten in SQL Server Integration mit Outlook einzuholen. K\u00f6nnten Sie Tipps zu besten Praktiken f\u00fcr die Gew\u00e4hrleistung der Vertraulichkeit und Integrit\u00e4t sensibler medizinischer Informationen geben? Ich freue mich auf Empfehlungen zu Verschl\u00fcsselungsmethoden, Zugangssteuerungen und Datensicherungsverfahren You can reach me at [email].. Zudem interessiert mich, welche SQL Server-Feats und Outlook-Einstellungen beachtet werden sollten, um Datenbremse zu vermeiden? Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf eine schnelle R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Software Upgrade and Network Optimization\n\nHello Customer Support Team, I am writing to request an upgrade to our current software for optimization of network configurations. This upgrade is necessary to improve the efficiency and performance across all our digital tools You can reach me at carlosm@gmail.com.. Our current system is outdated and is causing delays and inefficiencies in our workflow. We believe that an upgrade will help streamline our processes and improve productivity. We would greatly appreciate it if you could look into this matter and provide a solution at your earliest convenience. Thank you for your time and assistance, and we look forward to hearing from you soon. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        734,
+        747
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        321,
+        338
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Software Upgrade and Network Optimization\n\nHello Customer Support Team, I am writing to request an upgrade to our current software for optimization of network configurations. This upgrade is necessary to improve the efficiency and performance across all our digital tools You can reach me at [email].. Our current system is outdated and is causing delays and inefficiencies in our workflow. We believe that an upgrade will help streamline our processes and improve productivity. We would greatly appreciate it if you could look into this matter and provide a solution at your earliest convenience. Thank you for your time and assistance, and we look forward to hearing from you soon. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

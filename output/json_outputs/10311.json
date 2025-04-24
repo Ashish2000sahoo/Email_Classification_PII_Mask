@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident of Data Breach in Medical Systems\n\nA data breach has been identified, posing a threat to the security of medical information You can reach me at david.kim@corp.kr.. Unresolved vulnerabilities in Ubuntu and Android systems may be contributing factors My name is Elena Ivanova.. Efforts to secure the systems, such as updating software and enhancing firewall settings, have been made but the issues continue to persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        279,
+        292
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        163,
+        180
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Incident of Data Breach in Medical Systems\n\nA data breach has been identified, posing a threat to the security of medical information You can reach me at [email].. Unresolved vulnerabilities in Ubuntu and Android systems may be contributing factors My name is [full_name].. Efforts to secure the systems, such as updating software and enhancing firewall settings, have been made but the issues continue to persist.",
+  "category_of_the_email": "Incident"
+}

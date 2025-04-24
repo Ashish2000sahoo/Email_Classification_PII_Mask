@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: St\u00f6rungen beeintr\u00e4chtigen Markenwachstum\n\nBitte schreiben Sie eine Stelle, die Unterst\u00fctzung bei der Behebung von St\u00f6rungen einholen kann My name is Elena Ivanova.. Mehrere digitale Strategien k\u00f6nnten die optimale Markenentwicklung behindern You can reach me at elena.ivanova@support.org.. Es w\u00e4re sehr hilfreich, wenn die Angelegenheit dringend behandelt und eine schnelle L\u00f6sung angeboten w\u00fcrde.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        269,
+        294
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: St\u00f6rungen beeintr\u00e4chtigen Markenwachstum\n\nBitte schreiben Sie eine Stelle, die Unterst\u00fctzung bei der Behebung von St\u00f6rungen einholen kann My name is [full_name].. Mehrere digitale Strategien k\u00f6nnten die optimale Markenentwicklung behindern You can reach me at [email].. Es w\u00e4re sehr hilfreich, wenn die Angelegenheit dringend behandelt und eine schnelle L\u00f6sung angeboten w\u00fcrde.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fokus auf die Audio-Qualit\u00e4t\n\nLiebe Kundenservice, wir beachten ungleichm\u00e4\u00dfige Audioausgaben w\u00e4hrend virtueller Meetings mit den Kopfh\u00f6rern. Der Fehler k\u00f6nnte von Softwarekonflikten oder veralteten Treibern herr\u00fchren You can reach me at omar.hassan@secure.net.. Wir haben bereits die Kopfh\u00f6rertreiber aktualisiert und das Ger\u00e4t neu gestartet, aber das Problem besteht weiterhin My name is John Doe.. Die ungleichm\u00e4\u00dfige Audioausgabe versperrt St\u00f6rungen in den Meetings und beeintr\u00e4chtigt die Produktivit\u00e4t. Wir sch\u00e4tzen es, wenn Sie uns mit Schritten zur Problembehebung und m\u00f6glichen L\u00f6sungen unterst\u00fctzen. Bitte melden Sie sich, falls zus\u00e4tzliche Informationen erforderlich sind. Wir freuen uns auf Ihre baldige R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        246,
+        268
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Fokus auf die Audio-Qualit\u00e4t\n\nLiebe Kundenservice, wir beachten ungleichm\u00e4\u00dfige Audioausgaben w\u00e4hrend virtueller Meetings mit den Kopfh\u00f6rern. Der Fehler k\u00f6nnte von Softwarekonflikten oder veralteten Treibern herr\u00fchren You can reach me at [email].. Wir haben bereits die Kopfh\u00f6rertreiber aktualisiert und das Ger\u00e4t neu gestartet, aber das Problem besteht weiterhin My name is [full_name].. Die ungleichm\u00e4\u00dfige Audioausgabe versperrt St\u00f6rungen in den Meetings und beeintr\u00e4chtigt die Produktivit\u00e4t. Wir sch\u00e4tzen es, wenn Sie uns mit Schritten zur Problembehebung und m\u00f6glichen L\u00f6sungen unterst\u00fctzen. Bitte melden Sie sich, falls zus\u00e4tzliche Informationen erforderlich sind. Wir freuen uns auf Ihre baldige R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

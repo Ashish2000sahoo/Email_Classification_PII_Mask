@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Microsoft Teams Problem\n\nBeschreibe unerwartete Integrationssch\u00e4den zwischen Microsoft Teams und JIRA w\u00e4hrend des Projektupdates-Synchronisierens. Diese Sch\u00e4den k\u00f6nnten auf Kompatibilit\u00e4tsprobleme der API zur\u00fcckzuf\u00fchren sein. Ich habe versucht, das Problem zu beheben, indem ich die Dienste neu gestartet und Aktualisierungen gesucht habe, aber das Problem beh\u00e4lt sich weiterhin bestehen You can reach me at fatima.farsi@help.com.. Ich sch\u00e4tze, dass eine L\u00f6sung des Problems die Team-Produktivit\u00e4t beeintr\u00e4chtigen k\u00f6nnte. Bitte informieren Sie mich, falls weitere Schritte unternommen werden und Sie weitere Informationen ben\u00f6tigen, um das Problem zu untersuchen. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        684,
+        693
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        417,
+        438
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Microsoft Teams Problem\n\nBeschreibe unerwartete Integrationssch\u00e4den zwischen Microsoft Teams und JIRA w\u00e4hrend des Projektupdates-Synchronisierens. Diese Sch\u00e4den k\u00f6nnten auf Kompatibilit\u00e4tsprobleme der API zur\u00fcckzuf\u00fchren sein. Ich habe versucht, das Problem zu beheben, indem ich die Dienste neu gestartet und Aktualisierungen gesucht habe, aber das Problem beh\u00e4lt sich weiterhin bestehen You can reach me at [email].. Ich sch\u00e4tze, dass eine L\u00f6sung des Problems die Team-Produktivit\u00e4t beeintr\u00e4chtigen k\u00f6nnte. Bitte informieren Sie mich, falls weitere Schritte unternommen werden und Sie weitere Informationen ben\u00f6tigen, um das Problem zu untersuchen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

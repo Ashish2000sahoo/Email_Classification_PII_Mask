@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI am looking to inquire about the integration capabilities with Signal project management tools You can reach me at elena.ivanova@support.org.. Could you please provide detailed information on this? I would greatly appreciate any details you can provide regarding the compatibility and functionality of Signal tools. Thank you for your time and I look forward to hearing back soon. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        127,
+        152
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am looking to inquire about the integration capabilities with Signal project management tools You can reach me at [email].. Could you please provide detailed information on this? I would greatly appreciate any details you can provide regarding the compatibility and functionality of Signal tools. Thank you for your time and I look forward to hearing back soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

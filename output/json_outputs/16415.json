@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boost Your Investment Tactics Now Online\n\nI hope this message finds you well You can reach me at elena.ivanova@support.org.. I am reaching out to seek information about the advanced data analytics tools and reporting features your organization provides. I am keen to understand how these resources can assist me in enhancing my investment approaches My name is Jane Smith.. Could you kindly furnish me with details on initiating their usage and the advantages they offer? Any support or advice you could provide would be greatly appreciated. Thank you in advance for your assistance. I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        370,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        106,
+        131
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Boost Your Investment Tactics Now Online\n\nI hope this message finds you well You can reach me at [email].. I am reaching out to seek information about the advanced data analytics tools and reporting features your organization provides. I am keen to understand how these resources can assist me in enhancing my investment approaches My name is [full_name].. Could you kindly furnish me with details on initiating their usage and the advantages they offer? Any support or advice you could provide would be greatly appreciated. Thank you in advance for your assistance. I eagerly await your response.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEstoy escribiendo para solicitar orientaci\u00f3n inmediata sobre c\u00f3mo optimizar nuestros costos de infraestructura relacionados con nuestra cuenta de AWS. Hemos observado un aumento constante en nuestros gastos mensuales y creemos que puede haber espacio para una reducci\u00f3n de costos mientras mantenemos el rendimiento \u00f3ptimo de nuestros servicios You can reach me at elena.ivanova@support.org.. Actualmente utilizamos el Servicio de Gesti\u00f3n de AWS. Por favor, proporcionen estrategias y recomendaciones, como la consolidaci\u00f3n de recursos, el ajuste de tama\u00f1os de instancias, o la utilizaci\u00f3n de instancias reservadas, para ayudarnos a lograr una gesti\u00f3n de costos m\u00e1s eficiente. Adem\u00e1s, si hay alguna herramienta nativa de AWS o soluciones de terceros que recomienden, por favor incl\u00fayanlas en su orientaci\u00f3n My name is Jane Smith.. Espero su pronta asistencia.\n\nAtentamente,\n<name>\n<name>\nN\u00famero de cuenta: <acc_num>\nTel\u00e9fono: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        871,
+        881
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        418,
+        443
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nEstimado servicio de atenci\u00f3n al cliente,\n\nEstoy escribiendo para solicitar orientaci\u00f3n inmediata sobre c\u00f3mo optimizar nuestros costos de infraestructura relacionados con nuestra cuenta de AWS. Hemos observado un aumento constante en nuestros gastos mensuales y creemos que puede haber espacio para una reducci\u00f3n de costos mientras mantenemos el rendimiento \u00f3ptimo de nuestros servicios You can reach me at [email].. Actualmente utilizamos el Servicio de Gesti\u00f3n de AWS. Por favor, proporcionen estrategias y recomendaciones, como la consolidaci\u00f3n de recursos, el ajuste de tama\u00f1os de instancias, o la utilizaci\u00f3n de instancias reservadas, para ayudarnos a lograr una gesti\u00f3n de costos m\u00e1s eficiente. Adem\u00e1s, si hay alguna herramienta nativa de AWS o soluciones de terceros que recomienden, por favor incl\u00fayanlas en su orientaci\u00f3n My name is [full_name].. Espero su pronta asistencia.\n\nAtentamente,\n<name>\n<name>\nN\u00famero de cuenta: <acc_num>\nTel\u00e9fono: <tel_num>",
+  "category_of_the_email": "Request"
+}

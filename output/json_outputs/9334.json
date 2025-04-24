@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Data Visualization Feature\n\nI am encountering a problem with the data visualization feature. Particularly, investment trends are not showing up My name is Liu Wei.. I've already restarted my system and verified for updates, yet the issue remains unresolved. I believe the problem could be related to outdated software or incorrect settings You can reach me at elena.ivanova@support.org.. I would be very grateful for your help in resolving this. Could you provide any troubleshooting steps or further assistance? Please inform me if you require additional details.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        184
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        386,
+        411
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Data Visualization Feature\n\nI am encountering a problem with the data visualization feature. Particularly, investment trends are not showing up My name is [full_name].. I've already restarted my system and verified for updates, yet the issue remains unresolved. I believe the problem could be related to outdated software or incorrect settings You can reach me at [email].. I would be very grateful for your help in resolving this. Could you provide any troubleshooting steps or further assistance? Please inform me if you require additional details.",
+  "category_of_the_email": "Incident"
+}

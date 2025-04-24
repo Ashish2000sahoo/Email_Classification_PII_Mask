@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident Report: Data Access Denied\n\nLast night, the secure portal experienced a failure. There might have been a software anomaly or an update problem My name is Omar Hassan.. We have already rebooted the servers and examined the firewall configurations. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        172,
+        183
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        285,
+        306
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Incident Report: Data Access Denied\n\nLast night, the secure portal experienced a failure. There might have been a software anomaly or an update problem My name is [full_name].. We have already rebooted the servers and examined the firewall configurations. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

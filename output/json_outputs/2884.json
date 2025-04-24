@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Campaign Engagement Drop\n\nDear Customer Support, I am writing to report a sudden drop in campaign engagement. This issue only appeared recently, and even after adjusting the target audience filters, the engagement has not improved yet. I suspect the poor targeting of the ad campaign could be the cause My name is Omar Hassan.. I tried to adjust the filters to better align with our target audience, but they have not yielded the desired results so far. I would greatly appreciate some additional advice or assistance to resolve this issue. Please let me know if you require any further information to investigate this matter further. Thank you for your time and support You can reach me at omar.hassan@secure.net.. Kind regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        339,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        716,
+        738
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Campaign Engagement Drop\n\nDear Customer Support, I am writing to report a sudden drop in campaign engagement. This issue only appeared recently, and even after adjusting the target audience filters, the engagement has not improved yet. I suspect the poor targeting of the ad campaign could be the cause My name is [full_name].. I tried to adjust the filters to better align with our target audience, but they have not yielded the desired results so far. I would greatly appreciate some additional advice or assistance to resolve this issue. Please let me know if you require any further information to investigate this matter further. Thank you for your time and support You can reach me at [email].. Kind regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

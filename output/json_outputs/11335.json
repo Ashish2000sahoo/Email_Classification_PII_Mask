@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Suspected Data Spree Breach in the Medical Sector\n\nA suspected data breach has occurred due to inadequate firewall configuration and outdated software You can reach me at elena.ivanova@support.org.. Unauthorized access was detected, and we have restarted the systems and reviewed the logs. Our IT staff has been notified, but the issue persists. We urgently require assistance to resolve the problem and prevent further breaches. Please provide instructions for the next steps. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        512
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        180,
+        205
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Suspected Data Spree Breach in the Medical Sector\n\nA suspected data breach has occurred due to inadequate firewall configuration and outdated software You can reach me at [email].. Unauthorized access was detected, and we have restarted the systems and reviewed the logs. Our IT staff has been notified, but the issue persists. We urgently require assistance to resolve the problem and prevent further breaches. Please provide instructions for the next steps. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

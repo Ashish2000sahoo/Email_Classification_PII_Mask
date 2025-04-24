@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Additional Integrations\n\nDear Customer Support,\n\nI am writing to request additional integrations with Jira Software to enhance project tracking and team collaboration You can reach me at maria.gonzalez@shop.es.. These additional features would greatly benefit our workflow by allowing us better control and oversight. Currently, we are using Jira Software 8.20, and are seeking enhancements that could provide more streamlined integration capabilities.\n\nWe believe that improved interaction features will promote productivity across our team. Could you please provide information about any available integrations or upcoming updates that address these needs?\n\nThank you for your time and support.\n\nBest regards,\n<name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        751,
+        758
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        208,
+        230
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Additional Integrations\n\nDear Customer Support,\n\nI am writing to request additional integrations with Jira Software to enhance project tracking and team collaboration You can reach me at [email].. These additional features would greatly benefit our workflow by allowing us better control and oversight. Currently, we are using Jira Software 8.20, and are seeking enhancements that could provide more streamlined integration capabilities.\n\nWe believe that improved interaction features will promote productivity across our team. Could you please provide information about any available integrations or upcoming updates that address these needs?\n\nThank you for your time and support.\n\nBest regards,\n<name> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

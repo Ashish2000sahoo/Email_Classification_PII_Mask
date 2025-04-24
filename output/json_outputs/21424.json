@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance Needed for Canon Setup\n\nDear Tech Online Store Support Team,\n\nI am seeking assistance with setting up wireless and mobile printing features for my Canon PIXMA MG3620 printer. Unfortunately, I have encountered some challenges in establishing both the wireless connectivity and ensuring seamless operation with my mobile devices You can reach me at sophia.rossi@service.it.. I would appreciate any guidance or troubleshooting tips you could provide to help resolve this issue. Steps on how to properly configure these settings would be extremely helpful. If needed, I am available for a call or further instruction.\n\nPlease let me know how we can proceed to address this matter effectively My name is Jane Smith.. I look forward to your prompt response and thank you in advance for your assistance.\n\nSincerely,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        719,
+        729
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        367,
+        390
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        181,
+        185
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed for Canon Setup\n\nDear Tech Online Store Support Team,\n\nI am seeking assistance with setting up wireless and mobile printing features for my Canon PIXMA MG[phone_number] printer. Unfortunately, I have encountered some challenges in establishing both the wireless connectivity and ensuring seamless operation with my mobile devices You can reach me at [email].. I would appreciate any guidance or troubleshooting tips you could provide to help resolve this issue. Steps on how to properly configure these settings would be extremely helpful. If needed, I am available for a call or further instruction.\n\nPlease let me know how we can proceed to address this matter effectively My name is [full_name].. I look forward to your prompt response and thank you in advance for your assistance.\n\nSincerely,\n\n<name>",
+  "category_of_the_email": "Request"
+}

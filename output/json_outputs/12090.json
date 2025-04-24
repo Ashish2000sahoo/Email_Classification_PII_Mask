@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEncountered data loss when analyzing investment portfolios using RapidMiner Firebase. Syncing appears to be failing due to integration problems You can reach me at david.kim@corp.kr.. Despite attempts to re-sync and review logs, the issue remains unresolved. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        281,
+        295
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        175,
+        192
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nEncountered data loss when analyzing investment portfolios using RapidMiner Firebase. Syncing appears to be failing due to integration problems You can reach me at [email].. Despite attempts to re-sync and review logs, the issue remains unresolved. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

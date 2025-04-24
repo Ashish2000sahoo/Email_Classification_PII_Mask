@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlermeldung Data Analytics Plattform\n\nSehr geehrte Kundenservice-Team, ich melde ein kritisches Systemproblem mit unserem Data Analytics-Plattform. Das System brach heute Morgen zusammen, was unsere Investitionsanalyse st\u00f6rte und eine bedeutende Unannehmlichkeit f\u00fcr unseren Team bereitete My name is Jane Smith.. Der Crash k\u00f6nnte auf den neu installierten Oracle Database 19c-Updates zur\u00fcckzuf\u00fchren sein, die wir auf unser System angewendet haben. Wir haben bereits die Server neu gestartet und die HubSpot CRM-Integrationen \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. Es w\u00e4re sehr hilfreich, wenn Sie das Problem dringend untersuchen und eine L\u00f6sung anbieten k\u00f6nnten, um so schnell wie m\u00f6glich unser Plattform wieder in Betrieb zu nehmen. Bitte informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen You can reach me at omar.hassan@secure.net.. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit, ich freue mich darauf, von Ihnen bald wieder zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        322
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        878,
+        900
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Fehlermeldung Data Analytics Plattform\n\nSehr geehrte Kundenservice-Team, ich melde ein kritisches Systemproblem mit unserem Data Analytics-Plattform. Das System brach heute Morgen zusammen, was unsere Investitionsanalyse st\u00f6rte und eine bedeutende Unannehmlichkeit f\u00fcr unseren Team bereitete My name is [full_name].. Der Crash k\u00f6nnte auf den neu installierten Oracle Database 19c-Updates zur\u00fcckzuf\u00fchren sein, die wir auf unser System angewendet haben. Wir haben bereits die Server neu gestartet und die HubSpot CRM-Integrationen \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. Es w\u00e4re sehr hilfreich, wenn Sie das Problem dringend untersuchen und eine L\u00f6sung anbieten k\u00f6nnten, um so schnell wie m\u00f6glich unser Plattform wieder in Betrieb zu nehmen. Bitte informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen You can reach me at [email].. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit, ich freue mich darauf, von Ihnen bald wieder zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

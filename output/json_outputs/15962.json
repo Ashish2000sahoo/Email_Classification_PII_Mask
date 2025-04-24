@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Service Interruption\n\nCustomer Support, could you please provide urgent assistance due to ongoing service outages impacting essential tools used for optimizing data-driven investment strategies. These outages are severely affecting our ability to make informed decisions You can reach me at omar.hassan@secure.net.. Our team heavily depends on these tools to analyze market trends, track performance, and identify opportunities My name is Maria Gonzalez.. The lack of access to these tools is leading to potential financial losses and missed opportunities. We urge you to treat this matter with the utmost priority and provide a resolution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        459,
+        473
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        311,
+        333
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Service Interruption\n\nCustomer Support, could you please provide urgent assistance due to ongoing service outages impacting essential tools used for optimizing data-driven investment strategies. These outages are severely affecting our ability to make informed decisions You can reach me at [email].. Our team heavily depends on these tools to analyze market trends, track performance, and identify opportunities My name is [full_name].. The lack of access to these tools is leading to potential financial losses and missed opportunities. We urge you to treat this matter with the utmost priority and provide a resolution.",
+  "category_of_the_email": "Change"
+}

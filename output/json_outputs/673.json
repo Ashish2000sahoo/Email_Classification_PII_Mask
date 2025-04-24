@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Enhanced Integration with Salesforce CRM Data Analytics Tools\n\nDear Customer Support, I am reaching out to request an enhancement in the integration of our data analytics tools with Salesforce CRM You can reach me at janesmith@company.com.. Currently, the integration is limited and does not provide the level of detail required for optimized investment tracking and reporting My name is John Doe.. We would like to see advanced features such as automated data syncing, customizable dashboards, and real-time reporting, which would enable our team to make more informed decisions and improve overall performance. We believe this enhancement would be a valuable addition to the platform, and we look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        409,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        238,
+        259
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Enhanced Integration with Salesforce CRM Data Analytics Tools\n\nDear Customer Support, I am reaching out to request an enhancement in the integration of our data analytics tools with Salesforce CRM You can reach me at [email].. Currently, the integration is limited and does not provide the level of detail required for optimized investment tracking and reporting My name is [full_name].. We would like to see advanced features such as automated data syncing, customizable dashboards, and real-time reporting, which would enable our team to make more informed decisions and improve overall performance. We believe this enhancement would be a valuable addition to the platform, and we look forward to your response.",
+  "category_of_the_email": "Change"
+}

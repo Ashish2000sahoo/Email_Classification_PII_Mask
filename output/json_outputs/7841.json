@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei technischen Schwierigkeiten\n\nBenutzer haben Probleme mit der Verbindung auf verschiedenen Ger\u00e4ten und Anwendungen You can reach me at maria.gonzalez@shop.es.. Dies beeintr\u00e4chtigt die Projektworkflows My name is John Doe.. M\u00f6gliche Ursachen sind die neuesten Softwareupdates oder Netzwerk\u00e4nderungen. Benutzer haben bereits versucht, die Ger\u00e4te neu zu starten und die Konfiguration neu einzustellen, aber das Problem beh\u00e4lt sich best\u00e4ndig.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        153,
+        175
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei technischen Schwierigkeiten\n\nBenutzer haben Probleme mit der Verbindung auf verschiedenen Ger\u00e4ten und Anwendungen You can reach me at [email].. Dies beeintr\u00e4chtigt die Projektworkflows My name is [full_name].. M\u00f6gliche Ursachen sind die neuesten Softwareupdates oder Netzwerk\u00e4nderungen. Benutzer haben bereits versucht, die Ger\u00e4te neu zu starten und die Konfiguration neu einzustellen, aber das Problem beh\u00e4lt sich best\u00e4ndig.",
+  "category_of_the_email": "Incident"
+}

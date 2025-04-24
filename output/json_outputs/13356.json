@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Billing System Error\n\nConcerning the issue with the billing system, there has been a mistaken double charge on the SaaS subscription You can reach me at liuwei@business.cn.. This might be due to an error in the payment processing system My name is Maria Gonzalez.. Despite our efforts to contact support and review transaction records, the issue remains unresolved. We would greatly appreciate your urgent attention to this matter and a prompt refund for the incorrect charge.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        287
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        178,
+        196
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Billing System Error\n\nConcerning the issue with the billing system, there has been a mistaken double charge on the SaaS subscription You can reach me at [email].. This might be due to an error in the payment processing system My name is [full_name].. Despite our efforts to contact support and review transaction records, the issue remains unresolved. We would greatly appreciate your urgent attention to this matter and a prompt refund for the incorrect charge.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Severe Malfunction in Data Analytics System\n\nRespected support group, I am contacting you to bring to your attention a major problem with our data analytics system My name is John Doe.. The system experienced a failure earlier today, which has severely impacted our investment analysis and has been extremely troublesome for our staff. We suspect the failure might be linked to the most recent upgrade of Oracle Database 19c that we implemented. We have attempted to reboot the servers and review the HubSpot CRM connections, yet the problem remains unresolved. I would be most grateful if you could address this issue swiftly and provide a remedy to restore our system as soon as possible You can reach me at liuwei@business.cn.. Kindly inform me if any further information is necessary from my end to help solve this issue. Thank you for your swift action. I am eagerly awaiting your response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        722,
+        740
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Severe Malfunction in Data Analytics System\n\nRespected support group, I am contacting you to bring to your attention a major problem with our data analytics system My name is [full_name].. The system experienced a failure earlier today, which has severely impacted our investment analysis and has been extremely troublesome for our staff. We suspect the failure might be linked to the most recent upgrade of Oracle Database 19c that we implemented. We have attempted to reboot the servers and review the HubSpot CRM connections, yet the problem remains unresolved. I would be most grateful if you could address this issue swiftly and provide a remedy to restore our system as soon as possible You can reach me at [email].. Kindly inform me if any further information is necessary from my end to help solve this issue. Thank you for your swift action. I am eagerly awaiting your response. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

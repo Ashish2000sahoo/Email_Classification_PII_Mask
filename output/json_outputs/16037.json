@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Synchronization Smartsheet and JIRA\n\nFacing synchronization difficulties between Smartsheet and JIRA. The issue might be due to differences in API versions You can reach me at janesmith@company.com.. The team has attempted to reconnect the accounts and refresh authentication tokens, but the problem continues. We would greatly appreciate your help in resolving this matter, as it is impacting our workflow My name is Liu Wei.. Could you please provide guidance on how to troubleshoot and resolve this issue? We are willing to supply any additional information or context that is necessary to resolve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        441,
+        448
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        199,
+        220
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Synchronization Smartsheet and JIRA\n\nFacing synchronization difficulties between Smartsheet and JIRA. The issue might be due to differences in API versions You can reach me at [email].. The team has attempted to reconnect the accounts and refresh authentication tokens, but the problem continues. We would greatly appreciate your help in resolving this matter, as it is impacting our workflow My name is [full_name].. Could you please provide guidance on how to troubleshoot and resolve this issue? We are willing to supply any additional information or context that is necessary to resolve the problem.",
+  "category_of_the_email": "Problem"
+}

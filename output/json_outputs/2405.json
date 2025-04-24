@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenges in Digital Marketing Consultation\n\nThe agency encounters difficulties in promoting brand growth digitally My name is Jane Smith.. There is a noticeable decline in engagement metrics, which is attributed to content fatigue and imprecise campaign strategies. The goal is to tailor campaigns to the target audience and revamp the content strategy, but the issues persist. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        410,
+        427
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Challenges in Digital Marketing Consultation\n\nThe agency encounters difficulties in promoting brand growth digitally My name is [full_name].. There is a noticeable decline in engagement metrics, which is attributed to content fatigue and imprecise campaign strategies. The goal is to tailor campaigns to the target audience and revamp the content strategy, but the issues persist. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

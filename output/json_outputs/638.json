@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Smart Home\n\nK\u00f6nnten Sie mehr Informationen zur Integration von Smart-Gartenbew\u00e4sserung in Slack und Elasticsearch liefern? Danke!. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Smart Home\n\nK\u00f6nnten Sie mehr Informationen zur Integration von Smart-Gartenbew\u00e4sserung in Slack und Elasticsearch liefern? Danke!. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

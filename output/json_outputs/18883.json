@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsl\u00fccke in der Krankenhaus-IT-Infrastruktur\n\nNeulich wurden sensible medizinische Daten aufgrund m\u00f6glicher Sicherheitsl\u00fccken in den Krankenhaus-IT-Systemen preisgegeben You can reach me at fatima.farsi@help.com.. Dies war Folge alternder Software und mangelnder Feuerwehr-sicherungen My name is Liu Wei.. Aktuell wird die Antivirus-Software aktualisiert und ein vorl\u00e4ufiges Sicherheitsaudit durchgef\u00fchrt, um Schwachstellen zu identifizieren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        320
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        207,
+        228
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsl\u00fccke in der Krankenhaus-IT-Infrastruktur\n\nNeulich wurden sensible medizinische Daten aufgrund m\u00f6glicher Sicherheitsl\u00fccken in den Krankenhaus-IT-Systemen preisgegeben You can reach me at [email].. Dies war Folge alternder Software und mangelnder Feuerwehr-sicherungen My name is [full_name].. Aktuell wird die Antivirus-Software aktualisiert und ein vorl\u00e4ufiges Sicherheitsaudit durchgef\u00fchrt, um Schwachstellen zu identifizieren.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Adobe Photoshop Integration\n\nFacing integration problems with Adobe Photoshop CC 2021 and Zapier, which is disrupting workflows. The issue might have arisen from conflicting updates or incompatible software versions.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        103,
+        107
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        261,
+        277
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Problem with Adobe Photoshop Integration\n\nFacing integration problems with Adobe Photoshop CC [phone_number] and Zapier, which is disrupting workflows. The issue might have arisen from conflicting updates or incompatible software versions.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

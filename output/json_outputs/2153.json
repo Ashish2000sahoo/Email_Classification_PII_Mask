@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with the Data Analysis Platform\n\nDuring the investment optimization, the data analysis platform has run into trouble. This could indicate a lack of storage space on the Chromebook or problems with the DisplayPort. I have tried rebooting the system, checking the cables, and updating the drivers, but the issue persists My name is Liu Wei.. I would be grateful if you could assist me in resolving this issue. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        447,
+        469
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with the Data Analysis Platform\n\nDuring the investment optimization, the data analysis platform has run into trouble. This could indicate a lack of storage space on the Chromebook or problems with the DisplayPort. I have tried rebooting the system, checking the cables, and updating the drivers, but the issue persists My name is [full_name].. I would be grateful if you could assist me in resolving this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsfunktionen in Redis 6.2\n\nSehr geehrte Kundensupport, ich besorge mich in Bezug auf die Sicherheitsfunktionen f\u00fcr Redis 6.2 in Gesundheitsumgebungen. Sie wissen, dass solche Umgebungen die strengsten Sicherheits- und Complianceanforderungen erf\u00fcllen m\u00fcssen. Ich m\u00f6chte erfahren, welche Tools und Funktionen in Redis 6.2 zur Sicherung und Integrit\u00e4t unserer Daten verf\u00fcgbar sind. Insbesondere interessiere ich mich f\u00fcr Authentifizierungs- und Autorisierungsmechanismen, Datenverschl\u00fcsselung und Zugriffssteuerungen My name is Jane Smith.. Ich w\u00e4re Ihnen sehr dankbar, wenn Sie ratgebend eingreifen k\u00f6nnten, um diese Sicherheitsma\u00dfnahmen umzusetzen You can reach me at janesmith@company.com.. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        544,
+        554
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        687,
+        708
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsfunktionen in Redis 6.2\n\nSehr geehrte Kundensupport, ich besorge mich in Bezug auf die Sicherheitsfunktionen f\u00fcr Redis 6.2 in Gesundheitsumgebungen. Sie wissen, dass solche Umgebungen die strengsten Sicherheits- und Complianceanforderungen erf\u00fcllen m\u00fcssen. Ich m\u00f6chte erfahren, welche Tools und Funktionen in Redis 6.2 zur Sicherung und Integrit\u00e4t unserer Daten verf\u00fcgbar sind. Insbesondere interessiere ich mich f\u00fcr Authentifizierungs- und Autorisierungsmechanismen, Datenverschl\u00fcsselung und Zugriffssteuerungen My name is [full_name].. Ich w\u00e4re Ihnen sehr dankbar, wenn Sie ratgebend eingreifen k\u00f6nnten, um diese Sicherheitsma\u00dfnahmen umzusetzen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

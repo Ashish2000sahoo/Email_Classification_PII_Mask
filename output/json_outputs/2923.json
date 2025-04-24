@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit mehreren gleichzeitigen Software-Absturzen\n\nSehr geehrte Kundenservice, ich kontaktiere Sie wegen mehrerer unerwarteter Software-Abst\u00fcrze, die gleichzeitig aufgetreten sind. Diese Abst\u00fcrze k\u00f6nnten mit Kompatibilit\u00e4tsproblemen zusammenh\u00e4ngen, die durch die j\u00fcngste macOS-Aktualisierung verursacht sein k\u00f6nnten You can reach me at janesmith@company.com.. Ich habe mein Ger\u00e4t bereits neugestartet und meine Treiber aktualisiert, aber das Problem ist nach wie vor bestehen My name is Omar Hassan.. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie mir Anweisungen oder Ratschl\u00e4ge geben k\u00f6nnten, um das Problem zu beheben. Bitte informieren Sie mich, wenn weitere Schritte notwendig sind, die ich durchf\u00fchren kann, oder wenn Sie weitere Informationen ben\u00f6tigen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        502,
+        513
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        351,
+        372
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit mehreren gleichzeitigen Software-Absturzen\n\nSehr geehrte Kundenservice, ich kontaktiere Sie wegen mehrerer unerwarteter Software-Abst\u00fcrze, die gleichzeitig aufgetreten sind. Diese Abst\u00fcrze k\u00f6nnten mit Kompatibilit\u00e4tsproblemen zusammenh\u00e4ngen, die durch die j\u00fcngste macOS-Aktualisierung verursacht sein k\u00f6nnten You can reach me at [email].. Ich habe mein Ger\u00e4t bereits neugestartet und meine Treiber aktualisiert, aber das Problem ist nach wie vor bestehen My name is [full_name].. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie mir Anweisungen oder Ratschl\u00e4ge geben k\u00f6nnten, um das Problem zu beheben. Bitte informieren Sie mich, wenn weitere Schritte notwendig sind, die ich durchf\u00fchren kann, oder wenn Sie weitere Informationen ben\u00f6tigen.",
+  "category_of_the_email": "Incident"
+}

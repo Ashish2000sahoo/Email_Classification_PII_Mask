@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: High-Priority Problem\n\nDear Support Team, we are facing a significant problem with server administration which is interrupting our ticketing system and software development activities. We need immediate support to address this and reduce any impact on our business My name is Fatima Al-Farsi.. Best regards, <name>. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        294
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        347,
+        365
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: High-Priority Problem\n\nDear Support Team, we are facing a significant problem with server administration which is interrupting our ticketing system and software development activities. We need immediate support to address this and reduce any impact on our business My name is [full_name]-Farsi.. Best regards, <name>. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

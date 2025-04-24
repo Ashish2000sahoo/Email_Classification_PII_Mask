@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with System Performance While Using Data Analytics Tools\n\nI'm facing system performance issues while using data analytics tools, particularly during investment optimization tasks You can reach me at omar.hassan@secure.net.. The problem might be due to high CPU usage caused by multiple applications running simultaneously. So far, I've closed non-essential applications and restarted the system to improve performance, but the issue still persists My name is Carlos Mendoza.. I need assistance to resolve this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        477,
+        491
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        217,
+        239
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problems with System Performance While Using Data Analytics Tools\n\nI'm facing system performance issues while using data analytics tools, particularly during investment optimization tasks You can reach me at [email].. The problem might be due to high CPU usage caused by multiple applications running simultaneously. So far, I've closed non-essential applications and restarted the system to improve performance, but the issue still persists My name is [full_name].. I need assistance to resolve this.",
+  "category_of_the_email": "Incident"
+}

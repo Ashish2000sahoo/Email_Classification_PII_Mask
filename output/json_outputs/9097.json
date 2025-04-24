@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit den Integrationen\n\nLieber Kundenservice, ich kontaktiere Sie, um eines der aktuellen Probleme mit unseren Integrationen zu melden. J\u00fcngst sind sie gleichzeitig ausgefallen und haben unsere Betriebsprozesse gest\u00f6rt. Nach einer Untersuchung des Falles gehen wir davon aus, dass der Fehler m\u00f6glicherweise auf ein API-Schl\u00fcsselproblem zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at elena.ivanova@support.org.. Um eine L\u00f6sung zu finden, haben wir unsere Dienste neugestartet und die Logs gr\u00fcndlich durchgesehen, jedoch ohne Erfolg My name is Maria Gonzalez.. Die Integrationsdienste sind weiterhin offline. Wir hoffen, dass Ihr Team uns in der L\u00f6sung dieses Problems unterst\u00fctzen kann. Bitte geben Sie uns Bescheid, wenn weitere Schritte notwendig sind oder wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        558,
+        572
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        399,
+        424
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem mit den Integrationen\n\nLieber Kundenservice, ich kontaktiere Sie, um eines der aktuellen Probleme mit unseren Integrationen zu melden. J\u00fcngst sind sie gleichzeitig ausgefallen und haben unsere Betriebsprozesse gest\u00f6rt. Nach einer Untersuchung des Falles gehen wir davon aus, dass der Fehler m\u00f6glicherweise auf ein API-Schl\u00fcsselproblem zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Um eine L\u00f6sung zu finden, haben wir unsere Dienste neugestartet und die Logs gr\u00fcndlich durchgesehen, jedoch ohne Erfolg My name is [full_name].. Die Integrationsdienste sind weiterhin offline. Wir hoffen, dass Ihr Team uns in der L\u00f6sung dieses Problems unterst\u00fctzen kann. Bitte geben Sie uns Bescheid, wenn weitere Schritte notwendig sind oder wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

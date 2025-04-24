@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Anfrage zur Verf\u00fcgbarkeit und Rabatt f\u00fcr Dell XPS 13 9310\n\nHallo, ich w\u00fcrde gerne die Verf\u00fcgbarkeit von Dell XPS 13 9310 Laptops wissen und nachfragen, ob Mengenrabatte verf\u00fcgbar sind My name is Elena Ivanova.. Bitte lassen Sie es mich wissen You can reach me at sophia.rossi@service.it.. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        217
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        270,
+        293
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        59,
+        66
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        122,
+        129
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Verf\u00fcgbarkeit und Rabatt f\u00fcr Dell XPS [phone_number]\n\nHallo, ich w\u00fcrde gerne die Verf\u00fcgbarkeit von Dell XPS [phone_number] Laptops wissen und nachfragen, ob Mengenrabatte verf\u00fcgbar sind My name is [full_name].. Bitte lassen Sie es mich wissen You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Request"
+}

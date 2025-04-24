@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datenschutz-Sicherheitsprobleme\n\nUnbelehrtes Zugriffsm\u00f6glichkeiten auf medizinische Datensysteme wurden festgestellt. Daraufgrund eines Phishing-Angriffs ist es m\u00f6glicherweise bei Personalmitgliedern aufgetreten You can reach me at johndoe@email.com.. Passw\u00f6rter wurden zur\u00fcckgestellt, vorl\u00e4ufige Zugriffssperren wurden implementiert, um weitere Vorf\u00e4lle zu verhindern. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        254,
+        271
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datenschutz-Sicherheitsprobleme\n\nUnbelehrtes Zugriffsm\u00f6glichkeiten auf medizinische Datensysteme wurden festgestellt. Daraufgrund eines Phishing-Angriffs ist es m\u00f6glicherweise bei Personalmitgliedern aufgetreten You can reach me at [email].. Passw\u00f6rter wurden zur\u00fcckgestellt, vorl\u00e4ufige Zugriffssperren wurden implementiert, um weitere Vorf\u00e4lle zu verhindern. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

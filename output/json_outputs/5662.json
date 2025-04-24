@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data on Smart Devices\n\nI am seeking detailed security measures that can be implemented to protect medical data using the Smart-Waage device in conjunction with Kaspersky Internet Security My name is Omar Hassan.. Could you provide comprehensive information on how to ensure the confidentiality, integrity, and availability of sensitive medical data? I would greatly appreciate guidance on configuring the device's software to meet regulatory requirements and industry standards for data protection. Additionally, could you inform me about specific features and settings that can help prevent unauthorized access and data breaches? Thank you. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        250
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        702,
+        719
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data on Smart Devices\n\nI am seeking detailed security measures that can be implemented to protect medical data using the Smart-Waage device in conjunction with Kaspersky Internet Security My name is [full_name].. Could you provide comprehensive information on how to ensure the confidentiality, integrity, and availability of sensitive medical data? I would greatly appreciate guidance on configuring the device's software to meet regulatory requirements and industry standards for data protection. Additionally, could you inform me about specific features and settings that can help prevent unauthorized access and data breaches? Thank you. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Medical Data Efficiently\n\nIs there a way to provide detailed information on how to secure medical data effectively in hospital systems? This should include practices such as data encryption, access controls, and secure data storage. Additionally, information on compliance with regulatory requirements like HIPAA would be very helpful You can reach me at sophia.rossi@service.it.. I would greatly appreciate guidance and resources to ensure the confidentiality, integrity, and availability of sensitive medical information. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        551,
+        560
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        371,
+        394
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Secure Medical Data Efficiently\n\nIs there a way to provide detailed information on how to secure medical data effectively in hospital systems? This should include practices such as data encryption, access controls, and secure data storage. Additionally, information on compliance with regulatory requirements like HIPAA would be very helpful You can reach me at [email].. I would greatly appreciate guidance and resources to ensure the confidentiality, integrity, and availability of sensitive medical information. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

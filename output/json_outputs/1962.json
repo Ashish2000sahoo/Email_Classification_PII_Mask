@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit langsamem Laden von Projekt-Dashboards\n\nEs wurden Probleme mit dem langsam laden von Projekt-Dashboards gemeldet My name is Maria Gonzalez.. Dies scheint auf erh\u00f6hten Serververkehr zur\u00fcckzuf\u00fchren, der durch die neuesten Updates verursacht wurde. Das Cache wurde geleert und die Anwendung neu gestartet, aber das Problem beh\u00e4lt seinen Verlauf You can reach me at elena.ivanova@support.org.. Bitte untersuchen und l\u00f6sen Sie das Problem baldigst, sobald es m\u00f6glich ist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        160
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        381,
+        406
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit langsamem Laden von Projekt-Dashboards\n\nEs wurden Probleme mit dem langsam laden von Projekt-Dashboards gemeldet My name is [full_name].. Dies scheint auf erh\u00f6hten Serververkehr zur\u00fcckzuf\u00fchren, der durch die neuesten Updates verursacht wurde. Das Cache wurde geleert und die Anwendung neu gestartet, aber das Problem beh\u00e4lt seinen Verlauf You can reach me at [email].. Bitte untersuchen und l\u00f6sen Sie das Problem baldigst, sobald es m\u00f6glich ist.",
+  "category_of_the_email": "Incident"
+}

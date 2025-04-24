@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei medizinischen Datenschadun-gen ben\u00f6tigt\n\nW\u00e4hrend der Druckvorg\u00e4nge und der Netzwerkverbindungen ist ein medizinischer Datenschaden aufgetreten You can reach me at johndoe@email.com.. M\u00f6gliche Ursachen sind instabile Einstellungen des Multifunktionsdruckers und \u00fcberholte Software. Trotz Versuche, Firewall-Updates und Antivirenscans durchzuf\u00fchren, sind diese Ma\u00dfnahmen unerfolgreich gewesen. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        422,
+        436
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        182,
+        199
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei medizinischen Datenschadun-gen ben\u00f6tigt\n\nW\u00e4hrend der Druckvorg\u00e4nge und der Netzwerkverbindungen ist ein medizinischer Datenschaden aufgetreten You can reach me at [email].. M\u00f6gliche Ursachen sind instabile Einstellungen des Multifunktionsdruckers und \u00fcberholte Software. Trotz Versuche, Firewall-Updates und Antivirenscans durchzuf\u00fchren, sind diese Ma\u00dfnahmen unerfolgreich gewesen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

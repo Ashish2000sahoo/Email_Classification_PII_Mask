@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Bitten um Unterst\u00fctzung bei Systemabst\u00fcrzen\n\nZurzeit tritt unerwartet h\u00e4ufiger der Systemabsturz auf, was wahrscheinlich auf \u00fcberlastete Systemressourcen oder Konflikte mit dem Antivirusprogramm zur\u00fcckzuf\u00fchren ist. Ich habe versucht, das System neu zu starten und das Antivirusprogramm aufzudaten.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        345
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Bitten um Unterst\u00fctzung bei Systemabst\u00fcrzen\n\nZurzeit tritt unerwartet h\u00e4ufiger der Systemabsturz auf, was wahrscheinlich auf \u00fcberlastete Systemressourcen oder Konflikte mit dem Antivirusprogramm zur\u00fcckzuf\u00fchren ist. Ich habe versucht, das System neu zu starten und das Antivirusprogramm aufzudaten.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

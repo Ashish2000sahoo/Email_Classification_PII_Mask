@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicitud de asistencia urgente con problemas del Dell XPS 13\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje lo encuentre bien. Les escribo para solicitar apoyo adicional para mi port\u00e1til Dell XPS 13 9310, que actualmente est\u00e1 experimentando varios problemas en los que agradecer\u00eda su ayuda para resolver. Como este es un dispositivo esencial tanto para mis tareas personales como profesionales, su pronta atenci\u00f3n a este asunto ser\u00eda muy apreciada.\n\nEn primer lugar, he encontrado un problema persistente con la bater\u00eda de mi Dell XPS 13 You can reach me at omar.hassan@secure.net.. Parece descargarse mucho m\u00e1s r\u00e1pido de lo esperado, incluso cuando se usa el port\u00e1til para tareas b\u00e1sicas como navegar por internet o procesar textos. Esta inesperada agotamiento de la bater\u00eda es inconveniente y afecta mi capacidad de usar el dispositivo de manera eficiente, especialmente durante los viajes o cuando el acceso a una fuente de energ\u00eda es limitado.\n\nAdem\u00e1s de los problemas de la bater\u00eda, tambi\u00e9n estoy experimentando un problema en el que el teclado ocasionalmente se vuelve no reconocido. Durante el uso, el teclado intermitentemente deja de responder a las entradas, lo que interrumpe mi flujo de trabajo y requiere un reinicio del dispositivo para recuperar la funcionalidad. Este problema ha demostrado ser un obst\u00e1culo significativo y estoy ansioso por encontrar una soluci\u00f3n.\n\nYa he intentado m\u00e9todos de soluci\u00f3n de problemas est\u00e1ndar, incluidos actualizaciones del sistema y reinstalaciones del controlador del teclado, pero estos problemas persisten. Como mi dispositivo todav\u00eda est\u00e1 bajo garant\u00eda, agradecer\u00eda si pudieran proporcionar instrucciones detalladas sobre los pr\u00f3ximos pasos. Alternativamente, si se necesita una reparaci\u00f3n o reemplazo, por favor h\u00e1ganme saber c\u00f3mo proceder.\n\nGracias por su atenci\u00f3n a estos temas. No duden en comunicarse conmigo a <email> o <tel_num> para m\u00e1s detalles o para discutir soluciones posibles. Espero su pronta respuesta y una resoluci\u00f3n a estos problemas.\n\nAtentamente,\n\n<name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        2068,
+        2080
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        586,
+        608
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        224,
+        231
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de asistencia urgente con problemas del Dell XPS 13\n\nEstimado equipo de soporte al cliente,\n\nEspero que este mensaje lo encuentre bien. Les escribo para solicitar apoyo adicional para mi port\u00e1til Dell XPS [phone_number], que actualmente est\u00e1 experimentando varios problemas en los que agradecer\u00eda su ayuda para resolver. Como este es un dispositivo esencial tanto para mis tareas personales como profesionales, su pronta atenci\u00f3n a este asunto ser\u00eda muy apreciada.\n\nEn primer lugar, he encontrado un problema persistente con la bater\u00eda de mi Dell XPS 13 You can reach me at [email].. Parece descargarse mucho m\u00e1s r\u00e1pido de lo esperado, incluso cuando se usa el port\u00e1til para tareas b\u00e1sicas como navegar por internet o procesar textos. Esta inesperada agotamiento de la bater\u00eda es inconveniente y afecta mi capacidad de usar el dispositivo de manera eficiente, especialmente durante los viajes o cuando el acceso a una fuente de energ\u00eda es limitado.\n\nAdem\u00e1s de los problemas de la bater\u00eda, tambi\u00e9n estoy experimentando un problema en el que el teclado ocasionalmente se vuelve no reconocido. Durante el uso, el teclado intermitentemente deja de responder a las entradas, lo que interrumpe mi flujo de trabajo y requiere un reinicio del dispositivo para recuperar la funcionalidad. Este problema ha demostrado ser un obst\u00e1culo significativo y estoy ansioso por encontrar una soluci\u00f3n.\n\nYa he intentado m\u00e9todos de soluci\u00f3n de problemas est\u00e1ndar, incluidos actualizaciones del sistema y reinstalaciones del controlador del teclado, pero estos problemas persisten. Como mi dispositivo todav\u00eda est\u00e1 bajo garant\u00eda, agradecer\u00eda si pudieran proporcionar instrucciones detalladas sobre los pr\u00f3ximos pasos. Alternativamente, si se necesita una reparaci\u00f3n o reemplazo, por favor h\u00e1ganme saber c\u00f3mo proceder.\n\nGracias por su atenci\u00f3n a estos temas. No duden en comunicarse conmigo a <email> o <tel_num> para m\u00e1s detalles o para discutir soluciones posibles. Espero su pronta respuesta y una resoluci\u00f3n a estos problemas.\n\nAtentamente,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Anfrage zur Unterst\u00fctzung der Docker-Integration\n\nBitte kontaktieren Sie mich f\u00fcr weitere Informationen zur Integration von Docker 20.10 in unseren Projektmanagement-Cloud-L\u00f6sungen My name is John Doe.. Es w\u00e4re hilfreich, wenn Sie die notwendigen Schritte und die Dokumentation mitteilen k\u00f6nnten, die befolgt werden m\u00fcssen. Ihre Anleitung sch\u00e4tzen wir sehr, um die erfolgreiche Integration sicherzustellen. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        439,
+        462
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        140,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "20.10"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Unterst\u00fctzung der Docker-Integration\n\nBitte kontaktieren Sie mich f\u00fcr weitere Informationen zur Integration von Docker [phone_number] in unseren Projektmanagement-Cloud-L\u00f6sungen My name is [full_name].. Es w\u00e4re hilfreich, wenn Sie die notwendigen Schritte und die Dokumentation mitteilen k\u00f6nnten, die befolgt werden m\u00fcssen. Ihre Anleitung sch\u00e4tzen wir sehr, um die erfolgreiche Integration sicherzustellen. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

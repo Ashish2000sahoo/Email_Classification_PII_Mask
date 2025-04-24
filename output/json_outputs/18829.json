@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Breach Event Notification\n\nI am in the process of reporting a medical data breach which was caused by unsecured PDF files. The root issue lies in a lack of encryption and proper access management You can reach me at elena.ivanova@support.org.. Despite efforts to update PDFfiller and review settings within Ruby on Rails, the problem remains unresolved. I urgently require additional support to guarantee the safety of our medical information. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        477,
+        484
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        238,
+        263
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Breach Event Notification\n\nI am in the process of reporting a medical data breach which was caused by unsecured PDF files. The root issue lies in a lack of encryption and proper access management You can reach me at [email].. Despite efforts to update PDFfiller and review settings within Ruby on Rails, the problem remains unresolved. I urgently require additional support to guarantee the safety of our medical information. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

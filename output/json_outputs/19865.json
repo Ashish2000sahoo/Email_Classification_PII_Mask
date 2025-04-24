@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Neue Projekt-Arbeitsabl\u00e4ufe\n\nSehr geehrte Kundensupport, ich m\u00f6chte die Schritte verstehen, die ben\u00f6tigt werden, um einen neuen Projektmanagement-Arbeitsablauf einzurichten. K\u00f6nnten Sie mir einen detaillierten Schritt-f\u00fcr-Schritt-Leitfaden zu dem Vorgehen zur Erstellung eines neuen Projekts, einschlie\u00dflich der Erstellung von Aufgaben, Zuweisung von Teammitgliedern und Fortschritts\u00fcberwachung, bereitstellen? Ich w\u00fcrde auch gern Informationen \u00fcber die Verbesserung der Arbeitsabl\u00e4ufe erhalten, um diese den spezifischen Bed\u00fcrfnissen unseres Teams anzupassen My name is Omar Hassan.. Darf ich fragen, ob es Best Practices oder Tutorials gibt, die Sie empfehlen, um mit dem Projektmanagement zu beginnen? Ich freue mich darauf, von Ihnen zu h\u00f6ren, um mit unserem neuen Projekt zu beginnen You can reach me at johndoe@email.com.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        580,
+        591
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        818,
+        835
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Neue Projekt-Arbeitsabl\u00e4ufe\n\nSehr geehrte Kundensupport, ich m\u00f6chte die Schritte verstehen, die ben\u00f6tigt werden, um einen neuen Projektmanagement-Arbeitsablauf einzurichten. K\u00f6nnten Sie mir einen detaillierten Schritt-f\u00fcr-Schritt-Leitfaden zu dem Vorgehen zur Erstellung eines neuen Projekts, einschlie\u00dflich der Erstellung von Aufgaben, Zuweisung von Teammitgliedern und Fortschritts\u00fcberwachung, bereitstellen? Ich w\u00fcrde auch gern Informationen \u00fcber die Verbesserung der Arbeitsabl\u00e4ufe erhalten, um diese den spezifischen Bed\u00fcrfnissen unseres Teams anzupassen My name is [full_name].. Darf ich fragen, ob es Best Practices oder Tutorials gibt, die Sie empfehlen, um mit dem Projektmanagement zu beginnen? Ich freue mich darauf, von Ihnen zu h\u00f6ren, um mit unserem neuen Projekt zu beginnen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

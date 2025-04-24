@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Smart-Waage\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich in Bezug auf einen Fehler bei meiner Smart-Waage beschweren. Die Synchronizationsfunktion hat sich nicht ausgef\u00fchrt, und ich habe mehrere Selbstkorrekturma\u00dfnahmen erprobt, aber das Problem beharrt. Ich habe das Ger\u00e4t neugestartet, meine Anmeldedaten \u00fcberpr\u00fcft und alle Plugins aktualisiert, um sicherzustellen, dass sie auf dem neuesten Stand sind. Das Problem h\u00e4lt jedoch an, was darauf hinweist, dass ein m\u00f6glicherweise bei der API-Integration liegendes Problem bestehen k\u00f6nnte. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich mit diesem Problem besch\u00e4ftigen und Anweisungen oder ein L\u00f6sungsvorschlag dazu geben k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung My name is Maria Gonzalez.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        881,
+        895
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        951,
+        976
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Smart-Waage\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich in Bezug auf einen Fehler bei meiner Smart-Waage beschweren. Die Synchronizationsfunktion hat sich nicht ausgef\u00fchrt, und ich habe mehrere Selbstkorrekturma\u00dfnahmen erprobt, aber das Problem beharrt. Ich habe das Ger\u00e4t neugestartet, meine Anmeldedaten \u00fcberpr\u00fcft und alle Plugins aktualisiert, um sicherzustellen, dass sie auf dem neuesten Stand sind. Das Problem h\u00e4lt jedoch an, was darauf hinweist, dass ein m\u00f6glicherweise bei der API-Integration liegendes Problem bestehen k\u00f6nnte. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich mit diesem Problem besch\u00e4ftigen und Anweisungen oder ein L\u00f6sungsvorschlag dazu geben k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung My name is [full_name].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

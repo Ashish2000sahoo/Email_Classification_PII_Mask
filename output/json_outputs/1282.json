@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Data Analytics Tools\n\nOur data analytics tools have encountered a problem, which is hindering investment optimization. It could be due to incompatible software updates or configuration errors My name is Jane Smith.. After restarting the systems, applying updates, and checking licenses, the issue still exists. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        235
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        354,
+        376
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Data Analytics Tools\n\nOur data analytics tools have encountered a problem, which is hindering investment optimization. It could be due to incompatible software updates or configuration errors My name is [full_name].. After restarting the systems, applying updates, and checking licenses, the issue still exists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

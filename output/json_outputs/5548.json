@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hinweis zum Laden des Datenauswertungsdashboards heute\n\nDas Datenauswertungsdashboard konnte aufgrund eines m\u00f6glicherweise vorhandenen Problems mit der MySQL-Datenbankverbindung nicht geladen werden My name is Liu Wei.. Ich habe den MySQL-Server neu gestartet und die Netzwerkkonnektivit\u00e4t \u00fcberpr\u00fcft, aber das Problem blieb bestehen You can reach me at carlosm@gmail.com.. Ich w\u00fcrde Ihre Unterst\u00fctzung sehr sch\u00e4tzen, um diese Angelegenheit so bald wie m\u00f6glich zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        219,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        366,
+        383
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Hinweis zum Laden des Datenauswertungsdashboards heute\n\nDas Datenauswertungsdashboard konnte aufgrund eines m\u00f6glicherweise vorhandenen Problems mit der MySQL-Datenbankverbindung nicht geladen werden My name is [full_name].. Ich habe den MySQL-Server neu gestartet und die Netzwerkkonnektivit\u00e4t \u00fcberpr\u00fcft, aber das Problem blieb bestehen You can reach me at [email].. Ich w\u00fcrde Ihre Unterst\u00fctzung sehr sch\u00e4tzen, um diese Angelegenheit so bald wie m\u00f6glich zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

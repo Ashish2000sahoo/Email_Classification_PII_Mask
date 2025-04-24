@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Se requiere ayuda inmediata para un problema importante de Jira\n\nLos paneles de Jira no se est\u00e1n cargando en la versi\u00f3n 8.20.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        157,
+        172
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Se requiere ayuda inmediata para un problema importante de Jira\n\nLos paneles de Jira no se est\u00e1n cargando en la versi\u00f3n 8.20.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

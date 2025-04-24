@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Data Analytics-Plattform - Unerwarteter Crash\n\nSehr geehrte Kundenservice, <br>Ich schreibe Ihnen, um einen unerwarteten Crash unseres Data Analytics-Systems zu melden You can reach me at janesmith@company.com.. Der Vorfall trat ohne Vorbereitung auf und wir untersuchen derzeit die Ursachen. Bei unseren vorl\u00e4ufigen Analysen deutet es auf eine m\u00f6gliche Software-Kompatibilit\u00e4tsproblematik hin. <br>Wir haben bereits Ma\u00dfnahmen ergriffen, um das Problem zu beseitigen, indem wir die Server neugestartet und nach verlorenen Patches gesucht haben. Allerdings beharrt das Problem trotzdem, und wir ben\u00f6tigen weitere Unterst\u00fctzung, um die Angelegenheit zu l\u00f6sen. <br>Es w\u00e4re uns sehr lieb, wenn Sie sich um diese Angelegenheit unverz\u00fcglich k\u00fcmmern und eine L\u00f6sung oder Anleitungen f\u00fcr die n\u00e4chsten Schritte anbieten k\u00f6nnten. <br>Bitte melden Sie sich bei Bedarf mit zus\u00e4tzlichen Informationen an. <br>Vielen Dank f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit. <br>Hoffentlich, [Ihr Name] My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1018,
+        1029
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        209,
+        230
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Data Analytics-Plattform - Unerwarteter Crash\n\nSehr geehrte Kundenservice, <br>Ich schreibe Ihnen, um einen unerwarteten Crash unseres Data Analytics-Systems zu melden You can reach me at [email].. Der Vorfall trat ohne Vorbereitung auf und wir untersuchen derzeit die Ursachen. Bei unseren vorl\u00e4ufigen Analysen deutet es auf eine m\u00f6gliche Software-Kompatibilit\u00e4tsproblematik hin. <br>Wir haben bereits Ma\u00dfnahmen ergriffen, um das Problem zu beseitigen, indem wir die Server neugestartet und nach verlorenen Patches gesucht haben. Allerdings beharrt das Problem trotzdem, und wir ben\u00f6tigen weitere Unterst\u00fctzung, um die Angelegenheit zu l\u00f6sen. <br>Es w\u00e4re uns sehr lieb, wenn Sie sich um diese Angelegenheit unverz\u00fcglich k\u00fcmmern und eine L\u00f6sung oder Anleitungen f\u00fcr die n\u00e4chsten Schritte anbieten k\u00f6nnten. <br>Bitte melden Sie sich bei Bedarf mit zus\u00e4tzlichen Informationen an. <br>Vielen Dank f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit. <br>Hoffentlich, [Ihr Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

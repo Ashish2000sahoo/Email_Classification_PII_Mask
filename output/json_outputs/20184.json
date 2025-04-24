@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Ben\u00f6tigte Unterst\u00fctzung bei der Lizenz\u00e4nderung in Office 365\n\nSehr geehrter Kundenservice,\n\nich schreibe, um Unterst\u00fctzung bei der \u00c4nderung der Lizenz f\u00fcr Excel in Microsoft Office 365 zu bitten You can reach me at omar.hassan@secure.net.. Unser Kunde, <name>, hat Aktivierungsprobleme mit dem betroffenen Produkt gemeldet, die erhebliche Unannehmlichkeiten verursachen My name is Liu Wei.. K\u00f6nnten Sie bitte helfen, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen? Bitte kontaktieren Sie mich unter <tel_num> oder senden Sie mir eine E-Mail, falls weitere Informationen ben\u00f6tigt werden.\n\nVielen Dank,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        390,
+        397
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        224,
+        246
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        66,
+        69
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        190,
+        193
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Ben\u00f6tigte Unterst\u00fctzung bei der Lizenz\u00e4nderung in Office [cvv_no]\n\nSehr geehrter Kundenservice,\n\nich schreibe, um Unterst\u00fctzung bei der \u00c4nderung der Lizenz f\u00fcr Excel in Microsoft Office [cvv_no] zu bitten You can reach me at [email].. Unser Kunde, <name>, hat Aktivierungsprobleme mit dem betroffenen Produkt gemeldet, die erhebliche Unannehmlichkeiten verursachen My name is [full_name].. K\u00f6nnten Sie bitte helfen, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen? Bitte kontaktieren Sie mich unter <tel_num> oder senden Sie mir eine E-Mail, falls weitere Informationen ben\u00f6tigt werden.\n\nVielen Dank,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

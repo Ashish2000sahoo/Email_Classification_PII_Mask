@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: McAfee-Sicherheit f\u00fcr medizinische Daten\n\nWelche Sicherheitsprotokolle gibt es f\u00fcr die Verschleierung medizinischer Daten mit McAfee Total Protection?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        197
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: McAfee-Sicherheit f\u00fcr medizinische Daten\n\nWelche Sicherheitsprotokolle gibt es f\u00fcr die Verschleierung medizinischer Daten mit McAfee Total Protection?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

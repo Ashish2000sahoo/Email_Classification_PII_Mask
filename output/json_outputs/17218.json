@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SaaS Sync Suddenly Stopped Today\n\nHello Customer Support, I am contacting you to inform you about a problem I am experiencing with our SaaS sync, which has abruptly stopped working. Several of our integrations have ceased functioning, leading to disruptions in our operations. I believe the issue could be due to overloaded servers or recent plugin updates. I have already tried restarting the services, checked the logs for any error messages, and reached out to the plugin providers for help, but to no avail. I would greatly appreciate your prompt attention to this matter and any solutions you can provide. If you need any additional information from me to assist in resolving this issue, please let me know. Thank you for your time and assistance My name is Elena Ivanova.. I am eagerly waiting to hear from you soon. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        772,
+        785
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        850,
+        873
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: SaaS Sync Suddenly Stopped Today\n\nHello Customer Support, I am contacting you to inform you about a problem I am experiencing with our SaaS sync, which has abruptly stopped working. Several of our integrations have ceased functioning, leading to disruptions in our operations. I believe the issue could be due to overloaded servers or recent plugin updates. I have already tried restarting the services, checked the logs for any error messages, and reached out to the plugin providers for help, but to no avail. I would greatly appreciate your prompt attention to this matter and any solutions you can provide. If you need any additional information from me to assist in resolving this issue, please let me know. Thank you for your time and assistance My name is [full_name].. I am eagerly waiting to hear from you soon. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

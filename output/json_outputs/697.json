@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Services for Brand Growth\n\nInquiring about Customer Support for digital strategies that can aid in brand growth services My name is Jane Smith.. Would appreciate it if you could provide more details on the services offered to help businesses grow. Particularly interested in the approach to social media marketing, content creation, and search engine optimization. It would be great to receive information, including case studies and testimonials from previous clients. Thank you for your assistance, and I look forward to hearing back soon. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        572,
+        589
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Services for Brand Growth\n\nInquiring about Customer Support for digital strategies that can aid in brand growth services My name is [full_name].. Would appreciate it if you could provide more details on the services offered to help businesses grow. Particularly interested in the approach to social media marketing, content creation, and search engine optimization. It would be great to receive information, including case studies and testimonials from previous clients. Thank you for your assistance, and I look forward to hearing back soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

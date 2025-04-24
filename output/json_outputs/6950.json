@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Login Problem Report: Browser Issue\n\nI am facing a login difficulty, which might be related to the browser cache You can reach me at elena.ivanova@support.org.. Although I have attempted to clear the cookies, it has not resolved the problem. I urgently require guidance to fix this issue My name is David Kim.. Could you provide me with troubleshooting steps or a solution?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        317
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        142,
+        167
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Login Problem Report: Browser Issue\n\nI am facing a login difficulty, which might be related to the browser cache You can reach me at [email].. Although I have attempted to clear the cookies, it has not resolved the problem. I urgently require guidance to fix this issue My name is [full_name].. Could you provide me with troubleshooting steps or a solution?",
+  "category_of_the_email": "Incident"
+}

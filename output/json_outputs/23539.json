@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem bei der Aufgabencreation\n\nSehr geehrter IT-Support, ich sto\u00dfe auf einen Fehler, wenn ich versuche, Aufgaben zu erstellen und sie in unseren Projektmanagement-Workflow mit Confluence zu integrieren, w\u00e4hrend ich Jira Software 8.20 verwende. Ich w\u00e4re Ihnen dankbar f\u00fcr Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems, da es unsere Produktivit\u00e4t beeintr\u00e4chtigt You can reach me at janesmith@company.com.. Bitte bieten Sie eine L\u00f6sung so schnell wie m\u00f6glich an. Vielen Dank, <name>, <email>. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        517,
+        525
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        396,
+        417
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem bei der Aufgabencreation\n\nSehr geehrter IT-Support, ich sto\u00dfe auf einen Fehler, wenn ich versuche, Aufgaben zu erstellen und sie in unseren Projektmanagement-Workflow mit Confluence zu integrieren, w\u00e4hrend ich Jira Software 8.20 verwende. Ich w\u00e4re Ihnen dankbar f\u00fcr Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems, da es unsere Produktivit\u00e4t beeintr\u00e4chtigt You can reach me at [email].. Bitte bieten Sie eine L\u00f6sung so schnell wie m\u00f6glich an. Vielen Dank, <name>, <email>. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

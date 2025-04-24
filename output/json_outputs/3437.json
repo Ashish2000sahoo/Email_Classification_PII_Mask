@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Project Dashboard\n\nHello Customer Support, I am contacting you to address an issue I am facing with the project dashboard which is not loading. This might be due to integration problems. Despite restarting the application, ensuring it is updated, and clearing the cache, the issue remains unresolved. It would be greatly beneficial if you could examine this issue and offer a solution at the earliest. Please inform me if any additional information from me is required for resolution. I am willing to supply the necessary details and support. The project dashboard is essential to our workflow, and its unavailability is disrupting our operations You can reach me at fatima.farsi@help.com.. I kindly request a swift resolution to this issue to allow us to return to our usual operations My name is Carlos Mendoza.. Thank you for your attention to this matter. I look forward to your response. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        825,
+        839
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        694,
+        715
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Project Dashboard\n\nHello Customer Support, I am contacting you to address an issue I am facing with the project dashboard which is not loading. This might be due to integration problems. Despite restarting the application, ensuring it is updated, and clearing the cache, the issue remains unresolved. It would be greatly beneficial if you could examine this issue and offer a solution at the earliest. Please inform me if any additional information from me is required for resolution. I am willing to supply the necessary details and support. The project dashboard is essential to our workflow, and its unavailability is disrupting our operations You can reach me at [email].. I kindly request a swift resolution to this issue to allow us to return to our usual operations My name is [full_name].. Thank you for your attention to this matter. I look forward to your response. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

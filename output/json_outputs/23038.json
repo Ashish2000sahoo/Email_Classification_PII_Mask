@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Atenci\u00f3n Inmediata Requerida: Ca\u00eddas en Visual Studio Code\n\nEstimado Equipo de Soporte al Cliente,\n\nMe pongo en contacto con usted para informar un problema significativo que afecta mi eficiencia laboral. He encontrado ca\u00eddas frecuentes de Visual Studio Code 1.70 mientras depuro c\u00f3digo. Este problema continuo interrumpe gravemente mi productividad My name is Fatima Al-Farsi.. A pesar de varios intentos de soluci\u00f3n, el problema sigue sin resolverse. Agradecer\u00eda mucho si su equipo t\u00e9cnico pudiera abordar este problema con urgencia. Dado que mi flujo de trabajo depende de programar sin interrupciones, requiero una soluci\u00f3n r\u00e1pida y efectiva.\n\nGracias por su atenci\u00f3n a este asunto You can reach me at david.kim@corp.kr.. Por favor, inf\u00f3rmeme si necesita m\u00e1s informaci\u00f3n de mi parte.\n\nAtentamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        370,
+        379
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        717,
+        734
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Atenci\u00f3n Inmediata Requerida: Ca\u00eddas en Visual Studio Code\n\nEstimado Equipo de Soporte al Cliente,\n\nMe pongo en contacto con usted para informar un problema significativo que afecta mi eficiencia laboral. He encontrado ca\u00eddas frecuentes de Visual Studio Code 1.70 mientras depuro c\u00f3digo. Este problema continuo interrumpe gravemente mi productividad My name is [full_name]-Farsi.. A pesar de varios intentos de soluci\u00f3n, el problema sigue sin resolverse. Agradecer\u00eda mucho si su equipo t\u00e9cnico pudiera abordar este problema con urgencia. Dado que mi flujo de trabajo depende de programar sin interrupciones, requiero una soluci\u00f3n r\u00e1pida y efectiva.\n\nGracias por su atenci\u00f3n a este asunto You can reach me at [email].. Por favor, inf\u00f3rmeme si necesita m\u00e1s informaci\u00f3n de mi parte.\n\nAtentamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

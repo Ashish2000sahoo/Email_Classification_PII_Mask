@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Metriken der Werbekampagne verschwanden unerwartet aufgrund eventueller Daten-Synchronisations-Probleme\n\nDie Metriken der Werbekampagne wurden \u00fcber Nacht unvermittelt nicht mehr sichtbar, was m\u00f6glicherweise auf Daten-Synchronisations-Probleme zur\u00fcckzuf\u00fchren ist.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        309
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Metriken der Werbekampagne verschwanden unerwartet aufgrund eventueller Daten-Synchronisations-Probleme\n\nDie Metriken der Werbekampagne wurden \u00fcber Nacht unvermittelt nicht mehr sichtbar, was m\u00f6glicherweise auf Daten-Synchronisations-Probleme zur\u00fcckzuf\u00fchren ist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

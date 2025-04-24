@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent: Overheating Issue with New Ultrabook\n\nDear Tech Online Store Support,\n\nI am writing to raise a concern with my recently purchased Dell XPS 13 9310, which is experiencing significant overheating issues during video calls My name is David Kim.. Despite being brand new, this problem is affecting my efficiency and I am worried about the safety of the device. It is disappointing given the investment in this ultrabook. I am seeking your guidance on how to proceed with troubleshooting or exchanging this unit, as it falls under warranty. Please advise on the next steps to resolve this issue promptly. I look forward to your quick response.\n\nThank you,\n<name> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        697,
+        722
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        156,
+        163
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Overheating Issue with New Ultrabook\n\nDear Tech Online Store Support,\n\nI am writing to raise a concern with my recently purchased Dell XPS [phone_number], which is experiencing significant overheating issues during video calls My name is [full_name].. Despite being brand new, this problem is affecting my efficiency and I am worried about the safety of the device. It is disappointing given the investment in this ultrabook. I am seeking your guidance on how to proceed with troubleshooting or exchanging this unit, as it falls under warranty. Please advise on the next steps to resolve this issue promptly. I look forward to your quick response.\n\nThank you,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

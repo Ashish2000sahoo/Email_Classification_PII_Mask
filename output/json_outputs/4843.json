@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber medizinischen Datensicherheitsversto\u00df nach Systemaktualisierung\n\nSehr geehrte Kundenservice,\\n\\nich melde einen medizinischen Datensicherheitsversto\u00df, der sich w\u00e4hrend einer neuerlichen Systemaktualisierung manifestiert hat. M\u00f6glicherweise handelt es sich hierbei um eine veraltete Software-Vulnerabilit\u00e4t. Bislang habe ich die Server neu gestartet, die Firewall \u00fcberpr\u00fcft und die Lieferanten kontaktiert, jedoch ohne Erfolg.\\n\\nIch bitte Sie instand zu setzen, um eine L\u00f6sung zu finden, um weitere Verst\u00f6\u00dfe zu vermeiden, und mich angemessen zu informieren My name is David Kim.. Falls weitere Informationen ben\u00f6tigt werden, um die Ermittlungen fortzuf\u00fchren, bitte melden Sie sich bei mir unter <tel_num>.\\n\\nDanke f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name] You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        590,
+        599
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        848,
+        865
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber medizinischen Datensicherheitsversto\u00df nach Systemaktualisierung\n\nSehr geehrte Kundenservice,\\n\\nich melde einen medizinischen Datensicherheitsversto\u00df, der sich w\u00e4hrend einer neuerlichen Systemaktualisierung manifestiert hat. M\u00f6glicherweise handelt es sich hierbei um eine veraltete Software-Vulnerabilit\u00e4t. Bislang habe ich die Server neu gestartet, die Firewall \u00fcberpr\u00fcft und die Lieferanten kontaktiert, jedoch ohne Erfolg.\\n\\nIch bitte Sie instand zu setzen, um eine L\u00f6sung zu finden, um weitere Verst\u00f6\u00dfe zu vermeiden, und mich angemessen zu informieren My name is [full_name].. Falls weitere Informationen ben\u00f6tigt werden, um die Ermittlungen fortzuf\u00fchren, bitte melden Sie sich bei mir unter <tel_num>.\\n\\nDanke f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

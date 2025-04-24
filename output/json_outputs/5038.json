@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenverschl\u00fcsselungsproblembeschreibung\n\nDas Datenverschl\u00fcsselungsverfahren hat pl\u00f6tzlich zu einem Misslingen gef\u00fchrt. M\u00f6glicherweise handelt es sich hier um einen Softwaredefekt oder um einen Konfigurationsdefekt My name is David Kim.. Die Server wurden bereits neugestartet, die Systemprotokolle haben untersucht und die notwendigen Updates wurden installiert. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        244
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        395,
+        413
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Datenverschl\u00fcsselungsproblembeschreibung\n\nDas Datenverschl\u00fcsselungsverfahren hat pl\u00f6tzlich zu einem Misslingen gef\u00fchrt. M\u00f6glicherweise handelt es sich hier um einen Softwaredefekt oder um einen Konfigurationsdefekt My name is [full_name].. Die Server wurden bereits neugestartet, die Systemprotokolle haben untersucht und die notwendigen Updates wurden installiert. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

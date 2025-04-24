@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Billing Management\n\nI require assistance in optimizing the billing process for multiple software and hardware tools utilized by financial analysts. Could you help me streamline this process?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        249
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support for Billing Management\n\nI require assistance in optimizing the billing process for multiple software and hardware tools utilized by financial analysts. Could you help me streamline this process?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

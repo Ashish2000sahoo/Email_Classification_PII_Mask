@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Software-Crashes\n\nIch berichte von regelm\u00e4\u00dfigen Software-Crashes und Fehlern, die pl\u00f6tzlich aufgetreten sind. Das Problem k\u00f6nnte durch unkompatibele Updates oder Konflikte zwischen den Software-Programmen verursacht worden sein. Ich habe versucht, das betroffene Softwareprogramm neu zu starten und zu neu zu installieren, was vor\u00fcbergehend half You can reach me at fatima.farsi@help.com.. Dennoch besteht das Problem weiter, und ich ben\u00f6tige zus\u00e4tzliche Unterst\u00fctzung, um das Problem permanent zu beheben My name is Carlos Mendoza.. K\u00f6nnten Sie bitte behilflich sein, um das Problem zu l\u00f6sen oder eine L\u00f6sung zu liefern, um zuk\u00fcnftig keine Crashes und Fehlern mehr zu erleiden?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        539,
+        553
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        388,
+        409
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Software-Crashes\n\nIch berichte von regelm\u00e4\u00dfigen Software-Crashes und Fehlern, die pl\u00f6tzlich aufgetreten sind. Das Problem k\u00f6nnte durch unkompatibele Updates oder Konflikte zwischen den Software-Programmen verursacht worden sein. Ich habe versucht, das betroffene Softwareprogramm neu zu starten und zu neu zu installieren, was vor\u00fcbergehend half You can reach me at [email].. Dennoch besteht das Problem weiter, und ich ben\u00f6tige zus\u00e4tzliche Unterst\u00fctzung, um das Problem permanent zu beheben My name is [full_name].. K\u00f6nnten Sie bitte behilflich sein, um das Problem zu l\u00f6sen oder eine L\u00f6sung zu liefern, um zuk\u00fcnftig keine Crashes und Fehlern mehr zu erleiden?",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Encountered with Medical Data Encryption\n\nTo Whom It May Concern, I wish to inform you of a problem I have encountered with the medical data encryption software. The encryption process has failed without warning, and I suspect it might be due to a version of the GNU Compiler Collection that is no longer supported You can reach me at johndoe@email.com.. Despite trying to restart the Netgear Wi-Fi router, the problem remains unresolved. I would be grateful if you could examine this situation and offer a prompt resolution. This encryption failure has led to delays and concerns about the security of our medical data My name is Elena Ivanova.. Could you please instruct me on any further actions I should take or ask for further details from me? Thank you for your support, and I await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        648,
+        661
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        352,
+        369
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem Encountered with Medical Data Encryption\n\nTo Whom It May Concern, I wish to inform you of a problem I have encountered with the medical data encryption software. The encryption process has failed without warning, and I suspect it might be due to a version of the GNU Compiler Collection that is no longer supported You can reach me at [email].. Despite trying to restart the Netgear Wi-Fi router, the problem remains unresolved. I would be grateful if you could examine this situation and offer a prompt resolution. This encryption failure has led to delays and concerns about the security of our medical data My name is [full_name].. Could you please instruct me on any further actions I should take or ask for further details from me? Thank you for your support, and I await your response.",
+  "category_of_the_email": "Incident"
+}

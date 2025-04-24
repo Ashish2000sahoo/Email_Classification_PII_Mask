@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: N\u00f6tige Hilfe bei Datenverletzungen\n\nEin potenzieller Datenverlust im Hospital-IT-System wurde festgestellt. Ich versuche, die Sicherheitssoftware zu aktualisieren und Zugriffsl\u00f6cher zu \u00fcberpr\u00fcfen.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        228,
+        243
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: N\u00f6tige Hilfe bei Datenverletzungen\n\nEin potenzieller Datenverlust im Hospital-IT-System wurde festgestellt. Ich versuche, die Sicherheitssoftware zu aktualisieren und Zugriffsl\u00f6cher zu \u00fcberpr\u00fcfen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

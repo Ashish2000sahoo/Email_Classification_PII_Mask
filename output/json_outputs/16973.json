@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Loss of Data\n\nProject data disappeared following the update. The router firmware could be incompatible My name is Maria Gonzalez.. Despite restarting the router and clearing the cache, the problem still exists. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        123,
+        137
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        237,
+        259
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Loss of Data\n\nProject data disappeared following the update. The router firmware could be incompatible My name is [full_name].. Despite restarting the router and clearing the cache, the problem still exists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

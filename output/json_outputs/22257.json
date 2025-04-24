@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: IntelliJ IDEA 2024.1 se cierra despu\u00e9s de la actualizaci\u00f3n\n\nEstimado Soporte al Cliente, estoy escribiendo para informar sobre un problema con IntelliJ IDEA 2024.1, que ha estado experimentando cierres recurrentes despu\u00e9s de la reciente actualizaci\u00f3n My name is Omar Hassan.. Este problema est\u00e1 afectando significativamente mis tareas de desarrollo en Java, ya que la aplicaci\u00f3n se vuelve no receptiva y se cierra inesperadamente You can reach me at omar.hassan@secure.net.. Dependo en gran medida de IntelliJ IDEA para mis proyectos, y este problema est\u00e1 causando retrasos. \u00bfPodr\u00edan investigar este asunto y proporcionar una soluci\u00f3n o una alternativa a la brevedad posible? Mi ID de desarrollador es <dev_id>. Gracias por su pronta atenci\u00f3n a esta importante preocupaci\u00f3n. Saludos, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        282
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        459,
+        481
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        23,
+        27
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        166,
+        170
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: IntelliJ IDEA [phone_number].1 se cierra despu\u00e9s de la actualizaci\u00f3n\n\nEstimado Soporte al Cliente, estoy escribiendo para informar sobre un problema con IntelliJ IDEA [phone_number].1, que ha estado experimentando cierres recurrentes despu\u00e9s de la reciente actualizaci\u00f3n My name is [full_name].. Este problema est\u00e1 afectando significativamente mis tareas de desarrollo en Java, ya que la aplicaci\u00f3n se vuelve no receptiva y se cierra inesperadamente You can reach me at [email].. Dependo en gran medida de IntelliJ IDEA para mis proyectos, y este problema est\u00e1 causando retrasos. \u00bfPodr\u00edan investigar este asunto y proporcionar una soluci\u00f3n o una alternativa a la brevedad posible? Mi ID de desarrollador es <dev_id>. Gracias por su pronta atenci\u00f3n a esta importante preocupaci\u00f3n. Saludos, <name>",
+  "category_of_the_email": "Incident"
+}

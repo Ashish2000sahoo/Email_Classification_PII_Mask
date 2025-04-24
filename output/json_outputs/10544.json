@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Medical Data Security\n\nLooking for guidance on securing medical data using Puppet in our existing IT infrastructure You can reach me at liuwei@business.cn.. We aim to ensure compliance with data security regulations and improve adherence to guidelines. Thank you for your time and support My name is Maria Gonzalez.. Looking forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        161,
+        179
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Medical Data Security\n\nLooking for guidance on securing medical data using Puppet in our existing IT infrastructure You can reach me at [email].. We aim to ensure compliance with data security regulations and improve adherence to guidelines. Thank you for your time and support My name is [full_name].. Looking forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Synchronisations-Problem\n\nEin Projekt-Sync-Fehler tritt auf den Ger\u00e4ten auf You can reach me at janesmith@company.com.. M\u00f6glicherweise liegt der Grund in konflikthabenden Softwareintegrationen. Ich habe bereits versucht, das Problem zu beheben, indem ich das Ger\u00e4t neu gestartet, die Firewall eingerichtet und das SaaS-App aktualisiert habe. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        362,
+        376
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        105,
+        126
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Synchronisations-Problem\n\nEin Projekt-Sync-Fehler tritt auf den Ger\u00e4ten auf You can reach me at [email].. M\u00f6glicherweise liegt der Grund in konflikthabenden Softwareintegrationen. Ich habe bereits versucht, das Problem zu beheben, indem ich das Ger\u00e4t neu gestartet, die Firewall eingerichtet und das SaaS-App aktualisiert habe. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

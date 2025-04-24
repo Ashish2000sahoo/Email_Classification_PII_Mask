@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required with Security Breach\n\nA potential exposure of medical data has occurred due to a compromise in our healthcare provider's system, which may have resulted from outdated security protocols You can reach me at fatima.farsi@help.com.. We have reviewed updated passwords and firewall settings, but the issues still persist. We kindly request your assistance in resolving this matter as soon as possible to prevent further damage My name is John Doe.. Please let us know the next steps to take.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        463,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        235,
+        256
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required with Security Breach\n\nA potential exposure of medical data has occurred due to a compromise in our healthcare provider's system, which may have resulted from outdated security protocols You can reach me at [email].. We have reviewed updated passwords and firewall settings, but the issues still persist. We kindly request your assistance in resolving this matter as soon as possible to prevent further damage My name is [full_name].. Please let us know the next steps to take.",
+  "category_of_the_email": "Incident"
+}

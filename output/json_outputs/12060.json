@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding SaaS Project\n\nA problem has emerged with the SaaS project management tool, leading to integration issues across multiple products My name is Elena Ivanova.. Recent updates and compatibility changes might be the cause. Efforts to resolve the issue included restarting the application and clearing cache data You can reach me at david.kim@corp.kr.. I would greatly appreciate prompt assistance in addressing this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        181
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        352,
+        369
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding SaaS Project\n\nA problem has emerged with the SaaS project management tool, leading to integration issues across multiple products My name is [full_name].. Recent updates and compatibility changes might be the cause. Efforts to resolve the issue included restarting the application and clearing cache data You can reach me at [email].. I would greatly appreciate prompt assistance in addressing this matter.",
+  "category_of_the_email": "Incident"
+}

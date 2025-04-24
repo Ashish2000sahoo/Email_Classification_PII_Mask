@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Meldung \u00dcber Verletzung Vertraulicher Daten\n\nEs ist ein Datenverlust aufgetreten, der vertraulichen medizinischen Daten gef\u00e4hrdet hat. M\u00f6glicherweise ist der Ursprung in mangelnden Zugriffskontrollen und veralteten IT-Systemen zu suchen You can reach me at elena.ivanova@support.org.. Vor\u00fcbergehende Zugriffsbeschr\u00e4nkungen wurden eingef\u00fchrt, die Antivirussoftware aktualisiert und Mitarbeiter in Cyber-Sicherheitsma\u00dfnahmen ausgebildet, um weitere Verletzungen zu vermeiden. Die Ausbildung umfasst auch die Erkennung von Phishing-E-Mails und die Bedeutung von starken Passw\u00f6rtern My name is John Doe.. Eine internationale Untersuchung wird durchgef\u00fchrt, um den Umfang der Verletzung zu bestimmen und die betroffenen Personen entsprechend zu benachrichtigen. Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten, die durch diesen Verlust verursacht wurden, und haben bereits Ma\u00dfnahmen ergriffen, um die Situation zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        599,
+        607
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        266,
+        291
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Meldung \u00dcber Verletzung Vertraulicher Daten\n\nEs ist ein Datenverlust aufgetreten, der vertraulichen medizinischen Daten gef\u00e4hrdet hat. M\u00f6glicherweise ist der Ursprung in mangelnden Zugriffskontrollen und veralteten IT-Systemen zu suchen You can reach me at [email].. Vor\u00fcbergehende Zugriffsbeschr\u00e4nkungen wurden eingef\u00fchrt, die Antivirussoftware aktualisiert und Mitarbeiter in Cyber-Sicherheitsma\u00dfnahmen ausgebildet, um weitere Verletzungen zu vermeiden. Die Ausbildung umfasst auch die Erkennung von Phishing-E-Mails und die Bedeutung von starken Passw\u00f6rtern My name is [full_name].. Eine internationale Untersuchung wird durchgef\u00fchrt, um den Umfang der Verletzung zu bestimmen und die betroffenen Personen entsprechend zu benachrichtigen. Wir entschuldigen uns f\u00fcr die Unannehmlichkeiten, die durch diesen Verlust verursacht wurden, und haben bereits Ma\u00dfnahmen ergriffen, um die Situation zu beheben.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Potential Security Breach in Medical Systems\n\nA potential security breach has been identified in the medical data systems due to outdated encryption methods. We have implemented updated security protocols and conducted staff training to mitigate the risks and ensure data protection.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        315,
+        330
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Potential Security Breach in Medical Systems\n\nA potential security breach has been identified in the medical data systems due to outdated encryption methods. We have implemented updated security protocols and conducted staff training to mitigate the risks and ensure data protection.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

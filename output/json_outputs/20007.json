@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Service outage resolution requested for ongoing issues\n\nDear IT Services Customer Support,\n\nI am writing to express our concern regarding a recent service outage that severely disrupted our regular operations My name is Omar Hassan.. This was specifically related to the IT Consulting Service provided by your team. The interruption significantly impacted our workflow, causing delays and potential revenue loss.\n\nTo prevent similar issues in the future, we are seeking your expertise in developing and implementing comprehensive IT solutions You can reach me at janesmith@company.com.. Considering the critical nature of our operations, it is imperative that we ensure maximum uptime and reliability from all IT-related services.\n\nWe appreciate the prompt support and preventive measures your company can offer. It would be highly beneficial to discuss possible solutions that can enhance our system's resilience and reduce vulnerability to unexpected outages.\n\nMoreover, please let us know if there are maintenance services or upgrades that should be scheduled to optimize performance and reliability in our existing infrastructure. Kindly provide us with a detailed proposal at your earliest convenience.\n\nThank you for your attention to this critical matter. We look forward to your swift action and partnership to effectively resolve these issues.\n\nSincerely,\n\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        572,
+        593
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Service outage resolution requested for ongoing issues\n\nDear IT Services Customer Support,\n\nI am writing to express our concern regarding a recent service outage that severely disrupted our regular operations My name is [full_name].. This was specifically related to the IT Consulting Service provided by your team. The interruption significantly impacted our workflow, causing delays and potential revenue loss.\n\nTo prevent similar issues in the future, we are seeking your expertise in developing and implementing comprehensive IT solutions You can reach me at [email].. Considering the critical nature of our operations, it is imperative that we ensure maximum uptime and reliability from all IT-related services.\n\nWe appreciate the prompt support and preventive measures your company can offer. It would be highly beneficial to discuss possible solutions that can enhance our system's resilience and reduce vulnerability to unexpected outages.\n\nMoreover, please let us know if there are maintenance services or upgrades that should be scheduled to optimize performance and reliability in our existing infrastructure. Kindly provide us with a detailed proposal at your earliest convenience.\n\nThank you for your attention to this critical matter. We look forward to your swift action and partnership to effectively resolve these issues.\n\nSincerely,\n\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

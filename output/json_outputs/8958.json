@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach Digital-Strategie-Dienstleistungen\n\nIch richte mich an Sie, um mehr \u00fcber Ihre angebotenen Digital-Strategie-Dienstleistungen zu erfahren You can reach me at carlosm@gmail.com.. K\u00f6nnten Sie mir bitte die Preisebenen und eventuelle Paketgutscheine oder spezielle Angebote nennen, die derzeit zur Verf\u00fcgung stehen? Ich w\u00fcrde mich au\u00dferdem freuen, wenn Sie mir mitteilen k\u00f6nnten, welche Dienstleistungen in jedem Paket enthalten sind. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen f\u00fcr Ihre Zeit. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        531,
+        540
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        179,
+        196
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Digital-Strategie-Dienstleistungen\n\nIch richte mich an Sie, um mehr \u00fcber Ihre angebotenen Digital-Strategie-Dienstleistungen zu erfahren You can reach me at [email].. K\u00f6nnten Sie mir bitte die Preisebenen und eventuelle Paketgutscheine oder spezielle Angebote nennen, die derzeit zur Verf\u00fcgung stehen? Ich w\u00fcrde mich au\u00dferdem freuen, wenn Sie mir mitteilen k\u00f6nnten, welche Dienstleistungen in jedem Paket enthalten sind. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen f\u00fcr Ihre Zeit. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

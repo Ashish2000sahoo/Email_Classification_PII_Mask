@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with Software Access After Last Update\n\nA marketing agency has encountered disruptions in software access following a recent system update. Despite restarting the affected software and resetting network connections, the issues continue.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        290
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Issues with Software Access After Last Update\n\nA marketing agency has encountered disruptions in software access following a recent system update. Despite restarting the affected software and resetting network connections, the issues continue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

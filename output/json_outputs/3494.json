@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung der Medizinischen Datensicherheitsverletzung\n\nEs gab eine medizinische Datensicherheitsverletzung durch unautorisiertes Zugriff You can reach me at johndoe@email.com.. Das k\u00f6nnte auf schwache Passwortsicherung zur\u00fcckzuf\u00fchren sein My name is Elena Ivanova.. Wir haben die Systeme neu gestartet und die Firewall gepr\u00fcft, aber das Problem beh\u00e4lt sich bestehen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        169,
+        186
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung der Medizinischen Datensicherheitsverletzung\n\nEs gab eine medizinische Datensicherheitsverletzung durch unautorisiertes Zugriff You can reach me at [email].. Das k\u00f6nnte auf schwache Passwortsicherung zur\u00fcckzuf\u00fchren sein My name is [full_name].. Wir haben die Systeme neu gestartet und die Firewall gepr\u00fcft, aber das Problem beh\u00e4lt sich bestehen.",
+  "category_of_the_email": "Incident"
+}

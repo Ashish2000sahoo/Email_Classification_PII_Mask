@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nPrezado Suporte ao Cliente,\n\nEstou tendo um inconveniente relacionado \u00e0 exibi\u00e7\u00e3o do meu MacBook Air M1 que adquiri na sua loja online My name is Omar Hassan.. A tela pisca de vez em quando e se desliga. Poderia me orientar sobre como posso solucionar esse problema? Meu n\u00famero de pedido \u00e9 <order_num>.\n\nObrigado,\n<name>\n<tel_num> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        361,
+        379
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nPrezado Suporte ao Cliente,\n\nEstou tendo um inconveniente relacionado \u00e0 exibi\u00e7\u00e3o do meu MacBook Air M1 que adquiri na sua loja online My name is [full_name].. A tela pisca de vez em quando e se desliga. Poderia me orientar sobre como posso solucionar esse problema? Meu n\u00famero de pedido \u00e9 <order_num>.\n\nObrigado,\n<name>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

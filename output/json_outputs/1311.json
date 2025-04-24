@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Softwareprobleme\n\nEin kritischer Fehler ist aufgetreten, der mehrere Produkte betroffen hat. Benutzer melden pl\u00f6tzliche Crashes bei Cubase 11 und Ableton Live My name is Sophia Rossi.. M\u00f6glicherweise ist dies auf recente Software-Updates zur\u00fcckzuf\u00fchren. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        300,
+        317
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Softwareprobleme\n\nEin kritischer Fehler ist aufgetreten, der mehrere Produkte betroffen hat. Benutzer melden pl\u00f6tzliche Crashes bei Cubase 11 und Ableton Live My name is [full_name].. M\u00f6glicherweise ist dies auf recente Software-Updates zur\u00fcckzuf\u00fchren. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

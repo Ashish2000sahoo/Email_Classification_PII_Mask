@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de Faturamento Inconsistente com o AWS Management\n\nCaro Equipe de Suporte ao Cliente,\n\nEstou escrevendo para solicitar assist\u00eancia com o faturamento inconsistente visto em nossa conta do AWS Management Service <acc_num>. Suspeitamos que a aloca\u00e7\u00e3o subotimizada de recursos possa ser a causa e precisamos de orienta\u00e7\u00e3o sobre estrat\u00e9gias eficientes de gerenciamento de custos My name is Liu Wei.. Sua ajuda oportuna para otimizar custos seria muito apreciada. Por favor, entre em contato comigo pelo <tel_num> ou e-mail <email>.\n\nObrigado,\n\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        403,
+        410
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        588,
+        606
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problema de Faturamento Inconsistente com o AWS Management\n\nCaro Equipe de Suporte ao Cliente,\n\nEstou escrevendo para solicitar assist\u00eancia com o faturamento inconsistente visto em nossa conta do AWS Management Service <acc_num>. Suspeitamos que a aloca\u00e7\u00e3o subotimizada de recursos possa ser a causa e precisamos de orienta\u00e7\u00e3o sobre estrat\u00e9gias eficientes de gerenciamento de custos My name is [full_name].. Sua ajuda oportuna para otimizar custos seria muito apreciada. Por favor, entre em contato comigo pelo <tel_num> ou e-mail <email>.\n\nObrigado,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

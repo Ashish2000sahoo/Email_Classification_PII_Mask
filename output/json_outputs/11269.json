@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ncustomer support, a possible security incident has been detected that involves unauthorized access attempts to medical data You can reach me at liuwei@business.cn.. this issue might arise from outdated software versions and weak access controls. please update your passwords and run preliminary security scans to identify and address any vulnerabilities My name is Carlos Mendoza.. a thorough investigation is necessary to determine the extent of the incident and implement additional security measures to prevent future occurrences.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        376,
+        390
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        155,
+        173
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\ncustomer support, a possible security incident has been detected that involves unauthorized access attempts to medical data You can reach me at [email].. this issue might arise from outdated software versions and weak access controls. please update your passwords and run preliminary security scans to identify and address any vulnerabilities My name is [full_name].. a thorough investigation is necessary to determine the extent of the incident and implement additional security measures to prevent future occurrences.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Report on System Malfunction\n\nEncountered system malfunction impacting several software and hardware components because of compatibility issues. Restarted systems and reinstalled essential software, but the problem persists.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        256,
+        272
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Report on System Malfunction\n\nEncountered system malfunction impacting several software and hardware components because of compatibility issues. Restarted systems and reinstalled essential software, but the problem persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

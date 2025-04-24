@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Regarding Inaccurate Campaign Metrics\n\nDear customer support team, I am contacting you to bring to your attention an issue with the accuracy of my campaign metrics My name is Liu Wei.. Recently, discrepancies in the data have emerged, and I suspect they might be related to an error in the API integration You can reach me at liuwei@business.cn.. Despite restarting systems and verifying settings, the issue remains unresolved. I would greatly appreciate your prompt investigation and resolution of this matter, as the inaccurate metrics are impacting our decision-making process. Please inform me if you require further details to address this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        339,
+        357
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Regarding Inaccurate Campaign Metrics\n\nDear customer support team, I am contacting you to bring to your attention an issue with the accuracy of my campaign metrics My name is [full_name].. Recently, discrepancies in the data have emerged, and I suspect they might be related to an error in the API integration You can reach me at [email].. Despite restarting systems and verifying settings, the issue remains unresolved. I would greatly appreciate your prompt investigation and resolution of this matter, as the inaccurate metrics are impacting our decision-making process. Please inform me if you require further details to address this issue.",
+  "category_of_the_email": "Incident"
+}

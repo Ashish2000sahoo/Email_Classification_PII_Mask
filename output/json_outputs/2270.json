@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Schutz von medizinischen Daten in Bezug auf Sicherheit\n\nIch habe Bedenken bez\u00fcglich der Sicherheit medizinischer Daten auf den integrierten Systemen. Welche Methoden werden eingesetzt, um diese empfindlichen Informationen vor Missbrauch zu sch\u00fctzen?. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        281,
+        296
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Schutz von medizinischen Daten in Bezug auf Sicherheit\n\nIch habe Bedenken bez\u00fcglich der Sicherheit medizinischer Daten auf den integrierten Systemen. Welche Methoden werden eingesetzt, um diese empfindlichen Informationen vor Missbrauch zu sch\u00fctzen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

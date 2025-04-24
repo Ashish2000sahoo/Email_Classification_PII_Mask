@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry on Integrating SendGrid with Project Management Platform\n\nInterested in integrating the SendGrid project management SaaS platform. Could you provide more information on this? I would like to know the steps involved, the potential benefits, and any limitations associated with the integration My name is Maria Gonzalez.. Please let me know if there are any additional fees or specific requirements for the integration. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        334
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        452,
+        475
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on Integrating SendGrid with Project Management Platform\n\nInterested in integrating the SendGrid project management SaaS platform. Could you provide more information on this? I would like to know the steps involved, the potential benefits, and any limitations associated with the integration My name is [full_name].. Please let me know if there are any additional fees or specific requirements for the integration. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

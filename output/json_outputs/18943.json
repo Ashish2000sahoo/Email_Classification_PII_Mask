@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Investment Tool Efficiency\n\nRequest for optimization of investment analytics tools integration. The current system is facing performance challenges and issues with data handling across various products My name is Fatima Al-Farsi.. Your assistance in providing a solution to enhance overall performance and data handling capabilities would be greatly appreciated, as it would significantly benefit the business and improve customer experience. Please confirm if further information is needed to proceed with the optimization. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        564,
+        582
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Enhance Investment Tool Efficiency\n\nRequest for optimization of investment analytics tools integration. The current system is facing performance challenges and issues with data handling across various products My name is [full_name]-Farsi.. Your assistance in providing a solution to enhance overall performance and data handling capabilities would be greatly appreciated, as it would significantly benefit the business and improve customer experience. Please confirm if further information is needed to proceed with the optimization. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

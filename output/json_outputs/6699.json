@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nThere was an outage with the network that impacted data retrieval for investment analytics because of a failure in the Aruba 2530 48G Switch. Basic troubleshooting was tried but did not resolve the issue.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "2530 48"
+    },
+    {
+      "position": [
+        238,
+        254
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: \n\nThere was an outage with the network that impacted data retrieval for investment analytics because of a failure in the Aruba [phone_number]G Switch. Basic troubleshooting was tried but did not resolve the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

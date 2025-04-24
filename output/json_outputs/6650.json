@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Security Breach Investigation\n\nA security breach has been detected in our hospital's system, which may compromise medical data My name is Carlos Mendoza.. The potential cause is suspected to be misconfigured firewall settings following a recent software update. To date, we have reviewed security logs and applied initial patches to address discovered vulnerabilities. The severity of the breach and its potential consequences for patient data are of great concern. I would like to request your assistance in investigating the breach and implementing additional security measures to prevent future incidents. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        181
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        655,
+        673
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Security Breach Investigation\n\nA security breach has been detected in our hospital's system, which may compromise medical data My name is [full_name].. The potential cause is suspected to be misconfigured firewall settings following a recent software update. To date, we have reviewed security logs and applied initial patches to address discovered vulnerabilities. The severity of the breach and its potential consequences for patient data are of great concern. I would like to request your assistance in investigating the breach and implementing additional security measures to prevent future incidents. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

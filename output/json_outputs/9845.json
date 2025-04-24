@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improving Digital Strategies for Brand Growth\n\nWe are interested in the digital strategies your company offers to enhance brand growth. Could you provide more details on the services you offer and how they would benefit our business? We would greatly appreciate any information you can share regarding your approach to digital marketing and the results you have achieved with your clients My name is Jane Smith.. This will help us make an informed decision about potentially working together You can reach me at maria.gonzalez@shop.es.. We look forward to hearing from you at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        409,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        522,
+        544
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Improving Digital Strategies for Brand Growth\n\nWe are interested in the digital strategies your company offers to enhance brand growth. Could you provide more details on the services you offer and how they would benefit our business? We would greatly appreciate any information you can share regarding your approach to digital marketing and the results you have achieved with your clients My name is [full_name].. This will help us make an informed decision about potentially working together You can reach me at [email].. We look forward to hearing from you at your earliest convenience.",
+  "category_of_the_email": "Request"
+}

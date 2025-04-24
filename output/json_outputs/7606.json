@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Multiple Integrations Experienced Unexpected Failures Today\n\nHello Customer Support, I have encountered problems with multiple integrations that have failed at the same time You can reach me at omar.hassan@secure.net.. This situation might be related to the recent Docker updates. Although I have restarted LINE and the VPN-Router, and verified the access permissions, the problem still exists. I would be highly grateful if you could help me address this urgency My name is Sophia Rossi.. Please inform me if there are any further actions I should take or if you need further information. Thank you for your assistance and time.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        484,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        203,
+        225
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Multiple Integrations Experienced Unexpected Failures Today\n\nHello Customer Support, I have encountered problems with multiple integrations that have failed at the same time You can reach me at [email].. This situation might be related to the recent Docker updates. Although I have restarted LINE and the VPN-Router, and verified the access permissions, the problem still exists. I would be highly grateful if you could help me address this urgency My name is [full_name].. Please inform me if there are any further actions I should take or if you need further information. Thank you for your assistance and time.",
+  "category_of_the_email": "Incident"
+}

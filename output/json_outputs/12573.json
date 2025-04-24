@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problems with project timelines synchronization\n\nProject timelines are not syncing currently. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        124,
+        139
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Problems with project timelines synchronization\n\nProject timelines are not syncing currently. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

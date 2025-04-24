@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Debugging Errors and Compatibility Issues\n\nHello Customer Support,\n\nI'm experiencing difficulties with Visual Studio Code 1.70 related to debugging errors and extension compatibility issues. Several extensions are failing to load properly, causing interruptions in my development process. Please guide me on how to resolve these problems or inform me if updates are available to address these issues You can reach me at janesmith@company.com.. Thank you.\n\nBest regards,\n\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        512
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        429,
+        450
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Debugging Errors and Compatibility Issues\n\nHello Customer Support,\n\nI'm experiencing difficulties with Visual Studio Code 1.70 related to debugging errors and extension compatibility issues. Several extensions are failing to load properly, causing interruptions in my development process. Please guide me on how to resolve these problems or inform me if updates are available to address these issues You can reach me at [email].. Thank you.\n\nBest regards,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

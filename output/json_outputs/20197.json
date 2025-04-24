@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Connectivity Issues with HP DeskJet 3755\n\nDear Customer Support,\n\nI hope this message finds you well. I am experiencing ongoing printer connectivity issues with my HP DeskJet 3755, specifically regarding its wireless printing capabilities. After the initial setup, the printer appears connected; however, it fails to process and print documents sent wirelessly You can reach me at fatima.farsi@help.com.. \n\nI have attempted several basic troubleshooting steps, such as restarting both the printer and the router, ensuring the printer is within range of the wireless network, and checking for any available firmware updates. Despite these efforts, I remain unable to print any documents.\n\nThis issue is quite urgent as it affects daily operations. Could you please guide me through resolving these connectivity problems? Additionally, if there are any detailed manuals or resources, it would be beneficial My name is Liu Wei.. Your prompt assistance would be greatly appreciated.\n\nThank you for your attention to this matter.\n\nSincerely,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        925,
+        932
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        390,
+        411
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        45,
+        49
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        184,
+        188
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Connectivity Issues with HP DeskJet [phone_number]\n\nDear Customer Support,\n\nI hope this message finds you well. I am experiencing ongoing printer connectivity issues with my HP DeskJet [phone_number], specifically regarding its wireless printing capabilities. After the initial setup, the printer appears connected; however, it fails to process and print documents sent wirelessly You can reach me at [email].. \n\nI have attempted several basic troubleshooting steps, such as restarting both the printer and the router, ensuring the printer is within range of the wireless network, and checking for any available firmware updates. Despite these efforts, I remain unable to print any documents.\n\nThis issue is quite urgent as it affects daily operations. Could you please guide me through resolving these connectivity problems? Additionally, if there are any detailed manuals or resources, it would be beneficial My name is [full_name].. Your prompt assistance would be greatly appreciated.\n\nThank you for your attention to this matter.\n\nSincerely,\n<name>",
+  "category_of_the_email": "Incident"
+}

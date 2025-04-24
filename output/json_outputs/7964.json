@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Unpaid Invoices and Payment Gateway Settings\n\nDear Customer Support, I am contacting you regarding an issue with unpaid invoices for several products My name is David Kim.. The problem arises from incorrect payment gateway settings. Despite verifying my account details and reviewing my payment history, the issue remains unresolved. Could you please investigate this and offer a solution at your earliest convenience? Please inform me if you require any further information from me to address this matter. I look forward to your response You can reach me at sophia.rossi@service.it.. Thank you for your help. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        193
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        584,
+        607
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problems with Unpaid Invoices and Payment Gateway Settings\n\nDear Customer Support, I am contacting you regarding an issue with unpaid invoices for several products My name is [full_name].. The problem arises from incorrect payment gateway settings. Despite verifying my account details and reviewing my payment history, the issue remains unresolved. Could you please investigate this and offer a solution at your earliest convenience? Please inform me if you require any further information from me to address this matter. I look forward to your response You can reach me at [email].. Thank you for your help. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

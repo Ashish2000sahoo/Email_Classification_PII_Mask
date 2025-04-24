@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancement of Digital Tools\n\nDear Customer Support, I am contacting you to get information on upgrading our digital tools to support our brand growth and enhance our marketing execution You can reach me at david.kim@corp.kr.. We are eager to know about the latest technologies and trends to improve our online reach. Could you please share more details on the options available and their benefits? We aim to refine our marketing strategy and would value any suggestions or advice you can provide. Thank you for your assistance and we look forward to your prompt response. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        593,
+        601
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        216,
+        233
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancement of Digital Tools\n\nDear Customer Support, I am contacting you to get information on upgrading our digital tools to support our brand growth and enhance our marketing execution You can reach me at [email].. We are eager to know about the latest technologies and trends to improve our online reach. Could you please share more details on the options available and their benefits? We aim to refine our marketing strategy and would value any suggestions or advice you can provide. Thank you for your assistance and we look forward to your prompt response. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Needed: AWS Service Disruption\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well My name is Maria Gonzalez.. I am writing to inform you about an unexpected service disruption we are experiencing with AWS Management Service. Our AWS monitoring system has indicated an unexpected interruption in the services, which is significantly affecting our cloud accessibility and overall productivity You can reach me at maria.gonzalez@shop.es.. This situation is impacting our operation, and we are in dire need of your technical expertise to help us resolve these challenges at the earliest.\n\nCould you please expedite this issue and provide us with the necessary assistance to restore normal operations? We rely heavily on AWS for our day-to-day activities, and any downtime severely affects our workflow and service delivery. We appreciate your prompt attention to this matter and look forward to your swift support in restoring full functionality.\n\nPlease feel free to contact me at <tel_num> or email me back for any further discussion or clarification needed. Thank you for your immediate attention and support.\n\nWarm regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        146,
+        160
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        461,
+        483
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Needed: AWS Service Disruption\n\nDear IT Services Customer Support Team,\n\nI hope this message finds you well My name is [full_name].. I am writing to inform you about an unexpected service disruption we are experiencing with AWS Management Service. Our AWS monitoring system has indicated an unexpected interruption in the services, which is significantly affecting our cloud accessibility and overall productivity You can reach me at [email].. This situation is impacting our operation, and we are in dire need of your technical expertise to help us resolve these challenges at the earliest.\n\nCould you please expedite this issue and provide us with the necessary assistance to restore normal operations? We rely heavily on AWS for our day-to-day activities, and any downtime severely affects our workflow and service delivery. We appreciate your prompt attention to this matter and look forward to your swift support in restoring full functionality.\n\nPlease feel free to contact me at <tel_num> or email me back for any further discussion or clarification needed. Thank you for your immediate attention and support.\n\nWarm regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

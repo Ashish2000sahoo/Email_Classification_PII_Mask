@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Access to Cloud-Based Tools\n\nIn the recent project, users have encountered sporadic connectivity problems with cloud-based tools. These issues might be due to network instability from high usage My name is Carlos Mendoza.. We have attempted to reset network connections and troubleshoot individual applications, but the issues continue. The problems seem to arise unpredictably, causing disruptions to the workflow. We would appreciate prompt assistance in resolving this matter to prevent further disruptions. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        551,
+        568
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concern About Access to Cloud-Based Tools\n\nIn the recent project, users have encountered sporadic connectivity problems with cloud-based tools. These issues might be due to network instability from high usage My name is [full_name].. We have attempted to reset network connections and troubleshoot individual applications, but the issues continue. The problems seem to arise unpredictably, causing disruptions to the workflow. We would appreciate prompt assistance in resolving this matter to prevent further disruptions. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating IntelliJ IDEA to the Latest Version\n\nDear Support Team, I am requesting to update to the latest version of IntelliJ IDEA as I am experiencing compatibility issues with my current projects and tools. Updating to the latest version is expected to significantly enhance my workflow and productivity. I look forward to your guidance on the necessary steps to resolve these compatibility issues. I am eagerly awaiting your response You can reach me at liuwei@business.cn.. Thank you for your time and assistance. I am confident that you can efficiently solve the problem. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        608,
+        617
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        477,
+        495
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating IntelliJ IDEA to the Latest Version\n\nDear Support Team, I am requesting to update to the latest version of IntelliJ IDEA as I am experiencing compatibility issues with my current projects and tools. Updating to the latest version is expected to significantly enhance my workflow and productivity. I look forward to your guidance on the necessary steps to resolve these compatibility issues. I am eagerly awaiting your response You can reach me at [email].. Thank you for your time and assistance. I am confident that you can efficiently solve the problem. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

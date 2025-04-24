@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Data Analytics Platform Crash\n\nThe data analytics platform encountered issues while processing client investment reports due to high server load and software conflicts, despite restarting applications and checking for updates. The problem continues and requires your assistance.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        339
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Support for Data Analytics Platform Crash\n\nThe data analytics platform encountered issues while processing client investment reports due to high server load and software conflicts, despite restarting applications and checking for updates. The problem continues and requires your assistance.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

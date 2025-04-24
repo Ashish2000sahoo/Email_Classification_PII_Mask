@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Invoice Discount\n\nI am writing to request an invoice discount for marketing services, digital strategies for brand growth initiatives, and product-related services. Since the provided services did not meet expectations, I believe a discount is necessary. I appreciate it if you could review the account balance and provide the appropriate discounts as soon as possible My name is Liu Wei.. Please inform me if you need any additional information to process the request. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        408
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        515,
+        532
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for Invoice Discount\n\nI am writing to request an invoice discount for marketing services, digital strategies for brand growth initiatives, and product-related services. Since the provided services did not meet expectations, I believe a discount is necessary. I appreciate it if you could review the account balance and provide the appropriate discounts as soon as possible My name is [full_name].. Please inform me if you need any additional information to process the request. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

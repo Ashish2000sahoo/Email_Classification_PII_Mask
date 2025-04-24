@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de Interrup\u00e7\u00e3o Urgente\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para alert\u00e1-lo sobre uma interrup\u00e7\u00e3o de alta prioridade que est\u00e1 impactando a infraestrutura da nuvem AWS implantada atrav\u00e9s do nosso Servi\u00e7o de Gerenciamento AWS. Essa interrup\u00e7\u00e3o est\u00e1 causando interrup\u00e7\u00f5es significativas de servi\u00e7o em m\u00faltiplas aplica\u00e7\u00f5es, afetando fortemente nossas opera\u00e7\u00f5es. Aten\u00e7\u00e3o imediata \u00e9 necess\u00e1ria para remediar esta situa\u00e7\u00e3o You can reach me at maria.gonzalez@shop.es.. Precisamos de atualiza\u00e7\u00f5es sobre o progresso deste problema e quaisquer cronogramas potenciais para resolu\u00e7\u00e3o My name is Omar Hassan.. Por favor, forne\u00e7a quaisquer a\u00e7\u00f5es necess\u00e1rias que devemos tomar do nosso lado. Assist\u00eancia ou orienta\u00e7\u00e3o adicional durante essa interrup\u00e7\u00e3o seriam muito apreciadas. Obrigado por sua pronta aten\u00e7\u00e3o.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        606,
+        617
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        460,
+        482
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problema de Interrup\u00e7\u00e3o Urgente\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para alert\u00e1-lo sobre uma interrup\u00e7\u00e3o de alta prioridade que est\u00e1 impactando a infraestrutura da nuvem AWS implantada atrav\u00e9s do nosso Servi\u00e7o de Gerenciamento AWS. Essa interrup\u00e7\u00e3o est\u00e1 causando interrup\u00e7\u00f5es significativas de servi\u00e7o em m\u00faltiplas aplica\u00e7\u00f5es, afetando fortemente nossas opera\u00e7\u00f5es. Aten\u00e7\u00e3o imediata \u00e9 necess\u00e1ria para remediar esta situa\u00e7\u00e3o You can reach me at [email].. Precisamos de atualiza\u00e7\u00f5es sobre o progresso deste problema e quaisquer cronogramas potenciais para resolu\u00e7\u00e3o My name is [full_name].. Por favor, forne\u00e7a quaisquer a\u00e7\u00f5es necess\u00e1rias que devemos tomar do nosso lado. Assist\u00eancia ou orienta\u00e7\u00e3o adicional durante essa interrup\u00e7\u00e3o seriam muito apreciadas. Obrigado por sua pronta aten\u00e7\u00e3o.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

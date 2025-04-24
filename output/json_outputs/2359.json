@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Tracking Campaign Metrics Identified\n\nHello Support Team, I am contacting you regarding an ongoing issue with the tracking of campaign metrics, which has suddenly stopped working properly. I believe it could be due to the latest platform update My name is Sophia Rossi.. Despite reviewing the data sources and restarting the tracking tools, the problem continues. I would greatly appreciate it if you could examine this issue and offer an effective solution at your earliest convenience. Kindly inform me if you require any further information from me to address this matter. I look forward to your prompt response. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        290
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        657,
+        674
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Tracking Campaign Metrics Identified\n\nHello Support Team, I am contacting you regarding an ongoing issue with the tracking of campaign metrics, which has suddenly stopped working properly. I believe it could be due to the latest platform update My name is [full_name].. Despite reviewing the data sources and restarting the tracking tools, the problem continues. I would greatly appreciate it if you could examine this issue and offer an effective solution at your earliest convenience. Kindly inform me if you require any further information from me to address this matter. I look forward to your prompt response. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

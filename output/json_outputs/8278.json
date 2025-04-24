@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Login Issues\n\nRecently, users have been encountering intermittent login difficulties during peak hours, possibly due to increased server load You can reach me at sophia.rossi@service.it.. We have attempted to restart application servers and optimize database queries, but the issue continues My name is Liu Wei.. The problem began a few days ago and recurs daily. We would greatly appreciate your assistance in resolving this matter as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        191,
+        214
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Login Issues\n\nRecently, users have been encountering intermittent login difficulties during peak hours, possibly due to increased server load You can reach me at [email].. We have attempted to restart application servers and optimize database queries, but the issue continues My name is [full_name].. The problem began a few days ago and recurs daily. We would greatly appreciate your assistance in resolving this matter as soon as possible.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Breach Suspected\n\nTo the support team, we have identified a potential medical data breach with unauthorized access suspected My name is Jane Smith.. This breach could be due to inadequate encryption and old software vulnerabilities You can reach me at fatima.farsi@help.com.. So far, network isolation and password resets were implemented, but the problem continues and needs immediate attention. Please investigate and offer a resolution to safeguard sensitive medical information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        275,
+        296
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Breach Suspected\n\nTo the support team, we have identified a potential medical data breach with unauthorized access suspected My name is [full_name].. This breach could be due to inadequate encryption and old software vulnerabilities You can reach me at [email].. So far, network isolation and password resets were implemented, but the problem continues and needs immediate attention. Please investigate and offer a resolution to safeguard sensitive medical information.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Management Tool Login\n\nWe are encountering occasional disruptions with the project management tool, affecting user access My name is John Doe.. Recent server enhancements might be the cause. We have already restarted the servers and verified the network settings, but the issue still remains. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        346,
+        364
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Management Tool Login\n\nWe are encountering occasional disruptions with the project management tool, affecting user access My name is [full_name].. Recent server enhancements might be the cause. We have already restarted the servers and verified the network settings, but the issue still remains. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

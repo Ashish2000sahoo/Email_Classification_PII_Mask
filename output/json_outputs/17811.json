@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support f\u00fcr digitale Kampagnen\n\nDie aktuellen digitale Kampagnen scheinen die erwarteten Ergebnisse nicht zu erzielen You can reach me at janesmith@company.com.. Es k\u00f6nnte sein, dass die Strategien veraltet sind oder dass die Durchf\u00fchrung nicht korrekt war My name is John Doe.. Ich habe die Kampagnen durchgegangen und mich bei Online-Forums-Benutzern umgesehen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        285
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        147,
+        168
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support f\u00fcr digitale Kampagnen\n\nDie aktuellen digitale Kampagnen scheinen die erwarteten Ergebnisse nicht zu erzielen You can reach me at [email].. Es k\u00f6nnte sein, dass die Strategien veraltet sind oder dass die Durchf\u00fchrung nicht korrekt war My name is [full_name].. Ich habe die Kampagnen durchgegangen und mich bei Online-Forums-Benutzern umgesehen.",
+  "category_of_the_email": "Incident"
+}

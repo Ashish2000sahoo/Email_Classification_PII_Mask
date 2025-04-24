@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Data Discrepancy Issue\n\nInvestment analysis has identified data discrepancies, which may have been caused by a recent system update My name is Elena Ivanova.. We have rechecked the data recognition sources and restarted the affected applications, but the error persists. Please assist us in resolving this issue soon. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        356,
+        374
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Investment Data Discrepancy Issue\n\nInvestment analysis has identified data discrepancies, which may have been caused by a recent system update My name is [full_name].. We have rechecked the data recognition sources and restarted the affected applications, but the error persists. Please assist us in resolving this issue soon. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

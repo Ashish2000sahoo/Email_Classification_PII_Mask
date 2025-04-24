@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Financial Data Analytics Tool\n\nDear Support Team, I am writing to report an issue with the Financial Advisory Data Analysis Tool My name is Omar Hassan.. The tool is not providing accurate optimization results for investments as expected. I have tried updating the software and reviewing error logs, but the problem persists. Possible causes of the issue might include software integration problems or outdated input data. I would appreciate your support in resolving this problem. Please let me know if additional information is needed You can reach me at janesmith@company.com.. Thank you for your understanding and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        584,
+        605
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Financial Data Analytics Tool\n\nDear Support Team, I am writing to report an issue with the Financial Advisory Data Analysis Tool My name is [full_name].. The tool is not providing accurate optimization results for investments as expected. I have tried updating the software and reviewing error logs, but the problem persists. Possible causes of the issue might include software integration problems or outdated input data. I would appreciate your support in resolving this problem. Please let me know if additional information is needed You can reach me at [email].. Thank you for your understanding and assistance.",
+  "category_of_the_email": "Incident"
+}

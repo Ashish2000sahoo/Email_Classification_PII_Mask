@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Integration von Projektleitungsfunktionen in verschiedene Softwareprodukte\n\nWir konfrontieren Schwierigkeiten bei der Integration verschiedener Softwareprodukte in unsere Projektleitungsfunktionen. Der Hauptgrund f\u00fcr die Probleme sind Kompatibilit\u00e4tskonflikte You can reach me at carlosm@gmail.com.. Bislang haben wir versucht, das Problem mithilfe der bereitgestellten Dokumentation und des Support-Forums zu l\u00f6sen, leider ohne Erfolg My name is Jane Smith.. Wir freuen uns auf Ihre Unterst\u00fctzung und Anleitungen, um die Herausforderungen zu bew\u00e4ltigen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        470,
+        480
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        303,
+        320
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Integration von Projektleitungsfunktionen in verschiedene Softwareprodukte\n\nWir konfrontieren Schwierigkeiten bei der Integration verschiedener Softwareprodukte in unsere Projektleitungsfunktionen. Der Hauptgrund f\u00fcr die Probleme sind Kompatibilit\u00e4tskonflikte You can reach me at [email].. Bislang haben wir versucht, das Problem mithilfe der bereitgestellten Dokumentation und des Support-Forums zu l\u00f6sen, leider ohne Erfolg My name is [full_name].. Wir freuen uns auf Ihre Unterst\u00fctzung und Anleitungen, um die Herausforderungen zu bew\u00e4ltigen.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Request to Upgrade Design Tools\n\nDear Customer Support Team,\n\nI am writing to request an upgrade to our current design tools by acquiring Adobe Photoshop 2024, as it offers enhanced photo editing and graphics capabilities that are crucial for our projects. The improved features, including AI technology and advanced editing options, will significantly boost our efficiency and output quality You can reach me at janesmith@company.com.. Upgrading to the latest version will allow us to stay competitive in today\u2019s fast-evolving digital landscape. Please let me know the procedure and additional costs involved. \n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        701,
+        708
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        422,
+        443
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        163,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Request to Upgrade Design Tools\n\nDear Customer Support Team,\n\nI am writing to request an upgrade to our current design tools by acquiring Adobe Photoshop [phone_number], as it offers enhanced photo editing and graphics capabilities that are crucial for our projects. The improved features, including AI technology and advanced editing options, will significantly boost our efficiency and output quality You can reach me at [email].. Upgrading to the latest version will allow us to stay competitive in today\u2019s fast-evolving digital landscape. Please let me know the procedure and additional costs involved. \n\nThank you for your attention to this matter.\n\nBest regards,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

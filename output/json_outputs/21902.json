@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erweiterungen laden nicht\n\nSehr geehrtes <name> Support-Team, ich habe Probleme mit Erweiterungen, die in Visual Studio Code 1.70 einen Tag nach einem Update nicht geladen werden. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems zu sch\u00e4tzen wissen My name is Maria Gonzalez.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung, <name> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        279,
+        293
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        356,
+        373
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Erweiterungen laden nicht\n\nSehr geehrtes <name> Support-Team, ich habe Probleme mit Erweiterungen, die in Visual Studio Code 1.70 einen Tag nach einem Update nicht geladen werden. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems zu sch\u00e4tzen wissen My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

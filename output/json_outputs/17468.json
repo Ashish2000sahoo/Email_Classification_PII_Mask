@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue mit langsamem Laden von Projektdaten im Dashboard\n\nBenutzer melden, dass Projektdaten im Dashboard langsam geladen werden My name is David Kim.. M\u00f6glicherweise liegen Stabilit\u00e4tsprobleme nach den neuesten Server-Aktualisierungen dahinter. Benutzer haben versucht, den Cache zu l\u00f6schen und die Dienste neu zu starten, was das Problem jedoch nicht gel\u00f6st hat. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        157
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        395,
+        413
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue mit langsamem Laden von Projektdaten im Dashboard\n\nBenutzer melden, dass Projektdaten im Dashboard langsam geladen werden My name is [full_name].. M\u00f6glicherweise liegen Stabilit\u00e4tsprobleme nach den neuesten Server-Aktualisierungen dahinter. Benutzer haben versucht, den Cache zu l\u00f6schen und die Dienste neu zu starten, was das Problem jedoch nicht gel\u00f6st hat. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

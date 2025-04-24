@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit digitalen Kampagnen\n\nSehr geehrte Kundensupport,<br><br>ich m\u00f6chte mich an Sie wenden, um einen Fehler in unseren digitalen Kampagnen zu melden. Dieser Fehler entstand aufgrund von Konfigurationsproblemen mit Zapier und Express.js You can reach me at omar.hassan@secure.net.. Trotz unserer Bem\u00fchungen konnten wir das Problem nicht l\u00f6sen My name is Jane Smith.. Hier ist eine kurze Beschreibung des Problems:<br>**Was passierte:** Die digitalen Kampagnen konnten nicht gestartet werden.<br>**Warum:** Konfigurationsprobleme mit Zapier und Express.js.<br>**Was wurde versucht:** Die Server wurden neugestartet, die API-Verbindungen wurden \u00fcberpr\u00fcft.<br><br>Wir haben versucht, die Server zu neustarten und die API-Verbindungen zu \u00fcberpr\u00fcfen, aber das Problem besteht anhaltend. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung zur Verf\u00fcgung stellen k\u00f6nnten. Bitte kontaktieren Sie mich, wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Ich kann an dieser E-Mail-Adresse erreicht werden oder \u00fcber Telefon, wenn n\u00f6tig.<br><br>Mit freundlichen Gr\u00fc\u00dfen,<br>[Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        369,
+        379
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        272,
+        294
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem mit digitalen Kampagnen\n\nSehr geehrte Kundensupport,<br><br>ich m\u00f6chte mich an Sie wenden, um einen Fehler in unseren digitalen Kampagnen zu melden. Dieser Fehler entstand aufgrund von Konfigurationsproblemen mit Zapier und Express.js You can reach me at [email].. Trotz unserer Bem\u00fchungen konnten wir das Problem nicht l\u00f6sen My name is [full_name].. Hier ist eine kurze Beschreibung des Problems:<br>**Was passierte:** Die digitalen Kampagnen konnten nicht gestartet werden.<br>**Warum:** Konfigurationsprobleme mit Zapier und Express.js.<br>**Was wurde versucht:** Die Server wurden neugestartet, die API-Verbindungen wurden \u00fcberpr\u00fcft.<br><br>Wir haben versucht, die Server zu neustarten und die API-Verbindungen zu \u00fcberpr\u00fcfen, aber das Problem besteht anhaltend. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung zur Verf\u00fcgung stellen k\u00f6nnten. Bitte kontaktieren Sie mich, wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Ich kann an dieser E-Mail-Adresse erreicht werden oder \u00fcber Telefon, wenn n\u00f6tig.<br><br>Mit freundlichen Gr\u00fc\u00dfen,<br>[Ihr Name]",
+  "category_of_the_email": "Incident"
+}

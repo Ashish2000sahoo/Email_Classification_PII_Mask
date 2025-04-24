@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de alimentaci\u00f3n Dell XPS 13\n\nEstimado soporte de la tienda en l\u00ednea de Tech, estoy experimentando problemas de alimentaci\u00f3n con mi Dell XPS 13 9310 My name is John Doe.. A pesar de estar completamente cargado, el dispositivo se niega a encenderse. Por favor, ay\u00fadame a resolver este problema a la mayor brevedad posible You can reach me at janesmith@company.com.. Gracias, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        185
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        361,
+        382
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        158,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema de alimentaci\u00f3n Dell XPS 13\n\nEstimado soporte de la tienda en l\u00ednea de Tech, estoy experimentando problemas de alimentaci\u00f3n con mi Dell XPS [phone_number] My name is [full_name].. A pesar de estar completamente cargado, el dispositivo se niega a encenderse. Por favor, ay\u00fadame a resolver este problema a la mayor brevedad posible You can reach me at [email].. Gracias, <name>.",
+  "category_of_the_email": "Incident"
+}

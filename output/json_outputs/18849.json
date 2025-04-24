@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundendienst Anfrage\n\nSehr geehrte Unterst\u00fctzungsteam, ich schreibe Ihnen, um ein Problem mit unseren digitalen Kampagnen zu melden. Diese haben sich pl\u00f6tzlich gestoppt, aufgrund eines Konflikts zwischen WooCommerce und Oracle DB. Ich habe bereits versucht, die Dienstleistungen neu zu starten und die Logs zu \u00fcberpr\u00fcfen, aber das Problem ist bestehen geblieben My name is Jane Smith.. Ich habe auch unser Entwicklungsteam kontaktiert, aber wir ben\u00f6tigen weitere Unterst\u00fctzung, um dieses Problem zu l\u00f6sen You can reach me at elena.ivanova@support.org.. K\u00f6nnten Sie bitte helfen, die Ursache zu identifizieren und eine L\u00f6sung zu finden, um unsere Kampagnen wieder in Betrieb zu nehmen? Ich w\u00fcrde jede Anleitung oder Unterst\u00fctzung sehr sch\u00e4tzen, die Sie mir anbieten k\u00f6nnen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        392
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        535,
+        560
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Kundendienst Anfrage\n\nSehr geehrte Unterst\u00fctzungsteam, ich schreibe Ihnen, um ein Problem mit unseren digitalen Kampagnen zu melden. Diese haben sich pl\u00f6tzlich gestoppt, aufgrund eines Konflikts zwischen WooCommerce und Oracle DB. Ich habe bereits versucht, die Dienstleistungen neu zu starten und die Logs zu \u00fcberpr\u00fcfen, aber das Problem ist bestehen geblieben My name is [full_name].. Ich habe auch unser Entwicklungsteam kontaktiert, aber wir ben\u00f6tigen weitere Unterst\u00fctzung, um dieses Problem zu l\u00f6sen You can reach me at [email].. K\u00f6nnten Sie bitte helfen, die Ursache zu identifizieren und eine L\u00f6sung zu finden, um unsere Kampagnen wieder in Betrieb zu nehmen? Ich w\u00fcrde jede Anleitung oder Unterst\u00fctzung sehr sch\u00e4tzen, die Sie mir anbieten k\u00f6nnen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

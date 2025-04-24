@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Urgent Network Support\n\nDear Customer Support,\\n\\nWe are experiencing a sudden network issue that has disrupted our access to medical data. This outage happened unexpectedly, and we are concerned it might be due to a cyberattack or system failure.\\n\\nWe have attempted to restart the servers, reviewed the firewalls, and notified our IT team, but the issue remains unresolved. We urgently need your assistance to address this situation.\\n\\nThis network disruption has serious repercussions for our operations, and we strongly urge you to treat this matter with utmost urgency You can reach me at fatima.farsi@help.com.. We would appreciate a timely response along with a proposed plan of action to restore our network access.\\n\\nPlease provide us with the necessary details or support as needed to expedite the resolution of this issue. We are ready to give any necessary information to help resolve the problem swiftly.\\n\\nThank you for your prompt attention to this matter. We look forward to your response.\\n\\nBest regards,\\n[Your Name] My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1072,
+        1082
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        617,
+        638
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Urgent Network Support\n\nDear Customer Support,\\n\\nWe are experiencing a sudden network issue that has disrupted our access to medical data. This outage happened unexpectedly, and we are concerned it might be due to a cyberattack or system failure.\\n\\nWe have attempted to restart the servers, reviewed the firewalls, and notified our IT team, but the issue remains unresolved. We urgently need your assistance to address this situation.\\n\\nThis network disruption has serious repercussions for our operations, and we strongly urge you to treat this matter with utmost urgency You can reach me at [email].. We would appreciate a timely response along with a proposed plan of action to restore our network access.\\n\\nPlease provide us with the necessary details or support as needed to expedite the resolution of this issue. We are ready to give any necessary information to help resolve the problem swiftly.\\n\\nThank you for your prompt attention to this matter. We look forward to your response.\\n\\nBest regards,\\n[Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

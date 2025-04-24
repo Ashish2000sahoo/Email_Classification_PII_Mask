@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Information Exposure in Zoho CRM\n\nHello Customer Support, I am contacting you to report a medical data exposure that was found within our Zoho CRM. It is possible that this issue arose because of inadequate access restrictions and the use of an older version of Cassandra 4.0 You can reach me at david.kim@corp.kr.. We have already attempted to validate user permissions, restarted the iMac, and checked printer configurations, but the problem still exists. We urgently need your help to address this and prevent additional data leaks My name is John Doe.. Could you please instruct us on what to do next? We appreciate your prompt assistance. Thanks for your attention.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        563,
+        571
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        313,
+        330
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Medical Information Exposure in Zoho CRM\n\nHello Customer Support, I am contacting you to report a medical data exposure that was found within our Zoho CRM. It is possible that this issue arose because of inadequate access restrictions and the use of an older version of Cassandra 4.0 You can reach me at [email].. We have already attempted to validate user permissions, restarted the iMac, and checked printer configurations, but the problem still exists. We urgently need your help to address this and prevent additional data leaks My name is [full_name].. Could you please instruct us on what to do next? We appreciate your prompt assistance. Thanks for your attention.",
+  "category_of_the_email": "Incident"
+}

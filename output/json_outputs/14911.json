@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Integration\n\nEs gab einen Integrationsschlag mit verschiedenen Tools You can reach me at johndoe@email.com.. Das Problem trat aufgrund unkompatibler API-Aktualisierungen auf My name is Fatima Al-Farsi.. Ich habe versucht, die Server neu zu starten und die Connector zu aktualisieren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        220
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        115,
+        132
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Integration\n\nEs gab einen Integrationsschlag mit verschiedenen Tools You can reach me at [email].. Das Problem trat aufgrund unkompatibler API-Aktualisierungen auf My name is [full_name]-Farsi.. Ich habe versucht, die Server neu zu starten und die Connector zu aktualisieren.",
+  "category_of_the_email": "Incident"
+}

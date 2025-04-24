@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenanalyse-Dashboard l\u00e4dt nicht aus Konfigurationsschwierigkeiten\n\nDas Datenanalyse-Dashboard l\u00e4dt sich nicht You can reach me at omar.hassan@secure.net.. Obwohl ich Elasticsearch neu gestartet und die Serverprotokolle gepr\u00fcft habe, beh\u00e4lt das Problem seinen Ursprung bei. Es k\u00f6nnte auf die Konfiguration der Elasticsearch-Cluster hinweisen. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        364,
+        372
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        141,
+        163
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Datenanalyse-Dashboard l\u00e4dt nicht aus Konfigurationsschwierigkeiten\n\nDas Datenanalyse-Dashboard l\u00e4dt sich nicht You can reach me at [email].. Obwohl ich Elasticsearch neu gestartet und die Serverprotokolle gepr\u00fcft habe, beh\u00e4lt das Problem seinen Ursprung bei. Es k\u00f6nnte auf die Konfiguration der Elasticsearch-Cluster hinweisen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance with Technology Issues\n\nThe scanner is not working properly due to outdated drivers and conflicting macOS updates. I have attempted to reboot the device, update software, and reinstall drivers, but the issue persists.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        276
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Technology Issues\n\nThe scanner is not working properly due to outdated drivers and conflicting macOS updates. I have attempted to reboot the device, update software, and reinstall drivers, but the issue persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

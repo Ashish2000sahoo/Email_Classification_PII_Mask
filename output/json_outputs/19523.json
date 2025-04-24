@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit ungenauen Investitionsprognosen\n\nSehr geehrte Kundensupport, ich schreibe, um Ihnen ein Problem mit ungenauen Investitionsprognosen zu melden, das ich festgestellt habe. Nach einer Untersuchung stellte ich fest, dass die ClickUp-Daten-Synchronisierung versagt hat, was m\u00f6glicherweise auf eine veraltete Laravel 8-Integration zur\u00fcckzuf\u00fchren ist. Um das Problem zu beheben, habe ich die Server neu gestartet und die Avast-Sicherheitsprotokolle \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00e4re sehr dankbar, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung bieten k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren My name is Maria Gonzalez.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        837,
+        851
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        907,
+        929
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem mit ungenauen Investitionsprognosen\n\nSehr geehrte Kundensupport, ich schreibe, um Ihnen ein Problem mit ungenauen Investitionsprognosen zu melden, das ich festgestellt habe. Nach einer Untersuchung stellte ich fest, dass die ClickUp-Daten-Synchronisierung versagt hat, was m\u00f6glicherweise auf eine veraltete Laravel 8-Integration zur\u00fcckzuf\u00fchren ist. Um das Problem zu beheben, habe ich die Server neu gestartet und die Avast-Sicherheitsprotokolle \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00e4re sehr dankbar, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung bieten k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren My name is [full_name].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

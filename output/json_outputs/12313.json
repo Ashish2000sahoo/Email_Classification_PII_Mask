@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Schwierigkeit bei Investment-Optimierungs-Tool\n\nDas Investment-Optimierungs-Tool hat w\u00e4hrend der Datenbearbeitung einen Fehler gemeldet, was wahrscheinlich auf erh\u00f6hte Serverbelastung zur\u00fcckzuf\u00fchren ist. Ich habe versucht, den TP-Link-Switch und Apache Hadoop neu zu starten, aber das Problem beh\u00e4lt sich bestehen. Da der gro\u00dfe Datensatz verarbeitet wurde, scheint die aktuelle Serverbelastung die Ursache zu sein My name is David Kim.. Bitte helfen Sie mir, das Problem schnell zu l\u00f6sen, indem Sie mich kontaktieren. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        454
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        560,
+        577
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Technische Schwierigkeit bei Investment-Optimierungs-Tool\n\nDas Investment-Optimierungs-Tool hat w\u00e4hrend der Datenbearbeitung einen Fehler gemeldet, was wahrscheinlich auf erh\u00f6hte Serverbelastung zur\u00fcckzuf\u00fchren ist. Ich habe versucht, den TP-Link-Switch und Apache Hadoop neu zu starten, aber das Problem beh\u00e4lt sich bestehen. Da der gro\u00dfe Datensatz verarbeitet wurde, scheint die aktuelle Serverbelastung die Ursache zu sein My name is [full_name].. Bitte helfen Sie mir, das Problem schnell zu l\u00f6sen, indem Sie mich kontaktieren. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

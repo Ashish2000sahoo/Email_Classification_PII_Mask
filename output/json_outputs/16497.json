@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische Daten-Sicherung\n\nSuchen Sie Anleitungen zur Sicherung medizinischer Daten, einschlie\u00dflich Smart-Rauchmeldern, KVM-Switch und Krankenhaus-IT? Wie k\u00f6nnen Vertraulichkeit und Integrit\u00e4t medizinischer Informationen gew\u00e4hrleistet werden? Bitte geben Sie Informationen zu erforderlichen Sicherheitsma\u00dfnahmen, Protokollen und der Implementierung an.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        387,
+        402
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Daten-Sicherung\n\nSuchen Sie Anleitungen zur Sicherung medizinischer Daten, einschlie\u00dflich Smart-Rauchmeldern, KVM-Switch und Krankenhaus-IT? Wie k\u00f6nnen Vertraulichkeit und Integrit\u00e4t medizinischer Informationen gew\u00e4hrleistet werden? Bitte geben Sie Informationen zu erforderlichen Sicherheitsma\u00dfnahmen, Protokollen und der Implementierung an.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

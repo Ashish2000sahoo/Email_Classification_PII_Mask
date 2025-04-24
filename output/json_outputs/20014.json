@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Probleme mit der drahtlosen Funktion des Epson EcoTank ET-4760\n\nHallo Support-Team,\n\nich habe ein Problem mit meinem Epson EcoTank ET-4760 Drucker. Die drahtlose Druckfunktion funktioniert nicht You can reach me at liuwei@business.cn.. Ich habe alle im Benutzerhandbuch empfohlenen Fehlersuchemethoden versucht, aber ohne Erfolg. K\u00f6nnen Sie mir bitte eine Anleitung zur Behebung des Problems geben? Ihre Unterst\u00fctzung w\u00e4re sehr gesch\u00e4tzt.\n\nDanke.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\n<tel_num> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        512,
+        523
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        224,
+        242
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        67,
+        71
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        143,
+        147
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der drahtlosen Funktion des Epson EcoTank ET-[phone_number]\n\nHallo Support-Team,\n\nich habe ein Problem mit meinem Epson EcoTank ET-[phone_number] Drucker. Die drahtlose Druckfunktion funktioniert nicht You can reach me at [email].. Ich habe alle im Benutzerhandbuch empfohlenen Fehlersuchemethoden versucht, aber ohne Erfolg. K\u00f6nnen Sie mir bitte eine Anleitung zur Behebung des Problems geben? Ihre Unterst\u00fctzung w\u00e4re sehr gesch\u00e4tzt.\n\nDanke.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem encountered with the Project Management Software, it has stopped functioning\n\nGreeting Customer Support, I am hoping you can assist me with an issue I have been experiencing with our project management software. It appeared to have frozen suddenly, and I suspect it might be a software compatibility issue. I have attempted to reboot my system, update my device drivers, and review the log files, but the issue remains unresolved My name is Carlos Mendoza.. Would you be able to look into this and offer a resolution as quickly as possible? If you require more details, please feel free to ask. I am willing to provide any additional information that could help in addressing this problem. Thank you for your support You can reach me at carlosm@gmail.com.. I await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        458,
+        472
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        751,
+        768
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem encountered with the Project Management Software, it has stopped functioning\n\nGreeting Customer Support, I am hoping you can assist me with an issue I have been experiencing with our project management software. It appeared to have frozen suddenly, and I suspect it might be a software compatibility issue. I have attempted to reboot my system, update my device drivers, and review the log files, but the issue remains unresolved My name is [full_name].. Would you be able to look into this and offer a resolution as quickly as possible? If you require more details, please feel free to ask. I am willing to provide any additional information that could help in addressing this problem. Thank you for your support You can reach me at [email].. I await your response.",
+  "category_of_the_email": "Incident"
+}

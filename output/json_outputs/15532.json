@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Strategien zur(company) Entwicklung\n\nSehr geehrte Kundenservice, ich schreibe an, um eingehender Kenntnis zu gewinnen \u00fcber die digitalen Strategien, die Ihr Unternehmen f\u00fcr Markterweiterung und Produktmarketing anbietet. Es w\u00fcrde mich sehr interessem, mehr \u00fcber die verschiedenen Dienstleistungen und Werkzeuge zu erfahren, die Sie anbieten, um die Online-Pr\u00e4senz von Unternehmen zu st\u00e4rken und neue Kunden zu gewinnen You can reach me at janesmith@company.com.. K\u00f6nnten Sie mir bitte mehr Informationen zu den verschiedenen Strategien und L\u00f6sungen geben, die Sie anzubieten haben? Ich sch\u00e4tze jede Ratschl\u00e4ge oder Empfehlungen, die Sie mir geben k\u00f6nnten My name is Jane Smith.. Ich bedanke mich im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich auf Ihre baldige R\u00fcckmeldung. Bitte rufen Sie mich gerne unter <tel_num> an, um uns treffen zu k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        684,
+        694
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        457,
+        478
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Digitale Strategien zur(company) Entwicklung\n\nSehr geehrte Kundenservice, ich schreibe an, um eingehender Kenntnis zu gewinnen \u00fcber die digitalen Strategien, die Ihr Unternehmen f\u00fcr Markterweiterung und Produktmarketing anbietet. Es w\u00fcrde mich sehr interessem, mehr \u00fcber die verschiedenen Dienstleistungen und Werkzeuge zu erfahren, die Sie anbieten, um die Online-Pr\u00e4senz von Unternehmen zu st\u00e4rken und neue Kunden zu gewinnen You can reach me at [email].. K\u00f6nnten Sie mir bitte mehr Informationen zu den verschiedenen Strategien und L\u00f6sungen geben, die Sie anzubieten haben? Ich sch\u00e4tze jede Ratschl\u00e4ge oder Empfehlungen, die Sie mir geben k\u00f6nnten My name is [full_name].. Ich bedanke mich im Voraus f\u00fcr Ihre Zeit und Unterst\u00fctzung und freue mich auf Ihre baldige R\u00fcckmeldung. Bitte rufen Sie mich gerne unter <tel_num> an, um uns treffen zu k\u00f6nnen.",
+  "category_of_the_email": "Request"
+}

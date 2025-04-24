@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehlermeldung f\u00fcr Datenaufarbeitungs-Tool\n\nBitte melden Sie folgendes Problem mit dem Datenaufarbeitungs-Tool: Das Tool bricht unerwartet bei der Nutzung ab. Dies k\u00f6nnte auf eine Mangelhaftigkeit des HyperX Fury 32GB DDR4-Speichers zur\u00fcckzuf\u00fchren sein You can reach me at fatima.farsi@help.com.. Versucht man, das Programm neu zu starten und den Cache zu l\u00f6schen, bleibt das Problem bestehen My name is Omar Hassan.. Gestern funktionierte das Tool perfekt. In den letzten Tagen wurden \u00c4nderungen am System vorgenommen. Ich sch\u00e4tze, es w\u00e4re hilfreich, wenn Sie das Problem schnell bearbeiten und eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, falls weitere Informationen ben\u00f6tigt werden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        412,
+        423
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        281,
+        302
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Fehlermeldung f\u00fcr Datenaufarbeitungs-Tool\n\nBitte melden Sie folgendes Problem mit dem Datenaufarbeitungs-Tool: Das Tool bricht unerwartet bei der Nutzung ab. Dies k\u00f6nnte auf eine Mangelhaftigkeit des HyperX Fury 32GB DDR4-Speichers zur\u00fcckzuf\u00fchren sein You can reach me at [email].. Versucht man, das Programm neu zu starten und den Cache zu l\u00f6schen, bleibt das Problem bestehen My name is [full_name].. Gestern funktionierte das Tool perfekt. In den letzten Tagen wurden \u00c4nderungen am System vorgenommen. Ich sch\u00e4tze, es w\u00e4re hilfreich, wenn Sie das Problem schnell bearbeiten und eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, falls weitere Informationen ben\u00f6tigt werden.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Unauthorized Access to Secure Healthcare Data System\n\nAn unauthorized access attempt has been detected in the secured healthcare data system My name is Jane Smith.. This may have occurred due to a software vulnerability. We have analyzed the logs and updated passwords, but need your assistance to ensure the security system is robust enough to protect sensitive patient information. We would greatly appreciate your guidance on additional measures to prevent similar incidents in the future. Kindly assist us in conducting a thorough investigation. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        599,
+        624
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Unauthorized Access to Secure Healthcare Data System\n\nAn unauthorized access attempt has been detected in the secured healthcare data system My name is [full_name].. This may have occurred due to a software vulnerability. We have analyzed the logs and updated passwords, but need your assistance to ensure the security system is robust enough to protect sensitive patient information. We would greatly appreciate your guidance on additional measures to prevent similar incidents in the future. Kindly assist us in conducting a thorough investigation. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

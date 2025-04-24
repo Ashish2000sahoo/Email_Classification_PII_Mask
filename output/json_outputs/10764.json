@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsbedenken erl\u00e4utert\n\nEs gab eine Sicherheitsverletzung, bei der medizinische Daten freigegeben wurden My name is Sophia Rossi.. Die Ursache k\u00f6nnte die Verwendung einer veralteten Node.js Version sein. Sie haben bereits ein Malwarebytes-Sicherheitsscan und eine Pr\u00fcfung der Logs des Valve Index VR Ger\u00e4ts durchgef\u00fchrt. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        356,
+        374
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsbedenken erl\u00e4utert\n\nEs gab eine Sicherheitsverletzung, bei der medizinische Daten freigegeben wurden My name is [full_name].. Die Ursache k\u00f6nnte die Verwendung einer veralteten Node.js Version sein. Sie haben bereits ein Malwarebytes-Sicherheitsscan und eine Pr\u00fcfung der Logs des Valve Index VR Ger\u00e4ts durchgef\u00fchrt. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

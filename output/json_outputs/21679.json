@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Discrepancies in Azure Billing This Month\n\nDear Customer Support Team,\n\nI hope this message finds you well You can reach me at carlosm@gmail.com.. I am writing to bring to your attention some discrepancies I have noticed in the billing for my account <acc_num>. This month\u2019s statement lists unexpected charges related to my Azure Cloud Management Assistance usage. However, these costs appear to extend beyond the anticipated access expenses we had planned.\n\nDespite a thorough review of my usage patterns, I have not been able to identify any changes that would justify these additional costs. I would appreciate any insights your team could provide into the specific charges in question. Furthermore, I request an audit of this month\u2019s invoice to ensure no errors have occurred.\n\nPlease let me know if any additional information is needed from my side to expedite this review My name is Sophia Rossi.. I look forward to your prompt response to resolve this matter and ensure clarity in our billing processes.\n\nThank you for your assistance.\n\nBest Regards,\n<name>\n\nContact: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        898,
+        910
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        136,
+        153
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Discrepancies in Azure Billing This Month\n\nDear Customer Support Team,\n\nI hope this message finds you well You can reach me at [email].. I am writing to bring to your attention some discrepancies I have noticed in the billing for my account <acc_num>. This month\u2019s statement lists unexpected charges related to my Azure Cloud Management Assistance usage. However, these costs appear to extend beyond the anticipated access expenses we had planned.\n\nDespite a thorough review of my usage patterns, I have not been able to identify any changes that would justify these additional costs. I would appreciate any insights your team could provide into the specific charges in question. Furthermore, I request an audit of this month\u2019s invoice to ensure no errors have occurred.\n\nPlease let me know if any additional information is needed from my side to expedite this review My name is [full_name].. I look forward to your prompt response to resolve this matter and ensure clarity in our billing processes.\n\nThank you for your assistance.\n\nBest Regards,\n<name>\n\nContact: <tel_num>",
+  "category_of_the_email": "Problem"
+}

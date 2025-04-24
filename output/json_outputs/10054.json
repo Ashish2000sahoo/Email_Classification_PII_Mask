@@ -1,0 +1,55 @@
+{
+  "input_email_body": "Subject: Ratgeber f\u00fcr Datenanalysewerkzeuge zur Optimierung von Investitionen unter Ubuntu 20.04 LTS\n\nSehr geehrte Kundenservice, ich stehe in Kontakt mit Ihnen, um Aufschluss \u00fcber geeignete Datenanalysewerkzeuge f\u00fcr die Optimierung meiner Investitionen unter Ubuntu 20.04 LTS zu erhalten My name is Maria Gonzalez.. Die aktuell verwendete Betriebssystemversion ist Ubuntu 20.04 LTS, und ich m\u00f6chte mich auf informierte Investitionsentscheidungen verlassen. K\u00f6nnten Sie mir einige Vorschl\u00e4ge geben? Ich sch\u00e4tze jede Unterst\u00fctzung in dieser Angelegenheit sehr. Ich suche Werkzeuge, die mit Ubuntu 20.04 LTS kompatibel sind und mir dabei helfen, Investitionsdaten effektiv zu analysieren You can reach me at maria.gonzalez@shop.es.. Ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        703,
+        725
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        91,
+        96
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        267,
+        272
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        370,
+        375
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        593,
+        598
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    }
+  ],
+  "masked_email": "Subject: Ratgeber f\u00fcr Datenanalysewerkzeuge zur Optimierung von Investitionen unter Ubuntu [phone_number] LTS\n\nSehr geehrte Kundenservice, ich stehe in Kontakt mit Ihnen, um Aufschluss \u00fcber geeignete Datenanalysewerkzeuge f\u00fcr die Optimierung meiner Investitionen unter Ubuntu [phone_number] LTS zu erhalten My name is [full_name].. Die aktuell verwendete Betriebssystemversion ist Ubuntu [phone_number] LTS, und ich m\u00f6chte mich auf informierte Investitionsentscheidungen verlassen. K\u00f6nnten Sie mir einige Vorschl\u00e4ge geben? Ich sch\u00e4tze jede Unterst\u00fctzung in dieser Angelegenheit sehr. Ich suche Werkzeuge, die mit Ubuntu [phone_number] LTS kompatibel sind und mir dabei helfen, Investitionsdaten effektiv zu analysieren You can reach me at [email].. Ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "category_of_the_email": "Request"
+}

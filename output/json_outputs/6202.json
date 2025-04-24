@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with MongoDB\n\nRequest for detailed documentation on integrating MongoDB 4.4 for a project management SaaS. Seeking understanding of setup processes and support in case of any issues during integration You can reach me at fatima.farsi@help.com.. Thanks! My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        293
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        241,
+        262
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with MongoDB\n\nRequest for detailed documentation on integrating MongoDB 4.4 for a project management SaaS. Seeking understanding of setup processes and support in case of any issues during integration You can reach me at [email].. Thanks! My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Help Needed for Possible Data Breach and Slowdown\n\nGreetings from Customer Support You can reach me at david.kim@corp.kr.. I am contacting you regarding a suspected data breach and system slowdown. It could be due to outdated security patches or malware. Despite running antivirus and updating, the problem remains unresolved. I would be grateful for any immediate help you can offer My name is Elena Ivanova.. Could you guide me on the next steps? Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        411,
+        424
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        119,
+        136
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgent Help Needed for Possible Data Breach and Slowdown\n\nGreetings from Customer Support You can reach me at [email].. I am contacting you regarding a suspected data breach and system slowdown. It could be due to outdated security patches or malware. Despite running antivirus and updating, the problem remains unresolved. I would be grateful for any immediate help you can offer My name is [full_name].. Could you guide me on the next steps? Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

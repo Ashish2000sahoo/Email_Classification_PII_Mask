@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Blackboard Learn Integration\n\nIs it possible to get comprehensive details on integrating the Blackboard Learn project management software? This would be incredibly helpful for streamlining our workflow and enhancing productivity My name is Elena Ivanova.. We look forward to exploring the integration possibilities and appreciate your assistance You can reach me at omar.hassan@secure.net.. Thank you for your time.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        274
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        385,
+        407
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Blackboard Learn Integration\n\nIs it possible to get comprehensive details on integrating the Blackboard Learn project management software? This would be incredibly helpful for streamlining our workflow and enhancing productivity My name is [full_name].. We look forward to exploring the integration possibilities and appreciate your assistance You can reach me at [email].. Thank you for your time.",
+  "category_of_the_email": "Request"
+}

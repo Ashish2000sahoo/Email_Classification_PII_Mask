@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Subscription Fee Concern\n\nThe customer was charged a higher fee in the current month due to a plan change My name is Omar Hassan.. After verifying account details and attempting to contact support, they received a response You can reach me at omar.hassan@secure.net.. They require assistance with the unexpected charge and request help in resolving the issue promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        137
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        252,
+        274
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Subscription Fee Concern\n\nThe customer was charged a higher fee in the current month due to a plan change My name is [full_name].. After verifying account details and attempting to contact support, they received a response You can reach me at [email].. They require assistance with the unexpected charge and request help in resolving the issue promptly.",
+  "category_of_the_email": "Problem"
+}

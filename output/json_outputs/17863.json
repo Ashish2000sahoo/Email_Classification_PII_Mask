@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung \u00dcber Datenverlust im IT-System des Krankenhauses\n\nWir best\u00e4tigen, dass wir den Vorfall mit dem Datenverlust im IT-System des Krankenhauses informiert haben My name is Sophia Rossi.. Die Sicherheit unserer Systeme und der Daten ist von gr\u00f6\u00dfter Bedeutung. Wir werden unverz\u00fcglich eine Untersuchung des Vorfalls starten. Bitte geben Sie mehr Details zum Vorfall, zum Beispiel wann der Verlust festgestellt wurde und welche Daten m\u00f6glicherweise verloren gegangen sind. Diese Informationen helfen uns, die Situation genauer einzusch\u00e4tzen You can reach me at carlosm@gmail.com.. Falls erforderlich, k\u00f6nnen Sie uns direkt kontaktieren, um weiterzusprechen. Falls Sie bereit sind, anzurufen, lassen Sie uns wissen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        573,
+        590
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung \u00dcber Datenverlust im IT-System des Krankenhauses\n\nWir best\u00e4tigen, dass wir den Vorfall mit dem Datenverlust im IT-System des Krankenhauses informiert haben My name is [full_name].. Die Sicherheit unserer Systeme und der Daten ist von gr\u00f6\u00dfter Bedeutung. Wir werden unverz\u00fcglich eine Untersuchung des Vorfalls starten. Bitte geben Sie mehr Details zum Vorfall, zum Beispiel wann der Verlust festgestellt wurde und welche Daten m\u00f6glicherweise verloren gegangen sind. Diese Informationen helfen uns, die Situation genauer einzusch\u00e4tzen You can reach me at [email].. Falls erforderlich, k\u00f6nnen Sie uns direkt kontaktieren, um weiterzusprechen. Falls Sie bereit sind, anzurufen, lassen Sie uns wissen.",
+  "category_of_the_email": "Incident"
+}

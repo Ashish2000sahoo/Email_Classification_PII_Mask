@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Besoin d'assistance : probl\u00e8me de garantie Dell XPS 13 9310\n\nCher support du Tech Online Store,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me de scintillement de l'\u00e9cran que je rencontre avec mon ordinateur portable Dell XPS 13 9310 My name is Elena Ivanova.. Le probl\u00e8me a commenc\u00e9 r\u00e9cemment et persiste, affectant significativement l'utilisabilit\u00e9 You can reach me at maria.gonzalez@shop.es.. Comme ce produit est encore sous garantie, je cherche une assistance technique imm\u00e9diate pour r\u00e9soudre le probl\u00e8me.\n\nL'ordinateur portable a \u00e9t\u00e9 achet\u00e9 en mai 2023, et il a \u00e9t\u00e9 entretenu selon les recommandations de Dell et de votre magasin. Je crois que le probl\u00e8me pourrait \u00eatre li\u00e9 au mat\u00e9riel, compte tenu du fait que le scintillement est pr\u00e9sent lors de diverses op\u00e9rations, ind\u00e9pendamment des r\u00e9initialisations logicielles ou des mises \u00e0 jour de pilotes.\n\nPourriez-vous s'il vous pla\u00eet m'aider \u00e0 organiser un diagnostic et une r\u00e9paration, \u00e9ventuellement par le biais d'une demande de garantie ? Mes informations pour cette demande sont jointes, y compris une copie de mon re\u00e7u d'achat montrant les d\u00e9tails de la couverture de la garantie.\n\nVeuillez me conseiller sur les prochaines \u00e9tapes \u00e0 suivre pour la r\u00e9solution. Je peux \u00eatre contact\u00e9 par e-mail ou au num\u00e9ro de contact <tel_num> \u00e0 votre convenance. Dans l'attente de votre soutien rapide \u00e0 ce sujet.\n\nMerci.\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        372,
+        394
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        61,
+        68
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        229,
+        236
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        541,
+        545
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    }
+  ],
+  "masked_email": "Subject: Besoin d'assistance : probl\u00e8me de garantie Dell XPS [phone_number]\n\nCher support du Tech Online Store,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me de scintillement de l'\u00e9cran que je rencontre avec mon ordinateur portable Dell XPS [phone_number] My name is [full_name].. Le probl\u00e8me a commenc\u00e9 r\u00e9cemment et persiste, affectant significativement l'utilisabilit\u00e9 You can reach me at [email].. Comme ce produit est encore sous garantie, je cherche une assistance technique imm\u00e9diate pour r\u00e9soudre le probl\u00e8me.\n\nL'ordinateur portable a \u00e9t\u00e9 achet\u00e9 en mai [phone_number], et il a \u00e9t\u00e9 entretenu selon les recommandations de Dell et de votre magasin. Je crois que le probl\u00e8me pourrait \u00eatre li\u00e9 au mat\u00e9riel, compte tenu du fait que le scintillement est pr\u00e9sent lors de diverses op\u00e9rations, ind\u00e9pendamment des r\u00e9initialisations logicielles ou des mises \u00e0 jour de pilotes.\n\nPourriez-vous s'il vous pla\u00eet m'aider \u00e0 organiser un diagnostic et une r\u00e9paration, \u00e9ventuellement par le biais d'une demande de garantie ? Mes informations pour cette demande sont jointes, y compris une copie de mon re\u00e7u d'achat montrant les d\u00e9tails de la couverture de la garantie.\n\nVeuillez me conseiller sur les prochaines \u00e9tapes \u00e0 suivre pour la r\u00e9solution. Je peux \u00eatre contact\u00e9 par e-mail ou au num\u00e9ro de contact <tel_num> \u00e0 votre convenance. Dans l'attente de votre soutien rapide \u00e0 ce sujet.\n\nMerci.\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme der Sicherheit medizinischer Daten\n\nBrauchen Unterst\u00fctzung. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        99,
+        114
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Probleme der Sicherheit medizinischer Daten\n\nBrauchen Unterst\u00fctzung. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

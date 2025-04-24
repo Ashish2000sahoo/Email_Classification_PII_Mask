@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frequent Application Crashes During Project Synchronization\n\nHave been experiencing frequent crashes in the application, particularly during project synchronization My name is John Doe.. This might be due to conflicts or incompatible software versions. Despite restarting the application, checking for updates, and clearing cache and cookies, the issue persists You can reach me at johndoe@email.com.. Kindly assist in resolving this problem as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        193
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        394,
+        411
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Frequent Application Crashes During Project Synchronization\n\nHave been experiencing frequent crashes in the application, particularly during project synchronization My name is [full_name].. This might be due to conflicts or incompatible software versions. Despite restarting the application, checking for updates, and clearing cache and cookies, the issue persists You can reach me at [email].. Kindly assist in resolving this problem as soon as possible.",
+  "category_of_the_email": "Incident"
+}

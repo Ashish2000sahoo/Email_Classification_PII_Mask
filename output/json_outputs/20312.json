@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Billing Discrepancy with AWS Service\n\nDear Customer Support,\n\nI am writing to express my concerns regarding discrepancies in my recent invoice for the AWS Management Service. It appears that I am being charged for unusually high usage and there are unexpected charges listed that do not match my records You can reach me at david.kim@corp.kr.. Could you please review my account, <acc_num>, and provide clarification on these charges? Also, please advise on how they can be rectified My name is Maria Gonzalez.. I appreciate your prompt attention to this matter.\n\nThank you,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        333,
+        350
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Billing Discrepancy with AWS Service\n\nDear Customer Support,\n\nI am writing to express my concerns regarding discrepancies in my recent invoice for the AWS Management Service. It appears that I am being charged for unusually high usage and there are unexpected charges listed that do not match my records You can reach me at [email].. Could you please review my account, <acc_num>, and provide clarification on these charges? Also, please advise on how they can be rectified My name is [full_name].. I appreciate your prompt attention to this matter.\n\nThank you,\n<name>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

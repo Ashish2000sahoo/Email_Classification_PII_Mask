@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Anfrage zum Dell XPS 13 9310\n\nSehr geehrter Kundenservice,\n\nIch hoffe, diese Nachricht trifft Sie wohl You can reach me at janesmith@company.com.. Ich wende mich an Sie, um Informationen \u00fcber das Dell XPS 13 9310-Laptop zu erfragen, da ich einen m\u00f6glichen Kauf in Betracht ziehe. K\u00f6nnten Sie mir bitte detaillierte Informationen zu den Leistungsmerkmalen wie Prozessorf\u00e4higkeiten, RAM, Akku-Laufzeit und besonderen Eigenschaften geben? Au\u00dferdem w\u00fcrde ich gerne wissen, ob es derzeit Verkaufsangebote oder Aktionen f\u00fcr dieses Produkt gibt.\n\nEs w\u00e4re hilfreich zu verstehen, was das Dell XPS 13 9310 im Vergleich zu \u00e4hnlichen Modellen in Bezug auf Leistungseffizienz und Gesamtwert auszeichnet. Ihre Anleitung und Expertise w\u00fcrden mir sehr helfen, eine informierte Entscheidung zu treffen.\n\nFalls m\u00f6glich, k\u00f6nnten Sie mir auch Informationen \u00fcber die Verf\u00fcgbarkeit von Kundenservice-Optionen und Garantievarianten geben, falls nach dem Kauf Probleme auftreten sollten?\n\nDanke f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is Fatima Al-Farsi.. Ich freue mich auf Ihre detaillierte Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1024,
+        1033
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        132,
+        153
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        30,
+        37
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        200,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        584,
+        591
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zum Dell XPS [phone_number]\n\nSehr geehrter Kundenservice,\n\nIch hoffe, diese Nachricht trifft Sie wohl You can reach me at [email].. Ich wende mich an Sie, um Informationen \u00fcber das Dell XPS [phone_number]-Laptop zu erfragen, da ich einen m\u00f6glichen Kauf in Betracht ziehe. K\u00f6nnten Sie mir bitte detaillierte Informationen zu den Leistungsmerkmalen wie Prozessorf\u00e4higkeiten, RAM, Akku-Laufzeit und besonderen Eigenschaften geben? Au\u00dferdem w\u00fcrde ich gerne wissen, ob es derzeit Verkaufsangebote oder Aktionen f\u00fcr dieses Produkt gibt.\n\nEs w\u00e4re hilfreich zu verstehen, was das Dell XPS [phone_number] im Vergleich zu \u00e4hnlichen Modellen in Bezug auf Leistungseffizienz und Gesamtwert auszeichnet. Ihre Anleitung und Expertise w\u00fcrden mir sehr helfen, eine informierte Entscheidung zu treffen.\n\nFalls m\u00f6glich, k\u00f6nnten Sie mir auch Informationen \u00fcber die Verf\u00fcgbarkeit von Kundenservice-Optionen und Garantievarianten geben, falls nach dem Kauf Probleme auftreten sollten?\n\nDanke f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is [full_name]-Farsi.. Ich freue mich auf Ihre detaillierte Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Request"
+}

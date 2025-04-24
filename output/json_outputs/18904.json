@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Expand Business Horizons\n\nGreetings customer support, I am writing to seek advice on digital approaches that can enhance our marketing firm's growth My name is David Kim.. We are interested in exploring methods to boost our online footprint and attract more clients You can reach me at fatima.farsi@help.com.. Possible tactics may encompass social media marketing, SEO, and content production. We would be grateful for your insights on how to effectively execute these tactics and promote our firm's expansion. Thank you for your consideration and help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        297,
+        318
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Expand Business Horizons\n\nGreetings customer support, I am writing to seek advice on digital approaches that can enhance our marketing firm's growth My name is [full_name].. We are interested in exploring methods to boost our online footprint and attract more clients You can reach me at [email].. Possible tactics may encompass social media marketing, SEO, and content production. We would be grateful for your insights on how to effectively execute these tactics and promote our firm's expansion. Thank you for your consideration and help.",
+  "category_of_the_email": "Request"
+}

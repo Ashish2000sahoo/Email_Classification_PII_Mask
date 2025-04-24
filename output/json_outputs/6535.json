@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem during Launch\n\nSeveral digital campaigns could not launch on various platforms because of incompatibility with recent software updates, leading to integration problems. Despite attempting to restart systems, verifying configurations, and updating drivers, the issue remains unresolved.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        340
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem during Launch\n\nSeveral digital campaigns could not launch on various platforms because of incompatibility with recent software updates, leading to integration problems. Despite attempting to restart systems, verifying configurations, and updating drivers, the issue remains unresolved.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

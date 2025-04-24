@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Seeking Guidance on Utilizing IBM Cloud Data Analytics Tools for Investment Optimization\n\nDear Customer Support, I am inquiring about optimizing my investments through the use of data analytics tools available on IBM Cloud My name is Maria Gonzalez.. Could you provide detailed information on how to leverage these tools to make informed investment decisions? I am particularly interested in learning about the various data analytics tools offered by IBM Cloud to help me analyze market trends, predict investment outcomes, and identify potential opportunities You can reach me at carlosm@gmail.com.. I would greatly appreciate any guidance or resources you can provide on this topic. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        587,
+        604
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Seeking Guidance on Utilizing IBM Cloud Data Analytics Tools for Investment Optimization\n\nDear Customer Support, I am inquiring about optimizing my investments through the use of data analytics tools available on IBM Cloud My name is [full_name].. Could you provide detailed information on how to leverage these tools to make informed investment decisions? I am particularly interested in learning about the various data analytics tools offered by IBM Cloud to help me analyze market trends, predict investment outcomes, and identify potential opportunities You can reach me at [email].. I would greatly appreciate any guidance or resources you can provide on this topic. Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

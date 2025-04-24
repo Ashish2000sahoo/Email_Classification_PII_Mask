@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Guidance on Securing Medical Data Infrastructure\n\nCould you please offer guidance on securing medical data infrastructure? To better assist you, could you provide details about your current setup and any specific concerns? This will help outline the necessary steps to ensure compliance and security of your medical data. Alternatively, if more convenient, we can discuss this further over a call.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        429,
+        444
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Securing Medical Data Infrastructure\n\nCould you please offer guidance on securing medical data infrastructure? To better assist you, could you provide details about your current setup and any specific concerns? This will help outline the necessary steps to ensure compliance and security of your medical data. Alternatively, if more convenient, we can discuss this further over a call.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

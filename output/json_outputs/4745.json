@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Analytics Platform\n\nI would like to report a problem with the data analytics platform that abruptly stopped working. It could be caused by a lack of storage space or conflicting software. I have restarted UniFi and reviewed the RAID-Controller logs, but the issue still exists. I would be grateful if you could examine this and offer a solution promptly You can reach me at david.kim@corp.kr.. Please inform me if you require additional details to resolve this issue. The platform is essential for our operations, and any interruptions affect our productivity. Thank you for your time and help. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        631,
+        638
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        399,
+        416
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Analytics Platform\n\nI would like to report a problem with the data analytics platform that abruptly stopped working. It could be caused by a lack of storage space or conflicting software. I have restarted UniFi and reviewed the RAID-Controller logs, but the issue still exists. I would be grateful if you could examine this and offer a solution promptly You can reach me at [email].. Please inform me if you require additional details to resolve this issue. The platform is essential for our operations, and any interruptions affect our productivity. Thank you for your time and help. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

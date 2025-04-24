@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage zur Fehlerbehebung\n\nDas Programm bricht h\u00e4ufig w\u00e4hrend der Nutzung auf dem MacBook Air ab.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        146
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Fehlerbehebung\n\nDas Programm bricht h\u00e4ufig w\u00e4hrend der Nutzung auf dem MacBook Air ab.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

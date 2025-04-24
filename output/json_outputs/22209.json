@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notificaciones de tickets faltantes que afectan la retroalimentaci\u00f3n de Jira\n\nHola equipo de soporte al cliente,\n\nEspero que este mensaje les encuentre bien. Me pongo en contacto con respecto a un problema con las notificaciones de tickets faltantes en nuestra instancia de Jira Software 8.20. Este problema est\u00e1 afectando significativamente nuestra retroalimentaci\u00f3n de proyectos y la comunicaci\u00f3n del equipo, que dependen en gran medida de actualizaciones oportunas My name is Omar Hassan.. Nuestro equipo no puede recibir actualizaciones cruciales sobre el estado de los proyectos y las asignaciones You can reach me at maria.gonzalez@shop.es.. \u00bfPodr\u00edan investigar este problema y aconsejar sobre posibles soluciones? Su pronta asistencia ser\u00eda muy apreciada para restaurar un trabajo en equipo eficiente.\n\nGracias por su cooperaci\u00f3n.\n\nSaludos cordiales,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        488,
+        499
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        632,
+        654
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Notificaciones de tickets faltantes que afectan la retroalimentaci\u00f3n de Jira\n\nHola equipo de soporte al cliente,\n\nEspero que este mensaje les encuentre bien. Me pongo en contacto con respecto a un problema con las notificaciones de tickets faltantes en nuestra instancia de Jira Software 8.20. Este problema est\u00e1 afectando significativamente nuestra retroalimentaci\u00f3n de proyectos y la comunicaci\u00f3n del equipo, que dependen en gran medida de actualizaciones oportunas My name is [full_name].. Nuestro equipo no puede recibir actualizaciones cruciales sobre el estado de los proyectos y las asignaciones You can reach me at [email].. \u00bfPodr\u00edan investigar este problema y aconsejar sobre posibles soluciones? Su pronta asistencia ser\u00eda muy apreciada para restaurar un trabajo en equipo eficiente.\n\nGracias por su cooperaci\u00f3n.\n\nSaludos cordiales,\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problema con la impresora HP DeskJet 3755\n\nEstimado cliente del soporte t\u00e9cnico de Tienda Online,\n\nEstoy experimentando un problema persistente con mi impresora HP DeskJet 3755. A pesar de m\u00faltiples reinicios y configuraciones, la impresora no logra conectarse a Wi-Fi My name is Fatima Al-Farsi.. He probado varios pasos de soluci\u00f3n de problemas, pero ninguno ha resuelto este problema de conectividad. \u00bfPodr\u00eda proporcionar m\u00e1s asistencia o proponer una soluci\u00f3n? Su pronta respuesta ser\u00e1 muy apreciada, ya que es crucial para mis tareas diarias.\n\nGracias,\n\n<name> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        597,
+        614
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        46,
+        50
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        181,
+        185
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Problema con la impresora HP DeskJet [phone_number]\n\nEstimado cliente del soporte t\u00e9cnico de Tienda Online,\n\nEstoy experimentando un problema persistente con mi impresora HP DeskJet [phone_number]. A pesar de m\u00faltiples reinicios y configuraciones, la impresora no logra conectarse a Wi-Fi My name is [full_name]-Farsi.. He probado varios pasos de soluci\u00f3n de problemas, pero ninguno ha resuelto este problema de conectividad. \u00bfPodr\u00eda proporcionar m\u00e1s asistencia o proponer una soluci\u00f3n? Su pronta respuesta ser\u00e1 muy apreciada, ya que es crucial para mis tareas diarias.\n\nGracias,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

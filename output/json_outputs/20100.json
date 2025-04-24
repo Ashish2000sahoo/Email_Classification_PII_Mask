@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringendes Update f\u00fcr Jira Software 8.20 erforderlich\n\nSehr geehrter Kundenservice,\n\nich schreibe, um dringend ein Update f\u00fcr unser kundenorientiertes Projektmanagement-Tool, Jira Software 8.20, anzufordern. Unser Team hat mit einem Ausfall zu k\u00e4mpfen, der unsere Serviceverf\u00fcgbarkeit und die Teamkoordination erheblich beeintr\u00e4chtigt. Wie Sie sich vorstellen k\u00f6nnen, hat diese St\u00f6rung Auswirkungen auf unsere wichtigen Projektlieferungen. Wir bitten Sie freundlich um Ihr sofortiges Eingreifen, um das Problem zu l\u00f6sen My name is John Doe.. Bitte informieren Sie uns \u00fcber alle Schritte, die wir unternehmen sollten, um Ihnen zu helfen, diesen Prozess zu beschleunigen.\n\nIch freue mich auf Ihre schnelle Antwort.\n\nVielen Dank,\n\n<name>\nProjektmanager\n<company_name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        540,
+        548
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        797,
+        820
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Dringendes Update f\u00fcr Jira Software 8.20 erforderlich\n\nSehr geehrter Kundenservice,\n\nich schreibe, um dringend ein Update f\u00fcr unser kundenorientiertes Projektmanagement-Tool, Jira Software 8.20, anzufordern. Unser Team hat mit einem Ausfall zu k\u00e4mpfen, der unsere Serviceverf\u00fcgbarkeit und die Teamkoordination erheblich beeintr\u00e4chtigt. Wie Sie sich vorstellen k\u00f6nnen, hat diese St\u00f6rung Auswirkungen auf unsere wichtigen Projektlieferungen. Wir bitten Sie freundlich um Ihr sofortiges Eingreifen, um das Problem zu l\u00f6sen My name is [full_name].. Bitte informieren Sie uns \u00fcber alle Schritte, die wir unternehmen sollten, um Ihnen zu helfen, diesen Prozess zu beschleunigen.\n\nIch freue mich auf Ihre schnelle Antwort.\n\nVielen Dank,\n\n<name>\nProjektmanager\n<company_name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

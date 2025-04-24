@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Encryption Failing\n\nHello customer support, I am contacting you to report an issue with the encryption of my medical data. It seems there might be a problem with software compatibility. I've already restarted the servers and updated Avast, but the issue still remains My name is Maria Gonzalez.. Could you please look into this and offer a solution at your earliest convenience? If you require any further details, please feel free to ask. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        315
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        479,
+        501
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Encryption Failing\n\nHello customer support, I am contacting you to report an issue with the encryption of my medical data. It seems there might be a problem with software compatibility. I've already restarted the servers and updated Avast, but the issue still remains My name is [full_name].. Could you please look into this and offer a solution at your earliest convenience? If you require any further details, please feel free to ask. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

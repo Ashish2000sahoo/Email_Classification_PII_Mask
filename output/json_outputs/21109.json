@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Wireless connection issues with Canon printer\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to seek assistance with an issue I am experiencing with my Canon PIXMA MG3620 printer, which I purchased from your store My name is Fatima Al-Farsi.. Recently, I have encountered ongoing problems with its wireless connection that have rendered the device unable to print from any of my mobile devices.\n\nInitially, the printer worked without any issues, seamlessly printing documents via a wireless connection from both my smartphone and tablet You can reach me at carlosm@gmail.com.. However, over the past week, it has repeatedly failed to connect to my wireless network. Regardless of multiple reset attempts and troubleshooting efforts using the Canon guidelines, the problem persists, making the printer virtually unusable for my needs.\n\nWhen I try to initiate a print job, the devices are unable to communicate with the printer, showing varying error messages such as 'Printer not available' or 'Cannot connect to printer'. I have verified that my wireless network is operational and that my mobile devices can connect to other wireless services without any problem.\n\nCould you please provide guidance on resolving this issue? If necessary, I am willing to bring the printer to one of your physical locations or to send it in for a more thorough diagnostic to determine the cause of the connectivity issues. Your assistance in restoring the printer's functionality would be greatly appreciated.\n\nThank you for your attention to this matter.\n\nSincerely,\n\n<name>\n\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        279,
+        288
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        613,
+        630
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        220,
+        224
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Wireless connection issues with Canon printer\n\nDear Tech Online Store Customer Support,\n\nI hope this message finds you well. I am writing to seek assistance with an issue I am experiencing with my Canon PIXMA MG[phone_number] printer, which I purchased from your store My name is [full_name]-Farsi.. Recently, I have encountered ongoing problems with its wireless connection that have rendered the device unable to print from any of my mobile devices.\n\nInitially, the printer worked without any issues, seamlessly printing documents via a wireless connection from both my smartphone and tablet You can reach me at [email].. However, over the past week, it has repeatedly failed to connect to my wireless network. Regardless of multiple reset attempts and troubleshooting efforts using the Canon guidelines, the problem persists, making the printer virtually unusable for my needs.\n\nWhen I try to initiate a print job, the devices are unable to communicate with the printer, showing varying error messages such as 'Printer not available' or 'Cannot connect to printer'. I have verified that my wireless network is operational and that my mobile devices can connect to other wireless services without any problem.\n\nCould you please provide guidance on resolving this issue? If necessary, I am willing to bring the printer to one of your physical locations or to send it in for a more thorough diagnostic to determine the cause of the connectivity issues. Your assistance in restoring the printer's functionality would be greatly appreciated.\n\nThank you for your attention to this matter.\n\nSincerely,\n\n<name>\n\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Finanzielle Investitionsanalysetools\n\nSehr geehrte Kundenservice, ich richte mich an Sie, um Informationen \u00fcber Datenanalysetools zu erhalten, die es erm\u00f6glichen, die Investitionsstrategien von Finanzinstituten zu optimieren. K\u00f6nnten Sie mir bitte Details zu den verf\u00fcgbaren Tools und ihren Funktionen liefern? Ich freue mich darauf, wenn Sie mir Empfehlungen oder Vorschl\u00e4ge geben, um das passende Tool f\u00fcr die Bed\u00fcrfnisse unserer Firma auszuw\u00e4hlen. Dar\u00fcber hinaus w\u00fcrde ich gern wissen, ob es Fallstudien oder Erfolgsf\u00e4lle gibt, bei denen andere Finanzinstitute diese Tools nutzen, um ihre Investitionsstrategien zu verbessern My name is Elena Ivanova.. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und Zeit. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        649,
+        662
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        732,
+        749
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Finanzielle Investitionsanalysetools\n\nSehr geehrte Kundenservice, ich richte mich an Sie, um Informationen \u00fcber Datenanalysetools zu erhalten, die es erm\u00f6glichen, die Investitionsstrategien von Finanzinstituten zu optimieren. K\u00f6nnten Sie mir bitte Details zu den verf\u00fcgbaren Tools und ihren Funktionen liefern? Ich freue mich darauf, wenn Sie mir Empfehlungen oder Vorschl\u00e4ge geben, um das passende Tool f\u00fcr die Bed\u00fcrfnisse unserer Firma auszuw\u00e4hlen. Dar\u00fcber hinaus w\u00fcrde ich gern wissen, ob es Fallstudien oder Erfolgsf\u00e4lle gibt, bei denen andere Finanzinstitute diese Tools nutzen, um ihre Investitionsstrategien zu verbessern My name is [full_name].. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und Zeit. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

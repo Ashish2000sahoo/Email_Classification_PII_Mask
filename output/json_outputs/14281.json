@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Verbessern des Projektmanagements mit Ubuntu\n\nLieber Kundendienst, ich wende mich an Sie, um zu erfahren, wie ich Ubuntu 20.04 LTS mit Redis 6.2 kombinieren kann, um den Skalierungs- und Leistungsbereich unseres Projektmanagements zu verbessern. Ich denke, dass diese Integration es unserem Team erm\u00f6glicht, gr\u00f6\u00dfere Lasten zu verarbeiten und unseren Klienten bessere Dienstleistungen zu bieten. K\u00f6nnten Sie mir bitte mehr Informationen zu dieser Integration geben? Ich w\u00fcrde mich sehr \u00fcber allgemeine Anleitungen oder Ressourcen freuen, die Sie mir zur Verf\u00fcgung stellen k\u00f6nnen. Zus\u00e4tzlich w\u00fcsste ich gerne, ob es bestehende Systemanforderungen oder potenzielle Herausforderungen gibt, die ich beachten sollte. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at carlosm@gmail.com.. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        904,
+        918
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        784,
+        801
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        130,
+        135
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    }
+  ],
+  "masked_email": "Subject: Verbessern des Projektmanagements mit Ubuntu\n\nLieber Kundendienst, ich wende mich an Sie, um zu erfahren, wie ich Ubuntu [phone_number] LTS mit Redis 6.2 kombinieren kann, um den Skalierungs- und Leistungsbereich unseres Projektmanagements zu verbessern. Ich denke, dass diese Integration es unserem Team erm\u00f6glicht, gr\u00f6\u00dfere Lasten zu verarbeiten und unseren Klienten bessere Dienstleistungen zu bieten. K\u00f6nnten Sie mir bitte mehr Informationen zu dieser Integration geben? Ich w\u00fcrde mich sehr \u00fcber allgemeine Anleitungen oder Ressourcen freuen, die Sie mir zur Verf\u00fcgung stellen k\u00f6nnen. Zus\u00e4tzlich w\u00fcsste ich gerne, ob es bestehende Systemanforderungen oder potenzielle Herausforderungen gibt, die ich beachten sollte. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] My name is [full_name].",
+  "category_of_the_email": "Request"
+}

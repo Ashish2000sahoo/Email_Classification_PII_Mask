@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringendes Problem mit dem AWS-Tool\n\nSehr geehrter Kundenservice, ich hoffe, dieses Schreiben erreicht Sie wohl. Ich schreibe, um ein kritisches Problem anzusprechen, das wir mit dem AWS-Kostenoptimierungstool haben, das f\u00fcr unsere Budgetierung innerhalb des Cloud-Computing-Dienstes von entscheidender Bedeutung ist You can reach me at carlosm@gmail.com.. Leider hat dieses Problem erhebliche Auswirkungen auf unsere Finanzplanung und Entscheidungsprozesse My name is John Doe.. Das betroffene Produkt ist der AWS Management Service. Unser Team ist stark auf dieses Tool angewiesen, um die Cloud-Ausgaben genau zu verwalten und vorherzusagen, und die aktuelle Fehlfunktion f\u00fchrt zu Abweichungen in unseren Kostenanalysen. Ich bitte um Ihre sofortige Aufmerksamkeit f\u00fcr dieses Anliegen und w\u00e4re dankbar f\u00fcr jede Anleitung oder L\u00f6sung, die Sie anbieten k\u00f6nnen, um das Problem schnell zu l\u00f6sen. Bitte z\u00f6gern Sie nicht, mich direkt zu kontaktieren, wenn es Ihnen passt. Vielen Dank im Voraus f\u00fcr Ihre Hilfe. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        478,
+        486
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        346,
+        363
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Dringendes Problem mit dem AWS-Tool\n\nSehr geehrter Kundenservice, ich hoffe, dieses Schreiben erreicht Sie wohl. Ich schreibe, um ein kritisches Problem anzusprechen, das wir mit dem AWS-Kostenoptimierungstool haben, das f\u00fcr unsere Budgetierung innerhalb des Cloud-Computing-Dienstes von entscheidender Bedeutung ist You can reach me at [email].. Leider hat dieses Problem erhebliche Auswirkungen auf unsere Finanzplanung und Entscheidungsprozesse My name is [full_name].. Das betroffene Produkt ist der AWS Management Service. Unser Team ist stark auf dieses Tool angewiesen, um die Cloud-Ausgaben genau zu verwalten und vorherzusagen, und die aktuelle Fehlfunktion f\u00fchrt zu Abweichungen in unseren Kostenanalysen. Ich bitte um Ihre sofortige Aufmerksamkeit f\u00fcr dieses Anliegen und w\u00e4re dankbar f\u00fcr jede Anleitung oder L\u00f6sung, die Sie anbieten k\u00f6nnen, um das Problem schnell zu l\u00f6sen. Bitte z\u00f6gern Sie nicht, mich direkt zu kontaktieren, wenn es Ihnen passt. Vielen Dank im Voraus f\u00fcr Ihre Hilfe. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Data Encryption Malfunction Reported\n\nGreetings Customer Support, I am contacting you regarding an unexpected data encryption malfunction that we've encountered. Our system was functioning properly until yesterday, but now we are facing challenges with data encryption You can reach me at liuwei@business.cn.. We suspect this might be linked to an outdated Node.js version. We have attempted to restart the servers and update MySQL, yet the issue remains unresolved. We would be grateful for your assistance in addressing this matter promptly. Your guidance or support would be highly appreciated to ensure our system resumes normal operation. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        675,
+        683
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        309,
+        327
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Data Encryption Malfunction Reported\n\nGreetings Customer Support, I am contacting you regarding an unexpected data encryption malfunction that we've encountered. Our system was functioning properly until yesterday, but now we are facing challenges with data encryption You can reach me at [email].. We suspect this might be linked to an outdated Node.js version. We have attempted to restart the servers and update MySQL, yet the issue remains unresolved. We would be grateful for your assistance in addressing this matter promptly. Your guidance or support would be highly appreciated to ensure our system resumes normal operation. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

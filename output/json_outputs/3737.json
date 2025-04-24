@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Resolution for Onboarding Delays\n\nThe onboarding process for an employee is being hindered by a lack of adequate training resources. Despite reaching out to IT and reviewing the manuals, and escalating the issue internally, the problem remains unresolved You can reach me at omar.hassan@secure.net.. I require your help to address this and ensure the onboarding is completed smoothly. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        412
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        284,
+        306
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Resolution for Onboarding Delays\n\nThe onboarding process for an employee is being hindered by a lack of adequate training resources. Despite reaching out to IT and reviewing the manuals, and escalating the issue internally, the problem remains unresolved You can reach me at [email].. I require your help to address this and ensure the onboarding is completed smoothly. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Integration von OBS Studio\n\nEs gibt Fehler nach der Integration von OBS Studio in ClickUp My name is David Kim.. Die Projektmanagement-Funktion wird aufgrund von Kompatibilit\u00e4tsproblemen beeintr\u00e4chtigt. Das Programm wurde neu gestartet und Updates wurden \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. Es wird Unterst\u00fctzung ben\u00f6tigt, um das Problem zu l\u00f6sen. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        136
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        410,
+        433
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Integration von OBS Studio\n\nEs gibt Fehler nach der Integration von OBS Studio in ClickUp My name is [full_name].. Die Projektmanagement-Funktion wird aufgrund von Kompatibilit\u00e4tsproblemen beeintr\u00e4chtigt. Das Programm wurde neu gestartet und Updates wurden \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. Es wird Unterst\u00fctzung ben\u00f6tigt, um das Problem zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

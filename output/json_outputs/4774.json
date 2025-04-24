@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Unauthorized Access Issue\n\nRespected Customer Support, I am contacting you to report an unauthorized access incident involving our medical records My name is Liu Wei.. Our team has identified a possible vulnerability in our MongoDB database and has already taken steps such as conducting a system scan with ESET, updating our Git repository, and installing Kaspersky antivirus software. Despite these actions, we still need your assistance to secure our database more effectively. Could you provide us with guidance on how to proceed and take additional security measures to prevent future unauthorized access? Your prompt response in this matter would be greatly appreciated You can reach me at omar.hassan@secure.net.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        186
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        721,
+        743
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Unauthorized Access Issue\n\nRespected Customer Support, I am contacting you to report an unauthorized access incident involving our medical records My name is [full_name].. Our team has identified a possible vulnerability in our MongoDB database and has already taken steps such as conducting a system scan with ESET, updating our Git repository, and installing Kaspersky antivirus software. Despite these actions, we still need your assistance to secure our database more effectively. Could you provide us with guidance on how to proceed and take additional security measures to prevent future unauthorized access? Your prompt response in this matter would be greatly appreciated You can reach me at [email].. Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

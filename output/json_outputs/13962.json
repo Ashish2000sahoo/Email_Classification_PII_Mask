@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundendienstbetreutes ClickUp Problem\n\nLieber Kundenservice, ich m\u00f6chte mich \u00fcber vor\u00fcbergehende Verbindungsst\u00f6rungen bei ClickUp beklagen, da der Zugang zu Projektmanagementfunktionen versperrt ist. Diese Probleme k\u00f6nnten durch die neuesten Updates, Konfliktsoftware oder Netzwerkturbulenz verursacht worden sein. Trotz Austauschs des Netzwerksatzes und des Anwendungs-Puffers bestehen die Probleme weiterhin auf verschiedenen Ger\u00e4ten und Benutzerkonten You can reach me at liuwei@business.cn.. Ich sch\u00e4tze eine schnelle L\u00f6sung f\u00fcr dieses Problem My name is John Doe.. Bitte informieren Sie mich, falls weitere Informationen ben\u00f6tigt werden, um das Problem besser zu verstehen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        568,
+        576
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        484,
+        502
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Kundendienstbetreutes ClickUp Problem\n\nLieber Kundenservice, ich m\u00f6chte mich \u00fcber vor\u00fcbergehende Verbindungsst\u00f6rungen bei ClickUp beklagen, da der Zugang zu Projektmanagementfunktionen versperrt ist. Diese Probleme k\u00f6nnten durch die neuesten Updates, Konfliktsoftware oder Netzwerkturbulenz verursacht worden sein. Trotz Austauschs des Netzwerksatzes und des Anwendungs-Puffers bestehen die Probleme weiterhin auf verschiedenen Ger\u00e4ten und Benutzerkonten You can reach me at [email].. Ich sch\u00e4tze eine schnelle L\u00f6sung f\u00fcr dieses Problem My name is [full_name].. Bitte informieren Sie mich, falls weitere Informationen ben\u00f6tigt werden, um das Problem besser zu verstehen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

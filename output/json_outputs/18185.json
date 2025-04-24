@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Report Update\n\nDear Customer Support,\\n\\nI have noticed that the investment reports did not update automatically as expected last night. I suspect this could be a result of a data analytics integration issue with our Salesforce CRM My name is Maria Gonzalez.. I have already attempted to restart the server and check the WordPress plugin settings, but the problem continues to persist.\\n\\nI would be grateful if you could look into this issue and offer a solution at your earliest convenience. Please let me know if you require any additional information from me to address this problem.\\n\\nThank you for your attention and assistance.\\n\\nBest regards You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        290
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        702,
+        724
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Report Update\n\nDear Customer Support,\\n\\nI have noticed that the investment reports did not update automatically as expected last night. I suspect this could be a result of a data analytics integration issue with our Salesforce CRM My name is [full_name].. I have already attempted to restart the server and check the WordPress plugin settings, but the problem continues to persist.\\n\\nI would be grateful if you could look into this issue and offer a solution at your earliest convenience. Please let me know if you require any additional information from me to address this problem.\\n\\nThank you for your attention and assistance.\\n\\nBest regards You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

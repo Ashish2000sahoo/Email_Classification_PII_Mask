@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of Data Breach in Hospital's Network\n\nWe have identified a data breach within our hospital's network. Potential causes include weak passwords or outdated software My name is Carlos Mendoza.. Despite restarting the modem and adjusting camera settings, the problem remains unresolved. Urgent help is required to address this situation. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        210
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        373,
+        396
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Notification of Data Breach in Hospital's Network\n\nWe have identified a data breach within our hospital's network. Potential causes include weak passwords or outdated software My name is [full_name].. Despite restarting the modem and adjusting camera settings, the problem remains unresolved. Urgent help is required to address this situation. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

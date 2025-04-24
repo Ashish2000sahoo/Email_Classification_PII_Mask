@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ursriosant: M\u00e9dizinische Datenverletzung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um eine sehr ernste Verletzung unserer medizinischen Daten zu melden My name is Sophia Rossi.. Wir haben unerlaubten Zugriff auf Patientendaten festgestellt, was eine gro\u00dfes Anliegen ist. Unsere erste Untersuchung deutet darauf hin, dass die Verletzung m\u00f6glicherweise durch eine ausgetauschte WordPress-Plugin-Vulnerabilit\u00e4t entstanden ist You can reach me at janesmith@company.com.. Wir haben bereits Ma\u00dfnahmen ergriffen, indem wir alle Plugins aktualisiert, Passw\u00f6rter neu gesetzt und nach Schadsoftware gesucht haben. Allerdings ben\u00f6tigen wir Ihre Unterst\u00fctzung, um die Untersuchung weiterzuf\u00fchren und unser System zu sichern. K\u00f6nnten Sie bitte Anleitungen zur Durchf\u00fchrung der Untersuchung und Empfehlungen f\u00fcr zus\u00e4tzliche Sicherheitsma\u00dfnahmen geben, um solche Vorf\u00e4lle in Zukunft zu vermeiden? Ich danke Ihnen in voraussichtlich f\u00fcr Ihre prompte Beachtung dieser Angelegenheit, da die Sicherheit der Patientendaten uns am meisten am Herzen liegt.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        458,
+        479
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Ursriosant: M\u00e9dizinische Datenverletzung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um eine sehr ernste Verletzung unserer medizinischen Daten zu melden My name is [full_name].. Wir haben unerlaubten Zugriff auf Patientendaten festgestellt, was eine gro\u00dfes Anliegen ist. Unsere erste Untersuchung deutet darauf hin, dass die Verletzung m\u00f6glicherweise durch eine ausgetauschte WordPress-Plugin-Vulnerabilit\u00e4t entstanden ist You can reach me at [email].. Wir haben bereits Ma\u00dfnahmen ergriffen, indem wir alle Plugins aktualisiert, Passw\u00f6rter neu gesetzt und nach Schadsoftware gesucht haben. Allerdings ben\u00f6tigen wir Ihre Unterst\u00fctzung, um die Untersuchung weiterzuf\u00fchren und unser System zu sichern. K\u00f6nnten Sie bitte Anleitungen zur Durchf\u00fchrung der Untersuchung und Empfehlungen f\u00fcr zus\u00e4tzliche Sicherheitsma\u00dfnahmen geben, um solche Vorf\u00e4lle in Zukunft zu vermeiden? Ich danke Ihnen in voraussichtlich f\u00fcr Ihre prompte Beachtung dieser Angelegenheit, da die Sicherheit der Patientendaten uns am meisten am Herzen liegt.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Project Timelines Not Updating Correctly\n\nHello Customer Support, I am facing problems with project timelines not updating You can reach me at omar.hassan@secure.net.. It appears there might be a database sync issue. Despite restarting the application server, the problem remains unresolved. I would be grateful if you could examine this and offer a resolution at your earliest convenience. Please inform me if you require any further details from me to address this issue. Thank you for your time and assistance. I look forward to your prompt response. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        586,
+        599
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        164,
+        186
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issues with Project Timelines Not Updating Correctly\n\nHello Customer Support, I am facing problems with project timelines not updating You can reach me at [email].. It appears there might be a database sync issue. Despite restarting the application server, the problem remains unresolved. I would be grateful if you could examine this and offer a resolution at your earliest convenience. Please inform me if you require any further details from me to address this issue. Thank you for your time and assistance. I look forward to your prompt response. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

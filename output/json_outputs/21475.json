@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema com o Teclado\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para relatar um problema com o recurso de teclado destac\u00e1vel que estou enfrentando com meu Microsoft Surface Pro 7. Infelizmente, parece que o teclado n\u00e3o est\u00e1 funcionando como esperado, o que est\u00e1 afetando significativamente a usabilidade do dispositivo.\n\nO problema se manifesta como o teclado desconectando aleatoriamente durante o uso, o que interrompe meu fluxo de trabalho e torna dif\u00edcil completar tarefas com efici\u00eancia You can reach me at sophia.rossi@service.it.. Eu assegurei que todas as conex\u00f5es est\u00e3o seguras e tentei etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como reiniciar o dispositivo e atualizar o software, mas o problema persiste.\n\nAgradeceria qualquer assist\u00eancia adicional e orienta\u00e7\u00e3o que voc\u00ea pudesse fornecer para resolver este problema prontamente. Se precisar de mais detalhes ou tiver solu\u00e7\u00f5es acion\u00e1veis, por favor me avise. Obrigado pela sua aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n\n<name>\n<email> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1056,
+        1064
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        565,
+        588
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problema com o Teclado\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para relatar um problema com o recurso de teclado destac\u00e1vel que estou enfrentando com meu Microsoft Surface Pro 7. Infelizmente, parece que o teclado n\u00e3o est\u00e1 funcionando como esperado, o que est\u00e1 afetando significativamente a usabilidade do dispositivo.\n\nO problema se manifesta como o teclado desconectando aleatoriamente durante o uso, o que interrompe meu fluxo de trabalho e torna dif\u00edcil completar tarefas com efici\u00eancia You can reach me at [email].. Eu assegurei que todas as conex\u00f5es est\u00e3o seguras e tentei etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como reiniciar o dispositivo e atualizar o software, mas o problema persiste.\n\nAgradeceria qualquer assist\u00eancia adicional e orienta\u00e7\u00e3o que voc\u00ea pudesse fornecer para resolver este problema prontamente. Se precisar de mais detalhes ou tiver solu\u00e7\u00f5es acion\u00e1veis, por favor me avise. Obrigado pela sua aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n\n<name>\n<email> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

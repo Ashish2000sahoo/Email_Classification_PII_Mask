@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Figma Support\n\nDear Support, I am reaching out to inquire about integrating Figma into our project management SaaS. Could you please provide detailed documentation and resources for this process? I would greatly appreciate any guidance on setting up the integration, including the necessary API keys and authentication methods You can reach me at liuwei@business.cn.. Additionally, could you inform me about specific features and functionalities available in the Figma SaaS? Thank you for your time and assistance My name is Carlos Mendoza.. I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        534,
+        548
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        356,
+        374
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Figma Support\n\nDear Support, I am reaching out to inquire about integrating Figma into our project management SaaS. Could you please provide detailed documentation and resources for this process? I would greatly appreciate any guidance on setting up the integration, including the necessary API keys and authentication methods You can reach me at [email].. Additionally, could you inform me about specific features and functionalities available in the Figma SaaS? Thank you for your time and assistance My name is [full_name].. I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

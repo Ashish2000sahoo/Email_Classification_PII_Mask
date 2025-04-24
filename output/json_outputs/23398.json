@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incidente de alta prioridade: Teclado com mal funcionamento no Surface Pro 7\n\nCaro Atendimento ao Cliente,\n\nEstou enfrentando um problema de alta prioridade com meu Microsoft Surface Pro 7. O teclado destac\u00e1vel est\u00e1 com mal funcionamento, o que est\u00e1 afetando severamente minha produtividade no trabalho You can reach me at janesmith@company.com.. Qualquer tecla que eu pressione \u00e0s vezes n\u00e3o \u00e9 registrada ou registra v\u00e1rias vezes, interrompendo meu fluxo de trabalho. O n\u00famero de s\u00e9rie do meu dispositivo \u00e9 <serial_num>. Preciso urgentemente de assist\u00eancia para resolver esse problema My name is Elena Ivanova.. Uma resposta r\u00e1pida seria muito apreciada.\n\nObrigado pela sua compreens\u00e3o e assist\u00eancia.\n\nAtenciosamente,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        605,
+        618
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        332,
+        353
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Incidente de alta prioridade: Teclado com mal funcionamento no Surface Pro 7\n\nCaro Atendimento ao Cliente,\n\nEstou enfrentando um problema de alta prioridade com meu Microsoft Surface Pro 7. O teclado destac\u00e1vel est\u00e1 com mal funcionamento, o que est\u00e1 afetando severamente minha produtividade no trabalho You can reach me at [email].. Qualquer tecla que eu pressione \u00e0s vezes n\u00e3o \u00e9 registrada ou registra v\u00e1rias vezes, interrompendo meu fluxo de trabalho. O n\u00famero de s\u00e9rie do meu dispositivo \u00e9 <serial_num>. Preciso urgentemente de assist\u00eancia para resolver esse problema My name is [full_name].. Uma resposta r\u00e1pida seria muito apreciada.\n\nObrigado pela sua compreens\u00e3o e assist\u00eancia.\n\nAtenciosamente,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

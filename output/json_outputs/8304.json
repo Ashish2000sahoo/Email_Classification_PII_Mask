@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Protocols for Safeguarding Patient Information\n\nCould you please elucidate the safeguards in effect for maintaining the confidentiality and integrity of patient data? What procedures are in place to protect this information from unauthorized access?. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        281,
+        298
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Protocols for Safeguarding Patient Information\n\nCould you please elucidate the safeguards in effect for maintaining the confidentiality and integrity of patient data? What procedures are in place to protect this information from unauthorized access?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

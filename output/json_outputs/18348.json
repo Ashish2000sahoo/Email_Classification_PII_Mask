@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Failure in Encrypting Data for Medical Records\n\nThe data encryption process encountered issues because of obsolete firmware. After restarting the servers and updating the software, the problem still exists.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        254
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Failure in Encrypting Data for Medical Records\n\nThe data encryption process encountered issues because of obsolete firmware. After restarting the servers and updating the software, the problem still exists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

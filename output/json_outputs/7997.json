@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reported Problem with Software Crashing During Project Upload Across Multiple Devices\n\nA user has reported that the software is crashing when uploading projects across multiple devices. The user has already tried resolving the issue by restarting the devices and reinstalling the software, but the problem continues to persist.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        375
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem with Software Crashing During Project Upload Across Multiple Devices\n\nA user has reported that the software is crashing when uploading projects across multiple devices. The user has already tried resolving the issue by restarting the devices and reinstalling the software, but the problem continues to persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

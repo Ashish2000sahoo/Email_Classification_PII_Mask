@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia com Configura\u00e7\u00e3o de Impressora\n\nOl\u00e1 suporte ao cliente, preciso de ajuda para mudar a configura\u00e7\u00e3o da minha impressora Canon PIXMA MG3620 para impress\u00e3o sem fio You can reach me at liuwei@business.cn.. Por favor, forne\u00e7a instru\u00e7\u00f5es passo a passo para configura\u00e7\u00e3o. Aguardo sua resposta r\u00e1pida. Obrigado, <name>, conta <acc_num>. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        361,
+        368
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        202,
+        220
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        154,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia com Configura\u00e7\u00e3o de Impressora\n\nOl\u00e1 suporte ao cliente, preciso de ajuda para mudar a configura\u00e7\u00e3o da minha impressora Canon PIXMA MG[phone_number] para impress\u00e3o sem fio You can reach me at [email].. Por favor, forne\u00e7a instru\u00e7\u00f5es passo a passo para configura\u00e7\u00e3o. Aguardo sua resposta r\u00e1pida. Obrigado, <name>, conta <acc_num>. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

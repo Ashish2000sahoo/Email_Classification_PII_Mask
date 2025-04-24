@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Latest Integration Update\n\nHello Customer Support, we are encountering a significant issue with multiple applications due to a recent integration update on the SaaS platform. Despite our attempts to rollback the recent changes and re-establish connections, the issue continues to persist My name is Carlos Mendoza.. We urgently request your assistance to resolve this matter as soon as possible to minimize the disruption. Please inform us of the next steps we should take You can reach me at maria.gonzalez@shop.es.. We greatly appreciate your prompt attention to this urgent matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        326,
+        340
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        517,
+        539
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Latest Integration Update\n\nHello Customer Support, we are encountering a significant issue with multiple applications due to a recent integration update on the SaaS platform. Despite our attempts to rollback the recent changes and re-establish connections, the issue continues to persist My name is [full_name].. We urgently request your assistance to resolve this matter as soon as possible to minimize the disruption. Please inform us of the next steps we should take You can reach me at [email].. We greatly appreciate your prompt attention to this urgent matter.",
+  "category_of_the_email": "Incident"
+}

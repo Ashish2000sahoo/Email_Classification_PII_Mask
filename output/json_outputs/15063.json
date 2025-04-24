@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung zur Ermittlung des Problems mit dem Data analytics Dashboard\n\nDer Data analytics Dashboard hat sich gefroren, da es einen Ausfall bei einer Elasticsearch Abfrage gab. Es k\u00f6nnte sich um ein unkompatibles Datenformat handeln. Sie haben bereits den Server neu gestartet und die Logs gepr\u00fcft, aber das Problem besteht weiterhin You can reach me at carlosm@gmail.com.. Ich m\u00f6chte Ihnen helfen, dieses Problem zu l\u00f6sen, ben\u00f6tige jedoch mehr Informationen \u00fcber das potenziell unkompatibele Datenformat. Bitte geben Sie mir mehr Details zu den Datenformaten und den Fehlern, die Sie gemeldet haben My name is Fatima Al-Farsi.. Falls n\u00f6tig, k\u00f6nnen wir auch telefonisch zusammenarbeiten, um das Problem weiter zu untersuchen. Teilen Sie mir ein geeignetes Zeitfenster f\u00fcr einen Anruf mit <tel_num> mit, falls Sie dies ben\u00f6tigen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        622,
+        631
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        365,
+        382
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung zur Ermittlung des Problems mit dem Data analytics Dashboard\n\nDer Data analytics Dashboard hat sich gefroren, da es einen Ausfall bei einer Elasticsearch Abfrage gab. Es k\u00f6nnte sich um ein unkompatibles Datenformat handeln. Sie haben bereits den Server neu gestartet und die Logs gepr\u00fcft, aber das Problem besteht weiterhin You can reach me at [email].. Ich m\u00f6chte Ihnen helfen, dieses Problem zu l\u00f6sen, ben\u00f6tige jedoch mehr Informationen \u00fcber das potenziell unkompatibele Datenformat. Bitte geben Sie mir mehr Details zu den Datenformaten und den Fehlern, die Sie gemeldet haben My name is [full_name]-Farsi.. Falls n\u00f6tig, k\u00f6nnen wir auch telefonisch zusammenarbeiten, um das Problem weiter zu untersuchen. Teilen Sie mir ein geeignetes Zeitfenster f\u00fcr einen Anruf mit <tel_num> mit, falls Sie dies ben\u00f6tigen.",
+  "category_of_the_email": "Incident"
+}

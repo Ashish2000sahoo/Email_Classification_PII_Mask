@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Platform Stopped Working Today Unexpectedly\n\nThe data analytics platform has stopped functioning You can reach me at liuwei@business.cn.. It could be due to recent Ubuntu updates that are not compatible. We have tried restarting the system and reviewing the logs, but the problem persists. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        325,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        141,
+        159
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Platform Stopped Working Today Unexpectedly\n\nThe data analytics platform has stopped functioning You can reach me at [email].. It could be due to recent Ubuntu updates that are not compatible. We have tried restarting the system and reviewing the logs, but the problem persists. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem Encountered with Investments Analyzer Leading to Crash\n\nThe Investments Analyzer experienced a crash, resulting in the loss of important data due to an incompatibility between the outdated PHP version and MATLAB.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        268
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Problem Encountered with Investments Analyzer Leading to Crash\n\nThe Investments Analyzer experienced a crash, resulting in the loss of important data due to an incompatibility between the outdated PHP version and MATLAB.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

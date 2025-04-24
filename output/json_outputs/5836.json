@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sichere Medizindaten-L\u00f6sungen\n\nKontaktieren Sie uns, um Sicherheitsma\u00dfnahmen zu besprechen, insbesondere in Bezug auf Krankenhaus-IT-L\u00f6sungen zur Verwendung medizinischer Daten My name is John Doe.. K\u00f6nnten Sie bitte mehr Informationen zu den Ma\u00dfnahmen zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler Patientendaten geben? Wir freuen uns darauf, Ihre Datenschutzziele und Verfahren zu diskutieren You can reach me at carlosm@gmail.com.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        460,
+        477
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Sichere Medizindaten-L\u00f6sungen\n\nKontaktieren Sie uns, um Sicherheitsma\u00dfnahmen zu besprechen, insbesondere in Bezug auf Krankenhaus-IT-L\u00f6sungen zur Verwendung medizinischer Daten My name is [full_name].. K\u00f6nnten Sie bitte mehr Informationen zu den Ma\u00dfnahmen zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler Patientendaten geben? Wir freuen uns darauf, Ihre Datenschutzziele und Verfahren zu diskutieren You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

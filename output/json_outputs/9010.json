@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical glitch in website analytics\n\nHello support team, I am contacting you to notify about a problem with the analytics on our website My name is John Doe.. It unexpectedly ceased to function, and we have not been able to pinpoint the reason. We have already performed checks, verifications, and software restarts, yet the problem persists. We suspect the issue may be related to recent code adjustments or a software update gone wrong You can reach me at johndoe@email.com.. Kindly examine this situation and offer a prompt solution. We would be grateful for any help you can provide to resolve this issue as it is essential for our business operations. We rely on accurate analytics for decision-making, and we need this functionality to be operational. Thank you for your assistance and time.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        472,
+        489
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Technical glitch in website analytics\n\nHello support team, I am contacting you to notify about a problem with the analytics on our website My name is [full_name].. It unexpectedly ceased to function, and we have not been able to pinpoint the reason. We have already performed checks, verifications, and software restarts, yet the problem persists. We suspect the issue may be related to recent code adjustments or a software update gone wrong You can reach me at [email].. Kindly examine this situation and offer a prompt solution. We would be grateful for any help you can provide to resolve this issue as it is essential for our business operations. We rely on accurate analytics for decision-making, and we need this functionality to be operational. Thank you for your assistance and time.",
+  "category_of_the_email": "Incident"
+}

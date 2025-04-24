@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: New User\n\nCould you provide guidance on the optimal strategies for integrating new users into the project management system?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        171
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: New User\n\nCould you provide guidance on the optimal strategies for integrating new users into the project management system?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

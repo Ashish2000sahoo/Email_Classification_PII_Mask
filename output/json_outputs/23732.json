@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema frecuente de desconexi\u00f3n de Wi-Fi con la impresora Canon PIXMA\n\nEstimado equipo de soporte al cliente,\n\nEstoy escribiendo para expresar mi frustraci\u00f3n con la impresora Canon PIXMA MG3620 que compr\u00e9 en su tienda, experimentando problemas persistentes de conectividad por Wi-Fi. Desde la configuraci\u00f3n inicial, la impresora se desconecta frecuentemente del Wi-Fi, deteniendo abruptamente los procesos de impresi\u00f3n, lo que interrumpe significativamente mi trabajo. Este problema est\u00e1 causando considerables inconvenientes ya que dependo de una impresi\u00f3n fluida y sin interrupciones para tareas profesionales que son sensibles al tiempo.\n\nTras configurar la impresora como se indic\u00f3, ocasionalmente se conecta a la red, permitiendo imprimir por un breve periodo antes de desconectarse inesperadamente You can reach me at maria.gonzalez@shop.es.. La interrupci\u00f3n a mitad de trabajo significa que tengo que esperar o reiniciar el proceso de conexi\u00f3n cada vez que ocurre una interrupci\u00f3n; ninguna de las dos opciones es pr\u00e1ctica, especialmente para tareas de impresi\u00f3n en lotes. La soluci\u00f3n de problemas utilizando las directrices de soporte de Canon no ha proporcionado una soluci\u00f3n sostenible. Como se aconsej\u00f3, he verificado las actualizaciones de firmware, reposicionado el router para minimizar las perturbaciones y reiniciado la configuraci\u00f3n de Wi-Fi varias veces sin mejoras duraderas.\n\n\u00bfPodr\u00edan proporcionarme m\u00e1s informaci\u00f3n o pasos avanzados de soluci\u00f3n de problemas para resolver esta desconexi\u00f3n persistente? Si se necesita un reemplazo o reparaci\u00f3n, por favor inf\u00f3rmenme del procedimiento involucrado. Conf\u00edo en que su equipo puede ayudar de manera eficiente, considerando la reputaci\u00f3n que mantiene su empresa por un servicio r\u00e1pido y centrado en el cliente.\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su orientaci\u00f3n sobre el mejor curso de acci\u00f3n para remediar este problema y, idealmente, restaurar una conexi\u00f3n estable.\n\nSaludos cordiales,\n<name>\n<contact_info> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        2013,
+        2025
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        835,
+        857
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        200,
+        204
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Problema frecuente de desconexi\u00f3n de Wi-Fi con la impresora Canon PIXMA\n\nEstimado equipo de soporte al cliente,\n\nEstoy escribiendo para expresar mi frustraci\u00f3n con la impresora Canon PIXMA MG[phone_number] que compr\u00e9 en su tienda, experimentando problemas persistentes de conectividad por Wi-Fi. Desde la configuraci\u00f3n inicial, la impresora se desconecta frecuentemente del Wi-Fi, deteniendo abruptamente los procesos de impresi\u00f3n, lo que interrumpe significativamente mi trabajo. Este problema est\u00e1 causando considerables inconvenientes ya que dependo de una impresi\u00f3n fluida y sin interrupciones para tareas profesionales que son sensibles al tiempo.\n\nTras configurar la impresora como se indic\u00f3, ocasionalmente se conecta a la red, permitiendo imprimir por un breve periodo antes de desconectarse inesperadamente You can reach me at [email].. La interrupci\u00f3n a mitad de trabajo significa que tengo que esperar o reiniciar el proceso de conexi\u00f3n cada vez que ocurre una interrupci\u00f3n; ninguna de las dos opciones es pr\u00e1ctica, especialmente para tareas de impresi\u00f3n en lotes. La soluci\u00f3n de problemas utilizando las directrices de soporte de Canon no ha proporcionado una soluci\u00f3n sostenible. Como se aconsej\u00f3, he verificado las actualizaciones de firmware, reposicionado el router para minimizar las perturbaciones y reiniciado la configuraci\u00f3n de Wi-Fi varias veces sin mejoras duraderas.\n\n\u00bfPodr\u00edan proporcionarme m\u00e1s informaci\u00f3n o pasos avanzados de soluci\u00f3n de problemas para resolver esta desconexi\u00f3n persistente? Si se necesita un reemplazo o reparaci\u00f3n, por favor inf\u00f3rmenme del procedimiento involucrado. Conf\u00edo en que su equipo puede ayudar de manera eficiente, considerando la reputaci\u00f3n que mantiene su empresa por un servicio r\u00e1pido y centrado en el cliente.\n\nGracias por su pronta atenci\u00f3n a este asunto. Espero su orientaci\u00f3n sobre el mejor curso de acci\u00f3n para remediar este problema y, idealmente, restaurar una conexi\u00f3n estable.\n\nSaludos cordiales,\n<name>\n<contact_info> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

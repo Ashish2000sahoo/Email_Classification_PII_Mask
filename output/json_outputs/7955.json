@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on System Outages\n\nThe Investment Analysis System has experienced an unexpected system outage. This issue may have arisen due to the latest software update. After restarting the servers and checking network connections, the error persists. Our team is actively working to resolve the issue and requires additional support from the support department. We would appreciate any guidance or instructions that could aid in troubleshooting and resolving the problem You can reach me at omar.hassan@secure.net.. Please keep us informed of any further steps and let us know if you need additional information My name is Jane Smith.. We are available at any time to provide any necessary details.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        628,
+        638
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        496,
+        518
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Report on System Outages\n\nThe Investment Analysis System has experienced an unexpected system outage. This issue may have arisen due to the latest software update. After restarting the servers and checking network connections, the error persists. Our team is actively working to resolve the issue and requires additional support from the support department. We would appreciate any guidance or instructions that could aid in troubleshooting and resolving the problem You can reach me at [email].. Please keep us informed of any further steps and let us know if you need additional information My name is [full_name].. We are available at any time to provide any necessary details.",
+  "category_of_the_email": "Incident"
+}

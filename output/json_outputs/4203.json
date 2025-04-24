@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwarteter Betriebsstopp meldete ich heute\n\nSehr geehrte Kundenservice,\\n\\nich melde einen unerwarteten Betriebsstopp, der zu erheblichen Unterbrechungen unserer Gesch\u00e4ftsaktivit\u00e4ten gef\u00fchrt hat. Es wird vermutet, dass der Stopp durch \u00dcberlastung oder einen technischen Fehler verursacht wurde, obwohl der genaue Grund noch nicht gekl\u00e4rt ist.\\n\\nBislang haben wir versucht, die Dienste neu zu starten, die Logs zu pr\u00fcfen und die Leistung zu \u00fcberwachen My name is Jane Smith.. Allerdings beh\u00e4lt sich das Problem an, und wir ben\u00f6tigen Unterst\u00fctzung, um es zu l\u00f6sen.\\n\\nDie Beschreibung des Problems ist kurz wie folgt:\\n\\n**Was passierte:** Das System ging unerwartet aus und verursachte Verluste der Produktivit\u00e4t und Effizienz.\\n\\n**Warum es passiert sein k\u00f6nnte:** Wir vermuten, dass der Betriebsstopp durch \u00dcberlastung oder einen technischen Fehler verursacht wurde, aber wir ben\u00f6tigen eine weitere Untersuchung, um den Ursachenstand festzustellen.\\n\\n**Was bisher versucht wurde:** Unsere Team hat die Dienste neu gestartet, die Logs nach Fehlern durchsucht und die Leistung des Systems \u00fcberwacht, um m\u00f6gliche Probleme zu identifizieren You can reach me at liuwei@business.cn.. Allerdings bleibt das Problem unbehandelt.\\n\\nWir sch\u00e4tzen es sehr, wenn Sie sich umgehend um dieses Problem k\u00fcmmern und eine L\u00f6sung finden, um unser System so bald wie m\u00f6glich wieder in Betrieb zu nehmen.\\n\\nVielen Dank f\u00fcr Ihre schnelle Beachtung dieses Problems.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        474,
+        484
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1172,
+        1190
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unerwarteter Betriebsstopp meldete ich heute\n\nSehr geehrte Kundenservice,\\n\\nich melde einen unerwarteten Betriebsstopp, der zu erheblichen Unterbrechungen unserer Gesch\u00e4ftsaktivit\u00e4ten gef\u00fchrt hat. Es wird vermutet, dass der Stopp durch \u00dcberlastung oder einen technischen Fehler verursacht wurde, obwohl der genaue Grund noch nicht gekl\u00e4rt ist.\\n\\nBislang haben wir versucht, die Dienste neu zu starten, die Logs zu pr\u00fcfen und die Leistung zu \u00fcberwachen My name is [full_name].. Allerdings beh\u00e4lt sich das Problem an, und wir ben\u00f6tigen Unterst\u00fctzung, um es zu l\u00f6sen.\\n\\nDie Beschreibung des Problems ist kurz wie folgt:\\n\\n**Was passierte:** Das System ging unerwartet aus und verursachte Verluste der Produktivit\u00e4t und Effizienz.\\n\\n**Warum es passiert sein k\u00f6nnte:** Wir vermuten, dass der Betriebsstopp durch \u00dcberlastung oder einen technischen Fehler verursacht wurde, aber wir ben\u00f6tigen eine weitere Untersuchung, um den Ursachenstand festzustellen.\\n\\n**Was bisher versucht wurde:** Unsere Team hat die Dienste neu gestartet, die Logs nach Fehlern durchsucht und die Leistung des Systems \u00fcberwacht, um m\u00f6gliche Probleme zu identifizieren You can reach me at [email].. Allerdings bleibt das Problem unbehandelt.\\n\\nWir sch\u00e4tzen es sehr, wenn Sie sich umgehend um dieses Problem k\u00fcmmern und eine L\u00f6sung finden, um unser System so bald wie m\u00f6glich wieder in Betrieb zu nehmen.\\n\\nVielen Dank f\u00fcr Ihre schnelle Beachtung dieses Problems.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Marketing Software Update\n\nRespected Customer Support Team, <br><br>I am contacting you to seek an upgrade of our software integrations. As a marketing firm, we are experiencing difficulties in executing brand campaigns across various platforms. Our current software configuration is causing inefficiencies and inconsistencies, affecting our ability to deliver effective campaigns for our clients. <br><br>To address this, we need to update our software integrations to ensure seamless connectivity and effective communication among all platforms My name is Jane Smith.. This will allow us to automate tasks, optimize workflows, and deliver a more cohesive brand experience to our clients. <br><br>The update should include: <br><br>* Enhanced data synchronization across platforms<br>* Automated campaign deployment and tracking<br>* Real-time analytics and reporting<br>* Improved collaboration tools for team members<br><br>We believe this upgrade is crucial for our business operations and will enable us to provide better outcomes for our clients You can reach me at johndoe@email.com.. We would appreciate a timeline for the update and any relevant information needed from us. <br><br>We thank you for your attention to this matter and look forward to your response soon. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        579,
+        589
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1094,
+        1111
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Marketing Software Update\n\nRespected Customer Support Team, <br><br>I am contacting you to seek an upgrade of our software integrations. As a marketing firm, we are experiencing difficulties in executing brand campaigns across various platforms. Our current software configuration is causing inefficiencies and inconsistencies, affecting our ability to deliver effective campaigns for our clients. <br><br>To address this, we need to update our software integrations to ensure seamless connectivity and effective communication among all platforms My name is [full_name].. This will allow us to automate tasks, optimize workflows, and deliver a more cohesive brand experience to our clients. <br><br>The update should include: <br><br>* Enhanced data synchronization across platforms<br>* Automated campaign deployment and tracking<br>* Real-time analytics and reporting<br>* Improved collaboration tools for team members<br><br>We believe this upgrade is crucial for our business operations and will enable us to provide better outcomes for our clients You can reach me at [email].. We would appreciate a timeline for the update and any relevant information needed from us. <br><br>We thank you for your attention to this matter and look forward to your response soon. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

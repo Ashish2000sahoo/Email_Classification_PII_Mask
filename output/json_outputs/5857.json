@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr TensorFlow\n\nGeehrte Kundenservice, ich schreibe Ihnen, um eine detaillierte Dokumentation und Schritt-f\u00fcr-Schritt-Anweisungen f\u00fcr die Integration von TensorFlow in TYPO3 unter Ubuntu 22.04 LTS zu erhalten My name is Omar Hassan.. Es w\u00e4re sehr hilfreich, wenn Sie mir die n\u00f6tigen Schritte zur Verf\u00fcgung stellen k\u00f6nnten, um den Prozess einfacher zu gestalten und eine glatte Umsetzung sicherzustellen. Dar\u00fcber hinaus m\u00f6chte ich gerne erfahren, welche spezifischen Systemanforderungen und Abh\u00e4ngigkeiten erf\u00fcllt sein m\u00fcssen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren You can reach me at maria.gonzalez@shop.es.. Bitte lassen Sie mich wissen, wann ich zur\u00fcckkommen soll.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        254
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        652,
+        674
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        210,
+        215
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr TensorFlow\n\nGeehrte Kundenservice, ich schreibe Ihnen, um eine detaillierte Dokumentation und Schritt-f\u00fcr-Schritt-Anweisungen f\u00fcr die Integration von TensorFlow in TYPO3 unter Ubuntu [phone_number] LTS zu erhalten My name is [full_name].. Es w\u00e4re sehr hilfreich, wenn Sie mir die n\u00f6tigen Schritte zur Verf\u00fcgung stellen k\u00f6nnten, um den Prozess einfacher zu gestalten und eine glatte Umsetzung sicherzustellen. Dar\u00fcber hinaus m\u00f6chte ich gerne erfahren, welche spezifischen Systemanforderungen und Abh\u00e4ngigkeiten erf\u00fcllt sein m\u00fcssen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren You can reach me at [email].. Bitte lassen Sie mich wissen, wann ich zur\u00fcckkommen soll.",
+  "category_of_the_email": "Request"
+}

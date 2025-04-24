@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Investment Portfolio Performance\n\nDear Customer Support Team, I would like to draw your attention to an unexpected decline in the performance of my investment portfolio. After the initial inspection, it appears that the decline might be due to insufficient data analysis and the use of outdated models. Despite my attempts to resolve the issue by reviewing reports, checking data feeds, and recalculating the analysis, the performance remains inadequate. I would greatly appreciate it if you could further investigate the problem and assist me in providing the necessary guidance or instructions to resolve the issue. Please let me know if you require additional information to support your investigation You can reach me at janesmith@company.com.. I am confident that with your help, we can identify the source of the problem and make the necessary corrections to restore my portfolio My name is Carlos Mendoza.. Thank you for your time and attention to this matter. I look forward to hearing from you soon. Kind regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        926,
+        940
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        754,
+        775
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Investment Portfolio Performance\n\nDear Customer Support Team, I would like to draw your attention to an unexpected decline in the performance of my investment portfolio. After the initial inspection, it appears that the decline might be due to insufficient data analysis and the use of outdated models. Despite my attempts to resolve the issue by reviewing reports, checking data feeds, and recalculating the analysis, the performance remains inadequate. I would greatly appreciate it if you could further investigate the problem and assist me in providing the necessary guidance or instructions to resolve the issue. Please let me know if you require additional information to support your investigation You can reach me at [email].. I am confident that with your help, we can identify the source of the problem and make the necessary corrections to restore my portfolio My name is [full_name].. Thank you for your time and attention to this matter. I look forward to hearing from you soon. Kind regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

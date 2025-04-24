@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mitteilung \u00fcber einen Crash im Datenanalyse-Dashboards\n\nSehr geehrte Kundensupport, ich m\u00f6chte Ihnen mitteilen, dass ein Crash in unserem Datenanalyse-Dashboards aufgetreten ist. Dies geschah aufgrund einer unkompatiblen SQL-Server-Updateversion. Ich habe den Server neugestartet und die Protokolle gepr\u00fcft, aber das Problem blieb bestehen My name is Maria Gonzalez.. Das Dashboard ist f\u00fcr unseren t\u00e4glichen Betrieb entscheidend, und ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dringend umsehen k\u00f6nnten. Stellen Sie sich die M\u00f6glichkeit ein, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Ich werde Ihnen gerne weitere Details oder Unterst\u00fctzung zur Verf\u00fcgung stellen, falls erforderlich You can reach me at sophia.rossi@service.it.. Ich danke Ihnen f\u00fcr Ihre schnelle Bearbeitung dieser Angelegenheit und freue mich darauf, Ihre Antwort bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        360,
+        374
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        707,
+        730
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung \u00fcber einen Crash im Datenanalyse-Dashboards\n\nSehr geehrte Kundensupport, ich m\u00f6chte Ihnen mitteilen, dass ein Crash in unserem Datenanalyse-Dashboards aufgetreten ist. Dies geschah aufgrund einer unkompatiblen SQL-Server-Updateversion. Ich habe den Server neugestartet und die Protokolle gepr\u00fcft, aber das Problem blieb bestehen My name is [full_name].. Das Dashboard ist f\u00fcr unseren t\u00e4glichen Betrieb entscheidend, und ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich dringend umsehen k\u00f6nnten. Stellen Sie sich die M\u00f6glichkeit ein, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Ich werde Ihnen gerne weitere Details oder Unterst\u00fctzung zur Verf\u00fcgung stellen, falls erforderlich You can reach me at [email].. Ich danke Ihnen f\u00fcr Ihre schnelle Bearbeitung dieser Angelegenheit und freue mich darauf, Ihre Antwort bald zu erhalten.",
+  "category_of_the_email": "Incident"
+}

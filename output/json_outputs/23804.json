@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Return Request for MacBook Air M1 Purchase\n\nDear Customer Support,\n\nI hope this message finds you well. I recently purchased a MacBook Air M1 from your online store, and my order arrived a few days ago. The order number associated with this purchase is <acc_num>. While the transaction was smooth and the product arrived on time, I have been reconsidering my decision and am experiencing buyer's remorse You can reach me at elena.ivanova@support.org.. \n\nThe MacBook Air M1 package remains unopened, as I have not yet used it since delivery. I have decided not to keep it and would like to explore other options potentially more suited to my current needs My name is Carlos Mendoza.. According to your store's return policy, I understand that returns can be made within 30 days of purchase as long as the product is in its original and unopened condition. \n\nI would appreciate your guidance on how to proceed with this return. Could you please provide detailed instructions on the return process, including any necessary labels or forms I might need and deadlines I must meet to ensure the return is successful?\n\nThank you for your assistance.\n\nRegards,\n<name>\n<name> <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        675,
+        689
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        433,
+        458
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Return Request for MacBook Air M1 Purchase\n\nDear Customer Support,\n\nI hope this message finds you well. I recently purchased a MacBook Air M1 from your online store, and my order arrived a few days ago. The order number associated with this purchase is <acc_num>. While the transaction was smooth and the product arrived on time, I have been reconsidering my decision and am experiencing buyer's remorse You can reach me at [email].. \n\nThe MacBook Air M1 package remains unopened, as I have not yet used it since delivery. I have decided not to keep it and would like to explore other options potentially more suited to my current needs My name is [full_name].. According to your store's return policy, I understand that returns can be made within 30 days of purchase as long as the product is in its original and unopened condition. \n\nI would appreciate your guidance on how to proceed with this return. Could you please provide detailed instructions on the return process, including any necessary labels or forms I might need and deadlines I must meet to ensure the return is successful?\n\nThank you for your assistance.\n\nRegards,\n<name>\n<name> <tel_num>",
+  "category_of_the_email": "Request"
+}

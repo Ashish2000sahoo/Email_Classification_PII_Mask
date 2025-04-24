@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Billing Issue\n\nI am reaching out to address a billing concern related to my data analytics services My name is Liu Wei.. I've been charged twice on my recent statement, and I believe this might be due to a synchronization problem between Puppet and Firebase. I've reviewed my invoices and contacted support, but the issue remains unresolved. Could you please investigate and rectify the billing discrepancy? If you need more details, please inform me, and I will provide them. Thanks for your help. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        553,
+        576
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Billing Issue\n\nI am reaching out to address a billing concern related to my data analytics services My name is [full_name].. I've been charged twice on my recent statement, and I believe this might be due to a synchronization problem between Puppet and Firebase. I've reviewed my invoices and contacted support, but the issue remains unresolved. Could you please investigate and rectify the billing discrepancy? If you need more details, please inform me, and I will provide them. Thanks for your help. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

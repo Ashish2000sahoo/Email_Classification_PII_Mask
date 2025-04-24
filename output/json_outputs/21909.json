@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Dringende Supportanfrage: Dell XPS 13 9310 Problem\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um Sie auf ein wiederkehrendes Problem aufmerksam zu machen, das ich mit meinem Dell XPS 13 9310 habe. Nach dem neuesten Windows-Update zeigt mein Ger\u00e4t einen anhaltenden Bluescreen-Fehler an, der die Leistung und Nutzbarkeit erheblich beeintr\u00e4chtigt.\n\nDieses Problem begann sofort nach der Installation des neuen Updates, wobei der Bluescreen fast jedes Mal erscheint, wenn ich den Computer starte oder neu starte. Dar\u00fcber hinaus hat die Gesamtleistung des Ger\u00e4ts merklich nachgelassen, sodass Aufgaben, die einfach sein sollten, jetzt erheblich mehr Zeit in Anspruch nehmen und Anwendungen h\u00e4ufig abst\u00fcrzen.\n\nIch bin stark auf diesen Laptop f\u00fcr Arbeits- und pers\u00f6nliche Aufgaben angewiesen, wodurch dieses Problem besonders dringend wird. Ich habe einige grundlegende Fehlersuche Schritte unternommen, wie das Neustarten im abgesicherten Modus und die Suche nach weiteren Systemupdates, aber das Problem besteht weiterhin.\n\nBitte beraten Sie mich \u00fcber m\u00f6gliche L\u00f6sungen oder ob dies ein bekanntes Problem ist, f\u00fcr das bereits an einer L\u00f6sung gearbeitet wird You can reach me at janesmith@company.com.. Da ich verstehe, wie kritisch dieses Ger\u00e4t f\u00fcr meinen Alltag ist, w\u00fcrde ich eine schnelle Antwort sehr sch\u00e4tzen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem Thema.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<email_address>\n<tel_num>\n<acc_num> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1470,
+        1483
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1189,
+        1210
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        44,
+        51
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        198,
+        205
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Dringende Supportanfrage: Dell XPS [phone_number] Problem\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um Sie auf ein wiederkehrendes Problem aufmerksam zu machen, das ich mit meinem Dell XPS [phone_number] habe. Nach dem neuesten Windows-Update zeigt mein Ger\u00e4t einen anhaltenden Bluescreen-Fehler an, der die Leistung und Nutzbarkeit erheblich beeintr\u00e4chtigt.\n\nDieses Problem begann sofort nach der Installation des neuen Updates, wobei der Bluescreen fast jedes Mal erscheint, wenn ich den Computer starte oder neu starte. Dar\u00fcber hinaus hat die Gesamtleistung des Ger\u00e4ts merklich nachgelassen, sodass Aufgaben, die einfach sein sollten, jetzt erheblich mehr Zeit in Anspruch nehmen und Anwendungen h\u00e4ufig abst\u00fcrzen.\n\nIch bin stark auf diesen Laptop f\u00fcr Arbeits- und pers\u00f6nliche Aufgaben angewiesen, wodurch dieses Problem besonders dringend wird. Ich habe einige grundlegende Fehlersuche Schritte unternommen, wie das Neustarten im abgesicherten Modus und die Suche nach weiteren Systemupdates, aber das Problem besteht weiterhin.\n\nBitte beraten Sie mich \u00fcber m\u00f6gliche L\u00f6sungen oder ob dies ein bekanntes Problem ist, f\u00fcr das bereits an einer L\u00f6sung gearbeitet wird You can reach me at [email].. Da ich verstehe, wie kritisch dieses Ger\u00e4t f\u00fcr meinen Alltag ist, w\u00fcrde ich eine schnelle Antwort sehr sch\u00e4tzen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem Thema.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<email_address>\n<tel_num>\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

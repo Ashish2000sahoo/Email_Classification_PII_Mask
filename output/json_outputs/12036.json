@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Implement Google Meet\n\nI am contacting you to explore the possibility of integrating Google Meet with our project management software to improve our team's collaboration. Our team currently uses Google Meet for video calls, but we want to integrate it with our project management system to make our workflows more seamless You can reach me at omar.hassan@secure.net.. This would enable us to schedule meetings, share links, and work more effectively on projects My name is Elena Ivanova.. Could you furnish me with more details on the integration process and the features it includes? Also, please let me know if there are any specific prerequisites or constraints to be considered. If you need more information from me, kindly inform me. Looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        482,
+        495
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        352,
+        374
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Implement Google Meet\n\nI am contacting you to explore the possibility of integrating Google Meet with our project management software to improve our team's collaboration. Our team currently uses Google Meet for video calls, but we want to integrate it with our project management system to make our workflows more seamless You can reach me at [email].. This would enable us to schedule meetings, share links, and work more effectively on projects My name is [full_name].. Could you furnish me with more details on the integration process and the features it includes? Also, please let me know if there are any specific prerequisites or constraints to be considered. If you need more information from me, kindly inform me. Looking forward to your response.",
+  "category_of_the_email": "Request"
+}

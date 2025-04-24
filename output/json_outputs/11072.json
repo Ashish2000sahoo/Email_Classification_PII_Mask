@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Issue with Data Encryption System\n\nDear Customer Support, I am reaching out to discuss an unexpected problem with our data encryption system. The issue began abruptly, and we have not been able to pinpoint the exact cause. We believe it could be a result of a software issue or an update gone wrong. Despite our attempts to troubleshoot, such as restarting the systems and applying updates, we have not been able to resolve it. This data encryption problem has severely impacted our operations, and we need a solution at the earliest. Could you please investigate this matter urgently and provide us with a solution or at least an explanation of the issue? If you require any further information from me, please let me know My name is Sophia Rossi.. I am prepared to discuss this in more detail and provide any necessary details You can reach me at omar.hassan@secure.net.. I appreciate your quick response and look forward to your prompt resolution. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        752,
+        764
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        865,
+        887
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Issue with Data Encryption System\n\nDear Customer Support, I am reaching out to discuss an unexpected problem with our data encryption system. The issue began abruptly, and we have not been able to pinpoint the exact cause. We believe it could be a result of a software issue or an update gone wrong. Despite our attempts to troubleshoot, such as restarting the systems and applying updates, we have not been able to resolve it. This data encryption problem has severely impacted our operations, and we need a solution at the earliest. Could you please investigate this matter urgently and provide us with a solution or at least an explanation of the issue? If you require any further information from me, please let me know My name is [full_name].. I am prepared to discuss this in more detail and provide any necessary details You can reach me at [email].. I appreciate your quick response and look forward to your prompt resolution. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

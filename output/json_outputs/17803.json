@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request to Improve Maintenance Schedule for Enhanced Performance\n\nDear Customer Support, I am writing to request an update to our maintenance schedule My name is Carlos Mendoza.. During peak usage hours, our service experiences significant downtime, leading to lost productivity and revenue. We kindly request that the maintenance schedule be revised to minimize downtime during these hours, as this would greatly improve our overall service performance and user experience You can reach me at omar.hassan@secure.net.. We would appreciate it if this matter could be addressed as soon as possible. Please let us know if there is any additional information needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        185
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        500,
+        522
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Request to Improve Maintenance Schedule for Enhanced Performance\n\nDear Customer Support, I am writing to request an update to our maintenance schedule My name is [full_name].. During peak usage hours, our service experiences significant downtime, leading to lost productivity and revenue. We kindly request that the maintenance schedule be revised to minimize downtime during these hours, as this would greatly improve our overall service performance and user experience You can reach me at [email].. We would appreciate it if this matter could be addressed as soon as possible. Please let us know if there is any additional information needed.",
+  "category_of_the_email": "Change"
+}

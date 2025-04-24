@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de reemplazo inmediato para el televisor Samsung da\u00f1ado recibido\n\nEstimado Servicio al Cliente,\n\nRecientemente recib\u00ed mi televisor Samsung QLED QN90A, n\u00famero de orden <order_num>, y, desafortunadamente, lleg\u00f3 con da\u00f1os significativos You can reach me at carlosm@gmail.com.. La pantalla tiene grietas visibles, y el paquete parec\u00eda manipulado al momento de la entrega, lo cual es altamente preocupante. Debido a estos problemas, no puedo utilizar el producto como se pretend\u00eda.\n\nLe insto a procesar un reemplazo inmediato para esta unidad, ya que fue una inversi\u00f3n significativa y esperaba un mejor manejo. Por favor, ayuden con el proceso de devoluci\u00f3n y aseguren un r\u00e1pido reemplazo para evitar m\u00e1s inconvenientes.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nSinceramente,\n\n<name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        816,
+        823
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        273,
+        290
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de reemplazo inmediato para el televisor Samsung da\u00f1ado recibido\n\nEstimado Servicio al Cliente,\n\nRecientemente recib\u00ed mi televisor Samsung QLED QN90A, n\u00famero de orden <order_num>, y, desafortunadamente, lleg\u00f3 con da\u00f1os significativos You can reach me at [email].. La pantalla tiene grietas visibles, y el paquete parec\u00eda manipulado al momento de la entrega, lo cual es altamente preocupante. Debido a estos problemas, no puedo utilizar el producto como se pretend\u00eda.\n\nLe insto a procesar un reemplazo inmediato para esta unidad, ya que fue una inversi\u00f3n significativa y esperaba un mejor manejo. Por favor, ayuden con el proceso de devoluci\u00f3n y aseguren un r\u00e1pido reemplazo para evitar m\u00e1s inconvenientes.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nSinceramente,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

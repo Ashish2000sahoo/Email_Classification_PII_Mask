@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Marketing Strategies\n\nFacing reduced brand visibility even after implementing digital marketing strategies, possibly because of ineffective targeting My name is David Kim.. Analyzed audience engagement metrics and adjusted campaigns, but results are still unsatisfactory You can reach me at fatima.farsi@help.com.. The team has tried various methods and needs expert guidance to enhance the brand's online presence.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        194
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        317,
+        338
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Marketing Strategies\n\nFacing reduced brand visibility even after implementing digital marketing strategies, possibly because of ineffective targeting My name is [full_name].. Analyzed audience engagement metrics and adjusted campaigns, but results are still unsatisfactory You can reach me at [email].. The team has tried various methods and needs expert guidance to enhance the brand's online presence.",
+  "category_of_the_email": "Problem"
+}

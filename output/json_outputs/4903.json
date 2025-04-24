@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Scalable Project Management SaaS Integrations\n\nInquiring about the types of integrations available for our scalable project management SaaS. Could you provide more information on the third-party apps and APIs that are integrated? We are particularly interested in learning how these integrations can be customized to meet the specific needs of our organization You can reach me at janesmith@company.com.. Additionally, we would appreciate details on the security and reliability of these integrations My name is David Kim.. Thank you for your assistance, and we look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        521,
+        530
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        390,
+        411
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Scalable Project Management SaaS Integrations\n\nInquiring about the types of integrations available for our scalable project management SaaS. Could you provide more information on the third-party apps and APIs that are integrated? We are particularly interested in learning how these integrations can be customized to meet the specific needs of our organization You can reach me at [email].. Additionally, we would appreciate details on the security and reliability of these integrations My name is [full_name].. Thank you for your assistance, and we look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

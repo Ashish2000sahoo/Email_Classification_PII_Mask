@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerning Service Interruptions\n\ncurrently facing substantial service interruptions impacting investment data analysis tools and collaboration applications. These issues continue to occur across various products, even after restarting systems and confirming user permissions.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        324
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Concerning Service Interruptions\n\ncurrently facing substantial service interruptions impacting investment data analysis tools and collaboration applications. These issues continue to occur across various products, even after restarting systems and confirming user permissions.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Strategies for Brand Growth Through Digital Marketing\n\nHello customer support, I am contacting you to seek information about digital marketing strategies that could boost our marketing agency's growth. We aim to enhance our online footprint and allure a larger customer base My name is Maria Gonzalez.. Could you share details on the most effective digital marketing tactics that can aid us in reaching our objectives? We are particularly interested in social media marketing, email marketing, and search engine optimization. Thank you for your time and assistance. We are eagerly awaiting your response You can reach me at elena.ivanova@support.org.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        630,
+        655
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Strategies for Brand Growth Through Digital Marketing\n\nHello customer support, I am contacting you to seek information about digital marketing strategies that could boost our marketing agency's growth. We aim to enhance our online footprint and allure a larger customer base My name is [full_name].. Could you share details on the most effective digital marketing tactics that can aid us in reaching our objectives? We are particularly interested in social media marketing, email marketing, and search engine optimization. Thank you for your time and assistance. We are eagerly awaiting your response You can reach me at [email].. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

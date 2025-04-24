@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Service Outage Impacting Digital Marketing\n\nCustomer Support,\\n\\nI am reporting that a service outage has affected our digital marketing strategies, impacting the performance of our ad placements. The outage might have been due to server issues or software conflicts. Despite attempting system reboots and updates, the problem still persists.\\n\\nI would greatly appreciate it if you could look into this matter urgently and provide a solution to restore our services You can reach me at janesmith@company.com.. Please let me know if there is any additional information needed to facilitate the resolution process.\\n\\nThank you. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        667,
+        676
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        515,
+        536
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Service Outage Impacting Digital Marketing\n\nCustomer Support,\\n\\nI am reporting that a service outage has affected our digital marketing strategies, impacting the performance of our ad placements. The outage might have been due to server issues or software conflicts. Despite attempting system reboots and updates, the problem still persists.\\n\\nI would greatly appreciate it if you could look into this matter urgently and provide a solution to restore our services You can reach me at [email].. Please let me know if there is any additional information needed to facilitate the resolution process.\\n\\nThank you. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsl\u00fccke in medizinischen IT-Systemen des Krankenhauses gemeldet\n\nMedizinische Daten wurden durch veraltete Software kompromittiert. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        171,
+        186
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsl\u00fccke in medizinischen IT-Systemen des Krankenhauses gemeldet\n\nMedizinische Daten wurden durch veraltete Software kompromittiert. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

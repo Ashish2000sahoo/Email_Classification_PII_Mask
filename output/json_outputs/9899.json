@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Analytics\n\nThe data analytics tools are unresponsive, which is impeding our efforts to optimize investments You can reach me at david.kim@corp.kr.. Initial checks indicate potential performance issues with certain software components My name is Liu Wei.. We have already restarted devices, verified connections, and updated software, but the problem remains unresolved. We would greatly appreciate your prompt assistance in resolving this matter to minimize any operational impact.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        284
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        160,
+        177
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Analytics\n\nThe data analytics tools are unresponsive, which is impeding our efforts to optimize investments You can reach me at [email].. Initial checks indicate potential performance issues with certain software components My name is [full_name].. We have already restarted devices, verified connections, and updated software, but the problem remains unresolved. We would greatly appreciate your prompt assistance in resolving this matter to minimize any operational impact.",
+  "category_of_the_email": "Incident"
+}

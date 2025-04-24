@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrter Kundenserviceteam,\n\nich wende mich an Sie, um Sie \u00fcber ein Ladeproblem mit meinem Samsung Galaxy S21 Ultra zu informieren You can reach me at maria.gonzalez@shop.es.. Ich habe festgestellt, dass es nicht ordnungsgem\u00e4\u00df aufl\u00e4dt. K\u00f6nnten Sie mir bitte die n\u00e4chsten Schritte f\u00fcr eine Reparatur oder einen Austausch mitteilen?\n\nVielen Dank f\u00fcr Ihre Hilfe.\n\nMit besten Gr\u00fc\u00dfen,\n<name> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        414,
+        426
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        167,
+        189
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrter Kundenserviceteam,\n\nich wende mich an Sie, um Sie \u00fcber ein Ladeproblem mit meinem Samsung Galaxy S21 Ultra zu informieren You can reach me at [email].. Ich habe festgestellt, dass es nicht ordnungsgem\u00e4\u00df aufl\u00e4dt. K\u00f6nnten Sie mir bitte die n\u00e4chsten Schritte f\u00fcr eine Reparatur oder einen Austausch mitteilen?\n\nVielen Dank f\u00fcr Ihre Hilfe.\n\nMit besten Gr\u00fc\u00dfen,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

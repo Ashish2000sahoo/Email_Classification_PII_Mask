@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Marketing Campaign Metrics\n\nMarketing campaign metrics are not being tracked correctly because of an outdated Hadoop version You can reach me at janesmith@company.com.. Although we have upgraded Hadoop and rebooted the Hub, the problem continues. Could you please help us resolve this issue promptly? My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        342
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        167,
+        188
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Marketing Campaign Metrics\n\nMarketing campaign metrics are not being tracked correctly because of an outdated Hadoop version You can reach me at [email].. Although we have upgraded Hadoop and rebooted the Hub, the problem continues. Could you please help us resolve this issue promptly? My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

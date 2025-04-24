@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Desconexiones de Zoom 5.11.0\n\nEstimado Soporte al Cliente,\n\nEstoy escribiendo para informar que los usuarios est\u00e1n experimentando desconexiones inesperadas durante sesiones activas de videoconferencia en la versi\u00f3n 5.11.0 de Zoom. Este problema interrumpe reuniones importantes y afecta la productividad You can reach me at david.kim@corp.kr.. Solicitamos amablemente una soluci\u00f3n inmediata o orientaci\u00f3n sobre c\u00f3mo resolver este problema.\n\nGracias,\n<name>\n<tel_num>\n<email> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        342,
+        359
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Desconexiones de Zoom 5.11.0\n\nEstimado Soporte al Cliente,\n\nEstoy escribiendo para informar que los usuarios est\u00e1n experimentando desconexiones inesperadas durante sesiones activas de videoconferencia en la versi\u00f3n 5.11.0 de Zoom. Este problema interrumpe reuniones importantes y afecta la productividad You can reach me at [email].. Solicitamos amablemente una soluci\u00f3n inmediata o orientaci\u00f3n sobre c\u00f3mo resolver este problema.\n\nGracias,\n<name>\n<tel_num>\n<email> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for RapidMiner\n\nI need to integrate RapidMiner with our project management SaaS platform. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support for RapidMiner\n\nI need to integrate RapidMiner with our project management SaaS platform. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

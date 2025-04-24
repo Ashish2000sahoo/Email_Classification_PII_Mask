@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, requesting an enhancement in the sales strategy utilizing data analytics. This will enable us to optimize our investments and enhance client engagement My name is Elena Ivanova.. Data analytics offer significant insights into customer behavior, which helps us tailor our approach to meet their needs. By leveraging data analytics, we can identify areas for improvement, optimize our investments, and develop targeted marketing campaigns. Ultimately, this will lead to increased client satisfaction and loyalty. I would appreciate your assistance. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        594,
+        616
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, requesting an enhancement in the sales strategy utilizing data analytics. This will enable us to optimize our investments and enhance client engagement My name is [full_name].. Data analytics offer significant insights into customer behavior, which helps us tailor our approach to meet their needs. By leveraging data analytics, we can identify areas for improvement, optimize our investments, and develop targeted marketing campaigns. Ultimately, this will lead to increased client satisfaction and loyalty. I would appreciate your assistance. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

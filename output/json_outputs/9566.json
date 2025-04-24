@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: W\u00fcrde es m\u00f6glich sein, detailliertere Informationen \u00fcber die digitalen Strategie-Dienstleistungen f\u00fcr Markengr\u00f6\u00dfe zu erhalten? Ich m\u00f6chte gerne mehr dar\u00fcber erfahren, wie diese Dienstleistungen Unternehmen unterst\u00fctzen. Danke!\n\nIch freue mich, detailliertere Informationen zu den digitalen Strategie-Dienstleistungen f\u00fcr Markengr\u00f6\u00dfe zu erhalten. Die Dienstleistungen umfassen die Verwaltung sozialer Medien, Inhalts- und Online-Werbung, sowie die Verbesserung der Online-Pr\u00e4senz. Lassen Sie uns telefonieren, um die Vorteile dieser Dienstleistungen f\u00fcr Ihr Unternehmen zu besprechen You can reach me at johndoe@email.com.. Bitte geben Sie eine geeignete Zeit an, um mich anzurufen, unter <tel_num>. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        719,
+        731
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        612,
+        629
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: W\u00fcrde es m\u00f6glich sein, detailliertere Informationen \u00fcber die digitalen Strategie-Dienstleistungen f\u00fcr Markengr\u00f6\u00dfe zu erhalten? Ich m\u00f6chte gerne mehr dar\u00fcber erfahren, wie diese Dienstleistungen Unternehmen unterst\u00fctzen. Danke!\n\nIch freue mich, detailliertere Informationen zu den digitalen Strategie-Dienstleistungen f\u00fcr Markengr\u00f6\u00dfe zu erhalten. Die Dienstleistungen umfassen die Verwaltung sozialer Medien, Inhalts- und Online-Werbung, sowie die Verbesserung der Online-Pr\u00e4senz. Lassen Sie uns telefonieren, um die Vorteile dieser Dienstleistungen f\u00fcr Ihr Unternehmen zu besprechen You can reach me at [email].. Bitte geben Sie eine geeignete Zeit an, um mich anzurufen, unter <tel_num>. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

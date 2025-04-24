@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Incidents\n\nWe have experienced multiple application crashes and connectivity problems You can reach me at omar.hassan@secure.net.. Overloaded network and software compatibility issues are suspected. Restarting devices and updating drivers did not resolve the problems. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        299,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        125,
+        147
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Report on Incidents\n\nWe have experienced multiple application crashes and connectivity problems You can reach me at [email].. Overloaded network and software compatibility issues are suspected. Restarting devices and updating drivers did not resolve the problems. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

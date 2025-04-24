@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundensupport, ich melde mich bez\u00fcglich der unregelm\u00e4\u00dfigen Ergebnisse unserer digitalen Strategie. Es k\u00f6nnte sein, dass Datendisparit\u00e4ten und Schwierigkeiten bei der Software-Integration dahinterstecken. Wir haben versucht, das Problem durch Aktualisierung unserer Software und \u00dcberpr\u00fcfung unserer Analysen zu beheben, leider ohne Erfolg You can reach me at david.kim@corp.kr.. Ich sch\u00e4tze Ihre Unterst\u00fctzung, um das Problem zu l\u00f6sen. K\u00f6nnten Sie bitte helfen, den Ursprung des Problems zu identifizieren und m\u00f6gliche L\u00f6sungen vorzuschlagen? Ich freue mich darauf, die digitale Strategie erfolgreich zu bringen My name is Carlos Mendoza.. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        641,
+        655
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        377,
+        394
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundensupport, ich melde mich bez\u00fcglich der unregelm\u00e4\u00dfigen Ergebnisse unserer digitalen Strategie. Es k\u00f6nnte sein, dass Datendisparit\u00e4ten und Schwierigkeiten bei der Software-Integration dahinterstecken. Wir haben versucht, das Problem durch Aktualisierung unserer Software und \u00dcberpr\u00fcfung unserer Analysen zu beheben, leider ohne Erfolg You can reach me at [email].. Ich sch\u00e4tze Ihre Unterst\u00fctzung, um das Problem zu l\u00f6sen. K\u00f6nnten Sie bitte helfen, den Ursprung des Problems zu identifizieren und m\u00f6gliche L\u00f6sungen vorzuschlagen? Ich freue mich darauf, die digitale Strategie erfolgreich zu bringen My name is [full_name].. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

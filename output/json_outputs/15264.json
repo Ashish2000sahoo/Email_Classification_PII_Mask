@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierungsmethoden f\u00fcr Investitionsanalyse\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um zu erfahren, welche Optimierungsmethoden Smart-Tracker f\u00fcr Investitionsanalyse anbietet My name is Liu Wei.. K\u00f6nnten Sie mir bitte Details zu den verschiedenen Ans\u00e4tzen und Techniken zur Optimierung von Investitionsportfolios liefern? Es w\u00e4re mir auch wichtig, zu erfahren, wie diese Strategien dazu beitragen k\u00f6nnen, informiertere Investitionsentscheidungen zu treffen You can reach me at johndoe@email.com.. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob in Smart-Tracker bestimmte Tools oder Funktionen vorhanden sind, die bei der Investitionsanalyse und -optimierung helfen k\u00f6nnen. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        511,
+        528
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierungsmethoden f\u00fcr Investitionsanalyse\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um zu erfahren, welche Optimierungsmethoden Smart-Tracker f\u00fcr Investitionsanalyse anbietet My name is [full_name].. K\u00f6nnten Sie mir bitte Details zu den verschiedenen Ans\u00e4tzen und Techniken zur Optimierung von Investitionsportfolios liefern? Es w\u00e4re mir auch wichtig, zu erfahren, wie diese Strategien dazu beitragen k\u00f6nnen, informiertere Investitionsentscheidungen zu treffen You can reach me at [email].. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob in Smart-Tracker bestimmte Tools oder Funktionen vorhanden sind, die bei der Investitionsanalyse und -optimierung helfen k\u00f6nnen. Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

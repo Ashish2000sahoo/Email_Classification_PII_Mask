@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Wichtig: Probleme mit der Serververwaltung\n\nSehr geehrtes IT-Support-Team,\n\nIch kontaktiere Sie, um Sie \u00fcber ein schwerwiegendes Problem im Zusammenhang mit der Serververwaltung zu informieren, das sofortige Aufmerksamkeit erfordert My name is Omar Hassan.. Diese Probleme beeintr\u00e4chtigen unseren IT-Beratungsservice. Ihre schnelle Reaktion ist entscheidend, um die Funktionalit\u00e4t unserer wichtigen Operationen wiederherzustellen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        264
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        494,
+        511
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Wichtig: Probleme mit der Serververwaltung\n\nSehr geehrtes IT-Support-Team,\n\nIch kontaktiere Sie, um Sie \u00fcber ein schwerwiegendes Problem im Zusammenhang mit der Serververwaltung zu informieren, das sofortige Aufmerksamkeit erfordert My name is [full_name].. Diese Probleme beeintr\u00e4chtigen unseren IT-Beratungsservice. Ihre schnelle Reaktion ist entscheidend, um die Funktionalit\u00e4t unserer wichtigen Operationen wiederherzustellen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

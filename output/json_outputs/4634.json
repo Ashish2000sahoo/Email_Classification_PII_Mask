@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung\n\nWir haben Probleme mit dem kritischen Bereich der Integration, insbesondere bei der Synchronisierung von Projektdaten auf verschiedenen Plattformen, was auf Inkompatibilit\u00e4ten nach dem API-Update zur\u00fcckzuf\u00fchren ist. Wir haben bereits versucht, das Problem zu l\u00f6sen, indem wir Dienste neu gestartet und Verbindungsprotokolle \u00fcberpr\u00fcft haben, aber das Problem besteht weiterhin My name is Maria Gonzalez.. Bitte helfen Sie uns, dieses Problem zu l\u00f6sen, indem Sie uns weitere Informationen zur API-Update-Inkompatibilit\u00e4t und den spezifischen Fehlermeldungen bereitstellen You can reach me at johndoe@email.com.. Wir brauchen diese Details, um das Problem besser zu verstehen und eine effektivere L\u00f6sung zu finden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        411,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        611,
+        628
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung\n\nWir haben Probleme mit dem kritischen Bereich der Integration, insbesondere bei der Synchronisierung von Projektdaten auf verschiedenen Plattformen, was auf Inkompatibilit\u00e4ten nach dem API-Update zur\u00fcckzuf\u00fchren ist. Wir haben bereits versucht, das Problem zu l\u00f6sen, indem wir Dienste neu gestartet und Verbindungsprotokolle \u00fcberpr\u00fcft haben, aber das Problem besteht weiterhin My name is [full_name].. Bitte helfen Sie uns, dieses Problem zu l\u00f6sen, indem Sie uns weitere Informationen zur API-Update-Inkompatibilit\u00e4t und den spezifischen Fehlermeldungen bereitstellen You can reach me at [email].. Wir brauchen diese Details, um das Problem besser zu verstehen und eine effektivere L\u00f6sung zu finden.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Recent Decrease in Engagement Metrics Noted Online\n\nThere has been a decline in engagement metrics You can reach me at elena.ivanova@support.org.. This could be due to recent algorithm changes. We have modified our target audience and ad creatives, and we require assistance. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        305
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        128,
+        153
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Recent Decrease in Engagement Metrics Noted Online\n\nThere has been a decline in engagement metrics You can reach me at [email].. This could be due to recent algorithm changes. We have modified our target audience and ad creatives, and we require assistance. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

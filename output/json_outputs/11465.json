@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unpr\u00e4zise Investmentvorhersagen gemeldet\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte an dieser Stelle auf ein Problem mit der Investitionsvoraussage-Funktion hinweisen My name is Jane Smith.. Die Voraussagen scheinen aufgrund von nicht \u00fcbereinstimmenden Daten unzutreffend zu sein. Ich habe festgestellt, dass die verwendeten Datenquellen nicht konsistent sind und die Algorithmen m\u00f6glicherweise \u00fcberarbeitet werden m\u00fcssen.\\n\\nIch habe versucht, das Problem selbst zu l\u00f6sen, indem ich Diagnosetests durchgef\u00fchrt habe, um die Datenquellen zu \u00fcberpr\u00fcfen, und das Smart-Tracker-Softwareupdate installiert habe. Allerdings beh\u00e4lt sich das Problem bei.\\n\\nIch w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dies n\u00e4her untersuchen und m\u00f6glichst bald eine L\u00f6sung bereitstellen k\u00f6nnten You can reach me at fatima.farsi@help.com.. Bitte lassen Sie mich wissen, wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        197
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        793,
+        814
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Unpr\u00e4zise Investmentvorhersagen gemeldet\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte an dieser Stelle auf ein Problem mit der Investitionsvoraussage-Funktion hinweisen My name is [full_name].. Die Voraussagen scheinen aufgrund von nicht \u00fcbereinstimmenden Daten unzutreffend zu sein. Ich habe festgestellt, dass die verwendeten Datenquellen nicht konsistent sind und die Algorithmen m\u00f6glicherweise \u00fcberarbeitet werden m\u00fcssen.\\n\\nIch habe versucht, das Problem selbst zu l\u00f6sen, indem ich Diagnosetests durchgef\u00fchrt habe, um die Datenquellen zu \u00fcberpr\u00fcfen, und das Smart-Tracker-Softwareupdate installiert habe. Allerdings beh\u00e4lt sich das Problem bei.\\n\\nIch w\u00fcrde es sehr sch\u00e4tzen, wenn Sie dies n\u00e4her untersuchen und m\u00f6glichst bald eine L\u00f6sung bereitstellen k\u00f6nnten You can reach me at [email].. Bitte lassen Sie mich wissen, wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

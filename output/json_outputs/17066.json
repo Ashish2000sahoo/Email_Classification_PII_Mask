@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Hospital IT Networks\n\nRespected Customer Service, I am contacting you to seek information on the security strategies advised for safeguarding medical records within hospital IT networks. Given the critical nature of medical information, it is imperative to ensure its security against any unauthorized access, data breaches, or cyber threats My name is Elena Ivanova.. Could you elucidate the security procedures currently employed to protect such data? Are there any particular methodologies or technological solutions that hospitals should apply? I would also appreciate any materials or advice you can supply on this topic. Thank you for your attention and support You can reach me at maria.gonzalez@shop.es.. I am eagerly awaiting your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        385,
+        398
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        718,
+        740
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Hospital IT Networks\n\nRespected Customer Service, I am contacting you to seek information on the security strategies advised for safeguarding medical records within hospital IT networks. Given the critical nature of medical information, it is imperative to ensure its security against any unauthorized access, data breaches, or cyber threats My name is [full_name].. Could you elucidate the security procedures currently employed to protect such data? Are there any particular methodologies or technological solutions that hospitals should apply? I would also appreciate any materials or advice you can supply on this topic. Thank you for your attention and support You can reach me at [email].. I am eagerly awaiting your response.",
+  "category_of_the_email": "Request"
+}

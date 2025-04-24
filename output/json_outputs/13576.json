@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Langsame Ladegeschwindigkeit der Website\n\nSehr geehrte Kundenservice-Abteilung, ich m\u00f6chte Ihnen melden, dass ich ein Problem mit der langsam ladenden Website habe You can reach me at elena.ivanova@support.org.. Ich versuchte, die Seite zu \u00f6ffnen, aber es dauerte ungew\u00f6hnlich lange, bis sie vollst\u00e4ndig geladen wurde My name is Liu Wei.. Nach einer Untersuchung stellte ich fest, dass mangelnde Serverressourcen die Ursache sind. Obwohl ich den Server neu gestartet und den Cache geleert habe, beh\u00e4lt sich das Problem bestehen. Bitte melden Sie sich, wenn Sie bereit sind, dies zu ber\u00fccksichtigen und eine m\u00f6gliche L\u00f6sung vorzuschlagen. Ich freue mich darauf, von Ihnen zu h\u00f6ren und gebe gerne alle weiteren Informationen zur Verf\u00fcgung, die notwendig sind, um das Problem zu l\u00f6sen. Ich bin \u00fcberzeugt, dass Ihre Hilfe in der L\u00f6sung dieses Problems sehr wertvoll ist. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und sch\u00e4tze Ihre Beachtung dieser Angelegenheit sehr sehr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        345
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        193,
+        218
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Langsame Ladegeschwindigkeit der Website\n\nSehr geehrte Kundenservice-Abteilung, ich m\u00f6chte Ihnen melden, dass ich ein Problem mit der langsam ladenden Website habe You can reach me at [email].. Ich versuchte, die Seite zu \u00f6ffnen, aber es dauerte ungew\u00f6hnlich lange, bis sie vollst\u00e4ndig geladen wurde My name is [full_name].. Nach einer Untersuchung stellte ich fest, dass mangelnde Serverressourcen die Ursache sind. Obwohl ich den Server neu gestartet und den Cache geleert habe, beh\u00e4lt sich das Problem bestehen. Bitte melden Sie sich, wenn Sie bereit sind, dies zu ber\u00fccksichtigen und eine m\u00f6gliche L\u00f6sung vorzuschlagen. Ich freue mich darauf, von Ihnen zu h\u00f6ren und gebe gerne alle weiteren Informationen zur Verf\u00fcgung, die notwendig sind, um das Problem zu l\u00f6sen. Ich bin \u00fcberzeugt, dass Ihre Hilfe in der L\u00f6sung dieses Problems sehr wertvoll ist. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und sch\u00e4tze Ihre Beachtung dieser Angelegenheit sehr sehr.",
+  "category_of_the_email": "Incident"
+}

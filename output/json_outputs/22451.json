@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Anfrage zur \u00c4nderung der Lieferadresse\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich habe k\u00fcrzlich eine Bestellung f\u00fcr ein Dell XPS 13 9310 Laptop aufgegeben. Leider muss ich die Lieferadresse \u00e4ndern, die mit dieser Bestellung verbunden ist. Meine Kontonummer ist <acc_num> My name is Carlos Mendoza.. K\u00f6nnten Sie bitte die Lieferadresse auf folgende aktualisieren: <new_address> You can reach me at elena.ivanova@support.org.. Bitte lassen Sie mich wissen, ob weitere Informationen meinerseits ben\u00f6tigt werden.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        441,
+        466
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        176,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur \u00c4nderung der Lieferadresse\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich habe k\u00fcrzlich eine Bestellung f\u00fcr ein Dell XPS [phone_number] Laptop aufgegeben. Leider muss ich die Lieferadresse \u00e4ndern, die mit dieser Bestellung verbunden ist. Meine Kontonummer ist <acc_num> My name is [full_name].. K\u00f6nnten Sie bitte die Lieferadresse auf folgende aktualisieren: <new_address> You can reach me at [email].. Bitte lassen Sie mich wissen, ob weitere Informationen meinerseits ben\u00f6tigt werden.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

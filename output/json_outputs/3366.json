@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Brand Growth Services Inquiry\n\nHello customer support, I am writing to seek information about the digital strategies your company provides for enhancing brand growth. Could you kindly furnish me with detailed information on these services and their potential benefits for business expansion? I would greatly appreciate any specifics you can offer You can reach me at maria.gonzalez@shop.es.. I eagerly await your response and am hopeful for a productive conversation My name is Sophia Rossi.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        487,
+        499
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        376,
+        398
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Brand Growth Services Inquiry\n\nHello customer support, I am writing to seek information about the digital strategies your company provides for enhancing brand growth. Could you kindly furnish me with detailed information on these services and their potential benefits for business expansion? I would greatly appreciate any specifics you can offer You can reach me at [email].. I eagerly await your response and am hopeful for a productive conversation My name is [full_name].. Thank you for your support.",
+  "category_of_the_email": "Request"
+}

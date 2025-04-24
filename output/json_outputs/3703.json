@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Functionality of Financial Tool\n\nThe investment optimization tool of the financial firm has been accurately processing data analytics You can reach me at carlosm@gmail.com.. However, an issue may have arisen due to a recent software update or configuration problem My name is Elena Ivanova.. Steps taken include restarting affected applications and verifying network connectivity via a VPN-router, but the problem still persists. Assistance in resolving this issue soon would be greatly appreciated to minimize potential losses.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        163,
+        180
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Functionality of Financial Tool\n\nThe investment optimization tool of the financial firm has been accurately processing data analytics You can reach me at [email].. However, an issue may have arisen due to a recent software update or configuration problem My name is [full_name].. Steps taken include restarting affected applications and verifying network connectivity via a VPN-router, but the problem still persists. Assistance in resolving this issue soon would be greatly appreciated to minimize potential losses.",
+  "category_of_the_email": "Incident"
+}

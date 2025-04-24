@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data in CRM\n\nCustomer Support, seeking assistance with securing medical data in a Salesforce CRM integrated with Django 3.2 You can reach me at david.kim@corp.kr.. Could you provide details on best practices and protocols to ensure the confidentiality, integrity, and availability of sensitive medical information? I would greatly appreciate guidance on implementing robust security measures, including encryption, access controls, and auditing My name is Liu Wei.. Additionally, what specific considerations should be taken into account when integrating Django 3.2 with Salesforce CRM to ensure a seamless and secure data exchange? Your timely response is appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        496,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        184,
+        201
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data in CRM\n\nCustomer Support, seeking assistance with securing medical data in a Salesforce CRM integrated with Django 3.2 You can reach me at [email].. Could you provide details on best practices and protocols to ensure the confidentiality, integrity, and availability of sensitive medical information? I would greatly appreciate guidance on implementing robust security measures, including encryption, access controls, and auditing My name is [full_name].. Additionally, what specific considerations should be taken into account when integrating Django 3.2 with Salesforce CRM to ensure a seamless and secure data exchange? Your timely response is appreciated.",
+  "category_of_the_email": "Request"
+}

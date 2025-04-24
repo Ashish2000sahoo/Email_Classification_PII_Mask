@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Flickering Intermitente da Tela no Dell XPS 13\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema com meu Dell XPS 13 9310, que apresenta um flickering intermitente na tela My name is David Kim.. O notebook, um ultrabook de alto desempenho com Windows 10, tem sido confi\u00e1vel at\u00e9 agora, mas esse flickering atrapalha meu trabalho. Tentei a solu\u00e7\u00e3o de problemas b\u00e1sica, como atualizar drivers e garantir que o software do sistema esteja atualizado You can reach me at elena.ivanova@support.org.. No entanto, o problema persiste. Poderia fornecer orienta\u00e7\u00f5es ou solu\u00e7\u00f5es potenciais para este problema? Sua assist\u00eancia em resolver esta quest\u00e3o seria muito apreciada.\n\nObrigado pela aten\u00e7\u00e3o a esta preocupa\u00e7\u00e3o.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        498,
+        523
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        145,
+        152
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Flickering Intermitente da Tela no Dell XPS 13\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema com meu Dell XPS [phone_number], que apresenta um flickering intermitente na tela My name is [full_name].. O notebook, um ultrabook de alto desempenho com Windows 10, tem sido confi\u00e1vel at\u00e9 agora, mas esse flickering atrapalha meu trabalho. Tentei a solu\u00e7\u00e3o de problemas b\u00e1sica, como atualizar drivers e garantir que o software do sistema esteja atualizado You can reach me at [email].. No entanto, o problema persiste. Poderia fornecer orienta\u00e7\u00f5es ou solu\u00e7\u00f5es potenciais para este problema? Sua assist\u00eancia em resolver esta quest\u00e3o seria muito apreciada.\n\nObrigado pela aten\u00e7\u00e3o a esta preocupa\u00e7\u00e3o.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

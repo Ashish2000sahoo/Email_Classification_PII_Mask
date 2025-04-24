@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Cybersecurity for Medical Data\n\nHello Customer Support, I am writing to seek advice on securing medical data within our hospital's IT infrastructure. Given the sensitivity of medical information, it is crucial that we implement strong defenses against cyber threats. Could you please share the security recommendations your organization suggests for maintaining the confidentiality, integrity, and accessibility of patient data? I am particularly interested in the most efficient firewall, intrusion detection system, and encryption tools to protect our medical records. Furthermore, I would appreciate instructions on conducting routine security reviews and risk assessments to pinpoint any potential weaknesses in our system. I look forward to your response and hope you can provide detailed insights on how to enhance our cybersecurity You can reach me at fatima.farsi@help.com.. If you need further details from me, please let me know. Thanks for your support. Kind regards, [Your Name] My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1023,
+        1035
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        880,
+        901
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Cybersecurity for Medical Data\n\nHello Customer Support, I am writing to seek advice on securing medical data within our hospital's IT infrastructure. Given the sensitivity of medical information, it is crucial that we implement strong defenses against cyber threats. Could you please share the security recommendations your organization suggests for maintaining the confidentiality, integrity, and accessibility of patient data? I am particularly interested in the most efficient firewall, intrusion detection system, and encryption tools to protect our medical records. Furthermore, I would appreciate instructions on conducting routine security reviews and risk assessments to pinpoint any potential weaknesses in our system. I look forward to your response and hope you can provide detailed insights on how to enhance our cybersecurity You can reach me at [email].. If you need further details from me, please let me know. Thanks for your support. Kind regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Request"
+}

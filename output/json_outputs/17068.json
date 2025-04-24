@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error detected in Data Processing Software\n\nDear Customer Support, I am writing to report an error in the Data Processing Software. The issue description is as follows: The optimization of investments has been interrupted, possibly due to an unexpected software update. Despite attempts to resolve the problem by restarting the system and reloading the data files, the issue persists You can reach me at fatima.farsi@help.com.. I appreciate your prompt assistance to resolve the issue and minimize any potential losses My name is Fatima Al-Farsi.. Please inform me of the necessary steps to be taken. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        539,
+        548
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        413,
+        434
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Error detected in Data Processing Software\n\nDear Customer Support, I am writing to report an error in the Data Processing Software. The issue description is as follows: The optimization of investments has been interrupted, possibly due to an unexpected software update. Despite attempts to resolve the problem by restarting the system and reloading the data files, the issue persists You can reach me at [email].. I appreciate your prompt assistance to resolve the issue and minimize any potential losses My name is [full_name]-Farsi.. Please inform me of the necessary steps to be taken. Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung von Investitionsportfolios effizient\n\nSehr geehrte Kundensupport, ich schreibe hier, um zu erkunden, welche Datenanalysewerkzeuge Ihr Unternehmen bei der Optimierung von Investitionsportfolios f\u00fcr einzelne Kunden anwendet You can reach me at johndoe@email.com.. K\u00f6nnten Sie mir bitte mehr \u00fcber die spezifischen Werkzeuge und Technologien erz\u00e4hlen, die Sie nutzen, um Marktentwicklungen zu analysieren und datenbasierte Investitionsentscheidungen zu treffen? Ich w\u00e4re erfreut, wenn Sie mir Details zu der Rolle, die diese Werkzeuge bei der anpassungsf\u00e4higen Entwicklung von Investitionsstrategien spielen, bereitstellen k\u00f6nnten My name is Maria Gonzalez.. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich auf Ihre Antwort.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        659,
+        673
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        263,
+        280
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierung von Investitionsportfolios effizient\n\nSehr geehrte Kundensupport, ich schreibe hier, um zu erkunden, welche Datenanalysewerkzeuge Ihr Unternehmen bei der Optimierung von Investitionsportfolios f\u00fcr einzelne Kunden anwendet You can reach me at [email].. K\u00f6nnten Sie mir bitte mehr \u00fcber die spezifischen Werkzeuge und Technologien erz\u00e4hlen, die Sie nutzen, um Marktentwicklungen zu analysieren und datenbasierte Investitionsentscheidungen zu treffen? Ich w\u00e4re erfreut, wenn Sie mir Details zu der Rolle, die diese Werkzeuge bei der anpassungsf\u00e4higen Entwicklung von Investitionsstrategien spielen, bereitstellen k\u00f6nnten My name is [full_name].. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich auf Ihre Antwort.",
+  "category_of_the_email": "Request"
+}

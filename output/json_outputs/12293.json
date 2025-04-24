@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwarteter Datenzugriffswarnhinweis des Krankenhaus-IT-Systems\n\nEin unerwarteter Datenzugriffswarnhinweis ist bei dem IT-System des Krankenhauses aufgetreten. Das Problem k\u00f6nnte aufgrund eines Sicherheitskonfigurationsfehlers entstanden sein You can reach me at elena.ivanova@support.org.. Obwohl anf\u00e4ngliche Versuche, das Problem zu beheben, umfassten das Herunterfahren des betroffenen Servers und die \u00dcberpr\u00fcfung der Zugriffslogs, h\u00e4lt das Problem anhaltend an. Eine weitere Unterst\u00fctzung ist notwendig, um die Ursache zu identifizieren und zu beheben. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        578,
+        585
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        273,
+        298
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unerwarteter Datenzugriffswarnhinweis des Krankenhaus-IT-Systems\n\nEin unerwarteter Datenzugriffswarnhinweis ist bei dem IT-System des Krankenhauses aufgetreten. Das Problem k\u00f6nnte aufgrund eines Sicherheitskonfigurationsfehlers entstanden sein You can reach me at [email].. Obwohl anf\u00e4ngliche Versuche, das Problem zu beheben, umfassten das Herunterfahren des betroffenen Servers und die \u00dcberpr\u00fcfung der Zugriffslogs, h\u00e4lt das Problem anhaltend an. Eine weitere Unterst\u00fctzung ist notwendig, um die Ursache zu identifizieren und zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

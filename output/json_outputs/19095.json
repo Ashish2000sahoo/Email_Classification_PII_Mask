@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Slow Performance in Applications\n\nMultiple software applications are currently experiencing slow performance You can reach me at liuwei@business.cn.. This might be due to conflicting updates or insufficient system resources My name is Liu Wei.. Steps like restarting and freeing up resources have been attempted, but the issue still persists.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        260
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        147,
+        165
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Reported Slow Performance in Applications\n\nMultiple software applications are currently experiencing slow performance You can reach me at [email].. This might be due to conflicting updates or insufficient system resources My name is [full_name].. Steps like restarting and freeing up resources have been attempted, but the issue still persists.",
+  "category_of_the_email": "Incident"
+}

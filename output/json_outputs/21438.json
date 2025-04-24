@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Demande de modifications dans la configuration Cloud\n\nVeuillez am\u00e9liorer les performances et r\u00e9duire les co\u00fbts des services AWS.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Demande de modifications dans la configuration Cloud\n\nVeuillez am\u00e9liorer les performances et r\u00e9duire les co\u00fbts des services AWS.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Inquiry Concerning Integration Failures\n\nIssue Description: Several integrations have encountered issues, causing project delays.<br>Reason: The failure could be due to recent updates or configuration conflicts.<br>Actions Taken: I have already validated API connectivity and examined logs for any relevant information.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        375
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry Concerning Integration Failures\n\nIssue Description: Several integrations have encountered issues, causing project delays.<br>Reason: The failure could be due to recent updates or configuration conflicts.<br>Actions Taken: I have already validated API connectivity and examined logs for any relevant information.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

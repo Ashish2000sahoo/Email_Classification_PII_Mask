@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance requise pour des probl\u00e8mes de connectivit\u00e9 du routeur\n\nBonjour Service Client,\n\nJe rencontre des probl\u00e8mes de connectivit\u00e9 avec mon routeur Cisco ISR4331 My name is Maria Gonzalez.. J'ai besoin d'aide pour configurer un r\u00e9seau Wi-Fi s\u00e9curis\u00e9 et optimis\u00e9 You can reach me at liuwei@business.cn.. Veuillez me guider tout au long du processus d\u00e8s que possible.\n\nMerci,\n\n<name>\n<tel_num>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        199
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        291,
+        309
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        169,
+        173
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Assistance requise pour des probl\u00e8mes de connectivit\u00e9 du routeur\n\nBonjour Service Client,\n\nJe rencontre des probl\u00e8mes de connectivit\u00e9 avec mon routeur Cisco ISR[phone_number] My name is [full_name].. J'ai besoin d'aide pour configurer un r\u00e9seau Wi-Fi s\u00e9curis\u00e9 et optimis\u00e9 You can reach me at [email].. Veuillez me guider tout au long du processus d\u00e8s que possible.\n\nMerci,\n\n<name>\n<tel_num>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

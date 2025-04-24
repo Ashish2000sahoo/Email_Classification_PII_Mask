@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for OLED Monitors in Healthcare\n\nDear <name>, we appreciate your inquiry about the necessary security steps for OLED monitors in medical environments You can reach me at maria.gonzalez@shop.es.. Given the critical nature of safeguarding patient data, we are here to offer assistance. To maintain the security of OLED monitors in these settings, we advise using encryption and secure boot systems, along with limiting access to only qualified individuals. Furthermore, ensuring that the monitor's software and firmware are updated regularly and employing secure connection methods are crucial. We advise speaking with your organization's IT team to develop a robust security strategy. Certain OLED models are equipped with security features suitable for medical use, such as privacy screens and secure data storage capabilities My name is Elena Ivanova.. Should you have more detailed requirements, please share them with us. We might require a follow-up discussion, so let us know when you are available for a call.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        866,
+        879
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        198,
+        220
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for OLED Monitors in Healthcare\n\nDear <name>, we appreciate your inquiry about the necessary security steps for OLED monitors in medical environments You can reach me at [email].. Given the critical nature of safeguarding patient data, we are here to offer assistance. To maintain the security of OLED monitors in these settings, we advise using encryption and secure boot systems, along with limiting access to only qualified individuals. Furthermore, ensuring that the monitor's software and firmware are updated regularly and employing secure connection methods are crucial. We advise speaking with your organization's IT team to develop a robust security strategy. Certain OLED models are equipped with security features suitable for medical use, such as privacy screens and secure data storage capabilities My name is [full_name].. Should you have more detailed requirements, please share them with us. We might require a follow-up discussion, so let us know when you are available for a call.",
+  "category_of_the_email": "Request"
+}

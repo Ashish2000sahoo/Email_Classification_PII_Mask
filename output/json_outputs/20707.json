@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry about Zoom 5.11.0\n\nHello Customer Support,\n\nI hope this message finds you well You can reach me at sophia.rossi@service.it.. I have a few questions regarding Zoom 5.11.0. Firstly, I would like to know the registration limits for large-scale webinars using this version. Additionally, could you provide information on its screen sharing capabilities specifically for large events? Understanding these features is crucial for our upcoming activities. Thank you for your assistance in advance.\n\nBest regards,\n\n<name>\n\nAccount Number: <acc_num>  My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        570,
+        579
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        116,
+        139
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Inquiry about Zoom 5.11.0\n\nHello Customer Support,\n\nI hope this message finds you well You can reach me at [email].. I have a few questions regarding Zoom 5.11.0. Firstly, I would like to know the registration limits for large-scale webinars using this version. Additionally, could you provide information on its screen sharing capabilities specifically for large events? Understanding these features is crucial for our upcoming activities. Thank you for your assistance in advance.\n\nBest regards,\n\n<name>\n\nAccount Number: <acc_num>  My name is [full_name].",
+  "category_of_the_email": "Request"
+}

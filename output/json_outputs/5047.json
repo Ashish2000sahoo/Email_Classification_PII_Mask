@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber das Absturz der Datenanalyse-Plattform\n\nDie Datenanalyse-Plattform ist zum Stillstand gekommen You can reach me at elena.ivanova@support.org.. Es k\u00f6nnte sich um eine Folge fehlender Serverressourcen handeln My name is Sophia Rossi.. Die Server wurden esauff\u00fchren und die Systemprotokolle wurden inspiziert.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        240,
+        252
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        137,
+        162
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber das Absturz der Datenanalyse-Plattform\n\nDie Datenanalyse-Plattform ist zum Stillstand gekommen You can reach me at [email].. Es k\u00f6nnte sich um eine Folge fehlender Serverressourcen handeln My name is [full_name].. Die Server wurden esauff\u00fchren und die Systemprotokolle wurden inspiziert.",
+  "category_of_the_email": "Incident"
+}

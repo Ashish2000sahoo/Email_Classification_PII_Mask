@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with Investment Metrics\n\nThere are issues with data discrepancies in investment metrics. Efforts to resolve this have included reinstalling the software and checking the data sources.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        238
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issues with Investment Metrics\n\nThere are issues with data discrepancies in investment metrics. Efforts to resolve this have included reinstalling the software and checking the data sources.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Security Protocols\n\nTo Customer Support, I am writing to request the enhancement of security protocols for medical data across the software and hardware in the hospital's environment. Security of medical data is of the utmost importance, and I must ensure that all necessary measures are taken to protect it You can reach me at fatima.farsi@help.com.. I would like to request the implementation of end-to-end encryption for medical data during transit and at rest My name is Sophia Rossi.. Additionally, I would like to request that regular security audits and penetration testing be conducted to identify any vulnerabilities.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        496,
+        508
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        349,
+        370
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Security Protocols\n\nTo Customer Support, I am writing to request the enhancement of security protocols for medical data across the software and hardware in the hospital's environment. Security of medical data is of the utmost importance, and I must ensure that all necessary measures are taken to protect it You can reach me at [email].. I would like to request the implementation of end-to-end encryption for medical data during transit and at rest My name is [full_name].. Additionally, I would like to request that regular security audits and penetration testing be conducted to identify any vulnerabilities.",
+  "category_of_the_email": "Change"
+}

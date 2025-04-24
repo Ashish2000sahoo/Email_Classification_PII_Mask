@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Facing Performance Challenges with SaaS Project Management Platform\n\nThe SaaS project management tool is facing performance challenges due to high database load on PostgreSQL. Restarting the application and clearing the cache did not resolve the issues.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        300
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Facing Performance Challenges with SaaS Project Management Platform\n\nThe SaaS project management tool is facing performance challenges due to high database load on PostgreSQL. Restarting the application and clearing the cache did not resolve the issues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

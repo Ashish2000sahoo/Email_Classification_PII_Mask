@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Need Support for Server Issues\n\nUnanticipated delays in data processing for investment analytics tools are happening due to server overload during peak usage hours. Even after restarting the servers and optimizing queries, the problems continue and require assistance to resolve the issue.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        337
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Need Support for Server Issues\n\nUnanticipated delays in data processing for investment analytics tools are happening due to server overload during peak usage hours. Even after restarting the servers and optimizing queries, the problems continue and require assistance to resolve the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

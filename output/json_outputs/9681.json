@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Adobe Premiere Pro 2021\n\nFacing challenges with Adobe Premiere Pro 2021 frequently crashing on MacBook Pro during video edits, suspecting compatibility problems. Consider reinstallation of the software and updating the operating system to fix the issue.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        48,
+        52
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        96,
+        100
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        305,
+        320
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Adobe Premiere Pro [phone_number]\n\nFacing challenges with Adobe Premiere Pro [phone_number] frequently crashing on MacBook Pro during video edits, suspecting compatibility problems. Consider reinstallation of the software and updating the operating system to fix the issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

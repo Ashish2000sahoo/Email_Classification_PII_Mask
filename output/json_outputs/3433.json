@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Datenanalyse ben\u00f6tigt\n\nIch rufe an, um mehr Informationen \u00fcber optimale Datenanalysetools f\u00fcr die Optimierung des Portfolios zu erhalten My name is Elena Ivanova.. K\u00f6nnten Sie mir bitte eine Reihe von Vorschl\u00e4gen geben? Ich bin in der Suche nach Tools, die mir helfen, auf der Basis von Daten zu entscheiden und die Leistung meines Portfolios zu verbessern You can reach me at liuwei@business.cn.. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        402,
+        420
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Datenanalyse ben\u00f6tigt\n\nIch rufe an, um mehr Informationen \u00fcber optimale Datenanalysetools f\u00fcr die Optimierung des Portfolios zu erhalten My name is [full_name].. K\u00f6nnten Sie mir bitte eine Reihe von Vorschl\u00e4gen geben? Ich bin in der Suche nach Tools, die mir helfen, auf der Basis von Daten zu entscheiden und die Leistung meines Portfolios zu verbessern You can reach me at [email].. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

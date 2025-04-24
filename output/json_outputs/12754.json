@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Troubleshooting Issue with Investment Optimization Algorithm\n\nThe investment optimization algorithm has failed to run, causing a delay in outputs. This might be due to a recent software update. After restarting the application and checking for system errors, the issue still persists. I would appreciate your assistance in resolving this matter My name is Sophia Rossi.. Please let me know if you can provide any additional information that would facilitate the troubleshooting process. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        377
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        515,
+        538
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Troubleshooting Issue with Investment Optimization Algorithm\n\nThe investment optimization algorithm has failed to run, causing a delay in outputs. This might be due to a recent software update. After restarting the application and checking for system errors, the issue still persists. I would appreciate your assistance in resolving this matter My name is [full_name].. Please let me know if you can provide any additional information that would facilitate the troubleshooting process. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

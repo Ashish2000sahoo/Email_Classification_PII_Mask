@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Technische Unterst\u00fctzung notwendig\n\nViele Werkzeuge fanden aufgrund eines Netzwerkausfalls nicht mehr korrekt Funktion. Wir haben die Systemausfallbedingung bereits identifiziert.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        226
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Technische Unterst\u00fctzung notwendig\n\nViele Werkzeuge fanden aufgrund eines Netzwerkausfalls nicht mehr korrekt Funktion. Wir haben die Systemausfallbedingung bereits identifiziert.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

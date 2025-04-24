@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Fehler bei der Datenverschl\u00fcsselung\n\nEs ist zu einem Datenverschl\u00fcsselungsfehler durch einen m\u00f6glichen Softwaredefekt gekommen. Ich habe die Server neu gestartet und die Einstellungen \u00fcberpr\u00fcft, aber der Fehler beh\u00e4lt sich bestehen.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        279
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Fehler bei der Datenverschl\u00fcsselung\n\nEs ist zu einem Datenverschl\u00fcsselungsfehler durch einen m\u00f6glichen Softwaredefekt gekommen. Ich habe die Server neu gestartet und die Einstellungen \u00fcberpr\u00fcft, aber der Fehler beh\u00e4lt sich bestehen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

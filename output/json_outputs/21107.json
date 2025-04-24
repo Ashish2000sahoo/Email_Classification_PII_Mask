@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am facing issues with the battery life of my MacBook Air M1. It appears to deplete too quickly even with minimal usage. This situation is greatly affecting my efficiency. I made my purchase recently and I hope it's within the warranty period My name is Maria Gonzalez.. Can you please let me know if this issue can be resolved quickly? My account number is <acc_num>. You can contact me at <tel_num>. Thank you for your prompt response. Sincerely, <name> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        304
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        509,
+        530
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am facing issues with the battery life of my MacBook Air M1. It appears to deplete too quickly even with minimal usage. This situation is greatly affecting my efficiency. I made my purchase recently and I hope it's within the warranty period My name is [full_name].. Can you please let me know if this issue can be resolved quickly? My account number is <acc_num>. You can contact me at <tel_num>. Thank you for your prompt response. Sincerely, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

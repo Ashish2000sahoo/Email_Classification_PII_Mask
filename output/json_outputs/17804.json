@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Enhancement for Medical Data\n\nTo Customer Support: I am contacting you to ask for the addition of end-to-end encryption for medical data across all relevant devices and software. This is vital to protect the privacy and safeguard sensitive patient information. I feel that this feature is crucial for both trust and adherence to regulatory guidelines My name is John Doe.. I would appreciate your timely consideration and action on this request You can reach me at johndoe@email.com.. Thank you for your prompt attention to this significant concern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        380,
+        388
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        486,
+        503
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Security Enhancement for Medical Data\n\nTo Customer Support: I am contacting you to ask for the addition of end-to-end encryption for medical data across all relevant devices and software. This is vital to protect the privacy and safeguard sensitive patient information. I feel that this feature is crucial for both trust and adherence to regulatory guidelines My name is [full_name].. I would appreciate your timely consideration and action on this request You can reach me at [email].. Thank you for your prompt attention to this significant concern.",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry about Data Security Services\n\nSeeking information on the security measures taken to ensure the confidentiality, integrity, and availability of sensitive medical records at the hospital You can reach me at sophia.rossi@service.it.. Would appreciate it if you could provide details on the certifications and compliances that the organization adheres to, such as HIPAA. Additionally, interested in knowing the support offered for hospital infrastructure, including network security, backup recovery, and disaster response planning. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        557,
+        571
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        222,
+        245
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Inquiry about Data Security Services\n\nSeeking information on the security measures taken to ensure the confidentiality, integrity, and availability of sensitive medical records at the hospital You can reach me at [email].. Would appreciate it if you could provide details on the certifications and compliances that the organization adheres to, such as HIPAA. Additionally, interested in knowing the support offered for hospital infrastructure, including network security, backup recovery, and disaster response planning. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SAP Integration Inquiry\n\nDear Support, I am writing to inquire about integration possibilities for Express.js with SAP ERP, particularly for enhancing data analytics. Our organization uses SAP ERP for operational management and is considering leveraging Express.js for web application development You can reach me at janesmith@company.com.. We aim to optimize our data analytics and are exploring integration methods like APIs or SDKs. Could you furnish us with details on available integration solutions and share any pertinent documentation, tutorials, or case studies on successful integrations? We wish to streamline our data analytics and enhance our decision-making processes My name is Omar Hassan.. We appreciate your help and look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        702,
+        713
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        326,
+        347
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: SAP Integration Inquiry\n\nDear Support, I am writing to inquire about integration possibilities for Express.js with SAP ERP, particularly for enhancing data analytics. Our organization uses SAP ERP for operational management and is considering leveraging Express.js for web application development You can reach me at [email].. We aim to optimize our data analytics and are exploring integration methods like APIs or SDKs. Could you furnish us with details on available integration solutions and share any pertinent documentation, tutorials, or case studies on successful integrations? We wish to streamline our data analytics and enhance our decision-making processes My name is [full_name].. We appreciate your help and look forward to your response.",
+  "category_of_the_email": "Request"
+}

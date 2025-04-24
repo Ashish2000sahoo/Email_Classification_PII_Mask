@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Suspected Data Breach and Wi-Fi Vulnerability\n\nI am reporting a potential data breach related to a Wi-Fi network vulnerability My name is Liu Wei.. Despite restarting my router, the problem continues. I am worried about the security of my personal data and am seeking prompt resolution You can reach me at maria.gonzalez@shop.es.. Kindly advise on the necessary actions to be taken.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        172
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        337,
+        359
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Suspected Data Breach and Wi-Fi Vulnerability\n\nI am reporting a potential data breach related to a Wi-Fi network vulnerability My name is [full_name].. Despite restarting my router, the problem continues. I am worried about the security of my personal data and am seeking prompt resolution You can reach me at [email].. Kindly advise on the necessary actions to be taken.",
+  "category_of_the_email": "Incident"
+}

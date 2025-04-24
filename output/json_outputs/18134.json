@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nInvestment information is not available owing to a database problem. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        101,
+        117
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nInvestment information is not available owing to a database problem. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

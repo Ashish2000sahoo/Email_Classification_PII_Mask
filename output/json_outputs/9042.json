@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident: Unauthorized Access to Hospital System\n\nThere was an unauthorized access attempt on the hospital system, which may have compromised patient medical data due to vulnerabilities in outdated security protocols and software. Immediate actions, including system scans and password changes, have been implemented to mitigate the issue You can reach me at janesmith@company.com.. The matter is under investigation, and necessary steps are being taken to prevent future incidents. The security of patients' data is our top priority, and we will provide further updates as more information becomes available. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        630,
+        639
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        368,
+        389
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Incident: Unauthorized Access to Hospital System\n\nThere was an unauthorized access attempt on the hospital system, which may have compromised patient medical data due to vulnerabilities in outdated security protocols and software. Immediate actions, including system scans and password changes, have been implemented to mitigate the issue You can reach me at [email].. The matter is under investigation, and necessary steps are being taken to prevent future incidents. The security of patients' data is our top priority, and we will provide further updates as more information becomes available. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

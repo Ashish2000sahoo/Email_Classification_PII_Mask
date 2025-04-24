@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: New Enhancement Request\n\nRequesting an enhancement to the user dashboard layout within our project management SaaS platform You can reach me at janesmith@company.com.. The current layout, while functional, is confusing for new users and lacks intuitive navigation My name is Jane Smith.. Enhancing the layout would significantly improve usability and the overall user experience. I propose a streamlined, organized design that incorporates clear and concise labeling, easy access to frequently used tools, and minimizes the learning curve for new users. The enhancement would",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        294
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        153,
+        174
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: New Enhancement Request\n\nRequesting an enhancement to the user dashboard layout within our project management SaaS platform You can reach me at [email].. The current layout, while functional, is confusing for new users and lacks intuitive navigation My name is [full_name].. Enhancing the layout would significantly improve usability and the overall user experience. I propose a streamlined, organized design that incorporates clear and concise labeling, easy access to frequently used tools, and minimizes the learning curve for new users. The enhancement would",
+  "category_of_the_email": "Change"
+}

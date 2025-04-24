@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern About Wi-Fi Security\n\nAn unauthorized access attempt was detected on the healthcare system, posing a risk to patient data security. An attempt was made to update the security settings.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        241
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Concern About Wi-Fi Security\n\nAn unauthorized access attempt was detected on the healthcare system, posing a risk to patient data security. An attempt was made to update the security settings.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

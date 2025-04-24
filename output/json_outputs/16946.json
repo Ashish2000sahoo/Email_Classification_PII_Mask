@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Interne Unterbrechungen der SaaS-Plattform werden aktuell beobachtet\n\nDie SaaS-Plattform erleidet momentan Unterbrechungen, die m\u00f6glicherweise auf Server\u00fcberlastung zur\u00fcckzuf\u00fchren sein k\u00f6nnten.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        240
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Interne Unterbrechungen der SaaS-Plattform werden aktuell beobachtet\n\nDie SaaS-Plattform erleidet momentan Unterbrechungen, die m\u00f6glicherweise auf Server\u00fcberlastung zur\u00fcckzuf\u00fchren sein k\u00f6nnten.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

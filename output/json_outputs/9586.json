@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Google Cloud Daten-Sicherheit\n\nIch freue mich, um die implementeden Sicherheitsma\u00dfnahmen f\u00fcr die Schutz von medizinischen Daten auf der Google Cloud Plattform zu diskutieren My name is Fatima Al-Farsi.. K\u00f6nnten Sie mir bitte Details zu den optimalen Praktiken zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Daten bereitstellen? Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie auf die Verwendung von Verschl\u00fcsselung, Zugriffssteuerung und die Einhaltung von Gesetzen wie dem HIPAA eingehen w\u00fcrden. Zudem interessiert mich, ob es auf Google Cloud bestimmte Sicherheitsmerkmale oder Tools gibt, die die Schutz von medizinischen Daten verbessern? Ich freue mich darauf, von Ihnen weitere Informationen in dieser Angelegenheit zu erhalten. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        203
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        798,
+        816
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Google Cloud Daten-Sicherheit\n\nIch freue mich, um die implementeden Sicherheitsma\u00dfnahmen f\u00fcr die Schutz von medizinischen Daten auf der Google Cloud Plattform zu diskutieren My name is [full_name]-Farsi.. K\u00f6nnten Sie mir bitte Details zu den optimalen Praktiken zur Gew\u00e4hrleistung der Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Daten bereitstellen? Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie auf die Verwendung von Verschl\u00fcsselung, Zugriffssteuerung und die Einhaltung von Gesetzen wie dem HIPAA eingehen w\u00fcrden. Zudem interessiert mich, ob es auf Google Cloud bestimmte Sicherheitsmerkmale oder Tools gibt, die die Schutz von medizinischen Daten verbessern? Ich freue mich darauf, von Ihnen weitere Informationen in dieser Angelegenheit zu erhalten. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

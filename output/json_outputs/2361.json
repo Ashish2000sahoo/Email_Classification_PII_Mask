@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Dashboard Encountered an Unexpected Crash\n\nHello Support Team, I am experiencing an issue with my data analytics dashboard that has suddenly stopped functioning. I have attempted to resolve this by restarting Pinnacle Studio and verifying my UniFi connections, but the problem persists. Could you please provide assistance? It would be helpful if you could instruct me on further steps to diagnose the issue or request any additional information from me My name is Liu Wei.. Thank you for your support. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        489,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        551,
+        568
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Dashboard Encountered an Unexpected Crash\n\nHello Support Team, I am experiencing an issue with my data analytics dashboard that has suddenly stopped functioning. I have attempted to resolve this by restarting Pinnacle Studio and verifying my UniFi connections, but the problem persists. Could you please provide assistance? It would be helpful if you could instruct me on further steps to diagnose the issue or request any additional information from me My name is [full_name].. Thank you for your support. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent License Error\n\nHello Tech Online Store Support,\n\nI am experiencing a license error when trying to open Adobe Photoshop 2024 on my MacBook Pro. This issue is affecting my project deadlines, and I need a resolution urgently You can reach me at fatima.farsi@help.com.. Could you please assist me in resolving this matter?\n\nThank you,\n\n<name>\n<email_address> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        258,
+        279
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        135,
+        139
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Urgent License Error\n\nHello Tech Online Store Support,\n\nI am experiencing a license error when trying to open Adobe Photoshop [phone_number] on my MacBook Pro. This issue is affecting my project deadlines, and I need a resolution urgently You can reach me at [email].. Could you please assist me in resolving this matter?\n\nThank you,\n\n<name>\n<email_address> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

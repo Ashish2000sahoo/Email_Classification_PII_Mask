@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsrisiko im Krankenhaus-IT-System\n\nEin Sicherheitsrisiko ist aufgetreten im IT-System der Klinik, was zu potenzieller Exposition sensibler medizinischer Daten f\u00fchren k\u00f6nnte You can reach me at david.kim@corp.kr.. Dies scheint aufgrund von Schwachstellen in veralteter Software und falscher Konfigurationen aufgetreten zu sein My name is David Kim.. Versucht, wichtige Anwendungen zu aktualisieren und die Firewall zu verbessern, leider ohne Erfolg. Dringend ben\u00f6tigen wir Unterst\u00fctzung, um das Problem zu l\u00f6sen und die Sicherheit der Patientendaten zu gew\u00e4hrleisten. Bitte geben Sie Anleitungen f\u00fcr die notwendigen Schritte und zus\u00e4tzliche Ma\u00dfnahmen zur Verh\u00fctung zuk\u00fcnftiger Ereignisse.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        211,
+        228
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsrisiko im Krankenhaus-IT-System\n\nEin Sicherheitsrisiko ist aufgetreten im IT-System der Klinik, was zu potenzieller Exposition sensibler medizinischer Daten f\u00fchren k\u00f6nnte You can reach me at [email].. Dies scheint aufgrund von Schwachstellen in veralteter Software und falscher Konfigurationen aufgetreten zu sein My name is [full_name].. Versucht, wichtige Anwendungen zu aktualisieren und die Firewall zu verbessern, leider ohne Erfolg. Dringend ben\u00f6tigen wir Unterst\u00fctzung, um das Problem zu l\u00f6sen und die Sicherheit der Patientendaten zu gew\u00e4hrleisten. Bitte geben Sie Anleitungen f\u00fcr die notwendigen Schritte und zus\u00e4tzliche Ma\u00dfnahmen zur Verh\u00fctung zuk\u00fcnftiger Ereignisse.",
+  "category_of_the_email": "Incident"
+}

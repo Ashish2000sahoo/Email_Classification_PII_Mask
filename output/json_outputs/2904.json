@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investmentstrategie\n\nK\u00f6nnten detaillierte Informationen zu Analysewerkzeugen und Optimierung von Investmentstrategien bereitstellen? Ich m\u00f6chte mein Portfolio verbessern und sch\u00e4tze Ihre Empfehlung f\u00fcr das beste Werkzeug My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        241,
+        254
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        359,
+        382
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Investmentstrategie\n\nK\u00f6nnten detaillierte Informationen zu Analysewerkzeugen und Optimierung von Investmentstrategien bereitstellen? Ich m\u00f6chte mein Portfolio verbessern und sch\u00e4tze Ihre Empfehlung f\u00fcr das beste Werkzeug My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

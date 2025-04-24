@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Medical Record Breach Incident\n\nDear Customer Support, <br><br>I am in contact to report a severe security issue related to unauthorized access of medical records. This breach was discovered last night, and our early findings point towards a weak firewall setting or an unpatched software vulnerability causing the breach.<br><br>We have already begun addressing this by rebooting the firewall and conducting a malware scan with Norton 360. Nonetheless, we need your expert assistance to thoroughly investigate and mitigate the situation You can reach me at maria.gonzalez@shop.es.. We would greatly appreciate your guidance in identifying the root cause and establishing preventive measures going forward.<br><br>Please inform us about the subsequent actions to be taken and any further details you may need from us My name is Carlos Mendoza.. We value your swift attention to this critical matter of securing our medical records.<br><br>Thank you for your support and cooperation in this situation. We are eagerly awaiting your response.<br><br>Sincerely,<br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        837,
+        851
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        567,
+        589
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        445,
+        448
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Medical Record Breach Incident\n\nDear Customer Support, <br><br>I am in contact to report a severe security issue related to unauthorized access of medical records. This breach was discovered last night, and our early findings point towards a weak firewall setting or an unpatched software vulnerability causing the breach.<br><br>We have already begun addressing this by rebooting the firewall and conducting a malware scan with Norton [cvv_no]. Nonetheless, we need your expert assistance to thoroughly investigate and mitigate the situation You can reach me at [email].. We would greatly appreciate your guidance in identifying the root cause and establishing preventive measures going forward.<br><br>Please inform us about the subsequent actions to be taken and any further details you may need from us My name is [full_name].. We value your swift attention to this critical matter of securing our medical records.<br><br>Thank you for your support and cooperation in this situation. We are eagerly awaiting your response.<br><br>Sincerely,<br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

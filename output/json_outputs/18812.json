@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich kontaktiere Sie in Bezug auf meine Anfrage nach detaillierterer Dokumentation zur Integration von ClickUp in unsere SaaS-Plattform. Bitte stellen Sie die notwendigen Leitf\u00e4den und Tutorials sowie die API-Dokumentation zur Verf\u00fcgung, um eine glatte Integration zu erm\u00f6glichen. Ich freue mich darauf, eine eindeutige Liste meiner Anforderungen zu erhalten, einschlie\u00dflich Authentifizierungsprotokolle und Datenformate, die f\u00fcr die Integration erforderlich sind. Falls Sie bereits integrierte L\u00f6sungen oder Plugins haben, lassen Sie mich bitte wissen. Ich freue mich darauf, ClickUp in unsere Plattform erfolgreich zu integrieren You can reach me at johndoe@email.com.. Vielen Dank. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        729,
+        736
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        685,
+        702
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich kontaktiere Sie in Bezug auf meine Anfrage nach detaillierterer Dokumentation zur Integration von ClickUp in unsere SaaS-Plattform. Bitte stellen Sie die notwendigen Leitf\u00e4den und Tutorials sowie die API-Dokumentation zur Verf\u00fcgung, um eine glatte Integration zu erm\u00f6glichen. Ich freue mich darauf, eine eindeutige Liste meiner Anforderungen zu erhalten, einschlie\u00dflich Authentifizierungsprotokolle und Datenformate, die f\u00fcr die Integration erforderlich sind. Falls Sie bereits integrierte L\u00f6sungen oder Plugins haben, lassen Sie mich bitte wissen. Ich freue mich darauf, ClickUp in unsere Plattform erfolgreich zu integrieren You can reach me at [email].. Vielen Dank. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

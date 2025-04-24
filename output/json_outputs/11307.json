@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Over Recent Investment Predictions\n\nDear Customer Support, <br><br>I am reaching out to address a recent issue with the investment predictions. The predictions have suddenly become inaccurate, leading to significant concern. I believe there might be a disruption in the data feed contributing to this problem. <br><br>I have already attempted to address the issue by restarting the analytics engine and ensuring the data sources are correct You can reach me at elena.ivanova@support.org.. Unfortunately, the problem persists. I request your urgent attention to this matter and a prompt resolution My name is Maria Gonzalez.. <br><br>Here are the specifics: <br>- Issue: Inaccurate investment predictions. <br>- Suspected Cause: Possible disruption in the data feed. <br>- Actions Taken: Restarted the analytics engine and verified the data sources. The issue remains unresolved. <br><br>I would highly appreciate it if you could delve deeper into this issue and provide a resolution. Kindly let me know if more information is needed from my side. <br><br>Thank you for your prompt response. I look forward to your assistance. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        626,
+        640
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        479,
+        504
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Recent Investment Predictions\n\nDear Customer Support, <br><br>I am reaching out to address a recent issue with the investment predictions. The predictions have suddenly become inaccurate, leading to significant concern. I believe there might be a disruption in the data feed contributing to this problem. <br><br>I have already attempted to address the issue by restarting the analytics engine and ensuring the data sources are correct You can reach me at [email].. Unfortunately, the problem persists. I request your urgent attention to this matter and a prompt resolution My name is [full_name].. <br><br>Here are the specifics: <br>- Issue: Inaccurate investment predictions. <br>- Suspected Cause: Possible disruption in the data feed. <br>- Actions Taken: Restarted the analytics engine and verified the data sources. The issue remains unresolved. <br><br>I would highly appreciate it if you could delve deeper into this issue and provide a resolution. Kindly let me know if more information is needed from my side. <br><br>Thank you for your prompt response. I look forward to your assistance. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

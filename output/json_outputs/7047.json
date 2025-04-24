@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Application Crashes During Project Management Tasks\n\nEncountered unexpected application crashes while handling project management tasks, possibly due to incompatibility with Node.js 14.17 and conflicting software.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        196
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    },
+    {
+      "position": [
+        245,
+        261
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Application Crashes During Project Management Tasks\n\nEncountered unexpected application crashes while handling project management tasks, possibly due to incompatibility with Node.js [phone_number] and conflicting software.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

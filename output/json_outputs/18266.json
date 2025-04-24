@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Decrease in Digital Marketing Engagement Rates\n\nNoticed a drop in engagement conversion rates with digital marketing strategies My name is David Kim.. This may be due to recent algorithm changes You can reach me at omar.hassan@secure.net.. Attempts to optimize campaigns, adjust targeting, and reallocate budgets have not yielded positive results. I would appreciate your assistance in analyzing the issue and providing recommendations for improvement. Please let us know if you need any additional information to proceed with the analysis.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        157
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        226,
+        248
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Decrease in Digital Marketing Engagement Rates\n\nNoticed a drop in engagement conversion rates with digital marketing strategies My name is [full_name].. This may be due to recent algorithm changes You can reach me at [email].. Attempts to optimize campaigns, adjust targeting, and reallocate budgets have not yielded positive results. I would appreciate your assistance in analyzing the issue and providing recommendations for improvement. Please let us know if you need any additional information to proceed with the analysis.",
+  "category_of_the_email": "Incident"
+}

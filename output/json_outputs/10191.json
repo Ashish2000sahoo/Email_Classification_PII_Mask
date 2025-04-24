@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Project Tasks Synchronization via Zoho CRM Integration\n\nI am writing to report a problem with the synchronization of project tasks with the Zoho CRM Integration You can reach me at janesmith@company.com.. This issue might be due to incorrect API key configuration or an outdated Scikit-learn library. I have already tried restarting Vagrant, checking Maple logs, and verifying Telegram notifications, but the issue persists. I would appreciate your assistance in resolving this. Please let me know if you need any additional information. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        569,
+        578
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        201,
+        222
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Project Tasks Synchronization via Zoho CRM Integration\n\nI am writing to report a problem with the synchronization of project tasks with the Zoho CRM Integration You can reach me at [email].. This issue might be due to incorrect API key configuration or an outdated Scikit-learn library. I have already tried restarting Vagrant, checking Maple logs, and verifying Telegram notifications, but the issue persists. I would appreciate your assistance in resolving this. Please let me know if you need any additional information. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

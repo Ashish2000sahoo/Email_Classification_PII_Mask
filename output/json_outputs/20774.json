@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Exchange Request for Printer Issue\n\nDear Customer Support,\n\nI am writing to request an exchange for my Canon PIXMA MG3620 My name is Maria Gonzalez.. The printer fails to connect wirelessly, despite multiple configuration attempts as per the manual\u2019s instructions You can reach me at david.kim@corp.kr.. Could you guide me through the exchange process or suggest any immediate solutions?\n\nThank you for your assistance.\n\nRegards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        156
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        290,
+        307
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        126,
+        130
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Exchange Request for Printer Issue\n\nDear Customer Support,\n\nI am writing to request an exchange for my Canon PIXMA MG[phone_number] My name is [full_name].. The printer fails to connect wirelessly, despite multiple configuration attempts as per the manual\u2019s instructions You can reach me at [email].. Could you guide me through the exchange process or suggest any immediate solutions?\n\nThank you for your assistance.\n\nRegards,\n<name>",
+  "category_of_the_email": "Incident"
+}

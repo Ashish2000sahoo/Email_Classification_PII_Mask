@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountering Delays and Crashes in Project Management Software\n\nWe are encountering notable delays and crashes in the project management software during peak usage periods You can reach me at fatima.farsi@help.com.. Efforts to reduce user sessions and optimize queries have not resolved the issue. The problem might be due to an overload of users and inadequate server resources. We kindly request your assistance in resolving this to ensure a smooth user experience. Please advise on potential solutions, such as upgrading the server infrastructure or implementing efficient load management strategies. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        624,
+        637
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        201,
+        222
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Encountering Delays and Crashes in Project Management Software\n\nWe are encountering notable delays and crashes in the project management software during peak usage periods You can reach me at [email].. Efforts to reduce user sessions and optimize queries have not resolved the issue. The problem might be due to an overload of users and inadequate server resources. We kindly request your assistance in resolving this to ensure a smooth user experience. Please advise on potential solutions, such as upgrading the server infrastructure or implementing efficient load management strategies. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

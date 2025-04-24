@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Assistance Required: Wireless Connectivity Issue with HP DeskJet 3755\n\nDear Tech Online Store Support,\n\nI'm experiencing frequent disconnection issues with my HP DeskJet 3755 printer My name is Elena Ivanova.. Despite trying to troubleshoot the wireless connectivity myself, the problem persists. This affects my ability to complete tasks efficiently. Could you please provide guidance or a solution? My account number is <acc_num>.\n\nThank you for your assistance.\n\nBest regards,\n<name>\nContact: <tel_num>.\n You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        203,
+        216
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        535,
+        553
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        74,
+        78
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        179,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required: Wireless Connectivity Issue with HP DeskJet [phone_number]\n\nDear Tech Online Store Support,\n\nI'm experiencing frequent disconnection issues with my HP DeskJet [phone_number] printer My name is [full_name].. Despite trying to troubleshoot the wireless connectivity myself, the problem persists. This affects my ability to complete tasks efficiently. Could you please provide guidance or a solution? My account number is <acc_num>.\n\nThank you for your assistance.\n\nBest regards,\n<name>\nContact: <tel_num>.\n You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

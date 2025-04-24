@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with AWS Deployment\n\nDear Customer Support,\n\nI hope this message finds you well. I am writing to report a significant issue we are experiencing with AWS Management Service deployment. We have encountered persistent challenges that have resulted in delays to our cloud projects, and it is severely impacting our efforts towards cost optimization. This limitation in managing and deploying AWS services efficiently is proving to be a bottleneck to our operational plans.\n\nAs this situation has extended over a period of weeks, it disrupts our workflow considerably You can reach me at elena.ivanova@support.org.. It is crucial for us to have these issues resolved promptly to meet our project deadlines and maintain our competitive edge. Immediate attention to this matter would be greatly appreciated.\n\nCould you please advise on any potential solutions or updates regarding this disruption? Your timely assistance will be invaluable in helping us navigate this challenge. \n\nThank you for your support and understanding. I look forward to your response to discuss this matter further and explore any possible resolutions.\n\nBest regards,\n\n<name>\n<company_name>\n<acc_num> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1196,
+        1205
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        599,
+        624
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issues with AWS Deployment\n\nDear Customer Support,\n\nI hope this message finds you well. I am writing to report a significant issue we are experiencing with AWS Management Service deployment. We have encountered persistent challenges that have resulted in delays to our cloud projects, and it is severely impacting our efforts towards cost optimization. This limitation in managing and deploying AWS services efficiently is proving to be a bottleneck to our operational plans.\n\nAs this situation has extended over a period of weeks, it disrupts our workflow considerably You can reach me at [email].. It is crucial for us to have these issues resolved promptly to meet our project deadlines and maintain our competitive edge. Immediate attention to this matter would be greatly appreciated.\n\nCould you please advise on any potential solutions or updates regarding this disruption? Your timely assistance will be invaluable in helping us navigate this challenge. \n\nThank you for your support and understanding. I look forward to your response to discuss this matter further and explore any possible resolutions.\n\nBest regards,\n\n<name>\n<company_name>\n<acc_num> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

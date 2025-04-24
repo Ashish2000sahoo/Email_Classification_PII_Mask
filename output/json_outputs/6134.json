@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme beim Aufladen des Web-Analysedashboards\n\nDas Web-Analysedashboard l\u00e4dt sich nicht. Bei dem Login erhalte ich eine Fehlermeldung My name is Maria Gonzalez.. Ich habe versucht, meine Browser-Version zu aktualisieren und das Cache zu leeren, aber das Problem bleibt bestehen You can reach me at liuwei@business.cn.. Ich denke, dass ein veralteter Browser-Plugin der Grund f\u00fcr das Problem ist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        157,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        307,
+        325
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme beim Aufladen des Web-Analysedashboards\n\nDas Web-Analysedashboard l\u00e4dt sich nicht. Bei dem Login erhalte ich eine Fehlermeldung My name is [full_name].. Ich habe versucht, meine Browser-Version zu aktualisieren und das Cache zu leeren, aber das Problem bleibt bestehen You can reach me at [email].. Ich denke, dass ein veralteter Browser-Plugin der Grund f\u00fcr das Problem ist.",
+  "category_of_the_email": "Incident"
+}

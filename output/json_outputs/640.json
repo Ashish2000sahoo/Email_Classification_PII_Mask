@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Recurring Problem with Accessing the Login Page of the Dashboard\n\nHello Customer Support, I am contacting you regarding a recent problem I encountered with accessing my dashboard. The issue appeared without any prior warning and might be related to server overloading. I have attempted troubleshooting steps such as restarting my browser and clearing the cache, yet the issue remains unresolved. This abrupt disruption has disrupted my ongoing work and has caused substantial inconvenience My name is John Doe.. I kindly request that you address this matter promptly and offer a solution. It would also be helpful if you could inform me of any additional measures I can undertake to resolve this issue. I am willing to provide any necessary details to assist in your investigation. Please do not hesitate to call me at <tel_num> for further discussion. I await your swift response and am hopeful for a prompt resolution. Thank you for your assistance. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        510,
+        518
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        984,
+        1001
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Recurring Problem with Accessing the Login Page of the Dashboard\n\nHello Customer Support, I am contacting you regarding a recent problem I encountered with accessing my dashboard. The issue appeared without any prior warning and might be related to server overloading. I have attempted troubleshooting steps such as restarting my browser and clearing the cache, yet the issue remains unresolved. This abrupt disruption has disrupted my ongoing work and has caused substantial inconvenience My name is [full_name].. I kindly request that you address this matter promptly and offer a solution. It would also be helpful if you could inform me of any additional measures I can undertake to resolve this issue. I am willing to provide any necessary details to assist in your investigation. Please do not hesitate to call me at <tel_num> for further discussion. I await your swift response and am hopeful for a prompt resolution. Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

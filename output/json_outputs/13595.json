@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Problem with Project Management Tool Crash\n\nThe project management tool has unexpectedly crashed My name is Maria Gonzalez.. It could be due to issues with device integration You can reach me at carlosm@gmail.com.. So far, I have restarted the system and checked for available software updates.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        140
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        210,
+        227
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem with Project Management Tool Crash\n\nThe project management tool has unexpectedly crashed My name is [full_name].. It could be due to issues with device integration You can reach me at [email].. So far, I have restarted the system and checked for available software updates.",
+  "category_of_the_email": "Incident"
+}

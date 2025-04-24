@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anpassung nutzerfreundlicher Funktionen f\u00fcr das Projektmanagement SaaS vorschlagen\n\nSehr geehrte Customer Support-Team, ich m\u00f6chte Sie bitten, die nutzerfreundlichen Funktionen f\u00fcr das Projektmanagement SaaS anzupassen, um die Benutzerfreundlichkeit f\u00fcr verschiedene Ger\u00e4te zu verbessern. Das aktuelle Interface beeindruckt neue Benutzer, kann jedoch manchmal \u00fcberw\u00e4ltigend sein My name is Liu Wei.. Ich glaube, die Einbeziehung von Drag-and-Drop-Funktionen, benutzerdefinierte Dashboards und realzeitliche Kooperationswerkzeuge k\u00f6nnten das gesamte Benutzererlebnis erheblich verbessern. Zudem w\u00e4re eine Plattform-Optimierung f\u00fcr mobile Ger\u00e4te w\u00fcnschenswert, damit Benutzer ihre Projekte verwalten k\u00f6nnen, auch wenn sie unterwegs sind You can reach me at liuwei@business.cn.. Ich sch\u00e4tze Ihre Ber\u00fccksichtigung dieser Anfrage.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        406
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        768,
+        786
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Anpassung nutzerfreundlicher Funktionen f\u00fcr das Projektmanagement SaaS vorschlagen\n\nSehr geehrte Customer Support-Team, ich m\u00f6chte Sie bitten, die nutzerfreundlichen Funktionen f\u00fcr das Projektmanagement SaaS anzupassen, um die Benutzerfreundlichkeit f\u00fcr verschiedene Ger\u00e4te zu verbessern. Das aktuelle Interface beeindruckt neue Benutzer, kann jedoch manchmal \u00fcberw\u00e4ltigend sein My name is [full_name].. Ich glaube, die Einbeziehung von Drag-and-Drop-Funktionen, benutzerdefinierte Dashboards und realzeitliche Kooperationswerkzeuge k\u00f6nnten das gesamte Benutzererlebnis erheblich verbessern. Zudem w\u00e4re eine Plattform-Optimierung f\u00fcr mobile Ger\u00e4te w\u00fcnschenswert, damit Benutzer ihre Projekte verwalten k\u00f6nnen, auch wenn sie unterwegs sind You can reach me at [email].. Ich sch\u00e4tze Ihre Ber\u00fccksichtigung dieser Anfrage.",
+  "category_of_the_email": "Change"
+}

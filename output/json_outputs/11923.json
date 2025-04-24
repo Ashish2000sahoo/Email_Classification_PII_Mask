@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error with Investment-Optimization Tool\n\nThe Investment-Optimization Tool is experiencing issues with data processing. Recent software updates seem to have caused a regression You can reach me at janesmith@company.com.. The program was restarted and the cache was cleared, but the error persists My name is Jane Smith.. We are looking forward to your assistance in resolving this issue to minimize potential losses quickly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        326
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        205,
+        226
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Error with Investment-Optimization Tool\n\nThe Investment-Optimization Tool is experiencing issues with data processing. Recent software updates seem to have caused a regression You can reach me at [email].. The program was restarted and the cache was cleared, but the error persists My name is [full_name].. We are looking forward to your assistance in resolving this issue to minimize potential losses quickly.",
+  "category_of_the_email": "Incident"
+}

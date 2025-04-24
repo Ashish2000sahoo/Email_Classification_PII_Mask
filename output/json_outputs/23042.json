@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue Report: Dell XPS 13 Overheating During Usage\n\nDear Customer Support,\n\nI am writing to report a persistent issue I've been experiencing with my recently purchased Dell XPS 13 9310. During regular usage, the laptop tends to overheat significantly, creating not only discomfort while using but also leading to noticeable reductions in performance. This overheating occurs even with tasks that should be relatively low-intensity.\n\nWhen I opted for the Dell XPS 13 9310, I was hoping to find a reliable and efficient device that could handle my computing needs smoothly My name is Omar Hassan.. However, this persistent overheating issue has become quite a frustration and impacts my daily work routine.\n\nI would appreciate your guidance on the matter. Could you please provide instructions on how to resolve or troubleshoot this overheating problem? Alternatively, if necessary, I would like to discuss possible options for repair or replacement. Your prompt assistance in this situation would be highly appreciated.\n\nThank you for your understanding and support.\n\nBest regards,\n\n<name>\n\n<acc_num>\n\n<tel_num> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        591,
+        602
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1140,
+        1162
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        186,
+        193
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        472,
+        479
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Issue Report: Dell XPS 13 Overheating During Usage\n\nDear Customer Support,\n\nI am writing to report a persistent issue I've been experiencing with my recently purchased Dell XPS [phone_number]. During regular usage, the laptop tends to overheat significantly, creating not only discomfort while using but also leading to noticeable reductions in performance. This overheating occurs even with tasks that should be relatively low-intensity.\n\nWhen I opted for the Dell XPS [phone_number], I was hoping to find a reliable and efficient device that could handle my computing needs smoothly My name is [full_name].. However, this persistent overheating issue has become quite a frustration and impacts my daily work routine.\n\nI would appreciate your guidance on the matter. Could you please provide instructions on how to resolve or troubleshoot this overheating problem? Alternatively, if necessary, I would like to discuss possible options for repair or replacement. Your prompt assistance in this situation would be highly appreciated.\n\nThank you for your understanding and support.\n\nBest regards,\n\n<name>\n\n<acc_num>\n\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

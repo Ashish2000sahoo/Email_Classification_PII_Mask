@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Help Needed\n\nDear Customer Support Team,\n\nI trust this message reaches you in good spirits My name is Carlos Mendoza.. I am reaching out to urgently seek assistance regarding a serious issue that is undermining our daily project management capabilities. My name is <name>, and I represent our organization that heavily depends on the Jira Software version 8.20 for effective management and tracking of our projects.\n\nWe have come across a persistent challenge that is adversely affecting our team's efficiency and productivity. Specifically, our project teams are facing delays and errors linked to the ticket management system in Jira. This is evident through tickets not updating accurately, becoming stuck, disrupted workflows, and sporadic system crashes that obstruct our effort to adhere to project deadlines. Despite various internal troubleshooting attempts, the issue remains unresolved.\n\nConsidering the essential role this system plays in our daily tasks and the urgent need to address these concerns, I kindly ask for your prompt support You can reach me at maria.gonzalez@shop.es.. If you could allocate a specialized support agent to assist us in identifying and rectifying these issues at your earliest convenience, it would be tremendously beneficial. I firmly believe that with your expertise, we can swiftly return our system to full functionality.\n\nPlease do not hesitate to reach me directly at <email> or <tel_num> for additional details, or to arrange a call to discuss methods for resolving these concerns further. Thank you for addressing this matter promptly.\n\nAnticipating your quick reply.\n\nBest wishes,\n\n<name>\n<designation>\n<company_name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        121,
+        135
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1086,
+        1108
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Immediate Help Needed\n\nDear Customer Support Team,\n\nI trust this message reaches you in good spirits My name is [full_name].. I am reaching out to urgently seek assistance regarding a serious issue that is undermining our daily project management capabilities. My name is <name>, and I represent our organization that heavily depends on the Jira Software version 8.20 for effective management and tracking of our projects.\n\nWe have come across a persistent challenge that is adversely affecting our team's efficiency and productivity. Specifically, our project teams are facing delays and errors linked to the ticket management system in Jira. This is evident through tickets not updating accurately, becoming stuck, disrupted workflows, and sporadic system crashes that obstruct our effort to adhere to project deadlines. Despite various internal troubleshooting attempts, the issue remains unresolved.\n\nConsidering the essential role this system plays in our daily tasks and the urgent need to address these concerns, I kindly ask for your prompt support You can reach me at [email].. If you could allocate a specialized support agent to assist us in identifying and rectifying these issues at your earliest convenience, it would be tremendously beneficial. I firmly believe that with your expertise, we can swiftly return our system to full functionality.\n\nPlease do not hesitate to reach me directly at <email> or <tel_num> for additional details, or to arrange a call to discuss methods for resolving these concerns further. Thank you for addressing this matter promptly.\n\nAnticipating your quick reply.\n\nBest wishes,\n\n<name>\n<designation>\n<company_name>",
+  "category_of_the_email": "Incident"
+}

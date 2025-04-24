@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hochpriorisierte Anfrage nach Unterst\u00fctzung\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, dass diese Nachricht Sie wohlauf erreicht. Ich schreibe, um eine hochpriorisierte Anfrage bez\u00fcglich Ihres IT-Consulting-Services einzureichen. Unser Unternehmen, <name> Corporation, sucht sofortige Unterst\u00fctzung, um unsere bestehende IT-Software anzupassen und zu optimieren, um die Effizienz zu verbessern und eine bessere Technologieintegration und -verwaltung innerhalb unserer Organisation zu erm\u00f6glichen.\n\nIn den letzten Monaten sind wir auf mehrere Herausforderungen gesto\u00dfen, w\u00e4hrend wir versucht haben, neue Technologien mit unseren bestehenden Systemen zu integrieren My name is John Doe.. Aufgrund der dynamischen Natur unseres Gesch\u00e4fts ist es unerl\u00e4sslich, eine nahtlose Integration aller IT-Systeme und -Technologien sicherzustellen You can reach me at omar.hassan@secure.net.. Die aktuelle Konfiguration erweist sich als ineffizient und verursacht St\u00f6rungen in unseren Abl\u00e4ufen. Ihre Expertise im IT-Consulting wurde von mehreren Kollegen sehr empfohlen, und wir hoffen aufrichtig, dass Ihr Team uns bei der Behebung dieser kritischen Probleme unterst\u00fctzen kann.\n\nWir sind bereit, dieses Thema zu einem f\u00fcr Sie g\u00fcnstigen Zeitpunkt zu besprechen und Ihnen alle zus\u00e4tzlichen Informationen zur Verf\u00fcgung zu stellen, die Sie f\u00fcr eine effektive Unterst\u00fctzung ben\u00f6tigen. Bitte kontaktieren Sie mich direkt unter <tel_num> oder per E-Mail unter <email_address> f\u00fcr eine detaillierte Diskussion.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser dringenden Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<name> Corporation",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        687,
+        695
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        868,
+        890
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Hochpriorisierte Anfrage nach Unterst\u00fctzung\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, dass diese Nachricht Sie wohlauf erreicht. Ich schreibe, um eine hochpriorisierte Anfrage bez\u00fcglich Ihres IT-Consulting-Services einzureichen. Unser Unternehmen, <name> Corporation, sucht sofortige Unterst\u00fctzung, um unsere bestehende IT-Software anzupassen und zu optimieren, um die Effizienz zu verbessern und eine bessere Technologieintegration und -verwaltung innerhalb unserer Organisation zu erm\u00f6glichen.\n\nIn den letzten Monaten sind wir auf mehrere Herausforderungen gesto\u00dfen, w\u00e4hrend wir versucht haben, neue Technologien mit unseren bestehenden Systemen zu integrieren My name is [full_name].. Aufgrund der dynamischen Natur unseres Gesch\u00e4fts ist es unerl\u00e4sslich, eine nahtlose Integration aller IT-Systeme und -Technologien sicherzustellen You can reach me at [email].. Die aktuelle Konfiguration erweist sich als ineffizient und verursacht St\u00f6rungen in unseren Abl\u00e4ufen. Ihre Expertise im IT-Consulting wurde von mehreren Kollegen sehr empfohlen, und wir hoffen aufrichtig, dass Ihr Team uns bei der Behebung dieser kritischen Probleme unterst\u00fctzen kann.\n\nWir sind bereit, dieses Thema zu einem f\u00fcr Sie g\u00fcnstigen Zeitpunkt zu besprechen und Ihnen alle zus\u00e4tzlichen Informationen zur Verf\u00fcgung zu stellen, die Sie f\u00fcr eine effektive Unterst\u00fctzung ben\u00f6tigen. Bitte kontaktieren Sie mich direkt unter <tel_num> oder per E-Mail unter <email_address> f\u00fcr eine detaillierte Diskussion.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser dringenden Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<name> Corporation",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Monday.com Synchronization\n\nFacing synchronization problems with Monday.com. Already attempted restarting and clearing cache, but the issue still exists.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        214
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Monday.com Synchronization\n\nFacing synchronization problems with Monday.com. Already attempted restarting and clearing cache, but the issue still exists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

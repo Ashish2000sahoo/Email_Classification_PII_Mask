@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry Regarding System Failure\n\nExperienced a system failure affecting multiple applications/devices, with encryption of medical data being pertinent My name is Jane Smith.. The initial diagnosis suggests possible server configuration compatibility issues with software platforms You can reach me at maria.gonzalez@shop.es.. Restarted the affected server, cleared caches, and applied patch updates, but the issues persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        190
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        320,
+        342
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry Regarding System Failure\n\nExperienced a system failure affecting multiple applications/devices, with encryption of medical data being pertinent My name is [full_name].. The initial diagnosis suggests possible server configuration compatibility issues with software platforms You can reach me at [email].. Restarted the affected server, cleared caches, and applied patch updates, but the issues persist.",
+  "category_of_the_email": "Incident"
+}

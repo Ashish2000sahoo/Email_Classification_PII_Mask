@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsseln medizinischer Daten mit Malwarebytes\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um nachzuhaken, ob Malwarebytes sichern hilft, die Krankenhaus-IT-Systeme f\u00fcr medizinische Daten. K\u00f6nnten Sie uns Ratschl\u00e4ge zur Integration dieser L\u00f6sung geben? Wir m\u00f6chten unsere Cyber-Sicherheitsma\u00dfnahmen verbessern und sensible Patientendaten sch\u00fctzen My name is Maria Gonzalez.. Ich freue mich auf Ihre Empfehlungen zu den besten Praktiken. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        387,
+        401
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        566,
+        583
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsseln medizinischer Daten mit Malwarebytes\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um nachzuhaken, ob Malwarebytes sichern hilft, die Krankenhaus-IT-Systeme f\u00fcr medizinische Daten. K\u00f6nnten Sie uns Ratschl\u00e4ge zur Integration dieser L\u00f6sung geben? Wir m\u00f6chten unsere Cyber-Sicherheitsma\u00dfnahmen verbessern und sensible Patientendaten sch\u00fctzen My name is [full_name].. Ich freue mich auf Ihre Empfehlungen zu den besten Praktiken. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

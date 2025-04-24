@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Dell XPS 13 9310\n\nScreen goes black intermittently. Need troubleshooting for hardware or software cause.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        29,
+        36
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        147,
+        162
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Issue with Dell XPS [phone_number]\n\nScreen goes black intermittently. Need troubleshooting for hardware or software cause.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

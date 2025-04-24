@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Investment Strategy Guidance\n\nCould you provide details on optimizing investment strategies?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        124,
+        140
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Investment Strategy Guidance\n\nCould you provide details on optimizing investment strategies?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

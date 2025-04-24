@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Support\n\nReporting intermittent performance issues on the SaaS platform while accessing project files My name is Sophia Rossi.. The issue might be related to insufficient RAM or network instability, especially with NAS wireless connections. Despite restarting networking equipment and optimizing storage settings, the problem persists. I would greatly appreciate assistance in troubleshooting and resolving this issue to ensure seamless access to project files You can reach me at johndoe@email.com.. Please let me know the next steps to resolve this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        499,
+        516
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Support\n\nReporting intermittent performance issues on the SaaS platform while accessing project files My name is [full_name].. The issue might be related to insufficient RAM or network instability, especially with NAS wireless connections. Despite restarting networking equipment and optimizing storage settings, the problem persists. I would greatly appreciate assistance in troubleshooting and resolving this issue to ensure seamless access to project files You can reach me at [email].. Please let me know the next steps to resolve this matter.",
+  "category_of_the_email": "Incident"
+}

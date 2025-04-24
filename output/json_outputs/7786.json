@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bekanntmachung zu Integrationshandb\u00fcchern\n\nLieber Kundenservice, ich m\u00f6chte umfassende Dokumentationen \u00fcber die Integration von SaaS-Drittanbieter-Projektmanagement-Tools bitten. Ich interessiere mich insbesondere f\u00fcr detaillierte Anleitungen und die Verf\u00fcgbarkeit bestimmter Funktionen, die meine spezifischen Anforderungen erf\u00fcllen. Es w\u00e4re sehr hilfreich, wenn Sie mir Schritt-f\u00fcr-Schritt-Anweisungen zur Verf\u00fcgung stellen k\u00f6nnten, die mir dabei helfen, die Integration zu realisieren. Das w\u00fcrde mich erlauben, die SaaS-Tools effektiv in meinen bestehenden Projektmanagement-Workflow zu integrieren You can reach me at johndoe@email.com.. Ich freue mich auf Ihre baldige R\u00fcckmeldung und bitte Sie, mir die notwendigen Informationen zukommen zu lassen. Falls weitere Diskussionen erforderlich sind, lassen Sie sich bitte per Telefon <tel_num> erreichen My name is Jane Smith.. Ich werde mein Konto <acc_num> \u00fcberpr\u00fcfen, um die genaueste Information zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        875,
+        885
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        631,
+        648
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Bekanntmachung zu Integrationshandb\u00fcchern\n\nLieber Kundenservice, ich m\u00f6chte umfassende Dokumentationen \u00fcber die Integration von SaaS-Drittanbieter-Projektmanagement-Tools bitten. Ich interessiere mich insbesondere f\u00fcr detaillierte Anleitungen und die Verf\u00fcgbarkeit bestimmter Funktionen, die meine spezifischen Anforderungen erf\u00fcllen. Es w\u00e4re sehr hilfreich, wenn Sie mir Schritt-f\u00fcr-Schritt-Anweisungen zur Verf\u00fcgung stellen k\u00f6nnten, die mir dabei helfen, die Integration zu realisieren. Das w\u00fcrde mich erlauben, die SaaS-Tools effektiv in meinen bestehenden Projektmanagement-Workflow zu integrieren You can reach me at [email].. Ich freue mich auf Ihre baldige R\u00fcckmeldung und bitte Sie, mir die notwendigen Informationen zukommen zu lassen. Falls weitere Diskussionen erforderlich sind, lassen Sie sich bitte per Telefon <tel_num> erreichen My name is [full_name].. Ich werde mein Konto <acc_num> \u00fcberpr\u00fcfen, um die genaueste Information zu erhalten.",
+  "category_of_the_email": "Request"
+}

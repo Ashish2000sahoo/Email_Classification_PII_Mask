@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Breach Alert\n\nDear Customer Support, a security breach has been detected in our hospital's system, potentially compromising the privacy of medical data. This issue might be due to outdated software and insufficient access controls. We have attempted to update the software and strengthen access protocols, but the issue persists. A team is working to resolve it, and we require additional assistance to ensure the security system is robust My name is Omar Hassan.. We would greatly appreciate your guidance on the course of action to take and recommendations for improving security. Please provide any necessary details. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        469,
+        480
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        659,
+        676
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Security Breach Alert\n\nDear Customer Support, a security breach has been detected in our hospital's system, potentially compromising the privacy of medical data. This issue might be due to outdated software and insufficient access controls. We have attempted to update the software and strengthen access protocols, but the issue persists. A team is working to resolve it, and we require additional assistance to ensure the security system is robust My name is [full_name].. We would greatly appreciate your guidance on the course of action to take and recommendations for improving security. Please provide any necessary details. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

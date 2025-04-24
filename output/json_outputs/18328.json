@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Project Timelines Not Aligning Properly\n\nProject timelines are not syncing accurately among teams due to formatting discrepancies.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        177
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Project Timelines Not Aligning Properly\n\nProject timelines are not syncing accurately among teams due to formatting discrepancies.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

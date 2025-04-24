@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Investment System Crash Identified\n\nThe investment optimization system has encountered a crash during the data analysis process.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Investment System Crash Identified\n\nThe investment optimization system has encountered a crash during the data analysis process.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

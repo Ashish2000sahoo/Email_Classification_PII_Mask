@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicitud de soporte para problemas de sobrecalentamiento\n\nEstimado equipo de atenci\u00f3n al cliente,\n\nEstoy escribiendo para informar un problema con mi Dell XPS 13 9310 reci\u00e9n adquirido, que ha estado experimentando problemas de rendimiento significativos debido al alto uso de CPU y sobrecalentamiento. Desde el d\u00eda en que comenc\u00e9 a usar la computadora port\u00e1til, ha estado mostrando frecuentemente un aumento en la actividad de la CPU, incluso durante tareas que exigen una potencia computacional m\u00ednima, lo que lleva a apagados inesperados debido al sobrecalentamiento.\n\nEste problema de calentamiento est\u00e1 afectando gravemente mi eficiencia laboral al ralentizar el sistema y tambi\u00e9n ha causado varias p\u00e9rdidas de datos no guardados. Compr\u00e9 este dispositivo en su tienda y estoy profundamente preocupado por estos problemas que ocurren en una compra tan reciente.\n\nHe asegurado que todo el software est\u00e9 actualizado y he realizado un mantenimiento de rutina, sin embargo, el problema persiste You can reach me at fatima.farsi@help.com.. Por lo tanto, me pongo en contacto para buscar su orientaci\u00f3n y posible asistencia para resolver estos problemas. Por favor, h\u00e1ganme saber los siguientes pasos, ya sea que implique obtener un reemplazo o reparaciones.\n\nGracias por su comprensi\u00f3n y atenci\u00f3n r\u00e1pida a mi problema. Espero su respuesta lo antes posible My name is Elena Ivanova.. Puedes contactarme en cualquier momento al <tel_num>.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1375,
+        1388
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1024,
+        1045
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        169,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de soporte para problemas de sobrecalentamiento\n\nEstimado equipo de atenci\u00f3n al cliente,\n\nEstoy escribiendo para informar un problema con mi Dell XPS [phone_number] reci\u00e9n adquirido, que ha estado experimentando problemas de rendimiento significativos debido al alto uso de CPU y sobrecalentamiento. Desde el d\u00eda en que comenc\u00e9 a usar la computadora port\u00e1til, ha estado mostrando frecuentemente un aumento en la actividad de la CPU, incluso durante tareas que exigen una potencia computacional m\u00ednima, lo que lleva a apagados inesperados debido al sobrecalentamiento.\n\nEste problema de calentamiento est\u00e1 afectando gravemente mi eficiencia laboral al ralentizar el sistema y tambi\u00e9n ha causado varias p\u00e9rdidas de datos no guardados. Compr\u00e9 este dispositivo en su tienda y estoy profundamente preocupado por estos problemas que ocurren en una compra tan reciente.\n\nHe asegurado que todo el software est\u00e9 actualizado y he realizado un mantenimiento de rutina, sin embargo, el problema persiste You can reach me at [email].. Por lo tanto, me pongo en contacto para buscar su orientaci\u00f3n y posible asistencia para resolver estos problemas. Por favor, h\u00e1ganme saber los siguientes pasos, ya sea que implique obtener un reemplazo o reparaciones.\n\nGracias por su comprensi\u00f3n y atenci\u00f3n r\u00e1pida a mi problema. Espero su respuesta lo antes posible My name is [full_name].. Puedes contactarme en cualquier momento al <tel_num>.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

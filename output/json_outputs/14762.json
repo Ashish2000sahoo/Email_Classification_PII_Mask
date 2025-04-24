@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sperren von Krankensystemdaten\n\nEs besteht die M\u00f6glichkeit, Daten zu sperren, wenn medizinische Daten durch veraltete Software-Vulnerabilidades beeintr\u00e4chtigt wurden My name is Omar Hassan.. Aufgrund veralteter Software haben sich Sicherheitsl\u00fccken eingestellt. Die Anwendungen wurden aktualisiert und bekannte Sicherheitsl\u00fccken wurden behoben. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        197
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        374,
+        395
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sperren von Krankensystemdaten\n\nEs besteht die M\u00f6glichkeit, Daten zu sperren, wenn medizinische Daten durch veraltete Software-Vulnerabilidades beeintr\u00e4chtigt wurden My name is [full_name].. Aufgrund veralteter Software haben sich Sicherheitsl\u00fccken eingestellt. Die Anwendungen wurden aktualisiert und bekannte Sicherheitsl\u00fccken wurden behoben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

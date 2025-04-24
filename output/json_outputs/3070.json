@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Medical Data Storage and Transmission Protocols Inquiry\n\nHello customer support, I am contacting you to seek information on secure storage methods and transmission protocols for medical data You can reach me at janesmith@company.com.. My goal is to understand how we can ensure the confidentiality and integrity of our sensitive medical records. Could you please inform me about the various types of encryption and security measures that can be used? I appreciate your help and look forward to your response. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        536,
+        545
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        227,
+        248
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Secure Medical Data Storage and Transmission Protocols Inquiry\n\nHello customer support, I am contacting you to seek information on secure storage methods and transmission protocols for medical data You can reach me at [email].. My goal is to understand how we can ensure the confidentiality and integrity of our sensitive medical records. Could you please inform me about the various types of encryption and security measures that can be used? I appreciate your help and look forward to your response. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

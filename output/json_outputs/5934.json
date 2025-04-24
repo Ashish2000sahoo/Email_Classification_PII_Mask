@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: App Crash Encounter\n\nI am facing an unexpected crash with the project management application, which may be related to incompatible antivirus software You can reach me at maria.gonzalez@shop.es.. I have restarted the application, verified system updates, and turned off the antivirus, yet the issue continues My name is Maria Gonzalez.. Please assist me in resolving this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        328,
+        342
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        179,
+        201
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: App Crash Encounter\n\nI am facing an unexpected crash with the project management application, which may be related to incompatible antivirus software You can reach me at [email].. I have restarted the application, verified system updates, and turned off the antivirus, yet the issue continues My name is [full_name].. Please assist me in resolving this problem.",
+  "category_of_the_email": "Incident"
+}

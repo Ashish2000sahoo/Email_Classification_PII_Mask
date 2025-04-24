@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Beratung zur HIPAA-Konformit\u00e4t\n\nSehr geehrte Kundenservice-Abteilung, ich schreibe Ihnen, um zu erkunden, welche Sicherheitsma\u00dfnahmen Ihre Firma zur HIPAA-Konformit\u00e4t im Hinblick auf die Sicherstellung sauberer und vertraulicher Datenspeicherung f\u00fcr Gesundheitsdienstleistungen eingelegt hat My name is Liu Wei.. Als Fachmann f\u00fcr die Sicherung von Patientendaten ist es unerl\u00e4sslich, dass sie gesichert sind und uneingeschr\u00e4nkt vor unbefugtem Zugriff gesch\u00fctzt sind. Ich w\u00fcrde gerne verstehen, welche spezifischen Sicherheitsma\u00dfnahmen Ihrer Firma zur Unterst\u00fctzung der HIPAA-Konformit\u00e4t eingesetzt werden, einschlie\u00dflich Verschl\u00fcsselungstechniken, Zugriffssteuerungen und Audit-Protokollen. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, welche Zertifizierungen oder Konformit\u00e4tsberichte Ihre Firma erworben hat, um die Verpflichtungen zur HIPAA-Konformit\u00e4t zu untermauern You can reach me at maria.gonzalez@shop.es.. Es w\u00e4re mir sehr lieb, wenn Sie mir detaillierte Informationen zu Ihren Sicherheitsma\u00dfnahmen und Konformit\u00e4tsberichten zur Verf\u00fcgung stellen k\u00f6nnten. Ich danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        312,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        900,
+        922
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Beratung zur HIPAA-Konformit\u00e4t\n\nSehr geehrte Kundenservice-Abteilung, ich schreibe Ihnen, um zu erkunden, welche Sicherheitsma\u00dfnahmen Ihre Firma zur HIPAA-Konformit\u00e4t im Hinblick auf die Sicherstellung sauberer und vertraulicher Datenspeicherung f\u00fcr Gesundheitsdienstleistungen eingelegt hat My name is [full_name].. Als Fachmann f\u00fcr die Sicherung von Patientendaten ist es unerl\u00e4sslich, dass sie gesichert sind und uneingeschr\u00e4nkt vor unbefugtem Zugriff gesch\u00fctzt sind. Ich w\u00fcrde gerne verstehen, welche spezifischen Sicherheitsma\u00dfnahmen Ihrer Firma zur Unterst\u00fctzung der HIPAA-Konformit\u00e4t eingesetzt werden, einschlie\u00dflich Verschl\u00fcsselungstechniken, Zugriffssteuerungen und Audit-Protokollen. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, welche Zertifizierungen oder Konformit\u00e4tsberichte Ihre Firma erworben hat, um die Verpflichtungen zur HIPAA-Konformit\u00e4t zu untermauern You can reach me at [email].. Es w\u00e4re mir sehr lieb, wenn Sie mir detaillierte Informationen zu Ihren Sicherheitsma\u00dfnahmen und Konformit\u00e4tsberichten zur Verf\u00fcgung stellen k\u00f6nnten. Ich danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

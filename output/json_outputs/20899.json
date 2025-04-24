@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Experiencing Frequent Zoom Connection Issues\n\nDear IT Services Customer Support,\n\nI am writing to express my concern about connection issues during my Zoom video conferences. I have been experiencing significant delays and frequent disconnections, adversely affecting my productivity. The problem persists on Zoom version 5.11.0. Despite troubleshooting and verifying my internet connection, the issue seems to be on-going. During calls, it's challenging to communicate effectively, frustratingly disrupting the flow of important meetings. This has made it considerably problematic to maintain efficient communication with clients and colleagues. I believe this issue may not be isolated to me, as other team members using the same version are encountering similar challenges You can reach me at omar.hassan@secure.net.. I would appreciate if your team could investigate this matter thoroughly and advise me on any possible solutions or updates that could alleviate these problems. Your timely response will be greatly appreciated as it is vital for my work routine to have stable and reliable access to Zoom My name is John Doe.. Thank you for your immediate attention to this matter.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1129,
+        1137
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        805,
+        827
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Experiencing Frequent Zoom Connection Issues\n\nDear IT Services Customer Support,\n\nI am writing to express my concern about connection issues during my Zoom video conferences. I have been experiencing significant delays and frequent disconnections, adversely affecting my productivity. The problem persists on Zoom version 5.11.0. Despite troubleshooting and verifying my internet connection, the issue seems to be on-going. During calls, it's challenging to communicate effectively, frustratingly disrupting the flow of important meetings. This has made it considerably problematic to maintain efficient communication with clients and colleagues. I believe this issue may not be isolated to me, as other team members using the same version are encountering similar challenges You can reach me at [email].. I would appreciate if your team could investigate this matter thoroughly and advise me on any possible solutions or updates that could alleviate these problems. Your timely response will be greatly appreciated as it is vital for my work routine to have stable and reliable access to Zoom My name is [full_name].. Thank you for your immediate attention to this matter.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

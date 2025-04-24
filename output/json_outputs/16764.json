@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Digital Marketing Services Billing Options\n\nHello Customer Support, I am writing to request details on the billing alternatives for digital marketing services packages. Could you kindly share the available payment plans with me? I would also like to know if there are any discounts for long-term commitments and if there are extra charges for certain services. I am keen on understanding the pricing structure and how it can be customized to suit my specific requirements. Additionally, I would be grateful if you could inform me about the accepted payment methods and whether there are any penalties for late payments My name is Elena Ivanova.. I appreciate your time and assistance. I eagerly await your response You can reach me at liuwei@business.cn.. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        653,
+        666
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        756,
+        774
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Digital Marketing Services Billing Options\n\nHello Customer Support, I am writing to request details on the billing alternatives for digital marketing services packages. Could you kindly share the available payment plans with me? I would also like to know if there are any discounts for long-term commitments and if there are extra charges for certain services. I am keen on understanding the pricing structure and how it can be customized to suit my specific requirements. Additionally, I would be grateful if you could inform me about the accepted payment methods and whether there are any penalties for late payments My name is [full_name].. I appreciate your time and assistance. I eagerly await your response You can reach me at [email].. Best regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

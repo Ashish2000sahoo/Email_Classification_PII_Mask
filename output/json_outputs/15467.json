@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Reported Problem with Data Accessibility\n\nFor the recent campaign, data files stored on a Kingston DataTraveler 2000 became inaccessible You can reach me at sophia.rossi@service.it.. This might be due to corruption or a system update. Attempts to recover the data using FL Studio and Camtasia were unsuccessful. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        344
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        166,
+        189
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        121,
+        125
+      ],
+      "classification": "phone_number",
+      "entity": "2000"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem with Data Accessibility\n\nFor the recent campaign, data files stored on a Kingston DataTraveler [phone_number] became inaccessible You can reach me at [email].. This might be due to corruption or a system update. Attempts to recover the data using FL Studio and Camtasia were unsuccessful. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

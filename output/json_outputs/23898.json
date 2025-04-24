@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHola Soporte al Cliente, estoy escribiendo para solicitar una revisi\u00f3n y modificaci\u00f3n de nuestra configuraci\u00f3n del proyecto en Jira Software versi\u00f3n 8.20 para mejorar la gesti\u00f3n y colaboraci\u00f3n You can reach me at carlosm@gmail.com.. Por favor cont\u00e1ctame si se requieren detalles adicionales My name is Maria Gonzalez.. Gracias por su pronta atenci\u00f3n a este asunto. Saludos, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        224,
+        241
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHola Soporte al Cliente, estoy escribiendo para solicitar una revisi\u00f3n y modificaci\u00f3n de nuestra configuraci\u00f3n del proyecto en Jira Software versi\u00f3n 8.20 para mejorar la gesti\u00f3n y colaboraci\u00f3n You can reach me at [email].. Por favor cont\u00e1ctame si se requieren detalles adicionales My name is [full_name].. Gracias por su pronta atenci\u00f3n a este asunto. Saludos, <name>.",
+  "category_of_the_email": "Request"
+}

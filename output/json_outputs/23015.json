@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problemas de Conectividade e Desempenho de Wi-Fi com o Roteador Cisco\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para expressar preocupa\u00e7\u00f5es sobre problemas cont\u00ednuos de conectividade Wi-Fi atribu\u00eddos ao nosso Roteador Cisco ISR4331 My name is Omar Hassan.. Nas \u00faltimas semanas, temos experimentado quedas regulares de desempenho, que suspeitamos ser devido a uma m\u00e1 configura\u00e7\u00e3o do roteador You can reach me at janesmith@company.com.. Essas interrup\u00e7\u00f5es est\u00e3o impactando significativamente a confiabilidade da nossa rede empresarial e, portanto, nossas opera\u00e7\u00f5es comerciais.\n\nApesar das tentativas de resolver o problema por meio de v\u00e1rias medidas de solu\u00e7\u00e3o de problemas, o problema persiste, levando a interrup\u00e7\u00f5es que afetam nossa efici\u00eancia no trabalho. Solicitamos gentilmente sua assist\u00eancia para resolver essa quest\u00e3o como prioridade. Voc\u00ea poderia nos aconselhar sobre solu\u00e7\u00f5es potenciais ou agendar uma visita t\u00e9cnica na primeira oportunidade?\n\nObrigado pela sua aten\u00e7\u00e3o imediata a esta quest\u00e3o urgente.\n\nAtenciosamente,\n\n<name>\n\n<email_address>\n\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        268
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        425,
+        446
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        241,
+        245
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Problemas de Conectividade e Desempenho de Wi-Fi com o Roteador Cisco\n\nPrezado Suporte ao Cliente,\n\nEstou escrevendo para expressar preocupa\u00e7\u00f5es sobre problemas cont\u00ednuos de conectividade Wi-Fi atribu\u00eddos ao nosso Roteador Cisco ISR[phone_number] My name is [full_name].. Nas \u00faltimas semanas, temos experimentado quedas regulares de desempenho, que suspeitamos ser devido a uma m\u00e1 configura\u00e7\u00e3o do roteador You can reach me at [email].. Essas interrup\u00e7\u00f5es est\u00e3o impactando significativamente a confiabilidade da nossa rede empresarial e, portanto, nossas opera\u00e7\u00f5es comerciais.\n\nApesar das tentativas de resolver o problema por meio de v\u00e1rias medidas de solu\u00e7\u00e3o de problemas, o problema persiste, levando a interrup\u00e7\u00f5es que afetam nossa efici\u00eancia no trabalho. Solicitamos gentilmente sua assist\u00eancia para resolver essa quest\u00e3o como prioridade. Voc\u00ea poderia nos aconselhar sobre solu\u00e7\u00f5es potenciais ou agendar uma visita t\u00e9cnica na primeira oportunidade?\n\nObrigado pela sua aten\u00e7\u00e3o imediata a esta quest\u00e3o urgente.\n\nAtenciosamente,\n\n<name>\n\n<email_address>\n\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

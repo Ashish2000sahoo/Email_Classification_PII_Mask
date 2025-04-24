@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance for System Downtime\n\nThe Data Analysis Platform experienced downtime during peak times due to increased server load from higher user activity. The system was restarted, and the processing load has been reduced My name is Carlos Mendoza.. The issue has been resolved. We need assistance to prevent future outages, ensuring uninterrupted operations of the investment portfolio management. Please provide a meeting to discuss a solution to prevent future disruptions and ensure uninterrupted service. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        241,
+        255
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        535,
+        552
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance for System Downtime\n\nThe Data Analysis Platform experienced downtime during peak times due to increased server load from higher user activity. The system was restarted, and the processing load has been reduced My name is [full_name].. The issue has been resolved. We need assistance to prevent future outages, ensuring uninterrupted operations of the investment portfolio management. Please provide a meeting to discuss a solution to prevent future disruptions and ensure uninterrupted service. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

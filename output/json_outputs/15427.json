@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data Leaking During VR Training\n\nA medical data leak occurred during a VR training session because of inadequate data encryption You can reach me at elena.ivanova@support.org.. Despite rebooting the systems and examining the encryption configurations, the problem still exists My name is Omar Hassan.. I would greatly appreciate prompt support to address this issue and prevent additional leaks.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        179,
+        204
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data Leaking During VR Training\n\nA medical data leak occurred during a VR training session because of inadequate data encryption You can reach me at [email].. Despite rebooting the systems and examining the encryption configurations, the problem still exists My name is [full_name].. I would greatly appreciate prompt support to address this issue and prevent additional leaks.",
+  "category_of_the_email": "Problem"
+}

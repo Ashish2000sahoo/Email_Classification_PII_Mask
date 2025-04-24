@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Marketing Agency's Website\n\nCustomer Support, reporting a major issue with the marketing agency's website. The website crashed during the scheduled campaign launch, causing significant operational disruptions You can reach me at janesmith@company.com.. Despite efforts to restart the server and clear caches, the issue remains unresolved. We suspect the crash might be due to server overload or coding errors My name is Maria Gonzalez.. We would greatly appreciate it if you could investigate this matter urgently and provide a solution to get the website back online as soon as possible. Please let us know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        456
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        251,
+        272
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Marketing Agency's Website\n\nCustomer Support, reporting a major issue with the marketing agency's website. The website crashed during the scheduled campaign launch, causing significant operational disruptions You can reach me at [email].. Despite efforts to restart the server and clear caches, the issue remains unresolved. We suspect the crash might be due to server overload or coding errors My name is [full_name].. We would greatly appreciate it if you could investigate this matter urgently and provide a solution to get the website back online as soon as possible. Please let us know.",
+  "category_of_the_email": "Incident"
+}

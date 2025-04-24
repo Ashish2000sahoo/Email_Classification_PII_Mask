@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data During Backup\n\nMedical information went missing during the backup process. The issue might be due to human error or a RAID controller failure.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        216
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data During Backup\n\nMedical information went missing during the backup process. The issue might be due to human error or a RAID controller failure.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

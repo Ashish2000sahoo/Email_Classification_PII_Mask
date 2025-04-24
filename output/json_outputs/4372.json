@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSeeking insights on how data analytics can enhance investment strategies for our products You can reach me at johndoe@email.com.. Would appreciate detailed information on how data analytics can be leveraged to inform investment decisions and drive business growth. Please include examples and case studies to demonstrate the effectiveness of data analytics in investment strategies. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        414
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        121,
+        138
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSeeking insights on how data analytics can enhance investment strategies for our products You can reach me at [email].. Would appreciate detailed information on how data analytics can be leveraged to inform investment decisions and drive business growth. Please include examples and case studies to demonstrate the effectiveness of data analytics in investment strategies. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

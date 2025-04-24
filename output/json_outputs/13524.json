@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich kontaktiere Sie, um mehr Informationen zur digitalen Strategie f\u00fcr Markenwachstum zu erhalten. K\u00f6nnten Sie Details zu Techniken und Werkzeugen geben, die verwendet werden, um die Markenbewusstheit und die Engagementstiefe zu erh\u00f6hen? Ein tieferes Verst\u00e4ndnis und eine Anleitung w\u00fcrden sehr gesch\u00e4tzt My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, bald von Ihnen zu h\u00f6ren You can reach me at liuwei@business.cn.. Das Thema ist mir sehr wichtig.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        362
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        469,
+        487
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich kontaktiere Sie, um mehr Informationen zur digitalen Strategie f\u00fcr Markenwachstum zu erhalten. K\u00f6nnten Sie Details zu Techniken und Werkzeugen geben, die verwendet werden, um die Markenbewusstheit und die Engagementstiefe zu erh\u00f6hen? Ein tieferes Verst\u00e4ndnis und eine Anleitung w\u00fcrden sehr gesch\u00e4tzt My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, bald von Ihnen zu h\u00f6ren You can reach me at [email].. Das Thema ist mir sehr wichtig.",
+  "category_of_the_email": "Request"
+}

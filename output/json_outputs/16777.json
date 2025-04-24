@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr digitale Strategien zum Markenwachstum von Gaming-M\u00e4usen und VR-Steuerelementen\n\nIch richte mich an Sie, um strategische Optionen zur Markenentwicklung f\u00fcr Gaming-M\u00e4use und VR-Steuerelemente zu besprechen My name is Jane Smith.. Es k\u00f6nnte hilfreich sein, eine aktive Pr\u00e4senz in sozialen Medien und Influencer-Marketing-Kampagnen zu nutzen You can reach me at maria.gonzalez@shop.es.. Begrenzte Zeitlimits f\u00fcr Rabatte und Promotionsaktionen k\u00f6nnten ebenfalls zu einer Steigerung der Verk\u00e4ufe beitragen. Es w\u00e4re mir eine Freude, Ihre Empfehlungen und Ratschl\u00e4ge zu erhalten, die ich f\u00fcr diese Aufgabe nutzen kann.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        387,
+        409
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr digitale Strategien zum Markenwachstum von Gaming-M\u00e4usen und VR-Steuerelementen\n\nIch richte mich an Sie, um strategische Optionen zur Markenentwicklung f\u00fcr Gaming-M\u00e4use und VR-Steuerelemente zu besprechen My name is [full_name].. Es k\u00f6nnte hilfreich sein, eine aktive Pr\u00e4senz in sozialen Medien und Influencer-Marketing-Kampagnen zu nutzen You can reach me at [email].. Begrenzte Zeitlimits f\u00fcr Rabatte und Promotionsaktionen k\u00f6nnten ebenfalls zu einer Steigerung der Verk\u00e4ufe beitragen. Es w\u00e4re mir eine Freude, Ihre Empfehlungen und Ratschl\u00e4ge zu erhalten, die ich f\u00fcr diese Aufgabe nutzen kann.",
+  "category_of_the_email": "Request"
+}

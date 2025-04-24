@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Reporting Security Breach in System\n\nA security breach in our system has exposed sensitive medical data. The breach might be due to outdated software and weak passwords You can reach me at sophia.rossi@service.it.. Steps have been taken to mitigate the issue, such as changing passwords, updating security settings, and running antivirus scans. However, the problem still persists, and we require assistance to resolve it. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        451,
+        460
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        206,
+        229
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Reporting Security Breach in System\n\nA security breach in our system has exposed sensitive medical data. The breach might be due to outdated software and weak passwords You can reach me at [email].. Steps have been taken to mitigate the issue, such as changing passwords, updating security settings, and running antivirus scans. However, the problem still persists, and we require assistance to resolve it. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

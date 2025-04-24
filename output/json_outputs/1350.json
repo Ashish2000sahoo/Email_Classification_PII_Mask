@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit ungew\u00f6hnlichen Abweichungen in den Investitionsmustern\n\nAn den Kundenservice, ich schreibe, um einen von uns bei der Finanzfirma verursachten Vorfall zu melden My name is John Doe.. Wir haben ungew\u00f6hnliche Abweichungen in den Investitionsmuster festgestellt, die m\u00f6glicherweise auf einen Glitch in einer Datenanalyse-Software zur\u00fcckzuf\u00fchren sind You can reach me at liuwei@business.cn.. Bislang haben wir Firebase neugestartet und Zoom-Veranstaltungen gepr\u00fcft, aber das Problem beharrt. Ich w\u00fcrde mich freuen, wenn Sie sich dieser Angelegenheit anschlie\u00dfen und so bald wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten. Die ungew\u00f6hnlichen Abweichungen in den Investitionsmustern wurden k\u00fcrzlich festgestellt und wir sind besorgt \u00fcber den m\u00f6glichen Auswirkungen auf unser Gesch\u00e4ft. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        390,
+        408
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem mit ungew\u00f6hnlichen Abweichungen in den Investitionsmustern\n\nAn den Kundenservice, ich schreibe, um einen von uns bei der Finanzfirma verursachten Vorfall zu melden My name is [full_name].. Wir haben ungew\u00f6hnliche Abweichungen in den Investitionsmuster festgestellt, die m\u00f6glicherweise auf einen Glitch in einer Datenanalyse-Software zur\u00fcckzuf\u00fchren sind You can reach me at [email].. Bislang haben wir Firebase neugestartet und Zoom-Veranstaltungen gepr\u00fcft, aber das Problem beharrt. Ich w\u00fcrde mich freuen, wenn Sie sich dieser Angelegenheit anschlie\u00dfen und so bald wie m\u00f6glich eine L\u00f6sung bereitstellen k\u00f6nnten. Die ungew\u00f6hnlichen Abweichungen in den Investitionsmustern wurden k\u00fcrzlich festgestellt und wir sind besorgt \u00fcber den m\u00f6glichen Auswirkungen auf unser Gesch\u00e4ft. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

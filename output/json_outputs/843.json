@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Integrating Subversion SaaS Solution\n\nDear Support, I am reaching out to inquire about integrating the Subversion SaaS project management solution My name is John Doe.. Could you provide detailed information on the integration process, its benefits, necessary requirements, and any potential limitations? I would greatly appreciate any guidance on how to start the integration process You can reach me at david.kim@corp.kr.. Additionally, could you specify the tools or plugins required for the integration? I am looking forward to hearing back and learning how Subversion can enhance our project management capabilities. Thank you for your assistance. I am excited about the potential impact on our team's productivity.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        429,
+        446
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Integrating Subversion SaaS Solution\n\nDear Support, I am reaching out to inquire about integrating the Subversion SaaS project management solution My name is [full_name].. Could you provide detailed information on the integration process, its benefits, necessary requirements, and any potential limitations? I would greatly appreciate any guidance on how to start the integration process You can reach me at [email].. Additionally, could you specify the tools or plugins required for the integration? I am looking forward to hearing back and learning how Subversion can enhance our project management capabilities. Thank you for your assistance. I am excited about the potential impact on our team's productivity.",
+  "category_of_the_email": "Request"
+}

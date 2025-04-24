@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security in Medical Data Services\n\nDear Customer Support, we are interested in understanding the specific measures your company implements to secure medical data services for healthcare providers My name is Jane Smith.. Could you provide more information on the protocols and technologies used to ensure the confidentiality, integrity, and availability of sensitive medical information? We would greatly appreciate details on the security certifications and compliance standards your company adheres to. Additionally, we would like to know about the training and support you offer to healthcare providers to help them maintain the security of their medical data. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        703,
+        721
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security in Medical Data Services\n\nDear Customer Support, we are interested in understanding the specific measures your company implements to secure medical data services for healthcare providers My name is [full_name].. Could you provide more information on the protocols and technologies used to ensure the confidentiality, integrity, and availability of sensitive medical information? We would greatly appreciate details on the security certifications and compliance standards your company adheres to. Additionally, we would like to know about the training and support you offer to healthcare providers to help them maintain the security of their medical data. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

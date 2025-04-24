@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Vorgeschlagene Verbesserungen f\u00fcr das AWS Multi-Account Cloud Management\n\nSehr geehrte IT-Beratung Support,\n\nich schreibe, um Verbesserungen f\u00fcr die Verwaltung von Cloud-Infrastrukturen \u00fcber mehrere AWS-Konten vorzuschlagen, wobei der Schwerpunkt auf der Verbesserung der Compliance und des Kostenmanagements liegt. Unser aktueller AWS Management Service fehlt es an einheitlicher \u00dcberwachung und proaktiven Compliance-Pr\u00fcfungen, was operationale Risiken mit sich bringt.\n\nUm diese Probleme anzugehen, schlage ich vor, bessere Analysen \u00fcber Konten hinweg und automatisierte Kostenmanagement-Tools implementieren My name is Jane Smith.. Diese Verbesserungen k\u00f6nnten die Effizienz erheblich steigern, indem sie die Einhaltung von Richtlinien sicherstellen und die Abrechnung von Ressourcen optimieren.\n\nBitte ziehen Sie diesen Vorschlag in Betracht und informieren Sie uns \u00fcber etwaige weitere Diskussionen, die erforderlich sind, um diese Verbesserungen zu initiieren.\n\nVielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\n<tel_num> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        632,
+        642
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1057,
+        1080
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Vorgeschlagene Verbesserungen f\u00fcr das AWS Multi-Account Cloud Management\n\nSehr geehrte IT-Beratung Support,\n\nich schreibe, um Verbesserungen f\u00fcr die Verwaltung von Cloud-Infrastrukturen \u00fcber mehrere AWS-Konten vorzuschlagen, wobei der Schwerpunkt auf der Verbesserung der Compliance und des Kostenmanagements liegt. Unser aktueller AWS Management Service fehlt es an einheitlicher \u00dcberwachung und proaktiven Compliance-Pr\u00fcfungen, was operationale Risiken mit sich bringt.\n\nUm diese Probleme anzugehen, schlage ich vor, bessere Analysen \u00fcber Konten hinweg und automatisierte Kostenmanagement-Tools implementieren My name is [full_name].. Diese Verbesserungen k\u00f6nnten die Effizienz erheblich steigern, indem sie die Einhaltung von Richtlinien sicherstellen und die Abrechnung von Ressourcen optimieren.\n\nBitte ziehen Sie diesen Vorschlag in Betracht und informieren Sie uns \u00fcber etwaige weitere Diskussionen, die erforderlich sind, um diese Verbesserungen zu initiieren.\n\nVielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

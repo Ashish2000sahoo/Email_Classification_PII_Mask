@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Technical Support Service Interruption Inquiry\n\nAn unexpected service interruption has impacted critical applications, potentially related to recent software updates.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        214
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Technical Support Service Interruption Inquiry\n\nAn unexpected service interruption has impacted critical applications, potentially related to recent software updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

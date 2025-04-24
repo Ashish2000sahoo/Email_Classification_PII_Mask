@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security Protocols for Medical Data in Smartsheet\n\nHello Customer Support, I am writing to inquire about the security measures in place for medical data within Smartsheet, particularly concerning healthcare compliance. As a user in the healthcare industry, it is crucial that our organization adheres to strict data protection regulations. Could you provide detailed information on the encryption methods used, access controls, and security features to ensure the confidentiality, integrity, and availability of sensitive medical information? I would greatly appreciate your guidance on how to configure Smartsheet to meet these requirements You can reach me at maria.gonzalez@shop.es.. Thank you for your assistance. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        748,
+        758
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        681,
+        703
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security Protocols for Medical Data in Smartsheet\n\nHello Customer Support, I am writing to inquire about the security measures in place for medical data within Smartsheet, particularly concerning healthcare compliance. As a user in the healthcare industry, it is crucial that our organization adheres to strict data protection regulations. Could you provide detailed information on the encryption methods used, access controls, and security features to ensure the confidentiality, integrity, and availability of sensitive medical information? I would greatly appreciate your guidance on how to configure Smartsheet to meet these requirements You can reach me at [email].. Thank you for your assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

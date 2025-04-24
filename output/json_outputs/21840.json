@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung erforderlich: Probleme beim Anmelden bei Office 365\n\nLieber <name>,\n\nIch hoffe, es geht Ihnen gut You can reach me at janesmith@company.com.. Ich schreibe, um meine Bedenken hinsichtlich der Schwierigkeiten auszudr\u00fccken, die ich beim Versuch, auf meinen Microsoft Office 365-E-Mail-Client zuzugreifen, habe My name is David Kim.. Leider war ich trotz zahlreicher Versuche nicht in der Lage, mich erfolgreich in mein Konto einzuloggen, und dieses Problem besteht auf verschiedenen Ger\u00e4ten.\n\nDas betroffene Produkt ist mein Microsoft Office 365-Konto, das ich f\u00fcr pers\u00f6nliche und berufliche Korrespondenz nutze. Ich habe sorgf\u00e4ltig die standardm\u00e4\u00dfigen Fehlerbehebungsprotokolle befolgt, einschlie\u00dflich der \u00dcberpr\u00fcfung meiner Internetverbindung, des L\u00f6schens von Cache und Cookies sowie der Sicherstellung, dass das System und der Browser meines Ger\u00e4ts auf dem neuesten Stand sind.\n\nDar\u00fcber hinaus habe ich best\u00e4tigt, dass die verwendeten Kontodaten korrekt sind f\u00fcr meine Kontonummer <acc_num>. Das Anmeldefehlermeldung bleibt jedoch bestehen, was zu erheblichen St\u00f6rungen meines Arbeitsablaufs f\u00fchrt.\n\nIch bitte darum, dass Ihr Support-Team mir so schnell wie m\u00f6glich bei der L\u00f6sung dieses Problems hilft. Bitte lassen Sie mich wissen, ob es noch weitere Schritte oder spezifische Informationen von meiner Seite gibt, um diesen Prozess zu beschleunigen.\n\nIch sch\u00e4tze Ihre schnelle Aufmerksamkeit f\u00fcr dieses Anliegen und freue mich darauf, bald von Ihnen zu h\u00f6ren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        350
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        141,
+        162
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        71,
+        74
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        280,
+        283
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        550,
+        553
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung erforderlich: Probleme beim Anmelden bei Office [cvv_no]\n\nLieber <name>,\n\nIch hoffe, es geht Ihnen gut You can reach me at [email].. Ich schreibe, um meine Bedenken hinsichtlich der Schwierigkeiten auszudr\u00fccken, die ich beim Versuch, auf meinen Microsoft Office [cvv_no]-E-Mail-Client zuzugreifen, habe My name is [full_name].. Leider war ich trotz zahlreicher Versuche nicht in der Lage, mich erfolgreich in mein Konto einzuloggen, und dieses Problem besteht auf verschiedenen Ger\u00e4ten.\n\nDas betroffene Produkt ist mein Microsoft Office [cvv_no]-Konto, das ich f\u00fcr pers\u00f6nliche und berufliche Korrespondenz nutze. Ich habe sorgf\u00e4ltig die standardm\u00e4\u00dfigen Fehlerbehebungsprotokolle befolgt, einschlie\u00dflich der \u00dcberpr\u00fcfung meiner Internetverbindung, des L\u00f6schens von Cache und Cookies sowie der Sicherstellung, dass das System und der Browser meines Ger\u00e4ts auf dem neuesten Stand sind.\n\nDar\u00fcber hinaus habe ich best\u00e4tigt, dass die verwendeten Kontodaten korrekt sind f\u00fcr meine Kontonummer <acc_num>. Das Anmeldefehlermeldung bleibt jedoch bestehen, was zu erheblichen St\u00f6rungen meines Arbeitsablaufs f\u00fchrt.\n\nIch bitte darum, dass Ihr Support-Team mir so schnell wie m\u00f6glich bei der L\u00f6sung dieses Problems hilft. Bitte lassen Sie mich wissen, ob es noch weitere Schritte oder spezifische Informationen von meiner Seite gibt, um diesen Prozess zu beschleunigen.\n\nIch sch\u00e4tze Ihre schnelle Aufmerksamkeit f\u00fcr dieses Anliegen und freue mich darauf, bald von Ihnen zu h\u00f6ren.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

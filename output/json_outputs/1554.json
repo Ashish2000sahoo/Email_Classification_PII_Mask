@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Upgrade Request for Data Analytics Tools\n\nSeeking enhancements to data analytics tools to improve investment optimization and integration across affected products. This will enable better decision-making and efficient portfolio management My name is Omar Hassan.. An update on the potential implementation timeline would be greatly appreciated You can reach me at carlosm@gmail.com.. Please contact <tel_num> with account number <acc_num> for further discussion.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        259,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        373,
+        390
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Upgrade Request for Data Analytics Tools\n\nSeeking enhancements to data analytics tools to improve investment optimization and integration across affected products. This will enable better decision-making and efficient portfolio management My name is [full_name].. An update on the potential implementation timeline would be greatly appreciated You can reach me at [email].. Please contact <tel_num> with account number <acc_num> for further discussion.",
+  "category_of_the_email": "Change"
+}

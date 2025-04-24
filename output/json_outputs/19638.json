@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance with Technical Problems at Marketing Agency\n\nWe noticed a decline in engagement metrics at the agency. We believe there might be technical issues affecting ad campaigns.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        227
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Technical Problems at Marketing Agency\n\nWe noticed a decline in engagement metrics at the agency. We believe there might be technical issues affecting ad campaigns.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

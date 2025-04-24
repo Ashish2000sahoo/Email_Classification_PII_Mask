@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Encountered with Login Mechanism Recently\n\nRecently, I faced an unexpected login failure. This might be related to the recent security updates You can reach me at carlosm@gmail.com.. I have already restarted my browser and cleared the cache, but the problem still exists My name is Jane Smith.. I would highly appreciate your help in resolving this issue promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        299,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        180,
+        197
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem Encountered with Login Mechanism Recently\n\nRecently, I faced an unexpected login failure. This might be related to the recent security updates You can reach me at [email].. I have already restarted my browser and cleared the cache, but the problem still exists My name is [full_name].. I would highly appreciate your help in resolving this issue promptly.",
+  "category_of_the_email": "Incident"
+}

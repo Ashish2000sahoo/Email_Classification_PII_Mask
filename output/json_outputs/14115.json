@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Data Analysis Delays\n\nA financial company is facing delays in data analysis across several products, which might be due to software compatibility issues arising from recent updates. Efforts to resolve this by restarting devices and reinstalling software have been unsuccessful.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        322,
+        337
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Analysis Delays\n\nA financial company is facing delays in data analysis across several products, which might be due to software compatibility issues arising from recent updates. Efforts to resolve this by restarting devices and reinstalling software have been unsuccessful.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung zur Unterst\u00fctzung bei Datensperrversto\u00df\n\nEin Datensperrversto\u00df in den IT-Systemen des Gesundheitsbereichs wurde verursacht durch unautorisierten Zugriff My name is Omar Hassan.. Die veralteten Sicherheitsprotokolle sind der Ursprung des Problems. Obwohl die Zugriffskonten neu gesetzt und eine Software-Update durchgef\u00fchrt wurde, beh\u00e4lt sich das Problem bestehen You can reach me at fatima.farsi@help.com.. Das Team arbeitet mit Hingabe daran, den Datensperrversto\u00df einzuschr\u00e4nken, und ben\u00f6tigt zus\u00e4tzliche Unterst\u00fctzung, um die Sicherheit unserer Systeme zu gew\u00e4hrleisten. Wir w\u00fcrden die Anleitung zur besten Ma\u00dfnahme zur Verhinderung zuk\u00fcnftiger Datensperrverst\u00f6\u00dfe und die Unterst\u00fctzung bei der Umsetzung verbesserten Sicherheitsma\u00dfnahmen sehr sch\u00e4tzen. Bitte geben Sie einen detaillierten Handlungsplan, der die notwendigen Schritte umfasst.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        194
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        402,
+        423
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Forderung zur Unterst\u00fctzung bei Datensperrversto\u00df\n\nEin Datensperrversto\u00df in den IT-Systemen des Gesundheitsbereichs wurde verursacht durch unautorisierten Zugriff My name is [full_name].. Die veralteten Sicherheitsprotokolle sind der Ursprung des Problems. Obwohl die Zugriffskonten neu gesetzt und eine Software-Update durchgef\u00fchrt wurde, beh\u00e4lt sich das Problem bestehen You can reach me at [email].. Das Team arbeitet mit Hingabe daran, den Datensperrversto\u00df einzuschr\u00e4nken, und ben\u00f6tigt zus\u00e4tzliche Unterst\u00fctzung, um die Sicherheit unserer Systeme zu gew\u00e4hrleisten. Wir w\u00fcrden die Anleitung zur besten Ma\u00dfnahme zur Verhinderung zuk\u00fcnftiger Datensperrverst\u00f6\u00dfe und die Unterst\u00fctzung bei der Umsetzung verbesserten Sicherheitsma\u00dfnahmen sehr sch\u00e4tzen. Bitte geben Sie einen detaillierten Handlungsplan, der die notwendigen Schritte umfasst.",
+  "category_of_the_email": "Incident"
+}

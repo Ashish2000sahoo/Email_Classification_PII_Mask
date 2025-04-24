@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Demande d'information sur le Dell XPS 13 9310\n\nCher Service Client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous contacte pour me renseigner sur l'ordinateur portable Dell XPS 13 9310, car j'envisage un achat potentiel You can reach me at johndoe@email.com.. Pourriez-vous me fournir des informations d\u00e9taill\u00e9es concernant ses caract\u00e9ristiques de performance, telles que les capacit\u00e9s du processeur, la RAM, la dur\u00e9e de vie de la batterie et toute caract\u00e9ristique remarquable ? De plus, j'aimerais savoir s'il y a des offres de vente ou des promotions actuelles associ\u00e9es \u00e0 ce produit.\n\nIl serait utile de comprendre ce qui distingue le Dell XPS 13 9310 des mod\u00e8les similaires, en termes d'efficacit\u00e9 de performance et de rapport qualit\u00e9-prix global. Vos conseils et votre expertise m'aideraient grandement \u00e0 prendre une d\u00e9cision \u00e9clair\u00e9e.\n\nSi possible, pourriez-vous \u00e9galement me faire savoir la disponibilit\u00e9 des services de support client et des options de garantie en cas de probl\u00e8me apr\u00e8s l'achat ?\n\nMerci pour votre temps et votre assistance. J'attends votre r\u00e9ponse d\u00e9taill\u00e9e avec impatience.\n\nBien cordialement,\n\n<name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1164,
+        1173
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        264,
+        281
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        47,
+        54
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        201,
+        208
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        661,
+        668
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Demande d'information sur le Dell XPS [phone_number]\n\nCher Service Client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous contacte pour me renseigner sur l'ordinateur portable Dell XPS [phone_number], car j'envisage un achat potentiel You can reach me at [email].. Pourriez-vous me fournir des informations d\u00e9taill\u00e9es concernant ses caract\u00e9ristiques de performance, telles que les capacit\u00e9s du processeur, la RAM, la dur\u00e9e de vie de la batterie et toute caract\u00e9ristique remarquable ? De plus, j'aimerais savoir s'il y a des offres de vente ou des promotions actuelles associ\u00e9es \u00e0 ce produit.\n\nIl serait utile de comprendre ce qui distingue le Dell XPS [phone_number] des mod\u00e8les similaires, en termes d'efficacit\u00e9 de performance et de rapport qualit\u00e9-prix global. Vos conseils et votre expertise m'aideraient grandement \u00e0 prendre une d\u00e9cision \u00e9clair\u00e9e.\n\nSi possible, pourriez-vous \u00e9galement me faire savoir la disponibilit\u00e9 des services de support client et des options de garantie en cas de probl\u00e8me apr\u00e8s l'achat ?\n\nMerci pour votre temps et votre assistance. J'attends votre r\u00e9ponse d\u00e9taill\u00e9e avec impatience.\n\nBien cordialement,\n\n<name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

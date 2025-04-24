@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Project Data after DocuSign Integration\n\nI am contacting you to report an issue with my project data following the integration with DocuSign My name is Omar Hassan.. It appears that the data has vanished, and I suspect this could be due to a mismatch with the API version You can reach me at johndoe@email.com.. Despite attempting to restart my workstation and review the plugin settings, the problem continues. Please assist in resolving this issue promptly. Kindly let me know if you need more details from me to address this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        185
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        314,
+        331
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Project Data after DocuSign Integration\n\nI am contacting you to report an issue with my project data following the integration with DocuSign My name is [full_name].. It appears that the data has vanished, and I suspect this could be due to a mismatch with the API version You can reach me at [email].. Despite attempting to restart my workstation and review the plugin settings, the problem continues. Please assist in resolving this issue promptly. Kindly let me know if you need more details from me to address this matter.",
+  "category_of_the_email": "Incident"
+}

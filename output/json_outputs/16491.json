@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Auswahl von Finanzanalyse-Tools f\u00fcr Investitionsoptimierung bei einer Finanzfirma\n\nIch bitte um eine Beratung zu Datenanalyse-Tools, um Investitionen zu optimieren und bei einer Finanzfirma zu helfen My name is John Doe.. K\u00f6nnten Sie Einblicke in die besten geeigneten Tools geben? Eine Empfehlung mit Anleitung w\u00e4re sehr gesch\u00e4tzt You can reach me at carlosm@gmail.com.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        376,
+        393
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Auswahl von Finanzanalyse-Tools f\u00fcr Investitionsoptimierung bei einer Finanzfirma\n\nIch bitte um eine Beratung zu Datenanalyse-Tools, um Investitionen zu optimieren und bei einer Finanzfirma zu helfen My name is [full_name].. K\u00f6nnten Sie Einblicke in die besten geeigneten Tools geben? Eine Empfehlung mit Anleitung w\u00e4re sehr gesch\u00e4tzt You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage an das technische Supportteam\n\nViele Tools funktionieren weiterhin nach dem Neustart des Servers und der \u00dcberpr\u00fcfung der Verbindlichkeit aus Sicherheitsgr\u00fcnden nicht mehr. Wir ben\u00f6tigen Ihre Hilfe, um dieses Problem zu beheben.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        282
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Anfrage an das technische Supportteam\n\nViele Tools funktionieren weiterhin nach dem Neustart des Servers und der \u00dcberpr\u00fcfung der Verbindlichkeit aus Sicherheitsgr\u00fcnden nicht mehr. Wir ben\u00f6tigen Ihre Hilfe, um dieses Problem zu beheben.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Enhance Security Protocols for Medical Data Access\n\nWe need to implement improved security measures for accessing medical data across various devices and applications to ensure patient confidentiality. This involves encrypting sensitive information, securing access controls, and regularly updating software to prevent data breaches.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        382
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Enhance Security Protocols for Medical Data Access\n\nWe need to implement improved security measures for accessing medical data across various devices and applications to ensure patient confidentiality. This involves encrypting sensitive information, securing access controls, and regularly updating software to prevent data breaches.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

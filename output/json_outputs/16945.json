@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating Smart Campaign\n\nHello Customer Support, I am reaching out to request urgent updates to the marketing campaign for Smart-Rauchmelder on Android and macOS platforms You can reach me at johndoe@email.com.. The current campaign is not effectively reaching our intended audience, and we need to make adjustments to enhance its performance My name is Sophia Rossi.. Could you please outline the process for updating the campaign? Your swift response to this matter is greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        375,
+        387
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        213,
+        230
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating Smart Campaign\n\nHello Customer Support, I am reaching out to request urgent updates to the marketing campaign for Smart-Rauchmelder on Android and macOS platforms You can reach me at [email].. The current campaign is not effectively reaching our intended audience, and we need to make adjustments to enhance its performance My name is [full_name].. Could you please outline the process for updating the campaign? Your swift response to this matter is greatly appreciated.",
+  "category_of_the_email": "Change"
+}

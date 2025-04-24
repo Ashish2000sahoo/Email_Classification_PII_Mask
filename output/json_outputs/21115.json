@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach Unterst\u00fctzung bei Experten-IT-Consulting-Dienstleistungen\n\nSehr geehrtes Kundenserviceteam,\n\nich wende mich an Sie, um Unterst\u00fctzung bei der Einrichtung effizienter Softwareentwicklungs- und Serveradministrationsl\u00f6sungen durch Ihren angesehenen IT-Consulting-Service zu bitten You can reach me at maria.gonzalez@shop.es.. Wir m\u00f6chten unsere aktuellen Systeme verbessern und ben\u00f6tigen die Expertise, die Ihr Unternehmen bietet. Bitte lassen Sie uns wissen, wie wir mit dieser Anfrage fortfahren k\u00f6nnen und welche notwendigen Schritte oder Informationen erforderlich sind. Bitte kontaktieren Sie mich unter <tel_num> oder per E-Mail f\u00fcr weitere Gespr\u00e4che. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem Thema.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        793,
+        802
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        319,
+        341
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Unterst\u00fctzung bei Experten-IT-Consulting-Dienstleistungen\n\nSehr geehrtes Kundenserviceteam,\n\nich wende mich an Sie, um Unterst\u00fctzung bei der Einrichtung effizienter Softwareentwicklungs- und Serveradministrationsl\u00f6sungen durch Ihren angesehenen IT-Consulting-Service zu bitten You can reach me at [email].. Wir m\u00f6chten unsere aktuellen Systeme verbessern und ben\u00f6tigen die Expertise, die Ihr Unternehmen bietet. Bitte lassen Sie uns wissen, wie wir mit dieser Anfrage fortfahren k\u00f6nnen und welche notwendigen Schritte oder Informationen erforderlich sind. Bitte kontaktieren Sie mich unter <tel_num> oder per E-Mail f\u00fcr weitere Gespr\u00e4che. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem Thema.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

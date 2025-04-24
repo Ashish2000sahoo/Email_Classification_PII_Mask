@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Advice on Securing Medical Data\n\nI am seeking guidance on securing medical data within a Mercurial environment on Google Cloud Platform in a hospital setting. Could you provide advice on data encryption, access control, and compliance with HIPAA regulations? I would greatly appreciate any recommendations or resources you can provide to ensure the security and integrity of sensitive medical information.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        437,
+        452
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Advice on Securing Medical Data\n\nI am seeking guidance on securing medical data within a Mercurial environment on Google Cloud Platform in a hospital setting. Could you provide advice on data encryption, access control, and compliance with HIPAA regulations? I would greatly appreciate any recommendations or resources you can provide to ensure the security and integrity of sensitive medical information.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

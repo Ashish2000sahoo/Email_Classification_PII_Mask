@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Immediate Hardware Diagnostics for Dell XPS 13 9310\n\nHello, I am experiencing screen flickering on my Dell XPS 13 9310 You can reach me at janesmith@company.com.. Could you please arrange immediate hardware diagnostics and repair for this issue? My account number is <acc_num>. Thank you for your prompt assistance. Sincerely, <name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        354,
+        368
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        148,
+        169
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        53,
+        60
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        120,
+        127
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Immediate Hardware Diagnostics for Dell XPS [phone_number]\n\nHello, I am experiencing screen flickering on my Dell XPS [phone_number] You can reach me at [email].. Could you please arrange immediate hardware diagnostics and repair for this issue? My account number is <acc_num>. Thank you for your prompt assistance. Sincerely, <name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

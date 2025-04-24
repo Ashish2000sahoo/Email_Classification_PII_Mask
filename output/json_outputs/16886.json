@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler bei der Plattformen-Daten-Synchronisation\n\nIch st\u00f6\u00dfe auf Schwierigkeiten bei der Daten-Synchronisation zwischen den verschiedenen Plattformen You can reach me at sophia.rossi@service.it.. Ich habe versucht, das Problem \u00fcber die Aktualisierung von Pinnacle Studio und den Neustart der Dienste zu l\u00f6sen, aber die Fehlermeldung beh\u00e4lt sich best\u00e4ndig bei. Es w\u00e4re mir sehr lieb, wenn Sie mir helfen k\u00f6nnten, einen L\u00f6sungsweg zu finden oder mich durch das L\u00f6sungsverfahren f\u00fchren k\u00f6nnten My name is Jane Smith.. Ich stehe Ihnen gerne zur Verf\u00fcgung, um zus\u00e4tzliche Informationen bereitzustellen oder Details zu kl\u00e4ren, falls n\u00f6tig. Bitte informieren Sie mich \u00fcber die n\u00e4chsten Schritte. Ich freue mich auf Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        510,
+        520
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        178,
+        201
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Fehler bei der Plattformen-Daten-Synchronisation\n\nIch st\u00f6\u00dfe auf Schwierigkeiten bei der Daten-Synchronisation zwischen den verschiedenen Plattformen You can reach me at [email].. Ich habe versucht, das Problem \u00fcber die Aktualisierung von Pinnacle Studio und den Neustart der Dienste zu l\u00f6sen, aber die Fehlermeldung beh\u00e4lt sich best\u00e4ndig bei. Es w\u00e4re mir sehr lieb, wenn Sie mir helfen k\u00f6nnten, einen L\u00f6sungsweg zu finden oder mich durch das L\u00f6sungsverfahren f\u00fchren k\u00f6nnten My name is [full_name].. Ich stehe Ihnen gerne zur Verf\u00fcgung, um zus\u00e4tzliche Informationen bereitzustellen oder Details zu kl\u00e4ren, falls n\u00f6tig. Bitte informieren Sie mich \u00fcber die n\u00e4chsten Schritte. Ich freue mich auf Ihre Unterst\u00fctzung und freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

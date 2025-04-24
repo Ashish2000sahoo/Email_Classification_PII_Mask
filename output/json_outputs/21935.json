@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Request for assistance with PyCharm 2024.2 issue\n\nDear Customer Support Team, \n\nI hope this message finds you well. I am reaching out to request assistance with an issue I've encountered with the debugging extended code analysis feature in the Python IDE, PyCharm 2024.2. My name is <name> and my account number is <acc_num>. I am currently working on a critical project that heavily relies on this feature, and it seems to not be functioning as expected. Every time I attempt to debug, the application freezes, causing significant delays. I have tried reinstalling the software, but the problem persists You can reach me at omar.hassan@secure.net.. Additionally, I have checked for any patches or updates, but everything seems up to date. Could you provide any guidance or potential solutions that might help resolve this issue? It's important for my workflow to get this sorted promptly. I am hoping for your expertise and a prompt resolution to this concern. You can reach me at <tel_num> during normal business hours. Thank you for your time and support in this matter. Looking forward to your response.\n\nBest regards,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1150,
+        1164
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        634,
+        656
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        45,
+        49
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        273,
+        277
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Request for assistance with PyCharm [phone_number].2 issue\n\nDear Customer Support Team, \n\nI hope this message finds you well. I am reaching out to request assistance with an issue I've encountered with the debugging extended code analysis feature in the Python IDE, PyCharm [phone_number].2. My name is <name> and my account number is <acc_num>. I am currently working on a critical project that heavily relies on this feature, and it seems to not be functioning as expected. Every time I attempt to debug, the application freezes, causing significant delays. I have tried reinstalling the software, but the problem persists You can reach me at [email].. Additionally, I have checked for any patches or updates, but everything seems up to date. Could you provide any guidance or potential solutions that might help resolve this issue? It's important for my workflow to get this sorted promptly. I am hoping for your expertise and a prompt resolution to this concern. You can reach me at <tel_num> during normal business hours. Thank you for your time and support in this matter. Looking forward to your response.\n\nBest regards,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

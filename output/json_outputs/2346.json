@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Delay in Project Updates\n\nCustomer Support, encountering issues with delayed project updates in the report My name is John Doe.. The problem may be due to network latency or server overload. Despite efforts to clear the cache and refresh the browser, the issue still persists You can reach me at elena.ivanova@support.org.. Kindly look into this matter and provide a solution at the earliest. Please inform if additional information is needed to resolve the issue. Looking forward to your prompt response. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        135
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        308,
+        333
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Delay in Project Updates\n\nCustomer Support, encountering issues with delayed project updates in the report My name is [full_name].. The problem may be due to network latency or server overload. Despite efforts to clear the cache and refresh the browser, the issue still persists You can reach me at [email].. Kindly look into this matter and provide a solution at the earliest. Please inform if additional information is needed to resolve the issue. Looking forward to your prompt response. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Website Traffic Reduction\n\nNoted a decline in website traffic which is impacting our marketing strategies My name is Liu Wei.. This might be due to recent algorithm updates You can reach me at elena.ivanova@support.org.. So far, we have analyzed the analytics data and updated our SEO practices to enhance online presence and visibility.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        147
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        220,
+        245
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern about Website Traffic Reduction\n\nNoted a decline in website traffic which is impacting our marketing strategies My name is [full_name].. This might be due to recent algorithm updates You can reach me at [email].. So far, we have analyzed the analytics data and updated our SEO practices to enhance online presence and visibility.",
+  "category_of_the_email": "Incident"
+}

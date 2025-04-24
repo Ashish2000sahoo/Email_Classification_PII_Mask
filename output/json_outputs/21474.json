@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Router-Konnektivit\u00e4tsprobleme\n\nSehr geehrtes IT-Support-Team,\n\nich schreibe, um Sie \u00fcber intermittierende Verbindungsabbr\u00fcche mit unserem Cisco Router ISR4331 in unserem B\u00fcro zu informieren My name is Sophia Rossi.. Diese Unterbrechungen beeintr\u00e4chtigen unsere t\u00e4glichen Abl\u00e4ufe, und unser Kunde, <name>, hat bereits seine Besorgnis ge\u00e4u\u00dfert. Bitte untersuchen Sie die Verbindungsprobleme und beheben Sie diese so schnell wie m\u00f6glich You can reach me at sophia.rossi@service.it.. Eine zuverl\u00e4ssige Verbindung ist entscheidend f\u00fcr die Aufrechterhaltung der Kundenzufriedenheit und der operativen Effizienz.\n\nWir w\u00fcrden regelm\u00e4\u00dfige Updates \u00fcber Ihren Fortschritt sch\u00e4tzen, um sicherzustellen, dass das Problem zeitnah behoben wird. Bitte lassen Sie uns wissen, ob weitere Informationen von unserer Seite ben\u00f6tigt werden.\n\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit f\u00fcr diese Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        222
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        462,
+        485
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        163,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Router-Konnektivit\u00e4tsprobleme\n\nSehr geehrtes IT-Support-Team,\n\nich schreibe, um Sie \u00fcber intermittierende Verbindungsabbr\u00fcche mit unserem Cisco Router ISR[phone_number] in unserem B\u00fcro zu informieren My name is [full_name].. Diese Unterbrechungen beeintr\u00e4chtigen unsere t\u00e4glichen Abl\u00e4ufe, und unser Kunde, <name>, hat bereits seine Besorgnis ge\u00e4u\u00dfert. Bitte untersuchen Sie die Verbindungsprobleme und beheben Sie diese so schnell wie m\u00f6glich You can reach me at [email].. Eine zuverl\u00e4ssige Verbindung ist entscheidend f\u00fcr die Aufrechterhaltung der Kundenzufriedenheit und der operativen Effizienz.\n\nWir w\u00fcrden regelm\u00e4\u00dfige Updates \u00fcber Ihren Fortschritt sch\u00e4tzen, um sicherzustellen, dass das Problem zeitnah behoben wird. Bitte lassen Sie uns wissen, ob weitere Informationen von unserer Seite ben\u00f6tigt werden.\n\nVielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit f\u00fcr diese Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Incident"
+}

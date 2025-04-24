@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent : Probl\u00e8me de surchauffe du Dell XPS 13\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour signaler un probl\u00e8me urgent avec mon Dell XPS 13 9310 r\u00e9cemment achet\u00e9, qui a commenc\u00e9 \u00e0 conna\u00eetre de graves probl\u00e8mes de surchauffe. Cette surchauffe pose un risque de dommages potentiels \u00e0 l'appareil, ce qui, je crois, pourrait \u00eatre critique si cela n'est pas trait\u00e9 rapidement.\n\n\u00c9tant donn\u00e9 l'investissement effectu\u00e9 dans ce produit, j'esp\u00e8re que vous comprenez mon inqui\u00e9tude You can reach me at omar.hassan@secure.net.. Je vous prie de bien vouloir acc\u00e9l\u00e9rer la r\u00e9solution de ce probl\u00e8me afin d'\u00e9viter toute complication suppl\u00e9mentaire My name is Liu Wei.. Veuillez me fournir des conseils sur les prochaines \u00e9tapes n\u00e9cessaires pour r\u00e9soudre ce probl\u00e8me rapidement. Vous pouvez me joindre au <tel_num> pour toute information suppl\u00e9mentaire.\n\nMerci pour votre attention imm\u00e9diate \u00e0 cette affaire.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        712,
+        719
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        560,
+        582
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        206,
+        213
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Probl\u00e8me de surchauffe du Dell XPS 13\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour signaler un probl\u00e8me urgent avec mon Dell XPS [phone_number] r\u00e9cemment achet\u00e9, qui a commenc\u00e9 \u00e0 conna\u00eetre de graves probl\u00e8mes de surchauffe. Cette surchauffe pose un risque de dommages potentiels \u00e0 l'appareil, ce qui, je crois, pourrait \u00eatre critique si cela n'est pas trait\u00e9 rapidement.\n\n\u00c9tant donn\u00e9 l'investissement effectu\u00e9 dans ce produit, j'esp\u00e8re que vous comprenez mon inqui\u00e9tude You can reach me at [email].. Je vous prie de bien vouloir acc\u00e9l\u00e9rer la r\u00e9solution de ce probl\u00e8me afin d'\u00e9viter toute complication suppl\u00e9mentaire My name is [full_name].. Veuillez me fournir des conseils sur les prochaines \u00e9tapes n\u00e9cessaires pour r\u00e9soudre ce probl\u00e8me rapidement. Vous pouvez me joindre au <tel_num> pour toute information suppl\u00e9mentaire.\n\nMerci pour votre attention imm\u00e9diate \u00e0 cette affaire.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

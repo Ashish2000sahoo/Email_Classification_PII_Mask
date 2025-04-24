@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Guidelines for Secure Medical Data with Kaspersky\n\nCustomer Support, we are reaching out to inquire about securing medical data using Kaspersky Internet Security 2021 in a hospital IT environment You can reach me at omar.hassan@secure.net.. Could you provide detailed guidelines to ensure the security of sensitive medical information and protect patient data from cyber threats while ensuring compliance with regulations? We need step-by-step instructions on configuring Kaspersky Internet Security 2021 for the hospital's infrastructure. Thank you for your assistance. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        591,
+        603
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        225,
+        247
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        171,
+        175
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        494,
+        498
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Guidelines for Secure Medical Data with Kaspersky\n\nCustomer Support, we are reaching out to inquire about securing medical data using Kaspersky Internet Security [phone_number] in a hospital IT environment You can reach me at [email].. Could you provide detailed guidelines to ensure the security of sensitive medical information and protect patient data from cyber threats while ensuring compliance with regulations? We need step-by-step instructions on configuring Kaspersky Internet Security [phone_number] for the hospital's infrastructure. Thank you for your assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

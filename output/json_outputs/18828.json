@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SaaS Synchronisation Hat Pl\u00f6tzlich Schwierigkeiten\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um ein Problem mit unserer SaaS-Synchronisation zu melden, das pl\u00f6tzlich nicht mehr funktioniert My name is Jane Smith.. Viele unserer Integrationsdienste anzeigen nun Probleme, was unsere Gesch\u00e4ftsprozesse beeintr\u00e4chtigt You can reach me at fatima.farsi@help.com.. Ich vermute, dass die Ursache m\u00f6glicherweise \u00fcberlastete Server oder das neueste Plugin-Update ist. Ich habe versucht, die Dienste neu zu starten, nach Fehlermeldungen in den Logs zu suchen und die Plugin-Anbieter um Hilfe zu fragen. Leider hat dies das Problem nicht gel\u00f6st. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern k\u00f6nnten und bald eine L\u00f6sung zur Verf\u00fcgung stellen. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        217,
+        227
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        352,
+        373
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: SaaS Synchronisation Hat Pl\u00f6tzlich Schwierigkeiten\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um ein Problem mit unserer SaaS-Synchronisation zu melden, das pl\u00f6tzlich nicht mehr funktioniert My name is [full_name].. Viele unserer Integrationsdienste anzeigen nun Probleme, was unsere Gesch\u00e4ftsprozesse beeintr\u00e4chtigt You can reach me at [email].. Ich vermute, dass die Ursache m\u00f6glicherweise \u00fcberlastete Server oder das neueste Plugin-Update ist. Ich habe versucht, die Dienste neu zu starten, nach Fehlermeldungen in den Logs zu suchen und die Plugin-Anbieter um Hilfe zu fragen. Leider hat dies das Problem nicht gel\u00f6st. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern k\u00f6nnten und bald eine L\u00f6sung zur Verf\u00fcgung stellen. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

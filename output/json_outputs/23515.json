@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringende IT-Beratungsunterst\u00fctzung ben\u00f6tigt\n\nSehr geehrtes IT-Serviceteam,\n\nich schreibe, um sofortige Unterst\u00fctzung f\u00fcr unseren aktuellen IT-Beratungsdienst anzufordern. Wir haben erhebliche Leistungsprobleme, die unsere Serververf\u00fcgbarkeit beeintr\u00e4chtigen, und wir ben\u00f6tigen dringend Unterst\u00fctzung. Es ist entscheidend, diese Angelegenheit schnell zu kl\u00e4ren, um weitere St\u00f6rungen zu verhindern You can reach me at johndoe@email.com.. Bitte teilen Sie mir die fr\u00fchestm\u00f6gliche Verf\u00fcgbarkeit f\u00fcr eine Beratung mit, da dieses Problem einer umgehenden Aufmerksamkeit bedarf.\n\nVielen Dank f\u00fcr Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>\n<acc_num>\n<company name> My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        702,
+        709
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        426,
+        443
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Dringende IT-Beratungsunterst\u00fctzung ben\u00f6tigt\n\nSehr geehrtes IT-Serviceteam,\n\nich schreibe, um sofortige Unterst\u00fctzung f\u00fcr unseren aktuellen IT-Beratungsdienst anzufordern. Wir haben erhebliche Leistungsprobleme, die unsere Serververf\u00fcgbarkeit beeintr\u00e4chtigen, und wir ben\u00f6tigen dringend Unterst\u00fctzung. Es ist entscheidend, diese Angelegenheit schnell zu kl\u00e4ren, um weitere St\u00f6rungen zu verhindern You can reach me at [email].. Bitte teilen Sie mir die fr\u00fchestm\u00f6gliche Verf\u00fcgbarkeit f\u00fcr eine Beratung mit, da dieses Problem einer umgehenden Aufmerksamkeit bedarf.\n\nVielen Dank f\u00fcr Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<tel_num>\n<acc_num>\n<company name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

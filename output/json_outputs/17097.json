@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unautorisiertes Zugriffsanliegen erkannt\n\nSehr geehrte Kundenservice-Team, wir m\u00f6chten einen schwerwiegenden Sicherheitsfall melden You can reach me at omar.hassan@secure.net.. Es wurde ein unerlaubter Zugriffsanliegen erkannt, das die medizinischen Daten des Hospital-IT-Systems gef\u00e4hrdet hat. Die Verletzungen der Software-L\u00fccken sind die Ursache My name is Fatima Al-Farsi.. Eine Sicherheitspr\u00fcfung wurde durchgef\u00fchrt, wesentliche Software wurde aktualisiert, jedoch bestehen weiterhin Zugriffssch\u00e4den. Wir ben\u00f6tigen dringend Hilfe, um das Problem zu l\u00f6sen und weitere Verletzungen zu vermeiden. Bitte untersuchen Sie den Vorfall und geben Sie uns eine L\u00f6sung so schnell wie m\u00f6glich an. Wir danken Ihnen f\u00fcr Ihr rasches Eingreifen in dieser kritischen Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        369,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        161,
+        183
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Unautorisiertes Zugriffsanliegen erkannt\n\nSehr geehrte Kundenservice-Team, wir m\u00f6chten einen schwerwiegenden Sicherheitsfall melden You can reach me at [email].. Es wurde ein unerlaubter Zugriffsanliegen erkannt, das die medizinischen Daten des Hospital-IT-Systems gef\u00e4hrdet hat. Die Verletzungen der Software-L\u00fccken sind die Ursache My name is [full_name]-Farsi.. Eine Sicherheitspr\u00fcfung wurde durchgef\u00fchrt, wesentliche Software wurde aktualisiert, jedoch bestehen weiterhin Zugriffssch\u00e4den. Wir ben\u00f6tigen dringend Hilfe, um das Problem zu l\u00f6sen und weitere Verletzungen zu vermeiden. Bitte untersuchen Sie den Vorfall und geben Sie uns eine L\u00f6sung so schnell wie m\u00f6glich an. Wir danken Ihnen f\u00fcr Ihr rasches Eingreifen in dieser kritischen Angelegenheit.",
+  "category_of_the_email": "Incident"
+}

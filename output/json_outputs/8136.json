@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Server Performance\n\nRecurrent user reports of performance issues with the Project Management SaaS project have been noted, possibly due to high server load You can reach me at liuwei@business.cn.. We suspect that the server load is related to adjustments in Redis settings My name is David Kim.. Despite optimizing server resources and restarting services, the issues persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        307,
+        316
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        199,
+        217
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problems with Server Performance\n\nRecurrent user reports of performance issues with the Project Management SaaS project have been noted, possibly due to high server load You can reach me at [email].. We suspect that the server load is related to adjustments in Redis settings My name is [full_name].. Despite optimizing server resources and restarting services, the issues persist.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Payment Processing\n\nI am encountering a payment processing error which might be related to outdated billing software. I have already restarted the system, checked the logs, and reached out to my bank You can reach me at elena.ivanova@support.org.. This error happened unexpectedly, and I would greatly appreciate your help in resolving it. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        240,
+        265
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with Payment Processing\n\nI am encountering a payment processing error which might be related to outdated billing software. I have already restarted the system, checked the logs, and reached out to my bank You can reach me at [email].. This error happened unexpectedly, and I would greatly appreciate your help in resolving it. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

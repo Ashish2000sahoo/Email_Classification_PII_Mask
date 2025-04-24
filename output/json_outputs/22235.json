@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Change Request for Consulting Service Issue\n\nDear IT Services Customer Support Team, \n\nI hope this message finds you well. I am writing to bring to your immediate attention a high-priority change request concerning the IT Consulting Service provided to our company. It has come to our notice that there are several areas within the current solutions where efficiency could be significantly improved, and we believe these changes are critical to enhancing our operations, as well as maintaining our service levels.\n\nThe primary issue we are encountering is related to the integration process of our existing systems with the proposed solutions. Currently, it seems to hinder our workflow efficiency rather than streamline it. Therefore, we request an evaluation from your specialist team to thoroughly assess these integration processes. Our aim is to optimize them in a way that aligns better with our strategic goals.\n\nAdditionally, we are seeking expert recommendations on how to leverage advanced technologies to improve data processing capabilities within our environment. High importance is placed on creating more seamless workflows that not only adapt to our needs but also anticipate future demands efficiently.\n\nWe would appreciate it if this request is treated with urgency due to its impact on our ongoing projects. Please let us know a convenient time for a meeting to further discuss the specifics and explore possible solutions at the earliest You can reach me at carlosm@gmail.com.. \n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n<name>\n\n<company>\n\n<contact_email>\n\n<tel_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1641,
+        1650
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1494,
+        1511
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Change Request for Consulting Service Issue\n\nDear IT Services Customer Support Team, \n\nI hope this message finds you well. I am writing to bring to your immediate attention a high-priority change request concerning the IT Consulting Service provided to our company. It has come to our notice that there are several areas within the current solutions where efficiency could be significantly improved, and we believe these changes are critical to enhancing our operations, as well as maintaining our service levels.\n\nThe primary issue we are encountering is related to the integration process of our existing systems with the proposed solutions. Currently, it seems to hinder our workflow efficiency rather than streamline it. Therefore, we request an evaluation from your specialist team to thoroughly assess these integration processes. Our aim is to optimize them in a way that aligns better with our strategic goals.\n\nAdditionally, we are seeking expert recommendations on how to leverage advanced technologies to improve data processing capabilities within our environment. High importance is placed on creating more seamless workflows that not only adapt to our needs but also anticipate future demands efficiently.\n\nWe would appreciate it if this request is treated with urgency due to its impact on our ongoing projects. Please let us know a convenient time for a meeting to further discuss the specifics and explore possible solutions at the earliest You can reach me at [email].. \n\nThank you for your prompt attention to this matter.\n\nBest regards,\n\n<name>\n\n<company>\n\n<contact_email>\n\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

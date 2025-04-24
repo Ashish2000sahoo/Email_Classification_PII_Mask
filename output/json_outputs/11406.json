@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Accuracy Issues with Investment Forecasts\n\nI have encountered inaccuracies in the investment predictions You can reach me at janesmith@company.com.. This is due to poor data quality, which resulted in incorrect forecast models. After reviewing the data sources and re-running the models, the problem still exists My name is Carlos Mendoza.. I would greatly appreciate your help in addressing this to enhance the accuracy of the predictions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        333,
+        347
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        134,
+        155
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Accuracy Issues with Investment Forecasts\n\nI have encountered inaccuracies in the investment predictions You can reach me at [email].. This is due to poor data quality, which resulted in incorrect forecast models. After reviewing the data sources and re-running the models, the problem still exists My name is [full_name].. I would greatly appreciate your help in addressing this to enhance the accuracy of the predictions.",
+  "category_of_the_email": "Problem"
+}

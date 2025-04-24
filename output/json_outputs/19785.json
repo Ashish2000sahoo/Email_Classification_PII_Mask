@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountered Issues with Multiple Integrations\n\nSeveral integrations have failed at the same time. There might be an API compatibility issue You can reach me at omar.hassan@secure.net.. I have restarted the Zapier connections and reviewed the Redis logs My name is Carlos Mendoza.. Please provide further details to help resolve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        287
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        169,
+        191
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Encountered Issues with Multiple Integrations\n\nSeveral integrations have failed at the same time. There might be an API compatibility issue You can reach me at [email].. I have restarted the Zapier connections and reviewed the Redis logs My name is [full_name].. Please provide further details to help resolve the problem.",
+  "category_of_the_email": "Incident"
+}

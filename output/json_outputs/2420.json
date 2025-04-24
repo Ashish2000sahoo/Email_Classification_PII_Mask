@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Digital Campaign Issues\n\nFacing problems with the digital campaign. Discrepancies continue even after troubleshooting Laravel Notion.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        192
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support for Digital Campaign Issues\n\nFacing problems with the digital campaign. Discrepancies continue even after troubleshooting Laravel Notion.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

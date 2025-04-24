@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage an Kundensupport\n\nIch bin an Informationen zur Aktivierung der Single-Sign-On-Integration f\u00fcr eine verbesserte Authentifizierung und Sicherheit interessiert You can reach me at fatima.farsi@help.com.. K\u00f6nnten Sie mir den entsprechenden Verfahrensablauf oder Implementierungsanweisungen geben? Meine Zielsetzung ist die Sicherheit und Benutzerfreundlichkeit unseres Systems zu f\u00f6rdern. Jede von Ihnen bereitgestellte Unterst\u00fctzung oder Dokumentation w\u00fcrde ich sehr sch\u00e4tzen. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        509
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        192,
+        213
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Frage an Kundensupport\n\nIch bin an Informationen zur Aktivierung der Single-Sign-On-Integration f\u00fcr eine verbesserte Authentifizierung und Sicherheit interessiert You can reach me at [email].. K\u00f6nnten Sie mir den entsprechenden Verfahrensablauf oder Implementierungsanweisungen geben? Meine Zielsetzung ist die Sicherheit und Benutzerfreundlichkeit unseres Systems zu f\u00f6rdern. Jede von Ihnen bereitgestellte Unterst\u00fctzung oder Dokumentation w\u00fcrde ich sehr sch\u00e4tzen. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

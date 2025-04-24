@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Benachrichtigung \u00fcber Datensperren und Sicherheitsungleichgewichte\n\nSehr geehrte Kundenservice, wir m\u00f6chten Sie \u00fcber einen Datensperrungsfall in Kenntnis setzen. Unser erster Schritt zur Erkundigung zeigt, dass ungen\u00fcgende Verschl\u00fcsselung h\u00f6chstwahrscheinlich der Grund daf\u00fcr ist. Wir haben bereits versucht, die Server neu zu starten, aber das Problem besteht weiterhin. Wie Sie sicher verstehen, existieren m\u00f6gliche Konsequenzen, und wir sch\u00e4tzen Ihre Hilfe bei der L\u00f6sung dieser Situation in k\u00fcrzester Zeit. Bitte geben Sie uns Anweisungen, was als n\u00e4chstes getan werden soll My name is Carlos Mendoza.. Wir w\u00fcrden sehr sch\u00e4tzen, wenn Sie sich sofort um dieses Problem k\u00fcmmern und uns baldige R\u00fcckmeldung geben k\u00f6nnten. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        599,
+        613
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        749,
+        770
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Benachrichtigung \u00fcber Datensperren und Sicherheitsungleichgewichte\n\nSehr geehrte Kundenservice, wir m\u00f6chten Sie \u00fcber einen Datensperrungsfall in Kenntnis setzen. Unser erster Schritt zur Erkundigung zeigt, dass ungen\u00fcgende Verschl\u00fcsselung h\u00f6chstwahrscheinlich der Grund daf\u00fcr ist. Wir haben bereits versucht, die Server neu zu starten, aber das Problem besteht weiterhin. Wie Sie sicher verstehen, existieren m\u00f6gliche Konsequenzen, und wir sch\u00e4tzen Ihre Hilfe bei der L\u00f6sung dieser Situation in k\u00fcrzester Zeit. Bitte geben Sie uns Anweisungen, was als n\u00e4chstes getan werden soll My name is [full_name].. Wir w\u00fcrden sehr sch\u00e4tzen, wenn Sie sich sofort um dieses Problem k\u00fcmmern und uns baldige R\u00fcckmeldung geben k\u00f6nnten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

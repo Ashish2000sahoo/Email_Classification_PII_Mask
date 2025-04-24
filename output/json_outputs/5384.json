@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unautorisierte Zugriffe auf medizinische Daten registriert\n\nEs wurde ein unautorisierter Zugriff auf das medizinische Daten-System des Krankenhauses festgestellt You can reach me at sophia.rossi@service.it.. Dieser ist aufgrund eines gestohlenen Mitarbeiterkontos erfolgt My name is Jane Smith.. Benutzerpassw\u00f6rter wurden zur\u00fcckgesetzt, Firewalldaten aktualisiert und die Sicherheit verbessert.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        292,
+        302
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        191,
+        214
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unautorisierte Zugriffe auf medizinische Daten registriert\n\nEs wurde ein unautorisierter Zugriff auf das medizinische Daten-System des Krankenhauses festgestellt You can reach me at [email].. Dieser ist aufgrund eines gestohlenen Mitarbeiterkontos erfolgt My name is [full_name].. Benutzerpassw\u00f6rter wurden zur\u00fcckgesetzt, Firewalldaten aktualisiert und die Sicherheit verbessert.",
+  "category_of_the_email": "Incident"
+}

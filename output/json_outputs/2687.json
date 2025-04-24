@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Viele Ger\u00e4te unerwartet abgemeldet\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass mehrere Ger\u00e4te unerwartet von der Netzwerkverbindung abgemeldet wurden. Ich glaube, dass es sich um ein Netzwerkonfigurationsproblem handelt My name is Maria Gonzalez.. Ich habe bereits den Router neu gestartet und die Kabel \u00fcberpr\u00fcft, aber das Problem beharrt weiter. Ich w\u00fcrde mich sehr freuen, wenn Sie mir dabei helfen k\u00f6nnten, dieses Problem zu l\u00f6sen. Bitte teilen Sie mir mit, welche Schritte Sie ben\u00f6tigen, um das Problem zu beheben, oder ob Sie weitere Informationen ben\u00f6tigen. Ich bin auch gern bereit, um zus\u00e4tzliche Details zu liefern, falls ben\u00f6tigt. Ich danke Ihnen im Voraus f\u00fcr Ihre Geduld und Unterst\u00fctzung You can reach me at carlosm@gmail.com.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        272
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        746,
+        763
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Viele Ger\u00e4te unerwartet abgemeldet\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass mehrere Ger\u00e4te unerwartet von der Netzwerkverbindung abgemeldet wurden. Ich glaube, dass es sich um ein Netzwerkonfigurationsproblem handelt My name is [full_name].. Ich habe bereits den Router neu gestartet und die Kabel \u00fcberpr\u00fcft, aber das Problem beharrt weiter. Ich w\u00fcrde mich sehr freuen, wenn Sie mir dabei helfen k\u00f6nnten, dieses Problem zu l\u00f6sen. Bitte teilen Sie mir mit, welche Schritte Sie ben\u00f6tigen, um das Problem zu beheben, oder ob Sie weitere Informationen ben\u00f6tigen. Ich bin auch gern bereit, um zus\u00e4tzliche Details zu liefern, falls ben\u00f6tigt. Ich danke Ihnen im Voraus f\u00fcr Ihre Geduld und Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

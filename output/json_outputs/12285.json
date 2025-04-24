@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Lost Project Data Following Dokumentenscanner Integration\n\nDear Customer Support,\\n\\nI need assistance with an issue that occurred after integrating the Dokumentenscanner, specifically related to the loss of project data.\\n\\n**Issue Description:**\\n- **Event:** Project data was lost post integration with the Dokumentenscanner.\\n- **Cause:** The root cause is believed to be an incompatible Node.js version leading to a synchronization failure.\\n- **Actions Taken:** Servers were restarted, API logs were reviewed, and an update to the Eclipse IDE was performed.\\n\\nYour help in retrieving this lost data would be greatly appreciated. Please request any additional details that you may need from me to proceed.\\n\\nThank you for your support.\\n\\nBest regards,\\n[Your Name]. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        804,
+        821
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Lost Project Data Following Dokumentenscanner Integration\n\nDear Customer Support,\\n\\nI need assistance with an issue that occurred after integrating the Dokumentenscanner, specifically related to the loss of project data.\\n\\n**Issue Description:**\\n- **Event:** Project data was lost post integration with the Dokumentenscanner.\\n- **Cause:** The root cause is believed to be an incompatible Node.js version leading to a synchronization failure.\\n- **Actions Taken:** Servers were restarted, API logs were reviewed, and an update to the Eclipse IDE was performed.\\n\\nYour help in retrieving this lost data would be greatly appreciated. Please request any additional details that you may need from me to proceed.\\n\\nThank you for your support.\\n\\nBest regards,\\n[Your Name]. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

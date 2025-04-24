@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Erkannte Verletzung der Sicherheit im Gesundheitsinformations-IT-System\n\nEs wurde versucht, mit autorisierter Authentifizierung zuzugreifen; potenzielle Datenverluste sind m\u00f6glich.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        228
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Erkannte Verletzung der Sicherheit im Gesundheitsinformations-IT-System\n\nEs wurde versucht, mit autorisierter Authentifizierung zuzugreifen; potenzielle Datenverluste sind m\u00f6glich.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

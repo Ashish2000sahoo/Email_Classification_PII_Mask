@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei Datenverletzungen im Hospital-IT-System\n\nEs wurde eine unerwartete Datenverletzung im Hospital-IT-System festgestellt, was die medizinischen Akten gef\u00e4hrdet. Die veraltete Software und fehlerhafte Sicherheitsstellungen sind wahrscheinlich die Ursache You can reach me at maria.gonzalez@shop.es.. Antivirus-Signaturdaten wurden aktualisiert, die Firewalls neu konfiguriert und ein gr\u00fcndliches Sicherheitsaudit durchgef\u00fchrt My name is Omar Hassan.. Sofortige Hilfe ist erforderlich, um die Systeme zu sichern und weitere Verletzungen zu verhindern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        452,
+        463
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        290,
+        312
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei Datenverletzungen im Hospital-IT-System\n\nEs wurde eine unerwartete Datenverletzung im Hospital-IT-System festgestellt, was die medizinischen Akten gef\u00e4hrdet. Die veraltete Software und fehlerhafte Sicherheitsstellungen sind wahrscheinlich die Ursache You can reach me at [email].. Antivirus-Signaturdaten wurden aktualisiert, die Firewalls neu konfiguriert und ein gr\u00fcndliches Sicherheitsaudit durchgef\u00fchrt My name is [full_name].. Sofortige Hilfe ist erforderlich, um die Systeme zu sichern und weitere Verletzungen zu verhindern.",
+  "category_of_the_email": "Incident"
+}

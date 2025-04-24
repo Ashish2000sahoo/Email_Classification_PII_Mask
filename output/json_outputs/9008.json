@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident of Data Leakage in Hospital IT Networks\n\nRecently, there was an unauthorized access to patient medical records due to data leakage You can reach me at elena.ivanova@support.org.. The likely reasons are weak security measures and outdated software My name is David Kim.. Steps taken include updating antivirus software and conducting a network scan, but the issues still persist. Assistance is needed to resolve the issue and prevent future breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        285
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        169,
+        194
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Incident of Data Leakage in Hospital IT Networks\n\nRecently, there was an unauthorized access to patient medical records due to data leakage You can reach me at [email].. The likely reasons are weak security measures and outdated software My name is [full_name].. Steps taken include updating antivirus software and conducting a network scan, but the issues still persist. Assistance is needed to resolve the issue and prevent future breaches.",
+  "category_of_the_email": "Incident"
+}

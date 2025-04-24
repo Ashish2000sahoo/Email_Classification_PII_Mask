@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de Ajustes en la Infraestructura de TI\n\nEstimado equipo de soporte de la firma de consultor\u00eda de TI,\n\nEscribo para solicitar ajustes espec\u00edficos en nuestra infraestructura de TI actual orientados a optimizar el rendimiento del sistema. Dada su prioridad media, creo que una atenci\u00f3n oportuna a este asunto mejorar\u00e1 significativamente nuestra eficiencia operativa sin interrupciones You can reach me at sophia.rossi@service.it.. Hemos estado utilizando sus servicios de consultor\u00eda de TI, y aunque estamos en general satisfechos, hemos identificado \u00e1reas que podr\u00edan beneficiarse de una configuraci\u00f3n mejorada.\n\nPor favor, que un especialista se comunique para determinar soluciones personalizadas para nuestras necesidades. Puede comunicarse conmigo a trav\u00e9s de mi n\u00famero de tel\u00e9fono <tel_num> o por correo electr\u00f3nico a <name>@company.com. Juntos, podemos asegurarnos de que nuestros sistemas est\u00e9n finamente ajustados y funcionen sin problemas a largo plazo.\n\nApreciamos su continuo apoyo y experiencia.\n\nAtentamente,\n<name>\nN\u00famero de cuenta: <acc_num> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1085,
+        1094
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        421,
+        444
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de Ajustes en la Infraestructura de TI\n\nEstimado equipo de soporte de la firma de consultor\u00eda de TI,\n\nEscribo para solicitar ajustes espec\u00edficos en nuestra infraestructura de TI actual orientados a optimizar el rendimiento del sistema. Dada su prioridad media, creo que una atenci\u00f3n oportuna a este asunto mejorar\u00e1 significativamente nuestra eficiencia operativa sin interrupciones You can reach me at [email].. Hemos estado utilizando sus servicios de consultor\u00eda de TI, y aunque estamos en general satisfechos, hemos identificado \u00e1reas que podr\u00edan beneficiarse de una configuraci\u00f3n mejorada.\n\nPor favor, que un especialista se comunique para determinar soluciones personalizadas para nuestras necesidades. Puede comunicarse conmigo a trav\u00e9s de mi n\u00famero de tel\u00e9fono <tel_num> o por correo electr\u00f3nico a <name>@company.com. Juntos, podemos asegurarnos de que nuestros sistemas est\u00e9n finamente ajustados y funcionen sin problemas a largo plazo.\n\nApreciamos su continuo apoyo y experiencia.\n\nAtentamente,\n<name>\nN\u00famero de cuenta: <acc_num> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Change"
+}

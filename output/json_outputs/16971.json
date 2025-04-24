@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwartetes Systemausfallproblem gemeldet\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte melden, dass unser System unerwartet abst\u00fcrzte, was zu erheblichen Unterbrechungen unserer Betriebsaktivit\u00e4ten f\u00fchrte. Wir vermuten, dass das Problem m\u00f6glicherweise auf eine \u00dcberbelastung oder ein technisches Defekt zur\u00fcckzuf\u00fchren ist, obwohl der genaue Ursprung bislang unklar bleibt.\\n\\nWir haben versucht, die Dienstleistungen neu zu starten, die Logs zu pr\u00fcfen und die systematische Leistung zu \u00fcberwachen, um das Problem zu identifizieren. Allerdings beh\u00e4lt sich das Problem seinen Ursprung, und wir ben\u00f6tigen weitere Unterst\u00fctzung, um es zu l\u00f6sen.\\n\\nEin kurzer Bericht \u00fcber das Problem:\\n\\n**Was passiert ist:** Das System ging pl\u00f6tzlich aus, wodurch Produktivit\u00e4t und Effizienz sanken.\\n\\n**Warum es m\u00f6glicherweise passiert ist:** Wir gehen davon aus, dass das Ausfallproblem auf eine \u00dcberbelastung oder ein technisches Problem zur\u00fcckzuf\u00fchren ist, aber wir ben\u00f6tigen eine detaillierte Untersuchung, um den Grund zu bestimmen.\\n\\n**Was bisher versucht wurde:** Unser Team hat versucht, die Dienstleistungen neu zu starten, die Logs f\u00fcr Fehler zu pr\u00fcfen und die Leistung des Systems zu \u00fcberwachen, um m\u00f6gliche Ursachen zu identifizieren My name is Jane Smith.. Allerdings hat sich das Problem nicht l\u00f6sen lassen.\\n\\nIch danke Ihnen an dieser Stelle, dass Sie das Problem meldeten, und freue mich auf Ihre Unterst\u00fctzung, um die Ursachen zu ermitteln und die Probleme so schnell wie m\u00f6glich zu beheben.\\n\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1249,
+        1259
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1603,
+        1620
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Unerwartetes Systemausfallproblem gemeldet\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte melden, dass unser System unerwartet abst\u00fcrzte, was zu erheblichen Unterbrechungen unserer Betriebsaktivit\u00e4ten f\u00fchrte. Wir vermuten, dass das Problem m\u00f6glicherweise auf eine \u00dcberbelastung oder ein technisches Defekt zur\u00fcckzuf\u00fchren ist, obwohl der genaue Ursprung bislang unklar bleibt.\\n\\nWir haben versucht, die Dienstleistungen neu zu starten, die Logs zu pr\u00fcfen und die systematische Leistung zu \u00fcberwachen, um das Problem zu identifizieren. Allerdings beh\u00e4lt sich das Problem seinen Ursprung, und wir ben\u00f6tigen weitere Unterst\u00fctzung, um es zu l\u00f6sen.\\n\\nEin kurzer Bericht \u00fcber das Problem:\\n\\n**Was passiert ist:** Das System ging pl\u00f6tzlich aus, wodurch Produktivit\u00e4t und Effizienz sanken.\\n\\n**Warum es m\u00f6glicherweise passiert ist:** Wir gehen davon aus, dass das Ausfallproblem auf eine \u00dcberbelastung oder ein technisches Problem zur\u00fcckzuf\u00fchren ist, aber wir ben\u00f6tigen eine detaillierte Untersuchung, um den Grund zu bestimmen.\\n\\n**Was bisher versucht wurde:** Unser Team hat versucht, die Dienstleistungen neu zu starten, die Logs f\u00fcr Fehler zu pr\u00fcfen und die Leistung des Systems zu \u00fcberwachen, um m\u00f6gliche Ursachen zu identifizieren My name is [full_name].. Allerdings hat sich das Problem nicht l\u00f6sen lassen.\\n\\nIch danke Ihnen an dieser Stelle, dass Sie das Problem meldeten, und freue mich auf Ihre Unterst\u00fctzung, um die Ursachen zu ermitteln und die Probleme so schnell wie m\u00f6glich zu beheben.\\n\\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

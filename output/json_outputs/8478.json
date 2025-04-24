@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nThere was an incident involving unauthorized access attempts to medical data, which may be due to a weak firewall configuration. Access controls have been tightened and security protocols have been updated, but concerns remain about ongoing vulnerabilities.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        306
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nThere was an incident involving unauthorized access attempts to medical data, which may be due to a weak firewall configuration. Access controls have been tightened and security protocols have been updated, but concerns remain about ongoing vulnerabilities.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

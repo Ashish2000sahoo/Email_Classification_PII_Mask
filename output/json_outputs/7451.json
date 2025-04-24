@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Support\n\nConcerning the support request regarding the project dashboard where users are experiencing slow loading times, this could be attributed to increased user activity and server strain You can reach me at sophia.rossi@service.it.. The team has attempted to address the issue by clearing the cache and optimizing queries, but the problem still persists. Despite these efforts, the dashboard continues to load slowly, causing inconvenience to the users. We would greatly appreciate any assistance in identifying the root cause of the issue. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        581,
+        590
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        236,
+        259
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Support\n\nConcerning the support request regarding the project dashboard where users are experiencing slow loading times, this could be attributed to increased user activity and server strain You can reach me at [email].. The team has attempted to address the issue by clearing the cache and optimizing queries, but the problem still persists. Despite these efforts, the dashboard continues to load slowly, causing inconvenience to the users. We would greatly appreciate any assistance in identifying the root cause of the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit den neuesten Aktualisierungen\n\nBetreff: Probleme mit den neuesten Aktualisierungen\\n\\nSehr geehrte Kundensupport,\\n\\nich m\u00f6chte Ihnen melden, dass ich mehrere Probleme mit verschiedenen Produkten nach den neuesten Aktualisierungen habe. Es scheint, als k\u00f6nnte es m\u00f6glicherweise um Kompatibilit\u00e4tskonflikte gehen. Trotz aller Bem\u00fchungen, die Probleme durch Neuinstallation der Software und \u00dcberpr\u00fcfung der Einstellungen beheben zu k\u00f6nnen, bestehen sie weiterhin. Ich habe bereits verschiedene Schritte zur L\u00f6sung des Problems unternommen, leider konnte ich bisher keine L\u00f6sung finden My name is John Doe.. Die Probleme, mit denen ich k\u00e4mpfe, umfassen Fehler, Haltbarkeitsprobleme und Leistungsunstetigkeiten bei den Produkten. Ich sch\u00e4tze, wenn Sie das Problem schnellstm\u00f6glich bearbeiten und eine L\u00f6sung bieten k\u00f6nnten.\\n\\nIch w\u00fcrde mich freuen, wenn Sie spezifische Informationen zu den betroffenen Produkten, den verwendeten Versionen sowie den spezifischen Fehlern, mit denen ich k\u00e4mpfe, erhalten k\u00f6nnten You can reach me at liuwei@business.cn.. Zudem w\u00e4re es hilfreich,",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        616,
+        624
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1053,
+        1071
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit den neuesten Aktualisierungen\n\nBetreff: Probleme mit den neuesten Aktualisierungen\\n\\nSehr geehrte Kundensupport,\\n\\nich m\u00f6chte Ihnen melden, dass ich mehrere Probleme mit verschiedenen Produkten nach den neuesten Aktualisierungen habe. Es scheint, als k\u00f6nnte es m\u00f6glicherweise um Kompatibilit\u00e4tskonflikte gehen. Trotz aller Bem\u00fchungen, die Probleme durch Neuinstallation der Software und \u00dcberpr\u00fcfung der Einstellungen beheben zu k\u00f6nnen, bestehen sie weiterhin. Ich habe bereits verschiedene Schritte zur L\u00f6sung des Problems unternommen, leider konnte ich bisher keine L\u00f6sung finden My name is [full_name].. Die Probleme, mit denen ich k\u00e4mpfe, umfassen Fehler, Haltbarkeitsprobleme und Leistungsunstetigkeiten bei den Produkten. Ich sch\u00e4tze, wenn Sie das Problem schnellstm\u00f6glich bearbeiten und eine L\u00f6sung bieten k\u00f6nnten.\\n\\nIch w\u00fcrde mich freuen, wenn Sie spezifische Informationen zu den betroffenen Produkten, den verwendeten Versionen sowie den spezifischen Fehlern, mit denen ich k\u00e4mpfe, erhalten k\u00f6nnten You can reach me at [email].. Zudem w\u00e4re es hilfreich,",
+  "category_of_the_email": "Incident"
+}

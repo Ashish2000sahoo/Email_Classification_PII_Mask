@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Innene-Verbindungsprobleme in der SaaS-Plattform in den letzten Tagen\n\nWir stellen derzeit intern Verbindungsprobleme bei der ProjektverwaltungsSaaS fest, was verschiedene integrierte Tools beeintr\u00e4chtigt. Es scheint, dass die neuesten Systemupdates und Netzwerkkonfigurations\u00e4nderungen dahinterstecken You can reach me at carlosm@gmail.com.. Versucht haben wir es, Ger\u00e4te neu zu starten, Caches zu leeren und die Benutzerhandb\u00fccher zu \u00fcberpr\u00fcfen, um Hinweise zu finden. Jedoch h\u00e4lt sich das Problem und beeintr\u00e4chtigt die Produktivit\u00e4t My name is Maria Gonzalez.. K\u00f6nnten Sie uns bitte schnell helfen, das Problem zu l\u00f6sen? Wenn Sie Anleitungen oder Unterst\u00fctzung geben k\u00f6nnten, um die normale Betriebsweise wiederherzustellen, w\u00fcrden wir das sehr sch\u00e4tzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        557,
+        571
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        332,
+        349
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Innene-Verbindungsprobleme in der SaaS-Plattform in den letzten Tagen\n\nWir stellen derzeit intern Verbindungsprobleme bei der ProjektverwaltungsSaaS fest, was verschiedene integrierte Tools beeintr\u00e4chtigt. Es scheint, dass die neuesten Systemupdates und Netzwerkkonfigurations\u00e4nderungen dahinterstecken You can reach me at [email].. Versucht haben wir es, Ger\u00e4te neu zu starten, Caches zu leeren und die Benutzerhandb\u00fccher zu \u00fcberpr\u00fcfen, um Hinweise zu finden. Jedoch h\u00e4lt sich das Problem und beeintr\u00e4chtigt die Produktivit\u00e4t My name is [full_name].. K\u00f6nnten Sie uns bitte schnell helfen, das Problem zu l\u00f6sen? Wenn Sie Anleitungen oder Unterst\u00fctzung geben k\u00f6nnten, um die normale Betriebsweise wiederherzustellen, w\u00fcrden wir das sehr sch\u00e4tzen.",
+  "category_of_the_email": "Incident"
+}

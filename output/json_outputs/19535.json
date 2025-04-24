@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for System Requirements\n\nHello customer support, I am contacting you to request information regarding the system requirements needed for the best performance of your project management software as a service (SaaS) You can reach me at fatima.farsi@help.com.. I would like to understand the necessary hardware and software specifications to ensure smooth operation. Could you kindly furnish me with detailed recommendations on the system configuration, such as processor speed, memory, and operating system compatibility? I also seek advice on any potential limitations or troubles that might occur if my system does not meet these requirements My name is David Kim.. I am eager to hear from you and find ways to optimize my project management experience. Thank you for your time and help. I look forward to learning more about the system requirements and how they can affect my overall experience with the SaaS.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        671,
+        680
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        251,
+        272
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for System Requirements\n\nHello customer support, I am contacting you to request information regarding the system requirements needed for the best performance of your project management software as a service (SaaS) You can reach me at [email].. I would like to understand the necessary hardware and software specifications to ensure smooth operation. Could you kindly furnish me with detailed recommendations on the system configuration, such as processor speed, memory, and operating system compatibility? I also seek advice on any potential limitations or troubles that might occur if my system does not meet these requirements My name is [full_name].. I am eager to hear from you and find ways to optimize my project management experience. Thank you for your time and help. I look forward to learning more about the system requirements and how they can affect my overall experience with the SaaS.",
+  "category_of_the_email": "Request"
+}

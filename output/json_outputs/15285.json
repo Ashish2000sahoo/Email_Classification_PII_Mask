@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Over Insecure Medical Records\n\nDear Customer Support,\\n\\nI am contacting you to report a critical issue that has arisen with our medical records. It seems unsecured medical files have been accessed externally, which is a significant concern. Based on our preliminary investigation, the issue may stem from outdated firewall rules that have not been updated recently.\\n\\nTo address the situation, we have already attempted to restart the server and review the logs for any signs of suspicious activity My name is Carlos Mendoza.. However, the problem continues, and we have not yet fully determined the extent of the breach.\\n\\nWe urgently seek your help in resolving this matter and securing our medical files. Please provide us with guidance on updating our firewall settings and preventing future unauthorized access. We would be grateful if you could call us at <tel_num> to discuss the next steps.\\n\\nThank you for your swift action on this issue. We look forward to your response.\\n\\nWarm regards,\\n[Your Name] You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        529,
+        543
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1050,
+        1075
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern Over Insecure Medical Records\n\nDear Customer Support,\\n\\nI am contacting you to report a critical issue that has arisen with our medical records. It seems unsecured medical files have been accessed externally, which is a significant concern. Based on our preliminary investigation, the issue may stem from outdated firewall rules that have not been updated recently.\\n\\nTo address the situation, we have already attempted to restart the server and review the logs for any signs of suspicious activity My name is [full_name].. However, the problem continues, and we have not yet fully determined the extent of the breach.\\n\\nWe urgently seek your help in resolving this matter and securing our medical files. Please provide us with guidance on updating our firewall settings and preventing future unauthorized access. We would be grateful if you could call us at <tel_num> to discuss the next steps.\\n\\nThank you for your swift action on this issue. We look forward to your response.\\n\\nWarm regards,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Elasticsearch Integration Inquiry\n\nCould you please provide specifications needed for integrating Elasticsearch 7.13 with our digital marketing analytics tools?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        207
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Elasticsearch Integration Inquiry\n\nCould you please provide specifications needed for integrating Elasticsearch 7.13 with our digital marketing analytics tools?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

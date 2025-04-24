@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Fehlerhafter Crash\n\nNach der Aktualisierung eines unkompatiblen Grafikkarten Treibers h\u00e4lt CyberLink PowerDirector 19 inne. Ich habe den Rechner neu gestartet und die Treiber aktualisiert, aber das Problem beh\u00e4lt sich bei.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        271
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Fehlerhafter Crash\n\nNach der Aktualisierung eines unkompatiblen Grafikkarten Treibers h\u00e4lt CyberLink PowerDirector 19 inne. Ich habe den Rechner neu gestartet und die Treiber aktualisiert, aber das Problem beh\u00e4lt sich bei.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheit der Patientendaten\n\nEinf\u00fchrung verbesserten Verschl\u00fcsselungsverfahrens f\u00fcr Patientendaten. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        148
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Sicherheit der Patientendaten\n\nEinf\u00fchrung verbesserten Verschl\u00fcsselungsverfahrens f\u00fcr Patientendaten. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

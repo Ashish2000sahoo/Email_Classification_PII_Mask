@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes avec l'outil de refactorisation de code IntelliJ IDEA 2024.1\n\nCher support client des services informatiques,\n\nJe rencontre des probl\u00e8mes avec les outils de refactorisation de code dans IntelliJ IDEA 2024.1 You can reach me at fatima.farsi@help.com.. Pendant le d\u00e9veloppement Java, les outils ne r\u00e9pondent pas comme pr\u00e9vu, ce qui nuit consid\u00e9rablement \u00e0 la productivit\u00e9. J'ai v\u00e9rifi\u00e9 que l'IDE est \u00e0 jour et je l'ai red\u00e9marr\u00e9 plusieurs fois sans r\u00e9solution. Ce probl\u00e8me technique n\u00e9cessite une attention imm\u00e9diate pour respecter les d\u00e9lais du projet My name is Liu Wei.. J'appr\u00e9cierais votre aide ou un correctif rapide pour r\u00e9soudre ce probl\u00e8me.\n\nMerci pour votre assistance.\n\nCordialement,\n\n<name>\n\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        580,
+        587
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        246,
+        267
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        73,
+        77
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        219,
+        223
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes avec l'outil de refactorisation de code IntelliJ IDEA [phone_number].1\n\nCher support client des services informatiques,\n\nJe rencontre des probl\u00e8mes avec les outils de refactorisation de code dans IntelliJ IDEA [phone_number].1 You can reach me at [email].. Pendant le d\u00e9veloppement Java, les outils ne r\u00e9pondent pas comme pr\u00e9vu, ce qui nuit consid\u00e9rablement \u00e0 la productivit\u00e9. J'ai v\u00e9rifi\u00e9 que l'IDE est \u00e0 jour et je l'ai red\u00e9marr\u00e9 plusieurs fois sans r\u00e9solution. Ce probl\u00e8me technique n\u00e9cessite une attention imm\u00e9diate pour respecter les d\u00e9lais du projet My name is [full_name].. J'appr\u00e9cierais votre aide ou un correctif rapide pour r\u00e9soudre ce probl\u00e8me.\n\nMerci pour votre assistance.\n\nCordialement,\n\n<name>\n\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

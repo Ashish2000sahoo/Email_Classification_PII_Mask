@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Streamlining Integration of SaaS with Current Workflows\n\nI hope this message finds you well My name is John Doe.. I am writing to seek information on integrating your SaaS solution with our current workflow systems. Could you kindly provide a comprehensive guide or documentation to facilitate this integration? We are keen on optimizing our operations and believe your SaaS could be a significant asset. Kindly advise if there are any specific prerequisites or steps required for the integration You can reach me at david.kim@corp.kr.. I would greatly appreciate any assistance or guidance you can provide in this regard.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        112,
+        120
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        529,
+        546
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Streamlining Integration of SaaS with Current Workflows\n\nI hope this message finds you well My name is [full_name].. I am writing to seek information on integrating your SaaS solution with our current workflow systems. Could you kindly provide a comprehensive guide or documentation to facilitate this integration? We are keen on optimizing our operations and believe your SaaS could be a significant asset. Kindly advise if there are any specific prerequisites or steps required for the integration You can reach me at [email].. I would greatly appreciate any assistance or guidance you can provide in this regard.",
+  "category_of_the_email": "Request"
+}

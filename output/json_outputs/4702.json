@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Payment Plans Inquiry\n\nDear Customer Support, I am reaching out to seek more information about payment plans for digital marketing services You can reach me at david.kim@corp.kr.. Could you please provide me with detailed information on the different contract options and related costs? It would be greatly appreciated if you could also inform me about any current discounts or promotional programs available. Additionally, I would like to know if there are payment plans that offer flexibility regarding payment schedules. I look forward to your response and further discussions on these options. Thank you for your time and assistance. I am eager to learn more about the digital marketing services and how they can benefit my business My name is David Kim.. Please let me know if you require additional information from me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        757,
+        766
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        169,
+        186
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Payment Plans Inquiry\n\nDear Customer Support, I am reaching out to seek more information about payment plans for digital marketing services You can reach me at [email].. Could you please provide me with detailed information on the different contract options and related costs? It would be greatly appreciated if you could also inform me about any current discounts or promotional programs available. Additionally, I would like to know if there are payment plans that offer flexibility regarding payment schedules. I look forward to your response and further discussions on these options. Thank you for your time and assistance. I am eager to learn more about the digital marketing services and how they can benefit my business My name is [full_name].. Please let me know if you require additional information from me.",
+  "category_of_the_email": "Request"
+}

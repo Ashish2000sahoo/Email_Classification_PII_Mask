@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problems with Marketing Analysis Dashboard\n\nThe Marketing Analysis Dashboard is not loading as the software updates are not compatible. I have restarted the server and checked the network connections, but the issue persists.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        256,
+        272
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Problems with Marketing Analysis Dashboard\n\nThe Marketing Analysis Dashboard is not loading as the software updates are not compatible. I have restarted the server and checked the network connections, but the issue persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verbesserte Projektverwaltung\n\nBekomplettieren Sie Wave Audio-Tool mit Trackball, um zus\u00e4tzliche Funktionen und Kooperation zu erweitern. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Verbesserte Projektverwaltung\n\nBekomplettieren Sie Wave Audio-Tool mit Trackball, um zus\u00e4tzliche Funktionen und Kooperation zu erweitern. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

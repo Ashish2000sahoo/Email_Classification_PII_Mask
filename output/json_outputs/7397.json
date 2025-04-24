@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with ClickUp Excel Integration Compatibility\n\nHello Customer Support, we are a marketing agency encountering difficulties with the integration of ClickUp Excel for project tracking You can reach me at maria.gonzalez@shop.es.. We suspect that a recent software update might be causing the malfunction. So far, we have tried restarting the applications, clearing caches, and rechecking the integration settings, but the issue continues to prevent us from tracking projects effectively. We would greatly appreciate if you could look into this matter and provide a solution as soon as possible My name is Maria Gonzalez.. Please let us know if there is any additional information needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        618,
+        632
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        218,
+        240
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with ClickUp Excel Integration Compatibility\n\nHello Customer Support, we are a marketing agency encountering difficulties with the integration of ClickUp Excel for project tracking You can reach me at [email].. We suspect that a recent software update might be causing the malfunction. So far, we have tried restarting the applications, clearing caches, and rechecking the integration settings, but the issue continues to prevent us from tracking projects effectively. We would greatly appreciate if you could look into this matter and provide a solution as soon as possible My name is [full_name].. Please let us know if there is any additional information needed.",
+  "category_of_the_email": "Incident"
+}

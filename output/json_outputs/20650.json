@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Asistencia con Adobe Photoshop\n\nEstimado soporte de la tienda online de tecnolog\u00eda,\n\nEspero que este mensaje le encuentre bien. Estoy escribiendo para solicitar asistencia con respecto al software Adobe Photoshop 2024 que compr\u00e9 con mi n\u00famero de pedido <acc_num> You can reach me at johndoe@email.com.. Desafortunadamente, he estado experimentando bloqueos frecuentes durante varias tareas de edici\u00f3n de fotos, lo que afecta significativamente mi flujo de trabajo. La aplicaci\u00f3n a menudo se cierra inesperadamente sin previo aviso. He intentado actualizar el software y los controladores de mi sistema, pero el problema persiste. Solicito amablemente su orientaci\u00f3n para resolver este asunto o si hay pasos espec\u00edficos o parches disponibles para estabilizar su rendimiento. Gracias por su atenci\u00f3n a este problema. Espero su pronta respuesta.\n\nAtentamente,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        884,
+        898
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        292,
+        309
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        222,
+        226
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Asistencia con Adobe Photoshop\n\nEstimado soporte de la tienda online de tecnolog\u00eda,\n\nEspero que este mensaje le encuentre bien. Estoy escribiendo para solicitar asistencia con respecto al software Adobe Photoshop [phone_number] que compr\u00e9 con mi n\u00famero de pedido <acc_num> You can reach me at [email].. Desafortunadamente, he estado experimentando bloqueos frecuentes durante varias tareas de edici\u00f3n de fotos, lo que afecta significativamente mi flujo de trabajo. La aplicaci\u00f3n a menudo se cierra inesperadamente sin previo aviso. He intentado actualizar el software y los controladores de mi sistema, pero el problema persiste. Solicito amablemente su orientaci\u00f3n para resolver este asunto o si hay pasos espec\u00edficos o parches disponibles para estabilizar su rendimiento. Gracias por su atenci\u00f3n a este problema. Espero su pronta respuesta.\n\nAtentamente,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

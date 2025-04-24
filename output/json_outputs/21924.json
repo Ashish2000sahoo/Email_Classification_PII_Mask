@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Printer Setup Assistance\n\nDear customer support team, I am requesting setup assistance for my new HP DeskJet 3755 printer My name is Fatima Al-Farsi.. It is a compact, wireless, all-in-one, color printer You can reach me at omar.hassan@secure.net.. Could you please guide me through the installation process? Thank you very much. Regards, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        235,
+        257
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        118,
+        122
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Printer Setup Assistance\n\nDear customer support team, I am requesting setup assistance for my new HP DeskJet [phone_number] printer My name is [full_name]-Farsi.. It is a compact, wireless, all-in-one, color printer You can reach me at [email].. Could you please guide me through the installation process? Thank you very much. Regards, <name>.",
+  "category_of_the_email": "Request"
+}

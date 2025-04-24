@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with ClickUp Sync Triggered by Cassandra Overload\n\nThe ClickUp synchronization is experiencing difficulties because of a Cassandra database overload. Despite restarting the system, reviewing logs, and updating drivers, the problem continues.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        279,
+        295
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Issue with ClickUp Sync Triggered by Cassandra Overload\n\nThe ClickUp synchronization is experiencing difficulties because of a Cassandra database overload. Despite restarting the system, reviewing logs, and updating drivers, the problem continues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry into Payment Options for Medical Data Services\n\nDear Support Team, I am contacting you to seek more details about the payment options for our medical data services. Could you kindly provide me with an overview of the payment plans and methods that are available? I would appreciate any information on discounts for extended usage periods and any potential extra charges associated with specific payment methods. Additionally, I am keen to learn about the security protocols in place to safeguard sensitive medical data You can reach me at elena.ivanova@support.org.. Please feel free to clarify any points or queries you might have. I look forward to your prompt response My name is Liu Wei.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        700,
+        707
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        556,
+        581
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Inquiry into Payment Options for Medical Data Services\n\nDear Support Team, I am contacting you to seek more details about the payment options for our medical data services. Could you kindly provide me with an overview of the payment plans and methods that are available? I would appreciate any information on discounts for extended usage periods and any potential extra charges associated with specific payment methods. Additionally, I am keen to learn about the security protocols in place to safeguard sensitive medical data You can reach me at [email].. Please feel free to clarify any points or queries you might have. I look forward to your prompt response My name is [full_name].. Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

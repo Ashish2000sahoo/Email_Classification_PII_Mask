@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Slow Performance with Redis 6.2\n\nOur system is currently facing slow performance issues with Redis 6.2, which might be attributed to high traffic and insufficient resources.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Slow Performance with Redis 6.2\n\nOur system is currently facing slow performance issues with Redis 6.2, which might be attributed to high traffic and insufficient resources.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

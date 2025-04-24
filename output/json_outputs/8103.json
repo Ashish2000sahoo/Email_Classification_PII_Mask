@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Seeking Insights on Smart Home Product Marketing Strategies\n\nHello Customer Support, I am inquiring about the digital strategies employed to promote smart home products and related tech accessories My name is David Kim.. As a consumer, I am interested in learning about the company's approaches to marketing and advertising for these products. Specifically, I would like to know more about the social media campaigns, email marketing efforts, and any online promotions that may be in use. I am also curious about the company's plans to expand its product offerings in the near future You can reach me at david.kim@corp.kr.. Could you provide insights into current strategies and upcoming initiatives?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        218,
+        227
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        615,
+        632
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Seeking Insights on Smart Home Product Marketing Strategies\n\nHello Customer Support, I am inquiring about the digital strategies employed to promote smart home products and related tech accessories My name is [full_name].. As a consumer, I am interested in learning about the company's approaches to marketing and advertising for these products. Specifically, I would like to know more about the social media campaigns, email marketing efforts, and any online promotions that may be in use. I am also curious about the company's plans to expand its product offerings in the near future You can reach me at [email].. Could you provide insights into current strategies and upcoming initiatives?",
+  "category_of_the_email": "Request"
+}

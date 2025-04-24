@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Synchronization of Project Timelines\n\nWhat transpired: Project timelines failed to synchronize across all tools My name is John Doe.. Possible reasons: Integration APIs might have malfunctioned or are outdated. Actions taken: Restarted services, verified connectivity settings. Assistance required: Need help to resolve the issue. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        159
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        382,
+        405
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Synchronization of Project Timelines\n\nWhat transpired: Project timelines failed to synchronize across all tools My name is [full_name].. Possible reasons: Integration APIs might have malfunctioned or are outdated. Actions taken: Restarted services, verified connectivity settings. Assistance required: Need help to resolve the issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

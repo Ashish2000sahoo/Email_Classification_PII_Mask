@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia Necesaria con el Teclado del Surface Pro 7\n\nEstimado Cliente del Soporte T\u00e9cnico de la Tienda en L\u00ednea,\n\nRecientemente compr\u00e9 un Microsoft Surface Pro 7 y tengo problemas para configurar el teclado desmontable My name is Elena Ivanova.. \u00bfPuede proporcionar instrucciones detalladas o consejos de soluci\u00f3n de problemas para ayudarme a hacerlo funcionar? Su pronta ayuda para resolver este problema ser\u00eda muy apreciada You can reach me at maria.gonzalez@shop.es.. Mi n\u00famero de cuenta es <acc_num>. Por favor, cont\u00e1cteme al <tel_num> o por correo electr\u00f3nico para cualquier informaci\u00f3n adicional.\n\nGracias,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        241,
+        254
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        455,
+        477
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Asistencia Necesaria con el Teclado del Surface Pro 7\n\nEstimado Cliente del Soporte T\u00e9cnico de la Tienda en L\u00ednea,\n\nRecientemente compr\u00e9 un Microsoft Surface Pro 7 y tengo problemas para configurar el teclado desmontable My name is [full_name].. \u00bfPuede proporcionar instrucciones detalladas o consejos de soluci\u00f3n de problemas para ayudarme a hacerlo funcionar? Su pronta ayuda para resolver este problema ser\u00eda muy apreciada You can reach me at [email].. Mi n\u00famero de cuenta es <acc_num>. Por favor, cont\u00e1cteme al <tel_num> o por correo electr\u00f3nico para cualquier informaci\u00f3n adicional.\n\nGracias,\n<name>",
+  "category_of_the_email": "Request"
+}

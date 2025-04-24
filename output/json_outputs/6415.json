@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern with Project Management Software\n\nThe project management software is facing occasional performance drops during peak times. This might be linked to an increase in user activity My name is John Doe.. Steps taken such as scaling server resources and optimizing database queries have shown some improvement but the issue persists You can reach me at david.kim@corp.kr.. I would greatly appreciate your support in addressing this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        367,
+        384
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern with Project Management Software\n\nThe project management software is facing occasional performance drops during peak times. This might be linked to an increase in user activity My name is [full_name].. Steps taken such as scaling server resources and optimizing database queries have shown some improvement but the issue persists You can reach me at [email].. I would greatly appreciate your support in addressing this problem.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, addressing concerns over the underperformance of marketing campaigns, which are impacting the brand's growth You can reach me at elena.ivanova@support.org.. Even after reviewing campaign metrics and adjusting targeting parameters, the results have not shown significant improvement. The team has invested a considerable amount of time in analyzing the data, but the results remain disappointing. We are struggling to identify the root cause, whether it is due to ineffective digital strategies or poor audience targeting My name is Maria Gonzalez.. We would greatly appreciate your guidance and recommendations to help improve the situation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        561,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        158,
+        183
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, addressing concerns over the underperformance of marketing campaigns, which are impacting the brand's growth You can reach me at [email].. Even after reviewing campaign metrics and adjusting targeting parameters, the results have not shown significant improvement. The team has invested a considerable amount of time in analyzing the data, but the results remain disappointing. We are struggling to identify the root cause, whether it is due to ineffective digital strategies or poor audience targeting My name is [full_name].. We would greatly appreciate your guidance and recommendations to help improve the situation.",
+  "category_of_the_email": "Problem"
+}

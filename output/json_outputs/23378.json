@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Faulty Charging Cable for Samsung Galaxy S21 Ultra\n\nHello Customer Support, I received a faulty charging cable for my Samsung Galaxy S21 Ultra. Would it be possible to have a replacement delivered to my address? Best regards, <name>. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        279
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Faulty Charging Cable for Samsung Galaxy S21 Ultra\n\nHello Customer Support, I received a faulty charging cable for my Samsung Galaxy S21 Ultra. Would it be possible to have a replacement delivered to my address? Best regards, <name>. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

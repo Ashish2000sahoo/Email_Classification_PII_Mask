@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Digital Tools\n\nThe digital tools used by the marketing agency are experiencing issues, which are impeding the implementation of their brand growth strategies My name is Maria Gonzalez.. These problems might be related to recent software updates You can reach me at sophia.rossi@service.it.. The affected applications have been restarted, and system compatibility has been checked.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        212
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        291,
+        314
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Digital Tools\n\nThe digital tools used by the marketing agency are experiencing issues, which are impeding the implementation of their brand growth strategies My name is [full_name].. These problems might be related to recent software updates You can reach me at [email].. The affected applications have been restarted, and system compatibility has been checked.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancements for Safeguarding Medical Data\n\nCustomer Support, please address the implementation of security enhancements for protecting medical data across hospital systems and related software products My name is Jane Smith.. Given the importance of safeguarding sensitive medical information, we believe it is essential that appropriate measures are taken to prevent data breaches and unauthorized access. We would like to request information on the current security protocols in place as well as plans for future enhancements. Specifically, we are interested in learning about the encryption methods and access controls being utilized. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        223,
+        233
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        669,
+        686
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancements for Safeguarding Medical Data\n\nCustomer Support, please address the implementation of security enhancements for protecting medical data across hospital systems and related software products My name is [full_name].. Given the importance of safeguarding sensitive medical information, we believe it is essential that appropriate measures are taken to prevent data breaches and unauthorized access. We would like to request information on the current security protocols in place as well as plans for future enhancements. Specifically, we are interested in learning about the encryption methods and access controls being utilized. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

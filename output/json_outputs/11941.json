@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Dashboard Did Not Fully Load Today\n\nTo Whom It May Concern, I am contacting you to report a difficulty with the data analytics dashboard. It has not loaded properly, and I believe it may be because of a software anomaly or server problem. Despite restarting my device and verifying my internet connection, the issue remains unresolved You can reach me at liuwei@business.cn.. If you can investigate this and furnish a solution promptly, it would be greatly appreciated. Please inform me if you require more details from me to address this matter. Your swift assistance is much needed. Thank you for your time and help My name is Jane Smith.. I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        653,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        379,
+        397
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Dashboard Did Not Fully Load Today\n\nTo Whom It May Concern, I am contacting you to report a difficulty with the data analytics dashboard. It has not loaded properly, and I believe it may be because of a software anomaly or server problem. Despite restarting my device and verifying my internet connection, the issue remains unresolved You can reach me at [email].. If you can investigate this and furnish a solution promptly, it would be greatly appreciated. Please inform me if you require more details from me to address this matter. Your swift assistance is much needed. Thank you for your time and help My name is [full_name].. I eagerly await your response.",
+  "category_of_the_email": "Incident"
+}

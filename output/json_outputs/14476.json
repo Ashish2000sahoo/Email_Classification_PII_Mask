@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Billing Statement\n\nI received an unexpected charge on my billing statement. This might have occurred due to misconfiguration of my account. I have tried to reconcile my account and reviewed my payment history, but the issue still persists You can reach me at johndoe@email.com.. Could you please assist me in resolving this matter as soon as possible? My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        385,
+        392
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        281,
+        298
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Billing Statement\n\nI received an unexpected charge on my billing statement. This might have occurred due to misconfiguration of my account. I have tried to reconcile my account and reviewed my payment history, but the issue still persists You can reach me at [email].. Could you please assist me in resolving this matter as soon as possible? My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kunde meldet unerwartete Geb\u00fchr auf Gesch\u00e4ftskreditkonto\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass eine unerwartete Geb\u00fchr auf unserem Gesch\u00e4ftskreditkonto aufgetreten ist. Es k\u00f6nnte sich dabei um einen Fehler im Rechnungssystem handeln My name is David Kim.. Ich habe bereits Kontakt zu Kundenservice aufgenommen und unsere Zahlungsgeschichte \u00fcberpr\u00fcft, jedoch konnte der Hintergrund des Problems bisher nicht identifiziert werden. Ich sch\u00e4tze es, wenn Sie sich um diesen Fall k\u00fcmmern und eine L\u00f6sung vorschlagen k\u00f6nnen. Bitte teilen Sie mich mit, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um den Fall zu bearbeiten You can reach me at maria.gonzalez@shop.es.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Hilfe und Geduld.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        277,
+        286
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        673,
+        695
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Kunde meldet unerwartete Geb\u00fchr auf Gesch\u00e4ftskreditkonto\n\nSehr geehrte Kundenservice, ich m\u00f6chte Ihnen mitteilen, dass eine unerwartete Geb\u00fchr auf unserem Gesch\u00e4ftskreditkonto aufgetreten ist. Es k\u00f6nnte sich dabei um einen Fehler im Rechnungssystem handeln My name is [full_name].. Ich habe bereits Kontakt zu Kundenservice aufgenommen und unsere Zahlungsgeschichte \u00fcberpr\u00fcft, jedoch konnte der Hintergrund des Problems bisher nicht identifiziert werden. Ich sch\u00e4tze es, wenn Sie sich um diesen Fall k\u00fcmmern und eine L\u00f6sung vorschlagen k\u00f6nnen. Bitte teilen Sie mich mit, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um den Fall zu bearbeiten You can reach me at [email].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Hilfe und Geduld.",
+  "category_of_the_email": "Incident"
+}

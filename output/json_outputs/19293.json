@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Response to Data Breach Concern\n\nRespected <name>, we have received your communication about a suspected data breach possibly resulting from outdated Cisco IOS. We are fully aware of the gravity of the situation and the concern it entails, particularly regarding the confidentiality of your patient records You can reach me at fatima.farsi@help.com.. Our aim is to address this issue swiftly. For a more comprehensive assistance, could you please share the error messages you encountered during the update and the current version of Cisco IOS you are using? Also, to proceed, could you confirm your account number <acc_num>? A follow-up discussion might be necessary, and I can arrange a call at a time convenient for you. Please contact me via the provided telephone number <tel_num>. We will work diligently to offer a suitable solution and prevent further breaches. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        889,
+        896
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        336,
+        357
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Response to Data Breach Concern\n\nRespected <name>, we have received your communication about a suspected data breach possibly resulting from outdated Cisco IOS. We are fully aware of the gravity of the situation and the concern it entails, particularly regarding the confidentiality of your patient records You can reach me at [email].. Our aim is to address this issue swiftly. For a more comprehensive assistance, could you please share the error messages you encountered during the update and the current version of Cisco IOS you are using? Also, to proceed, could you confirm your account number <acc_num>? A follow-up discussion might be necessary, and I can arrange a call at a time convenient for you. Please contact me via the provided telephone number <tel_num>. We will work diligently to offer a suitable solution and prevent further breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

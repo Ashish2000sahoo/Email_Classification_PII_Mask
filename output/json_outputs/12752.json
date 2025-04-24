@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Fehler im Investment-Optimierungsinstrument gemeldet\n\nDas Investment-Optimierungsinstrument zeigt ungenaue Analyseergebnisse aufgrund von Datenintegrit\u00e4tsproblemen an. Bitte Datenquellen revaldizieren und Diskrepanzen beheben k\u00f6nnen.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        280
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Fehler im Investment-Optimierungsinstrument gemeldet\n\nDas Investment-Optimierungsinstrument zeigt ungenaue Analyseergebnisse aufgrund von Datenintegrit\u00e4tsproblemen an. Bitte Datenquellen revaldizieren und Diskrepanzen beheben k\u00f6nnen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

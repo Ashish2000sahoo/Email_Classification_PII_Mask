@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Evernote Integration for Investment Tools\n\nHello customer support, I would like to know about the data analytics tools that can be integrated with Evernote for enhancing my investment strategies My name is Fatima Al-Farsi.. Could you supply me with a list of these compatible tools along with their features? Your assistance in providing relevant information will be highly appreciated as it aids in making well-informed investment choices. Thank you for your support. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        514,
+        537
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Evernote Integration for Investment Tools\n\nHello customer support, I would like to know about the data analytics tools that can be integrated with Evernote for enhancing my investment strategies My name is [full_name]-Farsi.. Could you supply me with a list of these compatible tools along with their features? Your assistance in providing relevant information will be highly appreciated as it aids in making well-informed investment choices. Thank you for your support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

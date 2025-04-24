@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei Investitionsprognosen\n\nSehr geehrte Support-Team, die Erstellung der Investitionsprognosen hat aufgrund von Datenverarbeitungsfehlern gescheitert You can reach me at david.kim@corp.kr.. Dies k\u00f6nnte sich auf unkompatiblen TensorFlow- und MATLAB-Versionen beziehen My name is Carlos Mendoza.. Ich habe den WLAN-Router herunter- und wieder hochgestartet, aktualisiert die Cassandra-Version auf 4.0 und durchgesehen, ob es im Drupal-Log irgendeine Hinweise gibt, aber das Problem ist weiterhin bestehen. Bitte helfen Sie mir bei der L\u00f6sung dieses Problems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        188,
+        205
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei Investitionsprognosen\n\nSehr geehrte Support-Team, die Erstellung der Investitionsprognosen hat aufgrund von Datenverarbeitungsfehlern gescheitert You can reach me at [email].. Dies k\u00f6nnte sich auf unkompatiblen TensorFlow- und MATLAB-Versionen beziehen My name is [full_name].. Ich habe den WLAN-Router herunter- und wieder hochgestartet, aktualisiert die Cassandra-Version auf 4.0 und durchgesehen, ob es im Drupal-Log irgendeine Hinweise gibt, aber das Problem ist weiterhin bestehen. Bitte helfen Sie mir bei der L\u00f6sung dieses Problems.",
+  "category_of_the_email": "Incident"
+}

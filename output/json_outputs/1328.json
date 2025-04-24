@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI am seeking information about the customization options available for the project management SaaS platform My name is John Doe.. Could you provide details on the types of customizations that are offered? Additionally, I would appreciate it if you could include the process for requesting customizations and the associated costs. This will help me better understand how the platform can be tailored to meet my specific needs. Thank you for your assistance. I look forward to hearing back from you soon. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        537,
+        554
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am seeking information about the customization options available for the project management SaaS platform My name is [full_name].. Could you provide details on the types of customizations that are offered? Additionally, I would appreciate it if you could include the process for requesting customizations and the associated costs. This will help me better understand how the platform can be tailored to meet my specific needs. Thank you for your assistance. I look forward to hearing back from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Investment Analytics Tool\n\nYou have encountered inaccurate predictions from the investment analytics tool, which may be due to outdated algorithms and data integration issues. You have attempted to recalibrate and update the data sources, but the problem persists.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        323
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support for Investment Analytics Tool\n\nYou have encountered inaccurate predictions from the investment analytics tool, which may be due to outdated algorithms and data integration issues. You have attempted to recalibrate and update the data sources, but the problem persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

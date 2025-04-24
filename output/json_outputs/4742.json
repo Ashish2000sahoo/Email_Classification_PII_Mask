@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Pl\u00f6tzlich stoppt die Verschl\u00fcsselung medizinischer Daten\n\nDie Verschl\u00fcsselung der medizinischen Daten hat sich pl\u00f6tzlich stoppen lassen My name is Jane Smith.. M\u00f6glicherweise sind es Softwarefehler oder Konfigurationen. Die Server wurden neugestartet und die Firewall-Einstellungen \u00fcberpr\u00fcft. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        166
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        323,
+        344
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Pl\u00f6tzlich stoppt die Verschl\u00fcsselung medizinischer Daten\n\nDie Verschl\u00fcsselung der medizinischen Daten hat sich pl\u00f6tzlich stoppen lassen My name is [full_name].. M\u00f6glicherweise sind es Softwarefehler oder Konfigurationen. Die Server wurden neugestartet und die Firewall-Einstellungen \u00fcberpr\u00fcft. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

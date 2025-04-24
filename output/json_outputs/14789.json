@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Exploring Analytics Solutions for QuickBooks Online\n\nI am contacting you to inquire about data analytics tools that can be integrated with QuickBooks Online to optimize my investments My name is Jane Smith.. I would appreciate it if you could share some options and explain how they can assist me in making well-informed decisions You can reach me at carlosm@gmail.com.. Could you also direct me to some resources or recommendations? I am particularly interested in tools that can help me monitor and analyze my financial data, as well as offer insights and forecasts for future growth.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        214
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        361,
+        378
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Exploring Analytics Solutions for QuickBooks Online\n\nI am contacting you to inquire about data analytics tools that can be integrated with QuickBooks Online to optimize my investments My name is [full_name].. I would appreciate it if you could share some options and explain how they can assist me in making well-informed decisions You can reach me at [email].. Could you also direct me to some resources or recommendations? I am particularly interested in tools that can help me monitor and analyze my financial data, as well as offer insights and forecasts for future growth.",
+  "category_of_the_email": "Request"
+}

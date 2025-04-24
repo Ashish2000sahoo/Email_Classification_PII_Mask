@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry Regarding Maus Billing Options and Data Analytics Tools\n\nI am contacting you to learn more about the billing options and data analytics tools offered by Maus. Could you please give me information on the different plans and pricing models? Additionally, I would appreciate it if you could inform me about any discounts or promotions that might be available You can reach me at johndoe@email.com.. Also, are there any free trials or demonstrations available to test the tools before making a purchase decision? Thank you for your time and assistance. I look forward to your prompt response. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        617,
+        625
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        393,
+        410
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry Regarding Maus Billing Options and Data Analytics Tools\n\nI am contacting you to learn more about the billing options and data analytics tools offered by Maus. Could you please give me information on the different plans and pricing models? Additionally, I would appreciate it if you could inform me about any discounts or promotions that might be available You can reach me at [email].. Also, are there any free trials or demonstrations available to test the tools before making a purchase decision? Thank you for your time and assistance. I look forward to your prompt response. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

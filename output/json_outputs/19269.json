@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Werbekampagne\n\nDie Werbekampagne zeigte keinen erwarteten Erfolg. Es k\u00f6nnte auf Probleme mit der Zielgruppenausrichtung hindeuten My name is Carlos Mendoza.. Derzeit werden die Keywords angepasst, und die Ergebnisse sind noch nicht verf\u00fcgbar. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        181
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        286,
+        303
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Werbekampagne\n\nDie Werbekampagne zeigte keinen erwarteten Erfolg. Es k\u00f6nnte auf Probleme mit der Zielgruppenausrichtung hindeuten My name is [full_name].. Derzeit werden die Keywords angepasst, und die Ergebnisse sind noch nicht verf\u00fcgbar. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Slow Charging Issue with MacBook Air M1\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am reaching out to bring to your attention an issue I have been experiencing recently with my MacBook Air M1. Despite using the official charger provided by your company, I am noticing that the battery charging process is slower than expected, especially during use My name is David Kim.. \n\nThis laptop, identified by serial number <serial_num>, and purchase through your store, has otherwise been functioning well until this particular issue arose. As a regular user, I depend heavily on the laptop for daily productivity and extended periods on a single full charge.\n\nI would appreciate your guidance on troubleshooting this issue You can reach me at carlosm@gmail.com.. Could there be specific settings I need to check, or should I consider the charger or the battery as potentially faulty? Any steps on identifying or rectifying this would be incredibly useful.\n\nIf further information or assistance is needed, please feel free to contact me anytime at <tel_num> or via email. Thank you for your attention to this matter, and I look forward to your prompt response.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        394,
+        403
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        772,
+        789
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Slow Charging Issue with MacBook Air M1\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am reaching out to bring to your attention an issue I have been experiencing recently with my MacBook Air M1. Despite using the official charger provided by your company, I am noticing that the battery charging process is slower than expected, especially during use My name is [full_name].. \n\nThis laptop, identified by serial number <serial_num>, and purchase through your store, has otherwise been functioning well until this particular issue arose. As a regular user, I depend heavily on the laptop for daily productivity and extended periods on a single full charge.\n\nI would appreciate your guidance on troubleshooting this issue You can reach me at [email].. Could there be specific settings I need to check, or should I consider the charger or the battery as potentially faulty? Any steps on identifying or rectifying this would be incredibly useful.\n\nIf further information or assistance is needed, please feel free to contact me anytime at <tel_num> or via email. Thank you for your attention to this matter, and I look forward to your prompt response.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

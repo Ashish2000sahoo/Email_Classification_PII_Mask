@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Portfolio\n\nI hope this message finds you well My name is David Kim.. I am interested in learning more about analytics tools that can be used to optimize my investment portfolio for the highest possible returns. Could you please share some information on this matter? It would be greatly appreciated if you could offer any recommendations or advice. Thank you for your time and support. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        77,
+        86
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        428,
+        446
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Investment Portfolio\n\nI hope this message finds you well My name is [full_name].. I am interested in learning more about analytics tools that can be used to optimize my investment portfolio for the highest possible returns. Could you please share some information on this matter? It would be greatly appreciated if you could offer any recommendations or advice. Thank you for your time and support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

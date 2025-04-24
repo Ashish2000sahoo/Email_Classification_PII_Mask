@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Browserleistungsproblem\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese E-Mail erreicht Sie wohl You can reach me at omar.hassan@secure.net.. Ich schreibe, um meine Bedenken bez\u00fcglich eines Problems mit Google Chrome Version 102.0 auszudr\u00fccken My name is Sophia Rossi.. Es scheint, dass der Browser jedes Mal unerwartet abst\u00fcrzt, wenn ich versuche, mehrere Tabs gleichzeitig zu \u00f6ffnen. Dieses Problem hat erhebliche Auswirkungen auf meinen Arbeitsablauf und, soweit ich geh\u00f6rt habe, haben viele andere Nutzer \u00e4hnliche Schwierigkeiten. Ich w\u00e4re Ihnen sehr dankbar f\u00fcr jegliche Unterst\u00fctzung oder L\u00f6sungen, die Sie anbieten k\u00f6nnen, um dieses Problem so effizient wie m\u00f6glich zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit f\u00fcr dieses dringende Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        276
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        126,
+        148
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        219,
+        222
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Browserleistungsproblem\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese E-Mail erreicht Sie wohl You can reach me at [email].. Ich schreibe, um meine Bedenken bez\u00fcglich eines Problems mit Google Chrome Version [cvv_no].0 auszudr\u00fccken My name is [full_name].. Es scheint, dass der Browser jedes Mal unerwartet abst\u00fcrzt, wenn ich versuche, mehrere Tabs gleichzeitig zu \u00f6ffnen. Dieses Problem hat erhebliche Auswirkungen auf meinen Arbeitsablauf und, soweit ich geh\u00f6rt habe, haben viele andere Nutzer \u00e4hnliche Schwierigkeiten. Ich w\u00e4re Ihnen sehr dankbar f\u00fcr jegliche Unterst\u00fctzung oder L\u00f6sungen, die Sie anbieten k\u00f6nnen, um dieses Problem so effizient wie m\u00f6glich zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit f\u00fcr dieses dringende Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

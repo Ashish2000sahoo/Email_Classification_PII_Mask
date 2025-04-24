@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance Required for Data Breach\n\nMedical records of patients have been compromised. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        133
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Data Breach\n\nMedical records of patients have been compromised. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit der Softwarekompatibilit\u00e4t\n\nDigitale Strategien der Markenagentur werden durch Software-Hardwarekompatibilit\u00e4tsprobleme behindert. Hochpriorit\u00e4re Werkzeuge funktionieren korrekt seit den letzten Updates.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        263
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Softwarekompatibilit\u00e4t\n\nDigitale Strategien der Markenagentur werden durch Software-Hardwarekompatibilit\u00e4tsprobleme behindert. Hochpriorit\u00e4re Werkzeuge funktionieren korrekt seit den letzten Updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Unplanned Service Interruption Today\n\nHello Customer Support,\\n\\nI am contacting you to report an unexpected service outage that has severely impacted our operations. The cause of the outage is currently under investigation, as we suspect it may have been due to an overload or a technical malfunction.\\n\\nSteps taken so far include restarting the service, reviewing logs for errors, and monitoring system performance. Despite these efforts, the issue persists and we require additional support to address it.\\n\\nPlease find below a summary of the situation:\\n\\n**Incident Summary:** The system failed unexpectedly, leading to a decline in productivity and operational efficiency.\\n\\n**Possible Cause:** Our team suspects an overload or a technical glitch could be to blame, but definitive proof is still needed.\\n\\n**Actions Taken:** Our team has attempted to restart the service, reviewed logs for any errors, and monitored performance to identify any potential problems. However, the issue remains unresolved.\\n\\nI would greatly appreciate a prompt resolution to this issue My name is Sophia Rossi.. Could you schedule a call at your earliest convenience to discuss this further? Additionally, could you kindly confirm my account number [acc_num] and the precise time the outage occurred? This information would be invaluable in diagnosing the problem and resolving it swiftly.\\n\\nThank you for your immediate attention to this matter.\\n\\nBest regards,\\n[Your Name] You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1106,
+        1118
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1506,
+        1528
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Reported Unplanned Service Interruption Today\n\nHello Customer Support,\\n\\nI am contacting you to report an unexpected service outage that has severely impacted our operations. The cause of the outage is currently under investigation, as we suspect it may have been due to an overload or a technical malfunction.\\n\\nSteps taken so far include restarting the service, reviewing logs for errors, and monitoring system performance. Despite these efforts, the issue persists and we require additional support to address it.\\n\\nPlease find below a summary of the situation:\\n\\n**Incident Summary:** The system failed unexpectedly, leading to a decline in productivity and operational efficiency.\\n\\n**Possible Cause:** Our team suspects an overload or a technical glitch could be to blame, but definitive proof is still needed.\\n\\n**Actions Taken:** Our team has attempted to restart the service, reviewed logs for any errors, and monitored performance to identify any potential problems. However, the issue remains unresolved.\\n\\nI would greatly appreciate a prompt resolution to this issue My name is [full_name].. Could you schedule a call at your earliest convenience to discuss this further? Additionally, could you kindly confirm my account number [acc_num] and the precise time the outage occurred? This information would be invaluable in diagnosing the problem and resolving it swiftly.\\n\\nThank you for your immediate attention to this matter.\\n\\nBest regards,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

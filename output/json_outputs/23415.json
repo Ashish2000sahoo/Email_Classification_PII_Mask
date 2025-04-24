@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problema de Erro de Servidor\n\nCaro Suporte ao Cliente,\n\nNosso Servi\u00e7o de Consultoria de TI est\u00e1 enfrentando um erro de servidor ao tentar extrair documentos de arquivos de usu\u00e1rios enquanto utiliza o Slack. Os produtos afetados incluem Videoconfer\u00eancia, Webinars, Compartilhamento de Tela e Chat.\n\nPor favor, nos ajude prontamente.\n\nObrigado,\n<name>. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        381,
+        398
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problema de Erro de Servidor\n\nCaro Suporte ao Cliente,\n\nNosso Servi\u00e7o de Consultoria de TI est\u00e1 enfrentando um erro de servidor ao tentar extrair documentos de arquivos de usu\u00e1rios enquanto utiliza o Slack. Os produtos afetados incluem Videoconfer\u00eancia, Webinars, Compartilhamento de Tela e Chat.\n\nPor favor, nos ajude prontamente.\n\nObrigado,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

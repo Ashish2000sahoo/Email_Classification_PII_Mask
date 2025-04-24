@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Netzwerkunterst\u00fctzung\n\nSehr geehrte Kundenservice, ich melde Ihnen einen pl\u00f6tzlichen Netzwerkausfall, den ich festgestellt habe You can reach me at david.kim@corp.kr.. M\u00f6gliche Ursachen k\u00f6nnten ein defekter Router oder ein Softwarefehler sein. Ich habe bereits die Server neugestartet, die Verbindungen \u00fcberpr\u00fcft und einen IT-Support angerufen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um das Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Der Ausfall hat eine signifikante St\u00f6rung unserer Betriebsaktivit\u00e4ten verursacht, und wir sind erpicht darauf, wieder online zu sein. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen My name is Jane Smith.. Ich stehe Ihnen zur Verf\u00fcgung, um alle erforderlichen Details oder Hilfe bereitzustellen. Ich danke Ihnen f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit und freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        767,
+        777
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        169,
+        186
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Netzwerkunterst\u00fctzung\n\nSehr geehrte Kundenservice, ich melde Ihnen einen pl\u00f6tzlichen Netzwerkausfall, den ich festgestellt habe You can reach me at [email].. M\u00f6gliche Ursachen k\u00f6nnten ein defekter Router oder ein Softwarefehler sein. Ich habe bereits die Server neugestartet, die Verbindungen \u00fcberpr\u00fcft und einen IT-Support angerufen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um das Problem k\u00fcmmern und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Der Ausfall hat eine signifikante St\u00f6rung unserer Betriebsaktivit\u00e4ten verursacht, und wir sind erpicht darauf, wieder online zu sein. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen My name is [full_name].. Ich stehe Ihnen zur Verf\u00fcgung, um alle erforderlichen Details oder Hilfe bereitzustellen. Ich danke Ihnen f\u00fcr Ihre schnelle Beachtung dieser Angelegenheit und freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

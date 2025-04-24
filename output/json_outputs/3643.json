@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Integration und Datenverlust\n\nSehr geehrte Kundensupport, ich mache Ihnen auf die Schwierigkeiten bei der Integration unseres Softwarepaketes aufmerksam, welche zu einem Datenverlust gef\u00fchrt hat. Die Integration hat versagt, und ich vermute, dass dies auf inkompatible Softwareaktualisierungen zur\u00fcckzuf\u00fchren sein k\u00f6nnte My name is Carlos Mendoza.. Ich habe den Hub bereits neu gestartet und die API-Schl\u00fcssel \u00fcberpr\u00fcft, aber der Fehler beharrt. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich dieser Angelegenheit annehmen und so schnell wie m\u00f6glich eine L\u00f6sung bieten k\u00f6nnten. Bitte melden Sie sich bei mir, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        358,
+        372
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        733,
+        750
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Integration und Datenverlust\n\nSehr geehrte Kundensupport, ich mache Ihnen auf die Schwierigkeiten bei der Integration unseres Softwarepaketes aufmerksam, welche zu einem Datenverlust gef\u00fchrt hat. Die Integration hat versagt, und ich vermute, dass dies auf inkompatible Softwareaktualisierungen zur\u00fcckzuf\u00fchren sein k\u00f6nnte My name is [full_name].. Ich habe den Hub bereits neu gestartet und die API-Schl\u00fcssel \u00fcberpr\u00fcft, aber der Fehler beharrt. Ich w\u00fcrde es sehr gesch\u00e4tzt haben, wenn Sie sich dieser Angelegenheit annehmen und so schnell wie m\u00f6glich eine L\u00f6sung bieten k\u00f6nnten. Bitte melden Sie sich bei mir, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

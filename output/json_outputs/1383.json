@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: dringendes Problem: H\u00e4ufige Verbindungsst\u00f6rungen bei Ger\u00e4ten und Anwendungen j\u00fcngst aufgetreten\n\nein dringendes Ereignis trat ein, bei dem die Verbindungen zu Ger\u00e4ten und Anwendungen verloren gingen You can reach me at elena.ivanova@support.org.. Dies k\u00f6nnte auf Software-Updates oder Hardware-Probleme zur\u00fcckzuf\u00fchren sein. Durch Neustart und Neuinstallation sollte das Problem gel\u00f6st werden. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        413,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        228,
+        253
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: dringendes Problem: H\u00e4ufige Verbindungsst\u00f6rungen bei Ger\u00e4ten und Anwendungen j\u00fcngst aufgetreten\n\nein dringendes Ereignis trat ein, bei dem die Verbindungen zu Ger\u00e4ten und Anwendungen verloren gingen You can reach me at [email].. Dies k\u00f6nnte auf Software-Updates oder Hardware-Probleme zur\u00fcckzuf\u00fchren sein. Durch Neustart und Neuinstallation sollte das Problem gel\u00f6st werden. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

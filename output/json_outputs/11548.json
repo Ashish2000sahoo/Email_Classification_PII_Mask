@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Glitches Resulting from System Overload\n\nWe have witnessed multiple instances of software crashes happening concurrently. It seems that the system resources might be too strained. Efforts to rectify the situation, including system restarts and software updates, have been made but the problem remains unresolved My name is Elena Ivanova.. I require your support to address this concern. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        342,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        424,
+        449
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Technical Glitches Resulting from System Overload\n\nWe have witnessed multiple instances of software crashes happening concurrently. It seems that the system resources might be too strained. Efforts to rectify the situation, including system restarts and software updates, have been made but the problem remains unresolved My name is [full_name].. I require your support to address this concern. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

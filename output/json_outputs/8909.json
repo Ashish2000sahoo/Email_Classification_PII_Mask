@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report of Overcharge Due to Duplicate Subscriptions\n\nDear Customer Support, I am writing to report an issue with my account where I have been overcharged for services. It seems that duplicate subscriptions were created, likely due to an error in the automated system My name is Omar Hassan.. I have already contacted support and reviewed my invoices, but the issue still exists. I would appreciate your help in resolving this overcharge You can reach me at elena.ivanova@support.org.. Please inform me of the steps I need to take or the additional information you require. I look forward to your response. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        287,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        466,
+        491
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Report of Overcharge Due to Duplicate Subscriptions\n\nDear Customer Support, I am writing to report an issue with my account where I have been overcharged for services. It seems that duplicate subscriptions were created, likely due to an error in the automated system My name is [full_name].. I have already contacted support and reviewed my invoices, but the issue still exists. I would appreciate your help in resolving this overcharge You can reach me at [email].. Please inform me of the steps I need to take or the additional information you require. I look forward to your response. Thank you for your time and assistance.",
+  "category_of_the_email": "Problem"
+}

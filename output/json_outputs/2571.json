@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Advice for Enhancements\n\nDear Customer Service, I am writing to inquire about setting up, optimizing, and performing investment analysis using Scikit-learn on macOS. I am a financial institution and have encountered performance issues with Scikit-learn during data analysis and machine learning tasks My name is Sophia Rossi.. Could you provide some advice on how to optimize workflows and improve performance? I would appreciate recommendations on best practices for using Scikit-learn on macOS You can reach me at sophia.rossi@service.it.. Additionally, I would like to know if there are specific configurations or settings that can be adjusted to enhance performance. Thank you in advance for your support, and I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        333
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        524,
+        547
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Advice for Enhancements\n\nDear Customer Service, I am writing to inquire about setting up, optimizing, and performing investment analysis using Scikit-learn on macOS. I am a financial institution and have encountered performance issues with Scikit-learn during data analysis and machine learning tasks My name is [full_name].. Could you provide some advice on how to optimize workflows and improve performance? I would appreciate recommendations on best practices for using Scikit-learn on macOS You can reach me at [email].. Additionally, I would like to know if there are specific configurations or settings that can be adjusted to enhance performance. Thank you in advance for your support, and I look forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Investment Strategy with Machine Learning\n\nHello customer support team, I am reaching out to explore the use of machine learning algorithms in enhancing our investment portfolios by leveraging real-time market data and advanced analytics tools You can reach me at carlosm@gmail.com.. Could you provide more details on this approach and its potential benefits for investment decision-making? I am keen to understand how machine learning can be applied to optimize our investments and assist us in making more informed choices My name is Elena Ivanova.. Thank you for your assistance and look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        553,
+        566
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        281,
+        298
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Enhance Investment Strategy with Machine Learning\n\nHello customer support team, I am reaching out to explore the use of machine learning algorithms in enhancing our investment portfolios by leveraging real-time market data and advanced analytics tools You can reach me at [email].. Could you provide more details on this approach and its potential benefits for investment decision-making? I am keen to understand how machine learning can be applied to optimize our investments and assist us in making more informed choices My name is [full_name].. Thank you for your assistance and look forward to your response.",
+  "category_of_the_email": "Request"
+}

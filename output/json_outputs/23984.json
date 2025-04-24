@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for AWS Optimization\n\nHello Customer Support Team,\n\nMy name is <name>. I am writing to request urgent support with optimizing costs and improving our deployment processes within our AWS cloud infrastructure, using your AWS Management Service. We are facing significant challenges with keeping the expenses in check and streamlining our deployment cycles.\n\nGiven the critical nature of these issues, we are looking for expert guidance to address our concerns promptly. Could you please connect us with a specialist who can provide insights and solutions in these areas?\n\nWe are hopeful of receiving your assistance to help enhance our cloud strategy You can reach me at sophia.rossi@service.it.. Should you require any further details, feel free to contact me directly.\n\nThank you for your attention.\n\nBest regards,\n<name>\n<tel_num> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        879,
+        893
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        705,
+        728
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for AWS Optimization\n\nHello Customer Support Team,\n\nMy name is <name>. I am writing to request urgent support with optimizing costs and improving our deployment processes within our AWS cloud infrastructure, using your AWS Management Service. We are facing significant challenges with keeping the expenses in check and streamlining our deployment cycles.\n\nGiven the critical nature of these issues, we are looking for expert guidance to address our concerns promptly. Could you please connect us with a specialist who can provide insights and solutions in these areas?\n\nWe are hopeful of receiving your assistance to help enhance our cloud strategy You can reach me at [email].. Should you require any further details, feel free to contact me directly.\n\nThank you for your attention.\n\nBest regards,\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

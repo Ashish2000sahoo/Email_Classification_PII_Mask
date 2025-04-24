@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Brauche Hilfe beim Bereitstellen eines neuen Mikrodienstes\n\nSehr geehrtes IT-Services-Support-Team,\n\nich ben\u00f6tige Unterst\u00fctzung bei der Bereitstellung eines neuen Mikrodienstes auf der AWS-Cloud-Infrastruktur mithilfe der vollst\u00e4ndigen AWS-Umgebung You can reach me at omar.hassan@secure.net.. Das betroffene Produkt ist der AWS Management Service. Bitte beraten Sie mich zu den besten Praktiken und stellen Sie einen gef\u00fchrten Prozess f\u00fcr eine reibungslose Bereitstellung zur Verf\u00fcgung. Ich danke Ihnen f\u00fcr Ihre schnelle Unterst\u00fctzung in dieser Angelegenheit.\n\nVielen Dank,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        602,
+        616
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        278,
+        300
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Brauche Hilfe beim Bereitstellen eines neuen Mikrodienstes\n\nSehr geehrtes IT-Services-Support-Team,\n\nich ben\u00f6tige Unterst\u00fctzung bei der Bereitstellung eines neuen Mikrodienstes auf der AWS-Cloud-Infrastruktur mithilfe der vollst\u00e4ndigen AWS-Umgebung You can reach me at [email].. Das betroffene Produkt ist der AWS Management Service. Bitte beraten Sie mich zu den besten Praktiken und stellen Sie einen gef\u00fchrten Prozess f\u00fcr eine reibungslose Bereitstellung zur Verf\u00fcgung. Ich danke Ihnen f\u00fcr Ihre schnelle Unterst\u00fctzung in dieser Angelegenheit.\n\nVielen Dank,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

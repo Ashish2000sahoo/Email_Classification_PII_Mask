@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Integration Issues\n\nWe are encountering integration problems with ActiveCampaign, Discord, and project management SaaS. This may be related to recent API updates. We have already verified API keys and adjusted settings, but the issue persists My name is Elena Ivanova.. We need assistance to resolve this problem. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        288
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        353,
+        374
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Integration Issues\n\nWe are encountering integration problems with ActiveCampaign, Discord, and project management SaaS. This may be related to recent API updates. We have already verified API keys and adjusted settings, but the issue persists My name is [full_name].. We need assistance to resolve this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

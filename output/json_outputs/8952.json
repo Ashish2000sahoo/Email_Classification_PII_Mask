@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Service Outage Issue\n\nA financial firm encountered a major service outage that impacted critical analytics tools and communication devices. The disruption might be due to server overload or scheduled maintenance You can reach me at sophia.rossi@service.it.. Troubleshooting efforts included restarting affected devices and checking network connectivity, but the issue continues and requires immediate assistance to resolve and prevent further disruptions to operations. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        499,
+        511
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        250,
+        273
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Reported Service Outage Issue\n\nA financial firm encountered a major service outage that impacted critical analytics tools and communication devices. The disruption might be due to server overload or scheduled maintenance You can reach me at [email].. Troubleshooting efforts included restarting affected devices and checking network connectivity, but the issue continues and requires immediate assistance to resolve and prevent further disruptions to operations. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Concurrent Integration Failures\n\nFollowing a recent update to Node.js, multiple integrations have failed at the same time. There is a suspicion of compatibility issues You can reach me at sophia.rossi@service.it.. We have already restarted the services, reviewed the logs, and confirmed the configurations, but the problem remains unresolved and needs further support. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        400,
+        414
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        208,
+        231
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Concurrent Integration Failures\n\nFollowing a recent update to Node.js, multiple integrations have failed at the same time. There is a suspicion of compatibility issues You can reach me at [email].. We have already restarted the services, reviewed the logs, and confirmed the configurations, but the problem remains unresolved and needs further support. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

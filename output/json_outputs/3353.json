@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datensicherheitsdienstleistungen\n\nSehr geehrte Kundenservice, ich w\u00fcrde gerne mehr \u00fcber die Dienstleistungen zur Sicherung medizinischer Daten in Krankenhaus-IT-Systemen erfahren. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Sicherheitsma\u00dfnahmen geben, einschlie\u00dflich Verschl\u00fcsselung, Firewalls und Zugriffskontrolle? Bitte stellen Sie auch relevante Zertifizierungen und die Einhaltung der Branche-Standard bereit You can reach me at sophia.rossi@service.it.. Zudem w\u00e4re ich dankbar f\u00fcr Beispiele erfolgreicher Umsetzungen und Fallstudien. Ich suche einen zuverl\u00e4ssigen und vertrauensw\u00fcrdigen Partner, der die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen gew\u00e4hrleistet My name is David Kim.. Danke.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        751,
+        760
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        466,
+        489
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datensicherheitsdienstleistungen\n\nSehr geehrte Kundenservice, ich w\u00fcrde gerne mehr \u00fcber die Dienstleistungen zur Sicherung medizinischer Daten in Krankenhaus-IT-Systemen erfahren. K\u00f6nnten Sie bitte detaillierte Informationen \u00fcber die Sicherheitsma\u00dfnahmen geben, einschlie\u00dflich Verschl\u00fcsselung, Firewalls und Zugriffskontrolle? Bitte stellen Sie auch relevante Zertifizierungen und die Einhaltung der Branche-Standard bereit You can reach me at [email].. Zudem w\u00e4re ich dankbar f\u00fcr Beispiele erfolgreicher Umsetzungen und Fallstudien. Ich suche einen zuverl\u00e4ssigen und vertrauensw\u00fcrdigen Partner, der die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit sensibler medizinischer Informationen gew\u00e4hrleistet My name is [full_name].. Danke.",
+  "category_of_the_email": "Request"
+}

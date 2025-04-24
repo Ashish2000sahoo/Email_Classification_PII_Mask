@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bekanntmachung zur Unterst\u00fctzung bei Datenverlust\n\nEs gibt einen Datenverlust, vermutlich aufgrund eines veralteten SQL-Servers You can reach me at david.kim@corp.kr.. Obwohl mehrere Neustarts und Passwortneuerstellungen durchgef\u00fchrt wurden, besteht der Fehler weiterhin. Ich ben\u00f6tige dringend Unterst\u00fctzung, um das Problem zu beheben und weitere Datenverluste zu verhindern. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        396,
+        404
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        157,
+        174
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Bekanntmachung zur Unterst\u00fctzung bei Datenverlust\n\nEs gibt einen Datenverlust, vermutlich aufgrund eines veralteten SQL-Servers You can reach me at [email].. Obwohl mehrere Neustarts und Passwortneuerstellungen durchgef\u00fchrt wurden, besteht der Fehler weiterhin. Ich ben\u00f6tige dringend Unterst\u00fctzung, um das Problem zu beheben und weitere Datenverluste zu verhindern. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

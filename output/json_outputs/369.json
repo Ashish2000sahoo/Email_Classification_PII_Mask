@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Required for System Outages\n\nWe are facing system outages across multiple integrations on our SaaS project management platform following recent updates that have caused compatibility issues.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        245
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Required for System Outages\n\nWe are facing system outages across multiple integrations on our SaaS project management platform following recent updates that have caused compatibility issues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Project Management Tool Crashes\n\nThe tool crashes when multiple integrations are involved.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        122,
+        138
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Project Management Tool Crashes\n\nThe tool crashes when multiple integrations are involved.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

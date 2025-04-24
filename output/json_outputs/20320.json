@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Paper Jam Issue with HP DeskJet 3755\n\nDear Customer Support,\n\nI am writing to report a persistent issue I am experiencing with my HP DeskJet 3755 printer, purchased from Tech Online Store. Every time I try to print more than one page, the printer jams during the second page printing sequence My name is Omar Hassan.. I have already checked for and removed any visible obstructions within the printer and have ensured that I am using the appropriate paper type and size.\n\nDespite these efforts, the issue remains unsolved You can reach me at sophia.rossi@service.it.. Could you please guide me through any further troubleshooting steps or advise if a replacement or repair is required? Thank you for your assistance in resolving this issue.\n\nKind regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        551,
+        574
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        41,
+        45
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        150,
+        154
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Paper Jam Issue with HP DeskJet [phone_number]\n\nDear Customer Support,\n\nI am writing to report a persistent issue I am experiencing with my HP DeskJet [phone_number] printer, purchased from Tech Online Store. Every time I try to print more than one page, the printer jams during the second page printing sequence My name is [full_name].. I have already checked for and removed any visible obstructions within the printer and have ensured that I am using the appropriate paper type and size.\n\nDespite these efforts, the issue remains unsolved You can reach me at [email].. Could you please guide me through any further troubleshooting steps or advise if a replacement or repair is required? Thank you for your assistance in resolving this issue.\n\nKind regards,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unauthorized Access Event Notification\n\nreport of security breach.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        98,
+        114
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unauthorized Access Event Notification\n\nreport of security breach.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

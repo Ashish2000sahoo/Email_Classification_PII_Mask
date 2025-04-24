@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Zoom 5.11.0 Verbindungsprobleme\n\nHallo,\n\nich habe h\u00e4ufige Verbindungsabbr\u00fcche, w\u00e4hrend ich an Videokonferenzen in Zoom 5.11.0 teilnehme. K\u00f6nnten Sie bitte helfen, dieses Problem zu l\u00f6sen? Vielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        280
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Zoom 5.11.0 Verbindungsprobleme\n\nHallo,\n\nich habe h\u00e4ufige Verbindungsabbr\u00fcche, w\u00e4hrend ich an Videokonferenzen in Zoom 5.11.0 teilnehme. K\u00f6nnten Sie bitte helfen, dieses Problem zu l\u00f6sen? Vielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

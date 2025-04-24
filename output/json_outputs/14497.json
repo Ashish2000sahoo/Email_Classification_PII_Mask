@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr HIPAA-Konformit\u00e4t bei der Speicherung medizinischer Daten\n\nIch m\u00f6chte wissen, welche Sicherheitsma\u00dfnahmen Sie einsetzen, um die Compliance mit dem HIPAA hinsichtlich der Speicherung medizinischer Daten zu gew\u00e4hrleisten. Welche Protokolle werden angewendet, um sensible Informationen sicherzustellen?. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        372
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr HIPAA-Konformit\u00e4t bei der Speicherung medizinischer Daten\n\nIch m\u00f6chte wissen, welche Sicherheitsma\u00dfnahmen Sie einsetzen, um die Compliance mit dem HIPAA hinsichtlich der Speicherung medizinischer Daten zu gew\u00e4hrleisten. Welche Protokolle werden angewendet, um sensible Informationen sicherzustellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

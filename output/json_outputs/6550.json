@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mutma\u00dfliche Datenverletzung durch veraltete Sicherheitssoftware\n\nEs wird vermutet, dass die IT-Systeme in Gefahr geraten sind durch eine Datenverletzung. Die Problematik k\u00f6nnte auf veraltete Sicherheitssoftware zur\u00fcckzuf\u00fchren sein. Ich habe versucht, McAfee zu aktualisieren und die Ger\u00e4te zu sichern, aber es gab keinen Erfolg You can reach me at carlosm@gmail.com.. Bitte geben Sie mehr Details und n\u00f6tige Informationen zur Situation My name is Jane Smith.. Wir k\u00f6nnen telefonisch vereinbaren, um rechtliche Angelegenheiten zu besprechen und die Situation zu diskutieren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        456,
+        466
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        357,
+        374
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Mutma\u00dfliche Datenverletzung durch veraltete Sicherheitssoftware\n\nEs wird vermutet, dass die IT-Systeme in Gefahr geraten sind durch eine Datenverletzung. Die Problematik k\u00f6nnte auf veraltete Sicherheitssoftware zur\u00fcckzuf\u00fchren sein. Ich habe versucht, McAfee zu aktualisieren und die Ger\u00e4te zu sichern, aber es gab keinen Erfolg You can reach me at [email].. Bitte geben Sie mehr Details und n\u00f6tige Informationen zur Situation My name is [full_name].. Wir k\u00f6nnen telefonisch vereinbaren, um rechtliche Angelegenheiten zu besprechen und die Situation zu diskutieren.",
+  "category_of_the_email": "Incident"
+}

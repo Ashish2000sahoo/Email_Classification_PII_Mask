@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Protecting Medical Data in Hospitals\n\nSeeking guidance on securing medical data for a hospital using Kaspersky Internet Security 2021. Could you please offer detailed information on how to implement an effective solution?. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        142
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        253,
+        270
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Protecting Medical Data in Hospitals\n\nSeeking guidance on securing medical data for a hospital using Kaspersky Internet Security [phone_number]. Could you please offer detailed information on how to implement an effective solution?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

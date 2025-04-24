@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Detected in Campaign Metrics Tracking\n\nHello Customer Support, I am contacting you to report an issue with the campaign metrics not tracking as expected. This problem began unexpectedly and I believe it could be due to the recent software update. Despite verifying the data sources and restarting the tracking software, the issue remains unresolved. I would be grateful if you could look into this and offer a solution promptly You can reach me at sophia.rossi@service.it.. Please inform me if any further details are required from my side to resolve this issue My name is Liu Wei.. I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        590,
+        597
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        465,
+        488
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem Detected in Campaign Metrics Tracking\n\nHello Customer Support, I am contacting you to report an issue with the campaign metrics not tracking as expected. This problem began unexpectedly and I believe it could be due to the recent software update. Despite verifying the data sources and restarting the tracking software, the issue remains unresolved. I would be grateful if you could look into this and offer a solution promptly You can reach me at [email].. Please inform me if any further details are required from my side to resolve this issue My name is [full_name].. I look forward to your prompt response.",
+  "category_of_the_email": "Incident"
+}

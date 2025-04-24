@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Frequent Paper Jam Issue in Canon Printer\n\nDear Customer Support, I hope this message finds you well. I am writing to report a recurring issue with my Canon PIXMA MG3620 printer, which I purchased from your Tech Online Store. I have been experiencing frequent paper jams during printing sessions My name is Sophia Rossi.. Each time I attempt to print, the paper seems to obstruct the printing path, causing considerable inconvenience and disrupting my daily tasks. I have attempted basic troubleshooting by ensuring the printer is on a flat, stable surface, checking for any obstructions in the paper path, and confirming the use of recommended paper types. However, the issue persists. Could you please advise on what steps I can take to resolve this persistent problem or if it might require professional servicing? Your assistance in addressing this matter promptly would be greatly appreciated. Thank you for your attention and support. I look forward to your swift response. Best regards, <name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        1029,
+        1047
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        174,
+        178
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Frequent Paper Jam Issue in Canon Printer\n\nDear Customer Support, I hope this message finds you well. I am writing to report a recurring issue with my Canon PIXMA MG[phone_number] printer, which I purchased from your Tech Online Store. I have been experiencing frequent paper jams during printing sessions My name is [full_name].. Each time I attempt to print, the paper seems to obstruct the printing path, causing considerable inconvenience and disrupting my daily tasks. I have attempted basic troubleshooting by ensuring the printer is on a flat, stable surface, checking for any obstructions in the paper path, and confirming the use of recommended paper types. However, the issue persists. Could you please advise on what steps I can take to resolve this persistent problem or if it might require professional servicing? Your assistance in addressing this matter promptly would be greatly appreciated. Thank you for your attention and support. I look forward to your swift response. Best regards, <name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

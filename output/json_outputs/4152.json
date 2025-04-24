@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: E-Mail betreffend Problem mit medizinischer Datensichtbarkeit\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um einen Problemfall mit der Zug\u00e4nglichkeit medizinischer Daten zu melden My name is Carlos Mendoza.. Das Problem trat pl\u00f6tzlich auf, und ich vermute, dass es mit einer k\u00fcrzlich durchgef\u00fchrten Software-Update in Verbindung steht. Nach dem Neustart der Server und dem \u00dcberpr\u00fcfen der Datenbankverbindungen, h\u00e4lt der Fehler leider an You can reach me at omar.hassan@secure.net.. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem dringend k\u00fcmmern und eine L\u00f6sung so bald wie m\u00f6glich bereitstellen k\u00f6nnten. Geben Sie mir bitte zu, wenn Sie weitere Informationen ben\u00f6tigen, die Ihnen bei der L\u00f6sung dieses Problems helfen. Ich bin bereit, alle erforderlichen Details oder Unterst\u00fctzung zu liefern. Vielen Dank f\u00fcr Ihre Aufmerksamkeit zur Sache und freue mich auf eine schnelle R\u00fcckmeldung von Ihnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        219
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        468,
+        490
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: E-Mail betreffend Problem mit medizinischer Datensichtbarkeit\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um einen Problemfall mit der Zug\u00e4nglichkeit medizinischer Daten zu melden My name is [full_name].. Das Problem trat pl\u00f6tzlich auf, und ich vermute, dass es mit einer k\u00fcrzlich durchgef\u00fchrten Software-Update in Verbindung steht. Nach dem Neustart der Server und dem \u00dcberpr\u00fcfen der Datenbankverbindungen, h\u00e4lt der Fehler leider an You can reach me at [email].. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem dringend k\u00fcmmern und eine L\u00f6sung so bald wie m\u00f6glich bereitstellen k\u00f6nnten. Geben Sie mir bitte zu, wenn Sie weitere Informationen ben\u00f6tigen, die Ihnen bei der L\u00f6sung dieses Problems helfen. Ich bin bereit, alle erforderlichen Details oder Unterst\u00fctzung zu liefern. Vielen Dank f\u00fcr Ihre Aufmerksamkeit zur Sache und freue mich auf eine schnelle R\u00fcckmeldung von Ihnen.",
+  "category_of_the_email": "Incident"
+}

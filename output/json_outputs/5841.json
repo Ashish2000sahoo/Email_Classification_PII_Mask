@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung misslang pl\u00f6tzlich auf Ihrem MacBook Pro\n\nDer Datentransfer wurde unterbrochen. M\u00f6glicherweise sind es Antivirus- oder Software-Probleme.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        200
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung misslang pl\u00f6tzlich auf Ihrem MacBook Pro\n\nDer Datentransfer wurde unterbrochen. M\u00f6glicherweise sind es Antivirus- oder Software-Probleme.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

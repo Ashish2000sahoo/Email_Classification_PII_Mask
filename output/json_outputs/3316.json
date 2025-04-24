@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Die Data Analytics-Plattform brach unvermittelt heute ab\n\nSehr geehrte Kundensupport,<br>Wir melden einen Unfall in unserer Data Analytics-Plattform. Die Plattform brach pl\u00f6tzlich ab, und wir k\u00f6nnen unsere Daten nicht mehr erreichen. Wir haben uns nicht ganz sicher, ob es sich um einen Softwarefehler oder \u00dcberlastung handelt, aber wir vermuten es.<br>Wir haben versucht, das System neu zu starten und die Server zu \u00fcberpr\u00fcfen, aber der Fehler beharrt My name is Sophia Rossi.. Unsere IT-Abteilung untersucht ebenfalls die Ursache.<br>Wir w\u00fcrden uns freuen, wenn Sie uns helfen k\u00f6nnten, um unsere Plattform wieder in Betrieb zu nehmen.<br>Bitte informieren Sie uns, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen.<br>Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung dieser Angelegenheit.<br>Einige [Ihr Name] You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        473,
+        485
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        857,
+        878
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Die Data Analytics-Plattform brach unvermittelt heute ab\n\nSehr geehrte Kundensupport,<br>Wir melden einen Unfall in unserer Data Analytics-Plattform. Die Plattform brach pl\u00f6tzlich ab, und wir k\u00f6nnen unsere Daten nicht mehr erreichen. Wir haben uns nicht ganz sicher, ob es sich um einen Softwarefehler oder \u00dcberlastung handelt, aber wir vermuten es.<br>Wir haben versucht, das System neu zu starten und die Server zu \u00fcberpr\u00fcfen, aber der Fehler beharrt My name is [full_name].. Unsere IT-Abteilung untersucht ebenfalls die Ursache.<br>Wir w\u00fcrden uns freuen, wenn Sie uns helfen k\u00f6nnten, um unsere Plattform wieder in Betrieb zu nehmen.<br>Bitte informieren Sie uns, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen.<br>Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung dieser Angelegenheit.<br>Einige [Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

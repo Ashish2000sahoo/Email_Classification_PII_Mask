@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent: Unexpected shutdown issue with MacBook Air M1\n\nMy MacBook Air M1 is shutting down frequently.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        133,
+        149
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Unexpected shutdown issue with MacBook Air M1\n\nMy MacBook Air M1 is shutting down frequently.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

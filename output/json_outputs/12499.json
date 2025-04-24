@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr medizinische Datenspeichersysteme\n\nIch m\u00f6chte erfahren, welche Sicherheitsprotokolle zur Verf\u00fcgung stehen, um die Speicherung und \u00dcbertragung medizinischer Daten sicher zu stellen. Welche Vorkehrungen treffen Sie ein, um sensible Informationen vor Zutritt dritter zu sch\u00fctzen?. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        333,
+        349
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr medizinische Datenspeichersysteme\n\nIch m\u00f6chte erfahren, welche Sicherheitsprotokolle zur Verf\u00fcgung stehen, um die Speicherung und \u00dcbertragung medizinischer Daten sicher zu stellen. Welche Vorkehrungen treffen Sie ein, um sensible Informationen vor Zutritt dritter zu sch\u00fctzen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Incident Report\n\nAn incident has taken place, which might have endangered patient data because of obsolete security measures.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        184
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support for Incident Report\n\nAn incident has taken place, which might have endangered patient data because of obsolete security measures.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

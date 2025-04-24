@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Inaccurate Predictions in Investment Optimization Tool\n\nThe financial institution's investment optimization tool is producing imprecise predictions. Recalibrating the analysis model and verifying the data storage locations has not resolved the data integrity issues You can reach me at janesmith@company.com.. Estimated solution to the problem. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        376,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        306,
+        327
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Inaccurate Predictions in Investment Optimization Tool\n\nThe financial institution's investment optimization tool is producing imprecise predictions. Recalibrating the analysis model and verifying the data storage locations has not resolved the data integrity issues You can reach me at [email].. Estimated solution to the problem. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Problem"
+}

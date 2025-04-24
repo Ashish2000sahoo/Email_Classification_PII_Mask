@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Mitteilung zu St\u00f6rung bei Hadoop-Fehler\n\nDie Investitionsdaten-Analyse-Dashboards konnten aufgrund einer unkompatiblen Hadoop-Aktualisierung nicht erfolgreich genutzt werden.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung zu St\u00f6rung bei Hadoop-Fehler\n\nDie Investitionsdaten-Analyse-Dashboards konnten aufgrund einer unkompatiblen Hadoop-Aktualisierung nicht erfolgreich genutzt werden.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

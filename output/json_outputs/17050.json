@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Error Encountered During Data Integration\n\nAn unexpected data integration error has arisen while optimizing investments with analytics tools You can reach me at maria.gonzalez@shop.es.. This might be due to compatibility issues with outdated software versions My name is Elena Ivanova.. Attempts to resolve the issue by updating the relevant software and restarting the systems were unsuccessful.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        280,
+        293
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        170,
+        192
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Error Encountered During Data Integration\n\nAn unexpected data integration error has arisen while optimizing investments with analytics tools You can reach me at [email].. This might be due to compatibility issues with outdated software versions My name is [full_name].. Attempts to resolve the issue by updating the relevant software and restarting the systems were unsuccessful.",
+  "category_of_the_email": "Incident"
+}

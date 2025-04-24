@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Datenverlust in medizinischen Akten\n\nWir haben einen Datenverlust in den medizinischen Akten erfahren. M\u00f6gliche Ursachen k\u00f6nnten veraltete Software und Schwachstellen in der Cloud-Infrastruktur sein My name is Carlos Mendoza.. Um die Sicherheit zu verbessern, haben wir unsere Sicherheitsprotokolle aktualisiert und System-Scans durchgef\u00fchrt. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        246
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        382,
+        399
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Datenverlust in medizinischen Akten\n\nWir haben einen Datenverlust in den medizinischen Akten erfahren. M\u00f6gliche Ursachen k\u00f6nnten veraltete Software und Schwachstellen in der Cloud-Infrastruktur sein My name is [full_name].. Um die Sicherheit zu verbessern, haben wir unsere Sicherheitsprotokolle aktualisiert und System-Scans durchgef\u00fchrt. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

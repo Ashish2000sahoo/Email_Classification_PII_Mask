@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Encryption in System\n\nThe medical data encryption experienced an unintended failure during the night My name is Carlos Mendoza.. It is possible that the GitHub dependencies are out of date and conflicting. Although we have restarted the servers and reviewed the firewall logs, the problem continues. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        146
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        337,
+        354
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Encryption in System\n\nThe medical data encryption experienced an unintended failure during the night My name is [full_name].. It is possible that the GitHub dependencies are out of date and conflicting. Although we have restarted the servers and reviewed the firewall logs, the problem continues. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

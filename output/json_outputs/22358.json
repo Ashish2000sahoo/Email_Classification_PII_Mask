@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kritisches Serverausfallproblem\n\nSehr geehrtes Kundenserviceteam,\n\nwir haben mit einem kritischen Serverausfall zu k\u00e4mpfen, der zahlreiche Kunden betrifft, die auf Ihre IT-Beratungsdienste angewiesen sind My name is Maria Gonzalez.. Diese Situation hat zu erheblichen Unterbrechungen gef\u00fchrt, und wir ben\u00f6tigen eine sofortige L\u00f6sung, um die Dienstf\u00e4higkeiten wiederherzustellen. Dar\u00fcber hinaus ist eine gr\u00fcndliche Auswirkungenanalyse erforderlich, um das Ausma\u00df des Problems zu bewerten. Bitte behandeln Sie dies mit h\u00f6chster Priorit\u00e4t, da es die Betriebsabl\u00e4ufe unserer Kunden stark beeintr\u00e4chtigt You can reach me at carlosm@gmail.com.. Wir sch\u00e4tzen Ihr schnelles Handeln in dieser Angelegenheit.\n\nVielen Dank,\n\n<name>\n\n<tel_num>\n\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        625,
+        642
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Kritisches Serverausfallproblem\n\nSehr geehrtes Kundenserviceteam,\n\nwir haben mit einem kritischen Serverausfall zu k\u00e4mpfen, der zahlreiche Kunden betrifft, die auf Ihre IT-Beratungsdienste angewiesen sind My name is [full_name].. Diese Situation hat zu erheblichen Unterbrechungen gef\u00fchrt, und wir ben\u00f6tigen eine sofortige L\u00f6sung, um die Dienstf\u00e4higkeiten wiederherzustellen. Dar\u00fcber hinaus ist eine gr\u00fcndliche Auswirkungenanalyse erforderlich, um das Ausma\u00df des Problems zu bewerten. Bitte behandeln Sie dies mit h\u00f6chster Priorit\u00e4t, da es die Betriebsabl\u00e4ufe unserer Kunden stark beeintr\u00e4chtigt You can reach me at [email].. Wir sch\u00e4tzen Ihr schnelles Handeln in dieser Angelegenheit.\n\nVielen Dank,\n\n<name>\n\n<tel_num>\n\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

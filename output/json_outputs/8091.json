@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Patient Records Compromised by Data Breach\n\nAn unauthorized access incident led to a data breach affecting patient records. The cause might be weak firewall configurations You can reach me at sophia.rossi@service.it.. Despite restarting servers and using Malwarebytes for scanning, the problem still exists. Urgent help is required to address this issue and safeguard sensitive information. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        411,
+        418
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        201,
+        224
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Patient Records Compromised by Data Breach\n\nAn unauthorized access incident led to a data breach affecting patient records. The cause might be weak firewall configurations You can reach me at [email].. Despite restarting servers and using Malwarebytes for scanning, the problem still exists. Urgent help is required to address this issue and safeguard sensitive information. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

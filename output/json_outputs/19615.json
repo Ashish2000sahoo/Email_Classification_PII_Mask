@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ungeplantes Datenverarbeitungs-Schwund\n\nSehr geehrte Kundensupport, <br> wir melden einen unerwarteten Datenverarbeitungs-Schwund in unserem System. <br> Der Schwund scheint auf Mangel an Ressourcenallokation und Softwarekonflikten zur\u00fcckzuf\u00fchren. <br> Wir haben versucht, das Problem zu beheben, indem wir betroffene Anwendungen neu gestartet und Aktualisierungen \u00fcberpr\u00fcft haben My name is John Doe.. <br> Jedoch bestand das Problem weiter. <br> Bitte geben Sie Anleitungen, um die Ursache zu identifizieren und eine L\u00f6sung umzusetzen, die zuk\u00fcnftig Schwund vermeidet. <br> Wir sind Ihnen dankbar f\u00fcr alle hilfreichen Informationen, die Sie uns geben k\u00f6nnen. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        401,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        693,
+        716
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Ungeplantes Datenverarbeitungs-Schwund\n\nSehr geehrte Kundensupport, <br> wir melden einen unerwarteten Datenverarbeitungs-Schwund in unserem System. <br> Der Schwund scheint auf Mangel an Ressourcenallokation und Softwarekonflikten zur\u00fcckzuf\u00fchren. <br> Wir haben versucht, das Problem zu beheben, indem wir betroffene Anwendungen neu gestartet und Aktualisierungen \u00fcberpr\u00fcft haben My name is [full_name].. <br> Jedoch bestand das Problem weiter. <br> Bitte geben Sie Anleitungen, um die Ursache zu identifizieren und eine L\u00f6sung umzusetzen, die zuk\u00fcnftig Schwund vermeidet. <br> Wir sind Ihnen dankbar f\u00fcr alle hilfreichen Informationen, die Sie uns geben k\u00f6nnen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

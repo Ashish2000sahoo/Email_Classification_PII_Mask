@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Returning Canon Printer Due to Technical Issues\n\nHello Customer Service Team,\n\nI am facing challenges with mobile printing on my Canon PIXMA MG3620 My name is Sophia Rossi.. Even after trying several troubleshooting techniques, the issue continues You can reach me at janesmith@company.com.. Please initiate the process for returning this product. My account number is <acc_num>.\n\nBest wishes,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        276,
+        297
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        152,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Returning Canon Printer Due to Technical Issues\n\nHello Customer Service Team,\n\nI am facing challenges with mobile printing on my Canon PIXMA MG[phone_number] My name is [full_name].. Even after trying several troubleshooting techniques, the issue continues You can reach me at [email].. Please initiate the process for returning this product. My account number is <acc_num>.\n\nBest wishes,\n<name>",
+  "category_of_the_email": "Incident"
+}

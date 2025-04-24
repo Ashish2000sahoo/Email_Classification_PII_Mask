@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de facturation\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour exprimer mes pr\u00e9occupations concernant les informations de facturation pour Jira Software 8.20 sous mon compte <acc_num>. J'ai remarqu\u00e9 plusieurs instances peu claires dans le traitement des paiements sur mes factures r\u00e9centes. Sp\u00e9cifiquement, il y a un frais mensuel \u00e9lev\u00e9 r\u00e9current que je ne peux pas expliquer. J'appr\u00e9cierais si vous pouviez fournir un r\u00e9capitulatif d\u00e9taill\u00e9 des frais sur mon relev\u00e9 de facturation.\n\nLes factures affichent des montants diff\u00e9rents chaque mois, et cette incoh\u00e9rence a suscit\u00e9 des inqui\u00e9tudes de mon c\u00f4t\u00e9. Il serait utile de comprendre les calculs derri\u00e8re ces frais et s'ils refl\u00e8tent tous les services utilis\u00e9s sous le plan actuel.\n\nDe plus, s'il y a des fonctionnalit\u00e9s suppl\u00e9mentaires ou des mises \u00e0 niveau de service incluses dans les frais mensuels, pourriez-vous clarifier ce qu'elles sont ? Toute information ou \u00e9claircissement suppl\u00e9mentaire \u00e0 ce sujet serait grandement appr\u00e9ci\u00e9.\n\nDe plus, j'ai tent\u00e9 de contacter votre ligne d'assistance au <tel_num> mais je n'ai pas encore re\u00e7u d'explication ou de r\u00e9ponse satisfaisante You can reach me at omar.hassan@secure.net.. Merci de traiter ce probl\u00e8me d\u00e8s que possible pour \u00e9viter toute interruption de service.\n\nMerci pour votre attention et votre r\u00e9solution rapide de cette question.\n\nCordialement,\n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1394,
+        1403
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1172,
+        1194
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Demande de facturation\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour exprimer mes pr\u00e9occupations concernant les informations de facturation pour Jira Software 8.20 sous mon compte <acc_num>. J'ai remarqu\u00e9 plusieurs instances peu claires dans le traitement des paiements sur mes factures r\u00e9centes. Sp\u00e9cifiquement, il y a un frais mensuel \u00e9lev\u00e9 r\u00e9current que je ne peux pas expliquer. J'appr\u00e9cierais si vous pouviez fournir un r\u00e9capitulatif d\u00e9taill\u00e9 des frais sur mon relev\u00e9 de facturation.\n\nLes factures affichent des montants diff\u00e9rents chaque mois, et cette incoh\u00e9rence a suscit\u00e9 des inqui\u00e9tudes de mon c\u00f4t\u00e9. Il serait utile de comprendre les calculs derri\u00e8re ces frais et s'ils refl\u00e8tent tous les services utilis\u00e9s sous le plan actuel.\n\nDe plus, s'il y a des fonctionnalit\u00e9s suppl\u00e9mentaires ou des mises \u00e0 niveau de service incluses dans les frais mensuels, pourriez-vous clarifier ce qu'elles sont ? Toute information ou \u00e9claircissement suppl\u00e9mentaire \u00e0 ce sujet serait grandement appr\u00e9ci\u00e9.\n\nDe plus, j'ai tent\u00e9 de contacter votre ligne d'assistance au <tel_num> mais je n'ai pas encore re\u00e7u d'explication ou de r\u00e9ponse satisfaisante You can reach me at [email].. Merci de traiter ce probl\u00e8me d\u00e8s que possible pour \u00e9viter toute interruption de service.\n\nMerci pour votre attention et votre r\u00e9solution rapide de cette question.\n\nCordialement,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

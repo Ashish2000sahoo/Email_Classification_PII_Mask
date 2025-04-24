@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digital Campaigns Have Come to a Halt Amidst Integration Challenges\n\nHello Customer Support Team, I am contacting you to address a problem we are experiencing with our digital campaigns My name is Carlos Mendoza.. They have stopped working suddenly, and we are in the dark about the reasons behind it. We believe that this issue might stem from integration challenges. We have already attempted to restart the services and reviewed our configurations, but the issue still remains unresolved. We would greatly appreciate your help in addressing this situation promptly You can reach me at omar.hassan@secure.net.. If you need any further information from us, please don't hesitate to ask. We are eagerly awaiting your input. Thank you for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        220
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        594,
+        616
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Digital Campaigns Have Come to a Halt Amidst Integration Challenges\n\nHello Customer Support Team, I am contacting you to address a problem we are experiencing with our digital campaigns My name is [full_name].. They have stopped working suddenly, and we are in the dark about the reasons behind it. We believe that this issue might stem from integration challenges. We have already attempted to restart the services and reviewed our configurations, but the issue still remains unresolved. We would greatly appreciate your help in addressing this situation promptly You can reach me at [email].. If you need any further information from us, please don't hesitate to ask. We are eagerly awaiting your input. Thank you for your attention and support.",
+  "category_of_the_email": "Incident"
+}

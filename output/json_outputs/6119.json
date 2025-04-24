@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Access\n\nA marketing agency has suddenly lost access to multiple software tools. This may be due to recent software updates or network issues You can reach me at elena.ivanova@support.org.. They have restarted devices and checked internet connectivity, but the issue persists My name is Liu Wei.. They have also contacted individual support services without success. They need assistance to resolve the issue as soon as possible to minimize operational disruption.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        178,
+        203
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Access\n\nA marketing agency has suddenly lost access to multiple software tools. This may be due to recent software updates or network issues You can reach me at [email].. They have restarted devices and checked internet connectivity, but the issue persists My name is [full_name].. They have also contacted individual support services without success. They need assistance to resolve the issue as soon as possible to minimize operational disruption.",
+  "category_of_the_email": "Incident"
+}

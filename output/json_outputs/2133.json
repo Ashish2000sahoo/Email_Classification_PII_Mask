@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investments Dashboard Experienced Unplanned Failure Today\n\nThe investments dashboard has had an unexpected failure You can reach me at sophia.rossi@service.it.. The problem may stem from a software compatibility concern following the update to Cassandra 4.0 My name is Elena Ivanova.. I have attempted to restart the server and examine the log files, but the issue continues to persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        291
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        144,
+        167
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Investments Dashboard Experienced Unplanned Failure Today\n\nThe investments dashboard has had an unexpected failure You can reach me at [email].. The problem may stem from a software compatibility concern following the update to Cassandra 4.0 My name is [full_name].. I have attempted to restart the server and examine the log files, but the issue continues to persist.",
+  "category_of_the_email": "Incident"
+}

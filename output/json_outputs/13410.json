@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on SaaS App Freezing on MacBook Air\n\nDear Customer Support,\\n\\nI am experiencing frequent freezing of the SaaS app on my MacBook Air, which significantly disrupts my work My name is Sophia Rossi.. Upon investigation, I discovered the issue is due to an incompatible PyCharm plugin.\\n\\nDespite restarting the app, updating the plugins, and clearing the cache, the problem remains unresolved. I kindly request that you provide a solution to this issue soon.\\n\\nIncident Details:\\n- App Name: SaaS app\\n- Device: MacBook Air\\n- Cause: Incompatible PyCharm plugin\\n- Attempts: Restarted app, updated plugins, cleared cache\\n\\nThank you for your assistance.\\n\\nBest regards,\\n[Your Name] You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        210
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        718,
+        740
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Report on SaaS App Freezing on MacBook Air\n\nDear Customer Support,\\n\\nI am experiencing frequent freezing of the SaaS app on my MacBook Air, which significantly disrupts my work My name is [full_name].. Upon investigation, I discovered the issue is due to an incompatible PyCharm plugin.\\n\\nDespite restarting the app, updating the plugins, and clearing the cache, the problem remains unresolved. I kindly request that you provide a solution to this issue soon.\\n\\nIncident Details:\\n- App Name: SaaS app\\n- Device: MacBook Air\\n- Cause: Incompatible PyCharm plugin\\n- Attempts: Restarted app, updated plugins, cleared cache\\n\\nThank you for your assistance.\\n\\nBest regards,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

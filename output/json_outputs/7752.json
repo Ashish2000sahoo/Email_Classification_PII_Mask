@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Security Protocols\n\nDear customer support, I am writing to inquire about the recommended security protocols for safeguarding medical data on our network devices You can reach me at carlosm@gmail.com.. Given the sensitive nature of the information we handle, it is imperative that we ensure its confidentiality, integrity, and availability My name is John Doe.. Could you please provide me with the best practices for securing medical data on our network devices, including measures to protect it from unauthorized access and security breaches? Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        372,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        203,
+        220
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Security Protocols\n\nDear customer support, I am writing to inquire about the recommended security protocols for safeguarding medical data on our network devices You can reach me at [email].. Given the sensitive nature of the information we handle, it is imperative that we ensure its confidentiality, integrity, and availability My name is [full_name].. Could you please provide me with the best practices for securing medical data on our network devices, including measures to protect it from unauthorized access and security breaches? Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

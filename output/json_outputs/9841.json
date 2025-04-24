@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Lost Data in Project\n\nHello Customer Support, I am contacting you to report a recent incident where the project data I was working on has suddenly vanished. I suspect a hardware failure might be the cause. I have attempted to restart my system and check my backups, but I have not been successful in retrieving the lost data You can reach me at johndoe@email.com.. I would greatly appreciate any support or advice you can offer to address this problem My name is Sophia Rossi.. Please inform me if there are any additional actions I need to take or if you require more details from me. The loss of this data is concerning as it could affect my project timeline, and I would like to find a solution quickly. Thank you for your assistance, and I look forward to your prompt response. Best regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        483,
+        495
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        365,
+        382
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Lost Data in Project\n\nHello Customer Support, I am contacting you to report a recent incident where the project data I was working on has suddenly vanished. I suspect a hardware failure might be the cause. I have attempted to restart my system and check my backups, but I have not been successful in retrieving the lost data You can reach me at [email].. I would greatly appreciate any support or advice you can offer to address this problem My name is [full_name].. Please inform me if there are any additional actions I need to take or if you require more details from me. The loss of this data is concerning as it could affect my project timeline, and I would like to find a solution quickly. Thank you for your assistance, and I look forward to your prompt response. Best regards.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Failed Medical Data Encryption\n\nThere was an issue with the encryption of medical data. It could be due to an incorrect setup of the Scikit-learn library You can reach me at fatima.farsi@help.com.. I've already tried restarting macOS and checking the IBM Cloud settings. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        299
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        183,
+        204
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Failed Medical Data Encryption\n\nThere was an issue with the encryption of medical data. It could be due to an incorrect setup of the Scikit-learn library You can reach me at [email].. I've already tried restarting macOS and checking the IBM Cloud settings. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

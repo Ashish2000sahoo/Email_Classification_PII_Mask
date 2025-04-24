@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problemas de Conectividade com HP DeskJet 3755\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou enfrentando problemas cont\u00ednuos de conectividade da impressora com minha HP DeskJet 3755, especificamente em rela\u00e7\u00e3o \u00e0s suas capacidades de impress\u00e3o sem fio. Ap\u00f3s a configura\u00e7\u00e3o inicial, a impressora parece estar conectada; no entanto, n\u00e3o consegue processar e imprimir documentos enviados sem fio.\n\nTentei v\u00e1rias etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como reiniciar tanto a impressora quanto o roteador, garantir que a impressora esteja dentro do alcance da rede sem fio e verificar se h\u00e1 atualiza\u00e7\u00f5es de firmware dispon\u00edveis. Apesar desses esfor\u00e7os, continuo sem conseguir imprimir documentos.\n\nEste problema \u00e9 bastante urgente, pois afeta as opera\u00e7\u00f5es di\u00e1rias. Voc\u00ea poderia me orientar na resolu\u00e7\u00e3o desses problemas de conectividade? Al\u00e9m disso, se houver manuais ou recursos detalhados, seria ben\u00e9fico You can reach me at elena.ivanova@support.org.. Sua assist\u00eancia r\u00e1pida seria muito apreciada.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n<name> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1111,
+        1122
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        959,
+        984
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        51,
+        55
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        214,
+        218
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Problemas de Conectividade com HP DeskJet [phone_number]\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou enfrentando problemas cont\u00ednuos de conectividade da impressora com minha HP DeskJet [phone_number], especificamente em rela\u00e7\u00e3o \u00e0s suas capacidades de impress\u00e3o sem fio. Ap\u00f3s a configura\u00e7\u00e3o inicial, a impressora parece estar conectada; no entanto, n\u00e3o consegue processar e imprimir documentos enviados sem fio.\n\nTentei v\u00e1rias etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como reiniciar tanto a impressora quanto o roteador, garantir que a impressora esteja dentro do alcance da rede sem fio e verificar se h\u00e1 atualiza\u00e7\u00f5es de firmware dispon\u00edveis. Apesar desses esfor\u00e7os, continuo sem conseguir imprimir documentos.\n\nEste problema \u00e9 bastante urgente, pois afeta as opera\u00e7\u00f5es di\u00e1rias. Voc\u00ea poderia me orientar na resolu\u00e7\u00e3o desses problemas de conectividade? Al\u00e9m disso, se houver manuais ou recursos detalhados, seria ben\u00e9fico You can reach me at [email].. Sua assist\u00eancia r\u00e1pida seria muito apreciada.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me avec Jira Software\n\nCher Service Client, \n\nNous rencontrons actuellement un probl\u00e8me avec la file d'attente des Ressources Humaines o\u00f9 les t\u00e2ches de priorit\u00e9 moyenne ne parviennent pas \u00e0 passer au statut suivant dans Jira Software 8.20. Ce probl\u00e8me entra\u00eene des retards significatifs dans notre flux de travail. Veuillez nous aider \u00e0 r\u00e9soudre ce probl\u00e8me dans les plus brefs d\u00e9lais You can reach me at carlosm@gmail.com.. Pour r\u00e9f\u00e9rence, notre num\u00e9ro de compte est <acc_num>. Vous pouvez me contacter directement au <tel_num>. Dans l'attente de votre r\u00e9ponse rapide My name is David Kim.. Merci.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        595,
+        604
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        420,
+        437
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me avec Jira Software\n\nCher Service Client, \n\nNous rencontrons actuellement un probl\u00e8me avec la file d'attente des Ressources Humaines o\u00f9 les t\u00e2ches de priorit\u00e9 moyenne ne parviennent pas \u00e0 passer au statut suivant dans Jira Software 8.20. Ce probl\u00e8me entra\u00eene des retards significatifs dans notre flux de travail. Veuillez nous aider \u00e0 r\u00e9soudre ce probl\u00e8me dans les plus brefs d\u00e9lais You can reach me at [email].. Pour r\u00e9f\u00e9rence, notre num\u00e9ro de compte est <acc_num>. Vous pouvez me contacter directement au <tel_num>. Dans l'attente de votre r\u00e9ponse rapide My name is [full_name].. Merci.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

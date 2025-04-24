@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Recurring Crash Issues\n\nPowerPoint keeps crashing frequently during presentations My name is John Doe.. This might be caused by software conflicts or outdated drivers. Despite restarting, updating, and temporarily disabling antivirus, the problem still occurs. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        102,
+        110
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        293,
+        318
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Recurring Crash Issues\n\nPowerPoint keeps crashing frequently during presentations My name is [full_name].. This might be caused by software conflicts or outdated drivers. Despite restarting, updating, and temporarily disabling antivirus, the problem still occurs. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

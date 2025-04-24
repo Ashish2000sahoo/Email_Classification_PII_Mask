@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for PyTorch Integration Details\n\nIs it possible to provide detailed information on the PyTorch integration with your project management SaaS? This information would be very helpful in understanding how to use the platform effectively My name is Fatima Al-Farsi.. I would greatly appreciate any guidance or resources you can offer. Thank you in advance for your assistance, and I look forward to hearing from you soon. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        271
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        457,
+        478
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for PyTorch Integration Details\n\nIs it possible to provide detailed information on the PyTorch integration with your project management SaaS? This information would be very helpful in understanding how to use the platform effectively My name is [full_name]-Farsi.. I would greatly appreciate any guidance or resources you can offer. Thank you in advance for your assistance, and I look forward to hearing from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

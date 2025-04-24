@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Integration Options for Project Management Tools\n\nDear Customer Support, I am writing to seek details on the integration capabilities of the specified products with your SaaS project management platform My name is Liu Wei.. Could you kindly furnish me with comprehensive information regarding the available integrations and their compatibility? It would be greatly appreciated if you could supply me with any pertinent documents or instructions on setting up these integrations. Furthermore, are there any upcoming plans to introduce new integrations? I am eager to hear from you and see how your platform can address my project management requirements You can reach me at elena.ivanova@support.org.. Thank you for your consideration and assistance. Warm regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        241
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        697,
+        722
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Integration Options for Project Management Tools\n\nDear Customer Support, I am writing to seek details on the integration capabilities of the specified products with your SaaS project management platform My name is [full_name].. Could you kindly furnish me with comprehensive information regarding the available integrations and their compatibility? It would be greatly appreciated if you could supply me with any pertinent documents or instructions on setting up these integrations. Furthermore, are there any upcoming plans to introduce new integrations? I am eager to hear from you and see how your platform can address my project management requirements You can reach me at [email].. Thank you for your consideration and assistance. Warm regards, [Your Name]",
+  "category_of_the_email": "Request"
+}

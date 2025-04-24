@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Patientensicherheit\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um die Sicherheitsma\u00dfnahmen zu kennennen, die Sie einsetzen, um sensible Patientendaten vor unbefugtem Zugriff zu sch\u00fctzen My name is Maria Gonzalez.. Als Benutzer Ihrer Dienste m\u00f6chte ich michergehen, dass meine pers\u00f6nlichen und medizinischen Informationen mit Vorsicht und Vertraulichkeit behandelt werden You can reach me at david.kim@corp.kr.. K\u00f6nnten Sie mir bitte Informationen zu den Ma\u00dfnahmen geben, die Sie anwenden, um Patientendaten zu sch\u00fctzen, wie z.B. Verschl\u00fcsselungsmethoden, Zugangskontrollen und Datenspeicherungsverfahren? Es w\u00fcrde mich freuen, falls Sie mir auch Informationen zu den Zertifikaten und Normen geben k\u00f6nnten, die Ihr Unternehmen einh\u00e4lt, wie z.B. HIPAA. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        403,
+        420
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Patientensicherheit\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um die Sicherheitsma\u00dfnahmen zu kennennen, die Sie einsetzen, um sensible Patientendaten vor unbefugtem Zugriff zu sch\u00fctzen My name is [full_name].. Als Benutzer Ihrer Dienste m\u00f6chte ich michergehen, dass meine pers\u00f6nlichen und medizinischen Informationen mit Vorsicht und Vertraulichkeit behandelt werden You can reach me at [email].. K\u00f6nnten Sie mir bitte Informationen zu den Ma\u00dfnahmen geben, die Sie anwenden, um Patientendaten zu sch\u00fctzen, wie z.B. Verschl\u00fcsselungsmethoden, Zugangskontrollen und Datenspeicherungsverfahren? Es w\u00fcrde mich freuen, falls Sie mir auch Informationen zu den Zertifikaten und Normen geben k\u00f6nnten, die Ihr Unternehmen einh\u00e4lt, wie z.B. HIPAA. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung in dieser Angelegenheit.",
+  "category_of_the_email": "Request"
+}

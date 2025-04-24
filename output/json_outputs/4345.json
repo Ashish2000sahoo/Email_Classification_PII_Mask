@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with synchronization customer service\n\nIncident: Synchronization problems across integrations. Issue: Data inconsistencies appeared unexpectedly My name is Jane Smith.. Reason: Possibly due to excessive API calls. Actions taken: Restarted services, reviewed logs. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        184
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        303,
+        326
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problems with synchronization customer service\n\nIncident: Synchronization problems across integrations. Issue: Data inconsistencies appeared unexpectedly My name is [full_name].. Reason: Possibly due to excessive API calls. Actions taken: Restarted services, reviewed logs. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

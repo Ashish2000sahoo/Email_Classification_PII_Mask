@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema con el bot\u00f3n de encendido en Dell XPS\n\nEstimado Servicio al Cliente,\n\nEstoy escribiendo para informar un problema con mi port\u00e1til que compr\u00e9 en su tienda. El dispositivo en cuesti\u00f3n es un Dell XPS 13 9310 You can reach me at elena.ivanova@support.org.. Estoy teniendo problemas con el bot\u00f3n de encendido que no responde, lo que impide que el dispositivo arranque por completo.\n\nHe intentado algunos pasos b\u00e1sicos de soluci\u00f3n de problemas, como enchufar el port\u00e1til a una fuente de alimentaci\u00f3n para asegurarme de que la bater\u00eda no est\u00e9 muerta, pero lamentablemente, ninguno de estos m\u00e9todos ha resuelto el problema con \u00e9xito My name is Elena Ivanova.. Este port\u00e1til es crucial para mis operaciones diarias y agradecer\u00eda su pronta asistencia para resolver este asunto.\n\n\u00bfPodr\u00eda por favor aconsejarme sobre los siguientes pasos? \u00bfDeber\u00eda llevar el dispositivo a un t\u00e9cnico local afiliado a su compa\u00f1\u00eda, o ser\u00eda posible enviarlo de vuelta a su centro para una inspecci\u00f3n m\u00e1s profunda? He intentado comunicarme a trav\u00e9s de su l\u00ednea de ayuda al <tel_num> pero no pude localizar a un operador. Mi n\u00famero de cuenta es <acc_num> y espero que esto pueda ayudar a acelerar el proceso.\n\nGracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta para garantizar una m\u00ednima interrupci\u00f3n a mi trabajo. Por favor, h\u00e1gamelo saber si se requiere informaci\u00f3n adicional.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        654,
+        667
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        243,
+        268
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        215,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema con el bot\u00f3n de encendido en Dell XPS\n\nEstimado Servicio al Cliente,\n\nEstoy escribiendo para informar un problema con mi port\u00e1til que compr\u00e9 en su tienda. El dispositivo en cuesti\u00f3n es un Dell XPS [phone_number] You can reach me at [email].. Estoy teniendo problemas con el bot\u00f3n de encendido que no responde, lo que impide que el dispositivo arranque por completo.\n\nHe intentado algunos pasos b\u00e1sicos de soluci\u00f3n de problemas, como enchufar el port\u00e1til a una fuente de alimentaci\u00f3n para asegurarme de que la bater\u00eda no est\u00e9 muerta, pero lamentablemente, ninguno de estos m\u00e9todos ha resuelto el problema con \u00e9xito My name is [full_name].. Este port\u00e1til es crucial para mis operaciones diarias y agradecer\u00eda su pronta asistencia para resolver este asunto.\n\n\u00bfPodr\u00eda por favor aconsejarme sobre los siguientes pasos? \u00bfDeber\u00eda llevar el dispositivo a un t\u00e9cnico local afiliado a su compa\u00f1\u00eda, o ser\u00eda posible enviarlo de vuelta a su centro para una inspecci\u00f3n m\u00e1s profunda? He intentado comunicarme a trav\u00e9s de su l\u00ednea de ayuda al <tel_num> pero no pude localizar a un operador. Mi n\u00famero de cuenta es <acc_num> y espero que esto pueda ayudar a acelerar el proceso.\n\nGracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta para garantizar una m\u00ednima interrupci\u00f3n a mi trabajo. Por favor, h\u00e1gamelo saber si se requiere informaci\u00f3n adicional.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on an Incident Involving Data Security Breach\n\nDear Customer Support,\\n\\nI am contacting you to report a significant issue with the accidental release of medical information via an insecure Telegram link You can reach me at janesmith@company.com.. This happened because of inadequate training of the staff in adhering to data protection policies.\\n\\nAs of now, notifications have been issued, passwords have been re-assigned, and staff have been briefed. The preliminary probe into the incident has also been initiated to ascertain the root causes and the scope of the breach.\\n\\nI would be grateful if you could address this matter swiftly and offer insights into the subsequent actions to be taken.\\n\\nThank you for your swift handling of this situation.\\n\\nBest regards, [Your Name] My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        813,
+        825
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        240,
+        261
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Report on an Incident Involving Data Security Breach\n\nDear Customer Support,\\n\\nI am contacting you to report a significant issue with the accidental release of medical information via an insecure Telegram link You can reach me at [email].. This happened because of inadequate training of the staff in adhering to data protection policies.\\n\\nAs of now, notifications have been issued, passwords have been re-assigned, and staff have been briefed. The preliminary probe into the incident has also been initiated to ascertain the root causes and the scope of the breach.\\n\\nI would be grateful if you could address this matter swiftly and offer insights into the subsequent actions to be taken.\\n\\nThank you for your swift handling of this situation.\\n\\nBest regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

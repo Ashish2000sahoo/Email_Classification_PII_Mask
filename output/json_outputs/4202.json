@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nI am encountering issues with integrating project management features across different software products. The problem might be due to compatibility conflicts. Despite attempting to troubleshoot using the provided documentation and support forums, I have not found a resolution You can reach me at carlosm@gmail.com.. I would greatly appreciate any guidance or support to help me overcome this challenge. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        426,
+        436
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        308,
+        325
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am encountering issues with integrating project management features across different software products. The problem might be due to compatibility conflicts. Despite attempting to troubleshoot using the provided documentation and support forums, I have not found a resolution You can reach me at [email].. I would greatly appreciate any guidance or support to help me overcome this challenge. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

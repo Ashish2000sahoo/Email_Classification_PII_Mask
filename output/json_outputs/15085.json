@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nDas Team hat Probleme mit den letzten Aktualisierungen und Datenvisualisierungen in PowerPoint 2021. Die Fehlerquellen scheinen auf unkompatiblen Softwareversionen zur\u00fcckzuf\u00fchren sein My name is Fatima Al-Farsi.. Versuche, die Anwendungen neu zu starten und PowerPoint neu zu installieren, haben bisher keinen Erfolg gebracht. Wir ben\u00f6tigen Ihre Hilfe, um das Problem zu beheben. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        215
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        413,
+        435
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        106,
+        110
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: \n\nDas Team hat Probleme mit den letzten Aktualisierungen und Datenvisualisierungen in PowerPoint [phone_number]. Die Fehlerquellen scheinen auf unkompatiblen Softwareversionen zur\u00fcckzuf\u00fchren sein My name is [full_name]-Farsi.. Versuche, die Anwendungen neu zu starten und PowerPoint neu zu installieren, haben bisher keinen Erfolg gebracht. Wir ben\u00f6tigen Ihre Hilfe, um das Problem zu beheben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

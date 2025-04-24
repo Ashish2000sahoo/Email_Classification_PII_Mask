@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Integrating Elasticsearch\n\ninquiring about the process of integrating Elasticsearch into our project management SaaS My name is Carlos Mendoza.. Would greatly appreciate any information or resources that could guide us in getting started You can reach me at elena.ivanova@support.org.. Thank you for your assistance, and I look forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        276,
+        301
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support for Integrating Elasticsearch\n\ninquiring about the process of integrating Elasticsearch into our project management SaaS My name is [full_name].. Would greatly appreciate any information or resources that could guide us in getting started You can reach me at [email].. Thank you for your assistance, and I look forward to hearing back from you soon.",
+  "category_of_the_email": "Request"
+}

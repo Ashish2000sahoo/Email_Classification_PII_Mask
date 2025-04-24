@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Financial Reports\n\nThere have been recent discrepancies in the investment reports between Zoho Books and QuickBooks. This may be due to improperly synced data sources or software integration issues My name is David Kim.. I have tried restarting the applications and re-establishing connections to cloud services, but the discrepancies still persist. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        394,
+        416
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Financial Reports\n\nThere have been recent discrepancies in the investment reports between Zoho Books and QuickBooks. This may be due to improperly synced data sources or software integration issues My name is [full_name].. I have tried restarting the applications and re-establishing connections to cloud services, but the discrepancies still persist. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Login\n\nDear Customer Support,\\n\\nI am experiencing an unexpected login error that suddenly appeared when I tried to access my account You can reach me at janesmith@company.com.. The error message was not informative, but I believe it could be related to the recent security updates.\\n\\nI have attempted to resolve the issue by restarting my browser and clearing the cache, but the problem remains unresolved. I kindly request your assistance in investigating this matter and finding a solution.\\n\\nHere is a detailed description of the problem:\\nHappened: Unexpected login error occurred suddenly.\\nWhy: Possibly due to recent security updates.\\nTried: Restarted browser, cleared cache already.\\n\\nI am looking forward to your prompt attention to this issue and your guidance on how to regain access to my account My name is David Kim.. Your help would be greatly appreciated.\\n\\nThank you for your time and assistance. I look forward to your response.\\n\\nSincerely,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        845,
+        854
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        174,
+        195
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Login\n\nDear Customer Support,\\n\\nI am experiencing an unexpected login error that suddenly appeared when I tried to access my account You can reach me at [email].. The error message was not informative, but I believe it could be related to the recent security updates.\\n\\nI have attempted to resolve the issue by restarting my browser and clearing the cache, but the problem remains unresolved. I kindly request your assistance in investigating this matter and finding a solution.\\n\\nHere is a detailed description of the problem:\\nHappened: Unexpected login error occurred suddenly.\\nWhy: Possibly due to recent security updates.\\nTried: Restarted browser, cleared cache already.\\n\\nI am looking forward to your prompt attention to this issue and your guidance on how to regain access to my account My name is [full_name].. Your help would be greatly appreciated.\\n\\nThank you for your time and assistance. I look forward to your response.\\n\\nSincerely,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Security for Medical Data in Hospital IT\n\nCustomer support, please assist with inquiring about securing medical data. Concerns include using SendGrid and PostgreSQL. Would like to know more about best practices and protocols to ensure the confidentiality and integrity of sensitive patient information You can reach me at maria.gonzalez@shop.es.. Appreciate guidance on implementing strong security measures to protect the data. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        459,
+        470
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        341,
+        363
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Security for Medical Data in Hospital IT\n\nCustomer support, please assist with inquiring about securing medical data. Concerns include using SendGrid and PostgreSQL. Would like to know more about best practices and protocols to ensure the confidentiality and integrity of sensitive patient information You can reach me at [email].. Appreciate guidance on implementing strong security measures to protect the data. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

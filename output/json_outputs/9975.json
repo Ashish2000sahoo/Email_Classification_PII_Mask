@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Email Support\n\nConcerning Customer Support, there has been an unexpected service outage impacting several products, including Outlook Redis 6.2. This may have arisen from server overload during a peak usage period. After attempting a restart, the affected services are being monitored, but the traffic issue continues. Our team is currently investigating the cause and working on a solution My name is John Doe.. Please let us know if there are additional steps you have taken to resolve the issue. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        428
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        540,
+        561
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Query on Email Support\n\nConcerning Customer Support, there has been an unexpected service outage impacting several products, including Outlook Redis 6.2. This may have arisen from server overload during a peak usage period. After attempting a restart, the affected services are being monitored, but the traffic issue continues. Our team is currently investigating the cause and working on a solution My name is [full_name].. Please let us know if there are additional steps you have taken to resolve the issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

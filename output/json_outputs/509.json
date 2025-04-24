@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Data Analysis\n\nA critical issue has arisen during the analysis of investment data, leading to delays in report generation My name is Sophia Rossi.. This problem might be due to software incompatibilities or configuration errors. Steps such as restarting applications and clearing cache have been taken, but the issue remains unresolved. We kindly request your assistance in resolving this matter as soon as possible. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        469,
+        486
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Data Analysis\n\nA critical issue has arisen during the analysis of investment data, leading to delays in report generation My name is [full_name].. This problem might be due to software incompatibilities or configuration errors. Steps such as restarting applications and clearing cache have been taken, but the issue remains unresolved. We kindly request your assistance in resolving this matter as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

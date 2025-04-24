@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung der Investitionsanalysetools\n\nGeh\u00f6rte Kundensupport, ich schreibe an, um die Optimierung unserer Investitionsanalysetools zu betreiben, insbesondere die Anwendung von Data Analytics You can reach me at johndoe@email.com.. Wir glauben, dass die Nutzung dieser Technologie uns dabei helfen kann, informiertere Entscheidungen zu treffen und Gewinne zu steigern. Allerdings denken wir, dass die aktuellen Tools derzeit noch nicht den gew\u00fcnschten Ergebnissen gerecht werden. K\u00f6nnten Sie daher bitte rasch die Verbesserungsm\u00f6glichkeiten untersuchen und uns bald eine L\u00f6sung vorschlagen? Falls weitere Informationen erforderlich sind, stehe ich Ihnen gerne zur Verf\u00fcgung My name is John Doe.. Danke und ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        696,
+        704
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        223,
+        240
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierung der Investitionsanalysetools\n\nGeh\u00f6rte Kundensupport, ich schreibe an, um die Optimierung unserer Investitionsanalysetools zu betreiben, insbesondere die Anwendung von Data Analytics You can reach me at [email].. Wir glauben, dass die Nutzung dieser Technologie uns dabei helfen kann, informiertere Entscheidungen zu treffen und Gewinne zu steigern. Allerdings denken wir, dass die aktuellen Tools derzeit noch nicht den gew\u00fcnschten Ergebnissen gerecht werden. K\u00f6nnten Sie daher bitte rasch die Verbesserungsm\u00f6glichkeiten untersuchen und uns bald eine L\u00f6sung vorschlagen? Falls weitere Informationen erforderlich sind, stehe ich Ihnen gerne zur Verf\u00fcgung My name is [full_name].. Danke und ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

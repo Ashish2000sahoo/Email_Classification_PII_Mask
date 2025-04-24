@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Security Breach in Healthcare System Due to Outdated Protocols\n\nAn unauthorized access incident has been detected in the healthcare system due to vulnerabilities in outdated security protocols, specifically on Ubuntu 20.04 LTS. Immediate assistance is required to secure sensitive medical data.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        239
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        334,
+        349
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Security Breach in Healthcare System Due to Outdated Protocols\n\nAn unauthorized access incident has been detected in the healthcare system due to vulnerabilities in outdated security protocols, specifically on Ubuntu [phone_number] LTS. Immediate assistance is required to secure sensitive medical data.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

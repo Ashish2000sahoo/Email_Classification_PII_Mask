@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Corsair Product Support Inquiry\n\nIs it possible to provide comprehensive documentation for integrating the Corsair Dark Core RGB Pro SE SaaS platform?. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        197
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Corsair Product Support Inquiry\n\nIs it possible to provide comprehensive documentation for integrating the Corsair Dark Core RGB Pro SE SaaS platform?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

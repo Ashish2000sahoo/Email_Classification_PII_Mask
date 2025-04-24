@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating the Payment Gateway to Ensure HIPAA Compliance\n\nHello Customer Support, I am reaching out to inquire about updating our payment gateway to guarantee the secure management of patient data and adherence to HIPAA standards My name is Maria Gonzalez.. Our present payment system is obsolete and does not comply with the necessary security standards You can reach me at johndoe@email.com.. I would appreciate it if we could install a new payment gateway that is HIPAA compliant and utilizes the most recent security measures to safeguard sensitive patient details. This upgrade is vital for preserving our patients' trust and preventing any potential data breaches. Could you please inform me about the procedures we need to follow for this update and any additional information you might require from me? I would greatly appreciate your swift response to this request and eagerly await your feedback.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        392,
+        409
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating the Payment Gateway to Ensure HIPAA Compliance\n\nHello Customer Support, I am reaching out to inquire about updating our payment gateway to guarantee the secure management of patient data and adherence to HIPAA standards My name is [full_name].. Our present payment system is obsolete and does not comply with the necessary security standards You can reach me at [email].. I would appreciate it if we could install a new payment gateway that is HIPAA compliant and utilizes the most recent security measures to safeguard sensitive patient details. This upgrade is vital for preserving our patients' trust and preventing any potential data breaches. Could you please inform me about the procedures we need to follow for this update and any additional information you might require from me? I would greatly appreciate your swift response to this request and eagerly await your feedback.",
+  "category_of_the_email": "Change"
+}

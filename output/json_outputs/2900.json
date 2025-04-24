@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: SaaS-Tool unerwartet abst\u00fcrzte\n\nDas SaaS-Tool kam pl\u00f6tzlich zum Stillstand, was die Integrationen st\u00f6rte. M\u00f6glicherweise infolge des Ruby on Rails-Updates.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        202
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: SaaS-Tool unerwartet abst\u00fcrzte\n\nDas SaaS-Tool kam pl\u00f6tzlich zum Stillstand, was die Integrationen st\u00f6rte. M\u00f6glicherweise infolge des Ruby on Rails-Updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

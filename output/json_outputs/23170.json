@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema com o Dell XPS 13 superaquecendo\n\nOl\u00e1 Suporte ao Cliente,\n\nEstou enfrentando problemas de alta temperatura no meu Dell XPS 13 9310 enquanto edito v\u00eddeos no Windows 11. Esse problema est\u00e1 afetando meu fluxo de trabalho e produtividade You can reach me at omar.hassan@secure.net.. Voc\u00ea poderia fornecer alguma orienta\u00e7\u00e3o ou assist\u00eancia para resolver essa quest\u00e3o? Sua ajuda seria muito apreciada.\n\nObrigado,\n\n<name>. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        444,
+        453
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        272,
+        294
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        141,
+        148
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema com o Dell XPS 13 superaquecendo\n\nOl\u00e1 Suporte ao Cliente,\n\nEstou enfrentando problemas de alta temperatura no meu Dell XPS [phone_number] enquanto edito v\u00eddeos no Windows 11. Esse problema est\u00e1 afetando meu fluxo de trabalho e produtividade You can reach me at [email].. Voc\u00ea poderia fornecer alguma orienta\u00e7\u00e3o ou assist\u00eancia para resolver essa quest\u00e3o? Sua ajuda seria muito apreciada.\n\nObrigado,\n\n<name>. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Problem"
+}

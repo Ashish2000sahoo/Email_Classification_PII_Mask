@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for SendGrid AWS\n\nPlease contact us for insights on optimizing SendGrid AWS for improved marketing campaign effectiveness and email deliverability. Would it be possible to provide guidance on how to better use the services and enhance email delivery metrics? We would be glad to share any setup or configuration instructions.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        380
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support for SendGrid AWS\n\nPlease contact us for insights on optimizing SendGrid AWS for improved marketing campaign effectiveness and email deliverability. Would it be possible to provide guidance on how to better use the services and enhance email delivery metrics? We would be glad to share any setup or configuration instructions.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

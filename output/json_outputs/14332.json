@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Campaign Inquiry\n\nFacing challenges with missed deadlines due to inadequate collaboration tools with limited integration capabilities.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        174,
+        189
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Support Campaign Inquiry\n\nFacing challenges with missed deadlines due to inadequate collaboration tools with limited integration capabilities.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, bitte mit Informationen zum Thema Verschl\u00fcsselung medizinischer Daten von McAfee Total Protection Krankenh\u00e4usern in Kontakt treten. Es w\u00e4re sehr hilfreich, detaillierte Informationen zu diesem Thema zu erhalten You can reach me at fatima.farsi@help.com.. Ich sch\u00e4tze Unterst\u00fctzung bei der Implementierung und Verwaltung der Sicherheitsma\u00dfnahmen, insbesondere bei Verschl\u00fcsselung von Daten, Zugriffskontrollen und der Erkennung von Bedrohungen My name is John Doe.. Bitte bereitstellen Sie relevante Dokumente und Ressourcen, mit denen ich mich besser vertraut machen kann. Ich freue mich auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        488,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        265,
+        286
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, bitte mit Informationen zum Thema Verschl\u00fcsselung medizinischer Daten von McAfee Total Protection Krankenh\u00e4usern in Kontakt treten. Es w\u00e4re sehr hilfreich, detaillierte Informationen zu diesem Thema zu erhalten You can reach me at [email].. Ich sch\u00e4tze Unterst\u00fctzung bei der Implementierung und Verwaltung der Sicherheitsma\u00dfnahmen, insbesondere bei Verschl\u00fcsselung von Daten, Zugriffskontrollen und der Erkennung von Bedrohungen My name is [full_name].. Bitte bereitstellen Sie relevante Dokumente und Ressourcen, mit denen ich mich besser vertraut machen kann. Ich freue mich auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

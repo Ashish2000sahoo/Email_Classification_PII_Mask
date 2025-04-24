@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem with Canon PIXMA MG3620 Printer Purchased Online\n\nHello Customer Support, I have recently bought a Canon PIXMA MG3620 printer My name is Carlos Mendoza.. Sadly, I am facing some difficulties with it You can reach me at johndoe@email.com.. Could you please help me in addressing this issue as soon as possible? Thank you. Best regards, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        233,
+        250
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        36,
+        40
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        130,
+        134
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Problem with Canon PIXMA MG[phone_number] Printer Purchased Online\n\nHello Customer Support, I have recently bought a Canon PIXMA MG[phone_number] printer My name is [full_name].. Sadly, I am facing some difficulties with it You can reach me at [email].. Could you please help me in addressing this issue as soon as possible? Thank you. Best regards, <name>",
+  "category_of_the_email": "Incident"
+}

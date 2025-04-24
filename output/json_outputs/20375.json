@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nGreetings, I am contacting you to inform you about a problem with my recent order My name is Maria Gonzalez.. The iPad Pro 2021 was delivered later than expected and arrived with noticeable damage You can reach me at sophia.rossi@service.it.. Could you help coordinate a replacement? My order reference is <acc_num>. You can contact me at <tel_num>. Thank you, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        104,
+        118
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        225,
+        248
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        131,
+        135
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: \n\nGreetings, I am contacting you to inform you about a problem with my recent order My name is [full_name].. The iPad Pro [phone_number] was delivered later than expected and arrived with noticeable damage You can reach me at [email].. Could you help coordinate a replacement? My order reference is <acc_num>. You can contact me at <tel_num>. Thank you, <name>",
+  "category_of_the_email": "Incident"
+}

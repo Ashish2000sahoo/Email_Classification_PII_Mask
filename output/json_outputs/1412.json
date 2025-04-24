@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for a New Data Visualization Dashboard\n\nDear Customer Support, I am reaching out to request the development of a new data visualization dashboard for investment trend analysis and portfolio optimization. The current dashboard is no longer up-to-date and insufficient for providing meaningful insights. A new dashboard would facilitate more informed investment decisions and better portfolio optimization My name is John Doe.. It should include interactive charts, real-time data updates, and customizable layout options You can reach me at carlosm@gmail.com.. Furthermore, it should be user-friendly and accessible across different devices. I believe this new dashboard would significantly enhance the user experience and provide greater benefits. Could you please inform me of the timeline for implementing this new dashboard and any other necessary information? I would appreciate your prompt response. Thank you for your time and consideration. I look forward to your response soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        432,
+        440
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        560,
+        577
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for a New Data Visualization Dashboard\n\nDear Customer Support, I am reaching out to request the development of a new data visualization dashboard for investment trend analysis and portfolio optimization. The current dashboard is no longer up-to-date and insufficient for providing meaningful insights. A new dashboard would facilitate more informed investment decisions and better portfolio optimization My name is [full_name].. It should include interactive charts, real-time data updates, and customizable layout options You can reach me at [email].. Furthermore, it should be user-friendly and accessible across different devices. I believe this new dashboard would significantly enhance the user experience and provide greater benefits. Could you please inform me of the timeline for implementing this new dashboard and any other necessary information? I would appreciate your prompt response. Thank you for your time and consideration. I look forward to your response soon.",
+  "category_of_the_email": "Change"
+}

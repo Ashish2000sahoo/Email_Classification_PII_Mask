@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Upgrade Assistance\n\nHello customer support, I am contacting you to seek help in improving our current encryption protocol for the secure transmission and storage of medical data You can reach me at johndoe@email.com.. Our current system is outdated and needs to be upgraded to protect the privacy and integrity of patient information. We are interested in a solution that meets industry standards and regulatory requirements. Could you offer us advice and assistance in selecting and implementing a more secure encryption method? We would be grateful for any guidance or resources you can provide to enhance our data security measures. We appreciate your time and look forward to your response My name is Omar Hassan.. We await your contact soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        723,
+        734
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        216,
+        233
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Security Upgrade Assistance\n\nHello customer support, I am contacting you to seek help in improving our current encryption protocol for the secure transmission and storage of medical data You can reach me at [email].. Our current system is outdated and needs to be upgraded to protect the privacy and integrity of patient information. We are interested in a solution that meets industry standards and regulatory requirements. Could you offer us advice and assistance in selecting and implementing a more secure encryption method? We would be grateful for any guidance or resources you can provide to enhance our data security measures. We appreciate your time and look forward to your response My name is [full_name].. We await your contact soon.",
+  "category_of_the_email": "Request"
+}

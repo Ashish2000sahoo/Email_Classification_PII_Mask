@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Website Analytics\n\nDear Customer Support, I am writing to report an error in our website analytics My name is Maria Gonzalez.. This issue appears to be due to an incorrect implementation of the data tracking code, potentially caused by an incorrect setup or a conflict with one of our plugins. I have double-checked the tracking code, resolved any known plugin conflicts, and cleared the cache, but the problem still persists. I would be very grateful if you could look into this and provide a solution promptly. The inaccuracy in our analytics data is impacting our business decisions, and as such, it is crucial that the issue is resolved You can reach me at fatima.farsi@help.com.. Although I have attempted to address the problem, it seems to require your professional expertise. Please inform me if there is any additional information you need. I look forward to your response. Thank you for your time and assistance. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        146
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        680,
+        701
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Website Analytics\n\nDear Customer Support, I am writing to report an error in our website analytics My name is [full_name].. This issue appears to be due to an incorrect implementation of the data tracking code, potentially caused by an incorrect setup or a conflict with one of our plugins. I have double-checked the tracking code, resolved any known plugin conflicts, and cleared the cache, but the problem still persists. I would be very grateful if you could look into this and provide a solution promptly. The inaccuracy in our analytics data is impacting our business decisions, and as such, it is crucial that the issue is resolved You can reach me at [email].. Although I have attempted to address the problem, it seems to require your professional expertise. Please inform me if there is any additional information you need. I look forward to your response. Thank you for your time and assistance. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

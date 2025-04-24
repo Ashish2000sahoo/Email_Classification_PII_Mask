@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: best\u00e4tigte Zugriffsversuche auf medizinische Systeme identifiziert\n\ngeehrter Kundenservice, ein best\u00e4tigter Zugriffsversuch auf medizinische Systeme wurde erkannt My name is David Kim.. Dies k\u00f6nnte auf veraltete Sicherheitsprotokolle hinweisen. Um die Sicherheit zu verbessern, sind bereits Ma\u00dfnahmen zur Anpassung der Firewall und Systempr\u00fcfungen eingeleitet. Wir bitten um Ihr Mitwesen, um Vorschl\u00e4ge f\u00fcr die Verbesserung unserer Sicherheitsma\u00dfnahmen zu erarbeiten. Bitte melden Sie sich, falls weitere Informationen erforderlich sind. Wir freuen uns auf Ihre umgehende Beachtung und auf Ihr baldiges Feedback. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        644,
+        665
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: best\u00e4tigte Zugriffsversuche auf medizinische Systeme identifiziert\n\ngeehrter Kundenservice, ein best\u00e4tigter Zugriffsversuch auf medizinische Systeme wurde erkannt My name is [full_name].. Dies k\u00f6nnte auf veraltete Sicherheitsprotokolle hinweisen. Um die Sicherheit zu verbessern, sind bereits Ma\u00dfnahmen zur Anpassung der Firewall und Systempr\u00fcfungen eingeleitet. Wir bitten um Ihr Mitwesen, um Vorschl\u00e4ge f\u00fcr die Verbesserung unserer Sicherheitsma\u00dfnahmen zu erarbeiten. Bitte melden Sie sich, falls weitere Informationen erforderlich sind. Wir freuen uns auf Ihre umgehende Beachtung und auf Ihr baldiges Feedback. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

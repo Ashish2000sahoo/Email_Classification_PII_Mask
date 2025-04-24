@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Login-Fehler bei Zugriff auf Plattform\n\nBetreff: Kritisches Login-Fehler-Problem bei Zugriff auf Plattform\\n\\nSehr geehrte Kundensupport,\\n\\nich m\u00f6chte Sie auf ein kritisches Problem aufmerksam machen, das aktuell von Nutzern beobachtet wird My name is John Doe.. Benutzer erleben abwechselnde Login-Fehler, was zu Schwierigkeiten bei der Plattformnutzung f\u00fchrt. Das Problem scheint auf Server\u00fcberlastung und die neuesten Updates zur\u00fcckzuf\u00fchren. Durch Neustart der Anwendung und L\u00f6schen der Cache-Dateien konnte das Problem f\u00fcr einige Nutzer gel\u00f6st werden You can reach me at maria.gonzalez@shop.es.. Die Vorkommnisse sind jedoch zuf\u00e4llig und machen es schwierig, den genauen Ursprung des Problems zu identifizieren. Allerdings ist es offensichtlich, dass das Problem verschiedene Nutzer und Ger\u00e4te betroffen hat.\\n\\nIch bitte Sie, die Lage umgehend zu konzentrieren. K\u00f6nnten Sie mir bitte mehr Informationen zur Verf\u00fcgung stellen, insbesondere die Fehlermeldungen, die Sie bei den Login-Versuchen erhalten haben, und ungef\u00e4hre Zeitpunkte der Vorkommnisse? Es w\u00e4re sehr hilfreich, wenn wir telefonisch weitere Details besprechen k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        274,
+        282
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        600,
+        622
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Login-Fehler bei Zugriff auf Plattform\n\nBetreff: Kritisches Login-Fehler-Problem bei Zugriff auf Plattform\\n\\nSehr geehrte Kundensupport,\\n\\nich m\u00f6chte Sie auf ein kritisches Problem aufmerksam machen, das aktuell von Nutzern beobachtet wird My name is [full_name].. Benutzer erleben abwechselnde Login-Fehler, was zu Schwierigkeiten bei der Plattformnutzung f\u00fchrt. Das Problem scheint auf Server\u00fcberlastung und die neuesten Updates zur\u00fcckzuf\u00fchren. Durch Neustart der Anwendung und L\u00f6schen der Cache-Dateien konnte das Problem f\u00fcr einige Nutzer gel\u00f6st werden You can reach me at [email].. Die Vorkommnisse sind jedoch zuf\u00e4llig und machen es schwierig, den genauen Ursprung des Problems zu identifizieren. Allerdings ist es offensichtlich, dass das Problem verschiedene Nutzer und Ger\u00e4te betroffen hat.\\n\\nIch bitte Sie, die Lage umgehend zu konzentrieren. K\u00f6nnten Sie mir bitte mehr Informationen zur Verf\u00fcgung stellen, insbesondere die Fehlermeldungen, die Sie bei den Login-Versuchen erhalten haben, und ungef\u00e4hre Zeitpunkte der Vorkommnisse? Es w\u00e4re sehr hilfreich, wenn wir telefonisch weitere Details besprechen k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

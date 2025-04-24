@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sachverhalt: Kontakt zum Kundendienst. Beschreibung: Kurze Darstellung des Problems: Im Moment k\u00f6nnen unsere Datenanalyse-Tools keine Berichte erstellen. Vermutete Ursachen: M\u00f6glicherweise aufgrund von Software-Kompatibilit\u00e4tsproblemen. Durchgef\u00fchrte L\u00f6sungsversuche: Systemstart neu, Software-Updates \u00fcberpr\u00fcft.\n\nSehr geehrte <name>, wir bedauern, dass Sie Probleme mit Ihren Datenanalyse-Tools haben. Wir haben verstanden, dass Sie bereits Systeme neu gestartet und die Software-Updates \u00fcberpr\u00fcft haben. Um Ihnen behilflich zu sein, m\u00f6chten wir bitten, uns n\u00e4her \u00fcber die Software-Kompatibilit\u00e4tsprobleme zu erz\u00e4hlen, die Sie vermuten. Wir m\u00f6chten dieses Thema n\u00e4her untersuchen und k\u00f6nnen m\u00f6glicherweise mit Ihnen telefonisch in Kontakt treten, um L\u00f6sungen zu besprechen You can reach me at maria.gonzalez@shop.es.. Teilen Sie uns bitte ein geeignetes Zeitfenster mit, um Sie \u00fcber Ihr Konto <acc_num> telefonisch zu erreichen. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        950,
+        959
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        803,
+        825
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Sachverhalt: Kontakt zum Kundendienst. Beschreibung: Kurze Darstellung des Problems: Im Moment k\u00f6nnen unsere Datenanalyse-Tools keine Berichte erstellen. Vermutete Ursachen: M\u00f6glicherweise aufgrund von Software-Kompatibilit\u00e4tsproblemen. Durchgef\u00fchrte L\u00f6sungsversuche: Systemstart neu, Software-Updates \u00fcberpr\u00fcft.\n\nSehr geehrte <name>, wir bedauern, dass Sie Probleme mit Ihren Datenanalyse-Tools haben. Wir haben verstanden, dass Sie bereits Systeme neu gestartet und die Software-Updates \u00fcberpr\u00fcft haben. Um Ihnen behilflich zu sein, m\u00f6chten wir bitten, uns n\u00e4her \u00fcber die Software-Kompatibilit\u00e4tsprobleme zu erz\u00e4hlen, die Sie vermuten. Wir m\u00f6chten dieses Thema n\u00e4her untersuchen und k\u00f6nnen m\u00f6glicherweise mit Ihnen telefonisch in Kontakt treten, um L\u00f6sungen zu besprechen You can reach me at [email].. Teilen Sie uns bitte ein geeignetes Zeitfenster mit, um Sie \u00fcber Ihr Konto <acc_num> telefonisch zu erreichen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

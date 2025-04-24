@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhancing Digital Brand Presence\n\nCustomer Support, exploring inquiries on digital strategies to facilitate brand growth. Would appreciate detailed information on methods to enhance brand awareness and engagement You can reach me at carlosm@gmail.com.. I am keen to learn about the digital marketing approach that could benefit my business. Specifically, I am interested in learning about social media strategies, content creation, and advertising techniques My name is Fatima Al-Farsi.. Please provide relevant information and resources to help me better understand these digital strategies. I look forward to hearing from you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        491,
+        500
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        254,
+        271
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhancing Digital Brand Presence\n\nCustomer Support, exploring inquiries on digital strategies to facilitate brand growth. Would appreciate detailed information on methods to enhance brand awareness and engagement You can reach me at [email].. I am keen to learn about the digital marketing approach that could benefit my business. Specifically, I am interested in learning about social media strategies, content creation, and advertising techniques My name is [full_name]-Farsi.. Please provide relevant information and resources to help me better understand these digital strategies. I look forward to hearing from you.",
+  "category_of_the_email": "Request"
+}

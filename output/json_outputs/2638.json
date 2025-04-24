@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Connectivity Problems\n\nDear customer support, I am encountering intermittent connectivity issues with the project management SaaS application My name is John Doe.. Despite efforts to monitor server performance and clear my cache, the problems continue You can reach me at david.kim@corp.kr.. I suspect network instability or high server load might be the cause. Could you please look into this and provide a solution to resolve the issue?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        172,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        294,
+        311
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Report on Connectivity Problems\n\nDear customer support, I am encountering intermittent connectivity issues with the project management SaaS application My name is [full_name].. Despite efforts to monitor server performance and clear my cache, the problems continue You can reach me at [email].. I suspect network instability or high server load might be the cause. Could you please look into this and provide a solution to resolve the issue?",
+  "category_of_the_email": "Incident"
+}

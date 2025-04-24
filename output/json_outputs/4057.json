@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Login Failures\n\nDear Customer Support, I am encountering occasional login difficulties with the platform. The issue might have been triggered by recent server configuration adjustments. After attempting to restart the affected servers and clearing the cache, the problem still persists You can reach me at david.kim@corp.kr.. Users are unable to log in consistently, which is impeding their ability to use the platform as intended My name is Sophia Rossi.. We kindly request your assistance in resolving this matter as soon as possible to minimize any disruptions to our users. Please investigate the cause of the login failures and provide solution recommendations.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        461,
+        473
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        325,
+        342
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Report on Login Failures\n\nDear Customer Support, I am encountering occasional login difficulties with the platform. The issue might have been triggered by recent server configuration adjustments. After attempting to restart the affected servers and clearing the cache, the problem still persists You can reach me at [email].. Users are unable to log in consistently, which is impeding their ability to use the platform as intended My name is [full_name].. We kindly request your assistance in resolving this matter as soon as possible to minimize any disruptions to our users. Please investigate the cause of the login failures and provide solution recommendations.",
+  "category_of_the_email": "Incident"
+}

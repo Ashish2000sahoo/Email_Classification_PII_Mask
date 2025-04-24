@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema de bateria com o Dell XPS 13\n\nCaro time de suporte da Tech Online Store,\n\nEstou enfrentando um problema de bateria com meu Dell XPS 13 9310. A bateria n\u00e3o est\u00e1 segurando uma carga por mais de 2 horas. Como resultado, isso interrompe significativamente meu trabalho My name is Fatima Al-Farsi.. Solicito gentilmente assist\u00eancia para resolver este problema assim que poss\u00edvel.\n\nPor favor, me avise se alguma informa\u00e7\u00e3o adicional for necess\u00e1ria.\n\nObrigado pela sua aten\u00e7\u00e3o r\u00e1pida.\n\nAtenciosamente,\n<name>\n\nContato: <tel_num> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        303
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        562,
+        579
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        150,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema de bateria com o Dell XPS 13\n\nCaro time de suporte da Tech Online Store,\n\nEstou enfrentando um problema de bateria com meu Dell XPS [phone_number]. A bateria n\u00e3o est\u00e1 segurando uma carga por mais de 2 horas. Como resultado, isso interrompe significativamente meu trabalho My name is [full_name]-Farsi.. Solicito gentilmente assist\u00eancia para resolver este problema assim que poss\u00edvel.\n\nPor favor, me avise se alguma informa\u00e7\u00e3o adicional for necess\u00e1ria.\n\nObrigado pela sua aten\u00e7\u00e3o r\u00e1pida.\n\nAtenciosamente,\n<name>\n\nContato: <tel_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

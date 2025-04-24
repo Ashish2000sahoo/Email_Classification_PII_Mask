@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Integration Features of SaaS Solution with Google Meet and Schoology\n\nI am seeking detailed information on the integration capabilities of the SaaS solution with Google Meet and Schoology You can reach me at david.kim@corp.kr.. Specifically, I am interested in understanding how the solution enhances virtual meetings and online learning experiences. Could you provide details on how the solution allows for seamless scheduling and joining of Google Meet meetings, as well as how it enables the assignment and tracking of assignments within Schoology? Any additional information provided would be greatly appreciated. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        647,
+        661
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        226,
+        243
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Query on Integration Features of SaaS Solution with Google Meet and Schoology\n\nI am seeking detailed information on the integration capabilities of the SaaS solution with Google Meet and Schoology You can reach me at [email].. Specifically, I am interested in understanding how the solution enhances virtual meetings and online learning experiences. Could you provide details on how the solution allows for seamless scheduling and joining of Google Meet meetings, as well as how it enables the assignment and tracking of assignments within Schoology? Any additional information provided would be greatly appreciated. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

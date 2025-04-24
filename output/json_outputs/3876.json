@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with SaaS platform during project sync\n\nThe SaaS platform experienced a crash while syncing a project, which might be related to high resource usage. Steps taken included restarting services, reviewing logs, and updating dependencies.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        272,
+        288
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Issue with SaaS platform during project sync\n\nThe SaaS platform experienced a crash while syncing a project, which might be related to high resource usage. Steps taken included restarting services, reviewing logs, and updating dependencies.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei digitalen Strategie-Problemen\n\nDie Qualit\u00e4t unserer digitalen Strategie-Bearbeitungen hat sich negativ entwickelt, was zu einem deutlichen R\u00fcckgang der Online-Beteiligung gef\u00fchrt hat You can reach me at omar.hassan@secure.net.. Die Missausrichtung der Botschaft auf verschiedenen Plattformen k\u00f6nnte dahinterstecken. Wir haben versucht, den Inhalt zu \u00fcberarbeiten und das Ad-Targeting zu optimieren, aber die Probleme sind weiterhin bestehen geblieben. Ich sch\u00e4tze, dass Ihr Rat uns helfen w\u00fcrde, das Problem zu l\u00f6sen. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        548,
+        562
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        222,
+        244
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei digitalen Strategie-Problemen\n\nDie Qualit\u00e4t unserer digitalen Strategie-Bearbeitungen hat sich negativ entwickelt, was zu einem deutlichen R\u00fcckgang der Online-Beteiligung gef\u00fchrt hat You can reach me at [email].. Die Missausrichtung der Botschaft auf verschiedenen Plattformen k\u00f6nnte dahinterstecken. Wir haben versucht, den Inhalt zu \u00fcberarbeiten und das Ad-Targeting zu optimieren, aber die Probleme sind weiterhin bestehen geblieben. Ich sch\u00e4tze, dass Ihr Rat uns helfen w\u00fcrde, das Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

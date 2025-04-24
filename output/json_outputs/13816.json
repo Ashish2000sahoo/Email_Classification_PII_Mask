@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Elasticsearch Update Resulting in Periodic Failures\n\nI am encountering periodic failures after updating Elasticsearch on my Mac Mini You can reach me at omar.hassan@secure.net.. Restarting hasn't resolved the issue My name is John Doe.. I believe it might be due to compatibility problems. Can you assist me in fixing this issue?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        162,
+        184
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Elasticsearch Update Resulting in Periodic Failures\n\nI am encountering periodic failures after updating Elasticsearch on my Mac Mini You can reach me at [email].. Restarting hasn't resolved the issue My name is [full_name].. I believe it might be due to compatibility problems. Can you assist me in fixing this issue?",
+  "category_of_the_email": "Problem"
+}

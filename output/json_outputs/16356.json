@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Simultaneous Crashes of Several Tools This Morning\n\nSeveral tools crashed simultaneously My name is Elena Ivanova.. This might be related to infrastructure overload. Servers were restarted, logs were checked, and relevant teams were notified You can reach me at elena.ivanova@support.org.. The issue is under investigation and will be resolved promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        109,
+        122
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        269,
+        294
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Simultaneous Crashes of Several Tools This Morning\n\nSeveral tools crashed simultaneously My name is [full_name].. This might be related to infrastructure overload. Servers were restarted, logs were checked, and relevant teams were notified You can reach me at [email].. The issue is under investigation and will be resolved promptly.",
+  "category_of_the_email": "Incident"
+}

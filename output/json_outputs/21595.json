@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent AWS Performance Issues\n\nCustomer experiencing severe performance issues with AWS cloud. Immediate optimization needed for high traffic management.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        200
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Urgent AWS Performance Issues\n\nCustomer experiencing severe performance issues with AWS cloud. Immediate optimization needed for high traffic management.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

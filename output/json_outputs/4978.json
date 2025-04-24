@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Chef PostgreSQL Connection\n\nHello Customer Support, I am facing an issue while integrating Chef with PostgreSQL. The integration encountered problems during data synchronization You can reach me at sophia.rossi@service.it.. I believe this could be due to mismatched API versions or an incorrect setup. Despite restarting the services, reviewing the logs, and validating the credentials, the problem continues. Your assistance in resolving this would be greatly appreciated. Kindly inform me if you require additional details from me. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        567,
+        576
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        220,
+        243
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Chef PostgreSQL Connection\n\nHello Customer Support, I am facing an issue while integrating Chef with PostgreSQL. The integration encountered problems during data synchronization You can reach me at [email].. I believe this could be due to mismatched API versions or an incorrect setup. Despite restarting the services, reviewing the logs, and validating the credentials, the problem continues. Your assistance in resolving this would be greatly appreciated. Kindly inform me if you require additional details from me. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

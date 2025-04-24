@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Invoicing Due to Data Analytics Error\n\nDear customer support, I am writing to report an issue with invoicing errors on multiple products, which are a result of incorrect data analytics integration. Despite reviewing the billing settings and checking the data inputs, the problem has not been resolved. I would greatly appreciate a prompt investigation of this matter and a solution You can reach me at david.kim@corp.kr.. Please let me know if you need any additional information from me. I am available to provide any necessary details or answer any questions you may have. Thank you for your time and assistance in resolving this issue. It is causing delays in our billing process and needs to be resolved as soon as possible. I have checked the data analytics integration and noticed that there is an issue with the way data is processed. Kindly look into this and provide a solution. The error is affecting multiple products and needs to be resolved immediately. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        998,
+        1005
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        422,
+        439
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Invoicing Due to Data Analytics Error\n\nDear customer support, I am writing to report an issue with invoicing errors on multiple products, which are a result of incorrect data analytics integration. Despite reviewing the billing settings and checking the data inputs, the problem has not been resolved. I would greatly appreciate a prompt investigation of this matter and a solution You can reach me at [email].. Please let me know if you need any additional information from me. I am available to provide any necessary details or answer any questions you may have. Thank you for your time and assistance in resolving this issue. It is causing delays in our billing process and needs to be resolved as soon as possible. I have checked the data analytics integration and noticed that there is an issue with the way data is processed. Kindly look into this and provide a solution. The error is affecting multiple products and needs to be resolved immediately. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

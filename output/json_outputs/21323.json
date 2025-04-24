@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incidente con Asistencia de Rendimiento del Servidor\n\nEstimado Soporte de Servicios de TI,\n\nMe pongo en contacto para informar un problema de rendimiento con nuestros servidores relacionado con su Servicio de Consultor\u00eda de TI My name is John Doe.. Por favor, ay\u00fadenos a trav\u00e9s de su sistema de tickets para una pronta resoluci\u00f3n You can reach me at maria.gonzalez@shop.es.. Asegurar soluciones de TI eficientes es crucial para nuestras operaciones.\n\nGracias,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        247,
+        255
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        362,
+        384
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Incidente con Asistencia de Rendimiento del Servidor\n\nEstimado Soporte de Servicios de TI,\n\nMe pongo en contacto para informar un problema de rendimiento con nuestros servidores relacionado con su Servicio de Consultor\u00eda de TI My name is [full_name].. Por favor, ay\u00fadenos a trav\u00e9s de su sistema de tickets para una pronta resoluci\u00f3n You can reach me at [email].. Asegurar soluciones de TI eficientes es crucial para nuestras operaciones.\n\nGracias,\n<name>",
+  "category_of_the_email": "Incident"
+}

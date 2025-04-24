@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Se necesita asistencia de alta prioridad para problemas con Visual Studio Code\n\nEstimado soporte al cliente, estoy enfrentando problemas de depuraci\u00f3n en aplicaciones utilizando Visual Studio Code 1.70 en dispositivos gestionados por RRHH My name is Maria Gonzalez.. Se requiere ayuda inmediata You can reach me at carlosm@gmail.com.. Saludos, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        259,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        321,
+        338
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Se necesita asistencia de alta prioridad para problemas con Visual Studio Code\n\nEstimado soporte al cliente, estoy enfrentando problemas de depuraci\u00f3n en aplicaciones utilizando Visual Studio Code 1.70 en dispositivos gestionados por RRHH My name is [full_name].. Se requiere ayuda inmediata You can reach me at [email].. Saludos, <name>",
+  "category_of_the_email": "Incident"
+}

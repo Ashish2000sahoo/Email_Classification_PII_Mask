@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Billing Structure Details\n\nHello Customer Support, I am reaching out to inquire about the billing structure of the SaaS platform. Could you provide detailed information on the different payment options available? Specifically, I would appreciate it if you could include any discounts for long-term commitments or bulk purchases. Additionally, please let me know about any additional fees for services, support, and maintenance My name is Elena Ivanova.. I am looking forward to hearing back and understanding the pricing model for the platform. Thank you in advance for your assistance. I am looking forward to your response. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        461,
+        474
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        667,
+        689
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Billing Structure Details\n\nHello Customer Support, I am reaching out to inquire about the billing structure of the SaaS platform. Could you provide detailed information on the different payment options available? Specifically, I would appreciate it if you could include any discounts for long-term commitments or bulk purchases. Additionally, please let me know about any additional fees for services, support, and maintenance My name is [full_name].. I am looking forward to hearing back and understanding the pricing model for the platform. Thank you in advance for your assistance. I am looking forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Healthcare Data Security Issues\n\nDear Support Team, I am writing to report a sudden failure of our healthcare data security system. The problem might be due to outdated RAID controller drivers. I have already attempted to restart the server and update Mathematica, but the issue persists. I would appreciate your assistance in providing solutions or guides to resolve this problem. Please notify me if there are any further steps required on my part or if you need additional information. Thank you for your patience and support You can reach me at elena.ivanova@support.org.. I look forward to hearing from you. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        633,
+        642
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        558,
+        583
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Healthcare Data Security Issues\n\nDear Support Team, I am writing to report a sudden failure of our healthcare data security system. The problem might be due to outdated RAID controller drivers. I have already attempted to restart the server and update Mathematica, but the issue persists. I would appreciate your assistance in providing solutions or guides to resolve this problem. Please notify me if there are any further steps required on my part or if you need additional information. Thank you for your patience and support You can reach me at [email].. I look forward to hearing from you. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

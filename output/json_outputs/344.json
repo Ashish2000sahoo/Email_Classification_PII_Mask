@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Pricing Providers and Billing Details for SaaS Project Management Solution\n\nDear Customer Support, I would like to request detailed information about pricing providers and billing periods for the SaaS project management solution. Could you provide more details on different plans, including any potential discounts for long-term commitments or bulk purchases? The billing information, including payment frequency and any associated fees or services, would be greatly appreciated My name is David Kim.. This information will help our team make an informed decision about implementing the solution. Thank you for your time and support You can reach me at liuwei@business.cn.. I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        508,
+        517
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        673,
+        691
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Query on Pricing Providers and Billing Details for SaaS Project Management Solution\n\nDear Customer Support, I would like to request detailed information about pricing providers and billing periods for the SaaS project management solution. Could you provide more details on different plans, including any potential discounts for long-term commitments or bulk purchases? The billing information, including payment frequency and any associated fees or services, would be greatly appreciated My name is [full_name].. This information will help our team make an informed decision about implementing the solution. Thank you for your time and support You can reach me at [email].. I look forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: h\u00e4ufige Software-Crashes in Skype-Verheiten melden\n\nSehr geehrte Kundensupport, ich melde ein Ereignis: Die Skype-Verheiten werden h\u00e4ufig abst\u00fcrzen, was die Produktivit\u00e4t stark beeintr\u00e4chtigt. M\u00f6gliche Gr\u00fcnde f\u00fcr das Problem scheinen Kompatibilit\u00e4tsprobleme mit Docker 20.10 und verschiedenen Audio-Eingabe/Ausgabe-Ger\u00e4ten zu sein My name is Sophia Rossi.. Ich habe versucht, die Ger\u00e4te neu zu starten, die Software zu aktualisieren und die Netzwerkeinstellungen sowie den WLAN-Router zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt seine Existenz You can reach me at david.kim@corp.kr.. Ich sch\u00e4tze es, wenn Sie mir Anweisungen zur L\u00f6sung des Problems geben k\u00f6nnten. Die Crashes st\u00f6ren die Treffen und verursachen Verz\u00f6gerungen bei den Projekten. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        351,
+        363
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        567,
+        584
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        278,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "20.10"
+    }
+  ],
+  "masked_email": "Subject: h\u00e4ufige Software-Crashes in Skype-Verheiten melden\n\nSehr geehrte Kundensupport, ich melde ein Ereignis: Die Skype-Verheiten werden h\u00e4ufig abst\u00fcrzen, was die Produktivit\u00e4t stark beeintr\u00e4chtigt. M\u00f6gliche Gr\u00fcnde f\u00fcr das Problem scheinen Kompatibilit\u00e4tsprobleme mit Docker [phone_number] und verschiedenen Audio-Eingabe/Ausgabe-Ger\u00e4ten zu sein My name is [full_name].. Ich habe versucht, die Ger\u00e4te neu zu starten, die Software zu aktualisieren und die Netzwerkeinstellungen sowie den WLAN-Router zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt seine Existenz You can reach me at [email].. Ich sch\u00e4tze es, wenn Sie mir Anweisungen zur L\u00f6sung des Problems geben k\u00f6nnten. Die Crashes st\u00f6ren die Treffen und verursachen Verz\u00f6gerungen bei den Projekten. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

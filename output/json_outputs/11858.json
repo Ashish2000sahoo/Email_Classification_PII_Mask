@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Website Analysis Dashboard\n\nThe Website Analysis Dashboard is not updating due to a sudden data discrepancy that appeared overnight You can reach me at johndoe@email.com.. This issue might be caused by an API integration error. I have already tried restarting the system and checking the data sources, but the problem persists My name is Jane Smith.. I am looking forward to you addressing this issue and providing a solution as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        361,
+        371
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        175,
+        192
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Website Analysis Dashboard\n\nThe Website Analysis Dashboard is not updating due to a sudden data discrepancy that appeared overnight You can reach me at [email].. This issue might be caused by an API integration error. I have already tried restarting the system and checking the data sources, but the problem persists My name is [full_name].. I am looking forward to you addressing this issue and providing a solution as soon as possible.",
+  "category_of_the_email": "Incident"
+}

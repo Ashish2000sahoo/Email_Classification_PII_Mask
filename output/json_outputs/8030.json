@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Decline in Digital Campaign Metrics\n\nWe have observed a sudden decrease in the performance metrics of our digital campaign. This may be due to recent software updates or configuration changes My name is Elena Ivanova.. We have already attempted to troubleshoot by reviewing recent edits and adjusting targeting settings, but the issue persists. Our team has checked for errors and reviewed analytics data, but we have not been able to identify the root cause You can reach me at david.kim@corp.kr.. We would greatly appreciate your assistance in resolving this matter as soon as possible. Please let us know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        504,
+        521
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Decline in Digital Campaign Metrics\n\nWe have observed a sudden decrease in the performance metrics of our digital campaign. This may be due to recent software updates or configuration changes My name is [full_name].. We have already attempted to troubleshoot by reviewing recent edits and adjusting targeting settings, but the issue persists. Our team has checked for errors and reviewed analytics data, but we have not been able to identify the root cause You can reach me at [email].. We would greatly appreciate your assistance in resolving this matter as soon as possible. Please let us know.",
+  "category_of_the_email": "Incident"
+}

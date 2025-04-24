@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Features of Team Collaboration in Project Management Software\n\nI am interested in learning about the collaboration features available in your team management software as a SaaS solution. Could you provide details on task assignment, progress tracking, and communication tools? Are there any features that enhance teamwork and productivity? I seek a comprehensive tool for managing my team's projects effectively.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        444,
+        459
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Features of Team Collaboration in Project Management Software\n\nI am interested in learning about the collaboration features available in your team management software as a SaaS solution. Could you provide details on task assignment, progress tracking, and communication tools? Are there any features that enhance teamwork and productivity? I seek a comprehensive tool for managing my team's projects effectively.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

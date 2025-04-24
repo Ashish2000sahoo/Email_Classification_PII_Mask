@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Software Crash Issue\n\nHello Customer Support, I am contacting you to report a recent crash of our data analytics software. After our investigation, we found that the crash was due to incompatible updates. Despite our efforts to restart the systems and verify the drivers, the problem still persists. This crash happened during a crucial project, causing substantial delays You can reach me at liuwei@business.cn.. We would greatly appreciate your immediate assistance to address this issue My name is Elena Ivanova.. Please let us know what further steps we can take to resolve it. We are ready to supply any additional information or support needed. We thank you for your quick action and eagerly await your response. Best regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        520,
+        533
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        412,
+        430
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Report on Software Crash Issue\n\nHello Customer Support, I am contacting you to report a recent crash of our data analytics software. After our investigation, we found that the crash was due to incompatible updates. Despite our efforts to restart the systems and verify the drivers, the problem still persists. This crash happened during a crucial project, causing substantial delays You can reach me at [email].. We would greatly appreciate your immediate assistance to address this issue My name is [full_name].. Please let us know what further steps we can take to resolve it. We are ready to supply any additional information or support needed. We thank you for your quick action and eagerly await your response. Best regards.",
+  "category_of_the_email": "Incident"
+}

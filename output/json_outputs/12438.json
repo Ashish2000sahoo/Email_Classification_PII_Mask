@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Reported System Outage\n\nCustomer Support, we are reporting an issue with the report system outage that affected access to our project management tools. The problem may have arisen from a recent software update. Despite attempts to restart affected applications and devices, the issue continues. We would greatly appreciate if you could look into this matter and provide a solution as soon as possible You can reach me at carlosm@gmail.com.. Please let us know if there is any additional information needed to facilitate the resolution of this issue. Thank you for your time and assistance with this matter. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        647,
+        659
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        450,
+        467
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Reported System Outage\n\nCustomer Support, we are reporting an issue with the report system outage that affected access to our project management tools. The problem may have arisen from a recent software update. Despite attempts to restart affected applications and devices, the issue continues. We would greatly appreciate if you could look into this matter and provide a solution as soon as possible You can reach me at [email].. Please let us know if there is any additional information needed to facilitate the resolution of this issue. Thank you for your time and assistance with this matter. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

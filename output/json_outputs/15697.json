@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unexpected Corruption of Digital Campaign Files Today\n\nThe digital campaign files have unexpectedly been corrupted. I have already tried restarting and checking for updates, but the issue persists.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        244
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Corruption of Digital Campaign Files Today\n\nThe digital campaign files have unexpectedly been corrupted. I have already tried restarting and checking for updates, but the issue persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

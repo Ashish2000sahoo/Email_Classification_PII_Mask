@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, I am writing to request enhancements in integration features across the affected products My name is John Doe.. The goal is to streamline project management workflows, making it easier for teams to collaborate and track progress You can reach me at david.kim@corp.kr.. Currently, the lack of seamless integration is causing inefficiencies and delays in projects. I believe that enhancing these features would significantly improve productivity and overall project outcomes. I would appreciate it if you could consider my request and provide an update on the feasibility, potential, and timeline for implementation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        281,
+        298
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, I am writing to request enhancements in integration features across the affected products My name is [full_name].. The goal is to streamline project management workflows, making it easier for teams to collaborate and track progress You can reach me at [email].. Currently, the lack of seamless integration is causing inefficiencies and delays in projects. I believe that enhancing these features would significantly improve productivity and overall project outcomes. I would appreciate it if you could consider my request and provide an update on the feasibility, potential, and timeline for implementation.",
+  "category_of_the_email": "Change"
+}

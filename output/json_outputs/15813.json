@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Error with Digital Marketing Tools\n\nThe digital marketing tools are not functioning properly, automated campaigns are failing, team collaboration is being interrupted. Tried restarting the applications and searching for updates, but the issue persists.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        301
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Error with Digital Marketing Tools\n\nThe digital marketing tools are not functioning properly, automated campaigns are failing, team collaboration is being interrupted. Tried restarting the applications and searching for updates, but the issue persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Digital Marketing Strategy\n\nOur marketing agency is encountering difficulties in executing the digital strategy across various platforms. This might be due to integration challenges with the different technologies we are using You can reach me at omar.hassan@secure.net.. So far, we have tried troubleshooting the Elasticsearch configurations and verifying the SendGrid email settings. We would greatly appreciate your help in resolving this issue to ensure a smooth execution of our digital marketing strategy. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        545,
+        554
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        269,
+        291
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Digital Marketing Strategy\n\nOur marketing agency is encountering difficulties in executing the digital strategy across various platforms. This might be due to integration challenges with the different technologies we are using You can reach me at [email].. So far, we have tried troubleshooting the Elasticsearch configurations and verifying the SendGrid email settings. We would greatly appreciate your help in resolving this issue to ensure a smooth execution of our digital marketing strategy. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

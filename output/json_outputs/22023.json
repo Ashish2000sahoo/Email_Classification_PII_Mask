@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Needed for Touchscreen Issues with Surface\n\nHello Tech Online Store Support Team,\n\nI'm writing to report touchscreen responsiveness issues with my Microsoft Surface Pro 7 You can reach me at janesmith@company.com.. The touchscreen has been unresponsive and intermittently fails to register touch inputs, making it difficult to use the device effectively. I suspect it might be related to outdated Windows 10 drivers as I have not updated recently.\n\nCould you please guide me through updating the necessary drivers or provide any troubleshooting steps to resolve this issue? I would appreciate detailed instructions as I am not very tech-savvy.\n\nFor reference, my account number is <acc_num> and you can reach me at <tel_num>.\n\nThank you for your assistance.\n\nBest regards,\n\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        812,
+        826
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        211,
+        232
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Needed for Touchscreen Issues with Surface\n\nHello Tech Online Store Support Team,\n\nI'm writing to report touchscreen responsiveness issues with my Microsoft Surface Pro 7 You can reach me at [email].. The touchscreen has been unresponsive and intermittently fails to register touch inputs, making it difficult to use the device effectively. I suspect it might be related to outdated Windows 10 drivers as I have not updated recently.\n\nCould you please guide me through updating the necessary drivers or provide any troubleshooting steps to resolve this issue? I would appreciate detailed instructions as I am not very tech-savvy.\n\nFor reference, my account number is <acc_num> and you can reach me at <tel_num>.\n\nThank you for your assistance.\n\nBest regards,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

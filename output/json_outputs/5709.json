@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: System Outage Impacting Vital Applications\n\nSystem outage is disrupting essential applications.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        142
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: System Outage Impacting Vital Applications\n\nSystem outage is disrupting essential applications.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

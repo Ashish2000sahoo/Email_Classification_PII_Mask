@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Revise Marketing Tactics\n\nCustomer support, please update our digital marketing strategies You can reach me at maria.gonzalez@shop.es.. Current strategies are effective but we aim to boost brand growth and enhance our online presence. We would greatly appreciate any new and innovative strategies you can provide to improve our online presence. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        374
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        120,
+        142
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Revise Marketing Tactics\n\nCustomer support, please update our digital marketing strategies You can reach me at [email].. Current strategies are effective but we aim to boost brand growth and enhance our online presence. We would greatly appreciate any new and innovative strategies you can provide to improve our online presence. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

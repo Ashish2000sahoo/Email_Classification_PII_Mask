@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Investment Optimization Services\n\nDear Customer Support, I am writing to request information about the data analytics tools you provide for investment optimization services. Could you please furnish me with a list of the tools and platforms utilized for analyzing investment data and optimizing portfolios? I am especially keen on understanding your approaches to risk management and portfolio optimization. Moreover, I am interested in learning if you offer machine learning or artificial intelligence-driven solutions for investment optimization. If possible, could you also share some case studies or examples of your data analytics tools assisting clients in achieving their investment objectives? Thank you for your time and assistance My name is John Doe.. I eagerly await your response. Best regards, [Your Name] You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        772,
+        780
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        863,
+        885
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Investment Optimization Services\n\nDear Customer Support, I am writing to request information about the data analytics tools you provide for investment optimization services. Could you please furnish me with a list of the tools and platforms utilized for analyzing investment data and optimizing portfolios? I am especially keen on understanding your approaches to risk management and portfolio optimization. Moreover, I am interested in learning if you offer machine learning or artificial intelligence-driven solutions for investment optimization. If possible, could you also share some case studies or examples of your data analytics tools assisting clients in achieving their investment objectives? Thank you for your time and assistance My name is [full_name].. I eagerly await your response. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

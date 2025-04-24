@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung von medizinischen Daten in Gesundheitsdiensten\n\nLieber Kundensupport, ich m\u00f6chte mich erkundigen, wie die besten Methoden zur Verschl\u00fcsselung medizinischer Daten in IT-Infrastrukturen von Gesundheitsdiensten implementiert werden k\u00f6nnen. Da der Gesundheitssektor anstelle fortschreitender Technologien immer mehr abh\u00e4ngt, ist es entscheidend, dass sensible Patientendaten vor Cyber-Angriffen und Datenverlusten gesch\u00fctzt sind. K\u00f6nnen Sie Informationen zu den effektivsten Methoden zur Wertsch\u00e4tzung medizinischer Akten, einschlie\u00dflich Verschl\u00fcsselung, Zugangssteuerungen und Netzwerksicherheitsma\u00dfnahmen, bereitstellen? Zudem freue ich mich auf Anleitungen f\u00fcr die Einhaltung gesetzlicher Anforderungen gem\u00e4\u00df HIPAA You can reach me at johndoe@email.com.. Ich freue mich darauf, von Ihnen zu h\u00f6ren. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        833,
+        842
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        759,
+        776
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung von medizinischen Daten in Gesundheitsdiensten\n\nLieber Kundensupport, ich m\u00f6chte mich erkundigen, wie die besten Methoden zur Verschl\u00fcsselung medizinischer Daten in IT-Infrastrukturen von Gesundheitsdiensten implementiert werden k\u00f6nnen. Da der Gesundheitssektor anstelle fortschreitender Technologien immer mehr abh\u00e4ngt, ist es entscheidend, dass sensible Patientendaten vor Cyber-Angriffen und Datenverlusten gesch\u00fctzt sind. K\u00f6nnen Sie Informationen zu den effektivsten Methoden zur Wertsch\u00e4tzung medizinischer Akten, einschlie\u00dflich Verschl\u00fcsselung, Zugangssteuerungen und Netzwerksicherheitsma\u00dfnahmen, bereitstellen? Zudem freue ich mich auf Anleitungen f\u00fcr die Einhaltung gesetzlicher Anforderungen gem\u00e4\u00df HIPAA You can reach me at [email].. Ich freue mich darauf, von Ihnen zu h\u00f6ren. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

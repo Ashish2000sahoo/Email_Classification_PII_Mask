@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsrisiko\n\nEs wurde eine Sicherheitsverletzung in den Krankenhaus-IT-Systemen festgestellt, die medizinische Daten aufgrund veralteter Software-Vulnerabilit\u00e4ten gef\u00e4hrdet. Die urspr\u00fcnglichen Ma\u00dfnahmen erwiesen sich jedoch als nicht ausreichend.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        284,
+        299
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsrisiko\n\nEs wurde eine Sicherheitsverletzung in den Krankenhaus-IT-Systemen festgestellt, die medizinische Daten aufgrund veralteter Software-Vulnerabilit\u00e4ten gef\u00e4hrdet. Die urspr\u00fcnglichen Ma\u00dfnahmen erwiesen sich jedoch als nicht ausreichend.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

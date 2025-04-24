@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with the Investment Analytics Dashboard\n\nThe dashboard is not updating correctly because of an outdated database schema.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        175
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Problem with the Investment Analytics Dashboard\n\nThe dashboard is not updating correctly because of an outdated database schema.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

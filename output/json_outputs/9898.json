@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Need Assistance with Campaign Support\n\nCurrent digital campaigns are not performing well because of ineffective targeting methods. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Need Assistance with Campaign Support\n\nCurrent digital campaigns are not performing well because of ineffective targeting methods. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

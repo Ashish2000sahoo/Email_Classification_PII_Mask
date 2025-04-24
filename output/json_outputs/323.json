@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Information on Securing Medical Data with AWS in Hospital Systems\n\nSeeking details on securing medical data using AWS hospital systems to ensure HIPAA compliance and protect sensitive patient information.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        264
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for Information on Securing Medical Data with AWS in Hospital Systems\n\nSeeking details on securing medical data using AWS hospital systems to ensure HIPAA compliance and protect sensitive patient information.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

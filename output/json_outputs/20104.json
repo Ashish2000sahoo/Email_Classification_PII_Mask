@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Orientaci\u00f3n sobre servicios de TI\n\nEl cliente busca orientaci\u00f3n sobre administraci\u00f3n de servidores y soluciones de TI.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Orientaci\u00f3n sobre servicios de TI\n\nEl cliente busca orientaci\u00f3n sobre administraci\u00f3n de servidores y soluciones de TI.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

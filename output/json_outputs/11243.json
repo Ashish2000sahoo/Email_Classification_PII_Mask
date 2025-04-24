@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Data Encryption Failure Today\n\nI am currently facing problems with data encryption that suddenly stopped working. I have already attempted to restart my systems and checked my webcam and CPU cooler, but the issue continues You can reach me at elena.ivanova@support.org.. I believe my outdated Adobe Creative Cloud could be the root cause. I would greatly appreciate any help or advice you can offer to resolve this issue. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        453,
+        462
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        263,
+        288
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Data Encryption Failure Today\n\nI am currently facing problems with data encryption that suddenly stopped working. I have already attempted to restart my systems and checked my webcam and CPU cooler, but the issue continues You can reach me at [email].. I believe my outdated Adobe Creative Cloud could be the root cause. I would greatly appreciate any help or advice you can offer to resolve this issue. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

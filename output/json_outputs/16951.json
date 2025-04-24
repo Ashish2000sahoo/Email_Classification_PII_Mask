@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Support Inquiry\n\nExperienced delays in data processing for investment analysis due to an increased volume of data My name is Sophia Rossi.. Restarting the systems and running diagnostics resolved the issue You can reach me at johndoe@email.com.. Assistance is needed to resolve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        139,
+        151
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        239,
+        256
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Data Support Inquiry\n\nExperienced delays in data processing for investment analysis due to an increased volume of data My name is [full_name].. Restarting the systems and running diagnostics resolved the issue You can reach me at [email].. Assistance is needed to resolve the problem.",
+  "category_of_the_email": "Incident"
+}

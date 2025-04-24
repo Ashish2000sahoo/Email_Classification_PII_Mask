@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber einen technischen Fehler an den Kundensupport\n\nSehr geehrte Kundensupport-Team, <br><br>ich schreibe Ihnen, um einen technischen Fehler mit unserer Datenanalyse-Plattform zu melden. Das System brach pl\u00f6tzlich aus, und wir versuchen derzeit die Ursache zu identifizieren. Allerdings gehen wir davon aus, dass es m\u00f6glicherweise auf unkompatibele Software-Updates zur\u00fcckzuf\u00fchren sein k\u00f6nnte, die k\u00fcrzlich installiert wurden. <br><br>Bisher haben wir versucht, die Server neu zu starten und nach Updates zu suchen, aber das Problem beh\u00e4lt sich aus. Wir bef\u00fcrchten, dass dieser Vorfall unsere Gesch\u00e4ftsprozesse beeintr\u00e4chtigt und w\u00fcrden Ihre Hilfe bei der L\u00f6sung des Problems sehr sch\u00e4tzen. <br><br>Ich bitte Sie, sich dies anzusehen und uns eine L\u00f6sung oder Anleitungen zur weiteren Verfolgung zu geben. Wir w\u00fcrden jede Unterst\u00fctzung sehr sch\u00e4tzen, die Sie uns geben k\u00f6nnen, um unser System wieder in Betrieb zu nehmen My name is Fatima Al-Farsi.. <br><br>Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at carlosm@gmail.com.. Wir freuen uns auf eine baldige R\u00fcckmeldung. <br><br>Einen herzlichen Gru\u00df, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        948,
+        957
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1040,
+        1057
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber einen technischen Fehler an den Kundensupport\n\nSehr geehrte Kundensupport-Team, <br><br>ich schreibe Ihnen, um einen technischen Fehler mit unserer Datenanalyse-Plattform zu melden. Das System brach pl\u00f6tzlich aus, und wir versuchen derzeit die Ursache zu identifizieren. Allerdings gehen wir davon aus, dass es m\u00f6glicherweise auf unkompatibele Software-Updates zur\u00fcckzuf\u00fchren sein k\u00f6nnte, die k\u00fcrzlich installiert wurden. <br><br>Bisher haben wir versucht, die Server neu zu starten und nach Updates zu suchen, aber das Problem beh\u00e4lt sich aus. Wir bef\u00fcrchten, dass dieser Vorfall unsere Gesch\u00e4ftsprozesse beeintr\u00e4chtigt und w\u00fcrden Ihre Hilfe bei der L\u00f6sung des Problems sehr sch\u00e4tzen. <br><br>Ich bitte Sie, sich dies anzusehen und uns eine L\u00f6sung oder Anleitungen zur weiteren Verfolgung zu geben. Wir w\u00fcrden jede Unterst\u00fctzung sehr sch\u00e4tzen, die Sie uns geben k\u00f6nnen, um unser System wieder in Betrieb zu nehmen My name is [full_name]-Farsi.. <br><br>Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at [email].. Wir freuen uns auf eine baldige R\u00fcckmeldung. <br><br>Einen herzlichen Gru\u00df, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

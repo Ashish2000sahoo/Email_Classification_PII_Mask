@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Synchronization Across Platforms\n\nDear Customer Service, I am encountering difficulties with several applications failing to synchronize data across different platforms. Server load peaks are indicated during peak traffic times My name is Sophia Rossi.. I have already restarted the applications and cleared the cache, but the issues persist. These problems are causing interruptions in our workflow and require a prompt solution. Could you please investigate this issue and offer a workaround? I look forward to collaborating on finding a resolution. Thank you for your assistance. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        276
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        627,
+        644
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Synchronization Across Platforms\n\nDear Customer Service, I am encountering difficulties with several applications failing to synchronize data across different platforms. Server load peaks are indicated during peak traffic times My name is [full_name].. I have already restarted the applications and cleared the cache, but the issues persist. These problems are causing interruptions in our workflow and require a prompt solution. Could you please investigate this issue and offer a workaround? I look forward to collaborating on finding a resolution. Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

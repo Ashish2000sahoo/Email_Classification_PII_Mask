@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Servi\u00e7o de Garantia\n\nPrezado Suporte ao Cliente da Tech Online Store,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para chamar sua aten\u00e7\u00e3o para um problema preocupante que venho enfrentando com meu laptop Dell XPS 13 9310, que comprei em sua loja. Recentemente, a tela do dispositivo come\u00e7ou a piscar inesperadamente, e esse problema se tornou mais frequente nas \u00faltimas semanas, afetando significativamente minha produtividade e experi\u00eancia do usu\u00e1rio.\n\nDado que o piscar da tela parece sugerir uma poss\u00edvel falha de hardware, espero poder utilizar o servi\u00e7o de garantia para obter assist\u00eancia. Tentei etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como atualizar os drivers da tela e garantir que todo o software do meu dispositivo esteja atualizado, mas infelizmente, essas etapas n\u00e3o resolveram o problema.\n\nAl\u00e9m disso, este laptop ainda est\u00e1 dentro do per\u00edodo de garantia oferecido pela Dell e sua loja, uma vez que foi comprado h\u00e1 menos de seis meses. Portanto, solicito gentilmente orienta\u00e7\u00e3o sobre como processar esta reclama\u00e7\u00e3o atrav\u00e9s do servi\u00e7o de garantia You can reach me at sophia.rossi@service.it.. Estou particularmente interessado em saber quais etapas devo realizar a seguir e se precisarei enviar o laptop para o seu centro de servi\u00e7o ou se pode haver uma resolu\u00e7\u00e3o alternativa.\n\nAl\u00e9m disso, por favor, me avise se for necess\u00e1rio algum documento adicional da minha parte para agilizar a reclama\u00e7\u00e3o ou qualquer informa\u00e7\u00e3o sobre os detalhes da minha compra. Meu n\u00famero do pedido \u00e9 <order_num>, e comprei este laptop em <purchase_date>. O n\u00famero de s\u00e9rie do laptop \u00e9 <serial_num> My name is Carlos Mendoza.. Por favor, entre em contato comigo assim que poss\u00edvel atrav\u00e9s do meu e-mail ou pelo <tel_num>, caso necessite de mais informa\u00e7\u00f5es.\n\nAgrade\u00e7o antecipadamente pela sua ajuda r\u00e1pida neste assunto. Espero resolver este problema rapidamente com a sua ajuda.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1638,
+        1652
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1119,
+        1142
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        252,
+        259
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Servi\u00e7o de Garantia\n\nPrezado Suporte ao Cliente da Tech Online Store,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para chamar sua aten\u00e7\u00e3o para um problema preocupante que venho enfrentando com meu laptop Dell XPS [phone_number], que comprei em sua loja. Recentemente, a tela do dispositivo come\u00e7ou a piscar inesperadamente, e esse problema se tornou mais frequente nas \u00faltimas semanas, afetando significativamente minha produtividade e experi\u00eancia do usu\u00e1rio.\n\nDado que o piscar da tela parece sugerir uma poss\u00edvel falha de hardware, espero poder utilizar o servi\u00e7o de garantia para obter assist\u00eancia. Tentei etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como atualizar os drivers da tela e garantir que todo o software do meu dispositivo esteja atualizado, mas infelizmente, essas etapas n\u00e3o resolveram o problema.\n\nAl\u00e9m disso, este laptop ainda est\u00e1 dentro do per\u00edodo de garantia oferecido pela Dell e sua loja, uma vez que foi comprado h\u00e1 menos de seis meses. Portanto, solicito gentilmente orienta\u00e7\u00e3o sobre como processar esta reclama\u00e7\u00e3o atrav\u00e9s do servi\u00e7o de garantia You can reach me at [email].. Estou particularmente interessado em saber quais etapas devo realizar a seguir e se precisarei enviar o laptop para o seu centro de servi\u00e7o ou se pode haver uma resolu\u00e7\u00e3o alternativa.\n\nAl\u00e9m disso, por favor, me avise se for necess\u00e1rio algum documento adicional da minha parte para agilizar a reclama\u00e7\u00e3o ou qualquer informa\u00e7\u00e3o sobre os detalhes da minha compra. Meu n\u00famero do pedido \u00e9 <order_num>, e comprei este laptop em <purchase_date>. O n\u00famero de s\u00e9rie do laptop \u00e9 <serial_num> My name is [full_name].. Por favor, entre em contato comigo assim que poss\u00edvel atrav\u00e9s do meu e-mail ou pelo <tel_num>, caso necessite de mais informa\u00e7\u00f5es.\n\nAgrade\u00e7o antecipadamente pela sua ajuda r\u00e1pida neste assunto. Espero resolver este problema rapidamente com a sua ajuda.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

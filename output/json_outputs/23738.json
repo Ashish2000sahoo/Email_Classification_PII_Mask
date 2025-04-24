@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: D\u00e9pannage de l'instance AWS\n\nCher support client,\n\nJe m'appelle <name>, et je rencontre des probl\u00e8mes de connectivit\u00e9 intermittents avec mes instances AWS g\u00e9r\u00e9es dans le cadre de votre plan de service de gestion AWS. Ce probl\u00e8me affecte gravement les performances de nos applications d\u00e9ploy\u00e9es You can reach me at johndoe@email.com.. Pourriez-vous s'il vous pla\u00eet m'aider \u00e0 r\u00e9soudre ce probl\u00e8me ? Votre r\u00e9ponse rapide sera grandement appr\u00e9ci\u00e9e.\n\nNotre num\u00e9ro de compte est <acc_num>. N'h\u00e9sitez pas \u00e0 me contacter au <tel_num> pour toute clarification suppl\u00e9mentaire n\u00e9cessaire.\n\nMerci pour votre soutien.\n\nCordialement,\n<name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        647,
+        661
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        323,
+        340
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: D\u00e9pannage de l'instance AWS\n\nCher support client,\n\nJe m'appelle <name>, et je rencontre des probl\u00e8mes de connectivit\u00e9 intermittents avec mes instances AWS g\u00e9r\u00e9es dans le cadre de votre plan de service de gestion AWS. Ce probl\u00e8me affecte gravement les performances de nos applications d\u00e9ploy\u00e9es You can reach me at [email].. Pourriez-vous s'il vous pla\u00eet m'aider \u00e0 r\u00e9soudre ce probl\u00e8me ? Votre r\u00e9ponse rapide sera grandement appr\u00e9ci\u00e9e.\n\nNotre num\u00e9ro de compte est <acc_num>. N'h\u00e9sitez pas \u00e0 me contacter au <tel_num> pour toute clarification suppl\u00e9mentaire n\u00e9cessaire.\n\nMerci pour votre soutien.\n\nCordialement,\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

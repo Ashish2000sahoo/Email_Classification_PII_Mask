@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Sofortige Unterst\u00fctzung bei Netzwerkst\u00f6rungen ben\u00f6tigt\n\nEs gibt eine entscheidende Kommunikationsunterbrechung, die durch den Ausfall des Cisco Routers <ISR4331> verursacht wurde My name is Carlos Mendoza.. Eine schnelle Diagnose ist notwendig, um das Netzwerk wiederherzustellen You can reach me at liuwei@business.cn.. Sofortige Ma\u00dfnahmen sind erforderlich!",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        199,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        306,
+        324
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        165,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Sofortige Unterst\u00fctzung bei Netzwerkst\u00f6rungen ben\u00f6tigt\n\nEs gibt eine entscheidende Kommunikationsunterbrechung, die durch den Ausfall des Cisco Routers <ISR[phone_number]> verursacht wurde My name is [full_name].. Eine schnelle Diagnose ist notwendig, um das Netzwerk wiederherzustellen You can reach me at [email].. Sofortige Ma\u00dfnahmen sind erforderlich!",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me d'acc\u00e8s \u00e0 Outlook\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour demander votre assistance concernant un probl\u00e8me r\u00e9current que je rencontre avec l'acc\u00e8s \u00e0 mon email Outlook. Chaque fois que j'essaie de me connecter, je suis continuellement invit\u00e9 \u00e0 entrer mon mot de passe, malgr\u00e9 le fait que je m'assure qu'il est correct et \u00e0 jour You can reach me at carlosm@gmail.com.. Ce probl\u00e8me concerne mon Microsoft Office 365 : Client email, qui, comme vous pouvez l'appr\u00e9cier, est crucial pour mes op\u00e9rations quotidiennes.\n\nCe message d'invite persistant pour le mot de passe ne perturbe pas seulement mon flux de travail, mais il soul\u00e8ve \u00e9galement des inqui\u00e9tudes quant \u00e0 savoir s'il pourrait y avoir un probl\u00e8me sous-jacent avec mon compte. J'ai essay\u00e9 plusieurs \u00e9tapes de d\u00e9pannage, y compris la r\u00e9initialisation de mon mot de passe et la v\u00e9rification de ma connexion Internet, mais le probl\u00e8me reste non r\u00e9solu. De plus, j'ai veill\u00e9 \u00e0 ce que mon application soit mise \u00e0 jour vers la derni\u00e8re version.\n\nPourriez-vous s'il vous pla\u00eet enqu\u00eater sur ce probl\u00e8me et fournir des conseils sur d'\u00e9ventuelles solutions ? Je suis impatient de r\u00e9soudre cela le plus rapidement possible pour r\u00e9tablir mes niveaux d'efficacit\u00e9 habituels My name is John Doe.. Mon num\u00e9ro de compte est <acc_num>, et j'ai joint toutes les captures d'\u00e9cran d'erreur qui pourraient \u00eatre pertinentes.\n\nN'h\u00e9sitez pas \u00e0 me contacter au <tel_num> si vous avez besoin de plus d'informations ou de clarifications.\n\nMerci pour votre attention \u00e0 ce sujet.\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1256,
+        1264
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        377,
+        394
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        429,
+        432
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me d'acc\u00e8s \u00e0 Outlook\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour demander votre assistance concernant un probl\u00e8me r\u00e9current que je rencontre avec l'acc\u00e8s \u00e0 mon email Outlook. Chaque fois que j'essaie de me connecter, je suis continuellement invit\u00e9 \u00e0 entrer mon mot de passe, malgr\u00e9 le fait que je m'assure qu'il est correct et \u00e0 jour You can reach me at [email].. Ce probl\u00e8me concerne mon Microsoft Office [cvv_no] : Client email, qui, comme vous pouvez l'appr\u00e9cier, est crucial pour mes op\u00e9rations quotidiennes.\n\nCe message d'invite persistant pour le mot de passe ne perturbe pas seulement mon flux de travail, mais il soul\u00e8ve \u00e9galement des inqui\u00e9tudes quant \u00e0 savoir s'il pourrait y avoir un probl\u00e8me sous-jacent avec mon compte. J'ai essay\u00e9 plusieurs \u00e9tapes de d\u00e9pannage, y compris la r\u00e9initialisation de mon mot de passe et la v\u00e9rification de ma connexion Internet, mais le probl\u00e8me reste non r\u00e9solu. De plus, j'ai veill\u00e9 \u00e0 ce que mon application soit mise \u00e0 jour vers la derni\u00e8re version.\n\nPourriez-vous s'il vous pla\u00eet enqu\u00eater sur ce probl\u00e8me et fournir des conseils sur d'\u00e9ventuelles solutions ? Je suis impatient de r\u00e9soudre cela le plus rapidement possible pour r\u00e9tablir mes niveaux d'efficacit\u00e9 habituels My name is [full_name].. Mon num\u00e9ro de compte est <acc_num>, et j'ai joint toutes les captures d'\u00e9cran d'erreur qui pourraient \u00eatre pertinentes.\n\nN'h\u00e9sitez pas \u00e0 me contacter au <tel_num> si vous avez besoin de plus d'informations ou de clarifications.\n\nMerci pour votre attention \u00e0 ce sujet.\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

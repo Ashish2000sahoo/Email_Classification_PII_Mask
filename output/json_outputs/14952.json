@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Dashboard Not Loading\n\nRecently, the dashboard has stopped loading My name is Omar Hassan.. It might be related to a database connectivity issue You can reach me at david.kim@corp.kr.. I have restarted the service and reviewed the server logs.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        100,
+        111
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        187,
+        204
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Dashboard Not Loading\n\nRecently, the dashboard has stopped loading My name is [full_name].. It might be related to a database connectivity issue You can reach me at [email].. I have restarted the service and reviewed the server logs.",
+  "category_of_the_email": "Incident"
+}

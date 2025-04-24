@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Project Management Tools\n\nHello, I am reaching out to inquire about the features of your project management SaaS platform, specifically regarding its capabilities in task assignments, progress tracking, and team collaboration You can reach me at maria.gonzalez@shop.es.. Could you provide information on how the platform assists with these aspects? Additionally, I am particularly interested in learning about the available APIs and third-party integrations that can enhance workflow My name is Elena Ivanova.. Could you also provide details on the pricing models, any available discounts for long-term commitments, and perhaps share some case studies or whitepapers that demonstrate the effectiveness of your platform? Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        516,
+        529
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        267,
+        289
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Project Management Tools\n\nHello, I am reaching out to inquire about the features of your project management SaaS platform, specifically regarding its capabilities in task assignments, progress tracking, and team collaboration You can reach me at [email].. Could you provide information on how the platform assists with these aspects? Additionally, I am particularly interested in learning about the available APIs and third-party integrations that can enhance workflow My name is [full_name].. Could you also provide details on the pricing models, any available discounts for long-term commitments, and perhaps share some case studies or whitepapers that demonstrate the effectiveness of your platform? Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

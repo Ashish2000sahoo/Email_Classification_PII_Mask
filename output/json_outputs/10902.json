@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with Financial Analysis Indicators\n\nFinancial services experiencing unstable performance indicators due to investments. Efforts to optimize data pipelines were unsuccessful.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        227
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Issues with Financial Analysis Indicators\n\nFinancial services experiencing unstable performance indicators due to investments. Efforts to optimize data pipelines were unsuccessful.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

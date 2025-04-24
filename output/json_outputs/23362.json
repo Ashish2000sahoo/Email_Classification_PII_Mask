@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Optimierung von AWS-Ressourcen\n\nSehr geehrte IT-Service-Unterst\u00fctzung,\n\nich schreibe, um Sie \u00fcber erhebliche Herausforderungen zu informieren, die wir bei der Optimierung von AWS-Ressourcen unter dem AWS Management Service erleben You can reach me at carlosm@gmail.com.. Die Kernprobleme drehen sich um ineffektives Kostenmanagement und die Notwendigkeit robuster Strategien zur Anpassung der Infrastruktur. Unser aktuelles Setup erm\u00f6glicht kein effizientes Monitoring und Skalierung, was zu steigenden Kosten und unzureichender Ressourcennutzung f\u00fchrt.\n\nWir ben\u00f6tigen sofortige Unterst\u00fctzung, um Bereiche f\u00fcr Verbesserungen zu identifizieren und unseren Ansatz zum Ressourcenmanagement neu zu formulieren, um reibungslose Abl\u00e4ufe und Kosteneffizienz sicherzustellen. Eine umfassende Bewertung unserer aktuellen AWS-Infrastruktur k\u00f6nnte notwendig sein.\n\nBitte lassen Sie uns wissen, wie wir so schnell wie m\u00f6glich fortfahren k\u00f6nnen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<acc_num>\n<tel_num> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1084,
+        1094
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        277,
+        294
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Optimierung von AWS-Ressourcen\n\nSehr geehrte IT-Service-Unterst\u00fctzung,\n\nich schreibe, um Sie \u00fcber erhebliche Herausforderungen zu informieren, die wir bei der Optimierung von AWS-Ressourcen unter dem AWS Management Service erleben You can reach me at [email].. Die Kernprobleme drehen sich um ineffektives Kostenmanagement und die Notwendigkeit robuster Strategien zur Anpassung der Infrastruktur. Unser aktuelles Setup erm\u00f6glicht kein effizientes Monitoring und Skalierung, was zu steigenden Kosten und unzureichender Ressourcennutzung f\u00fchrt.\n\nWir ben\u00f6tigen sofortige Unterst\u00fctzung, um Bereiche f\u00fcr Verbesserungen zu identifizieren und unseren Ansatz zum Ressourcenmanagement neu zu formulieren, um reibungslose Abl\u00e4ufe und Kosteneffizienz sicherzustellen. Eine umfassende Bewertung unserer aktuellen AWS-Infrastruktur k\u00f6nnte notwendig sein.\n\nBitte lassen Sie uns wissen, wie wir so schnell wie m\u00f6glich fortfahren k\u00f6nnen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<acc_num>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

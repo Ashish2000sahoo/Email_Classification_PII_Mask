@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Security Inquiry\n\nHello Customer Support, I am contacting you to inquire about the security measures in place for medical data on Oracle Database 19c. Could you please let me know the steps taken to ensure the confidentiality, integrity, and availability of sensitive medical data? Are there any specific configurations or settings that should be applied to maintain the security of this data? Moreover, does Oracle Database 19c comply with regulations such as HIPAA? I would greatly appreciate any materials or resources you could provide to assist me in understanding the security features of Oracle Database 19c and their application to safeguard medical data You can reach me at johndoe@email.com.. Thank you for your help. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        761,
+        773
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        705,
+        722
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Security Inquiry\n\nHello Customer Support, I am contacting you to inquire about the security measures in place for medical data on Oracle Database 19c. Could you please let me know the steps taken to ensure the confidentiality, integrity, and availability of sensitive medical data? Are there any specific configurations or settings that should be applied to maintain the security of this data? Moreover, does Oracle Database 19c comply with regulations such as HIPAA? I would greatly appreciate any materials or resources you could provide to assist me in understanding the security features of Oracle Database 19c and their application to safeguard medical data You can reach me at [email].. Thank you for your help. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

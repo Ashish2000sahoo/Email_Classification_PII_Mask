@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, we are experiencing unauthorized access alerts on several devices, which may indicate a security issue. After updating our firewall and performing initial malware scans, the problem still exists You can reach me at janesmith@company.com.. We urgently need your help to resolve this and prevent further security breaches. Could you please provide guidance on the next steps we should take? My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        434,
+        443
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        249,
+        270
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, we are experiencing unauthorized access alerts on several devices, which may indicate a security issue. After updating our firewall and performing initial malware scans, the problem still exists You can reach me at [email].. We urgently need your help to resolve this and prevent further security breaches. Could you please provide guidance on the next steps we should take? My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

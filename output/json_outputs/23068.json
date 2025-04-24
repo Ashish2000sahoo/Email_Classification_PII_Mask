@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Jira Software 8.20 Issue Affecting Project Management\n\nDear Customer Support Team, I am writing to bring to your attention a critical issue we are experiencing with Jira Software version 8.20. Our ticketing system, which is essential for project management scrum activities and team collaboration, is currently down. This issue is causing significant disruption to our operations, and we are unable to effectively track, manage, and review project tasks and progress due to this software problem. Please prioritize addressing this issue urgently as it directly impacts our team's productivity and workflow. Our account number is <acc_num> and our team contact is <name>, who can be reached at <tel_num> for any follow-up information or troubleshooting assistance you might need My name is Elena Ivanova.. We would appreciate an acknowledgment of this email and an estimated timeline for resolution. Thank you for your prompt attention to this matter. Looking forward to your swift action to restore the system functionality You can reach me at carlosm@gmail.com.. Regards, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        806,
+        819
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1059,
+        1076
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Jira Software 8.20 Issue Affecting Project Management\n\nDear Customer Support Team, I am writing to bring to your attention a critical issue we are experiencing with Jira Software version 8.20. Our ticketing system, which is essential for project management scrum activities and team collaboration, is currently down. This issue is causing significant disruption to our operations, and we are unable to effectively track, manage, and review project tasks and progress due to this software problem. Please prioritize addressing this issue urgently as it directly impacts our team's productivity and workflow. Our account number is <acc_num> and our team contact is <name>, who can be reached at <tel_num> for any follow-up information or troubleshooting assistance you might need My name is [full_name].. We would appreciate an acknowledgment of this email and an estimated timeline for resolution. Thank you for your prompt attention to this matter. Looking forward to your swift action to restore the system functionality You can reach me at [email].. Regards, <name>",
+  "category_of_the_email": "Incident"
+}

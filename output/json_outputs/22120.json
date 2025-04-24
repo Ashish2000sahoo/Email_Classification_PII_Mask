@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nIssue with the battery on a MacBook Air M1.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        77,
+        93
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: \n\nIssue with the battery on a MacBook Air M1.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

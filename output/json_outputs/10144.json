@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Concern Over Medical Data Security\n\nCustomer Support, with Incident ID 23456, we have encountered unauthorized access attempts on our medical data systems, which may be due to outdated security measures You can reach me at johndoe@email.com.. Although we have reinforced our firewall settings and are closely monitoring the logs, the issue continues to persist My name is Fatima Al-Farsi.. We kindly request your assistance in resolving this matter to prevent potential data breaches and ensure the security of our medical data systems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        381,
+        390
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        232,
+        249
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        80,
+        85
+      ],
+      "classification": "phone_number",
+      "entity": "23456"
+    }
+  ],
+  "masked_email": "Subject: Concern Over Medical Data Security\n\nCustomer Support, with Incident ID [phone_number], we have encountered unauthorized access attempts on our medical data systems, which may be due to outdated security measures You can reach me at [email].. Although we have reinforced our firewall settings and are closely monitoring the logs, the issue continues to persist My name is [full_name]-Farsi.. We kindly request your assistance in resolving this matter to prevent potential data breaches and ensure the security of our medical data systems.",
+  "category_of_the_email": "Incident"
+}

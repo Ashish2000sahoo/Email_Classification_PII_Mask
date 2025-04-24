@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request from Customer\n\nDear Support Team, we are encountering a critical issue with the system. Following a recent software update, access to medical patient records is becoming an obstacle You can reach me at maria.gonzalez@shop.es.. Despite system restarts and checking user permissions, the problem persists and significantly impacts our ability to treat patients effectively My name is David Kim.. We urgently need assistance to resolve this issue. Could you please provide instructions or arrange for a technician to address this matter?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        407,
+        416
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        227,
+        249
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Request from Customer\n\nDear Support Team, we are encountering a critical issue with the system. Following a recent software update, access to medical patient records is becoming an obstacle You can reach me at [email].. Despite system restarts and checking user permissions, the problem persists and significantly impacts our ability to treat patients effectively My name is [full_name].. We urgently need assistance to resolve this issue. Could you please provide instructions or arrange for a technician to address this matter?",
+  "category_of_the_email": "Incident"
+}

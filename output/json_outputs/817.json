@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierungsmethoden f\u00fcr Anlageanalyse\n\nSehr geehrte Kundensupport, ich wende mich an Sie, um Informationen \u00fcber die von Smart-Tracker zur Anlageanalyse vorgestellten Optimierungsmethoden zu erhalten. K\u00f6nnten Sie mir bitte aufzeigen, welche Herangehensweisen und Techniken zur Optimierung von Anlagenvortr\u00e4gen genutzt werden? Es w\u00e4re mir sehr wertvoll, wenn Sie auch erkl\u00e4ren k\u00f6nnten, wie diese Methoden dazu beitragen k\u00f6nnen, meine Anlageentscheidungen besser zu st\u00fctzen You can reach me at janesmith@company.com.. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob es bestimmte Werkzeuge oder Funktionen in Smart-Tracker gibt, die zur Anlageanalyse und Optimierung beitragen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        815,
+        825
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        501,
+        522
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierungsmethoden f\u00fcr Anlageanalyse\n\nSehr geehrte Kundensupport, ich wende mich an Sie, um Informationen \u00fcber die von Smart-Tracker zur Anlageanalyse vorgestellten Optimierungsmethoden zu erhalten. K\u00f6nnten Sie mir bitte aufzeigen, welche Herangehensweisen und Techniken zur Optimierung von Anlagenvortr\u00e4gen genutzt werden? Es w\u00e4re mir sehr wertvoll, wenn Sie auch erkl\u00e4ren k\u00f6nnten, wie diese Methoden dazu beitragen k\u00f6nnen, meine Anlageentscheidungen besser zu st\u00fctzen You can reach me at [email].. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob es bestimmte Werkzeuge oder Funktionen in Smart-Tracker gibt, die zur Anlageanalyse und Optimierung beitragen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] My name is [full_name].",
+  "category_of_the_email": "Request"
+}

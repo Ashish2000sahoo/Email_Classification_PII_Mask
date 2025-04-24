@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema Urgente de Implanta\u00e7\u00e3o da AWS\n\nCaro Suporte ao Cliente,\n\nEstamos enfrentando um problema de alta prioridade com nossa implanta\u00e7\u00e3o da AWS, causando um tempo de inatividade significativo You can reach me at liuwei@business.cn.. Isso afeta o nosso Servi\u00e7o de Gerenciamento da AWS. Precisamos da sua aten\u00e7\u00e3o imediata para restaurar os servidores My name is Fatima Al-Farsi.. Por favor, trate este assunto com urg\u00eancia.\n\nObrigado,\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        223,
+        241
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problema Urgente de Implanta\u00e7\u00e3o da AWS\n\nCaro Suporte ao Cliente,\n\nEstamos enfrentando um problema de alta prioridade com nossa implanta\u00e7\u00e3o da AWS, causando um tempo de inatividade significativo You can reach me at [email].. Isso afeta o nosso Servi\u00e7o de Gerenciamento da AWS. Precisamos da sua aten\u00e7\u00e3o imediata para restaurar os servidores My name is [full_name]-Farsi.. Por favor, trate este assunto com urg\u00eancia.\n\nObrigado,\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent Upgrade of Data Analytics Tools\n\nNeed help in enhancing the efficiency of investment tracking.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        133,
+        149
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Urgent Upgrade of Data Analytics Tools\n\nNeed help in enhancing the efficiency of investment tracking.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

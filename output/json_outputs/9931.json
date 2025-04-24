@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Performance Issues in Social Media Campaign\n\nThe social media campaign has underperformed because of low engagement My name is Maria Gonzalez.. It might be due to inadequate targeting You can reach me at fatima.farsi@help.com.. Despite modifying the ads, the outcomes remain unsatisfactory. Assistance is needed to find the cause and a solution to boost engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        150
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        210,
+        231
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Performance Issues in Social Media Campaign\n\nThe social media campaign has underperformed because of low engagement My name is [full_name].. It might be due to inadequate targeting You can reach me at [email].. Despite modifying the ads, the outcomes remain unsatisfactory. Assistance is needed to find the cause and a solution to boost engagement.",
+  "category_of_the_email": "Incident"
+}

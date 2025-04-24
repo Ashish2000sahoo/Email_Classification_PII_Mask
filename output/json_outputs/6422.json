@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datensperren-Problem\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich hiermit an Sie wenden, um einen Fall von Datensperren zu melden, der m\u00f6glicherweise auf ein Firewallschwachstelle zur\u00fcckzuf\u00fchren ist You can reach me at sophia.rossi@service.it.. Obwohl ich versucht habe, das Firewall neu zu starten, verschwindet der Fehler nicht My name is Elena Ivanova.. Ich habe das Problem nach Entdeckung ungew\u00f6hnlicher Netzwerkaktivit\u00e4t festgestellt. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie diese Angelegenheit ermitteln und mir so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu \u00fcberwinden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        350,
+        363
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        228,
+        251
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Datensperren-Problem\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich hiermit an Sie wenden, um einen Fall von Datensperren zu melden, der m\u00f6glicherweise auf ein Firewallschwachstelle zur\u00fcckzuf\u00fchren ist You can reach me at [email].. Obwohl ich versucht habe, das Firewall neu zu starten, verschwindet der Fehler nicht My name is [full_name].. Ich habe das Problem nach Entdeckung ungew\u00f6hnlicher Netzwerkaktivit\u00e4t festgestellt. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie diese Angelegenheit ermitteln und mir so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Informieren Sie mich, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu \u00fcberwinden.",
+  "category_of_the_email": "Incident"
+}

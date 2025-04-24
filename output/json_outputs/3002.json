@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Probleme mit Software-Abst\u00fcrzen\n\nUntersuchung von Software-Abst\u00fcrzen bei Investitionsdaten auf Ubuntu 20.04 LTS, m\u00f6glicherweise Kompatibilit\u00e4tsprobleme mit Microsoft Office 2021 und Bitbucket. Nach Neustart der Systeme, Neuinstallation der betroffenen Anwendungen und \u00dcberpr\u00fcfung der Aktualisierungen beh\u00e4lt das Problem bestehen You can reach me at janesmith@company.com.. Bitte helfen Sie bei der L\u00f6sung des Problems. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        448
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        358,
+        379
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        111,
+        116
+      ],
+      "classification": "phone_number",
+      "entity": "20.04"
+    },
+    {
+      "position": [
+        182,
+        186
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Software-Abst\u00fcrzen\n\nUntersuchung von Software-Abst\u00fcrzen bei Investitionsdaten auf Ubuntu [phone_number] LTS, m\u00f6glicherweise Kompatibilit\u00e4tsprobleme mit Microsoft Office [phone_number] und Bitbucket. Nach Neustart der Systeme, Neuinstallation der betroffenen Anwendungen und \u00dcberpr\u00fcfung der Aktualisierungen beh\u00e4lt das Problem bestehen You can reach me at [email].. Bitte helfen Sie bei der L\u00f6sung des Problems. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

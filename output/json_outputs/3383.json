@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme bei der Netzwerkkonnektivit\u00e4t heute\n\nDie Marketing-Agentur erlebt Schwierigkeiten mit der Konnektivit\u00e4t mehrerer Ger\u00e4te und Anwendungen. Die Fehler k\u00f6nnten auf einen Konflikt der Netzwerkkonfigurationssoftware zur\u00fcckzuf\u00fchren sein.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        287
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Netzwerkkonnektivit\u00e4t heute\n\nDie Marketing-Agentur erlebt Schwierigkeiten mit der Konnektivit\u00e4t mehrerer Ger\u00e4te und Anwendungen. Die Fehler k\u00f6nnten auf einen Konflikt der Netzwerkkonfigurationssoftware zur\u00fcckzuf\u00fchren sein.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

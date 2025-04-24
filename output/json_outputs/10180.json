@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: IT-Security Issue Assistance\n\nDear Customer Service, recently unauthorized access to the hospital's IT systems was discovered, which might be due to outdated security protocols. Firewalls have been updated, and system checks have been conducted to identify vulnerabilities. We need assistance to further secure the system and prevent future vulnerabilities My name is Elena Ivanova.. Please provide instructions for the next steps. Thank you for your quick attention to this matter. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        377,
+        390
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        510,
+        535
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: IT-Security Issue Assistance\n\nDear Customer Service, recently unauthorized access to the hospital's IT systems was discovered, which might be due to outdated security protocols. Firewalls have been updated, and system checks have been conducted to identify vulnerabilities. We need assistance to further secure the system and prevent future vulnerabilities My name is [full_name].. Please provide instructions for the next steps. Thank you for your quick attention to this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

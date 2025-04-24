@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nThe hospital system is facing a problem with data access. Currently, the ability to retrieve billing data for patient accounts is unavailable My name is Omar Hassan.. The cause is uncertain but could be related to a recent software update or a potential network security breach. Steps taken so far, such as rebooting the server and verifying user permissions, have not resolved the issue. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        420,
+        442
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nThe hospital system is facing a problem with data access. Currently, the ability to retrieve billing data for patient accounts is unavailable My name is [full_name].. The cause is uncertain but could be related to a recent software update or a potential network security breach. Steps taken so far, such as rebooting the server and verifying user permissions, have not resolved the issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

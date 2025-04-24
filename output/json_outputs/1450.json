@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung von Investitionen durch Analytik\n\nSehr geehrte Kundenservice, ich bitte Sie um detaillierte Anleitungen zur Optimierung von Investitionen und zur Nutzung von Datenanalyse-Tools, die Dienstleistungen in Bezug auf investitionssichere Entscheidungen liefern My name is Elena Ivanova.. Ich bin interessiert, mehr \u00fcber verschiedene Tools und Dienstleistungen zu erfahren, um Marktentwicklungen zu analysieren, die Leistung unserer Investitionen zu \u00fcberwachen und potenzielle Chancen zu identifizieren You can reach me at omar.hassan@secure.net.. Es w\u00e4re sch\u00f6n, wenn Sie Empfehlungen geben k\u00f6nnten, um den Prozess der Datenanalyse und der Investitionsoptimierung zu beginnen. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        288,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        536,
+        558
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung von Investitionen durch Analytik\n\nSehr geehrte Kundenservice, ich bitte Sie um detaillierte Anleitungen zur Optimierung von Investitionen und zur Nutzung von Datenanalyse-Tools, die Dienstleistungen in Bezug auf investitionssichere Entscheidungen liefern My name is [full_name].. Ich bin interessiert, mehr \u00fcber verschiedene Tools und Dienstleistungen zu erfahren, um Marktentwicklungen zu analysieren, die Leistung unserer Investitionen zu \u00fcberwachen und potenzielle Chancen zu identifizieren You can reach me at [email].. Es w\u00e4re sch\u00f6n, wenn Sie Empfehlungen geben k\u00f6nnten, um den Prozess der Datenanalyse und der Investitionsoptimierung zu beginnen. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

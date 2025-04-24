@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Financial Services Interruptions\n\nA financial organization experienced service disruptions impacting various products, which interfered with data analytics for investment optimization. Restarted the affected systems and performed initial diagnostics, but the outages were not resolved.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        330,
+        347
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problem with Financial Services Interruptions\n\nA financial organization experienced service disruptions impacting various products, which interfered with data analytics for investment optimization. Restarted the affected systems and performed initial diagnostics, but the outages were not resolved.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

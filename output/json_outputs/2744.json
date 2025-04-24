@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent Technical Assistance Required\n\nFacing a technical outage due to recent software updates.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent Technical Assistance Required\n\nFacing a technical outage due to recent software updates.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

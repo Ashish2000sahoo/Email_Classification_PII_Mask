@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Solicitud de cambio para el plan de suscripci\u00f3n de Office 365\n\nHola Servicio al Cliente,\n\nEstoy escribiendo para solicitar un cambio en mi actual plan de suscripci\u00f3n de Microsoft Office 365. Estoy interesado en actualizar para incluir almacenamiento en la nube adicional y las \u00faltimas actualizaciones para el cliente de correo electr\u00f3nico. Adem\u00e1s, me gustar\u00eda entender c\u00f3mo este cambio podr\u00eda afectar el costo total.\n\nMi n\u00famero de cuenta es <acc_num>, y mi n\u00famero de tel\u00e9fono es <tel_num> My name is Liu Wei.. Por favor, h\u00e1ganme saber qu\u00e9 informaci\u00f3n necesitan de m\u00ed para procesar este cambio.\n\nGracias por su asistencia.\n\nSaludos cordiales,\n\n<name> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        509,
+        516
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        683,
+        705
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        67,
+        70
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        195,
+        198
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de cambio para el plan de suscripci\u00f3n de Office [cvv_no]\n\nHola Servicio al Cliente,\n\nEstoy escribiendo para solicitar un cambio en mi actual plan de suscripci\u00f3n de Microsoft Office [cvv_no]. Estoy interesado en actualizar para incluir almacenamiento en la nube adicional y las \u00faltimas actualizaciones para el cliente de correo electr\u00f3nico. Adem\u00e1s, me gustar\u00eda entender c\u00f3mo este cambio podr\u00eda afectar el costo total.\n\nMi n\u00famero de cuenta es <acc_num>, y mi n\u00famero de tel\u00e9fono es <tel_num> My name is [full_name].. Por favor, h\u00e1ganme saber qu\u00e9 informaci\u00f3n necesitan de m\u00ed para procesar este cambio.\n\nGracias por su asistencia.\n\nSaludos cordiales,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

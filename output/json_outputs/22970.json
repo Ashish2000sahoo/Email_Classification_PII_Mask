@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Netzteil GS108\n\nHallo,\n\nich erlebe h\u00e4ufige Verbindungsunterbrechungen und nicht reagierende Ports an meinem Netgear Switch GS108, den ich letzten Monat gekauft habe. Bitte geben Sie mir Ratschl\u00e4ge zu den Fehlersuche-Schritten My name is Maria Gonzalez.. Sie k\u00f6nnen mich \u00fcber meine E-Mail erreichen, und meine Bestellnummer ist <acc_num>.\n\nDanke,\n<name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        272
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        391,
+        409
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Netzteil GS108\n\nHallo,\n\nich erlebe h\u00e4ufige Verbindungsunterbrechungen und nicht reagierende Ports an meinem Netgear Switch GS108, den ich letzten Monat gekauft habe. Bitte geben Sie mir Ratschl\u00e4ge zu den Fehlersuche-Schritten My name is [full_name].. Sie k\u00f6nnen mich \u00fcber meine E-Mail erreichen, und meine Bestellnummer ist <acc_num>.\n\nDanke,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

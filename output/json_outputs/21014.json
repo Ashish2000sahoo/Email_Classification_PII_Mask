@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problema inesperado de desconexi\u00f3n de red\n\nEstimado cliente de servicios de TI,\n\nEstoy escribiendo para llamar su atenci\u00f3n sobre un problema repentino de desconexi\u00f3n de red que hemos estado experimentando con nuestro enrutador Cisco modelo ISR4331. Recientemente, hemos observado que el enrutador se desconecta intermitentemente de la red y muestra luces indicadoras parpadeantes, lo que sugiere posibles problemas de rendimiento.\n\nNuestro equipo t\u00e9cnico inspeccion\u00f3 el dispositivo a fondo, pero no pudo identificar ninguna falla de hardware visible. Esto ha causado una interrupci\u00f3n significativa en nuestras operaciones y estamos interesados en resolverlo lo antes posible.\n\nLe solicitamos amablemente su asistencia experta para despachar un t\u00e9cnico para inspeccionar el enrutador en el lugar o ofrecer diagn\u00f3sticos y soporte remoto. Nuestra empresa depende en gran medida de la conectividad de red ininterrumpida, y resolver este problema es de importancia inmediata para nosotros.\n\nPor favor, h\u00e1ganos saber los pr\u00f3ximos pasos que debemos seguir para acelerar este proceso My name is Maria Gonzalez.. Si necesita informaci\u00f3n adicional para la soluci\u00f3n de problemas, no dude en ponerse en contacto conmigo en <tel_num>.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>\nN\u00famero de cuenta: <acc_num> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1096,
+        1110
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1345,
+        1367
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        252,
+        256
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Problema inesperado de desconexi\u00f3n de red\n\nEstimado cliente de servicios de TI,\n\nEstoy escribiendo para llamar su atenci\u00f3n sobre un problema repentino de desconexi\u00f3n de red que hemos estado experimentando con nuestro enrutador Cisco modelo ISR[phone_number]. Recientemente, hemos observado que el enrutador se desconecta intermitentemente de la red y muestra luces indicadoras parpadeantes, lo que sugiere posibles problemas de rendimiento.\n\nNuestro equipo t\u00e9cnico inspeccion\u00f3 el dispositivo a fondo, pero no pudo identificar ninguna falla de hardware visible. Esto ha causado una interrupci\u00f3n significativa en nuestras operaciones y estamos interesados en resolverlo lo antes posible.\n\nLe solicitamos amablemente su asistencia experta para despachar un t\u00e9cnico para inspeccionar el enrutador en el lugar o ofrecer diagn\u00f3sticos y soporte remoto. Nuestra empresa depende en gran medida de la conectividad de red ininterrumpida, y resolver este problema es de importancia inmediata para nosotros.\n\nPor favor, h\u00e1ganos saber los pr\u00f3ximos pasos que debemos seguir para acelerar este proceso My name is [full_name].. Si necesita informaci\u00f3n adicional para la soluci\u00f3n de problemas, no dude en ponerse en contacto conmigo en <tel_num>.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>\nN\u00famero de cuenta: <acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

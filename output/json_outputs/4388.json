@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Security Breach\n\nIncident of unauthorized access has compromised the security of medical data. Passwords have been strengthened and antivirus software has been updated.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        215
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Security Breach\n\nIncident of unauthorized access has compromised the security of medical data. Passwords have been strengthened and antivirus software has been updated.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

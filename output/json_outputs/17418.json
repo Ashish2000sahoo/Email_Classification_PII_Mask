@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Markenwachstum Strategies\n\nWould it be possible to provide more insights and recommendations on digital strategies to promote Markenwachstum? Looking forward to hearing your suggestions and advice You can reach me at fatima.farsi@help.com.. Many thanks for your time and support My name is Jane Smith.. I am looking forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        311,
+        321
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        238,
+        259
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Markenwachstum Strategies\n\nWould it be possible to provide more insights and recommendations on digital strategies to promote Markenwachstum? Looking forward to hearing your suggestions and advice You can reach me at [email].. Many thanks for your time and support My name is [full_name].. I am looking forward to hearing from you soon.",
+  "category_of_the_email": "Request"
+}

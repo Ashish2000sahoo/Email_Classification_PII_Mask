@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Frequent Paper Jams with Canon PIXMA MG3620\n\nDear Customer Support, I am reaching out to address an issue I've been facing with my Canon PIXMA MG3620 printer purchased from your store. Recently, I have encountered frequent paper jams while performing duplex printing You can reach me at carlosm@gmail.com.. This problem disrupts my workflow, and I suspect it might be a defect with the printer model. Could you please provide guidance on the steps I should take to resolve this issue? Is there any troubleshooting I can try? Additionally, could you let me know if there are options for a replacement or repair under warranty? Thank you for your assistance My name is Carlos Mendoza.. Best regards, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        676,
+        690
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        296,
+        313
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        48,
+        52
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        154,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Frequent Paper Jams with Canon PIXMA MG[phone_number]\n\nDear Customer Support, I am reaching out to address an issue I've been facing with my Canon PIXMA MG[phone_number] printer purchased from your store. Recently, I have encountered frequent paper jams while performing duplex printing You can reach me at [email].. This problem disrupts my workflow, and I suspect it might be a defect with the printer model. Could you please provide guidance on the steps I should take to resolve this issue? Is there any troubleshooting I can try? Additionally, could you let me know if there are options for a replacement or repair under warranty? Thank you for your assistance My name is [full_name].. Best regards, <name>.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Digital Campaign Launch\n\nI am contacting you to report a problem with our digital campaigns. Despite attempts to restart the systems and verify the settings, the campaigns have not launched successfully You can reach me at omar.hassan@secure.net.. I suspect this might be due to software compatibility problems My name is Jane Smith.. Could you please assist me in resolving this issue and getting the campaigns operational? If there is any further information you need from me to look into this, please let me know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        353
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        244,
+        266
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issues with Digital Campaign Launch\n\nI am contacting you to report a problem with our digital campaigns. Despite attempts to restart the systems and verify the settings, the campaigns have not launched successfully You can reach me at [email].. I suspect this might be due to software compatibility problems My name is [full_name].. Could you please assist me in resolving this issue and getting the campaigns operational? If there is any further information you need from me to look into this, please let me know.",
+  "category_of_the_email": "Incident"
+}

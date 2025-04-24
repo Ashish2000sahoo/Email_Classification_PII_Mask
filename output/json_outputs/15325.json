@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenge with Project Timelines Syncing\n\nGreetings Customer Support, I am contacting you to address the problem I am encountering with project timelines that are not syncing. I suspect that this may be due to integration issues You can reach me at janesmith@company.com.. Despite my previous attempts to resolve this by restarting the system and reviewing the settings, the problem still remains. Could you please investigate this and furnish me with a solution at the earliest? Your assistance in this matter would be greatly appreciated. Also, please inform me if there is any supplementary information you require from me to address this issue. Kindly notify me as soon as possible My name is Sophia Rossi.. Thanks for your attention and cooperation. I eagerly await your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        706,
+        718
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        258,
+        279
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Challenge with Project Timelines Syncing\n\nGreetings Customer Support, I am contacting you to address the problem I am encountering with project timelines that are not syncing. I suspect that this may be due to integration issues You can reach me at [email].. Despite my previous attempts to resolve this by restarting the system and reviewing the settings, the problem still remains. Could you please investigate this and furnish me with a solution at the earliest? Your assistance in this matter would be greatly appreciated. Also, please inform me if there is any supplementary information you require from me to address this issue. Kindly notify me as soon as possible My name is [full_name].. Thanks for your attention and cooperation. I eagerly await your prompt response.",
+  "category_of_the_email": "Incident"
+}

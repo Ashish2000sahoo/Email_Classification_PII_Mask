@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Website Analytics Tracking Code\n\nThe tracking code for website analytics has ceased to function. It might be a result of the wrong code implementation or a clash with a recent update My name is Omar Hassan.. I have already reviewed the code and the browser console logs, yet the problem remains unresolved. I would be grateful if you could examine this issue and offer a resolution at the earliest convenience. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        227
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        453,
+        474
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Website Analytics Tracking Code\n\nThe tracking code for website analytics has ceased to function. It might be a result of the wrong code implementation or a clash with a recent update My name is [full_name].. I have already reviewed the code and the browser console logs, yet the problem remains unresolved. I would be grateful if you could examine this issue and offer a resolution at the earliest convenience. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

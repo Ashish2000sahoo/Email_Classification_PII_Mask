@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Project Automation Features\n\nHello Customer Support, I would like to request more details on the integration process for ClickUp with RapidMiner and PyTorch to improve our project automation and workflow optimization. This integration has the potential to significantly boost our team's productivity and efficiency. Kindly share the necessary information and guidance My name is Omar Hassan.. I look forward to your response You can reach me at maria.gonzalez@shop.es.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        396,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        462,
+        484
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhance Project Automation Features\n\nHello Customer Support, I would like to request more details on the integration process for ClickUp with RapidMiner and PyTorch to improve our project automation and workflow optimization. This integration has the potential to significantly boost our team's productivity and efficiency. Kindly share the necessary information and guidance My name is [full_name].. I look forward to your response You can reach me at [email].. Thank you for your support.",
+  "category_of_the_email": "Request"
+}

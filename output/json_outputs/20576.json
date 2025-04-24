@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zum Austausch des Samsung QLED QN90A\n\nSehr geehrter Kundenservice,\n\nich habe k\u00fcrzlich den Samsung QLED QN90A gekauft You can reach me at johndoe@email.com.. Leider entspricht die Gr\u00f6\u00dfe nicht meinen Platzanforderungen. Ich m\u00f6chte wissen, wie der Prozess f\u00fcr den Austausch dieses Modells gegen ein Modell aussieht, das besser zu meinen Bed\u00fcrfnissen passt. Ich glaube, eine andere Gr\u00f6\u00dfe w\u00e4re geeigneter.\n\nBitte informieren Sie mich, wie ich fortfahren kann.\n\nVielen Dank,\n\n<name>\n\n<tel_num>\n\n<acc_num> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        527,
+        541
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        154,
+        171
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zum Austausch des Samsung QLED QN90A\n\nSehr geehrter Kundenservice,\n\nich habe k\u00fcrzlich den Samsung QLED QN90A gekauft You can reach me at [email].. Leider entspricht die Gr\u00f6\u00dfe nicht meinen Platzanforderungen. Ich m\u00f6chte wissen, wie der Prozess f\u00fcr den Austausch dieses Modells gegen ein Modell aussieht, das besser zu meinen Bed\u00fcrfnissen passt. Ich glaube, eine andere Gr\u00f6\u00dfe w\u00e4re geeigneter.\n\nBitte informieren Sie mich, wie ich fortfahren kann.\n\nVielen Dank,\n\n<name>\n\n<tel_num>\n\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

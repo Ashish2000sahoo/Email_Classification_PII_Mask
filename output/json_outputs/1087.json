@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Jenkins Build Failed with Error\n\nRespected Customer Support, I am contacting you to address a problem with the Jenkins build that has failed owing to a Git integration error. It is possible that this error is caused by an incompatibility between the Git version and the Jenkins plugin You can reach me at maria.gonzalez@shop.es.. I have already attempted restarting Jenkins, updating Git to version 2.32, and reviewing the logs, but the issue still exists. I would be grateful for any support in addressing this issue. Please inform me if you need more details or logs to help investigate the problem My name is Liu Wei.. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        621,
+        628
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        314,
+        336
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Jenkins Build Failed with Error\n\nRespected Customer Support, I am contacting you to address a problem with the Jenkins build that has failed owing to a Git integration error. It is possible that this error is caused by an incompatibility between the Git version and the Jenkins plugin You can reach me at [email].. I have already attempted restarting Jenkins, updating Git to version 2.32, and reviewing the logs, but the issue still exists. I would be grateful for any support in addressing this issue. Please inform me if you need more details or logs to help investigate the problem My name is [full_name].. Thank you for your time and assistance.",
+  "category_of_the_email": "Incident"
+}

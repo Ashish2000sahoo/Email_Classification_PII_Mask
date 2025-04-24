@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Problem with Investment Data Analysis Software\n\nHello Customer Support, I am encountering difficulties with the investment data analysis tool, which has stopped functioning without warning. I have already attempted to restart the system and update the software, but the issue remains unresolved. I believe there might be a problem with software compatibility My name is Omar Hassan.. Could you please assist me in addressing this issue? I have tried some basic troubleshooting steps but need additional help. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        389,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        548,
+        569
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Problem with Investment Data Analysis Software\n\nHello Customer Support, I am encountering difficulties with the investment data analysis tool, which has stopped functioning without warning. I have already attempted to restart the system and update the software, but the issue remains unresolved. I believe there might be a problem with software compatibility My name is [full_name].. Could you please assist me in addressing this issue? I have tried some basic troubleshooting steps but need additional help. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

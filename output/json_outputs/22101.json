@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Billing Dispute Issue\n\nDear Customer Support,\n\nI hope this message finds you well. I'm writing to address a billing dispute regarding the renewal of my Office 365 subscription. I was incorrectly charged for both Excel and Email services. This subscription is linked to account number <acc_num>. I believe the incorrect charge appeared on my latest statement dated <date>. I would appreciate your prompt assistance in resolving this billing issue. You can reach me at <tel_num> or reply to this email for further discussion You can reach me at maria.gonzalez@shop.es.. Thank you for your attention.\n\nSincerely,\n<name> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        637,
+        651
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        552,
+        574
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        168,
+        171
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Billing Dispute Issue\n\nDear Customer Support,\n\nI hope this message finds you well. I'm writing to address a billing dispute regarding the renewal of my Office [cvv_no] subscription. I was incorrectly charged for both Excel and Email services. This subscription is linked to account number <acc_num>. I believe the incorrect charge appeared on my latest statement dated <date>. I would appreciate your prompt assistance in resolving this billing issue. You can reach me at <tel_num> or reply to this email for further discussion You can reach me at [email].. Thank you for your attention.\n\nSincerely,\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

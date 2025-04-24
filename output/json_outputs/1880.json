@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Improve Security Measures for Medical Data\n\nRequest to enhance security protocols for managing medical data within hospital systems to ensure the protection of patient information and to prevent cyber threats.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        241,
+        257
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Improve Security Measures for Medical Data\n\nRequest to enhance security protocols for managing medical data within hospital systems to ensure the protection of patient information and to prevent cyber threats.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

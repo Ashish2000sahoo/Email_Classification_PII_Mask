@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Unterst\u00fctzung anbieten\n\nHabe Schwierigkeiten bei der Integration von digitalen Strategien auf verschiedenen Plattformen. Es k\u00f6nnte Kompatibilit\u00e4tskonflikte aufgrund neuer Updates entstanden sein. Bislang wurden die Systeme neugestartet und die Softwareversionen \u00fcberpr\u00fcft, aber eine L\u00f6sung wurde bisher nicht gefunden My name is John Doe.. Ich freue mich sehr, eine L\u00f6sung f\u00fcr Ihr Problem zu finden You can reach me at janesmith@company.com.. Bitte geben Sie mehr Details zu den genutzten Plattformen und den Softwareversionen. Es w\u00e4re hilfreich, wenn Sie mir die Fehlermeldungen zur Verf\u00fcgung stellen. Diese Informationen helfen mir, das Problem besser zu verstehen und eine effektivere L\u00f6sung anzubieten. Es w\u00e4re gut, wenn Sie sich am bestehenden Zeitpunkt bei mir melden k\u00f6nnten, um weiterzudenken. Sollten Sie verf\u00fcgbar sein, k\u00f6nnen Sie sich gerne an <tel_num> wenden, und lassen Sie mich bitte Ihre Verf\u00fcgbarkeit wissen, um eine Verbindung unter <acc_num> herzustellen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        440,
+        461
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Digitale Unterst\u00fctzung anbieten\n\nHabe Schwierigkeiten bei der Integration von digitalen Strategien auf verschiedenen Plattformen. Es k\u00f6nnte Kompatibilit\u00e4tskonflikte aufgrund neuer Updates entstanden sein. Bislang wurden die Systeme neugestartet und die Softwareversionen \u00fcberpr\u00fcft, aber eine L\u00f6sung wurde bisher nicht gefunden My name is [full_name].. Ich freue mich sehr, eine L\u00f6sung f\u00fcr Ihr Problem zu finden You can reach me at [email].. Bitte geben Sie mehr Details zu den genutzten Plattformen und den Softwareversionen. Es w\u00e4re hilfreich, wenn Sie mir die Fehlermeldungen zur Verf\u00fcgung stellen. Diese Informationen helfen mir, das Problem besser zu verstehen und eine effektivere L\u00f6sung anzubieten. Es w\u00e4re gut, wenn Sie sich am bestehenden Zeitpunkt bei mir melden k\u00f6nnten, um weiterzudenken. Sollten Sie verf\u00fcgbar sein, k\u00f6nnen Sie sich gerne an <tel_num> wenden, und lassen Sie mich bitte Ihre Verf\u00fcgbarkeit wissen, um eine Verbindung unter <acc_num> herzustellen.",
+  "category_of_the_email": "Incident"
+}

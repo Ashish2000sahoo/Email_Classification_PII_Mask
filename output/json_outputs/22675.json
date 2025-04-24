@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Dringend: Sofortige Aufmerksamkeit f\u00fcr das gemeldete Papierstausystemproblem mit Canon PIXMA MG3620 erforderlich\n\nSehr geehrtes Support-Team, ich habe einen Papierstau mit meinem Canon PIXMA MG3620 festgestellt You can reach me at fatima.farsi@help.com.. Ich bitte um Ihre Unterst\u00fctzung. Freundliche Gr\u00fc\u00dfe, <name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        343
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        240,
+        261
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        104,
+        108
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        202,
+        206
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Dringend: Sofortige Aufmerksamkeit f\u00fcr das gemeldete Papierstausystemproblem mit Canon PIXMA MG[phone_number] erforderlich\n\nSehr geehrtes Support-Team, ich habe einen Papierstau mit meinem Canon PIXMA MG[phone_number] festgestellt You can reach me at [email].. Ich bitte um Ihre Unterst\u00fctzung. Freundliche Gr\u00fc\u00dfe, <name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

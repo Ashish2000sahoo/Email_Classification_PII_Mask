@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versp\u00e4tete Erneuerung mehrerer App-Abonnements\n\nSehr geehrte Kundensupport, ich melde mir an, um einen Fehler mit meinen App-Abonnements zu melden You can reach me at johndoe@email.com.. Mehrere Abonnements konnten nicht automatisch erneuert werden und ich bin besorgt um die m\u00f6gliche Beeintr\u00e4chtigung meiner Dienste. Nach einer Untersuchung des Problems bin ich zu dem Schluss gekommen, dass der m\u00f6gliche Ursache ein abgelaufenes Zahlungsmittel sein k\u00f6nnte. Ich habe versucht, meine Zahlungsinformationen und meinen Abonnementstatus zu \u00fcberpr\u00fcfen, aber das Problem beharrt nach wie vor My name is Elena Ivanova.. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich mit diesem Thema befassen und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte teilen Sie mich mit, wenn es weitere Schritte f\u00fcr die L\u00f6sung des Problems gibt. Ich stehe Ihnen gerne zur Verf\u00fcgung, um weitere Informationen bereitzustellen, falls n\u00f6tig. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        607,
+        620
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        176,
+        193
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Versp\u00e4tete Erneuerung mehrerer App-Abonnements\n\nSehr geehrte Kundensupport, ich melde mir an, um einen Fehler mit meinen App-Abonnements zu melden You can reach me at [email].. Mehrere Abonnements konnten nicht automatisch erneuert werden und ich bin besorgt um die m\u00f6gliche Beeintr\u00e4chtigung meiner Dienste. Nach einer Untersuchung des Problems bin ich zu dem Schluss gekommen, dass der m\u00f6gliche Ursache ein abgelaufenes Zahlungsmittel sein k\u00f6nnte. Ich habe versucht, meine Zahlungsinformationen und meinen Abonnementstatus zu \u00fcberpr\u00fcfen, aber das Problem beharrt nach wie vor My name is [full_name].. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich mit diesem Thema befassen und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte teilen Sie mich mit, wenn es weitere Schritte f\u00fcr die L\u00f6sung des Problems gibt. Ich stehe Ihnen gerne zur Verf\u00fcgung, um weitere Informationen bereitzustellen, falls n\u00f6tig. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "category_of_the_email": "Incident"
+}

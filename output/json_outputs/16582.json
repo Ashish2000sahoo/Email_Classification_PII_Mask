@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SAP ERP Integration\n\nSehr geehrte Kundensupport, ich m\u00f6chte mich \u00fcber die Integration von SAP ERP in unser Projektmanagement SaaS-System informieren. K\u00f6nnten Sie mir mehr Informationen dazu geben? Ich w\u00fcrde gerne wissen, welche Vorteile, Anforderungen und Schritte erforderlich sind, um die Integrationsprozedur durchzuf\u00fchren My name is Jane Smith.. Insbesondere interessiert mich die Datensynchronisierung und die Workflowautomatisierung You can reach me at omar.hassan@secure.net.. Gibt es Fallstudien oder Dokumentationen, die ich mir ansehen kann? Ich freue mich auf Ihre R\u00fcckmeldung und die M\u00f6glichkeit, wie wir unsere Projektmanagementf\u00e4higkeiten durch diese Integration verbessern k\u00f6nnen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Freundliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        346,
+        356
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        469,
+        491
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: SAP ERP Integration\n\nSehr geehrte Kundensupport, ich m\u00f6chte mich \u00fcber die Integration von SAP ERP in unser Projektmanagement SaaS-System informieren. K\u00f6nnten Sie mir mehr Informationen dazu geben? Ich w\u00fcrde gerne wissen, welche Vorteile, Anforderungen und Schritte erforderlich sind, um die Integrationsprozedur durchzuf\u00fchren My name is [full_name].. Insbesondere interessiert mich die Datensynchronisierung und die Workflowautomatisierung You can reach me at [email].. Gibt es Fallstudien oder Dokumentationen, die ich mir ansehen kann? Ich freue mich auf Ihre R\u00fcckmeldung und die M\u00f6glichkeit, wie wir unsere Projektmanagementf\u00e4higkeiten durch diese Integration verbessern k\u00f6nnen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Freundliche Gr\u00fc\u00dfe, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

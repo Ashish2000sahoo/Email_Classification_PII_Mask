@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Betreff: Anfrage Kundendienst\n\nDie digitale Strategie des Markenagenturs scheint das Markenwachstum nicht ausreichend zu f\u00f6rdern My name is Carlos Mendoza.. Die entwickelten Strategien k\u00f6nnten die Pr\u00e4ferenzen des Zielpublics nicht ausreichend ber\u00fccksichtigen. Nach der Analyse der Leistungsdaten wurden Verbesserungen in den Werbekampagnen festgestellt You can reach me at johndoe@email.com.. Ich bitte um Unterst\u00fctzung, um die Ursache des Problems zu identifizieren und m\u00f6gliche L\u00f6sungen zu erarbeiten, um unsere digitalen Markenstrategien zu verbessern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        379,
+        396
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Betreff: Anfrage Kundendienst\n\nDie digitale Strategie des Markenagenturs scheint das Markenwachstum nicht ausreichend zu f\u00f6rdern My name is [full_name].. Die entwickelten Strategien k\u00f6nnten die Pr\u00e4ferenzen des Zielpublics nicht ausreichend ber\u00fccksichtigen. Nach der Analyse der Leistungsdaten wurden Verbesserungen in den Werbekampagnen festgestellt You can reach me at [email].. Ich bitte um Unterst\u00fctzung, um die Ursache des Problems zu identifizieren und m\u00f6gliche L\u00f6sungen zu erarbeiten, um unsere digitalen Markenstrategien zu verbessern.",
+  "category_of_the_email": "Incident"
+}

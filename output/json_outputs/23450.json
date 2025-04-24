@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Vorfall mit Serverleistungsunterst\u00fctzung\n\nSehr geehrter IT-Service-Support,\n\nich m\u00f6chte ein Leistungsproblem mit unseren Servern im Zusammenhang mit Ihrem IT-Beratungsdienst melden My name is Liu Wei.. Bitte unterst\u00fctzen Sie uns \u00fcber Ihr Ticketsystem f\u00fcr eine schnelle L\u00f6sung You can reach me at liuwei@business.cn.. Die Gew\u00e4hrleistung effizienter IT-L\u00f6sungen ist entscheidend f\u00fcr unsere Abl\u00e4ufe.\n\nDanke,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        309,
+        327
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Vorfall mit Serverleistungsunterst\u00fctzung\n\nSehr geehrter IT-Service-Support,\n\nich m\u00f6chte ein Leistungsproblem mit unseren Servern im Zusammenhang mit Ihrem IT-Beratungsdienst melden My name is [full_name].. Bitte unterst\u00fctzen Sie uns \u00fcber Ihr Ticketsystem f\u00fcr eine schnelle L\u00f6sung You can reach me at [email].. Die Gew\u00e4hrleistung effizienter IT-L\u00f6sungen ist entscheidend f\u00fcr unsere Abl\u00e4ufe.\n\nDanke,\n<name>",
+  "category_of_the_email": "Incident"
+}

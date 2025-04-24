@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber ungenaue Investment-Prognose-Issue\n\nEs gibt Probleme mit ungenauen Investment-Prognosen, die auf Ungerechtigkeiten in der Datenanalyse-Modellierung zur\u00fcckzuf\u00fchren sind. Die veralteten Algorithmen scheinen die Ursache zu sein. Versuche, das Modell neu zu kalibrieren und die Datenquellen zu \u00fcberpr\u00fcfen, haben gemischte Ergebnisse gebracht My name is David Kim.. Wir ben\u00f6tigen Unterst\u00fctzung, um das Problem so schnell wie m\u00f6glich zu l\u00f6sen. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        482,
+        507
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber ungenaue Investment-Prognose-Issue\n\nEs gibt Probleme mit ungenauen Investment-Prognosen, die auf Ungerechtigkeiten in der Datenanalyse-Modellierung zur\u00fcckzuf\u00fchren sind. Die veralteten Algorithmen scheinen die Ursache zu sein. Versuche, das Modell neu zu kalibrieren und die Datenquellen zu \u00fcberpr\u00fcfen, haben gemischte Ergebnisse gebracht My name is [full_name].. Wir ben\u00f6tigen Unterst\u00fctzung, um das Problem so schnell wie m\u00f6glich zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

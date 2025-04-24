@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Data Analytics Across Several Platforms\n\nOur company is currently facing data analytics issues across various platforms, which is disrupting our investment optimization processes My name is David Kim.. These issues might have arisen from incompatible software updates or outdated systems You can reach me at liuwei@business.cn.. Our attempts to resolve the problem by restarting the systems and updating the applications have been unsuccessful. We urgently require your assistance to address this issue and prevent any further disruptions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        211,
+        220
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        331,
+        349
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issues with Data Analytics Across Several Platforms\n\nOur company is currently facing data analytics issues across various platforms, which is disrupting our investment optimization processes My name is [full_name].. These issues might have arisen from incompatible software updates or outdated systems You can reach me at [email].. Our attempts to resolve the problem by restarting the systems and updating the applications have been unsuccessful. We urgently require your assistance to address this issue and prevent any further disruptions.",
+  "category_of_the_email": "Incident"
+}

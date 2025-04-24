@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Investment Analysis Tools\n\nOngoing difficulties with the integration of software products persist.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investment Analysis Tools\n\nOngoing difficulties with the integration of software products persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

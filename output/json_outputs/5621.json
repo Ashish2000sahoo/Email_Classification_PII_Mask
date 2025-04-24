@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Vanishing of Project Timelines Issue\n\nProject timelines vanished without any apparent reason during the night You can reach me at janesmith@company.com.. There might be an integration problem with SAP ERP. I have already restarted my workstation and verified the connection to the VPN router, but the issue still exists. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        352,
+        366
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        150,
+        171
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Vanishing of Project Timelines Issue\n\nProject timelines vanished without any apparent reason during the night You can reach me at [email].. There might be an integration problem with SAP ERP. I have already restarted my workstation and verified the connection to the VPN router, but the issue still exists. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

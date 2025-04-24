@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Ticket de Incidente de Alta Prioridad\n\nEstimado equipo de soporte de servicios de TI,\n\nLes escribo para llamar su atenci\u00f3n sobre un ticket de incidente de alta prioridad relacionado con un router Cisco ISR4331 que no funciona You can reach me at johndoe@email.com.. Este problema est\u00e1 causando considerables interrupciones en la red y problemas de conectividad que afectan nuestras operaciones. Nuestro equipo depende en gran medida de un acceso a la red estable para las tareas diarias, y las interrupciones continuas plantean desaf\u00edos significativos a nuestra productividad. Debido a la naturaleza cr\u00edtica de este problema, priorizamos encontrar una soluci\u00f3n urgentemente para prevenir cualquier impacto adicional en nuestras operaciones My name is Liu Wei.. Por favor, aceleren el proceso de soluci\u00f3n de problemas y resoluci\u00f3n para asegurar un tiempo de inactividad m\u00ednimo. Inf\u00f3rmenos sobre los pr\u00f3ximos pasos o cualquier informaci\u00f3n adicional que necesiten de nuestra parte. Gracias por su pronta atenci\u00f3n a este asunto. Esperamos una resoluci\u00f3n r\u00e1pida.\n\nSaludos cordiales,\n<name>\n<name> Technologies\n<tel_num>\n<name>@<name>.com",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        760,
+        767
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        255,
+        272
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        214,
+        218
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Ticket de Incidente de Alta Prioridad\n\nEstimado equipo de soporte de servicios de TI,\n\nLes escribo para llamar su atenci\u00f3n sobre un ticket de incidente de alta prioridad relacionado con un router Cisco ISR[phone_number] que no funciona You can reach me at [email].. Este problema est\u00e1 causando considerables interrupciones en la red y problemas de conectividad que afectan nuestras operaciones. Nuestro equipo depende en gran medida de un acceso a la red estable para las tareas diarias, y las interrupciones continuas plantean desaf\u00edos significativos a nuestra productividad. Debido a la naturaleza cr\u00edtica de este problema, priorizamos encontrar una soluci\u00f3n urgentemente para prevenir cualquier impacto adicional en nuestras operaciones My name is [full_name].. Por favor, aceleren el proceso de soluci\u00f3n de problemas y resoluci\u00f3n para asegurar un tiempo de inactividad m\u00ednimo. Inf\u00f3rmenos sobre los pr\u00f3ximos pasos o cualquier informaci\u00f3n adicional que necesiten de nuestra parte. Gracias por su pronta atenci\u00f3n a este asunto. Esperamos una resoluci\u00f3n r\u00e1pida.\n\nSaludos cordiales,\n<name>\n<name> Technologies\n<tel_num>\n<name>@<name>.com",
+  "category_of_the_email": "Incident"
+}

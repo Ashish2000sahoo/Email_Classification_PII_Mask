@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Ca\u00eddas frecuentes en el navegador Google Chrome\n\nEstimado servicio de atenci\u00f3n al cliente de Tech Online Store,\n\nEspero que este correo le encuentre bien. Mi nombre es <name>, y escribo para llamar su atenci\u00f3n sobre un problema que he estado experimentando con el navegador Google Chrome 102.0 adquirido a trav\u00e9s de su plataforma. Durante las \u00faltimas semanas, el navegador ha estado fallando repetidamente, afectando significativamente mi capacidad para navegar por internet y completar tareas importantes en l\u00ednea de manera eficiente.\n\nUtilizo Google Chrome extensivamente para mis actividades diarias, como investigaci\u00f3n en l\u00ednea, acceso a materiales educativos, gesti\u00f3n de documentos de trabajo y comunicaci\u00f3n a trav\u00e9s de m\u00faltiples aplicaciones web You can reach me at elena.ivanova@support.org.. Sin embargo, estas ca\u00eddas frecuentes se han vuelto m\u00e1s disruptivas, ocurriendo al menos tres o cuatro veces al d\u00eda, a menudo sin previo aviso o raz\u00f3n aparente. La experiencia es frustrante y ya ha resultado en p\u00e9rdida de datos durante tareas no guardadas. He intentado varios pasos de soluci\u00f3n de problemas para resolver el problema, incluyendo limpiar la cach\u00e9, deshabilitar extensiones, realizar verificaciones antivirus y asegurarme de que el navegador est\u00e9 actualizado con los \u00faltimos parches. Lamentablemente, estos esfuerzos no han aliviado el problema.\n\nDado el papel cr\u00edtico que el navegador juega en mi trabajo y vida personal, busco su orientaci\u00f3n o una posible resoluci\u00f3n. Si hay problemas de compatibilidad conocidos entre Google Chrome 102.0 y ciertos sistemas operativos o software, o si hay una configuraci\u00f3n espec\u00edfica que necesita ajustarse, \u00bfpodr\u00eda por favor aconsejarme sobre c\u00f3mo proceder?\n\nPor favor, prioricen esta solicitud, ya que afecta mi productividad y capacidad para cumplir con los plazos. H\u00e1game saber si necesita m\u00e1s detalles sobre mi sistema operativo o alg\u00fan mensaje de error espec\u00edfico encontrado My name is John Doe.. Puede comunicarse conmigo en <tel_num> o respondiendo a este correo.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1952,
+        1960
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        781,
+        806
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        297,
+        300
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    },
+    {
+      "position": [
+        1540,
+        1543
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Ca\u00eddas frecuentes en el navegador Google Chrome\n\nEstimado servicio de atenci\u00f3n al cliente de Tech Online Store,\n\nEspero que este correo le encuentre bien. Mi nombre es <name>, y escribo para llamar su atenci\u00f3n sobre un problema que he estado experimentando con el navegador Google Chrome [cvv_no].0 adquirido a trav\u00e9s de su plataforma. Durante las \u00faltimas semanas, el navegador ha estado fallando repetidamente, afectando significativamente mi capacidad para navegar por internet y completar tareas importantes en l\u00ednea de manera eficiente.\n\nUtilizo Google Chrome extensivamente para mis actividades diarias, como investigaci\u00f3n en l\u00ednea, acceso a materiales educativos, gesti\u00f3n de documentos de trabajo y comunicaci\u00f3n a trav\u00e9s de m\u00faltiples aplicaciones web You can reach me at [email].. Sin embargo, estas ca\u00eddas frecuentes se han vuelto m\u00e1s disruptivas, ocurriendo al menos tres o cuatro veces al d\u00eda, a menudo sin previo aviso o raz\u00f3n aparente. La experiencia es frustrante y ya ha resultado en p\u00e9rdida de datos durante tareas no guardadas. He intentado varios pasos de soluci\u00f3n de problemas para resolver el problema, incluyendo limpiar la cach\u00e9, deshabilitar extensiones, realizar verificaciones antivirus y asegurarme de que el navegador est\u00e9 actualizado con los \u00faltimos parches. Lamentablemente, estos esfuerzos no han aliviado el problema.\n\nDado el papel cr\u00edtico que el navegador juega en mi trabajo y vida personal, busco su orientaci\u00f3n o una posible resoluci\u00f3n. Si hay problemas de compatibilidad conocidos entre Google Chrome [cvv_no].0 y ciertos sistemas operativos o software, o si hay una configuraci\u00f3n espec\u00edfica que necesita ajustarse, \u00bfpodr\u00eda por favor aconsejarme sobre c\u00f3mo proceder?\n\nPor favor, prioricen esta solicitud, ya que afecta mi productividad y capacidad para cumplir con los plazos. H\u00e1game saber si necesita m\u00e1s detalles sobre mi sistema operativo o alg\u00fan mensaje de error espec\u00edfico encontrado My name is [full_name].. Puede comunicarse conmigo en <tel_num> o respondiendo a este correo.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

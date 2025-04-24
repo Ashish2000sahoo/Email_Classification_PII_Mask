@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Data Analytics Dashboard Issue\n\nI am encountering problems with the data analytics dashboard, which has crashed unexpectedly due to errors during data processing. This might be due to recently installed incompatible software updates You can reach me at janesmith@company.com.. Despite restarting systems and updating them, the issue is still not resolved. I would greatly appreciate your assistance in resolving this problem. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        465,
+        474
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        281,
+        302
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Data Analytics Dashboard Issue\n\nI am encountering problems with the data analytics dashboard, which has crashed unexpectedly due to errors during data processing. This might be due to recently installed incompatible software updates You can reach me at [email].. Despite restarting systems and updating them, the issue is still not resolved. I would greatly appreciate your assistance in resolving this problem. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

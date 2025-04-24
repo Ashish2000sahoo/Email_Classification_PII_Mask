@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Message Regarding Technical Issues with Applications\n\nDuring the upload of data, crashes are occurring in multiple applications.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        175
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Message Regarding Technical Issues with Applications\n\nDuring the upload of data, crashes are occurring in multiple applications.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

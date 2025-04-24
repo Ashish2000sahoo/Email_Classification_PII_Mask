@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: M\u00f6glicher Datensperrproblem bei Gesundheitsdienstleistern\n\nEin Gesundheitsdienstleister hat ein potenzielles Datensperrproblem gemeldet, bei dem die Sicherheit medizinischer Daten beeintr\u00e4chtigt wird You can reach me at maria.gonzalez@shop.es.. Dies scheint auf veraltete Sicherheitsprotokolle zur\u00fcckzuf\u00fchren sein. Eine vorl\u00e4ufige Analyse mit Scan f\u00fcr Schwachstellen wurde durchgef\u00fchrt My name is Elena Ivanova.. Es wird gebeten, in der weiteren Ermittlung des Problems unterst\u00fctzen zu helfen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        406,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        229,
+        251
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: M\u00f6glicher Datensperrproblem bei Gesundheitsdienstleistern\n\nEin Gesundheitsdienstleister hat ein potenzielles Datensperrproblem gemeldet, bei dem die Sicherheit medizinischer Daten beeintr\u00e4chtigt wird You can reach me at [email].. Dies scheint auf veraltete Sicherheitsprotokolle zur\u00fcckzuf\u00fchren sein. Eine vorl\u00e4ufige Analyse mit Scan f\u00fcr Schwachstellen wurde durchgef\u00fchrt My name is [full_name].. Es wird gebeten, in der weiteren Ermittlung des Problems unterst\u00fctzen zu helfen.",
+  "category_of_the_email": "Incident"
+}

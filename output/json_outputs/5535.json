@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Incident of Medical Data Encryption\n\nThere was an unexpected failure in medical data encryption, likely due to an incompatibility with an Adobe Photoshop update. After restarting Debian servers and reviewing Bitbucket backups, the problem is still unresolved.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        306
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Incident of Medical Data Encryption\n\nThere was an unexpected failure in medical data encryption, likely due to an incompatibility with an Adobe Photoshop update. After restarting Debian servers and reviewing Bitbucket backups, the problem is still unresolved.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

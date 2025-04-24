@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Investment Portfolio Optimization Delay\n\nThere has been a delay in optimizing the investment portfolio due to a potential issue with the data feed. Although we attempted to restart the analytics system, the problem still persists.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        277
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Investment Portfolio Optimization Delay\n\nThere has been a delay in optimizing the investment portfolio due to a potential issue with the data feed. Although we attempted to restart the analytics system, the problem still persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

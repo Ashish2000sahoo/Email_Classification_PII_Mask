@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Campaign Analytics Dashboard\n\nDear Customer Support, <br><br>I am contacting you to report that the campaign analytics dashboard has not been loading correctly My name is Sophia Rossi.. I think this could be because of a misconfiguration in the GitHub integration or a conflict with my Avast security software. <br><br>Having already restarted my system and run a malware scan with Malwarebytes, the problem still persists. I would really appreciate any help you can offer to resolve this. <br><br>Could you please let me know if there are any further steps I can take or if you need any additional details from me? <br><br>Thank you for your time and support. <br><br>Sincerely, <br>[Your Name] You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        203
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        735,
+        758
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Issue with Campaign Analytics Dashboard\n\nDear Customer Support, <br><br>I am contacting you to report that the campaign analytics dashboard has not been loading correctly My name is [full_name].. I think this could be because of a misconfiguration in the GitHub integration or a conflict with my Avast security software. <br><br>Having already restarted my system and run a malware scan with Malwarebytes, the problem still persists. I would really appreciate any help you can offer to resolve this. <br><br>Could you please let me know if there are any further steps I can take or if you need any additional details from me? <br><br>Thank you for your time and support. <br><br>Sincerely, <br>[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

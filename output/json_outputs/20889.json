@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Change Subscription Request\n\nDear Tech Online Store Support Team, \n\nI hope this message finds you well. I am writing to request a change in my current Microsoft Office 365 subscription plan You can reach me at janesmith@company.com.. Presently, I am subscribed to the Basic services; however, I am interested in upgrading to the Premium services to better suit my usage requirements. \n\nPlease let me know the process involved in making this change and any potential impact it may have on my current account, <acc_num>. Additionally, if there are any promotions or discounts applicable to the Premium plan, I would appreciate further information. \n\nKindly contact me at your earliest convenience with the steps to proceed. You can reach me at my email or phone number, <tel_num>. \n\nThank you for your assistance My name is Omar Hassan.. \n\nBest regards, \n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        831,
+        842
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        219,
+        240
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        177,
+        180
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Change Subscription Request\n\nDear Tech Online Store Support Team, \n\nI hope this message finds you well. I am writing to request a change in my current Microsoft Office [cvv_no] subscription plan You can reach me at [email].. Presently, I am subscribed to the Basic services; however, I am interested in upgrading to the Premium services to better suit my usage requirements. \n\nPlease let me know the process involved in making this change and any potential impact it may have on my current account, <acc_num>. Additionally, if there are any promotions or discounts applicable to the Premium plan, I would appreciate further information. \n\nKindly contact me at your earliest convenience with the steps to proceed. You can reach me at my email or phone number, <tel_num>. \n\nThank you for your assistance My name is [full_name].. \n\nBest regards, \n\n<name>",
+  "category_of_the_email": "Request"
+}

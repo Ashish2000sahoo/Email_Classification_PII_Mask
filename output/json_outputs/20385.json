@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Defekter Dell XPS 13 9310 erhalten - Austausch oder Erstattung\n\nSehr geehrter Kundenservice,\n\nVor Kurzem habe ich einen Dell XPS 13 9310 aus Ihrem Shop erhalten, allerdings ist dieser defekt. W\u00e4ren Sie so freundlich, einen Austausch oder eine Erstattung zu veranlassen? Meine Bestellnummer lautet <order_num> My name is Liu Wei.. Sie k\u00f6nnen mich unter <tel_num> f\u00fcr weitere Informationen erreichen.\n\nVielen Dank,\n<name> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        336
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        453,
+        474
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        27,
+        34
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        138,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Defekter Dell XPS [phone_number] erhalten - Austausch oder Erstattung\n\nSehr geehrter Kundenservice,\n\nVor Kurzem habe ich einen Dell XPS [phone_number] aus Ihrem Shop erhalten, allerdings ist dieser defekt. W\u00e4ren Sie so freundlich, einen Austausch oder eine Erstattung zu veranlassen? Meine Bestellnummer lautet <order_num> My name is [full_name].. Sie k\u00f6nnen mich unter <tel_num> f\u00fcr weitere Informationen erreichen.\n\nVielen Dank,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

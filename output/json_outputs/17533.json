@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Update Server Configuration\n\nHi customer support, I am writing to request an update on server configurations to improve performance during peak usage times You can reach me at johndoe@email.com.. The current configuration is causing slow loading times and negatively impacting user experience. I would like to request that server resources be increased to handle high traffic. This could include upgrading RAM, CPU, and adding a server cluster My name is Liu Wei.. I would appreciate it if the update could be done without affecting the existing services. Please let me know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        464,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        185,
+        202
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Update Server Configuration\n\nHi customer support, I am writing to request an update on server configurations to improve performance during peak usage times You can reach me at [email].. The current configuration is causing slow loading times and negatively impacting user experience. I would like to request that server resources be increased to handle high traffic. This could include upgrading RAM, CPU, and adding a server cluster My name is [full_name].. I would appreciate it if the update could be done without affecting the existing services. Please let me know.",
+  "category_of_the_email": "Incident"
+}

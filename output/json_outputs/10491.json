@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit den Projektterminsgrenzen\n\nDie Projektterminsgrenzen aktualisieren sich nicht korrekt, da die PHP 8.0-Integration unkompatibel ist. Ich habe den Server neu gestartet und die aktualisierten Code\u00e4nderungen \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bei.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        308
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit den Projektterminsgrenzen\n\nDie Projektterminsgrenzen aktualisieren sich nicht korrekt, da die PHP 8.0-Integration unkompatibel ist. Ich habe den Server neu gestartet und die aktualisierten Code\u00e4nderungen \u00fcberpr\u00fcft, aber das Problem beh\u00e4lt sich bei.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

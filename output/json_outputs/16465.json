@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Problem with Database Link\n\nThe team has run into a database connection problem while accessing project data via the SaaS platform. This issue might have arisen from recent updates to Microsoft SQL Server 2019 and MySQL 8.0, which could affect compatibility My name is Liu Wei.. We have already attempted to restart the database services and examined any recent configuration changes, but the problem still persists You can reach me at elena.ivanova@support.org.. We would greatly appreciate your prompt assistance in resolving this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        285
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        449,
+        474
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        214,
+        218
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: Problem with Database Link\n\nThe team has run into a database connection problem while accessing project data via the SaaS platform. This issue might have arisen from recent updates to Microsoft SQL Server [phone_number] and MySQL 8.0, which could affect compatibility My name is [full_name].. We have already attempted to restart the database services and examined any recent configuration changes, but the problem still persists You can reach me at [email].. We would greatly appreciate your prompt assistance in resolving this matter.",
+  "category_of_the_email": "Incident"
+}

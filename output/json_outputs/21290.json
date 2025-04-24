@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dell XPS 13 \u00dcberhitzungsproblem\n\nHallo Kundenservice des Tech Online Stores,\n\nIch schreibe, um mein Anliegen \u00fcber ein Problem auszudr\u00fccken, das ich derzeit mit einem Produkt habe, das ich in Ihrem Gesch\u00e4ft gekauft habe, dem Dell XPS 13 9310 Laptop My name is Liu Wei.. Obwohl ich den Laptop unter typischen Arbeitslasten benutze und sicherstelle, dass er innerhalb der empfohlenen Richtlinien betrieben wird, habe ich festgestellt, dass er h\u00e4ufig \u00fcberhitzt.\n\nDiese \u00dcberhitzung tritt sogar bei grundlegenden Aufgaben wie dem Surfen im Internet und der Arbeit mit Textverarbeitungsprogrammen auf, was meiner Meinung nach das System nicht stark belasten sollte. Ich habe versucht, die Energieeinstellungen anzupassen und sichergestellt, dass alle Treiber und Software auf dem neuesten Stand sind, aber das Problem besteht weiterhin.\n\nIch w\u00e4re Ihnen sehr dankbar f\u00fcr jede Unterst\u00fctzung oder Anleitung, die Sie bereitstellen k\u00f6nnen, um dieses Problem zu beheben You can reach me at janesmith@company.com.. Es ist mir wichtig, dies so schnell wie m\u00f6glich zu kl\u00e4ren, da der Laptop f\u00fcr meine Arbeit entscheidend ist.\n\nDanke f\u00fcr Ihre Hilfe.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        268,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        990,
+        1011
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        242,
+        249
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Dell XPS 13 \u00dcberhitzungsproblem\n\nHallo Kundenservice des Tech Online Stores,\n\nIch schreibe, um mein Anliegen \u00fcber ein Problem auszudr\u00fccken, das ich derzeit mit einem Produkt habe, das ich in Ihrem Gesch\u00e4ft gekauft habe, dem Dell XPS [phone_number] Laptop My name is [full_name].. Obwohl ich den Laptop unter typischen Arbeitslasten benutze und sicherstelle, dass er innerhalb der empfohlenen Richtlinien betrieben wird, habe ich festgestellt, dass er h\u00e4ufig \u00fcberhitzt.\n\nDiese \u00dcberhitzung tritt sogar bei grundlegenden Aufgaben wie dem Surfen im Internet und der Arbeit mit Textverarbeitungsprogrammen auf, was meiner Meinung nach das System nicht stark belasten sollte. Ich habe versucht, die Energieeinstellungen anzupassen und sichergestellt, dass alle Treiber und Software auf dem neuesten Stand sind, aber das Problem besteht weiterhin.\n\nIch w\u00e4re Ihnen sehr dankbar f\u00fcr jede Unterst\u00fctzung oder Anleitung, die Sie bereitstellen k\u00f6nnen, um dieses Problem zu beheben You can reach me at [email].. Es ist mir wichtig, dies so schnell wie m\u00f6glich zu kl\u00e4ren, da der Laptop f\u00fcr meine Arbeit entscheidend ist.\n\nDanke f\u00fcr Ihre Hilfe.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Problem"
+}

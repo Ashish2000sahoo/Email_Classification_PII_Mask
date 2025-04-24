@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Medical Data Encryption Failure\n\nTo the support team, here is a detailed account of the issue: Medical data encryption unexpectedly failed You can reach me at omar.hassan@secure.net.. It seems possible that recent software updates might be the cause. Despite attempting to restart systems and reviewing firewall settings, the problem continues My name is Sophia Rossi.. I urgently need your assistance to address this to avoid data breaches or losses. Could you help pinpoint the underlying issue and suggest measures to ensure the security of our medical data?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        394
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        186,
+        208
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Medical Data Encryption Failure\n\nTo the support team, here is a detailed account of the issue: Medical data encryption unexpectedly failed You can reach me at [email].. It seems possible that recent software updates might be the cause. Despite attempting to restart systems and reviewing firewall settings, the problem continues My name is [full_name].. I urgently need your assistance to address this to avoid data breaches or losses. Could you help pinpoint the underlying issue and suggest measures to ensure the security of our medical data?",
+  "category_of_the_email": "Incident"
+}

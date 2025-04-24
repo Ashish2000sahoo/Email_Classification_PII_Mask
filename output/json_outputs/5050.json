@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Aktualisierung des Rechnungsstellungsmethodenautomatisierungs-Prozesses\n\nIch bitte um die Aktualisierung des Rechnungsstellungsmethodenautomatisierungs-Prozesses f\u00fcr die finanzielle Analyse-Plattform You can reach me at omar.hassan@secure.net.. Dies soll zu einer besseren Optimierung der Investitionen und einer erh\u00f6hten Berichterstattungsgenauigkeit f\u00fchren My name is Sophia Rossi.. Bitte geben Sie die n\u00e4chsten Schritte zur Umsetzung dieser Aktualisierung an.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        391,
+        403
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        241,
+        263
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Aktualisierung des Rechnungsstellungsmethodenautomatisierungs-Prozesses\n\nIch bitte um die Aktualisierung des Rechnungsstellungsmethodenautomatisierungs-Prozesses f\u00fcr die finanzielle Analyse-Plattform You can reach me at [email].. Dies soll zu einer besseren Optimierung der Investitionen und einer erh\u00f6hten Berichterstattungsgenauigkeit f\u00fchren My name is [full_name].. Bitte geben Sie die n\u00e4chsten Schritte zur Umsetzung dieser Aktualisierung an.",
+  "category_of_the_email": "Change"
+}

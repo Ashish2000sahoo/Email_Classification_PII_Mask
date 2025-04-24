@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Information on Scalability Features\n\nWhile contacting Customer Support, I inquired about the scalability features of the SaaS platform that your company offers for project management. Could you provide detailed information on how the platform adapts to growing project demands, manages increased user traffic, data storage, and workflow complexity? I am particularly interested in learning about the automated scaling options, load balancing, and performance optimization techniques that are implemented My name is John Doe.. Additionally, it would be helpful to know about any limitations or constraints related to scalability that are addressed. Thank you for your time and assistance. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        536,
+        544
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        732,
+        753
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Information on Scalability Features\n\nWhile contacting Customer Support, I inquired about the scalability features of the SaaS platform that your company offers for project management. Could you provide detailed information on how the platform adapts to growing project demands, manages increased user traffic, data storage, and workflow complexity? I am particularly interested in learning about the automated scaling options, load balancing, and performance optimization techniques that are implemented My name is [full_name].. Additionally, it would be helpful to know about any limitations or constraints related to scalability that are addressed. Thank you for your time and assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

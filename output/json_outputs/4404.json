@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Available Tools for Investment Optimization Analytics\n\nDear Customer Support, I am contacting you to seek information on the analytics tools that are available for investment optimization and portfolio management. As an investor, I am keen on utilizing data-driven insights to enhance my investment decisions and boost potential returns. Could you kindly share with me a list of the analytics tools you recommend for this purpose? It would be greatly appreciated if you could provide details on their functionalities and highlight any case studies or success stories that showcase their effectiveness My name is John Doe.. Specifically, I am interested in learning more about risk management, portfolio diversification, and performance metrics. Additionally, I am curious about any tools that can assist in identifying new investment opportunities and keeping up with market trends. Thank you for your time and support. I am looking forward to your response. Best regards, [Your Name] You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        621,
+        629
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1017,
+        1034
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Available Tools for Investment Optimization Analytics\n\nDear Customer Support, I am contacting you to seek information on the analytics tools that are available for investment optimization and portfolio management. As an investor, I am keen on utilizing data-driven insights to enhance my investment decisions and boost potential returns. Could you kindly share with me a list of the analytics tools you recommend for this purpose? It would be greatly appreciated if you could provide details on their functionalities and highlight any case studies or success stories that showcase their effectiveness My name is [full_name].. Specifically, I am interested in learning more about risk management, portfolio diversification, and performance metrics. Additionally, I am curious about any tools that can assist in identifying new investment opportunities and keeping up with market trends. Thank you for your time and support. I am looking forward to your response. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

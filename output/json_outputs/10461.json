@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Performance Issues in Data Analysis\n\nFacing performance challenges in data analysis, optimization of investments is being impeded. The slowdown and system overloading are due to configuration errors. Restarting affected applications and clearing caches have been attempted, improvements noted. Team members are trying to identify the cause of the issue but have not yet made significant progress. We are seeking significant assistance to diagnose and optimize the system for better performance My name is Omar Hassan.. Please inform us if further details are required You can reach me at david.kim@corp.kr.. For more information, we can discuss on a call at <tel_num>, related to account <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        514,
+        525
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        597,
+        614
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Performance Issues in Data Analysis\n\nFacing performance challenges in data analysis, optimization of investments is being impeded. The slowdown and system overloading are due to configuration errors. Restarting affected applications and clearing caches have been attempted, improvements noted. Team members are trying to identify the cause of the issue but have not yet made significant progress. We are seeking significant assistance to diagnose and optimize the system for better performance My name is [full_name].. Please inform us if further details are required You can reach me at [email].. For more information, we can discuss on a call at <tel_num>, related to account <acc_num>.",
+  "category_of_the_email": "Incident"
+}

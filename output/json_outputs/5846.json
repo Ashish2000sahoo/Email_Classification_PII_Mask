@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Irregular Data Analysis Documents\n\nDear Customer Support, I hope this message finds you well. I am writing to bring to your attention the recent inconsistencies in the data analysis reports. These inconsistencies are impacting our investment strategies. I suspect the issue might be due to errors in data integration You can reach me at liuwei@business.cn.. Despite my efforts to re-import the data sets and recalibrate our analytics tools, the discrepancies still persist. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is Elena Ivanova.. Please let me know if you need any additional information to resolve this issue. I am available for further discussion.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        602,
+        615
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        346,
+        364
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Irregular Data Analysis Documents\n\nDear Customer Support, I hope this message finds you well. I am writing to bring to your attention the recent inconsistencies in the data analysis reports. These inconsistencies are impacting our investment strategies. I suspect the issue might be due to errors in data integration You can reach me at [email].. Despite my efforts to re-import the data sets and recalibrate our analytics tools, the discrepancies still persist. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible My name is [full_name].. Please let me know if you need any additional information to resolve this issue. I am available for further discussion.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Concerning Website Traffic\n\nI am contacting you to report a sudden and substantial decrease in website traffic. Last night, our engagement metrics dropped by 50%. We are uncertain about the reason but suspect it could be due to an algorithm update or ad blocking. We have reviewed our analytics, ad settings, and campaign targeting but have not identified the underlying issue You can reach me at omar.hassan@secure.net.. We would greatly appreciate any assistance or guidance you can offer to resolve this matter My name is Liu Wei.. Please inform us if there is any additional information you need from us to proceed with an investigation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        542,
+        549
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        414,
+        436
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem Concerning Website Traffic\n\nI am contacting you to report a sudden and substantial decrease in website traffic. Last night, our engagement metrics dropped by 50%. We are uncertain about the reason but suspect it could be due to an algorithm update or ad blocking. We have reviewed our analytics, ad settings, and campaign targeting but have not identified the underlying issue You can reach me at [email].. We would greatly appreciate any assistance or guidance you can offer to resolve this matter My name is [full_name].. Please inform us if there is any additional information you need from us to proceed with an investigation.",
+  "category_of_the_email": "Incident"
+}

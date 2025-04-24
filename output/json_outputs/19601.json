@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme beim Starten von digitalen Kampagnen\n\nSehr geehrte Kundenservice-Agentin, ich bin befangen von Schwierigkeiten, die ich beim Starten meiner digitalen Kampagnen erlitten habe. Ich vermute, dass dies Kompatibilit\u00e4tsprobleme zwischen Software hervorgerufen haben k\u00f6nnte My name is Jane Smith.. Ich habe bisher versucht, PrestaShop zu aktualisieren und MySQL zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich hartn\u00e4ckig. Ich w\u00fcrde mich sehr freuen, wenn Sie mir dabei helfen k\u00f6nnten, dieses Problem zu l\u00f6sen. Bitte lassen Sie mich wissen, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie weitere Informationen von mir ben\u00f6tigen. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at carlosm@gmail.com.. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        296,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        696,
+        713
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme beim Starten von digitalen Kampagnen\n\nSehr geehrte Kundenservice-Agentin, ich bin befangen von Schwierigkeiten, die ich beim Starten meiner digitalen Kampagnen erlitten habe. Ich vermute, dass dies Kompatibilit\u00e4tsprobleme zwischen Software hervorgerufen haben k\u00f6nnte My name is [full_name].. Ich habe bisher versucht, PrestaShop zu aktualisieren und MySQL zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich hartn\u00e4ckig. Ich w\u00fcrde mich sehr freuen, wenn Sie mir dabei helfen k\u00f6nnten, dieses Problem zu l\u00f6sen. Bitte lassen Sie mich wissen, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie weitere Informationen von mir ben\u00f6tigen. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, von Ihnen bald zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

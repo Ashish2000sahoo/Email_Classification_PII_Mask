@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Billing Structure\n\nHello, I am writing to inquire about the billing structure for the project management SaaS service My name is Omar Hassan.. Could you provide more details on the pricing plans and any additional costs associated with the service? I would greatly appreciate information on any discounts available for long-term commitments or large teams. Additionally, it would be helpful to know about the setup fees and cancellation fees You can reach me at carlosm@gmail.com.. Looking forward to hearing back from you with this information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        152,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        485,
+        502
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Billing Structure\n\nHello, I am writing to inquire about the billing structure for the project management SaaS service My name is [full_name].. Could you provide more details on the pricing plans and any additional costs associated with the service? I would greatly appreciate information on any discounts available for long-term commitments or large teams. Additionally, it would be helpful to know about the setup fees and cancellation fees You can reach me at [email].. Looking forward to hearing back from you with this information.",
+  "category_of_the_email": "Request"
+}

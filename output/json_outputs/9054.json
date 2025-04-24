@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Forecasts Have Inaccuracies\n\nI am contacting you to address an issue with the investment forecasts My name is John Doe.. The predictive models have produced inaccurate results because of subpar data quality. I have examined the data sources and rerun the models, yet the problem continues. I would greatly appreciate your help in addressing this to enhance the precision of the forecasts. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        432,
+        455
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Investment Forecasts Have Inaccuracies\n\nI am contacting you to address an issue with the investment forecasts My name is [full_name].. The predictive models have produced inaccurate results because of subpar data quality. I have examined the data sources and rerun the models, yet the problem continues. I would greatly appreciate your help in addressing this to enhance the precision of the forecasts. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'aper\u00e7u des services\n\nCher service client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 My name is John Doe.. Je m'appelle <name> et je repr\u00e9sente <company_name>, une entreprise qui cherche actuellement \u00e0 am\u00e9liorer notre infrastructure et nos processus informatiques. Nous sommes tr\u00e8s int\u00e9ress\u00e9s par l'exploration de vos services de d\u00e9veloppement logiciel et d'administration de serveurs dans le cadre de nos exigences strat\u00e9giques. Je comprends que votre service de conseil en informatique pourrait \u00eatre instrumental dans la r\u00e9alisation de ces objectifs.\n\nPourriez-vous s'il vous pla\u00eet fournir un aper\u00e7u complet de ces services ? Plus pr\u00e9cis\u00e9ment, nous appr\u00e9cierions des d\u00e9tails concernant le champ de soutien offert, votre exp\u00e9rience pr\u00e9c\u00e9dente avec des cadres commerciaux similaires, et toute expertise personnalis\u00e9e qui pourrait \u00eatre b\u00e9n\u00e9fique \u00e0 nos op\u00e9rations You can reach me at david.kim@corp.kr.. De plus, des informations sur les frais de consultation, les d\u00e9lais de livraison des projets, et tout support technique apr\u00e8s la mise en \u0153uvre seraient grandement appr\u00e9ci\u00e9es.\n\nNous pr\u00e9voyons une r\u00e9union strat\u00e9gique bient\u00f4t, donc recevoir ces informations dans les meilleurs d\u00e9lais nous aiderait \u00e0 prendre des d\u00e9cisions \u00e9clair\u00e9es concernant notre fournisseur de services informatiques. De plus, veuillez nous informer s'il y a des \u00e9valuations pr\u00e9liminaires ou d'autres d\u00e9tails dont vous avez besoin de notre part pour adapter les services \u00e0 nos besoins.\n\nMerci pour votre assistance, et j'attends avec impatience votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name>\nContact : <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        124,
+        132
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        913,
+        930
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Demande d'aper\u00e7u des services\n\nCher service client,\n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9 My name is [full_name].. Je m'appelle <name> et je repr\u00e9sente <company_name>, une entreprise qui cherche actuellement \u00e0 am\u00e9liorer notre infrastructure et nos processus informatiques. Nous sommes tr\u00e8s int\u00e9ress\u00e9s par l'exploration de vos services de d\u00e9veloppement logiciel et d'administration de serveurs dans le cadre de nos exigences strat\u00e9giques. Je comprends que votre service de conseil en informatique pourrait \u00eatre instrumental dans la r\u00e9alisation de ces objectifs.\n\nPourriez-vous s'il vous pla\u00eet fournir un aper\u00e7u complet de ces services ? Plus pr\u00e9cis\u00e9ment, nous appr\u00e9cierions des d\u00e9tails concernant le champ de soutien offert, votre exp\u00e9rience pr\u00e9c\u00e9dente avec des cadres commerciaux similaires, et toute expertise personnalis\u00e9e qui pourrait \u00eatre b\u00e9n\u00e9fique \u00e0 nos op\u00e9rations You can reach me at [email].. De plus, des informations sur les frais de consultation, les d\u00e9lais de livraison des projets, et tout support technique apr\u00e8s la mise en \u0153uvre seraient grandement appr\u00e9ci\u00e9es.\n\nNous pr\u00e9voyons une r\u00e9union strat\u00e9gique bient\u00f4t, donc recevoir ces informations dans les meilleurs d\u00e9lais nous aiderait \u00e0 prendre des d\u00e9cisions \u00e9clair\u00e9es concernant notre fournisseur de services informatiques. De plus, veuillez nous informer s'il y a des \u00e9valuations pr\u00e9liminaires ou d'autres d\u00e9tails dont vous avez besoin de notre part pour adapter les services \u00e0 nos besoins.\n\nMerci pour votre assistance, et j'attends avec impatience votre r\u00e9ponse rapide.\n\nCordialement,\n\n<name>\nContact : <tel_num>",
+  "category_of_the_email": "Change"
+}

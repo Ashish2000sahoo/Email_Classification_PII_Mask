@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Raised About Security Breach in Medical Data System\n\nNoticing unauthorized access attempts on the medical data system. This might be due to inadequate security measures My name is John Doe.. Passwords have been updated and user access logs reviewed, but no resolution has been found yet You can reach me at elena.ivanova@support.org.. Urgent assistance is needed to address this issue promptly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        327,
+        352
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern Raised About Security Breach in Medical Data System\n\nNoticing unauthorized access attempts on the medical data system. This might be due to inadequate security measures My name is [full_name].. Passwords have been updated and user access logs reviewed, but no resolution has been found yet You can reach me at [email].. Urgent assistance is needed to address this issue promptly.",
+  "category_of_the_email": "Incident"
+}

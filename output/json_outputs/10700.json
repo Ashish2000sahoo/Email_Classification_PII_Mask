@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bereitstellung langsamer Investitionsdatenanalyse\n\nAnalysepipeline Optimierung hat die Geschwindigkeit der Investitionsdaten erheblich reduziert My name is David Kim.. Verz\u00f6gerungen beeintr\u00e4chtigen die Fertigung von Einsichten. Ein hohes Datenvolumen und ineffiziente Elasticsearch-Aussageabfragen k\u00f6nnten m\u00f6gliche Ursachen sein. Trotz Indizes Erh\u00f6hens und Ressourcenallokation bestehen Leistungsprobleme. Die Analyse mit RapidMiner wird getestet. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        479,
+        497
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Bereitstellung langsamer Investitionsdatenanalyse\n\nAnalysepipeline Optimierung hat die Geschwindigkeit der Investitionsdaten erheblich reduziert My name is [full_name].. Verz\u00f6gerungen beeintr\u00e4chtigen die Fertigung von Einsichten. Ein hohes Datenvolumen und ineffiziente Elasticsearch-Aussageabfragen k\u00f6nnten m\u00f6gliche Ursachen sein. Trotz Indizes Erh\u00f6hens und Ressourcenallokation bestehen Leistungsprobleme. Die Analyse mit RapidMiner wird getestet. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

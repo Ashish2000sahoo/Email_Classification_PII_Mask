@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit den Vorhersagen\n\nEs ist passiert: Die Investitions-Vorhersagen sind pl\u00f6tzlich fehlerhaft You can reach me at carlosm@gmail.com.. Warum: M\u00f6glicherweise wurden veraltete Datenmodelle verwendet My name is Carlos Mendoza.. Versucht: Das System wurde neugestartet, die Modelle wurden aktualisiert. Ich brauche Ihre Hilfe, um dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        131,
+        148
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit den Vorhersagen\n\nEs ist passiert: Die Investitions-Vorhersagen sind pl\u00f6tzlich fehlerhaft You can reach me at [email].. Warum: M\u00f6glicherweise wurden veraltete Datenmodelle verwendet My name is [full_name].. Versucht: Das System wurde neugestartet, die Modelle wurden aktualisiert. Ich brauche Ihre Hilfe, um dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

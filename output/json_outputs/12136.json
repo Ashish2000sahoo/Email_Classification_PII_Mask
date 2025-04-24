@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Uneinheitliche Metriken in digitalen Campagnen\n\nDie in den digitalen Campagnen verwendeten Metriken sind unvereinbar. M\u00f6glicherweise resultieren diese Probleme aus Fehlern bei der Dateneingabe oder Integration My name is John Doe.. Ich habe bereits die Campagneneinstellungen und die Datenquellenmanipulationen gepr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        391,
+        412
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Uneinheitliche Metriken in digitalen Campagnen\n\nDie in den digitalen Campagnen verwendeten Metriken sind unvereinbar. M\u00f6glicherweise resultieren diese Probleme aus Fehlern bei der Dateneingabe oder Integration My name is [full_name].. Ich habe bereits die Campagneneinstellungen und die Datenquellenmanipulationen gepr\u00fcft, aber das Problem beh\u00e4lt sich bestehen. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Performance Challenges in Data Analytics\n\nWe are currently facing performance issues with our data analytics, which are hindering the optimization of our investment processes. The slowdown could be due to system resource overload or configuration errors You can reach me at omar.hassan@secure.net.. After restarting the affected applications and clearing caches, we noticed some improvement, but the root cause remains unresolved My name is Elena Ivanova.. We are seeking your assistance to help us troubleshoot and optimize our system for better performance. Please let us know if we need to provide additional information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        450,
+        463
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        283,
+        305
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Performance Challenges in Data Analytics\n\nWe are currently facing performance issues with our data analytics, which are hindering the optimization of our investment processes. The slowdown could be due to system resource overload or configuration errors You can reach me at [email].. After restarting the affected applications and clearing caches, we noticed some improvement, but the root cause remains unresolved My name is [full_name].. We are seeking your assistance to help us troubleshoot and optimize our system for better performance. Please let us know if we need to provide additional information.",
+  "category_of_the_email": "Incident"
+}

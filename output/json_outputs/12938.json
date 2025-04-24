@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Glitch in Data Analytics Software\n\nRespected Customer Service, <br>There has been an unanticipated failure of our data analytics tool You can reach me at carlosm@gmail.com.. This happened abruptly and we are conducting an investigation to ascertain the root cause. Early indications suggest a potential problem with software interoperability. <br>As a preliminary measure, we have initiated troubleshooting by resetting the servers and ensuring all the necessary updates are in place. Despite these actions, the issue remains unresolved, and we are in need of additional support to address it My name is Maria Gonzalez.. <br>We kindly request your assistance to expedite this process and provide any necessary guidance. If possible, we would appreciate a detailed explanation of the software versions and update statuses you have examined. Furthermore, we might need to arrange a discussion to delve deeper into the issue, and we would be grateful if you could suggest a convenient time for a call at <tel_num>. Your understanding and collaboration are greatly appreciated, and we are committed to resolving this issue swiftly. <br>Warm regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        623,
+        637
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        173,
+        190
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Glitch in Data Analytics Software\n\nRespected Customer Service, <br>There has been an unanticipated failure of our data analytics tool You can reach me at [email].. This happened abruptly and we are conducting an investigation to ascertain the root cause. Early indications suggest a potential problem with software interoperability. <br>As a preliminary measure, we have initiated troubleshooting by resetting the servers and ensuring all the necessary updates are in place. Despite these actions, the issue remains unresolved, and we are in need of additional support to address it My name is [full_name].. <br>We kindly request your assistance to expedite this process and provide any necessary guidance. If possible, we would appreciate a detailed explanation of the software versions and update statuses you have examined. Furthermore, we might need to arrange a discussion to delve deeper into the issue, and we would be grateful if you could suggest a convenient time for a call at <tel_num>. Your understanding and collaboration are greatly appreciated, and we are committed to resolving this issue swiftly. <br>Warm regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

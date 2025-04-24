@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Unauthorized Access\n\nEncountered: Unexpected denial of access to medical records You can reach me at sophia.rossi@service.it.. Potential indicators include server configuration errors or recent security updates. Efforts made: Restarted servers, reviewed logs, and confirmed user permissions My name is Carlos Mendoza.. Urgently require help to address this issue. Kindly offer a solution or direct me to the appropriate troubleshooting measures.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        324,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        123,
+        146
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Unauthorized Access\n\nEncountered: Unexpected denial of access to medical records You can reach me at [email].. Potential indicators include server configuration errors or recent security updates. Efforts made: Restarted servers, reviewed logs, and confirmed user permissions My name is [full_name].. Urgently require help to address this issue. Kindly offer a solution or direct me to the appropriate troubleshooting measures.",
+  "category_of_the_email": "Incident"
+}

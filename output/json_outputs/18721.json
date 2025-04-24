@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei QuickBooks\n\nbitte um Informationen zu Rechnungsstellungsoptionen und der Integration von QuickBooks Online SaaS-Plattform You can reach me at liuwei@business.cn.. w\u00e4re sehr dankbar, wenn zus\u00e4tzliche Informationen \u00fcber verf\u00fcgbare Pl\u00e4ne, Preise und Vorteile bereitgestellt w\u00fcrden My name is Maria Gonzalez.. bitte erl\u00e4utern Sie, wie die Anforderungen des Unternehmens ber\u00fccksichtigt werden und ob Rabatte bei l\u00e4ngeren Vertr\u00e4gen angeboten werden. falls weitere Informationen ben\u00f6tigt werden, lassen Sie es mich bitte wissen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        322
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        161,
+        179
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei QuickBooks\n\nbitte um Informationen zu Rechnungsstellungsoptionen und der Integration von QuickBooks Online SaaS-Plattform You can reach me at [email].. w\u00e4re sehr dankbar, wenn zus\u00e4tzliche Informationen \u00fcber verf\u00fcgbare Pl\u00e4ne, Preise und Vorteile bereitgestellt w\u00fcrden My name is [full_name].. bitte erl\u00e4utern Sie, wie die Anforderungen des Unternehmens ber\u00fccksichtigt werden und ob Rabatte bei l\u00e4ngeren Vertr\u00e4gen angeboten werden. falls weitere Informationen ben\u00f6tigt werden, lassen Sie es mich bitte wissen.",
+  "category_of_the_email": "Request"
+}

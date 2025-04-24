@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incorrect Invoice Subscription\n\nReceived an incorrect invoice due to a billing system glitch My name is Fatima Al-Farsi.. Despite my attempts to reconcile the charges and contacting support, no resolution has been reached. I would appreciate it if you could look into the matter and provide a corrected invoice as soon as possible. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        113,
+        122
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        363,
+        380
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Incorrect Invoice Subscription\n\nReceived an incorrect invoice due to a billing system glitch My name is [full_name]-Farsi.. Despite my attempts to reconcile the charges and contacting support, no resolution has been reached. I would appreciate it if you could look into the matter and provide a corrected invoice as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

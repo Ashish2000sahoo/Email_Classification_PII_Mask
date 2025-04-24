@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Anfrage zum Preis f\u00fcr ClickUp Premium-Pl\u00e4ne\n\nK\u00f6nnen Sie mir Preise f\u00fcr die ClickUp Premium-Pl\u00e4ne zur Verf\u00fcgung stellen?. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zum Preis f\u00fcr ClickUp Premium-Pl\u00e4ne\n\nK\u00f6nnen Sie mir Preise f\u00fcr die ClickUp Premium-Pl\u00e4ne zur Verf\u00fcgung stellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

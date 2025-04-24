@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Encountered with the Login Functionality Recently\n\nI recently ran into an unanticipated login issue You can reach me at omar.hassan@secure.net.. This might be related to the latest security upgrades. I have attempted restarting my browser and clearing the cache, yet the problem still exists. Your prompt resolution of this issue would be highly appreciated. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        387,
+        396
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        137,
+        159
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem Encountered with the Login Functionality Recently\n\nI recently ran into an unanticipated login issue You can reach me at [email].. This might be related to the latest security upgrades. I have attempted restarting my browser and clearing the cache, yet the problem still exists. Your prompt resolution of this issue would be highly appreciated. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

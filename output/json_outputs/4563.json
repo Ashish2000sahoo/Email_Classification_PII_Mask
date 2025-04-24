@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Security Guidelines for Medical Data on Apache Hadoop\n\nHello Customer Support, I am writing to request information on the security measures recommended for storing medical data on Apache Hadoop. Given the sensitivity and regulatory requirements associated with medical data, it is imperative to ensure its secure storage and processing. I would greatly appreciate any guidance on the most effective security practices and protocols that should be put in place to protect this data on Hadoop My name is Carlos Mendoza.. Specifically, I am interested in encryption methods, access control mechanisms, and auditing procedures that can be used to secure medical data on Hadoop. Thank you for your time and assistance You can reach me at elena.ivanova@support.org.. I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        516,
+        530
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        744,
+        769
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Data Security Guidelines for Medical Data on Apache Hadoop\n\nHello Customer Support, I am writing to request information on the security measures recommended for storing medical data on Apache Hadoop. Given the sensitivity and regulatory requirements associated with medical data, it is imperative to ensure its secure storage and processing. I would greatly appreciate any guidance on the most effective security practices and protocols that should be put in place to protect this data on Hadoop My name is [full_name].. Specifically, I am interested in encryption methods, access control mechanisms, and auditing procedures that can be used to secure medical data on Hadoop. Thank you for your time and assistance You can reach me at [email].. I look forward to your prompt response.",
+  "category_of_the_email": "Request"
+}

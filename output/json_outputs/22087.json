@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema de Conexi\u00f3n Urgente\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEstoy escribiendo para solicitar asistencia urgente con respecto a un problema de conexi\u00f3n con el producto Zoom versi\u00f3n 5.11.0 You can reach me at sophia.rossi@service.it.. Uno de nuestros usuarios, <name>, no puede unirse a una reuni\u00f3n de video programada. Cada intento de conexi\u00f3n resulta en un mensaje de error que indica una falla de conexi\u00f3n, a pesar de que la conexi\u00f3n a internet es estable My name is Jane Smith.. Este problema requiere atenci\u00f3n inmediata, ya que interrumpe significativamente nuestras operaciones. Ya hemos intentado pasos b\u00e1sicos de soluci\u00f3n de problemas, como reiniciar la aplicaci\u00f3n y verificar la configuraci\u00f3n de la red, todo sin \u00e9xito.\n\nPor favor, proporcione orientaci\u00f3n y una posible soluci\u00f3n a este problema a la brevedad, ya que este asunto est\u00e1 afectando negativamente nuestra productividad.\n\nGracias por su pronta atenci\u00f3n a este problema.\n\nAtentamente,\n<name>\n<email>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        490,
+        500
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        229,
+        252
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problema de Conexi\u00f3n Urgente\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEstoy escribiendo para solicitar asistencia urgente con respecto a un problema de conexi\u00f3n con el producto Zoom versi\u00f3n 5.11.0 You can reach me at [email].. Uno de nuestros usuarios, <name>, no puede unirse a una reuni\u00f3n de video programada. Cada intento de conexi\u00f3n resulta en un mensaje de error que indica una falla de conexi\u00f3n, a pesar de que la conexi\u00f3n a internet es estable My name is [full_name].. Este problema requiere atenci\u00f3n inmediata, ya que interrumpe significativamente nuestras operaciones. Ya hemos intentado pasos b\u00e1sicos de soluci\u00f3n de problemas, como reiniciar la aplicaci\u00f3n y verificar la configuraci\u00f3n de la red, todo sin \u00e9xito.\n\nPor favor, proporcione orientaci\u00f3n y una posible soluci\u00f3n a este problema a la brevedad, ya que este asunto est\u00e1 afectando negativamente nuestra productividad.\n\nGracias por su pronta atenci\u00f3n a este problema.\n\nAtentamente,\n<name>\n<email>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

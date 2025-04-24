@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Concerning Order Fulfillment\n\nGreetings, customer support team. I am reaching out to address an issue regarding the order fulfillment process, specifically inventory inaccuracies You can reach me at carlosm@gmail.com.. Our present stock tracking and management framework appears to be inadequate, causing orders to go unfilled. Despite conducting manual inventory counts and system diagnostics, the problem remains unresolved. I kindly request your assistance in finding a resolution and enhancing our inventory management My name is Sophia Rossi.. Should you need additional details, please inform me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        551,
+        563
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        216,
+        233
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem Concerning Order Fulfillment\n\nGreetings, customer support team. I am reaching out to address an issue regarding the order fulfillment process, specifically inventory inaccuracies You can reach me at [email].. Our present stock tracking and management framework appears to be inadequate, causing orders to go unfilled. Despite conducting manual inventory counts and system diagnostics, the problem remains unresolved. I kindly request your assistance in finding a resolution and enhancing our inventory management My name is [full_name].. Should you need additional details, please inform me.",
+  "category_of_the_email": "Incident"
+}

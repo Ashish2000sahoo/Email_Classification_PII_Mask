@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Medical Records Access\n\nFaced interruptions while accessing medical records, possibly due to SSD performance issues or software conflicts. Efforts to resolve the issue included running CCleaner and updating Moodle, which seemed to help You can reach me at liuwei@business.cn.. Need assistance to resolve this issue as soon as possible. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        374,
+        388
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        283,
+        301
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Medical Records Access\n\nFaced interruptions while accessing medical records, possibly due to SSD performance issues or software conflicts. Efforts to resolve the issue included running CCleaner and updating Moodle, which seemed to help You can reach me at [email].. Need assistance to resolve this issue as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

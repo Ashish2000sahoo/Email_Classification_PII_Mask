@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Integration Errors\n\nDear Customer Support, I am writing to report an issue with multiple simultaneous integration errors You can reach me at liuwei@business.cn.. This issue might be related to API authorization problems. So far, I have tried restarting the services and checking the log files, but the problem persists. I would greatly appreciate it if you could address this issue and provide a solution as soon as possible. Please let me know if you require any additional information from me. I am available to assist you with any further details or clarifications needed. Thank you for your time and support. I look forward to your response. Best regards, [Your Name] My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        708,
+        715
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        166,
+        184
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Integration Errors\n\nDear Customer Support, I am writing to report an issue with multiple simultaneous integration errors You can reach me at [email].. This issue might be related to API authorization problems. So far, I have tried restarting the services and checking the log files, but the problem persists. I would greatly appreciate it if you could address this issue and provide a solution as soon as possible. Please let me know if you require any additional information from me. I am available to assist you with any further details or clarifications needed. Thank you for your time and support. I look forward to your response. Best regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

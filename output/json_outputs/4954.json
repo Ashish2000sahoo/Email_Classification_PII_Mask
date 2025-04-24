@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung des Datenanalyses f\u00fcr bessere Erkenntnisse und Leistungsstufen\n\nSehr geehrte Kundensupport, ich schreibe an Sie, um zu erfahren, wie wir unser Datenanalyse-System f\u00fcr eine verbesserte Einblicknahme in Investitionsentscheidungen und Leistungsstufen optimieren k\u00f6nnen. Wir nutzen derzeit ein System, das f\u00fcr unsere informierten Entscheidungen den erwarteten Detailgrad und die Genauigkeit nicht erbringt. Ich w\u00fcrde gerne mehr \u00fcber die verf\u00fcgbaren M\u00f6glichkeiten zur Steigerung der Leistung unseres Systems erfahren und erfahren, welche Schritte wir unternehmen sollten, um dessen Funktionalit\u00e4t zu verbessern. K\u00f6nnten Sie mir bitte mehr Informationen zur Verf\u00fcgung stellen? Ich w\u00fcrde jede Anleitung oder Empfehlung, die Sie mir geben k\u00f6nnen, sehr hoch sch\u00e4tzen. Vielen Dank f\u00fcr Ihre Zeit und Zusammenarbeit My name is Jane Smith.. Ich freue mich darauf, von Ihnen bald wieder zu h\u00f6ren. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        836,
+        846
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        925,
+        947
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Optimierung des Datenanalyses f\u00fcr bessere Erkenntnisse und Leistungsstufen\n\nSehr geehrte Kundensupport, ich schreibe an Sie, um zu erfahren, wie wir unser Datenanalyse-System f\u00fcr eine verbesserte Einblicknahme in Investitionsentscheidungen und Leistungsstufen optimieren k\u00f6nnen. Wir nutzen derzeit ein System, das f\u00fcr unsere informierten Entscheidungen den erwarteten Detailgrad und die Genauigkeit nicht erbringt. Ich w\u00fcrde gerne mehr \u00fcber die verf\u00fcgbaren M\u00f6glichkeiten zur Steigerung der Leistung unseres Systems erfahren und erfahren, welche Schritte wir unternehmen sollten, um dessen Funktionalit\u00e4t zu verbessern. K\u00f6nnten Sie mir bitte mehr Informationen zur Verf\u00fcgung stellen? Ich w\u00fcrde jede Anleitung oder Empfehlung, die Sie mir geben k\u00f6nnen, sehr hoch sch\u00e4tzen. Vielen Dank f\u00fcr Ihre Zeit und Zusammenarbeit My name is [full_name].. Ich freue mich darauf, von Ihnen bald wieder zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

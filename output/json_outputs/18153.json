@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for SaaS Integration\n\nInquiring about SaaS integration capabilities. Would like detailed information on integrating MySQL 8.0 with Jenkins You can reach me at janesmith@company.com.. Need to know about compatibility and any potential limitations. Also, would appreciate examples of successful integrations and relevant documentation. This information will help in better understanding the services to determine if they meet our needs. Thank you for your assistance. Looking forward to hearing back soon. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        532,
+        544
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        176,
+        197
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support for SaaS Integration\n\nInquiring about SaaS integration capabilities. Would like detailed information on integrating MySQL 8.0 with Jenkins You can reach me at [email].. Need to know about compatibility and any potential limitations. Also, would appreciate examples of successful integrations and relevant documentation. This information will help in better understanding the services to determine if they meet our needs. Thank you for your assistance. Looking forward to hearing back soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

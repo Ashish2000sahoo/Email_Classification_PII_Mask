@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Malfunction of Multiple Devices\n\nDear Customer Support, I am contacting you to report a significant issue that has occurred with multiple devices malfunctioning simultaneously You can reach me at omar.hassan@secure.net.. This problem has emerged without any prior warning and is impacting several devices essential for our daily operations. Having done some initial troubleshooting, we suspect that the root cause may be a software compatibility issue My name is Elena Ivanova.. We have already attempted to resolve the situation by restarting the systems and ensuring all available updates are installed, but to no avail. We are now turning to your team in the hopes of receiving more specialized assistance to diagnose and address the problem. We would greatly appreciate any guidance or support you can offer to help us restore our devices to proper functioning. The specific details of the issue are as follows: Multiple devices have stopped working concurrently, and we believe the issue is related to software compatibility. We have tried restarting and updating the systems, but the problem continues. Thank you for your attention to this matter. We look forward to your prompt response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        481,
+        494
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        214,
+        236
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Reported Malfunction of Multiple Devices\n\nDear Customer Support, I am contacting you to report a significant issue that has occurred with multiple devices malfunctioning simultaneously You can reach me at [email].. This problem has emerged without any prior warning and is impacting several devices essential for our daily operations. Having done some initial troubleshooting, we suspect that the root cause may be a software compatibility issue My name is [full_name].. We have already attempted to resolve the situation by restarting the systems and ensuring all available updates are installed, but to no avail. We are now turning to your team in the hopes of receiving more specialized assistance to diagnose and address the problem. We would greatly appreciate any guidance or support you can offer to help us restore our devices to proper functioning. The specific details of the issue are as follows: Multiple devices have stopped working concurrently, and we believe the issue is related to software compatibility. We have tried restarting and updating the systems, but the problem continues. Thank you for your attention to this matter. We look forward to your prompt response. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

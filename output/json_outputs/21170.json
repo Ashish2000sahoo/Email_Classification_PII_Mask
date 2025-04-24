@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringend: AWS-Ausfall beeintr\u00e4chtigt Deployments\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um meine Besorgnis \u00fcber einen hochpriorisierten Vorfall mit AWS-Ausfallzeiten auszudr\u00fccken, der sich erheblich auf unsere Anwendungsbereitstellung \u00fcber mehrere Plattformen auswirkt. Wir nutzen den AWS-Verwaltungsdienst, und seit Beginn des Ausfalls gibt es erhebliche Verz\u00f6gerungen und Unterbrechungen You can reach me at maria.gonzalez@shop.es.. Unser Team ist auf einen stabilen und effizienten Service f\u00fcr den laufenden Betrieb angewiesen, und dieser Ausfall stellt eine ernsthafte Herausforderung dar.\n\nMomentan k\u00f6nnen wir mit unseren geplanten Updates und Deployment-Projekten nicht fortfahren, was sich auf unseren Zeitplan f\u00fcr die Ablieferungen auswirkt. Dar\u00fcber hinaus kann der fortw\u00e4hrende Mangel an Zugriff potenziell zu verpassten Fristen und Unzufriedenheit bei den Kunden f\u00fchren.\n\nBitte eskalieren Sie dieses Problem an das technische Team und geben Sie uns so schnell wie m\u00f6glich eine L\u00f6sung. Au\u00dferdem w\u00e4ren wir Ihnen dankbar f\u00fcr ein Update, wann der AWS-Verwaltungsdienst voraussichtlich wieder vollst\u00e4ndig betriebsbereit ist.\n\nDanke f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit, und bitte halten Sie mich \u00fcber den Fortschritt und alle Schritte, die wir unternehmen m\u00fcssen, informiert.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\nKontonummer: <acc_num>\nKontakt: <tel_num> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1407,
+        1420
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        429,
+        451
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Dringend: AWS-Ausfall beeintr\u00e4chtigt Deployments\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um meine Besorgnis \u00fcber einen hochpriorisierten Vorfall mit AWS-Ausfallzeiten auszudr\u00fccken, der sich erheblich auf unsere Anwendungsbereitstellung \u00fcber mehrere Plattformen auswirkt. Wir nutzen den AWS-Verwaltungsdienst, und seit Beginn des Ausfalls gibt es erhebliche Verz\u00f6gerungen und Unterbrechungen You can reach me at [email].. Unser Team ist auf einen stabilen und effizienten Service f\u00fcr den laufenden Betrieb angewiesen, und dieser Ausfall stellt eine ernsthafte Herausforderung dar.\n\nMomentan k\u00f6nnen wir mit unseren geplanten Updates und Deployment-Projekten nicht fortfahren, was sich auf unseren Zeitplan f\u00fcr die Ablieferungen auswirkt. Dar\u00fcber hinaus kann der fortw\u00e4hrende Mangel an Zugriff potenziell zu verpassten Fristen und Unzufriedenheit bei den Kunden f\u00fchren.\n\nBitte eskalieren Sie dieses Problem an das technische Team und geben Sie uns so schnell wie m\u00f6glich eine L\u00f6sung. Au\u00dferdem w\u00e4ren wir Ihnen dankbar f\u00fcr ein Update, wann der AWS-Verwaltungsdienst voraussichtlich wieder vollst\u00e4ndig betriebsbereit ist.\n\nDanke f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit, und bitte halten Sie mich \u00fcber den Fortschritt und alle Schritte, die wir unternehmen m\u00fcssen, informiert.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\nKontonummer: <acc_num>\nKontakt: <tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

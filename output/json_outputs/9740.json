@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Options for Multiple Product Billing\n\nHello Customer Support, I am contacting you to seek details on the billing alternatives for multiple product subscriptions My name is Omar Hassan.. Could you give me some details about this? Specifically, I would like to learn if there are any discounts or special offers for subscribing to multiple products simultaneously. I am eager to understand the various options and how they might be advantageous for me You can reach me at elena.ivanova@support.org.. Kindly inform me if you require any further information from me to assist me better. Thank you for your time and help. I am looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        479,
+        504
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Options for Multiple Product Billing\n\nHello Customer Support, I am contacting you to seek details on the billing alternatives for multiple product subscriptions My name is [full_name].. Could you give me some details about this? Specifically, I would like to learn if there are any discounts or special offers for subscribing to multiple products simultaneously. I am eager to understand the various options and how they might be advantageous for me You can reach me at [email].. Kindly inform me if you require any further information from me to assist me better. Thank you for your time and help. I am looking forward to your response.",
+  "category_of_the_email": "Request"
+}

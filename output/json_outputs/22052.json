@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Guidance on Optimizing MySQL Performance\n\nDear Customer Support Team, \n\nI hope this message finds you well. I am reaching out to seek your expert guidance on optimizing the query performance for our MySQL 8.0.30 database. We are experiencing some delays in our current setup and would appreciate any advice or strategies that can help enhance efficiency. Our current configuration handles a substantial amount of data and it\u2019s crucial for us to improve the performance in order to meet our operational demands. \n\nWe have already attempted to adjust some of the query structures and indexing methods, but the improvements are marginal My name is David Kim.. We would like to know if there are best practices or tools specific to MySQL 8.0.30 that could be effective for such optimizations You can reach me at david.kim@corp.kr.. Additionally, any insights on resources or tutorials where we can learn more about advanced configuration settings or performance tweaks would be incredibly helpful. \n\nLastly, if there are updates or features unique to MySQL 8.0.30 that we should leverage, kindly inform us. Thank you for your time and assistance. We look forward to any recommendations that could help us maximize our database performance. \n\nBest regards, \n\n<name>\nAccount Number: <acc_num>\nContact: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        654,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        819,
+        836
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        214,
+        220
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        745,
+        751
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        1054,
+        1060
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Optimizing MySQL Performance\n\nDear Customer Support Team, \n\nI hope this message finds you well. I am reaching out to seek your expert guidance on optimizing the query performance for our MySQL [phone_number] database. We are experiencing some delays in our current setup and would appreciate any advice or strategies that can help enhance efficiency. Our current configuration handles a substantial amount of data and it\u2019s crucial for us to improve the performance in order to meet our operational demands. \n\nWe have already attempted to adjust some of the query structures and indexing methods, but the improvements are marginal My name is [full_name].. We would like to know if there are best practices or tools specific to MySQL [phone_number] that could be effective for such optimizations You can reach me at [email].. Additionally, any insights on resources or tutorials where we can learn more about advanced configuration settings or performance tweaks would be incredibly helpful. \n\nLastly, if there are updates or features unique to MySQL [phone_number] that we should leverage, kindly inform us. Thank you for your time and assistance. We look forward to any recommendations that could help us maximize our database performance. \n\nBest regards, \n\n<name>\nAccount Number: <acc_num>\nContact: <tel_num>",
+  "category_of_the_email": "Request"
+}

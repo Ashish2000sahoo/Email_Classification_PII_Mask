@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Implementieren von JIRA Software\n\nVorbereitung der Integration mit JIRA. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        103,
+        118
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Implementieren von JIRA Software\n\nVorbereitung der Integration mit JIRA. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

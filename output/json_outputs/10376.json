@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Marketing Content Presentation\n\nGreetings Customer Support, I am contacting you to report inconsistencies in the layout of our marketing documents. This issue arose after the latest Microsoft Word updates, which might not be fully compatible with our system. Despite restarting and updating the software, the problem remains unresolved You can reach me at liuwei@business.cn.. Our marketing content is vital for the upcoming promotional activities, and I would greatly appreciate any assistance you can provide to resolve this issue promptly. Please inform me if there are any further actions required on my end or if you need additional information. I am looking forward to your swift response. Thank you for your attention and assistance. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        774,
+        784
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        378,
+        396
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Marketing Content Presentation\n\nGreetings Customer Support, I am contacting you to report inconsistencies in the layout of our marketing documents. This issue arose after the latest Microsoft Word updates, which might not be fully compatible with our system. Despite restarting and updating the software, the problem remains unresolved You can reach me at [email].. Our marketing content is vital for the upcoming promotional activities, and I would greatly appreciate any assistance you can provide to resolve this issue promptly. Please inform me if there are any further actions required on my end or if you need additional information. I am looking forward to your swift response. Thank you for your attention and assistance. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Langsame Aufchargezeit f\u00fcr Dashboard\n\nBenutzererfahrung ist beeintr\u00e4chtigt durch hohe Serveranforderungen, was zu langsamem Laden des Dashboards f\u00fchrt.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        183,
+        199
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Langsame Aufchargezeit f\u00fcr Dashboard\n\nBenutzererfahrung ist beeintr\u00e4chtigt durch hohe Serveranforderungen, was zu langsamem Laden des Dashboards f\u00fchrt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

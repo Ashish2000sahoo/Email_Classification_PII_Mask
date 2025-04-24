@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr die Optimierung der Webseite-Analyse\n\nWir richten uns an Sie, um die Webseite-Analyse zu aktualisieren, um die Effektivit\u00e4t der Kampagnen zu messen und die digitale Strategie zu verbessern You can reach me at johndoe@email.com.. Dies wird uns helfen, unser Publikum besser zu verstehen und auf Daten zu handeln. Wir m\u00f6chten verst\u00e4rken und verbessern unsere Online-Pr\u00e4senz und die Engagierung. F\u00fcr eine bessere Unterst\u00fctzung ben\u00f6tigen wir mehr Informationen \u00fcber Ihr aktuellenSetup und die spezifischen Verbesserungen, die gew\u00fcnscht sind. K\u00f6nnten Sie uns daher mehr Informationen zu Ihrer aktuellen Online-Pr\u00e4senz und Ihren Engagierungsziele geben? Wir werden Ihre Anfrage pr\u00fcfen und Ihnen eine individuelle L\u00f6sung anbieten, um Ihr Publikum besser zu verstehen und auf Daten zu handeln My name is John Doe.. Falls erforderlich, k\u00f6nnen wir einen Telefonanruf vereinbaren auf <tel_num>, um weiter zu diskutieren. Bitte geben Sie uns eine geeignete Zeit und wir freuen uns darauf, Ihnen mit Ihrem Konto <acc_num> zu helfen. Wir freuen uns darauf, mit Ihnen zusammenzuarbeiten, um Ihre Online-Pr\u00e4senz zu verbessern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        823,
+        831
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        236,
+        253
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr die Optimierung der Webseite-Analyse\n\nWir richten uns an Sie, um die Webseite-Analyse zu aktualisieren, um die Effektivit\u00e4t der Kampagnen zu messen und die digitale Strategie zu verbessern You can reach me at [email].. Dies wird uns helfen, unser Publikum besser zu verstehen und auf Daten zu handeln. Wir m\u00f6chten verst\u00e4rken und verbessern unsere Online-Pr\u00e4senz und die Engagierung. F\u00fcr eine bessere Unterst\u00fctzung ben\u00f6tigen wir mehr Informationen \u00fcber Ihr aktuellenSetup und die spezifischen Verbesserungen, die gew\u00fcnscht sind. K\u00f6nnten Sie uns daher mehr Informationen zu Ihrer aktuellen Online-Pr\u00e4senz und Ihren Engagierungsziele geben? Wir werden Ihre Anfrage pr\u00fcfen und Ihnen eine individuelle L\u00f6sung anbieten, um Ihr Publikum besser zu verstehen und auf Daten zu handeln My name is [full_name].. Falls erforderlich, k\u00f6nnen wir einen Telefonanruf vereinbaren auf <tel_num>, um weiter zu diskutieren. Bitte geben Sie uns eine geeignete Zeit und wir freuen uns darauf, Ihnen mit Ihrem Konto <acc_num> zu helfen. Wir freuen uns darauf, mit Ihnen zusammenzuarbeiten, um Ihre Online-Pr\u00e4senz zu verbessern.",
+  "category_of_the_email": "Request"
+}

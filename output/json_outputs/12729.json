@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Medical Data Breach Event\n\nAn incident of medical data breach happened due to an unsecured network. This might be because of insufficient firewall configuration You can reach me at carlosm@gmail.com.. Currently, we have restarted the servers and verified the firewall settings. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        315
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        200,
+        217
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Medical Data Breach Event\n\nAn incident of medical data breach happened due to an unsecured network. This might be because of insufficient firewall configuration You can reach me at [email].. Currently, we have restarted the servers and verified the firewall settings. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

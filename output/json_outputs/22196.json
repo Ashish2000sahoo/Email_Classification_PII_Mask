@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problema de Piscar da Tela com Dell XPS 13 9310\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema de piscar da tela que venho enfrentando com meu laptop Dell XPS 13 9310 de alto desempenho You can reach me at david.kim@corp.kr.. O problema come\u00e7ou h\u00e1 alguns dias e persistiu apesar de reiniciar e atualizar os drivers. Dependo muito deste laptop para meu trabalho, e esse problema est\u00e1 afetando significativamente minha produtividade. Voc\u00ea poderia me aconselhar sobre poss\u00edveis solu\u00e7\u00f5es ou arranjar servi\u00e7os de reparo?\n\nObrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n\n<name>\n<acc_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        625,
+        634
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        237,
+        254
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        49,
+        56
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        190,
+        197
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Problema de Piscar da Tela com Dell XPS [phone_number]\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema de piscar da tela que venho enfrentando com meu laptop Dell XPS [phone_number] de alto desempenho You can reach me at [email].. O problema come\u00e7ou h\u00e1 alguns dias e persistiu apesar de reiniciar e atualizar os drivers. Dependo muito deste laptop para meu trabalho, e esse problema est\u00e1 afetando significativamente minha produtividade. Voc\u00ea poderia me aconselhar sobre poss\u00edveis solu\u00e7\u00f5es ou arranjar servi\u00e7os de reparo?\n\nObrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n\n<name>\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

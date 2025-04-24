@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Microsoft SQL Support\n\nSeeking guidance on integrating project management SaaS with Microsoft SQL Server 2019 You can reach me at elena.ivanova@support.org.. Would greatly appreciate detailed information on how to accomplish this, including relevant documentation, API guides, and setup tutorials to help get started My name is David Kim.. Additionally, could you please inform me about the specific system requirements and limitations when integrating Microsoft SQL Server 2019? Looking forward to your response as we explore SaaS for project management.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        346
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        139,
+        164
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        114,
+        118
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    },
+    {
+      "position": [
+        467,
+        471
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: Microsoft SQL Support\n\nSeeking guidance on integrating project management SaaS with Microsoft SQL Server [phone_number] You can reach me at [email].. Would greatly appreciate detailed information on how to accomplish this, including relevant documentation, API guides, and setup tutorials to help get started My name is [full_name].. Additionally, could you please inform me about the specific system requirements and limitations when integrating Microsoft SQL Server [phone_number]? Looking forward to your response as we explore SaaS for project management.",
+  "category_of_the_email": "Request"
+}

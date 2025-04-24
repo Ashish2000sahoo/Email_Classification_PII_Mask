@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frage zu Dienstleistungen f\u00fcr digitale Strategien\n\nK\u00f6nnen Sie mir Details zu digitalen Strategiedienstleistungen zur Markenentwicklung liefern? Ich w\u00fcrde mich freuen, wenn Sie mich anrufen k\u00f6nnten, um meine Anfrage bez\u00fcglich <acc_num> zu besprechen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung!. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        333
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Frage zu Dienstleistungen f\u00fcr digitale Strategien\n\nK\u00f6nnen Sie mir Details zu digitalen Strategiedienstleistungen zur Markenentwicklung liefern? Ich w\u00fcrde mich freuen, wenn Sie mich anrufen k\u00f6nnten, um meine Anfrage bez\u00fcglich <acc_num> zu besprechen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung!. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

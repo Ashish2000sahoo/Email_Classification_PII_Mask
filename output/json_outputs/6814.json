@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Leak Issue\n\nUnanticipated data leaks have been observed You can reach me at david.kim@corp.kr.. It is possible that inadequate access controls are the reason. Restarting Redis 6.2 was attempted, but the problem continues. Additional support is required to address this. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        90,
+        107
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Data Leak Issue\n\nUnanticipated data leaks have been observed You can reach me at [email].. It is possible that inadequate access controls are the reason. Restarting Redis 6.2 was attempted, but the problem continues. Additional support is required to address this. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

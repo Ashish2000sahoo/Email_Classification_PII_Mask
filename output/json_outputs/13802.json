@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query for Technical Support\n\nHello Customer Support Team, I am in need of your assistance as I encountered a problem with several integrations that stopped working together, leading to a considerable delay in our project timeline. The issue may have arisen from a recent software update or a misconfiguration. Despite our efforts to restart services, check logs, and verify integration settings, the problem continues to persist My name is Jane Smith.. Since these integrations are crucial to our project timeline, we urgently require your help to address this matter. We would appreciate any suggestions on how to diagnose and correct the issue. We are open to further steps or a deeper investigation if necessary. Please inform us if you need any additional information from us to expedite the resolution. We look forward to your prompt response You can reach me at elena.ivanova@support.org.. Thanks for your support. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        449,
+        459
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        878,
+        903
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Query for Technical Support\n\nHello Customer Support Team, I am in need of your assistance as I encountered a problem with several integrations that stopped working together, leading to a considerable delay in our project timeline. The issue may have arisen from a recent software update or a misconfiguration. Despite our efforts to restart services, check logs, and verify integration settings, the problem continues to persist My name is [full_name].. Since these integrations are crucial to our project timeline, we urgently require your help to address this matter. We would appreciate any suggestions on how to diagnose and correct the issue. We are open to further steps or a deeper investigation if necessary. Please inform us if you need any additional information from us to expedite the resolution. We look forward to your prompt response You can reach me at [email].. Thanks for your support. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

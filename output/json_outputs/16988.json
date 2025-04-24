@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Kontoanmeldung am Freitagabend\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um die Probleme zu melden, die ich am Freitagabend w\u00e4hrend des Versuchs, meine Kontoanmeldung durchzuf\u00fchren, erlebt habe You can reach me at omar.hassan@secure.net.. Die Probleme begannen um 20:00 Uhr und sind sich mehrere Stunden gehalten haben. Ich vermute, dass der Ursachendie \u00dcberlastung oder die Wartungsarbeiten des Servers war, da ich \u00e4hnliche Probleme in der Vergangenheit w\u00e4hrend der Gipfelzeiten erlebt habe. Um das Problem zu beheben, habe ich versucht, meinen Browser zu neustarten und meine Netzwerkverbindung zu \u00fcberpr\u00fcfen, bedauerlicherweise waren diese Ma\u00dfnahmen jedoch unerfolgreich. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und eine L\u00f6sung oder Erkl\u00e4rung f\u00fcr den Ursprung des Problems geben k\u00f6nnten. Ich bin bereit, alle zus\u00e4tzlichen Informationen oder Unterst\u00fctzung bereitzustellen, die Sie ben\u00f6tigen, um dieses Problem zu l\u00f6sen My name is Liu Wei.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ihr lieber [Dein Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        993,
+        1000
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        247,
+        269
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Kontoanmeldung am Freitagabend\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um die Probleme zu melden, die ich am Freitagabend w\u00e4hrend des Versuchs, meine Kontoanmeldung durchzuf\u00fchren, erlebt habe You can reach me at [email].. Die Probleme begannen um 20:00 Uhr und sind sich mehrere Stunden gehalten haben. Ich vermute, dass der Ursachendie \u00dcberlastung oder die Wartungsarbeiten des Servers war, da ich \u00e4hnliche Probleme in der Vergangenheit w\u00e4hrend der Gipfelzeiten erlebt habe. Um das Problem zu beheben, habe ich versucht, meinen Browser zu neustarten und meine Netzwerkverbindung zu \u00fcberpr\u00fcfen, bedauerlicherweise waren diese Ma\u00dfnahmen jedoch unerfolgreich. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um dieses Problem k\u00fcmmern und eine L\u00f6sung oder Erkl\u00e4rung f\u00fcr den Ursprung des Problems geben k\u00f6nnten. Ich bin bereit, alle zus\u00e4tzlichen Informationen oder Unterst\u00fctzung bereitzustellen, die Sie ben\u00f6tigen, um dieses Problem zu l\u00f6sen My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ihr lieber [Dein Name]",
+  "category_of_the_email": "Incident"
+}

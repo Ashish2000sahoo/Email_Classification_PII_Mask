@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry\n\nDigital campaign analysis has stopped, need to update, brand growth tracking is affected You can reach me at omar.hassan@secure.net.. Integration issues with various tools are to blame My name is Jane Smith.. API connections need to be checked, looking for software updates.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        232
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        135,
+        157
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry\n\nDigital campaign analysis has stopped, need to update, brand growth tracking is affected You can reach me at [email].. Integration issues with various tools are to blame My name is [full_name].. API connections need to be checked, looking for software updates.",
+  "category_of_the_email": "Incident"
+}

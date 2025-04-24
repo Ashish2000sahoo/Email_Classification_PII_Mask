@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Issue with Data Analytics Platform During Investment Optimization\n\nHello Customer Support,\\n\\nI hope this message finds you well My name is John Doe.. I am writing to report an issue I encountered with the data analytics platform while optimizing investments. The platform froze, and I was unable to continue my work.\\n\\nThis issue may have arisen due to insufficient computational resources allocated to the platform. I have attempted to resolve the problem by restarting the system and checking for updates, but the issue persists.\\n\\nHere are the details of the issue:\\n\\n* What happened: The data analytics platform froze during investment optimization.\\n* Possible cause: Insufficient computational resources.\\n* Actions taken: Restarted system, checked for updates.\\n\\nI would greatly appreciate your help in addressing this issue. If you need any additional information to assist with the resolution, please let me know.\\n\\nThank you for your time and assistance.\\n\\nBest regards,\\n[Your Name] You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1043,
+        1068
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Technical Issue with Data Analytics Platform During Investment Optimization\n\nHello Customer Support,\\n\\nI hope this message finds you well My name is [full_name].. I am writing to report an issue I encountered with the data analytics platform while optimizing investments. The platform froze, and I was unable to continue my work.\\n\\nThis issue may have arisen due to insufficient computational resources allocated to the platform. I have attempted to resolve the problem by restarting the system and checking for updates, but the issue persists.\\n\\nHere are the details of the issue:\\n\\n* What happened: The data analytics platform froze during investment optimization.\\n* Possible cause: Insufficient computational resources.\\n* Actions taken: Restarted system, checked for updates.\\n\\nI would greatly appreciate your help in addressing this issue. If you need any additional information to assist with the resolution, please let me know.\\n\\nThank you for your time and assistance.\\n\\nBest regards,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

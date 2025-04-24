@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unbefugter Zugriff auf medizinische Daten - Sicherheitsproblem\n\nEs wurde ein unbefugter Zugriff auf medizinische Daten gemeldet, was auf veraltete Sicherheitsma\u00dfnahmen zur\u00fcckzuf\u00fchren ist You can reach me at liuwei@business.cn.. Vorl\u00e4ufige Untersuchungen deuten auf eine Schwachstelle in der Konfiguration von Apache Hadoop und MongoDB hin My name is Sophia Rossi.. Es wird empfohlen, die Softwareversionen zu aktualisieren und Zugriffssprotologien zu \u00fcberpr\u00fcfen, um m\u00f6gliche Auff\u00e4lligkeiten zu erkennen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        371
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        216,
+        234
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unbefugter Zugriff auf medizinische Daten - Sicherheitsproblem\n\nEs wurde ein unbefugter Zugriff auf medizinische Daten gemeldet, was auf veraltete Sicherheitsma\u00dfnahmen zur\u00fcckzuf\u00fchren ist You can reach me at [email].. Vorl\u00e4ufige Untersuchungen deuten auf eine Schwachstelle in der Konfiguration von Apache Hadoop und MongoDB hin My name is [full_name].. Es wird empfohlen, die Softwareversionen zu aktualisieren und Zugriffssprotologien zu \u00fcberpr\u00fcfen, um m\u00f6gliche Auff\u00e4lligkeiten zu erkennen.",
+  "category_of_the_email": "Incident"
+}

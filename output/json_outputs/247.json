@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Updating Marketing Campaign\n\nHello Customer Support, I am contacting you to request an urgent update of the marketing campaign for Smart-Rauchmelder on Android and macOS. The current campaign is not effectively targeting our intended audience, and we need to adjust it to enhance its effectiveness You can reach me at janesmith@company.com.. Could you please inform me about the procedures required to update the campaign? I would greatly appreciate a quick response to this issue. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        514,
+        525
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        339,
+        360
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Updating Marketing Campaign\n\nHello Customer Support, I am contacting you to request an urgent update of the marketing campaign for Smart-Rauchmelder on Android and macOS. The current campaign is not effectively targeting our intended audience, and we need to adjust it to enhance its effectiveness You can reach me at [email].. Could you please inform me about the procedures required to update the campaign? I would greatly appreciate a quick response to this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

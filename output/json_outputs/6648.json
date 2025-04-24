@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with data encryption\n\nThe encryption of medical information has not been successful. It seems the Node.js setup might be incorrect My name is Carlos Mendoza.. After restarting the server and examining the Airtable logs, the issue still exists. Could use your help to fix this. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        173
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        311,
+        333
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with data encryption\n\nThe encryption of medical information has not been successful. It seems the Node.js setup might be incorrect My name is [full_name].. After restarting the server and examining the Airtable logs, the issue still exists. Could use your help to fix this. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

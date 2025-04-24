@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Botschaft zum Fokus auf die Integrit\u00e4t der Software\n\nDie Integrationsprozesse der Software haben versagt, was zu Unterschieden in den Daten gef\u00fchrt hat My name is Elena Ivanova.. Es gibt die M\u00f6glichkeit, dass ungerechte Aktualisierungen oder Konfigurationsprobleme die Ursache sind You can reach me at johndoe@email.com.. Bislang haben wir die betroffenen Dienste neu gestartet, die Logdateien gepr\u00fcft und Abh\u00e4ngigkeiten aktualisiert, aber das Problem beh\u00e4lt sich trotzdem bestand.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        172,
+        185
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        309,
+        326
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Botschaft zum Fokus auf die Integrit\u00e4t der Software\n\nDie Integrationsprozesse der Software haben versagt, was zu Unterschieden in den Daten gef\u00fchrt hat My name is [full_name].. Es gibt die M\u00f6glichkeit, dass ungerechte Aktualisierungen oder Konfigurationsprobleme die Ursache sind You can reach me at [email].. Bislang haben wir die betroffenen Dienste neu gestartet, die Logdateien gepr\u00fcft und Abh\u00e4ngigkeiten aktualisiert, aber das Problem beh\u00e4lt sich trotzdem bestand.",
+  "category_of_the_email": "Incident"
+}

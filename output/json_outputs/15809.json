@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung von Elasticsearch f\u00fcr Wertpapierdatenanalyse\n\nSehr geehrte Kundensupport, ich bitte um Einflussnahme bei der Optimierung der Wertpapierdatenanalyse mit Elasticsearch 7.13. Ich besitze ein gro\u00dfes Datenset und m\u00f6chte sicherstellen, dass die Ausbeute der Analyse maximal ist My name is Omar Hassan.. K\u00f6nnten Sie mir Tipp und Informationen zu den besten Praktiken zur Indexierung, Suchen und Visualisierung von Daten liefern? Es w\u00e4re mir eine Freude, Empfehlungen zu Plugins und Integrationsm\u00f6glichkeiten zu erhalten, die die Analyse verbessern k\u00f6nnen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        315
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        710,
+        727
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Optimierung von Elasticsearch f\u00fcr Wertpapierdatenanalyse\n\nSehr geehrte Kundensupport, ich bitte um Einflussnahme bei der Optimierung der Wertpapierdatenanalyse mit Elasticsearch 7.13. Ich besitze ein gro\u00dfes Datenset und m\u00f6chte sicherstellen, dass die Ausbeute der Analyse maximal ist My name is [full_name].. K\u00f6nnten Sie mir Tipp und Informationen zu den besten Praktiken zur Indexierung, Suchen und Visualisierung von Daten liefern? Es w\u00e4re mir eine Freude, Empfehlungen zu Plugins und Integrationsm\u00f6glichkeiten zu erhalten, die die Analyse verbessern k\u00f6nnen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

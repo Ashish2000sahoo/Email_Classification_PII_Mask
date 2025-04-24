@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Updates for Marketing Content\n\nI would like to inquire about updating our marketing documents to align with our recent branding and digital strategy My name is Maria Gonzalez.. This is a critical task that requires prompt attention You can reach me at liuwei@business.cn.. Kindly inform me if there are any obstacles in carrying out this task and keep me posted on the progress. Thanks for your help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        183
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        258,
+        276
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Updates for Marketing Content\n\nI would like to inquire about updating our marketing documents to align with our recent branding and digital strategy My name is [full_name].. This is a critical task that requires prompt attention You can reach me at [email].. Kindly inform me if there are any obstacles in carrying out this task and keep me posted on the progress. Thanks for your help.",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Mitteilung \u00fcber einen Unfallfall\n\nViele Werkzeuge brachen zeitgleich zusammen, was m\u00f6glicherweise auf eine \u00dcberlastung der Integration hindeutet. Ich habe sie neu gestartet, die Aktualisierungen \u00fcberpr\u00fcft und die Logs gepr\u00fcft.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        273
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung \u00fcber einen Unfallfall\n\nViele Werkzeuge brachen zeitgleich zusammen, was m\u00f6glicherweise auf eine \u00dcberlastung der Integration hindeutet. Ich habe sie neu gestartet, die Aktualisierungen \u00fcberpr\u00fcft und die Logs gepr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

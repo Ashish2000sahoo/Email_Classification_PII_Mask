@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Complete Failure in Project Synchronization\n\nDear Customer Support, <br><br>I am contacting you to report a fault with my project synchronization. My data is not being shared across my devices, resulting in inconsistencies and disruptions to my work. I suspect this might be due to a problem with API connectivity, but I am unsure You can reach me at david.kim@corp.kr.. <br><br>To date, I have checked my network connection and restarted my devices, but the issue still exists. I would be grateful if you could look into this and provide a resolution as soon as possible My name is Maria Gonzalez.. <br><br>Please let me know if you require any additional information from me to resolve this issue. I am ready to provide more details or clarification if needed. <br><br>Thank you for your time and assistance. I look forward to your response soon.<br><br>Sincerely,<br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        592,
+        606
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        360,
+        377
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Complete Failure in Project Synchronization\n\nDear Customer Support, <br><br>I am contacting you to report a fault with my project synchronization. My data is not being shared across my devices, resulting in inconsistencies and disruptions to my work. I suspect this might be due to a problem with API connectivity, but I am unsure You can reach me at [email].. <br><br>To date, I have checked my network connection and restarted my devices, but the issue still exists. I would be grateful if you could look into this and provide a resolution as soon as possible My name is [full_name].. <br><br>Please let me know if you require any additional information from me to resolve this issue. I am ready to provide more details or clarification if needed. <br><br>Thank you for your time and assistance. I look forward to your response soon.<br><br>Sincerely,<br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

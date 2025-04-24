@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Request for System Update and Payment Processing Improvement\n\nRequest for updating the invoicing system and enhancing payment processing with third-party software tools. Believe that an update is necessary to simplify payment processes and reduce errors, ultimately improving the overall customer experience.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        348,
+        363
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support Request for System Update and Payment Processing Improvement\n\nRequest for updating the invoicing system and enhancing payment processing with third-party software tools. Believe that an update is necessary to simplify payment processes and reduce errors, ultimately improving the overall customer experience.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

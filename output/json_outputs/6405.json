@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fragen zu Unternehmensrichtlinien f\u00fcr Fernarbeit und Flexibilit\u00e4t\n\nSehr geehrte Kundenservice, ich hoffe, es geht Ihnen gut. Ich schreibe Ihnen, um nach Informationen \u00fcber die Unternehmensrichtlinien bez\u00fcglich Fernarbeit und der Anpassung an flexiblen Arbeitszeiten zu fragen. Als potenzieller Mitarbeiter bin ich an der Unternehmenshaltung bez\u00fcglich den Balancierungen zwischen Beruf und Privatleben und der Flexibilit\u00e4t interessiert. K\u00f6nnten Sie mir bitte Informationen zu den Unternehmensrichtlinien zur Fernarbeit, zu flexiblen Arbeitszeiten sowie zu jeglichen anderen Vorteilen geben? Es w\u00e4re mir au\u00dferdem eine gro\u00dfe Freude, wenn Sie mir Details zu der Umsetzung dieser Richtlinien und zu den Anforderungen oder Erwartungen g\u00e4ben, die Mitarbeiter bei der Teilnahme an der Fernarbeit oder flexiblen Arbeitszeiten zu erf\u00fcllen haben. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob es bestimmte Stellen oder Abteilungen gibt, bei denen die Fernarbeit oder flexibles Arbeitszeiten zustande kommen You can reach me at elena.ivanova@support.org.. Ich freue mich darauf, der Firma beizutreten, und halte es f\u00fcr wichtig, eine klare Kenntnis dieser Richtlinien zu haben, um eine informierte Entscheidung treffen zu k\u00f6nnen. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren My name is Jane Smith.. Ihr eifriger Mitstreiter, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1282,
+        1292
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1023,
+        1048
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Fragen zu Unternehmensrichtlinien f\u00fcr Fernarbeit und Flexibilit\u00e4t\n\nSehr geehrte Kundenservice, ich hoffe, es geht Ihnen gut. Ich schreibe Ihnen, um nach Informationen \u00fcber die Unternehmensrichtlinien bez\u00fcglich Fernarbeit und der Anpassung an flexiblen Arbeitszeiten zu fragen. Als potenzieller Mitarbeiter bin ich an der Unternehmenshaltung bez\u00fcglich den Balancierungen zwischen Beruf und Privatleben und der Flexibilit\u00e4t interessiert. K\u00f6nnten Sie mir bitte Informationen zu den Unternehmensrichtlinien zur Fernarbeit, zu flexiblen Arbeitszeiten sowie zu jeglichen anderen Vorteilen geben? Es w\u00e4re mir au\u00dferdem eine gro\u00dfe Freude, wenn Sie mir Details zu der Umsetzung dieser Richtlinien und zu den Anforderungen oder Erwartungen g\u00e4ben, die Mitarbeiter bei der Teilnahme an der Fernarbeit oder flexiblen Arbeitszeiten zu erf\u00fcllen haben. Dar\u00fcber hinaus w\u00fcrde ich gerne erfahren, ob es bestimmte Stellen oder Abteilungen gibt, bei denen die Fernarbeit oder flexibles Arbeitszeiten zustande kommen You can reach me at [email].. Ich freue mich darauf, der Firma beizutreten, und halte es f\u00fcr wichtig, eine klare Kenntnis dieser Richtlinien zu haben, um eine informierte Entscheidung treffen zu k\u00f6nnen. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren My name is [full_name].. Ihr eifriger Mitstreiter, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

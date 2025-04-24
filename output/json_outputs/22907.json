@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Warranty Inquiry\n\nDear Customer Support,\n\nI am writing to inquire about the extended warranty options available for the Dell XPS 13 9310 ultrabook that I recently purchased. My model features high performance specifications, and I would like to ensure it remains protected My name is Jane Smith.. Could you please provide details on the plans, costs, and coverage periods? Thank you for your assistance in this matter.\n\nBest regards,\n\n<name>\n<tel_num>\n<acc_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        303
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        492,
+        513
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        138,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Warranty Inquiry\n\nDear Customer Support,\n\nI am writing to inquire about the extended warranty options available for the Dell XPS [phone_number] ultrabook that I recently purchased. My model features high performance specifications, and I would like to ensure it remains protected My name is [full_name].. Could you please provide details on the plans, costs, and coverage periods? Thank you for your assistance in this matter.\n\nBest regards,\n\n<name>\n<tel_num>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

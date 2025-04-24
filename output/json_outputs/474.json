@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit OBS Studio und PyCharm-Anwendungen\n\nBetreff: Probleme mit OBS Studio und PyCharm-Anwendungen\\n\\nSehr geehrte Kundenservice,\\n\\nich begegne Problemen mit OBS Studio und PyCharm-Anwendungen. Die Anwendungen kraschen und sind unresponsive. Ich habe die Anwendungen aktualisiert und einen Systemneustart durchgef\u00fchrt, aber das Problem beh\u00e4lt sich best\u00e4ndig You can reach me at johndoe@email.com.. Ich vermute, dass es sich um einen Konflikt oder einen Mangel an Systemressourcen handelt.\\n\\nK\u00f6nnten Sie mir bitte helfen, das Problem zu beheben? Ein Schritt f\u00fcr die Problembehandlung und -erkennung w\u00e4re sehr sch\u00e4tzenswert.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        700,
+        714
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        395,
+        412
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit OBS Studio und PyCharm-Anwendungen\n\nBetreff: Probleme mit OBS Studio und PyCharm-Anwendungen\\n\\nSehr geehrte Kundenservice,\\n\\nich begegne Problemen mit OBS Studio und PyCharm-Anwendungen. Die Anwendungen kraschen und sind unresponsive. Ich habe die Anwendungen aktualisiert und einen Systemneustart durchgef\u00fchrt, aber das Problem beh\u00e4lt sich best\u00e4ndig You can reach me at [email].. Ich vermute, dass es sich um einen Konflikt oder einen Mangel an Systemressourcen handelt.\\n\\nK\u00f6nnten Sie mir bitte helfen, das Problem zu beheben? Ein Schritt f\u00fcr die Problembehandlung und -erkennung w\u00e4re sehr sch\u00e4tzenswert.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

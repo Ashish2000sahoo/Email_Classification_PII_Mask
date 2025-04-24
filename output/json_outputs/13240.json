@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erkundigung nach effektiven Datenanalyse-Tools f\u00fcr Investment-Portfolios\n\nSehr geehrte Kundenservice-Abteilung, ich m\u00f6chte mich an Sie wenden, um die besten Datenanalyse-Tools f\u00fcr die Optimierung von Investment-Portfolios zu erfragen. K\u00f6nnten Sie mir bitte eine Reihe von Empfehlungen geben? Es w\u00e4re mir hilfreich, Tools zu finden, die mir bei der Mustererkennung basierend auf Daten und der Maximalisierung meiner Gewinne helfen. Crucial sind Funktionen wie Vorhersageanalyse, Risikomanagement und Portfolio-Optimierung My name is Sophia Rossi.. Ich freue mich darauf, Ihre Meinung zu diesem Thema zu h\u00f6ren You can reach me at maria.gonzalez@shop.es.. Danke f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        541,
+        553
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        636,
+        658
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Erkundigung nach effektiven Datenanalyse-Tools f\u00fcr Investment-Portfolios\n\nSehr geehrte Kundenservice-Abteilung, ich m\u00f6chte mich an Sie wenden, um die besten Datenanalyse-Tools f\u00fcr die Optimierung von Investment-Portfolios zu erfragen. K\u00f6nnten Sie mir bitte eine Reihe von Empfehlungen geben? Es w\u00e4re mir hilfreich, Tools zu finden, die mir bei der Mustererkennung basierend auf Daten und der Maximalisierung meiner Gewinne helfen. Crucial sind Funktionen wie Vorhersageanalyse, Risikomanagement und Portfolio-Optimierung My name is [full_name].. Ich freue mich darauf, Ihre Meinung zu diesem Thema zu h\u00f6ren You can reach me at [email].. Danke f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

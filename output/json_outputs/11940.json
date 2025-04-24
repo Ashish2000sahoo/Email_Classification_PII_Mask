@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Details on Project Management Features\n\nIs there any information on the SaaS features, pricing plans, and project management tools available? Thank you!. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        200
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Details on Project Management Features\n\nIs there any information on the SaaS features, pricing plans, and project management tools available? Thank you!. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

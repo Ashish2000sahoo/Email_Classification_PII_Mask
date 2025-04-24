@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance in Server Transition Process\n\nHello Team,\n\nI hope this message finds you well. My name is <name>, and I am currently availing your IT Consulting Service with account number <acc_num>. I am writing to seek your assistance with modifying our existing setup to a new server You can reach me at johndoe@email.com.. Our primary concern during this transition is to ensure that service downtime is kept to an absolute minimum, as our operations rely heavily on continuous and unimpeded access to our IT infrastructure.\n\nGiven the complexity and critical nature of this task, I would greatly appreciate if you could assign a dedicated technical consultant to assist us during this period. Additionally, any guidance or best practices you could share to streamline this process, without compromising our service efficiency, would be incredibly helpful.\n\nPlease let us know a convenient time for your team to start on this transition, and if there are any prerequisites or requirements we should prepare in advance.\n\nThank you for your support.\n\nBest regards,\n<name>\nContact: <tel_num> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1120,
+        1130
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        323,
+        340
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance in Server Transition Process\n\nHello Team,\n\nI hope this message finds you well. My name is <name>, and I am currently availing your IT Consulting Service with account number <acc_num>. I am writing to seek your assistance with modifying our existing setup to a new server You can reach me at [email].. Our primary concern during this transition is to ensure that service downtime is kept to an absolute minimum, as our operations rely heavily on continuous and unimpeded access to our IT infrastructure.\n\nGiven the complexity and critical nature of this task, I would greatly appreciate if you could assign a dedicated technical consultant to assist us during this period. Additionally, any guidance or best practices you could share to streamline this process, without compromising our service efficiency, would be incredibly helpful.\n\nPlease let us know a convenient time for your team to start on this transition, and if there are any prerequisites or requirements we should prepare in advance.\n\nThank you for your support.\n\nBest regards,\n<name>\nContact: <tel_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Elasticsearch Indexing Encountered Issues This Morning\n\nHello Customer Support, I am contacting you to report a problem with Elasticsearch indexing that began today in the morning. I suspect it may be due to an overload of data ingestion My name is Omar Hassan.. Despite restarting Elasticsearch and reviewing the data feeds, the problem still exists You can reach me at elena.ivanova@support.org.. I would be grateful if you could investigate this issue and offer a solution at your earliest convenience. Please inform me if you require any further details from me. Thank you for your consideration and assistance. I am looking forward to your response soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        269
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        380,
+        405
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Elasticsearch Indexing Encountered Issues This Morning\n\nHello Customer Support, I am contacting you to report a problem with Elasticsearch indexing that began today in the morning. I suspect it may be due to an overload of data ingestion My name is [full_name].. Despite restarting Elasticsearch and reviewing the data feeds, the problem still exists You can reach me at [email].. I would be grateful if you could investigate this issue and offer a solution at your earliest convenience. Please inform me if you require any further details from me. Thank you for your consideration and assistance. I am looking forward to your response soon.",
+  "category_of_the_email": "Incident"
+}

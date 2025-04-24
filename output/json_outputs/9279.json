@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber einen Fehler im Datenanalyse-Plattform w\u00e4hrend der Investment-Optimierung\n\nSehr geehrte Kundenservice,\\n\\nich schreibe Ihnen, um einen Fehler im Datenanalyse-Plattform w\u00e4hrend der Investment-Optimierung zu melden You can reach me at johndoe@email.com.. Das Plattform war anhalten geblieben und ich konnte meine Arbeit nicht fortsetzen.\\n\\nDieser Fehler k\u00f6nnte auf Mangel an ausreichenden Rechenressourcen an dem Plattform zur\u00fcckzuf\u00fchren sein. Ich habe den Systemneustart versucht und die Aktualisierungen \u00fcberpr\u00fcft, aber der Fehler beh\u00e4lt sich bestehen.\\n\\nHier sind die Details des Fehlers:\\n\\n* Was passiert ist: Datenanalyse-Plattform war anhalten geblieben w\u00e4hrend der Investment-Optimierung.\\n* Warum es passieren k\u00f6nnte: Mangel an ausreichenden Rechenressourcen.\\n* Was bisher versucht wurde: Systemneustart, Aktualisierungen \u00fcberpr\u00fcfen.\\n\\nIch w\u00fcrde mich sehr freuen, wenn Sie dies untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Wenn Sie weitere Informationen ben\u00f6tigen, um diesen Fehler zu l\u00f6sen, lassen Sie mich bitte wissen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1179,
+        1186
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        255,
+        272
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber einen Fehler im Datenanalyse-Plattform w\u00e4hrend der Investment-Optimierung\n\nSehr geehrte Kundenservice,\\n\\nich schreibe Ihnen, um einen Fehler im Datenanalyse-Plattform w\u00e4hrend der Investment-Optimierung zu melden You can reach me at [email].. Das Plattform war anhalten geblieben und ich konnte meine Arbeit nicht fortsetzen.\\n\\nDieser Fehler k\u00f6nnte auf Mangel an ausreichenden Rechenressourcen an dem Plattform zur\u00fcckzuf\u00fchren sein. Ich habe den Systemneustart versucht und die Aktualisierungen \u00fcberpr\u00fcft, aber der Fehler beh\u00e4lt sich bestehen.\\n\\nHier sind die Details des Fehlers:\\n\\n* Was passiert ist: Datenanalyse-Plattform war anhalten geblieben w\u00e4hrend der Investment-Optimierung.\\n* Warum es passieren k\u00f6nnte: Mangel an ausreichenden Rechenressourcen.\\n* Was bisher versucht wurde: Systemneustart, Aktualisierungen \u00fcberpr\u00fcfen.\\n\\nIch w\u00fcrde mich sehr freuen, wenn Sie dies untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Wenn Sie weitere Informationen ben\u00f6tigen, um diesen Fehler zu l\u00f6sen, lassen Sie mich bitte wissen.\\n\\nVielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.\\n\\nMit freundlichen Gr\u00fc\u00dfen,\\n[Dein Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

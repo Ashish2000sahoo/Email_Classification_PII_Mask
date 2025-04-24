@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encryption encountered issues with Kaspersky\n\nThere was a failure in data encryption, resulting in the exposure of patient records due to an older version of Kaspersky Internet Security 2021.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        199
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        223,
+        239
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Encryption encountered issues with Kaspersky\n\nThere was a failure in data encryption, resulting in the exposure of patient records due to an older version of Kaspersky Internet Security [phone_number].. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia Urgente Necess\u00e1ria para Otimiza\u00e7\u00e3o e Atualiza\u00e7\u00f5es de TI\n\nOl\u00e1 Equipe de Suporte de Servi\u00e7os de TI,\n\nMeu nome \u00e9 <name>, e minha empresa depende muito dos seus Servi\u00e7os de Consultoria de TI. Precisamos urgentemente da sua assist\u00eancia para otimizar e atualizar nosso sistema de TI para garantir opera\u00e7\u00f5es comerciais sem interrup\u00e7\u00f5es. Devido a desafios recentes, essas mudan\u00e7as s\u00e3o cr\u00edticas, e esperamos agendar uma sess\u00e3o de revis\u00e3o imediata com seus especialistas. Por favor, me avise sobre o primeiro hor\u00e1rio dispon\u00edvel para sua equipe You can reach me at david.kim@corp.kr.. Voc\u00ea pode entrar em contato comigo pelo <tel_num> ou por e-mail My name is David Kim.. Nosso n\u00famero de conta \u00e9 <acc_num>.\n\nObrigado pela sua pronta aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        670,
+        679
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        575,
+        592
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia Urgente Necess\u00e1ria para Otimiza\u00e7\u00e3o e Atualiza\u00e7\u00f5es de TI\n\nOl\u00e1 Equipe de Suporte de Servi\u00e7os de TI,\n\nMeu nome \u00e9 <name>, e minha empresa depende muito dos seus Servi\u00e7os de Consultoria de TI. Precisamos urgentemente da sua assist\u00eancia para otimizar e atualizar nosso sistema de TI para garantir opera\u00e7\u00f5es comerciais sem interrup\u00e7\u00f5es. Devido a desafios recentes, essas mudan\u00e7as s\u00e3o cr\u00edticas, e esperamos agendar uma sess\u00e3o de revis\u00e3o imediata com seus especialistas. Por favor, me avise sobre o primeiro hor\u00e1rio dispon\u00edvel para sua equipe You can reach me at [email].. Voc\u00ea pode entrar em contato comigo pelo <tel_num> ou por e-mail My name is [full_name].. Nosso n\u00famero de conta \u00e9 <acc_num>.\n\nObrigado pela sua pronta aten\u00e7\u00e3o a este assunto.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Change"
+}

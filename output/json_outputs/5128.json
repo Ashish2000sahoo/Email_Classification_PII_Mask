@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sudden Failure of Digital Marketing Tools\n\nThe tools are malfunctioning, suggesting a potential API key problem. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        143,
+        158
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sudden Failure of Digital Marketing Tools\n\nThe tools are malfunctioning, suggesting a potential API key problem. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

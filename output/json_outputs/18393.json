@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Strategies for Safeguarding Medical Data in Healthcare Providers\n\nCustomer Support, we are reaching out regarding best practices for securing medical data infrastructure in healthcare providers You can reach me at carlosm@gmail.com.. The healthcare industry is continuously evolving and relies on technology to ensure that sensitive patient information is protected against cyber threats and data breaches. Could you provide information on effective methods for safeguarding medical records, such as encryption, access controls, and network security measures? Additionally, we would greatly appreciate guidance on compliance with regulatory requirements, such as HIPAA. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        690,
+        702
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        223,
+        240
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Strategies for Safeguarding Medical Data in Healthcare Providers\n\nCustomer Support, we are reaching out regarding best practices for securing medical data infrastructure in healthcare providers You can reach me at [email].. The healthcare industry is continuously evolving and relies on technology to ensure that sensitive patient information is protected against cyber threats and data breaches. Could you provide information on effective methods for safeguarding medical records, such as encryption, access controls, and network security measures? Additionally, we would greatly appreciate guidance on compliance with regulatory requirements, such as HIPAA. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

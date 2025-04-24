@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Eilendes Hilfesuch f\u00fcr die IT-Infrastruktur\n\nUnautorisiertes Zugangsanliegen wurde in der IT-Infrastruktur des Krankenhauses festgestellt, was die Sicherheit medizinischer Daten potenziell gef\u00e4hrdet hat. Der Mangel an neuesten Software-Updates scheint die fehlerhaften Zugriffssteuerungen zu verursachen. Vor\u00fcbergehende Zugriffsbeschr\u00e4nkungen wurden erzwungen, Passw\u00f6rter wurden aktualisiert, und der Bedrohungspotential bestand und andauert You can reach me at fatima.farsi@help.com.. Um weitere Verst\u00f6\u00dfe zu verhindern und den Datenschutz der Patienten zu gew\u00e4hrleisten, ist sofortige Unterst\u00fctzung erforderlich. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        634,
+        645
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        471,
+        492
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Eilendes Hilfesuch f\u00fcr die IT-Infrastruktur\n\nUnautorisiertes Zugangsanliegen wurde in der IT-Infrastruktur des Krankenhauses festgestellt, was die Sicherheit medizinischer Daten potenziell gef\u00e4hrdet hat. Der Mangel an neuesten Software-Updates scheint die fehlerhaften Zugriffssteuerungen zu verursachen. Vor\u00fcbergehende Zugriffsbeschr\u00e4nkungen wurden erzwungen, Passw\u00f6rter wurden aktualisiert, und der Bedrohungspotential bestand und andauert You can reach me at [email].. Um weitere Verst\u00f6\u00dfe zu verhindern und den Datenschutz der Patienten zu gew\u00e4hrleisten, ist sofortige Unterst\u00fctzung erforderlich. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

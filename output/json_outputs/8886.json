@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Event\n\nData security event detected in the billing system, possibly exposing patient financial details. This may have occurred due to a recent system update that missed proper security measures My name is John Doe.. Temporary access controls have been put in place and a security review is underway to investigate the situation further. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        222
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        369,
+        386
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Event\n\nData security event detected in the billing system, possibly exposing patient financial details. This may have occurred due to a recent system update that missed proper security measures My name is [full_name].. Temporary access controls have been put in place and a security review is underway to investigate the situation further. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

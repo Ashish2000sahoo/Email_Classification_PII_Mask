@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Update der digitale Marke Pr\u00e4senz\n\nEs wird empfohlen, die Strategien zu \u00fcberdenken, um bessere Engagierung zu f\u00f6rdern.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        165
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Update der digitale Marke Pr\u00e4senz\n\nEs wird empfohlen, die Strategien zu \u00fcberdenken, um bessere Engagierung zu f\u00f6rdern.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

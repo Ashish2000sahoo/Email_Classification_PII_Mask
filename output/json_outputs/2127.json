@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Data Analytics Platform\n\nCustomer Support, we are facing issues with the data analytics platform for our report. The platform has crashed during investment optimization analysis, which may be due to resource overload in Docker containers. We have tried to restart the affected services and reallocate resources, but the issue still persists. We would greatly appreciate your assistance in providing a solution as soon as possible My name is Jane Smith.. Please let us know if you need any additional information from us You can reach me at david.kim@corp.kr.. Thank you for your time and assistance. Sincerely,",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        464,
+        474
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        564,
+        581
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Data Analytics Platform\n\nCustomer Support, we are facing issues with the data analytics platform for our report. The platform has crashed during investment optimization analysis, which may be due to resource overload in Docker containers. We have tried to restart the affected services and reallocate resources, but the issue still persists. We would greatly appreciate your assistance in providing a solution as soon as possible My name is [full_name].. Please let us know if you need any additional information from us You can reach me at [email].. Thank you for your time and assistance. Sincerely,",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur API-Integration von Projektmanagementwerkzeugen\n\nIch schreibe, um Fragen zu API-Integrationsm\u00f6glichkeiten f\u00fcr Projektmanagementwerkzeuge zu kl\u00e4ren You can reach me at fatima.farsi@help.com.. K\u00f6nnten detaillierte Informationen zu unterst\u00fctzten Werkzeugen und einer tiefen Integration liefern? Ich freue mich \u00fcber relevante Dokumentationen und Fallstudien My name is Liu Wei.. Ich freue mich auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        386,
+        393
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        188,
+        209
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur API-Integration von Projektmanagementwerkzeugen\n\nIch schreibe, um Fragen zu API-Integrationsm\u00f6glichkeiten f\u00fcr Projektmanagementwerkzeuge zu kl\u00e4ren You can reach me at [email].. K\u00f6nnten detaillierte Informationen zu unterst\u00fctzten Werkzeugen und einer tiefen Integration liefern? Ich freue mich \u00fcber relevante Dokumentationen und Fallstudien My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

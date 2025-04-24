@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am reaching out to inquire about the data analytics services you offer to help optimize investment strategies You can reach me at david.kim@corp.kr.. Could you provide details on the types of analytics you offer and how they can be applied to investment decisions? I would greatly appreciate any information you can provide on the benefits of using these services, such as increased returns and reduced risk My name is Elena Ivanova.. Additionally, I would like to know about the customization options you offer for tailored solutions to individual investors. Thank you, I am looking forward to hearing back from you. Best regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        455,
+        468
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        166,
+        183
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am reaching out to inquire about the data analytics services you offer to help optimize investment strategies You can reach me at [email].. Could you provide details on the types of analytics you offer and how they can be applied to investment decisions? I would greatly appreciate any information you can provide on the benefits of using these services, such as increased returns and reduced risk My name is [full_name].. Additionally, I would like to know about the customization options you offer for tailored solutions to individual investors. Thank you, I am looking forward to hearing back from you. Best regards.",
+  "category_of_the_email": "Request"
+}

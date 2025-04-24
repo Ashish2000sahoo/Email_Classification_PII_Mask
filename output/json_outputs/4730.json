@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwarteter Halt der Kampagne\n\nHier ist eine kurze Erkl\u00e4rung des Problems: Die digitalen Kampagnen sind pl\u00f6tzlich gestoppt. Es k\u00f6nnte eine nicht kompatibele Node.js-Version sein. Ich habe versucht, MySQL neu zu starten und die Ubuntu-Protokolle zu \u00fcberpr\u00fcfen, aber der Fehler l\u00e4uft leider nicht weg My name is John Doe.. Es w\u00e4re sehr hilfreich, wenn Sie mir die aktuelle Node.js-Version und eventuelle Fehlernachrichten zur Verf\u00fcgung stellen k\u00f6nnten. Ich werde Sie unter <tel_num> anrufen, um weitere Fragen zu besprechen und falls erforderlich, einen passenden Zeitpunkt f\u00fcr ein Telefonat auszusuchen. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        636,
+        661
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unerwarteter Halt der Kampagne\n\nHier ist eine kurze Erkl\u00e4rung des Problems: Die digitalen Kampagnen sind pl\u00f6tzlich gestoppt. Es k\u00f6nnte eine nicht kompatibele Node.js-Version sein. Ich habe versucht, MySQL neu zu starten und die Ubuntu-Protokolle zu \u00fcberpr\u00fcfen, aber der Fehler l\u00e4uft leider nicht weg My name is [full_name].. Es w\u00e4re sehr hilfreich, wenn Sie mir die aktuelle Node.js-Version und eventuelle Fehlernachrichten zur Verf\u00fcgung stellen k\u00f6nnten. Ich werde Sie unter <tel_num> anrufen, um weitere Fragen zu besprechen und falls erforderlich, einen passenden Zeitpunkt f\u00fcr ein Telefonat auszusuchen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

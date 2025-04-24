@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Campaign Efficiency Noted\n\nRespected Customer Service Team, I am contacting you to address a sudden drop in my campaign efficiency. It appears to be due to a misconfiguration in targeting, though I am uncertain. I've attempted to rectify this situation by modifying the ad text and the budget allocation, but the problem remains unresolved. I would be grateful if you could investigate and offer a solution promptly You can reach me at omar.hassan@secure.net.. Please inform me if extra details are required for your assessment. I appreciate your prompt attention to this matter. Best regards, [Your Name] My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        650
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        458,
+        480
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Campaign Efficiency Noted\n\nRespected Customer Service Team, I am contacting you to address a sudden drop in my campaign efficiency. It appears to be due to a misconfiguration in targeting, though I am uncertain. I've attempted to rectify this situation by modifying the ad text and the budget allocation, but the problem remains unresolved. I would be grateful if you could investigate and offer a solution promptly You can reach me at [email].. Please inform me if extra details are required for your assessment. I appreciate your prompt attention to this matter. Best regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

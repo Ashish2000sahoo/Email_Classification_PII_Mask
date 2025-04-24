@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Asistencia necesaria para el cambio de licencia en Office 365\n\nEstimado soporte al cliente,\n\nEstoy escribiendo para solicitar asistencia con el cambio de licencia para Excel en Microsoft Office 365 My name is Liu Wei.. Nuestro cliente, <name>, inform\u00f3 problemas de activaci\u00f3n para el producto afectado, lo que est\u00e1 causando una gran inconveniencia. \u00bfPodr\u00eda ayudar a resolver este problema a la brevedad? Por favor, cont\u00e1cteme al <tel_num> o env\u00edeme un correo electr\u00f3nico para cualquier informaci\u00f3n adicional que se requiera.\n\nGracias,\n\n<name> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        218,
+        225
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        576,
+        593
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        67,
+        70
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        203,
+        206
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Asistencia necesaria para el cambio de licencia en Office [cvv_no]\n\nEstimado soporte al cliente,\n\nEstoy escribiendo para solicitar asistencia con el cambio de licencia para Excel en Microsoft Office [cvv_no] My name is [full_name].. Nuestro cliente, <name>, inform\u00f3 problemas de activaci\u00f3n para el producto afectado, lo que est\u00e1 causando una gran inconveniencia. \u00bfPodr\u00eda ayudar a resolver este problema a la brevedad? Por favor, cont\u00e1cteme al <tel_num> o env\u00edeme un correo electr\u00f3nico para cualquier informaci\u00f3n adicional que se requiera.\n\nGracias,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

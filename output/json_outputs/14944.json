@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiring About Evernote Integrations\n\nHello, I am writing to inquire about the integrations of Evernote with other software and products My name is Liu Wei.. Could you provide a list of compatible applications and services? Additionally, I would appreciate any details on the integration process and any potential limitations. Thank you for your time and assistance. I look forward to your response. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        158,
+        165
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        434,
+        451
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiring About Evernote Integrations\n\nHello, I am writing to inquire about the integrations of Evernote with other software and products My name is [full_name].. Could you provide a list of compatible applications and services? Additionally, I would appreciate any details on the integration process and any potential limitations. Thank you for your time and assistance. I look forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

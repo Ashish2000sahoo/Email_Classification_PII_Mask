@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Datensperrungsfall\n\nSehr geehrte Kundenservice,\\n\\nes gab einen Datensperrungsfall, der die Sicherheit medizinischer Daten und die IT-Systeme des Krankenhauses betroffen hat. Die Schwachstellen in integrierten Softwareprogrammen scheinen die Ursache zu sein You can reach me at liuwei@business.cn.. Bislang wurden Feuerw\u00e4nde verst\u00e4rkt, um bekannte Schwachstellen zu schlie\u00dfen, aber der Vorfall hat die Betriebsweise des Krankenhauses gest\u00f6rt. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um die Ursache zu identifizieren und effektive Gegenma\u00dfnahmen einzuleiten.\\n\\nUnser Team hat bereits erste Schritte zur Minderung der Sch\u00e4den unternommen, aber wir ben\u00f6tigen Unterst\u00fctzung.\\n\\nBitte rufen Sie uns an: <tel_num> f\u00fcr weitere Details und den Fortschritt des Vorfalls.\\n\\nMit freundlichen Gr\u00fc\u00dfen My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        821,
+        832
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        300,
+        318
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Datensperrungsfall\n\nSehr geehrte Kundenservice,\\n\\nes gab einen Datensperrungsfall, der die Sicherheit medizinischer Daten und die IT-Systeme des Krankenhauses betroffen hat. Die Schwachstellen in integrierten Softwareprogrammen scheinen die Ursache zu sein You can reach me at [email].. Bislang wurden Feuerw\u00e4nde verst\u00e4rkt, um bekannte Schwachstellen zu schlie\u00dfen, aber der Vorfall hat die Betriebsweise des Krankenhauses gest\u00f6rt. Wir ben\u00f6tigen dringend Unterst\u00fctzung, um die Ursache zu identifizieren und effektive Gegenma\u00dfnahmen einzuleiten.\\n\\nUnser Team hat bereits erste Schritte zur Minderung der Sch\u00e4den unternommen, aber wir ben\u00f6tigen Unterst\u00fctzung.\\n\\nBitte rufen Sie uns an: <tel_num> f\u00fcr weitere Details und den Fortschritt des Vorfalls.\\n\\nMit freundlichen Gr\u00fc\u00dfen My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

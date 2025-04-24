@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: H\u00e4ufige Papierstaus mit Epson EcoTank-Drucker\n\nSehr geehrte/r Kundenservice des Tech Online Stores,\n\nich schreibe, um meine Frustration \u00fcber den Epson EcoTank ET-4760 Drucker auszudr\u00fccken, den ich in Ihrem Gesch\u00e4ft gekauft habe. Er hat h\u00e4ufige Papierstaus und schafft es nicht, Druckauftr\u00e4ge abzuschlie\u00dfen, was zu erheblichen Unterbrechungen f\u00fchrt. Die hartn\u00e4ckigen Probleme mit der Papierzufuhr hindern mich daran, konsistente Ergebnisse zu erzielen. Ich habe verschiedene Fehlerbehebungsmethoden ausprobiert, aber das Problem besteht weiterhin. Ich bitte Sie freundlich um Unterst\u00fctzung, um diese Probleme so schnell wie m\u00f6glich zu l\u00f6sen. Bitte geben Sie mir Ratschl\u00e4ge zu m\u00f6glichen L\u00f6sungen oder zur M\u00f6glichkeit eines Austauschs My name is Elena Ivanova.. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        752,
+        765
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        866,
+        889
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        171,
+        175
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: H\u00e4ufige Papierstaus mit Epson EcoTank-Drucker\n\nSehr geehrte/r Kundenservice des Tech Online Stores,\n\nich schreibe, um meine Frustration \u00fcber den Epson EcoTank ET-[phone_number] Drucker auszudr\u00fccken, den ich in Ihrem Gesch\u00e4ft gekauft habe. Er hat h\u00e4ufige Papierstaus und schafft es nicht, Druckauftr\u00e4ge abzuschlie\u00dfen, was zu erheblichen Unterbrechungen f\u00fchrt. Die hartn\u00e4ckigen Probleme mit der Papierzufuhr hindern mich daran, konsistente Ergebnisse zu erzielen. Ich habe verschiedene Fehlerbehebungsmethoden ausprobiert, aber das Problem besteht weiterhin. Ich bitte Sie freundlich um Unterst\u00fctzung, um diese Probleme so schnell wie m\u00f6glich zu l\u00f6sen. Bitte geben Sie mir Ratschl\u00e4ge zu m\u00f6glichen L\u00f6sungen oder zur M\u00f6glichkeit eines Austauschs My name is [full_name].. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

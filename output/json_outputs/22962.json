@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringendes EC2-Problem\n\nSehr geehrtes IT-Serviceteam, ich habe Probleme mit einer EC2-Instanz, die nicht reagiert My name is Maria Gonzalez.. Ich ben\u00f6tige dringend Unterst\u00fctzung f\u00fcr meine AWS-Management-Service-Umgebung. Bitte melden Sie sich so schnell wie m\u00f6glich bei mir You can reach me at david.kim@corp.kr.. Mit freundlichen Gr\u00fc\u00dfen, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        134,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        300,
+        317
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Dringendes EC2-Problem\n\nSehr geehrtes IT-Serviceteam, ich habe Probleme mit einer EC2-Instanz, die nicht reagiert My name is [full_name].. Ich ben\u00f6tige dringend Unterst\u00fctzung f\u00fcr meine AWS-Management-Service-Umgebung. Bitte melden Sie sich so schnell wie m\u00f6glich bei mir You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, <name>.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit der AWS-Abrechnung\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf. Ich schreibe, um Ihre Aufmerksamkeit auf ein Problem im Zusammenhang mit meiner AWS-Kostenoptimierung unter dem AWS Management Service zu lenken. In diesem Monat habe ich unerwartete Geb\u00fchren auf meinem Abrechnungskonto bemerkt, mit denen ich nicht gerechnet habe My name is David Kim.. Als gesch\u00e4tzter Kunde verlasse ich mich auf Ihre Dienste, um sicherzustellen, dass ich meine Ausgaben effizient verwalten und prognostizieren kann. Diese unerwarteten Geb\u00fchren haben jedoch Besorgnis erregt und mein Budget beeintr\u00e4chtigt. K\u00f6nnten Sie bitte dieses Problem so schnell wie m\u00f6glich untersuchen und mir eine Kl\u00e4rung \u00fcber die Herkunft dieser Geb\u00fchren geben? Au\u00dferdem w\u00fcrde ich eine Anleitung sch\u00e4tzen, wie ich \u00e4hnliche Situationen in zuk\u00fcnftigen Abrechnungsperioden vermeiden kann. Meine Kontonummer lautet <acc_num> und die registrierte E-Mail-Adresse ist <email>. Ihre sofortige Aufmerksamkeit und L\u00f6sung dieses Anliegens w\u00e4re sehr anerkannt. F\u00fcr R\u00fcckfragen bin ich unter <tel_num> erreichbar. Vielen Dank f\u00fcr Ihre Kooperation und schnelle Unterst\u00fctzung in dieser Angelegenheit. Ich freue mich auf Ihre Antwort, um eine reibungslose Fortsetzung des Services zu gew\u00e4hrleisten.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        408
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1354,
+        1376
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem mit der AWS-Abrechnung\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf. Ich schreibe, um Ihre Aufmerksamkeit auf ein Problem im Zusammenhang mit meiner AWS-Kostenoptimierung unter dem AWS Management Service zu lenken. In diesem Monat habe ich unerwartete Geb\u00fchren auf meinem Abrechnungskonto bemerkt, mit denen ich nicht gerechnet habe My name is [full_name].. Als gesch\u00e4tzter Kunde verlasse ich mich auf Ihre Dienste, um sicherzustellen, dass ich meine Ausgaben effizient verwalten und prognostizieren kann. Diese unerwarteten Geb\u00fchren haben jedoch Besorgnis erregt und mein Budget beeintr\u00e4chtigt. K\u00f6nnten Sie bitte dieses Problem so schnell wie m\u00f6glich untersuchen und mir eine Kl\u00e4rung \u00fcber die Herkunft dieser Geb\u00fchren geben? Au\u00dferdem w\u00fcrde ich eine Anleitung sch\u00e4tzen, wie ich \u00e4hnliche Situationen in zuk\u00fcnftigen Abrechnungsperioden vermeiden kann. Meine Kontonummer lautet <acc_num> und die registrierte E-Mail-Adresse ist <email>. Ihre sofortige Aufmerksamkeit und L\u00f6sung dieses Anliegens w\u00e4re sehr anerkannt. F\u00fcr R\u00fcckfragen bin ich unter <tel_num> erreichbar. Vielen Dank f\u00fcr Ihre Kooperation und schnelle Unterst\u00fctzung in dieser Angelegenheit. Ich freue mich auf Ihre Antwort, um eine reibungslose Fortsetzung des Services zu gew\u00e4hrleisten.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

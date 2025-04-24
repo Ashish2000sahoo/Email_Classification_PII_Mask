@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Billing Statements\n\nNoted some discrepancies in the recent billing statements, which might be due to data entry errors or system updates My name is Liu Wei.. We have cross-verified the transactions against previous statements, but the issue still exists. We would appreciate your assistance in resolving this matter at the earliest possible time. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        170,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        393,
+        414
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Billing Statements\n\nNoted some discrepancies in the recent billing statements, which might be due to data entry errors or system updates My name is [full_name].. We have cross-verified the transactions against previous statements, but the issue still exists. We would appreciate your assistance in resolving this matter at the earliest possible time. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

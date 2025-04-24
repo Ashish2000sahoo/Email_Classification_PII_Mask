@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes de connectivit\u00e9 avec le routeur Cisco ISR4331\n\nChers services de support informatique,\n\nNous rencontrons des probl\u00e8mes de connectivit\u00e9 avec notre routeur Cisco ISR4331, ce qui entra\u00eene des pannes fr\u00e9quentes du r\u00e9seau You can reach me at elena.ivanova@support.org.. Cela n\u00e9cessite un d\u00e9pannage imm\u00e9diat, car cela affecte nos op\u00e9rations en cours My name is Sophia Rossi.. Veuillez fournir une r\u00e9solution rapide pour garantir une interruption minimale. Dans l'attente de votre r\u00e9ponse rapide.\n\nMerci,\n\n<name>,\n<Company Name>,\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        374,
+        386
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        256,
+        281
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        60,
+        64
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        182,
+        186
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes de connectivit\u00e9 avec le routeur Cisco ISR[phone_number]\n\nChers services de support informatique,\n\nNous rencontrons des probl\u00e8mes de connectivit\u00e9 avec notre routeur Cisco ISR[phone_number], ce qui entra\u00eene des pannes fr\u00e9quentes du r\u00e9seau You can reach me at [email].. Cela n\u00e9cessite un d\u00e9pannage imm\u00e9diat, car cela affecte nos op\u00e9rations en cours My name is [full_name].. Veuillez fournir une r\u00e9solution rapide pour garantir une interruption minimale. Dans l'attente de votre r\u00e9ponse rapide.\n\nMerci,\n\n<name>,\n<Company Name>,\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

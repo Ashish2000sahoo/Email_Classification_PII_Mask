@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Synchronization Across Platforms Identified\n\nI am encountering difficulties with synchronizing data across various platforms. The error arose from mismatched API versions. Despite attempts to update Pinnacle Studio and restart services, the issue remains unresolved. I would greatly appreciate your assistance in finding a resolution or directing me on how to address this problem. I am ready to offer additional details or clarification if necessary My name is Carlos Mendoza.. Please advise on the next steps I should take. Thank you for your help and I anticipate your prompt response. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        487,
+        501
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        631,
+        652
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Synchronization Across Platforms Identified\n\nI am encountering difficulties with synchronizing data across various platforms. The error arose from mismatched API versions. Despite attempts to update Pinnacle Studio and restart services, the issue remains unresolved. I would greatly appreciate your assistance in finding a resolution or directing me on how to address this problem. I am ready to offer additional details or clarification if necessary My name is [full_name].. Please advise on the next steps I should take. Thank you for your help and I anticipate your prompt response. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Consulta sobre la compra al por mayor de MacBook Air M1\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nMe pongo en contacto para preguntar sobre la posibilidad de adquirir m\u00faltiples unidades del MacBook Air M1 para uso corporativo de nuestra empresa. Estamos interesados en conocer las opciones disponibles para precios al por mayor y cualquier posible descuento que puedan ofrecer para grandes pedidos.\n\n\u00bfPodr\u00edan proporcionarme m\u00e1s detalles sobre su programa de compras corporativas y cualquier t\u00e9rmino o requisito espec\u00edfico involucrado? Su ayuda para agilizar esta consulta ser\u00eda muy apreciada.\n\nEspero su pronta respuesta.\n\nAtentamente,\n\n<name>\n<company_name>. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        692,
+        707
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Consulta sobre la compra al por mayor de MacBook Air M1\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nMe pongo en contacto para preguntar sobre la posibilidad de adquirir m\u00faltiples unidades del MacBook Air M1 para uso corporativo de nuestra empresa. Estamos interesados en conocer las opciones disponibles para precios al por mayor y cualquier posible descuento que puedan ofrecer para grandes pedidos.\n\n\u00bfPodr\u00edan proporcionarme m\u00e1s detalles sobre su programa de compras corporativas y cualquier t\u00e9rmino o requisito espec\u00edfico involucrado? Su ayuda para agilizar esta consulta ser\u00eda muy apreciada.\n\nEspero su pronta respuesta.\n\nAtentamente,\n\n<name>\n<company_name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

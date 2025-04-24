@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Synchronization Issue with Campaign Metrics\n\nI am writing to report a synchronization issue with the campaign metrics. The issue began when I noticed that the metrics were not updating in real-time, despite the correct setup of the integration between our platforms. I have attempted to restart the TP-Link switch and checked the Docker container logs, but the issue persists even after these steps. The error messages in the logs do not provide clear indications of the error's cause. I have also verified the network connection and ensured that all devices are properly connected. I would greatly appreciate your assistance in resolving this issue as quickly as possible, as the campaign metrics are crucial for our business operations and without access to current data, our decision-making is compromised. I am available to provide additional information or context that may be helpful in troubleshooting My name is Jane Smith.. Please let me know if you need further steps to resolve the issue. Thank you for your time and support You can reach me at fatima.farsi@help.com.. I look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        949,
+        959
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1086,
+        1107
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Synchronization Issue with Campaign Metrics\n\nI am writing to report a synchronization issue with the campaign metrics. The issue began when I noticed that the metrics were not updating in real-time, despite the correct setup of the integration between our platforms. I have attempted to restart the TP-Link switch and checked the Docker container logs, but the issue persists even after these steps. The error messages in the logs do not provide clear indications of the error's cause. I have also verified the network connection and ensured that all devices are properly connected. I would greatly appreciate your assistance in resolving this issue as quickly as possible, as the campaign metrics are crucial for our business operations and without access to current data, our decision-making is compromised. I am available to provide additional information or context that may be helpful in troubleshooting My name is [full_name].. Please let me know if you need further steps to resolve the issue. Thank you for your time and support You can reach me at [email].. I look forward to hearing from you soon.",
+  "category_of_the_email": "Incident"
+}

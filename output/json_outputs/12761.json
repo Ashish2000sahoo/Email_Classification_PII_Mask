@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr QuickBooks Online bei Verarbeitung medizinischer Daten\n\nSehr geehrte Kundenservice-Team, ich bitte um Informationen \u00fcber empfohlene Sicherheitsprotokolle, die wir bei der Verwaltung und Speicherung medizinischer Daten in QuickBooks Online einsetzen k\u00f6nnen. Da wir als Gesundheitsdienstleister an hohen Datenschutzstandards gebunden sind, um die Vertraulichkeit und Integrit\u00e4t der Patientendaten zu gew\u00e4hrleisten, ben\u00f6tigen wir detaillierte Anleitungen You can reach me at janesmith@company.com.. Ich w\u00fcrde mich freuen, wenn Sie uns den neuesten Rat und Empfehlungen zu den besten Praktiken f\u00fcr die Sicherung medizinischer Informationen auf QuickBooks Online geben k\u00f6nnten My name is Elena Ivanova.. Danke im Voraus f\u00fcr Ihre Unterst\u00fctzung, die ich mit Freude entgegennehmen werde.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        717,
+        730
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        506,
+        527
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsma\u00dfnahmen f\u00fcr QuickBooks Online bei Verarbeitung medizinischer Daten\n\nSehr geehrte Kundenservice-Team, ich bitte um Informationen \u00fcber empfohlene Sicherheitsprotokolle, die wir bei der Verwaltung und Speicherung medizinischer Daten in QuickBooks Online einsetzen k\u00f6nnen. Da wir als Gesundheitsdienstleister an hohen Datenschutzstandards gebunden sind, um die Vertraulichkeit und Integrit\u00e4t der Patientendaten zu gew\u00e4hrleisten, ben\u00f6tigen wir detaillierte Anleitungen You can reach me at [email].. Ich w\u00fcrde mich freuen, wenn Sie uns den neuesten Rat und Empfehlungen zu den besten Praktiken f\u00fcr die Sicherung medizinischer Informationen auf QuickBooks Online geben k\u00f6nnten My name is [full_name].. Danke im Voraus f\u00fcr Ihre Unterst\u00fctzung, die ich mit Freude entgegennehmen werde.",
+  "category_of_the_email": "Request"
+}

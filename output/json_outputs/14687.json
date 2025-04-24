@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Encountered Data Losses While Analyzing Investment Portfolios Using RapidMiner Firebase\n\nFacing data loss issues when analyzing investment portfolios with RapidMiner Firebase You can reach me at carlosm@gmail.com.. There might be integration problems causing sync failures. I've attempted re-syncing and reviewed logs, but the issue remains unresolved. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        373,
+        381
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        204,
+        221
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Encountered Data Losses While Analyzing Investment Portfolios Using RapidMiner Firebase\n\nFacing data loss issues when analyzing investment portfolios with RapidMiner Firebase You can reach me at [email].. There might be integration problems causing sync failures. I've attempted re-syncing and reviewed logs, but the issue remains unresolved. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

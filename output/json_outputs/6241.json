@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Financial Companies\n\nFinancial companies' investment optimization algorithms may yield suboptimal results due to potential data integration issues, despite calibration and research with additional data You can reach me at maria.gonzalez@shop.es.. Despite efforts, the outcomes remain unchanged. The company's investment strategies require support to address the problem, enhance overall performance, and achieve expected returns. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        462,
+        471
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        243,
+        265
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Financial Companies\n\nFinancial companies' investment optimization algorithms may yield suboptimal results due to potential data integration issues, despite calibration and research with additional data You can reach me at [email].. Despite efforts, the outcomes remain unchanged. The company's investment strategies require support to address the problem, enhance overall performance, and achieve expected returns. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Problem"
+}

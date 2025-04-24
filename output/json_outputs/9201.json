@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhancing SEO of WordPress Site\n\nI am looking to improve the SEO of my WordPress site and inquire about strategies to optimize it for better search engine rankings My name is Fatima Al-Farsi.. Could you provide insights on digital strategies that can be employed to enhance the website's visibility? I am particularly interested in learning about keyword research, on-page optimization, and link building You can reach me at maria.gonzalez@shop.es.. Additionally, I would like to know about the tools and resources that can support my SEO efforts. Please let me know your guidance and recommendations on how to improve the website's search engine ranking and drive more traffic to the site.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        448,
+        470
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhancing SEO of WordPress Site\n\nI am looking to improve the SEO of my WordPress site and inquire about strategies to optimize it for better search engine rankings My name is [full_name]-Farsi.. Could you provide insights on digital strategies that can be employed to enhance the website's visibility? I am particularly interested in learning about keyword research, on-page optimization, and link building You can reach me at [email].. Additionally, I would like to know about the tools and resources that can support my SEO efforts. Please let me know your guidance and recommendations on how to improve the website's search engine ranking and drive more traffic to the site.",
+  "category_of_the_email": "Request"
+}

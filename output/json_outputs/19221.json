@@ -1,0 +1,63 @@
+{
+  "input_email_body": "Subject: Enhancing Norton 360 Security Features\n\nHello Customer Support, I am interested in learning about the digital integration strategies that pair Norton 360 with other software to boost its security features My name is Omar Hassan.. Specifically, I want to know how Norton 360 can be combined with other programs to enhance antivirus, firewall, and password management functionalities You can reach me at elena.ivanova@support.org.. I am seeking a comprehensive security solution to protect my devices and data from malware, phishing, and ransomware. I would appreciate any information or recommendations you can provide. Additionally, I am curious about any system requirements or compatibility concerns that I should be aware of when integrating Norton 360 with other products. I look forward to your response and am eager to explore the possibilities of integrating Norton 360 with other products to enhance my security. Thanks for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        411,
+        436
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        26,
+        29
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        159,
+        162
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        279,
+        282
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        743,
+        746
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        864,
+        867
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Norton [cvv_no] Security Features\n\nHello Customer Support, I am interested in learning about the digital integration strategies that pair Norton [cvv_no] with other software to boost its security features My name is [full_name].. Specifically, I want to know how Norton [cvv_no] can be combined with other programs to enhance antivirus, firewall, and password management functionalities You can reach me at [email].. I am seeking a comprehensive security solution to protect my devices and data from malware, phishing, and ransomware. I would appreciate any information or recommendations you can provide. Additionally, I am curious about any system requirements or compatibility concerns that I should be aware of when integrating Norton [cvv_no] with other products. I look forward to your response and am eager to explore the possibilities of integrating Norton [cvv_no] with other products to enhance my security. Thanks for your support.",
+  "category_of_the_email": "Request"
+}

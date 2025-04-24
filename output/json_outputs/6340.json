@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unapproved Data Access Incidents\n\nWe have encountered unapproved access attempts to medical data within the hospital's system You can reach me at janesmith@company.com.. This may have happened due to phishing attacks or outdated security protocols. So far, we have strengthened firewall settings and conducted staff training to prevent future incidents My name is Maria Gonzalez.. We kindly request your assistance in investigating the matter and providing recommendations for improved security measures.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        373,
+        387
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        155,
+        176
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unapproved Data Access Incidents\n\nWe have encountered unapproved access attempts to medical data within the hospital's system You can reach me at [email].. This may have happened due to phishing attacks or outdated security protocols. So far, we have strengthened firewall settings and conducted staff training to prevent future incidents My name is [full_name].. We kindly request your assistance in investigating the matter and providing recommendations for improved security measures.",
+  "category_of_the_email": "Incident"
+}

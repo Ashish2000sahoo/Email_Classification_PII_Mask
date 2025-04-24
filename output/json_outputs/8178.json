@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Analytics Tools\n\nI hope this message finds you well. I am inquiring about data analytics tools that can be integrated with Kubernetes to optimize investments You can reach me at david.kim@corp.kr.. Could you provide me with a list of tools that are compatible and their features? Additionally, I would greatly appreciate any help in selecting the most suitable tool for my needs My name is David Kim.. I look forward to your response and eagerly await further communication.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        413
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        192,
+        209
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Data Analytics Tools\n\nI hope this message finds you well. I am inquiring about data analytics tools that can be integrated with Kubernetes to optimize investments You can reach me at [email].. Could you provide me with a list of tools that are compatible and their features? Additionally, I would greatly appreciate any help in selecting the most suitable tool for my needs My name is [full_name].. I look forward to your response and eagerly await further communication.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject:  Urgent Assistance Needed for Data Breach Issue\n\nI am reporting a significant problem with our system, a data breach has occurred, leading to unauthorized access to patient records You can reach me at maria.gonzalez@shop.es.. This happened because of inadequate encryption and outdated software. Despite my efforts to update Kubernetes and strengthen firewall rules, the issue continues. I would be very grateful if you could offer immediate help to address this issue. Please inform me of the steps I should take next. Thank you for your support and attention. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        582,
+        591
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        210,
+        232
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject:  Urgent Assistance Needed for Data Breach Issue\n\nI am reporting a significant problem with our system, a data breach has occurred, leading to unauthorized access to patient records You can reach me at [email].. This happened because of inadequate encryption and outdated software. Despite my efforts to update Kubernetes and strengthen firewall rules, the issue continues. I would be very grateful if you could offer immediate help to address this issue. Please inform me of the steps I should take next. Thank you for your support and attention. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

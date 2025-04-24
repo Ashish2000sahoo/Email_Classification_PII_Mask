@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselungsfehler vollst\u00e4ndig\n\nEin Vorfall: Die Verschl\u00fcsselung ist gescheitert. Es ist zu einem pl\u00f6tzlichen Systemausfall gekommen. Ursache: Es wird eine m\u00f6gliche Softwarefehler vermutet My name is Carlos Mendoza.. Versucht: Die Server wurden neugestartet, die Protokolle wurden \u00fcberpr\u00fcft. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        213,
+        227
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        322,
+        339
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselungsfehler vollst\u00e4ndig\n\nEin Vorfall: Die Verschl\u00fcsselung ist gescheitert. Es ist zu einem pl\u00f6tzlichen Systemausfall gekommen. Ursache: Es wird eine m\u00f6gliche Softwarefehler vermutet My name is [full_name].. Versucht: Die Server wurden neugestartet, die Protokolle wurden \u00fcberpr\u00fcft. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

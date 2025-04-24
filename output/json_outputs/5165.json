@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterbrechung\n\nMedizinische Daten sind aufgrund einer Netzwerkkonkurrenz nicht verf\u00fcgbar. Der Fehler k\u00f6nnte auf eine falsche Magento-Konfiguration oder einen defekten TP-Link-Switch hinweisen You can reach me at sophia.rossi@service.it.. Ich habe bereits den UniFi Dream Machine neu gestartet und die PostgreSQL-Protokolle \u00fcberpr\u00fcft, aber das Problem ist weiterhin bestehen geblieben. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um das Problem zu beheben und Zugriff auf die medizinischen Daten zu erhalten. Bitte geben Sie eine L\u00f6sung oder f\u00fchren Sie mich durch den Fehlerbehebungsprozess. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        600,
+        614
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        221,
+        244
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unterbrechung\n\nMedizinische Daten sind aufgrund einer Netzwerkkonkurrenz nicht verf\u00fcgbar. Der Fehler k\u00f6nnte auf eine falsche Magento-Konfiguration oder einen defekten TP-Link-Switch hinweisen You can reach me at [email].. Ich habe bereits den UniFi Dream Machine neu gestartet und die PostgreSQL-Protokolle \u00fcberpr\u00fcft, aber das Problem ist weiterhin bestehen geblieben. Ich ben\u00f6tige Ihre Unterst\u00fctzung, um das Problem zu beheben und Zugriff auf die medizinischen Daten zu erhalten. Bitte geben Sie eine L\u00f6sung oder f\u00fchren Sie mich durch den Fehlerbehebungsprozess. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

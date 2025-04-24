@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Simplification of Investment Strategy Optimization for Financial Services Professionals using Data Analytics Tools\n\nDear Customer Service, I am writing to inquire about data analysis tools that can aid in the optimization of investment strategies for financial service professionals. I would like to learn more about the available tools and how they can be implemented to enhance the quality of investment decisions My name is John Doe.. Please provide me with information on this topic, including relevant resources or recommendations. I look forward to hearing from you and learning more about the benefits of data analysis for financial service professionals. Thank you for your understanding and support. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        436,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        741,
+        762
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Simplification of Investment Strategy Optimization for Financial Services Professionals using Data Analytics Tools\n\nDear Customer Service, I am writing to inquire about data analysis tools that can aid in the optimization of investment strategies for financial service professionals. I would like to learn more about the available tools and how they can be implemented to enhance the quality of investment decisions My name is [full_name].. Please provide me with information on this topic, including relevant resources or recommendations. I look forward to hearing from you and learning more about the benefits of data analysis for financial service professionals. Thank you for your understanding and support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

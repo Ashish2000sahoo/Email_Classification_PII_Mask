@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Personalizing Billing Settings in Dynamics\n\nCustomer Support, I am seeking to customize billing options within the Microsoft Dynamics 365 project management framework. Specifically, I would like to know what features and tools are available to offer tailored billing solutions. Could you provide details on how to set and manage custom billing options? I am also interested in learning about different configuration options that can be applied across various projects You can reach me at carlosm@gmail.com.. Additionally, I would appreciate any information on best practices for implementing customized billing solutions My name is Jane Smith.. Thanks.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        641,
+        651
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        497,
+        514
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        143,
+        146
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Personalizing Billing Settings in Dynamics\n\nCustomer Support, I am seeking to customize billing options within the Microsoft Dynamics [cvv_no] project management framework. Specifically, I would like to know what features and tools are available to offer tailored billing solutions. Could you provide details on how to set and manage custom billing options? I am also interested in learning about different configuration options that can be applied across various projects You can reach me at [email].. Additionally, I would appreciate any information on best practices for implementing customized billing solutions My name is [full_name].. Thanks.",
+  "category_of_the_email": "Request"
+}

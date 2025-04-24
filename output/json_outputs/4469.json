@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Access to Medical Information Refused Today\n\nUnexpected refusal to access medical data occurred because of a technical integration problem. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        170,
+        186
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Access to Medical Information Refused Today\n\nUnexpected refusal to access medical data occurred because of a technical integration problem. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

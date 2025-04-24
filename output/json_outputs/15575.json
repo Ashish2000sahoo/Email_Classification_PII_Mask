@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Concerning Encryption\n\nGreetings customer support, I wish to notify you about an issue we are experiencing with our medical data encryption. The system suddenly failed, which we suspect might be related to a recent software update My name is Sophia Rossi.. Despite our efforts to restart the servers and verify the configurations, the problem remains unresolved. The failure came with no prior warning and we are worried about the security of our data. We would greatly appreciate your help in addressing this issue and offering a solution at your earliest convenience You can reach me at omar.hassan@secure.net.. Please inform us if any further details are required from our end to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        259,
+        271
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        605,
+        627
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem Concerning Encryption\n\nGreetings customer support, I wish to notify you about an issue we are experiencing with our medical data encryption. The system suddenly failed, which we suspect might be related to a recent software update My name is [full_name].. Despite our efforts to restart the servers and verify the configurations, the problem remains unresolved. The failure came with no prior warning and we are worried about the security of our data. We would greatly appreciate your help in addressing this issue and offering a solution at your earliest convenience You can reach me at [email].. Please inform us if any further details are required from our end to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

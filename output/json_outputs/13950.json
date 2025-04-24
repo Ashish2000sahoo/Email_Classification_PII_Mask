@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Synchronization Tools\n\nIt has been observed that there are problems with the data synchronization of our analytics tools, which are causing project delays. These issues seem to be related to compatibility problems between Notion and Outlook. Despite restarting the applications and clearing caches, the problem persists My name is David Kim.. The delays are impacting project scheduling, and we require immediate assistance to resolve this matter You can reach me at fatima.farsi@help.com.. Could you please provide guidance on how to overcome these compatibility issues?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        365
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        494,
+        515
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Synchronization Tools\n\nIt has been observed that there are problems with the data synchronization of our analytics tools, which are causing project delays. These issues seem to be related to compatibility problems between Notion and Outlook. Despite restarting the applications and clearing caches, the problem persists My name is [full_name].. The delays are impacting project scheduling, and we require immediate assistance to resolve this matter You can reach me at [email].. Could you please provide guidance on how to overcome these compatibility issues?",
+  "category_of_the_email": "Incident"
+}

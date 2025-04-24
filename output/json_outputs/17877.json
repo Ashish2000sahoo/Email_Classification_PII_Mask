@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Crash Incident\n\nThe project management software as a service has unexpectedly stopped functioning after the Elasticsearch 7.13 upgrade You can reach me at janesmith@company.com.. Despite restarting my computer, reviewing the logs, and updating the dependencies, the problem continues My name is Fatima Al-Farsi.. Assistance is required to address this situation.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        313
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        164,
+        185
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Crash Incident\n\nThe project management software as a service has unexpectedly stopped functioning after the Elasticsearch 7.13 upgrade You can reach me at [email].. Despite restarting my computer, reviewing the logs, and updating the dependencies, the problem continues My name is [full_name]-Farsi.. Assistance is required to address this situation.",
+  "category_of_the_email": "Incident"
+}

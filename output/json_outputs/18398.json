@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: SAP ERP Support\n\nCould you please guide me on how to optimize SAP ERP when integrated with PostgreSQL 13?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        153
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: SAP ERP Support\n\nCould you please guide me on how to optimize SAP ERP when integrated with PostgreSQL 13?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

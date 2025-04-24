@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr die Slack-Integration ben\u00f6tigt\n\nSehr geehrtes Kundenserviceteam,\n\nIch hoffe, dass diese Nachricht Sie wohlauf erreicht My name is Elena Ivanova.. Ich schreibe, um Unterst\u00fctzung bei der Einrichtung und Integration von Slack Version 4.23.0 f\u00fcr unsere Teamzusammenarbeit zu bitten. Wir haben einige Probleme bei der Gew\u00e4hrleistung einer effizienten Kommunikation festgestellt und w\u00fcrden Ihre Anleitung zur korrekten Einrichtung sch\u00e4tzen. Unser Team beabsichtigt, diese Plattform f\u00fcr die Interaktion in Echtzeit zu nutzen, und eine nahtlose Integration ist entscheidend f\u00fcr unsere Abl\u00e4ufe. Bitte stellen Sie detaillierte Anweisungen oder alle verf\u00fcgbaren Dokumentationen zur Verf\u00fcgung, die uns bei der L\u00f6sung dieses Problems helfen k\u00f6nnen. Ihre Unterst\u00fctzung bei der \u00dcberwindung dieser Herausforderungen wird sehr gesch\u00e4tzt You can reach me at johndoe@email.com.. Vielen Dank f\u00fcr Ihre schnelle Bearbeitung dieser Anfrage.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        157,
+        170
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        865,
+        882
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr die Slack-Integration ben\u00f6tigt\n\nSehr geehrtes Kundenserviceteam,\n\nIch hoffe, dass diese Nachricht Sie wohlauf erreicht My name is [full_name].. Ich schreibe, um Unterst\u00fctzung bei der Einrichtung und Integration von Slack Version 4.23.0 f\u00fcr unsere Teamzusammenarbeit zu bitten. Wir haben einige Probleme bei der Gew\u00e4hrleistung einer effizienten Kommunikation festgestellt und w\u00fcrden Ihre Anleitung zur korrekten Einrichtung sch\u00e4tzen. Unser Team beabsichtigt, diese Plattform f\u00fcr die Interaktion in Echtzeit zu nutzen, und eine nahtlose Integration ist entscheidend f\u00fcr unsere Abl\u00e4ufe. Bitte stellen Sie detaillierte Anweisungen oder alle verf\u00fcgbaren Dokumentationen zur Verf\u00fcgung, die uns bei der L\u00f6sung dieses Problems helfen k\u00f6nnen. Ihre Unterst\u00fctzung bei der \u00dcberwindung dieser Herausforderungen wird sehr gesch\u00e4tzt You can reach me at [email].. Vielen Dank f\u00fcr Ihre schnelle Bearbeitung dieser Anfrage.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Integration Issue: Smartsheet Sync Error\n\nHello Customer Support, I am contacting you to report an issue with the Smartsheet integration, which suddenly stopped working My name is John Doe.. I have been unable to synchronize my data, and I believe it might be due to a recent update, as it functioned correctly before. I have already tried restarting my system and verifying my credentials, but the problem remains unresolved. I am reaching out for your assistance to find a solution. If there are any additional steps I can take to resolve this, please let me know. I am prepared to provide any further details or assistance as required. The error message I am receiving is 'Sync error occurred.' I have double-checked my integration settings, and they appear to be set correctly. I am unsure of what to do next and am relying on your expertise to help me You can reach me at omar.hassan@secure.net.. Thank you for your support. I look forward to your prompt response. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        199,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        899,
+        921
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Report on Integration Issue: Smartsheet Sync Error\n\nHello Customer Support, I am contacting you to report an issue with the Smartsheet integration, which suddenly stopped working My name is [full_name].. I have been unable to synchronize my data, and I believe it might be due to a recent update, as it functioned correctly before. I have already tried restarting my system and verifying my credentials, but the problem remains unresolved. I am reaching out for your assistance to find a solution. If there are any additional steps I can take to resolve this, please let me know. I am prepared to provide any further details or assistance as required. The error message I am receiving is 'Sync error occurred.' I have double-checked my integration settings, and they appear to be set correctly. I am unsure of what to do next and am relying on your expertise to help me You can reach me at [email].. Thank you for your support. I look forward to your prompt response. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

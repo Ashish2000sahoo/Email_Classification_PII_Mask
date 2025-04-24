@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problemas de autenticaci\u00f3n con el enrutador Cisco ISR4331\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEstamos experimentando desaf\u00edos significativos con nuestro enrutador Cisco ISR4331. Parece que no est\u00e1 autenticando a los usuarios adecuadamente, lo que est\u00e1 causando problemas generalizados de inicio de sesi\u00f3n en la red para nuestro departamento de TI My name is Jane Smith.. Dependemos de este enrutador por su estabilidad y seguridad, por lo que este problema est\u00e1 impactando nuestras operaciones diarias You can reach me at carlosm@gmail.com.. Solicitamos amablemente su asistencia inmediata para resolver este problema y restaurar la funcionalidad normal de la red. Por favor, h\u00e1ganos saber a la brevedad c\u00f3mo proceder o si ser\u00eda necesario un reemplazo o reparaci\u00f3n.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        375,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        540,
+        557
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        62,
+        66
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        189,
+        193
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Problemas de autenticaci\u00f3n con el enrutador Cisco ISR[phone_number]\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nEstamos experimentando desaf\u00edos significativos con nuestro enrutador Cisco ISR[phone_number]. Parece que no est\u00e1 autenticando a los usuarios adecuadamente, lo que est\u00e1 causando problemas generalizados de inicio de sesi\u00f3n en la red para nuestro departamento de TI My name is [full_name].. Dependemos de este enrutador por su estabilidad y seguridad, por lo que este problema est\u00e1 impactando nuestras operaciones diarias You can reach me at [email].. Solicitamos amablemente su asistencia inmediata para resolver este problema y restaurar la funcionalidad normal de la red. Por favor, h\u00e1ganos saber a la brevedad c\u00f3mo proceder o si ser\u00eda necesario un reemplazo o reparaci\u00f3n.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

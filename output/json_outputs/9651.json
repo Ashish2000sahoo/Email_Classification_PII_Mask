@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Crash during digital campaign launch today\n\nThe website experienced a crash during the launch My name is Fatima Al-Farsi.. It could be due to overloaded server capacity. The server was restarted and checked for malware. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        123
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        251,
+        274
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Crash during digital campaign launch today\n\nThe website experienced a crash during the launch My name is [full_name]-Farsi.. It could be due to overloaded server capacity. The server was restarted and checked for malware. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

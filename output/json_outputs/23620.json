@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Propuestas de mejoras para la gesti\u00f3n de m\u00faltiples cuentas en la nube de AWS\n\nEstimado soporte de la firma de consultor\u00eda IT,\n\nLe escribo para proponer mejoras en la gesti\u00f3n de la infraestructura en la nube a trav\u00e9s de m\u00faltiples cuentas de AWS, centr\u00e1ndome en mejorar la conformidad y la gesti\u00f3n de costos You can reach me at david.kim@corp.kr.. Nuestro actual servicio de gesti\u00f3n de AWS carece de monitoreo unificado y verificaciones proactivas de conformidad, lo que plantea riesgos operativos.\n\nPara abordar estos problemas, sugiero implementar mejores an\u00e1lisis entre cuentas y herramientas automatizadas de gesti\u00f3n de costos My name is Maria Gonzalez.. Estas mejoras podr\u00edan mejorar significativamente la eficiencia al asegurar la adherencia a las pol\u00edticas y optimizar la facturaci\u00f3n de recursos.\n\nPor favor, considere esta propuesta e inf\u00f3rmenos sobre cualquier discusi\u00f3n adicional necesaria para iniciar estas mejoras.\n\nGracias.\n\nAtentamente,\n\n<name>\n\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        649,
+        663
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        335,
+        352
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Propuestas de mejoras para la gesti\u00f3n de m\u00faltiples cuentas en la nube de AWS\n\nEstimado soporte de la firma de consultor\u00eda IT,\n\nLe escribo para proponer mejoras en la gesti\u00f3n de la infraestructura en la nube a trav\u00e9s de m\u00faltiples cuentas de AWS, centr\u00e1ndome en mejorar la conformidad y la gesti\u00f3n de costos You can reach me at [email].. Nuestro actual servicio de gesti\u00f3n de AWS carece de monitoreo unificado y verificaciones proactivas de conformidad, lo que plantea riesgos operativos.\n\nPara abordar estos problemas, sugiero implementar mejores an\u00e1lisis entre cuentas y herramientas automatizadas de gesti\u00f3n de costos My name is [full_name].. Estas mejoras podr\u00edan mejorar significativamente la eficiencia al asegurar la adherencia a las pol\u00edticas y optimizar la facturaci\u00f3n de recursos.\n\nPor favor, considere esta propuesta e inf\u00f3rmenos sobre cualquier discusi\u00f3n adicional necesaria para iniciar estas mejoras.\n\nGracias.\n\nAtentamente,\n\n<name>\n\n<tel_num>",
+  "category_of_the_email": "Request"
+}

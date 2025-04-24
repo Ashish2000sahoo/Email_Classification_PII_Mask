@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Errors in Billing\n\nHello Customer Support, I am contacting you regarding unexpected billing discrepancies in my multiple software subscriptions My name is Omar Hassan.. These errors appear to stem from irregular payment processing settings, which have led to billing inconsistencies. After conducting a manual review and restarting my subscriptions, the issues still persist. Could you please examine this further and offer a solution? If you need any further information from me, please let me know. Thank you for your help and I look forward to your response. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        591,
+        613
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Errors in Billing\n\nHello Customer Support, I am contacting you regarding unexpected billing discrepancies in my multiple software subscriptions My name is [full_name].. These errors appear to stem from irregular payment processing settings, which have led to billing inconsistencies. After conducting a manual review and restarting my subscriptions, the issues still persist. Could you please examine this further and offer a solution? If you need any further information from me, please let me know. Thank you for your help and I look forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

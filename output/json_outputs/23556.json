@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Zoom crashing issue report\n\nHello Tech Online Store Support,\n\nI am experiencing issues with Zoom version 5.11.0, where the software crashes during calls, disrupting video conferencing and screen sharing. This is severely impacting my work.\n\nPlease advise on a fix.\n\nRegards,\n<name>. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        329
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Zoom crashing issue report\n\nHello Tech Online Store Support,\n\nI am experiencing issues with Zoom version 5.11.0, where the software crashes during calls, disrupting video conferencing and screen sharing. This is severely impacting my work.\n\nPlease advise on a fix.\n\nRegards,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

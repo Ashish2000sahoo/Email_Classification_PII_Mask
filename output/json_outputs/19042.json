@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nKundenservice, bei einer Finanzfirma ist die Leistung der Anlagen trotz Implementierung von Datenanalyse unterdurchschnittlich. Unpr\u00e4zise Eingaben und eingeschr\u00e4nkte Analysemodelle beeintr\u00e4chtigen die Leistung You can reach me at maria.gonzalez@shop.es.. Das Team hat Datenquellen \u00fcberarbeitet und die Analysemodelle neu kalibriert, um signifikante Verbesserungen zu erzielen My name is Fatima Al-Farsi.. Alternativen Datenquellen wurden \u00fcberpr\u00fcft und externe Experten beraten. Allerdings behalten die unterdurchschnittlichen Leistungen bestehen und weitere Pr\u00fcfungen k\u00f6nnten eine m\u00f6gliche Umbenennung der Analysestrategie vorsiehen. Das Team sucht nach Ma\u00dfnahmen, um die Ursache des Problems zu identifizieren und zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        241,
+        263
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nKundenservice, bei einer Finanzfirma ist die Leistung der Anlagen trotz Implementierung von Datenanalyse unterdurchschnittlich. Unpr\u00e4zise Eingaben und eingeschr\u00e4nkte Analysemodelle beeintr\u00e4chtigen die Leistung You can reach me at [email].. Das Team hat Datenquellen \u00fcberarbeitet und die Analysemodelle neu kalibriert, um signifikante Verbesserungen zu erzielen My name is [full_name]-Farsi.. Alternativen Datenquellen wurden \u00fcberpr\u00fcft und externe Experten beraten. Allerdings behalten die unterdurchschnittlichen Leistungen bestehen und weitere Pr\u00fcfungen k\u00f6nnten eine m\u00f6gliche Umbenennung der Analysestrategie vorsiehen. Das Team sucht nach Ma\u00dfnahmen, um die Ursache des Problems zu identifizieren und zu beheben.",
+  "category_of_the_email": "Problem"
+}

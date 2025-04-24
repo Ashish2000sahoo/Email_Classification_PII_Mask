@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Frequent Login Issues\n\nDear Customer Support, I have been facing intermittent login difficulties during peak hours. The issue might be due to server overload or database contention. Despite restarting the server and optimizing database queries, the problem continues. This has caused disruptions in our work My name is Fatima Al-Farsi.. I kindly request your assistance in resolving this matter. Could you please look into the issue and provide a solution as soon as possible? I appreciate your prompt attention to this matter and look forward to hearing from you. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        348,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        616,
+        639
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Frequent Login Issues\n\nDear Customer Support, I have been facing intermittent login difficulties during peak hours. The issue might be due to server overload or database contention. Despite restarting the server and optimizing database queries, the problem continues. This has caused disruptions in our work My name is [full_name]-Farsi.. I kindly request your assistance in resolving this matter. Could you please look into the issue and provide a solution as soon as possible? I appreciate your prompt attention to this matter and look forward to hearing from you. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

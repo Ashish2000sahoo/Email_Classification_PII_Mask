@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung: Verbesserung bestehender digitaler Strategien, Erh\u00f6hung der Marktpendelung und Anreicherung der Kundenbasis\n\nWir erhalten Ihre Anfrage zur Optimierung bestehender digitale Strategien, zur Verbesserung des Marktprozesses und zum Erreichen steigender Beteiligung des Marktpendels sowie zur Erreichung neuer Kunden. Wir bedanken uns bei Ihnen f\u00fcr Ihre Interessensbekundung in dieser Angelegenheit My name is Omar Hassan.. Um die Ziele besser zu verstehen, k\u00f6nnten Sie uns bitte mehr Informationen zu den bestehenden Strategien und den gew\u00fcnschten Ergebnissen bereitstellen? Dies erm\u00f6glicht es uns, eine individuelle Herangehensweise zu entwickeln, um die Marktpendelung zu verbessern und neue Kunden zu erreichen. Falls Ihnen das behagt, k\u00f6nnen wir telefonisch auf <tel_num> diskutieren. Alternativ geben Sie uns bitte eine geeignete Zeit an, wann wir Sie kontaktieren k\u00f6nnen You can reach me at janesmith@company.com.. Wir freuen uns auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        425,
+        436
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        913,
+        934
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Forderung: Verbesserung bestehender digitaler Strategien, Erh\u00f6hung der Marktpendelung und Anreicherung der Kundenbasis\n\nWir erhalten Ihre Anfrage zur Optimierung bestehender digitale Strategien, zur Verbesserung des Marktprozesses und zum Erreichen steigender Beteiligung des Marktpendels sowie zur Erreichung neuer Kunden. Wir bedanken uns bei Ihnen f\u00fcr Ihre Interessensbekundung in dieser Angelegenheit My name is [full_name].. Um die Ziele besser zu verstehen, k\u00f6nnten Sie uns bitte mehr Informationen zu den bestehenden Strategien und den gew\u00fcnschten Ergebnissen bereitstellen? Dies erm\u00f6glicht es uns, eine individuelle Herangehensweise zu entwickeln, um die Marktpendelung zu verbessern und neue Kunden zu erreichen. Falls Ihnen das behagt, k\u00f6nnen wir telefonisch auf <tel_num> diskutieren. Alternativ geben Sie uns bitte eine geeignete Zeit an, wann wir Sie kontaktieren k\u00f6nnen You can reach me at [email].. Wir freuen uns auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

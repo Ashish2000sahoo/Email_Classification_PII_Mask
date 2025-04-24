@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Fehlerhafte Synchronisation der Faktur auf Dynamics 365\n\nSehr geehrte Kundensupport, ich bin der Meinung, dass ich ein Problem habe, bei dem die Faktur nicht mit Dynamics 365 synchronisiert wird. Das Problem k\u00f6nnte auf eine Einschr\u00e4nkung der Integration oder eine Abweichung in der API hinweisen My name is Elena Ivanova.. Ich habe versucht, die Connectors zu resetten und die Logs zu pr\u00fcfen, aber das Problem beh\u00e4lt sich best\u00e4ndig You can reach me at david.kim@corp.kr.. Sie w\u00fcrden mich sehr unterst\u00fctzen, wenn Sie sich mit diesem Problem besch\u00e4ftigen und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte melden Sie sich, wenn Sie weitere Informationen ben\u00f6tigen, die Sie mir liefern k\u00f6nnen. Danke f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        329
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        459,
+        476
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        61,
+        64
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        180,
+        183
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Fehlerhafte Synchronisation der Faktur auf Dynamics [cvv_no]\n\nSehr geehrte Kundensupport, ich bin der Meinung, dass ich ein Problem habe, bei dem die Faktur nicht mit Dynamics [cvv_no] synchronisiert wird. Das Problem k\u00f6nnte auf eine Einschr\u00e4nkung der Integration oder eine Abweichung in der API hinweisen My name is [full_name].. Ich habe versucht, die Connectors zu resetten und die Logs zu pr\u00fcfen, aber das Problem beh\u00e4lt sich best\u00e4ndig You can reach me at [email].. Sie w\u00fcrden mich sehr unterst\u00fctzen, wenn Sie sich mit diesem Problem besch\u00e4ftigen und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte melden Sie sich, wenn Sie weitere Informationen ben\u00f6tigen, die Sie mir liefern k\u00f6nnen. Danke f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

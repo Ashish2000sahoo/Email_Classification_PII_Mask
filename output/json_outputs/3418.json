@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich w\u00fcrde gerne die Optimierung von Squarespace f\u00fcr eine verbesserte Markenpr\u00e4senz und wachsende Wachstumsstrategien besprechen You can reach me at elena.ivanova@support.org.. K\u00f6nnten Sie bitte mehr Informationen zum aktuellen Stand der Website und den Zielen geben? Ich bin sehr interessiert an M\u00f6glichkeiten zur F\u00f6rderung der Online-Pr\u00e4senz und dem Gesch\u00e4ftswachstums. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        503,
+        515
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        182,
+        207
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich w\u00fcrde gerne die Optimierung von Squarespace f\u00fcr eine verbesserte Markenpr\u00e4senz und wachsende Wachstumsstrategien besprechen You can reach me at [email].. K\u00f6nnten Sie bitte mehr Informationen zum aktuellen Stand der Website und den Zielen geben? Ich bin sehr interessiert an M\u00f6glichkeiten zur F\u00f6rderung der Online-Pr\u00e4senz und dem Gesch\u00e4ftswachstums. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

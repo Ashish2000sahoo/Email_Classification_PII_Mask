@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerning a Major Medical Data Security Incident\n\nA significant data breach happened yesterday owing to inadequate encryption and obsolete software You can reach me at sophia.rossi@service.it.. We have initiated a system restart, verified the firewalls, and contacted IT support, yet the issue remains unresolved. We urgently need your help to address this situation promptly. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        409
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        178,
+        201
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concerning a Major Medical Data Security Incident\n\nA significant data breach happened yesterday owing to inadequate encryption and obsolete software You can reach me at [email].. We have initiated a system restart, verified the firewalls, and contacted IT support, yet the issue remains unresolved. We urgently need your help to address this situation promptly. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

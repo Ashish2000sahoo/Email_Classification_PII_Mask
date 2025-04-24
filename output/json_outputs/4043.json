@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Insufficient Encryption Led to Data Breach; Updated Passwords and Conducted Security Scans\n\nA data breach happened because of inadequate encryption. I've changed my passwords and ran security checks.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        246
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Insufficient Encryption Led to Data Breach; Updated Passwords and Conducted Security Scans\n\nA data breach happened because of inadequate encryption. I've changed my passwords and ran security checks.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

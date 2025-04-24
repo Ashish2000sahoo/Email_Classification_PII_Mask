@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best\u00e4tigung und Weiterf\u00fchrung der Datenverlust-Anfrage\n\nSehr geehrte Kundenservice, ich best\u00e4tige Ihre Nachricht \u00fcber einen m\u00f6glichen Datenverlust, der auf veraltete Software zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich entschuldige mich f\u00fcr die damit verbundene Sorge und sch\u00e4tze Ihre Bem\u00fchungen, Ihre Programme bereits aktualisiert zu haben You can reach me at johndoe@email.com.. Um Ihnen besser zu helfen, ben\u00f6tige ich zus\u00e4tzliche Details zu dem verlorenen Datenverlust. K\u00f6nnten Sie bitte Informationen \u00fcber die genutzten Updates und eventuelle Fehlermeldungen teilen, die Sie registriert haben? Es w\u00e4re au\u00dferdem hilfreich, zu erfahren, welche spezifischen Daten Sie verloren geglaubt haben. Falls Sie m\u00f6chten, k\u00f6nnen wir sp\u00e4ter telefonisch \u00fcber diesen Punkt verhandeln My name is John Doe.. W\u00e4ren Sie f\u00fcr ein Telefonat verf\u00fcgbar? Wenn ja, lassen Sie mich bitte wissen, wann Sie sich am Ehesten zur Verf\u00fcgung stellen, und werde ich mich dann bei Ihnen melden. In der Zwischenzeit habe ich die Referenznummer <ref_num> in Ihrem Fall vermerkt und Sie k\u00f6nnen erwartungsgem\u00e4\u00df in den n\u00e4chsten 24 Stunden einen R\u00fcckruf erwarten. Ich danke Ihnen f\u00fcr Ihre Aufmerksamkeit und freue mich darauf, Ihren Problem so schnell wie m\u00f6glich zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        781,
+        789
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        359,
+        376
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Best\u00e4tigung und Weiterf\u00fchrung der Datenverlust-Anfrage\n\nSehr geehrte Kundenservice, ich best\u00e4tige Ihre Nachricht \u00fcber einen m\u00f6glichen Datenverlust, der auf veraltete Software zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich entschuldige mich f\u00fcr die damit verbundene Sorge und sch\u00e4tze Ihre Bem\u00fchungen, Ihre Programme bereits aktualisiert zu haben You can reach me at [email].. Um Ihnen besser zu helfen, ben\u00f6tige ich zus\u00e4tzliche Details zu dem verlorenen Datenverlust. K\u00f6nnten Sie bitte Informationen \u00fcber die genutzten Updates und eventuelle Fehlermeldungen teilen, die Sie registriert haben? Es w\u00e4re au\u00dferdem hilfreich, zu erfahren, welche spezifischen Daten Sie verloren geglaubt haben. Falls Sie m\u00f6chten, k\u00f6nnen wir sp\u00e4ter telefonisch \u00fcber diesen Punkt verhandeln My name is [full_name].. W\u00e4ren Sie f\u00fcr ein Telefonat verf\u00fcgbar? Wenn ja, lassen Sie mich bitte wissen, wann Sie sich am Ehesten zur Verf\u00fcgung stellen, und werde ich mich dann bei Ihnen melden. In der Zwischenzeit habe ich die Referenznummer <ref_num> in Ihrem Fall vermerkt und Sie k\u00f6nnen erwartungsgem\u00e4\u00df in den n\u00e4chsten 24 Stunden einen R\u00fcckruf erwarten. Ich danke Ihnen f\u00fcr Ihre Aufmerksamkeit und freue mich darauf, Ihren Problem so schnell wie m\u00f6glich zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

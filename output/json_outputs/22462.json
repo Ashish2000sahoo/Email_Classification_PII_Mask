@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicitud de asistencia para el intercambio de productos\n\nHola, estoy experimentando problemas persistentes de conexi\u00f3n inal\u00e1mbrica con mi Epson EcoTank ET-4760, que compr\u00e9 recientemente. Me gustar\u00eda solicitar un intercambio por este producto, ya que ha presentado problemas desde el primer d\u00eda You can reach me at johndoe@email.com.. Gracias por su ayuda. Atentamente, <name>, n\u00famero de pedido <order_num>. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        428,
+        437
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        324,
+        341
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        165,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de asistencia para el intercambio de productos\n\nHola, estoy experimentando problemas persistentes de conexi\u00f3n inal\u00e1mbrica con mi Epson EcoTank ET-[phone_number], que compr\u00e9 recientemente. Me gustar\u00eda solicitar un intercambio por este producto, ya que ha presentado problemas desde el primer d\u00eda You can reach me at [email].. Gracias por su ayuda. Atentamente, <name>, n\u00famero de pedido <order_num>. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

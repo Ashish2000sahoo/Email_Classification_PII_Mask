@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Investment Strategies\n\nI am reaching out to seek guidance on utilizing data analytics to optimize my investment strategies. Could you provide some tips and resources to get started? Your information and tools would be greatly appreciated My name is Carlos Mendoza.. I look forward to hearing from you soon You can reach me at carlosm@gmail.com.. Thank you for your help in making informed investment decisions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        296
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        356,
+        373
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Investment Strategies\n\nI am reaching out to seek guidance on utilizing data analytics to optimize my investment strategies. Could you provide some tips and resources to get started? Your information and tools would be greatly appreciated My name is [full_name].. I look forward to hearing from you soon You can reach me at [email].. Thank you for your help in making informed investment decisions.",
+  "category_of_the_email": "Request"
+}

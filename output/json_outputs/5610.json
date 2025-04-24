@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit sicheren Medizin-Daten-System\n\nSehr geehrte Kundensupport, <br><br>Ich schreibe Ihnen, um einen Fehler im sicheren Medizin-Daten-System zu melden. Leider ist das System ausgefallen und wir k\u00f6nnen momentan kritische Patientendaten nicht abrufen. <br><br>Der Fehler k\u00f6nnte durch einen Software-Problembereich oder eine Hardware-Unterbrechung verursacht worden sein, aber wir wissen derzeit noch nicht genau, welcher der Ursachen zutrifft. Bislang haben wir versucht, das System zu neustarten und die Netzwerkverbindungen zu \u00fcberpr\u00fcfen, aber der Fehler beh\u00e4lt sich best\u00e4ndig. <br><br>Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie uns helfen k\u00f6nnten, dieses Problem so bald wie m\u00f6glich zu l\u00f6sen You can reach me at david.kim@corp.kr.. Bitte lassen Sie mich wissen, ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen, die uns dabei helfen k\u00f6nnen, das Problem zu beheben. <br><br>Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren My name is Fatima Al-Farsi.. <br><br>Ein herzliches Dankesch\u00f6n,<br>[Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        981,
+        990
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        723,
+        740
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem mit sicheren Medizin-Daten-System\n\nSehr geehrte Kundensupport, <br><br>Ich schreibe Ihnen, um einen Fehler im sicheren Medizin-Daten-System zu melden. Leider ist das System ausgefallen und wir k\u00f6nnen momentan kritische Patientendaten nicht abrufen. <br><br>Der Fehler k\u00f6nnte durch einen Software-Problembereich oder eine Hardware-Unterbrechung verursacht worden sein, aber wir wissen derzeit noch nicht genau, welcher der Ursachen zutrifft. Bislang haben wir versucht, das System zu neustarten und die Netzwerkverbindungen zu \u00fcberpr\u00fcfen, aber der Fehler beh\u00e4lt sich best\u00e4ndig. <br><br>Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie uns helfen k\u00f6nnten, dieses Problem so bald wie m\u00f6glich zu l\u00f6sen You can reach me at [email].. Bitte lassen Sie mich wissen, ob Sie zus\u00e4tzliche Informationen ben\u00f6tigen, die uns dabei helfen k\u00f6nnen, das Problem zu beheben. <br><br>Vielen Dank f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren My name is [full_name]-Farsi.. <br><br>Ein herzliches Dankesch\u00f6n,<br>[Ihr Name]",
+  "category_of_the_email": "Incident"
+}

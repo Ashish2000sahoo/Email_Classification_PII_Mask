@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erkanntes Unautorisiertes Zugriffsanliegen bei Medizinischen Datenbanken\n\nEs wurde ein unautorizierter Zugriff auf medizinische Datenbanken festgestellt My name is Jane Smith.. Es besteht die M\u00f6glichkeit, dass potenziell vertrauliches Softwarewerkzeug ausgenutzt wurde. Das IT-Team hat bereits eine vorl\u00e4ufige Sicherheitspr\u00fcfung durchgef\u00fchrt. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        173,
+        183
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        373,
+        391
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Erkanntes Unautorisiertes Zugriffsanliegen bei Medizinischen Datenbanken\n\nEs wurde ein unautorizierter Zugriff auf medizinische Datenbanken festgestellt My name is [full_name].. Es besteht die M\u00f6glichkeit, dass potenziell vertrauliches Softwarewerkzeug ausgenutzt wurde. Das IT-Team hat bereits eine vorl\u00e4ufige Sicherheitspr\u00fcfung durchgef\u00fchrt. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten in Gesundheitsinformationsumgebungen\n\nLiebe Kundenservice-Abteilung, ich schreibe an Sie, um L\u00f6sungen zur Sicherung medizinischer Daten in Gesundheitsinformationsumgebungen zu erkunden. K\u00f6nnten Sie bitte Details zu den Ma\u00dfnahmen nennen, die Sie eingesetzt haben, um sensible Patientendaten vor Schadensf\u00e4llen zu sch\u00fctzen? Ich w\u00fcrde gerne Informationen zu Verschl\u00fcsselungsverfahren, Zugriffssteuerungen und der Einhaltung rechtlicher Vorschriften wie HIPAA erhalten. Dar\u00fcber hinaus interessiere ich mich f\u00fcr die Vorgehensweise bei Datenverletzungen You can reach me at liuwei@business.cn.. Ich freue mich darauf, Whitepapers und Fallstudien zu studieren und mehr \u00fcber Ihre L\u00f6sungen zu erfahren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung. Ich warte auf Ihre Nachricht. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        846,
+        856
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        607,
+        625
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten in Gesundheitsinformationsumgebungen\n\nLiebe Kundenservice-Abteilung, ich schreibe an Sie, um L\u00f6sungen zur Sicherung medizinischer Daten in Gesundheitsinformationsumgebungen zu erkunden. K\u00f6nnten Sie bitte Details zu den Ma\u00dfnahmen nennen, die Sie eingesetzt haben, um sensible Patientendaten vor Schadensf\u00e4llen zu sch\u00fctzen? Ich w\u00fcrde gerne Informationen zu Verschl\u00fcsselungsverfahren, Zugriffssteuerungen und der Einhaltung rechtlicher Vorschriften wie HIPAA erhalten. Dar\u00fcber hinaus interessiere ich mich f\u00fcr die Vorgehensweise bei Datenverletzungen You can reach me at [email].. Ich freue mich darauf, Whitepapers und Fallstudien zu studieren und mehr \u00fcber Ihre L\u00f6sungen zu erfahren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung. Ich warte auf Ihre Nachricht. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

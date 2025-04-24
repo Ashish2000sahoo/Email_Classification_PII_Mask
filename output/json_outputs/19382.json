@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Campagnen-Analyse-Dashboards\n\nDas Campagnen-Analyse-Dashboard zeigt derzeit keine Daten an You can reach me at fatima.farsi@help.com.. Das k\u00f6nnte auf ein Problem mit der API-Verbindung oder veraltete Software hindeuten My name is Maria Gonzalez.. Ich habe Systemneustarts und die \u00dcberpr\u00fcfung der API-Anmeldeinformationen vorgenommen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        256,
+        270
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        137,
+        158
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Campagnen-Analyse-Dashboards\n\nDas Campagnen-Analyse-Dashboard zeigt derzeit keine Daten an You can reach me at [email].. Das k\u00f6nnte auf ein Problem mit der API-Verbindung oder veraltete Software hindeuten My name is [full_name].. Ich habe Systemneustarts und die \u00dcberpr\u00fcfung der API-Anmeldeinformationen vorgenommen.",
+  "category_of_the_email": "Incident"
+}

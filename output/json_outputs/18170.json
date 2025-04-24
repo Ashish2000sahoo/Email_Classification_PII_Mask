@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Evernote Integration Issues\n\nDuring project management sessions, users often face synchronization problems with Evernote integrated with Google Drive. These issues might arise due to API limitations or connectivity problems. Despite restarting the application and re-establishing the integration, the problem continues to persist. We are in need of your assistance to resolve this matter My name is Omar Hassan.. Please provide guidance on troubleshooting potential solutions to overcome these synchronization issues. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        420,
+        431
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        559,
+        581
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support for Evernote Integration Issues\n\nDuring project management sessions, users often face synchronization problems with Evernote integrated with Google Drive. These issues might arise due to API limitations or connectivity problems. Despite restarting the application and re-establishing the integration, the problem continues to persist. We are in need of your assistance to resolve this matter My name is [full_name].. Please provide guidance on troubleshooting potential solutions to overcome these synchronization issues. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

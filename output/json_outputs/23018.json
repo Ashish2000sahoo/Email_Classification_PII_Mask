@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zu Konfigurations\u00e4nderungen\n\nSehr geehrtes IT-Support-Team,\n\nich hoffe, diese E-Mail erreicht Sie wohl. Ich schreibe, um einige Anpassungen in unseren AWS-Management-Diensteinstellungen zu beantragen. Insbesondere m\u00f6chten wir unsere Kostenstruktur optimieren und unsere aktuellen Ressourcenmanagementstrategien verbessern. Unser Ziel ist es, sicherzustellen, dass unsere Cloud-Infrastruktur effizient arbeitet und den besten Wert bietet, w\u00e4hrend wir unsere Leistungsanforderungen erf\u00fcllen.\n\nWir verstehen, dass ein effizientes Cloud-Management entscheidend ist, insbesondere angesichts unserer wachsenden Bed\u00fcrfnisse, und wir glauben, dass es Raum f\u00fcr Verbesserungen in unserer aktuellen Konfiguration gibt, um besser mit unseren Gesch\u00e4ftsziele in Einklang zu stehen You can reach me at liuwei@business.cn.. K\u00f6nnten Sie bitte eine Bewertung vornehmen oder uns durch die erforderlichen Schritte f\u00fchren, um potenzielle Verfeinerungen in unseren Bereitstellungseinstellungen zu identifizieren? Dar\u00fcber hinaus w\u00e4ren Ihre Einblicke in die neuesten Best Practices f\u00fcr Kostenoptimierung und innovatives Ressourcenmanagement von unsch\u00e4tzbarem Wert.\n\nDa unser Wachstum fortschreitet, ist es entscheidend, Skalierbarkeit sicherzustellen und gleichzeitig Budget\u00fcberlegungen im Gleichgewicht zu halten My name is John Doe.. Wenn es hilft, sind unsere Kontodaten wie folgt: Kontonummer: <acc_num>. Sie k\u00f6nnen mich gerne unter meiner direkten Durchwahl <tel_num> kontaktieren, falls Sie weitere Einzelheiten ben\u00f6tigen oder ein Gespr\u00e4ch w\u00fcnschen.\n\nVielen Dank im Voraus f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf Ihren fachkundigen Rat.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1318,
+        1326
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        804,
+        822
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zu Konfigurations\u00e4nderungen\n\nSehr geehrtes IT-Support-Team,\n\nich hoffe, diese E-Mail erreicht Sie wohl. Ich schreibe, um einige Anpassungen in unseren AWS-Management-Diensteinstellungen zu beantragen. Insbesondere m\u00f6chten wir unsere Kostenstruktur optimieren und unsere aktuellen Ressourcenmanagementstrategien verbessern. Unser Ziel ist es, sicherzustellen, dass unsere Cloud-Infrastruktur effizient arbeitet und den besten Wert bietet, w\u00e4hrend wir unsere Leistungsanforderungen erf\u00fcllen.\n\nWir verstehen, dass ein effizientes Cloud-Management entscheidend ist, insbesondere angesichts unserer wachsenden Bed\u00fcrfnisse, und wir glauben, dass es Raum f\u00fcr Verbesserungen in unserer aktuellen Konfiguration gibt, um besser mit unseren Gesch\u00e4ftsziele in Einklang zu stehen You can reach me at [email].. K\u00f6nnten Sie bitte eine Bewertung vornehmen oder uns durch die erforderlichen Schritte f\u00fchren, um potenzielle Verfeinerungen in unseren Bereitstellungseinstellungen zu identifizieren? Dar\u00fcber hinaus w\u00e4ren Ihre Einblicke in die neuesten Best Practices f\u00fcr Kostenoptimierung und innovatives Ressourcenmanagement von unsch\u00e4tzbarem Wert.\n\nDa unser Wachstum fortschreitet, ist es entscheidend, Skalierbarkeit sicherzustellen und gleichzeitig Budget\u00fcberlegungen im Gleichgewicht zu halten My name is [full_name].. Wenn es hilft, sind unsere Kontodaten wie folgt: Kontonummer: <acc_num>. Sie k\u00f6nnen mich gerne unter meiner direkten Durchwahl <tel_num> kontaktieren, falls Sie weitere Einzelheiten ben\u00f6tigen oder ein Gespr\u00e4ch w\u00fcnschen.\n\nVielen Dank im Voraus f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf Ihren fachkundigen Rat.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Change"
+}

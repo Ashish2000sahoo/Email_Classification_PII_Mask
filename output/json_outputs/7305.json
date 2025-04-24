@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Webanalyse-Issue\n\nSehr geehrte Kundensupport, ich schreibe Ihnen im Zusammenhang mit einem Fehler in unseren Webanalysen My name is Fatima Al-Farsi.. Es scheint, dass eine falsche Implementierung des Datenverfolgungs-Codes dahintersteckt. Nach intensiver Untersuchung scheint das Problem m\u00f6glicherweise auf eine falsche Installation oder einen Konflikt mit einem unserer Plugins zu zur\u00fcckzuf\u00fchren You can reach me at elena.ivanova@support.org.. Ich habe \u00fcberpr\u00fcft, dass der Verfolgungscode korrekt ist, Konflikte mit Plugins durchsucht und den Cache geleert. Trotz der Ma\u00dfnahmen beh\u00e4lt das Problem bestehen. Ich hoffe, Sie k\u00f6nnen das Problem rasch beheben. Die falschen Analysen beeintr\u00e4chtigen our Gesch\u00e4ftsanalyse. Ich habe versucht, das Problem zu beheben, ohne Erfolg. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit dem Problem befassen und eine L\u00f6sung bereithalten k\u00f6nnten. Bitte teilen Sie mir mehr Details \u00fcber die verwendeten Plugins und die genauen Fehlermeldungen mit. Danke f\u00fcr Ihre Unterst\u00fctzung. Ihr [Ihr Name].",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        150
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        428,
+        453
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Webanalyse-Issue\n\nSehr geehrte Kundensupport, ich schreibe Ihnen im Zusammenhang mit einem Fehler in unseren Webanalysen My name is [full_name]-Farsi.. Es scheint, dass eine falsche Implementierung des Datenverfolgungs-Codes dahintersteckt. Nach intensiver Untersuchung scheint das Problem m\u00f6glicherweise auf eine falsche Installation oder einen Konflikt mit einem unserer Plugins zu zur\u00fcckzuf\u00fchren You can reach me at [email].. Ich habe \u00fcberpr\u00fcft, dass der Verfolgungscode korrekt ist, Konflikte mit Plugins durchsucht und den Cache geleert. Trotz der Ma\u00dfnahmen beh\u00e4lt das Problem bestehen. Ich hoffe, Sie k\u00f6nnen das Problem rasch beheben. Die falschen Analysen beeintr\u00e4chtigen our Gesch\u00e4ftsanalyse. Ich habe versucht, das Problem zu beheben, ohne Erfolg. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit dem Problem befassen und eine L\u00f6sung bereithalten k\u00f6nnten. Bitte teilen Sie mir mehr Details \u00fcber die verwendeten Plugins und die genauen Fehlermeldungen mit. Danke f\u00fcr Ihre Unterst\u00fctzung. Ihr [Ihr Name].",
+  "category_of_the_email": "Incident"
+}

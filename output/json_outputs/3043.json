@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Anomalies in Digital Campaign Performance\n\nHello Support Team, I am contacting you to address a recent anomaly in my digital campaign performance metrics. This could be a result of an integration glitch. Restarting my QuickBooks and Mailchimp connections did not resolve the issue. I would greatly appreciate your assistance in investigating this and providing a resolution as soon as possible. Please let me know if you need further details from me to address this My name is Liu Wei.. Many thanks for your support and I look forward to your prompt response. Best regards, [Your Name] You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        504,
+        511
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        637,
+        660
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Anomalies in Digital Campaign Performance\n\nHello Support Team, I am contacting you to address a recent anomaly in my digital campaign performance metrics. This could be a result of an integration glitch. Restarting my QuickBooks and Mailchimp connections did not resolve the issue. I would greatly appreciate your assistance in investigating this and providing a resolution as soon as possible. Please let me know if you need further details from me to address this My name is [full_name].. Many thanks for your support and I look forward to your prompt response. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

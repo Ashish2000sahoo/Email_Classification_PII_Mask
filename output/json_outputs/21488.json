@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema urgente del servidor\n\nEstimado soporte al cliente,\n\nEstoy escribiendo para informar sobre un problema urgente del servidor que est\u00e1 afectando actualmente nuestro sistema de tickets. Nuestra empresa, <name>, depende en gran medida de su servicio de consultor\u00eda de TI para un funcionamiento fluido. Sin embargo, estamos experimentando interrupciones significativas, y este problema requiere asistencia y an\u00e1lisis inmediatos para garantizar una soluci\u00f3n r\u00e1pida. \u00bfPodr\u00edan proporcionarnos el apoyo necesario para abordar este asunto con prontitud? La productividad de nuestro equipo depende en gran medida de un sistema de tickets funcionando.\n\nAgradecemos su pronta atenci\u00f3n a este problema My name is Elena Ivanova.. Por favor, cont\u00e1ctenme a su conveniencia.\n\nGracias,\n<name>\n<tel_num>\n<email> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        716,
+        729
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        827,
+        849
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problema urgente del servidor\n\nEstimado soporte al cliente,\n\nEstoy escribiendo para informar sobre un problema urgente del servidor que est\u00e1 afectando actualmente nuestro sistema de tickets. Nuestra empresa, <name>, depende en gran medida de su servicio de consultor\u00eda de TI para un funcionamiento fluido. Sin embargo, estamos experimentando interrupciones significativas, y este problema requiere asistencia y an\u00e1lisis inmediatos para garantizar una soluci\u00f3n r\u00e1pida. \u00bfPodr\u00edan proporcionarnos el apoyo necesario para abordar este asunto con prontitud? La productividad de nuestro equipo depende en gran medida de un sistema de tickets funcionando.\n\nAgradecemos su pronta atenci\u00f3n a este problema My name is [full_name].. Por favor, cont\u00e1ctenme a su conveniencia.\n\nGracias,\n<name>\n<tel_num>\n<email> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

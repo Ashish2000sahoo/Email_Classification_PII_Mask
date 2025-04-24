@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unapproved Access to Health Information\n\nThe staff observed unapproved attempts to access health information. Security measures have been enhanced.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        194
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Unapproved Access to Health Information\n\nThe staff observed unapproved attempts to access health information. Security measures have been enhanced.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

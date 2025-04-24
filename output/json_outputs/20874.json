@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Activation\n\nHello Support Team,\n\nI require help with activating my Windows 11 Pro. I have attempted to follow the online instructions but have not been successful You can reach me at sophia.rossi@service.it.. Could you please guide me on the next steps or let me know if you need any further information from my side?\n\nThank you,\n\n<name>\n<acc_num> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        380,
+        393
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        204,
+        227
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support for Activation\n\nHello Support Team,\n\nI require help with activating my Windows 11 Pro. I have attempted to follow the online instructions but have not been successful You can reach me at [email].. Could you please guide me on the next steps or let me know if you need any further information from my side?\n\nThank you,\n\n<name>\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

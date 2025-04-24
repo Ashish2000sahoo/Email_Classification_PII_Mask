@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: dringender Systemfehler gemeldet\n\ngehrte Kundensupport,<br>Es ist ein kritischer Systemfehler aufgetreten, der mehrere wichtige digitale Strategien beeintr\u00e4chtigt hat. Ein Softwarekonflikt k\u00f6nnte dahinterstecken My name is Liu Wei.. Ich habe versucht, das System neu zu starten und betroffene Softwarepakete neu zu installieren, jedoch ohne Erfolg. Trotz meiner Bem\u00fchungen bestehen die Probleme noch immer und verursachen erhebliche St\u00f6rungen in unseren Betriebsabl\u00e4ufen You can reach me at omar.hassan@secure.net.. Ich ben\u00f6tige dringend Hilfe, um die Angelegenheit zu l\u00f6sen und weitere Verluste zu vermeiden. K\u00f6nnten Sie bitte Rat f\u00fcr die n\u00e4chste Schritt geben oder einen Techniker einsetzen?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        504,
+        526
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: dringender Systemfehler gemeldet\n\ngehrte Kundensupport,<br>Es ist ein kritischer Systemfehler aufgetreten, der mehrere wichtige digitale Strategien beeintr\u00e4chtigt hat. Ein Softwarekonflikt k\u00f6nnte dahinterstecken My name is [full_name].. Ich habe versucht, das System neu zu starten und betroffene Softwarepakete neu zu installieren, jedoch ohne Erfolg. Trotz meiner Bem\u00fchungen bestehen die Probleme noch immer und verursachen erhebliche St\u00f6rungen in unseren Betriebsabl\u00e4ufen You can reach me at [email].. Ich ben\u00f6tige dringend Hilfe, um die Angelegenheit zu l\u00f6sen und weitere Verluste zu vermeiden. K\u00f6nnten Sie bitte Rat f\u00fcr die n\u00e4chste Schritt geben oder einen Techniker einsetzen?",
+  "category_of_the_email": "Incident"
+}

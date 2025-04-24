@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Discrepancies in Subscription Billing Need Resolution\n\nI am encountering discrepancies in my subscription billing payments. The issue might be due to incorrect payment processing through Xero My name is Elena Ivanova.. After re-verifying my account details and reprocessing payments, the problem still persists. I would greatly appreciate your assistance in resolving this matter as soon as possible You can reach me at sophia.rossi@service.it.. Could you please inform me of the next steps to take in order to resolve the issue? I am looking forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        225
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        427,
+        450
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Discrepancies in Subscription Billing Need Resolution\n\nI am encountering discrepancies in my subscription billing payments. The issue might be due to incorrect payment processing through Xero My name is [full_name].. After re-verifying my account details and reprocessing payments, the problem still persists. I would greatly appreciate your assistance in resolving this matter as soon as possible You can reach me at [email].. Could you please inform me of the next steps to take in order to resolve the issue? I am looking forward to hearing back from you soon.",
+  "category_of_the_email": "Incident"
+}

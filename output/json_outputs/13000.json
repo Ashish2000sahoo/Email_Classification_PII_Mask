@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Campaign Data Lost in HubSpot CRM Linked to SAP ERP Integration\n\nYour campaign data has vanished from HubSpot CRM because of problems with the SAP ERP integration. You have already restarted the NAS-System and verified your network settings.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        288
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Campaign Data Lost in HubSpot CRM Linked to SAP ERP Integration\n\nYour campaign data has vanished from HubSpot CRM because of problems with the SAP ERP integration. You have already restarted the NAS-System and verified your network settings.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Suspected Data Breach Due to Outdated Software in Hospital System\n\nThere has been a possible data breach due to an outdated software vulnerability. Antivirus scans were performed, and firewalls were checked.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        254
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Suspected Data Breach Due to Outdated Software in Hospital System\n\nThere has been a possible data breach due to an outdated software vulnerability. Antivirus scans were performed, and firewalls were checked.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear support, I am writing to report unexpected billing discrepancies across several services, including AWS software subscriptions. The issue might have arisen due to recent account migration and pricing updates. After reviewing the invoices and contacting customer support for clarification, the issue still persists My name is Omar Hassan.. I would greatly appreciate it if you could look into this matter and provide a detailed explanation of the discrepancies You can reach me at elena.ivanova@support.org.. Please let me know if there is any additional information needed to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        496,
+        521
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear support, I am writing to report unexpected billing discrepancies across several services, including AWS software subscriptions. The issue might have arisen due to recent account migration and pricing updates. After reviewing the invoices and contacting customer support for clarification, the issue still persists My name is [full_name].. I would greatly appreciate it if you could look into this matter and provide a detailed explanation of the discrepancies You can reach me at [email].. Please let me know if there is any additional information needed to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

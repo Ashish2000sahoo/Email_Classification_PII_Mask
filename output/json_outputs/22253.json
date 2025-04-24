@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringende Untersuchung erforderlich: Netzwerkprobleme\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Sie \u00fcber ein dringendes Problem zu informieren, das wir mit unserem Cisco Router ISR4331 haben. Insbesondere erleben wir intermittent Netzwerkverbindungsprobleme, die erhebliche St\u00f6rungen in unseren Abl\u00e4ufen verursachen. Diese Verbindungsprobleme sind hartn\u00e4ckig und erfordern sofortige Aufmerksamkeit, um weitere Komplikationen zu verhindern.\n\nAngesichts der kritischen Rolle, die dieser Router in unserer IT-Infrastruktur spielt, fordere ich Ihr Team auf, eine dringende Untersuchung einzuleiten, gefolgt von einer zeitnahen L\u00f6sung. Ihre Expertise in dieser Angelegenheit wird sehr gesch\u00e4tzt, und ich bin zuversichtlich, dass Sie in der Lage sind, diesen Defekt effektiv zu beheben You can reach me at fatima.farsi@help.com.. Bitte lassen Sie uns wissen, welcher Ansatz am besten geeignet ist, um diese Angelegenheit zu beheben, oder ob spezifische Diagnosen erforderlich sind.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit f\u00fcr dieses kritische Problem My name is Omar Hassan.. Ich freue mich auf Ihre zeitnahe und effektive Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>\nKontakttelefonnummer: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1127,
+        1138
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        865,
+        886
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        245,
+        249
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Dringende Untersuchung erforderlich: Netzwerkprobleme\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Sie \u00fcber ein dringendes Problem zu informieren, das wir mit unserem Cisco Router ISR[phone_number] haben. Insbesondere erleben wir intermittent Netzwerkverbindungsprobleme, die erhebliche St\u00f6rungen in unseren Abl\u00e4ufen verursachen. Diese Verbindungsprobleme sind hartn\u00e4ckig und erfordern sofortige Aufmerksamkeit, um weitere Komplikationen zu verhindern.\n\nAngesichts der kritischen Rolle, die dieser Router in unserer IT-Infrastruktur spielt, fordere ich Ihr Team auf, eine dringende Untersuchung einzuleiten, gefolgt von einer zeitnahen L\u00f6sung. Ihre Expertise in dieser Angelegenheit wird sehr gesch\u00e4tzt, und ich bin zuversichtlich, dass Sie in der Lage sind, diesen Defekt effektiv zu beheben You can reach me at [email].. Bitte lassen Sie uns wissen, welcher Ansatz am besten geeignet ist, um diese Angelegenheit zu beheben, oder ob spezifische Diagnosen erforderlich sind.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit f\u00fcr dieses kritische Problem My name is [full_name].. Ich freue mich auf Ihre zeitnahe und effektive Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>\nKontakttelefonnummer: <tel_num>",
+  "category_of_the_email": "Incident"
+}

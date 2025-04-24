@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry into Implementation and Onboarding Best Practices\n\nI am reaching out to gain more insight into the best practices for the implementation and onboarding process for new clients My name is Maria Gonzalez.. I would like to know what steps your team takes to ensure a smooth transition phase and a successful integration of your product or service offering You can reach me at janesmith@company.com.. Could you please share any information or resources related to this area? Specifically, I am interested in learning about the specific tools or strategies you use to support new clients during the onboarding process.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        387,
+        408
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry into Implementation and Onboarding Best Practices\n\nI am reaching out to gain more insight into the best practices for the implementation and onboarding process for new clients My name is [full_name].. I would like to know what steps your team takes to ensure a smooth transition phase and a successful integration of your product or service offering You can reach me at [email].. Could you please share any information or resources related to this area? Specifically, I am interested in learning about the specific tools or strategies you use to support new clients during the onboarding process.",
+  "category_of_the_email": "Request"
+}

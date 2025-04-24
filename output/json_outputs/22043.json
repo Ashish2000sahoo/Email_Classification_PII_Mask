@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem MacBook Air Display\n\nSehr geehrtes Tech Online Store Support Team,\n\nich schreibe, um Ihre Aufmerksamkeit auf ein Problem zu lenken, das ich mit meinem k\u00fcrzlich gekauften MacBook Air M1 erlebe You can reach me at omar.hassan@secure.net.. W\u00e4hrend das Ger\u00e4t anfangs zu meiner Zufriedenheit funktionierte, habe ich festgestellt, dass der Bildschirm gelegentlich w\u00e4hrend der Nutzung flackert. Dieses kleine Problem tritt sporadisch auf und ist etwas ablenkend, insbesondere wenn ich mich auf wichtige Aufgaben konzentriere. Ich habe sichergestellt, dass mein Betriebssystem aktualisiert ist und habe keine unautorisierten \u00c4nderungen an der Systemkonfiguration vorgenommen. Trotz meiner Fehlersuche, wie das Zur\u00fccksetzen der Anzeigeeinstellungen und das Sicherstellen, dass alle Software aktuell ist, bleibt das Flackern bestehen. Angesichts des Rufs Ihrer Marke f\u00fcr hochwertige Ger\u00e4te bin ich zuversichtlich, dass dies ein Problem ist, bei dem Sie helfen k\u00f6nnen My name is Omar Hassan.. Ich w\u00fcrde mich \u00fcber Hinweise zu m\u00f6glichen L\u00f6sungen freuen oder ob es m\u00f6glich w\u00e4re, eine Inspektion oder einen Austausch zu arrangieren, falls notwendig. Mein Kauf wurde unter dem Namen <name> am <purchase_date> get\u00e4tigt. Ich kann die Seriennummer des Ger\u00e4ts bereitstellen, falls ben\u00f6tigt. Bitte informieren Sie mich \u00fcber weitere Schritte, die ich unternehmen sollte. Vielen Dank f\u00fcr Ihre zeitnahe Aufmerksamkeit f\u00fcr dieses Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        993,
+        1004
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        237,
+        259
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem MacBook Air Display\n\nSehr geehrtes Tech Online Store Support Team,\n\nich schreibe, um Ihre Aufmerksamkeit auf ein Problem zu lenken, das ich mit meinem k\u00fcrzlich gekauften MacBook Air M1 erlebe You can reach me at [email].. W\u00e4hrend das Ger\u00e4t anfangs zu meiner Zufriedenheit funktionierte, habe ich festgestellt, dass der Bildschirm gelegentlich w\u00e4hrend der Nutzung flackert. Dieses kleine Problem tritt sporadisch auf und ist etwas ablenkend, insbesondere wenn ich mich auf wichtige Aufgaben konzentriere. Ich habe sichergestellt, dass mein Betriebssystem aktualisiert ist und habe keine unautorisierten \u00c4nderungen an der Systemkonfiguration vorgenommen. Trotz meiner Fehlersuche, wie das Zur\u00fccksetzen der Anzeigeeinstellungen und das Sicherstellen, dass alle Software aktuell ist, bleibt das Flackern bestehen. Angesichts des Rufs Ihrer Marke f\u00fcr hochwertige Ger\u00e4te bin ich zuversichtlich, dass dies ein Problem ist, bei dem Sie helfen k\u00f6nnen My name is [full_name].. Ich w\u00fcrde mich \u00fcber Hinweise zu m\u00f6glichen L\u00f6sungen freuen oder ob es m\u00f6glich w\u00e4re, eine Inspektion oder einen Austausch zu arrangieren, falls notwendig. Mein Kauf wurde unter dem Namen <name> am <purchase_date> get\u00e4tigt. Ich kann die Seriennummer des Ger\u00e4ts bereitstellen, falls ben\u00f6tigt. Bitte informieren Sie mich \u00fcber weitere Schritte, die ich unternehmen sollte. Vielen Dank f\u00fcr Ihre zeitnahe Aufmerksamkeit f\u00fcr dieses Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

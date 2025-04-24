@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Need Help: Problem with Display Flickering\n\nHello Tech Online Store Customer Support,\n\nI am reaching out to notify you about an issue I am facing with my Dell XPS 13 laptop, model 9310, which I bought from your store a few months ago. Lately, I have observed that the display flickers unpredictably, especially when I frequently adjust the brightness levels during operation My name is Sophia Rossi.. This has caused considerable disruption in my work and has also placed strain on my eyes.\n\nI have tried several basic troubleshooting methods, like updating the device drivers and ensuring that the operating system is up to date; however, these efforts did not solve the problem You can reach me at elena.ivanova@support.org.. I also verified the physical connections, and everything seems intact.\n\nConsidering the ongoing nature of this issue, I am requesting guidance on the appropriate next steps. Should I bring my laptop to one of your service locations for assessment, or is there a chance of receiving assistance remotely? Moreover, I would appreciate clarification on whether this problem is covered by the warranty associated with my purchase.\n\nCould you inform me about the documentation I need to provide and any additional instructions? I would like to resolve this matter as soon as possible to continue using the laptop efficiently for my work.\n\nThank you for your help.\n\nBest regards,\n\n<name>\n<tel_num>\n<email_id>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        395,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        708,
+        733
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        189,
+        193
+      ],
+      "classification": "phone_number",
+      "entity": "9310"
+    }
+  ],
+  "masked_email": "Subject: Need Help: Problem with Display Flickering\n\nHello Tech Online Store Customer Support,\n\nI am reaching out to notify you about an issue I am facing with my Dell XPS 13 laptop, model [phone_number], which I bought from your store a few months ago. Lately, I have observed that the display flickers unpredictably, especially when I frequently adjust the brightness levels during operation My name is [full_name].. This has caused considerable disruption in my work and has also placed strain on my eyes.\n\nI have tried several basic troubleshooting methods, like updating the device drivers and ensuring that the operating system is up to date; however, these efforts did not solve the problem You can reach me at [email].. I also verified the physical connections, and everything seems intact.\n\nConsidering the ongoing nature of this issue, I am requesting guidance on the appropriate next steps. Should I bring my laptop to one of your service locations for assessment, or is there a chance of receiving assistance remotely? Moreover, I would appreciate clarification on whether this problem is covered by the warranty associated with my purchase.\n\nCould you inform me about the documentation I need to provide and any additional instructions? I would like to resolve this matter as soon as possible to continue using the laptop efficiently for my work.\n\nThank you for your help.\n\nBest regards,\n\n<name>\n<tel_num>\n<email_id>",
+  "category_of_the_email": "Incident"
+}

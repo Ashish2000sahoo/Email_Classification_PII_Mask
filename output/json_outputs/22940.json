@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHola Soporte al Cliente,\n\nMi nombre es <name> y me estoy comunicando en relaci\u00f3n a los problemas que hemos estado enfrentando con la asignaci\u00f3n de tickets en Jira Software 8.20. Estos problemas est\u00e1n afectando significativamente la eficiencia de nuestro flujo de trabajo en la gesti\u00f3n de proyectos, causando retrasos. No podemos asignar tickets adecuadamente, lo que est\u00e1 creando cuellos de botella en la ejecuci\u00f3n del proyecto. Nuestro n\u00famero de cuenta es <acc_num>, y esperamos que este asunto pueda ser atendido con urgencia para restaurar nuestra productividad You can reach me at omar.hassan@secure.net.. Por favor, ases\u00f3renos sobre cualquier paso de soluci\u00f3n de problemas o actualizaciones disponibles.\n\nGracias.\n\nSaludos,\n<name>\n<tel_num> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        768,
+        780
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        596,
+        618
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nHola Soporte al Cliente,\n\nMi nombre es <name> y me estoy comunicando en relaci\u00f3n a los problemas que hemos estado enfrentando con la asignaci\u00f3n de tickets en Jira Software 8.20. Estos problemas est\u00e1n afectando significativamente la eficiencia de nuestro flujo de trabajo en la gesti\u00f3n de proyectos, causando retrasos. No podemos asignar tickets adecuadamente, lo que est\u00e1 creando cuellos de botella en la ejecuci\u00f3n del proyecto. Nuestro n\u00famero de cuenta es <acc_num>, y esperamos que este asunto pueda ser atendido con urgencia para restaurar nuestra productividad You can reach me at [email].. Por favor, ases\u00f3renos sobre cualquier paso de soluci\u00f3n de problemas o actualizaciones disponibles.\n\nGracias.\n\nSaludos,\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

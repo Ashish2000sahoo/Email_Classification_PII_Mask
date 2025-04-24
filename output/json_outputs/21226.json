@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia Inmediata Requerida: Problemas de Conexi\u00f3n de Zoom\n\nHola, he estado enfrentando problemas de conectividad con Zoom versi\u00f3n 5.11.0 durante las reuniones en video My name is Maria Gonzalez.. Esto est\u00e1 obstaculizando enormemente nuestra eficiencia de comunicaci\u00f3n y discusiones importantes. Solicito amablemente su ayuda en la primera oportunidad. Gracias You can reach me at elena.ivanova@support.org.. Saludos cordiales, <name> Cuenta: <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        206
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        390,
+        415
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Asistencia Inmediata Requerida: Problemas de Conexi\u00f3n de Zoom\n\nHola, he estado enfrentando problemas de conectividad con Zoom versi\u00f3n 5.11.0 durante las reuniones en video My name is [full_name].. Esto est\u00e1 obstaculizando enormemente nuestra eficiencia de comunicaci\u00f3n y discusiones importantes. Solicito amablemente su ayuda en la primera oportunidad. Gracias You can reach me at [email].. Saludos cordiales, <name> Cuenta: <acc_num>.",
+  "category_of_the_email": "Incident"
+}

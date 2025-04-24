@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Inquiry on Payment Discrepancies\n\nOur financial firm has noticed billing inconsistencies through the payments platform. A potential reason for these issues could be integration problems with our analytics tools.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        251,
+        266
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry on Payment Discrepancies\n\nOur financial firm has noticed billing inconsistencies through the payments platform. A potential reason for these issues could be integration problems with our analytics tools.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

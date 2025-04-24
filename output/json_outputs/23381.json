@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHallo, wir suchen Unterst\u00fctzung bei der Migration unserer bestehenden E-Mail-Adressen zu Gmail und der Einrichtung von Gesch\u00e4ftszusammenarbeitstools in Google Workspace Business Standard. Bitte geben Sie Anweisungen zum Prozess und zu den Anforderungen You can reach me at elena.ivanova@support.org.. Mit freundlichen Gr\u00fc\u00dfen, <name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        284,
+        309
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nHallo, wir suchen Unterst\u00fctzung bei der Migration unserer bestehenden E-Mail-Adressen zu Gmail und der Einrichtung von Gesch\u00e4ftszusammenarbeitstools in Google Workspace Business Standard. Bitte geben Sie Anweisungen zum Prozess und zu den Anforderungen You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, <name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

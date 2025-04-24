@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance Request for MacBook Air M1 Warranty from Your Online Shop\n\nDear Customer Support Team,\n\nI recently acquired a MacBook Air M1 from your online shop and require help concerning its warranty coverage. Could you please share the necessary steps to move forward?\n\nThank you,\n\n<name>. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        337
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Assistance Request for MacBook Air M1 Warranty from Your Online Shop\n\nDear Customer Support Team,\n\nI recently acquired a MacBook Air M1 from your online shop and require help concerning its warranty coverage. Could you please share the necessary steps to move forward?\n\nThank you,\n\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

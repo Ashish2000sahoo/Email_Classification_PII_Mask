@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate assistance needed for AWS downtime\n\nDear IT Services Customer Support,\n\nI am writing to express my immediate concern regarding unexpected downtime issues that we are currently experiencing with several services running on AWS. These services are crucial to our operations and the disruption is impacting our ability to serve our customers effectively. The issues have affected the AWS Management Service, which plays a significant role in monitoring and handling our IT infrastructure.\n\nThis unforeseen downtime has led to significant operational challenges, including disruptions in our service delivery and communication with clients, impacting our overall productivity and potentially our business reputation. The AWS Management Service is integral to our system as it manages multiple critical tasks such as monitoring application activity and performance, resource provisioning, and real-time data processing.\n\nUnfortunately, the downtime started without any prior warning, and attempts to get the services back online using our internal resources have been unsuccessful My name is Liu Wei.. Such issues are rare but dealing with them efficiently is imperative to prevent any damage to our service trust You can reach me at fatima.farsi@help.com.. We are currently unable to access the management console, and many of our automated scripts have failed, requiring manual interventions that our team is finding challenging to handle at scale.\n\nGiven the urgency and severity of this issue, we are requesting your immediate assistance to help resolve these critical infrastructure problems. We trust your expertise and hope you can provide guidance or solutions that will allow us to restore our services swiftly and mitigate any further risks associated with prolonged downtime.\n\nPlease prioritize this request given its critical nature and let us know how can we expedite the resolution process. We appreciate your prompt attention to this matter.\n\nThank you in advance for your support and swift action.\n\nBest regards,\n<name>\nContact: <tel_num>\nAccount Number: <acc_num>\n\n<name>\nIT Operations Manager\n<Company Name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1106,
+        1113
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        1252,
+        1273
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Immediate assistance needed for AWS downtime\n\nDear IT Services Customer Support,\n\nI am writing to express my immediate concern regarding unexpected downtime issues that we are currently experiencing with several services running on AWS. These services are crucial to our operations and the disruption is impacting our ability to serve our customers effectively. The issues have affected the AWS Management Service, which plays a significant role in monitoring and handling our IT infrastructure.\n\nThis unforeseen downtime has led to significant operational challenges, including disruptions in our service delivery and communication with clients, impacting our overall productivity and potentially our business reputation. The AWS Management Service is integral to our system as it manages multiple critical tasks such as monitoring application activity and performance, resource provisioning, and real-time data processing.\n\nUnfortunately, the downtime started without any prior warning, and attempts to get the services back online using our internal resources have been unsuccessful My name is [full_name].. Such issues are rare but dealing with them efficiently is imperative to prevent any damage to our service trust You can reach me at [email].. We are currently unable to access the management console, and many of our automated scripts have failed, requiring manual interventions that our team is finding challenging to handle at scale.\n\nGiven the urgency and severity of this issue, we are requesting your immediate assistance to help resolve these critical infrastructure problems. We trust your expertise and hope you can provide guidance or solutions that will allow us to restore our services swiftly and mitigate any further risks associated with prolonged downtime.\n\nPlease prioritize this request given its critical nature and let us know how can we expedite the resolution process. We appreciate your prompt attention to this matter.\n\nThank you in advance for your support and swift action.\n\nBest regards,\n<name>\nContact: <tel_num>\nAccount Number: <acc_num>\n\n<name>\nIT Operations Manager\n<Company Name>",
+  "category_of_the_email": "Incident"
+}

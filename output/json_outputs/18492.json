@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem of Unexpected Access Denied\n\nDescription of the incident: Unexpected denial of access to medical records. There may be an issue related to server configuration or a recent security update. Efforts already made: Servers were restarted, logs were reviewed, and user permissions were confirmed You can reach me at sophia.rossi@service.it.. Immediate assistance is needed to resolve this My name is Liu Wei.. Please provide a resolution or direct me on the next steps for troubleshooting.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        412,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        328,
+        351
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem of Unexpected Access Denied\n\nDescription of the incident: Unexpected denial of access to medical records. There may be an issue related to server configuration or a recent security update. Efforts already made: Servers were restarted, logs were reviewed, and user permissions were confirmed You can reach me at [email].. Immediate assistance is needed to resolve this My name is [full_name].. Please provide a resolution or direct me on the next steps for troubleshooting.",
+  "category_of_the_email": "Incident"
+}

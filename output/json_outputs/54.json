@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required\n\nDear Customer Support, I am writing to report an issue with the data visualization dashboard. The dashboard is not loading, and I suspect it might be due to an outdated browser version You can reach me at maria.gonzalez@shop.es.. I have already tried restarting my browser and clearing the cache, but the problem still persists My name is Carlos Mendoza.. I would greatly appreciate your assistance in resolving this matter. Please let me know if there are any additional steps I can take or if you require more information from me. I am available to provide further details if needed. Thank you for your time and support. I look forward to hearing from you soon. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        366,
+        380
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        232,
+        254
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Support Required\n\nDear Customer Support, I am writing to report an issue with the data visualization dashboard. The dashboard is not loading, and I suspect it might be due to an outdated browser version You can reach me at [email].. I have already tried restarting my browser and clearing the cache, but the problem still persists My name is [full_name].. I would greatly appreciate your assistance in resolving this matter. Please let me know if there are any additional steps I can take or if you require more information from me. I am available to provide further details if needed. Thank you for your time and support. I look forward to hearing from you soon. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

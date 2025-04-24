@@ -1,0 +1,55 @@
+{
+  "input_email_body": "Subject: Support for Norton 360\n\nCustomer Support, seeking to inquire about Norton 360 and its advanced digital marketing security strategies My name is Jane Smith.. As a business owner, I am focused on protecting my online presence and ensuring the security of my customers' data You can reach me at johndoe@email.com.. I would greatly appreciate guidance on how to effectively utilize Norton 360 to achieve my goals. Could you provide information on the features and tools available in Norton 360 that can help strengthen digital marketing security? I am particularly interested in learning about the anti-virus and anti-malware protection.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        302,
+        319
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        28,
+        31
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        83,
+        86
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        385,
+        388
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    },
+    {
+      "position": [
+        486,
+        489
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Support for Norton [cvv_no]\n\nCustomer Support, seeking to inquire about Norton [cvv_no] and its advanced digital marketing security strategies My name is [full_name].. As a business owner, I am focused on protecting my online presence and ensuring the security of my customers' data You can reach me at [email].. I would greatly appreciate guidance on how to effectively utilize Norton [cvv_no] to achieve my goals. Could you provide information on the features and tools available in Norton [cvv_no] that can help strengthen digital marketing security? I am particularly interested in learning about the anti-virus and anti-malware protection.",
+  "category_of_the_email": "Request"
+}

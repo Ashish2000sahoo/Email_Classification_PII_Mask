@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report of a Medical Data Breach\n\nAttention Customer Support, a potential medical data breach has been identified, with unauthorized access suspected. The breach could be due to inadequate encryption and legacy software vulnerabilities You can reach me at maria.gonzalez@shop.es.. So far, steps like network isolation and password resets have been taken; however, the problem continues and needs urgent resolution. Please launch an investigation and outline a strategy to avert future breaches and safeguard sensitive medical information. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        558,
+        567
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        264,
+        286
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Report of a Medical Data Breach\n\nAttention Customer Support, a potential medical data breach has been identified, with unauthorized access suspected. The breach could be due to inadequate encryption and legacy software vulnerabilities You can reach me at [email].. So far, steps like network isolation and password resets have been taken; however, the problem continues and needs urgent resolution. Please launch an investigation and outline a strategy to avert future breaches and safeguard sensitive medical information. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

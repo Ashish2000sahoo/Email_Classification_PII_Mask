@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent IT System Security Issues\n\nAn unauthorized access attempt on the hospital's IT system has been identified due to a phishing attack and weak passwords, compromising medical data security. User credentials have been updated, and a security audit has been conducted to prevent future breaches.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        329,
+        344
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Urgent IT System Security Issues\n\nAn unauthorized access attempt on the hospital's IT system has been identified due to a phishing attack and weak passwords, compromising medical data security. User credentials have been updated, and a security audit has been conducted to prevent future breaches.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

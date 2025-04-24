@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue During Project Creation\n\nI recently ran into an unexpected error while setting up a project My name is Elena Ivanova.. This error might stem from a configuration problem or server overload. I have already attempted to restart the application, clear the cache, and review the system logs but the issue remains unresolved. I would greatly appreciate your support in resolving this problem as quickly as possible. Please inform me if there are any further steps needed from my end or additional details you require. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        118,
+        131
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        546,
+        563
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issue During Project Creation\n\nI recently ran into an unexpected error while setting up a project My name is [full_name].. This error might stem from a configuration problem or server overload. I have already attempted to restart the application, clear the cache, and review the system logs but the issue remains unresolved. I would greatly appreciate your support in resolving this problem as quickly as possible. Please inform me if there are any further steps needed from my end or additional details you require. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

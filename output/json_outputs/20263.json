@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Experiencing connection issues with Zoom 5.11.0\n\nHello,\n\nI am writing to express my concerns about the recent issues I've encountered during video conferences using Zoom version 5.11.0 You can reach me at sophia.rossi@service.it.. The connection frequently drops, and there is noticeable lag that disrupts my meetings. Could you assist in troubleshooting this issue, please? Your prompt support in resolving this matter would be greatly appreciated.\n\nThank you,\n\n<name>\n<acc_num> My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        513
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        214,
+        237
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Experiencing connection issues with Zoom 5.11.0\n\nHello,\n\nI am writing to express my concerns about the recent issues I've encountered during video conferences using Zoom version 5.11.0 You can reach me at [email].. The connection frequently drops, and there is noticeable lag that disrupts my meetings. Could you assist in troubleshooting this issue, please? Your prompt support in resolving this matter would be greatly appreciated.\n\nThank you,\n\n<name>\n<acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

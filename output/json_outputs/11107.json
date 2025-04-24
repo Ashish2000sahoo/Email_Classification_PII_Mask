@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Login Problem with Access to Dashboard Recently\n\nGreetings Customer Support, I am contacting you regarding a recent difficulty in accessing my dashboard. It seems this problem may have arisen from a server backlog. Despite restarting my browser and removing cached data, the issue remains unresolved. I was in the process of a crucial task and this sudden disruption has been quite disruptive to my work. Could you please address this matter promptly and offer a swift resolution? If there are any additional measures I can undertake to rectify this situation, please inform me You can reach me at liuwei@business.cn.. I am prepared to share any relevant information necessary for the investigation My name is Liu Wei.. I appreciate your quick handling of this issue and eagerly await your response. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        719,
+        726
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        607,
+        625
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Login Problem with Access to Dashboard Recently\n\nGreetings Customer Support, I am contacting you regarding a recent difficulty in accessing my dashboard. It seems this problem may have arisen from a server backlog. Despite restarting my browser and removing cached data, the issue remains unresolved. I was in the process of a crucial task and this sudden disruption has been quite disruptive to my work. Could you please address this matter promptly and offer a swift resolution? If there are any additional measures I can undertake to rectify this situation, please inform me You can reach me at [email].. I am prepared to share any relevant information necessary for the investigation My name is [full_name].. I appreciate your quick handling of this issue and eagerly await your response. Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

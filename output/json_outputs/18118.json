@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notwendigkeit eines digitalen Kampagnen Supports\n\nDie digitale Marketingkampagne des letzten Monats unterachteilt sich. \u00c4nderungen an den Algorithmen k\u00f6nnten die Sichtbarkeit beeintr\u00e4chtigt haben You can reach me at elena.ivanova@support.org.. Ad-Spenden und Werbe-Kreativen wurden angepasst und brachten Verbesserungen My name is John Doe.. Bitte helfen Sie uns, den Umfang des Problems festzustellen und Vorschl\u00e4ge f\u00fcr L\u00f6sungen zu erstellen, um die Kampagne auf den richtigen Weg zu bringen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        340,
+        348
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        225,
+        250
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Notwendigkeit eines digitalen Kampagnen Supports\n\nDie digitale Marketingkampagne des letzten Monats unterachteilt sich. \u00c4nderungen an den Algorithmen k\u00f6nnten die Sichtbarkeit beeintr\u00e4chtigt haben You can reach me at [email].. Ad-Spenden und Werbe-Kreativen wurden angepasst und brachten Verbesserungen My name is [full_name].. Bitte helfen Sie uns, den Umfang des Problems festzustellen und Vorschl\u00e4ge f\u00fcr L\u00f6sungen zu erstellen, um die Kampagne auf den richtigen Weg zu bringen.",
+  "category_of_the_email": "Incident"
+}

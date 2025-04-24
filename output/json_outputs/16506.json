@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Support Needed for Data Breach\n\nAn unexpected data breach may have compromised sensitive medical data. This is likely due to insufficient security measures and outdated software You can reach me at omar.hassan@secure.net.. We have already attempted to secure the systems by updating passwords and monitoring network activity. Assistance is required to ensure that all necessary steps are taken to protect sensitive information and prevent future breaches. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        483,
+        492
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        214,
+        236
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgent Support Needed for Data Breach\n\nAn unexpected data breach may have compromised sensitive medical data. This is likely due to insufficient security measures and outdated software You can reach me at [email].. We have already attempted to secure the systems by updating passwords and monitoring network activity. Assistance is required to ensure that all necessary steps are taken to protect sensitive information and prevent future breaches. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues With Project Timelines Synchronization\n\nI am contacting Customer Support about the problem of project timelines not syncing between teams. After restarting Redis and reviewing the ClickUp integration, the issue still exists. Team members have noticed that project times are not updating in real-time, leading to confusion and delays. Given that the problem seems to originate from the compatibility issue with Redis 6.2, I request your prompt investigation and resolution You can reach me at johndoe@email.com.. Please ask for more details if necessary. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        581,
+        590
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        508,
+        525
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issues With Project Timelines Synchronization\n\nI am contacting Customer Support about the problem of project timelines not syncing between teams. After restarting Redis and reviewing the ClickUp integration, the issue still exists. Team members have noticed that project times are not updating in real-time, leading to confusion and delays. Given that the problem seems to originate from the compatibility issue with Redis 6.2, I request your prompt investigation and resolution You can reach me at [email].. Please ask for more details if necessary. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

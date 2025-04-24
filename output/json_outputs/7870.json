@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Support in Data Analysis\n\nCould detailed insights, data analysis solutions, optimization strategies, and investment approaches significantly assist in making informed decisions to maximize returns? I greatly appreciate the provided information and resources. Thank you in advance for your support on this matter You can reach me at sophia.rossi@service.it.. I look forward to your response. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        430
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        353,
+        376
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Support in Data Analysis\n\nCould detailed insights, data analysis solutions, optimization strategies, and investment approaches significantly assist in making informed decisions to maximize returns? I greatly appreciate the provided information and resources. Thank you in advance for your support on this matter You can reach me at [email].. I look forward to your response. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

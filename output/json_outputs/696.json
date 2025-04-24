@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datenschutzfunktionen\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4sslich der Sicherheitsfunktionen f\u00fcr die Datensicherung bei medizinischen Daten in den betroffenen Produkten. Da ich Nutzer dieses Produkts bin, bin ich besorgt \u00fcber die Sicherheit und die Vertraulichkeit meiner medizinischen Daten. Ich m\u00f6chte wissen, welche Ma\u00dfnahmen getroffen sind, um unautorisierten Zugriff, Datenspaltungen und andere Sicherheitsbedrohungen zu verhindern. Insbesondere m\u00f6chte ich erfahren, ob die Produkte Verschl\u00fcsselungen, sichere Authentifizierungsprotokolle und Zugriffskontrolle f\u00fcr die Datensicherung nutzen. Ich w\u00fcrde auch gerne Informationen zu den von den Produkten erworbenen Kompliance-Zertifikaten wie HIPAA erhalten. Dar\u00fcber hinaus m\u00f6chte ich erfahren, ob die Produkte Funktionen bieten, die es Nutzern erm\u00f6glichen, den Zugriff auf ihre medizinischen Daten zu steuern, wie Passwortschutz, Zweifaktorisierung und Audit-Verlaufsberichte. Weiterhin interessiert mich, welche Sicherheitsvorkehrungen getroffen wurden, um in der Eventualit\u00e4t einer Sicherheitsverletzung reagiert zu werden You can reach me at david.kim@corp.kr.. Zus\u00e4tzlich m\u00f6chte ich erfahren, ob die Produkte Funktionen bieten, die es erm\u00f6glichen, medizinische Daten sicher zu teilen und zu kooperieren, w\u00e4hrend die Vertraulichkeit und die Integrit\u00e4t der Daten gewahrt bleiben. Ich halte es f\u00fcr notwendig, robuste Sicherheitsfunktionen zu haben, um medizinische Daten zu sch\u00fctzen, und freue mich auf Ihre Antwort. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis. Ich freue mich auf Ihre R\u00fcckmeldung My name is John Doe.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1582,
+        1590
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1129,
+        1146
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datenschutzfunktionen\n\nSehr geehrte Kundenservice, ich schreibe anl\u00e4sslich der Sicherheitsfunktionen f\u00fcr die Datensicherung bei medizinischen Daten in den betroffenen Produkten. Da ich Nutzer dieses Produkts bin, bin ich besorgt \u00fcber die Sicherheit und die Vertraulichkeit meiner medizinischen Daten. Ich m\u00f6chte wissen, welche Ma\u00dfnahmen getroffen sind, um unautorisierten Zugriff, Datenspaltungen und andere Sicherheitsbedrohungen zu verhindern. Insbesondere m\u00f6chte ich erfahren, ob die Produkte Verschl\u00fcsselungen, sichere Authentifizierungsprotokolle und Zugriffskontrolle f\u00fcr die Datensicherung nutzen. Ich w\u00fcrde auch gerne Informationen zu den von den Produkten erworbenen Kompliance-Zertifikaten wie HIPAA erhalten. Dar\u00fcber hinaus m\u00f6chte ich erfahren, ob die Produkte Funktionen bieten, die es Nutzern erm\u00f6glichen, den Zugriff auf ihre medizinischen Daten zu steuern, wie Passwortschutz, Zweifaktorisierung und Audit-Verlaufsberichte. Weiterhin interessiert mich, welche Sicherheitsvorkehrungen getroffen wurden, um in der Eventualit\u00e4t einer Sicherheitsverletzung reagiert zu werden You can reach me at [email].. Zus\u00e4tzlich m\u00f6chte ich erfahren, ob die Produkte Funktionen bieten, die es erm\u00f6glichen, medizinische Daten sicher zu teilen und zu kooperieren, w\u00e4hrend die Vertraulichkeit und die Integrit\u00e4t der Daten gewahrt bleiben. Ich halte es f\u00fcr notwendig, robuste Sicherheitsfunktionen zu haben, um medizinische Daten zu sch\u00fctzen, und freue mich auf Ihre Antwort. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis. Ich freue mich auf Ihre R\u00fcckmeldung My name is [full_name].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de Conectividad con el Punto de Acceso TP-Link\n\nEstimado Soporte al Cliente,\n\nEspero que este mensaje le encuentre bien. Estoy escribiendo para informar sobre un problema que estamos experimentando con nuestro Punto de Acceso TP-Link EAP245, tras una reciente aplicaci\u00f3n de nuevas configuraciones proporcionadas a trav\u00e9s de su servicio de configuraci\u00f3n de red. Desde que implementamos estos cambios, hemos tenido problemas de conectividad intermitentes que han afectado gravemente nuestras operaciones.\n\nNuestro equipo ha intentado m\u00faltiples pasos de soluci\u00f3n de problemas, incluyendo un reinicio del punto de acceso y la re-aplicaci\u00f3n de configuraciones anteriores, pero a\u00fan enfrentamos interrupciones My name is John Doe.. Dado el impacto en nuestro negocio, agradecer\u00edamos su asistencia inmediata para resolver estos problemas.\n\nPor favor, h\u00e1ganos saber c\u00f3mo podemos proceder o si necesita m\u00e1s informaci\u00f3n de nuestra parte. Esperamos su pronta respuesta.\n\nSaludos cordiales,\n\n<name>\n<acc_num>\n<tel_num>\nNombre de la Empresa You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        733,
+        741
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1069,
+        1091
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problemas de Conectividad con el Punto de Acceso TP-Link\n\nEstimado Soporte al Cliente,\n\nEspero que este mensaje le encuentre bien. Estoy escribiendo para informar sobre un problema que estamos experimentando con nuestro Punto de Acceso TP-Link EAP245, tras una reciente aplicaci\u00f3n de nuevas configuraciones proporcionadas a trav\u00e9s de su servicio de configuraci\u00f3n de red. Desde que implementamos estos cambios, hemos tenido problemas de conectividad intermitentes que han afectado gravemente nuestras operaciones.\n\nNuestro equipo ha intentado m\u00faltiples pasos de soluci\u00f3n de problemas, incluyendo un reinicio del punto de acceso y la re-aplicaci\u00f3n de configuraciones anteriores, pero a\u00fan enfrentamos interrupciones My name is [full_name].. Dado el impacto en nuestro negocio, agradecer\u00edamos su asistencia inmediata para resolver estos problemas.\n\nPor favor, h\u00e1ganos saber c\u00f3mo podemos proceder o si necesita m\u00e1s informaci\u00f3n de nuestra parte. Esperamos su pronta respuesta.\n\nSaludos cordiales,\n\n<name>\n<acc_num>\n<tel_num>\nNombre de la Empresa You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

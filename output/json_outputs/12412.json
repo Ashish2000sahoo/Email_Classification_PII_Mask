@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Data Transfer Process Malfunction\n\nDear Support Team,\\n\\nI hope this message finds you well. I am contacting you to report a recent malfunction in our secure data transfer process, which happened during the night and did not provide any warnings or error messages You can reach me at david.kim@corp.kr.. Our technical team has been unable to identify the reason for this malfunction.\\n\\nWe believe the outdated firmware of the RAID-Controller could be the source of the problem My name is Liu Wei.. Our system has been functioning without issues until now, and we haven't made any recent changes to the hardware or configuration.\\n\\nWe have attempted to resolve the issue by restarting the systems, inspecting the cables, and updating Excel, but none of these actions have been effective, and the problem persists.\\n\\nCould you please offer assistance to resolve this issue promptly? Any recommendations or guidance you can provide would be greatly appreciated.\\n\\nThank you in advance for your help.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        505,
+        512
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        300,
+        317
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Secure Data Transfer Process Malfunction\n\nDear Support Team,\\n\\nI hope this message finds you well. I am contacting you to report a recent malfunction in our secure data transfer process, which happened during the night and did not provide any warnings or error messages You can reach me at [email].. Our technical team has been unable to identify the reason for this malfunction.\\n\\nWe believe the outdated firmware of the RAID-Controller could be the source of the problem My name is [full_name].. Our system has been functioning without issues until now, and we haven't made any recent changes to the hardware or configuration.\\n\\nWe have attempted to resolve the issue by restarting the systems, inspecting the cables, and updating Excel, but none of these actions have been effective, and the problem persists.\\n\\nCould you please offer assistance to resolve this issue promptly? Any recommendations or guidance you can provide would be greatly appreciated.\\n\\nThank you in advance for your help.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

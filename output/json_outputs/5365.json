@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notice of Medical Data Breach in Elasticsearch\n\nWe have identified a potential leak of medical data in your Elasticsearch database. There might be insufficient access controls and out-of-date software contributing to this issue My name is Carlos Mendoza.. Measures taken include restarting the server, reviewing firewall settings, and updating the Windows system. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        262
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        390,
+        407
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Notice of Medical Data Breach in Elasticsearch\n\nWe have identified a potential leak of medical data in your Elasticsearch database. There might be insufficient access controls and out-of-date software contributing to this issue My name is [full_name].. Measures taken include restarting the server, reviewing firewall settings, and updating the Windows system. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Serious Issue in Medical Records System - Data Breach Notification\n\nDear Customer Support, <br><br>I am contacting you to report a critical problem that has arisen in our medical records system. A data breach has been identified, and it is probable that it is a result of an outdated Redis version that our system is running. <br><br>To address the issue, our team has turned on the firewall and upgraded Redis to version 6.2. Despite these actions, we are still encountering difficulties and require your intervention to resolve the matter promptly. <br><br>The breach may have disclosed sensitive patient information, and it is crucial that we act swiftly to secure the system. We would appreciate any advice or assistance you could provide to help us manage this situation My name is Carlos Mendoza.. <br><br>Could you please inform us of the next steps to follow, and if there are any extra precautions we can take to prevent similar incidents in the future? <br><br>Thank you for your quick response to this matter. <br><br>Sincerely, <br>[Your Name] You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        796,
+        810
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1082,
+        1103
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Serious Issue in Medical Records System - Data Breach Notification\n\nDear Customer Support, <br><br>I am contacting you to report a critical problem that has arisen in our medical records system. A data breach has been identified, and it is probable that it is a result of an outdated Redis version that our system is running. <br><br>To address the issue, our team has turned on the firewall and upgraded Redis to version 6.2. Despite these actions, we are still encountering difficulties and require your intervention to resolve the matter promptly. <br><br>The breach may have disclosed sensitive patient information, and it is crucial that we act swiftly to secure the system. We would appreciate any advice or assistance you could provide to help us manage this situation My name is [full_name].. <br><br>Could you please inform us of the next steps to follow, and if there are any extra precautions we can take to prevent similar incidents in the future? <br><br>Thank you for your quick response to this matter. <br><br>Sincerely, <br>[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

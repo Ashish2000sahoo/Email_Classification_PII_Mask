@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der medizinischen Datenaufbereitung aufgrund unkompatibler Software-Updates\n\nNach dem pl\u00f6tzlichen Versagen der medizinischen Datenaufbereitung aufgrund unkompatibler Software-Updates, haben wir die Server neu gestartet und die Konfigurationen \u00fcberpr\u00fcft My name is Sophia Rossi.. Das Problem beh\u00e4lt sich jedoch bestehen. Deshalb ben\u00f6tigen wir dringend eine L\u00f6sung, um die Sicherheit und Integrit\u00e4t unserer medizinischen Daten zu gew\u00e4hrleisten. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        298
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        484,
+        507
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der medizinischen Datenaufbereitung aufgrund unkompatibler Software-Updates\n\nNach dem pl\u00f6tzlichen Versagen der medizinischen Datenaufbereitung aufgrund unkompatibler Software-Updates, haben wir die Server neu gestartet und die Konfigurationen \u00fcberpr\u00fcft My name is [full_name].. Das Problem beh\u00e4lt sich jedoch bestehen. Deshalb ben\u00f6tigen wir dringend eine L\u00f6sung, um die Sicherheit und Integrit\u00e4t unserer medizinischen Daten zu gew\u00e4hrleisten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

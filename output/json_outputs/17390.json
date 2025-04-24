@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Emergency: Critical Bug in Project Management SaaS Integration Causing Disruptions\n\nA critical bug has emerged in the project management SaaS integration, leading to disruptions My name is Elena Ivanova.. Recent API updates might be the cause. I have attempted to reset the integrations and verify the API keys, but the issue still persists. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        211
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        369,
+        387
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Emergency: Critical Bug in Project Management SaaS Integration Causing Disruptions\n\nA critical bug has emerged in the project management SaaS integration, leading to disruptions My name is [full_name].. Recent API updates might be the cause. I have attempted to reset the integrations and verify the API keys, but the issue still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

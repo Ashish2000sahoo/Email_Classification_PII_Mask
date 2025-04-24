@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimale Systemanforderungen f\u00fcr DataRobot-Integration in Lenovo ThinkPad X1 Carbon\n\nSehr geehrte Kundenservice, ich m\u00f6chte die notwendigen Systemanforderungen f\u00fcr die Integration von DataRobot in mein Lenovo ThinkPad X1 Carbon kennen. Bitte teilen Sie mir die spezifischen Spezifikationen, insbesondere in Bezug auf den Prozessor, die RAM und den Speicherbedarf, mit. Dar\u00fcber hinaus w\u00fcrde ich mich freuen, \u00fcber zus\u00e4tzliche Empfehlungen f\u00fcr eine glatte Integration zu informieren My name is Sophia Rossi.. Ich danke Ihnen f\u00fcr Ihre Hilfe und freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        512
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        626,
+        647
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Optimale Systemanforderungen f\u00fcr DataRobot-Integration in Lenovo ThinkPad X1 Carbon\n\nSehr geehrte Kundenservice, ich m\u00f6chte die notwendigen Systemanforderungen f\u00fcr die Integration von DataRobot in mein Lenovo ThinkPad X1 Carbon kennen. Bitte teilen Sie mir die spezifischen Spezifikationen, insbesondere in Bezug auf den Prozessor, die RAM und den Speicherbedarf, mit. Dar\u00fcber hinaus w\u00fcrde ich mich freuen, \u00fcber zus\u00e4tzliche Empfehlungen f\u00fcr eine glatte Integration zu informieren My name is [full_name].. Ich danke Ihnen f\u00fcr Ihre Hilfe und freue mich auf Ihre R\u00fcckmeldung. Mit freundlichen Gr\u00fc\u00dfen You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

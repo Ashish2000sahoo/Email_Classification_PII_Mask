@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Prognosewerkzeug gemeldet\n\nBewertung: Das Prognosewerkzeug generiert ungenaue Vorhersagen, was m\u00f6glicherweise durch die neuesten Dateneingaben verursacht wird My name is Sophia Rossi.. Versucht, das Problem durch Neustart des Programms und L\u00f6schen der Caches zu l\u00f6sen, leider ohne Erfolg You can reach me at maria.gonzalez@shop.es.. Eine schnelle Unterst\u00fctzung zur Probleml\u00f6sung und \u00dcberpr\u00fcfung w\u00e4re sehr wertvoll. Bitte geben Sie weitere Details zu den neuesten Dateneingaben, damit wir das Problem genauer analysieren k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        203
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        328,
+        350
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Prognosewerkzeug gemeldet\n\nBewertung: Das Prognosewerkzeug generiert ungenaue Vorhersagen, was m\u00f6glicherweise durch die neuesten Dateneingaben verursacht wird My name is [full_name].. Versucht, das Problem durch Neustart des Programms und L\u00f6schen der Caches zu l\u00f6sen, leider ohne Erfolg You can reach me at [email].. Eine schnelle Unterst\u00fctzung zur Probleml\u00f6sung und \u00dcberpr\u00fcfung w\u00e4re sehr wertvoll. Bitte geben Sie weitere Details zu den neuesten Dateneingaben, damit wir das Problem genauer analysieren k\u00f6nnen.",
+  "category_of_the_email": "Incident"
+}

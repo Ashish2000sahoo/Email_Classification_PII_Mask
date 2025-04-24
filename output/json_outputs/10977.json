@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for Avast Support\n\nSeeking guidance on backing up medical data using Avast Free Antivirus in a hospital IT environment?. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        175
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Request for Avast Support\n\nSeeking guidance on backing up medical data using Avast Free Antivirus in a hospital IT environment?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

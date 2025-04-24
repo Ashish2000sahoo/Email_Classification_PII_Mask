@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Datenbereinigungssoftware\n\nDie Datenbereinigungssoftware brach unangemessen ab My name is David Kim.. Das Problem k\u00f6nnte mit einem unkompatiblen USB-Erweiterungsger\u00e4te oder einem Konflikt mit dem Antivirus-Programm zusammenh\u00e4ngen You can reach me at liuwei@business.cn.. Ich habe das System neu eingeschaltet und die Scikit-learn-Bibliothek aktualisiert, aber das Problem besteht weiterhin.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        116,
+        125
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        278,
+        296
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Datenbereinigungssoftware\n\nDie Datenbereinigungssoftware brach unangemessen ab My name is [full_name].. Das Problem k\u00f6nnte mit einem unkompatiblen USB-Erweiterungsger\u00e4te oder einem Konflikt mit dem Antivirus-Programm zusammenh\u00e4ngen You can reach me at [email].. Ich habe das System neu eingeschaltet und die Scikit-learn-Bibliothek aktualisiert, aber das Problem besteht weiterhin.",
+  "category_of_the_email": "Incident"
+}

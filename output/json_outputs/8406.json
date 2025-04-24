@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nencountering service outage possibly due to infrastructure overload You can reach me at liuwei@business.cn.. team attempted to restart affected servers, but the issue remains unresolved. we are actively working to resolve it and will provide updates as soon as possible. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        304
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        99,
+        117
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nencountering service outage possibly due to infrastructure overload You can reach me at [email].. team attempted to restart affected servers, but the issue remains unresolved. we are actively working to resolve it and will provide updates as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

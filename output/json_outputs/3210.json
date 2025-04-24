@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System Freezes When Utilizing Project Management Software\n\nHello Support Team, I am contacting you to report an issue I am experiencing with my computer's system freezing while using a project management software. The issue first appeared while I was engaged in a task when my computer unexpectedly stopped responding You can reach me at fatima.farsi@help.com.. I suspect this could be due to inadequate system resources or conflicting software. To address the problem, I have already restarted my computer, updated the software, and examined my hardware for any possible issues. Despite these efforts, the problem still persists. I would be grateful if you could offer further assistance or guidance on how to resolve it. Thank you for your attention and support. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        785,
+        797
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        347,
+        368
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: System Freezes When Utilizing Project Management Software\n\nHello Support Team, I am contacting you to report an issue I am experiencing with my computer's system freezing while using a project management software. The issue first appeared while I was engaged in a task when my computer unexpectedly stopped responding You can reach me at [email].. I suspect this could be due to inadequate system resources or conflicting software. To address the problem, I have already restarted my computer, updated the software, and examined my hardware for any possible issues. Despite these efforts, the problem still persists. I would be grateful if you could offer further assistance or guidance on how to resolve it. Thank you for your attention and support. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

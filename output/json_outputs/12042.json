@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Concern Regarding Unauthorized Access\n\nNoted unauthorized access attempts on systems My name is Jane Smith.. Need details on the issue and details on the security protocols to address this. Kindly provide the date and time of the attempts for further discussion. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        124
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        302,
+        323
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Security Concern Regarding Unauthorized Access\n\nNoted unauthorized access attempts on systems My name is [full_name].. Need details on the issue and details on the security protocols to address this. Kindly provide the date and time of the attempts for further discussion. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

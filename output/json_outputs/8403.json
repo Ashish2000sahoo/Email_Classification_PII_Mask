@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Data Breach Incident\n\nDear Customer Support, I am writing to inform you about a significant data breach that has occurred in our hospital's database My name is Maria Gonzalez.. This breach has exposed sensitive patient information and is believed to be a result of delayed security updates. We have already conducted virus scans and updated our firewall settings. Immediate assistance is needed to address this issue and prevent future breaches. We would be grateful if you could offer guidance and support to urgently resolve the situation You can reach me at omar.hassan@secure.net.. Please advise on any further actions we should take to mitigate the damage and enhance our database security. We await your response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        207
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        591,
+        613
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Data Breach Incident\n\nDear Customer Support, I am writing to inform you about a significant data breach that has occurred in our hospital's database My name is [full_name].. This breach has exposed sensitive patient information and is believed to be a result of delayed security updates. We have already conducted virus scans and updated our firewall settings. Immediate assistance is needed to address this issue and prevent future breaches. We would be grateful if you could offer guidance and support to urgently resolve the situation You can reach me at [email].. Please advise on any further actions we should take to mitigate the damage and enhance our database security. We await your response. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

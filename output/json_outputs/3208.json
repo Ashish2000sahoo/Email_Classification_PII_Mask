@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Integration Tools\n\nI am reaching out to notify you about integration issues that I've encountered with several tools My name is Jane Smith.. These issues may be a result of recent incompatible software updates. Despite my efforts to resolve the problem by restarting the services, reviewing logs, and updating plugins, the issue still exists You can reach me at janesmith@company.com.. I kindly request your assistance in addressing this matter and delivering a resolution at your earliest convenience. Please inform me if you need any further details from me to help resolve the issue. Thank you for your attention and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        149,
+        159
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        384,
+        405
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Integration Tools\n\nI am reaching out to notify you about integration issues that I've encountered with several tools My name is [full_name].. These issues may be a result of recent incompatible software updates. Despite my efforts to resolve the problem by restarting the services, reviewing logs, and updating plugins, the issue still exists You can reach me at [email].. I kindly request your assistance in addressing this matter and delivering a resolution at your earliest convenience. Please inform me if you need any further details from me to help resolve the issue. Thank you for your attention and support.",
+  "category_of_the_email": "Incident"
+}

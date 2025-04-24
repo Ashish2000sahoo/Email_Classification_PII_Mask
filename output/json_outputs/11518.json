@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Financial Analysis Tool\n\nThe financial analysis tool is crashing when processing large datasets, which may be due to memory overload My name is John Doe.. Despite attempts to optimize settings by increasing RAM allocation, the problem persists You can reach me at sophia.rossi@service.it.. Assistance is needed to resolve the issue and ensure the tool operates smoothly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        166,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        289,
+        312
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Financial Analysis Tool\n\nThe financial analysis tool is crashing when processing large datasets, which may be due to memory overload My name is [full_name].. Despite attempts to optimize settings by increasing RAM allocation, the problem persists You can reach me at [email].. Assistance is needed to resolve the issue and ensure the tool operates smoothly.",
+  "category_of_the_email": "Problem"
+}

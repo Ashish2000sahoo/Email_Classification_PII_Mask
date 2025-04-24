@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data analytics platform experienced a crash during the night\n\nThe data analytics platform encountered a crash. Servers were restarted and log checks were performed.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data analytics platform experienced a crash during the night\n\nThe data analytics platform encountered a crash. Servers were restarted and log checks were performed.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

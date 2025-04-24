@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SaaS Tarifoptionen\n\nIch interessiere mich f\u00fcr skalierbare SaaS-L\u00f6sungen im Bereich Projektmanagement You can reach me at liuwei@business.cn.. K\u00f6nnten Sie bitte mehr Informationen zur Preisgestaltung bereitstellen? Es w\u00e4re sch\u00f6n, Details zu Rabatten, langfristigen Verpflichtungen und Mehrfachk\u00e4ufen zu erhalten My name is Maria Gonzalez.. Gibt es Anpassungsoptionen, die den spezifischen Bed\u00fcrfnissen einer Organisation gerecht werden? Bitte lassen Sie mich wissen, wenn wir eine weitere Diskussion f\u00fchren k\u00f6nnen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        331,
+        345
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        130,
+        148
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: SaaS Tarifoptionen\n\nIch interessiere mich f\u00fcr skalierbare SaaS-L\u00f6sungen im Bereich Projektmanagement You can reach me at [email].. K\u00f6nnten Sie bitte mehr Informationen zur Preisgestaltung bereitstellen? Es w\u00e4re sch\u00f6n, Details zu Rabatten, langfristigen Verpflichtungen und Mehrfachk\u00e4ufen zu erhalten My name is [full_name].. Gibt es Anpassungsoptionen, die den spezifischen Bed\u00fcrfnissen einer Organisation gerecht werden? Bitte lassen Sie mich wissen, wenn wir eine weitere Diskussion f\u00fchren k\u00f6nnen.",
+  "category_of_the_email": "Request"
+}

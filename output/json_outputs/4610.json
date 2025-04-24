@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Software Anomalies\n\nDear Support Team, I am encountering frequent software crashes in various applications My name is Omar Hassan.. These issues seem to be exacerbated by recent updates, possibly due to resource constraints You can reach me at liuwei@business.cn.. Despite restarting my systems and reinstalling the affected software, the problems continue. Could you please help me resolve this to avoid further disruptions?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        263,
+        281
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Report on Software Anomalies\n\nDear Support Team, I am encountering frequent software crashes in various applications My name is [full_name].. These issues seem to be exacerbated by recent updates, possibly due to resource constraints You can reach me at [email].. Despite restarting my systems and reinstalling the affected software, the problems continue. Could you please help me resolve this to avoid further disruptions?",
+  "category_of_the_email": "Incident"
+}

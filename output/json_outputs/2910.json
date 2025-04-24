@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Redis 6.2\n\nHello Customer Support, I am contacting you to seek information on the security protocols available for Redis 6.2 in healthcare settings You can reach me at janesmith@company.com.. Given the necessity for top-tier security and compliance in healthcare, I would like to understand the security features and tools included in Redis 6.2 to protect and secure our data. My specific interests are in authentication and authorization methods, data encryption, and access control measures. It would be helpful if you could share some recommendations on how to implement these security measures My name is Carlos Mendoza.. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        641,
+        655
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        200,
+        221
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Redis 6.2\n\nHello Customer Support, I am contacting you to seek information on the security protocols available for Redis 6.2 in healthcare settings You can reach me at [email].. Given the necessity for top-tier security and compliance in healthcare, I would like to understand the security features and tools included in Redis 6.2 to protect and secure our data. My specific interests are in authentication and authorization methods, data encryption, and access control measures. It would be helpful if you could share some recommendations on how to implement these security measures My name is [full_name].. Thank you for your support.",
+  "category_of_the_email": "Request"
+}

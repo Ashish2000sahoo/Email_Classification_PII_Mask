@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Invest Analysis Software Problem\n\nRespected Customer Support, I am contacting you to report an issue with the investment analysis software I am using. The software unexpectedly halted during my work session My name is Sophia Rossi.. It could be a result of inadequate RAM or incompatibility with my laptop. Despite attempts to restart my system and update my antivirus software, the problem continues. I hope you can investigate and offer a solution promptly. If you require further details from me to address this issue, please do let me know. Thank you for your effort and cooperation. I await your response soon. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        227,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        644,
+        665
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Invest Analysis Software Problem\n\nRespected Customer Support, I am contacting you to report an issue with the investment analysis software I am using. The software unexpectedly halted during my work session My name is [full_name].. It could be a result of inadequate RAM or incompatibility with my laptop. Despite attempts to restart my system and update my antivirus software, the problem continues. I hope you can investigate and offer a solution promptly. If you require further details from me to address this issue, please do let me know. Thank you for your effort and cooperation. I await your response soon. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, hier ist eine Nachricht von mir. Ich m\u00f6chte melden, dass ich Probleme mit den Investitionsanalyseberichten festgestellt habe. Es gab Daten Auff\u00e4lligkeiten, die m\u00f6glicherweise auf Software Integrationsprobleme zur\u00fcckzuf\u00fchren sind. Wir haben bereits die Team Systemprotokolle gepr\u00fcft und die Datenquellen aktualisiert, doch leider haben wir keine L\u00f6sung gefunden You can reach me at fatima.farsi@help.com.. Das ist sehr besorgniserregend, da es potenziell die F\u00e4higkeit beeintr\u00e4chtigen k\u00f6nnte, relevante Investitionsentscheidungen zu treffen. K\u00f6nnten Sie bitte helfen, um das Problem zu l\u00f6sen? Es w\u00e4re sehr hilfreich, wenn Sie uns spezifische Fehlermeldungen, Screenshots der Auff\u00e4lligkeiten und die Systemprotokolle zur Verf\u00fcgung stellen k\u00f6nnten, die wir bereits gepr\u00fcft haben, um das Problem besser zu verstehen und eine effektivere L\u00f6sung zu finden My name is Carlos Mendoza.. Bitte kontaktieren Sie uns, um einen Termin f\u00fcr eine Besprechung zu vereinbaren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        895,
+        909
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        415,
+        436
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, hier ist eine Nachricht von mir. Ich m\u00f6chte melden, dass ich Probleme mit den Investitionsanalyseberichten festgestellt habe. Es gab Daten Auff\u00e4lligkeiten, die m\u00f6glicherweise auf Software Integrationsprobleme zur\u00fcckzuf\u00fchren sind. Wir haben bereits die Team Systemprotokolle gepr\u00fcft und die Datenquellen aktualisiert, doch leider haben wir keine L\u00f6sung gefunden You can reach me at [email].. Das ist sehr besorgniserregend, da es potenziell die F\u00e4higkeit beeintr\u00e4chtigen k\u00f6nnte, relevante Investitionsentscheidungen zu treffen. K\u00f6nnten Sie bitte helfen, um das Problem zu l\u00f6sen? Es w\u00e4re sehr hilfreich, wenn Sie uns spezifische Fehlermeldungen, Screenshots der Auff\u00e4lligkeiten und die Systemprotokolle zur Verf\u00fcgung stellen k\u00f6nnten, die wir bereits gepr\u00fcft haben, um das Problem besser zu verstehen und eine effektivere L\u00f6sung zu finden My name is [full_name].. Bitte kontaktieren Sie uns, um einen Termin f\u00fcr eine Besprechung zu vereinbaren.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Digital Campaigns\n\nDear Customer Support, We are writing to report an issue with our digital campaigns. Over the past few weeks, we have encountered difficulties in creating our campaigns, and we suspect that our outdated MySQL database might be the cause. We have already restarted our servers and updated Adobe Illustrator, but the problem persists. Our team has investigated the issue and believes the database could be the root cause. We would greatly appreciate it if you could examine this and provide a timely solution. Please inform us if you need further information from us to resolve the issue My name is John Doe.. We look forward to hearing from you soon. Thank you for your time and assistance You can reach me at janesmith@company.com.. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        641,
+        649
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        756,
+        777
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Digital Campaigns\n\nDear Customer Support, We are writing to report an issue with our digital campaigns. Over the past few weeks, we have encountered difficulties in creating our campaigns, and we suspect that our outdated MySQL database might be the cause. We have already restarted our servers and updated Adobe Illustrator, but the problem persists. Our team has investigated the issue and believes the database could be the root cause. We would greatly appreciate it if you could examine this and provide a timely solution. Please inform us if you need further information from us to resolve the issue My name is [full_name].. We look forward to hearing from you soon. Thank you for your time and assistance You can reach me at [email].. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Possible Medical Data Breach\n\nHello Customer Support, I am contacting you to report a potential medical data breach. Our antivirus system has issued alerts, and we are worried about the safety of our network. We have already rebooted our servers, conducted antivirus scans, and examined our firewall settings, but the problem continues. We suspect that outdated Norton Antivirus and a suboptimal network configuration might be the cause You can reach me at elena.ivanova@support.org.. We would greatly appreciate your help in addressing this issue promptly My name is Jane Smith.. Could you please guide us on the necessary actions to take next?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        595,
+        605
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        484,
+        509
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Possible Medical Data Breach\n\nHello Customer Support, I am contacting you to report a potential medical data breach. Our antivirus system has issued alerts, and we are worried about the safety of our network. We have already rebooted our servers, conducted antivirus scans, and examined our firewall settings, but the problem continues. We suspect that outdated Norton Antivirus and a suboptimal network configuration might be the cause You can reach me at [email].. We would greatly appreciate your help in addressing this issue promptly My name is [full_name].. Could you please guide us on the necessary actions to take next?",
+  "category_of_the_email": "Incident"
+}

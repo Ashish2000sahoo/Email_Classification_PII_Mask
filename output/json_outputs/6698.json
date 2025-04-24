@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Over Marketing Campaigns Efficiency\n\nMarketing campaigns are not effectively reaching the target audience, leading to a decline in engagement You can reach me at elena.ivanova@support.org.. This could be due to recent adjustments in algorithm settings and targeting criteria. Adjustments to ad budgets and refinement of audience segments have not yielded noticeable improvements My name is Sophia Rossi.. Assistance in identifying the root cause of the issue and providing guidance to optimize the campaigns for better results would be greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        408,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        180,
+        205
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concerns Over Marketing Campaigns Efficiency\n\nMarketing campaigns are not effectively reaching the target audience, leading to a decline in engagement You can reach me at [email].. This could be due to recent adjustments in algorithm settings and targeting criteria. Adjustments to ad budgets and refinement of audience segments have not yielded noticeable improvements My name is [full_name].. Assistance in identifying the root cause of the issue and providing guidance to optimize the campaigns for better results would be greatly appreciated.",
+  "category_of_the_email": "Incident"
+}

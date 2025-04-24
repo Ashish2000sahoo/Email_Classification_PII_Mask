@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Project Timelines Not Syncing Correctly\n\nThere were problems syncing project timelines, which could be because of errors in the integration with QuickBooks. We have already attempted to restart and reconnect the relevant applications, but the issue still exists You can reach me at david.kim@corp.kr.. We need your assistance to fix this. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        384
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        303,
+        320
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issues with Project Timelines Not Syncing Correctly\n\nThere were problems syncing project timelines, which could be because of errors in the integration with QuickBooks. We have already attempted to restart and reconnect the relevant applications, but the issue still exists You can reach me at [email].. We need your assistance to fix this. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

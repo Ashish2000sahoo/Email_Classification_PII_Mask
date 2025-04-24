@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent: Update Website Content to Align with New Brand Messaging\n\nI require an immediate update to our website content to align with the new brand messaging and digital strategy. Could you provide the necessary support to make these updates so our online presence aligns with our new brand identity?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        331,
+        346
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Update Website Content to Align with New Brand Messaging\n\nI require an immediate update to our website content to align with the new brand messaging and digital strategy. Could you provide the necessary support to make these updates so our online presence aligns with our new brand identity?. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

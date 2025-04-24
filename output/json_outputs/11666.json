@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Required for Inaccurate Investment Predictions\n\nDear Customer Support, I am experiencing issues with the investment predictions provided by the data analytics tool, which I believe might be due to a malfunction. Despite restarting MATLAB and verifying the data inputs, the issue still persists. Could you please look into this and provide a prompt solution? Incorrect predictions are affecting my investments, and I need assistance urgently. Please provide any further details needed to address this issue. I would appreciate your help in resolving this promptly You can reach me at fatima.farsi@help.com.. I have been using the data analytics tool for a significant period, and this is the first time I've faced this problem. I hope we can resolve it with your support My name is David Kim.. Thank you for your time and assistance. I look forward to your swift response. Please contact me at <tel_num> for a detailed discussion at your convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        798,
+        807
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        600,
+        621
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Inaccurate Investment Predictions\n\nDear Customer Support, I am experiencing issues with the investment predictions provided by the data analytics tool, which I believe might be due to a malfunction. Despite restarting MATLAB and verifying the data inputs, the issue still persists. Could you please look into this and provide a prompt solution? Incorrect predictions are affecting my investments, and I need assistance urgently. Please provide any further details needed to address this issue. I would appreciate your help in resolving this promptly You can reach me at [email].. I have been using the data analytics tool for a significant period, and this is the first time I've faced this problem. I hope we can resolve it with your support My name is [full_name].. Thank you for your time and assistance. I look forward to your swift response. Please contact me at <tel_num> for a detailed discussion at your convenience.",
+  "category_of_the_email": "Incident"
+}

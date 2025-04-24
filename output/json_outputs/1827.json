@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with File Upload Size During Project Creation\n\nUsers are unable to upload files larger than 20MB while creating projects. This issue occurs across different browsers.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        222
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Problem with File Upload Size During Project Creation\n\nUsers are unable to upload files larger than 20MB while creating projects. This issue occurs across different browsers.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

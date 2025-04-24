@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Medical Data Security Services\n\nHello Customer Support, I am inquiring about the services you offer for securing medical data within hospital systems You can reach me at johndoe@email.com.. Could you please provide detailed information on the types of security measures that are implemented, including encryption and access controls? I would greatly appreciate any details on the compliance regulations, such as HIPAA My name is Jane Smith.. Additionally, could you inform me about your experience working with hospitals, including any testimonials or case studies you may have? I look forward to hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        452,
+        462
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        193,
+        210
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Medical Data Security Services\n\nHello Customer Support, I am inquiring about the services you offer for securing medical data within hospital systems You can reach me at [email].. Could you please provide detailed information on the types of security measures that are implemented, including encryption and access controls? I would greatly appreciate any details on the compliance regulations, such as HIPAA My name is [full_name].. Additionally, could you inform me about your experience working with hospitals, including any testimonials or case studies you may have? I look forward to hearing back from you soon.",
+  "category_of_the_email": "Request"
+}

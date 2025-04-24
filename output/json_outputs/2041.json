@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Failure in Medical Data Encryption\n\nI'm encountering difficulties with the medical data encryption process. It suddenly stopped working, and I believe it could be because of compatibility issues with Redis 6.2 My name is Fatima Al-Farsi.. I've already restarted my NZXT Kraken Z63 and reviewed my iOS 15 settings, but the problem still isn't resolved You can reach me at sophia.rossi@service.it.. I'd appreciate your help in addressing this issue quickly.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        230,
+        239
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        382,
+        405
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Failure in Medical Data Encryption\n\nI'm encountering difficulties with the medical data encryption process. It suddenly stopped working, and I believe it could be because of compatibility issues with Redis 6.2 My name is [full_name]-Farsi.. I've already restarted my NZXT Kraken Z63 and reviewed my iOS 15 settings, but the problem still isn't resolved You can reach me at [email].. I'd appreciate your help in addressing this issue quickly.",
+  "category_of_the_email": "Incident"
+}

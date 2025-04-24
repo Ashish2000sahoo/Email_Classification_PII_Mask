@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Application Performance Challenges\n\nDuring peak usage periods, the application faced notable performance issues, which might have been triggered by an unexpected increase in user activity and insufficient server resources My name is Liu Wei.. Efforts have been made to optimize database queries and scale server capacity. Further investigation is needed to resolve the issue. Could you please provide details on the expected and actual user load, as well as the current server configuration? You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        265
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        541,
+        563
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Application Performance Challenges\n\nDuring peak usage periods, the application faced notable performance issues, which might have been triggered by an unexpected increase in user activity and insufficient server resources My name is [full_name].. Efforts have been made to optimize database queries and scale server capacity. Further investigation is needed to resolve the issue. Could you please provide details on the expected and actual user load, as well as the current server configuration? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

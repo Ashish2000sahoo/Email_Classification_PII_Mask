@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Document Management Features\n\nRequest to integrate Adobe Sign and Grammarly into the project management platform. This integration will streamline document signing and proofreading processes, significantly enhancing productivity and efficiency You can reach me at david.kim@corp.kr.. The combined capabilities will enable seamless collaboration, automated workflows, and improved communication among team members. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        450
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        281,
+        298
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Improve Document Management Features\n\nRequest to integrate Adobe Sign and Grammarly into the project management platform. This integration will streamline document signing and proofreading processes, significantly enhancing productivity and efficiency You can reach me at [email].. The combined capabilities will enable seamless collaboration, automated workflows, and improved communication among team members. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

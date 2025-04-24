@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Issue with Adobe Photoshop 2024\n\nDear Tech Online Store Support Team,\n\nI am writing to express my concerns regarding Adobe Photoshop 2024, which I purchased recently from your platform. Unfortunately, I am experiencing consistent crashes as soon as I attempt to launch the application on my Windows 10 system. This issue significantly disrupts my workflow and prevents me from completing critical tasks My name is Jane Smith.. As Photoshop is an essential tool for my work, these interruptions are concerning. I have verified that my system meets the necessary requirements and have also tried several troubleshooting steps to no avail You can reach me at sophia.rossi@service.it.. Could you please assist in resolving this matter promptly? Your support would be greatly appreciated.\n\nThank you for your attention.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        433
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        666,
+        689
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        36,
+        40
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        142,
+        146
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Issue with Adobe Photoshop [phone_number]\n\nDear Tech Online Store Support Team,\n\nI am writing to express my concerns regarding Adobe Photoshop [phone_number], which I purchased recently from your platform. Unfortunately, I am experiencing consistent crashes as soon as I attempt to launch the application on my Windows 10 system. This issue significantly disrupts my workflow and prevents me from completing critical tasks My name is [full_name].. As Photoshop is an essential tool for my work, these interruptions are concerning. I have verified that my system meets the necessary requirements and have also tried several troubleshooting steps to no avail You can reach me at [email].. Could you please assist in resolving this matter promptly? Your support would be greatly appreciated.\n\nThank you for your attention.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

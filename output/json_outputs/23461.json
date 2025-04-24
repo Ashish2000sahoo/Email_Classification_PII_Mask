@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema con la instalaci\u00f3n de Norton Antivirus Plus\n\nEstimado equipo de atenci\u00f3n al cliente, estoy teniendo dificultades con la instalaci\u00f3n de Norton Antivirus Plus en mi computadora. A pesar de haber seguido todas las indicaciones, el procedimiento de instalaci\u00f3n no es exitoso de manera repetida My name is Carlos Mendoza.. \u00bfPodr\u00edan ofrecerme ayuda para solucionar este inconveniente lo m\u00e1s pronto posible? Si es necesario, mis datos de contacto son <name>, <tel_num>, y mi n\u00famero de cuenta es <acc_num>. Gracias, <name> You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        319,
+        333
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        550,
+        568
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problema con la instalaci\u00f3n de Norton Antivirus Plus\n\nEstimado equipo de atenci\u00f3n al cliente, estoy teniendo dificultades con la instalaci\u00f3n de Norton Antivirus Plus en mi computadora. A pesar de haber seguido todas las indicaciones, el procedimiento de instalaci\u00f3n no es exitoso de manera repetida My name is [full_name].. \u00bfPodr\u00edan ofrecerme ayuda para solucionar este inconveniente lo m\u00e1s pronto posible? Si es necesario, mis datos de contacto son <name>, <tel_num>, y mi n\u00famero de cuenta es <acc_num>. Gracias, <name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'assistance sur les d\u00e9tails de facturation et les options de paiement\n\nCher service client,\n\nJe voudrais demander les d\u00e9tails de facturation et les options de paiement disponibles pour l'engagement r\u00e9cent de service de conseil en informatique du mois dernier. Mon num\u00e9ro de compte est <acc_num> My name is Carlos Mendoza.. Veuillez envoyer les informations n\u00e9cessaires d\u00e8s que possible. Vous pouvez me contacter au <tel_num> si vous avez besoin de plus d'informations. Dans l'attente de votre r\u00e9ponse rapide.\n\nMerci,\n\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        324,
+        338
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        560,
+        583
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Demande d'assistance sur les d\u00e9tails de facturation et les options de paiement\n\nCher service client,\n\nJe voudrais demander les d\u00e9tails de facturation et les options de paiement disponibles pour l'engagement r\u00e9cent de service de conseil en informatique du mois dernier. Mon num\u00e9ro de compte est <acc_num> My name is [full_name].. Veuillez envoyer les informations n\u00e9cessaires d\u00e8s que possible. Vous pouvez me contacter au <tel_num> si vous avez besoin de plus d'informations. Dans l'attente de votre r\u00e9ponse rapide.\n\nMerci,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

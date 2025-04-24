@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the Data Analytics Dashboard Leading to Data Loss\n\nThe data analytics dashboard is experiencing random freezing which results in the loss of investment data. This is caused by an incompatibility between the Android Studio and Redis versions You can reach me at johndoe@email.com.. Despite attempts to restart the dashboard and review Redis logs, the issue remains unresolved. I would appreciate your help in addressing this problem and taking steps to avoid future disruptions. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        511,
+        522
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        283,
+        300
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with the Data Analytics Dashboard Leading to Data Loss\n\nThe data analytics dashboard is experiencing random freezing which results in the loss of investment data. This is caused by an incompatibility between the Android Studio and Redis versions You can reach me at [email].. Despite attempts to restart the dashboard and review Redis logs, the issue remains unresolved. I would appreciate your help in addressing this problem and taking steps to avoid future disruptions. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

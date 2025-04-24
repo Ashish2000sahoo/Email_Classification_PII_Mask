@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern with the Data Analytics Dashboard\n\nThere has been an issue with the data analytics dashboard, leading to delays in generating investment reports. This could be due to updates that are not compatible with the system or corrupted data files My name is Jane Smith.. Despite trying to restart the system, checking for updates, and verifying data sources, the problem still exists. I would greatly appreciate your help in addressing this problem and providing a resolution at the earliest convenience. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        277
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        535,
+        552
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern with the Data Analytics Dashboard\n\nThere has been an issue with the data analytics dashboard, leading to delays in generating investment reports. This could be due to updates that are not compatible with the system or corrupted data files My name is [full_name].. Despite trying to restart the system, checking for updates, and verifying data sources, the problem still exists. I would greatly appreciate your help in addressing this problem and providing a resolution at the earliest convenience. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

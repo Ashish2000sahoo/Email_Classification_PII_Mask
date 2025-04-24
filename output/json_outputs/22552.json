@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent: Help Needed with Lenovo IdeaPad 5 Return\n\nDear Customer Support Team at <name> Online Store,\n\nI am reaching out to notify you about my recent return of the Lenovo IdeaPad 5. Could you kindly provide me with an update on the progress of my return and the subsequent steps? The return reference number is <acc_num>.\n\nI appreciate your swift assistance.\n\nBest regards,\n<name>. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        412,
+        428
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Help Needed with Lenovo IdeaPad 5 Return\n\nDear Customer Support Team at <name> Online Store,\n\nI am reaching out to notify you about my recent return of the Lenovo IdeaPad 5. Could you kindly provide me with an update on the progress of my return and the subsequent steps? The return reference number is <acc_num>.\n\nI appreciate your swift assistance.\n\nBest regards,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

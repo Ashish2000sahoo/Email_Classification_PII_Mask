@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Decryption Issue\n\nDear Customer Support Team, I am writing to report a critical issue concerning our data security, specifically a decryption error that has made our medical records inaccessible. This is not only a nuisance but also poses significant risks to our operational processes and compliance with data protection regulations You can reach me at elena.ivanova@support.org.. The issue appears to stem from either a software error or a misconfiguration, which we are currently trying to identify. So far, our efforts to resolve the issue have included restarting our servers and checking our firewall settings, but unfortunately, these attempts have been unsuccessful. I would greatly appreciate it if your team could urgently provide support for diagnosing and fixing this decryption problem. A quick response and guidance are crucial to regain access to our medical records and ensure the continuation of our services. Please inform me if you need further details to facilitate a prompt solution. Thank you for your time and assistance in this matter. I look forward to hearing from you soon. Kind regards, [Your Name] My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1167,
+        1179
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        383,
+        408
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Decryption Issue\n\nDear Customer Support Team, I am writing to report a critical issue concerning our data security, specifically a decryption error that has made our medical records inaccessible. This is not only a nuisance but also poses significant risks to our operational processes and compliance with data protection regulations You can reach me at [email].. The issue appears to stem from either a software error or a misconfiguration, which we are currently trying to identify. So far, our efforts to resolve the issue have included restarting our servers and checking our firewall settings, but unfortunately, these attempts have been unsuccessful. I would greatly appreciate it if your team could urgently provide support for diagnosing and fixing this decryption problem. A quick response and guidance are crucial to regain access to our medical records and ensure the continuation of our services. Please inform me if you need further details to facilitate a prompt solution. Thank you for your time and assistance in this matter. I look forward to hearing from you soon. Kind regards, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

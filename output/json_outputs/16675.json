@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung von Unterst\u00fctzung f\u00fcr Datenanalysewerkzeuge\n\nLieber Kundensupport, ich schreibe Ihnen anl\u00e4sslich der Verbesserung unserer Datenanalysewerkzeuge, um die Optimierung der Entscheidungsfindung in der Investmentbranche zu verbessern You can reach me at elena.ivanova@support.org.. Der aktuelle Software ist begrenzt bei der Lieferung von realzeitbasierten Einsichten und pr\u00e4diktiver Analyse. Ich glaube, dass eine Aktualisierung der Werkzeuge die F\u00e4higkeiten erheblich verbessern und so die Informationsbasis f\u00fcr informierte Investitionsentscheidungen bereichern w\u00fcrde, die Konkurrenz behaupten zu k\u00f6nnen. Insbesondere w\u00e4ren Verbesserungen in der Datenvisualisierung, der Maschinenern\u00e4hrungsf\u00e4higkeit und der Integration mit Finanzsystemen willkommen, um den Markt besser zu analysieren, Chancen zu identifizieren und Risiken zu minimieren My name is John Doe.. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        867,
+        875
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        269,
+        294
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Optimierung von Unterst\u00fctzung f\u00fcr Datenanalysewerkzeuge\n\nLieber Kundensupport, ich schreibe Ihnen anl\u00e4sslich der Verbesserung unserer Datenanalysewerkzeuge, um die Optimierung der Entscheidungsfindung in der Investmentbranche zu verbessern You can reach me at [email].. Der aktuelle Software ist begrenzt bei der Lieferung von realzeitbasierten Einsichten und pr\u00e4diktiver Analyse. Ich glaube, dass eine Aktualisierung der Werkzeuge die F\u00e4higkeiten erheblich verbessern und so die Informationsbasis f\u00fcr informierte Investitionsentscheidungen bereichern w\u00fcrde, die Konkurrenz behaupten zu k\u00f6nnen. Insbesondere w\u00e4ren Verbesserungen in der Datenvisualisierung, der Maschinenern\u00e4hrungsf\u00e4higkeit und der Integration mit Finanzsystemen willkommen, um den Markt besser zu analysieren, Chancen zu identifizieren und Risiken zu minimieren My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Change"
+}

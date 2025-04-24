@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de integraci\u00f3n\n\nEstimado equipo de apoyo al cliente de IT Services,\n\nLes escribo para llamar su atenci\u00f3n sobre un problema significativo que nuestro equipo ha encontrado con la integraci\u00f3n del sistema de tickets, el cual est\u00e1 afectando gravemente nuestra gesti\u00f3n del flujo de trabajo My name is David Kim.. A partir de octubre, hemos notado errores constantes del servidor que interrumpen nuestras operaciones relacionadas con el Servicio de Consultor\u00eda de TI You can reach me at liuwei@business.cn.. Estos errores han llevado a retrasos y a un aumento de la carga de trabajo en nuestro equipo, ya que no podemos gestionar eficientemente las solicitudes de los clientes y el procesamiento interno. Parece ser un problema continuo que no se ha resuelto a pesar de nuestra soluci\u00f3n inicial.\n\nAgradecer\u00edamos que pudieran investigar este asunto con urgencia, ya que est\u00e1 impactando nuestras operaciones diarias y la satisfacci\u00f3n del cliente. Les agradecer\u00edamos que lo escalaran a sus expertos t\u00e9cnicos lo antes posible para que podamos evitar m\u00e1s interrupciones. Por favor, mant\u00e9ngannos informados sobre cualquier actualizaci\u00f3n o si se necesita m\u00e1s informaci\u00f3n de nuestra parte.\n\nGracias de antemano por su pronta asistencia.\n\nSaludos cordiales,\n\n<name>\n\n<acc_num>\n\n<tel_num>\n\nNombre de la empresa",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        501,
+        519
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problemas de integraci\u00f3n\n\nEstimado equipo de apoyo al cliente de IT Services,\n\nLes escribo para llamar su atenci\u00f3n sobre un problema significativo que nuestro equipo ha encontrado con la integraci\u00f3n del sistema de tickets, el cual est\u00e1 afectando gravemente nuestra gesti\u00f3n del flujo de trabajo My name is [full_name].. A partir de octubre, hemos notado errores constantes del servidor que interrumpen nuestras operaciones relacionadas con el Servicio de Consultor\u00eda de TI You can reach me at [email].. Estos errores han llevado a retrasos y a un aumento de la carga de trabajo en nuestro equipo, ya que no podemos gestionar eficientemente las solicitudes de los clientes y el procesamiento interno. Parece ser un problema continuo que no se ha resuelto a pesar de nuestra soluci\u00f3n inicial.\n\nAgradecer\u00edamos que pudieran investigar este asunto con urgencia, ya que est\u00e1 impactando nuestras operaciones diarias y la satisfacci\u00f3n del cliente. Les agradecer\u00edamos que lo escalaran a sus expertos t\u00e9cnicos lo antes posible para que podamos evitar m\u00e1s interrupciones. Por favor, mant\u00e9ngannos informados sobre cualquier actualizaci\u00f3n o si se necesita m\u00e1s informaci\u00f3n de nuestra parte.\n\nGracias de antemano por su pronta asistencia.\n\nSaludos cordiales,\n\n<name>\n\n<acc_num>\n\n<tel_num>\n\nNombre de la empresa",
+  "category_of_the_email": "Incident"
+}

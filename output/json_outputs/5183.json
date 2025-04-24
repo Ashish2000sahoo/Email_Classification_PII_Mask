@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Latest Integrations Update\n\nDear Support Team, we are encountering critical issues following the latest integrations update My name is Omar Hassan.. Several applications are affected, and the service is disrupted. The problem might have arisen due to the recent integrations update on the SaaS platform. Despite our attempts to revert the recent changes and reconnect the systems, the issue persists. We kindly request your assistance to resolve the problem quickly and minimize further disruptions You can reach me at omar.hassan@secure.net.. Please inform us of the next steps to be taken. We are urgently seeking your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        166
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        539,
+        561
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Latest Integrations Update\n\nDear Support Team, we are encountering critical issues following the latest integrations update My name is [full_name].. Several applications are affected, and the service is disrupted. The problem might have arisen due to the recent integrations update on the SaaS platform. Despite our attempts to revert the recent changes and reconnect the systems, the issue persists. We kindly request your assistance to resolve the problem quickly and minimize further disruptions You can reach me at [email].. Please inform us of the next steps to be taken. We are urgently seeking your support.",
+  "category_of_the_email": "Incident"
+}

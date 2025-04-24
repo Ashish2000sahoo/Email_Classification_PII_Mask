@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data\n\nIssues with accessing medical data have surfaced due to a failure in the Jenkins and Ansible integration.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        181
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data\n\nIssues with accessing medical data have surfaced due to a failure in the Jenkins and Ansible integration.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

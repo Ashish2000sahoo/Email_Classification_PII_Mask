@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, you have reported issues with the software and hardware integration, as well as promotional campaigns. These problems seem to be hindering our brand growth efforts You can reach me at maria.gonzalez@shop.es.. After checking for updates and ensuring the proper configuration, the issues still persist. I believe that compatibility problems or insufficient technical support might be the cause My name is Carlos Mendoza.. I would appreciate it if you could look into this matter and provide a solution. Please let us know if there is any additional information needed to resolve the issue. Thank you for your time and assistance. We look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        432,
+        446
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        213,
+        235
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, you have reported issues with the software and hardware integration, as well as promotional campaigns. These problems seem to be hindering our brand growth efforts You can reach me at [email].. After checking for updates and ensuring the proper configuration, the issues still persist. I believe that compatibility problems or insufficient technical support might be the cause My name is [full_name].. I would appreciate it if you could look into this matter and provide a solution. Please let us know if there is any additional information needed to resolve the issue. Thank you for your time and assistance. We look forward to your response.",
+  "category_of_the_email": "Incident"
+}

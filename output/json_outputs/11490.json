@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Aktualisierung der digitale Marketingstrategie\n\nSehr geehrte Kundenservice, ich schreibe um eine Anfrage zur Aktualisierung unserer digitale Marketingstrategie f\u00fcr mehrere Produkte. Das Ziel ist es, die Marke auf der Schnelle zu wachsen und die Online-Engagement-Optimierung zu verbessern My name is David Kim.. Wir m\u00fcssen unseren aktuellen Ansatz anpassen, um besser auf unsere Zielgruppe zuzupassen und unser Online-Geschenk zu erh\u00f6hen. Dies beinhaltet das Umformen unserer sozialen-Medien-Campaigns, das Verbessern des Benutzererlebnisses unserer Website und das Entwickeln von mehr fesselnden Inhalten. Wir m\u00f6chten auch neue Kan\u00e4le f\u00fcr Werbung erkunden und mit Einflussrechten in unserem Branchen zusammenarbeiten You can reach me at david.kim@corp.kr.. K\u00f6nnten Sie bitte eine detaillierte Planung und einen Zeitplan f\u00fcr die Umsetzung dieser \u00c4nderungen bereitstellen? Wir danken Ihnen f\u00fcr Ihre rasche Aufmerksamkeit in bezug auf dieses Thema und freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Hilfe in dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        321,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        761,
+        778
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Aktualisierung der digitale Marketingstrategie\n\nSehr geehrte Kundenservice, ich schreibe um eine Anfrage zur Aktualisierung unserer digitale Marketingstrategie f\u00fcr mehrere Produkte. Das Ziel ist es, die Marke auf der Schnelle zu wachsen und die Online-Engagement-Optimierung zu verbessern My name is [full_name].. Wir m\u00fcssen unseren aktuellen Ansatz anpassen, um besser auf unsere Zielgruppe zuzupassen und unser Online-Geschenk zu erh\u00f6hen. Dies beinhaltet das Umformen unserer sozialen-Medien-Campaigns, das Verbessern des Benutzererlebnisses unserer Website und das Entwickeln von mehr fesselnden Inhalten. Wir m\u00f6chten auch neue Kan\u00e4le f\u00fcr Werbung erkunden und mit Einflussrechten in unserem Branchen zusammenarbeiten You can reach me at [email].. K\u00f6nnten Sie bitte eine detaillierte Planung und einen Zeitplan f\u00fcr die Umsetzung dieser \u00c4nderungen bereitstellen? Wir danken Ihnen f\u00fcr Ihre rasche Aufmerksamkeit in bezug auf dieses Thema und freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Hilfe in dieser Angelegenheit.",
+  "category_of_the_email": "Change"
+}

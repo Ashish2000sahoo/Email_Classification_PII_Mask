@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erkennung einer Datensperrung im medizinischen Datenspeicher\n\nWir haben eine Datensperrung in unserem medizinischen Datenspeicher festgestellt. Urs\u00e4chlich betrachten wir einen Mangel an Verschl\u00fcsselung und veraltete Software You can reach me at liuwei@business.cn.. Unsere Firewalls wurden aktualisiert und Virenscans durchgef\u00fchrt. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        352,
+        361
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        254,
+        272
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Erkennung einer Datensperrung im medizinischen Datenspeicher\n\nWir haben eine Datensperrung in unserem medizinischen Datenspeicher festgestellt. Urs\u00e4chlich betrachten wir einen Mangel an Verschl\u00fcsselung und veraltete Software You can reach me at [email].. Unsere Firewalls wurden aktualisiert und Virenscans durchgef\u00fchrt. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Return Request: Ink Tank Leakage Issue\n\nDear Customer Support,\n\nI am writing to request a return for the Epson EcoTank ET-4760 printer, which I recently purchased from your online store. Unfortunately, during the initial setup of the printer, I experienced an ink tank leakage, causing significant inconvenience.\n\nThe product details are as follows:\n- Product: Epson EcoTank ET-4760\n- Order Number: <order_number>\n\nI have followed all the troubleshooting steps outlined in the manual, but the issue persists My name is Fatima Al-Farsi.. I would appreciate urgent assistance to process the return and receive a replacement or refund.\n\nPlease contact me at your earliest convenience at <tel_num>. Thank you for your prompt attention to this matter.\n\nBest regards,\n\n<name> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        528,
+        537
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        801,
+        826
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        131,
+        135
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        387,
+        391
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Return Request: Ink Tank Leakage Issue\n\nDear Customer Support,\n\nI am writing to request a return for the Epson EcoTank ET-[phone_number] printer, which I recently purchased from your online store. Unfortunately, during the initial setup of the printer, I experienced an ink tank leakage, causing significant inconvenience.\n\nThe product details are as follows:\n- Product: Epson EcoTank ET-[phone_number]\n- Order Number: <order_number>\n\nI have followed all the troubleshooting steps outlined in the manual, but the issue persists My name is [full_name]-Farsi.. I would appreciate urgent assistance to process the return and receive a replacement or refund.\n\nPlease contact me at your earliest convenience at <tel_num>. Thank you for your prompt attention to this matter.\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

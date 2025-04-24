@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheitsverletzung gemeldet\n\nEs wurde eine Sicherheitsverletzung im IT-System festgestellt.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        143
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsverletzung gemeldet\n\nEs wurde eine Sicherheitsverletzung im IT-System festgestellt.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

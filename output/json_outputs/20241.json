@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello <name>, I am reaching out to inform you about a holdup in the delivery of my MacBook Air M1, which I ordered using account <acc_num> You can reach me at carlosm@gmail.com.. I urge you to address this matter promptly. Thank you, <name>. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        272
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        170,
+        187
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello <name>, I am reaching out to inform you about a holdup in the delivery of my MacBook Air M1, which I ordered using account <acc_num> You can reach me at [email].. I urge you to address this matter promptly. Thank you, <name>. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nBitten um Unterst\u00fctzung bei der Datenpiperlinie-Fehlersituation. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        97,
+        113
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: \n\nBitten um Unterst\u00fctzung bei der Datenpiperlinie-Fehlersituation. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

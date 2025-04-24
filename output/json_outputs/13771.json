@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Optimierung des Markenwachstums\n\nIch wende mich an Sie, um digitalen Strategien zu erkunden, die mit Zoho Books verbinden sich k\u00f6nnen, um das Wachstum meines Markens zu maximieren My name is David Kim.. K\u00f6nnten Sie mir bitte umfassende Informationen zu diesem Bereich bereitstellen? Es w\u00fcrde mich freuen, wenn Sie mir Hinweise geben k\u00f6nnten, wie ich Zoho Books effektiv nutzen kann, damit die Online-Pr\u00e4senz meines Marke gesteigert und eine breitere Zielgruppe erreicht wird You can reach me at maria.gonzalez@shop.es.. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        506,
+        528
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Optimierung des Markenwachstums\n\nIch wende mich an Sie, um digitalen Strategien zu erkunden, die mit Zoho Books verbinden sich k\u00f6nnen, um das Wachstum meines Markens zu maximieren My name is [full_name].. K\u00f6nnten Sie mir bitte umfassende Informationen zu diesem Bereich bereitstellen? Es w\u00fcrde mich freuen, wenn Sie mir Hinweise geben k\u00f6nnten, wie ich Zoho Books effektiv nutzen kann, damit die Online-Pr\u00e4senz meines Marke gesteigert und eine breitere Zielgruppe erreicht wird You can reach me at [email].. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "category_of_the_email": "Request"
+}

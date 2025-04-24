@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team,\n\nI am writing to you regarding the upcoming scheduled maintenance of the AWS services that were recently communicated My name is Jane Smith.. The advanced notification mentioned that the scheduled maintenance for AWS might potentially lead to brief service outages. This maintenance particularly affects the services we currently depend upon as part of our AWS Management Service package.\n\nGiven the critical nature of our online operations, even a brief service outage could have a significant impact on our business functions. Therefore, it is essential for us to understand more specifically the scope of the maintenance and any proactive steps we might need to undertake to minimize disruption.\n\nCould you please provide clarity on the expected timeline and any potential windows during which we might experience reduced functionality or a complete outage? While the official communication does make mention of updates being provided during the maintenance window, continuous monitoring on our end could be essential for mitigating any unforeseen issues You can reach me at johndoe@email.com.. Knowing the exact start times and duration of the maintenance activities would better prepare our technical team to ensure that all our systems and processes continue to operate as smoothly as possible.\n\nFurthermore, we would appreciate any recommendations from your team regarding contingency plans or measures that we can take during this maintenance period to mitigate downtime risks. It would also be beneficial to know if there are any critical actions that should be undertaken prior to the commencement of the maintenance, possibly some preparatory tasks on our side to facilitate a seamless transition during and post-maintenance.\n\nWe value the reliability of your IT services and understand the necessity of regular maintenance. Nevertheless, proactive communication and strategic planning can significantly alleviate concerns. I eagerly await your response to discuss how to best prepare for this upcoming service event.\n\nThank you for your attention and assistance.\n\nBest regards,\n\n<name>\n<tel_num>\n<company_name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        178
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1118,
+        1135
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team,\n\nI am writing to you regarding the upcoming scheduled maintenance of the AWS services that were recently communicated My name is [full_name].. The advanced notification mentioned that the scheduled maintenance for AWS might potentially lead to brief service outages. This maintenance particularly affects the services we currently depend upon as part of our AWS Management Service package.\n\nGiven the critical nature of our online operations, even a brief service outage could have a significant impact on our business functions. Therefore, it is essential for us to understand more specifically the scope of the maintenance and any proactive steps we might need to undertake to minimize disruption.\n\nCould you please provide clarity on the expected timeline and any potential windows during which we might experience reduced functionality or a complete outage? While the official communication does make mention of updates being provided during the maintenance window, continuous monitoring on our end could be essential for mitigating any unforeseen issues You can reach me at [email].. Knowing the exact start times and duration of the maintenance activities would better prepare our technical team to ensure that all our systems and processes continue to operate as smoothly as possible.\n\nFurthermore, we would appreciate any recommendations from your team regarding contingency plans or measures that we can take during this maintenance period to mitigate downtime risks. It would also be beneficial to know if there are any critical actions that should be undertaken prior to the commencement of the maintenance, possibly some preparatory tasks on our side to facilitate a seamless transition during and post-maintenance.\n\nWe value the reliability of your IT services and understand the necessity of regular maintenance. Nevertheless, proactive communication and strategic planning can significantly alleviate concerns. I eagerly await your response to discuss how to best prepare for this upcoming service event.\n\nThank you for your attention and assistance.\n\nBest regards,\n\n<name>\n<tel_num>\n<company_name>",
+  "category_of_the_email": "Change"
+}

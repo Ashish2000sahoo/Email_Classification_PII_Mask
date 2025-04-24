@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Needed for Unauthorized Access to Patient Records\n\nDear Customer Support,\\n\\nWe are reporting a critical issue where unauthorized access to patient records has been detected, which is a serious breach of security and confidentiality You can reach me at carlosm@gmail.com.. Our initial investigation points towards outdated security software as the possible cause, making our system vulnerable to such attacks.\\n\\nWe have already taken immediate steps to address the situation by restarting servers and conducting virus scans to ensure no malware is present My name is Maria Gonzalez.. However, we need your urgent assistance to investigate this matter further and put in place measures to prevent similar incidents in the future.\\n\\nCould you please guide us on the necessary steps to update our security software and ensure our system is secure? Additionally, we would appreciate any recommendations you can offer for enhancing our security protocols to protect sensitive patient information.\\n\\nThank you for your prompt attention to this matter. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        595,
+        609
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        280,
+        297
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Needed for Unauthorized Access to Patient Records\n\nDear Customer Support,\\n\\nWe are reporting a critical issue where unauthorized access to patient records has been detected, which is a serious breach of security and confidentiality You can reach me at [email].. Our initial investigation points towards outdated security software as the possible cause, making our system vulnerable to such attacks.\\n\\nWe have already taken immediate steps to address the situation by restarting servers and conducting virus scans to ensure no malware is present My name is [full_name].. However, we need your urgent assistance to investigate this matter further and put in place measures to prevent similar incidents in the future.\\n\\nCould you please guide us on the necessary steps to update our security software and ensure our system is secure? Additionally, we would appreciate any recommendations you can offer for enhancing our security protocols to protect sensitive patient information.\\n\\nThank you for your prompt attention to this matter. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

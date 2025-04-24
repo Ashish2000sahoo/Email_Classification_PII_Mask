@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei digitale Kampagnen\n\nAufgrund technischer Integrationsm\u00e4ngle konnten verschiedene Tools und Plattformen f\u00fcr die Ausf\u00fchrung der digitalen Kampagnen nicht verwendet werden. Die Wiederherstellung der Server, die \u00dcberpr\u00fcfung der API-Verbindungen und die Aktualisierung der Software haben die Probleme nicht gel\u00f6st My name is Jane Smith.. Diese Misserfolge haben die Wachstumsrate der Marke erheblich beeintr\u00e4chtigt. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        357
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        459,
+        482
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei digitale Kampagnen\n\nAufgrund technischer Integrationsm\u00e4ngle konnten verschiedene Tools und Plattformen f\u00fcr die Ausf\u00fchrung der digitalen Kampagnen nicht verwendet werden. Die Wiederherstellung der Server, die \u00dcberpr\u00fcfung der API-Verbindungen und die Aktualisierung der Software haben die Probleme nicht gel\u00f6st My name is [full_name].. Diese Misserfolge haben die Wachstumsrate der Marke erheblich beeintr\u00e4chtigt. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

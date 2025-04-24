@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Marketing Agency Navigation System\n\nThe navigation system is not functioning, which is affecting our campaigns You can reach me at sophia.rossi@service.it.. It could be a software compatibility issue My name is Liu Wei.. Restarting and updating the drivers did not fix the problem. We urgently need help to address this issue and reduce its impact on our campaigns.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        233,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        153,
+        176
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Marketing Agency Navigation System\n\nThe navigation system is not functioning, which is affecting our campaigns You can reach me at [email].. It could be a software compatibility issue My name is [full_name].. Restarting and updating the drivers did not fix the problem. We urgently need help to address this issue and reduce its impact on our campaigns.",
+  "category_of_the_email": "Incident"
+}

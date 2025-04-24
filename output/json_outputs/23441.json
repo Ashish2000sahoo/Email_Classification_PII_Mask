@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team, \n\nI am writing to bring to your attention a persistent and critical issue we are experiencing with our Cisco Router ISR4331, an integral part of our enterprise's secure, high-performance networking infrastructure. Over the past few weeks, we have encountered increasingly frequent routing anomalies suspected to be due to a malfunction in the said device. \n\nOur network has been experiencing intermittent internet connectivity which disrupts our operations, affecting communication and productivity. These disruptions have manifested primarily in delayed webpage loading times, inability to connect to certain domains, and sporadic downtime. Such issues are challenging our ability to maintain the efficiency and effectiveness of our core digital operations. \n\nWe have already performed several in-house troubleshooting measures, including hardware diagnostics and firmware updates, but unfortunately, the problem persists. Given the complexity and impact on business operations, we believe this situation merits further investigation by your expert support team. Moreover, it is critical to address this issue promptly to restore and safeguard our network's reliability and performance. \n\nCould you please guide us on the best course of action to remedy this situation? Additionally, if needed, we are open to coordinating with your technical support team for onsite diagnostics or remote assistance You can reach me at maria.gonzalez@shop.es.. I trust with your comprehensive support, we can resolve this issue swiftly and effectively. \n\nThank you for your immediate attention to this matter My name is Carlos Mendoza.. We look forward to your prompt response so we can progress towards a resolution.\n\nBest Regards,\n\n<name>\n\n<name's Designation>, <Company Name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1644,
+        1658
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1460,
+        1482
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        158,
+        162
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team, \n\nI am writing to bring to your attention a persistent and critical issue we are experiencing with our Cisco Router ISR[phone_number], an integral part of our enterprise's secure, high-performance networking infrastructure. Over the past few weeks, we have encountered increasingly frequent routing anomalies suspected to be due to a malfunction in the said device. \n\nOur network has been experiencing intermittent internet connectivity which disrupts our operations, affecting communication and productivity. These disruptions have manifested primarily in delayed webpage loading times, inability to connect to certain domains, and sporadic downtime. Such issues are challenging our ability to maintain the efficiency and effectiveness of our core digital operations. \n\nWe have already performed several in-house troubleshooting measures, including hardware diagnostics and firmware updates, but unfortunately, the problem persists. Given the complexity and impact on business operations, we believe this situation merits further investigation by your expert support team. Moreover, it is critical to address this issue promptly to restore and safeguard our network's reliability and performance. \n\nCould you please guide us on the best course of action to remedy this situation? Additionally, if needed, we are open to coordinating with your technical support team for onsite diagnostics or remote assistance You can reach me at [email].. I trust with your comprehensive support, we can resolve this issue swiftly and effectively. \n\nThank you for your immediate attention to this matter My name is [full_name].. We look forward to your prompt response so we can progress towards a resolution.\n\nBest Regards,\n\n<name>\n\n<name's Designation>, <Company Name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

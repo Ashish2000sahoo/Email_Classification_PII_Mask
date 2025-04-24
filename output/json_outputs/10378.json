@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Invoice and Payment Difference Detected\n\nHello customer support, I am contacting you to report a discrepancy I found on my recent bill My name is Sophia Rossi.. By cross-checking my payment history, I suspect a mistake might have led to an invoice mismatch. I have double-checked my payments and believe there could be an error. Please investigate this and provide assistance in resolving it. I thank you for your time and support in addressing this matter. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        499,
+        520
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Invoice and Payment Difference Detected\n\nHello customer support, I am contacting you to report a discrepancy I found on my recent bill My name is [full_name].. By cross-checking my payment history, I suspect a mistake might have led to an invoice mismatch. I have double-checked my payments and believe there could be an error. Please investigate this and provide assistance in resolving it. I thank you for your time and support in addressing this matter. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei Login-Problemen\n\nIch bin momentan bei Login-Problemen und habe versucht, durch Neustart des Servers und Pr\u00fcfung der Logs zu finden, was falsch ist. Es k\u00f6nnte ein Fehler im Authentifizierungssystem sein You can reach me at janesmith@company.com.. Bitte helfen Sie mir, dieses Problem so schnell wie m\u00f6glich zu beheben. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        348,
+        360
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        241,
+        262
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei Login-Problemen\n\nIch bin momentan bei Login-Problemen und habe versucht, durch Neustart des Servers und Pr\u00fcfung der Logs zu finden, was falsch ist. Es k\u00f6nnte ein Fehler im Authentifizierungssystem sein You can reach me at [email].. Bitte helfen Sie mir, dieses Problem so schnell wie m\u00f6glich zu beheben. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

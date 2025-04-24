@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Analytics\n\nThe financial analytics team has faced connectivity problems that are affecting the data optimization processes. These issues might have arisen from conflicts with recent software updates and existing applications. Steps taken included restarting devices, reinstalling the affected software, and checking network settings, but the issue still persists. The team has also attempted to bypass firewall settings and checked for malware, but the problem remains unresolved You can reach me at maria.gonzalez@shop.es.. We kindly request your assistance in resolving this matter as soon as possible to minimize its impact on operations. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        675,
+        688
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        522,
+        544
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem with Analytics\n\nThe financial analytics team has faced connectivity problems that are affecting the data optimization processes. These issues might have arisen from conflicts with recent software updates and existing applications. Steps taken included restarting devices, reinstalling the affected software, and checking network settings, but the issue still persists. The team has also attempted to bypass firewall settings and checked for malware, but the problem remains unresolved You can reach me at [email].. We kindly request your assistance in resolving this matter as soon as possible to minimize its impact on operations. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

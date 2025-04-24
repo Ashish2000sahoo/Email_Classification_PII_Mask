@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment-Prognosen funktionieren pl\u00f6tzlich nicht mehr\n\nSehr geehrte Kundenservice-Team, ich melde mich, um ein Problem mit unseren Investitionsprognosen zu melden. Die Prognosen funktionieren nicht mehr und wir denken, dass dies durch eine neue Aktualisierung von Scikit-learn verursacht wurde. Wir haben bereits versucht, Redis neu zu starten und Abh\u00e4ngigkeiten zu aktualisieren, aber das Problem blieb bestehen. K\u00f6nnten Sie uns bitte helfen, um dieses Problem zu l\u00f6sen? Wir w\u00fcrden jede Ratschl\u00e4ge zur Probleml\u00f6sung oder zum Beheben des Problems sehr sch\u00e4tzen You can reach me at carlosm@gmail.com.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is Liu Wei.. Wir freuen uns darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        667,
+        674
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        592,
+        609
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Investment-Prognosen funktionieren pl\u00f6tzlich nicht mehr\n\nSehr geehrte Kundenservice-Team, ich melde mich, um ein Problem mit unseren Investitionsprognosen zu melden. Die Prognosen funktionieren nicht mehr und wir denken, dass dies durch eine neue Aktualisierung von Scikit-learn verursacht wurde. Wir haben bereits versucht, Redis neu zu starten und Abh\u00e4ngigkeiten zu aktualisieren, aber das Problem blieb bestehen. K\u00f6nnten Sie uns bitte helfen, um dieses Problem zu l\u00f6sen? Wir w\u00fcrden jede Ratschl\u00e4ge zur Probleml\u00f6sung oder zum Beheben des Problems sehr sch\u00e4tzen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung My name is [full_name].. Wir freuen uns darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

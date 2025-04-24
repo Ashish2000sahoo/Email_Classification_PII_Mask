@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nHello <name>,\n\nI require help with the installation of Windows 11 Pro on my computer. Can you please provide comprehensive guidelines or arrange a support call to assist me in resolving this matter?\n\nThank you, \n<name>\nAccount Number: <acc_num>\nPhone: <tel_num>. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        310
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello <name>,\n\nI require help with the installation of Windows 11 Pro on my computer. Can you please provide comprehensive guidelines or arrange a support call to assist me in resolving this matter?\n\nThank you, \n<name>\nAccount Number: <acc_num>\nPhone: <tel_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

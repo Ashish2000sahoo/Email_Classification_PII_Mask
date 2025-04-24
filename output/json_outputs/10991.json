@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Investment Projections\n\nThe investment projections were halted due to a disruption in the data feed, causing issues. Although I restarted the SQL server, the problem persists.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        218,
+        233
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investment Projections\n\nThe investment projections were halted due to a disruption in the data feed, causing issues. Although I restarted the SQL server, the problem persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

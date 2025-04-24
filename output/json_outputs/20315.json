@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kritisches Problem: Keine M\u00f6glichkeit, Webinare \u00fcber die Zoom-Oberfl\u00e4che zu planen\n\nLiebes Tech Online Store Support-Team,\n\nIch habe ein kritisches Problem, w\u00e4hrend ich versuche, Webinare \u00fcber die Zoom-Weboberfl\u00e4che zu planen, und ben\u00f6tige sofortige Unterst\u00fctzung. Das Problem tritt in allen Browsern, einschlie\u00dflich Chrome, Firefox und Safari, auf und stellt ein plattformweites Problem dar. Ich verwende die Zoom-Version 5.11.0 innerhalb des empfohlenen Setups von Tech Online Store.\n\nImmer wenn ich versuche, ein Webinar zu planen, kommt die Oberfl\u00e4che nicht \u00fcber die Planungsseite hinaus, nachdem ich alle erforderlichen Angaben ausgef\u00fcllt habe My name is Jane Smith.. Dieses Problem hat meine F\u00e4higkeit eingeschr\u00e4nkt, wichtige virtuelle Meetings durchzuf\u00fchren, was zu erheblichen St\u00f6rungen f\u00fchrt. Ich mache mir Sorgen \u00fcber m\u00f6gliche Kompatibilit\u00e4tsprobleme oder m\u00f6glicherweise einen Backend-Fehler, der nicht ger\u00e4tespezifisch sein k\u00f6nnte, angesichts seiner Persistenz \u00fcber mehrere Ger\u00e4te und Browser hinweg.\n\nIch bitte das technische Support-Team, dieses Priorit\u00e4tsproblem zu beheben und eine zeitnahe L\u00f6sung oder geeignete Umgehung bereitzustellen. Sollten Sie weitere Informationen von meiner Seite ben\u00f6tigen, bin ich w\u00e4hrend der regul\u00e4ren Gesch\u00e4ftszeiten unter <tel_num> erreichbar.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem dringenden Anliegen You can reach me at maria.gonzalez@shop.es.. Ich freue mich auf Ihre schnelle L\u00f6sung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        669,
+        679
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1396,
+        1418
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Kritisches Problem: Keine M\u00f6glichkeit, Webinare \u00fcber die Zoom-Oberfl\u00e4che zu planen\n\nLiebes Tech Online Store Support-Team,\n\nIch habe ein kritisches Problem, w\u00e4hrend ich versuche, Webinare \u00fcber die Zoom-Weboberfl\u00e4che zu planen, und ben\u00f6tige sofortige Unterst\u00fctzung. Das Problem tritt in allen Browsern, einschlie\u00dflich Chrome, Firefox und Safari, auf und stellt ein plattformweites Problem dar. Ich verwende die Zoom-Version 5.11.0 innerhalb des empfohlenen Setups von Tech Online Store.\n\nImmer wenn ich versuche, ein Webinar zu planen, kommt die Oberfl\u00e4che nicht \u00fcber die Planungsseite hinaus, nachdem ich alle erforderlichen Angaben ausgef\u00fcllt habe My name is [full_name].. Dieses Problem hat meine F\u00e4higkeit eingeschr\u00e4nkt, wichtige virtuelle Meetings durchzuf\u00fchren, was zu erheblichen St\u00f6rungen f\u00fchrt. Ich mache mir Sorgen \u00fcber m\u00f6gliche Kompatibilit\u00e4tsprobleme oder m\u00f6glicherweise einen Backend-Fehler, der nicht ger\u00e4tespezifisch sein k\u00f6nnte, angesichts seiner Persistenz \u00fcber mehrere Ger\u00e4te und Browser hinweg.\n\nIch bitte das technische Support-Team, dieses Priorit\u00e4tsproblem zu beheben und eine zeitnahe L\u00f6sung oder geeignete Umgehung bereitzustellen. Sollten Sie weitere Informationen von meiner Seite ben\u00f6tigen, bin ich w\u00e4hrend der regul\u00e4ren Gesch\u00e4ftszeiten unter <tel_num> erreichbar.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem dringenden Anliegen You can reach me at [email].. Ich freue mich auf Ihre schnelle L\u00f6sung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, wir melden bei unserer Stelle unerwartete Ausf\u00e4lle der Website w\u00e4hrend hoher Belastung von Marketingcampains My name is Carlos Mendoza.. M\u00f6glicherweise liegt dies an Server\u00fcberlastung aufgrund erh\u00f6hter Besucherbelastung You can reach me at elena.ivanova@support.org.. Wir haben bereits versucht, die Server neu zu starten und Leistungsstellungen zu optimieren, jedoch behalten die Probleme bestehen. Wir hoffen, dass Sie die Angelegenheit schnell l\u00f6sen k\u00f6nnen und ben\u00f6tigen weitere Informationen, um die Situation zu kl\u00e4ren. Wir freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        168
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        271,
+        296
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, wir melden bei unserer Stelle unerwartete Ausf\u00e4lle der Website w\u00e4hrend hoher Belastung von Marketingcampains My name is [full_name].. M\u00f6glicherweise liegt dies an Server\u00fcberlastung aufgrund erh\u00f6hter Besucherbelastung You can reach me at [email].. Wir haben bereits versucht, die Server neu zu starten und Leistungsstellungen zu optimieren, jedoch behalten die Probleme bestehen. Wir hoffen, dass Sie die Angelegenheit schnell l\u00f6sen k\u00f6nnen und ben\u00f6tigen weitere Informationen, um die Situation zu kl\u00e4ren. Wir freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank.",
+  "category_of_the_email": "Incident"
+}

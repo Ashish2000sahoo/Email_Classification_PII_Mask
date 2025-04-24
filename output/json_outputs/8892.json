@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verletzung von Datenschutz\n\nEs gab einen Vorfall mit m\u00f6glicher Datenschutzverletzung bei der Sicherung medizinischer Akten innerhalb der hospital IT-Infrastruktur. Wir versuchen, die Sicherheitsprotokolle zu verbessern und betroffene Anwendungen zu aktualisieren, ben\u00f6tigen jedoch weitere Unterst\u00fctzung, um die Datensicherheit zu sichern.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        370,
+        387
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Verletzung von Datenschutz\n\nEs gab einen Vorfall mit m\u00f6glicher Datenschutzverletzung bei der Sicherung medizinischer Akten innerhalb der hospital IT-Infrastruktur. Wir versuchen, die Sicherheitsprotokolle zu verbessern und betroffene Anwendungen zu aktualisieren, ben\u00f6tigen jedoch weitere Unterst\u00fctzung, um die Datensicherheit zu sichern.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

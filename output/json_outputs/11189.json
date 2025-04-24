@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei den Kampagnenmetriken\n\nDie Kampagnenmetriken verschwanden pl\u00f6tzlich \u00fcber Nacht You can reach me at janesmith@company.com.. Dies k\u00f6nnte aufgrund eines SQL-Server-Fehlers oder einer Integrationsproblematik entstanden sein My name is Carlos Mendoza.. Ich habe bisher den Server neu gestartet, die Logs \u00fcberpr\u00fcft und die Verbindungen gepr\u00fcft.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        267
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        121,
+        142
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei den Kampagnenmetriken\n\nDie Kampagnenmetriken verschwanden pl\u00f6tzlich \u00fcber Nacht You can reach me at [email].. Dies k\u00f6nnte aufgrund eines SQL-Server-Fehlers oder einer Integrationsproblematik entstanden sein My name is [full_name].. Ich habe bisher den Server neu gestartet, die Logs \u00fcberpr\u00fcft und die Verbindungen gepr\u00fcft.",
+  "category_of_the_email": "Incident"
+}

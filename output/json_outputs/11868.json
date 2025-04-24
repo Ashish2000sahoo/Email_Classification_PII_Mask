@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Essential security measures for safeguarding medical data on external devices\n\nI am reaching out to request information on the necessary security measures for protecting medical data stored on external devices, such as USB drives and laptops You can reach me at maria.gonzalez@shop.es.. Given my role as a healthcare provider, the security of patient information is of utmost importance to me. Could you please advise on the best encryption methods and software to use for securing this data? Furthermore, I would greatly appreciate any recommendations on how to effectively incorporate these security protocols into my everyday operations. Your assistance in this matter would be greatly appreciated, and I am looking forward to your response. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        765,
+        776
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        271,
+        293
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Essential security measures for safeguarding medical data on external devices\n\nI am reaching out to request information on the necessary security measures for protecting medical data stored on external devices, such as USB drives and laptops You can reach me at [email].. Given my role as a healthcare provider, the security of patient information is of utmost importance to me. Could you please advise on the best encryption methods and software to use for securing this data? Furthermore, I would greatly appreciate any recommendations on how to effectively incorporate these security protocols into my everyday operations. Your assistance in this matter would be greatly appreciated, and I am looking forward to your response. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

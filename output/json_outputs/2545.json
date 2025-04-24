@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern About Increased Subscription Fee\n\nThe customer was charged a higher fee in the current month due to a plan change My name is Omar Hassan.. After verifying the account details and attempting to contact support, they received a response You can reach me at david.kim@corp.kr.. They need assistance with the unexpected charge and would like help in resolving the issue as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        153
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        272,
+        289
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern About Increased Subscription Fee\n\nThe customer was charged a higher fee in the current month due to a plan change My name is [full_name].. After verifying the account details and attempting to contact support, they received a response You can reach me at [email].. They need assistance with the unexpected charge and would like help in resolving the issue as soon as possible.",
+  "category_of_the_email": "Problem"
+}

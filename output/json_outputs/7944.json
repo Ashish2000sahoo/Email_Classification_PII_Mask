@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Campaign Problem\n\nDigital campaigns have been halted because of an issue with Firebase integration, and campaign performance data is not being recorded.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        201
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Campaign Problem\n\nDigital campaigns have been halted because of an issue with Firebase integration, and campaign performance data is not being recorded.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

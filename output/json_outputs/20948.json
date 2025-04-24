@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur \u00c4nderung des Serverprozesses\n\nLiebes IT-Consulting-Support-Team,\n\nIch hoffe, es geht Ihnen gut. Ich schreibe, um eine Bewertung und \u00c4nderung unseres aktuellen Serververwaltungsprozesses zu beantragen. Wir glauben, dass die Verbesserung dieser Protokolle zu effizienteren Abl\u00e4ufen und insgesamt verbesserten IT-L\u00f6sungen f\u00fchren wird My name is Liu Wei.. Die Optimierung dieser Prozesse ist entscheidend, um qualitativ hochwertige Beratungsdienste aufrechtzuerhalten und schneller auf die Bed\u00fcrfnisse der Kunden zu reagieren You can reach me at david.kim@corp.kr.. Bitte geben Sie an, welche n\u00e4chsten Schritte erforderlich sind, um diese \u00c4nderung einzuleiten und unsere Produktivit\u00e4t effektiv zu steigern.\n\nIch freue mich auf Ihre zeitnahe Antwort.\n\nDanke.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        363,
+        370
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        567,
+        584
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur \u00c4nderung des Serverprozesses\n\nLiebes IT-Consulting-Support-Team,\n\nIch hoffe, es geht Ihnen gut. Ich schreibe, um eine Bewertung und \u00c4nderung unseres aktuellen Serververwaltungsprozesses zu beantragen. Wir glauben, dass die Verbesserung dieser Protokolle zu effizienteren Abl\u00e4ufen und insgesamt verbesserten IT-L\u00f6sungen f\u00fchren wird My name is [full_name].. Die Optimierung dieser Prozesse ist entscheidend, um qualitativ hochwertige Beratungsdienste aufrechtzuerhalten und schneller auf die Bed\u00fcrfnisse der Kunden zu reagieren You can reach me at [email].. Bitte geben Sie an, welche n\u00e4chsten Schritte erforderlich sind, um diese \u00c4nderung einzuleiten und unsere Produktivit\u00e4t effektiv zu steigern.\n\nIch freue mich auf Ihre zeitnahe Antwort.\n\nDanke.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Change"
+}

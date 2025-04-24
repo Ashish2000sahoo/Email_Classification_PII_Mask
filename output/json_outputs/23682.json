@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Dringende Aufmerksamkeit erforderlich: Kostensenkung\n\nDer AWS Management Service erfordert dringende Aufmerksamkeit hinsichtlich der Kostensenkung und der \u00dcberwachung der Bereitstellung aufgrund unerwartet hoher Ausgaben.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        253,
+        268
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Dringende Aufmerksamkeit erforderlich: Kostensenkung\n\nDer AWS Management Service erfordert dringende Aufmerksamkeit hinsichtlich der Kostensenkung und der \u00dcberwachung der Bereitstellung aufgrund unerwartet hoher Ausgaben.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

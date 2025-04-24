@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Recurring Integration Failures\n\nSeveral integrations have failed at the same time, possibly due to an overload on the API gateway. After restarting the services and examining the logs, the problem still persists My name is David Kim.. I am seeking your help to resolve this matter and prevent future occurrences. Additionally, I would appreciate your guidance on handling such issues in the future. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        450,
+        475
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Recurring Integration Failures\n\nSeveral integrations have failed at the same time, possibly due to an overload on the API gateway. After restarting the services and examining the logs, the problem still persists My name is [full_name].. I am seeking your help to resolve this matter and prevent future occurrences. Additionally, I would appreciate your guidance on handling such issues in the future. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

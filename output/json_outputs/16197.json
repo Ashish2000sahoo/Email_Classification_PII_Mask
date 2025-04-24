@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage an Kundendienst\n\nDie Projekttermine aktualisieren sich nicht, da ein unerwarteter Serverneustart aufgetreten ist My name is Omar Hassan.. Mangelnde Wiederherstellungslogik verursachte ein Synchronisationsproblem You can reach me at maria.gonzalez@shop.es.. Ich habe den Dienst neu gestartet und die Logdateien \u00fcberpr\u00fcft, aber das Problem besteht weiterhin.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        141,
+        152
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        249,
+        271
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Anfrage an Kundendienst\n\nDie Projekttermine aktualisieren sich nicht, da ein unerwarteter Serverneustart aufgetreten ist My name is [full_name].. Mangelnde Wiederherstellungslogik verursachte ein Synchronisationsproblem You can reach me at [email].. Ich habe den Dienst neu gestartet und die Logdateien \u00fcberpr\u00fcft, aber das Problem besteht weiterhin.",
+  "category_of_the_email": "Incident"
+}

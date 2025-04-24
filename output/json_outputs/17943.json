@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Systemausfall beeintr\u00e4chtigt Datenanalyseprozesse\n\nLieber Kundensupport, ein Systemausfall st\u00f6rt unsere Datenanalyseprozesse, insbesondere bei der Investitionsoptimierung. Es scheint, dass Serverbelastung und Softwarekonflikte die Ursache sein k\u00f6nnten. Ich habe versucht, die betroffenen Dienste neu zu starten und tempor\u00e4re Dateien zu l\u00f6schen, aber das Problem beh\u00e4lt seine Existenz. Ich freue mich, das Engagement zur L\u00f6sung des Problems zu unterst\u00fctzen You can reach me at johndoe@email.com.. Bitte teilen Sie mir zus\u00e4tzliche Informationen mit, um das Problem zu beheben. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        651,
+        665
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        485,
+        502
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Systemausfall beeintr\u00e4chtigt Datenanalyseprozesse\n\nLieber Kundensupport, ein Systemausfall st\u00f6rt unsere Datenanalyseprozesse, insbesondere bei der Investitionsoptimierung. Es scheint, dass Serverbelastung und Softwarekonflikte die Ursache sein k\u00f6nnten. Ich habe versucht, die betroffenen Dienste neu zu starten und tempor\u00e4re Dateien zu l\u00f6schen, aber das Problem beh\u00e4lt seine Existenz. Ich freue mich, das Engagement zur L\u00f6sung des Problems zu unterst\u00fctzen You can reach me at [email].. Bitte teilen Sie mir zus\u00e4tzliche Informationen mit, um das Problem zu beheben. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enfrentando problemas de desaceleraci\u00f3n del rendimiento\n\nEstimado equipo de atenci\u00f3n al cliente,<br><br>Espero que est\u00e9n bien. Me comunico para expresar mis preocupaciones sobre los problemas de rendimiento que estoy encontrando con mi MacBook Air M1, que compr\u00e9 en Tech Online Store You can reach me at omar.hassan@secure.net.. A pesar de que solo estoy ejecutando algunas aplicaciones, el sistema se cuelga con frecuencia, lo que reduce enormemente mi eficiencia.<br><br>En el momento de la venta, el MacBook Air M1 fue elogiado por su notable velocidad y potencia, por lo que lidiar con estos desaf\u00edos de rendimiento es tanto sorprendente como frustrante. He verificado que mi dispositivo cuenta con las actualizaciones de software m\u00e1s recientes y he intentado cerrar todas las aplicaciones no esenciales que se ejecutan en segundo plano, pero el problema contin\u00faa.<br><br>Agradecer\u00eda sinceramente su ayuda para diagnosticar y abordar este asunto My name is Jane Smith.. \u00bfPodr\u00edan recomendarme alguna medida de soluci\u00f3n de problemas que pueda haber pasado por alto? Alternativamente, si este es un problema reconocido, les agradecer\u00eda sus instrucciones sobre c\u00f3mo resolver la situaci\u00f3n de la mejor manera posible y r\u00e1pidamente. Gracias por su tiempo y consideraci\u00f3n.<br><br>Atentamente,<br><br><name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        970,
+        980
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        313,
+        335
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Enfrentando problemas de desaceleraci\u00f3n del rendimiento\n\nEstimado equipo de atenci\u00f3n al cliente,<br><br>Espero que est\u00e9n bien. Me comunico para expresar mis preocupaciones sobre los problemas de rendimiento que estoy encontrando con mi MacBook Air M1, que compr\u00e9 en Tech Online Store You can reach me at [email].. A pesar de que solo estoy ejecutando algunas aplicaciones, el sistema se cuelga con frecuencia, lo que reduce enormemente mi eficiencia.<br><br>En el momento de la venta, el MacBook Air M1 fue elogiado por su notable velocidad y potencia, por lo que lidiar con estos desaf\u00edos de rendimiento es tanto sorprendente como frustrante. He verificado que mi dispositivo cuenta con las actualizaciones de software m\u00e1s recientes y he intentado cerrar todas las aplicaciones no esenciales que se ejecutan en segundo plano, pero el problema contin\u00faa.<br><br>Agradecer\u00eda sinceramente su ayuda para diagnosticar y abordar este asunto My name is [full_name].. \u00bfPodr\u00edan recomendarme alguna medida de soluci\u00f3n de problemas que pueda haber pasado por alto? Alternativamente, si este es un problema reconocido, les agradecer\u00eda sus instrucciones sobre c\u00f3mo resolver la situaci\u00f3n de la mejor manera posible y r\u00e1pidamente. Gracias por su tiempo y consideraci\u00f3n.<br><br>Atentamente,<br><br><name>",
+  "category_of_the_email": "Incident"
+}

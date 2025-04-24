@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problemas de bloqueo de la aplicaci\u00f3n\n\nEstimado cliente del servicio de atenci\u00f3n al cliente de Tech Online Store,\n\nEscribo para informar sobre un problema que estoy experimentando con mi Microsoft Surface Pro 7. Desde que actualic\u00e9 mi dispositivo a la \u00faltima versi\u00f3n de Windows 10, he estado enfrentando bloqueos frecuentes de la aplicaci\u00f3n You can reach me at carlosm@gmail.com.. Esto ha interrumpido significativamente mi flujo de trabajo y se est\u00e1 volviendo cada vez m\u00e1s frustrante.\n\n\u00bfPodr\u00eda proporcionarme orientaci\u00f3n sobre c\u00f3mo resolver este problema? Cualquier soluci\u00f3n o recomendaci\u00f3n disponible ser\u00eda muy apreciada. Mi Surface Pro 7 a\u00fan est\u00e1 bajo garant\u00eda con el n\u00famero de cuenta <acc_num>. Por favor, h\u00e1gamelo saber si necesita informaci\u00f3n adicional.\n\nGracias por su asistencia.\n\nAtentamente,\n<name>\n<tel_num> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        839,
+        847
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        370,
+        387
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problemas de bloqueo de la aplicaci\u00f3n\n\nEstimado cliente del servicio de atenci\u00f3n al cliente de Tech Online Store,\n\nEscribo para informar sobre un problema que estoy experimentando con mi Microsoft Surface Pro 7. Desde que actualic\u00e9 mi dispositivo a la \u00faltima versi\u00f3n de Windows 10, he estado enfrentando bloqueos frecuentes de la aplicaci\u00f3n You can reach me at [email].. Esto ha interrumpido significativamente mi flujo de trabajo y se est\u00e1 volviendo cada vez m\u00e1s frustrante.\n\n\u00bfPodr\u00eda proporcionarme orientaci\u00f3n sobre c\u00f3mo resolver este problema? Cualquier soluci\u00f3n o recomendaci\u00f3n disponible ser\u00eda muy apreciada. Mi Surface Pro 7 a\u00fan est\u00e1 bajo garant\u00eda con el n\u00famero de cuenta <acc_num>. Por favor, h\u00e1gamelo saber si necesita informaci\u00f3n adicional.\n\nGracias por su asistencia.\n\nAtentamente,\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

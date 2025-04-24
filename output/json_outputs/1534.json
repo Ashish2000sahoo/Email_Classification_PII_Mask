@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Billing Discrepancies\n\nBilling discrepancies noted, agency involved with digital strategy tools - devices have an impact My name is Carlos Mendoza.. The issue seems to stem from recent account changes and billing errors. So far, transaction data has been reviewed, and customer service explanations have been sought You can reach me at omar.hassan@secure.net.. We appreciate that a quick resolution could be provided. Please inform us if additional information is needed to proceed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        152,
+        166
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        353,
+        375
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Billing Discrepancies\n\nBilling discrepancies noted, agency involved with digital strategy tools - devices have an impact My name is [full_name].. The issue seems to stem from recent account changes and billing errors. So far, transaction data has been reviewed, and customer service explanations have been sought You can reach me at [email].. We appreciate that a quick resolution could be provided. Please inform us if additional information is needed to proceed.",
+  "category_of_the_email": "Incident"
+}

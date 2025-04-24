@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Forecast Calculation Issues\n\nRespected Customer Support, I am contacting you to address a problem with the investment forecasts which are not accurate due to data inconsistencies. Despite my efforts to ensure the data is correctly formatted, the issue remains unresolved. I would be grateful if you could examine this situation and offer a solution at your earliest convenience. Please inform me if there are any further details you need from me to address this problem. Thank you for your attention to this matter and I eagerly await your response My name is Fatima Al-Farsi.. Sincerely, [Your Name] You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        580,
+        589
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        643,
+        660
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Investment Forecast Calculation Issues\n\nRespected Customer Support, I am contacting you to address a problem with the investment forecasts which are not accurate due to data inconsistencies. Despite my efforts to ensure the data is correctly formatted, the issue remains unresolved. I would be grateful if you could examine this situation and offer a solution at your earliest convenience. Please inform me if there are any further details you need from me to address this problem. Thank you for your attention to this matter and I eagerly await your response My name is [full_name]-Farsi.. Sincerely, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Unanticipated Collapse of Data Analytics Platform During the Night\n\nHello Customer Service, we encountered an unexpected crash on our data analytics platform last night My name is Sophia Rossi.. The potential reasons might include database overload or software conflicts. We have already restarted the servers, reviewed system logs, and ensured all dependencies are correct, but the issue still remains unresolved You can reach me at elena.ivanova@support.org.. We require immediate assistance to address this matter and avoid future incidents. Please provide guidance on diagnosing and fixing this issue promptly. We appreciate your swift response to this issue and eagerly await your communication.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        198,
+        210
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        451,
+        476
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Reported Unanticipated Collapse of Data Analytics Platform During the Night\n\nHello Customer Service, we encountered an unexpected crash on our data analytics platform last night My name is [full_name].. The potential reasons might include database overload or software conflicts. We have already restarted the servers, reviewed system logs, and ensured all dependencies are correct, but the issue still remains unresolved You can reach me at [email].. We require immediate assistance to address this matter and avoid future incidents. Please provide guidance on diagnosing and fixing this issue promptly. We appreciate your swift response to this issue and eagerly await your communication.",
+  "category_of_the_email": "Incident"
+}

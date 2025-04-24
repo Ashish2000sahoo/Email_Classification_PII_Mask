@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ein Datenverletzungsinzident wurde gemeldet, das m\u00f6glicherweise auf veraltete Software zur\u00fcckzuf\u00fchren ist.\n\nEs gab eine Datenverletzung, die m\u00f6glicherweise durch veraltete Software verursacht wurde You can reach me at elena.ivanova@support.org.. Nach dem Neustart der Systeme beh\u00e4lt sich der Fehler jedoch bestehen My name is Elena Ivanova.. Ich ben\u00f6tige Ihre Hilfe, um das Problem so bald wie m\u00f6glich zu beheben und weitere Sch\u00e4den zu verhindern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        335,
+        348
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        227,
+        252
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Ein Datenverletzungsinzident wurde gemeldet, das m\u00f6glicherweise auf veraltete Software zur\u00fcckzuf\u00fchren ist.\n\nEs gab eine Datenverletzung, die m\u00f6glicherweise durch veraltete Software verursacht wurde You can reach me at [email].. Nach dem Neustart der Systeme beh\u00e4lt sich der Fehler jedoch bestehen My name is [full_name].. Ich ben\u00f6tige Ihre Hilfe, um das Problem so bald wie m\u00f6glich zu beheben und weitere Sch\u00e4den zu verhindern.",
+  "category_of_the_email": "Incident"
+}

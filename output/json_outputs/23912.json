@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Probleme bei der Installation von Kaspersky Internet Security 2024\n\nLiebes Kundenserviceteam, ich habe Schwierigkeiten bei der Installation der Kaspersky Internet Security 2024 auf meinem Computer. Trotz mehrmaliger Versuche schl\u00e4gt die Installation fehl You can reach me at maria.gonzalez@shop.es.. K\u00f6nnten Sie mir bitte in dieser Angelegenheit behilflich sein? Vielen Dank. <Name>, <Tel_Nr> My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        413,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        284,
+        306
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        71,
+        75
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    },
+    {
+      "position": [
+        181,
+        185
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Installation von Kaspersky Internet Security [phone_number]\n\nLiebes Kundenserviceteam, ich habe Schwierigkeiten bei der Installation der Kaspersky Internet Security [phone_number] auf meinem Computer. Trotz mehrmaliger Versuche schl\u00e4gt die Installation fehl You can reach me at [email].. K\u00f6nnten Sie mir bitte in dieser Angelegenheit behilflich sein? Vielen Dank. <Name>, <Tel_Nr> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

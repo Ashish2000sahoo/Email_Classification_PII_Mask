@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur Integration von Smartsheet\n\nSehr geehrte Kundensupport, ich wende mich an Sie wegen der Integration von Smartsheet, einer SaaS-Projektmanagement-Plattform. Es w\u00e4re sehr hilfreich, wenn Sie mir mehr Informationen \u00fcber den Vorgang und die erforderlichen Schritte geben k\u00f6nnten You can reach me at johndoe@email.com.. Ich freue mich auf Ihre Unterst\u00fctzung und danke im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Hilfe. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        448
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        314,
+        331
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Integration von Smartsheet\n\nSehr geehrte Kundensupport, ich wende mich an Sie wegen der Integration von Smartsheet, einer SaaS-Projektmanagement-Plattform. Es w\u00e4re sehr hilfreich, wenn Sie mir mehr Informationen \u00fcber den Vorgang und die erforderlichen Schritte geben k\u00f6nnten You can reach me at [email].. Ich freue mich auf Ihre Unterst\u00fctzung und danke im Voraus f\u00fcr Ihr Verst\u00e4ndnis und Ihre Hilfe. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

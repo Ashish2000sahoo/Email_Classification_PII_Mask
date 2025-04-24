@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Investment Data Analytics Tool\n\nThe investment data analytics tool is encountering performance slowdowns during peak hours, which might be due to increased data volume and inefficient querying. Despite optimizing queries and scaling server resources, the issues continue You can reach me at fatima.farsi@help.com.. Immediate support is essential to ensure timely investment decisions My name is Liu Wei.. Your team is available to provide additional information and collaborate on finding a solution. Please respond promptly to this email at your earliest convenience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        416,
+        423
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        312,
+        333
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Investment Data Analytics Tool\n\nThe investment data analytics tool is encountering performance slowdowns during peak hours, which might be due to increased data volume and inefficient querying. Despite optimizing queries and scaling server resources, the issues continue You can reach me at [email].. Immediate support is essential to ensure timely investment decisions My name is [full_name].. Your team is available to provide additional information and collaborate on finding a solution. Please respond promptly to this email at your earliest convenience.",
+  "category_of_the_email": "Incident"
+}

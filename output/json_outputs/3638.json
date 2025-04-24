@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Magento Integration\n\nThere was a system error when integrating Magento 2.4 via Zapier, which might be due to API mismatches. After reinstalling plugins and checking configurations, the issue still exists My name is Maria Gonzalez.. I need help to resolve this and ensure a smooth integration process. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        235,
+        249
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        338,
+        355
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Magento Integration\n\nThere was a system error when integrating Magento 2.4 via Zapier, which might be due to API mismatches. After reinstalling plugins and checking configurations, the issue still exists My name is [full_name].. I need help to resolve this and ensure a smooth integration process. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

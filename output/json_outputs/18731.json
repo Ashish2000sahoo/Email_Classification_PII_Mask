@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sudden Medical Data Breach Due to Insufficient Encryption and Outdated Oracle Database\n\nA medical data breach happened unexpectedly because of inadequate encryption and an old Oracle Database. Despite updating Magento and Firebase, and restarting the Multifunktionsdrucker, the issue remains unresolved My name is Carlos Mendoza.. I urgently require your help to fix this as soon as possible. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        337
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        419,
+        437
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Sudden Medical Data Breach Due to Insufficient Encryption and Outdated Oracle Database\n\nA medical data breach happened unexpectedly because of inadequate encryption and an old Oracle Database. Despite updating Magento and Firebase, and restarting the Multifunktionsdrucker, the issue remains unresolved My name is [full_name].. I urgently require your help to fix this as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

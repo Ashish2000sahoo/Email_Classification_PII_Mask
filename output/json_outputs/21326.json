@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'informations sur le service de d\u00e9veloppement JavaScript React\n\nBonjour \u00c9quipe de Support Client,\n\nJ'esp\u00e8re que ce message vous trouve bien You can reach me at janesmith@company.com.. Je vous \u00e9cris pour demander plus d'informations sur votre service de d\u00e9veloppement d'applications web front-end bas\u00e9 sur JavaScript React. Nous cherchons \u00e0 d\u00e9velopper une application web moderne avec des fonctionnalit\u00e9s UI avanc\u00e9es, et je crois que votre service pourrait parfaitement r\u00e9pondre \u00e0 nos besoins de projet.\n\nPourriez-vous s'il vous pla\u00eet fournir des d\u00e9tails sur les capacit\u00e9s du service, en particulier sur la mani\u00e8re dont il g\u00e8re les composants UI complexes ? De plus, nous sommes int\u00e9ress\u00e9s par comprendre le support fourni tout au long du processus de d\u00e9veloppement et par les ressources ou outils que vous proposez pour faciliter la mise en \u0153uvre de fonctionnalit\u00e9s de design \u00e0 la pointe. Les d\u00e9tails de tarification et les diff\u00e9rents forfaits de service disponibles seraient \u00e9galement b\u00e9n\u00e9fiques.\n\nMerci pour votre assistance \u00e0 ce sujet. J'attends votre r\u00e9ponse avec impatience et je suis enthousiaste \u00e0 l'id\u00e9e de travailler avec votre \u00e9quipe de d\u00e9veloppement qualifi\u00e9e pour donner vie \u00e0 notre vision de projet.\n\nCordialement,\n\n<name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1265,
+        1274
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        178,
+        199
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Demande d'informations sur le service de d\u00e9veloppement JavaScript React\n\nBonjour \u00c9quipe de Support Client,\n\nJ'esp\u00e8re que ce message vous trouve bien You can reach me at [email].. Je vous \u00e9cris pour demander plus d'informations sur votre service de d\u00e9veloppement d'applications web front-end bas\u00e9 sur JavaScript React. Nous cherchons \u00e0 d\u00e9velopper une application web moderne avec des fonctionnalit\u00e9s UI avanc\u00e9es, et je crois que votre service pourrait parfaitement r\u00e9pondre \u00e0 nos besoins de projet.\n\nPourriez-vous s'il vous pla\u00eet fournir des d\u00e9tails sur les capacit\u00e9s du service, en particulier sur la mani\u00e8re dont il g\u00e8re les composants UI complexes ? De plus, nous sommes int\u00e9ress\u00e9s par comprendre le support fourni tout au long du processus de d\u00e9veloppement et par les ressources ou outils que vous proposez pour faciliter la mise en \u0153uvre de fonctionnalit\u00e9s de design \u00e0 la pointe. Les d\u00e9tails de tarification et les diff\u00e9rents forfaits de service disponibles seraient \u00e9galement b\u00e9n\u00e9fiques.\n\nMerci pour votre assistance \u00e0 ce sujet. J'attends votre r\u00e9ponse avec impatience et je suis enthousiaste \u00e0 l'id\u00e9e de travailler avec votre \u00e9quipe de d\u00e9veloppement qualifi\u00e9e pour donner vie \u00e0 notre vision de projet.\n\nCordialement,\n\n<name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

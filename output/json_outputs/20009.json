@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes de d\u00e9ploiement avec les ressources AWS\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous contacte pour signaler un probl\u00e8me que nous rencontrons lors du d\u00e9ploiement de ressources utilisant le service de gestion AWS. Le processus de d\u00e9ploiement \u00e9choue de mani\u00e8re inattendue, causant des retards significatifs dans nos op\u00e9rations. Notre \u00e9quipe d\u00e9pend fortement de vos services pour maintenir une productivit\u00e9 sans faille, et ce revers s'av\u00e8re tr\u00e8s difficile.\n\nPourriez-vous s'il vous pla\u00eet nous fournir des conseils sur le d\u00e9pannage de ce probl\u00e8me de d\u00e9ploiement ? Nous avons veill\u00e9 \u00e0 ce que toutes les configurations soient r\u00e9gl\u00e9es conform\u00e9ment aux directives, mais le probl\u00e8me persiste You can reach me at fatima.farsi@help.com.. Toute perspective ou assistance pas \u00e0 pas pour r\u00e9soudre cette affaire serait grandement appr\u00e9ci\u00e9e.\n\nNous attendons avec impatience votre r\u00e9ponse rapide car cela impacte notre flux de travail My name is Jane Smith.. Si n\u00e9cessaire, n'h\u00e9sitez pas \u00e0 me contacter au <tel_num> \u00e0 votre convenance.\n\nMerci de votre soutien.\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        984,
+        994
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        758,
+        779
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes de d\u00e9ploiement avec les ressources AWS\n\nCher \u00e9quipe de support client,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous contacte pour signaler un probl\u00e8me que nous rencontrons lors du d\u00e9ploiement de ressources utilisant le service de gestion AWS. Le processus de d\u00e9ploiement \u00e9choue de mani\u00e8re inattendue, causant des retards significatifs dans nos op\u00e9rations. Notre \u00e9quipe d\u00e9pend fortement de vos services pour maintenir une productivit\u00e9 sans faille, et ce revers s'av\u00e8re tr\u00e8s difficile.\n\nPourriez-vous s'il vous pla\u00eet nous fournir des conseils sur le d\u00e9pannage de ce probl\u00e8me de d\u00e9ploiement ? Nous avons veill\u00e9 \u00e0 ce que toutes les configurations soient r\u00e9gl\u00e9es conform\u00e9ment aux directives, mais le probl\u00e8me persiste You can reach me at [email].. Toute perspective ou assistance pas \u00e0 pas pour r\u00e9soudre cette affaire serait grandement appr\u00e9ci\u00e9e.\n\nNous attendons avec impatience votre r\u00e9ponse rapide car cela impacte notre flux de travail My name is [full_name].. Si n\u00e9cessaire, n'h\u00e9sitez pas \u00e0 me contacter au <tel_num> \u00e0 votre convenance.\n\nMerci de votre soutien.\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Secure Medical Data on Salesforce\n\nI am seeking advice on securing medical data in Salesforce CRM, particularly in relation to integrating Norton 360. Could you provide some guidance on best practices for this integration to ensure the confidentiality and integrity of sensitive medical information? I would greatly appreciate any recommendations or resources that could help me get started.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        423,
+        440
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    },
+    {
+      "position": [
+        155,
+        158
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Secure Medical Data on Salesforce\n\nI am seeking advice on securing medical data in Salesforce CRM, particularly in relation to integrating Norton [cvv_no]. Could you provide some guidance on best practices for this integration to ensure the confidentiality and integrity of sensitive medical information? I would greatly appreciate any recommendations or resources that could help me get started.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

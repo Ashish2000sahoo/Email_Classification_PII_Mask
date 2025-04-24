@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: SaaS Angebotspl\u00e4ne\n\nich interessiere mich f\u00fcr skalierbare SaaS-L\u00f6sungen f\u00fcr Projektmanagement My name is Liu Wei.. K\u00f6nnten Sie mehr Informationen zu den Angebotspl\u00e4nen geben? Ich freue mich auf Details zu Rabatten, langfristigen Verpflichtungen und Gro\u00dfbestellungen. Zudem interessieren mich Anpassungsoptionen, um die Bed\u00fcrfnisse meines Unternehmens zu erf\u00fcllen. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        114,
+        121
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        397,
+        419
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: SaaS Angebotspl\u00e4ne\n\nich interessiere mich f\u00fcr skalierbare SaaS-L\u00f6sungen f\u00fcr Projektmanagement My name is [full_name].. K\u00f6nnten Sie mehr Informationen zu den Angebotspl\u00e4nen geben? Ich freue mich auf Details zu Rabatten, langfristigen Verpflichtungen und Gro\u00dfbestellungen. Zudem interessieren mich Anpassungsoptionen, um die Bed\u00fcrfnisse meines Unternehmens zu erf\u00fcllen. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

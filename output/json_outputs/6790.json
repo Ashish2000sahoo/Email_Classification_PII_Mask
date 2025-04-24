@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Support for Ensuring Medical Data Security in Microsoft Dynamics 365\n\nDear Customer Support, I am inquiring about securing medical data within the Microsoft Dynamics 365 environment. It is crucial to ensure that sensitive medical information is protected My name is Omar Hassan.. Could you provide guidance on the best practices and protocols that can be implemented to ensure the confidentiality, integrity, and availability of medical data within the platform? I would greatly appreciate any recommendations or resources that could help me better understand how to safeguard this critical information. Thank you for your time and assistance with this matter. I look forward to your response. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        286
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        723,
+        744
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        74,
+        77
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        175,
+        178
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Support for Ensuring Medical Data Security in Microsoft Dynamics [cvv_no]\n\nDear Customer Support, I am inquiring about securing medical data within the Microsoft Dynamics [cvv_no] environment. It is crucial to ensure that sensitive medical information is protected My name is [full_name].. Could you provide guidance on the best practices and protocols that can be implemented to ensure the confidentiality, integrity, and availability of medical data within the platform? I would greatly appreciate any recommendations or resources that could help me better understand how to safeguard this critical information. Thank you for your time and assistance with this matter. I look forward to your response. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

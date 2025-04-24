@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Improvement of Hospital Data Protection Today\n\nIt is crucial to implement strong encryption methods to secure medical data and improve hospital security protocols My name is Omar Hassan.. This involves safeguarding electronic health records, defending against cyber threats, and ensuring compliance with regulations You can reach me at omar.hassan@secure.net.. Regular security audits and staff training are essential for this process. By taking these steps, hospitals can protect sensitive patient information and maintain trust.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        190,
+        201
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        352,
+        374
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Urgent Improvement of Hospital Data Protection Today\n\nIt is crucial to implement strong encryption methods to secure medical data and improve hospital security protocols My name is [full_name].. This involves safeguarding electronic health records, defending against cyber threats, and ensuring compliance with regulations You can reach me at [email].. Regular security audits and staff training are essential for this process. By taking these steps, hospitals can protect sensitive patient information and maintain trust.",
+  "category_of_the_email": "Change"
+}

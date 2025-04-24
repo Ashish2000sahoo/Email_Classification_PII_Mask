@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Probl\u00e8mes d'installation d'Adobe Photoshop\n\nCher Service client,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me avec l'installation d'Adobe Photoshop 2024 sur un ordinateur Windows 10. Le logiciel ne se lance pas apr\u00e8s l'installation You can reach me at david.kim@corp.kr.. Merci de me conseiller sur les \u00e9tapes de d\u00e9pannage ou une solution possible.\n\nMerci,\n\n<name>\n<tel_num>\n<email> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        399,
+        408
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        257,
+        274
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        153,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8mes d'installation d'Adobe Photoshop\n\nCher Service client,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me avec l'installation d'Adobe Photoshop [phone_number] sur un ordinateur Windows 10. Le logiciel ne se lance pas apr\u00e8s l'installation You can reach me at [email].. Merci de me conseiller sur les \u00e9tapes de d\u00e9pannage ou une solution possible.\n\nMerci,\n\n<name>\n<tel_num>\n<email> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

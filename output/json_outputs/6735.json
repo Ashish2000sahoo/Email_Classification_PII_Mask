@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Sudden Drop in Online Engagement\n\nCustomer Support, we are reporting a sudden drop in online engagement for our brand visibility. This issue might be due to recent algorithm changes on social media platforms You can reach me at maria.gonzalez@shop.es.. Despite our efforts to adjust our content strategy and increase ad spend, we have seen minimal improvements. Our team is closely monitoring the situation and requires additional assistance to resolve this issue. We would greatly appreciate any guidance or recommendations that could help us improve our online presence and engagement. Please provide us with your assistance. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        658,
+        670
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        247,
+        269
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Report on Sudden Drop in Online Engagement\n\nCustomer Support, we are reporting a sudden drop in online engagement for our brand visibility. This issue might be due to recent algorithm changes on social media platforms You can reach me at [email].. Despite our efforts to adjust our content strategy and increase ad spend, we have seen minimal improvements. Our team is closely monitoring the situation and requires additional assistance to resolve this issue. We would greatly appreciate any guidance or recommendations that could help us improve our online presence and engagement. Please provide us with your assistance. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

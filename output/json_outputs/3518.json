@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHallo, danke, dass Sie sich bei uns gemeldet haben. Wir freuen uns, Ihnen bei allen Fragen und Anliegen zu helfen My name is John Doe.. K\u00f6nnten Sie bitte mehr \u00fcber den Grund Ihres E-Mails berichten, damit wir Ihnen besser helfen k\u00f6nnen. Falls Sie \u00fcber das Telefon sprechen m\u00f6chten, kann ich Sie in einem f\u00fcr Sie geeigneten Zeitpunkt anrufen. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        376,
+        398
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nHallo, danke, dass Sie sich bei uns gemeldet haben. Wir freuen uns, Ihnen bei allen Fragen und Anliegen zu helfen My name is [full_name].. K\u00f6nnten Sie bitte mehr \u00fcber den Grund Ihres E-Mails berichten, damit wir Ihnen besser helfen k\u00f6nnen. Falls Sie \u00fcber das Telefon sprechen m\u00f6chten, kann ich Sie in einem f\u00fcr Sie geeigneten Zeitpunkt anrufen. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

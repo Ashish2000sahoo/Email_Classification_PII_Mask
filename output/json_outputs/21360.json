@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt: Epson EcoTank ET-4760 Einrichtung\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht trifft Sie wohl. Ich kontaktiere Sie, um Unterst\u00fctzung bei der Einrichtung meines neuen Epson EcoTank ET-4760 WLAN-Druckers zu bitten, damit ich ihn mit meinem neuen Heimnetzwerk verbinden kann. Nach mehreren Versuchen, den Drucker mithilfe der bereitgestellten Einrichtungsanweisungen zu konfigurieren, stellt sich heraus, dass ich das Ger\u00e4t nicht erfolgreich mit meinem WLAN-Netzwerk verbinden kann.\n\nDer Prozess scheint w\u00e4hrend des Schrittes zur Netzwerkkonfiguration auf Probleme zu sto\u00dfen. Ich habe sichergestellt, dass ich die Anweisungen im Benutzerhandbuch befolge und mein WLAN-Netzwerk mit anderen Ger\u00e4ten einwandfrei funktioniert. Dennoch erkennt oder verbindet der Drucker sich nicht wie erwartet mit dem Netzwerk.\n\nAufgrund dieser Herausforderungen w\u00fcrde ich jede Anleitung oder Probleml\u00f6sung, die Sie bereitstellen k\u00f6nnen, um dieses Problem zu l\u00f6sen, sehr sch\u00e4tzen You can reach me at sophia.rossi@service.it.. Insbesondere w\u00fcrde ich gerne wissen, ob es h\u00e4ufige Fallstricke gibt, auf die ich achten sollte, wenn ich dieses Modell einrichte, oder ob zus\u00e4tzliche Softwareupdates oder Konfigurationen typischerweise erforderlich sind, um eine optimale Leistung zu erzielen.\n\nDar\u00fcber hinaus w\u00e4re ich offen f\u00fcr die Planung einer Live-Support-Sitzung oder einer detaillierten Anleitung, um einen Techniker f\u00fcr eine individuellere Unterst\u00fctzung zu kontaktieren.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit My name is Omar Hassan.. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1558,
+        1569
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1016,
+        1039
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        42,
+        46
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        222,
+        226
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt: Epson EcoTank ET-[phone_number] Einrichtung\n\nSehr geehrter Kundenservice,\n\nich hoffe, diese Nachricht trifft Sie wohl. Ich kontaktiere Sie, um Unterst\u00fctzung bei der Einrichtung meines neuen Epson EcoTank ET-[phone_number] WLAN-Druckers zu bitten, damit ich ihn mit meinem neuen Heimnetzwerk verbinden kann. Nach mehreren Versuchen, den Drucker mithilfe der bereitgestellten Einrichtungsanweisungen zu konfigurieren, stellt sich heraus, dass ich das Ger\u00e4t nicht erfolgreich mit meinem WLAN-Netzwerk verbinden kann.\n\nDer Prozess scheint w\u00e4hrend des Schrittes zur Netzwerkkonfiguration auf Probleme zu sto\u00dfen. Ich habe sichergestellt, dass ich die Anweisungen im Benutzerhandbuch befolge und mein WLAN-Netzwerk mit anderen Ger\u00e4ten einwandfrei funktioniert. Dennoch erkennt oder verbindet der Drucker sich nicht wie erwartet mit dem Netzwerk.\n\nAufgrund dieser Herausforderungen w\u00fcrde ich jede Anleitung oder Probleml\u00f6sung, die Sie bereitstellen k\u00f6nnen, um dieses Problem zu l\u00f6sen, sehr sch\u00e4tzen You can reach me at [email].. Insbesondere w\u00fcrde ich gerne wissen, ob es h\u00e4ufige Fallstricke gibt, auf die ich achten sollte, wenn ich dieses Modell einrichte, oder ob zus\u00e4tzliche Softwareupdates oder Konfigurationen typischerweise erforderlich sind, um eine optimale Leistung zu erzielen.\n\nDar\u00fcber hinaus w\u00e4re ich offen f\u00fcr die Planung einer Live-Support-Sitzung oder einer detaillierten Anleitung, um einen Techniker f\u00fcr eine individuellere Unterst\u00fctzung zu kontaktieren.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit My name is [full_name].. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

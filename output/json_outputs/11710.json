@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Required Assistance for Security Issues\n\nA healthcare provider has encountered unauthorized access attempts on medical data You can reach me at david.kim@corp.kr.. Initial actions taken involved updating firewall settings and reviewing user access logs. The root cause is believed to be due to outdated security protocols. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        343,
+        351
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        153,
+        170
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Required Assistance for Security Issues\n\nA healthcare provider has encountered unauthorized access attempts on medical data You can reach me at [email].. Initial actions taken involved updating firewall settings and reviewing user access logs. The root cause is believed to be due to outdated security protocols. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

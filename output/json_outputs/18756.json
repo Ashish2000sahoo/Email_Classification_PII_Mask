@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Urgent: Need Immediate Update for Integration\n\nAn update is necessary for integration purposes to ensure compatibility. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        166
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Need Immediate Update for Integration\n\nAn update is necessary for integration purposes to ensure compatibility. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Unterst\u00fctzung - Kompatibilit\u00e4tsprobleme\n\nGeh\u00f6rte Kundensupport, wir erleben unerwartete Anwendungsfehler in unserer Projektmanagement-Software. Das Problem scheint mit Kompatibilit\u00e4tsproblemen zu Dashcam-Datenintegration in Laravel 8 zusammenzuh\u00e4ngen. Das Team hat bereits die relevanten Software aktualisiert und die Caches geleert, aber die Fehlers\\Notifications trauen sich weiterhin auf My name is Elena Ivanova.. Wir w\u00fcrden die Anleitung zum L\u00f6sen des Problems und zur Verhinderung zuk\u00fcnftiger Fehlers\\Notifications sehr sch\u00e4tzen You can reach me at carlosm@gmail.com.. Bitte melden Sie sich, falls weitere Schritte erforderlich sind oder wir weitere Informationen ben\u00f6tigen. Wir freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung beim Problembehandlung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        422,
+        435
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        573,
+        590
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Technische Unterst\u00fctzung - Kompatibilit\u00e4tsprobleme\n\nGeh\u00f6rte Kundensupport, wir erleben unerwartete Anwendungsfehler in unserer Projektmanagement-Software. Das Problem scheint mit Kompatibilit\u00e4tsproblemen zu Dashcam-Datenintegration in Laravel 8 zusammenzuh\u00e4ngen. Das Team hat bereits die relevanten Software aktualisiert und die Caches geleert, aber die Fehlers\\Notifications trauen sich weiterhin auf My name is [full_name].. Wir w\u00fcrden die Anleitung zum L\u00f6sen des Problems und zur Verhinderung zuk\u00fcnftiger Fehlers\\Notifications sehr sch\u00e4tzen You can reach me at [email].. Bitte melden Sie sich, falls weitere Schritte erforderlich sind oder wir weitere Informationen ben\u00f6tigen. Wir freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung beim Problembehandlung.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Information on Upgrading Data Analytics Software\n\nDear Customer Support, I am reaching out to inquire about upgrading our data analytics software in order to enhance our investment forecasting and optimization tools. We are seeking a solution that offers more accurate predictions and assistance in making informed decisions You can reach me at janesmith@company.com.. Could you furnish us with more details on the available options and their respective features? Additionally, any advice on selecting the most suitable solution for our requirements would be greatly appreciated My name is Jane Smith.. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        611,
+        621
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        366,
+        387
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Information on Upgrading Data Analytics Software\n\nDear Customer Support, I am reaching out to inquire about upgrading our data analytics software in order to enhance our investment forecasting and optimization tools. We are seeking a solution that offers more accurate predictions and assistance in making informed decisions You can reach me at [email].. Could you furnish us with more details on the available options and their respective features? Additionally, any advice on selecting the most suitable solution for our requirements would be greatly appreciated My name is [full_name].. Thank you for your time and support.",
+  "category_of_the_email": "Request"
+}

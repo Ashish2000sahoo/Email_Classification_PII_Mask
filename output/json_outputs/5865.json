@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Antrag auf Aktualisierung der digitalen Marketingstrategie\n\nIch m\u00f6chte die Aktualisierung unserer digitalen Marketingstrategie beantragen You can reach me at fatima.farsi@help.com.. Ziel ist es, die Markengr\u00f6\u00dfe zu f\u00f6rdern, die Online-Pr\u00e4senz effektiver zu optimieren, um ein breiteres Publikum zu erreichen und die Online-Beteiligung zu erh\u00f6hen My name is John Doe.. Ich freue mich auf eine schnelle Bearbeitung und eine baldige L\u00f6sung zu diesem Problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        365,
+        373
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        167,
+        188
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Antrag auf Aktualisierung der digitalen Marketingstrategie\n\nIch m\u00f6chte die Aktualisierung unserer digitalen Marketingstrategie beantragen You can reach me at [email].. Ziel ist es, die Markengr\u00f6\u00dfe zu f\u00f6rdern, die Online-Pr\u00e4senz effektiver zu optimieren, um ein breiteres Publikum zu erreichen und die Online-Beteiligung zu erh\u00f6hen My name is [full_name].. Ich freue mich auf eine schnelle Bearbeitung und eine baldige L\u00f6sung zu diesem Problem.",
+  "category_of_the_email": "Change"
+}

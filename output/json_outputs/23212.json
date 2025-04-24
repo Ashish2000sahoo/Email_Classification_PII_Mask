@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for IT Infrastructure Adjustments\n\nDear IT Consulting Firm Support Team,\n\nI am writing to request specific adjustments to our current IT infrastructure aimed at optimizing system performance. Given its medium priority, I believe timely attention to this matter will significantly enhance our operational efficiency without disruption My name is Fatima Al-Farsi.. We have been utilizing your IT Consulting Services, and although satisfied broadly, we identified areas that could benefit from improved configuration.\n\nPlease have a specialist reach out to determine tailored solutions for our needs. You can connect with me through my phone number <tel_num> or email at <name>@company.com You can reach me at fatima.farsi@help.com.. Together, we can ensure our systems are finely tuned and operate seamlessly over the long term.\n\nWe appreciate your ongoing support and expertise.\n\nBest regards,\n<name>\nAccount Number: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        362,
+        371
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        726,
+        747
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Request for IT Infrastructure Adjustments\n\nDear IT Consulting Firm Support Team,\n\nI am writing to request specific adjustments to our current IT infrastructure aimed at optimizing system performance. Given its medium priority, I believe timely attention to this matter will significantly enhance our operational efficiency without disruption My name is [full_name]-Farsi.. We have been utilizing your IT Consulting Services, and although satisfied broadly, we identified areas that could benefit from improved configuration.\n\nPlease have a specialist reach out to determine tailored solutions for our needs. You can connect with me through my phone number <tel_num> or email at <name>@company.com You can reach me at [email].. Together, we can ensure our systems are finely tuned and operate seamlessly over the long term.\n\nWe appreciate your ongoing support and expertise.\n\nBest regards,\n<name>\nAccount Number: <acc_num>",
+  "category_of_the_email": "Change"
+}

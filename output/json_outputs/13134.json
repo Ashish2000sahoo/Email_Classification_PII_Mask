@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit Kampagnenmetriken\n\nIch melde einen Fehler bei den Kampagnenmetriken, die sich nicht korrekt aktualisieren. Trotz der \u00dcberpr\u00fcfung der Datenquellen und Despeicherschaltung des Dashboards, bleiben die Probleme bestehen. Ich vermute, dass ein technisches Problem oder eine Integrationseinschr\u00e4nkung der Ursache sein k\u00f6nnte My name is Omar Hassan.. Ich w\u00fcrde eine schnelle Unterst\u00fctzung in der L\u00f6sung dieses Problems sch\u00e4tzen. Bitte sagen Sie mir, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie weitere Informationen ben\u00f6tigen, um das Problem weiter zu untersuchen You can reach me at carlosm@gmail.com.. Danke f\u00fcr Ihre Unterst\u00fctzung in der Behebung dieses Problems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        351,
+        362
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        603,
+        620
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit Kampagnenmetriken\n\nIch melde einen Fehler bei den Kampagnenmetriken, die sich nicht korrekt aktualisieren. Trotz der \u00dcberpr\u00fcfung der Datenquellen und Despeicherschaltung des Dashboards, bleiben die Probleme bestehen. Ich vermute, dass ein technisches Problem oder eine Integrationseinschr\u00e4nkung der Ursache sein k\u00f6nnte My name is [full_name].. Ich w\u00fcrde eine schnelle Unterst\u00fctzung in der L\u00f6sung dieses Problems sch\u00e4tzen. Bitte sagen Sie mir, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie weitere Informationen ben\u00f6tigen, um das Problem weiter zu untersuchen You can reach me at [email].. Danke f\u00fcr Ihre Unterst\u00fctzung in der Behebung dieses Problems.",
+  "category_of_the_email": "Incident"
+}

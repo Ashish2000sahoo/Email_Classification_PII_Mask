@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Security Measures for Healthcare Providers\n\nI am reaching out to inquire about the data security solutions offered to healthcare providers and hospital systems. Could you please provide information on the measures in place to protect sensitive patient data? I would appreciate it if you could share relevant case studies or testimonials from previous clients in the healthcare industry You can reach me at maria.gonzalez@shop.es.. Additionally, could you let me know about the compliance with industry standards and regulations, such as HIPAA? I look forward to hearing back from you soon. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        615,
+        625
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        420,
+        442
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Data Security Measures for Healthcare Providers\n\nI am reaching out to inquire about the data security solutions offered to healthcare providers and hospital systems. Could you please provide information on the measures in place to protect sensitive patient data? I would appreciate it if you could share relevant case studies or testimonials from previous clients in the healthcare industry You can reach me at [email].. Additionally, could you let me know about the compliance with industry standards and regulations, such as HIPAA? I look forward to hearing back from you soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern About Hospital Cybersecurity Breach\n\nAn unauthorized access attempt was identified in the hospital's systems, suggesting a possible vulnerability has been exploited.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        221
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Concern About Hospital Cybersecurity Breach\n\nAn unauthorized access attempt was identified in the hospital's systems, suggesting a possible vulnerability has been exploited.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

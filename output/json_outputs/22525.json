@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent: Immediate Assistance Required for Router Issue\n\nDear IT Support Team,\n\nOur Cisco Router ISR4331 is currently experiencing frequent connection drops, significantly impacting our business operations. We require immediate technical investigation to restore network stability and avoid further disruptions You can reach me at janesmith@company.com.. The issue has been persistent for the past week and affects various critical systems within our organization. We rely heavily on this router for maintaining seamless communication and data transfer. Thus, a prompt resolution is essential. Please assist us by arranging for a technician or providing guidance on the next steps My name is Liu Wei.. Our priority is to ensure minimal downtime.\n\nThank you for your attention to this urgent matter. We look forward to your swift response.\n\nSincerely,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        700,
+        707
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        339,
+        360
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        108,
+        112
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Immediate Assistance Required for Router Issue\n\nDear IT Support Team,\n\nOur Cisco Router ISR[phone_number] is currently experiencing frequent connection drops, significantly impacting our business operations. We require immediate technical investigation to restore network stability and avoid further disruptions You can reach me at [email].. The issue has been persistent for the past week and affects various critical systems within our organization. We rely heavily on this router for maintaining seamless communication and data transfer. Thus, a prompt resolution is essential. Please assist us by arranging for a technician or providing guidance on the next steps My name is [full_name].. Our priority is to ensure minimal downtime.\n\nThank you for your attention to this urgent matter. We look forward to your swift response.\n\nSincerely,\n<name>",
+  "category_of_the_email": "Incident"
+}

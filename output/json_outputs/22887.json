@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ticket lev\u00e9 : probl\u00e8me de mauvaise configuration des ressources AWS\n\nCher \u00e9quipe de support des services informatiques,\n\nJ'esp\u00e8re que ce message vous trouve en pleine forme. Je vous \u00e9cris pour aborder un probl\u00e8me pressant concernant un ticket que j'ai soulev\u00e9 plus t\u00f4t au sujet d'une mauvaise configuration de nos ressources AWS. Cette mauvaise configuration a entra\u00een\u00e9 un temps d'arr\u00eat inattendu, impactant significativement nos op\u00e9rations You can reach me at johndoe@email.com.. Nous avons observ\u00e9 des interruptions de services dans nos d\u00e9ploiements cloud en cours, ce qui a entra\u00een\u00e9 divers d\u00e9fis et revers op\u00e9rationnels. Cette situation devient de plus en plus probl\u00e9matique, surtout depuis que le service de gestion AWS joue un r\u00f4le crucial dans notre infrastructure.\n\nLe temps d'arr\u00eat a non seulement affect\u00e9 nos d\u00e9lais de d\u00e9veloppement mais \u00e9galement la fiabilit\u00e9 globale des services que nos clients attendent. Notre \u00e9quipe tente actuellement de r\u00e9duire ces interruptions, mais nous appr\u00e9cierions grandement vos conseils d'expert et une r\u00e9solution rapide sur cette question. Veuillez consulter le ticket actuel associ\u00e9 \u00e0 mon compte <acc_num> et au contact de compte <name> pour plus de d\u00e9tails sp\u00e9cifiques. Je suis disponible au <tel_num> pour toute question ou clarification imm\u00e9diate n\u00e9cessaire de votre part.\n\nMerci de votre attention \u00e0 ce probl\u00e8me urgent My name is Carlos Mendoza.. Votre r\u00e9ponse rapide serait incroyablement utile pour r\u00e9tablir la pleine fonctionnalit\u00e9 de nos syst\u00e8mes.\n\nCordialement,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1386,
+        1400
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        470,
+        487
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Ticket lev\u00e9 : probl\u00e8me de mauvaise configuration des ressources AWS\n\nCher \u00e9quipe de support des services informatiques,\n\nJ'esp\u00e8re que ce message vous trouve en pleine forme. Je vous \u00e9cris pour aborder un probl\u00e8me pressant concernant un ticket que j'ai soulev\u00e9 plus t\u00f4t au sujet d'une mauvaise configuration de nos ressources AWS. Cette mauvaise configuration a entra\u00een\u00e9 un temps d'arr\u00eat inattendu, impactant significativement nos op\u00e9rations You can reach me at [email].. Nous avons observ\u00e9 des interruptions de services dans nos d\u00e9ploiements cloud en cours, ce qui a entra\u00een\u00e9 divers d\u00e9fis et revers op\u00e9rationnels. Cette situation devient de plus en plus probl\u00e9matique, surtout depuis que le service de gestion AWS joue un r\u00f4le crucial dans notre infrastructure.\n\nLe temps d'arr\u00eat a non seulement affect\u00e9 nos d\u00e9lais de d\u00e9veloppement mais \u00e9galement la fiabilit\u00e9 globale des services que nos clients attendent. Notre \u00e9quipe tente actuellement de r\u00e9duire ces interruptions, mais nous appr\u00e9cierions grandement vos conseils d'expert et une r\u00e9solution rapide sur cette question. Veuillez consulter le ticket actuel associ\u00e9 \u00e0 mon compte <acc_num> et au contact de compte <name> pour plus de d\u00e9tails sp\u00e9cifiques. Je suis disponible au <tel_num> pour toute question ou clarification imm\u00e9diate n\u00e9cessaire de votre part.\n\nMerci de votre attention \u00e0 ce probl\u00e8me urgent My name is [full_name].. Votre r\u00e9ponse rapide serait incroyablement utile pour r\u00e9tablir la pleine fonctionnalit\u00e9 de nos syst\u00e8mes.\n\nCordialement,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

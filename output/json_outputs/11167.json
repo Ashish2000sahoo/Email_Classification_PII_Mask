@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Ist Anlauf zum Patientenarchiv unterbrochen?\n\nSehr geehrte Kundenservice, ich schreibe an, um eine Unterbrechung des Zugangs zu unseren Patientenarchiven zu melden My name is Sophia Rossi.. Dieses Problem tritt derzeit auf. Wir gehen davon aus, dass das neueste Norton 360-Update die Ursache sein k\u00f6nnte. Den Server haben wir bereits neugestartet und die Berechtigungen \u00fcberpr\u00fcft, aber das Problem beharrt trotzdem. Bitte helfen Sie uns, so schnell wie m\u00f6glich dieses Problem zu beheben. Wir bedanken uns im Voraus f\u00fcr Ihre Unterst\u00fctzung in dieser kritischen Situation und freuen uns auf Ihre baldige R\u00fcckmeldung. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        642,
+        663
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        277,
+        280
+      ],
+      "classification": "cvv_no",
+      "entity": "360"
+    }
+  ],
+  "masked_email": "Subject: Ist Anlauf zum Patientenarchiv unterbrochen?\n\nSehr geehrte Kundenservice, ich schreibe an, um eine Unterbrechung des Zugangs zu unseren Patientenarchiven zu melden My name is [full_name].. Dieses Problem tritt derzeit auf. Wir gehen davon aus, dass das neueste Norton [cvv_no]-Update die Ursache sein k\u00f6nnte. Den Server haben wir bereits neugestartet und die Berechtigungen \u00fcberpr\u00fcft, aber das Problem beharrt trotzdem. Bitte helfen Sie uns, so schnell wie m\u00f6glich dieses Problem zu beheben. Wir bedanken uns im Voraus f\u00fcr Ihre Unterst\u00fctzung in dieser kritischen Situation und freuen uns auf Ihre baldige R\u00fcckmeldung. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

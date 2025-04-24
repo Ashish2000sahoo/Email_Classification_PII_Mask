@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Sync Failure\n\nBelow is a brief issue description: The project sync has failed. It might be related to a MongoDB connection problem. Steps taken: Restarted Docker, verified network connectivity You can reach me at carlosm@gmail.com.. Assistance is needed to address this issue. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        305,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        230,
+        247
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Project Sync Failure\n\nBelow is a brief issue description: The project sync has failed. It might be related to a MongoDB connection problem. Steps taken: Restarted Docker, verified network connectivity You can reach me at [email].. Assistance is needed to address this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

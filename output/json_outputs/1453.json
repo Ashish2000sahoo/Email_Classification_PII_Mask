@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage f\u00fcr technische Unterst\u00fctzung\n\nBenutzer berichten \u00fcber Leistungsprobleme in der Spitzenlastzeit innerhalb der Projektmanagement-Apps. Es besteht die Annahme, dass Netzwerkprobleme und erh\u00f6hte Serverbelastung die Ursache sind My name is Liu Wei.. Obwohl die Serverleistung \u00fcberwacht und die Dienstleistungen neu gestartet wurden, hat dies keine Verbesserung gebracht You can reach me at maria.gonzalez@shop.es.. Hilfe wird ben\u00f6tigt, um das Problem schnell zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        259
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        406,
+        428
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Anfrage f\u00fcr technische Unterst\u00fctzung\n\nBenutzer berichten \u00fcber Leistungsprobleme in der Spitzenlastzeit innerhalb der Projektmanagement-Apps. Es besteht die Annahme, dass Netzwerkprobleme und erh\u00f6hte Serverbelastung die Ursache sind My name is [full_name].. Obwohl die Serverleistung \u00fcberwacht und die Dienstleistungen neu gestartet wurden, hat dies keine Verbesserung gebracht You can reach me at [email].. Hilfe wird ben\u00f6tigt, um das Problem schnell zu beheben.",
+  "category_of_the_email": "Incident"
+}

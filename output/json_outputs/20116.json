@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema con MacBook Air\n\nEstimado cliente del soporte t\u00e9cnico de la tienda en l\u00ednea,\n\nEstoy escribiendo para llamar su atenci\u00f3n sobre un problema que he encontrado con el MacBook Air M1 que compr\u00e9 recientemente en su tienda. Mi nombre es <name>, y mi pedido se realiz\u00f3 bajo el n\u00famero de cuenta <acc_num> el mes pasado. Al recibir la laptop, not\u00e9 que su bater\u00eda no funciona, lo que hace que el dispositivo sea completamente inutilizable My name is Liu Wei.. Para una inversi\u00f3n tan significativa y un producto conocido por su fiabilidad, esto ha sido bastante decepcionante.\n\nHe intentado varios pasos de soluci\u00f3n de problemas, incluyendo reiniciar el SMC y asegurarme de que el adaptador de carga funcione correctamente, pero desafortunadamente, el problema persiste. Entiendo que los defectos pueden ocurrir ocasionalmente, por lo que solicito un dispositivo de reemplazo o un reembolso completo You can reach me at janesmith@company.com.. Creo que esta es una resoluci\u00f3n justa dadas las circunstancias.\n\nPara m\u00e1s correspondencia, no dude en contactarme en <email> o por tel\u00e9fono al <tel_num>. Espero una pronta resoluci\u00f3n a este asunto, ya que la laptop es urgente para mi trabajo.\n\nGracias por su atenci\u00f3n inmediata a este problema. Espero su pronta respuesta.\n\nSaludos cordiales,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        457,
+        464
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        930,
+        951
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problema con MacBook Air\n\nEstimado cliente del soporte t\u00e9cnico de la tienda en l\u00ednea,\n\nEstoy escribiendo para llamar su atenci\u00f3n sobre un problema que he encontrado con el MacBook Air M1 que compr\u00e9 recientemente en su tienda. Mi nombre es <name>, y mi pedido se realiz\u00f3 bajo el n\u00famero de cuenta <acc_num> el mes pasado. Al recibir la laptop, not\u00e9 que su bater\u00eda no funciona, lo que hace que el dispositivo sea completamente inutilizable My name is [full_name].. Para una inversi\u00f3n tan significativa y un producto conocido por su fiabilidad, esto ha sido bastante decepcionante.\n\nHe intentado varios pasos de soluci\u00f3n de problemas, incluyendo reiniciar el SMC y asegurarme de que el adaptador de carga funcione correctamente, pero desafortunadamente, el problema persiste. Entiendo que los defectos pueden ocurrir ocasionalmente, por lo que solicito un dispositivo de reemplazo o un reembolso completo You can reach me at [email].. Creo que esta es una resoluci\u00f3n justa dadas las circunstancias.\n\nPara m\u00e1s correspondencia, no dude en contactarme en <email> o por tel\u00e9fono al <tel_num>. Espero una pronta resoluci\u00f3n a este asunto, ya que la laptop es urgente para mi trabajo.\n\nGracias por su atenci\u00f3n inmediata a este problema. Espero su pronta respuesta.\n\nSaludos cordiales,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

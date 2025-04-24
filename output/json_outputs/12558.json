@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Seeking Detailed Information on Data Analytics Solutions for Optimizing Investments\n\nI am looking to inquire about the data analytics solutions you offer for optimizing investments. Could you provide detailed information on this? I would greatly appreciate any guidance you can offer to help me make informed decisions You can reach me at johndoe@email.com.. Thank you in advance for your assistance. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        421,
+        435
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        348,
+        365
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Seeking Detailed Information on Data Analytics Solutions for Optimizing Investments\n\nI am looking to inquire about the data analytics solutions you offer for optimizing investments. Could you provide detailed information on this? I would greatly appreciate any guidance you can offer to help me make informed decisions You can reach me at [email].. Thank you in advance for your assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

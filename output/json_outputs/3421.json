@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frequent Login Issues Noted During Peak Times\n\nUsers are experiencing intermittent login failures during peak hours You can reach me at sophia.rossi@service.it.. This might be due to server overload or authentication issues My name is Elena Ivanova.. Despite increasing server capacity and restarting services, the problem continues. Please investigate and resolve the issue as soon as possible to ensure a smooth user experience.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        145,
+        168
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Frequent Login Issues Noted During Peak Times\n\nUsers are experiencing intermittent login failures during peak hours You can reach me at [email].. This might be due to server overload or authentication issues My name is [full_name].. Despite increasing server capacity and restarting services, the problem continues. Please investigate and resolve the issue as soon as possible to ensure a smooth user experience.",
+  "category_of_the_email": "Incident"
+}

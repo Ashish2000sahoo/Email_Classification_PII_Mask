@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Adobe Illustrator\n\nKontaktieren Sie uns, um mehr \u00fcber die Integration von Adobe Illustrator CC 2021 in Ihre digitale Marketingstrategie zu erfahren. K\u00f6nnten Sie uns mehr Informationen geben, die das Softwarepaket f\u00fcr die Verbesserung Ihrer Marketingaktivit\u00e4ten nutzen k\u00f6nnen? Wir freuen uns, Rat zu geben und Ihnen die verf\u00fcgbaren Werkzeuge und Funktionen vorzustellen, die Ihre Marketingziele unterst\u00fctzen My name is Sophia Rossi.. Insbesondere sind Sie an der Erstellung ansprechenden visuellen Inhaltsmaterials interessiert, was die Kompatibilit\u00e4t mit Anwendungen aus dem Adobe Creative Cloud erfordert. Vielen Dank f\u00fcr Ihre Zeit. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        445,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        680,
+        701
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        122,
+        126
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Adobe Illustrator\n\nKontaktieren Sie uns, um mehr \u00fcber die Integration von Adobe Illustrator CC [phone_number] in Ihre digitale Marketingstrategie zu erfahren. K\u00f6nnten Sie uns mehr Informationen geben, die das Softwarepaket f\u00fcr die Verbesserung Ihrer Marketingaktivit\u00e4ten nutzen k\u00f6nnen? Wir freuen uns, Rat zu geben und Ihnen die verf\u00fcgbaren Werkzeuge und Funktionen vorzustellen, die Ihre Marketingziele unterst\u00fctzen My name is [full_name].. Insbesondere sind Sie an der Erstellung ansprechenden visuellen Inhaltsmaterials interessiert, was die Kompatibilit\u00e4t mit Anwendungen aus dem Adobe Creative Cloud erfordert. Vielen Dank f\u00fcr Ihre Zeit. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

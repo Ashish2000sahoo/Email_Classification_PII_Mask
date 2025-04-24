@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur R\u00fcckgabe eines defekten MacBook Air\n\nHallo, ich habe ein MacBook Air M1 in Ihrem Gesch\u00e4ft gekauft und einen Defekt im Touchpad des Ger\u00e4ts festgestellt. Bitte helfen Sie mir mit dem R\u00fcckgabeprozess My name is Fatima Al-Farsi.. Meine Bestellnummer ist <acc_num>. Vielen Dank, <name>, <tel_num>. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        336,
+        354
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur R\u00fcckgabe eines defekten MacBook Air\n\nHallo, ich habe ein MacBook Air M1 in Ihrem Gesch\u00e4ft gekauft und einen Defekt im Touchpad des Ger\u00e4ts festgestellt. Bitte helfen Sie mir mit dem R\u00fcckgabeprozess My name is [full_name]-Farsi.. Meine Bestellnummer ist <acc_num>. Vielen Dank, <name>, <tel_num>. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

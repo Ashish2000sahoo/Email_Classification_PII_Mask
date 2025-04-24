@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Technical Support with Zoom Issues\n\nDear Support Team, I am writing to report problems with our recent Zoom connection. During the Data Analysis meeting, conversations were frequently interrupted, and discussions on investments were disrupted. The issue seems to be due to a poor internet connection and insufficient bandwidth My name is Fatima Al-Farsi.. I have already attempted to resolve the problem by restarting the router and adjusting Zoom settings, but the issue persists You can reach me at liuwei@business.cn.. I appreciate your assistance in resolving this to ensure smooth communication. Please let me know what further steps can be taken.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        368
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        524,
+        542
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Request for Technical Support with Zoom Issues\n\nDear Support Team, I am writing to report problems with our recent Zoom connection. During the Data Analysis meeting, conversations were frequently interrupted, and discussions on investments were disrupted. The issue seems to be due to a poor internet connection and insufficient bandwidth My name is [full_name]-Farsi.. I have already attempted to resolve the problem by restarting the router and adjusting Zoom settings, but the issue persists You can reach me at [email].. I appreciate your assistance in resolving this to ensure smooth communication. Please let me know what further steps can be taken.",
+  "category_of_the_email": "Incident"
+}

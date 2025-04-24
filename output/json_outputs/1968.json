@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Digital Marketing Campaign Issues\n\nDear Customer Support, I am writing to report an issue with our digital marketing campaigns. They have unexpectedly become frozen and are not running as planned. The campaigns have abruptly ended, and we suspect it might be due to software compatibility issues. We have already restarted our systems and checked for updates, but the problem persists. Could you please assist us in resolving this issue? We would greatly appreciate any guidance on solving or addressing the problem My name is Liu Wei.. Thank you for your time and support. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        560,
+        567
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        631,
+        649
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Digital Marketing Campaign Issues\n\nDear Customer Support, I am writing to report an issue with our digital marketing campaigns. They have unexpectedly become frozen and are not running as planned. The campaigns have abruptly ended, and we suspect it might be due to software compatibility issues. We have already restarted our systems and checked for updates, but the problem persists. Could you please assist us in resolving this issue? We would greatly appreciate any guidance on solving or addressing the problem My name is [full_name].. Thank you for your time and support. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

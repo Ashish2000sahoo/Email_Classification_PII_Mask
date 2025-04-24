@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Integration des Kalenders mit dem HR-Portal\n\nSehr geehrter Kundenservice,\n\nich m\u00f6chte um Unterst\u00fctzung bei der Integration von Kalenderfunktionen mit unserem HR-Portal bitten, um die Planung und Aufgabenverwaltung innerhalb von Google Workspace Business Standard zu verbessern My name is David Kim.. Diese Integration ist entscheidend f\u00fcr die Verbesserung der Zusammenarbeit und Produktivit\u00e4t in unserer Organisation You can reach me at janesmith@company.com.. Wir w\u00fcrden Ihre Unterst\u00fctzung bei der besten Vorgehensweise zur Implementierung dieser Funktion sch\u00e4tzen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        309,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        460,
+        481
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Integration des Kalenders mit dem HR-Portal\n\nSehr geehrter Kundenservice,\n\nich m\u00f6chte um Unterst\u00fctzung bei der Integration von Kalenderfunktionen mit unserem HR-Portal bitten, um die Planung und Aufgabenverwaltung innerhalb von Google Workspace Business Standard zu verbessern My name is [full_name].. Diese Integration ist entscheidend f\u00fcr die Verbesserung der Zusammenarbeit und Produktivit\u00e4t in unserer Organisation You can reach me at [email].. Wir w\u00fcrden Ihre Unterst\u00fctzung bei der besten Vorgehensweise zur Implementierung dieser Funktion sch\u00e4tzen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Request"
+}

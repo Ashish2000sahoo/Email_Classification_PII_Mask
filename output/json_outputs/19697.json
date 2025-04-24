@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nI am facing integration problems with CyberLink PowerDirector 19, DaVinci Resolve 17, and Asana after the recent update.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: \n\nI am facing integration problems with CyberLink PowerDirector 19, DaVinci Resolve 17, and Asana after the recent update.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

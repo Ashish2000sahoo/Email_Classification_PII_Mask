@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Langsame Ladespeed der Webseite\n\nWir haben ausgelassenes Verkehrsaufkommen, das den Server belastet, m\u00f6glicherweise wegen geringer Serverressourcen You can reach me at elena.ivanova@support.org.. Ich habe die DNS neu eingetragen und das Cache geleert, aber das Problem ist weiterhin besteht. Es w\u00e4re sehr hilfreich, wenn Sie das Problem genauer untersuchen und eine L\u00f6sung f\u00fcr die langsame Ladespeed der Webseite bereithalten k\u00f6nnten. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        455,
+        465
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        177,
+        202
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Langsame Ladespeed der Webseite\n\nWir haben ausgelassenes Verkehrsaufkommen, das den Server belastet, m\u00f6glicherweise wegen geringer Serverressourcen You can reach me at [email].. Ich habe die DNS neu eingetragen und das Cache geleert, aber das Problem ist weiterhin besteht. Es w\u00e4re sehr hilfreich, wenn Sie das Problem genauer untersuchen und eine L\u00f6sung f\u00fcr die langsame Ladespeed der Webseite bereithalten k\u00f6nnten. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

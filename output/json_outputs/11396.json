@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr SaaS-Projektmanagement\n\nK\u00f6nnten Sie mir zus\u00e4tzliche Informationen zu den Rechnungsstellungsoptionen f\u00fcr die SaaS-Projektmanagement-Plattform bereitstellen? Vielen Dank.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        218,
+        233
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr SaaS-Projektmanagement\n\nK\u00f6nnten Sie mir zus\u00e4tzliche Informationen zu den Rechnungsstellungsoptionen f\u00fcr die SaaS-Projektmanagement-Plattform bereitstellen? Vielen Dank.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

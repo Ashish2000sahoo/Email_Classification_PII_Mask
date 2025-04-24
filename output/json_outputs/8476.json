@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Data Analytics Support Tools\n\nCustomer Support, please consider enhancing the data analytics tools currently used for investment optimization decision-making within our firm. The current tools have limited capabilities in providing real-time insights and predictive analytics You can reach me at johndoe@email.com.. Upgrading these tools would significantly enhance our ability to make informed investment decisions and stay ahead of the competition. Specifically, we would like to see improvements in data visualization, machine learning capabilities, and integration with financial systems. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        621,
+        631
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        313,
+        330
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Improve Data Analytics Support Tools\n\nCustomer Support, please consider enhancing the data analytics tools currently used for investment optimization decision-making within our firm. The current tools have limited capabilities in providing real-time insights and predictive analytics You can reach me at [email].. Upgrading these tools would significantly enhance our ability to make informed investment decisions and stay ahead of the competition. Specifically, we would like to see improvements in data visualization, machine learning capabilities, and integration with financial systems. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

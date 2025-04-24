@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Detection of Medical Data Leakage in Hospital IT System\n\nWe have detected a medical data leakage last night. Weak encryption and outdated patches are suspected to be the cause.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        208,
+        224
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Detection of Medical Data Leakage in Hospital IT System\n\nWe have detected a medical data leakage last night. Weak encryption and outdated patches are suspected to be the cause.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Investments Dashboard\n\nDear Customer Support, I hope this message finds you well. I am experiencing an issue with the investments dashboard. Specifically, the dashboard has frozen and the data visualization is not loading. I believe this could be due to insufficient Google Cloud resources. I have attempted to resolve the issue by restarting my MacBook Air and verifying my internet connection, but the problem remains unresolved. Kindly acknowledge receipt of this message and provide guidance on steps to proceed. Additionally, it would be helpful if you could reach out to me at a convenient time <tel_num> to discuss further and collect any necessary details to address this issue My name is Elena Ivanova.. I appreciate your prompt attention to this matter You can reach me at johndoe@email.com.. Looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        717,
+        730
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        801,
+        818
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investments Dashboard\n\nDear Customer Support, I hope this message finds you well. I am experiencing an issue with the investments dashboard. Specifically, the dashboard has frozen and the data visualization is not loading. I believe this could be due to insufficient Google Cloud resources. I have attempted to resolve the issue by restarting my MacBook Air and verifying my internet connection, but the problem remains unresolved. Kindly acknowledge receipt of this message and provide guidance on steps to proceed. Additionally, it would be helpful if you could reach out to me at a convenient time <tel_num> to discuss further and collect any necessary details to address this issue My name is [full_name].. I appreciate your prompt attention to this matter You can reach me at [email].. Looking forward to your response.",
+  "category_of_the_email": "Incident"
+}

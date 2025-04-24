@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Software zur Investment-Optimierung und Portfolio-Management\n\nSehr geehrte Kundensupport, ich wende mich an Sie im Zusammenhang mit der Suche nach Analysesoftwaren f\u00fcr das Optimieren meiner Investitionen und das Management meines Portfolios My name is Maria Gonzalez.. Als Investor bin ich interessiert an wissenschaftlichen Methoden, um meine Investitionsentscheidungen zu treffen und die Gewinnraten zu maximieren. K\u00f6nnten Sie mir bitte eine Liste von empfohlenen Analysesoftwaren zur Verf\u00fcgung stellen, die mir dabei helfen, mein Ziel zu erreichen? Ich w\u00fcrde mich freuen, Informationen zu den Merkmalen und Funktionalit\u00e4ten dieser Software sowie zu Fallstudien oder Erfolgsgeschichten zu erhalten, die ihre Effektivit\u00e4t unterstreichen. Besonders interessiert sind wir an Bereichen wie Risikomanagement, Portfolio-Diversifikation und Leistungsindikatoren. Es w\u00e4re auch hilfreich, zu erfahren, ob es Softwaren gibt, die mir helfen k\u00f6nnen, neue Investitionsm\u00f6glichkeiten zu erkennen und sich mit market trends zu schlie\u00dfen. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at fatima.farsi@help.com.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        261,
+        275
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1128,
+        1149
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Software zur Investment-Optimierung und Portfolio-Management\n\nSehr geehrte Kundensupport, ich wende mich an Sie im Zusammenhang mit der Suche nach Analysesoftwaren f\u00fcr das Optimieren meiner Investitionen und das Management meines Portfolios My name is [full_name].. Als Investor bin ich interessiert an wissenschaftlichen Methoden, um meine Investitionsentscheidungen zu treffen und die Gewinnraten zu maximieren. K\u00f6nnten Sie mir bitte eine Liste von empfohlenen Analysesoftwaren zur Verf\u00fcgung stellen, die mir dabei helfen, mein Ziel zu erreichen? Ich w\u00fcrde mich freuen, Informationen zu den Merkmalen und Funktionalit\u00e4ten dieser Software sowie zu Fallstudien oder Erfolgsgeschichten zu erhalten, die ihre Effektivit\u00e4t unterstreichen. Besonders interessiert sind wir an Bereichen wie Risikomanagement, Portfolio-Diversifikation und Leistungsindikatoren. Es w\u00e4re auch hilfreich, zu erfahren, ob es Softwaren gibt, die mir helfen k\u00f6nnen, neue Investitionsm\u00f6glichkeiten zu erkennen und sich mit market trends zu schlie\u00dfen. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

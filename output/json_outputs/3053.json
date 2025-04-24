@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Data Encryption for HIPAA Compliance on QNAP TS-453D NAS\n\nDear Customer Support, I am writing to seek advice on improving data encryption for medical records stored on our QNAP TS-453D NAS. Ensuring HIPAA compliance is crucial for us, and we aim to protect our patients' sensitive information. We are interested in solutions that offer end-to-end encryption, secure data transmission, and access controls. We would greatly appreciate recommendations or guidance on compatible encryption software, configuration settings, and best practices for securing these records on our NAS My name is Elena Ivanova.. Thank you for your help You can reach me at sophia.rossi@service.it.. We look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        608,
+        621
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        666,
+        689
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Data Encryption for HIPAA Compliance on QNAP TS-453D NAS\n\nDear Customer Support, I am writing to seek advice on improving data encryption for medical records stored on our QNAP TS-453D NAS. Ensuring HIPAA compliance is crucial for us, and we aim to protect our patients' sensitive information. We are interested in solutions that offer end-to-end encryption, secure data transmission, and access controls. We would greatly appreciate recommendations or guidance on compatible encryption software, configuration settings, and best practices for securing these records on our NAS My name is [full_name].. Thank you for your help You can reach me at [email].. We look forward to your response.",
+  "category_of_the_email": "Request"
+}

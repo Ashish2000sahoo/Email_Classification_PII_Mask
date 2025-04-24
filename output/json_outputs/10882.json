@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Probleme bei SaaS-Videokonferenzen\n\nWir leiden h\u00e4ufig unter Abtrennungen w\u00e4hrend der SaaS-Videoanrufe bei Zoom und Skype You can reach me at david.kim@corp.kr.. Die Probleme scheinen auf \u00dcberlast des Servers und schlechten Netzwerkverbindungen zur\u00fcckzuf\u00fchren. Das System wurde bereits neu gestartet, die Netzwerke umgestellt und Softwareaktualisierungen durchgef\u00fchrt, dennoch besteht das Problem weiterhin. Das Team steht Ihnen zur Verf\u00fcgung und ist bereit, zus\u00e4tzliche Informationen zur Bearbeitung des Problems bereitzustellen. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        561,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        161,
+        178
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Technische Probleme bei SaaS-Videokonferenzen\n\nWir leiden h\u00e4ufig unter Abtrennungen w\u00e4hrend der SaaS-Videoanrufe bei Zoom und Skype You can reach me at [email].. Die Probleme scheinen auf \u00dcberlast des Servers und schlechten Netzwerkverbindungen zur\u00fcckzuf\u00fchren. Das System wurde bereits neu gestartet, die Netzwerke umgestellt und Softwareaktualisierungen durchgef\u00fchrt, dennoch besteht das Problem weiterhin. Das Team steht Ihnen zur Verf\u00fcgung und ist bereit, zus\u00e4tzliche Informationen zur Bearbeitung des Problems bereitzustellen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

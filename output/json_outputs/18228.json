@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boosting Brand Growth in E-commerce\n\nHello, I'm contacting you to inquire about digital strategies for enhancing brand growth on e-commerce platforms such as osCommerce. Could you share any successful methods from the past? I would greatly appreciate any advice or suggestions you could offer You can reach me at janesmith@company.com.. Thank you for your time and help. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        391,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        322,
+        343
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Boosting Brand Growth in E-commerce\n\nHello, I'm contacting you to inquire about digital strategies for enhancing brand growth on e-commerce platforms such as osCommerce. Could you share any successful methods from the past? I would greatly appreciate any advice or suggestions you could offer You can reach me at [email].. Thank you for your time and help. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

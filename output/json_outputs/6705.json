@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Request to Optimize Server Performance\n\nDear Customer Support, I urgently need adjustments to the server settings to optimize performance and reduce downtime. Our project management software is experiencing frequent outages, which is negatively impacting productivity and user satisfaction You can reach me at liuwei@business.cn.. I kindly request that you make these adjustments as soon as possible My name is Omar Hassan.. This will help ensure seamless functionality and minimize disruptions. I would greatly appreciate a detailed report of the adjustments made and any additional recommendations for future improvements.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        427,
+        438
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        326,
+        344
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Urgent Request to Optimize Server Performance\n\nDear Customer Support, I urgently need adjustments to the server settings to optimize performance and reduce downtime. Our project management software is experiencing frequent outages, which is negatively impacting productivity and user satisfaction You can reach me at [email].. I kindly request that you make these adjustments as soon as possible My name is [full_name].. This will help ensure seamless functionality and minimize disruptions. I would greatly appreciate a detailed report of the adjustments made and any additional recommendations for future improvements.",
+  "category_of_the_email": "Incident"
+}

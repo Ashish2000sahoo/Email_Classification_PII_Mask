@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Digitale Markenentwicklung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um Fragen zu digitalen Strategien zu stellen, insbesondere um Verbesserungen bei der Markenentwicklung f\u00fcr unsere Kunden zu erzielen My name is Omar Hassan.. Wir nutzen Squarespace und ClickUp, um diese Strategien umzusetzen. K\u00f6nnten Sie detaillierte Informationen \u00fcber den Anwendungsbereich und die Plattformen geben, die wir verwenden, um das Markenbewusstsein und das Engagement zu erh\u00f6hen? Ich bin interessiert, mehr \u00fcber spezifische Werkzeuge und Funktionen zu erfahren, die wir verwenden k\u00f6nnen, um das Wachstum und die Gesamtergebnisse unserer Marken zu verbessern. Ich freue mich darauf, Informationen zu erhalten, die den Erfolg unserer Strategien messen und die erwarteten Ergebnisse der Kunden erm\u00f6glichen. Vielen Dank f\u00fcr Ihre Zeit. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        240
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        850,
+        875
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Digitale Markenentwicklung\n\nSehr geehrte Kundenservice, ich schreibe Ihnen, um Fragen zu digitalen Strategien zu stellen, insbesondere um Verbesserungen bei der Markenentwicklung f\u00fcr unsere Kunden zu erzielen My name is [full_name].. Wir nutzen Squarespace und ClickUp, um diese Strategien umzusetzen. K\u00f6nnten Sie detaillierte Informationen \u00fcber den Anwendungsbereich und die Plattformen geben, die wir verwenden, um das Markenbewusstsein und das Engagement zu erh\u00f6hen? Ich bin interessiert, mehr \u00fcber spezifische Werkzeuge und Funktionen zu erfahren, die wir verwenden k\u00f6nnen, um das Wachstum und die Gesamtergebnisse unserer Marken zu verbessern. Ich freue mich darauf, Informationen zu erhalten, die den Erfolg unserer Strategien messen und die erwarteten Ergebnisse der Kunden erm\u00f6glichen. Vielen Dank f\u00fcr Ihre Zeit. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

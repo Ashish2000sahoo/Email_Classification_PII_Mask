@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgent: Flickering Screen Problem Reported by Customer for Dell XPS 13 9310\n\nDear Customer Support Team, I am facing a consistent screen flickering problem with my Dell XPS 13 9310 laptop You can reach me at david.kim@corp.kr.. Could you kindly help me resolve this issue as soon as possible? My contact details are <name>, <tel_num>, and my account number is <acc_num> My name is Omar Hassan.. Thank you very much.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        390,
+        401
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        217,
+        234
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        77,
+        84
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        182,
+        189
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Flickering Screen Problem Reported by Customer for Dell XPS [phone_number]\n\nDear Customer Support Team, I am facing a consistent screen flickering problem with my Dell XPS [phone_number] laptop You can reach me at [email].. Could you kindly help me resolve this issue as soon as possible? My contact details are <name>, <tel_num>, and my account number is <acc_num> My name is [full_name].. Thank you very much.",
+  "category_of_the_email": "Incident"
+}

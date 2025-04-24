@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guidance on Securing Medical Data with PyTorch\n\nHello Customer Support, I am reaching out to inquire about securing medical data using PyTorch and SAP ERP My name is Elena Ivanova.. Could you provide some guidance on this topic? I would greatly appreciate any information on practices that protect sensitive medical information using these tools. Specifically, I am very interested in learning about encryption methods, access controls, and data storage solutions You can reach me at janesmith@company.com.. I believe it is crucial to ensure the confidentiality, integrity, and availability of medical data. Any guidance and resources you can provide would be greatly appreciated. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        491,
+        512
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Guidance on Securing Medical Data with PyTorch\n\nHello Customer Support, I am reaching out to inquire about securing medical data using PyTorch and SAP ERP My name is [full_name].. Could you provide some guidance on this topic? I would greatly appreciate any information on practices that protect sensitive medical information using these tools. Specifically, I am very interested in learning about encryption methods, access controls, and data storage solutions You can reach me at [email].. I believe it is crucial to ensure the confidentiality, integrity, and availability of medical data. Any guidance and resources you can provide would be greatly appreciated. Thank you.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Medical Data Breach in VR Simulation\n\nDuring a VR training session, there was an unsecured exposure of medical information You can reach me at fatima.farsi@help.com.. Despite my efforts to reboot the system and review the encryption protocols, the problem remains unresolved My name is Omar Hassan.. Your prompt support to address this critical issue and ensure no additional breaches occur is greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        324
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        170,
+        191
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Medical Data Breach in VR Simulation\n\nDuring a VR training session, there was an unsecured exposure of medical information You can reach me at [email].. Despite my efforts to reboot the system and review the encryption protocols, the problem remains unresolved My name is [full_name].. Your prompt support to address this critical issue and ensure no additional breaches occur is greatly appreciated.",
+  "category_of_the_email": "Incident"
+}

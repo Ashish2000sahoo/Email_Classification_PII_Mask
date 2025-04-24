@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Campaign-Issue\n\nDigital marketing campaigns are performing below average, and potential integration issues with the tools may be the cause. Data synchronization between KNIME, Asana, and MATLAB was successful, which has contributed to market expansion efforts.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        292,
+        307
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Campaign-Issue\n\nDigital marketing campaigns are performing below average, and potential integration issues with the tools may be the cause. Data synchronization between KNIME, Asana, and MATLAB was successful, which has contributed to market expansion efforts.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

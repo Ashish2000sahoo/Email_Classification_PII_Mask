@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Processamento de Troca de Laptop Dell\n\nCaro Suporte da Loja Online Tech,\n\nEstou escrevendo para relatar que meu Dell XPS 13 9310 comprado sob o n\u00famero da conta <acc_num> n\u00e3o est\u00e1 ligando My name is Elena Ivanova.. Por favor, inicie o processo de troca e investigue um poss\u00edvel problema na bateria You can reach me at liuwei@business.cn.. Para qualquer atualiza\u00e7\u00e3o, entre em contato comigo pelo <tel_num>.\n\nObrigado,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        222,
+        235
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        339,
+        357
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        145,
+        152
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Processamento de Troca de Laptop Dell\n\nCaro Suporte da Loja Online Tech,\n\nEstou escrevendo para relatar que meu Dell XPS [phone_number] comprado sob o n\u00famero da conta <acc_num> n\u00e3o est\u00e1 ligando My name is [full_name].. Por favor, inicie o processo de troca e investigue um poss\u00edvel problema na bateria You can reach me at [email].. Para qualquer atualiza\u00e7\u00e3o, entre em contato comigo pelo <tel_num>.\n\nObrigado,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

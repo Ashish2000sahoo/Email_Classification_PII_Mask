@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Resoluci\u00f3n urgente necesaria para problemas de tiempo de inactividad y costos de AWS\n\nEstimado <name>,\n\nEstoy escribiendo para informar sobre problemas graves de tiempo de inactividad y costos inesperados asociados con nuestra infraestructura de AWS gestionada por _IT_Services_ You can reach me at fatima.farsi@help.com.. Estos problemas est\u00e1n afectando nuestras operaciones comerciales y necesitamos urgentemente su ayuda para resolverlos. Por favor, optimice el rendimiento para asegurar estabilidad y gesti\u00f3n eficiente de costos My name is Sophia Rossi.. Valoramos su apoyo oportuno y esperamos una r\u00e1pida resoluci\u00f3n.\n\nGracias.\n\nAtentamente,\n<name>\nNombre de la empresa: <company>\nN\u00famero de cuenta: <acc_num>\nN\u00famero de contacto: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        553,
+        565
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        308,
+        329
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Resoluci\u00f3n urgente necesaria para problemas de tiempo de inactividad y costos de AWS\n\nEstimado <name>,\n\nEstoy escribiendo para informar sobre problemas graves de tiempo de inactividad y costos inesperados asociados con nuestra infraestructura de AWS gestionada por _IT_Services_ You can reach me at [email].. Estos problemas est\u00e1n afectando nuestras operaciones comerciales y necesitamos urgentemente su ayuda para resolverlos. Por favor, optimice el rendimiento para asegurar estabilidad y gesti\u00f3n eficiente de costos My name is [full_name].. Valoramos su apoyo oportuno y esperamos una r\u00e1pida resoluci\u00f3n.\n\nGracias.\n\nAtentamente,\n<name>\nNombre de la empresa: <company>\nN\u00famero de cuenta: <acc_num>\nN\u00famero de contacto: <tel_num>",
+  "category_of_the_email": "Incident"
+}

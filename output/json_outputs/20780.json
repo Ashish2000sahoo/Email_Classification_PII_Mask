@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Intermittierende Verbindungsprobleme mit Cisco Router ISR4331\n\nDer Router ISR4331 hat Verbindungsprobleme, die die Netzwerkleistung und den Benutzerzugang beeintr\u00e4chtigen. Ich ben\u00f6tige Ihre Unterst\u00fctzung.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        66,
+        70
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        86,
+        90
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        236,
+        251
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Intermittierende Verbindungsprobleme mit Cisco Router ISR[phone_number]\n\nDer Router ISR[phone_number] hat Verbindungsprobleme, die die Netzwerkleistung und den Benutzerzugang beeintr\u00e4chtigen. Ich ben\u00f6tige Ihre Unterst\u00fctzung.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

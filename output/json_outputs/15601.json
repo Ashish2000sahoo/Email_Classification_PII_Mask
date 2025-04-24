@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with recent system update causing software incompatibility\n\nWe regret the inconvenience caused by the software incompatibility issues following the recent system update. We understand that reinstalling and updating the software may resolve the issue. To troubleshoot the problem, could you please provide details of any error messages you are seeing, specifically related to the software experiencing compatibility issues? Additionally, it would be helpful to know the version of the software and operating system you are using You can reach me at carlosm@gmail.com.. If needed, we can schedule a call at your convenience to discuss the issue and explore possible solutions. Please let us know. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        721,
+        735
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        563,
+        580
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with recent system update causing software incompatibility\n\nWe regret the inconvenience caused by the software incompatibility issues following the recent system update. We understand that reinstalling and updating the software may resolve the issue. To troubleshoot the problem, could you please provide details of any error messages you are seeing, specifically related to the software experiencing compatibility issues? Additionally, it would be helpful to know the version of the software and operating system you are using You can reach me at [email].. If needed, we can schedule a call at your convenience to discuss the issue and explore possible solutions. Please let us know. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consultation Inquiry\n\nDear Customer Service, \n\nThe Human Resources department is in search of consulting services to enhance server management and implement IT solutions. We are specifically interested in your IT Consulting Services to fulfill our requirements You can reach me at david.kim@corp.kr.. Kindly provide us with details regarding your offerings, availability, and any prerequisites for working together. For further inquiries, please reach us at <tel_num> or email <name>@company.com.\n\nWe appreciate your assistance. \n\nBest wishes, \n\n<name>, Human Resources Department My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        601,
+        613
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        290,
+        307
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Consultation Inquiry\n\nDear Customer Service, \n\nThe Human Resources department is in search of consulting services to enhance server management and implement IT solutions. We are specifically interested in your IT Consulting Services to fulfill our requirements You can reach me at [email].. Kindly provide us with details regarding your offerings, availability, and any prerequisites for working together. For further inquiries, please reach us at <tel_num> or email <name>@company.com.\n\nWe appreciate your assistance. \n\nBest wishes, \n\n<name>, Human Resources Department My name is [full_name].",
+  "category_of_the_email": "Request"
+}

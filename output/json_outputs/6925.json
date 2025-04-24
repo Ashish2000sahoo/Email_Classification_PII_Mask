@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry on Software Subscription Billing\n\nHello Customer Support, I am reaching out to request detailed information about the billing process for our software subscription My name is Maria Gonzalez.. Could you please provide an explanation of how the billing cycle works, including the frequency of payments and any potential additional fees? I would greatly appreciate it if you could clarify the process for upgrading or downgrading the subscription, whether there are any penalties for cancelling early. Additionally, I would like to know about any discounts available for long-term commitments or bulk subscriptions. I am keen to learn more about the software. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        192,
+        206
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        691,
+        712
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on Software Subscription Billing\n\nHello Customer Support, I am reaching out to request detailed information about the billing process for our software subscription My name is [full_name].. Could you please provide an explanation of how the billing cycle works, including the frequency of payments and any potential additional fees? I would greatly appreciate it if you could clarify the process for upgrading or downgrading the subscription, whether there are any penalties for cancelling early. Additionally, I would like to know about any discounts available for long-term commitments or bulk subscriptions. I am keen to learn more about the software. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

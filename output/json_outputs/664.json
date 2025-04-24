@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Monthly Invoice Charges\n\nThere are unanticipated charges on the monthly invoice because of an incorrect account setup.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Issue with Monthly Invoice Charges\n\nThere are unanticipated charges on the monthly invoice because of an incorrect account setup.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

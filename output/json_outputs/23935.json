@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Frequent Crashes in Google Chrome Browser\n\nDear Tech Online Store Customer Support,\n\nI hope this email finds you well. My name is <name>, and I am writing to bring to your attention an issue I have been experiencing with the Google Chrome 102.0 browser purchased through your platform. For the past few weeks, the browser has repeatedly crashed, significantly impacting my ability to browse the internet and complete important online tasks efficiently.\n\nI use Google Chrome extensively for my daily activities, such as online research, accessing educational materials, managing work documents, and communication via multiple web applications You can reach me at fatima.farsi@help.com.. However, these frequent crashes have become more disruptive, occurring at least three to four times per day, often without any prior warning or apparent reason. The experience is frustrating and has already resulted in some data loss during unsaved tasks My name is Liu Wei.. I have attempted several troubleshooting steps to resolve the issue, including clearing the cache, disabling extensions, running antivirus checks, and ensuring that the browser is updated with the latest patches. Unfortunately, these efforts have not alleviated the problem.\n\nGiven the critical role that the browser plays in my work and personal life, I am seeking your guidance or a possible resolution. If there are any known compatibility issues between Google Chrome 102.0 and certain operating systems or software, or if there is a specific setting that needs to be adjusted, could you please advise me on how to proceed?\n\nKindly prioritize this request as it affects my productivity and ability to meet deadlines. Please let me know if you need any further details regarding my operating system or any specific error messages encountered. You may reach me at <tel_num> or by replying to this email.\n\nThank you for your prompt attention to this matter.\n\nWarm regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        961,
+        968
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        671,
+        692
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        248,
+        251
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    },
+    {
+      "position": [
+        1433,
+        1436
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Frequent Crashes in Google Chrome Browser\n\nDear Tech Online Store Customer Support,\n\nI hope this email finds you well. My name is <name>, and I am writing to bring to your attention an issue I have been experiencing with the Google Chrome [cvv_no].0 browser purchased through your platform. For the past few weeks, the browser has repeatedly crashed, significantly impacting my ability to browse the internet and complete important online tasks efficiently.\n\nI use Google Chrome extensively for my daily activities, such as online research, accessing educational materials, managing work documents, and communication via multiple web applications You can reach me at [email].. However, these frequent crashes have become more disruptive, occurring at least three to four times per day, often without any prior warning or apparent reason. The experience is frustrating and has already resulted in some data loss during unsaved tasks My name is [full_name].. I have attempted several troubleshooting steps to resolve the issue, including clearing the cache, disabling extensions, running antivirus checks, and ensuring that the browser is updated with the latest patches. Unfortunately, these efforts have not alleviated the problem.\n\nGiven the critical role that the browser plays in my work and personal life, I am seeking your guidance or a possible resolution. If there are any known compatibility issues between Google Chrome [cvv_no].0 and certain operating systems or software, or if there is a specific setting that needs to be adjusted, could you please advise me on how to proceed?\n\nKindly prioritize this request as it affects my productivity and ability to meet deadlines. Please let me know if you need any further details regarding my operating system or any specific error messages encountered. You may reach me at <tel_num> or by replying to this email.\n\nThank you for your prompt attention to this matter.\n\nWarm regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

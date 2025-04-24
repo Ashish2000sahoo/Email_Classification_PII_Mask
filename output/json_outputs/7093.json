@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Billing for Various Products Requesting Support\n\nFacing billing discrepancies with several products. These might have arisen from recent system updates or integration problems You can reach me at carlosm@gmail.com.. Despite efforts to reconcile transactions and verify account settings, the issues persist My name is Liu Wei.. Could you please look into this and provide a resolution at your earliest convenience?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        345
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        217,
+        234
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Billing for Various Products Requesting Support\n\nFacing billing discrepancies with several products. These might have arisen from recent system updates or integration problems You can reach me at [email].. Despite efforts to reconcile transactions and verify account settings, the issues persist My name is [full_name].. Could you please look into this and provide a resolution at your earliest convenience?",
+  "category_of_the_email": "Incident"
+}

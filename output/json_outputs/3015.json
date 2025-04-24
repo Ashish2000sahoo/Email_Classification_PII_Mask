@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Marketing Strategies\n\nCurrent marketing strategies are not achieving the expected brand growth My name is David Kim.. Recent digital campaigns have failed to boost engagement and conversions. There might be a misalignment between the target audience and the content strategy. Adjustments have been made, including testing different content formats, which showed some improvement You can reach me at carlosm@gmail.com.. We need your help to identify the root cause and optimize our marketing efforts.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        134,
+        143
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        429,
+        446
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Marketing Strategies\n\nCurrent marketing strategies are not achieving the expected brand growth My name is [full_name].. Recent digital campaigns have failed to boost engagement and conversions. There might be a misalignment between the target audience and the content strategy. Adjustments have been made, including testing different content formats, which showed some improvement You can reach me at [email].. We need your help to identify the root cause and optimize our marketing efforts.",
+  "category_of_the_email": "Problem"
+}

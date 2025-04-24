@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheitsversto\u00df melden\n\nGuten Tag Kundensupport, ich schreibe an dieser Stelle, um einen unerwarteten Datensicherheitsunterschied in unserem Medienfunktionsservice zu melden. Es ist m\u00f6glich, dass die Ursache die Kaspersky-Sicherheitssoftware ist. Ich habe bereits versucht, den Server neu zu starten und die Ubuntu-Aktualisierungen zu \u00fcberpr\u00fcfen, aber das Problem beharrt trotzdem My name is Liu Wei.. Ich w\u00fcrde dringend eine schnelle Unterst\u00fctzung bei der L\u00f6sung dieses Problems ben\u00f6tigen. Bitte geben Sie mir die notwendigen Anweisungen, die ich weiterumsetzen kann You can reach me at elena.ivanova@support.org.. Ich bin besorgt \u00fcber die Sicherheit unserer medizinischen Informationen und m\u00f6chte sicherstellen, dass diese gesch\u00fctzt sind. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald eine R\u00fcckmeldung zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        604,
+        629
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Sicherheitsversto\u00df melden\n\nGuten Tag Kundensupport, ich schreibe an dieser Stelle, um einen unerwarteten Datensicherheitsunterschied in unserem Medienfunktionsservice zu melden. Es ist m\u00f6glich, dass die Ursache die Kaspersky-Sicherheitssoftware ist. Ich habe bereits versucht, den Server neu zu starten und die Ubuntu-Aktualisierungen zu \u00fcberpr\u00fcfen, aber das Problem beharrt trotzdem My name is [full_name].. Ich w\u00fcrde dringend eine schnelle Unterst\u00fctzung bei der L\u00f6sung dieses Problems ben\u00f6tigen. Bitte geben Sie mir die notwendigen Anweisungen, die ich weiterumsetzen kann You can reach me at [email].. Ich bin besorgt \u00fcber die Sicherheit unserer medizinischen Informationen und m\u00f6chte sicherstellen, dass diese gesch\u00fctzt sind. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald eine R\u00fcckmeldung zu erhalten.",
+  "category_of_the_email": "Incident"
+}

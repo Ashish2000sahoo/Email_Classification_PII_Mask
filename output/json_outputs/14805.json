@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Backup Unsuccessful\n\nLast night, the medical data backup experienced an error, likely because of storage limitations You can reach me at david.kim@corp.kr.. After restarting the backup server and reviewing the logs, the problem still exists. Kindly help me address this issue. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        312
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        151,
+        168
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Data Backup Unsuccessful\n\nLast night, the medical data backup experienced an error, likely because of storage limitations You can reach me at [email].. After restarting the backup server and reviewing the logs, the problem still exists. Kindly help me address this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

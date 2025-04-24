@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ncustomer support, reporting data breach in hospital system affecting medical records. breach might be due to outdated security protocols and unpatched vulnerabilities You can reach me at liuwei@business.cn.. attempted updating security software and planning to conduct a system audit to find the source of the breach. however, need assistance to ensure the security system can protect sensitive patient information My name is Sophia Rossi.. would greatly appreciate guidance on the steps to take and additional measures to implement to prevent future breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        437,
+        449
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        198,
+        216
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\ncustomer support, reporting data breach in hospital system affecting medical records. breach might be due to outdated security protocols and unpatched vulnerabilities You can reach me at [email].. attempted updating security software and planning to conduct a system audit to find the source of the breach. however, need assistance to ensure the security system can protect sensitive patient information My name is [full_name].. would greatly appreciate guidance on the steps to take and additional measures to implement to prevent future breaches.",
+  "category_of_the_email": "Incident"
+}

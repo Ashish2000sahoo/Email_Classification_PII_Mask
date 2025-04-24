@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl My name is John Doe.. Ich schreibe, um eine Beratung zu einigen Leistungsproblemen der Server anzufordern, die wir erfahren haben You can reach me at omar.hassan@secure.net.. Wir glauben, dass diese Probleme unsere gesamte Betriebseffizienz beeintr\u00e4chtigen. Als gesch\u00e4tzter Kunde Ihrer IT-Beratungsfirma haben wir stets auf Ihr Fachwissen und Ihre Unterst\u00fctzung gesetzt, um die optimale Funktionalit\u00e4t unserer IT-Infrastruktur aufrechtzuerhalten.\n\nK\u00fcrzlich haben wir eine signifikante Verlangsamung der Serverreaktionszeiten bemerkt, die die Produktivit\u00e4t unseres Teams beeintr\u00e4chtigt. Unser prim\u00e4res Ziel ist es jetzt, die Ursachen dieser Probleme zu identifizieren und m\u00f6gliche L\u00f6sungen zu erkunden. Wir sind besonders an Empfehlungen interessiert, die nicht nur die aktuellen Probleme l\u00f6sen, sondern auch unsere Abl\u00e4ufe in Zukunft verbessern.\n\nUm fortzufahren, bitten wir h\u00f6flich um eine erste Beratung, um diese Probleme im Detail zu besprechen und potenzielle Strategien zu skizzieren. Es w\u00e4re sehr gesch\u00e4tzt, wenn Sie einen erfahrenen Berater mit Erfahrung in der Serveroptimierung und Leistungsverbesserung zuweisen k\u00f6nnten.\n\nBitte lassen Sie uns Ihre Verf\u00fcgbarkeit f\u00fcr ein Treffen zu Ihrem fr\u00fchestm\u00f6glichen Zeitpunkt wissen. Sie k\u00f6nnen mich per E-Mail unter meiner Adresse erreichen oder mich direkt unter <tel_num> kontaktieren.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        101,
+        109
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        243,
+        265
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl My name is [full_name].. Ich schreibe, um eine Beratung zu einigen Leistungsproblemen der Server anzufordern, die wir erfahren haben You can reach me at [email].. Wir glauben, dass diese Probleme unsere gesamte Betriebseffizienz beeintr\u00e4chtigen. Als gesch\u00e4tzter Kunde Ihrer IT-Beratungsfirma haben wir stets auf Ihr Fachwissen und Ihre Unterst\u00fctzung gesetzt, um die optimale Funktionalit\u00e4t unserer IT-Infrastruktur aufrechtzuerhalten.\n\nK\u00fcrzlich haben wir eine signifikante Verlangsamung der Serverreaktionszeiten bemerkt, die die Produktivit\u00e4t unseres Teams beeintr\u00e4chtigt. Unser prim\u00e4res Ziel ist es jetzt, die Ursachen dieser Probleme zu identifizieren und m\u00f6gliche L\u00f6sungen zu erkunden. Wir sind besonders an Empfehlungen interessiert, die nicht nur die aktuellen Probleme l\u00f6sen, sondern auch unsere Abl\u00e4ufe in Zukunft verbessern.\n\nUm fortzufahren, bitten wir h\u00f6flich um eine erste Beratung, um diese Probleme im Detail zu besprechen und potenzielle Strategien zu skizzieren. Es w\u00e4re sehr gesch\u00e4tzt, wenn Sie einen erfahrenen Berater mit Erfahrung in der Serveroptimierung und Leistungsverbesserung zuweisen k\u00f6nnten.\n\nBitte lassen Sie uns Ihre Verf\u00fcgbarkeit f\u00fcr ein Treffen zu Ihrem fr\u00fchestm\u00f6glichen Zeitpunkt wissen. Sie k\u00f6nnen mich per E-Mail unter meiner Adresse erreichen oder mich direkt unter <tel_num> kontaktieren.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Change"
+}

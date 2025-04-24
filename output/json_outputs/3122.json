@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Invoicing in Zoho Books\n\nDear Customer Support, we are encountering issues with invoicing in Zoho Books. These errors seem to stem from incorrect payment setup settings. Despite thoroughly checking account details and following the help center instructions, the problem persists. We have reviewed account settings and payment methods for invoices but have not been able to identify the cause You can reach me at maria.gonzalez@shop.es.. We would be grateful if you could provide a quick solution as soon as possible My name is Elena Ivanova.. Please let us know if you need any additional information to resolve the issue. We look forward to hearing from you soon. Thank you for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        550,
+        563
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        435,
+        457
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problems with Invoicing in Zoho Books\n\nDear Customer Support, we are encountering issues with invoicing in Zoho Books. These errors seem to stem from incorrect payment setup settings. Despite thoroughly checking account details and following the help center instructions, the problem persists. We have reviewed account settings and payment methods for invoices but have not been able to identify the cause You can reach me at [email].. We would be grateful if you could provide a quick solution as soon as possible My name is [full_name].. Please let us know if you need any additional information to resolve the issue. We look forward to hearing from you soon. Thank you for your time and support.",
+  "category_of_the_email": "Problem"
+}

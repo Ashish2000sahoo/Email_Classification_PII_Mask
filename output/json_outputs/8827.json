@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problems with the Investment Analysis Tool's Functionality\n\nThe investment analysis tool is malfunctioning and disrupting the data analysis process.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        197
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problems with the Investment Analysis Tool's Functionality\n\nThe investment analysis tool is malfunctioning and disrupting the data analysis process.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

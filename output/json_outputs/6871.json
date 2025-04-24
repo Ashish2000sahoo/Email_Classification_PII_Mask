@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Investment Data Analysis Tools\n\nCustomer support, seeking to inquire about optimizing investments using data analytics tools. Would appreciate guidance on how to effectively utilize these tools to make informed investment decisions You can reach me at david.kim@corp.kr.. Looking forward to your recommendations and assistance. Thank you for your time. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        389,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        277,
+        294
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Investment Data Analysis Tools\n\nCustomer support, seeking to inquire about optimizing investments using data analytics tools. Would appreciate guidance on how to effectively utilize these tools to make informed investment decisions You can reach me at [email].. Looking forward to your recommendations and assistance. Thank you for your time. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

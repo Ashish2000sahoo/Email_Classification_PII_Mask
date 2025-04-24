@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Website Crash Today Issue\n\nDear Customer Support, I am writing to inform you that our website has suddenly crashed, leading to a significant loss in user interaction. The crash could be due to an overloaded server or a software error. We have already restarted the server and reviewed the error logs, but the issue remains. We would greatly appreciate it if you could urgently investigate and offer a solution to quickly restore our website. Please inform us if additional information is needed My name is David Kim.. Thank you for your prompt attention to this matter. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        515,
+        524
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        601,
+        618
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Website Crash Today Issue\n\nDear Customer Support, I am writing to inform you that our website has suddenly crashed, leading to a significant loss in user interaction. The crash could be due to an overloaded server or a software error. We have already restarted the server and reviewed the error logs, but the issue remains. We would greatly appreciate it if you could urgently investigate and offer a solution to quickly restore our website. Please inform us if additional information is needed My name is [full_name].. Thank you for your prompt attention to this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

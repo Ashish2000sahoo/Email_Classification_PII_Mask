@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerning System Security Breach\n\nCustomer Support, <br><br>An unauthorized access attempt on our medical data systems was detected last night. This may have occurred due to a phishing email targeting our staff. We recommend updating passwords and running a security scan to mitigate the risk My name is Fatima Al-Farsi.. The security of our medical data systems is of utmost importance, and we are taking this incident very seriously. <br><br>We would like to request your assistance in investigating this matter and providing guidance to prevent similar incidents in the future. Please let us You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        627,
+        644
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concerning System Security Breach\n\nCustomer Support, <br><br>An unauthorized access attempt on our medical data systems was detected last night. This may have occurred due to a phishing email targeting our staff. We recommend updating passwords and running a security scan to mitigate the risk My name is [full_name]-Farsi.. The security of our medical data systems is of utmost importance, and we are taking this incident very seriously. <br><br>We would like to request your assistance in investigating this matter and providing guidance to prevent similar incidents in the future. Please let us You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

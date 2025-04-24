@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Konsultation f\u00fcr digitale Marketingstrategien\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um nach den am effektivsten angewendeten digitalen Strategien zu fragen, die das Markenbild bei Marketingagenturen verbessern My name is Elena Ivanova.. Ich w\u00fcrde gerne \u00fcber die neuesten Trends und die besten Praktiken in der Branche erfahren You can reach me at carlosm@gmail.com.. Welche sind die erfolgreichsten digitalen Marketingstrategien, die von Marketingagenturen zur Markenwachstum eingesetzt wurden? Ich suche nach Informationen, wie ich die digitalen Marketingaktivit\u00e4ten meines Unternehmens verbessern kann und sch\u00e4tze jede Empfehlung oder Anleitung von Ihnen sehr. Ich freue mich darauf, von Ihnen zu h\u00f6ren und Ihre Unterst\u00fctzung zu sch\u00e4tzen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        368,
+        385
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Konsultation f\u00fcr digitale Marketingstrategien\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um nach den am effektivsten angewendeten digitalen Strategien zu fragen, die das Markenbild bei Marketingagenturen verbessern My name is [full_name].. Ich w\u00fcrde gerne \u00fcber die neuesten Trends und die besten Praktiken in der Branche erfahren You can reach me at [email].. Welche sind die erfolgreichsten digitalen Marketingstrategien, die von Marketingagenturen zur Markenwachstum eingesetzt wurden? Ich suche nach Informationen, wie ich die digitalen Marketingaktivit\u00e4ten meines Unternehmens verbessern kann und sch\u00e4tze jede Empfehlung oder Anleitung von Ihnen sehr. Ich freue mich darauf, von Ihnen zu h\u00f6ren und Ihre Unterst\u00fctzung zu sch\u00e4tzen.",
+  "category_of_the_email": "Request"
+}

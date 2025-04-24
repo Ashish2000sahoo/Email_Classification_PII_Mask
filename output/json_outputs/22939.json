@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Druckereinrichtung\n\nHallo Kundenservice, ich ben\u00f6tige Hilfe bei der \u00c4nderung meiner Canon PIXMA MG3620 Druckereinrichtung f\u00fcr das drahtlose Drucken My name is Maria Gonzalez.. Bitte geben Sie Schritt-f\u00fcr-Schritt-Anleitungen zur Konfiguration You can reach me at omar.hassan@secure.net.. Ich freue mich auf Ihre schnelle Antwort. Vielen Dank, <name>, Konto <acc_num>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        282,
+        304
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        121,
+        125
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Druckereinrichtung\n\nHallo Kundenservice, ich ben\u00f6tige Hilfe bei der \u00c4nderung meiner Canon PIXMA MG[phone_number] Druckereinrichtung f\u00fcr das drahtlose Drucken My name is [full_name].. Bitte geben Sie Schritt-f\u00fcr-Schritt-Anleitungen zur Konfiguration You can reach me at [email].. Ich freue mich auf Ihre schnelle Antwort. Vielen Dank, <name>, Konto <acc_num>.",
+  "category_of_the_email": "Request"
+}

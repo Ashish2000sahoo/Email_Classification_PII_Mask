@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Occasional Connectivity Problems with SaaS Platform\n\nCustomer Support is facing intermittent connectivity issues with the SaaS platform during peak hours. The root cause is suspected to be API rate limiting and server overload. Our team has tried to resolve the issue by restarting services and optimizing database queries, but the problems continue. We would greatly appreciate your assistance in investigating this matter and providing a solution to ensure uninterrupted service for our users My name is Sophia Rossi.. Please let us know if you need any additional information to facilitate this process. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        515,
+        527
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        635,
+        660
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Occasional Connectivity Problems with SaaS Platform\n\nCustomer Support is facing intermittent connectivity issues with the SaaS platform during peak hours. The root cause is suspected to be API rate limiting and server overload. Our team has tried to resolve the issue by restarting services and optimizing database queries, but the problems continue. We would greatly appreciate your assistance in investigating this matter and providing a solution to ensure uninterrupted service for our users My name is [full_name].. Please let us know if you need any additional information to facilitate this process. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

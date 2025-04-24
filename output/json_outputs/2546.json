@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Problem with Marketing Website\n\nCustomer Support, <br>The marketing agency's website is facing slow loading times, which is likely due to server configuration issues. After optimizing the Laravel 8 framework and clearing the cache, there was some improvement My name is Sophia Rossi.. However, various products, including those integrated with IFTTT and Blackboard Learn, are showing errors, which could impact brand campaigns. Assistance in resolving this matter soon would be greatly appreciated to minimize disruptions. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        561,
+        578
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Problem with Marketing Website\n\nCustomer Support, <br>The marketing agency's website is facing slow loading times, which is likely due to server configuration issues. After optimizing the Laravel 8 framework and clearing the cache, there was some improvement My name is [full_name].. However, various products, including those integrated with IFTTT and Blackboard Learn, are showing errors, which could impact brand campaigns. Assistance in resolving this matter soon would be greatly appreciated to minimize disruptions. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

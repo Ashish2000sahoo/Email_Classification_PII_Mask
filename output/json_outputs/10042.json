@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Digital Strategy Optimization\n\nRequesting support to optimize digital strategies in order to enhance brand growth and improve performance across multiple devices and software. Currently facing inconsistencies across different platforms, which are negatively impacting the overall brand presence. I would like assistance in streamlining digital operations to ensure seamless integration and maximum efficiency. This includes optimizing the website, social media, and marketing software to work cohesively My name is David Kim.. The goal is to increase overall performance. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        540,
+        549
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        619,
+        641
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Digital Strategy Optimization\n\nRequesting support to optimize digital strategies in order to enhance brand growth and improve performance across multiple devices and software. Currently facing inconsistencies across different platforms, which are negatively impacting the overall brand presence. I would like assistance in streamlining digital operations to ensure seamless integration and maximum efficiency. This includes optimizing the website, social media, and marketing software to work cohesively My name is [full_name].. The goal is to increase overall performance. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

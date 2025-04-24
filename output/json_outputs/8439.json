@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundensupport, ich habe Schwierigkeiten mit der Aufgaben-Synchronisation in meiner Projektmanagement-Software-as-a-Service-Anwendung Outlook. Es k\u00f6nnte sein, dass die neuesten API-Aktualisierungen die Ursache sind. Ich habe versucht, die Verbindung neu herzustellen und den Cache zu leeren, aber das Problem beh\u00e4lt sich bei You can reach me at janesmith@company.com.. Bitte helfen Sie mir, das Problem zu l\u00f6sen. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        452
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        363,
+        384
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundensupport, ich habe Schwierigkeiten mit der Aufgaben-Synchronisation in meiner Projektmanagement-Software-as-a-Service-Anwendung Outlook. Es k\u00f6nnte sein, dass die neuesten API-Aktualisierungen die Ursache sind. Ich habe versucht, die Verbindung neu herzustellen und den Cache zu leeren, aber das Problem beh\u00e4lt sich bei You can reach me at [email].. Bitte helfen Sie mir, das Problem zu l\u00f6sen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent : Probl\u00e8me de service de gestion AWS\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour signaler un incident de haute priorit\u00e9 qui impacte nos processus de d\u00e9ploiement You can reach me at carlosm@gmail.com.. R\u00e9cemment, nous avons rencontr\u00e9 des probl\u00e8mes significatifs avec le service de gestion AWS qui a cr\u00e9\u00e9 un goulet d'\u00e9tranglement dans le d\u00e9ploiement de changements d'infrastructure vitaux dans nos configurations cloud My name is Sophia Rossi.. Ce service, crucial pour maintenir des op\u00e9rations sans faille, cause des retards et des interruptions potentielles dans nos offres de services.\n\nLa nature du probl\u00e8me semble \u00eatre li\u00e9e \u00e0 des mises \u00e0 jour r\u00e9centes ou \u00e0 des changements dans les param\u00e8tres de gestion de la configuration au sein de notre environnement AWS. Le planificateur de d\u00e9ploiement semble affect\u00e9 de mani\u00e8re n\u00e9gative, et les t\u00e2ches qui devraient \u00eatre automatis\u00e9es n\u00e9cessitent maintenant une intervention manuelle. Cela a entra\u00een\u00e9 une augmentation des frais g\u00e9n\u00e9raux op\u00e9rationnels et des d\u00e9lais de projet retard\u00e9s.\n\nVeuillez donner la priorit\u00e9 \u00e0 ce probl\u00e8me et fournir des conseils sur tout contournement connu ou corrections \u00e0 venir. Une assistance imm\u00e9diate est requise car nos services d\u00e9pendent fortement de ces modifications d'infrastructure.\n\nSerait-il possible d'organiser un appel \u00e0 votre convenance pour discuter des solutions potentielles et des prochaines \u00e9tapes ? Veuillez me contacter directement au <tel_num>.\n\nMerci pour votre attention urgente \u00e0 cette question.\n\nCordialement,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        452,
+        464
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        205,
+        222
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Probl\u00e8me de service de gestion AWS\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour signaler un incident de haute priorit\u00e9 qui impacte nos processus de d\u00e9ploiement You can reach me at [email].. R\u00e9cemment, nous avons rencontr\u00e9 des probl\u00e8mes significatifs avec le service de gestion AWS qui a cr\u00e9\u00e9 un goulet d'\u00e9tranglement dans le d\u00e9ploiement de changements d'infrastructure vitaux dans nos configurations cloud My name is [full_name].. Ce service, crucial pour maintenir des op\u00e9rations sans faille, cause des retards et des interruptions potentielles dans nos offres de services.\n\nLa nature du probl\u00e8me semble \u00eatre li\u00e9e \u00e0 des mises \u00e0 jour r\u00e9centes ou \u00e0 des changements dans les param\u00e8tres de gestion de la configuration au sein de notre environnement AWS. Le planificateur de d\u00e9ploiement semble affect\u00e9 de mani\u00e8re n\u00e9gative, et les t\u00e2ches qui devraient \u00eatre automatis\u00e9es n\u00e9cessitent maintenant une intervention manuelle. Cela a entra\u00een\u00e9 une augmentation des frais g\u00e9n\u00e9raux op\u00e9rationnels et des d\u00e9lais de projet retard\u00e9s.\n\nVeuillez donner la priorit\u00e9 \u00e0 ce probl\u00e8me et fournir des conseils sur tout contournement connu ou corrections \u00e0 venir. Une assistance imm\u00e9diate est requise car nos services d\u00e9pendent fortement de ces modifications d'infrastructure.\n\nSerait-il possible d'organiser un appel \u00e0 votre convenance pour discuter des solutions potentielles et des prochaines \u00e9tapes ? Veuillez me contacter directement au <tel_num>.\n\nMerci pour votre attention urgente \u00e0 cette question.\n\nCordialement,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Problem"
+}

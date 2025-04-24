@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrter Kundenservice,\n\nich hoffe, es geht Ihnen gut My name is Maria Gonzalez.. Ich schreibe, um mich nach der Verf\u00fcgbarkeit und den Preisen des Microsoft Surface Pro 7 in Ihrem Online-Shop zu erkundigen You can reach me at janesmith@company.com.. Ich bin insbesondere an den verschiedenen Konfigurationen und m\u00f6glichen aktuellen Aktionen interessiert.\n\nK\u00f6nnten Sie bitte Informationen zu den verschiedenen Spezifikationen bereitstellen, wie RAM, Speicheroptionen und ob es Bundles oder Rabatte gibt? Au\u00dferdem w\u00e4re ich Ihnen dankbar, wenn Sie mir die voraussichtlichen Lieferzeiten f\u00fcr dieses Produkt mitteilen k\u00f6nnten, wenn es auf Lager ist.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und schnelle Antwort. Ich freue mich auf Ihre R\u00fcckmeldung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        81,
+        95
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        239,
+        260
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrter Kundenservice,\n\nich hoffe, es geht Ihnen gut My name is [full_name].. Ich schreibe, um mich nach der Verf\u00fcgbarkeit und den Preisen des Microsoft Surface Pro 7 in Ihrem Online-Shop zu erkundigen You can reach me at [email].. Ich bin insbesondere an den verschiedenen Konfigurationen und m\u00f6glichen aktuellen Aktionen interessiert.\n\nK\u00f6nnten Sie bitte Informationen zu den verschiedenen Spezifikationen bereitstellen, wie RAM, Speicheroptionen und ob es Bundles oder Rabatte gibt? Au\u00dferdem w\u00e4re ich Ihnen dankbar, wenn Sie mir die voraussichtlichen Lieferzeiten f\u00fcr dieses Produkt mitteilen k\u00f6nnten, wenn es auf Lager ist.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und schnelle Antwort. Ich freue mich auf Ihre R\u00fcckmeldung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>",
+  "category_of_the_email": "Request"
+}

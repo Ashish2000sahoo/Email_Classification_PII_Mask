@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundenservice: Rechnungsdaten\n\nIch w\u00fcrde gerne mehr \u00fcber Rechnungszyklen, Zahlungsm\u00f6glichkeiten, Software-Entwicklungsdienstleistungen und Projektmanagement erfahren. K\u00f6nnten Sie mehr Details zu den verf\u00fcgbaren Pl\u00e4nen und den entsprechenden Preisen geben? Es w\u00e4re hilfreich, wenn Sie Einzelheiten zu m\u00f6glichen Rabatten oder Aktionen f\u00fcr neue Kunden bereitstellen w\u00fcrden You can reach me at carlosm@gmail.com.. Welche Geb\u00fchren gelten f\u00fcr bestimmte Zahlungsarten? Ich freue mich darauf, weitere Informationen zu erhalten. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        540,
+        547
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        399,
+        416
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Kundenservice: Rechnungsdaten\n\nIch w\u00fcrde gerne mehr \u00fcber Rechnungszyklen, Zahlungsm\u00f6glichkeiten, Software-Entwicklungsdienstleistungen und Projektmanagement erfahren. K\u00f6nnten Sie mehr Details zu den verf\u00fcgbaren Pl\u00e4nen und den entsprechenden Preisen geben? Es w\u00e4re hilfreich, wenn Sie Einzelheiten zu m\u00f6glichen Rabatten oder Aktionen f\u00fcr neue Kunden bereitstellen w\u00fcrden You can reach me at [email].. Welche Geb\u00fchren gelten f\u00fcr bestimmte Zahlungsarten? Ich freue mich darauf, weitere Informationen zu erhalten. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

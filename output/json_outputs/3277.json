@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am inquiring about the best practices for securing medical data in hospital systems. Could you provide detailed information on effective methods for protecting sensitive patient information and preventing cyber attacks on hospital networks? I would greatly appreciate any guidance on implementing robust security measures, such as encryption, firewalls, and access controls My name is Carlos Mendoza.. Additionally, could you specify the regulations and standards that hospitals must comply with to ensure the security and confidentiality of medical data? Your prompt assistance would be much appreciated. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        421,
+        435
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        659,
+        676
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am inquiring about the best practices for securing medical data in hospital systems. Could you provide detailed information on effective methods for protecting sensitive patient information and preventing cyber attacks on hospital networks? I would greatly appreciate any guidance on implementing robust security measures, such as encryption, firewalls, and access controls My name is [full_name].. Additionally, could you specify the regulations and standards that hospitals must comply with to ensure the security and confidentiality of medical data? Your prompt assistance would be much appreciated. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

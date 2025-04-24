@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Issue with SaaS Platform\n\nFrequent crashes are happening on your MacBook Air. We suspect compatibility issues with Adobe Photoshop CC 2021 and PHP 8.0.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        157
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        193,
+        209
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Technical Issue with SaaS Platform\n\nFrequent crashes are happening on your MacBook Air. We suspect compatibility issues with Adobe Photoshop CC [phone_number] and PHP 8.0.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hohe CPU-Auslastung: Dell XPS 13 9310\n\nSehr geehrter Kundenservice,\n\nich schreibe Ihnen, um auf ein kritisches Problem hinzuweisen, das ich mit meinem Dell XPS 13 9310 Laptop, den ich in Ihrem Tech Online Store gekauft habe, habe. Das Ger\u00e4t zeigt konstant hohe CPU-Auslastung, selbst bei leichten Aufgaben, was zu einer \u00dcberhitzung des Systems f\u00fchrt und es unangenehm und besorgniserregend macht, es \u00fcber l\u00e4ngere Zeit zu nutzen. Dar\u00fcber hinaus hat diese hohe CPU-Aktivit\u00e4t zu zuf\u00e4lligen Abschaltungen gef\u00fchrt, was die Leistung und Zuverl\u00e4ssigkeit, die ich von einem High-End-Modell erwarte, schwer beeintr\u00e4chtigt.\n\nDer Laptop hat, trotz k\u00fcrzlicher Updates und minimaler Softwareinstallationen, Schwierigkeiten, eine optimale Leistung aufrechtzuerhalten My name is Carlos Mendoza.. Diese Situation verursacht erheblichen Stress, da sie sowohl die Produktivit\u00e4t beeintr\u00e4chtigt als auch Ausfallzeiten verl\u00e4ngert, die beide nicht akzeptabel sind.\n\nAngesichts der Natur dieses Problems w\u00e4re ich Ihnen dankbar, wenn Sie mir Anleitungen zu m\u00f6glichen L\u00f6sungen oder Empfehlungen geben k\u00f6nnten, wie ich weiter verfahren soll, einschlie\u00dflich einer Bewertung f\u00fcr eine m\u00f6gliche Reparatur oder einen Austausch unter Garantie. Dieser Defekt hat erhebliche Auswirkungen auf mein Benutzererlebnis und erfordert eine zeitnahe L\u00f6sung.\n\nIch freue mich auf Ihre schnelle Antwort, um dieses Problem zu l\u00f6sen You can reach me at janesmith@company.com.. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> \n<email_address> \n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        773,
+        787
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1412,
+        1433
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        39,
+        46
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        169,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Hohe CPU-Auslastung: Dell XPS [phone_number]\n\nSehr geehrter Kundenservice,\n\nich schreibe Ihnen, um auf ein kritisches Problem hinzuweisen, das ich mit meinem Dell XPS [phone_number] Laptop, den ich in Ihrem Tech Online Store gekauft habe, habe. Das Ger\u00e4t zeigt konstant hohe CPU-Auslastung, selbst bei leichten Aufgaben, was zu einer \u00dcberhitzung des Systems f\u00fchrt und es unangenehm und besorgniserregend macht, es \u00fcber l\u00e4ngere Zeit zu nutzen. Dar\u00fcber hinaus hat diese hohe CPU-Aktivit\u00e4t zu zuf\u00e4lligen Abschaltungen gef\u00fchrt, was die Leistung und Zuverl\u00e4ssigkeit, die ich von einem High-End-Modell erwarte, schwer beeintr\u00e4chtigt.\n\nDer Laptop hat, trotz k\u00fcrzlicher Updates und minimaler Softwareinstallationen, Schwierigkeiten, eine optimale Leistung aufrechtzuerhalten My name is [full_name].. Diese Situation verursacht erheblichen Stress, da sie sowohl die Produktivit\u00e4t beeintr\u00e4chtigt als auch Ausfallzeiten verl\u00e4ngert, die beide nicht akzeptabel sind.\n\nAngesichts der Natur dieses Problems w\u00e4re ich Ihnen dankbar, wenn Sie mir Anleitungen zu m\u00f6glichen L\u00f6sungen oder Empfehlungen geben k\u00f6nnten, wie ich weiter verfahren soll, einschlie\u00dflich einer Bewertung f\u00fcr eine m\u00f6gliche Reparatur oder einen Austausch unter Garantie. Dieser Defekt hat erhebliche Auswirkungen auf mein Benutzererlebnis und erfordert eine zeitnahe L\u00f6sung.\n\nIch freue mich auf Ihre schnelle Antwort, um dieses Problem zu l\u00f6sen You can reach me at [email].. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> \n<email_address> \n<tel_num>",
+  "category_of_the_email": "Incident"
+}

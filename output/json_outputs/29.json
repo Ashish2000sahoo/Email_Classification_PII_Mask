@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Encryption\n\nDear Customer Support, I am writing to report a problem with our medical data encryption My name is John Doe.. This issue has appeared suddenly and might be related to a software update issue You can reach me at maria.gonzalez@shop.es.. We have already tried restarting the servers and checking the configurations, but the problem persists. The malfunction occurred without prior warning and we are concerned about the security of our data. We would greatly appreciate it if you could investigate this further and provide a solution as soon as possible. Please let us know if you require any additional information from us to resolve this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        137,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        252,
+        274
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Encryption\n\nDear Customer Support, I am writing to report a problem with our medical data encryption My name is [full_name].. This issue has appeared suddenly and might be related to a software update issue You can reach me at [email].. We have already tried restarting the servers and checking the configurations, but the problem persists. The malfunction occurred without prior warning and we are concerned about the security of our data. We would greatly appreciate it if you could investigate this further and provide a solution as soon as possible. Please let us know if you require any additional information from us to resolve this issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erkennung von Problemen in der SaaS-Plattform\n\nSehr geehrte Kundenservice-Abteilung, <br>Ich m\u00f6chte melden, dass ich ein unerwartetes Stoppen der SaaS-Plattform beobachtet habe My name is John Doe.. Dies k\u00f6nnte m\u00f6glicherweise auf ein Problem mit der Azure-Integration zur\u00fcckzuf\u00fchren sein. Ich habe bereits versucht, mein Arbeitsplatz neu zu starten und die Firewall-Parameter zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und eine schnelle L\u00f6sung liefern k\u00f6nnten You can reach me at johndoe@email.com.. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        576,
+        593
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Erkennung von Problemen in der SaaS-Plattform\n\nSehr geehrte Kundenservice-Abteilung, <br>Ich m\u00f6chte melden, dass ich ein unerwartetes Stoppen der SaaS-Plattform beobachtet habe My name is [full_name].. Dies k\u00f6nnte m\u00f6glicherweise auf ein Problem mit der Azure-Integration zur\u00fcckzuf\u00fchren sein. Ich habe bereits versucht, mein Arbeitsplatz neu zu starten und die Firewall-Parameter zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit k\u00fcmmern und eine schnelle L\u00f6sung liefern k\u00f6nnten You can reach me at [email].. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Engagement.",
+  "category_of_the_email": "Incident"
+}

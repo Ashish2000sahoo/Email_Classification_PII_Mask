@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Issue with Medical Data Encryption Software\n\nDear Customer Support, <br><br>I am contacting you to report a serious problem with our medical data encryption software. The encryption process has abruptly stopped working, and we are unable to identify the cause. We are currently suspecting that the software might be outdated or there could be an issue with its configuration. <br><br>We have already tried rebooting the systems and reviewing the logs for any error messages, but the issue continues to persist. We have also attempted to reach out to the support team, but have not yet received a response. <br><br>The failure of the encryption software has major implications for the safety and privacy of our medical data. We are worried that this might lead to a compromise of the integrity of our systems and could expose sensitive information. <br><br>We would greatly appreciate it if you could investigate this matter urgently and offer a solution as soon as possible My name is Liu Wei.. Please let us know if there is any additional information you need from us to address this issue You can reach me at johndoe@email.com.. <br><br>Thank you for promptly addressing this matter. We are looking forward to your response soon. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1003,
+        1010
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        1134,
+        1151
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue with Medical Data Encryption Software\n\nDear Customer Support, <br><br>I am contacting you to report a serious problem with our medical data encryption software. The encryption process has abruptly stopped working, and we are unable to identify the cause. We are currently suspecting that the software might be outdated or there could be an issue with its configuration. <br><br>We have already tried rebooting the systems and reviewing the logs for any error messages, but the issue continues to persist. We have also attempted to reach out to the support team, but have not yet received a response. <br><br>The failure of the encryption software has major implications for the safety and privacy of our medical data. We are worried that this might lead to a compromise of the integrity of our systems and could expose sensitive information. <br><br>We would greatly appreciate it if you could investigate this matter urgently and offer a solution as soon as possible My name is [full_name].. Please let us know if there is any additional information you need from us to address this issue You can reach me at [email].. <br><br>Thank you for promptly addressing this matter. We are looking forward to your response soon. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

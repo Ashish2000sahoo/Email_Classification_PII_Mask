@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Identified Problems with Airtable Synchronization\n\nFaced synchronization difficulties between Airtable and Cassandra 4.0. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        152,
+        168
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Identified Problems with Airtable Synchronization\n\nFaced synchronization difficulties between Airtable and Cassandra 4.0. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nGeh\u00f6rte Kundenservice, ich schreibe, um nachzufragen, wie Strategien zur Integration von Apple macOS Monterey integriert werden My name is Elena Ivanova.. Ich sch\u00e4tze es, wenn Sie mehr relevante Informationen und Dokumentationen bereitstellen k\u00f6nnten You can reach me at carlosm@gmail.com.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre baldige R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        280,
+        297
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nGeh\u00f6rte Kundenservice, ich schreibe, um nachzufragen, wie Strategien zur Integration von Apple macOS Monterey integriert werden My name is [full_name].. Ich sch\u00e4tze es, wenn Sie mehr relevante Informationen und Dokumentationen bereitstellen k\u00f6nnten You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre baldige R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

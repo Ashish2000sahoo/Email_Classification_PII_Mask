@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Investment-Optimization-Software\n\nOur financial institution's software for optimizing the investment process yields expected analytical results. However, we are encountering difficulties with data integration, which seems to be due to incorrect input parameters. We have conducted diagnostic tests on the data sources, but the problem persists My name is Jane Smith.. We need support to resolve this issue and achieve the expected analytical results. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        375,
+        385
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        492,
+        510
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Issue with Investment-Optimization-Software\n\nOur financial institution's software for optimizing the investment process yields expected analytical results. However, we are encountering difficulties with data integration, which seems to be due to incorrect input parameters. We have conducted diagnostic tests on the data sources, but the problem persists My name is [full_name].. We need support to resolve this issue and achieve the expected analytical results. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

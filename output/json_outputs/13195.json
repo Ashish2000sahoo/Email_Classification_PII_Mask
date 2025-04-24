@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Marketing Support\n\nOur marketing agency has experienced a sudden drop in brand engagement metrics. This may be due to recent changes in our digital strategies or platform algorithms My name is Sophia Rossi.. Despite analyzing performance reports and adjusting our campaigns, engagement levels remain low You can reach me at johndoe@email.com.. We need assistance in identifying the root cause and implementing effective solutions to boost engagement.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        238
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        356,
+        373
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Marketing Support\n\nOur marketing agency has experienced a sudden drop in brand engagement metrics. This may be due to recent changes in our digital strategies or platform algorithms My name is [full_name].. Despite analyzing performance reports and adjusting our campaigns, engagement levels remain low You can reach me at [email].. We need assistance in identifying the root cause and implementing effective solutions to boost engagement.",
+  "category_of_the_email": "Incident"
+}

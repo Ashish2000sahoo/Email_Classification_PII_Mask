@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Website Analytics Tracking Code\n\nHello Customer Support, <br><br>I am contacting you to report a problem with the tracking code on our website You can reach me at carlosm@gmail.com.. We have noticed that it has stopped functioning, and we are unable to track our site's performance. We attempted to resolve the issue by reviewing the code and plugin versions, but were unsuccessful. <br><br>The tracking code was functioning properly until recently, and we suspect it may be a conflict with another code or plugin on our site My name is Omar Hassan.. It's also possible that a recent update caused this problem. <br><br>We would be very grateful if you could assist us in addressing this issue promptly. Please let us know if there are any additional steps we should take to diagnose the problem or if you require further details from us. <br><br>We appreciate your time and assistance and are looking forward to your response. <br><br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        557,
+        568
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        183,
+        200
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Website Analytics Tracking Code\n\nHello Customer Support, <br><br>I am contacting you to report a problem with the tracking code on our website You can reach me at [email].. We have noticed that it has stopped functioning, and we are unable to track our site's performance. We attempted to resolve the issue by reviewing the code and plugin versions, but were unsuccessful. <br><br>The tracking code was functioning properly until recently, and we suspect it may be a conflict with another code or plugin on our site My name is [full_name].. It's also possible that a recent update caused this problem. <br><br>We would be very grateful if you could assist us in addressing this issue promptly. Please let us know if there are any additional steps we should take to diagnose the problem or if you require further details from us. <br><br>We appreciate your time and assistance and are looking forward to your response. <br><br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

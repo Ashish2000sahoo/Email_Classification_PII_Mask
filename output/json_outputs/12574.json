@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Versperrter Zugriff auf medizinische Akten\n\nEin potenzieller Zugriffssperrenfall bei medizinischen Akten wurde identifiziert You can reach me at johndoe@email.com.. Die Schwachstellen scheinen in der IT-Infrastruktur zu liegen. Trotz Versuche, die Sicherheitsprotokolle zu aktualisieren, beh\u00e4lt der Problemfall seinen Verlauf My name is John Doe.. Eine unverz\u00fcgliche Unterst\u00fctzung w\u00e4re sehr willkommen, um weitere Sperren zu vermeiden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        346,
+        354
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        154,
+        171
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Versperrter Zugriff auf medizinische Akten\n\nEin potenzieller Zugriffssperrenfall bei medizinischen Akten wurde identifiziert You can reach me at [email].. Die Schwachstellen scheinen in der IT-Infrastruktur zu liegen. Trotz Versuche, die Sicherheitsprotokolle zu aktualisieren, beh\u00e4lt der Problemfall seinen Verlauf My name is [full_name].. Eine unverz\u00fcgliche Unterst\u00fctzung w\u00e4re sehr willkommen, um weitere Sperren zu vermeiden.",
+  "category_of_the_email": "Incident"
+}

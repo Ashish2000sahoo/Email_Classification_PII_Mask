@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Potential Security Breach Involving Sensitive Medical Data\n\nThere is a potential security breach involving sensitive medical data that may have occurred due to outdated security protocols in the systems You can reach me at sophia.rossi@service.it.. Although updated software has been implemented to strengthen encryption measures, concerns about the integrity of the data still remain My name is Liu Wei.. I would appreciate guidance on actions to ensure that our security systems adequately protect patient data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        415,
+        422
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        242,
+        265
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Report on Potential Security Breach Involving Sensitive Medical Data\n\nThere is a potential security breach involving sensitive medical data that may have occurred due to outdated security protocols in the systems You can reach me at [email].. Although updated software has been implemented to strengthen encryption measures, concerns about the integrity of the data still remain My name is [full_name].. I would appreciate guidance on actions to ensure that our security systems adequately protect patient data.",
+  "category_of_the_email": "Incident"
+}

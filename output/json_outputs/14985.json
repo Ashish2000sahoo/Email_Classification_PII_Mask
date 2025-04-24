@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Description\n\nTo the support team, here is a brief description of the issue: What happened: Medical data transfer failed using the Anker USB C cable. Why it might have happened: The cable is possibly incompatible with the Linux system You can reach me at elena.ivanova@support.org.. What has been tried: Restarted Jenkins, reviewed Terraform configurations. Assistance is greatly appreciated in this matter. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        435,
+        447
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        271,
+        296
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem Description\n\nTo the support team, here is a brief description of the issue: What happened: Medical data transfer failed using the Anker USB C cable. Why it might have happened: The cable is possibly incompatible with the Linux system You can reach me at [email].. What has been tried: Restarted Jenkins, reviewed Terraform configurations. Assistance is greatly appreciated in this matter. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

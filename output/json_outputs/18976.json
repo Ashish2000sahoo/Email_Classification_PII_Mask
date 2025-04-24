@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Anomalie bei Projektverwaltung\n\nBenutzer melden Probleme mit dem Belastungsfenster in der Projektverwaltung. Neue Serverkonfigurationen k\u00f6nnten dahinterstecken My name is Jane Smith.. Momentane Ma\u00dfnahmen zur Fehlerbehebung umfassen die \u00dcberpr\u00fcfung der Netzwerkstabilit\u00e4t und das Bereinigen der Browser-Caches. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        201
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        351,
+        376
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Technische Anomalie bei Projektverwaltung\n\nBenutzer melden Probleme mit dem Belastungsfenster in der Projektverwaltung. Neue Serverkonfigurationen k\u00f6nnten dahinterstecken My name is [full_name].. Momentane Ma\u00dfnahmen zur Fehlerbehebung umfassen die \u00dcberpr\u00fcfung der Netzwerkstabilit\u00e4t und das Bereinigen der Browser-Caches. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

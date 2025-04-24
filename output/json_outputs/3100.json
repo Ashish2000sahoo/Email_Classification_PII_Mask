@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Billing Options for MongoDB\n\nHello Customer Support, I am writing to get details on the billing plans for integrating MongoDB with your project management SaaS platform. Could you kindly elaborate on the available plans and their associated costs? I would also be grateful for any information on potential discounts or special offers You can reach me at maria.gonzalez@shop.es.. Moreover, I would like to know if there are any usage limitations or restrictions when MongoDB is integrated with your platform My name is David Kim.. I appreciate your time and assistance and look forward to your response. Best regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        538,
+        547
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        374,
+        396
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Billing Options for MongoDB\n\nHello Customer Support, I am writing to get details on the billing plans for integrating MongoDB with your project management SaaS platform. Could you kindly elaborate on the available plans and their associated costs? I would also be grateful for any information on potential discounts or special offers You can reach me at [email].. Moreover, I would like to know if there are any usage limitations or restrictions when MongoDB is integrated with your platform My name is [full_name].. I appreciate your time and assistance and look forward to your response. Best regards.",
+  "category_of_the_email": "Request"
+}

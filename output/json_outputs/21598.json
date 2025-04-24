@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia com Configura\u00e7\u00e3o da Samsung QLED\n\nCaro Suporte ao Cliente,\n\nPreciso de ajuda para configurar minha nova TV Smart Samsung QLED QN90A e conect\u00e1-la ao Wi-Fi. Voc\u00ea poderia, por favor, fornecer orienta\u00e7\u00f5es ou recomendar etapas ou recursos espec\u00edficos? Obrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n<name>. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        362
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia com Configura\u00e7\u00e3o da Samsung QLED\n\nCaro Suporte ao Cliente,\n\nPreciso de ajuda para configurar minha nova TV Smart Samsung QLED QN90A e conect\u00e1-la ao Wi-Fi. Voc\u00ea poderia, por favor, fornecer orienta\u00e7\u00f5es ou recomendar etapas ou recursos espec\u00edficos? Obrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n<name>. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

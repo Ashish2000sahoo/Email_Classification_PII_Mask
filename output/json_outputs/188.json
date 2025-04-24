@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Encryption\n\nHello Customer Support, I am reaching out to address an encryption incident on our server. It appears to be a software anomaly that has emerged. After executing several diagnostic measures, such as restarting the server and examining the configuration parameters, the issue continues to be unresolved You can reach me at janesmith@company.com.. My efforts to pinpoint the cause of the problem have been unsuccessful. Due to this encryption problem, our operations are severely disrupted, and I would greatly appreciate your immediate assistance in addressing this situation. I need your help in tracing the origin of the issue and devising a solution to fix it. Kindly inform me if there are additional actions I should undertake or if you need further data from me My name is Fatima Al-Farsi.. I have restarted the server multiple times, yet the issue still persists. Additionally, I have reviewed the configurations but did not find any errors. I am unsure of what to do next and am relying on your expertise to resolve this encryption issue. Any advice or support you can provide would be greatly appreciated. Thank you for your attention and assistance. I look forward to your prompt response and am available to offer any further information or to address any questions you might have. Thank you once again for your help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        821,
+        830
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        365,
+        386
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Encryption\n\nHello Customer Support, I am reaching out to address an encryption incident on our server. It appears to be a software anomaly that has emerged. After executing several diagnostic measures, such as restarting the server and examining the configuration parameters, the issue continues to be unresolved You can reach me at [email].. My efforts to pinpoint the cause of the problem have been unsuccessful. Due to this encryption problem, our operations are severely disrupted, and I would greatly appreciate your immediate assistance in addressing this situation. I need your help in tracing the origin of the issue and devising a solution to fix it. Kindly inform me if there are additional actions I should undertake or if you need further data from me My name is [full_name]-Farsi.. I have restarted the server multiple times, yet the issue still persists. Additionally, I have reviewed the configurations but did not find any errors. I am unsure of what to do next and am relying on your expertise to resolve this encryption issue. Any advice or support you can provide would be greatly appreciated. Thank you for your attention and assistance. I look forward to your prompt response and am available to offer any further information or to address any questions you might have. Thank you once again for your help.",
+  "category_of_the_email": "Incident"
+}

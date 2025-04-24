@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Exchange Request for Surface Pro 7\n\nDear Customer Support, \n\nI\u2019ve discussed with your team regarding exchanging my Microsoft Surface Pro 7, as I prefer a model with different specifications You can reach me at liuwei@business.cn.. Please guide me through the exchange process promptly. Appreciate your support My name is Maria Gonzalez.. \n\nBest regards, \n<name> \nAccount Number: <acc_num> \nPhone: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        330,
+        344
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        219,
+        237
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Exchange Request for Surface Pro 7\n\nDear Customer Support, \n\nI\u2019ve discussed with your team regarding exchanging my Microsoft Surface Pro 7, as I prefer a model with different specifications You can reach me at [email].. Please guide me through the exchange process promptly. Appreciate your support My name is [full_name].. \n\nBest regards, \n<name> \nAccount Number: <acc_num> \nPhone: <tel_num>",
+  "category_of_the_email": "Request"
+}

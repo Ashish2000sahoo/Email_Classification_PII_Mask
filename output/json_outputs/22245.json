@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Immediate Action Required: Network Outage\n\nDear Support Team,\n\nI am reaching out to notify you of a critical incident concerning the Cisco Router ISR4331, which is leading to substantial network issues within our organization. This challenge is drastically affecting our operations, and we need urgent troubleshooting and a resolution to restore normal network performance.\n\nOur team first observed the issue on the morning of October 10, 2023, when connectivity troubles emerged, impacting our essential business applications and communications. This has caused significant downtime, hindering both internal communication and client-facing services.\n\nThe router implicated is integral to a crucial network segment and is currently displaying diagnostic error codes that our internal team does not recognize My name is Omar Hassan.. We have tried multiple common troubleshooting methods without success. Considering the ramifications on our operations, we kindly request that your expert team addresses this issue as soon as possible.\n\nPlease inform us of the next steps needed to expedite the diagnosis and resolution You can reach me at maria.gonzalez@shop.es.. I can be reached at <tel_num> or via email at your earliest convenience. We greatly appreciate your prompt consideration of this matter, as it has a direct effect on our daily operations.\n\nThank you for your support.\n\nSincerely,\n\n<name>\nIT Manager\n<company>\nContact: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        828,
+        839
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        1148,
+        1170
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        158,
+        162
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    },
+    {
+      "position": [
+        448,
+        452
+      ],
+      "classification": "phone_number",
+      "entity": "2023"
+    }
+  ],
+  "masked_email": "Subject: Immediate Action Required: Network Outage\n\nDear Support Team,\n\nI am reaching out to notify you of a critical incident concerning the Cisco Router ISR[phone_number], which is leading to substantial network issues within our organization. This challenge is drastically affecting our operations, and we need urgent troubleshooting and a resolution to restore normal network performance.\n\nOur team first observed the issue on the morning of October 10, [phone_number], when connectivity troubles emerged, impacting our essential business applications and communications. This has caused significant downtime, hindering both internal communication and client-facing services.\n\nThe router implicated is integral to a crucial network segment and is currently displaying diagnostic error codes that our internal team does not recognize My name is [full_name].. We have tried multiple common troubleshooting methods without success. Considering the ramifications on our operations, we kindly request that your expert team addresses this issue as soon as possible.\n\nPlease inform us of the next steps needed to expedite the diagnosis and resolution You can reach me at [email].. I can be reached at <tel_num> or via email at your earliest convenience. We greatly appreciate your prompt consideration of this matter, as it has a direct effect on our daily operations.\n\nThank you for your support.\n\nSincerely,\n\n<name>\nIT Manager\n<company>\nContact: <tel_num>",
+  "category_of_the_email": "Incident"
+}

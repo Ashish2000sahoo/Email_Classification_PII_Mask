@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assistance Request: Wireless Setup Issue for HP Printer\n\nHello customer support team, I'm experiencing difficulties setting up the wireless connection for the compact HP DeskJet 3755 printer I purchased. I have ensured that all the required steps are followed, but the issue persists and I'm unable to proceed further. Please provide guidance on how to successfully resolve this issue. Thank you for your assistance You can reach me at omar.hassan@secure.net.. Regards, <name>. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        505
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        445,
+        467
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        187,
+        191
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assistance Request: Wireless Setup Issue for HP Printer\n\nHello customer support team, I'm experiencing difficulties setting up the wireless connection for the compact HP DeskJet [phone_number] printer I purchased. I have ensured that all the required steps are followed, but the issue persists and I'm unable to proceed further. Please provide guidance on how to successfully resolve this issue. Thank you for your assistance You can reach me at [email].. Regards, <name>. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Required Support for Investment\n\nThere have been inaccurate predictions in investments owing to faulty data input. After rerunning the models with updated data, the issue still exists You can reach me at johndoe@email.com.. Please assist in addressing this. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        292
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        213,
+        230
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Required Support for Investment\n\nThere have been inaccurate predictions in investments owing to faulty data input. After rerunning the models with updated data, the issue still exists You can reach me at [email].. Please assist in addressing this. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

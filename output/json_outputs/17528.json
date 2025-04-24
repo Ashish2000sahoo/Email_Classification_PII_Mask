@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Invoice Error\n\nAn unexpected fee account was entered for our last invoice, this error is attributed to an invoice mistake.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Invoice Error\n\nAn unexpected fee account was entered for our last invoice, this error is attributed to an invoice mistake.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

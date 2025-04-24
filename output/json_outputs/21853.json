@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia requerida para la implementaci\u00f3n de AWS\n\nEstimado servicio de atenci\u00f3n al cliente de IT, \n\nEspero que este mensaje los encuentre bien. Requiero asistencia para implementar nuevas aplicaciones en la infraestructura de AWS, espec\u00edficamente en cuanto a la configuraci\u00f3n \u00f3ptima de escalado y seguridad You can reach me at omar.hassan@secure.net.. Estamos utilizando el Servicio de Gesti\u00f3n de AWS y agradecer\u00eda cualquier orientaci\u00f3n disponible.\n\nPor favor, h\u00e1ganme saber qu\u00e9 informaci\u00f3n adicional podr\u00edan necesitar o si hay un momento conveniente para discutir esto m\u00e1s a fondo. Su experiencia y apoyo son cruciales para asegurar una implementaci\u00f3n sin problemas.\n\nGracias,\n\n<name>\nN\u00famero de cuenta: <acc_num>\nTel\u00e9fono: <tel_num> My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        756,
+        770
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        338,
+        360
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Asistencia requerida para la implementaci\u00f3n de AWS\n\nEstimado servicio de atenci\u00f3n al cliente de IT, \n\nEspero que este mensaje los encuentre bien. Requiero asistencia para implementar nuevas aplicaciones en la infraestructura de AWS, espec\u00edficamente en cuanto a la configuraci\u00f3n \u00f3ptima de escalado y seguridad You can reach me at [email].. Estamos utilizando el Servicio de Gesti\u00f3n de AWS y agradecer\u00eda cualquier orientaci\u00f3n disponible.\n\nPor favor, h\u00e1ganme saber qu\u00e9 informaci\u00f3n adicional podr\u00edan necesitar o si hay un momento conveniente para discutir esto m\u00e1s a fondo. Su experiencia y apoyo son cruciales para asegurar una implementaci\u00f3n sin problemas.\n\nGracias,\n\n<name>\nN\u00famero de cuenta: <acc_num>\nTel\u00e9fono: <tel_num> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der digitalen Strategie-Optimierung\n\nWir haben einen merklichen R\u00fcckgang in unseren Online-Beteiligungsmetriken durch recente digitale Strategie-Anpassungen. Dies scheint auf ein Versagen der Botschaft auf verschiedenen Plattformen zur\u00fcckzuf\u00fchren You can reach me at maria.gonzalez@shop.es.. Wir haben uns bem\u00fcht, unser Inhaltsangebot zu \u00fcberarbeiten und die Zielgruppenspezifische Werbung zu optimieren, aber die Probleme sind weiterhin bestehen. Ich w\u00e4re dankbar, wenn Sie mehr Rat geben k\u00f6nnten in dieser Angelegenheit. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        553,
+        563
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        286,
+        308
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der digitalen Strategie-Optimierung\n\nWir haben einen merklichen R\u00fcckgang in unseren Online-Beteiligungsmetriken durch recente digitale Strategie-Anpassungen. Dies scheint auf ein Versagen der Botschaft auf verschiedenen Plattformen zur\u00fcckzuf\u00fchren You can reach me at [email].. Wir haben uns bem\u00fcht, unser Inhaltsangebot zu \u00fcberarbeiten und die Zielgruppenspezifische Werbung zu optimieren, aber die Probleme sind weiterhin bestehen. Ich w\u00e4re dankbar, wenn Sie mehr Rat geben k\u00f6nnten in dieser Angelegenheit. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

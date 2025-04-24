@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Medizinische Daten und potenzielle Software-Vulnerabilit\u00e4t - Zugangssteuerung gef\u00e4hrdet\n\nMedizinische Daten k\u00f6nnten durch eine Software-Vulnerabilit\u00e4t gef\u00e4hrdet sein, insbesondere bei der Zugangssteuerung. Wir haben bereits Aktualisierungen und ein Sicherheitsaudit eingeleitet.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        310,
+        325
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Daten und potenzielle Software-Vulnerabilit\u00e4t - Zugangssteuerung gef\u00e4hrdet\n\nMedizinische Daten k\u00f6nnten durch eine Software-Vulnerabilit\u00e4t gef\u00e4hrdet sein, insbesondere bei der Zugangssteuerung. Wir haben bereits Aktualisierungen und ein Sicherheitsaudit eingeleitet.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

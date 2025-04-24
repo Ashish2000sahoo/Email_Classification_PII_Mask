@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Recurring SQL error impacting data retrieval for projects\n\nDear IT Services Support Team,\n\nI am writing to report an issue that one of our customers, <name>, has been experiencing with PostgreSQL 14.3. They have identified recurring SQL errors when attempting to access the database, which is significantly impacting their ability to retrieve data for several critical projects You can reach me at carlosm@gmail.com.. This issue is causing considerable disruptions in their day-to-day operations, and they are seeking an immediate resolution.\n\nThe customer reports that the SQL errors are unpredictable but have become more frequent over the past weeks. These issues arise during data query executions, halting progress on tasks essential to project completion. We have reviewed their current configuration settings and ensured they are aligned with the standard parameters recommended for optimal performance.\n\nPlease advise on the next steps we should take to troubleshoot and resolve this persistent problem. We would greatly appreciate any expedited assistance you might be able to provide to minimize the impact on our customer's productivity.\n\nThank you for your immediate attention to this matter.\n\nBest regards,\n\n<name>\n<name>@company.com\n<tel_num> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1277,
+        1288
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        407,
+        424
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Recurring SQL error impacting data retrieval for projects\n\nDear IT Services Support Team,\n\nI am writing to report an issue that one of our customers, <name>, has been experiencing with PostgreSQL 14.3. They have identified recurring SQL errors when attempting to access the database, which is significantly impacting their ability to retrieve data for several critical projects You can reach me at [email].. This issue is causing considerable disruptions in their day-to-day operations, and they are seeking an immediate resolution.\n\nThe customer reports that the SQL errors are unpredictable but have become more frequent over the past weeks. These issues arise during data query executions, halting progress on tasks essential to project completion. We have reviewed their current configuration settings and ensured they are aligned with the standard parameters recommended for optimal performance.\n\nPlease advise on the next steps we should take to troubleshoot and resolve this persistent problem. We would greatly appreciate any expedited assistance you might be able to provide to minimize the impact on our customer's productivity.\n\nThank you for your immediate attention to this matter.\n\nBest regards,\n\n<name>\n<name>@company.com\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

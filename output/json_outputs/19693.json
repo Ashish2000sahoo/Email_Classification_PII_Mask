@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Guidance for Integrating Microsoft SQL Server 2019 SaaS Project Management Solution\n\nInquiring about the process of integrating the Microsoft SQL Server 2019 SaaS project management solution You can reach me at omar.hassan@secure.net.. Seeking information on the process, requirements, and potential limitations. Would appreciate detailed guidance and documentation to help understand how to successfully integrate the systems My name is Sophia Rossi.. Specifically, interested in learning about data synchronization, security protocols, and compatibility issues. Would be grateful to review case studies or examples of successful integrations. Please let us know.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        447,
+        459
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        220,
+        242
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        55,
+        59
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    },
+    {
+      "position": [
+        162,
+        166
+      ],
+      "classification": "phone_number",
+      "entity": "2019"
+    }
+  ],
+  "masked_email": "Subject: Guidance for Integrating Microsoft SQL Server [phone_number] SaaS Project Management Solution\n\nInquiring about the process of integrating the Microsoft SQL Server [phone_number] SaaS project management solution You can reach me at [email].. Seeking information on the process, requirements, and potential limitations. Would appreciate detailed guidance and documentation to help understand how to successfully integrate the systems My name is [full_name].. Specifically, interested in learning about data synchronization, security protocols, and compatibility issues. Would be grateful to review case studies or examples of successful integrations. Please let us know.",
+  "category_of_the_email": "Request"
+}

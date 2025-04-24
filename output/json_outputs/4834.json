@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Melde Einzahlung von Software-Crashes\n\nSehr geehrte Kundenservice-Team, ich schreibe Ihnen, um einen Meldungsfall mehrerer gleichzeitiger Software-Crashes zu melden My name is David Kim.. Diese Probleme k\u00f6nnten m\u00f6glicherweise auf Kompatibilit\u00e4tsprobleme zur\u00fcckzuf\u00fchren sein. Ich habe bereits versucht, das betroffene Softwareprogramm neu zu starten, zu aktualisieren und zu reinstallieren, aber das Problem ist leider bestehen geblieben You can reach me at maria.gonzalez@shop.es.. Ich w\u00e4re Ihnen sehr dankbar, wenn Sie sich dieser Angelegenheit annehmen und eine L\u00f6sung so schnell wie m\u00f6glich bereitstellen k\u00f6nnten. Die Crashes verursachen erhebliche St\u00f6rungen in meiner t\u00e4glichen Arbeit, und ich bin gespannt darauf, dieses Problem zu l\u00f6sen. Bitte informieren Sie mich, falls Sie weitere Informationen von mir ben\u00f6tigen, um das Problem zu beheben. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit in dieser Angelegenheit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        185,
+        194
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        468,
+        490
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Melde Einzahlung von Software-Crashes\n\nSehr geehrte Kundenservice-Team, ich schreibe Ihnen, um einen Meldungsfall mehrerer gleichzeitiger Software-Crashes zu melden My name is [full_name].. Diese Probleme k\u00f6nnten m\u00f6glicherweise auf Kompatibilit\u00e4tsprobleme zur\u00fcckzuf\u00fchren sein. Ich habe bereits versucht, das betroffene Softwareprogramm neu zu starten, zu aktualisieren und zu reinstallieren, aber das Problem ist leider bestehen geblieben You can reach me at [email].. Ich w\u00e4re Ihnen sehr dankbar, wenn Sie sich dieser Angelegenheit annehmen und eine L\u00f6sung so schnell wie m\u00f6glich bereitstellen k\u00f6nnten. Die Crashes verursachen erhebliche St\u00f6rungen in meiner t\u00e4glichen Arbeit, und ich bin gespannt darauf, dieses Problem zu l\u00f6sen. Bitte informieren Sie mich, falls Sie weitere Informationen von mir ben\u00f6tigen, um das Problem zu beheben. Ich danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit in dieser Angelegenheit.",
+  "category_of_the_email": "Incident"
+}

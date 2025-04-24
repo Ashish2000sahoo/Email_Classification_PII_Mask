@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Please Improve SaaS Compatibility\n\nRequest to enhance project management SaaS for better compatibility with PowerPoint 2021 and Excel to boost user experience and simplify workflow processes.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        132
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        223,
+        238
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Please Improve SaaS Compatibility\n\nRequest to enhance project management SaaS for better compatibility with PowerPoint [phone_number] and Excel to boost user experience and simplify workflow processes.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

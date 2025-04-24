@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Istuaushsung mit Kampagnenmetriken\n\nSehr geehrte Kundensupport, ich melde ein unregelm\u00e4\u00dfiges Verhalten der Kampagnenmetriken an. Es kommt zu Problemen, die m\u00f6glicherweise auf eine fehlerhafte Tag-Implementierung zur\u00fcckzuf\u00fchren sein k\u00f6nnten You can reach me at janesmith@company.com.. Ich habe die betroffenen Codeausschnitte bereits \u00fcberpr\u00fcft, aber das Problem beharrt trotzdem. Ich w\u00fcrde danken, wenn Sie dies genauer untersuchen und eine L\u00f6sung pr\u00e4sentieren k\u00f6nnten My name is John Doe.. Bitte teilen Sie mich in weiteren Informationen ein, falls diese zur L\u00f6sung notwendig sind. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        488,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        269,
+        290
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Istuaushsung mit Kampagnenmetriken\n\nSehr geehrte Kundensupport, ich melde ein unregelm\u00e4\u00dfiges Verhalten der Kampagnenmetriken an. Es kommt zu Problemen, die m\u00f6glicherweise auf eine fehlerhafte Tag-Implementierung zur\u00fcckzuf\u00fchren sein k\u00f6nnten You can reach me at [email].. Ich habe die betroffenen Codeausschnitte bereits \u00fcberpr\u00fcft, aber das Problem beharrt trotzdem. Ich w\u00fcrde danken, wenn Sie dies genauer untersuchen und eine L\u00f6sung pr\u00e4sentieren k\u00f6nnten My name is [full_name].. Bitte teilen Sie mich in weiteren Informationen ein, falls diese zur L\u00f6sung notwendig sind. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected Campaign Crash\n\nOur digital campaign encountered an unexpected crash due to recent software updates My name is Liu Wei.. After restarting services and reviewing system logs, the problem still exists You can reach me at elena.ivanova@support.org.. Could you please provide assistance in resolving this issue?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        131,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        243,
+        268
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unexpected Campaign Crash\n\nOur digital campaign encountered an unexpected crash due to recent software updates My name is [full_name].. After restarting services and reviewing system logs, the problem still exists You can reach me at [email].. Could you please provide assistance in resolving this issue?",
+  "category_of_the_email": "Incident"
+}

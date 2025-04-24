@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry about Security Protocols for Safeguarding Medical Data\n\nCould you please provide more information on the security measures implemented to protect sensitive medical data from unauthorized access, breaches, and security threats in our products and services? Specifically, I am interested in detailed information on the encryption methods used, access controls, and other security features that ensure the confidentiality, integrity, and availability of medical data You can reach me at omar.hassan@secure.net.. I would appreciate it if you could also provide a detailed explanation of these measures. I would prefer to follow up with a call at <tel_num> to discuss this further. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        705,
+        714
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        501,
+        523
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Inquiry about Security Protocols for Safeguarding Medical Data\n\nCould you please provide more information on the security measures implemented to protect sensitive medical data from unauthorized access, breaches, and security threats in our products and services? Specifically, I am interested in detailed information on the encryption methods used, access controls, and other security features that ensure the confidentiality, integrity, and availability of medical data You can reach me at [email].. I would appreciate it if you could also provide a detailed explanation of these measures. I would prefer to follow up with a call at <tel_num> to discuss this further. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

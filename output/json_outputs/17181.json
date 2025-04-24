@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Notification of Security Incident for Customer Support\n\nCustomer Support, please note a security incident has been reported where potentially sensitive medical data within hospital systems might have been exposed. This issue could be due to outdated software vulnerabilities or misconfigured settings. We have attempted to reset security protocols and applied available patches, but the issue persists My name is David Kim.. We kindly request your assistance in resolving this matter as soon as possible to ensure the security integrity of our systems. Please inform us of the next steps to be taken You can reach me at omar.hassan@secure.net.. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        422,
+        431
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        631,
+        653
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Notification of Security Incident for Customer Support\n\nCustomer Support, please note a security incident has been reported where potentially sensitive medical data within hospital systems might have been exposed. This issue could be due to outdated software vulnerabilities or misconfigured settings. We have attempted to reset security protocols and applied available patches, but the issue persists My name is [full_name].. We kindly request your assistance in resolving this matter as soon as possible to ensure the security integrity of our systems. Please inform us of the next steps to be taken You can reach me at [email].. Thank you.",
+  "category_of_the_email": "Incident"
+}

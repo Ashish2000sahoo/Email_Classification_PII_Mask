@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente: Problema de entrega de MacBook Air M1 da\u00f1ado recibido\n\nHola Atenci\u00f3n al Cliente,\n\nRecientemente compr\u00e9 un MacBook Air M1 en su tienda en l\u00ednea, pero desafortunadamente recib\u00ed un MacBook con da\u00f1os visibles en la pantalla. Este problema debe haber ocurrido durante el tr\u00e1nsito My name is John Doe.. Estoy seriamente preocupado y busco una soluci\u00f3n de inmediato. Mi n\u00famero de pedido es <acc_num> You can reach me at liuwei@business.cn.. \u00bfPodr\u00edan ayudarme con un reemplazo o un reembolso? Por favor, h\u00e1gamelo saber los pr\u00f3ximos pasos.\n\nGracias,\n\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        304,
+        312
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        434,
+        452
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Problema de entrega de MacBook Air M1 da\u00f1ado recibido\n\nHola Atenci\u00f3n al Cliente,\n\nRecientemente compr\u00e9 un MacBook Air M1 en su tienda en l\u00ednea, pero desafortunadamente recib\u00ed un MacBook con da\u00f1os visibles en la pantalla. Este problema debe haber ocurrido durante el tr\u00e1nsito My name is [full_name].. Estoy seriamente preocupado y busco una soluci\u00f3n de inmediato. Mi n\u00famero de pedido es <acc_num> You can reach me at [email].. \u00bfPodr\u00edan ayudarme con un reemplazo o un reembolso? Por favor, h\u00e1gamelo saber los pr\u00f3ximos pasos.\n\nGracias,\n\n<name>\n<tel_num>",
+  "category_of_the_email": "Problem"
+}

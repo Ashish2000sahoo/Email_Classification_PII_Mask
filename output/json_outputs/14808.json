@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Payment Gateway\n\nCustomers are unable to complete transactions, which is affecting the billing of various products. This issue might be due to recent software updates that have impacted the payment gateways My name is John Doe.. After attempting to revert to the last stable version and clearing the cache, the issue still persists You can reach me at fatima.farsi@help.com.. We need your assistance to resolve this issue as soon as possible to minimize any impact on our business.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        240,
+        248
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        377,
+        398
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Payment Gateway\n\nCustomers are unable to complete transactions, which is affecting the billing of various products. This issue might be due to recent software updates that have impacted the payment gateways My name is [full_name].. After attempting to revert to the last stable version and clearing the cache, the issue still persists You can reach me at [email].. We need your assistance to resolve this issue as soon as possible to minimize any impact on our business.",
+  "category_of_the_email": "Incident"
+}

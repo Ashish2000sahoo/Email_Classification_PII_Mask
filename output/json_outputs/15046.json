@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on System Malfunction: Impact on Medical Data Security\n\nA disruption in the system is currently impacting the security of medical data and hospital operations. The exact cause is unknown, but a recent software update or network failure is suspected My name is Carlos Mendoza.. The team has restarted the affected systems and contacted vendors for assistance. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        290
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        392,
+        413
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Report on System Malfunction: Impact on Medical Data Security\n\nA disruption in the system is currently impacting the security of medical data and hospital operations. The exact cause is unknown, but a recent software update or network failure is suspected My name is [full_name].. The team has restarted the affected systems and contacted vendors for assistance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

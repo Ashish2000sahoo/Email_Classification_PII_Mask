@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei Investitionsdienstleistungen\n\nEine finanzielle Firma hat erhebliche St\u00f6rungen bei ihren Investitionsoptimierungs-Dienstleistungen erfahren, insbesondere bei wichtigen Produkten. Diese St\u00f6rungen k\u00f6nnten durch k\u00fcrzlich durchgef\u00fchrte Softwareaktualisierungen auf den Servern verursacht werden My name is Liu Wei.. Versuche, betroffene Anwendungen und Server neu zu starten, haben das Problem gel\u00f6st You can reach me at carlosm@gmail.com.. Es wird dringend darauf hingewiesen, um weitere Verluste zu verhindern.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        442,
+        459
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei Investitionsdienstleistungen\n\nEine finanzielle Firma hat erhebliche St\u00f6rungen bei ihren Investitionsoptimierungs-Dienstleistungen erfahren, insbesondere bei wichtigen Produkten. Diese St\u00f6rungen k\u00f6nnten durch k\u00fcrzlich durchgef\u00fchrte Softwareaktualisierungen auf den Servern verursacht werden My name is [full_name].. Versuche, betroffene Anwendungen und Server neu zu starten, haben das Problem gel\u00f6st You can reach me at [email].. Es wird dringend darauf hingewiesen, um weitere Verluste zu verhindern.",
+  "category_of_the_email": "Incident"
+}

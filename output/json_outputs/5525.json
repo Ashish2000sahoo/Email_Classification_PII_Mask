@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Security Inquiry\n\nRecently, unauthorized access routes to the medical data systems were identified. These are likely due to outdated security protocols and software vulnerabilities.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        213,
+        228
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Security Inquiry\n\nRecently, unauthorized access routes to the medical data systems were identified. These are likely due to outdated security protocols and software vulnerabilities.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

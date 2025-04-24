@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team,\n\nI am encountering challenges when attempting to activate my Kaspersky Internet Security 2024 product My name is Sophia Rossi.. Despite adhering to the suggested guidelines, I am still facing complications You can reach me at sophia.rossi@service.it.. My account number is <acc_num>. Could you kindly assist me with the activation process at your earliest opportunity? You can reach me at <tel_num> or through email at <email>.\n\nThank you for your swift support.\n\nSincerely,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        152,
+        164
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        264,
+        287
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        128,
+        132
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team,\n\nI am encountering challenges when attempting to activate my Kaspersky Internet Security [phone_number] product My name is [full_name].. Despite adhering to the suggested guidelines, I am still facing complications You can reach me at [email].. My account number is <acc_num>. Could you kindly assist me with the activation process at your earliest opportunity? You can reach me at <tel_num> or through email at <email>.\n\nThank you for your swift support.\n\nSincerely,\n<name>",
+  "category_of_the_email": "Incident"
+}

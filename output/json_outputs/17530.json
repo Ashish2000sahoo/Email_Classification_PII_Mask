@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support For Advancing Data Analytics Tool\n\nI am reaching out to request improvements to the data analytics tool that we use for enhancing the optimization of our investment portfolio and improving our risk management strategies. The current tool has some limitations that affect its usability. It would be beneficial if the tool could be upgraded to incorporate more sophisticated features, such as real-time data monitoring and predictive analytics My name is Liu Wei.. This would significantly aid us in making well-informed investment choices and managing risk more efficiently. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        470,
+        477
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        615,
+        632
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Support For Advancing Data Analytics Tool\n\nI am reaching out to request improvements to the data analytics tool that we use for enhancing the optimization of our investment portfolio and improving our risk management strategies. The current tool has some limitations that affect its usability. It would be beneficial if the tool could be upgraded to incorporate more sophisticated features, such as real-time data monitoring and predictive analytics My name is [full_name].. This would significantly aid us in making well-informed investment choices and managing risk more efficiently. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

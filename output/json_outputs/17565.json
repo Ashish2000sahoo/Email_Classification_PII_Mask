@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Projektdaten fehlen in OneNote\n\nLieber Kundensupport, ich bin derzeit besorgt \u00fcber das Verschwinden meiner Projektdaten in OneNote My name is John Doe.. Ich denke, dass es sich um ein Integrationsproblem mit JIRA und Zapier handelt You can reach me at elena.ivanova@support.org.. Ich habe schon versucht, Intel Optane neu zu starten und die Microsoft Teams-Synchronisierung zu \u00fcberpr\u00fcfen, aber das Problem besteht weiterhin. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr gesch\u00e4tzt haben. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen, um dies weiter zu untersuchen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        159
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        264,
+        289
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Projektdaten fehlen in OneNote\n\nLieber Kundensupport, ich bin derzeit besorgt \u00fcber das Verschwinden meiner Projektdaten in OneNote My name is [full_name].. Ich denke, dass es sich um ein Integrationsproblem mit JIRA und Zapier handelt You can reach me at [email].. Ich habe schon versucht, Intel Optane neu zu starten und die Microsoft Teams-Synchronisierung zu \u00fcberpr\u00fcfen, aber das Problem besteht weiterhin. Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr gesch\u00e4tzt haben. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen, um dies weiter zu untersuchen.",
+  "category_of_the_email": "Incident"
+}

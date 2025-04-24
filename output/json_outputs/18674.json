@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Ensuring Secure Access to Medical Data\n\nI require assistance in setting up multi-factor authentication on my UniFi Dream Machine to strengthen the security of our medical data. Could you offer a detailed guide or suggest an appropriate solution? It's crucial to safeguard sensitive patient information.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        349
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Ensuring Secure Access to Medical Data\n\nI require assistance in setting up multi-factor authentication on my UniFi Dream Machine to strengthen the security of our medical data. Could you offer a detailed guide or suggest an appropriate solution? It's crucial to safeguard sensitive patient information.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

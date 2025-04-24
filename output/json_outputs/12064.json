@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Authentication Process Today\n\nI faced an unexpected login failure recently. This might be due to the latest security updates. I have already attempted restarting my browser and clearing the cache, but the issue still exists You can reach me at carlosm@gmail.com.. I would really appreciate your help in resolving this as soon as possible. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        372,
+        383
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        266,
+        283
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Authentication Process Today\n\nI faced an unexpected login failure recently. This might be due to the latest security updates. I have already attempted restarting my browser and clearing the cache, but the issue still exists You can reach me at [email].. I would really appreciate your help in resolving this as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed: Incorrect Shipment\n\nI received a shipment with an incorrect order and suspect it might be due to a warehouse packing mistake My name is Jane Smith.. I have already reached out to support and am waiting for a response. I appreciate it if you could investigate and provide a prompt resolution. If you need any additional details from me, please let me know. I look forward to your reply soon You can reach me at elena.ivanova@support.org.. Thank you for your attention to this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        171
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        436,
+        461
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Needed: Incorrect Shipment\n\nI received a shipment with an incorrect order and suspect it might be due to a warehouse packing mistake My name is [full_name].. I have already reached out to support and am waiting for a response. I appreciate it if you could investigate and provide a prompt resolution. If you need any additional details from me, please let me know. I look forward to your reply soon You can reach me at [email].. Thank you for your attention to this matter.",
+  "category_of_the_email": "Incident"
+}

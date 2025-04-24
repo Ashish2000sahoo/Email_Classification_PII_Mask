@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEs wurde ein m\u00f6glicher Datenverlust in Bezug auf die Sicherheit medizinischer Daten gemeldet. Schwache Zugriffssteuerungen und veraltete Software k\u00f6nnten dahingehend verantwortlich sein. Antivirusdefinitionen wurden aktualisiert, und die Benutzerrechte versch\u00e4rft My name is Omar Hassan.. Systemprotokolle wurden durchsucht, um verd\u00e4chtiges Verhalten zu identifizieren. Wir nehmen diesen Vorfall ernst und arbeiten daran, die Angelegenheit so schnell wie m\u00f6glich zu l\u00f6sen. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        504,
+        521
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nEs wurde ein m\u00f6glicher Datenverlust in Bezug auf die Sicherheit medizinischer Daten gemeldet. Schwache Zugriffssteuerungen und veraltete Software k\u00f6nnten dahingehend verantwortlich sein. Antivirusdefinitionen wurden aktualisiert, und die Benutzerrechte versch\u00e4rft My name is [full_name].. Systemprotokolle wurden durchsucht, um verd\u00e4chtiges Verhalten zu identifizieren. Wir nehmen diesen Vorfall ernst und arbeiten daran, die Angelegenheit so schnell wie m\u00f6glich zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

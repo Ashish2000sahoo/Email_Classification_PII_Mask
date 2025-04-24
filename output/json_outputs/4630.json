@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Temporary Crashes in Data Analysis Application\n\nThe data analysis application is experiencing temporary crashes. Attempted to restart resources, but the issue persists.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        216
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Temporary Crashes in Data Analysis Application\n\nThe data analysis application is experiencing temporary crashes. Attempted to restart resources, but the issue persists.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

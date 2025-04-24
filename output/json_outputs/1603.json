@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Avid Pro Tools SaaS Integration Inquiry\n\nSeeking guidance on integrating Avid Pro Tools SaaS with our project management solution You can reach me at johndoe@email.com.. Could you provide details on the process, specific requirements, and any compatibility issues we should be aware of? Additionally, are there any tutorials or guides available to help walk us through the integration process? I am keen to learn more about the solution to help streamline our workflow and improve team collaboration My name is Liu Wei.. Please let me know about any resources or support available to assist with the integration.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        520,
+        527
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        159,
+        176
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Avid Pro Tools SaaS Integration Inquiry\n\nSeeking guidance on integrating Avid Pro Tools SaaS with our project management solution You can reach me at [email].. Could you provide details on the process, specific requirements, and any compatibility issues we should be aware of? Additionally, are there any tutorials or guides available to help walk us through the integration process? I am keen to learn more about the solution to help streamline our workflow and improve team collaboration My name is [full_name].. Please let me know about any resources or support available to assist with the integration.",
+  "category_of_the_email": "Request"
+}

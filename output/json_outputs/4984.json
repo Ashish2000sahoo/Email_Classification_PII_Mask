@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Major Failure in SaaS Platform\n\nA critical outage has affected the SaaS platform, disrupting several integrations My name is Omar Hassan.. The recent updates might be the cause of the API connection problems. Efforts to revert the changes and reset configurations have not been successful. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        153
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        327,
+        344
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Major Failure in SaaS Platform\n\nA critical outage has affected the SaaS platform, disrupting several integrations My name is [full_name].. The recent updates might be the cause of the API connection problems. Efforts to revert the changes and reset configurations have not been successful. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

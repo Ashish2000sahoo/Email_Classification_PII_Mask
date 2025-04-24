@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Asistencia inmediata requerida para la interrupci\u00f3n de la red\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nActualmente estamos experimentando un incidente de alta prioridad que involucra nuestro Cisco Router ISR4331, lo que est\u00e1 causando interrupciones significativas en el rendimiento de nuestra red empresarial. Este problema ha llevado a una interrupci\u00f3n parcial que afecta a varias operaciones cr\u00edticas You can reach me at johndoe@email.com.. Le solicitamos amablemente su atenci\u00f3n y experiencia inmediatas para resolver este problema lo m\u00e1s r\u00e1pido posible.\n\nPor favor, proporcione orientaci\u00f3n sobre los pr\u00f3ximos pasos para la soluci\u00f3n de problemas o confirme el despacho de un equipo t\u00e9cnico My name is Omar Hassan.. Puede comunicarse conmigo a nuestra l\u00ednea directa: <tel_num> o por correo electr\u00f3nico a <email_address>.\n\nGracias por su pronta respuesta.\n\nAtentamente,\n\n<name>\n<company_name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        716,
+        727
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        435,
+        452
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        219,
+        223
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Asistencia inmediata requerida para la interrupci\u00f3n de la red\n\nEstimado Servicio de Atenci\u00f3n al Cliente,\n\nActualmente estamos experimentando un incidente de alta prioridad que involucra nuestro Cisco Router ISR[phone_number], lo que est\u00e1 causando interrupciones significativas en el rendimiento de nuestra red empresarial. Este problema ha llevado a una interrupci\u00f3n parcial que afecta a varias operaciones cr\u00edticas You can reach me at [email].. Le solicitamos amablemente su atenci\u00f3n y experiencia inmediatas para resolver este problema lo m\u00e1s r\u00e1pido posible.\n\nPor favor, proporcione orientaci\u00f3n sobre los pr\u00f3ximos pasos para la soluci\u00f3n de problemas o confirme el despacho de un equipo t\u00e9cnico My name is [full_name].. Puede comunicarse conmigo a nuestra l\u00ednea directa: <tel_num> o por correo electr\u00f3nico a <email_address>.\n\nGracias por su pronta respuesta.\n\nAtentamente,\n\n<name>\n<company_name>",
+  "category_of_the_email": "Incident"
+}

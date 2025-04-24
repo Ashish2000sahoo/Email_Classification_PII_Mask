@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Availabilities of Billing Options\n\nDear Customer Support, I am writing to request details regarding the billing methods for Redis 6.2 and IBM SPSS Statistics 28 subscriptions My name is David Kim.. Could you kindly provide me with information on the various billing plans available for these products? I am particularly interested in understanding the cost structure associated with each plan, as well as any discounts that might be offered for extended commitments or bulk purchases. Additionally, I would appreciate it if you could inform me about any extra fees or charges that might apply, such as setup fees or support costs. I am eager to gain more insight into the pricing structure for these products so that I can make an informed choice about the most suitable subscription option. I look forward to your prompt response and to hearing back from you soon. Sincerely, [Your Name] You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        195,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        920,
+        941
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Availabilities of Billing Options\n\nDear Customer Support, I am writing to request details regarding the billing methods for Redis 6.2 and IBM SPSS Statistics 28 subscriptions My name is [full_name].. Could you kindly provide me with information on the various billing plans available for these products? I am particularly interested in understanding the cost structure associated with each plan, as well as any discounts that might be offered for extended commitments or bulk purchases. Additionally, I would appreciate it if you could inform me about any extra fees or charges that might apply, such as setup fees or support costs. I am eager to gain more insight into the pricing structure for these products so that I can make an informed choice about the most suitable subscription option. I look forward to your prompt response and to hearing back from you soon. Sincerely, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Reported Problem with Data Feed\n\nThe disruption of the data feed has halted the optimization of investments.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        156
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Reported Problem with Data Feed\n\nThe disruption of the data feed has halted the optimization of investments.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

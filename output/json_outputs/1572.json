@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Kritischer Vorfall bei Medizinischen Daten und Dienstzugriff\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte mich bei euch melden, um einen unmittelbaren und ernsten Fehler zu melden, der unsere medizinischen Daten gef\u00e4hrdet und den Zugriff auf unsere Dienste eingeschr\u00e4nkt hat. Der Fehler entstand durch einen verd\u00e4chtig unsicheren Protokoll-Service und eine veraltete Version von Perl.\\n\\nWir haben bereits versucht, die Server neu zu starten und Ansible-Updates anzubringen, aber das Problem beh\u00e4lt sich best\u00e4ndig bestehen.\\n\\nEs w\u00e4re sehr hilfreich, wenn wir diese Angelegenheit so schnell wie m\u00f6glich l\u00f6sen k\u00f6nnten.\\n\\nVielen Dank, \\n[Ihr Name]. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        676,
+        692
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Kritischer Vorfall bei Medizinischen Daten und Dienstzugriff\n\nSehr geehrte Kundenservice,\\n\\nich m\u00f6chte mich bei euch melden, um einen unmittelbaren und ernsten Fehler zu melden, der unsere medizinischen Daten gef\u00e4hrdet und den Zugriff auf unsere Dienste eingeschr\u00e4nkt hat. Der Fehler entstand durch einen verd\u00e4chtig unsicheren Protokoll-Service und eine veraltete Version von Perl.\\n\\nWir haben bereits versucht, die Server neu zu starten und Ansible-Updates anzubringen, aber das Problem beh\u00e4lt sich best\u00e4ndig bestehen.\\n\\nEs w\u00e4re sehr hilfreich, wenn wir diese Angelegenheit so schnell wie m\u00f6glich l\u00f6sen k\u00f6nnten.\\n\\nVielen Dank, \\n[Ihr Name]. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

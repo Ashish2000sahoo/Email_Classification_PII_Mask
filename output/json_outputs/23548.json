@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Dringendes \u00dcberhitzungsproblem\n\nDell XPS \u00fcberhitzt nach l\u00e4ngerer Nutzung.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        105,
+        120
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Dringendes \u00dcberhitzungsproblem\n\nDell XPS \u00fcberhitzt nach l\u00e4ngerer Nutzung.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

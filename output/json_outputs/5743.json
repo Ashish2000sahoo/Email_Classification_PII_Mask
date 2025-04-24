@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Gemeldete Probleme mit der Software-Kompatibilit\u00e4t\n\nDas Marketingteam meldet Kompatibilit\u00e4tsprobleme mit der Software, die die Projektworkflows st\u00f6ren You can reach me at carlosm@gmail.com.. Diese Probleme scheinen durch k\u00fcrzlich durchgef\u00fchrte Systemaktualisierungen verursacht worden zu sein My name is Maria Gonzalez.. Versucht, die betroffene Software neu zu installieren und die Einstellungen zu optimieren, wurde jedoch kein Erfolg erzielt. Bitte vermitteln Sie h\u00f6flich Unterst\u00fctzung f\u00fcr die L\u00f6sung dieses Problems.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        313,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        180,
+        197
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Gemeldete Probleme mit der Software-Kompatibilit\u00e4t\n\nDas Marketingteam meldet Kompatibilit\u00e4tsprobleme mit der Software, die die Projektworkflows st\u00f6ren You can reach me at [email].. Diese Probleme scheinen durch k\u00fcrzlich durchgef\u00fchrte Systemaktualisierungen verursacht worden zu sein My name is [full_name].. Versucht, die betroffene Software neu zu installieren und die Einstellungen zu optimieren, wurde jedoch kein Erfolg erzielt. Bitte vermitteln Sie h\u00f6flich Unterst\u00fctzung f\u00fcr die L\u00f6sung dieses Problems.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern Over Recent Campaign Engagement Metrics\n\nFacing a decline in engagement metrics for recent campaigns, which might be due to changes in the algorithms of social media platforms. Despite adjusting targeting and revising content strategies, the results have not improved.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        323
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Concern Over Recent Campaign Engagement Metrics\n\nFacing a decline in engagement metrics for recent campaigns, which might be due to changes in the algorithms of social media platforms. Despite adjusting targeting and revising content strategies, the results have not improved.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

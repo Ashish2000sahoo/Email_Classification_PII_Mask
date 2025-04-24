@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem during Data Import Process\n\nHello Customer Support, I am facing difficulties with data import; it has stopped working abruptly, which might be because of incorrect API keys. I've attempted to reset the Zapier connection, but the problem still exists. Kindly investigate and offer a resolution at your earliest convenience. Please inform me if additional details are required from my side My name is Maria Gonzalez.. Thank you for your help. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        416,
+        430
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        475,
+        497
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem during Data Import Process\n\nHello Customer Support, I am facing difficulties with data import; it has stopped working abruptly, which might be because of incorrect API keys. I've attempted to reset the Zapier connection, but the problem still exists. Kindly investigate and offer a resolution at your earliest convenience. Please inform me if additional details are required from my side My name is [full_name].. Thank you for your help. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

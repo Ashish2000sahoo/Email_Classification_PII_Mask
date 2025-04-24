@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue Server Performance Delay\n\nDuring peak times, intermittent latency issues have been observed; these might be due to server capacity limitations or inefficient queries.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        204,
+        219
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Issue Server Performance Delay\n\nDuring peak times, intermittent latency issues have been observed; these might be due to server capacity limitations or inefficient queries.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

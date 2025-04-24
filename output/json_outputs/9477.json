@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbessern Sie Ihre Investitionsstrategie\n\nSehr geehrte Kundenservice, ich m\u00f6chte fragen, ob es m\u00f6glich ist, AI-basierte Analysewerkzeuge einzubinden, um meine Investitionsstrategie und die Leistung meines Portfolios zu verbessern. Ich denke, dass diese Technologie unseren Ansatz bei den Investitionen revolutionieren kann. Mit AI-basierten Analysewerkzeugen k\u00f6nnen wir m\u00e4chtige Mengen an Daten analysieren, Trends erkennen und sich auf wissenschafte Entscheidungen st\u00fctzen My name is Jane Smith.. Ich w\u00fcrde gerne mehr erfahren, wie diese Technologie auf unsere Strategie angewendet werden kann und welche Vorteile sie f\u00fcr die Leistung des Portfolios hat. Ich freue mich darauf, von Ihnen zu h\u00f6ren und mehr \u00fcber diese innovativen L\u00f6sungen zu erfahren You can reach me at carlosm@gmail.com.. Bitte geben Sie mir mehr Informationen, wie ich damit beginnen kann.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        495,
+        505
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        782,
+        799
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Verbessern Sie Ihre Investitionsstrategie\n\nSehr geehrte Kundenservice, ich m\u00f6chte fragen, ob es m\u00f6glich ist, AI-basierte Analysewerkzeuge einzubinden, um meine Investitionsstrategie und die Leistung meines Portfolios zu verbessern. Ich denke, dass diese Technologie unseren Ansatz bei den Investitionen revolutionieren kann. Mit AI-basierten Analysewerkzeugen k\u00f6nnen wir m\u00e4chtige Mengen an Daten analysieren, Trends erkennen und sich auf wissenschafte Entscheidungen st\u00fctzen My name is [full_name].. Ich w\u00fcrde gerne mehr erfahren, wie diese Technologie auf unsere Strategie angewendet werden kann und welche Vorteile sie f\u00fcr die Leistung des Portfolios hat. Ich freue mich darauf, von Ihnen zu h\u00f6ren und mehr \u00fcber diese innovativen L\u00f6sungen zu erfahren You can reach me at [email].. Bitte geben Sie mir mehr Informationen, wie ich damit beginnen kann.",
+  "category_of_the_email": "Request"
+}

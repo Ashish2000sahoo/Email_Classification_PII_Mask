@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Aid for Data Backup Procedures\n\nI am reaching out to gain more understanding about the data backup procedures for medical records in Wave and Microsoft Dynamics 365. Could you provide more details on the security measures implemented in these systems that impact the security and confidentiality of sensitive medical data? I would appreciate any assistance or resources you can offer My name is Elena Ivanova.. Thank you for your understanding and support. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        417
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        484,
+        501
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        170,
+        173
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Aid for Data Backup Procedures\n\nI am reaching out to gain more understanding about the data backup procedures for medical records in Wave and Microsoft Dynamics [cvv_no]. Could you provide more details on the security measures implemented in these systems that impact the security and confidentiality of sensitive medical data? I would appreciate any assistance or resources you can offer My name is [full_name].. Thank you for your understanding and support. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

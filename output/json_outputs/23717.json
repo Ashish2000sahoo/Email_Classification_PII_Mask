@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe f\u00fcr IT-L\u00f6sungen ben\u00f6tigt\n\nSehr geehrter Kundenservice,  \n\nich wende mich an Sie, um Hilfe zur Verbesserung unseres aktuellen Server-Managements und unserer Software-Entwicklungs-Workflows zu bitten You can reach me at david.kim@corp.kr.. Angesichts unseres Bedarfs an Optimierung glauben wir, dass Ihr IT-Consulting-Service wertvolle L\u00f6sungen anbieten kann, die auf unsere Situation zugeschnitten sind. Wir streben danach, die Effizienz und Produktivit\u00e4t zu verbessern und ben\u00f6tigen daher spezifische Ratschl\u00e4ge und Strategien zur Implementierung. Bitte geben Sie weitere Informationen dazu, wie wir diesen Beratungsprozess beginnen k\u00f6nnen und welche Voraussetzungen erforderlich sind. Unsere Unternehmensinformationen wurden bereits vorher mit Ihrem Team geteilt My name is Jane Smith.. Wir sch\u00e4tzen Ihre schnelle Antwort.  \n\nVielen Dank,  \n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        790,
+        800
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        233,
+        250
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Hilfe f\u00fcr IT-L\u00f6sungen ben\u00f6tigt\n\nSehr geehrter Kundenservice,  \n\nich wende mich an Sie, um Hilfe zur Verbesserung unseres aktuellen Server-Managements und unserer Software-Entwicklungs-Workflows zu bitten You can reach me at [email].. Angesichts unseres Bedarfs an Optimierung glauben wir, dass Ihr IT-Consulting-Service wertvolle L\u00f6sungen anbieten kann, die auf unsere Situation zugeschnitten sind. Wir streben danach, die Effizienz und Produktivit\u00e4t zu verbessern und ben\u00f6tigen daher spezifische Ratschl\u00e4ge und Strategien zur Implementierung. Bitte geben Sie weitere Informationen dazu, wie wir diesen Beratungsprozess beginnen k\u00f6nnen und welche Voraussetzungen erforderlich sind. Unsere Unternehmensinformationen wurden bereits vorher mit Ihrem Team geteilt My name is [full_name].. Wir sch\u00e4tzen Ihre schnelle Antwort.  \n\nVielen Dank,  \n\n<name>\n<acc_num>",
+  "category_of_the_email": "Request"
+}

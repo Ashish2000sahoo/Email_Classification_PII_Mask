@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung digitaler Strategien f\u00fcr Produkte\n\nKontaktieren Sie uns f\u00fcr Informationen zur Optimierung digitaler Strategien und Vermarktung von Razer Huntsman Elite und Microsoft Surface Pro 8. Wir k\u00f6nnen Ihnen Einblicke in Ma\u00dfnahmen geben, die zur effektiven Zielgruppe erreichen und Verkaufszahlen steigern helfen You can reach me at johndoe@email.com.. Wir freuen uns auf Tipps zur Nutzung von sozialen Medien, E-Mail-Marketing und anderen digitalen Kan\u00e4len, um Ihre Produkte zu vermarkten My name is Jane Smith.. Dar\u00fcber hinaus m\u00f6chten wir gerne \u00fcber erfolgreiche Kampagnen aus der Vergangenheit sprechen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        513,
+        523
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        345,
+        362
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung digitaler Strategien f\u00fcr Produkte\n\nKontaktieren Sie uns f\u00fcr Informationen zur Optimierung digitaler Strategien und Vermarktung von Razer Huntsman Elite und Microsoft Surface Pro 8. Wir k\u00f6nnen Ihnen Einblicke in Ma\u00dfnahmen geben, die zur effektiven Zielgruppe erreichen und Verkaufszahlen steigern helfen You can reach me at [email].. Wir freuen uns auf Tipps zur Nutzung von sozialen Medien, E-Mail-Marketing und anderen digitalen Kan\u00e4len, um Ihre Produkte zu vermarkten My name is [full_name].. Dar\u00fcber hinaus m\u00f6chten wir gerne \u00fcber erfolgreiche Kampagnen aus der Vergangenheit sprechen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

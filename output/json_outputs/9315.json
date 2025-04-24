@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei dem Zugriff auf medizinische Akten\n\nDer Zugriff auf medizinische Akten hat sich pl\u00f6tzlich verlangsamt. Es k\u00f6nnte sein, dass die Ressourcen des Datenbank-Servers ersch\u00f6pft sind My name is Maria Gonzalez.. Der Server wurde ausgeschaltet und die Logs durchgesehen, aber das Problem ist weiterhin bestehen geblieben. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        352,
+        375
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei dem Zugriff auf medizinische Akten\n\nDer Zugriff auf medizinische Akten hat sich pl\u00f6tzlich verlangsamt. Es k\u00f6nnte sein, dass die Ressourcen des Datenbank-Servers ersch\u00f6pft sind My name is [full_name].. Der Server wurde ausgeschaltet und die Logs durchgesehen, aber das Problem ist weiterhin bestehen geblieben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

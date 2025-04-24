@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit mehreren Werkzeugen vermuten Softwarekonflikte\n\nMehrere von meinen Werkzeugen funktionieren nicht mehr. Ich habe bereits versucht, sie neu zu starten und die Software zu aktualisieren.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        244
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit mehreren Werkzeugen vermuten Softwarekonflikte\n\nMehrere von meinen Werkzeugen funktionieren nicht mehr. Ich habe bereits versucht, sie neu zu starten und die Software zu aktualisieren.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

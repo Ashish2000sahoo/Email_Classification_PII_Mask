@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Synchronisationsprobleme bei Projekt Aufgaben\n\nHallo Kundensupport, ich melde hier ein Problem mit der Synchronisation von Aufgaben in meinem Projekt. Es k\u00f6nnte sich um eine API-Verbindungsproblematik handeln. Ich habe bereits versucht, das App neu zu starten und die Netzwerkkonnektivit\u00e4t zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich. Bitte untersuchen Sie dieses Problem und geben Sie mir so bald wie m\u00f6glich eine L\u00f6sung. Wenn Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen, lassen Sie es mich bitte wissen You can reach me at johndoe@email.com.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        675,
+        687
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        551,
+        568
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Synchronisationsprobleme bei Projekt Aufgaben\n\nHallo Kundensupport, ich melde hier ein Problem mit der Synchronisation von Aufgaben in meinem Projekt. Es k\u00f6nnte sich um eine API-Verbindungsproblematik handeln. Ich habe bereits versucht, das App neu zu starten und die Netzwerkkonnektivit\u00e4t zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich. Bitte untersuchen Sie dieses Problem und geben Sie mir so bald wie m\u00f6glich eine L\u00f6sung. Wenn Sie weitere Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen, lassen Sie es mich bitte wissen You can reach me at [email].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

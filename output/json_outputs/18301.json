@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Investment Evaluations\n\nDear Customer Support, I am writing to draw your attention to a critical issue related to inconsistencies in our investment performance analyses. Over the past period, we have encountered unexplained phenomena that might be due to data integrity issues. Despite thorough checks on the accuracy of input data, the inconsistencies persist You can reach me at maria.gonzalez@shop.es.. I would greatly appreciate it if you could urgently investigate this matter and offer a solution to resolve the situation, as these inaccuracies are causing difficulties in our financial planning and decision-making processes. I am confident that a swift intervention will help resolve this issue. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        740,
+        751
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        406,
+        428
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Investment Evaluations\n\nDear Customer Support, I am writing to draw your attention to a critical issue related to inconsistencies in our investment performance analyses. Over the past period, we have encountered unexplained phenomena that might be due to data integrity issues. Despite thorough checks on the accuracy of input data, the inconsistencies persist You can reach me at [email].. I would greatly appreciate it if you could urgently investigate this matter and offer a solution to resolve the situation, as these inaccuracies are causing difficulties in our financial planning and decision-making processes. I am confident that a swift intervention will help resolve this issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

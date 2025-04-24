@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Required for Software Issue\n\nResolve the issue. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        86,
+        101
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Required for Software Issue\n\nResolve the issue. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

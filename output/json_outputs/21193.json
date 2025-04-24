@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Assistance Required for Epson EcoTank ET-4760 Printer\n\nDear Customer Support Team,\n\nI am writing to express my concerns regarding the Epson EcoTank ET-4760 printer that I purchased from your Tech Online Store You can reach me at fatima.farsi@help.com.. Despite being quite enthusiastic about its features, I have encountered frequent paper jams during printing operations, which significantly disrupt my workflow My name is Omar Hassan.. This issue is hindering my productivity, and I would greatly appreciate your guidance on how to resolve it.\n\nCould you please provide troubleshooting advice or recommend any steps I should take to remedy this situation? Additionally, if this is a known issue, kindly let me know if there is any update or technical support available to address it.\n\nI am relying on your expertise to help find a suitable solution at your earliest convenience. Please feel free to contact me with any further instructions or if additional information is required for diagnostics on my end.\n\nThank you for your attention and assistance.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        433,
+        444
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        238,
+        259
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        50,
+        54
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    },
+    {
+      "position": [
+        160,
+        164
+      ],
+      "classification": "phone_number",
+      "entity": "4760"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Epson EcoTank ET-[phone_number] Printer\n\nDear Customer Support Team,\n\nI am writing to express my concerns regarding the Epson EcoTank ET-[phone_number] printer that I purchased from your Tech Online Store You can reach me at [email].. Despite being quite enthusiastic about its features, I have encountered frequent paper jams during printing operations, which significantly disrupt my workflow My name is [full_name].. This issue is hindering my productivity, and I would greatly appreciate your guidance on how to resolve it.\n\nCould you please provide troubleshooting advice or recommend any steps I should take to remedy this situation? Additionally, if this is a known issue, kindly let me know if there is any update or technical support available to address it.\n\nI am relying on your expertise to help find a suitable solution at your earliest convenience. Please feel free to contact me with any further instructions or if additional information is required for diagnostics on my end.\n\nThank you for your attention and assistance.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Encountered During Integration Resulted in Data Loss\n\nRespected Customer Support, I am contacting you to inform you about an integration issue with our project software, which has led to data loss My name is Omar Hassan.. After attempting to restart the system and reconfigure it, and also checking for any updates, the problem still exists. It is possible that the issue is due to software incompatibilities or an overly loaded system. I would be grateful for any support or advice you can offer to resolve this matter promptly You can reach me at david.kim@corp.kr.. Please inform me if there are any additional steps I need to take or if you require further details from me.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        236
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        566,
+        583
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem Encountered During Integration Resulted in Data Loss\n\nRespected Customer Support, I am contacting you to inform you about an integration issue with our project software, which has led to data loss My name is [full_name].. After attempting to restart the system and reconfigure it, and also checking for any updates, the problem still exists. It is possible that the issue is due to software incompatibilities or an overly loaded system. I would be grateful for any support or advice you can offer to resolve this matter promptly You can reach me at [email].. Please inform me if there are any additional steps I need to take or if you require further details from me.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Information on Data Analytics Solutions\n\nDear Customer Service, I am reaching out to request detailed information on Data Analytics Solutions, particularly in terms of how their utilization can optimize investment strategies My name is Maria Gonzalez.. Could you provide a comprehensive overview of various Data Analytics tools that could assist in informing investment decisions? If possible, could you also share case studies or examples of successful implementations to date? Additionally, I would be interested in learning more about the customization options available from your customer service. Thank you. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        257,
+        271
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        651,
+        674
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Information on Data Analytics Solutions\n\nDear Customer Service, I am reaching out to request detailed information on Data Analytics Solutions, particularly in terms of how their utilization can optimize investment strategies My name is [full_name].. Could you provide a comprehensive overview of various Data Analytics tools that could assist in informing investment decisions? If possible, could you also share case studies or examples of successful implementations to date? Additionally, I would be interested in learning more about the customization options available from your customer service. Thank you. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

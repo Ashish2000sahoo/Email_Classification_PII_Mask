@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Forecasts Were Inaccurate Today\n\nThe predictive models did not yield accurate results You can reach me at david.kim@corp.kr.. It appears that inadequate data integration might be the cause My name is David Kim.. Hadoop was restarted, and data sources were verified.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        229
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        126,
+        143
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Investment Forecasts Were Inaccurate Today\n\nThe predictive models did not yield accurate results You can reach me at [email].. It appears that inadequate data integration might be the cause My name is [full_name].. Hadoop was restarted, and data sources were verified.",
+  "category_of_the_email": "Problem"
+}

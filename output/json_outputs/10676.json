@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme\n\nDie Markenagentur hat Schwierigkeiten mit der Verbindungsstabilit\u00e4t und der Umsetzung der digitalen Strategie aufgrund von Softwarekompatibilit\u00e4tsproblemen, Hardwareversagen und Beeintr\u00e4chtigungen der Kernsoftware durch Hardwarekomponenten. Das Wiedereinrichten der Ger\u00e4te und die Wiederinstallation der Anwendungen hat sich bisher als ungeeignet erwiesen.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        414
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Probleme\n\nDie Markenagentur hat Schwierigkeiten mit der Verbindungsstabilit\u00e4t und der Umsetzung der digitalen Strategie aufgrund von Softwarekompatibilit\u00e4tsproblemen, Hardwareversagen und Beeintr\u00e4chtigungen der Kernsoftware durch Hardwarekomponenten. Das Wiedereinrichten der Ger\u00e4te und die Wiederinstallation der Anwendungen hat sich bisher als ungeeignet erwiesen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

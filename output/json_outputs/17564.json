@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit verlorenen Projekt-Daten w\u00e4hrend des Synchronisierungsprozesses\n\nIch habe w\u00e4hrend des Synchronisierungsprozesses Probleme mit der Verlust von Projekt-Daten My name is Carlos Mendoza.. Es k\u00f6nnte sein, dass es mit dem Intel Optane-Caching zu Konflikten kommt. Ich habe bereits versucht, das Programm neu zu starten und die Netzwerkverbindung zu \u00fcberpr\u00fcfen, aber das Problem ist nach wie vor bestehen geblieben. Ich w\u00fcrde eine L\u00f6sung f\u00fcr dieses Problem freuen. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        188,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        496,
+        514
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem mit verlorenen Projekt-Daten w\u00e4hrend des Synchronisierungsprozesses\n\nIch habe w\u00e4hrend des Synchronisierungsprozesses Probleme mit der Verlust von Projekt-Daten My name is [full_name].. Es k\u00f6nnte sein, dass es mit dem Intel Optane-Caching zu Konflikten kommt. Ich habe bereits versucht, das Programm neu zu starten und die Netzwerkverbindung zu \u00fcberpr\u00fcfen, aber das Problem ist nach wie vor bestehen geblieben. Ich w\u00fcrde eine L\u00f6sung f\u00fcr dieses Problem freuen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

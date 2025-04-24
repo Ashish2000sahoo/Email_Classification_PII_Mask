@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem Laptop und dem Netzwerk\n\nDer Laptop und das Netzwerkproblem sind unvermittelt aufgetreten My name is John Doe.. M\u00f6glicherweise sind die neuesten Software-Updates oder Konfigurations\u00e4nderungen die Ursache. Bereits versucht habe, die Ger\u00e4te neu zu starten, die Kabel zu \u00fcberpr\u00fcfen und die Einstellungen zu \u00fcberpr\u00fcfen. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        127,
+        135
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        365,
+        382
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem Laptop und dem Netzwerk\n\nDer Laptop und das Netzwerkproblem sind unvermittelt aufgetreten My name is [full_name].. M\u00f6glicherweise sind die neuesten Software-Updates oder Konfigurations\u00e4nderungen die Ursache. Bereits versucht habe, die Ger\u00e4te neu zu starten, die Kabel zu \u00fcberpr\u00fcfen und die Einstellungen zu \u00fcberpr\u00fcfen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

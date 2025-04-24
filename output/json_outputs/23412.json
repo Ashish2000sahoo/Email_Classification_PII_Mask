@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance on Software Errors\n\nDear Customer Support,\n\nI am writing to report that our client, <name>, has been experiencing intermittent software errors while utilizing our IT Consulting Service. We kindly request consultation to effectively address these issues, focusing on server administration and troubleshooting strategies. It is imperative to restore reliable service promptly My name is Maria Gonzalez.. Please get in touch at your earliest convenience to discuss potential resolutions. You can reach me at <tel_num> for any further information or to schedule a meeting.\n\nThank you for your support and understanding.\n\nBest regards,\n\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        417,
+        431
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        688,
+        711
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance on Software Errors\n\nDear Customer Support,\n\nI am writing to report that our client, <name>, has been experiencing intermittent software errors while utilizing our IT Consulting Service. We kindly request consultation to effectively address these issues, focusing on server administration and troubleshooting strategies. It is imperative to restore reliable service promptly My name is [full_name].. Please get in touch at your earliest convenience to discuss potential resolutions. You can reach me at <tel_num> for any further information or to schedule a meeting.\n\nThank you for your support and understanding.\n\nBest regards,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

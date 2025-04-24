@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Server Intermittent Outages\n\nDear Customer Support, there were unexpected server outages during peak time windows, leading to issues with user access and limited resource allocation due to increased traffic You can reach me at carlosm@gmail.com.. Attempts to restart the server, optimize load balancing settings, and address the interruption were made but were not fully successful. These outages caused significant disruptions to the service and potential negative impacts on users. We appreciate your prompt attention to this matter and look forward to a solution being provided to prevent such occurrences in the future My name is Sophia Rossi.. Thank you for your attention to this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        654,
+        666
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        247,
+        264
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Server Intermittent Outages\n\nDear Customer Support, there were unexpected server outages during peak time windows, leading to issues with user access and limited resource allocation due to increased traffic You can reach me at [email].. Attempts to restart the server, optimize load balancing settings, and address the interruption were made but were not fully successful. These outages caused significant disruptions to the service and potential negative impacts on users. We appreciate your prompt attention to this matter and look forward to a solution being provided to prevent such occurrences in the future My name is [full_name].. Thank you for your attention to this issue.",
+  "category_of_the_email": "Incident"
+}

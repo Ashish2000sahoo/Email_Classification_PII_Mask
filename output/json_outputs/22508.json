@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Additional IT Consulting Hours\n\nDear IT Services Customer Support,\n\nI am writing to request additional consulting hours to optimize our current server setup and improve the performance of our ticket system My name is Omar Hassan.. Our current setup is causing delays in ticket processing, impacting productivity. I believe that with expert guidance, we can significantly enhance our system's efficiency and reliability.\n\nCould we schedule a consultation session to discuss the next steps? Please let me know how many additional hours you would recommend.\n\nThank you for your assistance.\n\nBest regards,\n\n<name>\nAccount Number: <acc_num> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        238,
+        249
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        677,
+        694
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for Additional IT Consulting Hours\n\nDear IT Services Customer Support,\n\nI am writing to request additional consulting hours to optimize our current server setup and improve the performance of our ticket system My name is [full_name].. Our current setup is causing delays in ticket processing, impacting productivity. I believe that with expert guidance, we can significantly enhance our system's efficiency and reliability.\n\nCould we schedule a consultation session to discuss the next steps? Please let me know how many additional hours you would recommend.\n\nThank you for your assistance.\n\nBest regards,\n\n<name>\nAccount Number: <acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

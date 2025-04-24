@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Rechnungsdiscrepancies\n\nDear Customer Service, I am writing to report an error in the invoice. We are subscribing to multiple software products for use in our financial institution's data analysis. The issue concerns system integration You can reach me at johndoe@email.com.. Account details have already been verified and transactions have been processed anew, but the problem persists. Irregularities are causing delays in our operations, and we urgently need assistance to resolve the issue. Could you please look into this matter and provide a quick solution? I look forward to your prompt response and support My name is Maria Gonzalez.. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        635,
+        649
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        265,
+        282
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Rechnungsdiscrepancies\n\nDear Customer Service, I am writing to report an error in the invoice. We are subscribing to multiple software products for use in our financial institution's data analysis. The issue concerns system integration You can reach me at [email].. Account details have already been verified and transactions have been processed anew, but the problem persists. Irregularities are causing delays in our operations, and we urgently need assistance to resolve the issue. Could you please look into this matter and provide a quick solution? I look forward to your prompt response and support My name is [full_name].. Thank you.",
+  "category_of_the_email": "Incident"
+}

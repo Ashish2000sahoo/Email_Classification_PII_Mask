@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Support Required for System Failure of Project Management SaaS\n\nDear Support Team, <br>Our Project Management SaaS is experiencing a system failure, which is affecting the accessibility and functionality My name is Elena Ivanova.. The error seems to be linked to compatibility issues with Node.js 14.17 and recent updates to integrated tools. Despite attempting to restart the server and revert to older updates, the issue persists. We urgently require your assistance to resolve this problem and restore full system functionality You can reach me at liuwei@business.cn.. Please provide a quick solution and the necessary steps for error resolution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        224,
+        237
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        558,
+        576
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        304,
+        309
+      ],
+      "classification": "phone_number",
+      "entity": "14.17"
+    }
+  ],
+  "masked_email": "Subject: Support Required for System Failure of Project Management SaaS\n\nDear Support Team, <br>Our Project Management SaaS is experiencing a system failure, which is affecting the accessibility and functionality My name is [full_name].. The error seems to be linked to compatibility issues with Node.js [phone_number] and recent updates to integrated tools. Despite attempting to restart the server and revert to older updates, the issue persists. We urgently require your assistance to resolve this problem and restore full system functionality You can reach me at [email].. Please provide a quick solution and the necessary steps for error resolution.",
+  "category_of_the_email": "Incident"
+}

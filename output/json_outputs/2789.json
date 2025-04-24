@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problems with Data Analysis Dashboards\n\nDue to connection issues with the SQL Server, the data analysis dashboards could not be loaded.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        183
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Problems with Data Analysis Dashboards\n\nDue to connection issues with the SQL Server, the data analysis dashboards could not be loaded.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

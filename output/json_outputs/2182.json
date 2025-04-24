@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem Investment-Datenfeed\n\nLieber Kundensupport, ich melde mich an, um ein Problem mit dem Investment-Datenfeed zu melden My name is Omar Hassan.. Das Feed wurde unvermittelt unterbrochen und ich vermute, dass es auf Belastung des Backend-Servers hindeutet You can reach me at elena.ivanova@support.org.. Ich habe versucht, das Feed neu zu starten und die Verbindung zu \u00fcberpr\u00fcfen, jedoch beh\u00e4lt sich das Problem bestehen. Ich sch\u00e4tze eine schnelle L\u00f6sung und hoffe auf Ihre Unterst\u00fctzung. Die Unterbrechung des Datenfeeds hat Unannehmlichkeiten verursacht und ich freue mich darauf, es schnellstm\u00f6glich zu beheben. Bitte teilen Sie mich mit, falls weitere Informationen ben\u00f6tigt werden. Ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        164
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        297,
+        322
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem Investment-Datenfeed\n\nLieber Kundensupport, ich melde mich an, um ein Problem mit dem Investment-Datenfeed zu melden My name is [full_name].. Das Feed wurde unvermittelt unterbrochen und ich vermute, dass es auf Belastung des Backend-Servers hindeutet You can reach me at [email].. Ich habe versucht, das Feed neu zu starten und die Verbindung zu \u00fcberpr\u00fcfen, jedoch beh\u00e4lt sich das Problem bestehen. Ich sch\u00e4tze eine schnelle L\u00f6sung und hoffe auf Ihre Unterst\u00fctzung. Die Unterbrechung des Datenfeeds hat Unannehmlichkeiten verursacht und ich freue mich darauf, es schnellstm\u00f6glich zu beheben. Bitte teilen Sie mich mit, falls weitere Informationen ben\u00f6tigt werden. Ich freue mich darauf, Ihre R\u00fcckmeldung bald zu erhalten.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Data Processing Tools\n\nThe data processing tools are not responding properly, efforts to optimize the equipment have been hindered You can reach me at liuwei@business.cn.. Initial investigations suggest potential performance issues with the software components. After restarting the devices, checking the connections, and performing a software update, the problem persists My name is Elena Ivanova.. We are looking forward to quickly collaborating to resolve the issue and minimize its impact on operational activities.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        407,
+        420
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        174,
+        192
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problems with Data Processing Tools\n\nThe data processing tools are not responding properly, efforts to optimize the equipment have been hindered You can reach me at [email].. Initial investigations suggest potential performance issues with the software components. After restarting the devices, checking the connections, and performing a software update, the problem persists My name is [full_name].. We are looking forward to quickly collaborating to resolve the issue and minimize its impact on operational activities.",
+  "category_of_the_email": "Incident"
+}

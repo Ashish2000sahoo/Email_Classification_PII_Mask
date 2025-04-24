@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Login Issues with Jira Software 8.20 Update\n\nDear Customer Support Team, I hope this message finds you well. I am writing to bring to your attention a problem I am currently experiencing with Jira Software 8.20 after the latest software update You can reach me at johndoe@email.com.. Since the update was installed, I have been unable to access the ticket system which is crucial for my workflow My name is Maria Gonzalez.. Before the update, everything was functioning properly, and I could log in without any issues. When trying to log in, I am encountering persistent error messages, and the system fails to authenticate my credentials. Moreover, I have tried resetting my password, clearing browser cache, and even attempting access from different devices and networks, but the issue persists. The error message states 'unable to authenticate,' and does not provide any further insights into the nature of the problem. Could your technical team look into this as soon as possible? For reference, my account details are under the name <name> and the username is <username>. Thank you for your prompt attention to this matter. I look forward to your guidance and a swift resolution. Best regards, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        416,
+        430
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        273,
+        290
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Login Issues with Jira Software 8.20 Update\n\nDear Customer Support Team, I hope this message finds you well. I am writing to bring to your attention a problem I am currently experiencing with Jira Software 8.20 after the latest software update You can reach me at [email].. Since the update was installed, I have been unable to access the ticket system which is crucial for my workflow My name is [full_name].. Before the update, everything was functioning properly, and I could log in without any issues. When trying to log in, I am encountering persistent error messages, and the system fails to authenticate my credentials. Moreover, I have tried resetting my password, clearing browser cache, and even attempting access from different devices and networks, but the issue persists. The error message states 'unable to authenticate,' and does not provide any further insights into the nature of the problem. Could your technical team look into this as soon as possible? For reference, my account details are under the name <name> and the username is <username>. Thank you for your prompt attention to this matter. I look forward to your guidance and a swift resolution. Best regards, <name>",
+  "category_of_the_email": "Incident"
+}

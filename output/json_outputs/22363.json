@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt bei der Jira-Einrichtung\n\nHallo Kundenserviceteam,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, um Unterst\u00fctzung bei der Einrichtung des Jira-Ticket-Systems zu bitten, das wir f\u00fcr das Scrum-Projektmanagement in meinem Team verwenden m\u00f6chten My name is Fatima Al-Farsi.. Wir arbeiten derzeit mit Jira Software 8.20 und ben\u00f6tigen Anleitung zur Konfiguration, um unsere Projektmanagementbed\u00fcrfnisse effektiv zu erf\u00fcllen.\n\nDie Hauptbereiche, in denen wir Unterst\u00fctzung ben\u00f6tigen, umfassen die Etablierung eines optimierten Workflows f\u00fcr unsere Scrum-Sprints, die genaue Einrichtung von Benutzerberechtigungen, um sicherzustellen, dass jeder im Team den notwendigen Zugriff hat, und die Anpassung der Projekt-Boards, damit sie unsere Entwicklungsprozesse widerspiegeln. Dar\u00fcber hinaus w\u00e4ren Tipps zur Optimierung von Jira f\u00fcr Sprint-Reviews und Retrospektiven sehr willkommen.\n\nK\u00f6nnten Sie uns mitteilen, wie wir am besten an dieses Thema mit der aktuellen Version, die wir nutzen, herangehen sollten? Dar\u00fcber hinaus w\u00e4re es \u00e4u\u00dferst hilfreich, wenn es vorhandene Dokumentationen oder Hilfeleitf\u00e4den gibt, die uns bei der Einrichtung unterst\u00fctzen k\u00f6nnten. Wenn n\u00f6tig, stehe ich gerne f\u00fcr ein Gespr\u00e4ch unter <tel_num> zur Verf\u00fcgung, um dies weiter zu besprechen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich auf Ihre Anleitung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1436,
+        1453
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt bei der Jira-Einrichtung\n\nHallo Kundenserviceteam,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich wende mich an Sie, um Unterst\u00fctzung bei der Einrichtung des Jira-Ticket-Systems zu bitten, das wir f\u00fcr das Scrum-Projektmanagement in meinem Team verwenden m\u00f6chten My name is [full_name]-Farsi.. Wir arbeiten derzeit mit Jira Software 8.20 und ben\u00f6tigen Anleitung zur Konfiguration, um unsere Projektmanagementbed\u00fcrfnisse effektiv zu erf\u00fcllen.\n\nDie Hauptbereiche, in denen wir Unterst\u00fctzung ben\u00f6tigen, umfassen die Etablierung eines optimierten Workflows f\u00fcr unsere Scrum-Sprints, die genaue Einrichtung von Benutzerberechtigungen, um sicherzustellen, dass jeder im Team den notwendigen Zugriff hat, und die Anpassung der Projekt-Boards, damit sie unsere Entwicklungsprozesse widerspiegeln. Dar\u00fcber hinaus w\u00e4ren Tipps zur Optimierung von Jira f\u00fcr Sprint-Reviews und Retrospektiven sehr willkommen.\n\nK\u00f6nnten Sie uns mitteilen, wie wir am besten an dieses Thema mit der aktuellen Version, die wir nutzen, herangehen sollten? Dar\u00fcber hinaus w\u00e4re es \u00e4u\u00dferst hilfreich, wenn es vorhandene Dokumentationen oder Hilfeleitf\u00e4den gibt, die uns bei der Einrichtung unterst\u00fctzen k\u00f6nnten. Wenn n\u00f6tig, stehe ich gerne f\u00fcr ein Gespr\u00e4ch unter <tel_num> zur Verf\u00fcgung, um dies weiter zu besprechen.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung und ich freue mich auf Ihre Anleitung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

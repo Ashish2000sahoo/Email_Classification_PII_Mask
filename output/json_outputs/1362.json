@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancement Tools for Investment Decisions\n\nCustomer Support, seeking clarification on the investment optimization tools included in the data analytics product suite. Could you provide details on the types of tools available to assist with investment decisions? I would greatly appreciate information on the features and benefits of these tools. Additionally, I would like to know if there are any tutorials or guides available to help users get started with these tools My name is Elena Ivanova.. Thank you for your assistance, and I look forward to hearing back soon. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        491,
+        504
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        597,
+        619
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Enhancement Tools for Investment Decisions\n\nCustomer Support, seeking clarification on the investment optimization tools included in the data analytics product suite. Could you provide details on the types of tools available to assist with investment decisions? I would greatly appreciate information on the features and benefits of these tools. Additionally, I would like to know if there are any tutorials or guides available to help users get started with these tools My name is [full_name].. Thank you for your assistance, and I look forward to hearing back soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

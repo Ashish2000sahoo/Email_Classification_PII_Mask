@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Advice for Safeguarding Medical Data in Microsoft Dynamics 365\n\nDear Support Team, I am contacting you to inquire about securing medical data within the Microsoft Dynamics 365 environment You can reach me at janesmith@company.com.. As you are likely aware, the protection of sensitive medical information is of utmost importance. Could you provide guidance on the best practices and protocols that can be implemented to ensure the confidentiality, integrity, and availability of medical data within the platform? I would greatly appreciate any recommendations or resources that could help me better understand how to safeguard this critical information My name is Fatima Al-Farsi.. Thank you for your time and assistance with this matter. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        673,
+        682
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        217,
+        238
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        68,
+        71
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        181,
+        184
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Advice for Safeguarding Medical Data in Microsoft Dynamics [cvv_no]\n\nDear Support Team, I am contacting you to inquire about securing medical data within the Microsoft Dynamics [cvv_no] environment You can reach me at [email].. As you are likely aware, the protection of sensitive medical information is of utmost importance. Could you provide guidance on the best practices and protocols that can be implemented to ensure the confidentiality, integrity, and availability of medical data within the platform? I would greatly appreciate any recommendations or resources that could help me better understand how to safeguard this critical information My name is [full_name]-Farsi.. Thank you for your time and assistance with this matter. I look forward to your response.",
+  "category_of_the_email": "Request"
+}

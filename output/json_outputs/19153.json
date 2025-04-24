@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support,\\n\\nI am contacting you to report an unexpected failure of data encryption, which might be related to a recent software update. Despite my efforts to solve the issue by restarting the systems and ensuring proper firewall settings, the problem still exists.\\n\\nThe issue began after the most recent software update. I have already tried restarting all the affected systems and confirmed that firewall settings are correct My name is Maria Gonzalez.. Unfortunately, these actions did not resolve the issue.\\n\\nI would be grateful if you could help me resolve this matter. Please let me know if there are any other steps I should take or if you need any more details.\\n\\nThank you for your assistance.\\n\\nSincerely,\\n[Your Name] You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        465,
+        479
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        776,
+        793
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support,\\n\\nI am contacting you to report an unexpected failure of data encryption, which might be related to a recent software update. Despite my efforts to solve the issue by restarting the systems and ensuring proper firewall settings, the problem still exists.\\n\\nThe issue began after the most recent software update. I have already tried restarting all the affected systems and confirmed that firewall settings are correct My name is [full_name].. Unfortunately, these actions did not resolve the issue.\\n\\nI would be grateful if you could help me resolve this matter. Please let me know if there are any other steps I should take or if you need any more details.\\n\\nThank you for your assistance.\\n\\nSincerely,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance with Security Incident\n\nI need support in writing a report on a critical security incident My name is Jane Smith.. An unauthorized access incident occurred, which could have potentially exposed sensitive medical data and compromised hospital systems. The breach may have happened due to a configuration error in cloud services. I have already reinforced passwords and monitored access logs, but I successfully resolved the immediate issue and now urgently need assistance in containing and investigating the breach. Please provide guidance on the next steps and any additional information required to resolve this matter. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        134,
+        144
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        675,
+        697
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance with Security Incident\n\nI need support in writing a report on a critical security incident My name is [full_name].. An unauthorized access incident occurred, which could have potentially exposed sensitive medical data and compromised hospital systems. The breach may have happened due to a configuration error in cloud services. I have already reinforced passwords and monitored access logs, but I successfully resolved the immediate issue and now urgently need assistance in containing and investigating the breach. Please provide guidance on the next steps and any additional information required to resolve this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

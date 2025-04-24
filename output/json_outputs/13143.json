@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance Required for Security Incident\n\nConcerning a significant security event involving unauthorized access attempts to sensitive medical data within our hospital's infrastructure. Potential vulnerabilities might have been present in devices and software, such as the Sabrent Hub and QNAP NAS My name is Jane Smith.. To address the issue, we've taken several measures: updated the firmware to ensure the latest security patches, reviewed access logs to identify suspicious activities, and reinforced firewall settings to block unauthorized access. Despite these efforts, You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        606,
+        627
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Security Incident\n\nConcerning a significant security event involving unauthorized access attempts to sensitive medical data within our hospital's infrastructure. Potential vulnerabilities might have been present in devices and software, such as the Sabrent Hub and QNAP NAS My name is [full_name].. To address the issue, we've taken several measures: updated the firmware to ensure the latest security patches, reviewed access logs to identify suspicious activities, and reinforced firewall settings to block unauthorized access. Despite these efforts, You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

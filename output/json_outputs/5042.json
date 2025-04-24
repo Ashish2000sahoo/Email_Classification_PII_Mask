@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Protection of Medical Information Security\n\nCustomer Service, please implement improved security measures for medical data protection across all relevant systems and hardware. Given the critical importance of security in the medical field, a breach could have severe repercussions My name is Omar Hassan.. I would appreciate it if the following actions could be taken: data encryption, secure access control implementation, and regular security audits You can reach me at omar.hassan@secure.net.. Additionally, I request that all employees who handle medical data receive comprehensive training.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        312
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        481,
+        503
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Protection of Medical Information Security\n\nCustomer Service, please implement improved security measures for medical data protection across all relevant systems and hardware. Given the critical importance of security in the medical field, a breach could have severe repercussions My name is [full_name].. I would appreciate it if the following actions could be taken: data encryption, secure access control implementation, and regular security audits You can reach me at [email].. Additionally, I request that all employees who handle medical data receive comprehensive training.",
+  "category_of_the_email": "Change"
+}

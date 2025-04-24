@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Account Problem\n\nNoted the occurrence of unauthorized charges on your account during a specific month across various products. This might have happened due to a billing system glitch or account compromise My name is David Kim.. So far, we have verified your account security settings and reviewed recent transactions You can reach me at johndoe@email.com.. We kindly ask for your assistance in investigating and resolving the matter as soon as possible to prevent any further unauthorized activity.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        225,
+        234
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        348,
+        365
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Account Problem\n\nNoted the occurrence of unauthorized charges on your account during a specific month across various products. This might have happened due to a billing system glitch or account compromise My name is [full_name].. So far, we have verified your account security settings and reviewed recent transactions You can reach me at [email].. We kindly ask for your assistance in investigating and resolving the matter as soon as possible to prevent any further unauthorized activity.",
+  "category_of_the_email": "Incident"
+}

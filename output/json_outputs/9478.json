@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Subpar Results from Equipment Analysis\n\nI am writing to draw your attention to a problem with the equipment analysis results which fall short of expectations My name is Sophia Rossi.. The cause for this lower performance might be attributed to the use of outdated data analysis models You can reach me at carlosm@gmail.com.. Despite updating the software and re-running the models, no improvement has been observed. I would appreciate it if you could address this issue and provide a solution to enhance the accuracy of the equipment analysis results. Please inform me if you require additional information from me to resolve this matter. I look forward to receiving your feedback soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        331,
+        348
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Subpar Results from Equipment Analysis\n\nI am writing to draw your attention to a problem with the equipment analysis results which fall short of expectations My name is [full_name].. The cause for this lower performance might be attributed to the use of outdated data analysis models You can reach me at [email].. Despite updating the software and re-running the models, no improvement has been observed. I would appreciate it if you could address this issue and provide a solution to enhance the accuracy of the equipment analysis results. Please inform me if you require additional information from me to resolve this matter. I look forward to receiving your feedback soon.",
+  "category_of_the_email": "Problem"
+}

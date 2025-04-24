@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Website Crash Today\n\nWebsite experienced a sudden crash during an operation, likely due to increased traffic load. Server started with optimized load balancing, but the issue persists My name is Carlos Mendoza.. Need assistance to quickly resolve the problem and minimize its impact on business. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        216,
+        230
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        334,
+        359
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issues with Website Crash Today\n\nWebsite experienced a sudden crash during an operation, likely due to increased traffic load. Server started with optimized load balancing, but the issue persists My name is [full_name].. Need assistance to quickly resolve the problem and minimize its impact on business. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

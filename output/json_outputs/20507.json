@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia imediata necess\u00e1ria para problemas de cobran\u00e7a\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema de cobran\u00e7a que estou enfrentando com v\u00e1rias compras feitas atrav\u00e9s da Loja Online Tech usando a extens\u00e3o do Google Chrome para a vers\u00e3o 102.0. Parece que est\u00e3o aparecendo cobran\u00e7as inesperadas na minha conta <acc_num>. As compras listadas n\u00e3o est\u00e3o alinhadas com minhas atividades recentes, e acredito que possa haver um erro.\n\nPreciso urgentemente da sua assist\u00eancia para resolver esse assunto My name is David Kim.. Por favor, revise as cobran\u00e7as assim que poss\u00edvel e informe sobre os passos para corrigir os erros You can reach me at maria.gonzalez@shop.es.. Minhas informa\u00e7\u00f5es de contato s\u00e3o <tel_num>, e voc\u00ea pode entrar em contato comigo diretamente se mais detalhes forem necess\u00e1rios.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o a este problema.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        544,
+        553
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        677,
+        699
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        274,
+        277
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia imediata necess\u00e1ria para problemas de cobran\u00e7a\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para relatar um problema de cobran\u00e7a que estou enfrentando com v\u00e1rias compras feitas atrav\u00e9s da Loja Online Tech usando a extens\u00e3o do Google Chrome para a vers\u00e3o [cvv_no].0. Parece que est\u00e3o aparecendo cobran\u00e7as inesperadas na minha conta <acc_num>. As compras listadas n\u00e3o est\u00e3o alinhadas com minhas atividades recentes, e acredito que possa haver um erro.\n\nPreciso urgentemente da sua assist\u00eancia para resolver esse assunto My name is [full_name].. Por favor, revise as cobran\u00e7as assim que poss\u00edvel e informe sobre os passos para corrigir os erros You can reach me at [email].. Minhas informa\u00e7\u00f5es de contato s\u00e3o <tel_num>, e voc\u00ea pode entrar em contato comigo diretamente se mais detalhes forem necess\u00e1rios.\n\nObrigado pela sua r\u00e1pida aten\u00e7\u00e3o a este problema.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Problem"
+}

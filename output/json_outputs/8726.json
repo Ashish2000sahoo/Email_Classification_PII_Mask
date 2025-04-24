@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unaktuelle Investitionsberichte\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um einen Fehler in den von mir empfangenen Investitionsberichten zu melden. Diese Berichte sind ungenau, was ich auf fehlerhafte Datenimports zur\u00fcckf\u00fchren kann. Nach intensiven Untersuchungen habe ich festgestellt, dass die Integration zwischen Airtable und SAP ERP nicht korrekt funktioniert, was zu den ungenauen Berichten f\u00fchrt You can reach me at maria.gonzalez@shop.es.. Ich habe die Datenquellen \u00fcberpr\u00fcft und das System neu gestartet, um das Problem zu beheben, aber es beh\u00e4lt sich bestehen. Es w\u00e4re mir sehr lieb, wenn Sie mir helfen k\u00f6nnten, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen. K\u00f6nnten Sie bitte das genaue Problem untersuchen und mir Anweisungen oder die notwendigen Schritte zur Behebung der Integrationsprobleme zwischen Airtable und SAP ERP mitteilen? Ich stehe Ihnen zur Verf\u00fcgung, um alle zus\u00e4tzlichen Informationen oder Hilfe bereit zu stellen, die Sie zur L\u00f6sung dieses Problems ben\u00f6tigen My name is Jane Smith.. Vielen Dank f\u00fcr Ihre Hilfe! Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1030,
+        1040
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        452,
+        474
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unaktuelle Investitionsberichte\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um einen Fehler in den von mir empfangenen Investitionsberichten zu melden. Diese Berichte sind ungenau, was ich auf fehlerhafte Datenimports zur\u00fcckf\u00fchren kann. Nach intensiven Untersuchungen habe ich festgestellt, dass die Integration zwischen Airtable und SAP ERP nicht korrekt funktioniert, was zu den ungenauen Berichten f\u00fchrt You can reach me at [email].. Ich habe die Datenquellen \u00fcberpr\u00fcft und das System neu gestartet, um das Problem zu beheben, aber es beh\u00e4lt sich bestehen. Es w\u00e4re mir sehr lieb, wenn Sie mir helfen k\u00f6nnten, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen. K\u00f6nnten Sie bitte das genaue Problem untersuchen und mir Anweisungen oder die notwendigen Schritte zur Behebung der Integrationsprobleme zwischen Airtable und SAP ERP mitteilen? Ich stehe Ihnen zur Verf\u00fcgung, um alle zus\u00e4tzlichen Informationen oder Hilfe bereit zu stellen, die Sie zur L\u00f6sung dieses Problems ben\u00f6tigen My name is [full_name].. Vielen Dank f\u00fcr Ihre Hilfe! Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

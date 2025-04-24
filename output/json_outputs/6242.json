@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Reported Issues with Google Meet and Discord on Installed ESET NOD32 Antivirus\n\nI am experiencing problems with Google Meet and Discord on my laptop after installing ESET NOD32 Antivirus 14 on my Ubuntu 22.04 LTS system. The issues began after I updated MongoDB 4.4 and Redis 6.2 My name is Omar Hassan.. I have already tried restarting the laptop and no improvement has been observed. I suspect that the problem could be due to conflicts between the outdated Ubuntu version and ESET NOD32 Antivirus. I am looking for assistance in resolving this issue. Could you please guide me through any steps that might help troubleshoot the problem? I am willing to provide any additional information necessary to help solve it. I am awaiting your prompt response and assistance. I am counting on your support for a quick resolution to these issues. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        311
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        869,
+        886
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        212,
+        217
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: Reported Issues with Google Meet and Discord on Installed ESET NOD32 Antivirus\n\nI am experiencing problems with Google Meet and Discord on my laptop after installing ESET NOD32 Antivirus 14 on my Ubuntu [phone_number] LTS system. The issues began after I updated MongoDB 4.4 and Redis 6.2 My name is [full_name].. I have already tried restarting the laptop and no improvement has been observed. I suspect that the problem could be due to conflicts between the outdated Ubuntu version and ESET NOD32 Antivirus. I am looking for assistance in resolving this issue. Could you please guide me through any steps that might help troubleshoot the problem? I am willing to provide any additional information necessary to help solve it. I am awaiting your prompt response and assistance. I am counting on your support for a quick resolution to these issues. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

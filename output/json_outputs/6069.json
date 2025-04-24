@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Nachgeschw\u00e4chtes Laden der Webseite aufgrund erh\u00f6hter Datenverkehrsbelastung\n\nSehr geehrte Kundensupport, ich stelle fest, dass das Laden der Webseite sehr langsam verl\u00e4uft My name is Fatima Al-Farsi.. Dieses Problem ist pl\u00f6tzlich aufgetreten und ich vermute, dass es mit erh\u00f6hten Datenverkehrsbelastungen zusammenh\u00e4ngt. Ich habe bereits vergeblich versucht, den Server neu zu starten und den Cache zu leeren. Ich bitte Sie, um Hilfe in dieser Angelegenheit und eine schnelle L\u00f6sung zu liefern You can reach me at elena.ivanova@support.org.. Bitte richten Sie mich ein, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        202
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        525,
+        550
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Nachgeschw\u00e4chtes Laden der Webseite aufgrund erh\u00f6hter Datenverkehrsbelastung\n\nSehr geehrte Kundensupport, ich stelle fest, dass das Laden der Webseite sehr langsam verl\u00e4uft My name is [full_name]-Farsi.. Dieses Problem ist pl\u00f6tzlich aufgetreten und ich vermute, dass es mit erh\u00f6hten Datenverkehrsbelastungen zusammenh\u00e4ngt. Ich habe bereits vergeblich versucht, den Server neu zu starten und den Cache zu leeren. Ich bitte Sie, um Hilfe in dieser Angelegenheit und eine schnelle L\u00f6sung zu liefern You can reach me at [email].. Bitte richten Sie mich ein, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen.",
+  "category_of_the_email": "Incident"
+}

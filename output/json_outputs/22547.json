@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Demande concernant Microsoft Surface Pro 7\n\nBonjour \u00e9quipe de support client,\n\nJe m'int\u00e9resse \u00e0 l'achat du Microsoft Surface Pro 7 et voudrais me renseigner sur ses capacit\u00e9s de performance et sa liste compl\u00e8te de fonctionnalit\u00e9s. Pourriez-vous fournir des informations d\u00e9taill\u00e9es concernant sa puissance de traitement, sa dur\u00e9e de vie de la batterie, ses capacit\u00e9s graphiques et tout caract\u00e8re unique ? De plus, toute comparaison avec des appareils similaires serait appr\u00e9ci\u00e9e.\n\nMerci pour votre aide.\n\nCordialement,\n<name>\n<tel_num>. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        566,
+        581
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Demande concernant Microsoft Surface Pro 7\n\nBonjour \u00e9quipe de support client,\n\nJe m'int\u00e9resse \u00e0 l'achat du Microsoft Surface Pro 7 et voudrais me renseigner sur ses capacit\u00e9s de performance et sa liste compl\u00e8te de fonctionnalit\u00e9s. Pourriez-vous fournir des informations d\u00e9taill\u00e9es concernant sa puissance de traitement, sa dur\u00e9e de vie de la batterie, ses capacit\u00e9s graphiques et tout caract\u00e8re unique ? De plus, toute comparaison avec des appareils similaires serait appr\u00e9ci\u00e9e.\n\nMerci pour votre aide.\n\nCordialement,\n<name>\n<tel_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

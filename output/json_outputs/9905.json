@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Security for Medical Data Protection\n\nDrafting a request for enhanced security measures to protect medical data within hospital systems and related devices. This includes implementing strong firewalls, encrypting sensitive information, and regularly updating software to prevent cyber threats. Additionally, training staff on data handling security practices is crucial My name is Carlos Mendoza.. These measures are believed to significantly reduce the risk of data breaches and ensure the confidentiality of patient information. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        412
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        565,
+        587
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Improve Security for Medical Data Protection\n\nDrafting a request for enhanced security measures to protect medical data within hospital systems and related devices. This includes implementing strong firewalls, encrypting sensitive information, and regularly updating software to prevent cyber threats. Additionally, training staff on data handling security practices is crucial My name is [full_name].. These measures are believed to significantly reduce the risk of data breaches and ensure the confidentiality of patient information. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

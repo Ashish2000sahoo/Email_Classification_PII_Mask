@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Dashboard Crashed Unexpectedly\n\nBriefly describing the issue: The project dashboard stopped working without any prior warning. A potential reason could be the latest Git update. After restarting ClickUp and clearing the browser cache, the problem still exists. I am requesting your help to fix this and bring the dashboard back online as soon as possible You can reach me at johndoe@email.com.. This downtime is crucial for my current task, and I would greatly appreciate a prompt resolution My name is Fatima Al-Farsi.. Looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        520,
+        529
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        392,
+        409
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Project Dashboard Crashed Unexpectedly\n\nBriefly describing the issue: The project dashboard stopped working without any prior warning. A potential reason could be the latest Git update. After restarting ClickUp and clearing the browser cache, the problem still exists. I am requesting your help to fix this and bring the dashboard back online as soon as possible You can reach me at [email].. This downtime is crucial for my current task, and I would greatly appreciate a prompt resolution My name is [full_name]-Farsi.. Looking forward to your response.",
+  "category_of_the_email": "Incident"
+}

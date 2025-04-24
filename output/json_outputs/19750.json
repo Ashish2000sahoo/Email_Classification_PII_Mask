@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem Investitionsdashboard melden\n\nBetreff: Problem mit dem Investitionsdashboard. An die Kundenservice: Ich schreibe, um eine Problematik mit dem Investitionsdashboard zu melden. Das Dashboard hat sich nicht geladen, und ich vermute, dies liegt an einem Fehler im Datenanalyseprogramm You can reach me at fatima.farsi@help.com.. Ich habe versucht, das System neu zu starten und das Cache zu leeren, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Der Fehler trat auf, als ich versuchte, das Dashboard zu \u00f6ffnen, und es wurde eine Fehlernachricht angezeigt. Ich habe einige Schritte zur Selbstbehandlung durchgef\u00fchrt, aber nichts hat funktioniert. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir bei der L\u00f6sung dieses Problems helfen k\u00f6nnten My name is Sophia Rossi.. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Ich freue mich auf Ihre R\u00fcckmeldung baldigst.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        879,
+        891
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        326,
+        347
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem Investitionsdashboard melden\n\nBetreff: Problem mit dem Investitionsdashboard. An die Kundenservice: Ich schreibe, um eine Problematik mit dem Investitionsdashboard zu melden. Das Dashboard hat sich nicht geladen, und ich vermute, dies liegt an einem Fehler im Datenanalyseprogramm You can reach me at [email].. Ich habe versucht, das System neu zu starten und das Cache zu leeren, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde es sch\u00e4tzen, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Der Fehler trat auf, als ich versuchte, das Dashboard zu \u00f6ffnen, und es wurde eine Fehlernachricht angezeigt. Ich habe einige Schritte zur Selbstbehandlung durchgef\u00fchrt, aber nichts hat funktioniert. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir bei der L\u00f6sung dieses Problems helfen k\u00f6nnten My name is [full_name].. Bitte lassen Sie mich wissen, wenn Sie weitere Informationen ben\u00f6tigen. Ich freue mich auf Ihre R\u00fcckmeldung baldigst.",
+  "category_of_the_email": "Incident"
+}

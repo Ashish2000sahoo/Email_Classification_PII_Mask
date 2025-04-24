@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Probleme mit der Internetverbindung\n\nSehr geehrter IT-Services-Kundensupport,\n\nich habe h\u00e4ufige Probleme mit der Internetverbindung bei meinem Cisco Router ISR4331 You can reach me at johndoe@email.com.. Der Router hat h\u00e4ufige Verbindungsabbr\u00fcche, was die gesamte Netzwerkstabilit\u00e4t an meinem Standort erheblich beeintr\u00e4chtigt My name is David Kim.. Trotz mehrerer Versuche zur Fehlersuche, einschlie\u00dflich des Zur\u00fccksetzens des Routers und der \u00dcberpr\u00fcfung aller Verbindungen, besteht das Problem weiterhin. K\u00f6nnten Sie bitte helfen, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen?\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        356
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        193,
+        210
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        168,
+        172
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Internetverbindung\n\nSehr geehrter IT-Services-Kundensupport,\n\nich habe h\u00e4ufige Probleme mit der Internetverbindung bei meinem Cisco Router ISR[phone_number] You can reach me at [email].. Der Router hat h\u00e4ufige Verbindungsabbr\u00fcche, was die gesamte Netzwerkstabilit\u00e4t an meinem Standort erheblich beeintr\u00e4chtigt My name is [full_name].. Trotz mehrerer Versuche zur Fehlersuche, einschlie\u00dflich des Zur\u00fccksetzens des Routers und der \u00dcberpr\u00fcfung aller Verbindungen, besteht das Problem weiterhin. K\u00f6nnten Sie bitte helfen, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen?\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

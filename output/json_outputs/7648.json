@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, I am writing to inquire about the implementation of enhanced security protocols for medical data access and communication systems across our affected products and services My name is Carlos Mendoza.. It is crucial to ensure the confidentiality and integrity of sensitive medical information. Could you please inform me of the measures that have been taken to address this issue and provide a timeline for the expected implementation? I look forward to hearing back from you soon. Please let me know if there is any additional information needed to facilitate the process. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        212,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        618,
+        635
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, I am writing to inquire about the implementation of enhanced security protocols for medical data access and communication systems across our affected products and services My name is [full_name].. It is crucial to ensure the confidentiality and integrity of sensitive medical information. Could you please inform me of the measures that have been taken to address this issue and provide a timeline for the expected implementation? I look forward to hearing back from you soon. Please let me know if there is any additional information needed to facilitate the process. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

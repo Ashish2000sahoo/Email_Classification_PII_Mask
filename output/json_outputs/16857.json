@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Aids in Project Management\n\nGreetings from customer service, we are here to assist you with your inquiry regarding the integration of various tools for improved project management and team collaboration. It is our understanding that optimizing these processes can greatly enhance your team's performance You can reach me at liuwei@business.cn.. Could you please share more specifics about the current tools you use and the particular features you wish to incorporate? This will enable us to provide detailed information and suggestions for solutions or plugins that can fulfill your needs. Should you prefer, we can also arrange a call using the provided phone number, <tel_num>, for a more in-depth discussion My name is Elena Ivanova.. We are eager to assist you in maximizing your team's productivity and workflow efficiency.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        731,
+        744
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        333,
+        351
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Aids in Project Management\n\nGreetings from customer service, we are here to assist you with your inquiry regarding the integration of various tools for improved project management and team collaboration. It is our understanding that optimizing these processes can greatly enhance your team's performance You can reach me at [email].. Could you please share more specifics about the current tools you use and the particular features you wish to incorporate? This will enable us to provide detailed information and suggestions for solutions or plugins that can fulfill your needs. Should you prefer, we can also arrange a call using the provided phone number, <tel_num>, for a more in-depth discussion My name is [full_name].. We are eager to assist you in maximizing your team's productivity and workflow efficiency.",
+  "category_of_the_email": "Request"
+}

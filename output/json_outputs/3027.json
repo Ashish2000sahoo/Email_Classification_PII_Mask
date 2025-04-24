@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Upgrading Project Management Software\n\nHello customer support, I am reaching out to request an upgrade of our project management software You can reach me at david.kim@corp.kr.. Currently, the software's interface is outdated and cumbersome to use, hindering our team's productivity. Moreover, the software's scalability is restricted, complicating the management of significant projects. An upgrade that enhances the user interface and boosts the software's scalability would be highly beneficial for our team and significantly improve our project management experience. I would greatly appreciate it if you could address this issue promptly and provide a solution. Thank you for your attention and cooperation. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        745,
+        754
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        179,
+        196
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for Upgrading Project Management Software\n\nHello customer support, I am reaching out to request an upgrade of our project management software You can reach me at [email].. Currently, the software's interface is outdated and cumbersome to use, hindering our team's productivity. Moreover, the software's scalability is restricted, complicating the management of significant projects. An upgrade that enhances the user interface and boosts the software's scalability would be highly beneficial for our team and significantly improve our project management experience. I would greatly appreciate it if you could address this issue promptly and provide a solution. Thank you for your attention and cooperation. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

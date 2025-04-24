@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Meldung kritischen Sicherheitsunfalls\n\nIch schreibe an den Kundensupport, um einen kritischen Sicherheitsunfall zu melden My name is Elena Ivanova.. Es ist ein autorisierter Zugriffversuch auf IT-Systeme des Krankenhauses eingetreten, der vertrauliche medizinische Daten gef\u00e4hrden k\u00f6nnte. Dieser Versto\u00df scheint aufgrund eines Konfigurationsfehlers in den Cloud-Diensten zu liegen. Versucht, die Sicherheit durch st\u00e4rkere Passw\u00f6rter und \u00dcberwachung des Zugriffslogs zu verbessern, konnte aber noch nicht das Problem beheben. Dringend ben\u00f6tigen wir Hilfe, um den Versto\u00df einzuschr\u00e4nken und zu untersuchen You can reach me at sophia.rossi@service.it.. Bitte geben Sie Anweisungen f\u00fcr die n\u00e4chsten Schritte und zus\u00e4tzliche Informationen, die zur L\u00f6sung des Falles erforderlich sind.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        142,
+        155
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        631,
+        654
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Meldung kritischen Sicherheitsunfalls\n\nIch schreibe an den Kundensupport, um einen kritischen Sicherheitsunfall zu melden My name is [full_name].. Es ist ein autorisierter Zugriffversuch auf IT-Systeme des Krankenhauses eingetreten, der vertrauliche medizinische Daten gef\u00e4hrden k\u00f6nnte. Dieser Versto\u00df scheint aufgrund eines Konfigurationsfehlers in den Cloud-Diensten zu liegen. Versucht, die Sicherheit durch st\u00e4rkere Passw\u00f6rter und \u00dcberwachung des Zugriffslogs zu verbessern, konnte aber noch nicht das Problem beheben. Dringend ben\u00f6tigen wir Hilfe, um den Versto\u00df einzuschr\u00e4nken und zu untersuchen You can reach me at [email].. Bitte geben Sie Anweisungen f\u00fcr die n\u00e4chsten Schritte und zus\u00e4tzliche Informationen, die zur L\u00f6sung des Falles erforderlich sind.",
+  "category_of_the_email": "Incident"
+}

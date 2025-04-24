@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'assistance pour des probl\u00e8mes de connectivit\u00e9\n\nCher \u00e9quipe de support client, \n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour vous informer que notre client, <name>, rencontre des probl\u00e8mes de connectivit\u00e9 avec le portail du syst\u00e8me de tickets d\u00e9velopp\u00e9 en interne dans le cadre du plan de service de conseil informatique. Il semble que le probl\u00e8me affecte leur capacit\u00e9 \u00e0 acc\u00e9der et \u00e0 g\u00e9rer les tickets efficacement You can reach me at sophia.rossi@service.it.. \n\n\u00c9tant donn\u00e9 l'urgence, j'appr\u00e9cierais grandement que votre \u00e9quipe puisse examiner cette situation et fournir de l'aide pour le d\u00e9pannage My name is Jane Smith.. Merci de me faire savoir si des informations suppl\u00e9mentaires sont n\u00e9cessaires ou si un appel direct avec <name> au <tel_num> serait plus appropri\u00e9. \n\nMerci pour votre soutien.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        657,
+        667
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        481,
+        504
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Demande d'assistance pour des probl\u00e8mes de connectivit\u00e9\n\nCher \u00e9quipe de support client, \n\nJ'esp\u00e8re que ce message vous trouve en bonne sant\u00e9. Je vous \u00e9cris pour vous informer que notre client, <name>, rencontre des probl\u00e8mes de connectivit\u00e9 avec le portail du syst\u00e8me de tickets d\u00e9velopp\u00e9 en interne dans le cadre du plan de service de conseil informatique. Il semble que le probl\u00e8me affecte leur capacit\u00e9 \u00e0 acc\u00e9der et \u00e0 g\u00e9rer les tickets efficacement You can reach me at [email].. \n\n\u00c9tant donn\u00e9 l'urgence, j'appr\u00e9cierais grandement que votre \u00e9quipe puisse examiner cette situation et fournir de l'aide pour le d\u00e9pannage My name is [full_name].. Merci de me faire savoir si des informations suppl\u00e9mentaires sont n\u00e9cessaires ou si un appel direct avec <name> au <tel_num> serait plus appropri\u00e9. \n\nMerci pour votre soutien.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

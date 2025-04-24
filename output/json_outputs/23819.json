@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sofortige Unterst\u00fctzung f\u00fcr Serverausfall erforderlich\n\nHallo, mein Name ist <name> und wir erleben einen Serverausfall, der dringend Beratungshilfe erfordert. Unser IT-Beratungsdienst ist betroffen, und es ist entscheidend, die Serverfunktionalit\u00e4t so schnell wie m\u00f6glich wiederherzustellen You can reach me at liuwei@business.cn.. Wir bitten um Ihre sofortige Aufmerksamkeit, um dieses Problem zu l\u00f6sen. Bitte kontaktieren Sie mich so bald wie m\u00f6glich. Vielen Dank. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        488,
+        496
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        321,
+        339
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Sofortige Unterst\u00fctzung f\u00fcr Serverausfall erforderlich\n\nHallo, mein Name ist <name> und wir erleben einen Serverausfall, der dringend Beratungshilfe erfordert. Unser IT-Beratungsdienst ist betroffen, und es ist entscheidend, die Serverfunktionalit\u00e4t so schnell wie m\u00f6glich wiederherzustellen You can reach me at [email].. Wir bitten um Ihre sofortige Aufmerksamkeit, um dieses Problem zu l\u00f6sen. Bitte kontaktieren Sie mich so bald wie m\u00f6glich. Vielen Dank. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

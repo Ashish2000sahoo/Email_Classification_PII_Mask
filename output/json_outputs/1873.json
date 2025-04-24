@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Forderung nach Details zu digitalem Strategie-Angebot zur Markenerweiterung\n\nHerrn <name>, vielen Dank f\u00fcr Ihre Anfrage zu unseren digitalen Strategien f\u00fcr die Markenerweiterung. Wir bieten individuelle L\u00f6sungen an, um Online-Pr\u00e4senz zu verbessern und den Gesch\u00e4ftserfolg zu f\u00f6rdern. F\u00fcr pr\u00e4zisere Informationen, teilen Sie bitte Ihre spezifischen Anliegen und Ziele mit My name is Fatima Al-Farsi.. Ich freue mich darauf, Sie telefonisch oder per E-Mail mit weiteren Informationen zu kontaktieren. Geben Sie bitte einen passenden Zeitpunkt f\u00fcr eine Telefonatsanfrage an (<tel_num>) oder lassen Sie per E-Mail allgemeine Informationen zukommen. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        391,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        676,
+        701
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Forderung nach Details zu digitalem Strategie-Angebot zur Markenerweiterung\n\nHerrn <name>, vielen Dank f\u00fcr Ihre Anfrage zu unseren digitalen Strategien f\u00fcr die Markenerweiterung. Wir bieten individuelle L\u00f6sungen an, um Online-Pr\u00e4senz zu verbessern und den Gesch\u00e4ftserfolg zu f\u00f6rdern. F\u00fcr pr\u00e4zisere Informationen, teilen Sie bitte Ihre spezifischen Anliegen und Ziele mit My name is [full_name]-Farsi.. Ich freue mich darauf, Sie telefonisch oder per E-Mail mit weiteren Informationen zu kontaktieren. Geben Sie bitte einen passenden Zeitpunkt f\u00fcr eine Telefonatsanfrage an (<tel_num>) oder lassen Sie per E-Mail allgemeine Informationen zukommen. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

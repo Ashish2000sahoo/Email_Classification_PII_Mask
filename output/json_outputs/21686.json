@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Demande d'\u00e9change de l'imprimante\n\nCher Support du Magasin en Ligne Tech,\n\nJe rencontre des bourrages papier fr\u00e9quents avec mon imprimante Canon PIXMA MG3620, ce qui rend son utilisation presque impossible. Pouvons-nous organiser un \u00e9change pour cette unit\u00e9 ? Voici mes d\u00e9tails d'achat : Num\u00e9ro de commande <acc_num>, \u00e0 l'attention de <name>. Merci de me conseiller sur les prochaines \u00e9tapes You can reach me at david.kim@corp.kr.. Je vous remercie pour votre assistance.\n\nCordialement,\n\n<name>\n<tel_num> My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        525,
+        536
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        421,
+        438
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        162,
+        166
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Demande d'\u00e9change de l'imprimante\n\nCher Support du Magasin en Ligne Tech,\n\nJe rencontre des bourrages papier fr\u00e9quents avec mon imprimante Canon PIXMA MG[phone_number], ce qui rend son utilisation presque impossible. Pouvons-nous organiser un \u00e9change pour cette unit\u00e9 ? Voici mes d\u00e9tails d'achat : Num\u00e9ro de commande <acc_num>, \u00e0 l'attention de <name>. Merci de me conseiller sur les prochaines \u00e9tapes You can reach me at [email].. Je vous remercie pour votre assistance.\n\nCordialement,\n\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Data Synchronization Across Devices\n\nUsers encounter sync delays even after restarting servers and clearing cache.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        159,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Synchronization Across Devices\n\nUsers encounter sync delays even after restarting servers and clearing cache.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

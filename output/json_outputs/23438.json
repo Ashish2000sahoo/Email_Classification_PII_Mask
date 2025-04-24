@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Ben\u00f6tige Unterst\u00fctzung bei Installationsproblemen mit Ubuntu Linux 22.04 LTS\n\nSehr geehrter <name>,\n\nich habe Schwierigkeiten bei der Installation von Ubuntu Linux 22.04 LTS auf meinem Computer. Es scheint, als w\u00fcrden einige Pakete fehlen oder k\u00f6nnen nicht ordnungsgem\u00e4\u00df installiert werden You can reach me at fatima.farsi@help.com.. W\u00e4ren Sie so freundlich, Unterst\u00fctzung oder Anweisungen zur Behebung dieses Problems anzubieten?\n\nVielen Dank,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        472,
+        486
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        319,
+        340
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        76,
+        81
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    },
+    {
+      "position": [
+        173,
+        178
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    }
+  ],
+  "masked_email": "Subject: Ben\u00f6tige Unterst\u00fctzung bei Installationsproblemen mit Ubuntu Linux [phone_number] LTS\n\nSehr geehrter <name>,\n\nich habe Schwierigkeiten bei der Installation von Ubuntu Linux [phone_number] LTS auf meinem Computer. Es scheint, als w\u00fcrden einige Pakete fehlen oder k\u00f6nnen nicht ordnungsgem\u00e4\u00df installiert werden You can reach me at [email].. W\u00e4ren Sie so freundlich, Unterst\u00fctzung oder Anweisungen zur Behebung dieses Problems anzubieten?\n\nVielen Dank,\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

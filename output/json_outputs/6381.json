@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for ClickUp Integration\n\nHello Customer Support, I hope this message finds you well. I am facing an issue with the ClickUp integration which has led to delays in our projects. It seems like there might be a compatibility problem with the software My name is Fatima Al-Farsi.. I have already attempted to restart our systems, check for any updates, and ensure all settings are correctly configured, but the issue still persists. I would be very grateful if you could investigate this matter and provide a solution at your earliest convenience. Please inform me if you require any additional details from me to help resolve this issue. I am readily available to provide more information or address any questions you might have You can reach me at omar.hassan@secure.net.. Thank you for your swift response to this matter. I anticipate hearing back from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        292
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        772,
+        794
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Support Request for ClickUp Integration\n\nHello Customer Support, I hope this message finds you well. I am facing an issue with the ClickUp integration which has led to delays in our projects. It seems like there might be a compatibility problem with the software My name is [full_name]-Farsi.. I have already attempted to restart our systems, check for any updates, and ensure all settings are correctly configured, but the issue still persists. I would be very grateful if you could investigate this matter and provide a solution at your earliest convenience. Please inform me if you require any additional details from me to help resolve this issue. I am readily available to provide more information or address any questions you might have You can reach me at [email].. Thank you for your swift response to this matter. I anticipate hearing back from you soon.",
+  "category_of_the_email": "Incident"
+}

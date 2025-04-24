@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Immediate Assistance Required for AWS Performance Issues\n\nDear Customer Support Team,\n\nI am writing to urgently bring to your attention a critical situation affecting our operations related to the AWS Management Service. We have been encountering severe performance issues that are significantly impacting our deployment and hosting capabilities. This has resulted in considerable disruptions to our daily operations, and it is imperative that we resolve these problems at the earliest.\n\nOur team has attempted to troubleshoot the situation internally but with limited success. We believe the issues might be stemming from some recent changes made to the configuration settings. As this slow performance is affecting our service delivery and customer satisfaction, we need expert consultation to identify and fix the root causes without further delay.\n\nPlease prioritize this request and provide us with an immediate consultation slot with one of your AWS experts. We are counting on your prompt technical support to restore our services My name is Liu Wei.. Feel free to contact me at <tel_num> for further information.\n\nThank you for your swift assistance.\n\nKind regards,\n<name> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1058,
+        1065
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        1214,
+        1236
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Immediate Assistance Required for AWS Performance Issues\n\nDear Customer Support Team,\n\nI am writing to urgently bring to your attention a critical situation affecting our operations related to the AWS Management Service. We have been encountering severe performance issues that are significantly impacting our deployment and hosting capabilities. This has resulted in considerable disruptions to our daily operations, and it is imperative that we resolve these problems at the earliest.\n\nOur team has attempted to troubleshoot the situation internally but with limited success. We believe the issues might be stemming from some recent changes made to the configuration settings. As this slow performance is affecting our service delivery and customer satisfaction, we need expert consultation to identify and fix the root causes without further delay.\n\nPlease prioritize this request and provide us with an immediate consultation slot with one of your AWS experts. We are counting on your prompt technical support to restore our services My name is [full_name].. Feel free to contact me at <tel_num> for further information.\n\nThank you for your swift assistance.\n\nKind regards,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

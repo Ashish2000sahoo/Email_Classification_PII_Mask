@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support Team,\n\nI recently bought an Apple Watch Series 7 GPS from your website, and regrettably, the display seems to be faulty. Could you guide me on the return or exchange procedure? My order number is <order_num>.\n\nThank you,\n<name>\n<tel_num>. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        309
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support Team,\n\nI recently bought an Apple Watch Series 7 GPS from your website, and regrettably, the display seems to be faulty. Could you guide me on the return or exchange procedure? My order number is <order_num>.\n\nThank you,\n<name>\n<tel_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

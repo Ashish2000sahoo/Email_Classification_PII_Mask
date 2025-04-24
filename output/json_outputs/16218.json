@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Incident: Potential Data Leak in Health Records Platform\n\nWe have identified a potential security event in our health data management system You can reach me at elena.ivanova@support.org.. It is believed that the issue might stem from a security flaw in an external software component My name is Liu Wei.. We have already conducted virus scans and analyzed network protection records.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        321
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        179,
+        204
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Security Incident: Potential Data Leak in Health Records Platform\n\nWe have identified a potential security event in our health data management system You can reach me at [email].. It is believed that the issue might stem from a security flaw in an external software component My name is [full_name].. We have already conducted virus scans and analyzed network protection records.",
+  "category_of_the_email": "Incident"
+}

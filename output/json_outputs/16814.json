@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sichere Medizinische Datenl\u00f6sungen\n\nInteressiert an weiteren L\u00f6sungen zur Sicherung medizinischer Daten in Hospital-IT-Umgebungen. K\u00f6nnten Sie Informationen zu Sicherheitsma\u00dfnahmen bereitstellen, insbesondere zu Verschl\u00fcsselung und Zugriffssteuerung? Es w\u00e4re sch\u00f6n, zu erfahren, ob Ihre L\u00f6sungen Compliance-Zertifizierungen erhalten haben.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        371,
+        387
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Sichere Medizinische Datenl\u00f6sungen\n\nInteressiert an weiteren L\u00f6sungen zur Sicherung medizinischer Daten in Hospital-IT-Umgebungen. K\u00f6nnten Sie Informationen zu Sicherheitsma\u00dfnahmen bereitstellen, insbesondere zu Verschl\u00fcsselung und Zugriffssteuerung? Es w\u00e4re sch\u00f6n, zu erfahren, ob Ihre L\u00f6sungen Compliance-Zertifizierungen erhalten haben.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problema de guardado de hojas de Excel en Office 365\n\nHola,\n\nEstoy experimentando problemas con las hojas de Excel que no se guardan correctamente en Office 365 You can reach me at johndoe@email.com.. Parece que podr\u00eda haber un problema de sincronizaci\u00f3n con el almacenamiento en la nube. \u00bfPodr\u00eda su equipo ayudar a resolver este problema? Espero su pronta respuesta. Gracias.\n\nSaludos cordiales,\n<name>\n<name>, <tel_num>, <acc_num> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        453,
+        467
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        190,
+        207
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        58,
+        61
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        166,
+        169
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Problema de guardado de hojas de Excel en Office [cvv_no]\n\nHola,\n\nEstoy experimentando problemas con las hojas de Excel que no se guardan correctamente en Office [cvv_no] You can reach me at [email].. Parece que podr\u00eda haber un problema de sincronizaci\u00f3n con el almacenamiento en la nube. \u00bfPodr\u00eda su equipo ayudar a resolver este problema? Espero su pronta respuesta. Gracias.\n\nSaludos cordiales,\n<name>\n<name>, <tel_num>, <acc_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

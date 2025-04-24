@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Details on Project Management SaaS Features\n\nSeeking detailed information on the scalability options and features of the project management SaaS platform. Specifically, is the platform capable of handling large projects and supporting team collaboration and task management? Your help in providing this information would be greatly appreciated as it would assist me in understanding the product better My name is John Doe.. Thank you for your assistance. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        422,
+        430
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        487,
+        510
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Details on Project Management SaaS Features\n\nSeeking detailed information on the scalability options and features of the project management SaaS platform. Specifically, is the platform capable of handling large projects and supporting team collaboration and task management? Your help in providing this information would be greatly appreciated as it would assist me in understanding the product better My name is [full_name].. Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

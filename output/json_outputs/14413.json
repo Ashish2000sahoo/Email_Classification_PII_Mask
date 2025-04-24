@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Integrating Tools for Project Management and Collaboration\n\nDear Customer Support Team, I am reaching out to inquire about integrating various tools to enhance our project management and collaboration processes You can reach me at david.kim@corp.kr.. This would significantly boost our team's productivity and efficiency. Could you provide details on how to proceed with this integration, including any recommendations or existing solutions? Additionally, I would appreciate information on tools or plugins that could help us achieve this goal My name is Liu Wei.. I look forward to your response and any insights you can provide. Thank you for your support and assistance. I am eager to explore and implement these enhancements to improve our team's performance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        580,
+        587
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        256,
+        273
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Integrating Tools for Project Management and Collaboration\n\nDear Customer Support Team, I am reaching out to inquire about integrating various tools to enhance our project management and collaboration processes You can reach me at [email].. This would significantly boost our team's productivity and efficiency. Could you provide details on how to proceed with this integration, including any recommendations or existing solutions? Additionally, I would appreciate information on tools or plugins that could help us achieve this goal My name is [full_name].. I look forward to your response and any insights you can provide. Thank you for your support and assistance. I am eager to explore and implement these enhancements to improve our team's performance.",
+  "category_of_the_email": "Request"
+}

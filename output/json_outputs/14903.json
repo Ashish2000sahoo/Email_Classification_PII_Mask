@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hinweis zur Problematik beim Laden des Microsoft Teams-Dashboards\n\nDas Analyse-Dashboard in Microsoft Teams l\u00e4dt nicht My name is Carlos Mendoza.. Es k\u00f6nnte sein, dass eine aktuelle Aktualisierung des ESET NOD32 Antivirus der Grund ist. Ich habe Teams neu gestartet, die Firewall-Einstellungen \u00fcberpr\u00fcft und den Django-Framework aktualisiert, aber das Problem bleibt bestehen. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        139,
+        153
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        403,
+        424
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Hinweis zur Problematik beim Laden des Microsoft Teams-Dashboards\n\nDas Analyse-Dashboard in Microsoft Teams l\u00e4dt nicht My name is [full_name].. Es k\u00f6nnte sein, dass eine aktuelle Aktualisierung des ESET NOD32 Antivirus der Grund ist. Ich habe Teams neu gestartet, die Firewall-Einstellungen \u00fcberpr\u00fcft und den Django-Framework aktualisiert, aber das Problem bleibt bestehen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

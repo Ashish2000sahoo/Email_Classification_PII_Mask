@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Facing Login Challenges Today\n\nI am encountering login difficulties, which might be caused by an outdated browser. I have already attempted clearing the cache and restarting the browser, but the problem continues.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        261
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Facing Login Challenges Today\n\nI am encountering login difficulties, which might be caused by an outdated browser. I have already attempted clearing the cache and restarting the browser, but the problem continues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

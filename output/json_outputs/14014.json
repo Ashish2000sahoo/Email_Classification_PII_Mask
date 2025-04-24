@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nKundenservice, ich beschreibe ein Problem mit einer Werbeagentur f\u00fcr soziale-Medien-Werbung You can reach me at fatima.farsi@help.com.. Die Werbung leistet weniger als erwartet und hat zu einer R\u00fccknahme der Teilnahme gef\u00fchrt My name is David Kim.. Ich denke, dass die Zielgruppenanpassung die Ursache sein k\u00f6nnte, obwohl bereits Anpassungen an demografischen Merkmalen vorgenommen wurden. Obwohl es zu einer Verbesserung kam, ist die besorgte Mangel an Teilnahme. Ich bitte um Unterst\u00fctzung bei der Identifizierung der Ursache des Leistungsverlusts und Anleitungen f\u00fcr die Verbesserung der Zielgruppenanpassung unserer sozialen-Medien-Werbung. Ich sch\u00e4tze eine Empfehlung, um die Teilnahme zu erh\u00f6hen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        248,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        123,
+        144
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nKundenservice, ich beschreibe ein Problem mit einer Werbeagentur f\u00fcr soziale-Medien-Werbung You can reach me at [email].. Die Werbung leistet weniger als erwartet und hat zu einer R\u00fccknahme der Teilnahme gef\u00fchrt My name is [full_name].. Ich denke, dass die Zielgruppenanpassung die Ursache sein k\u00f6nnte, obwohl bereits Anpassungen an demografischen Merkmalen vorgenommen wurden. Obwohl es zu einer Verbesserung kam, ist die besorgte Mangel an Teilnahme. Ich bitte um Unterst\u00fctzung bei der Identifizierung der Ursache des Leistungsverlusts und Anleitungen f\u00fcr die Verbesserung der Zielgruppenanpassung unserer sozialen-Medien-Werbung. Ich sch\u00e4tze eine Empfehlung, um die Teilnahme zu erh\u00f6hen.",
+  "category_of_the_email": "Incident"
+}

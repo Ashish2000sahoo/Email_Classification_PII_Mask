@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhancing Investments with Alteryx\n\nSeeking assistance in optimizing investments through better data analytics with Alteryx My name is Elena Ivanova.. Would appreciate detailed insights and guidance on leveraging Alteryx's capabilities to make informed investment decisions You can reach me at fatima.farsi@help.com.. Kindly share practices, tools, and techniques to enhance my investment strategy and provide relevant resources for getting started.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        169
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        313,
+        334
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhancing Investments with Alteryx\n\nSeeking assistance in optimizing investments through better data analytics with Alteryx My name is [full_name].. Would appreciate detailed insights and guidance on leveraging Alteryx's capabilities to make informed investment decisions You can reach me at [email].. Kindly share practices, tools, and techniques to enhance my investment strategy and provide relevant resources for getting started.",
+  "category_of_the_email": "Request"
+}

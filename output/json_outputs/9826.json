@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage nach Details zu SaaS-Integrationen f\u00fcr Projektmanagement\n\nBetreff: Anfrage zu SaaS-Integrationen f\u00fcr Projektmanagement\\n\\nSehr geehrte Kundenservice,\\n\\nich schreibe im Zusammenhang mit der Integration einer SaaS-Software in mein Projektmanagement-System. K\u00f6nnten Sie mehr Informationen zum Thema geben? Ich m\u00f6chte wissen, welche Werkzeuge und Plattformen in Ihrer SaaS-L\u00f6sung integriert sind und welche Integrationsoptionen verf\u00fcgbar sind. Das wird mir helfen, die richtige SaaS-L\u00f6sung f\u00fcr meine Projektmanagementbed\u00fcrfnisse auszuw\u00e4hlen My name is Elena Ivanova.. Ich freue mich auf R\u00fcckmeldung mit weiteren Details. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at maria.gonzalez@shop.es.. Ich sch\u00e4tze Ihre Hilfe und warte auf Ihre Antwort.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        564,
+        577
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        695,
+        717
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Frage nach Details zu SaaS-Integrationen f\u00fcr Projektmanagement\n\nBetreff: Anfrage zu SaaS-Integrationen f\u00fcr Projektmanagement\\n\\nSehr geehrte Kundenservice,\\n\\nich schreibe im Zusammenhang mit der Integration einer SaaS-Software in mein Projektmanagement-System. K\u00f6nnten Sie mehr Informationen zum Thema geben? Ich m\u00f6chte wissen, welche Werkzeuge und Plattformen in Ihrer SaaS-L\u00f6sung integriert sind und welche Integrationsoptionen verf\u00fcgbar sind. Das wird mir helfen, die richtige SaaS-L\u00f6sung f\u00fcr meine Projektmanagementbed\u00fcrfnisse auszuw\u00e4hlen My name is [full_name].. Ich freue mich auf R\u00fcckmeldung mit weiteren Details. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at [email].. Ich sch\u00e4tze Ihre Hilfe und warte auf Ihre Antwort.",
+  "category_of_the_email": "Request"
+}

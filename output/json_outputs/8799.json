@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Prompt Update of Project Management Software\n\nGreetings from customer support. I am reaching out to request an urgent update of our project management software. The current version has an outdated and cumbersome interface, which is impacting our team's productivity My name is John Doe.. Additionally, its limitations in scalability pose challenges when handling large projects. Could you please expedite an update that enhances the user interface and improves scalability? Such improvements would significantly benefit our team and enhance our project management You can reach me at carlosm@gmail.com.. I look forward to your prompt attention and resolution. Kind regards.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        608,
+        625
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Prompt Update of Project Management Software\n\nGreetings from customer support. I am reaching out to request an urgent update of our project management software. The current version has an outdated and cumbersome interface, which is impacting our team's productivity My name is [full_name].. Additionally, its limitations in scalability pose challenges when handling large projects. Could you please expedite an update that enhances the user interface and improves scalability? Such improvements would significantly benefit our team and enhance our project management You can reach me at [email].. I look forward to your prompt attention and resolution. Kind regards.",
+  "category_of_the_email": "Change"
+}

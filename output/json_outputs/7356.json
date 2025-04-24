@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Mangelnde Geb\u00fchren in der Monatsrechnung\n\nUnvorhergesehene Geb\u00fchren in der monatlichen Rechnung, vermutlich aufgrund m\u00f6glicherweise fehlerhafter Abonnement-Einstellungen. Ich habe bereits mit dem Support Kontakt aufgenommen und die Kontoeinstellungen \u00fcberpr\u00fcft, aber das Problem blieb bestehen.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        326,
+        341
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Mangelnde Geb\u00fchren in der Monatsrechnung\n\nUnvorhergesehene Geb\u00fchren in der monatlichen Rechnung, vermutlich aufgrund m\u00f6glicherweise fehlerhafter Abonnement-Einstellungen. Ich habe bereits mit dem Support Kontakt aufgenommen und die Kontoeinstellungen \u00fcberpr\u00fcft, aber das Problem blieb bestehen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

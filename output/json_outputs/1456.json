@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwartete Kosten auf meiner letzten Rechnung\n\nIn meiner letzten Rechnung waren unerwartete Kosten f\u00fcr nicht verwendete Produkte enthalten My name is Jane Smith.. Ich habe bereits meine Kontoeinstellungen und die Rechnungsdaten \u00fcberpr\u00fcft und Kontakt zum Support getroffen, aber das Problem beh\u00e4lt sich best\u00e4ndig. Ich denke, dass der Ausl\u00f6ser m\u00f6glicherweise ein Fehler in der Synchronisierung der Abonnements ist. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie das Problem untersuchen und eine L\u00f6sung anbieten k\u00f6nnten. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        170
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        536,
+        557
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unerwartete Kosten auf meiner letzten Rechnung\n\nIn meiner letzten Rechnung waren unerwartete Kosten f\u00fcr nicht verwendete Produkte enthalten My name is [full_name].. Ich habe bereits meine Kontoeinstellungen und die Rechnungsdaten \u00fcberpr\u00fcft und Kontakt zum Support getroffen, aber das Problem beh\u00e4lt sich best\u00e4ndig. Ich denke, dass der Ausl\u00f6ser m\u00f6glicherweise ein Fehler in der Synchronisierung der Abonnements ist. Ich w\u00fcrde sehr sch\u00e4tzen, wenn Sie das Problem untersuchen und eine L\u00f6sung anbieten k\u00f6nnten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

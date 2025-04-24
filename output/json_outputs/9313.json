@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unanticipated Charge on Invoice\n\nDear Customer Support, I have encountered an unexpected charge on my recent invoice and suspect it might be due to a billing system error My name is Liu Wei.. I have reviewed the contract terms and contacted support for clarification, but have not yet received a response. I would greatly appreciate it if you could look into the matter and provide a clear explanation of the charge. Please let us know if there is any additional information needed to resolve this issue You can reach me at elena.ivanova@support.org.. I look forward to hearing from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        198
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        537,
+        562
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unanticipated Charge on Invoice\n\nDear Customer Support, I have encountered an unexpected charge on my recent invoice and suspect it might be due to a billing system error My name is [full_name].. I have reviewed the contract terms and contacted support for clarification, but have not yet received a response. I would greatly appreciate it if you could look into the matter and provide a clear explanation of the charge. Please let us know if there is any additional information needed to resolve this issue You can reach me at [email].. I look forward to hearing from you soon.",
+  "category_of_the_email": "Problem"
+}

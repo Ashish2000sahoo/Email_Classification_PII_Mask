@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Abrechnungsproblem mit der Verl\u00e4ngerung von Google Workspace\n\nSehr geehrter Kundensupport,\n\nich schreibe, um ein Abrechnungsproblem bez\u00fcglich meines Google Workspace Business Standard Abonnements zu bestreiten. Die Verl\u00e4ngerungsgeb\u00fchren stimmen nicht mit dem vereinbarten Leistungszeitraum \u00fcberein. Bitte \u00fcberpr\u00fcfen Sie mein Konto (<acc_num>) und erkl\u00e4ren Sie die fehlerhaften Geb\u00fchren f\u00fcr die j\u00fcngste Verl\u00e4ngerung You can reach me at david.kim@corp.kr.. Ihre rasche Aufmerksamkeit f\u00fcr dieses Anliegen wird sehr gesch\u00e4tzt.\n\nVielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        600,
+        614
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        444,
+        461
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Abrechnungsproblem mit der Verl\u00e4ngerung von Google Workspace\n\nSehr geehrter Kundensupport,\n\nich schreibe, um ein Abrechnungsproblem bez\u00fcglich meines Google Workspace Business Standard Abonnements zu bestreiten. Die Verl\u00e4ngerungsgeb\u00fchren stimmen nicht mit dem vereinbarten Leistungszeitraum \u00fcberein. Bitte \u00fcberpr\u00fcfen Sie mein Konto (<acc_num>) und erkl\u00e4ren Sie die fehlerhaften Geb\u00fchren f\u00fcr die j\u00fcngste Verl\u00e4ngerung You can reach me at [email].. Ihre rasche Aufmerksamkeit f\u00fcr dieses Anliegen wird sehr gesch\u00e4tzt.\n\nVielen Dank.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

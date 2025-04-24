@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datensicherheitsunterst\u00fctzung erforderlich\n\nWir erleben unautorisierte Zugriffsanl\u00e4sse auf medizinische Datensysteme, was auf den Mangel an Sicherheitsprotokollen zur\u00fcckzuf\u00fchren ist You can reach me at carlosm@gmail.com.. Obwohl Feuerw\u00e4nde eingerichtet und Passw\u00f6rter aktualisiert wurden, gehen die Zugriffsanl\u00e4sse weiterhin vor. Das Team hat verschiedene Ma\u00dfnahmen unternommen, aber der Problemfall beh\u00e4lt sich best\u00e4ndig.\\nWir bitten h\u00f6flich um Unterst\u00fctzung, um das Problem zu l\u00f6sen und das System in Bezug auf Sicherheit zu verbessern, um potenzielle Verletzungen zu verhindern My name is Fatima Al-Farsi.. Bitte geben Sie Anleitungen f\u00fcr die notwendigen Schritte, die unternommen werden m\u00fcssen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        614,
+        623
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        224,
+        241
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datensicherheitsunterst\u00fctzung erforderlich\n\nWir erleben unautorisierte Zugriffsanl\u00e4sse auf medizinische Datensysteme, was auf den Mangel an Sicherheitsprotokollen zur\u00fcckzuf\u00fchren ist You can reach me at [email].. Obwohl Feuerw\u00e4nde eingerichtet und Passw\u00f6rter aktualisiert wurden, gehen die Zugriffsanl\u00e4sse weiterhin vor. Das Team hat verschiedene Ma\u00dfnahmen unternommen, aber der Problemfall beh\u00e4lt sich best\u00e4ndig.\\nWir bitten h\u00f6flich um Unterst\u00fctzung, um das Problem zu l\u00f6sen und das System in Bezug auf Sicherheit zu verbessern, um potenzielle Verletzungen zu verhindern My name is [full_name]-Farsi.. Bitte geben Sie Anleitungen f\u00fcr die notwendigen Schritte, die unternommen werden m\u00fcssen.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sicherheit f\u00fcr medizinische Datenspeicherung\n\nSehr geehrte Kundenservice, ich w\u00fcrde mich freuen, wenn Sie mir Informationen zu den empfohlenen Sicherheitsma\u00dfnahmen f\u00fcr die Speicherung medizinischer Daten zur Verf\u00fcgung stellen k\u00f6nnten. Da diese Daten sensibel und vertraulich sind, ist es von entscheidender Bedeutung, dass sie sicher gespeichert werden, um ein unbefugtes Zugriff zu verhindern. Es w\u00e4re mir sehr lieb, wenn Sie mir Informationen zu den besten Verfahren zur Sicherung medizinischer Daten zur Verf\u00fcgung stellen k\u00f6nnten. Dies beinhaltet Verschl\u00fcsselungsverfahren, Zugriffskontrolle und R\u00fcckup-Verfahren You can reach me at elena.ivanova@support.org.. Dar\u00fcber hinaus w\u00fcrde ich gerne wissen, ob es bestimmte Vorschriften oder Standards gibt, die eingehalten werden m\u00fcssen. Ich freue mich auf Ihre Unterst\u00fctzung und freue mich darauf, von Ihnen zu h\u00f6ren. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        885,
+        896
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        645,
+        670
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Sicherheit f\u00fcr medizinische Datenspeicherung\n\nSehr geehrte Kundenservice, ich w\u00fcrde mich freuen, wenn Sie mir Informationen zu den empfohlenen Sicherheitsma\u00dfnahmen f\u00fcr die Speicherung medizinischer Daten zur Verf\u00fcgung stellen k\u00f6nnten. Da diese Daten sensibel und vertraulich sind, ist es von entscheidender Bedeutung, dass sie sicher gespeichert werden, um ein unbefugtes Zugriff zu verhindern. Es w\u00e4re mir sehr lieb, wenn Sie mir Informationen zu den besten Verfahren zur Sicherung medizinischer Daten zur Verf\u00fcgung stellen k\u00f6nnten. Dies beinhaltet Verschl\u00fcsselungsverfahren, Zugriffskontrolle und R\u00fcckup-Verfahren You can reach me at [email].. Dar\u00fcber hinaus w\u00fcrde ich gerne wissen, ob es bestimmte Vorschriften oder Standards gibt, die eingehalten werden m\u00fcssen. Ich freue mich auf Ihre Unterst\u00fctzung und freue mich darauf, von Ihnen zu h\u00f6ren. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

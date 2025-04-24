@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Concerning Security Breach\n\nNoted unauthorized access attempts on medical data systems due to outdated security measures.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Concerning Security Breach\n\nNoted unauthorized access attempts on medical data systems due to outdated security measures.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

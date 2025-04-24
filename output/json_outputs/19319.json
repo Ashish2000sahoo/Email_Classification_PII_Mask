@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Drop in Social Media Engagement\n\nI am inquiring about a recent drop in our social media engagement, which might be related to recent algorithm modifications. Having already tried to refine our targeting and content strategy to manage this, the outcomes still seem unpredictable You can reach me at sophia.rossi@service.it.. I would be very grateful for the assistance your team can provide in clarifying and resolving this matter My name is Fatima Al-Farsi.. Could you guide me on any further actions or require additional data from me?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        468,
+        477
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        325,
+        348
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Drop in Social Media Engagement\n\nI am inquiring about a recent drop in our social media engagement, which might be related to recent algorithm modifications. Having already tried to refine our targeting and content strategy to manage this, the outcomes still seem unpredictable You can reach me at [email].. I would be very grateful for the assistance your team can provide in clarifying and resolving this matter My name is [full_name]-Farsi.. Could you guide me on any further actions or require additional data from me?",
+  "category_of_the_email": "Incident"
+}

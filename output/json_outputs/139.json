@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Declining Website Traffic\n\nHello, we have observed a significant reduction of 30% in our website traffic over the course of a single night. Potential causes could be recent algorithm modifications or software issues You can reach me at omar.hassan@secure.net.. After reviewing our analytics and updating our plugins and caching systems, the problem remains unresolved. We require your expertise to address and fix this situation. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        466,
+        475
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        261,
+        283
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Declining Website Traffic\n\nHello, we have observed a significant reduction of 30% in our website traffic over the course of a single night. Potential causes could be recent algorithm modifications or software issues You can reach me at [email].. After reviewing our analytics and updating our plugins and caching systems, the problem remains unresolved. We require your expertise to address and fix this situation. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

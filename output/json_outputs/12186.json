@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundendienstliche Unterst\u00fctzung\n\nKontaktieren Sie uns f\u00fcr eine detaillierte Dokumentation zur Integration von MySQL 8.0 in unser SaaS-Projektmanagement-System. K\u00f6nnten Sie Schritt-f\u00fcr-Schritt-Anleitungen zur Einrichtung und Integration bereitstellen, einschlie\u00dflich notwendiger Konfigurationsdateien und API-Schl\u00fcssel? Dar\u00fcber hinaus ben\u00f6tigen wir Informationen zu h\u00e4ufig auftretenden Problemen bei der Integration, vorausgesetzt, sie k\u00f6nnen sie vorgeben My name is Sophia Rossi.. Bitte beachten Sie, dass wir spezifische Systemanforderungen und Kompatibilit\u00e4tsprobleme vermelden You can reach me at sophia.rossi@service.it.. Sollten Sie weitere Ressourcen oder Unterst\u00fctzung ben\u00f6tigen, melden Sie sich f\u00fcr eine Anruf-\u00dcbersetzung an, um Optimierungen f\u00fcr die Integration zu besprechen und den Einstellungsprozess fl\u00fcssig zu gestalten. <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        475,
+        487
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        608,
+        631
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Kundendienstliche Unterst\u00fctzung\n\nKontaktieren Sie uns f\u00fcr eine detaillierte Dokumentation zur Integration von MySQL 8.0 in unser SaaS-Projektmanagement-System. K\u00f6nnten Sie Schritt-f\u00fcr-Schritt-Anleitungen zur Einrichtung und Integration bereitstellen, einschlie\u00dflich notwendiger Konfigurationsdateien und API-Schl\u00fcssel? Dar\u00fcber hinaus ben\u00f6tigen wir Informationen zu h\u00e4ufig auftretenden Problemen bei der Integration, vorausgesetzt, sie k\u00f6nnen sie vorgeben My name is [full_name].. Bitte beachten Sie, dass wir spezifische Systemanforderungen und Kompatibilit\u00e4tsprobleme vermelden You can reach me at [email].. Sollten Sie weitere Ressourcen oder Unterst\u00fctzung ben\u00f6tigen, melden Sie sich f\u00fcr eine Anruf-\u00dcbersetzung an, um Optimierungen f\u00fcr die Integration zu besprechen und den Einstellungsprozess fl\u00fcssig zu gestalten. <acc_num>",
+  "category_of_the_email": "Request"
+}

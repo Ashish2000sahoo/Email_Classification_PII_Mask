@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundenservice Marke\n\nKontaktieren Sie uns, um zu erfahren, wie Adobe Creative Cloud effektiv f\u00fcr das Wachstum Ihrer Marke eingesetzt werden kann My name is John Doe.. K\u00f6nnten Sie uns Ratschl\u00e4ge geben, welche Werkzeuge und Techniken Sie nutzen sollten, um den gr\u00f6\u00dften Einfluss zu schaffen? Ich m\u00f6chte mehr M\u00f6glichkeiten erfahren, um meine Marke zu optimieren und ein gr\u00f6\u00dferes Publikum zu erreichen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        173
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        514,
+        531
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Kundenservice Marke\n\nKontaktieren Sie uns, um zu erfahren, wie Adobe Creative Cloud effektiv f\u00fcr das Wachstum Ihrer Marke eingesetzt werden kann My name is [full_name].. K\u00f6nnten Sie uns Ratschl\u00e4ge geben, welche Werkzeuge und Techniken Sie nutzen sollten, um den gr\u00f6\u00dften Einfluss zu schaffen? Ich m\u00f6chte mehr M\u00f6glichkeiten erfahren, um meine Marke zu optimieren und ein gr\u00f6\u00dferes Publikum zu erreichen. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

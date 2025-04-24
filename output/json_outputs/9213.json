@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Over Delays in Payroll Processing\n\nWe have received several complaints about delayed payroll processing. A potential system glitch might be the cause You can reach me at omar.hassan@secure.net.. We have reviewed the software and employee data but have not yet found a solution. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        306,
+        319
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        187,
+        209
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concern Over Delays in Payroll Processing\n\nWe have received several complaints about delayed payroll processing. A potential system glitch might be the cause You can reach me at [email].. We have reviewed the software and employee data but have not yet found a solution. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

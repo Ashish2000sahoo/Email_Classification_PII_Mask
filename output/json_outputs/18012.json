@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Billing Discrepancies\n\nThe marketing agency has encountered unexpected billing inconsistencies across various digital product subscriptions You can reach me at david.kim@corp.kr.. These may have resulted from issues with the payment processing software integration My name is Maria Gonzalez.. So far, payment details have been verified and customer support has been contacted for resolution. We would greatly appreciate it if you could look into the matter and provide a solution at your earliest convenience. Please notify us if there is any additional information needed to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        303,
+        317
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        187,
+        204
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Billing Discrepancies\n\nThe marketing agency has encountered unexpected billing inconsistencies across various digital product subscriptions You can reach me at [email].. These may have resulted from issues with the payment processing software integration My name is [full_name].. So far, payment details have been verified and customer support has been contacted for resolution. We would greatly appreciate it if you could look into the matter and provide a solution at your earliest convenience. Please notify us if there is any additional information needed to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

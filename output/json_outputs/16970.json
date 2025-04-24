@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hospital Data Security Incident Report\n\nCustomer Support is reporting a serious security incident involving the hospital's system. An unauthorized access attempt has been detected, potentially compromising the security of medical data. The incident may have occurred due to a phishing attack or system vulnerability You can reach me at elena.ivanova@support.org.. Immediate actions have been taken, including increasing firewall protections and performing a preliminary system scan to address the threats. However, we require assistance to ensure the security system is robust and prevent future breaches. Please provide guidance on the next steps. My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        669,
+        678
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        345,
+        370
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Hospital Data Security Incident Report\n\nCustomer Support is reporting a serious security incident involving the hospital's system. An unauthorized access attempt has been detected, potentially compromising the security of medical data. The incident may have occurred due to a phishing attack or system vulnerability You can reach me at [email].. Immediate actions have been taken, including increasing firewall protections and performing a preliminary system scan to address the threats. However, we require assistance to ensure the security system is robust and prevent future breaches. Please provide guidance on the next steps. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

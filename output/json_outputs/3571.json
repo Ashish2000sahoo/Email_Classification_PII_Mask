@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Details on Securing Medical Data for IT Services Provided to Health Service Providers\n\nIs it necessary to ensure the confidentiality and integrity of patient data when IT services are provided to health service providers? Please ensure the confidentiality and integrity of patient data. Thank you for your support.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        346,
+        362
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Details on Securing Medical Data for IT Services Provided to Health Service Providers\n\nIs it necessary to ensure the confidentiality and integrity of patient data when IT services are provided to health service providers? Please ensure the confidentiality and integrity of patient data. Thank you for your support.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue Regarding Our Digital Campaign\n\nDear Support Team, I am writing to report the unexpected drop of 20% in the metrics of our digital campaign. Potential causes could be changes in the algorithms or ad placements My name is Carlos Mendoza.. We have tried to adjust the target audience and rotate the advertisements, but the issue persists. I would appreciate it if you could investigate this further and offer a solution as soon as possible. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        250
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        471,
+        492
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue Regarding Our Digital Campaign\n\nDear Support Team, I am writing to report the unexpected drop of 20% in the metrics of our digital campaign. Potential causes could be changes in the algorithms or ad placements My name is [full_name].. We have tried to adjust the target audience and rotate the advertisements, but the issue persists. I would appreciate it if you could investigate this further and offer a solution as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

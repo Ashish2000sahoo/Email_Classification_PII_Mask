@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Norton Antivirus\n\nWelche Sicherheitsma\u00dfnahmen sind in einem Gesundheitskontext f\u00fcr Norton Antivirus am besten geeignet?. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        151,
+        167
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Norton Antivirus\n\nWelche Sicherheitsma\u00dfnahmen sind in einem Gesundheitskontext f\u00fcr Norton Antivirus am besten geeignet?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Customer Support: Report of Potential Security Issue in Hospital System\n\nDear Customer Support,\\n\\nI am writing to report a potential security issue with the hospital's system. Recently, there was an unauthorized access attempt, which may be due to insufficient firewall protection My name is David Kim.. We have taken immediate action to strengthen our security protocols and update software to prevent future incidents You can reach me at david.kim@corp.kr.. However, we remain concerned about potential risks and would like your assistance in further investigating this matter.\\n\\nCould you please provide us with guidance to ensure the security of our system? Thank you for your help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        311
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        452,
+        469
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Customer Support: Report of Potential Security Issue in Hospital System\n\nDear Customer Support,\\n\\nI am writing to report a potential security issue with the hospital's system. Recently, there was an unauthorized access attempt, which may be due to insufficient firewall protection My name is [full_name].. We have taken immediate action to strengthen our security protocols and update software to prevent future incidents You can reach me at [email].. However, we remain concerned about potential risks and would like your assistance in further investigating this matter.\\n\\nCould you please provide us with guidance to ensure the security of our system? Thank you for your help.",
+  "category_of_the_email": "Incident"
+}

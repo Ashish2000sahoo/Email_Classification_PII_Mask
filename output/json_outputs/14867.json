@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Data Loss During Project Sync\n\nDear Customer Support, I am reaching out to report an unexpected data loss that happened during the project synchronization. It appears the problem might stem from an integration issue with the RAID-Controller. Despite attempting to restart Ulysses and verifying the Mesh-Netzwerk connections, the issue continues My name is Liu Wei.. Could you please look into this and provide a solution at your earliest convenience? If you require further details from me to address this matter, please do not hesitate to inform me You can reach me at liuwei@business.cn.. Thank you for your assistance. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        374,
+        381
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        592,
+        610
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Reported Data Loss During Project Sync\n\nDear Customer Support, I am reaching out to report an unexpected data loss that happened during the project synchronization. It appears the problem might stem from an integration issue with the RAID-Controller. Despite attempting to restart Ulysses and verifying the Mesh-Netzwerk connections, the issue continues My name is [full_name].. Could you please look into this and provide a solution at your earliest convenience? If you require further details from me to address this matter, please do not hesitate to inform me You can reach me at [email].. Thank you for your assistance. Sincerely, [Your Name]",
+  "category_of_the_email": "Incident"
+}

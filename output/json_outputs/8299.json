@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About Payment Options for Annual Subscriptions\n\nDear Customer Service Team, I am writing to inquire about the payment options available for annual subscriptions. I am interested in using your service and would like more information on the payment methods you offer. Specifically, I would like to know if you accept credit cards, PayPal, or bank transfers. I would also appreciate information on any discounts or promotional offers for annual subscriptions You can reach me at carlosm@gmail.com.. Additionally, I would like to know if there are any additional fees for certain payment options My name is Jane Smith.. I look forward to your response and a detailed explanation of the payment options for annual subscriptions. Please let me know if you need any further information. Thank you for your time and support. I look forward to the opportunity to use your service and to your reply.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        620,
+        630
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        493,
+        510
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About Payment Options for Annual Subscriptions\n\nDear Customer Service Team, I am writing to inquire about the payment options available for annual subscriptions. I am interested in using your service and would like more information on the payment methods you offer. Specifically, I would like to know if you accept credit cards, PayPal, or bank transfers. I would also appreciate information on any discounts or promotional offers for annual subscriptions You can reach me at [email].. Additionally, I would like to know if there are any additional fees for certain payment options My name is [full_name].. I look forward to your response and a detailed explanation of the payment options for annual subscriptions. Please let me know if you need any further information. Thank you for your time and support. I look forward to the opportunity to use your service and to your reply.",
+  "category_of_the_email": "Request"
+}

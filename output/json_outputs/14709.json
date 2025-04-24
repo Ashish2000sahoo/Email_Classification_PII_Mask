@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Forecasts Are Inexact\n\nHello support team, I am contacting you to address a problem with the investment forecasts. The predictive models have not been adjusted, which may be because of outdated data. Despite attempts to update the data and retrain the models, the issue remains unresolved. I would be grateful if you could examine this and offer a resolution You can reach me at janesmith@company.com.. The inaccuracy in forecasts is impacting our investment strategies. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        502,
+        511
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        399,
+        420
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Investment Forecasts Are Inexact\n\nHello support team, I am contacting you to address a problem with the investment forecasts. The predictive models have not been adjusted, which may be because of outdated data. Despite attempts to update the data and retrain the models, the issue remains unresolved. I would be grateful if you could examine this and offer a resolution You can reach me at [email].. The inaccuracy in forecasts is impacting our investment strategies. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

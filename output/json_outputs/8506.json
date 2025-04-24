@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry on Pricing for Large Team Plans\n\nI am contacting you to seek details on pricing options for large teams utilizing your project management software that supports multiple integrations. Kindly share the details of the various plans and their respective costs My name is David Kim.. Also, I would appreciate it if you could inform me about any discounts applicable for large teams. Furthermore, could you specify if there are any constraints on the number of integrations per plan? Thank you for your assistance. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        294
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        549,
+        572
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on Pricing for Large Team Plans\n\nI am contacting you to seek details on pricing options for large teams utilizing your project management software that supports multiple integrations. Kindly share the details of the various plans and their respective costs My name is [full_name].. Also, I would appreciate it if you could inform me about any discounts applicable for large teams. Furthermore, could you specify if there are any constraints on the number of integrations per plan? Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

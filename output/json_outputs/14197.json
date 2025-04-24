@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Issue with Digital Campaign Metrics\n\nTo the support team, I am contacting you to report an issue with the accurate tracking of my digital campaign metrics My name is Sophia Rossi.. The problem could be linked to an integration glitch with my Ubiquiti UniFi Dream Machine You can reach me at johndoe@email.com.. Despite restarting Vagrant and adjusting my Kaspersky Internet Security settings, the issue still persists. I would be very grateful if you could look into this and provide a solution promptly. I am ready to offer any further details or context needed to address this. Please inform me of any additional actions I should take or if you need more information from me. I look forward to your prompt response and a resolution. Thank you for your attention and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        196
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        308,
+        325
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue with Digital Campaign Metrics\n\nTo the support team, I am contacting you to report an issue with the accurate tracking of my digital campaign metrics My name is [full_name].. The problem could be linked to an integration glitch with my Ubiquiti UniFi Dream Machine You can reach me at [email].. Despite restarting Vagrant and adjusting my Kaspersky Internet Security settings, the issue still persists. I would be very grateful if you could look into this and provide a solution promptly. I am ready to offer any further details or context needed to address this. Please inform me of any additional actions I should take or if you need more information from me. I look forward to your prompt response and a resolution. Thank you for your attention and assistance.",
+  "category_of_the_email": "Incident"
+}

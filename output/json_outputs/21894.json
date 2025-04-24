@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Change in User Permissions Setup\n\nDear Customer Support,\n\nI hope this message finds you well. We are encountering an issue with the user permissions setup within our Jira Software instance, specifically with version 8.20. This situation is affecting our project management workflow significantly My name is Omar Hassan.. We have recently received a request from one of our key users, <name>, who brought to our attention that certain permissions for project roles need adjustments to enhance team collaboration and access control.\n\nCould you please assist in examining the current permission settings? Additionally, we would appreciate your guidance on the best practices to implement changes without disrupting our ongoing projects. If possible, a timeline for resolving these issues would be greatly helpful. \n\nLooking forward to your prompt response.\n\nRegards,\n\n<name>\n<name> Software Development Company\n<email_address>\n<tel_num> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        328,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        975,
+        992
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request for Change in User Permissions Setup\n\nDear Customer Support,\n\nI hope this message finds you well. We are encountering an issue with the user permissions setup within our Jira Software instance, specifically with version 8.20. This situation is affecting our project management workflow significantly My name is [full_name].. We have recently received a request from one of our key users, <name>, who brought to our attention that certain permissions for project roles need adjustments to enhance team collaboration and access control.\n\nCould you please assist in examining the current permission settings? Additionally, we would appreciate your guidance on the best practices to implement changes without disrupting our ongoing projects. If possible, a timeline for resolving these issues would be greatly helpful. \n\nLooking forward to your prompt response.\n\nRegards,\n\n<name>\n<name> Software Development Company\n<email_address>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

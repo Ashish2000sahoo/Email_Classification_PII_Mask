@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Software Integration\n\nThe data analysis tool is failing to integrate our financial firm's investment platform. We suspect compatibility issues due to recent software updates. Reinstalling the program and checking the network connection did not resolve the issue My name is Maria Gonzalez.. We need help to solve the problem and ensure a smooth integration. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        308
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        395,
+        412
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Software Integration\n\nThe data analysis tool is failing to integrate our financial firm's investment platform. We suspect compatibility issues due to recent software updates. Reinstalling the program and checking the network connection did not resolve the issue My name is [full_name].. We need help to solve the problem and ensure a smooth integration. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

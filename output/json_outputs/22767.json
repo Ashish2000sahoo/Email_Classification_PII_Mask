@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'assistance pour la configuration\n\nCher \u00e9quipe du support client,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous \u00e9cris pour demander de l'aide pour configurer nos nouvelles tablettes Microsoft Surface Pro 7 dans notre environnement d'entreprise You can reach me at maria.gonzalez@shop.es.. Nous avons quelques appareils qui n\u00e9cessitent une configuration et un d\u00e9ploiement pour garantir leur pleine fonctionnalit\u00e9.\n\nVeuillez nous indiquer comment nous pouvons proc\u00e9der \u00e0 la configuration ou organiser une assistance My name is Carlos Mendoza.. Vous pouvez me joindre au <tel_num> ou \u00e0 <email>.\n\nMerci pour votre aide.\n\nCordialement,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        548,
+        562
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        287,
+        309
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Demande d'assistance pour la configuration\n\nCher \u00e9quipe du support client,\n\nJ'esp\u00e8re que ce message vous trouve bien. Je vous \u00e9cris pour demander de l'aide pour configurer nos nouvelles tablettes Microsoft Surface Pro 7 dans notre environnement d'entreprise You can reach me at [email].. Nous avons quelques appareils qui n\u00e9cessitent une configuration et un d\u00e9ploiement pour garantir leur pleine fonctionnalit\u00e9.\n\nVeuillez nous indiquer comment nous pouvons proc\u00e9der \u00e0 la configuration ou organiser une assistance My name is [full_name].. Vous pouvez me joindre au <tel_num> ou \u00e0 <email>.\n\nMerci pour votre aide.\n\nCordialement,\n<name>",
+  "category_of_the_email": "Problem"
+}

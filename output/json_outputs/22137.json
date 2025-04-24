@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: AWS Rechnungsabweichung\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um um eine Klarstellung bez\u00fcglich einer Abweichung zu bitten, die ich bei meiner k\u00fcrzlichen AWS-Rechnung f\u00fcr Cloud-Dienste festgestellt habe. Bei der \u00dcberpr\u00fcfung des Kontoauszugs (<acc_num>) stellte ich unerwartete Geb\u00fchren im Zusammenhang mit dem AWS Management Service fest. Die Geb\u00fchren stimmten nicht mit meinem \u00fcblichen Abrechnungsmuster \u00fcberein, und ich bin unsicher \u00fcber deren Ursprung.\n\nBitte geben Sie mir so schnell wie m\u00f6glich eine detaillierte Erkl\u00e4rung oder m\u00f6gliche Gr\u00fcnde f\u00fcr diese Abweichung My name is Elena Ivanova.. Dar\u00fcber hinaus k\u00f6nnen Sie mich direkt unter <tel_num> kontaktieren, falls weitere Informationen oder Gespr\u00e4che erforderlich sind.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<email> You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        601,
+        614
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        872,
+        894
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: AWS Rechnungsabweichung\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um um eine Klarstellung bez\u00fcglich einer Abweichung zu bitten, die ich bei meiner k\u00fcrzlichen AWS-Rechnung f\u00fcr Cloud-Dienste festgestellt habe. Bei der \u00dcberpr\u00fcfung des Kontoauszugs (<acc_num>) stellte ich unerwartete Geb\u00fchren im Zusammenhang mit dem AWS Management Service fest. Die Geb\u00fchren stimmten nicht mit meinem \u00fcblichen Abrechnungsmuster \u00fcberein, und ich bin unsicher \u00fcber deren Ursprung.\n\nBitte geben Sie mir so schnell wie m\u00f6glich eine detaillierte Erkl\u00e4rung oder m\u00f6gliche Gr\u00fcnde f\u00fcr diese Abweichung My name is [full_name].. Dar\u00fcber hinaus k\u00f6nnen Sie mich direkt unter <tel_num> kontaktieren, falls weitere Informationen oder Gespr\u00e4che erforderlich sind.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit zu diesem Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<email> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

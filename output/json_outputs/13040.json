@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Declining Campaign Performance\n\nHello, we noticed a significant drop in our digital campaign performance metrics. This could be related to recent platform algorithm changes My name is Liu Wei.. We have already checked for technical issues and found none. We have also reviewed and adjusted the target audience settings and ad spend, but the performance is still low. We would greatly appreciate your assistance in identifying the cause of the issue and suggesting potential solutions to improve our campaign's performance You can reach me at sophia.rossi@service.it.. Please get back to us.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        205,
+        212
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        567,
+        590
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support for Declining Campaign Performance\n\nHello, we noticed a significant drop in our digital campaign performance metrics. This could be related to recent platform algorithm changes My name is [full_name].. We have already checked for technical issues and found none. We have also reviewed and adjusted the target audience settings and ad spend, but the performance is still low. We would greatly appreciate your assistance in identifying the cause of the issue and suggesting potential solutions to improve our campaign's performance You can reach me at [email].. Please get back to us.",
+  "category_of_the_email": "Incident"
+}

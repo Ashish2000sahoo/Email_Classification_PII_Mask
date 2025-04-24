@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Datensicherheit\n\nEs gab einen Vorfall, bei dem medizinische Daten m\u00f6glicherweise ausgesetzt waren, aufgrund potentieller IT-Sicherheitsl\u00fccken. Anf\u00e4ngliche Bewertungen deuten auf Schwachstellen in den alten Software-Antiviren-Einstellungen hin My name is Fatima Al-Farsi.. Wir haben versucht, die Antiviren-Software zu aktualisieren und den Zugang zu sichern, aber das Problem beh\u00e4lt seinen Ursprung. Bitte geben Sie Anleitungen f\u00fcr weitere Schritte zur Verringerung des Risikos und zur Vermeidung zuk\u00fcnftiger Vorf\u00e4lle. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        280,
+        289
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        567,
+        585
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Datensicherheit\n\nEs gab einen Vorfall, bei dem medizinische Daten m\u00f6glicherweise ausgesetzt waren, aufgrund potentieller IT-Sicherheitsl\u00fccken. Anf\u00e4ngliche Bewertungen deuten auf Schwachstellen in den alten Software-Antiviren-Einstellungen hin My name is [full_name]-Farsi.. Wir haben versucht, die Antiviren-Software zu aktualisieren und den Zugang zu sichern, aber das Problem beh\u00e4lt seinen Ursprung. Bitte geben Sie Anleitungen f\u00fcr weitere Schritte zur Verringerung des Risikos und zur Vermeidung zuk\u00fcnftiger Vorf\u00e4lle. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

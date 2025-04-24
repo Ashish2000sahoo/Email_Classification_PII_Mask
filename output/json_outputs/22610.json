@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande d'\u00e9valuation des pannes de serveur fr\u00e9quentes\n\nCher support client de la soci\u00e9t\u00e9 de conseil informatique,\n\nLe serveur de notre entreprise conna\u00eet des pannes fr\u00e9quentes, ce qui affecte consid\u00e9rablement la vitesse et les performances du r\u00e9seau You can reach me at elena.ivanova@support.org.. Nous avons besoin d'urgence d'une \u00e9valuation experte et de solutions pour pr\u00e9venir les interruptions continues. Veuillez nous faire savoir quand votre \u00e9quipe peut examiner notre syst\u00e8me et sugg\u00e9rer des am\u00e9liorations.\n\nMerci.\n\n<name>\n<company_name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        566,
+        575
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        279,
+        304
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Demande d'\u00e9valuation des pannes de serveur fr\u00e9quentes\n\nCher support client de la soci\u00e9t\u00e9 de conseil informatique,\n\nLe serveur de notre entreprise conna\u00eet des pannes fr\u00e9quentes, ce qui affecte consid\u00e9rablement la vitesse et les performances du r\u00e9seau You can reach me at [email].. Nous avons besoin d'urgence d'une \u00e9valuation experte et de solutions pour pr\u00e9venir les interruptions continues. Veuillez nous faire savoir quand votre \u00e9quipe peut examiner notre syst\u00e8me et sugg\u00e9rer des am\u00e9liorations.\n\nMerci.\n\n<name>\n<company_name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Change"
+}

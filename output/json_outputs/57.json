@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber einen Fehler in der Datenaufbereitungsoberfl\u00e4che\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um einen Fehler in unserer Datenaufbereitungsoberfl\u00e4che zu melden. Die Oberfl\u00e4che ist w\u00e4hrend der Nacht nicht aktualisiert worden, aufgrund eines Synchronisierungsfehlers. Ich bin der Meinung, dass dies ein Problem mit dem Smartsheet-API sein k\u00f6nnte My name is Liu Wei.. Bislang habe ich versucht, Smartsheet neu zu starten und unsere Netzwerkverbindung zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde mich freuen, wenn Sie mir helfen k\u00f6nnten, dieses Problem zu l\u00f6sen. Bitte geben Sie mir Bescheid, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        384,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        814,
+        831
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber einen Fehler in der Datenaufbereitungsoberfl\u00e4che\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um einen Fehler in unserer Datenaufbereitungsoberfl\u00e4che zu melden. Die Oberfl\u00e4che ist w\u00e4hrend der Nacht nicht aktualisiert worden, aufgrund eines Synchronisierungsfehlers. Ich bin der Meinung, dass dies ein Problem mit dem Smartsheet-API sein k\u00f6nnte My name is [full_name].. Bislang habe ich versucht, Smartsheet neu zu starten und unsere Netzwerkverbindung zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich bestehen. Ich w\u00fcrde mich freuen, wenn Sie mir helfen k\u00f6nnten, dieses Problem zu l\u00f6sen. Bitte geben Sie mir Bescheid, falls Sie weitere Informationen ben\u00f6tigen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

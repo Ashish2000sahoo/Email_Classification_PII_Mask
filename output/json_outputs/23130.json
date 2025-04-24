@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Jira Software Efficiency Issue\n\nDear IT Consulting Firm Customer Support,\n\nI hope this message finds you well. I am writing to report an ongoing issue we are experiencing with the ticket system response times, which is significantly impacting our project management efficiency within the Jira Software 8.20 environment. Due to these prolonged response times, our team is facing delays in tracking project activities and updating task progress, which has become a growing concern for our ongoing projects.\n\nWe understand that the stability and performance of Jira are crucial for optimal project management, and thus, we are keen to resolve this issue as soon as possible. Could you please provide guidance on any potential fixes or workarounds that can help restore the system's normal performance levels? Additionally, if necessary, we would appreciate information on how to escalate this issue further within your support team to ensure a timely resolution.\n\nThank you for your attention to this matter You can reach me at johndoe@email.com.. We look forward to your prompt response and a swift resolution.\n\nKind regards,\n\n<name>\n<acc_num>\n<tel_num> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1172,
+        1182
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1034,
+        1051
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Jira Software Efficiency Issue\n\nDear IT Consulting Firm Customer Support,\n\nI hope this message finds you well. I am writing to report an ongoing issue we are experiencing with the ticket system response times, which is significantly impacting our project management efficiency within the Jira Software 8.20 environment. Due to these prolonged response times, our team is facing delays in tracking project activities and updating task progress, which has become a growing concern for our ongoing projects.\n\nWe understand that the stability and performance of Jira are crucial for optimal project management, and thus, we are keen to resolve this issue as soon as possible. Could you please provide guidance on any potential fixes or workarounds that can help restore the system's normal performance levels? Additionally, if necessary, we would appreciate information on how to escalate this issue further within your support team to ensure a timely resolution.\n\nThank you for your attention to this matter You can reach me at [email].. We look forward to your prompt response and a swift resolution.\n\nKind regards,\n\n<name>\n<acc_num>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

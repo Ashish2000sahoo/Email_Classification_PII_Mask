@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Marketing Campaigns\n\nThe marketing campaigns are not achieving the expected engagement levels. The problem seems to be related to platform consistency and technical malfunctions My name is Maria Gonzalez.. Despite restarting devices and checking network connections, the issue persists You can reach me at fatima.farsi@help.com.. We appreciate your support in solving the issue as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        323,
+        344
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Marketing Campaigns\n\nThe marketing campaigns are not achieving the expected engagement levels. The problem seems to be related to platform consistency and technical malfunctions My name is [full_name].. Despite restarting devices and checking network connections, the issue persists You can reach me at [email].. We appreciate your support in solving the issue as soon as possible.",
+  "category_of_the_email": "Incident"
+}

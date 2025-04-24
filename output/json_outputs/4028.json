@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Timeline Synchronization\n\nHello Customer Support, I am experiencing difficulties with my project timelines not syncing across different devices. I have tried restarting, reviewing my settings, and updating my software, but the issue remains unresolved My name is David Kim.. It seems there might be a problem with the integration or compatibility. I would greatly appreciate any help in addressing this issue. It is causing significant delays and reducing my productivity You can reach me at liuwei@business.cn.. I look forward to your response. Kind regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        295
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        517,
+        535
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problems with Timeline Synchronization\n\nHello Customer Support, I am experiencing difficulties with my project timelines not syncing across different devices. I have tried restarting, reviewing my settings, and updating my software, but the issue remains unresolved My name is [full_name].. It seems there might be a problem with the integration or compatibility. I would greatly appreciate any help in addressing this issue. It is causing significant delays and reducing my productivity You can reach me at [email].. I look forward to your response. Kind regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

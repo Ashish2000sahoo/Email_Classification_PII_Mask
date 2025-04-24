@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Medical Data Leak\n\nA potential medical data leak has been reported due to unauthorized access. The possible reasons include a weak password or a security flaw in the outdated software You can reach me at carlosm@gmail.com.. So far, an Avast scan has been performed, Windows updates checked, and login information reviewed. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        359,
+        366
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        229,
+        246
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Medical Data Leak\n\nA potential medical data leak has been reported due to unauthorized access. The possible reasons include a weak password or a security flaw in the outdated software You can reach me at [email].. So far, an Avast scan has been performed, Windows updates checked, and login information reviewed. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

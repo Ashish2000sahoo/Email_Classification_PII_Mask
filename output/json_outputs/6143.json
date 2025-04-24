@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with the latest invoice\n\nI recently got an invoice with unfamiliar charges. After reviewing the invoice and my product subscriptions, I am still puzzled about the inaccuracies. I think it could be due to incorrect product bundles or outdated pricing My name is David Kim.. Could you please investigate this? I would be grateful if you could give me a detailed explanation for the charges. If you need any further information from me, please let me know You can reach me at liuwei@business.cn.. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        278,
+        287
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        492,
+        510
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with the latest invoice\n\nI recently got an invoice with unfamiliar charges. After reviewing the invoice and my product subscriptions, I am still puzzled about the inaccuracies. I think it could be due to incorrect product bundles or outdated pricing My name is [full_name].. Could you please investigate this? I would be grateful if you could give me a detailed explanation for the charges. If you need any further information from me, please let me know You can reach me at [email].. I look forward to your response.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Campaign\n\nNoted a sharp decrease in engagement metrics from digital campaigns following recent adjustments to ad algorithms. Targeting parameters have been revised and ad creatives refreshed.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        247
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Support Campaign\n\nNoted a sharp decrease in engagement metrics from digital campaigns following recent adjustments to ad algorithms. Targeting parameters have been revised and ad creatives refreshed.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nIssue encountered with investment analysis tool while writing report My name is Fatima Al-Farsi.. Tool failed to load data, leading to workflow disruptions. Restarted the application and checked database connections, but the issue still persists You can reach me at sophia.rossi@service.it.. The problem might be related to software incompatibility due to recent updates. Assistance in resolving this matter as soon as possible would be greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        91,
+        100
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        279,
+        302
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nIssue encountered with investment analysis tool while writing report My name is [full_name]-Farsi.. Tool failed to load data, leading to workflow disruptions. Restarted the application and checked database connections, but the issue still persists You can reach me at [email].. The problem might be related to software incompatibility due to recent updates. Assistance in resolving this matter as soon as possible would be greatly appreciated.",
+  "category_of_the_email": "Incident"
+}

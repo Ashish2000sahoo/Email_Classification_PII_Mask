@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringendes Update f\u00fcr AWS-Optimierung ben\u00f6tigt\n\nSehr geehrter Kundensupport,\n\nich schreibe, um eine hochpriorisierte \u00c4nderung in unserer AWS-Infrastruktur zu beantragen, da wir Dienstunterbrechungen erleben, die die Anwendungsleistung beeintr\u00e4chtigen. Eine effiziente Verwaltung und zeitnahe Optimierung unseres AWS Management Service sind entscheidend, angesichts der wiederkehrenden St\u00f6rungen, die derzeit unsere Abl\u00e4ufe beeinflussen You can reach me at maria.gonzalez@shop.es.. K\u00f6nnten Sie bitte diese Anfrage priorisieren und uns Einzelheiten zu den vorgeschlagenen Schritten mitteilen, die Sie unternehmen werden, um diese Probleme zu l\u00f6sen? Wir glauben, dass eine detaillierte \u00dcberpr\u00fcfung und strategische Anpassungen an unserem bestehenden Setup die Zuverl\u00e4ssigkeit und Leistung verbessern werden My name is David Kim.. Ihre zeitnahe Aufmerksamkeit f\u00fcr dieses Thema w\u00fcrde sehr gesch\u00e4tzt.\n\nBitte z\u00f6gern Sie nicht, mich unter <tel_num> f\u00fcr weitere Klarstellungen zu kontaktieren.\n\nDanke,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        824,
+        833
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        465,
+        487
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Dringendes Update f\u00fcr AWS-Optimierung ben\u00f6tigt\n\nSehr geehrter Kundensupport,\n\nich schreibe, um eine hochpriorisierte \u00c4nderung in unserer AWS-Infrastruktur zu beantragen, da wir Dienstunterbrechungen erleben, die die Anwendungsleistung beeintr\u00e4chtigen. Eine effiziente Verwaltung und zeitnahe Optimierung unseres AWS Management Service sind entscheidend, angesichts der wiederkehrenden St\u00f6rungen, die derzeit unsere Abl\u00e4ufe beeinflussen You can reach me at [email].. K\u00f6nnten Sie bitte diese Anfrage priorisieren und uns Einzelheiten zu den vorgeschlagenen Schritten mitteilen, die Sie unternehmen werden, um diese Probleme zu l\u00f6sen? Wir glauben, dass eine detaillierte \u00dcberpr\u00fcfung und strategische Anpassungen an unserem bestehenden Setup die Zuverl\u00e4ssigkeit und Leistung verbessern werden My name is [full_name].. Ihre zeitnahe Aufmerksamkeit f\u00fcr dieses Thema w\u00fcrde sehr gesch\u00e4tzt.\n\nBitte z\u00f6gern Sie nicht, mich unter <tel_num> f\u00fcr weitere Klarstellungen zu kontaktieren.\n\nDanke,\n\n<name>",
+  "category_of_the_email": "Change"
+}

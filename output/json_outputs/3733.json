@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nnoted sudden decrease in website traffic, which is affecting the brand's online visibility. suspect this might be related to recent changes in Drupal Commerce My name is Liu Wei.. tried clearing the site cache and testing different browser settings, but had no success. kindly assist in resolving this issue. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        344,
+        361
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nnoted sudden decrease in website traffic, which is affecting the brand's online visibility. suspect this might be related to recent changes in Drupal Commerce My name is [full_name].. tried clearing the site cache and testing different browser settings, but had no success. kindly assist in resolving this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

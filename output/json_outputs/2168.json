@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Mitteilung \u00fcber Schwierigkeiten bei der Software-Integration vom Heutigen Tag\n\nDie Software-Integration hat versagt, was zu Unterschieden in den Daten f\u00fchrt You can reach me at liuwei@business.cn.. Unkompatibele Aktualisierungen oder Konfigurationsprobleme k\u00f6nnten die Ursache sein. Wir haben die betroffenen Dienstleistungen neu gestartet, die Logs gepr\u00fcft und die Abh\u00e4ngigkeiten aktualisiert, aber das Problem beh\u00e4lt sich bestehen. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        454,
+        465
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        186,
+        204
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Mitteilung \u00fcber Schwierigkeiten bei der Software-Integration vom Heutigen Tag\n\nDie Software-Integration hat versagt, was zu Unterschieden in den Daten f\u00fchrt You can reach me at [email].. Unkompatibele Aktualisierungen oder Konfigurationsprobleme k\u00f6nnten die Ursache sein. Wir haben die betroffenen Dienstleistungen neu gestartet, die Logs gepr\u00fcft und die Abh\u00e4ngigkeiten aktualisiert, aber das Problem beh\u00e4lt sich bestehen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

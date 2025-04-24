@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei sinkender Besucherzahl der Website\n\nHallo, wir haben bemerkt, dass die Besucherzahl unserer Website in der Nacht um 30% abgenommen hat My name is Fatima Al-Farsi.. M\u00f6gliche Ursachen k\u00f6nnten eine k\u00fcrzlich eingef\u00fchrte \u00c4nderung des Suchmaschinen-Algorithmus oder technische Probleme sein. Wir haben bereits die Analysen \u00fcberpr\u00fcft, die Plugins aktualisiert und das Caching konfiguriert, aber das Problem ist nicht gel\u00f6st worden. Deshalb ben\u00f6tigen wir Ihre Unterst\u00fctzung, um dieses Problem zu beheben. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        165,
+        174
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        538,
+        559
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei sinkender Besucherzahl der Website\n\nHallo, wir haben bemerkt, dass die Besucherzahl unserer Website in der Nacht um 30% abgenommen hat My name is [full_name]-Farsi.. M\u00f6gliche Ursachen k\u00f6nnten eine k\u00fcrzlich eingef\u00fchrte \u00c4nderung des Suchmaschinen-Algorithmus oder technische Probleme sein. Wir haben bereits die Analysen \u00fcberpr\u00fcft, die Plugins aktualisiert und das Caching konfiguriert, aber das Problem ist nicht gel\u00f6st worden. Deshalb ben\u00f6tigen wir Ihre Unterst\u00fctzung, um dieses Problem zu beheben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

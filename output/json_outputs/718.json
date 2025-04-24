@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Optimierung der Datenanalyse f\u00fcr Anlageentscheidungen\n\nSehr geehrte Kundenservice, ich richte mich an Sie, um nachzuhelfen, die my Datenanalyseworkflows f\u00fcr Anlageentscheidungen auf meinem Chromebook zu optimieren. Ich w\u00fcrde gerne TensorFlow und Scikit-learn in meinen Workflow integrieren, um meine Entscheidungsprozesse zu verbessern. Ich m\u00f6chte wissen, ob es spezielle Tools oder Software gibt, die Sie empfehlen You can reach me at liuwei@business.cn.. Aktuell nutze ich einen Chromebook und m\u00f6chte wissen, ob es limitierende oder einschr\u00e4nkende Faktoren gibt, die ich beachten sollte. Ich habe geh\u00f6rt, dass TensorFlow und Scikit-learn starke Werkzeuge f\u00fcr Datenanalyse sind, aber ich wei\u00df nicht, wie ich sie in meinen Workflow integrieren kann. K\u00f6nnten Sie mir bitte Ratschl\u00e4ge zur Verwendung dieser Werkzeuge geben? Ich w\u00fcrde mich freuen, wenn Sie mir Empfehlungen oder Ratgeber geben k\u00f6nnten. Ich m\u00f6chte meine Anlageentscheidungen verbessern und glaube, dass die Optimierung meines Datenanalyseworkflows entscheidend f\u00fcr diesen Zweck ist My name is Maria Gonzalez.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1079,
+        1093
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        459,
+        477
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Optimierung der Datenanalyse f\u00fcr Anlageentscheidungen\n\nSehr geehrte Kundenservice, ich richte mich an Sie, um nachzuhelfen, die my Datenanalyseworkflows f\u00fcr Anlageentscheidungen auf meinem Chromebook zu optimieren. Ich w\u00fcrde gerne TensorFlow und Scikit-learn in meinen Workflow integrieren, um meine Entscheidungsprozesse zu verbessern. Ich m\u00f6chte wissen, ob es spezielle Tools oder Software gibt, die Sie empfehlen You can reach me at [email].. Aktuell nutze ich einen Chromebook und m\u00f6chte wissen, ob es limitierende oder einschr\u00e4nkende Faktoren gibt, die ich beachten sollte. Ich habe geh\u00f6rt, dass TensorFlow und Scikit-learn starke Werkzeuge f\u00fcr Datenanalyse sind, aber ich wei\u00df nicht, wie ich sie in meinen Workflow integrieren kann. K\u00f6nnten Sie mir bitte Ratschl\u00e4ge zur Verwendung dieser Werkzeuge geben? Ich w\u00fcrde mich freuen, wenn Sie mir Empfehlungen oder Ratgeber geben k\u00f6nnten. Ich m\u00f6chte meine Anlageentscheidungen verbessern und glaube, dass die Optimierung meines Datenanalyseworkflows entscheidend f\u00fcr diesen Zweck ist My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, von Ihnen zu h\u00f6ren. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

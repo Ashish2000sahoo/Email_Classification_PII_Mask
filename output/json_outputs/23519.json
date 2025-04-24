@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Verbindungsprobleme mit Cisco Router\n\nSehr geehrter Kundenservice,\n\nich habe sporadische Verbindungsprobleme mit meinem k\u00fcrzlich erworbenen Cisco Router ISR4331 You can reach me at omar.hassan@secure.net.. Die Verbindung bricht unerwartet ab, und ich vermute, dass es ein Konfigurationsproblem geben k\u00f6nnte. Ich w\u00fcrde jede Anleitung oder Unterst\u00fctzung, die Sie mir zur Verf\u00fcgung stellen k\u00f6nnen, um dieses Problem zu l\u00f6sen, sehr sch\u00e4tzen My name is Omar Hassan.. Bitte helfen Sie mir so schnell wie m\u00f6glich.\n\nVielen Dank,\n\n<name>\n<acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        457,
+        468
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        190,
+        212
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        165,
+        169
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Verbindungsprobleme mit Cisco Router\n\nSehr geehrter Kundenservice,\n\nich habe sporadische Verbindungsprobleme mit meinem k\u00fcrzlich erworbenen Cisco Router ISR[phone_number] You can reach me at [email].. Die Verbindung bricht unerwartet ab, und ich vermute, dass es ein Konfigurationsproblem geben k\u00f6nnte. Ich w\u00fcrde jede Anleitung oder Unterst\u00fctzung, die Sie mir zur Verf\u00fcgung stellen k\u00f6nnen, um dieses Problem zu l\u00f6sen, sehr sch\u00e4tzen My name is [full_name].. Bitte helfen Sie mir so schnell wie m\u00f6glich.\n\nVielen Dank,\n\n<name>\n<acc_num>",
+  "category_of_the_email": "Incident"
+}

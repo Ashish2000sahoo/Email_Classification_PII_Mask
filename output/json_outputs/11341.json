@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nFacing problems with data retrieval in Elasticsearch 7.13 on Debian 10 Buster after the upgrade.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        130,
+        145
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: \n\nFacing problems with data retrieval in Elasticsearch 7.13 on Debian 10 Buster after the upgrade.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

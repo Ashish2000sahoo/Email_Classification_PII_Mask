@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guide for Integrating Adobe CC SaaS\n\nI need assistance with integrating the Adobe Illustrator CC 2021 SaaS platform. Can you provide detailed steps for the integration process?. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        106,
+        110
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        208,
+        224
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Guide for Integrating Adobe CC SaaS\n\nI need assistance with integrating the Adobe Illustrator CC [phone_number] SaaS platform. Can you provide detailed steps for the integration process?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

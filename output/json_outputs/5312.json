@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with campaign analytics\n\nCampaign analytics are not being tracked in SAP ERP because of an integration problem with the H2O.ai analytics tool.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        182,
+        197
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Problem with campaign analytics\n\nCampaign analytics are not being tracked in SAP ERP because of an integration problem with the H2O.ai analytics tool.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

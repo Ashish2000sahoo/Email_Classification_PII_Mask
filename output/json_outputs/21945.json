@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on AWS Performance Optimization\n\nHello Customer Support Team,\n\nI hope this message finds you well My name is Sophia Rossi.. I am reaching out to inquire about optimizing costs and implementing software updates in our AWS deployment under your AWS Management Service. We aim to ensure better performance and efficient resource use. Could you please provide guidance or recommendations on strategies we can employ? Your expertise on this matter would be invaluable in helping us streamline our processes and maximize our AWS infrastructure's efficiency You can reach me at carlosm@gmail.com.. Thank you for your prompt assistance.\n\nBest regards,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        138
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        587,
+        604
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on AWS Performance Optimization\n\nHello Customer Support Team,\n\nI hope this message finds you well My name is [full_name].. I am reaching out to inquire about optimizing costs and implementing software updates in our AWS deployment under your AWS Management Service. We aim to ensure better performance and efficient resource use. Could you please provide guidance or recommendations on strategies we can employ? Your expertise on this matter would be invaluable in helping us streamline our processes and maximize our AWS infrastructure's efficiency You can reach me at [email].. Thank you for your prompt assistance.\n\nBest regards,\n\n<name>",
+  "category_of_the_email": "Request"
+}

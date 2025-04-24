@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hospital System Security Breach\n\nA security breach has been detected in the hospital's system, potentially compromising medical data You can reach me at fatima.farsi@help.com.. This may have occurred due to outdated software and weak access controls. Although firewall rules have been implemented and security protocols have been updated, vulnerabilities still exist. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        388,
+        401
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        162,
+        183
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Hospital System Security Breach\n\nA security breach has been detected in the hospital's system, potentially compromising medical data You can reach me at [email].. This may have occurred due to outdated software and weak access controls. Although firewall rules have been implemented and security protocols have been updated, vulnerabilities still exist. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

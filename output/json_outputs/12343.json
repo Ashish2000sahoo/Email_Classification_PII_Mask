@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nRespected Customer Support Team, I am contacting you to report an unforeseen charge on our company's credit card. This charge might be a result of a mistake in how our payment details are configured. Despite prior communications and reviews of our payment history, the issue remains unresolved My name is Sophia Rossi.. I kindly request you to investigate this matter and offer a solution at your earliest convenience You can reach me at david.kim@corp.kr.. Please inform me if you require further information from me to expedite the process. Thank you for your attention and cooperation. I eagerly await your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        448,
+        465
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nRespected Customer Support Team, I am contacting you to report an unforeseen charge on our company's credit card. This charge might be a result of a mistake in how our payment details are configured. Despite prior communications and reviews of our payment history, the issue remains unresolved My name is [full_name].. I kindly request you to investigate this matter and offer a solution at your earliest convenience You can reach me at [email].. Please inform me if you require further information from me to expedite the process. Thank you for your attention and cooperation. I eagerly await your response.",
+  "category_of_the_email": "Problem"
+}

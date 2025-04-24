@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgente Unterst\u00fctzung f\u00fcr Sicherheitsprobleme erforderlich\n\nEs wurde ein Sicherheitsversto\u00df gemeldet, bei dem medizinische Daten durch IT-Systeme des Krankenhauses verletzt wurden. Die M\u00e4ngel sind auf veraltete Software und fehlende Zugriffskontrollen zur\u00fcckzuf\u00fchren You can reach me at janesmith@company.com.. Vollst\u00e4ndige Systemaudits wurden durchgef\u00fchrt, und Passw\u00f6rter wurden zur Verbesserung der Sicherheit neu eingerichtet. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        450,
+        463
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        296,
+        317
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgente Unterst\u00fctzung f\u00fcr Sicherheitsprobleme erforderlich\n\nEs wurde ein Sicherheitsversto\u00df gemeldet, bei dem medizinische Daten durch IT-Systeme des Krankenhauses verletzt wurden. Die M\u00e4ngel sind auf veraltete Software und fehlende Zugriffskontrollen zur\u00fcckzuf\u00fchren You can reach me at [email].. Vollst\u00e4ndige Systemaudits wurden durchgef\u00fchrt, und Passw\u00f6rter wurden zur Verbesserung der Sicherheit neu eingerichtet. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

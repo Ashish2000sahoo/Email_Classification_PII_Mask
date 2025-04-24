@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident of Unauthorised Access to Hospital System\n\nThere was an unauthorized access attempt on the hospital system, which could have exposed patient information due to potential vulnerabilities in the outdated security protocols and software You can reach me at sophia.rossi@service.it.. Measures such as immediate system scans and password changes have been put in place to address the issue. The matter is being investigated, and appropriate steps are being taken to prevent future occurrences My name is Liu Wei.. Ensuring the security of patient data is our top priority, and we will provide updates as more information becomes available.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        517,
+        524
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        272,
+        295
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Incident of Unauthorised Access to Hospital System\n\nThere was an unauthorized access attempt on the hospital system, which could have exposed patient information due to potential vulnerabilities in the outdated security protocols and software You can reach me at [email].. Measures such as immediate system scans and password changes have been put in place to address the issue. The matter is being investigated, and appropriate steps are being taken to prevent future occurrences My name is [full_name].. Ensuring the security of patient data is our top priority, and we will provide updates as more information becomes available.",
+  "category_of_the_email": "Incident"
+}

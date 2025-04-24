@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unapproved Access Medical\n\nAn unapproved access attempt to medical data has been detected within the hospital system You can reach me at johndoe@email.com.. This may have occurred due to insufficient security protocols or a phishing attack My name is Elena Ivanova.. Immediate system review and temporary access restrictions have been applied. If concerns persist, there may be ongoing vulnerabilities and potential data breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        260,
+        273
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        146,
+        163
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unapproved Access Medical\n\nAn unapproved access attempt to medical data has been detected within the hospital system You can reach me at [email].. This may have occurred due to insufficient security protocols or a phishing attack My name is [full_name].. Immediate system review and temporary access restrictions have been applied. If concerns persist, there may be ongoing vulnerabilities and potential data breaches.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with SaaS Management Tool\n\nThe SaaS project management tool is showing significant performance issues. Recent software updates might be the cause of these conflicts My name is Jane Smith.. Despite rolling back updates, clearing caches, and restarting services, the issues continue. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        203
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        320,
+        341
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with SaaS Management Tool\n\nThe SaaS project management tool is showing significant performance issues. Recent software updates might be the cause of these conflicts My name is [full_name].. Despite rolling back updates, clearing caches, and restarting services, the issues continue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

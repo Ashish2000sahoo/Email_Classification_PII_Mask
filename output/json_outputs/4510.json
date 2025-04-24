@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Security\n\nThere have been unauthorized access attempts to medical data due to outdated security protocols My name is Liu Wei.. After implementing updates and monitoring logs, the issues still persist. We are requesting assistance to resolve the issue and prevent future occurrences. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        138,
+        145
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        328,
+        345
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support for Security\n\nThere have been unauthorized access attempts to medical data due to outdated security protocols My name is [full_name].. After implementing updates and monitoring logs, the issues still persist. We are requesting assistance to resolve the issue and prevent future occurrences. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

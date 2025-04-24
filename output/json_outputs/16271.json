@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bereitstellung von Anleitungen f\u00fcr die Integration von RapidMiner\n\nSehr geehrte Kundenservice, ich kontaktiere Sie im Zusammenhang mit der Integration der RapidMiner SaaS-Projektmanagement-Software. K\u00f6nnten Sie mir hierzu hilfreiche Anleitungen oder Ressourcen zur Verf\u00fcgung stellen? Ich w\u00fcrde mich freuen, wenn Sie mir Dokumentationen und andere n\u00fctzliche Informationen zur Verf\u00fcgung stellen k\u00f6nnten, um den Start der Integration zu erleichtern. Insbesondere interessiert mich die Verf\u00fcgbarkeit von APIs und Werkzeugen zur Durchf\u00fchrung der Integration My name is Jane Smith.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung You can reach me at david.kim@corp.kr.. Ich hoffe, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        573,
+        583
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        678,
+        695
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Bereitstellung von Anleitungen f\u00fcr die Integration von RapidMiner\n\nSehr geehrte Kundenservice, ich kontaktiere Sie im Zusammenhang mit der Integration der RapidMiner SaaS-Projektmanagement-Software. K\u00f6nnten Sie mir hierzu hilfreiche Anleitungen oder Ressourcen zur Verf\u00fcgung stellen? Ich w\u00fcrde mich freuen, wenn Sie mir Dokumentationen und andere n\u00fctzliche Informationen zur Verf\u00fcgung stellen k\u00f6nnten, um den Start der Integration zu erleichtern. Insbesondere interessiert mich die Verf\u00fcgbarkeit von APIs und Werkzeugen zur Durchf\u00fchrung der Integration My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung You can reach me at [email].. Ich hoffe, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhance Security Protocols for Medical Data Protection\n\nIt is imperative to strengthen security measures to protect sensitive medical data across all relevant products and within the healthcare provider's environment My name is David Kim.. This involves encrypting critical data, establishing robust access controls, and continuously monitoring for potential security threats. Regular security audits and timely updates are essential to maintain the security of medical data. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        237,
+        246
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        507,
+        524
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Enhance Security Protocols for Medical Data Protection\n\nIt is imperative to strengthen security measures to protect sensitive medical data across all relevant products and within the healthcare provider's environment My name is [full_name].. This involves encrypting critical data, establishing robust access controls, and continuously monitoring for potential security threats. Regular security audits and timely updates are essential to maintain the security of medical data. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

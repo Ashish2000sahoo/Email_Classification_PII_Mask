@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Projektdaten verlorengegangen\n\nProjektdaten sind pl\u00f6tzlich verschwunden, was m\u00f6glicherweise auf ein Datenbankverbindungsproblem zur\u00fcckzuf\u00fchren ist. Das Neustart des Servers hat leider nicht geholfen.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        231,
+        247
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Projektdaten verlorengegangen\n\nProjektdaten sind pl\u00f6tzlich verschwunden, was m\u00f6glicherweise auf ein Datenbankverbindungsproblem zur\u00fcckzuf\u00fchren ist. Das Neustart des Servers hat leider nicht geholfen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

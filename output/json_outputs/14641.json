@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Emergency Support for SaaS Project Management Crashes\n\nOur team frequently encounters crashes while using the SaaS project management tool You can reach me at fatima.farsi@help.com.. The issue might be due to integration conflicts with IBM SPSS Statistics or Adobe Photoshop My name is Jane Smith.. We have tried clearing the cache and restarting the application, but the problem still persists. Despite our efforts, the crashes continue to disrupt our workflow and productivity. We would greatly appreciate your assistance and guidance in resolving this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        305
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        168,
+        189
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Emergency Support for SaaS Project Management Crashes\n\nOur team frequently encounters crashes while using the SaaS project management tool You can reach me at [email].. The issue might be due to integration conflicts with IBM SPSS Statistics or Adobe Photoshop My name is [full_name].. We have tried clearing the cache and restarting the application, but the problem still persists. Despite our efforts, the crashes continue to disrupt our workflow and productivity. We would greatly appreciate your assistance and guidance in resolving this issue.",
+  "category_of_the_email": "Incident"
+}

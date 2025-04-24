@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on Payment Options for Annual Subscription\n\nHello customer support team, I am interested in subscribing to your service and would like to know more about the different payment options available You can reach me at omar.hassan@secure.net.. Could you please inform me if you accept credit cards, PayPal, or bank transfers? Additionally, I would appreciate information on any discounts or promotions for annual subscriptions, as well as details on any additional fees related to specific payment methods My name is Elena Ivanova.. I look forward to your response and any further information you can provide. Thank you for your assistance, and I am excited about the prospect of becoming a subscriber to your service.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        529,
+        542
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        231,
+        253
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Payment Options for Annual Subscription\n\nHello customer support team, I am interested in subscribing to your service and would like to know more about the different payment options available You can reach me at [email].. Could you please inform me if you accept credit cards, PayPal, or bank transfers? Additionally, I would appreciate information on any discounts or promotions for annual subscriptions, as well as details on any additional fees related to specific payment methods My name is [full_name].. I look forward to your response and any further information you can provide. Thank you for your assistance, and I am excited about the prospect of becoming a subscriber to your service.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am seeking information on the data analytics services and how they can be applied to portfolio management My name is Fatima Al-Farsi.. Could you provide details on how data analytics can optimize our investments and improve portfolio management? I am particularly interested in understanding the tools and techniques that can be used to analyze market trends and make informed investment decisions You can reach me at fatima.farsi@help.com.. Could you also explain how data analytics can help us identify potential risks and opportunities, and how it can be integrated with our existing portfolio management systems? I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        457,
+        478
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am seeking information on the data analytics services and how they can be applied to portfolio management My name is [full_name]-Farsi.. Could you provide details on how data analytics can optimize our investments and improve portfolio management? I am particularly interested in understanding the tools and techniques that can be used to analyze market trends and make informed investment decisions You can reach me at [email].. Could you also explain how data analytics can help us identify potential risks and opportunities, and how it can be integrated with our existing portfolio management systems? I look forward to your response.",
+  "category_of_the_email": "Request"
+}

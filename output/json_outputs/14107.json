@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Encountered During Data Encryption\n\nDear Customer Support, <br><br>I am reaching out to notify you about a problem with our data encryption procedure. The encryption process has failed, and we are in the process of examining the root cause. Early indications point towards outdated software versions as the potential issue You can reach me at david.kim@corp.kr.. <br><br>To address this, we have already carried out the following actions: <br>1. Restarted the servers to make sure all systems are updated to the latest versions. <br>2. Verified the configurations to ensure they are accurate and up-to-date. <br><br>Even with these measures, the problem remains unresolved. We would be grateful for any assistance or guidance your team could provide to expedite the resolution. <br><br>Please inform us if there are any additional actions we should take or if you need any further details from us. <br><br>We appreciate your time and support My name is Jane Smith.. <br>Sincerely, <br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        970,
+        980
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        360,
+        377
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem Encountered During Data Encryption\n\nDear Customer Support, <br><br>I am reaching out to notify you about a problem with our data encryption procedure. The encryption process has failed, and we are in the process of examining the root cause. Early indications point towards outdated software versions as the potential issue You can reach me at [email].. <br><br>To address this, we have already carried out the following actions: <br>1. Restarted the servers to make sure all systems are updated to the latest versions. <br>2. Verified the configurations to ensure they are accurate and up-to-date. <br><br>Even with these measures, the problem remains unresolved. We would be grateful for any assistance or guidance your team could provide to expedite the resolution. <br><br>Please inform us if there are any additional actions we should take or if you need any further details from us. <br><br>We appreciate your time and support My name is [full_name].. <br>Sincerely, <br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

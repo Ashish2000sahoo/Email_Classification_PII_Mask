@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Encryption Post-Update\n\nTo Customer Support Team: <br><br>I am contacting you to report an unanticipated data encryption failure on my system. It might be linked to a recent software update. I have tried to address the issue by rebooting my system and reviewing the settings, but the encryption failure has not resolved.<br><br>The specific issue is: <br>Data encryption failed without warning.<br>Potential reason: Software update could be to blame.<br>Actions taken: Restarted system and checked configurations.<br><br>I would be immensely grateful if you could assist me in resolving this. Kindly inform me if there are any extra steps I should take or if you need further details to investigate My name is Jane Smith.. I am eagerly awaiting your response.<br><br>Thank you for your attention and assistance.<br><br>Sincerely, <br>[Your Name] You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        737,
+        747
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        894,
+        915
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Encryption Post-Update\n\nTo Customer Support Team: <br><br>I am contacting you to report an unanticipated data encryption failure on my system. It might be linked to a recent software update. I have tried to address the issue by rebooting my system and reviewing the settings, but the encryption failure has not resolved.<br><br>The specific issue is: <br>Data encryption failed without warning.<br>Potential reason: Software update could be to blame.<br>Actions taken: Restarted system and checked configurations.<br><br>I would be immensely grateful if you could assist me in resolving this. Kindly inform me if there are any extra steps I should take or if you need further details to investigate My name is [full_name].. I am eagerly awaiting your response.<br><br>Thank you for your attention and assistance.<br><br>Sincerely, <br>[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

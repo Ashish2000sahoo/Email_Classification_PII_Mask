@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Tastaturabl\u00f6sung erforderlich\n\nSehr geehrtes KundenSupport-Team,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf My name is Elena Ivanova.. Ich kontaktiere Sie, um Hilfe bei der Entfernung der Tastatur von meinem Dell XPS 13 9310 Laptop zu suchen You can reach me at carlosm@gmail.com.. Ich versuche, die Funktion des Tablet-Modus zu aktivieren, habe jedoch Schwierigkeiten im Prozess. K\u00f6nnten Sie mir bitte eine Schritt-f\u00fcr-Schritt-Anleitung oder relevante Anweisungen zur Verf\u00fcgung stellen, um mir dabei zu helfen? Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen und warte auf Ihre z\u00fcgige Antwort.\n\nVielen Dank f\u00fcr Ihre Kooperation.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        148,
+        161
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        289,
+        306
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        244,
+        251
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Tastaturabl\u00f6sung erforderlich\n\nSehr geehrtes KundenSupport-Team,\n\nich hoffe, diese Nachricht erreicht Sie wohlauf My name is [full_name].. Ich kontaktiere Sie, um Hilfe bei der Entfernung der Tastatur von meinem Dell XPS [phone_number] Laptop zu suchen You can reach me at [email].. Ich versuche, die Funktion des Tablet-Modus zu aktivieren, habe jedoch Schwierigkeiten im Prozess. K\u00f6nnten Sie mir bitte eine Schritt-f\u00fcr-Schritt-Anleitung oder relevante Anweisungen zur Verf\u00fcgung stellen, um mir dabei zu helfen? Ich w\u00fcrde Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems sehr sch\u00e4tzen und warte auf Ihre z\u00fcgige Antwort.\n\nVielen Dank f\u00fcr Ihre Kooperation.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice-Team, ich wende mich an Sie im Zusammenhang mit digitalen Strategien, die f\u00fcr die Markenwachstumsstrategie von Rosetta Stone und MacBook Air Produkten wichtig sind. K\u00f6nnten Sie mir Informationen zu den erfolgreichen Online-Promotionsverfahren dieser Unternehmen geben? Insbesondere interessiere ich mich f\u00fcr ihre sozialen-Medien-Marketing-, E-Mailing- und Inhaltsmarketing-Strategien My name is Carlos Mendoza.. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit You can reach me at carlosm@gmail.com.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        433,
+        447
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        566,
+        583
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice-Team, ich wende mich an Sie im Zusammenhang mit digitalen Strategien, die f\u00fcr die Markenwachstumsstrategie von Rosetta Stone und MacBook Air Produkten wichtig sind. K\u00f6nnten Sie mir Informationen zu den erfolgreichen Online-Promotionsverfahren dieser Unternehmen geben? Insbesondere interessiere ich mich f\u00fcr ihre sozialen-Medien-Marketing-, E-Mailing- und Inhaltsmarketing-Strategien My name is [full_name].. Ich freue mich auf Ihre R\u00fcckmeldung und danke Ihnen im Voraus f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

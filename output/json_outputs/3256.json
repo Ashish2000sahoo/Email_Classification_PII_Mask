@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Strategies for Firms\n\nSupply information through data analytics. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        116,
+        131
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Strategies for Firms\n\nSupply information through data analytics. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

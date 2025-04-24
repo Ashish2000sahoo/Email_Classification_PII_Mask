@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improvement of Security Measures in Hospital Systems\n\nDear Customer Service, I am writing to request an enhancement in security measures, specifically to safeguard medical data within hospital IT systems that are accessed by various applications You can reach me at elena.ivanova@support.org.. Current security protocols are adequate to protect sensitive patient information, but there is an urgent need to implement more comprehensive measures to prevent data breaches. I suggest the implementation of advanced encryption methods, regular security audits, and staff training programs to ensure that all employees understand the importance of data security. I believe these measures will significantly enhance the security of medical data. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        760,
+        767
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        275,
+        300
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Improvement of Security Measures in Hospital Systems\n\nDear Customer Service, I am writing to request an enhancement in security measures, specifically to safeguard medical data within hospital IT systems that are accessed by various applications You can reach me at [email].. Current security protocols are adequate to protect sensitive patient information, but there is an urgent need to implement more comprehensive measures to prevent data breaches. I suggest the implementation of advanced encryption methods, regular security audits, and staff training programs to ensure that all employees understand the importance of data security. I believe these measures will significantly enhance the security of medical data. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

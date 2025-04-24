@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Service Downtime\n\nRequest for service downtime processing, investment optimization tools impact the process.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        155
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Service Downtime\n\nRequest for service downtime processing, investment optimization tools impact the process.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Identifizierung von Datenverlust im Klinik-Datenbankensystem\n\nSehr geehrte Kundenservice-Abteilung,<br>Diese E-Mail dient der Meldung eines schwerwiegenderen Problems mit dem Medizindatenbankensystem der Klinik. Ein Datenverlust wurde festgestellt, der m\u00f6glicherweise auf schlechte Verschl\u00fcsselung und Zugriffssteuerungen hindeutet.<br>Zur Probleminformierung habe ich Pinnacle Studio 24 aktualisiert und die Subversion-Logs \u00fcberpr\u00fcft My name is Fatima Al-Farsi.. Allerdings beharrt der Fehler weiterhin.<br>Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir in K\u00fcrze bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. <br>Bisheriges Information, die f\u00fcr die Untersuchung n\u00fctzlich sein k\u00f6nnten, ben\u00f6tigen wir, z. B You can reach me at sophia.rossi@service.it.. die Natur des Verlusts, welches Datumsformat wurde verletzt, und welche Schritte Sie bisher unternommen haben, um das Problem zu beheben, au\u00dfer der Aktualisierung von Pinnacle Studio 24 und der \u00dcberpr\u00fcfung der Subversion-Logs. Sobald wir weitere Informationen haben, werden wir uns in Kontakt mit Ihnen setzen und sie um ein telefantisches Gespr\u00e4ch bitten, falls dies notwendig ist. Bitte geben Sie uns auch Ihre Kontoinformationen, wie zum Beispiel Ihre Kontonummer, damit wir diesen Fall weiter verfolgen k\u00f6nnen. Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung in dieser Angelegenheit.<br>einen herzlichen Gru\u00df, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        455,
+        464
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        732,
+        755
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Identifizierung von Datenverlust im Klinik-Datenbankensystem\n\nSehr geehrte Kundenservice-Abteilung,<br>Diese E-Mail dient der Meldung eines schwerwiegenderen Problems mit dem Medizindatenbankensystem der Klinik. Ein Datenverlust wurde festgestellt, der m\u00f6glicherweise auf schlechte Verschl\u00fcsselung und Zugriffssteuerungen hindeutet.<br>Zur Probleminformierung habe ich Pinnacle Studio 24 aktualisiert und die Subversion-Logs \u00fcberpr\u00fcft My name is [full_name]-Farsi.. Allerdings beharrt der Fehler weiterhin.<br>Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir in K\u00fcrze bei der L\u00f6sung dieses Problems helfen k\u00f6nnten. <br>Bisheriges Information, die f\u00fcr die Untersuchung n\u00fctzlich sein k\u00f6nnten, ben\u00f6tigen wir, z. B You can reach me at [email].. die Natur des Verlusts, welches Datumsformat wurde verletzt, und welche Schritte Sie bisher unternommen haben, um das Problem zu beheben, au\u00dfer der Aktualisierung von Pinnacle Studio 24 und der \u00dcberpr\u00fcfung der Subversion-Logs. Sobald wir weitere Informationen haben, werden wir uns in Kontakt mit Ihnen setzen und sie um ein telefantisches Gespr\u00e4ch bitten, falls dies notwendig ist. Bitte geben Sie uns auch Ihre Kontoinformationen, wie zum Beispiel Ihre Kontonummer, damit wir diesen Fall weiter verfolgen k\u00f6nnen. Vielen Dank f\u00fcr Ihre schnelle Unterst\u00fctzung in dieser Angelegenheit.<br>einen herzlichen Gru\u00df, [Ihr Name]",
+  "category_of_the_email": "Incident"
+}

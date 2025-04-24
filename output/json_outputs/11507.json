@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenanalyse-Dashboards laden nicht korrekt\n\nDas Laden der Datenanalyse-Dashboards funktioniert nicht You can reach me at johndoe@email.com.. Es k\u00f6nnte sein, dass die Smartsheet-Integration veraltet ist. Versucht haben Sie bereits den Hub zu neu zu starten und die JIRA Software-Logik zu \u00fcberpr\u00fcfen. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        320,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        131,
+        148
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Datenanalyse-Dashboards laden nicht korrekt\n\nDas Laden der Datenanalyse-Dashboards funktioniert nicht You can reach me at [email].. Es k\u00f6nnte sein, dass die Smartsheet-Integration veraltet ist. Versucht haben Sie bereits den Hub zu neu zu starten und die JIRA Software-Logik zu \u00fcberpr\u00fcfen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

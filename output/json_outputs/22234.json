@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt f\u00fcr AWS-Kostenoptimierung\n\nLiebes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl My name is Liu Wei.. Ich suche Unterst\u00fctzung bei der Optimierung meiner AWS-Instanzkosten unter Verwendung des AWS Cost Explorer-Tools. Ich glaube, dass Ihr AWK-Managementdienst die notwendigen Anleitungen zur Verf\u00fcgung stellen kann, um ein besseres Budgetmanagement zu erreichen. K\u00f6nnten Sie bitte spezifische Schritte oder Ressourcen bereitstellen, um das Tool effektiv zu nutzen? Ihre Expertise w\u00e4re immens wertvoll.\n\nDanke f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<name@domain.com>\n<tel_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        134,
+        141
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        613,
+        628
+      ],
+      "classification": "email",
+      "entity": "name@domain.com"
+    },
+    {
+      "position": [
+        660,
+        681
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt f\u00fcr AWS-Kostenoptimierung\n\nLiebes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl My name is [full_name].. Ich suche Unterst\u00fctzung bei der Optimierung meiner AWS-Instanzkosten unter Verwendung des AWS Cost Explorer-Tools. Ich glaube, dass Ihr AWK-Managementdienst die notwendigen Anleitungen zur Verf\u00fcgung stellen kann, um ein besseres Budgetmanagement zu erreichen. K\u00f6nnten Sie bitte spezifische Schritte oder Ressourcen bereitstellen, um das Tool effektiv zu nutzen? Ihre Expertise w\u00e4re immens wertvoll.\n\nDanke f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<[email]>\n<tel_num> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

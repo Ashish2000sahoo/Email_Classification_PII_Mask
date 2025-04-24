@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de Detalhamento da Declara\u00e7\u00e3o de Cobran\u00e7a\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar um detalhamento detalhado da minha recente declara\u00e7\u00e3o de cobran\u00e7a pelo servi\u00e7o de assinatura do Microsoft Office 365 My name is Fatima Al-Farsi.. Como notei algumas discrep\u00e2ncias, pe\u00e7o gentilmente um relato detalhado de todas as cobran\u00e7as referentes \u00e0 minha assinatura You can reach me at maria.gonzalez@shop.es.. Meu n\u00famero da conta \u00e9 <acc_num>. Por favor, entre em contato comigo pelo <tel_num> se precisar de mais informa\u00e7\u00f5es. Sua pronta aten\u00e7\u00e3o a este assunto seria muito apreciada. Obrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        300
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        454,
+        476
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        276,
+        279
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de Detalhamento da Declara\u00e7\u00e3o de Cobran\u00e7a\n\nCaro Suporte ao Cliente,\n\nEspero que esta mensagem o encontre bem. Estou escrevendo para solicitar um detalhamento detalhado da minha recente declara\u00e7\u00e3o de cobran\u00e7a pelo servi\u00e7o de assinatura do Microsoft Office [cvv_no] My name is [full_name]-Farsi.. Como notei algumas discrep\u00e2ncias, pe\u00e7o gentilmente um relato detalhado de todas as cobran\u00e7as referentes \u00e0 minha assinatura You can reach me at [email].. Meu n\u00famero da conta \u00e9 <acc_num>. Por favor, entre em contato comigo pelo <tel_num> se precisar de mais informa\u00e7\u00f5es. Sua pronta aten\u00e7\u00e3o a este assunto seria muito apreciada. Obrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

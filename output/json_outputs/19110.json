@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der medizinischen Datensicherheit best\u00e4tigt\n\nEs wurde eine Datensicherheitsl\u00fccke auf dem Krankenhausnetzwerk festgestellt You can reach me at johndoe@email.com.. Schwache Passwortsicherheit oder veraltete Software k\u00f6nnten als Ursache in Betracht gezogen werden My name is John Doe.. Trotz bereits durchgef\u00fchrter Antivirenuntersuchungen und Firewalldatenpr\u00fcfungen besteht das Problem weiterhin. Wir ben\u00f6tigen Ihre dringende Unterst\u00fctzung, um dieses Problem zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        302
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        164,
+        181
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der medizinischen Datensicherheit best\u00e4tigt\n\nEs wurde eine Datensicherheitsl\u00fccke auf dem Krankenhausnetzwerk festgestellt You can reach me at [email].. Schwache Passwortsicherheit oder veraltete Software k\u00f6nnten als Ursache in Betracht gezogen werden My name is [full_name].. Trotz bereits durchgef\u00fchrter Antivirenuntersuchungen und Firewalldatenpr\u00fcfungen besteht das Problem weiterhin. Wir ben\u00f6tigen Ihre dringende Unterst\u00fctzung, um dieses Problem zu beheben.",
+  "category_of_the_email": "Incident"
+}

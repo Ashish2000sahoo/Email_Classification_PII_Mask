@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit digitalen Kampagnen aufgrund von Integrationstypen\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um die unerwartete Unterbrechung unserer digitalen Kampagnen zu melden. Diese sind pl\u00f6tzlich gestoppt, und wir suchen nach der Ursache, die wir ann\u00e4hernd auf Integrationstypen-Probleme zur\u00fcckf\u00fchren You can reach me at sophia.rossi@service.it.. Wir haben versucht, die Dienste neu zu starten und die Einstellungen zu \u00fcberpr\u00fcfen, aber das Problem ist weiterhin bestehen geblieben. Wir w\u00e4ren sehr dankbar f\u00fcr Ihre Unterst\u00fctzung bei der schnellen Sperrung der Ursache. Bitte teilen Sie uns mit, wenn wir zus\u00e4tzliche Informationen ben\u00f6tigen. Wir freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        752,
+        762
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        340,
+        363
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit digitalen Kampagnen aufgrund von Integrationstypen\n\nSehr geehrte Kundensupport, ich schreibe Ihnen, um die unerwartete Unterbrechung unserer digitalen Kampagnen zu melden. Diese sind pl\u00f6tzlich gestoppt, und wir suchen nach der Ursache, die wir ann\u00e4hernd auf Integrationstypen-Probleme zur\u00fcckf\u00fchren You can reach me at [email].. Wir haben versucht, die Dienste neu zu starten und die Einstellungen zu \u00fcberpr\u00fcfen, aber das Problem ist weiterhin bestehen geblieben. Wir w\u00e4ren sehr dankbar f\u00fcr Ihre Unterst\u00fctzung bei der schnellen Sperrung der Ursache. Bitte teilen Sie uns mit, wenn wir zus\u00e4tzliche Informationen ben\u00f6tigen. Wir freuen uns auf Ihre R\u00fcckmeldung. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

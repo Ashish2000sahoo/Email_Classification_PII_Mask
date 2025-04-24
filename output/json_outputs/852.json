@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Zugriffsverwaltung auf medizinische Daten\n\nSehr geehrte Kundenservice-Abteilung, wir haben ein Problem mit dem Zugriff auf unsere medizinischen Daten, das sich pl\u00f6tzlich w\u00e4hrend der Nacht eingestellt hat. Wir vermuten, dass es entweder eine Software-Inkonsistenz oder eine Fehlkonfiguration der Firewall ist You can reach me at sophia.rossi@service.it.. Wir haben bereits versucht, die Systeme neu zu starten, die Netzwerkverbindungen zu \u00fcberpr\u00fcfen und die Systemprotokolle zu durchsuchen, aber das Problem bleibt bestehen. Wir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie sich mit dieser Angelegenheit besch\u00e4ftigen und uns so schnell wie m\u00f6glich mit einem L\u00f6sungsansatz versorgen k\u00f6nnten My name is Liu Wei.. Bitte geben Sie uns Bescheid, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Wir freuen uns, von Ihnen bald zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        715,
+        722
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        354,
+        377
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Zugriffsverwaltung auf medizinische Daten\n\nSehr geehrte Kundenservice-Abteilung, wir haben ein Problem mit dem Zugriff auf unsere medizinischen Daten, das sich pl\u00f6tzlich w\u00e4hrend der Nacht eingestellt hat. Wir vermuten, dass es entweder eine Software-Inkonsistenz oder eine Fehlkonfiguration der Firewall ist You can reach me at [email].. Wir haben bereits versucht, die Systeme neu zu starten, die Netzwerkverbindungen zu \u00fcberpr\u00fcfen und die Systemprotokolle zu durchsuchen, aber das Problem bleibt bestehen. Wir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie sich mit dieser Angelegenheit besch\u00e4ftigen und uns so schnell wie m\u00f6glich mit einem L\u00f6sungsansatz versorgen k\u00f6nnten My name is [full_name].. Bitte geben Sie uns Bescheid, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen. Wir freuen uns, von Ihnen bald zu h\u00f6ren. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

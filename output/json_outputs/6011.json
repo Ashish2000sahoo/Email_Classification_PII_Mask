@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Challenge\n\nCustomers have been facing sporadic connectivity problems during the SaaS platform's busiest times You can reach me at carlosm@gmail.com.. This could be due to high server load or configuration errors. Steps like limiting user sessions and optimizing database queries have been taken, but the issues still persist My name is Elena Ivanova.. Assistance is required to resolve this.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        368
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        149,
+        166
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Challenge\n\nCustomers have been facing sporadic connectivity problems during the SaaS platform's busiest times You can reach me at [email].. This could be due to high server load or configuration errors. Steps like limiting user sessions and optimizing database queries have been taken, but the issues still persist My name is [full_name].. Assistance is required to resolve this.",
+  "category_of_the_email": "Incident"
+}

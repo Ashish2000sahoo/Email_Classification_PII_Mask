@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unerwartetes Abst\u00fcrzen der Datenaufbereitungs-Ansicht\n\nSehr geehrte Kundensupport, ich melde Ihnen einen Fehler mit der Datenaufbereitungsansicht, die unerwartet abbrach. Ich denke, dass dies auf Kompatibilit\u00e4tsprobleme der Software hinweist. Ich habe versucht, das System neu zu starten und nach Aktualisierungen zu suchen, aber das Problem bestand weiterhin. Es w\u00e4re mir sehr hilfreich, wenn Sie dies weiterhin untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte teilen Sie mich mit, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at janesmith@company.com.. Ich freue mich auf Ihre R\u00fcckmeldung. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        728,
+        739
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        656,
+        677
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unerwartetes Abst\u00fcrzen der Datenaufbereitungs-Ansicht\n\nSehr geehrte Kundensupport, ich melde Ihnen einen Fehler mit der Datenaufbereitungsansicht, die unerwartet abbrach. Ich denke, dass dies auf Kompatibilit\u00e4tsprobleme der Software hinweist. Ich habe versucht, das System neu zu starten und nach Aktualisierungen zu suchen, aber das Problem bestand weiterhin. Es w\u00e4re mir sehr hilfreich, wenn Sie dies weiterhin untersuchen und so schnell wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten. Bitte teilen Sie mich mit, falls Sie weitere Informationen ben\u00f6tigen, um dieses Problem zu l\u00f6sen. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung You can reach me at [email].. Ich freue mich auf Ihre R\u00fcckmeldung. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Neue Schritte im Projektmanagementprozess\n\nSehr geehrte Kundenservice, ich wende mich an Sie im Zusammenhang mit der Vorbereitung eines neuen Projektmanagementprozesses. K\u00f6nnten Sie mir bitte ein ausf\u00fchrliches Handbuch zur Etablierung eines neuen Projekts zur Verf\u00fcgung stellen, einschlie\u00dflich der Aufgabenstellung, der Teammitgliederzuweisung und der Leitung des Fortschritts? Es w\u00fcrde mich freuen, wenn Sie mir Hinweise zur Anpassung des Prozesses an unsere spezifischen Anforderungen geben k\u00f6nnten. Existieren au\u00dferdem spezifische Praktiken oder Tutorials, die Sie f\u00fcr den Start des Projektmanagements empfehlen k\u00f6nnten? Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und mit unserem neuen Projekt zu beginnen My name is Jane Smith.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at janesmith@company.com.. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        738,
+        748
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        807,
+        828
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Neue Schritte im Projektmanagementprozess\n\nSehr geehrte Kundenservice, ich wende mich an Sie im Zusammenhang mit der Vorbereitung eines neuen Projektmanagementprozesses. K\u00f6nnten Sie mir bitte ein ausf\u00fchrliches Handbuch zur Etablierung eines neuen Projekts zur Verf\u00fcgung stellen, einschlie\u00dflich der Aufgabenstellung, der Teammitgliederzuweisung und der Leitung des Fortschritts? Es w\u00fcrde mich freuen, wenn Sie mir Hinweise zur Anpassung des Prozesses an unsere spezifischen Anforderungen geben k\u00f6nnten. Existieren au\u00dferdem spezifische Praktiken oder Tutorials, die Sie f\u00fcr den Start des Projektmanagements empfehlen k\u00f6nnten? Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und mit unserem neuen Projekt zu beginnen My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

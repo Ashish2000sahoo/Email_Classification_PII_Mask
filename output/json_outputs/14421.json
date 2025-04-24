@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Notwendigkeit der Datensicherheit\n\nIch muss Anweisungen zur Verwendung von Verschl\u00fcsselungsverfahren haben, um vertrauliche Patientendaten sicherzustellen. K\u00f6nnten Sie mir Informationen zu den besten Praktiken und den empfohlenen Werkzeugen zur Verf\u00fcgung stellen?. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        295,
+        311
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Notwendigkeit der Datensicherheit\n\nIch muss Anweisungen zur Verwendung von Verschl\u00fcsselungsverfahren haben, um vertrauliche Patientendaten sicherzustellen. K\u00f6nnten Sie mir Informationen zu den besten Praktiken und den empfohlenen Werkzeugen zur Verf\u00fcgung stellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

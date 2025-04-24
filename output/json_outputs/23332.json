@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicitud de asistencia con la integraci\u00f3n de Jira HR\n\nEstimado soporte al cliente,\n\nEspero que este mensaje le encuentren bien You can reach me at liuwei@business.cn.. Me pongo en contacto para solicitar asistencia con la integraci\u00f3n de Jira Software 8.20 para gestionar tareas de recursos humanos y optimizar los flujos de trabajo relacionados con los empleados de manera eficiente. Nuestro objetivo es mejorar la productividad y garantizar operaciones fluidas en el manejo de procesos de recursos humanos.\n\n\u00bfPodr\u00eda proporcionar orientaci\u00f3n sobre las mejores pr\u00e1cticas para configurar esta integraci\u00f3n? Adem\u00e1s, si se necesitan configuraciones espec\u00edficas, le agradecer\u00eda que compartiera detalles precisos que podr\u00edan ser \u00fatiles.\n\nSu experiencia y apoyo en este asunto ser\u00edan muy apreciados.\n\nAtentamente,\n\n<name>\n<company>\n<tel_num> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        855,
+        864
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        157,
+        175
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de asistencia con la integraci\u00f3n de Jira HR\n\nEstimado soporte al cliente,\n\nEspero que este mensaje le encuentren bien You can reach me at [email].. Me pongo en contacto para solicitar asistencia con la integraci\u00f3n de Jira Software 8.20 para gestionar tareas de recursos humanos y optimizar los flujos de trabajo relacionados con los empleados de manera eficiente. Nuestro objetivo es mejorar la productividad y garantizar operaciones fluidas en el manejo de procesos de recursos humanos.\n\n\u00bfPodr\u00eda proporcionar orientaci\u00f3n sobre las mejores pr\u00e1cticas para configurar esta integraci\u00f3n? Adem\u00e1s, si se necesitan configuraciones espec\u00edficas, le agradecer\u00eda que compartiera detalles precisos que podr\u00edan ser \u00fatiles.\n\nSu experiencia y apoyo en este asunto ser\u00edan muy apreciados.\n\nAtentamente,\n\n<name>\n<company>\n<tel_num> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Request"
+}

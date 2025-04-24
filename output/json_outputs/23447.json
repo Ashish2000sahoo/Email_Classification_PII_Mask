@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Server Performance Issue\n\nDear Customer Support Team,\n\nI am reaching out to report a critical issue regarding the IT Consulting Service provided by your company. Our client, <name>, has been experiencing inconsistent server performance during peak hours, which is impacting their business operations significantly My name is Maria Gonzalez.. They require an urgent consultation and implementation of a solution to optimize their system performance. This service is crucial for maintaining our operational efficiency and supporting our client's needs. Please prioritize this request and revert with possible solutions and a timeline for the implementation process at your earliest convenience.\n\nThank you for your immediate attention to this matter.\n\nBest regards,\n<name>\n<tel_num>\n You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        341,
+        355
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        815,
+        840
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent Server Performance Issue\n\nDear Customer Support Team,\n\nI am reaching out to report a critical issue regarding the IT Consulting Service provided by your company. Our client, <name>, has been experiencing inconsistent server performance during peak hours, which is impacting their business operations significantly My name is [full_name].. They require an urgent consultation and implementation of a solution to optimize their system performance. This service is crucial for maintaining our operational efficiency and supporting our client's needs. Please prioritize this request and revert with possible solutions and a timeline for the implementation process at your earliest convenience.\n\nThank you for your immediate attention to this matter.\n\nBest regards,\n<name>\n<tel_num>\n You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

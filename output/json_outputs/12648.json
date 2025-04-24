@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Payment Methods for Subscription Plans\n\nHello customer support, I would like to request information about the various payment methods accepted for our subscription plans You can reach me at liuwei@business.cn.. Could you please provide a list of the accepted payment options, such as credit cards, PayPal, or bank transfers? Additionally, I would appreciate it if you could inform me about any discounts available for long-term subscriptions. Before proceeding with a subscription, it is important for me to understand the payment terms My name is Elena Ivanova.. I look forward to your response and await further details. Kindly provide me with the necessary information or contact me at your convenience for a discussion.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        557,
+        570
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        199,
+        217
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Payment Methods for Subscription Plans\n\nHello customer support, I would like to request information about the various payment methods accepted for our subscription plans You can reach me at [email].. Could you please provide a list of the accepted payment options, such as credit cards, PayPal, or bank transfers? Additionally, I would appreciate it if you could inform me about any discounts available for long-term subscriptions. Before proceeding with a subscription, it is important for me to understand the payment terms My name is [full_name].. I look forward to your response and await further details. Kindly provide me with the necessary information or contact me at your convenience for a discussion.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data Encryption Failure Issue\n\nDear customer support, we encountered a data encryption failure that revealed patient records. This could be due to outdated software or human error You can reach me at maria.gonzalez@shop.es.. We have already restarted the servers and reviewed the firewall settings. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        319,
+        331
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        209,
+        231
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Data Encryption Failure Issue\n\nDear customer support, we encountered a data encryption failure that revealed patient records. This could be due to outdated software or human error You can reach me at [email].. We have already restarted the servers and reviewed the firewall settings. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

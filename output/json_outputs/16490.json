@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Rat zur Optimierung von Adobe Photoshop f\u00fcr Marketingstrategien\n\nIch w\u00fcrde gerne Rat zur Optimierung meines Workflow mit Adobe Photoshop CC 2021 f\u00fcr verbesserte Marketingstrategien einholen You can reach me at janesmith@company.com.. Ich m\u00f6chte meinen Workflow optimieren und ansprechenderes Inhaltsmaterial erstellen My name is Maria Gonzalez.. Danke f\u00fcr Ihre Unterst\u00fctzung und warten auf Ihre baldige R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        338,
+        352
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        219,
+        240
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        149,
+        153
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Rat zur Optimierung von Adobe Photoshop f\u00fcr Marketingstrategien\n\nIch w\u00fcrde gerne Rat zur Optimierung meines Workflow mit Adobe Photoshop CC [phone_number] f\u00fcr verbesserte Marketingstrategien einholen You can reach me at [email].. Ich m\u00f6chte meinen Workflow optimieren und ansprechenderes Inhaltsmaterial erstellen My name is [full_name].. Danke f\u00fcr Ihre Unterst\u00fctzung und warten auf Ihre baldige R\u00fcckmeldung.",
+  "category_of_the_email": "Request"
+}

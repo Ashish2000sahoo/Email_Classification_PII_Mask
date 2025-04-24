@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with NAS Device Noted\n\nMedical information is unavailable because of the NAS device malfunction.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        152
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Problem with NAS Device Noted\n\nMedical information is unavailable because of the NAS device malfunction.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

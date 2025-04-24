@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nHello Customer Support, I am seeking assistance in securing medical data using McAfee Total Protection for our hospital's IT system You can reach me at david.kim@corp.kr.. Could you provide detailed information on this topic? I would greatly appreciate any guidance on how to implement and manage security measures, particularly in the areas of data encryption, access controls, and threat detection. Could you also provide any relevant documentation or resources to help me understand the process better? I look forward to hearing from you soon My name is Carlos Mendoza.. Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        568,
+        582
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        163,
+        180
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nHello Customer Support, I am seeking assistance in securing medical data using McAfee Total Protection for our hospital's IT system You can reach me at [email].. Could you provide detailed information on this topic? I would greatly appreciate any guidance on how to implement and manage security measures, particularly in the areas of data encryption, access controls, and threat detection. Could you also provide any relevant documentation or resources to help me understand the process better? I look forward to hearing from you soon My name is [full_name].. Thank you for your assistance.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for System Outage\n\nEncountered system outage impacting various applications and devices vital for securing medical data You can reach me at elena.ivanova@support.org.. Initial assessment points to possible server configuration incompatibility issues between different software platforms My name is Liu Wei.. We have already restarted the affected servers, cleared the cache, and applied patch updates, but the issues still persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        323,
+        330
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        165,
+        190
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for System Outage\n\nEncountered system outage impacting various applications and devices vital for securing medical data You can reach me at [email].. Initial assessment points to possible server configuration incompatibility issues between different software platforms My name is [full_name].. We have already restarted the affected servers, cleared the cache, and applied patch updates, but the issues still persist.",
+  "category_of_the_email": "Incident"
+}

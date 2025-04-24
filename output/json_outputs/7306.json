@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem Investitionsanalyse-System\n\nSehr geehrte Kundensupport,<br>Unser Investitionsanalyse-System erleidet h\u00e4ufig Datenunterschiede, die wahrscheinlich auf eine Softwarekompatibilit\u00e4t zwischen Node.js und Docker zur\u00fcckzuf\u00fchren sind. Wir haben bereits die Dienste neu gestartet und die Node.js-Version aktualisiert, aber das Problem beh\u00e4lt sich bestehen.<br>Diese Unterschiede verursachen erhebliche Verz\u00f6gerungen in den Berichterstattungs- und Entscheidungsprozessen. Wir haben versucht, das Problem selbst zu beheben, aber bisher ohne Erfolg.<br>Wir freuen uns, wenn Sie uns Ratschl\u00e4ge geben k\u00f6nnten, um eine problemlose Integration von Node.js und Docker zu gew\u00e4hrleisten.<br>Bitte lassen Sie uns wissen, wenn Sie weitere Details ben\u00f6tigen oder wenn Sie in der Lage sind, ein Konto-Nr My name is Liu Wei.. und ein g\u00fcnstiges Zeitfenster f\u00fcr eine weitere Diskussion bereitzustellen. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        817,
+        824
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        926,
+        947
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem Investitionsanalyse-System\n\nSehr geehrte Kundensupport,<br>Unser Investitionsanalyse-System erleidet h\u00e4ufig Datenunterschiede, die wahrscheinlich auf eine Softwarekompatibilit\u00e4t zwischen Node.js und Docker zur\u00fcckzuf\u00fchren sind. Wir haben bereits die Dienste neu gestartet und die Node.js-Version aktualisiert, aber das Problem beh\u00e4lt sich bestehen.<br>Diese Unterschiede verursachen erhebliche Verz\u00f6gerungen in den Berichterstattungs- und Entscheidungsprozessen. Wir haben versucht, das Problem selbst zu beheben, aber bisher ohne Erfolg.<br>Wir freuen uns, wenn Sie uns Ratschl\u00e4ge geben k\u00f6nnten, um eine problemlose Integration von Node.js und Docker zu gew\u00e4hrleisten.<br>Bitte lassen Sie uns wissen, wenn Sie weitere Details ben\u00f6tigen oder wenn Sie in der Lage sind, ein Konto-Nr My name is [full_name].. und ein g\u00fcnstiges Zeitfenster f\u00fcr eine weitere Diskussion bereitzustellen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

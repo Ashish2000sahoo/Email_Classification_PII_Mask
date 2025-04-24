@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent : Temps d'arr\u00eat du serveur\n\nCher \u00e9quipe de support client,\n\nJe rencontre un probl\u00e8me de temps d'arr\u00eat du serveur avec votre service de gestion AWS. Mon num\u00e9ro de compte est <acc_num> You can reach me at david.kim@corp.kr.. Veuillez conseiller sur les \u00e9tapes de d\u00e9pannage et un d\u00e9lai estim\u00e9 pour la r\u00e9solution. Cela est critique pour nos op\u00e9rations commerciales.\n\nMerci,\n<name>\nContact : <tel_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        424,
+        433
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        219,
+        236
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Urgent : Temps d'arr\u00eat du serveur\n\nCher \u00e9quipe de support client,\n\nJe rencontre un probl\u00e8me de temps d'arr\u00eat du serveur avec votre service de gestion AWS. Mon num\u00e9ro de compte est <acc_num> You can reach me at [email].. Veuillez conseiller sur les \u00e9tapes de d\u00e9pannage et un d\u00e9lai estim\u00e9 pour la r\u00e9solution. Cela est critique pour nos op\u00e9rations commerciales.\n\nMerci,\n<name>\nContact : <tel_num> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

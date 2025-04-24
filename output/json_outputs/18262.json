@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei der Abwehr von Niedergang bei Marketing-Agenturen\n\nUnsere Marke erlitt einen Niedergang in den Markeinspannungen. Wir m\u00f6chten Ihnen helfen, dieses Problem besser zu verstehen You can reach me at sophia.rossi@service.it.. Bitte teilen Sie uns mehr Informationen zur Verf\u00fcgung, insbesondere spezifische Metriken, bei welchem Zeitraum sie abgenommen haben, und was in den letzten Zeiten an Marketingstrategien ge\u00e4ndert wurde. Wir freuen uns darauf, m\u00f6gliche L\u00f6sungen zu besprechen und zur Telefonbesprechung Zeit zu finden, um den genauen Sachverhalt zu kl\u00e4ren. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        597,
+        605
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        222,
+        245
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei der Abwehr von Niedergang bei Marketing-Agenturen\n\nUnsere Marke erlitt einen Niedergang in den Markeinspannungen. Wir m\u00f6chten Ihnen helfen, dieses Problem besser zu verstehen You can reach me at [email].. Bitte teilen Sie uns mehr Informationen zur Verf\u00fcgung, insbesondere spezifische Metriken, bei welchem Zeitraum sie abgenommen haben, und was in den letzten Zeiten an Marketingstrategien ge\u00e4ndert wurde. Wir freuen uns darauf, m\u00f6gliche L\u00f6sungen zu besprechen und zur Telefonbesprechung Zeit zu finden, um den genauen Sachverhalt zu kl\u00e4ren. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

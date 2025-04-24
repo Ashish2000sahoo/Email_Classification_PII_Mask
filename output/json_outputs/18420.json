@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Underperforming Marketing Campaigns\n\nOur marketing campaigns are not performing well. Despite efforts to adjust our ad spend and update our materials, the results have not improved You can reach me at david.kim@corp.kr.. This could be due to ineffective targeting or outdated content My name is Sophia Rossi.. We need assistance to resolve this issue and enhance the performance of our campaigns.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        222,
+        239
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Issues with Underperforming Marketing Campaigns\n\nOur marketing campaigns are not performing well. Despite efforts to adjust our ad spend and update our materials, the results have not improved You can reach me at [email].. This could be due to ineffective targeting or outdated content My name is [full_name].. We need assistance to resolve this issue and enhance the performance of our campaigns.",
+  "category_of_the_email": "Problem"
+}

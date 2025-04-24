@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer support, recent data batch investment analysis encountered issues during the processing stage You can reach me at fatima.farsi@help.com.. The interruption on the analytics dashboard might be due to a server overload during peak usage. We have already restarted the analytics service and cleared temporary files, but the issue still persists. Assistance is needed to resolve the problem and prevent similar occurrences in the future. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        464,
+        477
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        134,
+        155
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer support, recent data batch investment analysis encountered issues during the processing stage You can reach me at [email].. The interruption on the analytics dashboard might be due to a server overload during peak usage. We have already restarted the analytics service and cleared temporary files, but the issue still persists. Assistance is needed to resolve the problem and prevent similar occurrences in the future. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

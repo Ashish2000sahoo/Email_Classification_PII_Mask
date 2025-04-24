@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Modem Disconnection\n\nHello Customer Support, I am reaching out to report an issue with the frequent disconnection of my modem, which is causing disruptions in secure data transmission You can reach me at omar.hassan@secure.net.. The problem may have arisen due to network overload or outdated firmware My name is Liu Wei.. Despite attempting to restart the modem and checking the connections, the issue still remains unresolved. I would greatly appreciate it if you could look into this and provide a prompt solution. Please inform me if you need any additional details from my end. Thank you for your time and support. I look forward to your prompt response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        335,
+        342
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        226,
+        248
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problem with Modem Disconnection\n\nHello Customer Support, I am reaching out to report an issue with the frequent disconnection of my modem, which is causing disruptions in secure data transmission You can reach me at [email].. The problem may have arisen due to network overload or outdated firmware My name is [full_name].. Despite attempting to restart the modem and checking the connections, the issue still remains unresolved. I would greatly appreciate it if you could look into this and provide a prompt solution. Please inform me if you need any additional details from my end. Thank you for your time and support. I look forward to your prompt response.",
+  "category_of_the_email": "Incident"
+}

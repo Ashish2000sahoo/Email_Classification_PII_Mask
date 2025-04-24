@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der VPN-Verbindung\n\nIch habe h\u00e4ufige Unterbrechungen meiner VPN-Verbindung. M\u00f6gliche Ursachen k\u00f6nnten ein \u00fcberlasteter Server oder Softwarekonflikte sein. Ich habe mein Router bereits neu gestartet und die VPN-Software aktualisiert, aber das Problem ist weiter bestanden You can reach me at david.kim@corp.kr.. Ich w\u00fcrde Ihre Hilfe bei der L\u00f6sung dieses Problems sehr gesch\u00e4tzt. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        412,
+        419
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        313,
+        330
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der VPN-Verbindung\n\nIch habe h\u00e4ufige Unterbrechungen meiner VPN-Verbindung. M\u00f6gliche Ursachen k\u00f6nnten ein \u00fcberlasteter Server oder Softwarekonflikte sein. Ich habe mein Router bereits neu gestartet und die VPN-Software aktualisiert, aber das Problem ist weiter bestanden You can reach me at [email].. Ich w\u00fcrde Ihre Hilfe bei der L\u00f6sung dieses Problems sehr gesch\u00e4tzt. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

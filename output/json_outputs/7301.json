@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, we are encountering data integration challenges between our analytics tools, which is impacting our investment optimization efforts. The issue might be related to compatibility or outdated software. Despite updating Node.js and checking API connections for Evernote and Salesforce CRM, the problem persists My name is Liu Wei.. Our team is currently working on resolving it, but we could use some guidance to troubleshoot and resolve the issue. Could you please provide us with additional steps to take? You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        352,
+        359
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        562,
+        580
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, we are encountering data integration challenges between our analytics tools, which is impacting our investment optimization efforts. The issue might be related to compatibility or outdated software. Despite updating Node.js and checking API connections for Evernote and Salesforce CRM, the problem persists My name is [full_name].. Our team is currently working on resolving it, but we could use some guidance to troubleshoot and resolve the issue. Could you please provide us with additional steps to take? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

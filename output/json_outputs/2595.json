@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Computer Crash While Using a Project Management Tool\n\nDear Customer Support Team, I am writing to report an issue where my computer crashed while using a project management tool. The problem occurred when I was mid-task and my system suddenly stopped reacting. I suspect that this might be due to a lack of system resources or software conflicts. I have already attempted to resolve the issue by restarting my system, updating the software, and checking my hardware for potential problems My name is Jane Smith.. However, the issue persists You can reach me at liuwei@business.cn.. I would greatly appreciate any further assistance or guidance you can provide to solve this problem. Thank you in advance for your time and support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        509,
+        519
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        571,
+        589
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Computer Crash While Using a Project Management Tool\n\nDear Customer Support Team, I am writing to report an issue where my computer crashed while using a project management tool. The problem occurred when I was mid-task and my system suddenly stopped reacting. I suspect that this might be due to a lack of system resources or software conflicts. I have already attempted to resolve the issue by restarting my system, updating the software, and checking my hardware for potential problems My name is [full_name].. However, the issue persists You can reach me at [email].. I would greatly appreciate any further assistance or guidance you can provide to solve this problem. Thank you in advance for your time and support.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with project timelines not updating automatically\n\nProject timelines are not updating automatically. This may be related to recent system updates My name is Liu Wei.. I have already restarted the system and verified the settings, but the problem persists. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        172,
+        179
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        295,
+        320
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Issue with project timelines not updating automatically\n\nProject timelines are not updating automatically. This may be related to recent system updates My name is [full_name].. I have already restarted the system and verified the settings, but the problem persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

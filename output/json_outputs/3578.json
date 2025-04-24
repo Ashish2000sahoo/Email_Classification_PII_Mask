@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Urgent Security Assistance\n\nI am reaching out to address a critical security issue with our medical data. Recently, there have been unauthorized access attempts that I believe are due to outdated security protocols. Despite updating firewall settings and ensuring all software is up to date, the issues continue. I am very concerned about the potential breach of sensitive information and would greatly appreciate immediate assistance to resolve this matter My name is John Doe.. Could you please provide guidance on how to enhance our security measures? You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        490,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        599,
+        617
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Request for Urgent Security Assistance\n\nI am reaching out to address a critical security issue with our medical data. Recently, there have been unauthorized access attempts that I believe are due to outdated security protocols. Despite updating firewall settings and ensuring all software is up to date, the issues continue. I am very concerned about the potential breach of sensitive information and would greatly appreciate immediate assistance to resolve this matter My name is [full_name].. Could you please provide guidance on how to enhance our security measures? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

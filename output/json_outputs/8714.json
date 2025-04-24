@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Real-Time Investment Information Dashboard\n\nFollowing a recent software update, the Data Analysis Dashboard is not displaying real-time investment information as expected. Already attempted to restart the system and check the connection. Please provide a detailed error report and a screenshot of the problem if available. Also, confirm the version of the software update that was installed My name is Liu Wei.. If necessary, we can arrange to address the issue over the phone. Please let us know your preferred time to contact you at <tel_num>. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        422,
+        429
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        590,
+        611
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Real-Time Investment Information Dashboard\n\nFollowing a recent software update, the Data Analysis Dashboard is not displaying real-time investment information as expected. Already attempted to restart the system and check the connection. Please provide a detailed error report and a screenshot of the problem if available. Also, confirm the version of the software update that was installed My name is [full_name].. If necessary, we can arrange to address the issue over the phone. Please let us know your preferred time to contact you at <tel_num>. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

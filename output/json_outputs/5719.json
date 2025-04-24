@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler bei Datensynchronisation verschiedener Plattformen\n\nSehr geehrte Kundensupport, wir begegnen Problemen bei mehreren Anwendungen, bei denen Daten von verschiedenen Plattformen nicht synchronisiert werden k\u00f6nnen. Server\u00fcberlastungen treten gelegentlich auf, bei denen wir bereits mehrmals Anwendungen neu gestartet und den Cache geleert haben, jedoch bleiben die Probleme leider bestehen. Das Problem verursacht St\u00f6rungen im Arbeitsablauf und ben\u00f6tigt eine schnelle L\u00f6sung My name is Jane Smith.. K\u00f6nnten Sie bitte nachgehen, ob Sie einen Workaround bereithalten? Wir sch\u00e4tzen Ihre Hilfe bei der L\u00f6sung des Problems You can reach me at david.kim@corp.kr.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        508
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        651,
+        668
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Fehler bei Datensynchronisation verschiedener Plattformen\n\nSehr geehrte Kundensupport, wir begegnen Problemen bei mehreren Anwendungen, bei denen Daten von verschiedenen Plattformen nicht synchronisiert werden k\u00f6nnen. Server\u00fcberlastungen treten gelegentlich auf, bei denen wir bereits mehrmals Anwendungen neu gestartet und den Cache geleert haben, jedoch bleiben die Probleme leider bestehen. Das Problem verursacht St\u00f6rungen im Arbeitsablauf und ben\u00f6tigt eine schnelle L\u00f6sung My name is [full_name].. K\u00f6nnten Sie bitte nachgehen, ob Sie einen Workaround bereithalten? Wir sch\u00e4tzen Ihre Hilfe bei der L\u00f6sung des Problems You can reach me at [email].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung und Ihre Zeit.",
+  "category_of_the_email": "Incident"
+}

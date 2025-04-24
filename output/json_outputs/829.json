@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Hospital Systems Security Incident\n\nCustomer Support, a security breach has exposed medical data due to outdated security protocols and unpatched software in hospital systems You can reach me at elena.ivanova@support.org.. Efforts to address the issue included updating security settings and running virus scans My name is David Kim.. We need your assistance in resolving this issue and providing guidance on how to enhance security measures to prevent future breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        341
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        204,
+        229
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Hospital Systems Security Incident\n\nCustomer Support, a security breach has exposed medical data due to outdated security protocols and unpatched software in hospital systems You can reach me at [email].. Efforts to address the issue included updating security settings and running virus scans My name is [full_name].. We need your assistance in resolving this issue and providing guidance on how to enhance security measures to prevent future breaches.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Sudden Decline in Website Traffic\n\nI am observing a sharp decrease in my website's traffic and believe a recent Google algorithm update may be responsible My name is Jane Smith.. I have reviewed the Google Analytics data and reviewed the code changes, yet the problem continues. I kindly request your assistance to address this issue. Please guide me on the necessary actions to take. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        204
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        434,
+        457
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Sudden Decline in Website Traffic\n\nI am observing a sharp decrease in my website's traffic and believe a recent Google algorithm update may be responsible My name is [full_name].. I have reviewed the Google Analytics data and reviewed the code changes, yet the problem continues. I kindly request your assistance to address this issue. Please guide me on the necessary actions to take. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

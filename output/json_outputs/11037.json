@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unautorisiertes Zugriffskontrollen bei Krankenhausauftritts-Systemen\n\nEin unbeabsichtigter Zugriff wurde bei den IT-Systemen des Krankenhauses festgestellt, was medizinische Daten betroffen hat My name is David Kim.. Es wird vermutet, dass unaktuelle Sicherheitsprotokolle und unrichtige Zugriffskontrollen die Ursache sind. Die Firewall-Einstellungen wurden aktualisiert, und die \u00dcberwachungsma\u00dfnahmen wurden angemessen erh\u00f6ht, jedoch bestehen weiter Probleme. Sofortige Unterst\u00fctzung ist erforderlich, um weitere Datenverletzungen zu vermeiden und die Sicherheit der Patientendaten zu gew\u00e4hrleisten. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        214,
+        223
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        633,
+        656
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Unautorisiertes Zugriffskontrollen bei Krankenhausauftritts-Systemen\n\nEin unbeabsichtigter Zugriff wurde bei den IT-Systemen des Krankenhauses festgestellt, was medizinische Daten betroffen hat My name is [full_name].. Es wird vermutet, dass unaktuelle Sicherheitsprotokolle und unrichtige Zugriffskontrollen die Ursache sind. Die Firewall-Einstellungen wurden aktualisiert, und die \u00dcberwachungsma\u00dfnahmen wurden angemessen erh\u00f6ht, jedoch bestehen weiter Probleme. Sofortige Unterst\u00fctzung ist erforderlich, um weitere Datenverletzungen zu vermeiden und die Sicherheit der Patientendaten zu gew\u00e4hrleisten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Bek\u00e4mpfung von Datensperrungen in Krankenhaus-Systemen\n\nEs besteht die Bedrohung einer m\u00f6glichen Datensperrung in Krankenhaus-Systemen, was die medizinischen Daten gef\u00e4hrdet.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        206,
+        221
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Bek\u00e4mpfung von Datensperrungen in Krankenhaus-Systemen\n\nEs besteht die Bedrohung einer m\u00f6glichen Datensperrung in Krankenhaus-Systemen, was die medizinischen Daten gef\u00e4hrdet.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

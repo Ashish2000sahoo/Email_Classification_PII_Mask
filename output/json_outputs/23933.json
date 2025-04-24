@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Consulta sobre Servi\u00e7os de Consultoria em TI\n\nCaro Time de Suporte ao Cliente,\n\nEspero que esta mensagem os encontre bem You can reach me at maria.gonzalez@shop.es.. Meu nome \u00e9 <name> e estou interessado em explorar a variedade de servi\u00e7os de consultoria em TI que sua respeit\u00e1vel empresa oferece, com foco particular na administra\u00e7\u00e3o de servidores. Ouvi coment\u00e1rios louv\u00e1veis sobre sua experi\u00eancia neste dom\u00ednio e gostaria de entender melhor como seus servi\u00e7os poderiam beneficiar uma organiza\u00e7\u00e3o como a nossa.\n\nNossa empresa est\u00e1 atualmente avaliando op\u00e7\u00f5es para otimizar nossa infraestrutura de servidores, com o objetivo de aumentar a efici\u00eancia e a seguran\u00e7a. Poderia, por favor, fornecer informa\u00e7\u00f5es detalhadas sobre seus servi\u00e7os de administra\u00e7\u00e3o de servidores, incluindo aspectos como configura\u00e7\u00e3o, gerenciamento e manuten\u00e7\u00e3o cont\u00ednua? Al\u00e9m disso, informa\u00e7\u00f5es sobre suas medidas de seguran\u00e7a e solu\u00e7\u00f5es de backup de dados para proteger ativos cr\u00edticos seriam inestim\u00e1veis.\n\nAl\u00e9m disso, entender seu modelo de suporte e os custos relacionados ajudaria muito na avalia\u00e7\u00e3o da viabilidade de contratar seus servi\u00e7os. Se poss\u00edvel, inclua tamb\u00e9m quaisquer estudos de caso ou refer\u00eancias de projetos semelhantes que sua empresa tenha realizado com sucesso.\n\nEstou ansioso para aprender mais sobre como podemos colaborar para alcan\u00e7ar nossos objetivos de TI. Agrade\u00e7o pela sua assist\u00eancia e sinta-se \u00e0 vontade para me contatar pelo <tel_num> para qualquer discuss\u00e3o adicional.\n\nAtenciosamente,\n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1522,
+        1531
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        150,
+        172
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Consulta sobre Servi\u00e7os de Consultoria em TI\n\nCaro Time de Suporte ao Cliente,\n\nEspero que esta mensagem os encontre bem You can reach me at [email].. Meu nome \u00e9 <name> e estou interessado em explorar a variedade de servi\u00e7os de consultoria em TI que sua respeit\u00e1vel empresa oferece, com foco particular na administra\u00e7\u00e3o de servidores. Ouvi coment\u00e1rios louv\u00e1veis sobre sua experi\u00eancia neste dom\u00ednio e gostaria de entender melhor como seus servi\u00e7os poderiam beneficiar uma organiza\u00e7\u00e3o como a nossa.\n\nNossa empresa est\u00e1 atualmente avaliando op\u00e7\u00f5es para otimizar nossa infraestrutura de servidores, com o objetivo de aumentar a efici\u00eancia e a seguran\u00e7a. Poderia, por favor, fornecer informa\u00e7\u00f5es detalhadas sobre seus servi\u00e7os de administra\u00e7\u00e3o de servidores, incluindo aspectos como configura\u00e7\u00e3o, gerenciamento e manuten\u00e7\u00e3o cont\u00ednua? Al\u00e9m disso, informa\u00e7\u00f5es sobre suas medidas de seguran\u00e7a e solu\u00e7\u00f5es de backup de dados para proteger ativos cr\u00edticos seriam inestim\u00e1veis.\n\nAl\u00e9m disso, entender seu modelo de suporte e os custos relacionados ajudaria muito na avalia\u00e7\u00e3o da viabilidade de contratar seus servi\u00e7os. Se poss\u00edvel, inclua tamb\u00e9m quaisquer estudos de caso ou refer\u00eancias de projetos semelhantes que sua empresa tenha realizado com sucesso.\n\nEstou ansioso para aprender mais sobre como podemos colaborar para alcan\u00e7ar nossos objetivos de TI. Agrade\u00e7o pela sua assist\u00eancia e sinta-se \u00e0 vontade para me contatar pelo <tel_num> para qualquer discuss\u00e3o adicional.\n\nAtenciosamente,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

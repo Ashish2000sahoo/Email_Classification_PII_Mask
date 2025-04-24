@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Mac Mini Freezes Unexpectedly\n\nMy Mac Mini stopped working during a video conference. After attempting a restart, updating Skype, and deactivating plugins, I suspect the problem might have been due to an outdated Skype plugin.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        274
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Mac Mini Freezes Unexpectedly\n\nMy Mac Mini stopped working during a video conference. After attempting a restart, updating Skype, and deactivating plugins, I suspect the problem might have been due to an outdated Skype plugin.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

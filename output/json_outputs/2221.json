@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: IT-System-Fehler\n\nEs wurde festgestellt, dass autorisierte Zugangsanfragen auf das IT-System des Krankenhauses Folgen schwacher Authentifizierungsprotokolle. Passw\u00f6rter wurden aktualisiert und das Zwei-Faktor-Authentifizierungsverfahren eingeschaltet My name is Omar Hassan.. Trotzdem bestehen weiter Probleme mit den Integrationen zu Mailchimp und ClickUp. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        282
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        387,
+        404
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: IT-System-Fehler\n\nEs wurde festgestellt, dass autorisierte Zugangsanfragen auf das IT-System des Krankenhauses Folgen schwacher Authentifizierungsprotokolle. Passw\u00f6rter wurden aktualisiert und das Zwei-Faktor-Authentifizierungsverfahren eingeschaltet My name is [full_name].. Trotzdem bestehen weiter Probleme mit den Integrationen zu Mailchimp und ClickUp. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

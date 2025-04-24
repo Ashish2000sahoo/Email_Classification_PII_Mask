@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Security Issues\n\nA security breach has been detected in the hospital's systems, which could expose sensitive medical data My name is Omar Hassan.. Outdated software and inadequate security measures might be the cause. Despite efforts to patch the systems and update the software, the vulnerability still persists. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        154,
+        165
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        355,
+        373
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Support for Security Issues\n\nA security breach has been detected in the hospital's systems, which could expose sensitive medical data My name is [full_name].. Outdated software and inadequate security measures might be the cause. Despite efforts to patch the systems and update the software, the vulnerability still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

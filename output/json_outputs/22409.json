@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear customer support, I am experiencing unexpected shutdowns and frequent battery drain issues with my MacBook Air M1 purchased from Tech Online Store. Please assist in diagnosing these problems. The device often shuts down during normal use, and the battery depletes rapidly. My account number is <acc_num>. I look forward to your prompt assistance and guidance on resolving these issues You can reach me at carlosm@gmail.com.. Best regards, <name>, <tel_num>. My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        485,
+        499
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        421,
+        438
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear customer support, I am experiencing unexpected shutdowns and frequent battery drain issues with my MacBook Air M1 purchased from Tech Online Store. Please assist in diagnosing these problems. The device often shuts down during normal use, and the battery depletes rapidly. My account number is <acc_num>. I look forward to your prompt assistance and guidance on resolving these issues You can reach me at [email].. Best regards, <name>, <tel_num>. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

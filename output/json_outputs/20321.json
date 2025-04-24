@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Windows 11 Installation Inquiry\n\nHello Customer Support Team, \n\nI am seeking help since I cannot seem to install Windows 11 Pro. Could you please advise on how to fix this problem? My account number is <acc_num> My name is Omar Hassan.. You can reach me by email or at my phone number, <tel_num>. \n\nThanks, \n<name> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        232,
+        243
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        344,
+        365
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Windows 11 Installation Inquiry\n\nHello Customer Support Team, \n\nI am seeking help since I cannot seem to install Windows 11 Pro. Could you please advise on how to fix this problem? My account number is <acc_num> My name is [full_name].. You can reach me by email or at my phone number, <tel_num>. \n\nThanks, \n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

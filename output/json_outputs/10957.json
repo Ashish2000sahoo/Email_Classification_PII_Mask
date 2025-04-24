@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern over Data Security\n\nCustomer Support, reporting an issue with the Hospital system My name is David Kim.. The problem involves the compromise of sensitive medical data access, which might be due to outdated security protocols and misconfigured settings. Efforts to resolve the issue, such as reviewing access logs and updating software, have been attempted but the problem persists. I would greatly appreciate your assistance in resolving this matter as soon as possible to ensure the integrity of patient data. Please inform me of the next steps to take. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        110,
+        119
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        594,
+        619
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concern over Data Security\n\nCustomer Support, reporting an issue with the Hospital system My name is [full_name].. The problem involves the compromise of sensitive medical data access, which might be due to outdated security protocols and misconfigured settings. Efforts to resolve the issue, such as reviewing access logs and updating software, have been attempted but the problem persists. I would greatly appreciate your assistance in resolving this matter as soon as possible to ensure the integrity of patient data. Please inform me of the next steps to take. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Slowing Down of Data Analytics Dashboards\n\nDear Customer Support, I am contacting you to report an issue with our data analytics dashboards. They have slowed down significantly recently You can reach me at carlosm@gmail.com.. After investigation, I found that the issue is due to insufficient RAM and an outdated ClickUp integration. I have attempted to resolve the issue by upgrading Docker and restarting my MacBook Air My name is Carlos Mendoza.. However, the problem still exists. I would be grateful for your assistance in resolving this. Please let me know if there are further steps I can take or if you require more details from me. Thank you for your time and help. I look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        452,
+        466
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        225,
+        242
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Report on Slowing Down of Data Analytics Dashboards\n\nDear Customer Support, I am contacting you to report an issue with our data analytics dashboards. They have slowed down significantly recently You can reach me at [email].. After investigation, I found that the issue is due to insufficient RAM and an outdated ClickUp integration. I have attempted to resolve the issue by upgrading Docker and restarting my MacBook Air My name is [full_name].. However, the problem still exists. I would be grateful for your assistance in resolving this. Please let me know if there are further steps I can take or if you require more details from me. Thank you for your time and help. I look forward to your response.",
+  "category_of_the_email": "Incident"
+}

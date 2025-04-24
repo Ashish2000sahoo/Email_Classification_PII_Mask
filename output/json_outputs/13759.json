@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improve Security for Medical Data\n\nCustomer support, please implement enhanced security protocols to secure medical data and improve hospital infrastructure You can reach me at maria.gonzalez@shop.es.. This is crucial for protecting sensitive patient information and preventing cyber attacks. I would greatly appreciate any information on the steps already taken to address this issue. Please let me know about any additional measures that have been implemented to ensure the security of medical data My name is David Kim.. Thank you for your time and assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        521,
+        530
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        186,
+        208
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Improve Security for Medical Data\n\nCustomer support, please implement enhanced security protocols to secure medical data and improve hospital infrastructure You can reach me at [email].. This is crucial for protecting sensitive patient information and preventing cyber attacks. I would greatly appreciate any information on the steps already taken to address this issue. Please let me know about any additional measures that have been implemented to ensure the security of medical data My name is [full_name].. Thank you for your time and assistance.",
+  "category_of_the_email": "Change"
+}

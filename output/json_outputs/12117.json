@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Probleme mit Campagnen\n\nDie digitalen Campagnen sind aufgrund eines Firebase-Integration-Fehlers leistungsunf\u00e4hig und metrische Daten werden derzeit nicht verfolgt.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        196,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Campagnen\n\nDie digitalen Campagnen sind aufgrund eines Firebase-Integration-Fehlers leistungsunf\u00e4hig und metrische Daten werden derzeit nicht verfolgt.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

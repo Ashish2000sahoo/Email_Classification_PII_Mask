@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Netgear Support\n\nFacing intermittent connectivity issues with the Netgear Nighthawk Mesh Wi-Fi 6 System. This might be due to network congestion or interference from nearby devices. So far, we have rebooted the router, checked for firmware updates, and repositioned devices to improve signal strength. Despite these efforts, the issue still persists My name is Elena Ivanova.. We would greatly appreciate any assistance in resolving this matter, as it is impacting our daily operations. Could you please provide guidance on further troubleshooting steps and recommend a solution to stabilize the network connection? You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        382,
+        395
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        655,
+        672
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Netgear Support\n\nFacing intermittent connectivity issues with the Netgear Nighthawk Mesh Wi-Fi 6 System. This might be due to network congestion or interference from nearby devices. So far, we have rebooted the router, checked for firmware updates, and repositioned devices to improve signal strength. Despite these efforts, the issue still persists My name is [full_name].. We would greatly appreciate any assistance in resolving this matter, as it is impacting our daily operations. Could you please provide guidance on further troubleshooting steps and recommend a solution to stabilize the network connection? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

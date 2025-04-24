@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Technical Glitch\n\nEncountering difficulties in accessing medical records because of a software problem.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        135,
+        150
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Technical Glitch\n\nEncountering difficulties in accessing medical records because of a software problem.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

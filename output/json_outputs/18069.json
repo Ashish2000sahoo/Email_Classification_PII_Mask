@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Data Analytics Platform Concern\n\nThe investment data analytics platform unexpectedly crashed. This might have been due to a lack of resources or the software being out of date You can reach me at elena.ivanova@support.org.. Steps already taken include restarting the system and checking for updates My name is Fatima Al-Farsi.. Urgent help is needed to fix this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        330,
+        339
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        216,
+        241
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Investment Data Analytics Platform Concern\n\nThe investment data analytics platform unexpectedly crashed. This might have been due to a lack of resources or the software being out of date You can reach me at [email].. Steps already taken include restarting the system and checking for updates My name is [full_name]-Farsi.. Urgent help is needed to fix this problem.",
+  "category_of_the_email": "Incident"
+}

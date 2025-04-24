@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Encryption Malfunction Following Update\n\nThe security software experienced a malfunction during the update process You can reach me at elena.ivanova@support.org.. This might be due to outdated dependencies or incorrect configuration My name is John Doe.. Steps taken included restarting the systems, reviewing the logs, and confirming the settings.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        266,
+        274
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        157,
+        182
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Encryption Malfunction Following Update\n\nThe security software experienced a malfunction during the update process You can reach me at [email].. This might be due to outdated dependencies or incorrect configuration My name is [full_name].. Steps taken included restarting the systems, reviewing the logs, and confirming the settings.",
+  "category_of_the_email": "Incident"
+}

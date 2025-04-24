@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Information on Data Analytics Tools Compatible with Kubernetes\n\nGreetings from customer support. I hope this message finds you well My name is Jane Smith.. I am interested in learning about data analytics tools that can be used in conjunction with Kubernetes to optimize investments. Could you kindly share a list of tools that are compatible and their specific features? Additionally, I would greatly appreciate any advice on how to select the most suitable tool for my requirements. Your prompt response would be immensely helpful. I am looking forward to your valuable input and am available for a call whenever convenient for you. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        152,
+        162
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        665,
+        686
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Information on Data Analytics Tools Compatible with Kubernetes\n\nGreetings from customer support. I hope this message finds you well My name is [full_name].. I am interested in learning about data analytics tools that can be used in conjunction with Kubernetes to optimize investments. Could you kindly share a list of tools that are compatible and their specific features? Additionally, I would greatly appreciate any advice on how to select the most suitable tool for my requirements. Your prompt response would be immensely helpful. I am looking forward to your valuable input and am available for a call whenever convenient for you. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

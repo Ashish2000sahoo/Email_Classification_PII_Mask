@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Solicita\u00e7\u00e3o de assist\u00eancia urgente sobre falhas frequentes no sistema\n\nCaro Time de Suporte ao Cliente,\n\nEstou escrevendo para solicitar assist\u00eancia urgente em rela\u00e7\u00e3o a falhas frequentes no sistema ap\u00f3s a atualiza\u00e7\u00e3o recente do nosso Servi\u00e7o de Consultoria de TI You can reach me at omar.hassan@secure.net.. Desde a atualiza\u00e7\u00e3o, a estabilidade de nossos servidores foi comprometida, causando uma grande interrup\u00e7\u00e3o em nossas opera\u00e7\u00f5es My name is Liu Wei.. Acreditamos que h\u00e1 problemas de otimiza\u00e7\u00e3o que precisam ser resolvidos para evitar essas falhas.\n\nVoc\u00ea poderia, por favor, nos fornecer orienta\u00e7\u00f5es ou arranjar um especialista t\u00e9cnico para avaliar nossa configura\u00e7\u00e3o atual? Uma resolu\u00e7\u00e3o r\u00e1pida seria muito apreciada para restaurar nossa efici\u00eancia operacional.\n\nNossa equipe pode ser contatada a qualquer momento pelo <tel_num>.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto cr\u00edtico.\n\nAtenciosamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        456,
+        463
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        293,
+        315
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Solicita\u00e7\u00e3o de assist\u00eancia urgente sobre falhas frequentes no sistema\n\nCaro Time de Suporte ao Cliente,\n\nEstou escrevendo para solicitar assist\u00eancia urgente em rela\u00e7\u00e3o a falhas frequentes no sistema ap\u00f3s a atualiza\u00e7\u00e3o recente do nosso Servi\u00e7o de Consultoria de TI You can reach me at [email].. Desde a atualiza\u00e7\u00e3o, a estabilidade de nossos servidores foi comprometida, causando uma grande interrup\u00e7\u00e3o em nossas opera\u00e7\u00f5es My name is [full_name].. Acreditamos que h\u00e1 problemas de otimiza\u00e7\u00e3o que precisam ser resolvidos para evitar essas falhas.\n\nVoc\u00ea poderia, por favor, nos fornecer orienta\u00e7\u00f5es ou arranjar um especialista t\u00e9cnico para avaliar nossa configura\u00e7\u00e3o atual? Uma resolu\u00e7\u00e3o r\u00e1pida seria muito apreciada para restaurar nossa efici\u00eancia operacional.\n\nNossa equipe pode ser contatada a qualquer momento pelo <tel_num>.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto cr\u00edtico.\n\nAtenciosamente,\n<name>",
+  "category_of_the_email": "Change"
+}

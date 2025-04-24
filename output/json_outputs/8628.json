@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Problem with Adobe Effects 2021\n\nThe marketing team is facing software crashes while using Adobe Effects 2021 with OBS Studio 27. The issue might be due to compatibility problems or hardware limitations, possibly related to a gaming monitor You can reach me at liuwei@business.cn.. They have already tried updating the software, checking hardware settings, and reinstalling the programs, but the problem still persists. The team needs help to resolve this matter, as it is impacting their productivity My name is Elena Ivanova.. Could you please provide a guide on how to troubleshoot and resolve the issue?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        522,
+        535
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        270,
+        288
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        36,
+        40
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    },
+    {
+      "position": [
+        114,
+        118
+      ],
+      "classification": "phone_number",
+      "entity": "2021"
+    }
+  ],
+  "masked_email": "Subject: Problem with Adobe Effects [phone_number]\n\nThe marketing team is facing software crashes while using Adobe Effects [phone_number] with OBS Studio 27. The issue might be due to compatibility problems or hardware limitations, possibly related to a gaming monitor You can reach me at [email].. They have already tried updating the software, checking hardware settings, and reinstalling the programs, but the problem still persists. The team needs help to resolve this matter, as it is impacting their productivity My name is [full_name].. Could you please provide a guide on how to troubleshoot and resolve the issue?",
+  "category_of_the_email": "Incident"
+}

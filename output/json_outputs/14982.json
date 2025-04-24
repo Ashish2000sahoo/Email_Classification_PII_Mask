@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei Kenntnisserlangung zu Datenaufbereitungs-Tools\n\nSehr geehrte Kundenservice-Team, ich wende mich an Sie in Bezug auf die Erlernterkenntnisse \u00fcber Datenaufbereitungs-Tools, die die Erh\u00f6hung der Effizienz von Investitionsstrategien f\u00fcr Finanzunternehmen erm\u00f6glichen. K\u00f6nnten Sie mir bitte detaillierte Informationen zu diesem Bereich zur Verfugung stellen? Es w\u00e4re mir eine gro\u00dfe Hilfe, wenn Sie mir Empfehlungen oder Unterst\u00fctzung geben k\u00f6nnten. Insbesondere interessiere ich mich f\u00fcr Tools, die zur Portfoliooptimierung, Risikomanagement und Leistungsanalyse beitragen. Existieren spezifische Tools oder Software, die Sie mir besonders empfehlen w\u00fcrden? Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und zu erfahren, wie ich meine Investitionsstrategien verbessern kann My name is Omar Hassan.. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        813,
+        824
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        892,
+        913
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei Kenntnisserlangung zu Datenaufbereitungs-Tools\n\nSehr geehrte Kundenservice-Team, ich wende mich an Sie in Bezug auf die Erlernterkenntnisse \u00fcber Datenaufbereitungs-Tools, die die Erh\u00f6hung der Effizienz von Investitionsstrategien f\u00fcr Finanzunternehmen erm\u00f6glichen. K\u00f6nnten Sie mir bitte detaillierte Informationen zu diesem Bereich zur Verfugung stellen? Es w\u00e4re mir eine gro\u00dfe Hilfe, wenn Sie mir Empfehlungen oder Unterst\u00fctzung geben k\u00f6nnten. Insbesondere interessiere ich mich f\u00fcr Tools, die zur Portfoliooptimierung, Risikomanagement und Leistungsanalyse beitragen. Existieren spezifische Tools oder Software, die Sie mir besonders empfehlen w\u00fcrden? Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und zu erfahren, wie ich meine Investitionsstrategien verbessern kann My name is [full_name].. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Data Processing Tools Dashboards\n\nThe Data Processing Tools Dashboard is down. I have restarted the systems and looked for updates, but the issue persists My name is Maria Gonzalez.. I have also tested alternatives. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        186,
+        200
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        253,
+        275
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issue with Data Processing Tools Dashboards\n\nThe Data Processing Tools Dashboard is down. I have restarted the systems and looked for updates, but the issue persists My name is [full_name].. I have also tested alternatives. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

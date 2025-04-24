@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Expanding Digital Presence\n\nHello customer support, I am writing to seek advice on digital strategies that can enhance brand growth for our marketing agency My name is Maria Gonzalez.. We aim to broaden our online footprint and attract more clients. Could you offer some insights into the most efficient strategies? You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        191
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        342,
+        363
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Expanding Digital Presence\n\nHello customer support, I am writing to seek advice on digital strategies that can enhance brand growth for our marketing agency My name is [full_name].. We aim to broaden our online footprint and attract more clients. Could you offer some insights into the most efficient strategies? You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

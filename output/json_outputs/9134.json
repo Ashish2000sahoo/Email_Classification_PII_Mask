@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung der medizinischen Daten misslang\n\nDie Verschl\u00fcsselung der medizinischen Daten ist misslungen. Ung\u00fcltige Software-Updates k\u00f6nnten die Ursache sein.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        194,
+        209
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung der medizinischen Daten misslang\n\nDie Verschl\u00fcsselung der medizinischen Daten ist misslungen. Ung\u00fcltige Software-Updates k\u00f6nnten die Ursache sein.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

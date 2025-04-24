@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issues with the Website Reported Today\n\nThere are current issues with the Website that are affecting communication with customers. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        161,
+        177
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Issues with the Website Reported Today\n\nThere are current issues with the Website that are affecting communication with customers. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

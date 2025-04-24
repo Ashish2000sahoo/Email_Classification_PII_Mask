@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns Regarding Recent Marketing Campaign\n\nThe marketing team has noticed that the recent digital campaign did not generate the expected level of engagement. This may be due to inadequate targeting or an outdated content strategy You can reach me at elena.ivanova@support.org.. Adjustments have been made, including new ad placements and fresh content, but the results are still unsatisfactory My name is Liu Wei.. We are closely monitoring the situation and would appreciate your guidance to improve the campaign's performance. Could you please inform us of any additional steps we can take to enhance engagement and meet our marketing goals?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        417,
+        424
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        262,
+        287
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Concerns Regarding Recent Marketing Campaign\n\nThe marketing team has noticed that the recent digital campaign did not generate the expected level of engagement. This may be due to inadequate targeting or an outdated content strategy You can reach me at [email].. Adjustments have been made, including new ad placements and fresh content, but the results are still unsatisfactory My name is [full_name].. We are closely monitoring the situation and would appreciate your guidance to improve the campaign's performance. Could you please inform us of any additional steps we can take to enhance engagement and meet our marketing goals?",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with the Login Process\n\nWhat happened: This morning, the login unexpectedly failed My name is Carlos Mendoza.. Possible cause: Browser cache may have been outdated. Attempted: Cleared cache, restarted, yet unsuccessfully You can reach me at fatima.farsi@help.com.. Need support to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        112,
+        126
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        256,
+        277
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with the Login Process\n\nWhat happened: This morning, the login unexpectedly failed My name is [full_name].. Possible cause: Browser cache may have been outdated. Attempted: Cleared cache, restarted, yet unsuccessfully You can reach me at [email].. Need support to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nGuten Tag, ich ben\u00f6tige Hilfe bei der Aktivierung von Windows 11 Pro. Meine bisherigen Versuche waren nicht erfolgreich You can reach me at maria.gonzalez@shop.es.. Vielen Dank. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        208
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        151,
+        173
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: \n\nGuten Tag, ich ben\u00f6tige Hilfe bei der Aktivierung von Windows 11 Pro. Meine bisherigen Versuche waren nicht erfolgreich You can reach me at [email].. Vielen Dank. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

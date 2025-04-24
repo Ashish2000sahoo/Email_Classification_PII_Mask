@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investments Data Analytics Tool Failed Unexpectedly Today\n\nThe investments data analytics tool failed unexpectedly You can reach me at maria.gonzalez@shop.es.. Possible reasons include incompatible software updates. I have already restarted the system, updated the software, and turned off the antivirus, but the problem still occurs. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        355,
+        367
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        144,
+        166
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Investments Data Analytics Tool Failed Unexpectedly Today\n\nThe investments data analytics tool failed unexpectedly You can reach me at [email].. Possible reasons include incompatible software updates. I have already restarted the system, updated the software, and turned off the antivirus, but the problem still occurs. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

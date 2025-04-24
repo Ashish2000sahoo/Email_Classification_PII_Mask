@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kundendienstbetreuung\n\nSehr geehrte Kundendienstbetreuung, ich schreibe an dieser Stelle, um einen Fehler bei unserem sicheren Datentransfer-System zu melden My name is John Doe.. Die \u00dcbertragung wurde unerwartet unterbrochen, m\u00f6glicherweise aufgrund einer veralteten Softwarekompatibilit\u00e4t. Ich habe bereits versucht, die Systeme neu zu starten und Updates anzubringen, jedoch bleibt der Fehler bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten You can reach me at david.kim@corp.kr.. Sollte es zus\u00e4tzliche Informationen von mir geben, die Sie ben\u00f6tigen, um dieses Problem zu l\u00f6sen, lassen Sie es mich bitte wissen. Ich bin jederzeit bereit, weitere Details oder Erkl\u00e4rungen zu liefern, falls erforderlich. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung bei dieser Angelegenheit. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        186
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        564,
+        581
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Kundendienstbetreuung\n\nSehr geehrte Kundendienstbetreuung, ich schreibe an dieser Stelle, um einen Fehler bei unserem sicheren Datentransfer-System zu melden My name is [full_name].. Die \u00dcbertragung wurde unerwartet unterbrochen, m\u00f6glicherweise aufgrund einer veralteten Softwarekompatibilit\u00e4t. Ich habe bereits versucht, die Systeme neu zu starten und Updates anzubringen, jedoch bleibt der Fehler bestehen. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich mit diesem Problem befassen und so schnell wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten You can reach me at [email].. Sollte es zus\u00e4tzliche Informationen von mir geben, die Sie ben\u00f6tigen, um dieses Problem zu l\u00f6sen, lassen Sie es mich bitte wissen. Ich bin jederzeit bereit, weitere Details oder Erkl\u00e4rungen zu liefern, falls erforderlich. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung bei dieser Angelegenheit. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

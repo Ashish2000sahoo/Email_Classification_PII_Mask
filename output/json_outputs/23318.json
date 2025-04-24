@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringend: Ausfall der React-App st\u00f6rt den Workflow\n\nHallo IT Services Support-Team,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Wir haben derzeit erhebliche Ausfallprobleme mit unserer Webanwendungsoberfl\u00e4che, die unseren Workflow stark gest\u00f6rt haben. Das Problem scheint mit der JavaScript React-Bibliothek verbunden zu sein, da sie das Hauptframework f\u00fcr das betroffene Produkt, den JavaScript React App Development Service, ist. Diese St\u00f6rung beeintr\u00e4chtigt unsere F\u00e4higkeit, effizient zu arbeiten, und wir sind bestrebt, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.\n\nWir w\u00e4ren Ihnen sehr dankbar f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit You can reach me at elena.ivanova@support.org.. Wenn n\u00f6tig, k\u00f6nnen Sie mich gerne unter meinen Kontaktdaten - Telefon: <tel_num> oder \u00fcber meine Kontonummer <acc_num> f\u00fcr weitere technische Gespr\u00e4che oder L\u00f6sungen erreichen.\n\nVielen Dank f\u00fcr Ihre sofortige Unterst\u00fctzung bei der Behandlung dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1028,
+        1037
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        692,
+        717
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Dringend: Ausfall der React-App st\u00f6rt den Workflow\n\nHallo IT Services Support-Team,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Wir haben derzeit erhebliche Ausfallprobleme mit unserer Webanwendungsoberfl\u00e4che, die unseren Workflow stark gest\u00f6rt haben. Das Problem scheint mit der JavaScript React-Bibliothek verbunden zu sein, da sie das Hauptframework f\u00fcr das betroffene Produkt, den JavaScript React App Development Service, ist. Diese St\u00f6rung beeintr\u00e4chtigt unsere F\u00e4higkeit, effizient zu arbeiten, und wir sind bestrebt, dieses Problem so schnell wie m\u00f6glich zu l\u00f6sen.\n\nWir w\u00e4ren Ihnen sehr dankbar f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit You can reach me at [email].. Wenn n\u00f6tig, k\u00f6nnen Sie mich gerne unter meinen Kontaktdaten - Telefon: <tel_num> oder \u00fcber meine Kontonummer <acc_num> f\u00fcr weitere technische Gespr\u00e4che oder L\u00f6sungen erreichen.\n\nVielen Dank f\u00fcr Ihre sofortige Unterst\u00fctzung bei der Behandlung dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

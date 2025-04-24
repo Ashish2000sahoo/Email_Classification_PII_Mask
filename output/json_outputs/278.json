@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Regarding the Launch of Digital Marketing Campaigns\n\nDear Customer Support, I am contacting you to report an issue with our digital marketing campaigns. The campaigns have not been able to launch, and we believe that there may be technical issues with the integrations. Despite attempting to restart the systems and checking the connections, the problem continues. We would be grateful if you could investigate this and provide a resolution as quickly as possible. Please inform us if you require any further details from our side You can reach me at johndoe@email.com.. We are eagerly awaiting your response My name is Elena Ivanova.. Warm regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        637,
+        650
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        568,
+        585
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem Regarding the Launch of Digital Marketing Campaigns\n\nDear Customer Support, I am contacting you to report an issue with our digital marketing campaigns. The campaigns have not been able to launch, and we believe that there may be technical issues with the integrations. Despite attempting to restart the systems and checking the connections, the problem continues. We would be grateful if you could investigate this and provide a resolution as quickly as possible. Please inform us if you require any further details from our side You can reach me at [email].. We are eagerly awaiting your response My name is [full_name].. Warm regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

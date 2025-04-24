@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Investment Optimization Software\n\nThe investment optimization software is experiencing intermittent issues in accurately analyzing data My name is Omar Hassan.. This may be due to software integration problems or data input errors. Steps taken, such as rebooting systems and reloading data, have not resolved the issue You can reach me at janesmith@company.com.. This has led to delays in decision-making and potential financial losses. We kindly request your assistance in resolving this matter at your earliest convenience. Please provide us with any additional information or steps needed to troubleshoot.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        169,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        361,
+        382
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Optimization Software\n\nThe investment optimization software is experiencing intermittent issues in accurately analyzing data My name is [full_name].. This may be due to software integration problems or data input errors. Steps taken, such as rebooting systems and reloading data, have not resolved the issue You can reach me at [email].. This has led to delays in decision-making and potential financial losses. We kindly request your assistance in resolving this matter at your earliest convenience. Please provide us with any additional information or steps needed to troubleshoot.",
+  "category_of_the_email": "Incident"
+}

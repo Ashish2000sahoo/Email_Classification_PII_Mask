@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nWe are encountering connectivity problems with the SaaS project management tool on my iMac, which might be related to network instability with the Google Nest Wifi Router. After attempting to restart and clear the cache, the issues still persist.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        280,
+        295
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nWe are encountering connectivity problems with the SaaS project management tool on my iMac, which might be related to network instability with the Google Nest Wifi Router. After attempting to restart and clear the cache, the issues still persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

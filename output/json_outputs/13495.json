@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: unerwarteter Zugriff auf medizinische Daten wurde abgelehnt\n\nSehr geehrte Kundenservice-Abteilung, <br><br>Ich melde mir bez\u00fcglich eines Problemes mit der Zugangserlaubnis zu medizinischen Daten. Das Problem hat sich pl\u00f6tzlich eingestellt und ich bin nicht l\u00e4nger in der Lage, die notwendigen Informationen zu sehen. Ich habe das System neu gestartet und meine Berechtigungen \u00fcberpr\u00fcft, aber der Fehler ist weiterhin besteht. <br><br>M\u00f6gliche Ursachen k\u00f6nnten ein Softwarefehler oder eine Konfigurationsproblematik sein My name is Liu Wei.. Ich habe bereits einige Schritte zur Problembehebung unternommen, ben\u00f6tige jedoch zus\u00e4tzliche Unterst\u00fctzung, um das Problem zu l\u00f6sen. <br><br>Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit dringend k\u00fcmmern und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. <br><br>Vielen Dank f\u00fcr Ihre schnelle Anerkennung dieser Angelegenheit. Ich freue mich darauf, von Ihnen zu h\u00f6ren. <br><br>Mit freundlichen Gr\u00fc\u00dfen, <br>[Ihr Name] You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        540,
+        547
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        1116,
+        1133
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: unerwarteter Zugriff auf medizinische Daten wurde abgelehnt\n\nSehr geehrte Kundenservice-Abteilung, <br><br>Ich melde mir bez\u00fcglich eines Problemes mit der Zugangserlaubnis zu medizinischen Daten. Das Problem hat sich pl\u00f6tzlich eingestellt und ich bin nicht l\u00e4nger in der Lage, die notwendigen Informationen zu sehen. Ich habe das System neu gestartet und meine Berechtigungen \u00fcberpr\u00fcft, aber der Fehler ist weiterhin besteht. <br><br>M\u00f6gliche Ursachen k\u00f6nnten ein Softwarefehler oder eine Konfigurationsproblematik sein My name is [full_name].. Ich habe bereits einige Schritte zur Problembehebung unternommen, ben\u00f6tige jedoch zus\u00e4tzliche Unterst\u00fctzung, um das Problem zu l\u00f6sen. <br><br>Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich um diese Angelegenheit dringend k\u00fcmmern und so bald wie m\u00f6glich eine L\u00f6sung anbieten k\u00f6nnten. Bitte lassen Sie mich wissen, wenn Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu l\u00f6sen. <br><br>Vielen Dank f\u00fcr Ihre schnelle Anerkennung dieser Angelegenheit. Ich freue mich darauf, von Ihnen zu h\u00f6ren. <br><br>Mit freundlichen Gr\u00fc\u00dfen, <br>[Ihr Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

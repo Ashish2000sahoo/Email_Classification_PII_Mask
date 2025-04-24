@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Datenspeicherung in Krankenhaus-Systemen\n\nSehr geehrte Kundensupport, ich schreibe anlagenten einen Datenspeicherungsproblem in unserem Krankenhaus-System. Das Problem k\u00f6nnte m\u00f6glicherweise aufgrund einer veralteten SAP ERP-Software entstehen. Ich habe versucht, Cassandra 4.0 neu zu starten und meinen MacBook Pro zu \u00fcberpr\u00fcfen, aber das Problem besteht weiterhin You can reach me at maria.gonzalez@shop.es.. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich dieses Problem dringend annehmen und eine L\u00f6sung f\u00fcr weitere Datendurchbr\u00fcche anzubieten bereitstehen k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen von mir ben\u00f6tigen. Vielen Dank f\u00fcr Ihre schnelle Aktionierung der Sache. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        716,
+        726
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        394,
+        416
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Datenspeicherung in Krankenhaus-Systemen\n\nSehr geehrte Kundensupport, ich schreibe anlagenten einen Datenspeicherungsproblem in unserem Krankenhaus-System. Das Problem k\u00f6nnte m\u00f6glicherweise aufgrund einer veralteten SAP ERP-Software entstehen. Ich habe versucht, Cassandra 4.0 neu zu starten und meinen MacBook Pro zu \u00fcberpr\u00fcfen, aber das Problem besteht weiterhin You can reach me at [email].. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie sich dieses Problem dringend annehmen und eine L\u00f6sung f\u00fcr weitere Datendurchbr\u00fcche anzubieten bereitstehen k\u00f6nnten. Bitte informieren Sie mich, falls Sie weitere Informationen von mir ben\u00f6tigen. Vielen Dank f\u00fcr Ihre schnelle Aktionierung der Sache. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

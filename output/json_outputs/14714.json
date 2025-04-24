@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bericht \u00fcber Abweichung\n\nIch melde eine Abweichung in den investierten Daten an My name is Jane Smith.. Meine Datenanalyse-Dashboard zeigt falsche Portfolio-Werte an. Ich vermute, dass dies auf ein Softwareinkompatibilit\u00e4tsproblem zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich habe mein MacBook Air bereits neu gestartet und Malwarebytes aktualisiert, aber der Fehler beh\u00e4lt sich bestanden. Bitte nehmen Sie sich diese Angelegenheit vor und bereiten Sie eine L\u00f6sung vor. Lassen Sie mich wissen, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu kl\u00e4ren You can reach me at david.kim@corp.kr.. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung bald.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        100,
+        110
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        583,
+        600
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Bericht \u00fcber Abweichung\n\nIch melde eine Abweichung in den investierten Daten an My name is [full_name].. Meine Datenanalyse-Dashboard zeigt falsche Portfolio-Werte an. Ich vermute, dass dies auf ein Softwareinkompatibilit\u00e4tsproblem zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Ich habe mein MacBook Air bereits neu gestartet und Malwarebytes aktualisiert, aber der Fehler beh\u00e4lt sich bestanden. Bitte nehmen Sie sich diese Angelegenheit vor und bereiten Sie eine L\u00f6sung vor. Lassen Sie mich wissen, falls Sie zus\u00e4tzliche Informationen ben\u00f6tigen, um das Problem zu kl\u00e4ren You can reach me at [email].. Ich danke Ihnen f\u00fcr Ihre Unterst\u00fctzung und freue mich auf Ihre R\u00fcckmeldung bald.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enquiry on Security Protocols for Medical Data Storage\n\nI am contacting you to seek advice on the security measures that should be applied to the storage of sensitive medical data My name is Fatima Al-Farsi.. I am currently utilizing Zoho CRM and Avast Premium Security. Could you offer guidance on how to secure and ensure compliance with this sensitive information? You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        200,
+        209
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        399,
+        420
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Enquiry on Security Protocols for Medical Data Storage\n\nI am contacting you to seek advice on the security measures that should be applied to the storage of sensitive medical data My name is [full_name]-Farsi.. I am currently utilizing Zoho CRM and Avast Premium Security. Could you offer guidance on how to secure and ensure compliance with this sensitive information? You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

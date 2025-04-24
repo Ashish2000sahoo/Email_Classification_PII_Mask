@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr Datenanalyse\n\nHallo [name], danke f\u00fcr Ihren Brief \u00fcber unsere Datenanalyse-Dienstleistungen. Freuen wir uns, Ihnen zu erkl\u00e4ren, wie wir durch Expertise bei der Optimierung von Investitionen und dem Erh\u00f6hen von Gewinnen Unternehmen unterst\u00fctzen k\u00f6nnen My name is John Doe.. Unsere Dienstleistungen umfassen Datenanalyse, Berichterstattung und Entscheidungsunterst\u00fctzung. F\u00fcr eine personalisierte Diskussion bitte geben Sie uns mehr Informationen zu Ihren spezifischen Investitionszielen. Wir sind bereit, einen Anruf zu vereinbaren, um zu sehen, wie wir Ihnen helfen k\u00f6nnen You can reach me at omar.hassan@secure.net.. Bitte geben Sie uns den passenden Zeitpunkt und die Telefonnummer <tel_num> f\u00fcr den Anruf.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        623,
+        645
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr Datenanalyse\n\nHallo [name], danke f\u00fcr Ihren Brief \u00fcber unsere Datenanalyse-Dienstleistungen. Freuen wir uns, Ihnen zu erkl\u00e4ren, wie wir durch Expertise bei der Optimierung von Investitionen und dem Erh\u00f6hen von Gewinnen Unternehmen unterst\u00fctzen k\u00f6nnen My name is [full_name].. Unsere Dienstleistungen umfassen Datenanalyse, Berichterstattung und Entscheidungsunterst\u00fctzung. F\u00fcr eine personalisierte Diskussion bitte geben Sie uns mehr Informationen zu Ihren spezifischen Investitionszielen. Wir sind bereit, einen Anruf zu vereinbaren, um zu sehen, wie wir Ihnen helfen k\u00f6nnen You can reach me at [email].. Bitte geben Sie uns den passenden Zeitpunkt und die Telefonnummer <tel_num> f\u00fcr den Anruf.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage nach Umsetzungsdetails f\u00fcr PyTorch\n\nK\u00f6nnten Sie weitere Details zur Integration von PyTorch in unsere Projektmanagement-Cloud bereitstellen? Diese Informationen helfen mir, den Benutzungsprozess besser zu verstehen My name is Carlos Mendoza.. Ich freue mich, wenn Sie Ressourcen und Anleitungen zur Verf\u00fcgung stellen k\u00f6nnten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at liuwei@business.cn.. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        395,
+        413
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Anfrage nach Umsetzungsdetails f\u00fcr PyTorch\n\nK\u00f6nnten Sie weitere Details zur Integration von PyTorch in unsere Projektmanagement-Cloud bereitstellen? Diese Informationen helfen mir, den Benutzungsprozess besser zu verstehen My name is [full_name].. Ich freue mich, wenn Sie Ressourcen und Anleitungen zur Verf\u00fcgung stellen k\u00f6nnten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung You can reach me at [email].. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

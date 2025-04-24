@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with User Interface Freezing\n\nThe user interface is freezing unexpectedly My name is Jane Smith.. This could be a result of insufficient browser resources. Despite clearing the cache and restarting the browser, the issue still persists. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        102,
+        112
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        275,
+        292
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with User Interface Freezing\n\nThe user interface is freezing unexpectedly My name is [full_name].. This could be a result of insufficient browser resources. Despite clearing the cache and restarting the browser, the issue still persists. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Data analytics dashboard is not loading today\n\nHello support team, the data analytics dashboard is not loading now. I believe it could be because of an outdated Node.js version. Despite restarting the server and updating the Airtable plugin, the issue still exists My name is Jane Smith.. I would be grateful if you could assist in fixing this as soon as possible. Please advise on how to update Node.js or suggest any other solutions. Thank you for your assistance. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        295
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        497,
+        515
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Data analytics dashboard is not loading today\n\nHello support team, the data analytics dashboard is not loading now. I believe it could be because of an outdated Node.js version. Despite restarting the server and updating the Airtable plugin, the issue still exists My name is [full_name].. I would be grateful if you could assist in fixing this as soon as possible. Please advise on how to update Node.js or suggest any other solutions. Thank you for your assistance. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

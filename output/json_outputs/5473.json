@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Information on JIRA Analytics Tools Integration\n\nHello Customer Support, I am writing to seek information on analytics tools that are compatible with JIRA for investment optimization. I would like to receive a list of these tools along with their features My name is Elena Ivanova.. Your assistance in guiding me on how to select the most suitable tool would be greatly appreciated. Thanks for your time and help. I await your response soon. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        288,
+        301
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        481,
+        503
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Request for Information on JIRA Analytics Tools Integration\n\nHello Customer Support, I am writing to seek information on analytics tools that are compatible with JIRA for investment optimization. I would like to receive a list of these tools along with their features My name is [full_name].. Your assistance in guiding me on how to select the most suitable tool would be greatly appreciated. Thanks for your time and help. I await your response soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

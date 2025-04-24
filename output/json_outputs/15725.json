@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage zur Folgestrategie f\u00fcr Markenerweiterung\n\nIch w\u00fcrde gerne mehr Details \u00fcber digitale Strategien f\u00fcr Markenerweiterung erfahren My name is John Doe.. Ich bin sehr interessiert, mehr \u00fcber die M\u00f6glichkeiten zu erfahren, wie Sie meine Firma unterst\u00fctzen k\u00f6nnen. Vielen Dank! You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        155,
+        163
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        311,
+        328
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Anfrage zur Folgestrategie f\u00fcr Markenerweiterung\n\nIch w\u00fcrde gerne mehr Details \u00fcber digitale Strategien f\u00fcr Markenerweiterung erfahren My name is [full_name].. Ich bin sehr interessiert, mehr \u00fcber die M\u00f6glichkeiten zu erfahren, wie Sie meine Firma unterst\u00fctzen k\u00f6nnen. Vielen Dank! You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

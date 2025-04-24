@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unforeseen Service Interruption Impacts Several Vital Applications\n\nAn unexpected service interruption took place, impacting various applications You can reach me at elena.ivanova@support.org.. This could be due to recent software updates or network problems. Steps taken to address this include restarting the applications and verifying network settings. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        376,
+        389
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        175,
+        200
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Unforeseen Service Interruption Impacts Several Vital Applications\n\nAn unexpected service interruption took place, impacting various applications You can reach me at [email].. This could be due to recent software updates or network problems. Steps taken to address this include restarting the applications and verifying network settings. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

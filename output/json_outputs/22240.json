@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Abrechnungsanfrage Unterst\u00fctzung\n\nHallo Tech Online Store Support Team,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich habe k\u00fcrzlich eine unerwartete Belastung im Zusammenhang mit einem Microsoft Office 365-Abonnement auf meinem Konto <acc_num> bemerkt. Ich kann mich nicht erinnern, diese Transaktion autorisiert zu haben, und bitte um weitere Kl\u00e4rung bez\u00fcglich dieser Abweichung bei der Abrechnung You can reach me at maria.gonzalez@shop.es.. K\u00f6nnten Sie bitte zus\u00e4tzliche Informationen bereitstellen und m\u00f6gliche L\u00f6sungsm\u00f6glichkeiten pr\u00fcfen?\n\nVielen Dank f\u00fcr Ihre z\u00fcgige Aufmerksamkeit zu diesem Thema. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<email>\n<tel_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        724,
+        733
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        433,
+        455
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        216,
+        219
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Abrechnungsanfrage Unterst\u00fctzung\n\nHallo Tech Online Store Support Team,\n\nIch hoffe, diese Nachricht erreicht Sie wohl. Ich habe k\u00fcrzlich eine unerwartete Belastung im Zusammenhang mit einem Microsoft Office [cvv_no]-Abonnement auf meinem Konto <acc_num> bemerkt. Ich kann mich nicht erinnern, diese Transaktion autorisiert zu haben, und bitte um weitere Kl\u00e4rung bez\u00fcglich dieser Abweichung bei der Abrechnung You can reach me at [email].. K\u00f6nnten Sie bitte zus\u00e4tzliche Informationen bereitstellen und m\u00f6gliche L\u00f6sungsm\u00f6glichkeiten pr\u00fcfen?\n\nVielen Dank f\u00fcr Ihre z\u00fcgige Aufmerksamkeit zu diesem Thema. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<email>\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

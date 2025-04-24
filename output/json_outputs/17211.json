@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, bitte melden Sie Leistungsprobleme in der Projektmanagement-Software-as-a-Service-Plattform. Das Problem behindert die Zusammenarbeit innerhalb der Teams, erh\u00f6ht die Benutzerbelastung und kann auf Probleme mit drittanwendungen zur\u00fcckgef\u00fchrt werden. Trotz verschiedener Bem\u00fchungen, das Problem zu beheben, wie den Browser-Cache leeren, das Anpassen der Benutzerrechte und das \u00dcberpr\u00fcfen der Systemprotokolle, besteht das Problem weiterhin You can reach me at carlosm@gmail.com.. Ich sch\u00e4tze Ihre schnelle Untersuchung und sch\u00e4tze es, wenn Sie bald eine m\u00f6gliche L\u00f6sung anbieten k\u00f6nnten. Lassen Sie uns wissen, falls weitere Informationen ben\u00f6tigt werden, um den Problembehandlungsprozess zu erleichtern. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        748,
+        762
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        492,
+        509
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, bitte melden Sie Leistungsprobleme in der Projektmanagement-Software-as-a-Service-Plattform. Das Problem behindert die Zusammenarbeit innerhalb der Teams, erh\u00f6ht die Benutzerbelastung und kann auf Probleme mit drittanwendungen zur\u00fcckgef\u00fchrt werden. Trotz verschiedener Bem\u00fchungen, das Problem zu beheben, wie den Browser-Cache leeren, das Anpassen der Benutzerrechte und das \u00dcberpr\u00fcfen der Systemprotokolle, besteht das Problem weiterhin You can reach me at [email].. Ich sch\u00e4tze Ihre schnelle Untersuchung und sch\u00e4tze es, wenn Sie bald eine m\u00f6gliche L\u00f6sung anbieten k\u00f6nnten. Lassen Sie uns wissen, falls weitere Informationen ben\u00f6tigt werden, um den Problembehandlungsprozess zu erleichtern. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

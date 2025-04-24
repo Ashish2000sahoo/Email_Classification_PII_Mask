@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung ben\u00f6tigt\n\nDie Kampagnendaten verschwanden pl\u00f6tzlich due zu einem SQL Server-Integration-Fehler. Hatte ich den MacBook Air neu gestartet und die AWS-Backup-Dateien \u00fcberpr\u00fcft.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        219,
+        235
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung ben\u00f6tigt\n\nDie Kampagnendaten verschwanden pl\u00f6tzlich due zu einem SQL Server-Integration-Fehler. Hatte ich den MacBook Air neu gestartet und die AWS-Backup-Dateien \u00fcberpr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

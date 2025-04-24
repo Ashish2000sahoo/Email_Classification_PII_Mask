@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request Regarding Potential Breach of Privacy\n\nA privacy breach has been reported. There might be sensitive medical data involved due to outdated security protocols. Antivirus software has been checked for access patterns, but vulnerabilities still exist My name is Jane Smith.. Immediate assistance is required to secure the system and protect sensitive data. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        285
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        391,
+        408
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Request Regarding Potential Breach of Privacy\n\nA privacy breach has been reported. There might be sensitive medical data involved due to outdated security protocols. Antivirus software has been checked for access patterns, but vulnerabilities still exist My name is [full_name].. Immediate assistance is required to secure the system and protect sensitive data. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Erkannt unvorhergesehene Unterschiede in Investitionsprognosen\n\nUnvorhergesehene Unterschiede in den Prognosen wurden identifiziert You can reach me at maria.gonzalez@shop.es.. Eine E-Mail wurde angenommen, um mehr Informationen zu sammeln und die Angelegenheit besser zu verstehen. Bitte geben Sie den spezifischen Datumsbereich der betroffenen Prognosen an, damit ich die Unterschiede genauer untersuchen kann My name is Elena Ivanova.. Wenn weitere Informationen erforderlich sind, k\u00f6nnte ein telefonischer Kontakt hilfreich sein. Ein Anruf w\u00e4re f\u00fcr mich zeitlich angemessen, wenn Sie dies bequem finden.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        432,
+        445
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        161,
+        183
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Erkannt unvorhergesehene Unterschiede in Investitionsprognosen\n\nUnvorhergesehene Unterschiede in den Prognosen wurden identifiziert You can reach me at [email].. Eine E-Mail wurde angenommen, um mehr Informationen zu sammeln und die Angelegenheit besser zu verstehen. Bitte geben Sie den spezifischen Datumsbereich der betroffenen Prognosen an, damit ich die Unterschiede genauer untersuchen kann My name is [full_name].. Wenn weitere Informationen erforderlich sind, k\u00f6nnte ein telefonischer Kontakt hilfreich sein. Ein Anruf w\u00e4re f\u00fcr mich zeitlich angemessen, wenn Sie dies bequem finden.",
+  "category_of_the_email": "Incident"
+}

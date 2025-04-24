@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Frequentes atolamentos de papel com a impressora\n\nCaro Suporte ao Cliente,\n\nEstou enfrentando frequentes atolamentos de papel com minha impressora HP DeskJet 3755 tudo-em-um sem fio, especificamente ao usar a fun\u00e7\u00e3o de c\u00f3pia. Esse problema persiste h\u00e1 v\u00e1rias semanas e prejudica consideravelmente a produtividade. Tentei etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como recarregar papel e limpar os rolos, mas o problema persiste My name is Carlos Mendoza.. A impressora afetada foi comprada h\u00e1 tr\u00eas meses e ainda est\u00e1 sob garantia You can reach me at maria.gonzalez@shop.es.. Por favor, forne\u00e7a orienta\u00e7\u00e3o sobre como resolver esse problema ou me avise sobre o procedimento para iniciar um pedido de servi\u00e7o.\n\nObrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        446,
+        460
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        554,
+        576
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        167,
+        171
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Frequentes atolamentos de papel com a impressora\n\nCaro Suporte ao Cliente,\n\nEstou enfrentando frequentes atolamentos de papel com minha impressora HP DeskJet [phone_number] tudo-em-um sem fio, especificamente ao usar a fun\u00e7\u00e3o de c\u00f3pia. Esse problema persiste h\u00e1 v\u00e1rias semanas e prejudica consideravelmente a produtividade. Tentei etapas b\u00e1sicas de solu\u00e7\u00e3o de problemas, como recarregar papel e limpar os rolos, mas o problema persiste My name is [full_name].. A impressora afetada foi comprada h\u00e1 tr\u00eas meses e ainda est\u00e1 sob garantia You can reach me at [email].. Por favor, forne\u00e7a orienta\u00e7\u00e3o sobre como resolver esse problema ou me avise sobre o procedimento para iniciar um pedido de servi\u00e7o.\n\nObrigado pela sua assist\u00eancia.\n\nAtenciosamente,\n\n<name>",
+  "category_of_the_email": "Problem"
+}

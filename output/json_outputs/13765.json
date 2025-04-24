@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unkonstistente Projektplanungsaktualisierungen und m\u00f6gliche Synchronisationsprobleme\n\nDie Planungsaktualisierungen sind unkonstistent. Ich habe versucht, den Rechner neu zu starten und die Einstellungen zu \u00fcberpr\u00fcfen.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        249,
+        264
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unkonstistente Projektplanungsaktualisierungen und m\u00f6gliche Synchronisationsprobleme\n\nDie Planungsaktualisierungen sind unkonstistent. Ich habe versucht, den Rechner neu zu starten und die Einstellungen zu \u00fcberpr\u00fcfen.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

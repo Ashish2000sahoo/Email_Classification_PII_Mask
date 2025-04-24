@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query for Data Analytics Services\n\nSeeking information on data analytics services for investment optimization You can reach me at janesmith@company.com.. Interested in learning about the services that can help make informed investment decisions My name is Carlos Mendoza.. Would appreciate detailed information, including case studies and testimonials from previous clients. Thank you for your assistance, and I look forward to hearing back soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        265,
+        279
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        139,
+        160
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Query for Data Analytics Services\n\nSeeking information on data analytics services for investment optimization You can reach me at [email].. Interested in learning about the services that can help make informed investment decisions My name is [full_name].. Would appreciate detailed information, including case studies and testimonials from previous clients. Thank you for your assistance, and I look forward to hearing back soon.",
+  "category_of_the_email": "Request"
+}

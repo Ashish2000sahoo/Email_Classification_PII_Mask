@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Expert Assistance\n\nGreetings Support Team,\n\nI require specialized support regarding software development and server management through your IT Consulting Services You can reach me at sophia.rossi@service.it.. I would be grateful for any expert recommendations that might enhance our current system. Please contact me at your earliest convenience.\n\nThank you,\n<name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        398,
+        412
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        204,
+        227
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Expert Assistance\n\nGreetings Support Team,\n\nI require specialized support regarding software development and server management through your IT Consulting Services You can reach me at [email].. I would be grateful for any expert recommendations that might enhance our current system. Please contact me at your earliest convenience.\n\nThank you,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

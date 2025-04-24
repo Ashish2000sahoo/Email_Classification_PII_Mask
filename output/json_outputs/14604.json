@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Multiple Integrations Linked to Server Overload\n\nHello Customer Support,\\n\\nI am contacting you to report that multiple integrations have failed at the same time. This issue began when our servers became overloaded, leading to synchronization problems among different services. Consequently, several integrations have ceased to function properly, and we are unable to exchange data.\\n\\nWe attempted to resolve the issue by restarting the services, examining the logs for error messages, and verifying the configurations to make sure everything is correctly set up My name is John Doe.. Unfortunately, these steps did not solve the problem, and we continue to encounter difficulties with the integrations.\\n\\nI would be very grateful if you could investigate this situation and provide a solution as soon as possible. Please let me know if you require any more information from me to address this issue. I am ready to provide any necessary details or answer any questions you might have.\\n\\nThank you for your swift action in this matter. I look forward to your prompt response.\\n\\nBest regards,\\n[Your Name] You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        598,
+        606
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        1154,
+        1176
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Problems with Multiple Integrations Linked to Server Overload\n\nHello Customer Support,\\n\\nI am contacting you to report that multiple integrations have failed at the same time. This issue began when our servers became overloaded, leading to synchronization problems among different services. Consequently, several integrations have ceased to function properly, and we are unable to exchange data.\\n\\nWe attempted to resolve the issue by restarting the services, examining the logs for error messages, and verifying the configurations to make sure everything is correctly set up My name is [full_name].. Unfortunately, these steps did not solve the problem, and we continue to encounter difficulties with the integrations.\\n\\nI would be very grateful if you could investigate this situation and provide a solution as soon as possible. Please let me know if you require any more information from me to address this issue. I am ready to provide any necessary details or answer any questions you might have.\\n\\nThank you for your swift action in this matter. I look forward to your prompt response.\\n\\nBest regards,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

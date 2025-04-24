@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Attention Required for Digital Marketing Campaign Invoices\n\nWe are writing to draw your immediate attention to a critical issue regarding recent discrepancies in our digital marketing campaign invoices. Our team has recently discovered inconsistencies that significantly impact our operational processes, despite our best efforts in manually reconciling the bills My name is Omar Hassan.. We have reached out to the customer support team for assistance, but the issues persist You can reach me at maria.gonzalez@shop.es.. We suspect that synchronization problems between our accounting software and payment gateways might be the cause of these discrepancies. We value your prompt attention and believe it is crucial to investigate this matter swiftly to restore the correct functioning of our campaigns. Please provide us with any additional details or insights that could help in resolving this issue. We look forward to your prompt response and are available at <tel_num> for further discussions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        391,
+        402
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        513,
+        535
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Urgent Attention Required for Digital Marketing Campaign Invoices\n\nWe are writing to draw your immediate attention to a critical issue regarding recent discrepancies in our digital marketing campaign invoices. Our team has recently discovered inconsistencies that significantly impact our operational processes, despite our best efforts in manually reconciling the bills My name is [full_name].. We have reached out to the customer support team for assistance, but the issues persist You can reach me at [email].. We suspect that synchronization problems between our accounting software and payment gateways might be the cause of these discrepancies. We value your prompt attention and believe it is crucial to investigate this matter swiftly to restore the correct functioning of our campaigns. Please provide us with any additional details or insights that could help in resolving this issue. We look forward to your prompt response and are available at <tel_num> for further discussions.",
+  "category_of_the_email": "Incident"
+}

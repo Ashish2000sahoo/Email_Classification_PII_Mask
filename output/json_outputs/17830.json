@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Improving Project View for a Superior User Experience\n\nI am reaching out to request the addition of advanced filtering options to the project view My name is Jane Smith.. This enhancement would significantly improve the user experience by allowing users to customize task visibility based on specific criteria such as deadline, priority, and assignee You can reach me at carlosm@gmail.com.. With advanced filtering, users can swiftly identify and focus on high-priority tasks, which would boost productivity and efficiency. I believe this feature would be greatly appreciated and could be beneficial for all users if implemented.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        381,
+        398
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Improving Project View for a Superior User Experience\n\nI am reaching out to request the addition of advanced filtering options to the project view My name is [full_name].. This enhancement would significantly improve the user experience by allowing users to customize task visibility based on specific criteria such as deadline, priority, and assignee You can reach me at [email].. With advanced filtering, users can swiftly identify and focus on high-priority tasks, which would boost productivity and efficiency. I believe this feature would be greatly appreciated and could be beneficial for all users if implemented.",
+  "category_of_the_email": "Change"
+}

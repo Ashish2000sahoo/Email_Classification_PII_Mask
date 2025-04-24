@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, <br><br>Our marketing agency is facing intermittent access problems with various digital tools, which may be due to network instability or software conflicts You can reach me at janesmith@company.com.. We have already tried resetting network configurations and updating the affected software, but the issues still persist My name is Jane Smith.. These problems are causing disruptions to our operations. We kindly request your assistance in resolving this matter. Could you please provide guidance on how to troubleshoot and offer a solution to stabilize access?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        362,
+        372
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        207,
+        228
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, <br><br>Our marketing agency is facing intermittent access problems with various digital tools, which may be due to network instability or software conflicts You can reach me at [email].. We have already tried resetting network configurations and updating the affected software, but the issues still persist My name is [full_name].. These problems are causing disruptions to our operations. We kindly request your assistance in resolving this matter. Could you please provide guidance on how to troubleshoot and offer a solution to stabilize access?",
+  "category_of_the_email": "Incident"
+}

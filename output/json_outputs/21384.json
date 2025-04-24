@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nSaludos al equipo de Atenci\u00f3n al Cliente,\n\nAdquir\u00ed recientemente un Apple Watch Series 7 GPS en su sitio web, y lamentablemente, la pantalla parece estar da\u00f1ada. \u00bfPodr\u00edan ayudarme con el procedimiento para realizar una devoluci\u00f3n o un intercambio? Mi n\u00famero de pedido es <order_num>.\n\nAgradecido,\n<name>\n<tel_num>. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        347,
+        364
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: \n\nSaludos al equipo de Atenci\u00f3n al Cliente,\n\nAdquir\u00ed recientemente un Apple Watch Series 7 GPS en su sitio web, y lamentablemente, la pantalla parece estar da\u00f1ada. \u00bfPodr\u00edan ayudarme con el procedimiento para realizar una devoluci\u00f3n o un intercambio? Mi n\u00famero de pedido es <order_num>.\n\nAgradecido,\n<name>\n<tel_num>. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

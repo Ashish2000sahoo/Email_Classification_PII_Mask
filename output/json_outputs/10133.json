@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Data Analytics Tool Issues\n\nI encountered problems with my data analytics tools and suspect software conflicts as the cause. Despite restarting and updating the systems, the issue remains unresolved My name is Carlos Mendoza.. I seek your assistance to address this You can reach me at sophia.rossi@service.it.. Please inform me of any further steps I should take or any additional information you require. I am eager to hear from you soon.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        239,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        312,
+        335
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Analytics Tool Issues\n\nI encountered problems with my data analytics tools and suspect software conflicts as the cause. Despite restarting and updating the systems, the issue remains unresolved My name is [full_name].. I seek your assistance to address this You can reach me at [email].. Please inform me of any further steps I should take or any additional information you require. I am eager to hear from you soon.",
+  "category_of_the_email": "Incident"
+}

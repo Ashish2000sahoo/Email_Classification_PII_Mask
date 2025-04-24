@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Identifying Issues with Campaign Engagement\n\nCustomer Support, <br>Our campaign metrics for Lynda.com Spiegellose Kamera indicate a notable drop in engagement. <br>Potential causes may include recent algorithm changes or ineffective targeting strategies. <br>We have made adjustments to ad spend and audience demographics, which have shown some improvement My name is Maria Gonzalez.. <br>We would greatly appreciate your assistance in identifying the root cause of the issue and providing guidance to optimize our campaigns for better performance You can reach me at omar.hassan@secure.net.. <br>Please let us know if you need any additional information.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        377,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        574,
+        596
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Identifying Issues with Campaign Engagement\n\nCustomer Support, <br>Our campaign metrics for Lynda.com Spiegellose Kamera indicate a notable drop in engagement. <br>Potential causes may include recent algorithm changes or ineffective targeting strategies. <br>We have made adjustments to ad spend and audience demographics, which have shown some improvement My name is [full_name].. <br>We would greatly appreciate your assistance in identifying the root cause of the issue and providing guidance to optimize our campaigns for better performance You can reach me at [email].. <br>Please let us know if you need any additional information.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme throughout mehreren Ger\u00e4ten bei der Anmeldung\n\nNutzer haben Schwierigkeiten bei der Anmeldung My name is Maria Gonzalez.. Es scheint, dass das Problem durch die neuesten Server-Aktualisierungen verursacht wird You can reach me at carlosm@gmail.com.. L\u00f6schen des Passworts und des Cache k\u00f6nnte das Problem beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        123,
+        137
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        245,
+        262
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme throughout mehreren Ger\u00e4ten bei der Anmeldung\n\nNutzer haben Schwierigkeiten bei der Anmeldung My name is [full_name].. Es scheint, dass das Problem durch die neuesten Server-Aktualisierungen verursacht wird You can reach me at [email].. L\u00f6schen des Passworts und des Cache k\u00f6nnte das Problem beheben.",
+  "category_of_the_email": "Incident"
+}

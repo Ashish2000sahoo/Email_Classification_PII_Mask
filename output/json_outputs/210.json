@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Project Management Application\n\nFacing problems with the project management tool. An error arose when trying to integrate with different software products, which has impacted the functionality. I suspect the issue is due to compatibility problems between the software versions and operating systems You can reach me at janesmith@company.com.. Despite updating drivers and reinstalling applications, the problem continues My name is Maria Gonzalez.. I would greatly appreciate your assistance in resolving this matter, as it is affecting my work. Please let me know if you need additional information or if scheduling a call at <tel_num> would be convenient to discuss known solutions and potential fixes.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        454,
+        468
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        341,
+        362
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Project Management Application\n\nFacing problems with the project management tool. An error arose when trying to integrate with different software products, which has impacted the functionality. I suspect the issue is due to compatibility problems between the software versions and operating systems You can reach me at [email].. Despite updating drivers and reinstalling applications, the problem continues My name is [full_name].. I would greatly appreciate your assistance in resolving this matter, as it is affecting my work. Please let me know if you need additional information or if scheduling a call at <tel_num> would be convenient to discuss known solutions and potential fixes.",
+  "category_of_the_email": "Incident"
+}

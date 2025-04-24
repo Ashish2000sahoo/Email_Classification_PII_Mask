@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Strengthen Encryption for Medical Data\n\nHello Customer Support, I am contacting you to emphasize the necessity of adopting stronger encryption methods for storing and transmitting medical data throughout all hospital IT systems and devices. This is crucial to maintain the privacy, security, and accessibility of valuable patient data. As cyber threats are becoming more prevalent, it is imperative that we take proactive measures to safeguard this information My name is Carlos Mendoza.. Could you please expedite the process of implementing full encryption for all medical data, both during transmission and when stored? This should cover all devices, such as laptops, tablets, and smartphones, as well as all network data transfers. Kindly inform me about the actions you will take and a timeline for this implementation. Thank you for your prompt attention to this vital issue. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        489,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        916,
+        941
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Strengthen Encryption for Medical Data\n\nHello Customer Support, I am contacting you to emphasize the necessity of adopting stronger encryption methods for storing and transmitting medical data throughout all hospital IT systems and devices. This is crucial to maintain the privacy, security, and accessibility of valuable patient data. As cyber threats are becoming more prevalent, it is imperative that we take proactive measures to safeguard this information My name is [full_name].. Could you please expedite the process of implementing full encryption for all medical data, both during transmission and when stored? This should cover all devices, such as laptops, tablets, and smartphones, as well as all network data transfers. Kindly inform me about the actions you will take and a timeline for this implementation. Thank you for your prompt attention to this vital issue. You can reach me at [email].",
+  "category_of_the_email": "Change"
+}

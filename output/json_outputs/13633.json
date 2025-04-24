@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reporting of Medical Data Leak\n\nHello Customer Support, \\n\\nI am contacting you to report a recent medical data leak that we have identified in our system. This leak resulted from cloud permissions being improperly configured, leading to unauthorized access to confidential patient information My name is Maria Gonzalez.. \\n\\nWe have attempted to address the issue by restarting our VPN-Router and reviewing our firewall settings, but the problem continues to persist You can reach me at omar.hassan@secure.net.. \\n\\nWe would greatly appreciate your assistance in resolving this situation as soon as possible. \\n\\nBest regards, \\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        494,
+        516
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Reporting of Medical Data Leak\n\nHello Customer Support, \\n\\nI am contacting you to report a recent medical data leak that we have identified in our system. This leak resulted from cloud permissions being improperly configured, leading to unauthorized access to confidential patient information My name is [full_name].. \\n\\nWe have attempted to address the issue by restarting our VPN-Router and reviewing our firewall settings, but the problem continues to persist You can reach me at [email].. \\n\\nWe would greatly appreciate your assistance in resolving this situation as soon as possible. \\n\\nBest regards, \\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

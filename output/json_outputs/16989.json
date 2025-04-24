@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Compromised Medical Data Security in Recent Hospital Systems\n\nCustomer Support, recently, there was a compromise in medical data security within hospital systems You can reach me at fatima.farsi@help.com.. This might have occurred due to weak access controls and outdated software. So far, we have updated our security protocols and conducted initial audits, but the results show only minimal improvement My name is Carlos Mendoza.. I am writing to request your assistance in identifying the root cause of the issue and implementing a robust security solution to protect sensitive patient information. I would greatly appreciate your guidance and support in resolving this matter as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        425,
+        439
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        191,
+        212
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Compromised Medical Data Security in Recent Hospital Systems\n\nCustomer Support, recently, there was a compromise in medical data security within hospital systems You can reach me at [email].. This might have occurred due to weak access controls and outdated software. So far, we have updated our security protocols and conducted initial audits, but the results show only minimal improvement My name is [full_name].. I am writing to request your assistance in identifying the root cause of the issue and implementing a robust security solution to protect sensitive patient information. I would greatly appreciate your guidance and support in resolving this matter as soon as possible.",
+  "category_of_the_email": "Incident"
+}

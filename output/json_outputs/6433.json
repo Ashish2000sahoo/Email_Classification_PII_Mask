@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Reported Issue of Software Crashes\n\nHello Customer Support, I am contacting you to report a recurring issue with software crashes that are happening simultaneously. It might be due to compatibility issues. Despite my efforts to resolve it by restarting, updating, and reinstalling the software, the problem still exists. I would greatly appreciate your help in investigating this and providing a resolution at the earliest. These crashes are significantly affecting my work and I am keen to resolve this issue You can reach me at fatima.farsi@help.com.. Please inform me if you need any additional information from me to assist with the troubleshooting. Thank you for your time and assistance in this matter. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        729,
+        739
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        539,
+        560
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Reported Issue of Software Crashes\n\nHello Customer Support, I am contacting you to report a recurring issue with software crashes that are happening simultaneously. It might be due to compatibility issues. Despite my efforts to resolve it by restarting, updating, and reinstalling the software, the problem still exists. I would greatly appreciate your help in investigating this and providing a resolution at the earliest. These crashes are significantly affecting my work and I am keen to resolve this issue You can reach me at [email].. Please inform me if you need any additional information from me to assist with the troubleshooting. Thank you for your time and assistance in this matter. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

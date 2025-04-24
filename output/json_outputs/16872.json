@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme bei der Synchronisierung der Projektterminplanungen\n\nDie Projektterminplanungen synchronisieren sich nicht \u00fcber verschiedene Ger\u00e4te You can reach me at liuwei@business.cn.. Uneinheitliche API-Integrationen mit JIRA k\u00f6nnten die Ursache sein. Ich habe bereits versucht, meinen Mac Mini zu neustarten und die WLAN-Verbindung zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich hartn\u00e4ckig bei My name is John Doe.. Ich w\u00fcrde mich freuen, wenn Sie mir bei der L\u00f6sung dieses Problems behilflich sein k\u00f6nnten.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        410,
+        418
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        170,
+        188
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Probleme bei der Synchronisierung der Projektterminplanungen\n\nDie Projektterminplanungen synchronisieren sich nicht \u00fcber verschiedene Ger\u00e4te You can reach me at [email].. Uneinheitliche API-Integrationen mit JIRA k\u00f6nnten die Ursache sein. Ich habe bereits versucht, meinen Mac Mini zu neustarten und die WLAN-Verbindung zu \u00fcberpr\u00fcfen, aber das Problem beh\u00e4lt sich hartn\u00e4ckig bei My name is [full_name].. Ich w\u00fcrde mich freuen, wenn Sie mir bei der L\u00f6sung dieses Problems behilflich sein k\u00f6nnten.",
+  "category_of_the_email": "Incident"
+}

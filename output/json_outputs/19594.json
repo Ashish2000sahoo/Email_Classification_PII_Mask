@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Das Datenaufbereitungsdashboard l\u00e4dt nicht\n\nUnbeabsichtigte Software-\u00e4nderungen k\u00f6nnten m\u00f6glicherweise das Problem verursacht haben. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        178
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Das Datenaufbereitungsdashboard l\u00e4dt nicht\n\nUnbeabsichtigte Software-\u00e4nderungen k\u00f6nnten m\u00f6glicherweise das Problem verursacht haben. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

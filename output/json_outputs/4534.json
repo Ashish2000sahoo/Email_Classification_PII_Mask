@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support, I am writing to request an adjustment in the investment tracking and analytics for the affected products My name is David Kim.. Our current setup, while capturing the complexities of the market, has resulted in suboptimal performance and returns. To address this, we need to recalibrate the parameters and algorithms to better reflect the unique business dynamics. This change will enable more accurate forecasting and better decision-making You can reach me at janesmith@company.com.. I would greatly appreciate it if we could schedule a consultation to discuss the specifics and implement the necessary adjustments. Prompt attention to this matter is greatly appreciated.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        150,
+        159
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        498,
+        519
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support, I am writing to request an adjustment in the investment tracking and analytics for the affected products My name is [full_name].. Our current setup, while capturing the complexities of the market, has resulted in suboptimal performance and returns. To address this, we need to recalibrate the parameters and algorithms to better reflect the unique business dynamics. This change will enable more accurate forecasting and better decision-making You can reach me at [email].. I would greatly appreciate it if we could schedule a consultation to discuss the specifics and implement the necessary adjustments. Prompt attention to this matter is greatly appreciated.",
+  "category_of_the_email": "Change"
+}

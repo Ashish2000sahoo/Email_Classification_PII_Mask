@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Assistance Required for Medical Data Security Breach\n\nRespected Customer Service Team, I am concerned about the recent unauthorized exposure of medical details via unsecured equipment. This is a serious matter as it endangers the privacy and confidentiality of patients' health data. Upon investigation, it seems that the breach could be due to weak encryption and access controls. I have updated the antivirus and checked the firewall but the problem remains unresolved. I hope you can address this urgently and suggest measures to avoid future incidents You can reach me at fatima.farsi@help.com.. Please supply any necessary information to aid your examination My name is Elena Ivanova.. I can be contacted at this email for further details. I eagerly await your quick intervention. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        691,
+        704
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        592,
+        613
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent Assistance Required for Medical Data Security Breach\n\nRespected Customer Service Team, I am concerned about the recent unauthorized exposure of medical details via unsecured equipment. This is a serious matter as it endangers the privacy and confidentiality of patients' health data. Upon investigation, it seems that the breach could be due to weak encryption and access controls. I have updated the antivirus and checked the firewall but the problem remains unresolved. I hope you can address this urgently and suggest measures to avoid future incidents You can reach me at [email].. Please supply any necessary information to aid your examination My name is [full_name].. I can be contacted at this email for further details. I eagerly await your quick intervention. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

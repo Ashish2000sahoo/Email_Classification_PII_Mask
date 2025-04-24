@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: System Update, Multiple Software Applications Failed Secure Medical Data\n\nDuring the system update, several software applications experienced issues with secure medical data. Attempts to reinstall security updates were unsuccessful.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        264,
+        279
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: System Update, Multiple Software Applications Failed Secure Medical Data\n\nDuring the system update, several software applications experienced issues with secure medical data. Attempts to reinstall security updates were unsuccessful.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

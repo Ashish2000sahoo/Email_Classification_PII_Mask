@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern with Data Analytics\n\nAn issue has emerged with data analytics that is affecting investment optimization. This may be linked to recent software updates or system integration problems You can reach me at fatima.farsi@help.com.. Despite attempting troubleshooting by reinstalling and reconfiguring the system, data discrepancies still persist. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        369,
+        376
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        219,
+        240
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Concern with Data Analytics\n\nAn issue has emerged with data analytics that is affecting investment optimization. This may be linked to recent software updates or system integration problems You can reach me at [email].. Despite attempting troubleshooting by reinstalling and reconfiguring the system, data discrepancies still persist. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

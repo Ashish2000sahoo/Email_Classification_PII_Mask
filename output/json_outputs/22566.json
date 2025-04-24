@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgente: Tiempo de inactividad de la red - Mal funcionamiento del router Cisco\n\nEstimado equipo de soporte de servicios de TI, \n\nLes escribo para informarles sobre un problema cr\u00edtico que afecta nuestra infraestructura de red. Nuestro cliente, <name>, ha reportado un tiempo de inactividad significativo de la red que parece estar vinculado a un mal funcionamiento del router Cisco modelo ISR4331. Este problema requiere atenci\u00f3n urgente, ya que se encuentra en un \u00e1rea de alto tr\u00e1fico crucial para nuestras operaciones.\n\nEl router ha estado experimentando cortes intermitentes en los \u00faltimos d\u00edas, pero hoy ha escalado, llevando a que todo el segmento de red se caiga. Los impactos de este tiempo de inactividad han sido severos, causando interrupciones en nuestras operaciones de transferencia de datos y afectando nuestra capacidad para atender a los clientes de manera efectiva. Se hicieron intentos para resolver el problema internamente, incluyendo reiniciar el router y comprobar si hab\u00eda conexiones sueltas. Sin embargo, estas medidas no han tenido \u00e9xito y la situaci\u00f3n persiste.\n\nDada la naturaleza cr\u00edtica y la ubicaci\u00f3n de este router, es imperativo que restauramos la funcionalidad completa lo antes posible. Agradecemos que prioricen este problema y env\u00eden a un t\u00e9cnico especializado para diagnosticar y reparar el router My name is Jane Smith.. \u00bfPodr\u00edan por favor proporcionar un tiempo estimado de cu\u00e1ndo un t\u00e9cnico podr\u00eda estar disponible? Adem\u00e1s, si hay alguna soluci\u00f3n temporal o sugerencias que podr\u00edamos emplear en el \u00ednterin, eso ayudar\u00eda enormemente a minimizar las interrupciones en el negocio.\n\nPor favor, cont\u00e1ctenme a la brevedad posible al <tel_num> o a trav\u00e9s de este correo electr\u00f3nico para confirmar la recepci\u00f3n de este mensaje y comenzar a coordinar los esfuerzos de soporte. La estabilidad operativa de nuestro cliente es primordial y su pronta atenci\u00f3n a este asunto es crucial.\n\nGracias por su inmediata asistencia. \n\nSaludos cordiales, \n\n<name> \nGerente de Soporte, <Company Name> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1355,
+        1365
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        2047,
+        2069
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        401,
+        405
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Tiempo de inactividad de la red - Mal funcionamiento del router Cisco\n\nEstimado equipo de soporte de servicios de TI, \n\nLes escribo para informarles sobre un problema cr\u00edtico que afecta nuestra infraestructura de red. Nuestro cliente, <name>, ha reportado un tiempo de inactividad significativo de la red que parece estar vinculado a un mal funcionamiento del router Cisco modelo ISR[phone_number]. Este problema requiere atenci\u00f3n urgente, ya que se encuentra en un \u00e1rea de alto tr\u00e1fico crucial para nuestras operaciones.\n\nEl router ha estado experimentando cortes intermitentes en los \u00faltimos d\u00edas, pero hoy ha escalado, llevando a que todo el segmento de red se caiga. Los impactos de este tiempo de inactividad han sido severos, causando interrupciones en nuestras operaciones de transferencia de datos y afectando nuestra capacidad para atender a los clientes de manera efectiva. Se hicieron intentos para resolver el problema internamente, incluyendo reiniciar el router y comprobar si hab\u00eda conexiones sueltas. Sin embargo, estas medidas no han tenido \u00e9xito y la situaci\u00f3n persiste.\n\nDada la naturaleza cr\u00edtica y la ubicaci\u00f3n de este router, es imperativo que restauramos la funcionalidad completa lo antes posible. Agradecemos que prioricen este problema y env\u00eden a un t\u00e9cnico especializado para diagnosticar y reparar el router My name is [full_name].. \u00bfPodr\u00edan por favor proporcionar un tiempo estimado de cu\u00e1ndo un t\u00e9cnico podr\u00eda estar disponible? Adem\u00e1s, si hay alguna soluci\u00f3n temporal o sugerencias que podr\u00edamos emplear en el \u00ednterin, eso ayudar\u00eda enormemente a minimizar las interrupciones en el negocio.\n\nPor favor, cont\u00e1ctenme a la brevedad posible al <tel_num> o a trav\u00e9s de este correo electr\u00f3nico para confirmar la recepci\u00f3n de este mensaje y comenzar a coordinar los esfuerzos de soporte. La estabilidad operativa de nuestro cliente es primordial y su pronta atenci\u00f3n a este asunto es crucial.\n\nGracias por su inmediata asistencia. \n\nSaludos cordiales, \n\n<name> \nGerente de Soporte, <Company Name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

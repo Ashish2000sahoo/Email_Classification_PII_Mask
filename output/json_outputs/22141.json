@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Critical Router Disconnections\n\nDear Customer Support,\n\nI am writing to express concerns about the frequent disconnections we are experiencing with the Cisco Router ISR4331 My name is John Doe.. This issue is severely affecting our high-priority services and is jeopardizing the continuity of our enterprise networking. Ensuring consistent connectivity is critical for our business operations. We kindly request your immediate assistance to resolve this matter and prevent further disruptions You can reach me at carlosm@gmail.com.. Please let us know if there are any updates or solutions, and if you require additional information from our end. Thank you for your prompt attention to this urgent issue.\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        193,
+        201
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        525,
+        542
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        177,
+        181
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Critical Router Disconnections\n\nDear Customer Support,\n\nI am writing to express concerns about the frequent disconnections we are experiencing with the Cisco Router ISR[phone_number] My name is [full_name].. This issue is severely affecting our high-priority services and is jeopardizing the continuity of our enterprise networking. Ensuring consistent connectivity is critical for our business operations. We kindly request your immediate assistance to resolve this matter and prevent further disruptions You can reach me at [email].. Please let us know if there are any updates or solutions, and if you require additional information from our end. Thank you for your prompt attention to this urgent issue.\n\nBest regards,\n<name>",
+  "category_of_the_email": "Incident"
+}

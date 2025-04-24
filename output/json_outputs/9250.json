@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Investment Analysis App Causing Crash\n\nThe application experienced a crash during data processing due to compatibility problems.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        173,
+        189
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Problem with Investment Analysis App Causing Crash\n\nThe application experienced a crash during data processing due to compatibility problems.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

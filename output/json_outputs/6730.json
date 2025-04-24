@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Puppet-Projekt-Support\n\nIch ben\u00f6tige Unterst\u00fctzung bei der Integration von Puppet in ein Projektmanagement-Software-as-a-Service, um die Automatisierung von Workflows und die Verbesserung der Teamkollaborationsf\u00e4higkeiten zu erreichen.. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        267,
+        283
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Puppet-Projekt-Support\n\nIch ben\u00f6tige Unterst\u00fctzung bei der Integration von Puppet in ein Projektmanagement-Software-as-a-Service, um die Automatisierung von Workflows und die Verbesserung der Teamkollaborationsf\u00e4higkeiten zu erreichen.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

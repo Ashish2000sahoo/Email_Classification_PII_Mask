@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Enhancement Request for Advanced Data Visualization Tools\n\nWe request the implementation of advanced data visualization tools to enhance insights.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        178,
+        193
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Enhancement Request for Advanced Data Visualization Tools\n\nWe request the implementation of advanced data visualization tools to enhance insights.. My contact number is [phone_number].",
+  "category_of_the_email": "Change"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Ben\u00f6tige Unterst\u00fctzung bei Datenanalyse\n\nSuche Ratgeber f\u00fcr die Optimierung unserer Investitionsstrategien. K\u00f6nnen Ihre Datenanalyse-Dienstleistungen dazu beitragen?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        197,
+        212
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Ben\u00f6tige Unterst\u00fctzung bei Datenanalyse\n\nSuche Ratgeber f\u00fcr die Optimierung unserer Investitionsstrategien. K\u00f6nnen Ihre Datenanalyse-Dienstleistungen dazu beitragen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with website analytics dashboard loading\n\nI am encountering issues while trying to access the website analytics dashboard; it does not load properly. After logging in, an error message appears and despite updating my browser and clearing the cache, the issue still exists My name is Carlos Mendoza.. I believe it may be due to an outdated browser plugin. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        300,
+        314
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        389,
+        407
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with website analytics dashboard loading\n\nI am encountering issues while trying to access the website analytics dashboard; it does not load properly. After logging in, an error message appears and despite updating my browser and clearing the cache, the issue still exists My name is [full_name].. I believe it may be due to an outdated browser plugin. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

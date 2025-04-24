@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer support, focusing on the significance of improving security measures in medical data management systems within a healthcare setting. Patient privacy is a top priority and must be protected to prevent unauthorized access You can reach me at sophia.rossi@service.it.. This involves the implementation of strong firewalls, encryption methods, and secure data storage solutions My name is John Doe.. Our goal is to ensure the confidentiality and integrity of patient data, thereby maintaining trust and adhering to the highest standards of care.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        405,
+        413
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        260,
+        283
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer support, focusing on the significance of improving security measures in medical data management systems within a healthcare setting. Patient privacy is a top priority and must be protected to prevent unauthorized access You can reach me at [email].. This involves the implementation of strong firewalls, encryption methods, and secure data storage solutions My name is [full_name].. Our goal is to ensure the confidentiality and integrity of patient data, thereby maintaining trust and adhering to the highest standards of care.",
+  "category_of_the_email": "Change"
+}

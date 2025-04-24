@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Incident Report Hadoop Issue\n\nThe investment data analytics dashboard encountered problems because of an incompatible Hadoop update.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        181
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Incident Report Hadoop Issue\n\nThe investment data analytics dashboard encountered problems because of an incompatible Hadoop update.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

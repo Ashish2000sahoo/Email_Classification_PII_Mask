@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent: Panne de Jira Software 8.20\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me critique que nous rencontrons avec Jira Software, version 8.20, utilis\u00e9 pour g\u00e9rer nos t\u00e2ches de projet et le suivi My name is Omar Hassan.. Le syst\u00e8me est en panne, ce qui impacte la capacit\u00e9 de notre \u00e9quipe \u00e0 voir et \u00e0 mettre \u00e0 jour les statuts des projets dans plusieurs d\u00e9partements. Cette panne cause des perturbations significatives dans notre flux de travail, entravant la communication et la collaboration entre les membres de l'\u00e9quipe.\n\nNous vous exhortons \u00e0 examiner cette question imm\u00e9diatement et \u00e0 fournir un calendrier pour quand le syst\u00e8me sera de nouveau op\u00e9rationnel. Nos projets d\u00e9pendent fortement de Jira pour l'attribution des t\u00e2ches et le suivi des progr\u00e8s, faisant de cela une question urgente.\n\nMerci pour votre attention rapide \u00e0 ce probl\u00e8me pressant.\n\nCordialement,\n\n<name>\n\n<tel_num>\n\n<acc_num> You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        245,
+        256
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        960,
+        981
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent: Panne de Jira Software 8.20\n\nCher \u00e9quipe de support client,\n\nJe vous \u00e9cris pour signaler un probl\u00e8me critique que nous rencontrons avec Jira Software, version 8.20, utilis\u00e9 pour g\u00e9rer nos t\u00e2ches de projet et le suivi My name is [full_name].. Le syst\u00e8me est en panne, ce qui impacte la capacit\u00e9 de notre \u00e9quipe \u00e0 voir et \u00e0 mettre \u00e0 jour les statuts des projets dans plusieurs d\u00e9partements. Cette panne cause des perturbations significatives dans notre flux de travail, entravant la communication et la collaboration entre les membres de l'\u00e9quipe.\n\nNous vous exhortons \u00e0 examiner cette question imm\u00e9diatement et \u00e0 fournir un calendrier pour quand le syst\u00e8me sera de nouveau op\u00e9rationnel. Nos projets d\u00e9pendent fortement de Jira pour l'attribution des t\u00e2ches et le suivi des progr\u00e8s, faisant de cela une question urgente.\n\nMerci pour votre attention rapide \u00e0 ce probl\u00e8me pressant.\n\nCordialement,\n\n<name>\n\n<tel_num>\n\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

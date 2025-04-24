@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Besorgnis in Bezug auf die Verschleierung medizinischer Daten in PDFfiller und OneNote\n\nGeachte Kundenservice, ich kontaktiere Sie, um mehr Informationen \u00fcber die Nutzung der Tools von PDFfiller und OneNote zur Schutz sensibler medizinischer Informationen zu erhalten. Ich freue mich auf Anleitungen, die mir helfen, sensible medizinische Informationen in der Nutzung dieser Tools zu sch\u00fctzen My name is Sophia Rossi.. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald eine R\u00fcckmeldung von Ihnen zu erhalten. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        413,
+        425
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        565,
+        582
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Besorgnis in Bezug auf die Verschleierung medizinischer Daten in PDFfiller und OneNote\n\nGeachte Kundenservice, ich kontaktiere Sie, um mehr Informationen \u00fcber die Nutzung der Tools von PDFfiller und OneNote zur Schutz sensibler medizinischer Informationen zu erhalten. Ich freue mich auf Anleitungen, die mir helfen, sensible medizinische Informationen in der Nutzung dieser Tools zu sch\u00fctzen My name is [full_name].. Ich bedanke mich im Voraus f\u00fcr Ihre Unterst\u00fctzung und freue mich darauf, bald eine R\u00fcckmeldung von Ihnen zu erhalten. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

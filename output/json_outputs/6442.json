@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Epson Scanner Security Measures\n\nI am contacting you to seek advice on the security procedures that should be followed for an Epson scanner in a healthcare context My name is John Doe.. Given the importance of maintaining the privacy and authenticity of patient information in such an environment, I would be grateful if you could offer guidance on the steps needed to secure our Epson scanner and safeguard sensitive data. It would be helpful to receive any suggestions or best practices you can provide. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        192
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        538,
+        560
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Epson Scanner Security Measures\n\nI am contacting you to seek advice on the security procedures that should be followed for an Epson scanner in a healthcare context My name is [full_name].. Given the importance of maintaining the privacy and authenticity of patient information in such an environment, I would be grateful if you could offer guidance on the steps needed to secure our Epson scanner and safeguard sensitive data. It would be helpful to receive any suggestions or best practices you can provide. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Server-Unterbrechung\n\nUnser Marketing-Unternehmen erlebt h\u00e4ufiger Ausf\u00e4lle der Website, m\u00f6glicherweise nach k\u00fcrzlich durchgef\u00fchrten Server-Updates My name is David Kim.. Wir haben versucht, den Server neu zu starten und den Cache zu l\u00f6schen, aber das Problem besteht weiterhin You can reach me at janesmith@company.com.. Bitte helfen Sie uns, den Problemfall so bald wie m\u00f6glich zu l\u00f6sen, um die Einfluss auf unsere Gesch\u00e4ftst\u00e4tigkeit zu minimieren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        175,
+        184
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        316,
+        337
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem Server-Unterbrechung\n\nUnser Marketing-Unternehmen erlebt h\u00e4ufiger Ausf\u00e4lle der Website, m\u00f6glicherweise nach k\u00fcrzlich durchgef\u00fchrten Server-Updates My name is [full_name].. Wir haben versucht, den Server neu zu starten und den Cache zu l\u00f6schen, aber das Problem besteht weiterhin You can reach me at [email].. Bitte helfen Sie uns, den Problemfall so bald wie m\u00f6glich zu l\u00f6sen, um die Einfluss auf unsere Gesch\u00e4ftst\u00e4tigkeit zu minimieren.",
+  "category_of_the_email": "Incident"
+}

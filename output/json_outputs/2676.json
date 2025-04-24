@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Secure Medical Data Storage\n\nI am reaching out to inquire about secure methods for storing medical data You can reach me at johndoe@email.com.. What options do you offer to ensure the confidentiality and integrity of sensitive medical information? I would appreciate any guidance or recommendations you can provide on this matter My name is Elena Ivanova.. I am looking for a reliable and compliant solution that meets regulatory requirements. Please let me know what solutions you offer and how they can be tailored to meet my specific needs. I look forward to hearing from you and discussing this further.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        370,
+        383
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        153,
+        170
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Secure Medical Data Storage\n\nI am reaching out to inquire about secure methods for storing medical data You can reach me at [email].. What options do you offer to ensure the confidentiality and integrity of sensitive medical information? I would appreciate any guidance or recommendations you can provide on this matter My name is [full_name].. I am looking for a reliable and compliant solution that meets regulatory requirements. Please let me know what solutions you offer and how they can be tailored to meet my specific needs. I look forward to hearing from you and discussing this further.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Details on Annual Plan Billing\n\nI would like to gather more information about the payment options for annual plans You can reach me at fatima.farsi@help.com.. Could you provide details on the various payment methods that are available? I would also appreciate knowing if there are any discounts for upfront annual payments, and if there are any associated fees. Please inform me about the specifics and any applicable discounts My name is John Doe.. Additionally, it would be helpful to know if there are any extra fees related to the annual plans. Could you please clarify this for me? Furthermore, could you share which annual plan you are interested in? I'd like to schedule a call at your convenience. Please let me know a suitable time and I'll make sure to contact you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        448,
+        456
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        144,
+        165
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Details on Annual Plan Billing\n\nI would like to gather more information about the payment options for annual plans You can reach me at [email].. Could you provide details on the various payment methods that are available? I would also appreciate knowing if there are any discounts for upfront annual payments, and if there are any associated fees. Please inform me about the specifics and any applicable discounts My name is [full_name].. Additionally, it would be helpful to know if there are any extra fees related to the annual plans. Could you please clarify this for me? Furthermore, could you share which annual plan you are interested in? I'd like to schedule a call at your convenience. Please let me know a suitable time and I'll make sure to contact you.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verschl\u00fcsselung sensibler Daten f\u00fcr die Speicherung von Krankenakten\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um zu erkunden, wie ich eine sichere Datenverschl\u00fcsselung f\u00fcr die Speicherung von Krankenakten unter Verwendung von Python 3.9 realisieren kann My name is Fatima Al-Farsi.. Ich m\u00f6chte gerne erfahren, welche besten Praktiken und Bibliotheken f\u00fcr diesen Zweck zur Verf\u00fcgung stehen. K\u00f6nnten Sie mir bitte einige Einstiegshinweise geben? Ich suche eine L\u00f6sung, die sowohl sicher als auch effizient ist. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung You can reach me at janesmith@company.com.. Ich muss sicherstellen, dass die sensiblen Krankenakten sicher und unbesch\u00e4digt bleiben. Bitte teilen Sie mich mit, ob es weitere Ma\u00dfnahmen f\u00fcr mich gibt, die ich einhalten muss.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        285,
+        294
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        632,
+        653
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Verschl\u00fcsselung sensibler Daten f\u00fcr die Speicherung von Krankenakten\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um zu erkunden, wie ich eine sichere Datenverschl\u00fcsselung f\u00fcr die Speicherung von Krankenakten unter Verwendung von Python 3.9 realisieren kann My name is [full_name]-Farsi.. Ich m\u00f6chte gerne erfahren, welche besten Praktiken und Bibliotheken f\u00fcr diesen Zweck zur Verf\u00fcgung stehen. K\u00f6nnten Sie mir bitte einige Einstiegshinweise geben? Ich suche eine L\u00f6sung, die sowohl sicher als auch effizient ist. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich auf Ihre R\u00fcckmeldung You can reach me at [email].. Ich muss sicherstellen, dass die sensiblen Krankenakten sicher und unbesch\u00e4digt bleiben. Bitte teilen Sie mich mit, ob es weitere Ma\u00dfnahmen f\u00fcr mich gibt, die ich einhalten muss.",
+  "category_of_the_email": "Request"
+}

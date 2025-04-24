@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Guide for Integrating Smartsheet with Microsoft Azure\n\nHello [Your Name],<br><br>I hope this message finds you well. I am writing to seek detailed guidelines on integrating Smartsheet with Microsoft Azure for enhancing data analytics. Our team uses Smartsheet for project management and we aim to optimize our data analysis by utilizing Azure's capabilities.<br><br>We would like to know the recommended practices for this integration, as well as any specific criteria or restrictions we need to consider My name is David Kim.. Furthermore, we seek advice on ensuring a smooth data exchange between Smartsheet and Azure, and any tips for improving our data analysis and reporting processes.<br><br>If there are any available templates or tools that can assist us in this integration, we would greatly appreciate knowing about them.<br><br>I look forward to your response and possibly scheduling a call at [tel_num] to further discuss this.<br><br>Best regards,<br>[Your Name] You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        525,
+        534
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        1007,
+        1029
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Guide for Integrating Smartsheet with Microsoft Azure\n\nHello [Your Name],<br><br>I hope this message finds you well. I am writing to seek detailed guidelines on integrating Smartsheet with Microsoft Azure for enhancing data analytics. Our team uses Smartsheet for project management and we aim to optimize our data analysis by utilizing Azure's capabilities.<br><br>We would like to know the recommended practices for this integration, as well as any specific criteria or restrictions we need to consider My name is [full_name].. Furthermore, we seek advice on ensuring a smooth data exchange between Smartsheet and Azure, and any tips for improving our data analysis and reporting processes.<br><br>If there are any available templates or tools that can assist us in this integration, we would greatly appreciate knowing about them.<br><br>I look forward to your response and possibly scheduling a call at [tel_num] to further discuss this.<br><br>Best regards,<br>[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

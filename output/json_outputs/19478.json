@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit der Systemaktualisierung\n\nEs gab einen kritischen Systemfehler w\u00e4hrend der Aktualisierung der Projektleitungsinformationen My name is Omar Hassan.. Das Problem scheint auf Kompatibilit\u00e4tskonflikten zwischen verschiedenen Software- und Hardwarekomponenten zu beruhen. Wir haben die Standardauswertungsschritte durchgef\u00fchrt, einschlie\u00dflich des Neustarts der Hardware und der Aktualisierung der Software, aber das Problem beh\u00e4lt sich bestehen. Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um das Problem schnell zu beheben. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        167
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        552,
+        573
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit der Systemaktualisierung\n\nEs gab einen kritischen Systemfehler w\u00e4hrend der Aktualisierung der Projektleitungsinformationen My name is [full_name].. Das Problem scheint auf Kompatibilit\u00e4tskonflikten zwischen verschiedenen Software- und Hardwarekomponenten zu beruhen. Wir haben die Standardauswertungsschritte durchgef\u00fchrt, einschlie\u00dflich des Neustarts der Hardware und der Aktualisierung der Software, aber das Problem beh\u00e4lt sich bestehen. Wir ben\u00f6tigen Ihre Unterst\u00fctzung, um das Problem schnell zu beheben. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

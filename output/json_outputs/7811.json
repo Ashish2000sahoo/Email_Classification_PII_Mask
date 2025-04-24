@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with API Connect\n\nHello support team, I'm currently facing difficulties with API integrations across various products You can reach me at david.kim@corp.kr.. The root cause might be API compatibility issues. Despite restarting services and verifying credentials, the problem continues. I would greatly appreciate your assistance in addressing this My name is Sophia Rossi.. Could you guide me on the necessary steps to proceed? I'm ready to share more details if required.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        376,
+        388
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        155,
+        172
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with API Connect\n\nHello support team, I'm currently facing difficulties with API integrations across various products You can reach me at [email].. The root cause might be API compatibility issues. Despite restarting services and verifying credentials, the problem continues. I would greatly appreciate your assistance in addressing this My name is [full_name].. Could you guide me on the necessary steps to proceed? I'm ready to share more details if required.",
+  "category_of_the_email": "Incident"
+}

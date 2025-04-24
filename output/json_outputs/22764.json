@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Asistencia con la gesti\u00f3n de AWS\n\nEstimado equipo de atenci\u00f3n al cliente,\n\nEspero que este mensaje les encuentre bien. Estoy escribiendo para solicitar asistencia respecto a la optimizaci\u00f3n de costos y la configuraci\u00f3n de facturaci\u00f3n para los servicios en la nube de nuestra organizaci\u00f3n, actualmente gestionados a trav\u00e9s de AWS. Como parte integral de nuestra infraestructura de TI, estos servicios son cr\u00edticos, y cualquier mejora potencial en la eficiencia de costos ser\u00eda muy beneficiosa.\n\nHemos estado aprovechando el Servicio de Gesti\u00f3n de AWS para manejar nuestras instalaciones y transacciones en la nube. No obstante, a medida que nuestro uso se expande, se vuelve cada vez m\u00e1s importante asegurarnos de que estamos empleando los enfoques m\u00e1s rentables You can reach me at johndoe@email.com.. Agradecer\u00edamos mucho si pudieran guiarnos a trav\u00e9s de las herramientas de optimizaci\u00f3n disponibles dentro del conjunto de herramientas de gesti\u00f3n de AWS, que podr\u00edan ser relevantes para nuestra situaci\u00f3n.\n\nAdem\u00e1s, estamos interesados en un recorrido detallado de los m\u00e9todos de configuraci\u00f3n de facturaci\u00f3n para asegurarnos de que nuestras cuentas est\u00e9n correctamente monitoreadas y gestionadas My name is John Doe.. Esto ayudar\u00eda a identificar \u00e1reas donde podr\u00edan estar ocurriendo gastos innecesarios. Ser\u00eda genial si su equipo pudiera brindarnos este apoyo.\n\nPor favor, h\u00e1ganos saber un momento conveniente y cualquier paso preparatorio necesario antes de cualquier reuni\u00f3n.\n\nEsperamos su valioso apoyo.\n\nAtentamente,\n\n<name>\n<position>\n<organization>\n<email>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1217,
+        1225
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        791,
+        808
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Asistencia con la gesti\u00f3n de AWS\n\nEstimado equipo de atenci\u00f3n al cliente,\n\nEspero que este mensaje les encuentre bien. Estoy escribiendo para solicitar asistencia respecto a la optimizaci\u00f3n de costos y la configuraci\u00f3n de facturaci\u00f3n para los servicios en la nube de nuestra organizaci\u00f3n, actualmente gestionados a trav\u00e9s de AWS. Como parte integral de nuestra infraestructura de TI, estos servicios son cr\u00edticos, y cualquier mejora potencial en la eficiencia de costos ser\u00eda muy beneficiosa.\n\nHemos estado aprovechando el Servicio de Gesti\u00f3n de AWS para manejar nuestras instalaciones y transacciones en la nube. No obstante, a medida que nuestro uso se expande, se vuelve cada vez m\u00e1s importante asegurarnos de que estamos empleando los enfoques m\u00e1s rentables You can reach me at [email].. Agradecer\u00edamos mucho si pudieran guiarnos a trav\u00e9s de las herramientas de optimizaci\u00f3n disponibles dentro del conjunto de herramientas de gesti\u00f3n de AWS, que podr\u00edan ser relevantes para nuestra situaci\u00f3n.\n\nAdem\u00e1s, estamos interesados en un recorrido detallado de los m\u00e9todos de configuraci\u00f3n de facturaci\u00f3n para asegurarnos de que nuestras cuentas est\u00e9n correctamente monitoreadas y gestionadas My name is [full_name].. Esto ayudar\u00eda a identificar \u00e1reas donde podr\u00edan estar ocurriendo gastos innecesarios. Ser\u00eda genial si su equipo pudiera brindarnos este apoyo.\n\nPor favor, h\u00e1ganos saber un momento conveniente y cualquier paso preparatorio necesario antes de cualquier reuni\u00f3n.\n\nEsperamos su valioso apoyo.\n\nAtentamente,\n\n<name>\n<position>\n<organization>\n<email>\n<tel_num>",
+  "category_of_the_email": "Request"
+}

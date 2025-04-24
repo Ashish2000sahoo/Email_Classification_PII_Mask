@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident Report: Marketing Agency Digital Strategy\n\nDear customer support, I am writing to report an issue with our marketing agency's digital strategy. The campaign automation has malfunctioned due to what we believe to be an integration error. We have attempted to restart ActiveCampaign, but the problem still exists You can reach me at carlosm@gmail.com.. We would be grateful if you could look into this and provide a solution promptly. The failure of our campaign automation has resulted in considerable disruptions to our marketing efforts, and we are eager to address this issue quickly My name is Omar Hassan.. Please investigate this incident and furnish a detailed report on the cause and recommended actions to prevent similar incidents in the future. We appreciate your attention to this matter and look forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        615,
+        626
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        349,
+        366
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Incident Report: Marketing Agency Digital Strategy\n\nDear customer support, I am writing to report an issue with our marketing agency's digital strategy. The campaign automation has malfunctioned due to what we believe to be an integration error. We have attempted to restart ActiveCampaign, but the problem still exists You can reach me at [email].. We would be grateful if you could look into this and provide a solution promptly. The failure of our campaign automation has resulted in considerable disruptions to our marketing efforts, and we are eager to address this issue quickly My name is [full_name].. Please investigate this incident and furnish a detailed report on the cause and recommended actions to prevent similar incidents in the future. We appreciate your attention to this matter and look forward to your response.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fehler mithin zu Campaign-Metriken\n\nIch m\u00f6chte melden, dass ich Probleme mit den Campagne-Metriken habe, die auf meinem Chromebook verschwinden. Dies hat unsere Agentur-Performanzberichte gest\u00f6rt. Das Problem k\u00f6nnte auf unkompatiblen Updates oder Software-Konflikten zur\u00fcckzuf\u00fchren sein. Ich habe bereits Monday.com neu gestartet, die Outlook-Sync \u00fcberpr\u00fcft und die Terraform-Logs gepr\u00fcft, aber das Problem beh\u00e4lt sich bestehen You can reach me at maria.gonzalez@shop.es.. Es w\u00e4re mir sehr hilfreich, wenn Sie dies untersuchen und mich so bald wie m\u00f6glich mit einer L\u00f6sung versorgen k\u00f6nnten. My name is Fatima Al-Farsi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        612,
+        621
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        457,
+        479
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Fehler mithin zu Campaign-Metriken\n\nIch m\u00f6chte melden, dass ich Probleme mit den Campagne-Metriken habe, die auf meinem Chromebook verschwinden. Dies hat unsere Agentur-Performanzberichte gest\u00f6rt. Das Problem k\u00f6nnte auf unkompatiblen Updates oder Software-Konflikten zur\u00fcckzuf\u00fchren sein. Ich habe bereits Monday.com neu gestartet, die Outlook-Sync \u00fcberpr\u00fcft und die Terraform-Logs gepr\u00fcft, aber das Problem beh\u00e4lt sich bestehen You can reach me at [email].. Es w\u00e4re mir sehr hilfreich, wenn Sie dies untersuchen und mich so bald wie m\u00f6glich mit einer L\u00f6sung versorgen k\u00f6nnten. My name is [full_name]-Farsi.",
+  "category_of_the_email": "Incident"
+}

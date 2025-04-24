@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Challenges in Marketing Strategies for Brand Growth\n\nMarketing efforts have slowed down You can reach me at sophia.rossi@service.it.. Upon reviewing recent analytics, inconsistencies were discovered. Attempts to update campaigns and enhance social media presence have not yielded positive results My name is John Doe.. Assistance is needed to resolve these issues and restart brand growth.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        325
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        117,
+        140
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Challenges in Marketing Strategies for Brand Growth\n\nMarketing efforts have slowed down You can reach me at [email].. Upon reviewing recent analytics, inconsistencies were discovered. Attempts to update campaigns and enhance social media presence have not yielded positive results My name is [full_name].. Assistance is needed to resolve these issues and restart brand growth.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Solicitud de intercambio para Dell XPS 13\n\nEstimado cliente del Servicio de Atenci\u00f3n al Cliente de Tech Online Store,\n\nEspero que este mensaje le encuentre bien. Le escribo para expresar mi preocupaci\u00f3n por la reciente compra que hice en su tienda, un producto afectado: Dell XPS 13 9310, que desafortunadamente ha estado experimentando un problema de rendimiento defectuoso de la bater\u00eda.\n\nLa laptop fue comprada bajo el n\u00famero de cuenta <acc_num> el <date> You can reach me at janesmith@company.com.. Desde el primer uso, not\u00e9 que la bater\u00eda no manten\u00eda una carga como se esperaba. Se descarga r\u00e1pidamente, causando una gran inconveniencia, especialmente durante tareas importantes My name is Omar Hassan.. Dada la reputaci\u00f3n premium de la serie XPS de Dell, creo que esto puede ser una anomal\u00eda, y estoy interesado en resolver este problema.\n\nSolicito un intercambio por la unidad afectada por una nueva. Mis datos de contacto para cualquier comunicaci\u00f3n adicional son: Nombre: <name>, Tel\u00e9fono: <tel_num>, ID de pedido: <order_id>. Espero una resoluci\u00f3n r\u00e1pida y estoy m\u00e1s que dispuesto a devolver este producto defectuoso a la mayor brevedad para agilizar el proceso.\n\nGracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta y continuar mi experiencia con Tech Online Store.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        704,
+        715
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        488,
+        509
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        289,
+        296
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de intercambio para Dell XPS 13\n\nEstimado cliente del Servicio de Atenci\u00f3n al Cliente de Tech Online Store,\n\nEspero que este mensaje le encuentre bien. Le escribo para expresar mi preocupaci\u00f3n por la reciente compra que hice en su tienda, un producto afectado: Dell XPS [phone_number], que desafortunadamente ha estado experimentando un problema de rendimiento defectuoso de la bater\u00eda.\n\nLa laptop fue comprada bajo el n\u00famero de cuenta <acc_num> el <date> You can reach me at [email].. Desde el primer uso, not\u00e9 que la bater\u00eda no manten\u00eda una carga como se esperaba. Se descarga r\u00e1pidamente, causando una gran inconveniencia, especialmente durante tareas importantes My name is [full_name].. Dada la reputaci\u00f3n premium de la serie XPS de Dell, creo que esto puede ser una anomal\u00eda, y estoy interesado en resolver este problema.\n\nSolicito un intercambio por la unidad afectada por una nueva. Mis datos de contacto para cualquier comunicaci\u00f3n adicional son: Nombre: <name>, Tel\u00e9fono: <tel_num>, ID de pedido: <order_id>. Espero una resoluci\u00f3n r\u00e1pida y estoy m\u00e1s que dispuesto a devolver este producto defectuoso a la mayor brevedad para agilizar el proceso.\n\nGracias por su atenci\u00f3n a este asunto. Espero su pronta respuesta y continuar mi experiencia con Tech Online Store.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Request"
+}

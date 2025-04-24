@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Preisangebote f\u00fcr IBM-Software\n\nWelche Preise gibt es f\u00fcr IBM-Software?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        103,
+        118
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Preisangebote f\u00fcr IBM-Software\n\nWelche Preise gibt es f\u00fcr IBM-Software?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Protocols for Medical Data Storage\n\nI require details on security measures for storing medical data on Ubuntu 22.04 LTS. Could you give your suggestions?. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        133
+      ],
+      "classification": "phone_number",
+      "entity": "22.04"
+    },
+    {
+      "position": [
+        194,
+        209
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Security Protocols for Medical Data Storage\n\nI require details on security measures for storing medical data on Ubuntu [phone_number] LTS. Could you give your suggestions?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Support\n\nCustomer Support, encountered an unexpected charge on my account, which is affecting our budget for digital marketing activities. This might have occurred due to a billing error or miscommunication related to package upgrades You can reach me at sophia.rossi@service.it.. After verifying subscription details and checking for unauthorized transactions, the issue still persists. Could you please look into this matter and provide a resolution and explanation for the charge? I appreciate your assistance in resolving this issue and would like a detailed breakdown of my current subscription and any recent changes. Thank you. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        667,
+        677
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        276,
+        299
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Support\n\nCustomer Support, encountered an unexpected charge on my account, which is affecting our budget for digital marketing activities. This might have occurred due to a billing error or miscommunication related to package upgrades You can reach me at [email].. After verifying subscription details and checking for unauthorized transactions, the issue still persists. Could you please look into this matter and provide a resolution and explanation for the charge? I appreciate your assistance in resolving this issue and would like a detailed breakdown of my current subscription and any recent changes. Thank you. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

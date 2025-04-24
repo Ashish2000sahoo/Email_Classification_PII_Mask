@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia Necess\u00e1ria para Configura\u00e7\u00e3o Sem Fio do Canon PIXMA MG3620\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para solicitar assist\u00eancia na configura\u00e7\u00e3o do recurso sem fio da minha nova impressora Canon PIXMA MG3620, que comprei recentemente em sua loja. Ao tentar configurar a conex\u00e3o sem fio, encontrei algumas dificuldades que n\u00e3o consegui resolver usando o manual fornecido ou recursos online.\n\nSegui os passos iniciais, garantindo que a impressora estivesse ligada e dentro do alcance do roteador, mas a impressora n\u00e3o conseguiu se conectar \u00e0 minha rede sem fio. Al\u00e9m disso, certifiquei-me de que minhas credenciais de rede estavam inseridas corretamente e que minha rede estava funcionando corretamente com outros dispositivos.\n\nApesar dessas verifica\u00e7\u00f5es, a impressora mostra repetidamente um erro de conex\u00e3o My name is Carlos Mendoza.. Eu apreciaria muito qualquer orienta\u00e7\u00e3o que voc\u00ea pudesse fornecer ou qualquer dica de solu\u00e7\u00e3o de problemas espec\u00edfica para este modelo. Se houver necessidade de agendar uma chamada ou discutir o processo mais detalhadamente, por favor, me avise, e ficarei feliz em fornecer meus dados de contato.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto You can reach me at david.kim@corp.kr.. Aguardo sua resposta rapidamente.\n\nAtenciosamente,\n\n<name> \nConta do Cliente: <acc_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        841,
+        855
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1214,
+        1231
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        75,
+        79
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        225,
+        229
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia Necess\u00e1ria para Configura\u00e7\u00e3o Sem Fio do Canon PIXMA MG[phone_number]\n\nCaro Suporte ao Cliente,\n\nEstou escrevendo para solicitar assist\u00eancia na configura\u00e7\u00e3o do recurso sem fio da minha nova impressora Canon PIXMA MG[phone_number], que comprei recentemente em sua loja. Ao tentar configurar a conex\u00e3o sem fio, encontrei algumas dificuldades que n\u00e3o consegui resolver usando o manual fornecido ou recursos online.\n\nSegui os passos iniciais, garantindo que a impressora estivesse ligada e dentro do alcance do roteador, mas a impressora n\u00e3o conseguiu se conectar \u00e0 minha rede sem fio. Al\u00e9m disso, certifiquei-me de que minhas credenciais de rede estavam inseridas corretamente e que minha rede estava funcionando corretamente com outros dispositivos.\n\nApesar dessas verifica\u00e7\u00f5es, a impressora mostra repetidamente um erro de conex\u00e3o My name is [full_name].. Eu apreciaria muito qualquer orienta\u00e7\u00e3o que voc\u00ea pudesse fornecer ou qualquer dica de solu\u00e7\u00e3o de problemas espec\u00edfica para este modelo. Se houver necessidade de agendar uma chamada ou discutir o processo mais detalhadamente, por favor, me avise, e ficarei feliz em fornecer meus dados de contato.\n\nObrigado pela sua aten\u00e7\u00e3o a este assunto You can reach me at [email].. Aguardo sua resposta rapidamente.\n\nAtenciosamente,\n\n<name> \nConta do Cliente: <acc_num>",
+  "category_of_the_email": "Problem"
+}

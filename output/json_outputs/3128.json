@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About Data Analytics Tools\n\nA financial firm is facing issues with their data analytics tools, which often crash under high load You can reach me at johndoe@email.com.. This may be due to insufficient resources or software conflicts My name is Jane Smith.. After updating the software, increasing RAM, and checking system compatibility, the issues still persist.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        262,
+        272
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        167,
+        184
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Concerns About Data Analytics Tools\n\nA financial firm is facing issues with their data analytics tools, which often crash under high load You can reach me at [email].. This may be due to insufficient resources or software conflicts My name is [full_name].. After updating the software, increasing RAM, and checking system compatibility, the issues still persist.",
+  "category_of_the_email": "Incident"
+}

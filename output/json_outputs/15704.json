@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Slow Application Performance and Data Extraction Issues\n\nEncountering sluggish application performance, issues with data extraction, and high database load and network latency. Tried restarting affected services and deleting cache files, but without success My name is Sophia Rossi.. Continued issues require support to resolve. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        373,
+        395
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Slow Application Performance and Data Extraction Issues\n\nEncountering sluggish application performance, issues with data extraction, and high database load and network latency. Tried restarting affected services and deleting cache files, but without success My name is [full_name].. Continued issues require support to resolve. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

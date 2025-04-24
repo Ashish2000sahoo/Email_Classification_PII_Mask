@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit pl\u00f6tzlich abgenommenem Webseiten-Aufruf\n\nIn den letzten 48 Stunden wurden wir einen pl\u00f6tzlichen R\u00fcckgang der Besucherzahl unserer Website beobachten. Dies k\u00f6nnte auf recente \u00c4nderungen der Algorithmen oder technische Probleme zur\u00fcckzuf\u00fchren sein. Bislang haben wir das Cachesystem geleert und die Einstellungen des Analysetools \u00fcberpr\u00fcft, um die Ursache zu identifizieren. Wir sch\u00e4tzen es, wenn Sie uns weitere Schritte geben, die wir ergreifen k\u00f6nnen, um das Problem zu l\u00f6sen You can reach me at maria.gonzalez@shop.es.. Bitte informieren Sie uns, welche zus\u00e4tzlichen Informationen n\u00f6tig sind. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        627,
+        639
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        518,
+        540
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Problem mit pl\u00f6tzlich abgenommenem Webseiten-Aufruf\n\nIn den letzten 48 Stunden wurden wir einen pl\u00f6tzlichen R\u00fcckgang der Besucherzahl unserer Website beobachten. Dies k\u00f6nnte auf recente \u00c4nderungen der Algorithmen oder technische Probleme zur\u00fcckzuf\u00fchren sein. Bislang haben wir das Cachesystem geleert und die Einstellungen des Analysetools \u00fcberpr\u00fcft, um die Ursache zu identifizieren. Wir sch\u00e4tzen es, wenn Sie uns weitere Schritte geben, die wir ergreifen k\u00f6nnen, um das Problem zu l\u00f6sen You can reach me at [email].. Bitte informieren Sie uns, welche zus\u00e4tzlichen Informationen n\u00f6tig sind. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

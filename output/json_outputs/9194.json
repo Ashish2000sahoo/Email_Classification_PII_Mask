@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with data encryption on my workstation likely due to new software\n\nGreetings Customer Support,<br><br>I hope you can assist me with a recent data encryption issue on my workstation My name is David Kim.. When attempting to encrypt sensitive data, the process failed, and I suspect this might be related to recently installed software You can reach me at fatima.farsi@help.com.. I have already rebooted my computer and checked for updates, but the problem remains unresolved.<br><br>Could you please guide me on how to proceed? Any additional actions needed or more information that would be helpful to you would be greatly appreciated.<br><br>Thank you for your assistance.<br>Sincerely,<br>[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        209,
+        218
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        373,
+        394
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Trouble with data encryption on my workstation likely due to new software\n\nGreetings Customer Support,<br><br>I hope you can assist me with a recent data encryption issue on my workstation My name is [full_name].. When attempting to encrypt sensitive data, the process failed, and I suspect this might be related to recently installed software You can reach me at [email].. I have already rebooted my computer and checked for updates, but the problem remains unresolved.<br><br>Could you please guide me on how to proceed? Any additional actions needed or more information that would be helpful to you would be greatly appreciated.<br><br>Thank you for your assistance.<br>Sincerely,<br>[Your Name]",
+  "category_of_the_email": "Incident"
+}

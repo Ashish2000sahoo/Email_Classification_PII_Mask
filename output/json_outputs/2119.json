@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhancing Investment Strategies in Financial Organizations\n\nHello customer support, I am contacting you to seek information about analytics tools that can help optimize investment strategies for financial organizations You can reach me at david.kim@corp.kr.. Please, could you share some details on this subject? I would also be grateful for any suggestions or recommendations you could provide My name is Elena Ivanova.. Thanks for your time and help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        427,
+        440
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        260,
+        277
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhancing Investment Strategies in Financial Organizations\n\nHello customer support, I am contacting you to seek information about analytics tools that can help optimize investment strategies for financial organizations You can reach me at [email].. Please, could you share some details on this subject? I would also be grateful for any suggestions or recommendations you could provide My name is [full_name].. Thanks for your time and help.",
+  "category_of_the_email": "Request"
+}

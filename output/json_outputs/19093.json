@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for PostgreSQL Integration Details\n\nDear Customer Support Team, I am writing to inquire about the PostgreSQL integration with our Project Management SaaS Tool. Could you provide more detailed information on how it has been implemented? I would appreciate it if you could share available documentation and guidance My name is Liu Wei.. Specifically, I would like to know the steps required to set up the integration, as well as any specific requirements or limitations. Thank you for your time and support. I look forward to hearing back soon as I am keen to advance the integration process to optimize our use of the SaaS Tool. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        342,
+        349
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        669,
+        686
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Request for PostgreSQL Integration Details\n\nDear Customer Support Team, I am writing to inquire about the PostgreSQL integration with our Project Management SaaS Tool. Could you provide more detailed information on how it has been implemented? I would appreciate it if you could share available documentation and guidance My name is [full_name].. Specifically, I would like to know the steps required to set up the integration, as well as any specific requirements or limitations. Thank you for your time and support. I look forward to hearing back soon as I am keen to advance the integration process to optimize our use of the SaaS Tool. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

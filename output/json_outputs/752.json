@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unexpected System Outage Reported\n\nDear Customer Support,\\n\\nI am contacting you to report an unforeseen system outage that has had significant impacts on our operations. We currently suspect that the outage could be due to an overload or a technical malfunction, but the exact cause is still under investigation.\\n\\nSteps taken so far include restarting services, reviewing logs, and monitoring system performance. Despite these efforts, the issue remains unresolved, and we need your assistance to identify and rectify the problem.\\n\\nHere are the details of the incident:\\n\\n**Incident Overview:** Our system unexpectedly went down, leading to reduced productivity.\\n\\n**Possible Cause:** We believe the outage might have been due to overload or a technical glitch, but a thorough investigation is required to confirm this.\\n\\n**Actions Taken:** Our technical team has restarted services, reviewed logs for errors, and monitored system performance to spot any potential issues. Unfortunately, the problem persists.\\n\\nWe would be grateful if you could organize a call to further discuss this matter My name is Elena Ivanova.. Additionally, could you confirm your account number and the precise time the outage occurred? This information will be invaluable in pinpointing the issue and finding a solution.\\n\\nThank you for your swift attention to this matter.\\n\\nBest regards,\\n[Your Name] You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1122,
+        1135
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1419,
+        1436
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Unexpected System Outage Reported\n\nDear Customer Support,\\n\\nI am contacting you to report an unforeseen system outage that has had significant impacts on our operations. We currently suspect that the outage could be due to an overload or a technical malfunction, but the exact cause is still under investigation.\\n\\nSteps taken so far include restarting services, reviewing logs, and monitoring system performance. Despite these efforts, the issue remains unresolved, and we need your assistance to identify and rectify the problem.\\n\\nHere are the details of the incident:\\n\\n**Incident Overview:** Our system unexpectedly went down, leading to reduced productivity.\\n\\n**Possible Cause:** We believe the outage might have been due to overload or a technical glitch, but a thorough investigation is required to confirm this.\\n\\n**Actions Taken:** Our technical team has restarted services, reviewed logs for errors, and monitored system performance to spot any potential issues. Unfortunately, the problem persists.\\n\\nWe would be grateful if you could organize a call to further discuss this matter My name is [full_name].. Additionally, could you confirm your account number and the precise time the outage occurred? This information will be invaluable in pinpointing the issue and finding a solution.\\n\\nThank you for your swift attention to this matter.\\n\\nBest regards,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Request for Underperforming Digital Marketing Campaigns\n\nI am writing to report that our digital marketing campaigns are not meeting the expected performance standards You can reach me at fatima.farsi@help.com.. There might be an issue with the ineffective use of target strategies. Despite adjusting our target audience and the viewers of our ads, the problem persists. We need assistance to resolve this and enhance the performance of our campaigns. Could you provide guidelines on how to improve our target strategies? We would highly appreciate any recommendations or support you can offer to guide us back on track. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        649,
+        662
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        205,
+        226
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Underperforming Digital Marketing Campaigns\n\nI am writing to report that our digital marketing campaigns are not meeting the expected performance standards You can reach me at [email].. There might be an issue with the ineffective use of target strategies. Despite adjusting our target audience and the viewers of our ads, the problem persists. We need assistance to resolve this and enhance the performance of our campaigns. Could you provide guidelines on how to improve our target strategies? We would highly appreciate any recommendations or support you can offer to guide us back on track. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

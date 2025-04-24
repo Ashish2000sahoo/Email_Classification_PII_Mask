@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Digital Ad Campaign\n\nDear Customer Support,\\n\\nI am writing to report an issue with my digital ad campaign You can reach me at maria.gonzalez@shop.es.. The ads are not displaying correctly, and I suspect that the targeting settings may be incorrect. I have verified that the ad creative and budget settings are accurate, but the issue persists.\\n\\nThe problem occurred recently, and I am concerned that it may be affecting the performance of my campaign My name is Elena Ivanova.. I would appreciate it if you could look into this matter and provide a solution as soon as possible.\\n\\nPlease let me know if there is any additional information you need from me to resolve this issue. I can be reached at this email address or by phone if needed.\\n\\nThank you for your prompt attention to this matter. I look forward to hearing from you soon.\\n\\nSincerely,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        485,
+        498
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        147,
+        169
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issue with Digital Ad Campaign\n\nDear Customer Support,\\n\\nI am writing to report an issue with my digital ad campaign You can reach me at [email].. The ads are not displaying correctly, and I suspect that the targeting settings may be incorrect. I have verified that the ad creative and budget settings are accurate, but the issue persists.\\n\\nThe problem occurred recently, and I am concerned that it may be affecting the performance of my campaign My name is [full_name].. I would appreciate it if you could look into this matter and provide a solution as soon as possible.\\n\\nPlease let me know if there is any additional information you need from me to resolve this issue. I can be reached at this email address or by phone if needed.\\n\\nThank you for your prompt attention to this matter. I look forward to hearing from you soon.\\n\\nSincerely,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Challenge with System Efficiency\n\nSeeking assistance. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        84,
+        100
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Challenge with System Efficiency\n\nSeeking assistance. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

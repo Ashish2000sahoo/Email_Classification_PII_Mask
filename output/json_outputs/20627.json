@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Billing Error Assistance\n\nHello, I noticed a billing error concerning my recent purchase of the HP DeskJet 3755 printer My name is David Kim.. My account number is <acc_num>. Could you please assist me in resolving this issue? You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        140,
+        149
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        258,
+        280
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        116,
+        120
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Billing Error Assistance\n\nHello, I noticed a billing error concerning my recent purchase of the HP DeskJet [phone_number] printer My name is [full_name].. My account number is <acc_num>. Could you please assist me in resolving this issue? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

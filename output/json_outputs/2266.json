@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Malfunction in Data Analytics Platform\n\nOur data analytics platform has experienced a malfunction, which has impacted the optimization of investments My name is Maria Gonzalez.. This issue could stem from inadequate server resources or out-of-date software You can reach me at maria.gonzalez@shop.es.. We attempted to resolve the problem by rebooting the servers and upgrading JIRA Software, but the problem remains unresolved.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        180,
+        194
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        293,
+        315
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Technical Malfunction in Data Analytics Platform\n\nOur data analytics platform has experienced a malfunction, which has impacted the optimization of investments My name is [full_name].. This issue could stem from inadequate server resources or out-of-date software You can reach me at [email].. We attempted to resolve the problem by rebooting the servers and upgrading JIRA Software, but the problem remains unresolved.",
+  "category_of_the_email": "Incident"
+}

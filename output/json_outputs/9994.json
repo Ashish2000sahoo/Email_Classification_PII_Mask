@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Enhancing Brand Growth\n\nInquiry about customer support strategies to implement digital methods for boosting brand growth You can reach me at fatima.farsi@help.com.. Would appreciate detailed information on the topic, especially on effective ways to increase brand awareness and engagement. Looking forward to your response. Your insights are highly valued. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        389,
+        397
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        162,
+        183
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Enhancing Brand Growth\n\nInquiry about customer support strategies to implement digital methods for boosting brand growth You can reach me at [email].. Would appreciate detailed information on the topic, especially on effective ways to increase brand awareness and engagement. Looking forward to your response. Your insights are highly valued. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incorrect Investment Projections Noted\n\nHello Customer Support, I am contacting you to address an error in my investment projections. The analytics tool appears to be malfunctioning, leading to inaccurate predictions. This could be caused by a mismatch between the hardware and software My name is Jane Smith.. I have attempted to resolve the issue by rebooting my device, updating my device drivers, and verifying that there are no software conflicts, but the problem continues You can reach me at david.kim@corp.kr.. I would be grateful if you could examine this situation and provide a solution promptly. If you require any more details from me to address the issue, please inform me. Thank you for your support.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        307,
+        317
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        509,
+        526
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Incorrect Investment Projections Noted\n\nHello Customer Support, I am contacting you to address an error in my investment projections. The analytics tool appears to be malfunctioning, leading to inaccurate predictions. This could be caused by a mismatch between the hardware and software My name is [full_name].. I have attempted to resolve the issue by rebooting my device, updating my device drivers, and verifying that there are no software conflicts, but the problem continues You can reach me at [email].. I would be grateful if you could examine this situation and provide a solution promptly. If you require any more details from me to address the issue, please inform me. Thank you for your support.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Assistance requise pour la configuration sans fil de l'imprimante HP DeskJet 3755\n\nCher service client,\n\nJ'esp\u00e8re que vous allez bien You can reach me at maria.gonzalez@shop.es.. J'ai des difficult\u00e9s \u00e0 configurer mon imprimante HP DeskJet 3755 pour travailler avec plusieurs appareils \u00e0 la maison My name is Maria Gonzalez.. La fonction d'impression sans fil ne fonctionne pas comme pr\u00e9vu, et j'ai besoin d'instructions d\u00e9taill\u00e9es ou d'un support pour r\u00e9soudre ce probl\u00e8me. Vos conseils seront grandement appr\u00e9ci\u00e9s, car j'aimerais profiter pleinement de l'imprimante avec tous les appareils.\n\nMerci de votre attention \u00e0 ce sujet.\n\nCordialement,\n<name>, <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        317,
+        331
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        163,
+        185
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        86,
+        90
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        233,
+        237
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assistance requise pour la configuration sans fil de l'imprimante HP DeskJet [phone_number]\n\nCher service client,\n\nJ'esp\u00e8re que vous allez bien You can reach me at [email].. J'ai des difficult\u00e9s \u00e0 configurer mon imprimante HP DeskJet [phone_number] pour travailler avec plusieurs appareils \u00e0 la maison My name is [full_name].. La fonction d'impression sans fil ne fonctionne pas comme pr\u00e9vu, et j'ai besoin d'instructions d\u00e9taill\u00e9es ou d'un support pour r\u00e9soudre ce probl\u00e8me. Vos conseils seront grandement appr\u00e9ci\u00e9s, car j'aimerais profiter pleinement de l'imprimante avec tous les appareils.\n\nMerci de votre attention \u00e0 ce sujet.\n\nCordialement,\n<name>, <tel_num>",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Integrate Voice to Text\n\nAdd simple documentation for Speech-to-Text integration. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        112,
+        128
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Integrate Voice to Text\n\nAdd simple documentation for Speech-to-Text integration. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Inquiry for Billing Variations\n\nFacing unanticipated billing inconsistencies across various services, which are affecting our digital strategy projects You can reach me at johndoe@email.com.. It seems there might be a synchronization error leading to duplicate charges on subscriptions My name is David Kim.. After reviewing the billing records and contacting the service provider for further clarification, the issues still persist. I kindly request your assistance in resolving this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        323
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        189,
+        206
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Support Inquiry for Billing Variations\n\nFacing unanticipated billing inconsistencies across various services, which are affecting our digital strategy projects You can reach me at [email].. It seems there might be a synchronization error leading to duplicate charges on subscriptions My name is [full_name].. After reviewing the billing records and contacting the service provider for further clarification, the issues still persist. I kindly request your assistance in resolving this matter.",
+  "category_of_the_email": "Problem"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Project Management Tool\n\nFacing problems with the project management tool. An error has occurred while integrating the software with various products, which has affected the overall functionality. I suspect that the issue might be due to compatibility problems between software versions and operating systems My name is Fatima Al-Farsi.. Despite my attempts to update drivers and reinstall applications, the problem still persists. I would greatly appreciate your assistance in resolving this matter, as it is impacting my work. Please let me know if you need any additional information or if we can schedule a call at <tel_num> to discuss the issue and explore possible solutions. I look forward to your response and hope for a prompt resolution. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        340,
+        349
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        790,
+        811
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Project Management Tool\n\nFacing problems with the project management tool. An error has occurred while integrating the software with various products, which has affected the overall functionality. I suspect that the issue might be due to compatibility problems between software versions and operating systems My name is [full_name]-Farsi.. Despite my attempts to update drivers and reinstall applications, the problem still persists. I would greatly appreciate your assistance in resolving this matter, as it is impacting my work. Please let me know if you need any additional information or if we can schedule a call at <tel_num> to discuss the issue and explore possible solutions. I look forward to your response and hope for a prompt resolution. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

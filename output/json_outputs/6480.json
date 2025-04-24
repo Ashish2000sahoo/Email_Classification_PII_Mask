@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Rechnungsstelle\n\nEs wird ein unrichtiger Rechnungsbetrag angezeigt, was m\u00f6glicherweise auf ein Problem mit der Daten-Synchronisierung zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Obwohl ich meine Kontoeinstellungen und Transaktionen \u00fcberpr\u00fcft habe, besteht das Problem weiterhin.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        311
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Rechnungsstelle\n\nEs wird ein unrichtiger Rechnungsbetrag angezeigt, was m\u00f6glicherweise auf ein Problem mit der Daten-Synchronisierung zur\u00fcckzuf\u00fchren sein k\u00f6nnte. Obwohl ich meine Kontoeinstellungen und Transaktionen \u00fcberpr\u00fcft habe, besteht das Problem weiterhin.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

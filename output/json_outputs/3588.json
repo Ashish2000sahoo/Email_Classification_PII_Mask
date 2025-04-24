@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nWir haben sporadische Ausf\u00e4lle bei der Investitionsoptimierungssoftware und erneuerte Systemupdates l\u00f6sen das Problem nicht. Ein potenzieller Grund k\u00f6nnte ein Traffic-Spike sein, aber die Anwendung l\u00e4uft wieder, und die Logs zeigen aktuell keine Fehler My name is Jane Smith.. Bitte geben Sie mehr Details zu den neuesten Systemupdates und Traffic-Spikes. Wir m\u00fcssen die Logs \u00fcberpr\u00fcfen, und falls erforderlich, k\u00f6nnen wir uns per Anruf auf <tel_num> zur Sprache bringen, um das Problem zu besprechen. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        275,
+        285
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        534,
+        556
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: \n\nWir haben sporadische Ausf\u00e4lle bei der Investitionsoptimierungssoftware und erneuerte Systemupdates l\u00f6sen das Problem nicht. Ein potenzieller Grund k\u00f6nnte ein Traffic-Spike sein, aber die Anwendung l\u00e4uft wieder, und die Logs zeigen aktuell keine Fehler My name is [full_name].. Bitte geben Sie mehr Details zu den neuesten Systemupdates und Traffic-Spikes. Wir m\u00fcssen die Logs \u00fcberpr\u00fcfen, und falls erforderlich, k\u00f6nnen wir uns per Anruf auf <tel_num> zur Sprache bringen, um das Problem zu besprechen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

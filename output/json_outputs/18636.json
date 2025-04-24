@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung bei Datenverlust an IT-System des Krankenhauses erforderlich\n\nEs wurde ein kleiner Datenverlust an dem IT-System des Krankenhauses festgestellt, was durch veraltete Sicherheitsprotokolle verursacht werden k\u00f6nnte. Aktuell werden die Firewalls, Passw\u00f6rter und Schl\u00fcsselkonten gepr\u00fcft und aktualisiert, um weitere Risiken zu minimieren. Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um den Fall zu untersuchen und Sicherheitsma\u00dfnahmen zu verst\u00e4rken My name is David Kim.. Bitte suchen Sie nach m\u00f6glichen Vunerbarkeiten und helfen Sie uns, unsere System-Sicherheit zu verbessern You can reach me at liuwei@business.cn.. K\u00f6nnten Sie uns bitte die notwendigen Schritte zur L\u00f6sung des Problems zur Verf\u00fcgung stellen? Wir bedanken uns im Voraus f\u00fcr Ihr schnelles Eingreifen und warten auf Ihre R\u00fcckmeldung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        477,
+        486
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        617,
+        635
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung bei Datenverlust an IT-System des Krankenhauses erforderlich\n\nEs wurde ein kleiner Datenverlust an dem IT-System des Krankenhauses festgestellt, was durch veraltete Sicherheitsprotokolle verursacht werden k\u00f6nnte. Aktuell werden die Firewalls, Passw\u00f6rter und Schl\u00fcsselkonten gepr\u00fcft und aktualisiert, um weitere Risiken zu minimieren. Wir ben\u00f6tigen dringend Ihre Unterst\u00fctzung, um den Fall zu untersuchen und Sicherheitsma\u00dfnahmen zu verst\u00e4rken My name is [full_name].. Bitte suchen Sie nach m\u00f6glichen Vunerbarkeiten und helfen Sie uns, unsere System-Sicherheit zu verbessern You can reach me at [email].. K\u00f6nnten Sie uns bitte die notwendigen Schritte zur L\u00f6sung des Problems zur Verf\u00fcgung stellen? Wir bedanken uns im Voraus f\u00fcr Ihr schnelles Eingreifen und warten auf Ihre R\u00fcckmeldung.",
+  "category_of_the_email": "Incident"
+}

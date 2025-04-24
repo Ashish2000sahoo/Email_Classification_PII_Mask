@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Security of Medical Data\n\nCustomer Support, encountering an issue with the security of medical data access. After a routine system update, the ability to access medical data has been compromised. We have initiated system scans and confirmed that the firewall settings are correct, but the issue still persists You can reach me at liuwei@business.cn.. Potential causes may include software conflicts or outdated security protocols My name is Jane Smith.. I am very concerned about the security of our data and would like assistance in resolving this matter. Please inform me of the next steps and I appreciate your help in addressing this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        468,
+        478
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        357,
+        375
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Security of Medical Data\n\nCustomer Support, encountering an issue with the security of medical data access. After a routine system update, the ability to access medical data has been compromised. We have initiated system scans and confirmed that the firewall settings are correct, but the issue still persists You can reach me at [email].. Potential causes may include software conflicts or outdated security protocols My name is [full_name].. I am very concerned about the security of our data and would like assistance in resolving this matter. Please inform me of the next steps and I appreciate your help in addressing this issue.",
+  "category_of_the_email": "Incident"
+}

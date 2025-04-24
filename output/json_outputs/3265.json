@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Project Management Software\n\nEncountering connectivity problems with the project management software, which hinders team collaboration My name is Elena Ivanova.. These issues might be due to recent server updates causing a overload You can reach me at fatima.farsi@help.com.. Restarting the application or clearing browser cache may solve the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        271,
+        292
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Issues with Project Management Software\n\nEncountering connectivity problems with the project management software, which hinders team collaboration My name is [full_name].. These issues might be due to recent server updates causing a overload You can reach me at [email].. Restarting the application or clearing browser cache may solve the problem.",
+  "category_of_the_email": "Incident"
+}

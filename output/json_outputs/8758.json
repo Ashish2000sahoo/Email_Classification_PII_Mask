@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Data Security Enhancement\n\nCustomer support, please elaborate on the implementation of enhanced security measures for managing medical data access in hospital systems. It is crucial to prevent service outages and ensure the confidentiality, integrity, and availability of sensitive medical information You can reach me at carlosm@gmail.com.. Robust security measures such as encryption, access controls, and regular updates can help protect against cyber threats and maintain patient trust. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        519,
+        526
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        339,
+        356
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Medical Data Security Enhancement\n\nCustomer support, please elaborate on the implementation of enhanced security measures for managing medical data access in hospital systems. It is crucial to prevent service outages and ensure the confidentiality, integrity, and availability of sensitive medical information You can reach me at [email].. Robust security measures such as encryption, access controls, and regular updates can help protect against cyber threats and maintain patient trust. My name is [full_name].",
+  "category_of_the_email": "Change"
+}

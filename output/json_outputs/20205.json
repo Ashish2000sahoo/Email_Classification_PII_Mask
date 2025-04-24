@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgent: MySQL 8.0.30 Database Crashes\n\nMySQL 8.0.30 repeatedly crashes. Need immediate investigation to restore database uptime.. My contact number is +49-30-3987-2105.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        23,
+        29
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        54,
+        60
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        160,
+        176
+      ],
+      "classification": "phone_number",
+      "entity": "+49-30-3987-2105"
+    }
+  ],
+  "masked_email": "Subject: Urgent: MySQL [phone_number] Database Crashes\n\nMySQL [phone_number] repeatedly crashes. Need immediate investigation to restore database uptime.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

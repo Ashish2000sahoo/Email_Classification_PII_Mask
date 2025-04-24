@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Diagnostics Request for Non-Functional Devices\n\nSeveral pieces of equipment are not operating correctly. The issue arose unexpectedly during the preparation for the marketing campaign You can reach me at omar.hassan@secure.net.. It might be due to a software or hardware conflict or recent updates My name is Maria Gonzalez.. You have already attempted to resolve the problem by restarting the devices, ensuring proper connections, and applying any pending updates.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        318,
+        332
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        213,
+        235
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Diagnostics Request for Non-Functional Devices\n\nSeveral pieces of equipment are not operating correctly. The issue arose unexpectedly during the preparation for the marketing campaign You can reach me at [email].. It might be due to a software or hardware conflict or recent updates My name is [full_name].. You have already attempted to resolve the problem by restarting the devices, ensuring proper connections, and applying any pending updates.",
+  "category_of_the_email": "Incident"
+}

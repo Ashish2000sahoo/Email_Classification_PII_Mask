@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherung medizinischer Daten Krankenh\u00e4usern\n\nBieten Sie einen Ratgeber zu den besten Praktiken f\u00fcr die Sicherung medizinischer Daten innerhalb der IT-Systeme von Krankenh\u00e4usern? Das Ziel ist es, die Vertraulichkeit und Integrit\u00e4t der Patientendaten zu sichern.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        293,
+        308
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Sicherung medizinischer Daten Krankenh\u00e4usern\n\nBieten Sie einen Ratgeber zu den besten Praktiken f\u00fcr die Sicherung medizinischer Daten innerhalb der IT-Systeme von Krankenh\u00e4usern? Das Ziel ist es, die Vertraulichkeit und Integrit\u00e4t der Patientendaten zu sichern.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

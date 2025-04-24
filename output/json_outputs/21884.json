@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Printer Connection and Duplex Issues\n\nHi, I am experiencing issues with my Canon PIXMA MG3620. It fails to connect wirelessly and displays inconsistent duplex printing. Please provide a solution for these problems You can reach me at maria.gonzalez@shop.es.. Thank you, <name>. My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        310
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        243,
+        265
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    },
+    {
+      "position": [
+        98,
+        102
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Printer Connection and Duplex Issues\n\nHi, I am experiencing issues with my Canon PIXMA MG[phone_number]. It fails to connect wirelessly and displays inconsistent duplex printing. Please provide a solution for these problems You can reach me at [email].. Thank you, <name>. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

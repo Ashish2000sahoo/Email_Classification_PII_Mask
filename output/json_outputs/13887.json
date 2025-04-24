@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Strategien zur Markenentwicklung\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um mehr \u00fcber digitale Strategien zu erfahren, die das Markenwachstum f\u00fcr Markenagenturen f\u00f6rdern. Ich m\u00f6chte mich mit den neuesten Trends und besten Praktiken in diesem Bereich vertraut machen My name is David Kim.. K\u00f6nnten Sie mir bitte Informationen zu diesem Thema zukommen lassen oder mich auf einige Ressourcen hinweisen, die ich zur Vertiefung nutzen kann? Ich w\u00fcrde mich freuen, wenn Sie mir Ihre Kenntnisse und Einsichten zur Verf\u00fcgung stellen k\u00f6nnten. Insbesondere interessiert mich die Analyse bew\u00e4hrter Strategien, die das Markenwachstum und die Ums\u00e4tze f\u00fcr Markenagenturen steigern You can reach me at liuwei@business.cn.. Ich danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        307
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        710,
+        728
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Strategien zur Markenentwicklung\n\nSehr geehrte Kundenservice, ich wende mich an Sie, um mehr \u00fcber digitale Strategien zu erfahren, die das Markenwachstum f\u00fcr Markenagenturen f\u00f6rdern. Ich m\u00f6chte mich mit den neuesten Trends und besten Praktiken in diesem Bereich vertraut machen My name is [full_name].. K\u00f6nnten Sie mir bitte Informationen zu diesem Thema zukommen lassen oder mich auf einige Ressourcen hinweisen, die ich zur Vertiefung nutzen kann? Ich w\u00fcrde mich freuen, wenn Sie mir Ihre Kenntnisse und Einsichten zur Verf\u00fcgung stellen k\u00f6nnten. Insbesondere interessiert mich die Analyse bew\u00e4hrter Strategien, die das Markenwachstum und die Ums\u00e4tze f\u00fcr Markenagenturen steigern You can reach me at [email].. Ich danke Ihnen f\u00fcr Ihre Zeit und Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

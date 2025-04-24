@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Kampagnenmetriken sind pl\u00f6tzlich nicht mehr verf\u00fcgbar\n\nDie Kampagnenmetriken haben sich w\u00e4hrend der Nacht verschwunden My name is Jane Smith.. Es besteht die Vermutung, dass ein Integrationsschuldkonto mit QuickBooks Online den Fehler verursacht haben k\u00f6nnte. Der Projektor wurde neu gestartet und die Einstellungen bei DocuSign wurden \u00fcberpr\u00fcft, jedoch beh\u00e4lt sich das Problem trotzdem bestehen. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        139,
+        149
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        427,
+        449
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Kampagnenmetriken sind pl\u00f6tzlich nicht mehr verf\u00fcgbar\n\nDie Kampagnenmetriken haben sich w\u00e4hrend der Nacht verschwunden My name is [full_name].. Es besteht die Vermutung, dass ein Integrationsschuldkonto mit QuickBooks Online den Fehler verursacht haben k\u00f6nnte. Der Projektor wurde neu gestartet und die Einstellungen bei DocuSign wurden \u00fcberpr\u00fcft, jedoch beh\u00e4lt sich das Problem trotzdem bestehen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

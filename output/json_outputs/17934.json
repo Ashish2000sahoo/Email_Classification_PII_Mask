@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Hilfe bei Krankenhaus-IT-Systemen\n\nEs kam zu unerwarteten Dienstausf\u00e4llen, die die Krankenhaus-IT-Systeme st\u00f6rten und die Produktivit\u00e4t der Mitarbeiter sowie die Versorgung der Patienten negativ beeinflussten. Als erste Schritte zur Problembehebung wurden die Ger\u00e4te neugestartet und das Netzwerkintegrit\u00e4t \u00fcberpr\u00fcft.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        349,
+        364
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei Krankenhaus-IT-Systemen\n\nEs kam zu unerwarteten Dienstausf\u00e4llen, die die Krankenhaus-IT-Systeme st\u00f6rten und die Produktivit\u00e4t der Mitarbeiter sowie die Versorgung der Patienten negativ beeinflussten. Als erste Schritte zur Problembehebung wurden die Ger\u00e4te neugestartet und das Netzwerkintegrit\u00e4t \u00fcberpr\u00fcft.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

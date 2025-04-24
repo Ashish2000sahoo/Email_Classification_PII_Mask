@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Assistance Required for Digital Presence Issues\n\nMany offline campaigns have failed. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        115,
+        130
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Assistance Required for Digital Presence Issues\n\nMany offline campaigns have failed. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

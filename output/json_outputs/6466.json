@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Login System\n\nUsers are facing temporary login difficulties with the Project Management Software. This might be due to recent updates causing unexpected conflicts, possibly due to an overload on the authentication server. The cache and cookies have been cleared, and user data has been checked You can reach me at carlosm@gmail.com.. Attempts to log in from multiple browsers have been made My name is Omar Hassan.. The problem persists when using the software system. Please assist as soon as possible and contact us for further help with the solution.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        422,
+        433
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        334,
+        351
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Login System\n\nUsers are facing temporary login difficulties with the Project Management Software. This might be due to recent updates causing unexpected conflicts, possibly due to an overload on the authentication server. The cache and cookies have been cleared, and user data has been checked You can reach me at [email].. Attempts to log in from multiple browsers have been made My name is [full_name].. The problem persists when using the software system. Please assist as soon as possible and contact us for further help with the solution.",
+  "category_of_the_email": "Incident"
+}

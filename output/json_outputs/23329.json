@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Urgente: Se necesitan parches de seguridad y validez de configuraci\u00f3n para el enrutador empresarial\n\nEstimado equipo de soporte al cliente,\n\nMi nombre es <name>, y me pongo en contacto con ustedes respecto a un problema cr\u00edtico que ha surgido con nuestro equipo de red My name is Maria Gonzalez.. Nuestro enrutador Cisco ISR4331 ha estado experimentando problemas de conectividad intermitente, lo que afecta significativamente nuestras operaciones You can reach me at fatima.farsi@help.com.. Estas interrupciones sugieren la necesidad potencial de una evaluaci\u00f3n inmediata y la aplicaci\u00f3n de parches de seguridad.\n\nEs crucial verificar la validez de las configuraciones actuales para asegurar un rendimiento y seguridad \u00f3ptimos. Nuestras operaciones dependen en gran medida de la conectividad de red estable para mantener la productividad y los canales de comunicaci\u00f3n. Solicitamos una intervenci\u00f3n urgente de su equipo experto para abordar estos problemas de manera r\u00e1pida.\n\nPor favor, cont\u00e1ctenme al <tel_num> para discutir m\u00e1s sobre esta situaci\u00f3n y programar un t\u00e9cnico que eval\u00fae nuestro sistema en el momento que m\u00e1s les convenga.\n\nGracias por su atenci\u00f3n a este asunto.\n\nAtentamente,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        289,
+        303
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        474,
+        495
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    },
+    {
+      "position": [
+        330,
+        334
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Se necesitan parches de seguridad y validez de configuraci\u00f3n para el enrutador empresarial\n\nEstimado equipo de soporte al cliente,\n\nMi nombre es <name>, y me pongo en contacto con ustedes respecto a un problema cr\u00edtico que ha surgido con nuestro equipo de red My name is [full_name].. Nuestro enrutador Cisco ISR[phone_number] ha estado experimentando problemas de conectividad intermitente, lo que afecta significativamente nuestras operaciones You can reach me at [email].. Estas interrupciones sugieren la necesidad potencial de una evaluaci\u00f3n inmediata y la aplicaci\u00f3n de parches de seguridad.\n\nEs crucial verificar la validez de las configuraciones actuales para asegurar un rendimiento y seguridad \u00f3ptimos. Nuestras operaciones dependen en gran medida de la conectividad de red estable para mantener la productividad y los canales de comunicaci\u00f3n. Solicitamos una intervenci\u00f3n urgente de su equipo experto para abordar estos problemas de manera r\u00e1pida.\n\nPor favor, cont\u00e1ctenme al <tel_num> para discutir m\u00e1s sobre esta situaci\u00f3n y programar un t\u00e9cnico que eval\u00fae nuestro sistema en el momento que m\u00e1s les convenga.\n\nGracias por su atenci\u00f3n a este asunto.\n\nAtentamente,\n<name>",
+  "category_of_the_email": "Incident"
+}

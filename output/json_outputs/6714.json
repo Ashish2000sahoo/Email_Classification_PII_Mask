@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Assistance with Data Analytics Tools Malfunction\n\nDear Customer Support, I am contacting you to report an issue with our data analytics tools. The tools have malfunctioned, resulting in operational disruptions. Upon investigation, we discovered that the problem stems from outdated software versions. We have attempted to restart the systems and verify the licenses, but the issue remains unresolved. We kindly request you to provide us with the latest software versions or direct us on how to fix the issue. Please inform us if any additional details are required from our side to aid in the resolution process My name is Omar Hassan.. We look forward to your prompt response. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        644,
+        655
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        719,
+        736
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Assistance with Data Analytics Tools Malfunction\n\nDear Customer Support, I am contacting you to report an issue with our data analytics tools. The tools have malfunctioned, resulting in operational disruptions. Upon investigation, we discovered that the problem stems from outdated software versions. We have attempted to restart the systems and verify the licenses, but the issue remains unresolved. We kindly request you to provide us with the latest software versions or direct us on how to fix the issue. Please inform us if any additional details are required from our side to aid in the resolution process My name is [full_name].. We look forward to your prompt response. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

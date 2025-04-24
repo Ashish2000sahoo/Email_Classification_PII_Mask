@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Digital Campaigns Launch\n\nDigital campaigns are unable to launch, possibly due to compatibility issues My name is Jane Smith.. Despite updating the software and rebooting the systems, the problem remains unresolved. I require help to address this issue. You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        136,
+        146
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        297,
+        322
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Problem with Digital Campaigns Launch\n\nDigital campaigns are unable to launch, possibly due to compatibility issues My name is [full_name].. Despite updating the software and rebooting the systems, the problem remains unresolved. I require help to address this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent Help Needed: MacBook Air M1 Issues\n\nDear Customer Support,\n\nI hope this message finds you well. I recently purchased a MacBook Air M1 from your online store, and unfortunately, it is not booting up properly. Despite following all recommended troubleshooting steps, the problem persists. Given that this is a newly purchased item, I would appreciate it if you could provide high-priority assistance to resolve this issue at your earliest convenience You can reach me at maria.gonzalez@shop.es.. My order number is <order_num> My name is Sophia Rossi.. \n\nThank you for your support.\n\nSincerely,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        552,
+        564
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        485,
+        507
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Urgent Help Needed: MacBook Air M1 Issues\n\nDear Customer Support,\n\nI hope this message finds you well. I recently purchased a MacBook Air M1 from your online store, and unfortunately, it is not booting up properly. Despite following all recommended troubleshooting steps, the problem persists. Given that this is a newly purchased item, I would appreciate it if you could provide high-priority assistance to resolve this issue at your earliest convenience You can reach me at [email].. My order number is <order_num> My name is [full_name].. \n\nThank you for your support.\n\nSincerely,\n<name>",
+  "category_of_the_email": "Incident"
+}

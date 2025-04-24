@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probl\u00e8me de garantie concernant l'achat d'un Lenovo IdeaPad 5\n\nBonjour cher \u00e9quipe du service client,\n\nJe vous contacte pour faire \u00e9tat d'un souci de garantie au sujet de mon Lenovo IdeaPad 5 que j'ai r\u00e9cemment acquis. Mon num\u00e9ro de commande est <acc_num> My name is Omar Hassan.. Mon ordinateur portable a commenc\u00e9 \u00e0 avoir des probl\u00e8mes de fonctionnement et j'aurais besoin de votre assistance You can reach me at maria.gonzalez@shop.es.. Pourriez-vous m'orienter sur les \u00e9tapes \u00e0 suivre pour r\u00e9gler ce probl\u00e8me ? Vous pouvez me joindre au <tel_num>.\n\nMerci,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        276,
+        287
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        424,
+        446
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Probl\u00e8me de garantie concernant l'achat d'un Lenovo IdeaPad 5\n\nBonjour cher \u00e9quipe du service client,\n\nJe vous contacte pour faire \u00e9tat d'un souci de garantie au sujet de mon Lenovo IdeaPad 5 que j'ai r\u00e9cemment acquis. Mon num\u00e9ro de commande est <acc_num> My name is [full_name].. Mon ordinateur portable a commenc\u00e9 \u00e0 avoir des probl\u00e8mes de fonctionnement et j'aurais besoin de votre assistance You can reach me at [email].. Pourriez-vous m'orienter sur les \u00e9tapes \u00e0 suivre pour r\u00e9gler ce probl\u00e8me ? Vous pouvez me joindre au <tel_num>.\n\nMerci,\n<name>",
+  "category_of_the_email": "Problem"
+}

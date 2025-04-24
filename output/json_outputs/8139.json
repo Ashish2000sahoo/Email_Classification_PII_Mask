@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Request for GIMP Support\n\nA critical marketing presentation was unexpectedly interrupted by a crash in GIMP while editing visual elements. The installation process resolved the hanging cache issue.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        229,
+        244
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Request for GIMP Support\n\nA critical marketing presentation was unexpectedly interrupted by a crash in GIMP while editing visual elements. The installation process resolved the hanging cache issue.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

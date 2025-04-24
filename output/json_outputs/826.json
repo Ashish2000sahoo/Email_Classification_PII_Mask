@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit dem NAS-System\n\nGesch\u00e4tzte Kundensupport, ich schreibe Ihnen um ein Problem mit dem NAS-System zu melden. Das System brach die Datenanalyseprozesse ab, und die Optimierung von Investitionen wurde gest\u00f6rt You can reach me at carlosm@gmail.com.. Ich vermute, dass die hohe Datendichte und die Softwarekompatibilit\u00e4t die Ursache sind. Durch Neustart des NAS-Systems und Aktualisierung der Software konnte das Problem leider nicht behoben werden. Ich sch\u00e4tze es, wenn Sie sich in K\u00fcrze um diese Angelegenheit k\u00fcmmern und eine m\u00f6gliche L\u00f6sung anbieten k\u00f6nnen. Wenn weitere Informationen erforderlich sind, informieren Sie bitte mich My name is Sophia Rossi.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        661,
+        673
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        246,
+        263
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit dem NAS-System\n\nGesch\u00e4tzte Kundensupport, ich schreibe Ihnen um ein Problem mit dem NAS-System zu melden. Das System brach die Datenanalyseprozesse ab, und die Optimierung von Investitionen wurde gest\u00f6rt You can reach me at [email].. Ich vermute, dass die hohe Datendichte und die Softwarekompatibilit\u00e4t die Ursache sind. Durch Neustart des NAS-Systems und Aktualisierung der Software konnte das Problem leider nicht behoben werden. Ich sch\u00e4tze es, wenn Sie sich in K\u00fcrze um diese Angelegenheit k\u00fcmmern und eine m\u00f6gliche L\u00f6sung anbieten k\u00f6nnen. Wenn weitere Informationen erforderlich sind, informieren Sie bitte mich My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

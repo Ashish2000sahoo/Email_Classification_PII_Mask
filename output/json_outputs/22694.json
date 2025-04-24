@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Billing Support\n\nHello Customer Support Team,\n\nI am contacting you for help with some billing issues I have noticed concerning our AWS cloud computing services, specifically linked to the AWS Management Service My name is Jane Smith.. Our organization, <name> Tech Solutions, has recently received an invoice that seems to apply charges for services we did not use during the billing cycle. We have diligently tracked our usage and found no reason for the unanticipated fees linked to our account <acc_num>.\n\nOur billing statements show charges on various dates that require explanation. After scrutinizing the invoice, it appears there could be a problem regarding how the usage data has been documented or handled. We would be grateful for a comprehensive examination of our account and any updates on possible errors or inconsistencies.\n\nPlease get in touch with me at your earliest convenience at <tel_num> or via email to resolve this pressing issue. Thank you for your prompt attention to this concern.\n\nBest regards,\n<name>\nIT Manager, <name> Tech Solutions You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        253
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1107,
+        1128
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Billing Support\n\nHello Customer Support Team,\n\nI am contacting you for help with some billing issues I have noticed concerning our AWS cloud computing services, specifically linked to the AWS Management Service My name is [full_name].. Our organization, <name> Tech Solutions, has recently received an invoice that seems to apply charges for services we did not use during the billing cycle. We have diligently tracked our usage and found no reason for the unanticipated fees linked to our account <acc_num>.\n\nOur billing statements show charges on various dates that require explanation. After scrutinizing the invoice, it appears there could be a problem regarding how the usage data has been documented or handled. We would be grateful for a comprehensive examination of our account and any updates on possible errors or inconsistencies.\n\nPlease get in touch with me at your earliest convenience at <tel_num> or via email to resolve this pressing issue. Thank you for your prompt attention to this concern.\n\nBest regards,\n<name>\nIT Manager, <name> Tech Solutions You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

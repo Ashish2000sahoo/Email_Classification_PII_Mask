@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Boost Data Analytics for Investment Optimization\n\nCustomer Support, requesting to enhance the data analytics capabilities of our current system My name is Sophia Rossi.. The aim is to optimize investment performance and track progress more effectively. Currently, the system is lacking the ability to provide real-time insights and detailed analysis, which makes it difficult to make informed decisions You can reach me at fatima.farsi@help.com.. I would like to propose the development of a new module that would integrate with our existing system, offering advanced data visualization and predictive analytics. This would enable us to identify",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        164,
+        176
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        431,
+        452
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Boost Data Analytics for Investment Optimization\n\nCustomer Support, requesting to enhance the data analytics capabilities of our current system My name is [full_name].. The aim is to optimize investment performance and track progress more effectively. Currently, the system is lacking the ability to provide real-time insights and detailed analysis, which makes it difficult to make informed decisions You can reach me at [email].. I would like to propose the development of a new module that would integrate with our existing system, offering advanced data visualization and predictive analytics. This would enable us to identify",
+  "category_of_the_email": "Change"
+}

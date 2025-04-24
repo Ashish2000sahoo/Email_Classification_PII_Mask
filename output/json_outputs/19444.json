@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Performance Issues in Data Analysis of Investment Models\n\nDear [Name],\\n\\nI am writing to address the performance issues encountered during the execution of data analysis for investment models at the financial firm You can reach me at sophia.rossi@service.it.. It appears these issues may be due to software conflicts or insufficient system resources. Efforts to shut down devices, update the software, and free up storage space have proven successful so far. However, further assistance is needed to fully resolve the problem.\\n\\nCould you please provide more details on the error messages and symptoms observed? This will help us gather necessary information, such as specific software configurations, to better address the issue. We would be happy to discuss this further and arrange a call to go into more detail.\\n\\nBest regards My name is Sophia Rossi.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        866,
+        878
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        256,
+        279
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support for Performance Issues in Data Analysis of Investment Models\n\nDear [Name],\\n\\nI am writing to address the performance issues encountered during the execution of data analysis for investment models at the financial firm You can reach me at [email].. It appears these issues may be due to software conflicts or insufficient system resources. Efforts to shut down devices, update the software, and free up storage space have proven successful so far. However, further assistance is needed to fully resolve the problem.\\n\\nCould you please provide more details on the error messages and symptoms observed? This will help us gather necessary information, such as specific software configurations, to better address the issue. We would be happy to discuss this further and arrange a call to go into more detail.\\n\\nBest regards My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

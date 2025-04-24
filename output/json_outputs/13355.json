@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding Billing Inconsistency Support\n\nEncountered a billing inconsistency affecting the subscription for multiple software tools. This might have resulted from processing errors at the end You can reach me at liuwei@business.cn.. Efforts to contact support through email have not yielded a response yet My name is Fatima Al-Farsi.. I would greatly appreciate any investigation into this matter and a prompt resolution if possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        332,
+        341
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        227,
+        245
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding Billing Inconsistency Support\n\nEncountered a billing inconsistency affecting the subscription for multiple software tools. This might have resulted from processing errors at the end You can reach me at [email].. Efforts to contact support through email have not yielded a response yet My name is [full_name]-Farsi.. I would greatly appreciate any investigation into this matter and a prompt resolution if possible.",
+  "category_of_the_email": "Incident"
+}

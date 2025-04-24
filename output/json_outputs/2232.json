@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investments Optimization Tool Problem\n\nThe investments optimization tool started malfunctioning unexpectedly, which may be related to a recent software update. I have already restarted the system, verified the data feeds, and updated the drivers, but the issue still exists My name is John Doe.. I would be grateful for prompt assistance to resolve this issue. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        294,
+        302
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        393,
+        415
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Investments Optimization Tool Problem\n\nThe investments optimization tool started malfunctioning unexpectedly, which may be related to a recent software update. I have already restarted the system, verified the data feeds, and updated the drivers, but the issue still exists My name is [full_name].. I would be grateful for prompt assistance to resolve this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

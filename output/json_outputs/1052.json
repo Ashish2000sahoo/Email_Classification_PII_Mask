@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserung des Investitionsportfolios\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um Datenanalysetools zu suchen, die die Optimierung der Portfolio-Verwaltung unterst\u00fctzen You can reach me at david.kim@corp.kr.. Ich bin interessiert an Informationen \u00fcber verf\u00fcgbare Tools und deren Unterst\u00fctzung bei informierten Entscheidungen bez\u00fcglich meiner Investitionen. K\u00f6nnten Sie mir bitte Informationen zu diesem Thema zur Verf\u00fcgung stellen? Ich w\u00fcrden jede R\u00fccksichtnahme oder Empfehlung sch\u00e4tzen, die Sie mir geben k\u00f6nnen My name is Maria Gonzalez.. Ich suche nach Tools, die mir helfen, Marktentwicklungen zu analysieren, Leistungsverlauf zu verfolgen und Bereichsfelder zur Verbesserung zu identifizieren. Vielen Dank f\u00fcr Ihr Engagement und Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        555,
+        569
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        219,
+        236
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Verbesserung des Investitionsportfolios\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich an Sie wenden, um Datenanalysetools zu suchen, die die Optimierung der Portfolio-Verwaltung unterst\u00fctzen You can reach me at [email].. Ich bin interessiert an Informationen \u00fcber verf\u00fcgbare Tools und deren Unterst\u00fctzung bei informierten Entscheidungen bez\u00fcglich meiner Investitionen. K\u00f6nnten Sie mir bitte Informationen zu diesem Thema zur Verf\u00fcgung stellen? Ich w\u00fcrden jede R\u00fccksichtnahme oder Empfehlung sch\u00e4tzen, die Sie mir geben k\u00f6nnen My name is [full_name].. Ich suche nach Tools, die mir helfen, Marktentwicklungen zu analysieren, Leistungsverlauf zu verfolgen und Bereichsfelder zur Verbesserung zu identifizieren. Vielen Dank f\u00fcr Ihr Engagement und Ihre Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Request"
+}

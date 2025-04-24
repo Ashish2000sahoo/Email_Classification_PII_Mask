@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Concurrent Tool Integrations\n\nThere were simultaneous failures with multiple tool integrations My name is John Doe.. This might be due to an API overload or synchronization problem. The system was restarted, reconnected, and user permissions were checked. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        129,
+        137
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        302,
+        325
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problems with Concurrent Tool Integrations\n\nThere were simultaneous failures with multiple tool integrations My name is [full_name].. This might be due to an API overload or synchronization problem. The system was restarted, reconnected, and user permissions were checked. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

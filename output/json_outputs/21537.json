@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nvor kurzem habe ich ein besch\u00e4digtes Dell XPS 13 9310 aus Ihrem Online-Shop erhalten You can reach me at omar.hassan@secure.net.. Ich bitte Sie, mich bez\u00fcglich der notwendigen Schritte zur R\u00fccksendung oder zum Austausch des defekten Artikels zu kontaktieren. Meine Kontonummer lautet <acc_num>. Sie k\u00f6nnen mich unter <tel_num> oder <email> f\u00fcr weitere Informationen erreichen.\n\nVielen Dank,\n<name> My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        454,
+        464
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        150,
+        172
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    },
+    {
+      "position": [
+        91,
+        98
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrtes Kundenserviceteam,\n\nvor kurzem habe ich ein besch\u00e4digtes Dell XPS [phone_number] aus Ihrem Online-Shop erhalten You can reach me at [email].. Ich bitte Sie, mich bez\u00fcglich der notwendigen Schritte zur R\u00fccksendung oder zum Austausch des defekten Artikels zu kontaktieren. Meine Kontonummer lautet <acc_num>. Sie k\u00f6nnen mich unter <tel_num> oder <email> f\u00fcr weitere Informationen erreichen.\n\nVielen Dank,\n<name> My name is [full_name].",
+  "category_of_the_email": "Request"
+}

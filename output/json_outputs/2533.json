@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\ngeehrte Kundenservice, ich schreibe Ihnen, um zu melden, dass zeitweise Verbindungsprobleme beim Projektmanagement-Software-as-a-Service (SaaS) bestehen. Die Probleme k\u00f6nnten aufgrund des neuesten Systemupgrades und Serverbelastung entstanden sein You can reach me at elena.ivanova@support.org.. Trotz des Servers neu startens und Caches l\u00f6srens blieben die Probleme bestehen. Benutzer haben Schwierigkeiten, die Plattform zu erreichen, und Produktivit\u00e4t wurde beeintr\u00e4chtigt. Ich sch\u00e4tze, wenn Sie die Angelegenheit dringend zuwenden und m\u00f6gliche Workarounds zur L\u00f6sung der Verbindungsprobleme anbieten k\u00f6nnten My name is John Doe.. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        634,
+        642
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        279,
+        304
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\ngeehrte Kundenservice, ich schreibe Ihnen, um zu melden, dass zeitweise Verbindungsprobleme beim Projektmanagement-Software-as-a-Service (SaaS) bestehen. Die Probleme k\u00f6nnten aufgrund des neuesten Systemupgrades und Serverbelastung entstanden sein You can reach me at [email].. Trotz des Servers neu startens und Caches l\u00f6srens blieben die Probleme bestehen. Benutzer haben Schwierigkeiten, die Plattform zu erreichen, und Produktivit\u00e4t wurde beeintr\u00e4chtigt. Ich sch\u00e4tze, wenn Sie die Angelegenheit dringend zuwenden und m\u00f6gliche Workarounds zur L\u00f6sung der Verbindungsprobleme anbieten k\u00f6nnten My name is [full_name].. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen.",
+  "category_of_the_email": "Incident"
+}

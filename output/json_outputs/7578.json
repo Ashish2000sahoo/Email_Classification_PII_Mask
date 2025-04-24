@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Fehlermeldung: Software-Ausfall w\u00e4hrend des Projekt-Synchronisierungs-Prozesses\n\nBeim Versuch, das Projekt zu synchronisieren, ist ein Software-Ausfall aufgetreten. Ich habe das Programm bereits neu gestartet und aktualisiert.. My contact number is +39-06-8899-1122.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        258,
+        274
+      ],
+      "classification": "phone_number",
+      "entity": "+39-06-8899-1122"
+    }
+  ],
+  "masked_email": "Subject: Fehlermeldung: Software-Ausfall w\u00e4hrend des Projekt-Synchronisierungs-Prozesses\n\nBeim Versuch, das Projekt zu synchronisieren, ist ein Software-Ausfall aufgetreten. Ich habe das Programm bereits neu gestartet und aktualisiert.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

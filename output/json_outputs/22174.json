@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: \n\nDear Customer Support,\n\nI hope this message finds you well. I recently purchased a Dell XPS 13 9310 and am looking to acquire some compatible accessories for this model My name is Carlos Mendoza.. Specifically, I am interested in adapters that are guaranteed to work with the Dell XPS 13 9310. Could you please provide me with a list of available accessories and compatible adapters for this laptop? Additionally, if there are any ongoing promotions or bundle deals for these accessories, kindly include that information as well You can reach me at janesmith@company.com.. I look forward to your response.\n\nThank you!\n\nBest regards,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        205
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        557,
+        578
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        103,
+        110
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        293,
+        300
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: \n\nDear Customer Support,\n\nI hope this message finds you well. I recently purchased a Dell XPS [phone_number] and am looking to acquire some compatible accessories for this model My name is [full_name].. Specifically, I am interested in adapters that are guaranteed to work with the Dell XPS [phone_number]. Could you please provide me with a list of available accessories and compatible adapters for this laptop? Additionally, if there are any ongoing promotions or bundle deals for these accessories, kindly include that information as well You can reach me at [email].. I look forward to your response.\n\nThank you!\n\nBest regards,\n<name>",
+  "category_of_the_email": "Request"
+}

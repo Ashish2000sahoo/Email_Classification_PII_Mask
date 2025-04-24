@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Digital Marketing Enhancements\n\nCustomer Support Team, we are writing to request enhancements to our digital marketing strategies across various platforms You can reach me at carlosm@gmail.com.. Our goal is to drive brand growth and improve customer engagement. We would like to explore new ways to reach our target audience and increase our online presence My name is Fatima Al-Farsi.. Specifically, we are interested in optimizing our social media campaigns, improving the user experience on our website, and developing targeted email marketing initiatives. We believe that by leveraging these strategies, we can increase our brand's visibility and success.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        390,
+        399
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        196,
+        213
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Request for Digital Marketing Enhancements\n\nCustomer Support Team, we are writing to request enhancements to our digital marketing strategies across various platforms You can reach me at [email].. Our goal is to drive brand growth and improve customer engagement. We would like to explore new ways to reach our target audience and increase our online presence My name is [full_name]-Farsi.. Specifically, we are interested in optimizing our social media campaigns, improving the user experience on our website, and developing targeted email marketing initiatives. We believe that by leveraging these strategies, we can increase our brand's visibility and success.",
+  "category_of_the_email": "Change"
+}

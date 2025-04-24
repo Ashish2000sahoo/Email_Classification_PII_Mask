@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Device Synchronization in Project Management SaaS Application\n\nHello Customer Support, I am reporting an issue with the device synchronization process in our project management SaaS application. Despite recent software updates, the application continues to fail when syncing multiple devices, including iOS and PC. I have tried clearing the cache and reinstalling the application, but the issue still persists You can reach me at fatima.farsi@help.com.. I suspect it might be due to server overload or compatibility issues with the latest software updates My name is Sophia Rossi.. I would greatly appreciate if you could look into this matter and provide a solution as soon as possible. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        589,
+        601
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        452,
+        473
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problem with Device Synchronization in Project Management SaaS Application\n\nHello Customer Support, I am reporting an issue with the device synchronization process in our project management SaaS application. Despite recent software updates, the application continues to fail when syncing multiple devices, including iOS and PC. I have tried clearing the cache and reinstalling the application, but the issue still persists You can reach me at [email].. I suspect it might be due to server overload or compatibility issues with the latest software updates My name is [full_name].. I would greatly appreciate if you could look into this matter and provide a solution as soon as possible. Thank you.",
+  "category_of_the_email": "Incident"
+}

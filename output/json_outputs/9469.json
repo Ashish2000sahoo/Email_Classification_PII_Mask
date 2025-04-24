@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Medical Data Encryption Using Kaspersky\n\nHello customer support, I am contacting you to report an issue with the encryption of my medical data My name is Jane Smith.. It seems the encryption has failed, and I believe it could be because of an outdated version of the Kaspersky software. Despite restarting the VPN-Router and updating Drupal Commerce, the problem still exists. I would greatly appreciate any help in resolving this You can reach me at liuwei@business.cn.. Could you please guide me on any further steps I need to take to troubleshoot the problem? Thank you for your assistance.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        176,
+        186
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        474,
+        492
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problem with Medical Data Encryption Using Kaspersky\n\nHello customer support, I am contacting you to report an issue with the encryption of my medical data My name is [full_name].. It seems the encryption has failed, and I believe it could be because of an outdated version of the Kaspersky software. Despite restarting the VPN-Router and updating Drupal Commerce, the problem still exists. I would greatly appreciate any help in resolving this You can reach me at [email].. Could you please guide me on any further steps I need to take to troubleshoot the problem? Thank you for your assistance.",
+  "category_of_the_email": "Incident"
+}

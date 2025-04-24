@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Serious Data Security Issue with Medical Data Collection System\n\nDear Customer Support, I am writing to report a severe data security issue with our medical data collection system. A data breach has been identified, and it is suspected that outdated security protocols may be at fault. Our security team has tested and strengthened security measures, but there are still vulnerabilities My name is Liu Wei.. We fear that a data breach could compromise sensitive patient data and lead to potential consequences You can reach me at fatima.farsi@help.com.. Please assess the situation and provide immediate guidelines to prevent future incidents. Kindly investigate the issue and provide a prompt solution as soon as possible.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        407,
+        414
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        543,
+        564
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Serious Data Security Issue with Medical Data Collection System\n\nDear Customer Support, I am writing to report a severe data security issue with our medical data collection system. A data breach has been identified, and it is suspected that outdated security protocols may be at fault. Our security team has tested and strengthened security measures, but there are still vulnerabilities My name is [full_name].. We fear that a data breach could compromise sensitive patient data and lead to potential consequences You can reach me at [email].. Please assess the situation and provide immediate guidelines to prevent future incidents. Kindly investigate the issue and provide a prompt solution as soon as possible.",
+  "category_of_the_email": "Incident"
+}

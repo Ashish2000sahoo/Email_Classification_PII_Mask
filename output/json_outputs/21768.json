@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Dringende Unterst\u00fctzung f\u00fcr AWS-Dienste ben\u00f6tigt\n\nSehr geehrtes IT-Serviceteam,\n\nich schreibe, um Sie dar\u00fcber zu informieren, dass die AWS-Dienste derzeit nicht verf\u00fcgbar sind, was erheblichen Einfluss auf mehrere Produkte in unserem Betrieb hat. Das am st\u00e4rksten betroffene Produkt ist der AWS Management Service, der als entscheidende Komponente f\u00fcr unsere t\u00e4glichen Aktivit\u00e4ten dient. Wir erleben erhebliche Unterbrechungen und w\u00fcrden Ihre dringende Unterst\u00fctzung sehr sch\u00e4tzen, um die Wiederherstellung dieser Cloud-Dienste zu beschleunigen. Diese Angelegenheit erfordert sofortige Aufmerksamkeit, da es dringend notwendig ist, Ausfallzeiten und betriebliche Verluste zu minimieren You can reach me at elena.ivanova@support.org.. Bitte lassen Sie uns den voraussichtlichen Zeitrahmen f\u00fcr die Wiederherstellung der Dienste wissen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        959,
+        967
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        715,
+        740
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Dringende Unterst\u00fctzung f\u00fcr AWS-Dienste ben\u00f6tigt\n\nSehr geehrtes IT-Serviceteam,\n\nich schreibe, um Sie dar\u00fcber zu informieren, dass die AWS-Dienste derzeit nicht verf\u00fcgbar sind, was erheblichen Einfluss auf mehrere Produkte in unserem Betrieb hat. Das am st\u00e4rksten betroffene Produkt ist der AWS Management Service, der als entscheidende Komponente f\u00fcr unsere t\u00e4glichen Aktivit\u00e4ten dient. Wir erleben erhebliche Unterbrechungen und w\u00fcrden Ihre dringende Unterst\u00fctzung sehr sch\u00e4tzen, um die Wiederherstellung dieser Cloud-Dienste zu beschleunigen. Diese Angelegenheit erfordert sofortige Aufmerksamkeit, da es dringend notwendig ist, Ausfallzeiten und betriebliche Verluste zu minimieren You can reach me at [email].. Bitte lassen Sie uns den voraussichtlichen Zeitrahmen f\u00fcr die Wiederherstellung der Dienste wissen.\n\nVielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Incident of Security Breach in Hospital Systems\n\nThere has been an unauthorized access to medical data, despite the security measures in place, which might be due to vulnerabilities in the hospital systems. Efforts to mitigate the issue, such as software updates and enhanced firewalls, have been made but unauthorized access continues My name is John Doe.. Immediate assistance is needed to resolve the issue and ensure the security of patient data. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        364
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        483,
+        500
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Incident of Security Breach in Hospital Systems\n\nThere has been an unauthorized access to medical data, despite the security measures in place, which might be due to vulnerabilities in the hospital systems. Efforts to mitigate the issue, such as software updates and enhanced firewalls, have been made but unauthorized access continues My name is [full_name].. Immediate assistance is needed to resolve the issue and ensure the security of patient data. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

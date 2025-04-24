@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: MacBook Air M1 \u00dcberhitzungsprobleme w\u00e4hrend der Benutzung\n\nSehr geehrter Kundenservice,\n\nIch habe \u00dcberhitzungsprobleme mit meinem MacBook Air M1 w\u00e4hrend des Ladevorgangs und der regul\u00e4ren Benutzung, was zu Leistungsproblemen f\u00fchrt My name is Carlos Mendoza.. Bitte geben Sie mir Hinweise, wie ich das Problem l\u00f6sen kann. Ihre Unterst\u00fctzung wird sehr gesch\u00e4tzt.\n\nVielen Dank,\n\n<name> You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        251,
+        265
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        409,
+        426
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: MacBook Air M1 \u00dcberhitzungsprobleme w\u00e4hrend der Benutzung\n\nSehr geehrter Kundenservice,\n\nIch habe \u00dcberhitzungsprobleme mit meinem MacBook Air M1 w\u00e4hrend des Ladevorgangs und der regul\u00e4ren Benutzung, was zu Leistungsproblemen f\u00fchrt My name is [full_name].. Bitte geben Sie mir Hinweise, wie ich das Problem l\u00f6sen kann. Ihre Unterst\u00fctzung wird sehr gesch\u00e4tzt.\n\nVielen Dank,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

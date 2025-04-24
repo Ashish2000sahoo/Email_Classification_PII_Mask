@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Trouble with Project Task Syncing Due to Third-Party Integration Issues\n\nI am encountering difficulties with project tasks not syncing because of integration problems with third-party tools My name is Sophia Rossi.. Despite restarting the application and reviewing the settings, the issue continues You can reach me at elena.ivanova@support.org.. I would greatly appreciate any assistance in addressing this problem. Could you please guide me on the next steps to take?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        210,
+        222
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        327,
+        352
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Trouble with Project Task Syncing Due to Third-Party Integration Issues\n\nI am encountering difficulties with project tasks not syncing because of integration problems with third-party tools My name is [full_name].. Despite restarting the application and reviewing the settings, the issue continues You can reach me at [email].. I would greatly appreciate any assistance in addressing this problem. Could you please guide me on the next steps to take?",
+  "category_of_the_email": "Incident"
+}

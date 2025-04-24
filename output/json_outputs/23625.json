@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Cloud Service Outage Inquiry\n\nDear Customer Support Team, we are experiencing an unexpected outage affecting our AWS Management Service My name is Elena Ivanova.. Please investigate the cause urgently. Additionally, we request a review of daily maintenance processes for potential optimization to prevent future occurrences You can reach me at david.kim@corp.kr.. Thank you, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        156,
+        169
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        351,
+        368
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Cloud Service Outage Inquiry\n\nDear Customer Support Team, we are experiencing an unexpected outage affecting our AWS Management Service My name is [full_name].. Please investigate the cause urgently. Additionally, we request a review of daily maintenance processes for potential optimization to prevent future occurrences You can reach me at [email].. Thank you, <name>.",
+  "category_of_the_email": "Incident"
+}

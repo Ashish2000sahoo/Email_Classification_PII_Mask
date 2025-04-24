@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern about Data Analytics\n\nChallenging Issue with Data Processing Software, Impacting Operational Efficiency My name is Omar Hassan.. Problem of Functional Error in Router Software Incompatibility Affects Relevant Applications You can reach me at carlosm@gmail.com.. Attempts to Resolve by Restarting Google Nest Wifi Router and Activating Affected Applications, Unfortunately, No Success Yet. Team Continues to Address the Issue, Aiming to Minimize Impact on Business Operations. Kindly Assist in Swiftly Resolving the Problem to Ensure Minimal Disruption to Business Activities. Please Share Steps to Take for Solving the Issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        132,
+        143
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        259,
+        276
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern about Data Analytics\n\nChallenging Issue with Data Processing Software, Impacting Operational Efficiency My name is [full_name].. Problem of Functional Error in Router Software Incompatibility Affects Relevant Applications You can reach me at [email].. Attempts to Resolve by Restarting Google Nest Wifi Router and Activating Affected Applications, Unfortunately, No Success Yet. Team Continues to Address the Issue, Aiming to Minimize Impact on Business Operations. Kindly Assist in Swiftly Resolving the Problem to Ensure Minimal Disruption to Business Activities. Please Share Steps to Take for Solving the Issue.",
+  "category_of_the_email": "Incident"
+}

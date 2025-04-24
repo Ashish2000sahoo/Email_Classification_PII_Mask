@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Health Data Security Solutions\n\nDear Customer Support, I am writing to inquire about health data security solutions for clinical IT services You can reach me at liuwei@business.cn.. Could you provide more detailed information on the offered services and their benefits for our organization? I would appreciate learning more about aspects of data security and compliance assistance for IT infrastructure. Thank you for your time and support. I look forward to hearing back soon. My name is Omar Hassan.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        510,
+        521
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        182,
+        200
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Request for Health Data Security Solutions\n\nDear Customer Support, I am writing to inquire about health data security solutions for clinical IT services You can reach me at [email].. Could you provide more detailed information on the offered services and their benefits for our organization? I would appreciate learning more about aspects of data security and compliance assistance for IT infrastructure. Thank you for your time and support. I look forward to hearing back soon. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

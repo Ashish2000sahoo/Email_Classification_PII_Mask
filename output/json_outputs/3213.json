@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Advice on Safeguarding Medical Data in PostgreSQL 13\n\nI am seeking guidance on securing medical data in a PostgreSQL 13 environment within a hospital setting. Could you provide best practices and recommendations to ensure the confidentiality, integrity, and availability of sensitive patient information? Specifically, I am interested in learning about encryption methods, access control strategies, and backup procedures My name is Omar Hassan.. Additionally, I need to know if there are specific configuration settings that must be implemented to meet HIPAA regulatory requirements You can reach me at omar.hassan@secure.net.. I would greatly appreciate any resources or documentation that can help us secure this sensitive data.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        442,
+        453
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        613,
+        635
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Advice on Safeguarding Medical Data in PostgreSQL 13\n\nI am seeking guidance on securing medical data in a PostgreSQL 13 environment within a hospital setting. Could you provide best practices and recommendations to ensure the confidentiality, integrity, and availability of sensitive patient information? Specifically, I am interested in learning about encryption methods, access control strategies, and backup procedures My name is [full_name].. Additionally, I need to know if there are specific configuration settings that must be implemented to meet HIPAA regulatory requirements You can reach me at [email].. I would greatly appreciate any resources or documentation that can help us secure this sensitive data.",
+  "category_of_the_email": "Request"
+}

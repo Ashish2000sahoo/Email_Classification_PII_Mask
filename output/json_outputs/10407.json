@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Detection of Unauthorized Access Attempt\n\nAn unauthorized access attempt was identified on the hospital's systems, likely due to a phishing attack My name is Elena Ivanova.. Password resets are being initiated, and access logs are being reviewed to secure the data. The incident is being investigated to determine the cause and to prevent future occurrences. You can reach me at fatima.farsi@help.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        167,
+        180
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        386,
+        407
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Detection of Unauthorized Access Attempt\n\nAn unauthorized access attempt was identified on the hospital's systems, likely due to a phishing attack My name is [full_name].. Password resets are being initiated, and access logs are being reviewed to secure the data. The incident is being investigated to determine the cause and to prevent future occurrences. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Analysis Software Not Working Properly Today\n\nThe data analysis software is not functioning correctly. It may be due to a software compatibility problem. After restarting the systems and verifying the updates, the issue still exists My name is Elena Ivanova.. I urgently need help to fix this problem. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        271,
+        284
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        347,
+        370
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Analysis Software Not Working Properly Today\n\nThe data analysis software is not functioning correctly. It may be due to a software compatibility problem. After restarting the systems and verifying the updates, the issue still exists My name is [full_name].. I urgently need help to fix this problem. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

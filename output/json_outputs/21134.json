@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Issue with Printer Connectivity After Update\n\nHello, I am experiencing issues with my Canon PIXMA MG3620 printer. Since the latest firmware update, it is no longer connecting to WiFi. This problem prevents me from utilizing its wireless and duplex printing capabilities My name is Liu Wei.. I have tried resetting the printer and my network, but the problem persists. Can you please assist me in resolving this issue as soon as possible? Thank you, <name>, <tel_num>, <acc_num> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        290,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        511,
+        532
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        109,
+        113
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Issue with Printer Connectivity After Update\n\nHello, I am experiencing issues with my Canon PIXMA MG[phone_number] printer. Since the latest firmware update, it is no longer connecting to WiFi. This problem prevents me from utilizing its wireless and duplex printing capabilities My name is [full_name].. I have tried resetting the printer and my network, but the problem persists. Can you please assist me in resolving this issue as soon as possible? Thank you, <name>, <tel_num>, <acc_num> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

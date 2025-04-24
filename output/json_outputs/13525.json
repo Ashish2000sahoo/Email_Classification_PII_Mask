@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Enquiring About Digital Marketing Strategy Services\n\nI would like to learn more about your digital marketing strategy development services. Could you give me details on the services you provide?. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        226,
+        242
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Enquiring About Digital Marketing Strategy Services\n\nI would like to learn more about your digital marketing strategy development services. Could you give me details on the services you provide?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

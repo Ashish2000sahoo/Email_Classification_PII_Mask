@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: System\n\nMarketing agency facing system downtime impacting digital strategy tools You can reach me at elena.ivanova@support.org.. Despite attempts to restart the software and clear cache, the issue continues My name is Jane Smith.. Recent updates might be the cause.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        227,
+        237
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        110,
+        135
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: System\n\nMarketing agency facing system downtime impacting digital strategy tools You can reach me at [email].. Despite attempts to restart the software and clear cache, the issue continues My name is [full_name].. Recent updates might be the cause.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Sync Concern\n\nHello Customer Support, I am contacting you to report a problem with project timelines failing to sync across tools. This issue has appeared recently and I suspect it might be related to conflicting integrations or outdated plugins. Despite restarting Waves and reviewing Adobe settings, the problem remains unresolved You can reach me at fatima.farsi@help.com.. I would be very grateful if you could investigate this issue and offer a solution as quickly as possible My name is Carlos Mendoza.. Please inform me if any additional information is required from me to address this. I am available to provide more details or clarify any points as needed. Thank you for your time and assistance. I await your response. Best regards, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        502,
+        516
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        362,
+        383
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Sync Concern\n\nHello Customer Support, I am contacting you to report a problem with project timelines failing to sync across tools. This issue has appeared recently and I suspect it might be related to conflicting integrations or outdated plugins. Despite restarting Waves and reviewing Adobe settings, the problem remains unresolved You can reach me at [email].. I would be very grateful if you could investigate this issue and offer a solution as quickly as possible My name is [full_name].. Please inform me if any additional information is required from me to address this. I am available to provide more details or clarify any points as needed. Thank you for your time and assistance. I await your response. Best regards, [Your Name]",
+  "category_of_the_email": "Incident"
+}

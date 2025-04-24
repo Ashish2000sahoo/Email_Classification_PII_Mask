@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Fehler bei der Code-Vervollst\u00e4ndigung in IntelliJ IDEA\n\nSehr geehrter <name> Kundenservice,\n\nich schreibe, um Ihre Aufmerksamkeit auf ein wiederkehrendes Problem mit der Code-Vervollst\u00e4ndigung in IntelliJ IDEA 2024.1 zu lenken You can reach me at carlosm@gmail.com.. Dieses bestimmte Problem f\u00fchrt h\u00e4ufig dazu, dass die Anwendung w\u00e4hrend der Entwicklung abst\u00fcrzt, was meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt My name is Liu Wei.. Jedes Mal, wenn ich versuche, die Code-Vervollst\u00e4ndigungsfunktion zu verwenden, wird die Software unresponsiv und f\u00fchrt schlie\u00dflich zu einem Absturz. Ich habe die \u00fcblichen Fehlerbehebungsma\u00dfnahmen wie die Neuinstallation und das Anwenden der neuesten Updates ausprobiert, aber das Problem besteht weiterhin. Ich w\u00fcrde Ihre Anleitung zur L\u00f6sung dieses Problems so schnell wie m\u00f6glich sch\u00e4tzen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        433,
+        440
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        256,
+        273
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        219,
+        223
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Fehler bei der Code-Vervollst\u00e4ndigung in IntelliJ IDEA\n\nSehr geehrter <name> Kundenservice,\n\nich schreibe, um Ihre Aufmerksamkeit auf ein wiederkehrendes Problem mit der Code-Vervollst\u00e4ndigung in IntelliJ IDEA [phone_number].1 zu lenken You can reach me at [email].. Dieses bestimmte Problem f\u00fchrt h\u00e4ufig dazu, dass die Anwendung w\u00e4hrend der Entwicklung abst\u00fcrzt, was meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt My name is [full_name].. Jedes Mal, wenn ich versuche, die Code-Vervollst\u00e4ndigungsfunktion zu verwenden, wird die Software unresponsiv und f\u00fchrt schlie\u00dflich zu einem Absturz. Ich habe die \u00fcblichen Fehlerbehebungsma\u00dfnahmen wie die Neuinstallation und das Anwenden der neuesten Updates ausprobiert, aber das Problem besteht weiterhin. Ich w\u00fcrde Ihre Anleitung zur L\u00f6sung dieses Problems so schnell wie m\u00f6glich sch\u00e4tzen. Vielen Dank f\u00fcr Ihre Aufmerksamkeit.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>",
+  "category_of_the_email": "Incident"
+}

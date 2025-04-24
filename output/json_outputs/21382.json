@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problema con Zoom 5.11.0 durante el seminario web\n\nEstimado Soporte, Durante nuestro reciente seminario web utilizando Zoom 5.11.0, los asistentes experimentaron cortes de audio repetidos y problemas de conectividad My name is Carlos Mendoza.. Por favor, gu\u00edenos sobre c\u00f3mo resolver este asunto urgente You can reach me at liuwei@business.cn.. Gracias, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        250
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        329,
+        347
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Problema con Zoom 5.11.0 durante el seminario web\n\nEstimado Soporte, Durante nuestro reciente seminario web utilizando Zoom 5.11.0, los asistentes experimentaron cortes de audio repetidos y problemas de conectividad My name is [full_name].. Por favor, gu\u00edenos sobre c\u00f3mo resolver este asunto urgente You can reach me at [email].. Gracias, <name>",
+  "category_of_the_email": "Incident"
+}

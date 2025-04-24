@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Financial Firm's Data Analytics Tool\n\nCustomer Support, encountering issues with the report generation for the financial firm's data analytics tool. The tool is malfunctioning, leading to inaccurate investment optimization results. Have already tried updating the relevant software and reviewed the error logs for insights, but the issue remains unresolved My name is Jane Smith.. Possible causes of the problem might be software integration issues or outdated data inputs You can reach me at david.kim@corp.kr.. We would greatly appreciate your assistance in resolving this matter at your earliest convenience. Please let us know how we can proceed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        390,
+        400
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        516,
+        533
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Financial Firm's Data Analytics Tool\n\nCustomer Support, encountering issues with the report generation for the financial firm's data analytics tool. The tool is malfunctioning, leading to inaccurate investment optimization results. Have already tried updating the relevant software and reviewed the error logs for insights, but the issue remains unresolved My name is [full_name].. Possible causes of the problem might be software integration issues or outdated data inputs You can reach me at [email].. We would greatly appreciate your assistance in resolving this matter at your earliest convenience. Please let us know how we can proceed.",
+  "category_of_the_email": "Incident"
+}

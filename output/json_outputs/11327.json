@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Detailed Documentation on API Integrations and Project Management Features\n\nWe would appreciate it if you could provide detailed documentation on API integrations and project management features to help us better understand and implement these features to their fullest potential. Clear and concise documentation would enable us to streamline our workflow and improve overall productivity My name is John Doe.. Your timely assistance is greatly appreciated, and we look forward to hearing back from you soon. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        421,
+        429
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        553,
+        575
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Detailed Documentation on API Integrations and Project Management Features\n\nWe would appreciate it if you could provide detailed documentation on API integrations and project management features to help us better understand and implement these features to their fullest potential. Clear and concise documentation would enable us to streamline our workflow and improve overall productivity My name is [full_name].. Your timely assistance is greatly appreciated, and we look forward to hearing back from you soon. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

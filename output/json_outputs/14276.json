@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem mit dem Ger\u00e4te-Synchronisierungsprozess\n\nSehr geehrte Kundenservice, ich melden Fehler in der Projektmanagement-Software-as-a-Service My name is John Doe.. Die Anwendung synchronisiert mehrere Ger\u00e4te, einschlie\u00dflich iOS und PC. Trotz der neuen Software-Updates besteht der Fehler weiterhin You can reach me at janesmith@company.com.. Ich habe versucht, den Cache zu l\u00f6schen und die App neu zu installieren, aber das Problem ist nicht behoben. Ich glaube, dass Serverbelastung und Kompatibilit\u00e4tsprobleme nach den neuesten Software-Updates die Ursache sein k\u00f6nnten. Ich sch\u00e4tze, Sie k\u00f6nnten schnell eine L\u00f6sung bereithalten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        162,
+        170
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        330,
+        351
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Problem mit dem Ger\u00e4te-Synchronisierungsprozess\n\nSehr geehrte Kundenservice, ich melden Fehler in der Projektmanagement-Software-as-a-Service My name is [full_name].. Die Anwendung synchronisiert mehrere Ger\u00e4te, einschlie\u00dflich iOS und PC. Trotz der neuen Software-Updates besteht der Fehler weiterhin You can reach me at [email].. Ich habe versucht, den Cache zu l\u00f6schen und die App neu zu installieren, aber das Problem ist nicht behoben. Ich glaube, dass Serverbelastung und Kompatibilit\u00e4tsprobleme nach den neuesten Software-Updates die Ursache sein k\u00f6nnten. Ich sch\u00e4tze, Sie k\u00f6nnten schnell eine L\u00f6sung bereithalten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

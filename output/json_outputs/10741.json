@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Frage zum Kundendienst\n\nK\u00f6nnten Sie mehr \u00fcber digitalen Strategien und deren Wirkung auf die Markengr\u00f6\u00dfe erl\u00e4utern? Vielen Dank.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        160,
+        175
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Frage zum Kundendienst\n\nK\u00f6nnten Sie mehr \u00fcber digitalen Strategien und deren Wirkung auf die Markengr\u00f6\u00dfe erl\u00e4utern? Vielen Dank.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

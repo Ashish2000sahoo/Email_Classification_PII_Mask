@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issue with Login Functionality\n\nI am encountering difficulties with the login feature. This issue has suddenly appeared and I suspect it might be caused by server overload or authentication issues. I have already attempted to restart the server, reviewed the logs, and tested my credentials, but the problem persists My name is David Kim.. I would appreciate if you could take this matter into consideration and provide a solution as soon as possible. Kindly notify me if you require further details to resolve this issue. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        337,
+        346
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        554,
+        571
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Issue with Login Functionality\n\nI am encountering difficulties with the login feature. This issue has suddenly appeared and I suspect it might be caused by server overload or authentication issues. I have already attempted to restart the server, reviewed the logs, and tested my credentials, but the problem persists My name is [full_name].. I would appreciate if you could take this matter into consideration and provide a solution as soon as possible. Kindly notify me if you require further details to resolve this issue. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

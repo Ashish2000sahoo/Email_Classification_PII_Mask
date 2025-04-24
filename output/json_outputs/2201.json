@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem Regarding Data Encryption\n\nHello Customer Support, I am contacting you to report an ongoing issue with data encryption on our server. It appears the problem may be due to some software inconsistencies. After several attempts to troubleshoot, including restarting the server and reviewing the configuration, the issue still occurs. I have been unable to pinpoint the exact cause, and this problem is currently causing delays in our operations My name is Jane Smith.. I would greatly appreciate your assistance in identifying and fixing the source of the problem. If you need any additional information or steps from my side to resolve this, please inform me You can reach me at johndoe@email.com.. I have already tried restarting the server and checking the configuration settings, but to no avail. I am requesting your help to address this matter promptly. Please let me know if there are any specific details or actions I need to take. I am available to provide more details or answer any of your queries. Thank you in advance for your support in resolving this data encryption issue. I look forward to your response and am reachable for further assistance if needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        470,
+        480
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        695,
+        712
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Problem Regarding Data Encryption\n\nHello Customer Support, I am contacting you to report an ongoing issue with data encryption on our server. It appears the problem may be due to some software inconsistencies. After several attempts to troubleshoot, including restarting the server and reviewing the configuration, the issue still occurs. I have been unable to pinpoint the exact cause, and this problem is currently causing delays in our operations My name is [full_name].. I would greatly appreciate your assistance in identifying and fixing the source of the problem. If you need any additional information or steps from my side to resolve this, please inform me You can reach me at [email].. I have already tried restarting the server and checking the configuration settings, but to no avail. I am requesting your help to address this matter promptly. Please let me know if there are any specific details or actions I need to take. I am available to provide more details or answer any of your queries. Thank you in advance for your support in resolving this data encryption issue. I look forward to your response and am reachable for further assistance if needed.",
+  "category_of_the_email": "Incident"
+}

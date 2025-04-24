@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Solicitud de Soporte Urgente: Problema con Dell XPS 13 9310\n\nEstimado Equipo de Soporte al Cliente,\n\nEstoy escribiendo para llamar su atenci\u00f3n sobre un problema recurrente que he estado experimentando con mi Dell XPS 13 9310. Despu\u00e9s de la \u00faltima actualizaci\u00f3n de Windows, mi dispositivo ha comenzado a mostrar un error persistente de pantalla azul, afectando significativamente su rendimiento y usabilidad.\n\nEste problema comenz\u00f3 inmediatamente despu\u00e9s de la instalaci\u00f3n de la nueva actualizaci\u00f3n, con la pantalla azul apareciendo casi cada vez que enciendo o reinicio la computadora. Adem\u00e1s, el rendimiento general del dispositivo ha disminuido notablemente, con tareas que deber\u00edan ser simples ahora tomando considerablemente m\u00e1s tiempo y aplicaciones que suelen fallar con frecuencia.\n\nDependiendo en gran medida de esta computadora port\u00e1til para el trabajo y tareas personales, este problema es particularmente urgente My name is Jane Smith.. Intent\u00e9 algunos pasos b\u00e1sicos de soluci\u00f3n de problemas como reiniciar en modo seguro y buscar m\u00e1s actualizaciones del sistema, pero el problema persiste.\n\nPor favor, asesorar sobre posibles soluciones o si este es un problema conocido con una soluci\u00f3n actual en curso. Entendiendo cu\u00e1n cr\u00edtico es este dispositivo para mi rutina diaria, agradecer\u00eda una respuesta r\u00e1pida.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>\n<email_address>\n<tel_num>\n<acc_num> You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        944,
+        954
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        1454,
+        1471
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        61,
+        68
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    },
+    {
+      "position": [
+        226,
+        233
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Solicitud de Soporte Urgente: Problema con Dell XPS [phone_number]\n\nEstimado Equipo de Soporte al Cliente,\n\nEstoy escribiendo para llamar su atenci\u00f3n sobre un problema recurrente que he estado experimentando con mi Dell XPS [phone_number]. Despu\u00e9s de la \u00faltima actualizaci\u00f3n de Windows, mi dispositivo ha comenzado a mostrar un error persistente de pantalla azul, afectando significativamente su rendimiento y usabilidad.\n\nEste problema comenz\u00f3 inmediatamente despu\u00e9s de la instalaci\u00f3n de la nueva actualizaci\u00f3n, con la pantalla azul apareciendo casi cada vez que enciendo o reinicio la computadora. Adem\u00e1s, el rendimiento general del dispositivo ha disminuido notablemente, con tareas que deber\u00edan ser simples ahora tomando considerablemente m\u00e1s tiempo y aplicaciones que suelen fallar con frecuencia.\n\nDependiendo en gran medida de esta computadora port\u00e1til para el trabajo y tareas personales, este problema es particularmente urgente My name is [full_name].. Intent\u00e9 algunos pasos b\u00e1sicos de soluci\u00f3n de problemas como reiniciar en modo seguro y buscar m\u00e1s actualizaciones del sistema, pero el problema persiste.\n\nPor favor, asesorar sobre posibles soluciones o si este es un problema conocido con una soluci\u00f3n actual en curso. Entendiendo cu\u00e1n cr\u00edtico es este dispositivo para mi rutina diaria, agradecer\u00eda una respuesta r\u00e1pida.\n\nGracias por su pronta atenci\u00f3n a este asunto.\n\nAtentamente,\n\n<name>\n<email_address>\n<tel_num>\n<acc_num> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

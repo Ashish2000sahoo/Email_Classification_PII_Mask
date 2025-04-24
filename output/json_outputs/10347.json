@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Request Regarding Investment Analysis Tool\n\nRegarding the investment analysis tool used by a financial company, inaccurate predictions are being generated due to data transmission imbalances. Despite validating the data sources and regenerating algorithms, the issues persist.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        333
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Support Request Regarding Investment Analysis Tool\n\nRegarding the investment analysis tool used by a financial company, inaccurate predictions are being generated due to data transmission imbalances. Despite validating the data sources and regenerating algorithms, the issues persist.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

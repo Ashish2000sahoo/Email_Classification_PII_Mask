@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Message about System Downtime\n\nExperiencing system downtimes that have impacted the functionalities of our SaaS project management tools. These issues seem to be due to integration conflicts with third-party systems My name is Omar Hassan.. Despite attempts to restart services and update dependencies, the system logs did not reveal the source of the errors. These outages have significantly disrupted our business operations, and urgent assistance is required to resolve the problem. Please investigate the issue and provide a solution as soon as possible. You can reach me at johndoe@email.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        236,
+        247
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        588,
+        605
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Message about System Downtime\n\nExperiencing system downtimes that have impacted the functionalities of our SaaS project management tools. These issues seem to be due to integration conflicts with third-party systems My name is [full_name].. Despite attempts to restart services and update dependencies, the system logs did not reveal the source of the errors. These outages have significantly disrupted our business operations, and urgent assistance is required to resolve the problem. Please investigate the issue and provide a solution as soon as possible. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

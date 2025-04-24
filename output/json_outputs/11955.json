@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern Regarding Data Analytics Service\n\nOur service for data analytics has encountered a disruption that affects the optimization of your investment. This issue might be due to recent server maintenance.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        237,
+        252
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Data Analytics Service\n\nOur service for data analytics has encountered a disruption that affects the optimization of your investment. This issue might be due to recent server maintenance.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Details on Scalable Project Management SaaS Solutions\n\nLooking for information on product integration for scalable project management SaaS. Interested in learning how it can benefit my business You can reach me at janesmith@company.com.. Appreciate your help. Thanks for your assistance. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        308,
+        318
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        223,
+        244
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Details on Scalable Project Management SaaS Solutions\n\nLooking for information on product integration for scalable project management SaaS. Interested in learning how it can benefit my business You can reach me at [email].. Appreciate your help. Thanks for your assistance. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

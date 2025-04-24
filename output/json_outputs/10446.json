@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancements for Medical Data Security Protocols\n\nRequesting improvements to security protocols for managing medical data across hospital systems affecting various products. It is essential to protect sensitive patient information to prevent potential data breaches My name is Omar Hassan.. I would greatly appreciate it if you could address this matter urgently and provide a plan of action to address these concerns You can reach me at maria.gonzalez@shop.es.. Please inform me if any additional information is needed.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        286,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        447,
+        469
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Enhancements for Medical Data Security Protocols\n\nRequesting improvements to security protocols for managing medical data across hospital systems affecting various products. It is essential to protect sensitive patient information to prevent potential data breaches My name is [full_name].. I would greatly appreciate it if you could address this matter urgently and provide a plan of action to address these concerns You can reach me at [email].. Please inform me if any additional information is needed.",
+  "category_of_the_email": "Change"
+}

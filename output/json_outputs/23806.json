@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt f\u00fcr die kabellose Einrichtung des Druckers\n\nSehr geehrtes Kundenserviceteam, ich hoffe, diese Nachricht erreicht Sie wohlauf. Mein Name ist <name> und ich wende mich an Sie, um Unterst\u00fctzung bei der kabellosen Einrichtung eines HP DeskJet 3755 Druckers zu bitten, der mit unserem B\u00fcronetzwerk verbunden werden soll. Wir haben diesen Drucker k\u00fcrzlich erworben und sind auf einige Herausforderungen gesto\u00dfen, um ihn nahtlos mit unserer bestehenden drahtlosen Infrastruktur zu verbinden. Der Drucker ist f\u00fcr unser B\u00fcro in <address> gedacht und es ist entscheidend, dass er betriebsbereit ist f\u00fcr unsere t\u00e4glichen Aufgaben. Mein Team und ich haben den Einrichtungsprozess anhand der bereitgestellten Anweisungen versucht, jedoch sind wir nicht in der Lage, eine stabile Verbindung herzustellen. Es scheint, dass es spezifische Netzwerkkonfigurationen oder Kompatifikationseinstellungen gibt, zu denen wir Anleitung ben\u00f6tigen, um eine erfolgreiche Installation und zuverl\u00e4ssige Leistung sicherzustellen. Wir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie uns eine detaillierte Schritt-f\u00fcr-Schritt-Anleitung oder einen Remote-Support-Service zur Verf\u00fcgung stellen k\u00f6nnten, um diese Einrichtung zu erleichtern My name is Maria Gonzalez.. Alternativ w\u00e4re es auch w\u00fcnschenswert, wenn ein Techniker zur Unterst\u00fctzung zu uns kommen k\u00f6nnte. Unsere B\u00fcrozeiten sind von 9:00 bis 17:00 Uhr, und ich bin jederzeit verf\u00fcgbar, um Ihnen weitere Informationen zu geben, die Sie ben\u00f6tigen k\u00f6nnten. Sie k\u00f6nnen mich direkt unter <email> oder \u00fcber meine direkte Telefonleitung <tel_num> kontaktieren. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit. Wir freuen uns auf Ihre fachkundige Anleitung, um dieses Problem schnell zu l\u00f6sen You can reach me at carlosm@gmail.com.. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1225,
+        1239
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        1757,
+        1774
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    },
+    {
+      "position": [
+        263,
+        267
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt f\u00fcr die kabellose Einrichtung des Druckers\n\nSehr geehrtes Kundenserviceteam, ich hoffe, diese Nachricht erreicht Sie wohlauf. Mein Name ist <name> und ich wende mich an Sie, um Unterst\u00fctzung bei der kabellosen Einrichtung eines HP DeskJet [phone_number] Druckers zu bitten, der mit unserem B\u00fcronetzwerk verbunden werden soll. Wir haben diesen Drucker k\u00fcrzlich erworben und sind auf einige Herausforderungen gesto\u00dfen, um ihn nahtlos mit unserer bestehenden drahtlosen Infrastruktur zu verbinden. Der Drucker ist f\u00fcr unser B\u00fcro in <address> gedacht und es ist entscheidend, dass er betriebsbereit ist f\u00fcr unsere t\u00e4glichen Aufgaben. Mein Team und ich haben den Einrichtungsprozess anhand der bereitgestellten Anweisungen versucht, jedoch sind wir nicht in der Lage, eine stabile Verbindung herzustellen. Es scheint, dass es spezifische Netzwerkkonfigurationen oder Kompatifikationseinstellungen gibt, zu denen wir Anleitung ben\u00f6tigen, um eine erfolgreiche Installation und zuverl\u00e4ssige Leistung sicherzustellen. Wir w\u00fcrden es sehr sch\u00e4tzen, wenn Sie uns eine detaillierte Schritt-f\u00fcr-Schritt-Anleitung oder einen Remote-Support-Service zur Verf\u00fcgung stellen k\u00f6nnten, um diese Einrichtung zu erleichtern My name is [full_name].. Alternativ w\u00e4re es auch w\u00fcnschenswert, wenn ein Techniker zur Unterst\u00fctzung zu uns kommen k\u00f6nnte. Unsere B\u00fcrozeiten sind von 9:00 bis 17:00 Uhr, und ich bin jederzeit verf\u00fcgbar, um Ihnen weitere Informationen zu geben, die Sie ben\u00f6tigen k\u00f6nnten. Sie k\u00f6nnen mich direkt unter <email> oder \u00fcber meine direkte Telefonleitung <tel_num> kontaktieren. Vielen Dank f\u00fcr Ihre schnelle Aufmerksamkeit in dieser Angelegenheit. Wir freuen uns auf Ihre fachkundige Anleitung, um dieses Problem schnell zu l\u00f6sen You can reach me at [email].. Mit freundlichen Gr\u00fc\u00dfen, <name>",
+  "category_of_the_email": "Request"
+}

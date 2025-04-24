@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Frage zur Aktualisierung der digitalen Marketingtools\n\nSehr geehrte Kundenservice, Ich m\u00f6chte Ihre Unterst\u00fctzung einfordern, um unsere veralteten digitalen Marketingtools auf den Arbeitsstationen zu aktualisieren. Unsere aktuelle Technologie behindert unsere F\u00e4higkeit, effiziente Kampagnen durchzuf\u00fchren You can reach me at fatima.farsi@help.com.. Ich glaube, dass eine Aktualisierung dieser Tools unsere Kampagnen effizienter gestalten und die Gesamtleistung verbessern kann. K\u00f6nnten Sie mir detaillierte Informationen zur verf\u00fcgbaren Optionen und den Implementierungsprozess liefern und mir eine genaue Auflistung der Tools, die aktualisiert werden m\u00fcssen, sowie die zugeh\u00f6rigen Kosten mitteilen? Dar\u00fcber hinaus w\u00fcrde ich gerne genauere Informationen zu den potenziellen Vorteilen dieser Aktualisierungen erhalten, wie beispielsweise erh\u00f6hte Effizienz, verbesserte Genauigkeit und gesteigerte Kundeinbindung. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und mit Ihnen zusammenzuarbeiten, um unsere digitale Marketingaktivit\u00e4ten zu verbessern My name is John Doe.. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, mit Ihnen zusammenzuarbeiten, um unsere Marketingziele zu erreichen. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um mit dieser Anfrage fortzufahren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1072,
+        1080
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        334,
+        355
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Frage zur Aktualisierung der digitalen Marketingtools\n\nSehr geehrte Kundenservice, Ich m\u00f6chte Ihre Unterst\u00fctzung einfordern, um unsere veralteten digitalen Marketingtools auf den Arbeitsstationen zu aktualisieren. Unsere aktuelle Technologie behindert unsere F\u00e4higkeit, effiziente Kampagnen durchzuf\u00fchren You can reach me at [email].. Ich glaube, dass eine Aktualisierung dieser Tools unsere Kampagnen effizienter gestalten und die Gesamtleistung verbessern kann. K\u00f6nnten Sie mir detaillierte Informationen zur verf\u00fcgbaren Optionen und den Implementierungsprozess liefern und mir eine genaue Auflistung der Tools, die aktualisiert werden m\u00fcssen, sowie die zugeh\u00f6rigen Kosten mitteilen? Dar\u00fcber hinaus w\u00fcrde ich gerne genauere Informationen zu den potenziellen Vorteilen dieser Aktualisierungen erhalten, wie beispielsweise erh\u00f6hte Effizienz, verbesserte Genauigkeit und gesteigerte Kundeinbindung. Ich freue mich darauf, Ihre R\u00fcckmeldung zu erhalten und mit Ihnen zusammenzuarbeiten, um unsere digitale Marketingaktivit\u00e4ten zu verbessern My name is [full_name].. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich darauf, mit Ihnen zusammenzuarbeiten, um unsere Marketingziele zu erreichen. Bitte informieren Sie mich, falls Sie weitere Informationen ben\u00f6tigen, um mit dieser Anfrage fortzufahren.",
+  "category_of_the_email": "Change"
+}

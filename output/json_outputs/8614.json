@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Verbesserte Sicherheitsma\u00dfnahmen zur Verwaltung medizinischer Daten\n\nGeachtete Kundensupport, es ist notwendig, die Umsetzung verbesserten Sicherheitsma\u00dfnahmen zur Verwaltung medizinischer Daten hervorzuheben. Es ist entscheidend, vertrauliche Patientendaten vor unbefugtem Zugriff und Datenverlust zu sch\u00fctzen You can reach me at liuwei@business.cn.. Bitte ergreifen Sie sofort Ma\u00dfnahmen, um Sicherheitsprotokolle zu \u00fcberpr\u00fcfen und zu aktualisieren, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit medizinischer Daten zu gew\u00e4hrleisten My name is Elena Ivanova.. Dies umfasst Verschl\u00fcsselung von Daten, die Implementierung von Zugriffssteuerungen und die Durchf\u00fchrung regelm\u00e4\u00dfiger Sicherheitsaudits. Ich freue mich \u00fcber eine Aktualisierung der Schritte, die Sie ergreifen werden, um das Problem zu beheben.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        561,
+        574
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        340,
+        358
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Verbesserte Sicherheitsma\u00dfnahmen zur Verwaltung medizinischer Daten\n\nGeachtete Kundensupport, es ist notwendig, die Umsetzung verbesserten Sicherheitsma\u00dfnahmen zur Verwaltung medizinischer Daten hervorzuheben. Es ist entscheidend, vertrauliche Patientendaten vor unbefugtem Zugriff und Datenverlust zu sch\u00fctzen You can reach me at [email].. Bitte ergreifen Sie sofort Ma\u00dfnahmen, um Sicherheitsprotokolle zu \u00fcberpr\u00fcfen und zu aktualisieren, um die Vertraulichkeit, Integrit\u00e4t und Verf\u00fcgbarkeit medizinischer Daten zu gew\u00e4hrleisten My name is [full_name].. Dies umfasst Verschl\u00fcsselung von Daten, die Implementierung von Zugriffssteuerungen und die Durchf\u00fchrung regelm\u00e4\u00dfiger Sicherheitsaudits. Ich freue mich \u00fcber eine Aktualisierung der Schritte, die Sie ergreifen werden, um das Problem zu beheben.",
+  "category_of_the_email": "Change"
+}

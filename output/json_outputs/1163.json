@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Audio Problem\n\nWhile integrating a data analytics platform with Microsoft Teams, we encountered audio lag during voice communications, which we believe is due to bandwidth limitations, possibly exacerbated by the use of a KVM switch with multiple peripherals You can reach me at carlosm@gmail.com.. We have already tried resetting the network connection and updating device drivers, but the issue remains My name is Elena Ivanova.. We need assistance in resolving this problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        425,
+        438
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        288,
+        305
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Audio Problem\n\nWhile integrating a data analytics platform with Microsoft Teams, we encountered audio lag during voice communications, which we believe is due to bandwidth limitations, possibly exacerbated by the use of a KVM switch with multiple peripherals You can reach me at [email].. We have already tried resetting the network connection and updating device drivers, but the issue remains My name is [full_name].. We need assistance in resolving this problem.",
+  "category_of_the_email": "Incident"
+}

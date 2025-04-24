@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Best Practices for Securing Medical Data Systems\n\nCustomer Support, seeking guidance on security practices for protecting medical data using Alteryx Oracle Database 19c within hospital systems. Could provide detailed steps to ensure the confidentiality, integrity, and availability of sensitive medical information? Would appreciate advice on data encryption, access controls, and auditing mechanisms My name is Fatima Al-Farsi.. Additionally, specific configuration settings recommended for Alteryx Oracle Database 19c to ensure compliance with healthcare regulations. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        421,
+        430
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        601,
+        623
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Best Practices for Securing Medical Data Systems\n\nCustomer Support, seeking guidance on security practices for protecting medical data using Alteryx Oracle Database 19c within hospital systems. Could provide detailed steps to ensure the confidentiality, integrity, and availability of sensitive medical information? Would appreciate advice on data encryption, access controls, and auditing mechanisms My name is [full_name]-Farsi.. Additionally, specific configuration settings recommended for Alteryx Oracle Database 19c to ensure compliance with healthcare regulations. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

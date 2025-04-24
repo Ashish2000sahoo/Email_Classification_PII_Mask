@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Over Unsecured Medical Records\n\nDear Customer Service Team,\\n\\nI am contacting you to address a critical issue related to the security of our medical records. It has come to our attention that these files may have been accessed by unauthorized users due to outdated firewall configurations.\\n\\nUpon preliminary investigation, it seems that the root cause could be the lack of recent updates to our firewall rules, which have not been modified in a considerable time You can reach me at maria.gonzalez@shop.es.. We have attempted to mitigate the situation by restarting the server and reviewing the logs for signs of unusual activities, but the problem remains unresolved, and we are still determining the extent of the breach.\\n\\nWe kindly request your immediate assistance in this matter to secure our medical records and prevent further unauthorized access My name is Omar Hassan.. Your expertise would be invaluable in recommending the necessary actions to update our firewall settings and enhance our system's security.\\n\\nWe are looking forward to your prompt response and guidance on this urgent issue.\\n\\nBest regards,\\n[Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        887,
+        898
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        503,
+        525
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Concern Over Unsecured Medical Records\n\nDear Customer Service Team,\\n\\nI am contacting you to address a critical issue related to the security of our medical records. It has come to our attention that these files may have been accessed by unauthorized users due to outdated firewall configurations.\\n\\nUpon preliminary investigation, it seems that the root cause could be the lack of recent updates to our firewall rules, which have not been modified in a considerable time You can reach me at [email].. We have attempted to mitigate the situation by restarting the server and reviewing the logs for signs of unusual activities, but the problem remains unresolved, and we are still determining the extent of the breach.\\n\\nWe kindly request your immediate assistance in this matter to secure our medical records and prevent further unauthorized access My name is [full_name].. Your expertise would be invaluable in recommending the necessary actions to update our firewall settings and enhance our system's security.\\n\\nWe are looking forward to your prompt response and guidance on this urgent issue.\\n\\nBest regards,\\n[Your Name]",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Security Measures for Medical Data on Blackboard Learn\n\nHello Customer Support, I am reaching out to seek advice on safeguarding medical data on Blackboard Learn. As an instructor, I manage confidential medical information and wish to ensure its secure storage and transmission. Could you please advise on steps I can implement to prevent unauthorized access? Are there particular settings or configurations in Blackboard Learn that can be adjusted to enhance security? Furthermore, are there any best practices or guidelines I should follow to maintain the confidentiality, integrity, and availability of medical data? I would greatly appreciate any recommendations you can offer. Thanks for your time and support My name is David Kim.. Best regards, [Your Name] You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        735,
+        744
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        795,
+        813
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Security Measures for Medical Data on Blackboard Learn\n\nHello Customer Support, I am reaching out to seek advice on safeguarding medical data on Blackboard Learn. As an instructor, I manage confidential medical information and wish to ensure its secure storage and transmission. Could you please advise on steps I can implement to prevent unauthorized access? Are there particular settings or configurations in Blackboard Learn that can be adjusted to enhance security? Furthermore, are there any best practices or guidelines I should follow to maintain the confidentiality, integrity, and availability of medical data? I would greatly appreciate any recommendations you can offer. Thanks for your time and support My name is [full_name].. Best regards, [Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

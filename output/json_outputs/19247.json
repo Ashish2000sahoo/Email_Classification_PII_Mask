@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns with Digital Campaign Metrics Monitoring\n\nHello Customer Support, I am contacting you to address an ongoing issue with our digital campaign metrics My name is Liu Wei.. It seems the tracking may be failing due to a potential integration problem with Kaspersky security software. Despite attempts to restart Docker and verify the HyperX RAM settings, the issue remains unresolved You can reach me at omar.hassan@secure.net.. Kindly review and resolve this, and please request any further details you might need from me. I am eagerly awaiting your response. Many thanks for your attention and help.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        177,
+        184
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        421,
+        443
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concerns with Digital Campaign Metrics Monitoring\n\nHello Customer Support, I am contacting you to address an ongoing issue with our digital campaign metrics My name is [full_name].. It seems the tracking may be failing due to a potential integration problem with Kaspersky security software. Despite attempts to restart Docker and verify the HyperX RAM settings, the issue remains unresolved You can reach me at [email].. Kindly review and resolve this, and please request any further details you might need from me. I am eagerly awaiting your response. Many thanks for your attention and help.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technical Support Concerns\n\nCustomers are facing connectivity challenges on various devices and applications, which is disrupting project processes My name is Liu Wei.. These issues might be due to recent software updates or network modifications. Despite attempts to restart and reconfigure, the problem continues. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        168,
+        175
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        349,
+        370
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Technical Support Concerns\n\nCustomers are facing connectivity challenges on various devices and applications, which is disrupting project processes My name is [full_name].. These issues might be due to recent software updates or network modifications. Despite attempts to restart and reconfigure, the problem continues. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

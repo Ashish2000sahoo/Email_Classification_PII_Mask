@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Support with KNIME\n\nHave encountered unexpected crashes while running workflows in KNIME software on Linux. The problem might be due to high memory usage or compatibility issues. Steps like restarting the application and clearing cache have been taken, but the issue still persists My name is Elena Ivanova.. Would greatly appreciate any assistance in resolving this matter. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        414,
+        437
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Request for Support with KNIME\n\nHave encountered unexpected crashes while running workflows in KNIME software on Linux. The problem might be due to high memory usage or compatibility issues. Steps like restarting the application and clearing cache have been taken, but the issue still persists My name is [full_name].. Would greatly appreciate any assistance in resolving this matter. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

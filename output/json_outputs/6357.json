@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry on API Integrations for Project Management SaaS\n\nLooking for detailed information on API integrations for our project management SaaS. Specifically, we are interested in the available endpoints, data formats, authentication and authorization requirements My name is Carlos Mendoza.. Appreciate your prompt assistance! You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        283,
+        297
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        352,
+        377
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on API Integrations for Project Management SaaS\n\nLooking for detailed information on API integrations for our project management SaaS. Specifically, we are interested in the available endpoints, data formats, authentication and authorization requirements My name is [full_name].. Appreciate your prompt assistance! You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

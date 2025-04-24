@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Required Assistance with Investment Analysis Tool\n\nCustomer Support, <br>I am working on a report related to the investment analysis tool You can reach me at sophia.rossi@service.it.. The tool is generating accurate predictions for portfolio optimization, but an issue might have occurred due to recent software updates. So far, we have restarted the application and verified the data inputs, but the issue still persists. I would greatly appreciate it if you could look into this matter urgently and provide a solution or guidance to resolve the issue My name is Sophia Rossi.. Please let us know if any additional information is required. We are looking forward to your response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        573,
+        585
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        167,
+        190
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Required Assistance with Investment Analysis Tool\n\nCustomer Support, <br>I am working on a report related to the investment analysis tool You can reach me at [email].. The tool is generating accurate predictions for portfolio optimization, but an issue might have occurred due to recent software updates. So far, we have restarted the application and verified the data inputs, but the issue still persists. I would greatly appreciate it if you could look into this matter urgently and provide a solution or guidance to resolve the issue My name is [full_name].. Please let us know if any additional information is required. We are looking forward to your response.",
+  "category_of_the_email": "Incident"
+}

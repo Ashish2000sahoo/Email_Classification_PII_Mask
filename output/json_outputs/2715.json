@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query on Recent Brand Engagement Data\n\nOur marketing firm has noticed a sharp decline in brand engagement metrics across various digital channels, possibly attributed to recent algorithm updates on social media platforms. Despite efforts to analyze web traffic and gather audience feedback, no actionable insights have been forthcoming My name is David Kim.. We are seeking assistance to identify the underlying causes and explore potential solutions to enhance brand engagement. You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        356,
+        365
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        511,
+        533
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Query on Recent Brand Engagement Data\n\nOur marketing firm has noticed a sharp decline in brand engagement metrics across various digital channels, possibly attributed to recent algorithm updates on social media platforms. Despite efforts to analyze web traffic and gather audience feedback, no actionable insights have been forthcoming My name is [full_name].. We are seeking assistance to identify the underlying causes and explore potential solutions to enhance brand engagement. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

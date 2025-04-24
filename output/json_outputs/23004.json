@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Aclaraci\u00f3n sobre la tarifa de suscripci\u00f3n\n\nEstimado soporte al cliente de Tech Online Store,\n\nEspero que este mensaje le encuentre bien. Me estoy comunicando hoy para obtener claridad sobre los recientes estados de facturaci\u00f3n relacionados con mi suscripci\u00f3n a Adobe Photoshop 2024 You can reach me at johndoe@email.com.. Al revisar mi cuenta, not\u00e9 algunas discrepancias que me han dejado un poco confundido. Parece que las tarifas han cambiado inesperadamente y no he recibido ning\u00fan aviso o explicaci\u00f3n previa sobre estas alteraciones.\n\nEl n\u00famero de mi cuenta de suscripci\u00f3n es <acc_num>, y suelo manejar los pagos a trav\u00e9s de mi tarjeta que termina en <card_num>. Dado el cambio en los montos de facturaci\u00f3n, agradecer\u00eda si pudieran proporcionarme una explicaci\u00f3n detallada o indicarme d\u00f3nde podr\u00eda encontrar documentaci\u00f3n o comunicaci\u00f3n sobre este cambio. Es crucial para m\u00ed manejar mi planificaci\u00f3n financiera de manera efectiva, y entender estos cargos es una parte vital de ello.\n\nAdem\u00e1s, si hay promociones en curso o opciones de suscripci\u00f3n alternativa de las que podr\u00eda aprovecharme, tambi\u00e9n agradecer\u00eda escuchar sobre esas.\n\nGracias por su asistencia My name is Jane Smith.. Espero su pronta aclaraci\u00f3n sobre este asunto. No dude en contactarme por correo electr\u00f3nico o a mi n\u00famero de tel\u00e9fono <tel_num>.\n\nAtentamente,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1182,
+        1192
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        311,
+        328
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        286,
+        290
+      ],
+      "classification": "phone_number",
+      "entity": "2024"
+    }
+  ],
+  "masked_email": "Subject: Aclaraci\u00f3n sobre la tarifa de suscripci\u00f3n\n\nEstimado soporte al cliente de Tech Online Store,\n\nEspero que este mensaje le encuentre bien. Me estoy comunicando hoy para obtener claridad sobre los recientes estados de facturaci\u00f3n relacionados con mi suscripci\u00f3n a Adobe Photoshop [phone_number] You can reach me at [email].. Al revisar mi cuenta, not\u00e9 algunas discrepancias que me han dejado un poco confundido. Parece que las tarifas han cambiado inesperadamente y no he recibido ning\u00fan aviso o explicaci\u00f3n previa sobre estas alteraciones.\n\nEl n\u00famero de mi cuenta de suscripci\u00f3n es <acc_num>, y suelo manejar los pagos a trav\u00e9s de mi tarjeta que termina en <card_num>. Dado el cambio en los montos de facturaci\u00f3n, agradecer\u00eda si pudieran proporcionarme una explicaci\u00f3n detallada o indicarme d\u00f3nde podr\u00eda encontrar documentaci\u00f3n o comunicaci\u00f3n sobre este cambio. Es crucial para m\u00ed manejar mi planificaci\u00f3n financiera de manera efectiva, y entender estos cargos es una parte vital de ello.\n\nAdem\u00e1s, si hay promociones en curso o opciones de suscripci\u00f3n alternativa de las que podr\u00eda aprovecharme, tambi\u00e9n agradecer\u00eda escuchar sobre esas.\n\nGracias por su asistencia My name is [full_name].. Espero su pronta aclaraci\u00f3n sobre este asunto. No dude en contactarme por correo electr\u00f3nico o a mi n\u00famero de tel\u00e9fono <tel_num>.\n\nAtentamente,\n\n<name>",
+  "category_of_the_email": "Request"
+}

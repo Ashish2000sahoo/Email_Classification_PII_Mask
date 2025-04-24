@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Installing Windows 11 Pro\n\nHello <name>,\n\nI am encountering difficulties while trying to install Windows 11 Pro on my machine. The installation attempts continuously fail You can reach me at sophia.rossi@service.it.. I would appreciate your help in resolving this matter as soon as possible. My account number is <acc_num>.\n\nThank you, <name> My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        377,
+        391
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        214,
+        237
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Problems with Installing Windows 11 Pro\n\nHello <name>,\n\nI am encountering difficulties while trying to install Windows 11 Pro on my machine. The installation attempts continuously fail You can reach me at [email].. I would appreciate your help in resolving this matter as soon as possible. My account number is <acc_num>.\n\nThank you, <name> My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

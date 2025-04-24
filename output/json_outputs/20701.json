@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: H\u00e4ufige Audio-Aussetzer w\u00e4hrend Videokonferenzen\n\nSehr geehrtes IT-Service-Support-Team, ich erlebe h\u00e4ufige Audio-Aussetzer w\u00e4hrend meiner Videokonferenzen, obwohl die Netzwerkbedingungen stabil sind My name is Jane Smith.. Dieses Problem tritt speziell mit der Zoom-Version 5.11.0 auf. Meine Kontonummer ist <acc_num> You can reach me at elena.ivanova@support.org.. K\u00f6nnten Sie bitte helfen, dieses anhaltende Problem zu l\u00f6sen? Sie k\u00f6nnen mich jederzeit unter <tel_num> kontaktieren. Ihre dringende Aufmerksamkeit f\u00fcr dieses Anliegen w\u00fcrde sehr gesch\u00e4tzt werden. Vielen Dank, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        220,
+        230
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        349,
+        374
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: H\u00e4ufige Audio-Aussetzer w\u00e4hrend Videokonferenzen\n\nSehr geehrtes IT-Service-Support-Team, ich erlebe h\u00e4ufige Audio-Aussetzer w\u00e4hrend meiner Videokonferenzen, obwohl die Netzwerkbedingungen stabil sind My name is [full_name].. Dieses Problem tritt speziell mit der Zoom-Version 5.11.0 auf. Meine Kontonummer ist <acc_num> You can reach me at [email].. K\u00f6nnten Sie bitte helfen, dieses anhaltende Problem zu l\u00f6sen? Sie k\u00f6nnen mich jederzeit unter <tel_num> kontaktieren. Ihre dringende Aufmerksamkeit f\u00fcr dieses Anliegen w\u00fcrde sehr gesch\u00e4tzt werden. Vielen Dank, <name>.",
+  "category_of_the_email": "Incident"
+}

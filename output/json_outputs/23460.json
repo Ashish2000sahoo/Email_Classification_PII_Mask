@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Assist\u00eancia Necess\u00e1ria: Problemas com HP DeskJet 3755 sem Fio\n\nCaro Suporte ao Cliente,\n\nEstou enfrentando problemas com a conex\u00e3o sem fio da minha HP DeskJet 3755 My name is Fatima Al-Farsi.. Ela n\u00e3o se conecta \u00e0 rede, dificultando minhas tarefas de impress\u00e3o. Voc\u00ea poderia me ajudar a solucionar esse problema?\n\nObrigado,\n<name> You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        184,
+        193
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        362,
+        385
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    },
+    {
+      "position": [
+        58,
+        62
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        168,
+        172
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: Assist\u00eancia Necess\u00e1ria: Problemas com HP DeskJet [phone_number] sem Fio\n\nCaro Suporte ao Cliente,\n\nEstou enfrentando problemas com a conex\u00e3o sem fio da minha HP DeskJet [phone_number] My name is [full_name]-Farsi.. Ela n\u00e3o se conecta \u00e0 rede, dificultando minhas tarefas de impress\u00e3o. Voc\u00ea poderia me ajudar a solucionar esse problema?\n\nObrigado,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

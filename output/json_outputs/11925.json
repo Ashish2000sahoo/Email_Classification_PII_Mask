@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Query Regarding System Requirements for SaaS Project Management Tool\n\nDear Customer Support, I am contacting you to seek information on the system requirements needed for the best performance of your SaaS project management tool You can reach me at omar.hassan@secure.net.. Could you kindly share the recommended browser, operating system, and hardware specifications? Additionally, any extra details on how to achieve the best experience while using the tool would be greatly appreciated. I am eagerly awaiting your response and thank you in advance for your help. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        586,
+        596
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        258,
+        280
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Query Regarding System Requirements for SaaS Project Management Tool\n\nDear Customer Support, I am contacting you to seek information on the system requirements needed for the best performance of your SaaS project management tool You can reach me at [email].. Could you kindly share the recommended browser, operating system, and hardware specifications? Additionally, any extra details on how to achieve the best experience while using the tool would be greatly appreciated. I am eagerly awaiting your response and thank you in advance for your help. My name is [full_name].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: HP DeskJet 3755 Wi-Fi-Verbindungsproblem\n\nSehr geehrter Kundenservice,\n\nich habe ein Problem mit meinem HP DeskJet 3755 Wireless-Drucker You can reach me at david.kim@corp.kr.. Er verbindet sich nicht mit dem Wi-Fi-Netzwerk, obwohl ich die Installationsanweisungen befolgt habe My name is Carlos Mendoza.. K\u00f6nnten Sie bitte Troubleshooting-Schritte zur Behebung dieses Problems bereitstellen? Die Unterst\u00fctzung, um ihn zum Laufen zu bringen, wird sehr gesch\u00e4tzt. Vielen Dank im Voraus f\u00fcr Ihre Hilfe.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        298,
+        312
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        166,
+        183
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    },
+    {
+      "position": [
+        20,
+        24
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    },
+    {
+      "position": [
+        124,
+        128
+      ],
+      "classification": "phone_number",
+      "entity": "3755"
+    }
+  ],
+  "masked_email": "Subject: HP DeskJet [phone_number] Wi-Fi-Verbindungsproblem\n\nSehr geehrter Kundenservice,\n\nich habe ein Problem mit meinem HP DeskJet [phone_number] Wireless-Drucker You can reach me at [email].. Er verbindet sich nicht mit dem Wi-Fi-Netzwerk, obwohl ich die Installationsanweisungen befolgt habe My name is [full_name].. K\u00f6nnten Sie bitte Troubleshooting-Schritte zur Behebung dieses Problems bereitstellen? Die Unterst\u00fctzung, um ihn zum Laufen zu bringen, wird sehr gesch\u00e4tzt. Vielen Dank im Voraus f\u00fcr Ihre Hilfe.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Requirement for Customer Support\n\nPlease find a brief description of the problem: Project data vanished without a clear reason during the night You can reach me at david.kim@corp.kr.. This anomaly could be a result of a database sync error or a server malfunction. Already, I've rebooted the server, reviewed the logs, and ensured the integrity of the backups, yet the problem remains unresolved. It would be helpful if you could swiftly look into this and offer a remedy or steps to restore the missing data. Kindly inform me if more data is required from my side to expedite the resolution. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        613,
+        623
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        173,
+        190
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Requirement for Customer Support\n\nPlease find a brief description of the problem: Project data vanished without a clear reason during the night You can reach me at [email].. This anomaly could be a result of a database sync error or a server malfunction. Already, I've rebooted the server, reviewed the logs, and ensured the integrity of the backups, yet the problem remains unresolved. It would be helpful if you could swiftly look into this and offer a remedy or steps to restore the missing data. Kindly inform me if more data is required from my side to expedite the resolution. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

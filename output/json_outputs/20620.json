@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Proposed Enhancements for AWS Multi-account Cloud Management\n\nDear IT Consulting Firm Support,\n\nI am writing to propose improvements for managing cloud infrastructure across multiple AWS accounts, focusing on enhancing compliance and cost management You can reach me at fatima.farsi@help.com.. Our current AWS Management Service lacks unified monitoring and proactive compliance checks, which poses operational risks.\n\nTo address these issues, I suggest implementing better cross-account analytics and automated cost management tools. These enhancements could significantly improve efficiency by ensuring policies adherence and optimizing resource billing.\n\nPlease consider this proposal and inform us about any further discussions required to initiate these improvements.\n\nThank you.\n\nBest regards,\n\n<name>\n\n<tel_num> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        839,
+        848
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        279,
+        300
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Proposed Enhancements for AWS Multi-account Cloud Management\n\nDear IT Consulting Firm Support,\n\nI am writing to propose improvements for managing cloud infrastructure across multiple AWS accounts, focusing on enhancing compliance and cost management You can reach me at [email].. Our current AWS Management Service lacks unified monitoring and proactive compliance checks, which poses operational risks.\n\nTo address these issues, I suggest implementing better cross-account analytics and automated cost management tools. These enhancements could significantly improve efficiency by ensuring policies adherence and optimizing resource billing.\n\nPlease consider this proposal and inform us about any further discussions required to initiate these improvements.\n\nThank you.\n\nBest regards,\n\n<name>\n\n<tel_num> My name is [full_name].",
+  "category_of_the_email": "Change"
+}

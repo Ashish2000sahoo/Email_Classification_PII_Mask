@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Fragen zu SaaS-Diensten f\u00fcr Projektverfolgung und Teamkolaboration\n\nSehr geehrter Kundensupport, ich wende mich an Sie, um mich \u00fcber die Funktionen Ihrer SaaS-Dienste f\u00fcr Projektverfolgung und Teamkolaboration auszuinanzen My name is Omar Hassan.. K\u00f6nnten Sie mir bitte eine gr\u00fcndliche Liste der zur Verf\u00fcgung stehenden Werkzeuge und Funktionen zur Verf\u00fcgung stellen? Besonders interessiert mich das Projektmanagement, insbesondere Aufgabenzuweisung, Terminplanung und Fortschritts\u00fcberwachung. Dar\u00fcber hinaus w\u00fcrde ich gerne mehr \u00fcber die Teamkolaborationsfunktionen erfahren, wie Kommunikationskan\u00e4le, Datei\u00fcbertragung und Terminplanung You can reach me at david.kim@corp.kr.. Ich freue mich auf Ihre R\u00fcckmeldung und auf die M\u00f6glichkeit, eine n\u00e4here Information \u00fcber Ihre SaaS-Dienste zu erhalten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        254
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        667,
+        684
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Fragen zu SaaS-Diensten f\u00fcr Projektverfolgung und Teamkolaboration\n\nSehr geehrter Kundensupport, ich wende mich an Sie, um mich \u00fcber die Funktionen Ihrer SaaS-Dienste f\u00fcr Projektverfolgung und Teamkolaboration auszuinanzen My name is [full_name].. K\u00f6nnten Sie mir bitte eine gr\u00fcndliche Liste der zur Verf\u00fcgung stehenden Werkzeuge und Funktionen zur Verf\u00fcgung stellen? Besonders interessiert mich das Projektmanagement, insbesondere Aufgabenzuweisung, Terminplanung und Fortschritts\u00fcberwachung. Dar\u00fcber hinaus w\u00fcrde ich gerne mehr \u00fcber die Teamkolaborationsfunktionen erfahren, wie Kommunikationskan\u00e4le, Datei\u00fcbertragung und Terminplanung You can reach me at [email].. Ich freue mich auf Ihre R\u00fcckmeldung und auf die M\u00f6glichkeit, eine n\u00e4here Information \u00fcber Ihre SaaS-Dienste zu erhalten. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.",
+  "category_of_the_email": "Request"
+}

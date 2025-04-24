@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Ein unerwarteter Rechnungsungsfehler trat heute auf\n\nSehr geehrte Kundensupport, ich bin derzeit von einem unerwarteten Rechnungsungsfehler betroffen. Dieser Fehler k\u00f6nnte ein Indikator f\u00fcr ein Problem bei der Software-Integration sein You can reach me at fatima.farsi@help.com.. Ich habe mein System schon neugestartet und meine Kontoeinstellungen \u00fcberpr\u00fcft, ohne dass der Fehler beseitigt wurde. K\u00f6nnten Sie mir bitte bei der L\u00f6sung dieses Problems helfen? Ich sch\u00e4tze jede Unterst\u00fctzung, die Sie mir bieten k\u00f6nnen, um mein Rechnungssystem wieder in Ordnung zu bringen. My name is Elena Ivanova.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        592,
+        605
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        265,
+        286
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Ein unerwarteter Rechnungsungsfehler trat heute auf\n\nSehr geehrte Kundensupport, ich bin derzeit von einem unerwarteten Rechnungsungsfehler betroffen. Dieser Fehler k\u00f6nnte ein Indikator f\u00fcr ein Problem bei der Software-Integration sein You can reach me at [email].. Ich habe mein System schon neugestartet und meine Kontoeinstellungen \u00fcberpr\u00fcft, ohne dass der Fehler beseitigt wurde. K\u00f6nnten Sie mir bitte bei der L\u00f6sung dieses Problems helfen? Ich sch\u00e4tze jede Unterst\u00fctzung, die Sie mir bieten k\u00f6nnen, um mein Rechnungssystem wieder in Ordnung zu bringen. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

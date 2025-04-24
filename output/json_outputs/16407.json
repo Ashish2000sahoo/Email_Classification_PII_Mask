@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Intermittent Connection Issues with Software Tools\n\nDear Customer Service, I have been experiencing intermittent connection issues with the Software Tools. The Project Management team for SaaS has been involved. The problems might stem from conflicts with recent updates from third-party providers. I have tried to resolve the issue by clearing caches, restarting services, and checking API access credentials You can reach me at carlosm@gmail.com.. However, the problem persists My name is Carlos Mendoza.. I appreciate your assistance and guidance in finding a solution. Please inform me if further steps are required to resolve the issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        500,
+        514
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        439,
+        456
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Intermittent Connection Issues with Software Tools\n\nDear Customer Service, I have been experiencing intermittent connection issues with the Software Tools. The Project Management team for SaaS has been involved. The problems might stem from conflicts with recent updates from third-party providers. I have tried to resolve the issue by clearing caches, restarting services, and checking API access credentials You can reach me at [email].. However, the problem persists My name is [full_name].. I appreciate your assistance and guidance in finding a solution. Please inform me if further steps are required to resolve the issue.",
+  "category_of_the_email": "Incident"
+}

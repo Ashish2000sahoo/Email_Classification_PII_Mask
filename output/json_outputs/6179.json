@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Surface Pro\n\nThe incident: A software crash occurred on the Surface Pro My name is Liu Wei.. It is likely that an incompatible integration with BigCommerce is the cause. Attempts: Restart, updating Microsoft Office. You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        104,
+        111
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        261,
+        283
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Issues with Surface Pro\n\nThe incident: A software crash occurred on the Surface Pro My name is [full_name].. It is likely that an incompatible integration with BigCommerce is the cause. Attempts: Restart, updating Microsoft Office. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

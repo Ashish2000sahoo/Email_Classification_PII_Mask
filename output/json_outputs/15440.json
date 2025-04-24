@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Problem with Digital Health Tools\n\nThere has been an unexpected outage impacting essential tools. Potential reasons might be network issues or system overload.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        191,
+        206
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Problem with Digital Health Tools\n\nThere has been an unexpected outage impacting essential tools. Potential reasons might be network issues or system overload.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

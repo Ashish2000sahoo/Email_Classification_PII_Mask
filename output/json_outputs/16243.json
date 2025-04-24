@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, encountering issues with task synchronization in the project management SaaS application integrated with Outlook My name is David Kim.. Recent API modifications might be the cause You can reach me at david.kim@corp.kr.. We have attempted reconnecting and clearing the cache, but the problem still exists. Please help us in resolving this issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        162
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        231,
+        248
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, encountering issues with task synchronization in the project management SaaS application integrated with Outlook My name is [full_name].. Recent API modifications might be the cause You can reach me at [email].. We have attempted reconnecting and clearing the cache, but the problem still exists. Please help us in resolving this issue.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Urgent IT System Security Incident\n\nAn authorized access attempt on the hospital's IT system was detected My name is John Doe.. The security of medical data has been compromised by phishing attacks and weak passwords You can reach me at janesmith@company.com.. Login credentials have been updated, and a security check has been conducted to prevent future breaches.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        126,
+        134
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        249,
+        270
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Urgent IT System Security Incident\n\nAn authorized access attempt on the hospital's IT system was detected My name is [full_name].. The security of medical data has been compromised by phishing attacks and weak passwords You can reach me at [email].. Login credentials have been updated, and a security check has been conducted to prevent future breaches.",
+  "category_of_the_email": "Incident"
+}

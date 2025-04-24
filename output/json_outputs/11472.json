@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concern with Data Integration\n\nA financial organization is experiencing challenges with data integration in their investment analytics tools, caused by differing software versions and data format inconsistencies.. My contact number is +86-10-8500-1234.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        260
+      ],
+      "classification": "phone_number",
+      "entity": "+86-10-8500-1234"
+    }
+  ],
+  "masked_email": "Subject: Concern with Data Integration\n\nA financial organization is experiencing challenges with data integration in their investment analytics tools, caused by differing software versions and data format inconsistencies.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

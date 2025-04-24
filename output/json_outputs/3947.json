@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medical Security Procedures\n\nDear Customer Support, I am inquiring about the recommended security protocols for the protection of medical data as used by hospital IT systems. I am interested in knowing what measures can be taken to ensure the confidentiality, integrity, and availability of patient data You can reach me at david.kim@corp.kr.. Are there specific guidelines or regulations that must be followed? I appreciate your time and look forward to your response My name is Carlos Mendoza.. Thank you for your assistance in this matter.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        489,
+        503
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        333,
+        350
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Medical Security Procedures\n\nDear Customer Support, I am inquiring about the recommended security protocols for the protection of medical data as used by hospital IT systems. I am interested in knowing what measures can be taken to ensure the confidentiality, integrity, and availability of patient data You can reach me at [email].. Are there specific guidelines or regulations that must be followed? I appreciate your time and look forward to your response My name is [full_name].. Thank you for your assistance in this matter.",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Anfrage an den Support\n\nEin finanzielles Unternehmen hat Probleme mit Optimierung, Investitionsanalyse und Systemausf\u00e4llen aufgrund von Softwareinkompatibilit\u00e4ten. Die betroffenen Anwendungen wurden neu gestartet und Systemprotokolle wurden gepr\u00fcft, aber die Probleme bestehen weiterhin My name is David Kim.. Bitte helfen Sie dabei, das Problem zu l\u00f6sen. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        307,
+        316
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        387,
+        404
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Anfrage an den Support\n\nEin finanzielles Unternehmen hat Probleme mit Optimierung, Investitionsanalyse und Systemausf\u00e4llen aufgrund von Softwareinkompatibilit\u00e4ten. Die betroffenen Anwendungen wurden neu gestartet und Systemprotokolle wurden gepr\u00fcft, aber die Probleme bestehen weiterhin My name is [full_name].. Bitte helfen Sie dabei, das Problem zu l\u00f6sen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

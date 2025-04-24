@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Unterst\u00fctzung f\u00fcr AWS-Management erforderlich\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, es geht Ihnen gut. Ich wende mich an Sie, um Unterst\u00fctzung bei den von Ihrem Unternehmen angebotenen AWS-Management-Diensten zu suchen My name is Carlos Mendoza.. Ich nutze diese Dienste seit einiger Zeit, stehe jedoch derzeit vor Herausforderungen bei der Kostenoptimierung und einer effizienten Zuteilung von Cloud-Ressourcen. Da diese Aspekte f\u00fcr unsere Betriebsabl\u00e4ufe von entscheidender Bedeutung sind, m\u00f6chte ich nach verf\u00fcgbaren Strategien oder L\u00f6sungen fragen, die uns helfen k\u00f6nnten, diese effektiver zu verwalten.\n\nDar\u00fcber hinaus bin ich daran interessiert, zu verstehen, ob es zus\u00e4tzliche Funktionen oder Tools innerhalb Ihres AWS-Managementdienstes gibt, die eine bessere \u00dcberwachung und Verwaltung unserer Ressourcen erleichtern k\u00f6nnten. Ihr Fachwissen und Ihre Anleitung in dieser Angelegenheit w\u00e4ren von gro\u00dfem Wert.\n\nK\u00f6nnten Sie bitte Einblicke geben oder einen Termin f\u00fcr eine Beratung zu einem f\u00fcr Sie g\u00fcnstigen Zeitpunkt vereinbaren? Wenn Sie dar\u00fcber hinaus spezifische Informationen oder Daten ben\u00f6tigen, um uns besser unterst\u00fctzen zu k\u00f6nnen, lassen Sie es mich bitte wissen.\n\nDanke f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre zeitnahe Antwort. Sie k\u00f6nnen mich per E-Mail oder unter meiner Telefonnummer <tel_num> f\u00fcr weitere Diskussionen erreichen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<company_name> You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        247,
+        261
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1466,
+        1488
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Unterst\u00fctzung f\u00fcr AWS-Management erforderlich\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, es geht Ihnen gut. Ich wende mich an Sie, um Unterst\u00fctzung bei den von Ihrem Unternehmen angebotenen AWS-Management-Diensten zu suchen My name is [full_name].. Ich nutze diese Dienste seit einiger Zeit, stehe jedoch derzeit vor Herausforderungen bei der Kostenoptimierung und einer effizienten Zuteilung von Cloud-Ressourcen. Da diese Aspekte f\u00fcr unsere Betriebsabl\u00e4ufe von entscheidender Bedeutung sind, m\u00f6chte ich nach verf\u00fcgbaren Strategien oder L\u00f6sungen fragen, die uns helfen k\u00f6nnten, diese effektiver zu verwalten.\n\nDar\u00fcber hinaus bin ich daran interessiert, zu verstehen, ob es zus\u00e4tzliche Funktionen oder Tools innerhalb Ihres AWS-Managementdienstes gibt, die eine bessere \u00dcberwachung und Verwaltung unserer Ressourcen erleichtern k\u00f6nnten. Ihr Fachwissen und Ihre Anleitung in dieser Angelegenheit w\u00e4ren von gro\u00dfem Wert.\n\nK\u00f6nnten Sie bitte Einblicke geben oder einen Termin f\u00fcr eine Beratung zu einem f\u00fcr Sie g\u00fcnstigen Zeitpunkt vereinbaren? Wenn Sie dar\u00fcber hinaus spezifische Informationen oder Daten ben\u00f6tigen, um uns besser unterst\u00fctzen zu k\u00f6nnen, lassen Sie es mich bitte wissen.\n\nDanke f\u00fcr Ihre Aufmerksamkeit in dieser Angelegenheit. Ich freue mich auf Ihre zeitnahe Antwort. Sie k\u00f6nnen mich per E-Mail oder unter meiner Telefonnummer <tel_num> f\u00fcr weitere Diskussionen erreichen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<company_name> You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

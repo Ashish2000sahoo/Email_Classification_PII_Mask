@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problem with Data Security\n\nUnauthorized access attempts detected on the medical database system You can reach me at david.kim@corp.kr.. Potential vulnerabilities in the IT infrastructure might be exploited. Temporary access restrictions have been implemented and a preliminary security check has been conducted to identify and address the issues. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        368,
+        378
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        126,
+        143
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problem with Data Security\n\nUnauthorized access attempts detected on the medical database system You can reach me at [email].. Potential vulnerabilities in the IT infrastructure might be exploited. Temporary access restrictions have been implemented and a preliminary security check has been conducted to identify and address the issues. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

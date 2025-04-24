@@ -1,0 +1,47 @@
+{
+  "input_email_body": "Subject: Leistungsprobleme mit MySQL 8.0.30 Datenbank\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um meine Bedenken hinsichtlich der Leistungsprobleme zu \u00e4u\u00dfern, die wir mit MySQL 8.0.30 haben. Unser System hat kontinuierlich langsame Reaktionszeiten, was unsere Datenverarbeitungsoperationen und die allgemeine Effizienz des Unternehmens erheblich beeintr\u00e4chtigt. Diese Verz\u00f6gerungen verursachen St\u00f6rungen in unserem normalen Arbeitsablauf und erh\u00f6hen unsere operativen Herausforderungen.\n\nWir haben festgestellt, dass dieses Problem speziell das Produkt MySQL 8.0.30 betrifft. Wir haben erste Schritte unternommen, wie z My name is Liu Wei.. B You can reach me at liuwei@business.cn.. die Optimierung von Abfragen und die Sicherstellung ausreichender Serverressourcen, aber das Problem besteht weiterhin.\n\nK\u00f6nnten Sie bitte eine Anleitung oder eine L\u00f6sung zur Behebung dieser Angelegenheit bereitstellen? Jede sofortige Unterst\u00fctzung w\u00e4re sehr gesch\u00e4tzt, da wir bestrebt sind, reibungslose Abl\u00e4ufe f\u00fcr unsere Kunden aufrechtzuerhalten.\n\nVielen Dank f\u00fcr Ihre umgehende Aufmerksamkeit f\u00fcr dieses Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>\n<tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        639,
+        646
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        675,
+        693
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    },
+    {
+      "position": [
+        37,
+        43
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        185,
+        191
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        567,
+        573
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Leistungsprobleme mit MySQL [phone_number] Datenbank\n\nSehr geehrtes Kundenserviceteam,\n\nich schreibe, um meine Bedenken hinsichtlich der Leistungsprobleme zu \u00e4u\u00dfern, die wir mit MySQL [phone_number] haben. Unser System hat kontinuierlich langsame Reaktionszeiten, was unsere Datenverarbeitungsoperationen und die allgemeine Effizienz des Unternehmens erheblich beeintr\u00e4chtigt. Diese Verz\u00f6gerungen verursachen St\u00f6rungen in unserem normalen Arbeitsablauf und erh\u00f6hen unsere operativen Herausforderungen.\n\nWir haben festgestellt, dass dieses Problem speziell das Produkt MySQL [phone_number] betrifft. Wir haben erste Schritte unternommen, wie z My name is [full_name].. B You can reach me at [email].. die Optimierung von Abfragen und die Sicherstellung ausreichender Serverressourcen, aber das Problem besteht weiterhin.\n\nK\u00f6nnten Sie bitte eine Anleitung oder eine L\u00f6sung zur Behebung dieser Angelegenheit bereitstellen? Jede sofortige Unterst\u00fctzung w\u00e4re sehr gesch\u00e4tzt, da wir bestrebt sind, reibungslose Abl\u00e4ufe f\u00fcr unsere Kunden aufrechtzuerhalten.\n\nVielen Dank f\u00fcr Ihre umgehende Aufmerksamkeit f\u00fcr dieses Problem.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n<acc_num>\n<tel_num>",
+  "category_of_the_email": "Incident"
+}

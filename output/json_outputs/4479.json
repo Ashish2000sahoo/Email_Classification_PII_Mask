@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Data Security Solutions\n\nIs it possible to provide information on data security solutions for healthcare providers and hospital systems? I would appreciate details on the solutions to help protect sensitive patient data.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        267
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Data Security Solutions\n\nIs it possible to provide information on data security solutions for healthcare providers and hospital systems? I would appreciate details on the solutions to help protect sensitive patient data.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Network Connectivity via VPN Router\n\nFacing connectivity challenges with the VPN-Router during project management meetings. The issues might be due to network overload or configuration errors You can reach me at fatima.farsi@help.com.. We have restarted the router and checked the internet speed, but the problems continue. We would greatly appreciate your assistance in resolving this issue as soon as possible. My name is Jane Smith.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        447,
+        457
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        235,
+        256
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Problems with Network Connectivity via VPN Router\n\nFacing connectivity challenges with the VPN-Router during project management meetings. The issues might be due to network overload or configuration errors You can reach me at [email].. We have restarted the router and checked the internet speed, but the problems continue. We would greatly appreciate your assistance in resolving this issue as soon as possible. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

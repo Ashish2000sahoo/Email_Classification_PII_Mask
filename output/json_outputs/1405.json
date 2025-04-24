@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Vielen Ger\u00e4ten fehlt es an der Funktionalit\u00e4t.\n\nEs gibt Probleme mit den Funktionen vieler Produkte My name is Liu Wei.. Unkontrollierte Software-Updates k\u00f6nnten die Grundursache sein. Sie haben bereits probiert, die Ger\u00e4te neu zu starten und einzeln zu troubleshooten. You can reach me at david.kim@corp.kr.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        120,
+        127
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        303,
+        320
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Vielen Ger\u00e4ten fehlt es an der Funktionalit\u00e4t.\n\nEs gibt Probleme mit den Funktionen vieler Produkte My name is [full_name].. Unkontrollierte Software-Updates k\u00f6nnten die Grundursache sein. Sie haben bereits probiert, die Ger\u00e4te neu zu starten und einzeln zu troubleshooten. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

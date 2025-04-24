@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Declining Digital Engagement\n\nA marketing agency has noticed a significant drop in digital engagement metrics. This may have occurred due to a recent software update or new malware threats. So far, they have analyzed campaign performance, updated their Node.js antivirus software, and scanned for potential breaches You can reach me at elena.ivanova@support.org.. They need assistance to resolve the issue. My name is John Doe.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        439,
+        447
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        357,
+        382
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Support for Declining Digital Engagement\n\nA marketing agency has noticed a significant drop in digital engagement metrics. This may have occurred due to a recent software update or new malware threats. So far, they have analyzed campaign performance, updated their Node.js antivirus software, and scanned for potential breaches You can reach me at [email].. They need assistance to resolve the issue. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

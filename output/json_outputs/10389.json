@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Probleme mit Kaspersky-Verschl\u00fcsselung\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich bei Ihnen beschweren, da ein Fehler w\u00e4hrend der Verschl\u00fcsselung medizinischer Daten aufgetreten ist. Die Verschl\u00fcsselungsprozedur ist misslungen, und ich denke, dass es m\u00f6glicherweise auf die Nutzung out-of-date Kaspersky-Software reduce. Ich habe das Problem bereits durch Neustart des VPN-Router und das Aktualisieren von Drupal Commerce versucht, leider ohne Erfolg You can reach me at david.kim@corp.kr.. Ich w\u00fcrde Ihre Unterst\u00fctzung in der L\u00f6sung dieses Problems sehr sch\u00e4tzen My name is John Doe.. Bitte geben Sie mir Anweisungen, wie ich weitere Diagnose Schritte durchf\u00fchren kann. Ich danke Ihnen im Voraus f\u00fcr Ihre Hilfe und Ihre Zeit.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        586,
+        594
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        482,
+        499
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Probleme mit Kaspersky-Verschl\u00fcsselung\n\nSehr geehrte Kundenservice, ich m\u00f6chte mich bei Ihnen beschweren, da ein Fehler w\u00e4hrend der Verschl\u00fcsselung medizinischer Daten aufgetreten ist. Die Verschl\u00fcsselungsprozedur ist misslungen, und ich denke, dass es m\u00f6glicherweise auf die Nutzung out-of-date Kaspersky-Software reduce. Ich habe das Problem bereits durch Neustart des VPN-Router und das Aktualisieren von Drupal Commerce versucht, leider ohne Erfolg You can reach me at [email].. Ich w\u00fcrde Ihre Unterst\u00fctzung in der L\u00f6sung dieses Problems sehr sch\u00e4tzen My name is [full_name].. Bitte geben Sie mir Anweisungen, wie ich weitere Diagnose Schritte durchf\u00fchren kann. Ich danke Ihnen im Voraus f\u00fcr Ihre Hilfe und Ihre Zeit.",
+  "category_of_the_email": "Incident"
+}

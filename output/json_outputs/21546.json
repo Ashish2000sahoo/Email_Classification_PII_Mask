@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Necesito asistencia para la respuesta lenta de consultas en MySQL 8.0.30\n\nEstimado soporte al cliente de Servicios de TI,\n\nEstoy escribiendo para solicitar asistencia con respecto a los problemas de rendimiento que estamos enfrentando con nuestra base de datos MySQL 8.0.30. Hemos notado que las respuestas a las consultas se han vuelto significativamente lentas, lo que est\u00e1 afectando nuestra productividad general y el rendimiento de la aplicaci\u00f3n My name is Sophia Rossi.. Creemos que podr\u00eda ser necesario una optimizaci\u00f3n del rendimiento para resolver estos problemas.\n\nYa hemos intentado optimizar los \u00edndices y realizar diagn\u00f3sticos, pero lamentablemente, el problema persiste You can reach me at johndoe@email.com.. Sospechamos que podr\u00eda estar relacionado con configuraciones espec\u00edficas de la versi\u00f3n de MySQL o cuellos de botella en los recursos.\n\n\u00bfPodr\u00edan por favor asesorarnos sobre las optimizaciones potenciales que deber\u00edamos considerar o ayudarnos a solucionar estos problemas de manera m\u00e1s efectiva? Cualquier orientaci\u00f3n o recomendaci\u00f3n por parte de su equipo ser\u00eda muy apreciada. Nuestro n\u00famero de cuenta es <acc_num>, y estamos disponibles para discutir m\u00e1s al respecto en su mayor conveniencia.\n\nGracias por su atenci\u00f3n a este asunto.\n\nAtentamente,\n<name>\nEquipo de soporte de <company>\nContacto: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        470,
+        482
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        711,
+        728
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        75,
+        81
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    },
+    {
+      "position": [
+        276,
+        282
+      ],
+      "classification": "phone_number",
+      "entity": "8.0.30"
+    }
+  ],
+  "masked_email": "Subject: Necesito asistencia para la respuesta lenta de consultas en MySQL [phone_number]\n\nEstimado soporte al cliente de Servicios de TI,\n\nEstoy escribiendo para solicitar asistencia con respecto a los problemas de rendimiento que estamos enfrentando con nuestra base de datos MySQL [phone_number]. Hemos notado que las respuestas a las consultas se han vuelto significativamente lentas, lo que est\u00e1 afectando nuestra productividad general y el rendimiento de la aplicaci\u00f3n My name is [full_name].. Creemos que podr\u00eda ser necesario una optimizaci\u00f3n del rendimiento para resolver estos problemas.\n\nYa hemos intentado optimizar los \u00edndices y realizar diagn\u00f3sticos, pero lamentablemente, el problema persiste You can reach me at [email].. Sospechamos que podr\u00eda estar relacionado con configuraciones espec\u00edficas de la versi\u00f3n de MySQL o cuellos de botella en los recursos.\n\n\u00bfPodr\u00edan por favor asesorarnos sobre las optimizaciones potenciales que deber\u00edamos considerar o ayudarnos a solucionar estos problemas de manera m\u00e1s efectiva? Cualquier orientaci\u00f3n o recomendaci\u00f3n por parte de su equipo ser\u00eda muy apreciada. Nuestro n\u00famero de cuenta es <acc_num>, y estamos disponibles para discutir m\u00e1s al respecto en su mayor conveniencia.\n\nGracias por su atenci\u00f3n a este asunto.\n\nAtentamente,\n<name>\nEquipo de soporte de <company>\nContacto: <tel_num>",
+  "category_of_the_email": "Request"
+}

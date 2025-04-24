@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, please address the request for the implementation of enhanced security protocols for medical data access and communication systems across all affected products and services My name is Elena Ivanova.. It is crucial to ensure the confidentiality and integrity of sensitive medical information. Could you provide details on the measures that have been taken to address this issue and the timeline for expected implementation? We look forward to your prompt response and appreciate your attention to this matter You can reach me at sophia.rossi@service.it.. Kindly inform us if there is any additional information needed to facilitate the process.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        213,
+        226
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        555,
+        578
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, please address the request for the implementation of enhanced security protocols for medical data access and communication systems across all affected products and services My name is [full_name].. It is crucial to ensure the confidentiality and integrity of sensitive medical information. Could you provide details on the measures that have been taken to address this issue and the timeline for expected implementation? We look forward to your prompt response and appreciate your attention to this matter You can reach me at [email].. Kindly inform us if there is any additional information needed to facilitate the process.",
+  "category_of_the_email": "Change"
+}

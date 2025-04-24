@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Issues with Billing for Various Products Seeking Resolution\n\nFacing billing discrepancies across multiple products. These might be due to recent system updates or integration issues My name is Fatima Al-Farsi.. I have already tried to reconcile transactions and verify account settings, but the issues still persist. Could you please look into this matter and provide a resolution at your earliest convenience? You can reach me at maria.gonzalez@shop.es.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        202,
+        211
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        442,
+        464
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Issues with Billing for Various Products Seeking Resolution\n\nFacing billing discrepancies across multiple products. These might be due to recent system updates or integration issues My name is [full_name]-Farsi.. I have already tried to reconcile transactions and verify account settings, but the issues still persist. Could you please look into this matter and provide a resolution at your earliest convenience? You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

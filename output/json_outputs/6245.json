@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nCustomer Support, I am reporting an issue with the investment optimization tool. The tool is experiencing delays in data processing, which may be due to insufficient memory allocation or software configuration errors. Despite restarting the RAID-Controller and checking Asana integration, the issues persist My name is Jane Smith.. I have already tried troubleshooting, but the delays continue to occur You can reach me at fatima.farsi@help.com.. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible. Please let me know if there is any additional information you need.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        330,
+        340
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        435,
+        456
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nCustomer Support, I am reporting an issue with the investment optimization tool. The tool is experiencing delays in data processing, which may be due to insufficient memory allocation or software configuration errors. Despite restarting the RAID-Controller and checking Asana integration, the issues persist My name is [full_name].. I have already tried troubleshooting, but the delays continue to occur You can reach me at [email].. I would greatly appreciate it if you could look into this matter and provide a solution as soon as possible. Please let me know if there is any additional information you need.",
+  "category_of_the_email": "Incident"
+}

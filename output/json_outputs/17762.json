@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Issue with Access to Project Area\n\nA user reported that they are unable to use certain features of the project.. My contact number is +44-20-7946-0958.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        143,
+        159
+      ],
+      "classification": "phone_number",
+      "entity": "+44-20-7946-0958"
+    }
+  ],
+  "masked_email": "Subject: Issue with Access to Project Area\n\nA user reported that they are unable to use certain features of the project.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

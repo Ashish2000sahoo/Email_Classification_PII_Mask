@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Problems with Performance of SaaS Application\n\nDear Customer Support, I am experiencing performance issues with the SaaS application used for project management tasks My name is John Doe.. These problems might be due to recent software updates that have limited system resources. Despite attempts at optimizing settings and restarting the hardware system, the issues persist. I would appreciate your assistance in resolving this problem You can reach me at david.kim@corp.kr.. Please provide me with any additional information that might be needed. Thank you for your support and I look forward to your quick response.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        187,
+        195
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        469,
+        486
+      ],
+      "classification": "email",
+      "entity": "david.kim@corp.kr"
+    }
+  ],
+  "masked_email": "Subject: Problems with Performance of SaaS Application\n\nDear Customer Support, I am experiencing performance issues with the SaaS application used for project management tasks My name is [full_name].. These problems might be due to recent software updates that have limited system resources. Despite attempts at optimizing settings and restarting the hardware system, the issues persist. I would appreciate your assistance in resolving this problem You can reach me at [email].. Please provide me with any additional information that might be needed. Thank you for your support and I look forward to your quick response.",
+  "category_of_the_email": "Incident"
+}

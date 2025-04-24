@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Concerning Kubernetes Performance Problem\n\nA financial organization is facing performance challenges with their data analytics workloads on Kubernetes, which might be due to excessive CPU usage caused by misconfigured resources. Efforts have been made to reallocate pod resources and optimize workload scheduling.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        345,
+        362
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Concerning Kubernetes Performance Problem\n\nA financial organization is facing performance challenges with their data analytics workloads on Kubernetes, which might be due to excessive CPU usage caused by misconfigured resources. Efforts have been made to reallocate pod resources and optimize workload scheduling.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

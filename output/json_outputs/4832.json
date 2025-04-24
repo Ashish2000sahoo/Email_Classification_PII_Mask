@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Inquiry About SaaS Features for Project Tracking and Team Collaboration\n\nHello Customer Support, I am contacting you to find out about the project tracking and team collaboration tools included in your SaaS. Could you give me a thorough list of the tools and features that are available? I am especially interested in learning more about the project management features, such as task delegation, deadline setting, and progress tracking. Also, I would like to know more about the team collaboration features, including communication channels, file sharing, and meeting scheduling My name is David Kim.. I am looking forward to your response and learning more about your SaaS. Thanks for your time and help. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        599,
+        608
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        737,
+        758
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Inquiry About SaaS Features for Project Tracking and Team Collaboration\n\nHello Customer Support, I am contacting you to find out about the project tracking and team collaboration tools included in your SaaS. Could you give me a thorough list of the tools and features that are available? I am especially interested in learning more about the project management features, such as task delegation, deadline setting, and progress tracking. Also, I would like to know more about the team collaboration features, including communication channels, file sharing, and meeting scheduling My name is [full_name].. I am looking forward to your response and learning more about your SaaS. Thanks for your time and help. You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

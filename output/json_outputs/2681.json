@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Details on Latest Updates for Project Management SaaS\n\nIs there any possibility of receiving information about the latest updates and features in project management SaaS solutions? I am keen to learn about the new tools and functionalities that have been added recently.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        302,
+        319
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    }
+  ],
+  "masked_email": "Subject: Details on Latest Updates for Project Management SaaS\n\nIs there any possibility of receiving information about the latest updates and features in project management SaaS solutions? I am keen to learn about the new tools and functionalities that have been added recently.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

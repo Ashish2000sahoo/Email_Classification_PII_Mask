@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Enhancing Investment Analytics\n\nCustomer Support, seeking detailed advice on optimizing investments through the use of data analytics tools and services My name is Carlos Mendoza.. Is there information available on how to leverage data analytics to make informed investment decisions? Interested in learning about various tools and services that can assist in analyzing market trends, tracking investment performance, and identifying potential opportunities. Additionally, would appreciate recommendations on how to get started with data analytics for investment optimization You can reach me at fatima.farsi@help.com.. Looking forward.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        173,
+        187
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        602,
+        623
+      ],
+      "classification": "email",
+      "entity": "fatima.farsi@help.com"
+    }
+  ],
+  "masked_email": "Subject: Enhancing Investment Analytics\n\nCustomer Support, seeking detailed advice on optimizing investments through the use of data analytics tools and services My name is [full_name].. Is there information available on how to leverage data analytics to make informed investment decisions? Interested in learning about various tools and services that can assist in analyzing market trends, tracking investment performance, and identifying potential opportunities. Additionally, would appreciate recommendations on how to get started with data analytics for investment optimization You can reach me at [email].. Looking forward.",
+  "category_of_the_email": "Request"
+}

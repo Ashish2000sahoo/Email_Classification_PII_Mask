@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Inquiry on Integration Options for Drupal Commerce with Microsoft Dynamics 365\n\nI am reaching out to inquire about the integration options for Drupal Commerce with Microsoft Dynamics 365. Could you please provide me with information on the available integration options and their functionalities? I would be grateful if you could assist me in understanding the possibilities and limitations of integrating these two systems.. My contact number is +33-1-76-88-45-67.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        456,
+        473
+      ],
+      "classification": "phone_number",
+      "entity": "+33-1-76-88-45-67"
+    },
+    {
+      "position": [
+        84,
+        87
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    },
+    {
+      "position": [
+        192,
+        195
+      ],
+      "classification": "cvv_no",
+      "entity": "365"
+    }
+  ],
+  "masked_email": "Subject: Inquiry on Integration Options for Drupal Commerce with Microsoft Dynamics [cvv_no]\n\nI am reaching out to inquire about the integration options for Drupal Commerce with Microsoft Dynamics [cvv_no]. Could you please provide me with information on the available integration options and their functionalities? I would be grateful if you could assist me in understanding the possibilities and limitations of integrating these two systems.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

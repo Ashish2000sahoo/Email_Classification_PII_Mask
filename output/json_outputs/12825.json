@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Company Policies on Remote Work and Flexible Scheduling\n\nI am reaching out to inquire about the company's policies regarding remote work and flexible scheduling, as a prospective employee. I am particularly interested in learning about the company's stance on work-life balance and flexibility My name is Maria Gonzalez.. Could you provide me with information on the company's remote work and flexible scheduling policies, as well as any additional benefits that may be available? Additionally, I would be grateful if you could share how these policies are put into practice, including any criteria or responsibilities that employees need to fulfill to participate. Furthermore, I am curious to know if certain roles or departments are eligible for remote work or flexible scheduling. I am excited about the prospect of joining the company and believe that a thorough understanding of these policies will aid in my decision-making You can reach me at sophia.rossi@service.it.. Thank you for your time and assistance, and I look forward to a prompt response. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        314,
+        328
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        957,
+        980
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Company Policies on Remote Work and Flexible Scheduling\n\nI am reaching out to inquire about the company's policies regarding remote work and flexible scheduling, as a prospective employee. I am particularly interested in learning about the company's stance on work-life balance and flexibility My name is [full_name].. Could you provide me with information on the company's remote work and flexible scheduling policies, as well as any additional benefits that may be available? Additionally, I would be grateful if you could share how these policies are put into practice, including any criteria or responsibilities that employees need to fulfill to participate. Furthermore, I am curious to know if certain roles or departments are eligible for remote work or flexible scheduling. I am excited about the prospect of joining the company and believe that a thorough understanding of these policies will aid in my decision-making You can reach me at [email].. Thank you for your time and assistance, and I look forward to a prompt response. Sincerely, [Your Name]",
+  "category_of_the_email": "Request"
+}

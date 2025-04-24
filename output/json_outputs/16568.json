@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Address Decrease in Brand Engagement Amidst Utilized Digital Strategies\n\nOur marketing agency is experiencing a decline in brand engagement despite employing a variety of digital strategies. This may be due to outdated content and ineffective targeting My name is Maria Gonzalez.. After analyzing performance metrics and attempting to refresh our campaigns, we have only achieved limited success. To enhance engagement, we need to reassess the content strategy and targeting methods to better resonate with the audience. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        273,
+        287
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        547,
+        570
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Address Decrease in Brand Engagement Amidst Utilized Digital Strategies\n\nOur marketing agency is experiencing a decline in brand engagement despite employing a variety of digital strategies. This may be due to outdated content and ineffective targeting My name is [full_name].. After analyzing performance metrics and attempting to refresh our campaigns, we have only achieved limited success. To enhance engagement, we need to reassess the content strategy and targeting methods to better resonate with the audience. You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

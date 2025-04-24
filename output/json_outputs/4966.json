@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding SaaS Application Performance\n\nA serious performance concern has emerged that is impacting the SaaS application, resulting in slow response times and timeouts. This could be due to recent updates or integrations with Repeater, Norton Antivirus, or WooCommerce My name is David Kim.. We have already tried restarting the server, optimizing queries, and rolling back the latest changes, but the issue still persists You can reach me at liuwei@business.cn.. We urgently need your assistance to resolve this issue as quickly as possible to minimize downtime and prevent further disruptions.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        297,
+        306
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        462,
+        480
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding SaaS Application Performance\n\nA serious performance concern has emerged that is impacting the SaaS application, resulting in slow response times and timeouts. This could be due to recent updates or integrations with Repeater, Norton Antivirus, or WooCommerce My name is [full_name].. We have already tried restarting the server, optimizing queries, and rolling back the latest changes, but the issue still persists You can reach me at [email].. We urgently need your assistance to resolve this issue as quickly as possible to minimize downtime and prevent further disruptions.",
+  "category_of_the_email": "Incident"
+}

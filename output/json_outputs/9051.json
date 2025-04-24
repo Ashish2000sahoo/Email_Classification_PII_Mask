@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concerns About SaaS Project Tool\n\nFacing latency issues You can reach me at omar.hassan@secure.net.. Possible recent updates to Docker and Oracle Database could be the cause. Caches have been cleared and services restarted. My name is Maria Gonzalez.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        258
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        85,
+        107
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Concerns About SaaS Project Tool\n\nFacing latency issues You can reach me at [email].. Possible recent updates to Docker and Oracle Database could be the cause. Caches have been cleared and services restarted. My name is [full_name].",
+  "category_of_the_email": "Incident"
+}

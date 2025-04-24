@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Medizinische Datenschutz-Probleme\n\nSehr geehrte Kundenservice, <br>Wir melden Ihnen ein Sicherheitsproblem des medizinischen Datensystems an. Letztens wurde ein unautorisierter Zugriff erkannt, was erhebliche Sicherheitsbedenken hervorgerufen hat. Wir glauben, dass das Problem durch veraltete Software und schwache Passw\u00f6rter verursacht wurde My name is Fatima Al-Farsi.. Um das Problem anzugehen, haben wir Passwortsicherheitsrichtlinien verst\u00e4rkt und die Antivirus-Software aktualisiert. Allerdings ben\u00f6tigen wir weitere Unterst\u00fctzung, um das System sicher zu stellen You can reach me at liuwei@business.cn.. Eine Anleitung f\u00fcr zus\u00e4tzliche Ma\u00dfnahmen zur Verh\u00fctung zuk\u00fcnftiger Ereignisse w\u00fcrden wir sch\u00e4tzen. Bitte geben Sie uns Anweisungen, wie wir vorgehen sollen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        364,
+        373
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        602,
+        620
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Medizinische Datenschutz-Probleme\n\nSehr geehrte Kundenservice, <br>Wir melden Ihnen ein Sicherheitsproblem des medizinischen Datensystems an. Letztens wurde ein unautorisierter Zugriff erkannt, was erhebliche Sicherheitsbedenken hervorgerufen hat. Wir glauben, dass das Problem durch veraltete Software und schwache Passw\u00f6rter verursacht wurde My name is [full_name]-Farsi.. Um das Problem anzugehen, haben wir Passwortsicherheitsrichtlinien verst\u00e4rkt und die Antivirus-Software aktualisiert. Allerdings ben\u00f6tigen wir weitere Unterst\u00fctzung, um das System sicher zu stellen You can reach me at [email].. Eine Anleitung f\u00fcr zus\u00e4tzliche Ma\u00dfnahmen zur Verh\u00fctung zuk\u00fcnftiger Ereignisse w\u00fcrden wir sch\u00e4tzen. Bitte geben Sie uns Anweisungen, wie wir vorgehen sollen.",
+  "category_of_the_email": "Incident"
+}

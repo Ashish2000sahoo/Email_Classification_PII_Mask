@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Support Regarding VR Headset Malfunction\n\nDear Customer Support, I hope this message finds you well. I am contacting you to report a problem I have encountered with my HTC Vive Cosmos VR Headset. The issue happened when the headset unexpectedly disconnected during use. I believe the cause of this malfunction might be outdated drivers or software conflicts. Previously, I attempted to resolve the issue by restarting the headset and updating the drivers to their latest versions, but the problem still persists. I would be grateful for any advice or assistance you can offer to address this issue. Please inform if there are any extra steps I need to perform or if you require any additional details from me You can reach me at maria.gonzalez@shop.es.. Up until now, I have been using the headset for quite some time, and this is the first such incident. I am eager to hear from you and to find a solution. Thank you in advance for your assistance. Sincerely, [Your Name] My name is Carlos Mendoza.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1005,
+        1019
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        750,
+        772
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Request for Support Regarding VR Headset Malfunction\n\nDear Customer Support, I hope this message finds you well. I am contacting you to report a problem I have encountered with my HTC Vive Cosmos VR Headset. The issue happened when the headset unexpectedly disconnected during use. I believe the cause of this malfunction might be outdated drivers or software conflicts. Previously, I attempted to resolve the issue by restarting the headset and updating the drivers to their latest versions, but the problem still persists. I would be grateful for any advice or assistance you can offer to address this issue. Please inform if there are any extra steps I need to perform or if you require any additional details from me You can reach me at [email].. Up until now, I have been using the headset for quite some time, and this is the first such incident. I am eager to hear from you and to find a solution. Thank you in advance for your assistance. Sincerely, [Your Name] My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

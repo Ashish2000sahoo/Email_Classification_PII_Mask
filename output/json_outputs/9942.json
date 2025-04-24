@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Request for Guidance on Optimizing Investment Algorithms\n\nDear Customer Support,\\nI am interested in enhancing our investment algorithms to boost portfolio performance through the application of sophisticated data analytics My name is Elena Ivanova.. By integrating machine learning and statistical models, we hope to develop a more streamlined and effective investment strategy.\\nAdvanced data analytics, including predictive modeling, risk assessment, and portfolio optimization, can aid in recognizing market trends and facilitating better investment decisions. These methods can also help reduce risk and enhance returns, thereby improving overall portfolio performance.\\nI would appreciate your input on how to adopt these strategies within our investment algorithms. Could you offer some advice on the most suitable methodologies and tools? Additionally, any recommended resources or references would be greatly appreciated.\\nThank you for your attention and assistance. We look forward to your reply.\\nSincerely,\\n[Your Name] You can reach me at omar.hassan@secure.net.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        244,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        1060,
+        1082
+      ],
+      "classification": "email",
+      "entity": "omar.hassan@secure.net"
+    }
+  ],
+  "masked_email": "Subject: Request for Guidance on Optimizing Investment Algorithms\n\nDear Customer Support,\\nI am interested in enhancing our investment algorithms to boost portfolio performance through the application of sophisticated data analytics My name is [full_name].. By integrating machine learning and statistical models, we hope to develop a more streamlined and effective investment strategy.\\nAdvanced data analytics, including predictive modeling, risk assessment, and portfolio optimization, can aid in recognizing market trends and facilitating better investment decisions. These methods can also help reduce risk and enhance returns, thereby improving overall portfolio performance.\\nI would appreciate your input on how to adopt these strategies within our investment algorithms. Could you offer some advice on the most suitable methodologies and tools? Additionally, any recommended resources or references would be greatly appreciated.\\nThank you for your attention and assistance. We look forward to your reply.\\nSincerely,\\n[Your Name] You can reach me at [email].",
+  "category_of_the_email": "Request"
+}

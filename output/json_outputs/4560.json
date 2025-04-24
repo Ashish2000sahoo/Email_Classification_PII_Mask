@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Integrationsversuch misslingt aufgrund eines API-Schl\u00fcssel Unstimmigkeitsproblems\n\nDie Daten werden aufgrund eines Integrationsfehlers nicht synchronisiert. Es k\u00f6nnte sich um ein API-Schl\u00fcssel Unstimmigkeitsproblem handeln My name is Carlos Mendoza.. Die betroffenen Dienste wurden neu gestartet und die Anmeldeinformationen wurden gepr\u00fcft. You can reach me at sophia.rossi@service.it.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        243,
+        257
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        367,
+        390
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Integrationsversuch misslingt aufgrund eines API-Schl\u00fcssel Unstimmigkeitsproblems\n\nDie Daten werden aufgrund eines Integrationsfehlers nicht synchronisiert. Es k\u00f6nnte sich um ein API-Schl\u00fcssel Unstimmigkeitsproblem handeln My name is [full_name].. Die betroffenen Dienste wurden neu gestartet und die Anmeldeinformationen wurden gepr\u00fcft. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

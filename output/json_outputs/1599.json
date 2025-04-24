@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Technische Anomaly in Investmentoptimierung\n\nSehr geehrte Kundensupport, ich melde ein kritisches Problem mit dem Datenanalysewerkzeug f\u00fcr Investmentoptimierung My name is Liu Wei.. Das Werkzeug zeigt unerwartetes Verhalten und scheint durch Neustarts nicht zu l\u00f6sen. Dies k\u00f6nnte auf neueste Softwareupdates zur\u00fcckzuf\u00fchren sein. Trotz des Systems, das vorherige Einstellungen wiederherstellt, beh\u00e4lt das Problem seine Auswirkungen bei. Die unerreicht Antwortivit\u00e4t hat erhebliche Auswirkungen auf unsere Betriebsabl\u00e4ufe. Wir ben\u00f6tigen dringend Hilfe, um das Problem zu l\u00f6sen. K\u00f6nnten Sie uns bitte den Rat geben, wie wir das Werkzeug online bringen? Wir bedanken uns im Voraus f\u00fcr Ihre schnelle Unterst\u00fctzung bei dieser Angelegenheit und warten auf den geeigneten Zeitpunkt f\u00fcr eine umfassende Diskussion. You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        181,
+        188
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        839,
+        860
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Technische Anomaly in Investmentoptimierung\n\nSehr geehrte Kundensupport, ich melde ein kritisches Problem mit dem Datenanalysewerkzeug f\u00fcr Investmentoptimierung My name is [full_name].. Das Werkzeug zeigt unerwartetes Verhalten und scheint durch Neustarts nicht zu l\u00f6sen. Dies k\u00f6nnte auf neueste Softwareupdates zur\u00fcckzuf\u00fchren sein. Trotz des Systems, das vorherige Einstellungen wiederherstellt, beh\u00e4lt das Problem seine Auswirkungen bei. Die unerreicht Antwortivit\u00e4t hat erhebliche Auswirkungen auf unsere Betriebsabl\u00e4ufe. Wir ben\u00f6tigen dringend Hilfe, um das Problem zu l\u00f6sen. K\u00f6nnten Sie uns bitte den Rat geben, wie wir das Werkzeug online bringen? Wir bedanken uns im Voraus f\u00fcr Ihre schnelle Unterst\u00fctzung bei dieser Angelegenheit und warten auf den geeigneten Zeitpunkt f\u00fcr eine umfassende Diskussion. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

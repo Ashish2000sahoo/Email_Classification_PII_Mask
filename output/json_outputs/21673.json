@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Dringend: Leistungsprobleme mit Dell XPS 13\n\nSehr geehrtes Kundenserviceteam, \n\nich schreibe, um Ihre dringende Aufmerksamkeit auf einige Leistungsprobleme zu lenken, die ich mit meinem Dell XPS 13 9310, das ich in Ihrem Tech Online Store gekauft habe, habe. In den letzten Wochen hat der Laptop schwerwiegende Verlangsamungen und gelegentliches Einfrieren gezeigt, was meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt, insbesondere da ich mich auf dieses Ger\u00e4t f\u00fcr meine t\u00e4glichen Arbeitsaufgaben verlasse. Zum Beispiel dauern grundlegende Vorg\u00e4nge wie das \u00d6ffnen von Anwendungen oder das Wechseln zwischen Tabs jetzt erheblich l\u00e4nger, und manchmal friert der Laptop vollst\u00e4ndig ein, was einen Neustart erforderlich macht, um die Funktionalit\u00e4t wiederherzustellen My name is Carlos Mendoza.. \n\nIch habe sichergestellt, dass alle Software, einschlie\u00dflich des Betriebssystems und der Treiber, auf dem neuesten Stand sind, und ich habe verschiedene Fehlersuche-Schritte unternommen, einschlie\u00dflich des L\u00f6schens des Caches und der Durchf\u00fchrung von Wartungspr\u00fcfungen, aber die Probleme bestehen weiterhin. Daher wende ich mich an Sie, um eine technischere und m\u00f6glicherweise dringende L\u00f6sung f\u00fcr das, was anscheinend ein hartn\u00e4ckiges Problem ist, zu erhalten. Die Schwierigkeiten mit diesem Ger\u00e4t beginnen, meine Arbeitsumgebungen negativ zu beeintr\u00e4chtigen, und eine zeitnahe Antwort oder einen Termin f\u00fcr die Bewertung durch einen Spezialisten w\u00fcrde sehr gesch\u00e4tzt werden. \n\nBitte lassen Sie mich wissen, wie und wann dieses Anliegen zufriedenstellend gel\u00f6st werden kann. Vielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit zu diesem Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at janesmith@company.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        781,
+        795
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        1692,
+        1713
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        204,
+        211
+      ],
+      "classification": "phone_number",
+      "entity": "13 9310"
+    }
+  ],
+  "masked_email": "Subject: Dringend: Leistungsprobleme mit Dell XPS 13\n\nSehr geehrtes Kundenserviceteam, \n\nich schreibe, um Ihre dringende Aufmerksamkeit auf einige Leistungsprobleme zu lenken, die ich mit meinem Dell XPS [phone_number], das ich in Ihrem Tech Online Store gekauft habe, habe. In den letzten Wochen hat der Laptop schwerwiegende Verlangsamungen und gelegentliches Einfrieren gezeigt, was meine Produktivit\u00e4t erheblich beeintr\u00e4chtigt, insbesondere da ich mich auf dieses Ger\u00e4t f\u00fcr meine t\u00e4glichen Arbeitsaufgaben verlasse. Zum Beispiel dauern grundlegende Vorg\u00e4nge wie das \u00d6ffnen von Anwendungen oder das Wechseln zwischen Tabs jetzt erheblich l\u00e4nger, und manchmal friert der Laptop vollst\u00e4ndig ein, was einen Neustart erforderlich macht, um die Funktionalit\u00e4t wiederherzustellen My name is [full_name].. \n\nIch habe sichergestellt, dass alle Software, einschlie\u00dflich des Betriebssystems und der Treiber, auf dem neuesten Stand sind, und ich habe verschiedene Fehlersuche-Schritte unternommen, einschlie\u00dflich des L\u00f6schens des Caches und der Durchf\u00fchrung von Wartungspr\u00fcfungen, aber die Probleme bestehen weiterhin. Daher wende ich mich an Sie, um eine technischere und m\u00f6glicherweise dringende L\u00f6sung f\u00fcr das, was anscheinend ein hartn\u00e4ckiges Problem ist, zu erhalten. Die Schwierigkeiten mit diesem Ger\u00e4t beginnen, meine Arbeitsumgebungen negativ zu beeintr\u00e4chtigen, und eine zeitnahe Antwort oder einen Termin f\u00fcr die Bewertung durch einen Spezialisten w\u00fcrde sehr gesch\u00e4tzt werden. \n\nBitte lassen Sie mich wissen, wie und wann dieses Anliegen zufriedenstellend gel\u00f6st werden kann. Vielen Dank f\u00fcr Ihre sofortige Aufmerksamkeit zu diesem Anliegen.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

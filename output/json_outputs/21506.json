@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Demande de garantie\n\nCher service client, J'ai r\u00e9cemment achet\u00e9 un MacBook Air M1 dans votre magasin sous le num\u00e9ro de commande <order_num> You can reach me at liuwei@business.cn.. J'aimerais comprendre les d\u00e9tails de la garantie de ce produit, y compris sa dur\u00e9e et sa couverture My name is John Doe.. Pourriez-vous s'il vous pla\u00eet m'aider \u00e0 ce sujet ? Merci pour votre aide. Cordialement, <name>.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        301,
+        309
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        169,
+        187
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Demande de garantie\n\nCher service client, J'ai r\u00e9cemment achet\u00e9 un MacBook Air M1 dans votre magasin sous le num\u00e9ro de commande <order_num> You can reach me at [email].. J'aimerais comprendre les d\u00e9tails de la garantie de ce produit, y compris sa dur\u00e9e et sa couverture My name is [full_name].. Pourriez-vous s'il vous pla\u00eet m'aider \u00e0 ce sujet ? Merci pour votre aide. Cordialement, <name>.",
+  "category_of_the_email": "Request"
+}

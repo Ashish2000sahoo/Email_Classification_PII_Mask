@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Urgente: Error 403 al acceder a la Consola de Administraci\u00f3n de AWS\n\nEstimado equipo de soporte de servicios de TI,\n\nEstoy escribiendo para informar sobre un problema urgente con el servicio de administraci\u00f3n de AWS. Nuestro equipo, liderado por <name>, actualmente no puede acceder a la Consola de Administraci\u00f3n de AWS; estamos encontrando un Error 403. Este problema est\u00e1 afectando significativamente nuestras operaciones, y una r\u00e1pida resoluci\u00f3n es imperativa para evitar m\u00e1s interrupciones en el servicio. Sospechamos que el error podr\u00eda estar relacionado con la configuraci\u00f3n de permisos o problemas de cuenta y solicitamos amablemente su experiencia para verificar nuestra configuraci\u00f3n de <acc_num> o cualquier otra causa probable.\n\nPor favor, h\u00e1ganos saber lo antes posible c\u00f3mo proceder. Puede comunicarse con nosotros al <tel_num> o enviarme un correo electr\u00f3nico directamente a <email> My name is Fatima Al-Farsi.. Su respuesta inmediata ser\u00e1 muy apreciada.\n\nGracias por su atenci\u00f3n a este asunto urgente.\n\nAtentamente,\n\n<name>\n<position> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        918,
+        927
+      ],
+      "classification": "full_name",
+      "entity": "Fatima Al"
+    },
+    {
+      "position": [
+        1082,
+        1107
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        24,
+        27
+      ],
+      "classification": "cvv_no",
+      "entity": "403"
+    },
+    {
+      "position": [
+        360,
+        363
+      ],
+      "classification": "cvv_no",
+      "entity": "403"
+    }
+  ],
+  "masked_email": "Subject: Urgente: Error [cvv_no] al acceder a la Consola de Administraci\u00f3n de AWS\n\nEstimado equipo de soporte de servicios de TI,\n\nEstoy escribiendo para informar sobre un problema urgente con el servicio de administraci\u00f3n de AWS. Nuestro equipo, liderado por <name>, actualmente no puede acceder a la Consola de Administraci\u00f3n de AWS; estamos encontrando un Error [cvv_no]. Este problema est\u00e1 afectando significativamente nuestras operaciones, y una r\u00e1pida resoluci\u00f3n es imperativa para evitar m\u00e1s interrupciones en el servicio. Sospechamos que el error podr\u00eda estar relacionado con la configuraci\u00f3n de permisos o problemas de cuenta y solicitamos amablemente su experiencia para verificar nuestra configuraci\u00f3n de <acc_num> o cualquier otra causa probable.\n\nPor favor, h\u00e1ganos saber lo antes posible c\u00f3mo proceder. Puede comunicarse con nosotros al <tel_num> o enviarme un correo electr\u00f3nico directamente a <email> My name is [full_name]-Farsi.. Su respuesta inmediata ser\u00e1 muy apreciada.\n\nGracias por su atenci\u00f3n a este asunto urgente.\n\nAtentamente,\n\n<name>\n<position> You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

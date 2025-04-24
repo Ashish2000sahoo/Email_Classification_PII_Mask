@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support Needed for Marketing Campaigns\n\nOur marketing campaigns have unexpectedly been paused, which has impacted brand growth You can reach me at sophia.rossi@service.it.. We suspect this is due to ineffective audience targeting and outdated digital strategies My name is Maria Gonzalez.. We are trying to realign our strategies to optimize our advertising and achieve success. We need guidance and assistance in overhauling our approaches to get our campaigns back on track. Could you provide suggestions or recommendations for improving our brand work?",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        282,
+        296
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        156,
+        179
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Support Needed for Marketing Campaigns\n\nOur marketing campaigns have unexpectedly been paused, which has impacted brand growth You can reach me at [email].. We suspect this is due to ineffective audience targeting and outdated digital strategies My name is [full_name].. We are trying to realign our strategies to optimize our advertising and achieve success. We need guidance and assistance in overhauling our approaches to get our campaigns back on track. Could you provide suggestions or recommendations for improving our brand work?",
+  "category_of_the_email": "Incident"
+}

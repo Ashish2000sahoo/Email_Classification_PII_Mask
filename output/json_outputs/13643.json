@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support for Website\n\nThere has been a decrease in website traffic over the past week, which has led to reduced engagement. Despite efforts to optimize SEO settings and run paid ads, the issue continues.. My contact number is +82-2-3456-7890.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        234,
+        249
+      ],
+      "classification": "phone_number",
+      "entity": "+82-2-3456-7890"
+    }
+  ],
+  "masked_email": "Subject: Support for Website\n\nThere has been a decrease in website traffic over the past week, which has led to reduced engagement. Despite efforts to optimize SEO settings and run paid ads, the issue continues.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Hilfe bei der Einrichtung des drahtlosen Druckers\n\nSehr geehrter Kundenservice des Tech Online Store,\n\nIch habe k\u00fcrzlich einen neuen Canon PIXMA MG3620 Drucker in Ihrem Online-Shop gekauft und habe Schwierigkeiten bei der Einrichtung f\u00fcr den drahtlosen Betrieb. Ich habe die Schritte im Benutzerhandbuch durchgegangen, aber es gelingt mir nicht, ihn erfolgreich zum Laufen zu bringen My name is Liu Wei.. Derzeit kann ich meinen Drucker nicht mit meinem drahtlosen Netzwerk verbinden, trotz mehrerer Versuche zur Fehlersuche.\n\nIch bitte um Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems. K\u00f6nnten Sie mir bitte detaillierte, schrittweise Anleitungen geben oder mich auf eine Ressource verweisen, die den drahtlosen Einrichtungsprozess f\u00fcr dieses spezifische Modell beschreibt? Ihre Hilfe in dieser Angelegenheit w\u00e4re sehr gesch\u00e4tzt.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at elena.ivanova@support.org.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        404,
+        411
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        938,
+        963
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    },
+    {
+      "position": [
+        156,
+        160
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Hilfe bei der Einrichtung des drahtlosen Druckers\n\nSehr geehrter Kundenservice des Tech Online Store,\n\nIch habe k\u00fcrzlich einen neuen Canon PIXMA MG[phone_number] Drucker in Ihrem Online-Shop gekauft und habe Schwierigkeiten bei der Einrichtung f\u00fcr den drahtlosen Betrieb. Ich habe die Schritte im Benutzerhandbuch durchgegangen, aber es gelingt mir nicht, ihn erfolgreich zum Laufen zu bringen My name is [full_name].. Derzeit kann ich meinen Drucker nicht mit meinem drahtlosen Netzwerk verbinden, trotz mehrerer Versuche zur Fehlersuche.\n\nIch bitte um Ihre Unterst\u00fctzung bei der L\u00f6sung dieses Problems. K\u00f6nnten Sie mir bitte detaillierte, schrittweise Anleitungen geben oder mich auf eine Ressource verweisen, die den drahtlosen Einrichtungsprozess f\u00fcr dieses spezifische Modell beschreibt? Ihre Hilfe in dieser Angelegenheit w\u00e4re sehr gesch\u00e4tzt.\n\nVielen Dank f\u00fcr Ihre Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n<name> You can reach me at [email].",
+  "category_of_the_email": "Problem"
+}

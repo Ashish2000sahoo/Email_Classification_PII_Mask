@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Sicherheit in der medizinischen Datenspeicherung\n\nWelche Sicherheitsstandards richten Sie an, um Datenspeicherungen in der Medizin sicherzustellen?. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        179,
+        194
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Sicherheit in der medizinischen Datenspeicherung\n\nWelche Sicherheitsstandards richten Sie an, um Datenspeicherungen in der Medizin sicherzustellen?. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

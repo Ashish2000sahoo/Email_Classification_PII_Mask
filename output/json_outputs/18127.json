@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nSehr geehrte Kundenservice, ich werde derzeit mit Problemen in Bezug auf Projektterminen konfrontiert, die nicht aktualisiert werden k\u00f6nnen. Dies k\u00f6nnte auf ein m\u00f6glicherweise bestehendes Datenbank-Synchronizationsproblem hindeuten My name is David Kim.. Ich habe bereits die betroffenen Dienste neu gestartet und die Protokolle \u00fcberpr\u00fcft, aber das Problem bleibt bestehen. Ich w\u00fcrde mich freuen, wenn Sie dieses Problem genauer untersuchen und so bald wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten You can reach me at carlosm@gmail.com.. Falls Sie weitere Informationen ben\u00f6tigen, stehe ich Ihnen gerne zur Verf\u00fcgung und lasse mich von Ihnen kontaktieren. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        254,
+        263
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        530,
+        547
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: \n\nSehr geehrte Kundenservice, ich werde derzeit mit Problemen in Bezug auf Projektterminen konfrontiert, die nicht aktualisiert werden k\u00f6nnen. Dies k\u00f6nnte auf ein m\u00f6glicherweise bestehendes Datenbank-Synchronizationsproblem hindeuten My name is [full_name].. Ich habe bereits die betroffenen Dienste neu gestartet und die Protokolle \u00fcberpr\u00fcft, aber das Problem bleibt bestehen. Ich w\u00fcrde mich freuen, wenn Sie dieses Problem genauer untersuchen und so bald wie m\u00f6glich eine L\u00f6sung vorschlagen k\u00f6nnten You can reach me at [email].. Falls Sie weitere Informationen ben\u00f6tigen, stehe ich Ihnen gerne zur Verf\u00fcgung und lasse mich von Ihnen kontaktieren. Vielen Dank f\u00fcr Ihre Zeit und Unterst\u00fctzung. Ich freue mich darauf, bald von Ihnen zu h\u00f6ren.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investment Analytics Probleme\n\nWir haben Probleme mit der Datenbearbeitung auf der Investment-Analytics-Plattform My name is Carlos Mendoza.. Versuche, den Hadoop-Diensten neu zu starten und MySQL-Abfragen zu optimieren, waren vergeblich. Es wird angenommen, dass die fehlerhaften Apache Hadoop-Einstellungen die Ursache sind. Hoffen, dass wir das Problem schnell l\u00f6sen und die St\u00f6rungen minimieren k\u00f6nnen. You can reach me at liuwei@business.cn.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        134,
+        148
+      ],
+      "classification": "full_name",
+      "entity": "Carlos Mendoza"
+    },
+    {
+      "position": [
+        433,
+        451
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Investment Analytics Probleme\n\nWir haben Probleme mit der Datenbearbeitung auf der Investment-Analytics-Plattform My name is [full_name].. Versuche, den Hadoop-Diensten neu zu starten und MySQL-Abfragen zu optimieren, waren vergeblich. Es wird angenommen, dass die fehlerhaften Apache Hadoop-Einstellungen die Ursache sind. Hoffen, dass wir das Problem schnell l\u00f6sen und die St\u00f6rungen minimieren k\u00f6nnen. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

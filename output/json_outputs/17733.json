@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Concern Regarding Identified Medical Data Breach\n\nHello customer service, we have noticed a medical data breach with access to patient records that is not authorized. It could be due to a weak WLAN-Router password and an outdated Norton Antivirus. We have already attempted to restart the router, update the antivirus, and run a malware scan, but the problem still exists My name is Elena Ivanova.. We require your help to address this issue promptly to protect our patient records. You can reach me at carlosm@gmail.com.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        392,
+        405
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        510,
+        527
+      ],
+      "classification": "email",
+      "entity": "carlosm@gmail.com"
+    }
+  ],
+  "masked_email": "Subject: Concern Regarding Identified Medical Data Breach\n\nHello customer service, we have noticed a medical data breach with access to patient records that is not authorized. It could be due to a weak WLAN-Router password and an outdated Norton Antivirus. We have already attempted to restart the router, update the antivirus, and run a malware scan, but the problem still exists My name is [full_name].. We require your help to address this issue promptly to protect our patient records. You can reach me at [email].",
+  "category_of_the_email": "Incident"
+}

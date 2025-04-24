@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: \n\nEstimado Servicio al Cliente,\n\nEspero que este mensaje te encuentre bien. Estoy escribiendo para preguntar sobre la disponibilidad y precios del Microsoft Surface Pro 7 en tu tienda en l\u00ednea You can reach me at elena.ivanova@support.org.. Estoy especialmente interesado en las distintas configuraciones y cualquier promoci\u00f3n que pueda estar disponible actualmente.\n\n\u00bfPodr\u00edas proporcionar informaci\u00f3n sobre las diferentes especificaciones, como la RAM, las opciones de almacenamiento y si hay paquetes o descuentos ofrecidos? Adem\u00e1s, agradecer\u00eda si pudieras informarme sobre los tiempos de entrega estimados para este producto si est\u00e1 en stock.\n\nGracias por tu asistencia y pronta respuesta My name is Jane Smith.. Espero tu respuesta.\n\nSaludos cordiales,\n\n<name>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        712,
+        722
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        222,
+        247
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: \n\nEstimado Servicio al Cliente,\n\nEspero que este mensaje te encuentre bien. Estoy escribiendo para preguntar sobre la disponibilidad y precios del Microsoft Surface Pro 7 en tu tienda en l\u00ednea You can reach me at [email].. Estoy especialmente interesado en las distintas configuraciones y cualquier promoci\u00f3n que pueda estar disponible actualmente.\n\n\u00bfPodr\u00edas proporcionar informaci\u00f3n sobre las diferentes especificaciones, como la RAM, las opciones de almacenamiento y si hay paquetes o descuentos ofrecidos? Adem\u00e1s, agradecer\u00eda si pudieras informarme sobre los tiempos de entrega estimados para este producto si est\u00e1 en stock.\n\nGracias por tu asistencia y pronta respuesta My name is [full_name].. Espero tu respuesta.\n\nSaludos cordiales,\n\n<name>",
+  "category_of_the_email": "Request"
+}

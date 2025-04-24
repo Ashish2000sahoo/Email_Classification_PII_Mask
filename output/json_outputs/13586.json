@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Support for Analytics Tool\n\nWe are experiencing inconsistent results with the data analytics tool designed for investment optimization You can reach me at janesmith@company.com.. This might be due to outdated algorithms or data discrepancies. We have attempted to recalibrate the models and validate the data inputs, but without success. Please assist us in resolving this issue. My name is Liu Wei.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        400,
+        407
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        164,
+        185
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    }
+  ],
+  "masked_email": "Subject: Support for Analytics Tool\n\nWe are experiencing inconsistent results with the data analytics tool designed for investment optimization You can reach me at [email].. This might be due to outdated algorithms or data discrepancies. We have attempted to recalibrate the models and validate the data inputs, but without success. Please assist us in resolving this issue. My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

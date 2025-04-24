@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Investigation into Investment Analytics Discrepancies\n\nCustomer Support, our financial firm is encountering inconsistencies in investment analytics results across various platforms My name is Sophia Rossi.. These discrepancies might be due to data integration issues or software compatibility problems. So far, we have verified the integrity of the data sources and updated the software versions, but the issues still persist. We would greatly appreciate your assistance in resolving this matter to ensure accurate investment analytics results You can reach me at johndoe@email.com.. Please inform us of the next steps to proceed. Thank you for your help in resolving this support issue.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        201,
+        213
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        572,
+        589
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Investigation into Investment Analytics Discrepancies\n\nCustomer Support, our financial firm is encountering inconsistencies in investment analytics results across various platforms My name is [full_name].. These discrepancies might be due to data integration issues or software compatibility problems. So far, we have verified the integrity of the data sources and updated the software versions, but the issues still persist. We would greatly appreciate your assistance in resolving this matter to ensure accurate investment analytics results You can reach me at [email].. Please inform us of the next steps to proceed. Thank you for your help in resolving this support issue.",
+  "category_of_the_email": "Incident"
+}

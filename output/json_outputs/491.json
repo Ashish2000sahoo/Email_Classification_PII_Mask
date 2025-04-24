@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Fehlerhafte Investment-Prognosen\n\nDie Investment-Prognosen basieren auf ungenauen Daten, da der Datenstrom inkorrekt ist.. My contact number is +91-98765-43210.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        153,
+        168
+      ],
+      "classification": "phone_number",
+      "entity": "+91-98765-43210"
+    }
+  ],
+  "masked_email": "Subject: Fehlerhafte Investment-Prognosen\n\nDie Investment-Prognosen basieren auf ungenauen Daten, da der Datenstrom inkorrekt ist.. My contact number is [phone_number].",
+  "category_of_the_email": "Problem"
+}

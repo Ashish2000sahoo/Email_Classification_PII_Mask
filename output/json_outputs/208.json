@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Unvereinbare Kosten f\u00fcr Datenanalyse identifiziert\n\nDie Kosten f\u00fcr Datenanalyse sind unvereinbar. My contact number is +971-50-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        128,
+        144
+      ],
+      "classification": "phone_number",
+      "entity": "+971-50-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Unvereinbare Kosten f\u00fcr Datenanalyse identifiziert\n\nDie Kosten f\u00fcr Datenanalyse sind unvereinbar. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

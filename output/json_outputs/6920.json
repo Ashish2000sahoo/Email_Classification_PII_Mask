@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: Support Request for Data Analytics Tools\n\nI am in search of data analytics tools to improve my investment strategies. Could you suggest some options? I would appreciate recommendations on the most effective tools for data analysis and investment optimization.. My contact number is +34-91-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        291,
+        306
+      ],
+      "classification": "phone_number",
+      "entity": "+34-91-123-4567"
+    }
+  ],
+  "masked_email": "Subject: Support Request for Data Analytics Tools\n\nI am in search of data analytics tools to improve my investment strategies. Could you suggest some options? I would appreciate recommendations on the most effective tools for data analysis and investment optimization.. My contact number is [phone_number].",
+  "category_of_the_email": "Request"
+}

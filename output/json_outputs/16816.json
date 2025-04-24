@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Bew\u00e4hrte Sicherheitsprotokolle f\u00fcr medizinische Daten anwenden\n\nVielen Dank f\u00fcr Ihre Nachricht an unseren Kundenservice You can reach me at elena.ivanova@support.org.. Ich bin daran interessiert, die Ma\u00dfnahmen zu verstehen, die Sie eingesetzt haben, um medizinische Daten w\u00e4hrend des Speichers und der \u00dcbertragung zu sch\u00fctzen My name is John Doe.. Da ich als Nutzerin unserer Dienstleistungen an dieser Sache interessiert bin, m\u00f6chte ich sicherstellen, dass meine sensiblen medizinischen Informationen vor unbefugtem Zugriff gesch\u00fctzt sind. K\u00f6nnten Sie bitte Details zu den Sicherheitsmassnahmen geben, die Sie gelehrt haben, um medizinische Informationen zu sch\u00fctzen? Insbesondere interessiert mich, welche Verschl\u00fcsselungsverfahren Sie verwenden, wie Zugangssteuerungen funktionieren und welche anderen Sicherheitsprotokolle Sie implementiert haben. Ich w\u00e4re auch sehr dankbar, wenn Sie mir Informationen zu Ihrer Einhaltung relevanter Vorschriften wie der HIPAA geben k\u00f6nnten. Ich freue mich auf Ihre R\u00fcckmeldung und erwarte Ihre Details. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        346,
+        354
+      ],
+      "classification": "full_name",
+      "entity": "John Doe"
+    },
+    {
+      "position": [
+        149,
+        174
+      ],
+      "classification": "email",
+      "entity": "elena.ivanova@support.org"
+    }
+  ],
+  "masked_email": "Subject: Bew\u00e4hrte Sicherheitsprotokolle f\u00fcr medizinische Daten anwenden\n\nVielen Dank f\u00fcr Ihre Nachricht an unseren Kundenservice You can reach me at [email].. Ich bin daran interessiert, die Ma\u00dfnahmen zu verstehen, die Sie eingesetzt haben, um medizinische Daten w\u00e4hrend des Speichers und der \u00dcbertragung zu sch\u00fctzen My name is [full_name].. Da ich als Nutzerin unserer Dienstleistungen an dieser Sache interessiert bin, m\u00f6chte ich sicherstellen, dass meine sensiblen medizinischen Informationen vor unbefugtem Zugriff gesch\u00fctzt sind. K\u00f6nnten Sie bitte Details zu den Sicherheitsmassnahmen geben, die Sie gelehrt haben, um medizinische Informationen zu sch\u00fctzen? Insbesondere interessiert mich, welche Verschl\u00fcsselungsverfahren Sie verwenden, wie Zugangssteuerungen funktionieren und welche anderen Sicherheitsprotokolle Sie implementiert haben. Ich w\u00e4re auch sehr dankbar, wenn Sie mir Informationen zu Ihrer Einhaltung relevanter Vorschriften wie der HIPAA geben k\u00f6nnten. Ich freue mich auf Ihre R\u00fcckmeldung und erwarte Ihre Details. Mit freundlichen Gr\u00fc\u00dfen, [Ihr Name]",
+  "category_of_the_email": "Request"
+}

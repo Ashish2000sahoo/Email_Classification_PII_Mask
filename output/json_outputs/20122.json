@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Wiederkehrende Browserabst\u00fcrze mit Google Chrome Version 102.0\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl My name is Maria Gonzalez.. Ich schreibe, um ein anhaltendes Problem zu melden, das ich mit Google Chrome Version 102.0 auf meinem Ger\u00e4t habe You can reach me at johndoe@email.com.. Der Browser st\u00fcrzt konsequent ab, wenn ich versuche, bestimmte Websites zu laden.\n\nDieses Problem hat mein Surferlebnis gest\u00f6rt, und ich kann \u00fcber diesen Browser nicht auf wichtige Online-Dienste zugreifen. Ich w\u00fcrde jede Anleitung oder Aktualisierungen bez\u00fcglich Fehlerbehebungen oder Alternativen, die dieses Problem l\u00f6sen k\u00f6nnten, sehr sch\u00e4tzen.\n\nGl\u00fccklicherweise versichert mir Ihre rasche Unterst\u00fctzung bei fr\u00fcheren Angelegenheiten Ihr Engagement f\u00fcr Qualit\u00e4tsunterst\u00fctzung. Sollten Sie weitere Informationen zu meinem Setup ben\u00f6tigen, lassen Sie es mich bitte wissen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit und Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\nKontakt: <tel_num>",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        163,
+        177
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        311,
+        328
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        66,
+        69
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    },
+    {
+      "position": [
+        263,
+        266
+      ],
+      "classification": "cvv_no",
+      "entity": "102"
+    }
+  ],
+  "masked_email": "Subject: Wiederkehrende Browserabst\u00fcrze mit Google Chrome Version [cvv_no].0\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl My name is [full_name].. Ich schreibe, um ein anhaltendes Problem zu melden, das ich mit Google Chrome Version [cvv_no].0 auf meinem Ger\u00e4t habe You can reach me at [email].. Der Browser st\u00fcrzt konsequent ab, wenn ich versuche, bestimmte Websites zu laden.\n\nDieses Problem hat mein Surferlebnis gest\u00f6rt, und ich kann \u00fcber diesen Browser nicht auf wichtige Online-Dienste zugreifen. Ich w\u00fcrde jede Anleitung oder Aktualisierungen bez\u00fcglich Fehlerbehebungen oder Alternativen, die dieses Problem l\u00f6sen k\u00f6nnten, sehr sch\u00e4tzen.\n\nGl\u00fccklicherweise versichert mir Ihre rasche Unterst\u00fctzung bei fr\u00fcheren Angelegenheiten Ihr Engagement f\u00fcr Qualit\u00e4tsunterst\u00fctzung. Sollten Sie weitere Informationen zu meinem Setup ben\u00f6tigen, lassen Sie es mich bitte wissen.\n\nVielen Dank f\u00fcr Ihre Aufmerksamkeit und Unterst\u00fctzung.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name>\n\nKontakt: <tel_num>",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Software Issues\n\nDear Customer Service, I am writing to report a problem with the Project Management features of our software. There has been a software failure, which may have been caused by recent updates or server overload You can reach me at sophia.rossi@service.it.. Services affected have been restarted and connection issues have been checked, but the problem persists and disrupts workflow My name is Elena Ivanova.. I would appreciate it if you could address this matter quickly and offer a solution or workaround. Please inform me if further information is needed. I look forward to your response. Thanks.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        418,
+        431
+      ],
+      "classification": "full_name",
+      "entity": "Elena Ivanova"
+    },
+    {
+      "position": [
+        255,
+        278
+      ],
+      "classification": "email",
+      "entity": "sophia.rossi@service.it"
+    }
+  ],
+  "masked_email": "Subject: Software Issues\n\nDear Customer Service, I am writing to report a problem with the Project Management features of our software. There has been a software failure, which may have been caused by recent updates or server overload You can reach me at [email].. Services affected have been restarted and connection issues have been checked, but the problem persists and disrupts workflow My name is [full_name].. I would appreciate it if you could address this matter quickly and offer a solution or workaround. Please inform me if further information is needed. I look forward to your response. Thanks.",
+  "category_of_the_email": "Incident"
+}

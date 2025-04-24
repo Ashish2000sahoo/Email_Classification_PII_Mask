@@ -1,0 +1,15 @@
+{
+  "input_email_body": "Subject: \n\nDatensperrversto\u00df im IT-System des Krankenhauses wurde identifiziert.. My contact number is +1-555-123-4567.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        103,
+        118
+      ],
+      "classification": "phone_number",
+      "entity": "+1-555-123-4567"
+    }
+  ],
+  "masked_email": "Subject: \n\nDatensperrversto\u00df im IT-System des Krankenhauses wurde identifiziert.. My contact number is [phone_number].",
+  "category_of_the_email": "Incident"
+}

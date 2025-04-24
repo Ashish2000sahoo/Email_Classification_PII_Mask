@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Report on Underperforming Digital Campaign\n\nDear Customer Support, I am reaching out to address the recent underperformance of our digital campaign. The campaign saw low engagement and poor conversion rates, mainly due to ineffective targeting and poor ad creative. We attempted to address these issues by refining the ad copy and testing new audiences, but these changes did not yield the expected results. I would greatly appreciate your advice on how to enhance the campaign's performance You can reach me at liuwei@business.cn.. Specifically, I am interested in knowing if there are additional strategies we can implement to improve our targeting and ad creative. Please let me know if you need any further details from me to help resolve this issue My name is Maria Gonzalez.. Thank you for your assistance. Sincerely, [Your Name]",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        774,
+        788
+      ],
+      "classification": "full_name",
+      "entity": "Maria Gonzalez"
+    },
+    {
+      "position": [
+        521,
+        539
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Report on Underperforming Digital Campaign\n\nDear Customer Support, I am reaching out to address the recent underperformance of our digital campaign. The campaign saw low engagement and poor conversion rates, mainly due to ineffective targeting and poor ad creative. We attempted to address these issues by refining the ad copy and testing new audiences, but these changes did not yield the expected results. I would greatly appreciate your advice on how to enhance the campaign's performance You can reach me at [email].. Specifically, I am interested in knowing if there are additional strategies we can implement to improve our targeting and ad creative. Please let me know if you need any further details from me to help resolve this issue My name is [full_name].. Thank you for your assistance. Sincerely, [Your Name]",
+  "category_of_the_email": "Problem"
+}

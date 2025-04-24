@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Assistance with Decline in Website Traffic\n\nThere has been a notable decrease in website traffic over the past week. This could be due to recent algorithm changes or technical issues You can reach me at liuwei@business.cn.. Despite attempts to update SEO strategies and optimize loading times, the issue continues My name is Liu Wei.. I would appreciate your help in identifying and resolving the root cause of the problem.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        334,
+        341
+      ],
+      "classification": "full_name",
+      "entity": "Liu Wei"
+    },
+    {
+      "position": [
+        212,
+        230
+      ],
+      "classification": "email",
+      "entity": "liuwei@business.cn"
+    }
+  ],
+  "masked_email": "Subject: Assistance with Decline in Website Traffic\n\nThere has been a notable decrease in website traffic over the past week. This could be due to recent algorithm changes or technical issues You can reach me at [email].. Despite attempts to update SEO strategies and optimize loading times, the issue continues My name is [full_name].. I would appreciate your help in identifying and resolving the root cause of the problem.",
+  "category_of_the_email": "Incident"
+}

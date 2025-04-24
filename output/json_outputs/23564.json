@@ -1,0 +1,39 @@
+{
+  "input_email_body": "Subject: Hilfe ben\u00f6tigt: Wi-Fi-Setup-Probleme mit dem Canon PIXMA MG3620 Drucker\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Unterst\u00fctzung bez\u00fcglich eines drahtlosen Setup-Problems zu suchen, das ich mit meinem Drucker, dem Canon PIXMA MG3620, erfahre You can reach me at johndoe@email.com.. Momentan kann ich den Drucker nicht mit meinem Wi-Fi-Netzwerk verbinden, was meine F\u00e4higkeit, Druckauftr\u00e4ge effizient abzuschlie\u00dfen, beeintr\u00e4chtigt.\n\nIch habe mehrere Fehlersuche-Methoden versucht, einschlie\u00dflich des Zur\u00fccksetzens des Druckers und der \u00dcberpr\u00fcfung meiner Wi-Fi-Verbindung f\u00fcr andere Ger\u00e4te, aber leider besteht das Problem weiterhin. Angesichts der Wichtigkeit, eine funktionale drahtlose Verbindung f\u00fcr meine Druckbed\u00fcrfnisse zu haben, w\u00fcrde ich jede Anleitung oder detaillierte Anweisungen, die Sie mir geben k\u00f6nnen, um dieses Setup-Problem zu beheben, sehr sch\u00e4tzen.\n\nK\u00f6nnten Sie bitte \u00fcber die n\u00e4chsten Schritte beraten oder ob es Dokumentationen gibt, die mir helfen k\u00f6nnten, dieses Problem zu l\u00f6sen? Ihre Unterst\u00fctzung w\u00e4re immens hilfreich, um sicherzustellen, dass mein Drucker wie vorgesehen funktioniert.\n\nVielen Dank im Voraus f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is David Kim.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        1311,
+        1320
+      ],
+      "classification": "full_name",
+      "entity": "David Kim"
+    },
+    {
+      "position": [
+        326,
+        343
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    },
+    {
+      "position": [
+        68,
+        72
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    },
+    {
+      "position": [
+        292,
+        296
+      ],
+      "classification": "phone_number",
+      "entity": "3620"
+    }
+  ],
+  "masked_email": "Subject: Hilfe ben\u00f6tigt: Wi-Fi-Setup-Probleme mit dem Canon PIXMA MG[phone_number] Drucker\n\nSehr geehrtes Kundenserviceteam,\n\nich hoffe, diese Nachricht erreicht Sie wohl. Ich schreibe, um Unterst\u00fctzung bez\u00fcglich eines drahtlosen Setup-Problems zu suchen, das ich mit meinem Drucker, dem Canon PIXMA MG[phone_number], erfahre You can reach me at [email].. Momentan kann ich den Drucker nicht mit meinem Wi-Fi-Netzwerk verbinden, was meine F\u00e4higkeit, Druckauftr\u00e4ge effizient abzuschlie\u00dfen, beeintr\u00e4chtigt.\n\nIch habe mehrere Fehlersuche-Methoden versucht, einschlie\u00dflich des Zur\u00fccksetzens des Druckers und der \u00dcberpr\u00fcfung meiner Wi-Fi-Verbindung f\u00fcr andere Ger\u00e4te, aber leider besteht das Problem weiterhin. Angesichts der Wichtigkeit, eine funktionale drahtlose Verbindung f\u00fcr meine Druckbed\u00fcrfnisse zu haben, w\u00fcrde ich jede Anleitung oder detaillierte Anweisungen, die Sie mir geben k\u00f6nnen, um dieses Setup-Problem zu beheben, sehr sch\u00e4tzen.\n\nK\u00f6nnten Sie bitte \u00fcber die n\u00e4chsten Schritte beraten oder ob es Dokumentationen gibt, die mir helfen k\u00f6nnten, dieses Problem zu l\u00f6sen? Ihre Unterst\u00fctzung w\u00e4re immens hilfreich, um sicherzustellen, dass mein Drucker wie vorgesehen funktioniert.\n\nVielen Dank im Voraus f\u00fcr Ihre Unterst\u00fctzung. Ich freue mich auf Ihre schnelle Antwort.\n\nMit freundlichen Gr\u00fc\u00dfen,\n\n<name> My name is [full_name].",
+  "category_of_the_email": "Problem"
+}

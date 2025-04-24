@@ -1,0 +1,31 @@
+{
+  "input_email_body": "Subject: Immediate Attention Required: Internet Connectivity Problem\n\nOur Cisco Router ISR4331 has abruptly ceased to deliver internet service, affecting numerous users within a corporate setting You can reach me at janesmith@company.com.. We request immediate support to address this network disturbance My name is Omar Hassan.. Thank you.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        316,
+        327
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        216,
+        237
+      ],
+      "classification": "email",
+      "entity": "janesmith@company.com"
+    },
+    {
+      "position": [
+        90,
+        94
+      ],
+      "classification": "phone_number",
+      "entity": "4331"
+    }
+  ],
+  "masked_email": "Subject: Immediate Attention Required: Internet Connectivity Problem\n\nOur Cisco Router ISR[phone_number] has abruptly ceased to deliver internet service, affecting numerous users within a corporate setting You can reach me at [email].. We request immediate support to address this network disturbance My name is [full_name].. Thank you.",
+  "category_of_the_email": "Incident"
+}

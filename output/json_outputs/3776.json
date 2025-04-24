@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Project Timelines Sync Issue\n\nDear Customer Support, I am writing to address an issue with project timelines that are not syncing across devices. I suspect this could be due to a potential integration conflict with Git 2.32. Despite restarting the Monitor and verifying the Oracle Database connections, the issue remains unresolved. I would be grateful if you could examine this situation and offer a prompt solution. Kindly inform me if you require any further details from me My name is Sophia Rossi.. I am ready to supply any additional information or context needed to resolve this issue You can reach me at johndoe@email.com.. I appreciate your time and assistance and look forward to your response. The delay in project timelines necessitates a swift solution. My system logs do not display any error messages related to this issue. I hope you can assist me in resolving it and return our project to its scheduled track.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        498,
+        510
+      ],
+      "classification": "full_name",
+      "entity": "Sophia Rossi"
+    },
+    {
+      "position": [
+        620,
+        637
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: Project Timelines Sync Issue\n\nDear Customer Support, I am writing to address an issue with project timelines that are not syncing across devices. I suspect this could be due to a potential integration conflict with Git 2.32. Despite restarting the Monitor and verifying the Oracle Database connections, the issue remains unresolved. I would be grateful if you could examine this situation and offer a prompt solution. Kindly inform me if you require any further details from me My name is [full_name].. I am ready to supply any additional information or context needed to resolve this issue You can reach me at [email].. I appreciate your time and assistance and look forward to your response. The delay in project timelines necessitates a swift solution. My system logs do not display any error messages related to this issue. I hope you can assist me in resolving it and return our project to its scheduled track.",
+  "category_of_the_email": "Incident"
+}

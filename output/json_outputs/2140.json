@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: Viele Integrationsprobleme traten heute pl\u00f6tzlich auf\n\nSehr geehrte Kundenservice, ich werde Probleme mit mehreren Integrationsproblemen, die pl\u00f6tzlich gleichzeitig aufgetreten sind. Dieses Problem k\u00f6nnte aufgrund der neuesten Docker-Aktualisierungen entstanden sein You can reach me at maria.gonzalez@shop.es.. Ich habe versucht, LINE und die VPN-Router zu neu zu starten, und ich habe auch die Zugriffsberechtigungen \u00fcberpr\u00fcft. Dennoch besteht das Problem weiterhin. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir helfen k\u00f6nnten, dieses Problem so bald wie m\u00f6glich zu l\u00f6sen My name is Omar Hassan.. Bitte lassen Sie mich wissen, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie zus\u00e4tzliche Informationen von mir ben\u00f6tigen. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        590,
+        601
+      ],
+      "classification": "full_name",
+      "entity": "Omar Hassan"
+    },
+    {
+      "position": [
+        296,
+        318
+      ],
+      "classification": "email",
+      "entity": "maria.gonzalez@shop.es"
+    }
+  ],
+  "masked_email": "Subject: Viele Integrationsprobleme traten heute pl\u00f6tzlich auf\n\nSehr geehrte Kundenservice, ich werde Probleme mit mehreren Integrationsproblemen, die pl\u00f6tzlich gleichzeitig aufgetreten sind. Dieses Problem k\u00f6nnte aufgrund der neuesten Docker-Aktualisierungen entstanden sein You can reach me at [email].. Ich habe versucht, LINE und die VPN-Router zu neu zu starten, und ich habe auch die Zugriffsberechtigungen \u00fcberpr\u00fcft. Dennoch besteht das Problem weiterhin. Ich w\u00fcrde es sehr sch\u00e4tzen, wenn Sie mir helfen k\u00f6nnten, dieses Problem so bald wie m\u00f6glich zu l\u00f6sen My name is [full_name].. Bitte lassen Sie mich wissen, ob es weitere Schritte f\u00fcr mich gibt oder ob Sie zus\u00e4tzliche Informationen von mir ben\u00f6tigen. Danke f\u00fcr Ihre Zeit und Unterst\u00fctzung.",
+  "category_of_the_email": "Incident"
+}

@@ -1,0 +1,23 @@
+{
+  "input_email_body": "Subject: H\u00e4ufige Verbindungsoptimierungen bei der SaaS-Plattform auf verschiedenen Ger\u00e4ten\n\nLiebe Kundenservice-Team, ich schreibe Ihnen, um h\u00e4ufig auftretende Verbindungsschwierigkeiten mit der SaaS-Plattform auf mehreren Ger\u00e4ten zu melden My name is Jane Smith.. Trotz Versuche, das Problem durch Neustart der Ger\u00e4te, Firmware-Updates und \u00dcberpr\u00fcfung der Netzwerkeinstellungen zu beheben, bestehen die Schwierigkeiten weiterhin. Es scheint, dass das Problem auf Kompatibilit\u00e4tsprobleme der Netzwerkkonfiguration mit verschiedenen Produkten zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at johndoe@email.com.. Ich habe bereits die von Ihnen empfohlenen Schritte zur Problembehebung getroffen, aber das Problem ist weiterhin nicht gel\u00f6st. Es w\u00e4re sehr wichtig, so schnell wie m\u00f6glich eine L\u00f6sung anzubieten. Bitte geben Sie Bescheid, sobald Sie die M\u00f6glichkeit haben, mich anzurufen, um die Angelegenheit zu besprechen.",
+  "list_of_masked_entities": [
+    {
+      "position": [
+        252,
+        262
+      ],
+      "classification": "full_name",
+      "entity": "Jane Smith"
+    },
+    {
+      "position": [
+        590,
+        607
+      ],
+      "classification": "email",
+      "entity": "johndoe@email.com"
+    }
+  ],
+  "masked_email": "Subject: H\u00e4ufige Verbindungsoptimierungen bei der SaaS-Plattform auf verschiedenen Ger\u00e4ten\n\nLiebe Kundenservice-Team, ich schreibe Ihnen, um h\u00e4ufig auftretende Verbindungsschwierigkeiten mit der SaaS-Plattform auf mehreren Ger\u00e4ten zu melden My name is [full_name].. Trotz Versuche, das Problem durch Neustart der Ger\u00e4te, Firmware-Updates und \u00dcberpr\u00fcfung der Netzwerkeinstellungen zu beheben, bestehen die Schwierigkeiten weiterhin. Es scheint, dass das Problem auf Kompatibilit\u00e4tsprobleme der Netzwerkkonfiguration mit verschiedenen Produkten zur\u00fcckzuf\u00fchren sein k\u00f6nnte You can reach me at [email].. Ich habe bereits die von Ihnen empfohlenen Schritte zur Problembehebung getroffen, aber das Problem ist weiterhin nicht gel\u00f6st. Es w\u00e4re sehr wichtig, so schnell wie m\u00f6glich eine L\u00f6sung anzubieten. Bitte geben Sie Bescheid, sobald Sie die M\u00f6glichkeit haben, mich anzurufen, um die Angelegenheit zu besprechen.",
+  "category_of_the_email": "Incident"
+}
